@@ -6,7 +6,7 @@ Universal Dependency version of syntax annotations from the GUM corpus (https://
 
 GUM, the Georgetown University Multilayer corpus, is an open source collection of richly annotated web texts from multiple text types. The corpus is collected and expanded by students as part of the curriculum in LING-367 Computational Corpus Linguistics at Georgetown University. The selection of text types is meant to represent different communicative purposes, while coming from sources that are readily and openly available (usually Creative Commons licenses), so that new texts can be annotated and published with ease.
 
-The dependencies in corpus were originally annotated using Stanford Typed Depenencies (de Marneffe & Manning 2013) and converted automatically to UD using DepEdit (https://corpling.uis.georgetown.edu/depedit/). The rule-based conversion takes into account gold entity annotations found in other annotation layers of the GUM corpus.
+The dependencies in corpus were originally annotated using Stanford Typed Depenencies (de Marneffe & Manning 2013) and converted automatically to UD using DepEdit (https://corpling.uis.georgetown.edu/depedit/). The rule-based conversion takes into account gold entity annotations found in other annotation layers of the GUM corpus (e.g. entity annotations). The conversion script used can found in the GUM build bot code, available from the (non-UD) GUM repository.
 
 # Acknowledgments
 
@@ -27,13 +27,13 @@ As a scholarly citation for the corpus in articles, please use this paper:
 Data available since: UD v2.2
 License: CC BY-NC-SA 4.0
 Includes text: yes
-Genre: nonfiction news
+Genre: nonfiction news spoken web
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Zeldes, Amir
+Contributors: Peng, Siyao;Zeldes, Amir
 Contributing: elsewhere
 Contact: amir.zeldes@georgetown.edu
 ===============================================================================
