@@ -10,9 +10,9 @@ The dependencies in corpus were originally annotated using Stanford Typed Depene
 
 # Acknowledgments
 
-Gum annotation team (so far - thanks for participating!)
+GUM annotation team (so far - thanks for participating!)
 
-Adrienne Isaac, Akitaka Yamada, Amelia Becker, Andrea Price, Andrew O'Brien, Anna Runova, Anne Butler, Ayan Mandal, Brandon Tullock, Candice Penelton, Colleen Diamond, Connor O'Dwyer, Dan Simonson, Didem Ikizoglu, Edwin Ko, Emily Pace, Emma Manning, Hanwool Choe, Ho Fai Cheng, Jehan al-Mahmoud, Jemm Excelle Dela Cruz, Joaquin Gris Roca, John Chi, Jongbong Lee, Juliet May, Katarina Starcevic, Katherine Vadella, Lara Bryfonski, Lindley Winchester, Lucia Donatelli, Margaret Anne Rowe, Maria Stoianova, Mariko Uno, Maya Barzilai, Md. Jahurul Islam, Michaela Harrington, Minnie Annan, Mohammad Ali Yektaie, Naomee-Minh Nguyen, Nicholas Workman, Nicole Steinberg, Rachel Thorson, Rebecca Childress, Ruizhong Li, Ryan Murphy, Sakol Suethanapornkul, Sean Simpson, Shannon Mooney, Siddharth Singh, Stephanie Kramer, Sylvia Sierra, Timothy Ingrassia, Wenxi Yang, Xiaopei Wu, Young-A Son, Yushi Zhao, Amir Zeldes
+Adrienne Isaac, Akitaka Yamada, Amani Aloufi, Amelia Becker, Andrea Price, Andrew O'Brien, Anna Runova, Anne Butler, Ayan Mandal, Brandon Tullock, Brent Laing, Candice Penelton, Chenyue Guo, Colleen Diamond, Connor O'Dwyer, Dan Simonson, Didem Ikizoglu, Edwin Ko, Emily Pace, Emma Manning, Han Bu, Hang Jiang, Hanwool Choe, Hassan Munshi, Ho Fai Cheng, Jakob Prange, Jehan al-Mahmoud, Jemm Excelle Dela Cruz, Joaquin Gris Roca, John Chi, Jongbong Lee, Juliet May, Katarina Starcevic, Katherine Vadella, Lara Bryfonski, Lindley Winchester, Logan Peng, Lucia Donatelli, Margaret Anne Rowe, Margaret Borowczyk, Maria Stoianova, Mariko Uno, Mary Henderson, Maya Barzilai, Md. Jahurul Islam, Michaela Harrington, Minnie Annan, Mitchell Abrams, Mohammad Ali Yektaie, Naomee-Minh Nguyen, Nicholas Workman, Nicole Steinberg, Rachel Thorson, Rebecca Childress, Ruizhong Li, Ryan Murphy, Sakol Suethanapornkul, Sean Macavaney, Sean Simpson, Shannon Mooney, Siddharth Singh, Siyu Liang, Stephanie Kramer, Sylvia Sierra, Timothy Ingrassia, Wenxi Yang, Xiaopei Wu, Yang Liu, Yilun Zhu, Yingzhu Chen, Yiran Xu, Young-A Son, Yushi Zhao, Zhuxin Wang, Amir Zeldes
 
 ... and other annotators who wish to remain anonymous!  
 
@@ -27,7 +27,7 @@ As a scholarly citation for the corpus in articles, please use this paper:
 Data available since: UD v2.2
 License: CC BY-NC-SA 4.0
 Includes text: yes
-Genre: nonfiction news spoken web
+Genre: academic fiction nonfiction news spoken web
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
