@@ -27,7 +27,7 @@ As a scholarly citation for the corpus in articles, please use this paper:
 Data available since: UD v2.2
 License: CC BY-NC-SA 4.0
 Includes text: yes
-Genre: academic fiction nonfiction news spoken web
+Genre: academic fiction nonfiction news spoken web wiki
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
