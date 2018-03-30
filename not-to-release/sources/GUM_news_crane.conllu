@@ -28,10 +28,10 @@
 2	at	at	ADP	IN	_	6	case	_	_
 3	Mecca	Mecca	PROPN	NNP	Number=Sing	6	nmod:poss	_	_
 4	's	's	PART	POS	_	3	case	_	_
-5	Grand	Grand	PROPN	NNP	Number=Sing	6	compound	_	_
+5	Grand	Grand	PROPN	NNP	Number=Sing	6	amod	_	_
 6	Mosque	mosque	PROPN	NNP	Number=Sing	1	nmod	_	_
 7	in	in	ADP	IN	_	8	case	_	_
-8	2008	@card@	NUM	CD	NumType=Card	6	nmod	_	_
+8	2008	@card@	NUM	CD	NumType=Card	1	nmod	_	_
 9	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = GUM_news_crane-4
@@ -39,12 +39,12 @@
 # s_type=decl
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	storm	storm	NOUN	NN	Number=Sing	4	nsubj	_	_
-3	yesterday	yesterday	NOUN	NN	Number=Sing	4	nmod:tmod	_	_
+3	yesterday	yesterday	NOUN	NN	Number=Sing	2	nmod:tmod	_	_
 4	caused	cause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
 6	crane	crane	NOUN	NN	Number=Sing	4	obj	_	_
 7	to	to	PART	TO	_	8	mark	_	_
-8	fall	fall	VERB	VB	VerbForm=Inf	6	acl	_	_
+8	fall	fall	VERB	VB	VerbForm=Inf	4	xcomp	_	_
 9	into	into	ADP	IN	_	13	case	_	_
 10	Mecca	Mecca	PROPN	NNP	Number=Sing	13	nmod:poss	_	_
 11	's	's	PART	POS	_	10	case	_	_
@@ -59,14 +59,14 @@
 20	wounding	wound	VERB	VBG	VerbForm=Ger	15	conj	_	_
 21	238	@card@	NUM	CD	NumType=Card	20	obj	_	_
 22	,	,	PUNCT	,	_	30	punct	_	_
-23	according	accord	SCONJ	VBG	VerbForm=Ger	30	mark	_	_
-24	to	to	ADP	TO	_	30	case	_	_
+23	according	accord	VERB	VBG	VerbForm=Ger	30	case	_	_
+24	to	to	PART	TO	_	23	fixed	_	_
 25	Saudi	Saudi	PROPN	NNP	Number=Sing	26	compound	_	_
 26	Arabia	Arabia	PROPN	NNP	Number=Sing	30	nmod:poss	_	_
 27	's	's	PART	POS	_	26	case	_	_
 28	Civil	Civil	PROPN	NNP	Number=Sing	29	amod	_	_
 29	Defense	Defense	PROPN	NNP	Number=Sing	30	compound	_	_
-30	Authority	Authority	PROPN	NNP	Number=Sing	15	advcl	_	_
+30	Authority	Authority	PROPN	NNP	Number=Sing	15	obl	_	_
 31	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = GUM_news_crane-5
@@ -121,8 +121,8 @@
 3	,	,	PUNCT	,	_	5	punct	_	_
 4	which	which	PRON	WDT	PronType=Rel	5	nsubj	_	_
 5	occurred	occur	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
-6	yesterday	yesterday	NOUN	NN	Number=Sing	7	advmod	_	_
-7	afternoon	afternoon	NOUN	NN	Number=Sing	5	nmod:tmod	_	_
+6	yesterday	yesterday	NOUN	NN	Number=Sing	7	compound	_	_
+7	afternoon	afternoon	NOUN	NN	Number=Sing	5	obl:tmod	_	_
 8	,	,	PUNCT	,	_	2	punct	_	_
 9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
 10	caused	cause	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
@@ -133,11 +133,11 @@
 15	heavy	heavy	ADJ	JJ	Degree=Pos	16	amod	_	_
 16	rain	rain	NOUN	NN	Number=Sing	13	conj	_	_
 17	that	that	PRON	WDT	PronType=Rel	18	nsubj	_	_
-18	led	lead	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+18	led	lead	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
 20	crane	crane	NOUN	NN	Number=Sing	18	obj	_	_
-21	to	to	PART	TO	_	18	obl	_	_
-22	fall	fall	VERB	VB	VerbForm=Inf	20	acl	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	fall	fall	VERB	VB	VerbForm=Inf	18	xcomp	_	_
 23	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = GUM_news_crane-7
@@ -172,27 +172,27 @@
 9	mosque	mosque	NOUN	NN	Number=Sing	12	nsubj	_	_
 10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
 11	relatively	relatively	ADV	RB	_	12	advmod	_	_
-12	uncrowded	uncrowded	ADJ	JJ	Degree=Pos	3	advcl	_	_
+12	uncrowded	uncrowded	ADJ	JJ	Degree=Pos	6	advcl	_	_
 13	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = GUM_news_crane-9
 # text = " Had it happened an hour later it would have been much worse , " Khaled Al-Maeena , editor at large at the Saudi Gazette , said .
 # s_type=decl
-1	"	"	PUNCT	``	_	4	punct	_	_
+1	"	"	PUNCT	``	_	13	punct	_	_
 2	Had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-4	happened	happen	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	dep	_	_
+4	happened	happen	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	_
 5	an	an	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
-6	hour	hour	NOUN	NN	Number=Sing	4	obj	_	_
-7	later	later	ADV	RBR	Degree=Cmp	6	advmod	_	_
+6	hour	hour	NOUN	NN	Number=Sing	7	nmod:npmod	_	_
+7	later	later	ADV	RBR	Degree=Cmp	4	obl:tmod	_	_
 8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 9	would	would	AUX	MD	VerbForm=Fin	13	aux	_	_
 10	have	have	AUX	VB	VerbForm=Inf	13	aux	_	_
 11	been	be	AUX	VBN	Tense=Past|VerbForm=Part	13	cop	_	_
 12	much	much	ADV	RB	_	13	advmod	_	_
-13	worse	bad	ADJ	JJR	Degree=Cmp	7	dep	_	_
-14	,	,	PUNCT	,	_	4	punct	_	_
-15	"	"	PUNCT	''	_	4	punct	_	_
+13	worse	bad	ADJ	JJR	Degree=Cmp	27	ccomp	_	_
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	"	"	PUNCT	''	_	13	punct	_	_
 16	Khaled	Khaled	PROPN	NNP	Number=Sing	27	nsubj	_	_
 17	Al-Maeena	Al-Maeena	PROPN	NNP	Number=Sing	16	flat	_	_
 18	,	,	PUNCT	,	_	19	punct	_	_
@@ -201,8 +201,8 @@
 21	large	large	ADJ	JJ	Degree=Pos	19	nmod	_	_
 22	at	at	ADP	IN	_	25	case	_	_
 23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
-24	Saudi	Saudi	PROPN	NNP	Number=Sing	25	compound	_	_
-25	Gazette	gazette	PROPN	NNP	Number=Sing	21	obl	_	_
+24	Saudi	Saudi	PROPN	NNP	Number=Sing	25	amod	_	_
+25	Gazette	gazette	PROPN	NNP	Number=Sing	19	nmod	_	_
 26	,	,	PUNCT	,	_	16	punct	_	_
 27	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 28	.	.	PUNCT	.	_	27	punct	_	_
@@ -213,7 +213,7 @@
 1	"	"	PUNCT	``	_	14	punct	_	_
 2	Had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-4	happened	happen	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	dep	_	_
+4	happened	happen	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	advcl	_	_
 5	five	five	NUM	CD	NumType=Card	6	nummod	_	_
 6	hours	hour	NOUN	NNS	Number=Plur	7	nmod:npmod	_	_
 7	earlier	earlier	ADV	RBR	Degree=Cmp	4	advmod	_	_
@@ -246,7 +246,7 @@
 4	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	just	just	ADV	RB	_	6	advmod	_	_
 6	ten	ten	NUM	CD	NumType=Card	7	nummod	_	_
-7	days	day	NOUN	NNS	Number=Plur	4	nmod:tmod	_	_
+7	days	day	NOUN	NNS	Number=Plur	4	obl:tmod	_	_
 8	before	before	ADP	IN	_	10	case	_	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
 10	beginning	beginning	NOUN	NN	Number=Sing	7	nmod	_	_
@@ -296,7 +296,7 @@
 25	in	in	ADP	IN	_	26	case	_	_
 26	Mecca	Mecca	PROPN	NNP	Number=Sing	24	obl	_	_
 27	each	each	DET	DT	_	28	det	_	_
-28	year	year	NOUN	NN	Number=Sing	24	nmod:tmod	_	_
+28	year	year	NOUN	NN	Number=Sing	24	obl:tmod	_	_
 29	for	for	ADP	IN	_	31	case	_	_
 30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
 31	Hajj	hajj	PROPN	NNP	Number=Sing	24	obl	_	_
