@@ -34,10 +34,10 @@
 8	waiting	wait	VERB	VBG	VerbForm=Ger	3	advcl	_	_
 9	to	to	PART	TO	_	10	mark	_	_
 10	ask	ask	VERB	VB	VerbForm=Inf	8	xcomp	_	_
-11	Derya	Derya	PROPN	NNP	Number=Sing	10	obj	_	_
+11	Derya	Derya	PROPN	NNP	Number=Sing	10	iobj	_	_
 12	about	about	ADP	IN	_	14	case	_	_
 13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
-14	job	job	NOUN	NN	Number=Sing	11	nmod	_	_
+14	job	job	NOUN	NN	Number=Sing	10	obl	_	_
 15	,	,	PUNCT	,	_	16	punct	_	_
 16	watching	watch	VERB	VBG	VerbForm=Ger	3	advcl	_	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
@@ -46,16 +46,16 @@
 20	of	of	ADP	IN	_	21	case	_	_
 21	mites	mite	NOUN	NNS	Number=Plur	19	nmod	_	_
 22	that	that	PRON	WDT	PronType=Rel	23	nsubj	_	_
-23	arc	arc	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+23	arc	arc	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
 24	over	over	ADP	IN	_	27	case	_	_
 25	half	half	PRON	PDT	_	27	det:predet	_	_
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
 27	sky	sky	NOUN	NN	Number=Sing	23	obl	_	_
 28	—	—	PUNCT	:	_	29	punct	_	_
-29	flying	fly	VERB	VBG	VerbForm=Ger	21	acl	_	_
-30	up	up	ADP	IN	_	29	advmod	_	_
+29	flying	fly	VERB	VBG	VerbForm=Ger	23	advcl	_	_
+30	up	up	ADV	RB	_	29	advmod	_	_
 31	to	to	PART	TO	_	32	mark	_	_
-32	rewind	rewind	VERB	VB	VerbForm=Inf	29	xcomp	_	_
+32	rewind	rewind	VERB	VB	VerbForm=Inf	29	advcl	_	_
 33	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
 34	nanosprings	nanosprings	NOUN	NNS	Number=Plur	32	obj	_	_
 35	in	in	ADP	IN	_	38	case	_	_
@@ -64,9 +64,9 @@
 38	sunlight	sunlight	NOUN	NN	Number=Sing	32	obl	_	_
 39	,	,	PUNCT	,	_	40	punct	_	_
 40	flying	fly	VERB	VBG	VerbForm=Ger	29	conj	_	_
-41	down	down	ADP	IN	_	40	advmod	_	_
+41	down	down	ADV	RB	_	40	advmod	_	_
 42	to	to	PART	TO	_	43	mark	_	_
-43	make	make	VERB	VB	VerbForm=Inf	40	xcomp	_	_
+43	make	make	VERB	VB	VerbForm=Inf	40	advcl	_	_
 44	Frankfurt	Frankfurt	PROPN	NNP	Number=Sing	43	obj	_	_
 45	run	run	VERB	VB	VerbForm=Inf	43	xcomp	_	_
 46	.	.	PUNCT	.	_	3	punct	_	_
@@ -78,8 +78,8 @@
 2	never	never	ADV	RB	Polarity=Neg	3	advmod	_	_
 3	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	tired	tired	ADJ	JJ	Degree=Pos	3	xcomp	_	_
-5	of	of	ADP	IN	_	6	case	_	_
-6	watching	watch	VERB	VBG	VerbForm=Ger	4	obl	_	_
+5	of	of	SCONJ	IN	_	6	mark	_	_
+6	watching	watch	VERB	VBG	VerbForm=Ger	4	advcl	_	_
 7	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
 8	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -106,7 +106,7 @@
 7	—	—	PUNCT	:	_	10	punct	_	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
 9	hundred	hundred	NUM	CD	NumType=Card	10	nummod	_	_
-10	meters	meter	NOUN	NNS	Number=Plur	4	appos	_	_
+10	meters	meter	NOUN	NNS	Number=Plur	3	parataxis	_	_
 11	of	of	ADP	IN	_	17	case	_	_
 12	clean	clean	ADJ	JJ	Degree=Pos	13	amod	_	_
 13	gray	gray	ADJ	JJ	Degree=Pos	17	amod	_	_
@@ -116,7 +116,7 @@
 17	modernism	modernism	NOUN	NN	Number=Sing	10	nmod	_	_
 18	,	,	PUNCT	,	_	19	punct	_	_
 19	plucked	pluck	VERB	VBN	Tense=Past|VerbForm=Part	10	acl	_	_
-20	up	up	ADP	RP	_	19	advmod	_	_
+20	up	up	ADP	RP	_	19	compound:prt	_	_
 21	from	from	ADP	IN	_	24	case	_	_
 22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
 23	river	river	NOUN	NN	Number=Sing	24	compound	_	_
@@ -133,7 +133,7 @@
 34	,	,	PUNCT	,	_	37	punct	_	_
 35	between	between	ADP	IN	_	37	case	_	_
 36	a	a	DET	DT	Definite=Ind|PronType=Art	37	det	_	_
-37	lump	lump	NOUN	NN	Number=Sing	30	conj	_	_
+37	lump	lump	NOUN	NN	Number=Sing	26	obl	_	_
 38	of	of	ADP	IN	_	40	case	_	_
 39	wooded	wooded	ADJ	JJ	Degree=Pos	40	amod	_	_
 40	parkland	parkland	NOUN	NN	Number=Sing	37	nmod	_	_
@@ -174,7 +174,7 @@
 23	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
 24	austere	austere	ADJ	JJ	Degree=Pos	26	amod	_	_
 25	steel	steel	NOUN	NN	Number=Sing	26	compound	_	_
-26	bridge	bridge	NOUN	NN	Number=Sing	13	appos	_	_
+26	bridge	bridge	NOUN	NN	Number=Sing	14	parataxis	_	_
 27	,	,	PUNCT	,	_	30	punct	_	_
 28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
 29	bright	bright	ADJ	JJ	Degree=Pos	30	amod	_	_
@@ -308,7 +308,7 @@
 8	,	,	PUNCT	,	_	10	punct	_	_
 9	and	and	CCONJ	CC	_	10	cc	_	_
 10	attaches	attach	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
-11	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nmod:npmod	_	_
+11	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
 12	to	to	ADP	TO	_	14	case	_	_
 13	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
 14	infospace	infospace	NOUN	NN	Number=Sing	10	obl	_	_
@@ -329,13 +329,13 @@
 7	weather	weather	VERB	VB	VerbForm=Inf	0	root	_	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
 9	class	class	NOUN	NN	Number=Sing	11	compound	_	_
-10	5	5	NUM	CD	NumType=Card	11	nummod	_	_
+10	5	5	NUM	CD	NumType=Card	9	nummod	_	_
 11	hurricane	hurricane	NOUN	NN	Number=Sing	7	obj	_	_
 12	and	and	CCONJ	CC	_	14	cc	_	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
 14	destruction	destruction	NOUN	NN	Number=Sing	11	conj	_	_
 15	of	of	ADP	IN	_	17	case	_	_
-16	80	@card@	NUM	CD	NumType=Card	17	compound	_	_
+16	80	@card@	NUM	CD	NumType=Card	17	nummod	_	_
 17	%	%	SYM	NN	Number=Sing	14	nmod	_	_
 18	of	of	ADP	IN	_	20	case	_	_
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
@@ -374,8 +374,8 @@
 10	net	net	ADJ	JJ	Degree=Pos	11	amod	_	_
 11	immigration	immigration	NOUN	NN	Number=Sing	3	conj	_	_
 12	of	of	ADP	IN	_	15	case	_	_
-13	half	half	PRON	PDT	_	15	dep	_	_
-14	a	a	PRON	DT	Definite=Ind|PronType=Art	15	advmod	_	_
+13	half	half	PRON	PDT	_	15	compound	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
 15	million	million	NUM	CD	NumType=Card	11	nmod	_	_
 16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
 17	year	year	NOUN	NN	Number=Sing	15	nmod:npmod	_	_
@@ -392,7 +392,7 @@
 5	:	:	PUNCT	:	_	8	punct	_	_
 6	311	@card@	NUM	CD	NumType=Card	7	nummod	_	_
 7	cubic	cubic	ADJ	JJ	Degree=Pos	8	nmod:npmod	_	_
-8	meters	meter	NOUN	NNS	Number=Plur	4	parataxis	_	_
+8	meters	meter	NOUN	NNS	Number=Plur	4	dep	_	_
 9	per	per	ADP	IN	_	10	case	_	_
 10	resident	resident	NOUN	NN	Number=Sing	8	nmod	_	_
 11	”	"	PUNCT	''	_	4	punct	_	_
@@ -415,7 +415,7 @@
 1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
 2	’re	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	watching	watch	VERB	VBG	VerbForm=Ger	0	root	_	_
-4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	lean	lean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 6	out	out	ADP	RP	_	5	compound:prt	_	_
 7	.	.	PUNCT	.	_	3	punct	_	_
