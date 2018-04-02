@@ -8,6 +8,12 @@ GUM, the Georgetown University Multilayer corpus, is an open source collection o
 
 The dependencies in the corpus were originally annotated using Stanford Typed Depenencies (de Marneffe & Manning 2013) and converted automatically to UD using DepEdit (https://corpling.uis.georgetown.edu/depedit/). The rule-based conversion takes into account gold entity annotations found in other annotation layers of the GUM corpus (e.g. entity annotations). The conversion script used can found in the GUM build bot code, available from the (non-UD) GUM repository. For more details see the [corpus website](https://corpling.uis.georgetown.edu/gum/).
 
+# Documents and splits
+
+The training, development and test sets contain complete, contiguous documents, balanced for genre. Test and dev contain similar amounts of data, usually around 2,500 tokens in each genre in each, and the rest is assigned to training. There is currently less data in the genres fiction, bio and academic, but equal amounts of these are in test and dev (about one document each) and the rest is in training data. For the exact file lists in each split see:
+
+https://github.com/UniversalDependencies/UD_English-GUM/tree/master/not-to-release/file-lists
+
 # Acknowledgments
 
 GUM annotation team (so far - thanks for participating!)
