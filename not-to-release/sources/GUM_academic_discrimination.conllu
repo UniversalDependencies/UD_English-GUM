@@ -261,13 +261,13 @@
 17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	26	cop	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	17	punct	_	_
 19	at	at	ADP	IN	_	20	case	_	_
-20	least	least	ADJ	JJS	Degree=Sup	26	advmod	_	_
+20	least	least	ADJ	JJS	Degree=Sup	21	nmod	_	_
 21	to	to	ADP	TO	_	24	case	_	_
 22	some	some	DET	DT	_	24	det	_	_
 23	appreciable	appreciable	ADJ	JJ	Degree=Pos	24	amod	_	_
-24	amount	amount	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
-25	,	,	PUNCT	,	_	20	punct	_	_
-26	present	present	ADJ	JJ	Degree=Pos	9	ccomp	_	_
+24	amount	amount	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	24	punct	_	_
+26	present	present	ADJ	JJ	Degree=Pos	12	ccomp	_	_
 27	in	in	ADP	IN	_	29	case	_	_
 28	modern	modern	ADJ	JJ	Degree=Pos	29	amod	_	_
 29	society	society	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
@@ -291,32 +291,32 @@
 13	(	(	PUNCT	-LRB-	_	14	punct	_	SpaceAfter=No
 14	see	see	VERB	VB	VerbForm=Inf	11	parataxis	_	_
 15	[	[	PUNCT	-LSB-	_	16	punct	_	SpaceAfter=No
-16	13	@card@	NUM	CD	NumType=Card	11	dep	_	_
+16	13	@card@	NUM	CD	NumType=Card	14	obj	_	_
 17	–	–	ADP	TO	_	18	case	_	_
 18	14	@card@	NUM	CD	NumType=Card	16	nmod	_	SpaceAfter=No
 19	]	]	PUNCT	-RSB-	_	16	punct	_	SpaceAfter=No
-20	)	)	PUNCT	-RRB-	_	16	punct	_	SpaceAfter=No
+20	)	)	PUNCT	-RRB-	_	14	punct	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = GUM_academic_discrimination-14
 # text = At least one prior study by Kessler and colleagues [15], however, using measures of perceived discrimination in a large American sample, reported that approximately 33% of respondents reported some form of discrimination (see also, Gibbons et al. [4]).
 # s_type=decl
-1	At	at	ADP	IN	_	2	case	_	_
-2	least	least	ADJ	JJS	Degree=Sup	3	advmod	_	_
+1	At	at	ADP	IN	_	3	advmod	_	_
+2	least	least	ADJ	JJS	Degree=Sup	1	fixed	_	_
 3	one	one	NUM	CD	NumType=Card	5	nummod	_	_
 4	prior	prior	ADJ	JJ	Degree=Pos	5	amod	_	_
 5	study	study	NOUN	NN	Number=Sing	27	nsubj	_	_
 6	by	by	ADP	IN	_	7	case	_	_
 7	Kessler	Kessler	PROPN	NNP	Number=Sing	5	nmod	_	_
 8	and	and	CCONJ	CC	_	9	cc	_	_
-9	colleagues	colleague	NOUN	NNS	Number=Plur	5	conj	_	_
+9	colleagues	colleague	NOUN	NNS	Number=Plur	7	conj	_	_
 10	[	[	PUNCT	-LSB-	_	11	punct	_	SpaceAfter=No
 11	15	@card@	NUM	CD	NumType=Card	5	dep	_	SpaceAfter=No
 12	]	]	PUNCT	-RSB-	_	11	punct	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	5	punct	_	_
 14	however	however	ADV	RB	_	27	advmod	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	14	punct	_	_
-16	using	use	VERB	VBG	VerbForm=Ger	5	ccomp	_	_
+16	using	use	VERB	VBG	VerbForm=Ger	5	acl	_	_
 17	measures	measure	NOUN	NNS	Number=Plur	16	obj	_	_
 18	of	of	ADP	IN	_	20	case	_	_
 19	perceived	perceive	VERB	VBN	Tense=Past|VerbForm=Part	20	amod	_	_
@@ -340,14 +340,14 @@
 37	of	of	ADP	IN	_	38	case	_	_
 38	discrimination	discrimination	NOUN	NN	Number=Sing	36	nmod	_	_
 39	(	(	PUNCT	-LRB-	_	40	punct	_	SpaceAfter=No
-40	see	see	VERB	VB	VerbForm=Inf	38	parataxis	_	_
+40	see	see	VERB	VB	VerbForm=Inf	27	parataxis	_	_
 41	also	also	ADV	RB	_	40	advmod	_	SpaceAfter=No
 42	,	,	PUNCT	,	_	43	punct	_	_
 43	Gibbons	Gibbons	PROPN	NNP	Number=Sing	40	obj	_	_
 44	et	et	X	FW	_	45	cc	_	_
 45	al.	al.	X	FW	_	43	conj	_	_
 46	[	[	PUNCT	-LSB-	_	47	punct	_	SpaceAfter=No
-47	4	4	NUM	CD	NumType=Card	40	dep	_	SpaceAfter=No
+47	4	4	NUM	CD	NumType=Card	43	dep	_	SpaceAfter=No
 48	]	]	PUNCT	-RSB-	_	47	punct	_	SpaceAfter=No
 49	)	)	PUNCT	-RRB-	_	40	punct	_	SpaceAfter=No
 50	.	.	PUNCT	.	_	27	punct	_	_
@@ -382,7 +382,7 @@
 25	adults	adult	NOUN	NNS	Number=Plur	23	nmod	_	_
 26	from	from	ADP	IN	_	29	case	_	_
 27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
-28	United	United	PROPN	NNP	Number=Sing	29	compound	_	_
+28	United	United	PROPN	NNP	Number=Sing	29	amod	_	_
 29	States	State	PROPN	NNPS	Number=Plur	25	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -422,12 +422,12 @@
 6	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
 7	discriminated	discriminate	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	_	_
 8	against	against	ADP	IN	_	7	obl	_	_
-9	—	—	PUNCT	:	_	14	punct	_	_
-10	specifically	specifically	ADV	RB	_	14	advmod	_	SpaceAfter=No
+9	—	—	PUNCT	:	_	12	punct	_	_
+10	specifically	specifically	ADV	RB	_	12	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	10	punct	_	_
-12	those	those	DET	DT	Number=Plur|PronType=Dem	14	det	_	_
-13	who	who	PRON	WP	PronType=Int	14	nsubj	_	_
-14	responded	respond	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	appos	_	_
+12	those	those	PRON	DT	Number=Plur|PronType=Dem	2	appos	_	_
+13	who	who	PRON	WP	PronType=Rel	14	nsubj	_	_
+14	responded	respond	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
 15	with	with	ADP	IN	_	16	case	_	_
 16	sometimes	sometimes	ADV	RB	_	14	obl	_	_
 17	or	or	CCONJ	CC	_	18	cc	_	_
@@ -556,18 +556,18 @@
 4	;	;	PUNCT	:	_	1	punct	_	_
 
 # sent_id = GUM_academic_discrimination-29
-# text = physical disability; and
+# text = physical disability;
 # s_type=frag
 1	physical	physical	ADJ	JJ	Degree=Pos	2	amod	_	_
 2	disability	disability	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
-3	;	;	PUNCT	:	_	4	punct	_	_
-4	and	and	CCONJ	CC	_	2	cc	_	_
+3	;	;	PUNCT	:	_	2	punct	_	_
 
 # sent_id = GUM_academic_discrimination-30
-# text = other.
+# text = and other.
 # s_type=frag
-1	other	other	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	.	_	1	punct	_	_
+1	and	and	CCONJ	CC	_	2	cc	_	_
+2	other	other	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = GUM_academic_discrimination-31
 # text = The following categories from the original questionnaire were collapsed into one category for the analysis: race; ancestry or national origin; and shade of skin color.
@@ -586,9 +586,9 @@
 12	category	category	NOUN	NN	Number=Sing	9	obl	_	_
 13	for	for	ADP	IN	_	15	case	_	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
-15	analysis	analysis	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+15	analysis	analysis	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
 16	:	:	PUNCT	:	_	17	punct	_	_
-17	race	race	NOUN	NN	Number=Sing	12	acl:relcl	_	SpaceAfter=No
+17	race	race	NOUN	NN	Number=Sing	9	parataxis	_	SpaceAfter=No
 18	;	;	PUNCT	:	_	19	punct	_	_
 19	ancestry	ancestry	NOUN	NN	Number=Sing	17	conj	_	_
 20	or	or	CCONJ	CC	_	22	cc	_	_
@@ -637,7 +637,7 @@
 30	missing	miss	VERB	VBG	VerbForm=Ger	28	obl	_	_
 31	(	(	PUNCT	-LRB-	_	33	punct	_	SpaceAfter=No
 32	legitimate	legitimate	ADJ	JJ	Degree=Pos	33	amod	_	_
-33	skip	skip	NOUN	NN	Number=Sing	30	parataxis	_	SpaceAfter=No
+33	skip	skip	NOUN	NN	Number=Sing	25	parataxis	_	SpaceAfter=No
 34	)	)	PUNCT	-RRB-	_	33	punct	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	21	punct	_	_
 
@@ -661,7 +661,7 @@
 8	from	from	ADP	IN	_	12	case	_	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
 10	Wave	Wave	PROPN	NNP	Number=Sing	12	compound	_	_
-11	4	4	NUM	CD	NumType=Card	12	nummod	_	_
+11	4	4	NUM	CD	NumType=Card	10	nummod	_	_
 12	interviews	interview	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	7	punct	_	_
 14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
@@ -676,26 +676,26 @@
 23	during	during	ADP	IN	_	27	case	_	_
 24	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
 25	Wave	Wave	PROPN	NNP	Number=Sing	27	compound	_	_
-26	1	1	NUM	CD	NumType=Card	27	nummod	_	_
+26	1	1	NUM	CD	NumType=Card	25	nummod	_	_
 27	interview	interview	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = GUM_academic_discrimination-35
 # text = Wave 1 race — rather than, say, Wave 3 race — was used to preserve case counts.
 # s_type=decl
-1	Wave	Wave	PROPN	NNP	Number=Sing	15	nsubj:pass	_	_
+1	Wave	Wave	PROPN	NNP	Number=Sing	3	compound	_	_
 2	1	1	NUM	CD	NumType=Card	1	nummod	_	_
-3	race	race	NOUN	NN	Number=Sing	1	compound	_	_
-4	—	—	PUNCT	:	_	5	punct	_	_
-5	rather	rather	ADV	RB	_	1	parataxis	_	_
-6	than	than	ADP	IN	_	10	case	_	SpaceAfter=No
-7	,	,	PUNCT	,	_	6	punct	_	_
-8	say	say	VERB	VB	VerbForm=Inf	5	parataxis	_	SpaceAfter=No
-9	,	,	PUNCT	,	_	10	punct	_	_
-10	Wave	Wave	PROPN	NNP	Number=Sing	5	nmod	_	_
+3	race	race	NOUN	NN	Number=Sing	15	nsubj:pass	_	_
+4	—	—	PUNCT	:	_	12	punct	_	_
+5	rather	rather	ADV	RB	_	12	cc	_	_
+6	than	than	ADP	IN	_	5	fixed	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	say	say	VERB	VB	VerbForm=Inf	12	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	Wave	Wave	PROPN	NNP	Number=Sing	12	compound	_	_
 11	3	3	NUM	CD	NumType=Card	10	nummod	_	_
-12	race	race	NOUN	NN	Number=Sing	10	compound	_	_
-13	—	—	PUNCT	:	_	1	punct	_	_
+12	race	race	NOUN	NN	Number=Sing	3	conj	_	_
+13	—	—	PUNCT	:	_	3	punct	_	_
 14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
 15	used	use	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
 16	to	to	PART	TO	_	17	mark	_	_
@@ -710,23 +710,23 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	logic	logic	NOUN	NN	Number=Sing	12	nsubj	_	_
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
-4	that	that	SCONJ	IN	_	11	mark	_	_
+4	that	that	SCONJ	IN	_	12	mark	_	_
 5	(	(	PUNCT	-LRB-	_	6	punct	_	SpaceAfter=No
-6	nearly	nearly	ADV	RB	_	12	dep	_	SpaceAfter=No
+6	nearly	nearly	ADV	RB	_	8	advmod	_	SpaceAfter=No
 7	)	)	PUNCT	-RRB-	_	6	punct	_	_
 8	all	all	DET	DT	_	9	det	_	_
 9	Wave	Wave	PROPN	NNP	Number=Sing	11	compound	_	_
 10	4	4	NUM	CD	NumType=Card	9	nummod	_	_
-11	respondents	respondent	NOUN	NNS	Number=Plur	12	csubj	_	_
+11	respondents	respondent	NOUN	NNS	Number=Plur	12	nsubj	_	_
 12	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 13	in	in	ADP	IN	_	17	case	_	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
 15	Wave	Wave	PROPN	NNP	Number=Sing	17	compound	_	_
-16	1	1	NUM	CD	NumType=Card	17	nummod	_	_
+16	1	1	NUM	CD	NumType=Card	15	nummod	_	_
 17	sample	sample	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	25	punct	_	_
 19	but	but	CCONJ	CC	_	25	cc	_	_
-20	not	not	PART	RB	Polarity=Neg	25	advmod	_	_
+20	not	not	PART	RB	Polarity=Neg	21	advmod	_	_
 21	all	all	PRON	DT	_	25	nsubj:pass	_	_
 22	would	would	AUX	MD	VerbForm=Fin	25	aux	_	_
 23	have	have	AUX	VB	VerbForm=Inf	25	aux	_	_
@@ -735,10 +735,10 @@
 26	at	at	ADP	IN	_	27	case	_	_
 27	Wave	Wave	PROPN	NNP	Number=Sing	25	obl	_	_
 28	3	3	NUM	CD	NumType=Card	27	nummod	_	_
-29	due	due	ADJ	JJ	Degree=Pos	25	advmod	_	_
-30	to	to	ADP	TO	_	32	case	_	_
+29	due	due	ADJ	JJ	Degree=Pos	32	case	_	_
+30	to	to	PART	TO	_	29	fixed	_	_
 31	differential	differential	ADJ	JJ	Degree=Pos	32	amod	_	_
-32	patterns	pattern	NOUN	NNS	Number=Plur	29	obl	_	_
+32	patterns	pattern	NOUN	NNS	Number=Plur	25	obl	_	_
 33	of	of	ADP	IN	_	35	case	_	_
 34	temporary	temporary	ADJ	JJ	Degree=Pos	35	amod	_	_
 35	attrition	attrition	NOUN	NN	Number=Sing	32	nmod	_	SpaceAfter=No
@@ -778,7 +778,7 @@
 29	and	and	CCONJ	CC	_	30	cc	_	_
 30	Asian	Asian	PROPN	NNP	Number=Sing	14	conj	_	_
 31	or	or	CCONJ	CC	_	30	cc	_	_
-32	Pacific	Pacific	PROPN	NNP	Number=Sing	33	compound	_	_
+32	Pacific	Pacific	PROPN	NNP	Number=Sing	33	amod	_	_
 33	Islander	Islander	PROPN	NNP	Number=Sing	31	conj	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -791,7 +791,7 @@
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
 5	opportunity	opportunity	NOUN	NN	Number=Sing	3	obj	_	_
 6	to	to	PART	TO	_	7	mark	_	_
-7	select	select	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+7	select	select	VERB	VB	VerbForm=Inf	5	acl	_	_
 8	more	more	ADJ	JJR	Degree=Cmp	10	advmod	_	_
 9	than	than	ADP	IN	_	8	fixed	_	_
 10	one	one	NUM	CD	NumType=Card	11	nummod	_	_
@@ -891,7 +891,7 @@
 16	'	's	PART	POS	_	15	case	_	_
 17	birth	birth	NOUN	NN	Number=Sing	12	nmod	_	_
 18	(	(	PUNCT	-LRB-	_	19	punct	_	SpaceAfter=No
-19	obtained	obtain	VERB	VBN	Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+19	obtained	obtain	VERB	VBN	Tense=Past|VerbForm=Part	12	acl	_	_
 20	from	from	ADP	IN	_	21	case	_	_
 21	Wave	Wave	PROPN	NNP	Number=Sing	19	obl	_	_
 22	1	1	NUM	CD	NumType=Card	21	nummod	_	SpaceAfter=No
@@ -988,7 +988,7 @@
 8	of	of	ADP	IN	_	13	case	_	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
 10	two	two	NUM	CD	NumType=Card	13	nummod	_	_
-11	discrimination	discrimination	NOUN	NN	Number=Sing	13	compound	_	_
+11	discrimination	discrimination	NOUN	NN	Number=Sing	12	compound	_	_
 12	experience	experience	NOUN	NN	Number=Sing	13	compound	_	_
 13	measures	measure	NOUN	NNS	Number=Plur	7	nmod	_	_
 14	across	across	ADP	IN	_	17	case	_	_
@@ -1014,14 +1014,14 @@
 12	across	across	ADP	IN	_	15	case	_	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
 14	racial	racial	ADJ	JJ	Degree=Pos	15	amod	_	_
-15	categories	category	NOUN	NNS	Number=Plur	11	nmod	_	SpaceAfter=No
+15	categories	category	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = GUM_academic_discrimination-49
 # text = In order to examine potential bivariate associations, the adjusted F statistic (design-based F) was employed as it corrects for a complex sample design such as that used in the Add Health. [21]
 # s_type=decl
 1	In	in	SCONJ	IN	_	4	mark	_	_
-2	order	order	NOUN	NN	Number=Sing	4	dep	_	_
+2	order	order	NOUN	NN	Number=Sing	1	fixed	_	_
 3	to	to	PART	TO	_	4	mark	_	_
 4	examine	examine	VERB	VB	VerbForm=Inf	18	advcl	_	_
 5	potential	potential	ADJ	JJ	Degree=Pos	7	amod	_	_
@@ -1046,9 +1046,9 @@
 24	complex	complex	ADJ	JJ	Degree=Pos	26	amod	_	_
 25	sample	sample	NOUN	NN	Number=Sing	26	compound	_	_
 26	design	design	NOUN	NN	Number=Sing	21	obl	_	_
-27	such	such	ADJ	JJ	Degree=Pos	26	nmod	_	_
-28	as	as	ADP	IN	_	29	case	_	_
-29	that	that	PRON	DT	Number=Sing|PronType=Dem	27	fixed	_	_
+27	such	such	ADJ	JJ	Degree=Pos	29	case	_	_
+28	as	as	ADP	IN	_	27	fixed	_	_
+29	that	that	PRON	DT	Number=Sing|PronType=Dem	26	nmod	_	_
 30	used	use	VERB	VBN	Tense=Past|VerbForm=Part	29	acl	_	_
 31	in	in	ADP	IN	_	34	case	_	_
 32	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
@@ -1080,7 +1080,7 @@
 16	Stata	Stata	PROPN	NNP	Number=Sing	12	nmod	_	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
 18	conventional	conventional	ADJ	JJ	Degree=Pos	22	amod	_	_
-19	Pearson	Pearson	PROPN	NNP	Number=Sing	21	compound	_	_
+19	Pearson	Pearson	PROPN	NNP	Number=Sing	20	compound	_	_
 20	χ2	χ2	SYM	SYM	_	21	compound	_	_
 21	statistic	statistic	NOUN	NN	Number=Sing	22	compound	_	_
 22	test	test	NOUN	NN	Number=Sing	26	nsubj:pass	_	_
@@ -1207,7 +1207,7 @@
 14	provided	provide	VERB	VBN	Tense=Past|VerbForm=Part	13	acl	_	_
 15	by	by	ADP	IN	_	20	case	_	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
-17	Add	Add	PROPN	NNP	Number=Sing	20	compound	_	_
+17	Add	Add	PROPN	NNP	Number=Sing	18	compound	_	_
 18	Health	Health	PROPN	NNP	Number=Sing	20	compound	_	_
 19	research	research	NOUN	NN	Number=Sing	20	compound	_	_
 20	staff	staff	NOUN	NN	Number=Sing	14	obl	_	_
@@ -1244,7 +1244,7 @@
 11	representative	representative	ADJ	JJ	Degree=Pos	9	obj	_	_
 12	of	of	ADP	IN	_	15	case	_	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
-14	United	United	PROPN	NNP	Number=Sing	15	compound	_	_
+14	United	United	PROPN	NNP	Number=Sing	15	amod	_	_
 15	States	State	PROPN	NNPS	Number=Plur	11	obl	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	9	punct	_	_
 
