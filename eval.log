@@ -1,32 +1,42 @@
-Sun Feb 11 20:38:20 CET 2018
-perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_English-GUM
 Running the following version of tools/evaluate_treebank.pl:
-commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+commit 87d374bbd458d29331d76014d05c52eaac32518d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Feb 11 20:27:50 2018 +0100
-Already on 'master'
-Your branch is up-to-date with 'origin/master'.
+Date:   Wed Apr 11 09:21:53 2018 +0200
 Evaluating the following revision of UD_English-GUM:
-commit a08f3a52a3ca7b3582a3d2230e5e5b7ea38aa97f
+commit 7e111dd7a271a455d04c1325157b4bfe8bc98d34
+Merge: 09e1922 5cac46d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Dec 12 17:38:50 2017 +0100
-WARNING: No data found in './UD_English-GUM'
-Size: counted 1 of 0 words (nodes).
-Size: min(0, log((N/1000)**2)) = 0.
+Size: counted 80041 of 80041 words (nodes).
+Size: min(0, log((N/1000)**2)) = 8.76507800678122.
 Size: maximum value 13.815511 is for 1000000 words or more.
-Split: Did not find more than 10000 training words.
-Split: Did not find at least 10000 development words.
-Split: Did not find at least 10000 test words.
-Lemmas: No lemmas found.
-Universal POS tags: 0 out of 17 found in the corpus.
+Split: Found more than 10000 training words.
+Split: Found at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 0.8.
+Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 0 out of 0 total words have one or more features.
+Features: 53059 out of 80041 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 0 out of 37 found in the corpus.
+Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Genres: found 2 out of 14 known.
-Availability: No words found.
-STARS = 0
-UD_English-GUM	0	0
-Switched to branch 'dev'
-Your branch is up-to-date with 'origin/dev'.
+Udapi: found 1970 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 80041 words.
+Genres: found 7 out of 14 known.
+validate.py --lang en --max-err=10 UD_English-GUM/en_gum-ud-dev.conllu
+*** PASSED ***
+validate.py --lang en --max-err=10 UD_English-GUM/en_gum-ud-test.conllu
+*** PASSED ***
+validate.py --lang en --max-err=10 UD_English-GUM/en_gum-ud-train.conllu
+*** PASSED ***
+Validity: 1
+(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
+(weight=0.0769230769230769) * (score{genres}=0.5) = 0.0384615384615385
+(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
+(weight=0.256410256410256) * (score{size}=0.634437501966106) = 0.162676282555412
+(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
+(weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
+(weight=0.307692307692308) * (score{udapi}=0.75387613847903) = 0.231961888762778
+(weight=0.0769230769230769) * (score{udeprels}=0.735135135135135) = 0.0565488565488566
+(TOTAL score=0.725546002226021) * (availability=1) * (validity=1) = 0.725546002226021
+STARS = 3.5
+UD_English-GUM	0.725546002226021	3.5
