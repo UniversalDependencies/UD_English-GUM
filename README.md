@@ -20,13 +20,19 @@ GUM annotation team (so far - thanks for participating!)
 
 Adrienne Isaac, Akitaka Yamada, Amani Aloufi, Amelia Becker, Andrea Price, Andrew O'Brien, Anna Runova, Anne Butler, Arianna Janoff, Ayan Mandal, Brandon Tullock, Brent Laing, Candice Penelton, Chenyue Guo, Colleen Diamond, Connor O'Dwyer, Dan Simonson, Didem Ikizoglu, Edwin Ko, Emily Pace, Emma Manning, Ethan Beaman, Han Bu, Hang Jiang, Hanwool Choe, Hassan Munshi, Ho Fai Cheng, Jakob Prange, Jehan al-Mahmoud, Jemm Excelle Dela Cruz, Joaquin Gris Roca, John Chi, Jongbong Lee, Juliet May, Katarina Starcevic, Katherine Vadella, Lara Bryfonski, Lindley Winchester, Logan Peng, Lucia Donatelli, Margaret Anne Rowe, Margaret Borowczyk, Maria Stoianova, Mariko Uno, Mary Henderson, Maya Barzilai, Md. Jahurul Islam, Michaela Harrington, Minnie Annan, Mitchell Abrams, Mohammad Ali Yektaie, Naomee-Minh Nguyen, Nicholas Workman, Nicole Steinberg, Rachel Thorson, Rebecca Childress, Ruizhong Li, Ryan Murphy, Sakol Suethanapornkul, Sean Macavaney, Sean Simpson, Shannon Mooney, Siddharth Singh, Siyu Liang, Stephanie Kramer, Sylvia Sierra, Timothy Ingrassia, Wenxi Yang, Xiaopei Wu, Yang Liu, Yilun Zhu, Yingzhu Chen, Yiran Xu, Young-A Son, Yushi Zhao, Zhuxin Wang, Amir Zeldes
 
-... and other annotators who wish to remain anonymous!  
+... and other annotators who wish to remain anonymous!
 
 ## References
 
 As a scholarly citation for the corpus in articles, please use this paper:
 
 * Zeldes, Amir (2017) "The GUM Corpus: Creating Multilayer Resources in the Classroom". Language Resources and Evaluation 51(3), 581–612.
+
+
+# Changelog
+
+* 2018-07-01 v2.2
+  * First official release.
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
