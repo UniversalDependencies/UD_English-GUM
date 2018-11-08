@@ -31,6 +31,10 @@ As a scholarly citation for the corpus in articles, please use this paper:
 
 # Changelog
 
+* 2018-11-08 v2.3
+  * Added 'multiple' s_type annotation value (formerly subsumed in 'other')
+  * Numerous error corrections.
+
 * 2018-07-01 v2.2
   * First official release.
 
