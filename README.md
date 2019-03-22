@@ -29,9 +29,9 @@ As a scholarly citation for the corpus in articles, please use this paper:
 * Zeldes, Amir (2017) "The GUM Corpus: Creating Multilayer Resources in the Classroom". Language Resources and Evaluation 51(3), 581–612.
 
 ```
-@Article{Zeldes2017b,
+@Article{Zeldes2017,
   author    = {Amir Zeldes},
-  title     = {The GUM Corpus: Creating Multilayer Resources in the Classroom},
+  title     = {The {GUM} Corpus: Creating Multilayer Resources in the Classroom},
   journal   = {Language Resources and Evaluation},
   year      = {2017},
   volume    = {51},
