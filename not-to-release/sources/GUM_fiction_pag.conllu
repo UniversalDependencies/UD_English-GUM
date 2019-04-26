@@ -67,23 +67,23 @@
 # sent_id = GUM_fiction_pag-8
 # text = Not with the scramblers or Rorschach, not with Big Ben or Theseus or the vampires.
 # s_type=frag
-1	Not	not	PART	RB	Polarity=Neg	2	advmod	_	_
+1	Not	not	PART	RB	Polarity=Neg	4	advmod	_	_
 2	with	with	ADP	IN	_	4	case	_	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 4	scramblers	scrambler	NOUN	NNS	Number=Plur	0	root	_	_
 5	or	or	CCONJ	CC	_	6	cc	_	_
 6	Rorschach	Rorschach	PROPN	NNP	Number=Sing	4	conj	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	11	punct	_	_
-8	not	not	PART	RB	Polarity=Neg	9	advmod	_	_
+8	not	not	PART	RB	Polarity=Neg	11	advmod	_	_
 9	with	with	ADP	IN	_	11	case	_	_
 10	Big	Big	PROPN	NNP	Number=Sing	11	amod	_	_
-11	Ben	Ben	PROPN	NNP	Number=Sing	2	parataxis	_	_
+11	Ben	Ben	PROPN	NNP	Number=Sing	4	parataxis	_	_
 12	or	or	CCONJ	CC	_	13	cc	_	_
 13	Theseus	Theseus	PROPN	NNP	Number=Sing	11	conj	_	_
 14	or	or	CCONJ	CC	_	16	cc	_	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
 16	vampires	vampire	NOUN	NNS	Number=Plur	11	conj	_	SpaceAfter=No
-17	.	.	PUNCT	.	_	2	punct	_	_
+17	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = GUM_fiction_pag-9
 # text = Most people would say it started with the Fireflies, but they'd be wrong.
@@ -187,15 +187,15 @@
 13	nearsightedness	nearsightedness	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	15	punct	_	_
 15	acne	acne	NOUN	NN	Number=Sing	13	conj	_	SpaceAfter=No
-16	,	,	PUNCT	,	_	26	punct	_	_
+16	,	,	PUNCT	,	_	17	punct	_	_
 17	and	and	CCONJ	CC	_	26	cc	_	_
-18	(	(	PUNCT	-LRB-	_	22	punct	_	SpaceAfter=No
+18	(	(	PUNCT	-LRB-	_	19	punct	_	SpaceAfter=No
 19	as	as	SCONJ	IN	_	22	mark	_	_
 20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 21	later	later	ADV	RBR	Degree=Cmp	22	advmod	_	_
 22	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	_
 23	out	out	ADP	RP	_	22	compound:prt	_	SpaceAfter=No
-24	)	)	PUNCT	-RRB-	_	22	punct	_	_
+24	)	)	PUNCT	-RRB-	_	23	punct	_	_
 25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
 26	susceptibility	susceptibility	NOUN	NN	Number=Sing	13	conj	_	_
 27	to	to	ADP	TO	_	28	case	_	_
@@ -278,7 +278,7 @@
 12	attention	attention	NOUN	NN	Number=Sing	10	nmod	_	_
 13	for	for	ADP	IN	_	16	case	_	_
 14	some	some	DET	DT	_	16	det	_	_
-15	half-dozen	half-dozen	ADJ	JJ	Degree=Pos	16	nummod	_	_
+15	half-dozen	half-dozen	NUM	CD	NumType=Card	16	nummod	_	_
 16	kids	kid	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	23	punct	_	_
 18	those	those	DET	DT	Number=Plur|PronType=Dem	20	det	_	_
@@ -400,7 +400,7 @@
 12	half	half	PRON	PDT	_	14	det:predet	_	_
 13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
 14	mind	mind	NOUN	NN	Number=Sing	15	nsubj	_	_
-15	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	7	conj	_	SpaceAfter=No
+15	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	7	punct	_	_
 17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
 18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	19	aux	_	_
@@ -455,7 +455,7 @@
 # s_type=q
 1	Still	still	ADV	RB	_	11	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	_	_
-3	when	when	SCONJ	WRB	PronType=Int	9	advmod	_	_
+3	when	when	SCONJ	WRB	PronType=Int	9	mark	_	_
 4	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
 5	best	good	ADJ	JJS	Degree=Sup	6	amod	_	_
 6	friend	friend	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No
@@ -472,7 +472,7 @@
 # sent_id = GUM_fiction_pag-27
 # text = Even if the odds are impossible — and how many eight-year-olds would go up against six bigger kids for a sandbox buddy? — at least you call for backup.
 # s_type=decl
-1	Even	even	ADV	RB	_	2	advmod	_	_
+1	Even	even	ADV	RB	_	6	advmod	_	_
 2	if	if	SCONJ	IN	_	6	mark	_	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 4	odds	odd	NOUN	NNS	Number=Plur	6	nsubj	_	_
@@ -480,7 +480,7 @@
 6	impossible	impossible	ADJ	JJ	Degree=Pos	28	advcl	_	_
 7	—	—	PUNCT	:	_	13	punct	_	_
 8	and	and	CCONJ	CC	_	13	cc	_	_
-9	how	how	SCONJ	WRB	PronType=Int	10	advmod	_	_
+9	how	how	SCONJ	WRB	PronType=Int	10	mark	_	_
 10	many	many	ADJ	JJ	Degree=Pos	11	amod	_	_
 11	eight-year-olds	eight-year-old	NOUN	NNS	Number=Plur	13	nsubj	_	_
 12	would	would	AUX	MD	VerbForm=Fin	13	aux	_	_
@@ -496,7 +496,7 @@
 22	buddy	buddy	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
 23	?	?	PUNCT	.	_	6	punct	_	_
 24	—	—	PUNCT	:	_	6	punct	_	_
-25	at	at	ADP	IN	_	28	advmod	_	_
+25	at	at	ADV	IN	_	28	advmod	_	_
 26	least	least	ADV	RBS	Degree=Sup	25	fixed	_	_
 27	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	28	nsubj	_	_
 28	call	call	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -554,7 +554,7 @@
 # sent_id = GUM_fiction_pag-33
 # text = Even if he hadn't been my best friend, I should at least have empathized.
 # s_type=sub
-1	Even	even	ADV	RB	_	2	advmod	_	_
+1	Even	even	ADV	RB	_	9	advmod	_	_
 2	if	if	SCONJ	IN	_	9	mark	_	_
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	SpaceAfter=No
@@ -566,7 +566,7 @@
 10	,	,	PUNCT	,	_	9	punct	_	_
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 12	should	should	AUX	MD	VerbForm=Fin	16	aux	_	_
-13	at	at	ADP	IN	_	16	advmod	_	_
+13	at	at	ADV	IN	_	16	advmod	_	_
 14	least	least	ADV	RBS	Degree=Sup	13	fixed	_	_
 15	have	have	AUX	VB	VerbForm=Inf	16	aux	_	_
 16	empathized	empathize	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
@@ -602,7 +602,7 @@
 25	,	,	PUNCT	,	_	26	punct	_	_
 26	scared	scare	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	parataxis	_	_
 27	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	26	obj	_	_
-28	even	even	ADV	RB	_	29	advmod	_	_
+28	even	even	ADV	RB	_	31	advmod	_	_
 29	as	as	SCONJ	IN	_	31	mark	_	_
 30	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	31	nsubj	_	_
 31	incapacitated	incapacitate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	advcl	_	_
@@ -652,7 +652,7 @@
 # s_type=decl
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	how	how	SCONJ	WRB	PronType=Int	5	advmod	_	_
+3	how	how	SCONJ	WRB	PronType=Int	5	mark	_	_
 4	that	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
 5	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	_	_
@@ -773,13 +773,13 @@
 12	,	,	PUNCT	,	_	14	punct	_	_
 13	and	and	CCONJ	CC	_	14	cc	_	_
 14	look	look	VERB	VB	VerbForm=Inf	9	conj	_	_
-15	what	what	PRON	WP	PronType=Int	17	mark	_	_
+15	what	what	PRON	WP	PronType=Int	17	obj	_	_
 16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 17	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	ccomp	_	_
 18	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	iobj	_	SpaceAfter=No
 19	:	:	PUNCT	:	_	21	punct	_	_
 20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
-21	son	son	NOUN	NN	Number=Sing	17	obj	_	_
+21	son	son	NOUN	NN	Number=Sing	9	parataxis	_	_
 22	curled	curl	VERB	VBN	Tense=Past|VerbForm=Part	21	acl	_	_
 23	up	up	ADP	RP	_	22	compound:prt	_	_
 24	in	in	ADP	IN	_	26	case	_	_
@@ -806,7 +806,7 @@
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	propaganda	propaganda	NOUN	NN	Number=Sing	6	nsubj	_	_
 6	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-7	where	where	SCONJ	WRB	PronType=Int	9	advmod	_	_
+7	where	where	SCONJ	WRB	PronType=Int	9	mark	_	_
 8	empathy	empathy	NOUN	NN	Number=Sing	9	nsubj	_	_
 9	failed	fail	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	6	punct	_	_
@@ -838,7 +838,7 @@
 22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
 23	remembered	remember	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	csubj	_	_
 24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	cop	_	_
-25	a	a	PRON	DT	Definite=Ind|PronType=Art	26	advmod	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
 26	thousand	thousand	NUM	CD	NumType=Card	28	nummod	_	_
 27	inspirational	inspirational	ADJ	JJ	Degree=Pos	28	amod	_	_
 28	stories	storey	NOUN	NNS	Number=Plur	8	conj	_	_
@@ -926,7 +926,7 @@
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	remember	remember	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	wondering	wonder	VERB	VBG	VerbForm=Ger	2	xcomp	_	_
-4	why	why	SCONJ	WRB	PronType=Int	8	advmod	_	_
+4	why	why	SCONJ	WRB	PronType=Int	8	mark	_	_
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 6	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	SpaceAfter=No
 7	n't	n't	PART	RB	Polarity=Neg	8	advmod	_	_
@@ -937,7 +937,7 @@
 12	that	that	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
 13	sound	sound	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	17	punct	_	_
-15	why	why	SCONJ	WRB	PronType=Int	17	advmod	_	_
+15	why	why	SCONJ	WRB	PronType=Int	17	mark	_	_
 16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 17	meant	mean	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	parataxis	_	_
 18	nothing	nothing	NOUN	NN	Number=Sing	17	obj	_	_
@@ -1272,7 +1272,7 @@
 3	,	,	PUNCT	,	_	5	punct	_	_
 4	but	but	CCONJ	CC	_	5	cc	_	_
 5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	conj	_	_
-6	—	—	PUNCT	:	_	10	punct	_	_
+6	—	—	PUNCT	:	_	8	punct	_	_
 7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 8	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	parataxis	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	_	_
@@ -1301,7 +1301,7 @@
 # s_type=decl
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	wondered	wonder	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	how	how	SCONJ	WRB	PronType=Int	4	advmod	_	_
+3	how	how	SCONJ	WRB	PronType=Int	4	mark	_	_
 4	long	long	ADV	RB	Degree=Pos	2	ccomp	_	_
 5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 6	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
@@ -1516,7 +1516,7 @@
 2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No
 3	n't	n't	PART	RB	Polarity=Neg	4	advmod	_	_
 4	understand	understand	VERB	VB	VerbForm=Inf	0	root	_	_
-5	why	why	SCONJ	WRB	PronType=Int	9	advmod	_	_
+5	why	why	SCONJ	WRB	PronType=Int	9	mark	_	_
 6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 7	could	could	AUX	MD	VerbForm=Fin	9	aux	_	SpaceAfter=No
 8	n't	n't	PART	RB	Polarity=Neg	9	advmod	_	_
@@ -1650,7 +1650,7 @@
 4	in	in	ADP	IN	_	6	case	_	_
 5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
 6	half	half	NOUN	NN	Number=Sing	0	root	_	_
-7	—	—	PUNCT	:	_	15	punct	_	_
+7	—	—	PUNCT	:	_	8	punct	_	_
 8	or	or	CCONJ	CC	_	15	cc	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	_	_
 10	like	like	INTJ	UH	_	15	discourse	_	SpaceAfter=No

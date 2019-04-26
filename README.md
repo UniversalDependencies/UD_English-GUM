@@ -45,13 +45,14 @@ As a scholarly citation for the corpus in articles, please use this paper:
 
 * 2019-03-21
   * Added new documents from GUM version 5
+  * Numerous error corrections, now conforming to UD2.4 validation
 
 * 2018-11-08 v2.3
   * Added 'multiple' s_type annotation value (formerly subsumed in 'other')
-  * Numerous error corrections.
+  * Numerous error corrections
 
 * 2018-07-01 v2.2
-  * First official release.
+  * First official release
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
