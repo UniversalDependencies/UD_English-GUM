@@ -13,7 +13,7 @@
 # sent_id = GUM_whow_languages-2
 # text = Name your language.
 # s_type=imp
-1	Name	name	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Name	name	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 3	language	language	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	_	_
@@ -84,7 +84,7 @@
 # sent_id = GUM_whow_languages-7
 # text = Start off with the highly frequently used words such as 'and' or 'I' or 'one' or 'the'.
 # s_type=imp
-1	Start	start	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Start	start	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	off	off	ADP	RP	_	1	compound:prt	_	_
 3	with	with	ADP	IN	_	8	case	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
@@ -92,12 +92,12 @@
 6	frequently	frequently	ADV	RB	_	7	advmod	_	_
 7	used	use	VERB	VBN	Tense=Past|VerbForm=Part	8	amod	_	_
 8	words	word	NOUN	NNS	Number=Plur	1	obl	_	_
-9	such	such	ADJ	JJ	Degree=Pos	8	nmod	_	_
-10	as	as	ADP	IN	_	12	case	_	_
+9	such	such	ADJ	JJ	Degree=Pos	12	case	_	_
+10	as	as	ADP	IN	_	9	fixed	_	_
 11	'	'	PUNCT	``	_	12	punct	_	SpaceAfter=No
-12	and	and	CCONJ	CC	_	9	fixed	_	SpaceAfter=No
+12	and	and	CCONJ	CC	_	8	nmod	_	SpaceAfter=No
 13	'	'	PUNCT	''	_	12	punct	_	_
-14	or	or	CCONJ	CC	_	20	cc	_	_
+14	or	or	CCONJ	CC	_	16	cc	_	_
 15	'	'	PUNCT	``	_	16	punct	_	SpaceAfter=No
 16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	conj	_	SpaceAfter=No
 17	'	'	PUNCT	''	_	16	punct	_	_
@@ -161,7 +161,7 @@
 # sent_id = GUM_whow_languages-10
 # text = Start thinking about the grammar rules.
 # s_type=imp
-1	Start	start	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Start	start	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	thinking	think	VERB	VBG	VerbForm=Ger	1	xcomp	_	_
 3	about	about	ADP	IN	_	6	case	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
@@ -173,28 +173,28 @@
 # text = For example if the word Bird is 'Vogelaviatiolap' then why not make the word Birds 'Vogelaviatiolaps' since the suffix 's' is added at the end for most languages at plurals.
 # s_type=inf
 1	For	for	ADP	IN	_	2	case	_	_
-2	example	example	NOUN	NN	Number=Sing	28	dep	_	_
+2	example	example	NOUN	NN	Number=Sing	14	obl	_	_
 3	if	if	SCONJ	IN	_	9	mark	_	_
-4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
-5	word	word	NOUN	NN	Number=Sing	6	appos	_	_
-6	Bird	Bird	NOUN	NN	Number=Sing	9	nsubj	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	word	word	NOUN	NN	Number=Sing	9	nsubj	_	_
+6	Bird	Bird	NOUN	NN	Number=Sing	5	appos	_	_
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 8	'	'	PUNCT	``	_	9	punct	_	SpaceAfter=No
 9	Vogelaviatiolap	Vogelaviatiolap	X	FW	_	14	advcl	_	SpaceAfter=No
 10	'	'	PUNCT	''	_	9	punct	_	_
 11	then	then	ADV	RB	PronType=Dem	14	advmod	_	_
-12	why	why	SCONJ	WRB	PronType=Int	14	advmod	_	_
+12	why	why	SCONJ	WRB	PronType=Int	14	mark	_	_
 13	not	not	PART	RB	Polarity=Neg	14	advmod	_	_
 14	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
-16	word	word	NOUN	NN	Number=Sing	14	iobj	_	_
+16	word	word	NOUN	NN	Number=Sing	14	obj	_	_
 17	Birds	bird	NOUN	NNS	Number=Plur	16	appos	_	_
 18	'	'	PUNCT	``	_	19	punct	_	SpaceAfter=No
-19	Vogelaviatiolaps	Vogelaviatiolaps	X	FW	_	14	obj	_	SpaceAfter=No
+19	Vogelaviatiolaps	Vogelaviatiolaps	X	FW	_	14	xcomp	_	SpaceAfter=No
 20	'	'	PUNCT	''	_	19	punct	_	_
-21	since	since	ADP	IN	_	23	case	_	_
+21	since	since	SCONJ	IN	_	28	mark	_	_
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
-23	suffix	suffix	SCONJ	NN	Number=Sing	28	mark	_	_
+23	suffix	suffix	NOUN	NN	Number=Sing	28	nsubj	_	_
 24	'	'	PUNCT	``	_	25	punct	_	SpaceAfter=No
 25	s	S	X	FW	_	23	appos	_	SpaceAfter=No
 26	'	'	PUNCT	''	_	25	punct	_	_
@@ -263,7 +263,7 @@
 24	to	to	PART	TO	_	28	mark	_	_
 25	be	be	AUX	VB	VerbForm=Inf	28	cop	_	_
 26	'	'	PUNCT	``	_	28	punct	_	SpaceAfter=No
-27	Mat	Mat	X	FW	_	28	det	_	_
+27	Mat	Mat	DET	FW	_	28	det	_	_
 28	Fereder	Fereder	X	FW	_	19	xcomp	_	SpaceAfter=No
 29	'	'	PUNCT	''	_	28	punct	_	SpaceAfter=No
 30	,	,	PUNCT	,	_	39	punct	_	_
@@ -296,7 +296,7 @@
 # sent_id = GUM_whow_languages-14
 # text = Consider basing your language on an existing language.
 # s_type=imp
-1	Consider	consider	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Consider	consider	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	basing	base	VERB	VBG	VerbForm=Ger	1	xcomp	_	_
 3	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
 4	language	language	NOUN	NN	Number=Sing	2	obj	_	_
@@ -371,7 +371,7 @@
 # s_type=decl
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-3	uncompleted	uncompleted	ADJ	JJ	Degree=Pos	0	root	_	Typo=Yes
+3	uncompleted	uncompleted	ADJ	JJ	Degree=Pos|Polarity=Neg	0	root	_	Typo=Yes
 4	though	though	ADV	RB	_	3	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	10	punct	_	_
 6	because	because	SCONJ	IN	_	10	mark	_	_
@@ -421,7 +421,7 @@
 # sent_id = GUM_whow_languages-22
 # text = Consider basing some of your words from other words you have invented.
 # s_type=imp
-1	Consider	consider	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Consider	consider	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	basing	base	VERB	VBG	VerbForm=Ger	1	xcomp	_	_
 3	some	some	PRON	DT	_	2	obj	_	_
 4	of	of	ADP	IN	_	6	case	_	_
@@ -473,7 +473,7 @@
 33	Casnondelibreaten	Casnondelibreaten	X	FW	_	6	obl	_	SpaceAfter=No
 34	'	'	PUNCT	''	_	33	punct	_	SpaceAfter=No
 35	,	,	PUNCT	,	_	6	punct	_	_
-36	why	why	SCONJ	WRB	PronType=Int	38	advmod	_	_
+36	why	why	SCONJ	WRB	PronType=Int	38	mark	_	_
 37	not	not	PART	RB	Polarity=Neg	38	advmod	_	_
 38	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
 39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	_
@@ -499,7 +499,7 @@
 # sent_id = GUM_whow_languages-24
 # text = Get inspiration from existing alphabets and words.
 # s_type=imp
-1	Get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Get	get	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	inspiration	inspiration	NOUN	NN	Number=Sing	1	obj	_	_
 3	from	from	ADP	IN	_	5	case	_	_
 4	existing	exist	VERB	VBG	VerbForm=Ger	5	amod	_	_
@@ -511,7 +511,7 @@
 # sent_id = GUM_whow_languages-25
 # text = Why not add some non Latin Characters such as ß?
 # s_type=wh
-1	Why	why	SCONJ	WRB	PronType=Int	3	advmod	_	_
+1	Why	why	SCONJ	WRB	PronType=Int	3	mark	_	_
 2	not	not	PART	RB	Polarity=Neg	3	advmod	_	_
 3	add	add	VERB	VB	VerbForm=Inf	0	root	_	_
 4	some	some	DET	DT	_	7	det	_	_
@@ -604,7 +604,7 @@
 # sent_id = GUM_whow_languages-30
 # text = Keep track of all your
 # s_type=imp
-1	Keep	keep	VERB	VB	VerbForm=Inf	0	root	_	Typo=Yes
+1	Keep	keep	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	Typo=Yes
 2	track	track	NOUN	NN	Number=Sing	1	obj	_	Typo=Yes
 3	of	of	ADP	IN	_	5	case	_	Typo=Yes
 4	all	all	DET	PDT	_	5	det	_	Typo=Yes
@@ -613,7 +613,7 @@
 # sent_id = GUM_whow_languages-31
 # text = Remember to write down your creations!
 # s_type=imp
-1	Remember	remember	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Remember	remember	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	to	to	PART	TO	_	3	mark	_	_
 3	write	write	VERB	VB	VerbForm=Inf	1	xcomp	_	_
 4	down	down	ADP	RP	_	3	compound:prt	_	_
@@ -624,7 +624,7 @@
 # sent_id = GUM_whow_languages-32
 # text = Use your language.
 # s_type=imp
-1	Use	use	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Use	use	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 3	language	language	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	_	_
@@ -637,7 +637,7 @@
 3	to	to	PART	TO	_	4	mark	_	_
 4	using	use	VERB	VBG	VerbForm=Ger	2	advcl	_	_
 5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
-6	yourself	PRP	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	4	obl:npmod	_	SpaceAfter=No
+6	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	4	obl:npmod	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	_	_
 8	and	and	CCONJ	CC	_	9	cc	_	_
 9	spread	spread	VERB	VB	VerbForm=Inf	2	conj	_	_
@@ -657,7 +657,7 @@
 6	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
 7	language	language	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	3	punct	_	_
-9	experiment	experiment	VERB	VB	VerbForm=Inf	0	root	_	_
+9	experiment	experiment	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 10	and	and	CCONJ	CC	_	11	cc	_	_
 11	expand	expand	VERB	VB	VerbForm=Inf	9	conj	_	SpaceAfter=No
 12	:	:	PUNCT	:	_	9	punct	_	_
@@ -665,7 +665,7 @@
 # sent_id = GUM_whow_languages-35
 # text = Grab a book / novel and translate it to your own language.
 # s_type=imp
-1	Grab	grab	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Grab	grab	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 3	book	book	NOUN	NN	Number=Sing	1	obj	_	_
 4	/	/	PUNCT	SYM	_	5	punct	_	_
@@ -682,7 +682,7 @@
 # sent_id = GUM_whow_languages-36
 # text = Teach your friends this new language.
 # s_type=imp
-1	Teach	teach	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Teach	teach	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 3	friends	friend	NOUN	NNS	Number=Plur	1	iobj	_	_
 4	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
@@ -702,7 +702,7 @@
 7	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
 8	language	language	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	6	punct	_	_
-10	communicate	communicate	VERB	VB	VerbForm=Inf	0	root	_	_
+10	communicate	communicate	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 11	to	to	ADP	TO	_	12	case	_	_
 12	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	obl	_	_
 13	with	with	ADP	IN	_	14	case	_	_
@@ -736,7 +736,7 @@
 # sent_id = GUM_whow_languages-39
 # text = Write your own poem / novel / story with your own made up language.
 # s_type=imp
-1	Write	write	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Write	write	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
 3	own	own	ADJ	JJ	Degree=Pos	4	amod	_	_
 4	poem	poem	NOUN	NN	Number=Sing	1	obj	_	_
@@ -761,7 +761,7 @@
 4	really	really	ADV	RB	_	5	advmod	_	_
 5	ambitious	ambitious	ADJ	JJ	Degree=Pos	7	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	_	_
-7	set	set	VERB	VB	VerbForm=Inf	0	root	_	_
+7	set	set	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
 9	goal	goal	NOUN	NN	Number=Sing	7	obj	_	_
 10	of	of	SCONJ	IN	_	11	mark	_	_
@@ -801,7 +801,7 @@
 # sent_id = GUM_whow_languages-43
 # text = Make sure that it is a language that while speaking, you don't get a literal knot in your tongue!
 # s_type=imp
-1	Make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Make	make	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	sure	sure	ADP	RP	_	1	compound:prt	_	_
 3	that	that	SCONJ	IN	_	7	mark	_	_
 4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -827,11 +827,11 @@
 # sent_id = GUM_whow_languages-44
 # text = Remember you should know how to write it.
 # s_type=imp
-1	Remember	remember	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Remember	remember	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
 3	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
 4	know	know	VERB	VB	VerbForm=Inf	1	ccomp	_	_
-5	how	how	SCONJ	WRB	PronType=Int	7	advmod	_	_
+5	how	how	SCONJ	WRB	PronType=Int	7	mark	_	_
 6	to	to	PART	TO	_	7	mark	_	_
 7	write	write	VERB	VB	VerbForm=Inf	4	xcomp	_	_
 8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
@@ -871,7 +871,7 @@
 # sent_id = GUM_whow_languages-46
 # text = Make sure that you and your friend(s) all follow a systematic language system.
 # s_type=imp
-1	Make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Make	make	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	sure	sure	ADP	RP	_	1	compound:prt	_	_
 3	that	that	SCONJ	IN	_	9	mark	_	_
 4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
@@ -893,7 +893,7 @@
 2	other	other	ADJ	JJ	Degree=Pos	3	amod	_	_
 3	words	word	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
-5	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+5	make	make	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 6	sure	sure	ADP	RP	_	5	compound:prt	_	_
 7	that	that	SCONJ	IN	_	9	mark	_	_
 8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
@@ -908,7 +908,7 @@
 # s_type=imp
 1	Do	do	AUX	VB	VerbForm=Inf	3	aux	_	SpaceAfter=No
 2	n't	n't	PART	RB	Polarity=Neg	3	advmod	_	_
-3	use	use	VERB	VB	VerbForm=Inf	0	root	_	_
+3	use	use	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 4	random	random	ADJ	JJ	Degree=Pos	5	amod	_	_
 5	letters	letter	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	3	punct	_	_
@@ -959,7 +959,7 @@
 # sent_id = GUM_whow_languages-50
 # text = Make sure you practice saying and spelling out many basic words in your language, English examples: is, who, when, of, why, if, what, where, can, may, etc.
 # s_type=imp
-1	Make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Make	make	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	sure	sure	ADP	RP	_	1	compound:prt	_	_
 3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	_
 4	practice	practice	VERB	VB	VerbForm=Inf	1	dep	_	_
@@ -1003,11 +1003,11 @@
 # sent_id = GUM_whow_languages-51
 # text = When starting off, follow closely to a language you like.
 # s_type=imp
-1	When	when	SCONJ	WRB	PronType=Int	2	advmod	_	_
+1	When	when	SCONJ	WRB	PronType=Int	2	mark	_	_
 2	starting	start	VERB	VBG	VerbForm=Ger	5	advcl	_	_
 3	off	off	ADP	RP	_	2	compound:prt	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	2	punct	_	_
-5	follow	follow	VERB	VB	VerbForm=Inf	0	root	_	_
+5	follow	follow	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 6	closely	closely	ADV	RB	_	5	advmod	_	_
 7	to	to	ADP	TO	_	9	case	_	Typo=Yes
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
@@ -1058,7 +1058,7 @@
 # sent_id = GUM_whow_languages-54
 # text = Practice your language frequently so that you don't forget it!
 # s_type=imp
-1	Practice	practice	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Practice	practice	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 3	language	language	NOUN	NN	Number=Sing	1	obj	_	_
 4	frequently	frequently	ADV	RB	_	1	advmod	_	_
@@ -1076,7 +1076,7 @@
 # s_type=imp
 1	Do	do	AUX	VB	VerbForm=Inf	3	aux	_	SpaceAfter=No
 2	n't	n't	PART	RB	Polarity=Neg	3	advmod	_	_
-3	forget	forget	VERB	VB	VerbForm=Inf	0	root	_	_
+3	forget	forget	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 4	punctuation	punctuation	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
 5	!	!	PUNCT	.	_	3	punct	_	_
 
@@ -1090,12 +1090,12 @@
 5	and	and	CCONJ	CC	_	8	cc	_	_
 6	for	for	ADP	IN	_	8	case	_	_
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
-8	bit	bit	NOUN	NN	Number=Sing	3	conj	_	_
+8	bit	bit	NOUN	NN	Number=Sing	1	conj	_	_
 9	of	of	ADP	IN	_	11	case	_	_
 10	interesting	interesting	ADJ	JJ	Degree=Pos	11	amod	_	_
 11	background	background	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	3	punct	_	_
-13	add	add	VERB	VB	VerbForm=Inf	0	root	_	_
+13	add	add	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 14	connotation	connotation	NOUN	NN	Number=Sing	13	obj	_	_
 15	to	to	ADP	TO	_	17	case	_	_
 16	various	various	ADJ	JJ	Degree=Pos	17	amod	_	_
@@ -1112,7 +1112,7 @@
 2	do	do	VERB	VB	VerbForm=Inf	13	csubj	_	_
 3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	obj	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	2	punct	_	_
-5	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+5	think	think	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 6	of	of	ADP	IN	_	8	case	_	_
 7	various	various	ADJ	JJ	Degree=Pos	8	amod	_	_
 8	words	word	NOUN	NNS	Number=Plur	5	obl	_	_
@@ -1203,7 +1203,7 @@
 # sent_id = GUM_whow_languages-60
 # text = Try not to make your words sound like utter and complete gibberish just add a little extra than our regular English language.
 # s_type=imp
-1	Try	try	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Try	try	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	not	not	PART	RB	Polarity=Neg	4	advmod	_	_
 3	to	to	PART	TO	_	4	mark	_	_
 4	make	make	VERB	VB	VerbForm=Inf	7	xcomp	_	_
@@ -1299,7 +1299,7 @@
 # sent_id = GUM_whow_languages-64
 # text = Try this with a group of friends.
 # s_type=imp
-1	Try	try	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Try	try	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	obj	_	_
 3	with	with	ADP	IN	_	5	case	_	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
@@ -1316,7 +1316,7 @@
 3	much	much	ADV	RB	_	4	advmod	_	_
 4	more	more	ADJ	JJR	Degree=Cmp	5	amod	_	_
 5	fun	fun	NOUN	NN	Number=Sing	0	root	_	_
-6	when	when	SCONJ	WRB	PronType=Int	8	advmod	_	_
+6	when	when	SCONJ	WRB	PronType=Int	8	mark	_	_
 7	there	there	PRON	EX	_	8	expl	_	_
 8	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl	_	_
 9	other	other	ADJ	JJ	Degree=Pos	10	amod	_	_
@@ -1331,7 +1331,7 @@
 # sent_id = GUM_whow_languages-66
 # text = Email or text your friends the language so that they won't be so confused.
 # s_type=imp
-1	Email	Email	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Email	Email	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	or	or	CCONJ	CC	_	3	cc	_	_
 3	text	text	VERB	VB	VerbForm=Inf	1	conj	_	_
 4	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
@@ -1341,7 +1341,7 @@
 8	so	so	SCONJ	RB	_	15	mark	_	_
 9	that	that	SCONJ	IN	_	15	mark	_	_
 10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj:pass	_	_
-11	wo	wo	AUX	MD	VerbForm=Fin	15	aux	_	SpaceAfter=No
+11	wo	will	AUX	MD	VerbForm=Fin	15	aux	_	SpaceAfter=No
 12	n't	n't	PART	RB	Polarity=Neg	15	advmod	_	_
 13	be	be	AUX	VB	VerbForm=Inf	15	aux:pass	_	_
 14	so	so	ADV	RB	_	15	advmod	_	_
@@ -1351,13 +1351,13 @@
 # sent_id = GUM_whow_languages-67
 # text = When making a writing system, take a break about every five minutes and come back to it or all your letters will begin to look identical.
 # s_type=imp
-1	When	when	SCONJ	WRB	PronType=Int	2	advmod	_	_
+1	When	when	SCONJ	WRB	PronType=Int	2	mark	_	_
 2	making	make	VERB	VBG	VerbForm=Ger	7	advcl	_	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
 4	writing	write	VERB	VBG	VerbForm=Ger	5	compound	_	_
 5	system	system	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	2	punct	_	_
-7	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+7	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
 9	break	break	NOUN	NN	Number=Sing	7	obj	_	_
 10	about	about	ADV	RB	_	13	advmod	_	_
@@ -1425,7 +1425,7 @@
 8	—	—	PUNCT	:	_	10	punct	_	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
 10	language	language	NOUN	NN	Number=Sing	7	appos	_	_
-11	that	that	PRON	WDT	PronType=Rel	12	mark	_	_
+11	that	that	SCONJ	WDT	PronType=Rel	12	mark	_	_
 12	branches	branch	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 13	off	off	ADP	RP	_	12	compound:prt	_	_
 14	into	into	ADP	IN	_	16	case	_	_

@@ -18,7 +18,7 @@ https://github.com/UniversalDependencies/UD_English-GUM/tree/master/not-to-relea
 
 GUM annotation team (so far - thanks for participating!)
 
-Adrienne Isaac, Akitaka Yamada, Amani Aloufi, Amelia Becker, Andrea Price, Andrew O'Brien, Anna Runova, Anne Butler, Arianna Janoff, Ayan Mandal, Brandon Tullock, Brent Laing, Candice Penelton, Chenyue Guo, Colleen Diamond, Connor O'Dwyer, Dan Simonson, Didem Ikizoglu, Edwin Ko, Emily Pace, Emma Manning, Ethan Beaman, Han Bu, Hang Jiang, Hanwool Choe, Hassan Munshi, Ho Fai Cheng, Jakob Prange, Jehan al-Mahmoud, Jemm Excelle Dela Cruz, Joaquin Gris Roca, John Chi, Jongbong Lee, Juliet May, Katarina Starcevic, Katherine Vadella, Lara Bryfonski, Lindley Winchester, Logan Peng, Lucia Donatelli, Margaret Anne Rowe, Margaret Borowczyk, Maria Stoianova, Mariko Uno, Mary Henderson, Maya Barzilai, Md. Jahurul Islam, Michaela Harrington, Minnie Annan, Mitchell Abrams, Mohammad Ali Yektaie, Naomee-Minh Nguyen, Nicholas Workman, Nicole Steinberg, Rachel Thorson, Rebecca Childress, Ruizhong Li, Ryan Murphy, Sakol Suethanapornkul, Sean Macavaney, Sean Simpson, Shannon Mooney, Siddharth Singh, Siyu Liang, Stephanie Kramer, Sylvia Sierra, Timothy Ingrassia, Wenxi Yang, Xiaopei Wu, Yang Liu, Yilun Zhu, Yingzhu Chen, Yiran Xu, Young-A Son, Yushi Zhao, Zhuxin Wang, Amir Zeldes
+Adrienne Isaac, Akitaka Yamada, Amani Aloufi, Amelia Becker, Andrea Price, Andrew O\'Brien, Anna Runova, Anne Butler, Arianna Janoff, Ayan Mandal, Aysenur Sagdic, Bertille Baron, Bradford Salen, Brandon Tullock, Brent Laing, Candice Penelton, Chenyue Guo, Colleen Diamond, Connor O\'Dwyer, Dan Simonson, Didem Ikizoglu, Edwin Ko, Emily Pace, Emma Manning, Ethan Beaman, Felipe De Jesus, Han Bu, Hana Altalhi, Hang Jiang, Hanwool Choe, Hassan Munshi, Ho Fai Cheng, Jakob Prange, James Maguire, Janine Karo, Jehan al-Mahmoud, Jemm Excelle Dela Cruz, Jessica Kotfila, Joaquin Gris Roca, John Chi, Jongbong Lee, Juliet May, Katarina Starcevic, Katelyn MacDougald, Katherine Vadella, Lara Bryfonski, Lindley Winchester, Logan Peng, Lucia Donatelli, Luke Gessler, Mackenzie Gong, Margaret Anne Rowe, Margaret Borowczyk, Maria Stoianova, Mariko Uno, Mary Henderson, Maya Barzilai, Md. Jahurul Islam, Michael Kranzlein, Michaela Harrington, Minnie Annan, Mitchell Abrams, Mohammad Ali Yektaie, Naomee-Minh Nguyen, Nicholas Workman, Nicole Steinberg, Rachel Thorson, Rebecca Childress, Rebecca Farkas, Rima Elabdali, Robert Maloney, Ruizhong Li, Ryan Murphy, Sakol Suethanapornkul, Sasha Slone, Sean Macavaney, Sean Simpson, Shannon Mooney, Shelby Lake, Siddharth Singh, Siyu Liang, Stephanie Kramer, Sylvia Sierra, Timothy Ingrassia, Trevor Adriaanse, Wenxi Yang, Xiaopei Wu, Yang Liu, Yilun Zhu, Yingzhu Chen, Yiran Xu, Young-A Son, Yu-Tzu Chang, Yuhang Hu, Yushi Zhao, Zhuxin Wang, Amir Zeldes
 
 ... and other annotators who wish to remain anonymous!
 
@@ -28,15 +28,31 @@ As a scholarly citation for the corpus in articles, please use this paper:
 
 * Zeldes, Amir (2017) "The GUM Corpus: Creating Multilayer Resources in the Classroom". Language Resources and Evaluation 51(3), 581–612.
 
+```
+@Article{Zeldes2017,
+  author    = {Amir Zeldes},
+  title     = {The {GUM} Corpus: Creating Multilayer Resources in the Classroom},
+  journal   = {Language Resources and Evaluation},
+  year      = {2017},
+  volume    = {51},
+  number    = {3},
+  pages     = {581--612},
+  doi       = {http://dx.doi.org/10.1007/s10579-016-9343-x}
+}
+```
 
 # Changelog
 
+* 2019-03-21
+  * Added new documents from GUM version 5
+  * Numerous error corrections, now conforming to UD2.4 validation
+
 * 2018-11-08 v2.3
   * Added 'multiple' s_type annotation value (formerly subsumed in 'other')
-  * Numerous error corrections.
+  * Numerous error corrections
 
 * 2018-07-01 v2.2
-  * First official release.
+  * First official release
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================

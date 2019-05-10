@@ -2,7 +2,7 @@
 # sent_id = GUM_whow_quidditch-1
 # text = How to Play Muggle Quidditch
 # s_type=inf
-1	How	How	SCONJ	WRB	PronType=Int	3	advmod	_	_
+1	How	how	SCONJ	WRB	PronType=Int	3	mark	_	_
 2	to	to	PART	TO	_	3	mark	_	_
 3	Play	Play	VERB	VB	VerbForm=Inf	0	root	_	_
 4	Muggle	Muggle	NOUN	NN	Number=Sing	5	compound	_	_
@@ -146,7 +146,7 @@
 # sent_id = GUM_whow_quidditch-8
 # text = Gather all needed materials and players (see Things You'll Need section below).
 # s_type=imp
-1	Gather	Gather	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Gather	Gather	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	all	all	DET	DT	_	4	det	_	_
 3	needed	need	ADJ	JJ	Degree=Pos	4	amod	_	_
 4	materials	material	NOUN	NNS	Number=Plur	1	obj	_	_
@@ -166,7 +166,7 @@
 # sent_id = GUM_whow_quidditch-9
 # text = Know that all players can play while riding a broom.
 # s_type=imp
-1	Know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Know	know	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	that	that	SCONJ	IN	_	6	mark	_	_
 3	all	all	DET	DT	_	4	det	_	_
 4	players	player	NOUN	NNS	Number=Plur	6	nsubj	_	_
@@ -200,7 +200,7 @@
 # sent_id = GUM_whow_quidditch-11
 # text = Place the quaffle and three bludgers in the middle of the field.
 # s_type=imp
-1	Place	place	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Place	place	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 3	quaffle	quaffle	NOUN	NN	Number=Sing	1	obj	_	_
 4	and	and	CCONJ	CC	_	6	cc	_	_
@@ -240,7 +240,7 @@
 # sent_id = GUM_whow_quidditch-13
 # text = Start the game.
 # s_type=imp
-1	Start	start	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Start	start	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 3	game	game	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	_	_
@@ -267,7 +267,7 @@
 # sent_id = GUM_whow_quidditch-15
 # text = Follow your duty depending what type of player you are:
 # s_type=imp
-1	Follow	follow	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Follow	follow	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 3	duty	duty	NOUN	NN	Number=Sing	1	obj	_	_
 4	depending	depend	VERB	VBG	VerbForm=Ger	5	case	_	_
@@ -437,10 +437,10 @@
 16	to	to	ADP	TO	_	18	case	_	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
 18	snitch	snitch	NOUN	NN	Number=Sing	15	obl	_	_
-19	such	such	ADJ	JJ	Degree=Pos	18	nmod	_	_
-20	as	as	ADP	IN	_	22	case	_	_
+19	such	such	ADJ	JJ	Degree=Pos	22	case	_	_
+20	as	as	ADP	IN	_	19	fixed	_	_
 21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
-22	sock	sock	NOUN	NN	Number=Sing	19	fixed	_	_
+22	sock	sock	NOUN	NN	Number=Sing	18	nmod	_	_
 23	or	or	CCONJ	CC	_	24	cc	_	_
 24	flag	flag	NOUN	NN	Number=Sing	22	conj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	2	punct	_	_
@@ -520,11 +520,11 @@
 # s_type=decl
 1	Other	other	ADJ	JJ	Degree=Pos	2	amod	_	_
 2	methods	method	NOUN	NNS	Number=Plur	12	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	,	_	4	punct	_	_
-4	such	such	ADJ	JJ	Degree=Pos	2	nmod	_	_
-5	as	as	ADP	IN	_	7	case	_	_
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	such	such	ADJ	JJ	Degree=Pos	7	case	_	_
+5	as	as	ADP	IN	_	4	fixed	_	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
-7	method	method	NOUN	NN	Number=Sing	4	fixed	_	_
+7	method	method	NOUN	NN	Number=Sing	2	nmod	_	_
 8	adopted	adopt	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	_
 9	in	in	ADP	IN	_	10	case	_	_
 10	2005	@card@	NUM	CD	NumType=Card	8	obl	_	SpaceAfter=No
@@ -666,7 +666,7 @@
 # sent_id = GUM_whow_quidditch-32
 # text = Play the game!
 # s_type=imp
-1	Play	play	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Play	play	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 3	game	game	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
 4	!	!	PUNCT	.	_	1	punct	_	_
@@ -689,7 +689,7 @@
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
 14	game	game	NOUN	NN	Number=Sing	15	nsubj	_	_
 15	ends	end	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
-16	when	when	SCONJ	WRB	PronType=Int	19	advmod	_	_
+16	when	when	SCONJ	WRB	PronType=Int	19	mark	_	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
 18	seeker	seeker	NOUN	NN	Number=Sing	19	nsubj	_	_
 19	snatches	snatch	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
@@ -700,7 +700,7 @@
 # sent_id = GUM_whow_quidditch-34
 # text = Feel free to alter the game rules.
 # s_type=imp
-1	Feel	feel	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Feel	feel	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	free	free	ADJ	JJ	Degree=Pos	1	xcomp	_	_
 3	to	to	PART	TO	_	4	mark	_	_
 4	alter	alter	VERB	VB	VerbForm=Inf	2	xcomp	_	_
@@ -712,7 +712,7 @@
 # sent_id = GUM_whow_quidditch-35
 # text = See the Tips section for suggestions.
 # s_type=imp
-1	See	see	VERB	VB	VerbForm=Inf	0	root	_	_
+1	See	see	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 3	Tips	tip	NOUN	NNS	Number=Plur	4	compound	_	_
 4	section	section	NOUN	NN	Number=Sing	1	obj	_	_
@@ -728,7 +728,7 @@
 # sent_id = GUM_whow_quidditch-37
 # text = How to Play a Real-Life Game of Quidditch
 # s_type=inf
-1	How	How	SCONJ	WRB	PronType=Int	3	advmod	_	_
+1	How	how	SCONJ	WRB	PronType=Int	3	mark	_	_
 2	to	to	PART	TO	_	3	mark	_	_
 3	Play	play	VERB	VB	VerbForm=Inf	0	root	_	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
@@ -804,7 +804,7 @@
 13	work	work	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
 14	great	great	ADV	RB	_	13	advmod	_	SpaceAfter=No
 15	)	)	PUNCT	-RRB-	_	13	punct	_	_
-16	that	that	PRON	WDT	PronType=Rel	18	mark	_	_
+16	that	that	SCONJ	WDT	PronType=Rel	18	mark	_	_
 17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
 18	hidden	hide	VERB	VBN	Tense=Past|VerbForm=Part	9	acl:relcl	_	_
 19	before	before	SCONJ	IN	_	22	mark	_	_
@@ -821,7 +821,7 @@
 # sent_id = GUM_whow_quidditch-42
 # text = Establish boundaries and have the seekers look for the snitch.
 # s_type=imp
-1	Establish	establish	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Establish	establish	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	boundaries	boundary	NOUN	NNS	Number=Plur	1	obj	_	_
 3	and	and	CCONJ	CC	_	4	cc	_	_
 4	have	have	VERB	VB	VerbForm=Inf	1	conj	_	_
@@ -920,7 +920,7 @@
 # sent_id = GUM_whow_quidditch-47
 # text = Remember that the snitch runner, if you choose to use one, is not an actual player in the game, therefore, not bound by any of the rules.
 # s_type=imp
-1	Remember	remember	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Remember	remember	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	that	that	SCONJ	IN	_	18	mark	_	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
 4	snitch	snitch	NOUN	NN	Number=Sing	5	compound	_	_
@@ -941,7 +941,7 @@
 19	in	in	ADP	IN	_	21	case	_	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
 21	game	game	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	,	_	26	punct	_	_
+22	,	,	PUNCT	,	_	23	punct	_	_
 23	therefore	therefore	ADV	RB	_	26	advmod	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	23	punct	_	_
 25	not	not	PART	RB	Polarity=Neg	26	advmod	_	_
@@ -978,8 +978,8 @@
 # sent_id = GUM_whow_quidditch-49
 # text = See How to Be a Snitch in Quidditch for more information.
 # s_type=imp
-1	See	see	VERB	VB	VerbForm=Inf	0	root	_	_
-2	How	How	SCONJ	WRB	PronType=Int	6	advmod	_	_
+1	See	see	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	How	how	SCONJ	WRB	PronType=Int	6	mark	_	_
 3	to	to	PART	TO	_	6	mark	_	_
 4	Be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
@@ -1018,7 +1018,7 @@
 # sent_id = GUM_whow_quidditch-52
 # text = Have someone throw something (the snitch) on a line into the pool at regular intervals.
 # s_type=imp
-1	Have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Have	have	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	someone	someone	NOUN	NN	Number=Sing	3	nsubj	_	_
 3	throw	throw	VERB	VB	VerbForm=Inf	1	ccomp	_	_
 4	something	something	NOUN	NN	Number=Sing	3	obj	_	_
@@ -1104,7 +1104,7 @@
 # sent_id = GUM_whow_quidditch-57
 # text = Find a quarter or another small coin.
 # s_type=imp
-1	Find	find	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Find	find	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 3	quarter	quarter	NOUN	NN	Number=Sing	1	obj	_	_
 4	or	or	CCONJ	CC	_	7	cc	_	_
@@ -1116,7 +1116,7 @@
 # sent_id = GUM_whow_quidditch-58
 # text = Have both of the teams turn around and have the referee throw it into the grass or pitch while the teams aren't looking.
 # s_type=imp
-1	Have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Have	have	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	both	both	PRON	DT	_	6	nsubj	_	_
 3	of	of	ADP	IN	_	5	case	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
@@ -1145,7 +1145,7 @@
 # sent_id = GUM_whow_quidditch-59
 # text = Play while the seekers look for the snitch.
 # s_type=imp
-1	Play	play	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Play	play	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	while	while	SCONJ	IN	_	5	mark	_	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 4	seekers	seeker	NOUN	NNS	Number=Plur	5	nsubj	_	_
@@ -1161,13 +1161,13 @@
 1	Another	another	DET	DT	_	2	det	_	_
 2	variation	variation	NOUN	NN	Number=Sing	7	nsubj	_	_
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-4	where	where	SCONJ	WRB	PronType=Int	7	advmod	_	_
+4	where	where	SCONJ	WRB	PronType=Int	7	mark	_	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
 6	referee	referee	NOUN	NN	Number=Sing	7	nsubj	_	_
 7	places	place	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
 9	snitch	snitch	NOUN	NN	Number=Sing	7	obj	_	_
-10	somewhere	somewhere	ADV	RB	_	11	advmod	_	_
+10	somewhere	somewhere	ADV	RB	_	13	advmod	_	_
 11	in	in	ADP	IN	_	13	case	_	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
 13	field	field	NOUN	NN	Number=Sing	7	obl	_	_
@@ -1219,7 +1219,7 @@
 # sent_id = GUM_whow_quidditch-63
 # text = Stay hydrated and exercise wisely.
 # s_type=imp
-1	Stay	Stay	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Stay	Stay	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	hydrated	hydrate	VERB	VBN	Tense=Past|VerbForm=Part	1	xcomp	_	_
 3	and	and	CCONJ	CC	_	4	cc	_	_
 4	exercise	exercise	VERB	VB	VerbForm=Inf	1	conj	_	_
@@ -1330,7 +1330,7 @@
 5	balls	ball	NOUN	NNS	Number=Plur	4	goeswith	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	8	punct	_	_
 7	water	water	NOUN	NN	Number=Sing	8	compound	_	_
-8	balloons	balloon	NOUN	NNS	Number=Plur	5	conj	_	SpaceAfter=No
+8	balloons	balloon	NOUN	NNS	Number=Plur	4	conj	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	11	punct	_	_
 10	wiffle	wiffle	NOUN	NN	Number=Sing	11	compound	_	_
 11	balls	ball	NOUN	NNS	Number=Plur	8	conj	_	_
@@ -1341,11 +1341,11 @@
 # text = 1 Quaffle (volleyball, Frisbee, soccer ball, etc.)
 # s_type=frag
 1	1	1	NUM	CD	NumType=Card	2	nummod	_	_
-2	Quaffle	Quaffle	NOUN	NN	Number=Sing	0	root	_	_
+2	Quaffle	quaffle	NOUN	NN	Number=Sing	0	root	_	_
 3	(	(	PUNCT	-LRB-	_	4	punct	_	SpaceAfter=No
 4	volleyball	volleyball	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	_	_
-6	Frisbee	Frisbee	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+6	Frisbee	frisbee	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	_	_
 8	soccer	soccer	NOUN	NN	Number=Sing	9	compound	_	_
 9	ball	ball	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No

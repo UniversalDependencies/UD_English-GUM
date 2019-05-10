@@ -78,7 +78,7 @@
 8	,	,	PUNCT	,	_	16	punct	_	_
 9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	SpaceAfter=No
 10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
-11	sort	sort	NOUN	NN	Number=Sing	16	advmod	_	_
+11	sort	sort	NOUN	NN	Number=Sing	16	obl:npmod	_	_
 12	of	of	ADP	IN	_	11	fixed	_	_
 13	like	like	ADP	IN	_	16	case	_	_
 14	an	an	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
@@ -93,7 +93,7 @@
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	started	start	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
-4	basically	basically	ADV	RB	_	6	advmod	_	SpaceAfter=No
+4	basically	basically	ADV	RB	_	8	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	_	_
 6	because	because	SCONJ	IN	_	8	mark	_	_
 7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
@@ -173,7 +173,7 @@
 48	to	to	PART	TO	_	49	mark	_	_
 49	illustrate	illustrate	VERB	VB	VerbForm=Inf	47	xcomp	_	_
 50	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	49	obj	_	SpaceAfter=No
-51	,	,	PUNCT	,	_	58	punct	_	_
+51	,	,	PUNCT	,	_	52	punct	_	_
 52	and	and	CCONJ	CC	_	58	cc	_	_
 53	so	so	ADV	RB	_	58	advmod	_	SpaceAfter=No
 54	,	,	PUNCT	,	_	53	punct	_	_
@@ -203,7 +203,7 @@
 9	own	own	ADJ	JJ	Degree=Pos	11	amod	_	_
 10	original	original	ADJ	JJ	Degree=Pos	11	amod	_	_
 11	content	content	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
-12	,	,	PUNCT	,	_	18	punct	_	_
+12	,	,	PUNCT	,	_	13	punct	_	_
 13	and	and	CCONJ	CC	_	18	cc	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	13	punct	_	_
 15	yep	yep	INTJ	UH	_	18	discourse	_	SpaceAfter=No
@@ -221,7 +221,7 @@
 # text = How did you two meet?
 # s_type=wh
 # speaker=Wikinews
-1	How	how	SCONJ	WRB	PronType=Int	5	advmod	_	_
+1	How	how	SCONJ	WRB	PronType=Int	5	mark	_	_
 2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
 3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
 4	two	two	NUM	CD	NumType=Card	3	nummod	_	_
@@ -262,7 +262,7 @@
 # speaker=IsabelRuiz
 1	But	but	CCONJ	CC	_	21	cc	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	_	_
-3	before	before	ADP	IN	_	10	advmod	_	Typo=Yes
+3	before	before	ADV	IN	_	10	advmod	_	Typo=Yes
 4	hand	hand	NOUN	NN	Number=Sing	3	goeswith	_	Typo=Yes
 5	in	in	ADP	IN	_	7	case	_	_
 6	middle	middle	ADJ	JJ	Degree=Pos	7	amod	_	_
@@ -296,7 +296,7 @@
 # text = And, everyone, all of our friends and all of our acquaintances would say," Hey, you'd get along with him really well."
 # s_type=decl
 # speaker=IsabelRuiz
-1	And	and	CCONJ	CC	_	22	cc	_	SpaceAfter=No
+1	And	and	CCONJ	CC	_	15	cc	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	_	_
 3	everyone	everyone	NOUN	NN	Number=Sing	15	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	_	_
@@ -311,7 +311,7 @@
 13	acquaintances	acquaintance	NOUN	NNS	Number=Plur	10	nmod	_	_
 14	would	would	AUX	MD	VerbForm=Fin	15	aux	_	_
 15	say	say	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
-16	,	,	PUNCT	,	_	22	punct	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	SpaceAfter=No
 17	"	"	PUNCT	''	_	22	punct	_	_
 18	Hey	Hey	INTJ	UH	_	22	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	18	punct	_	_
@@ -331,7 +331,7 @@
 # s_type=decl
 # speaker=IsabelRuiz
 1	So	so	ADV	RB	_	6	advmod	_	_
-2	before	before	ADP	IN	_	6	advmod	_	Typo=Yes
+2	before	before	ADV	IN	_	6	advmod	_	Typo=Yes
 3	hand	hand	NOUN	NN	Number=Sing	2	goeswith	_	Typo=Yes
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 5	kinda	kinda	ADV	RB	_	6	advmod	_	_
@@ -395,7 +395,7 @@
 1	Who	who	PRON	WP	PronType=Int	4	nsubj:pass	_	_
 2	else	else	ADV	RB	_	1	advmod	_	_
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
-4	involved	involve	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	involved	involve	VERB	VBN	Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
 5	in	in	ADP	IN	_	7	case	_	_
 6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
 7	project	project	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
@@ -510,7 +510,7 @@
 # speaker=IsabelRuiz
 1	There	There	PRON	EX	_	2	expl	_	SpaceAfter=No
 2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	of	of	ADP	IN	_	2	advmod	_	_
+3	of	of	ADV	IN	_	2	advmod	_	_
 4	course	course	NOUN	NN	Number=Sing	3	fixed	_	_
 5	Jason	Jason	PROPN	NNP	Number=Sing	2	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	10	punct	_	_
@@ -596,7 +596,7 @@
 1	and	and	CCONJ	CC	_	8	cc	_	_
 2	...	...	PUNCT	:	_	1	punct	_	_
 3	(	(	PUNCT	-LRB-	_	8	punct	_	SpaceAfter=No
-4	how	how	SCONJ	WRB	PronType=Int	8	advmod	_	_
+4	how	how	SCONJ	WRB	PronType=Int	8	mark	_	_
 5	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 7	best	good	ADJ	JJS	Degree=Sup	8	advmod	_	_
@@ -705,7 +705,7 @@
 31	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	obl	_	_
 32	everywhere	everywhere	ADV	RB	_	28	advmod	_	SpaceAfter=No
 33	,	,	PUNCT	,	_	37	punct	_	_
-34	where	where	SCONJ	WRB	PronType=Int	37	advmod	_	_
+34	where	where	SCONJ	WRB	PronType=Int	37	mark	_	_
 35	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	SpaceAfter=No
 36	'd	will	AUX	MD	VerbForm=Fin	37	aux	_	_
 37	draw	draw	VERB	VB	VerbForm=Inf	23	acl	_	_
@@ -908,7 +908,7 @@
 20	into	into	ADP	IN	_	23	case	_	_
 21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
 22	media	medium	NOUN	NNS	Number=Plur	23	compound	_	_
-23	industry	industry	NOUN	NN	Number=Sing	18	conj	_	SpaceAfter=No
+23	industry	industry	NOUN	NN	Number=Sing	16	conj	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	26	punct	_	_
 25	specifically	specifically	ADV	RB	_	26	advmod	_	_
 26	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_

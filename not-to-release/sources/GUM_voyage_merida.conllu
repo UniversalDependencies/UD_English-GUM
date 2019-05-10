@@ -68,7 +68,7 @@
 # sent_id = GUM_voyage_merida-6
 # text = Understand
 # s_type=imp
-1	Understand	understand	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Understand	understand	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 
 # sent_id = GUM_voyage_merida-7
 # text = Mérida is a city of contrasts.
@@ -105,7 +105,7 @@
 # sent_id = GUM_voyage_merida-9
 # text = Downtown, there are hotels and restaurants to suit every budget.
 # s_type=decl
-1	Downtown	downtown	NOUN	NN	Number=Sing	4	advmod	_	SpaceAfter=No
+1	Downtown	downtown	NOUN	NN	Number=Sing	4	obl:npmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	_	_
 3	there	there	PRON	EX	_	4	expl	_	_
 4	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -131,7 +131,7 @@
 8	shops	shop	NOUN	NNS	Number=Plur	4	conj	_	_
 9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
 10	found	find	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
-11	all	all	ADV	RB	_	12	advmod	_	_
+11	all	all	ADV	RB	_	15	advmod	_	_
 12	around	around	ADP	IN	_	15	case	_	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
 14	main	main	ADJ	JJ	Degree=Pos	15	amod	_	_
@@ -386,7 +386,7 @@
 2	daytime	daytime	ADJ	JJ	Degree=Pos	3	amod	_	_
 3	temperature	temperature	NOUN	NN	Number=Sing	4	nsubj	_	_
 4	varies	vary	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	;	;	PUNCT	:	_	13	punct	_	_
+5	;	;	PUNCT	:	_	7	punct	_	_
 6	in	in	ADP	IN	_	7	case	_	_
 7	January	January	PROPN	NNP	Number=Sing	13	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	7	punct	_	_
@@ -477,7 +477,7 @@
 15	and	and	CCONJ	CC	_	17	cc	_	_
 16	this	this	PRON	DT	Number=Sing|PronType=Dem	17	nsubj	_	_
 17	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
-18	when	when	SCONJ	WRB	PronType=Int	23	advmod	_	_
+18	when	when	SCONJ	WRB	PronType=Int	23	mark	_	_
 19	many	many	ADJ	JJ	Degree=Pos	23	nsubj	_	_
 20	of	of	ADP	IN	_	22	case	_	_
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
@@ -560,7 +560,7 @@
 # sent_id = GUM_voyage_merida-27
 # text = Take your time and really explore the Maya sites, walk for miles along the Gulf of Mexico, attend a village festival, photograph the wildlife, crawl through a cave or swim in a cenote.
 # s_type=imp
-1	Take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+1	Take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 3	time	time	NOUN	NN	Number=Sing	1	obj	_	_
 4	and	and	CCONJ	CC	_	6	cc	_	_
@@ -625,9 +625,9 @@
 6	information	information	NOUN	NN	Number=Sing	7	compound	_	_
 7	offices	office	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	13	punct	_	_
-9	all	all	PRON	DT	_	10	dep	_	_
+9	all	all	PRON	DT	_	13	nsubj	_	_
 10	of	of	ADP	IN	_	11	case	_	_
-11	which	which	PRON	WDT	PronType=Rel	13	nsubj	_	_
+11	which	which	PRON	WDT	PronType=Int	9	nmod	_	_
 12	can	can	AUX	MD	VerbForm=Fin	13	aux	_	_
 13	offer	offer	VERB	VB	VerbForm=Inf	7	acl:relcl	_	_
 14	helpful	helpful	ADJ	JJ	Degree=Pos	15	amod	_	_
