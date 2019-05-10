@@ -3,11 +3,11 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_English-GUM:
-commit b30cb771285f0535982c2391eae4d49e0791acae
-Merge: 26da18c dd38dff
+commit 1c161bac8a4965008ec17cec168aa5ac5ea72108
+Merge: d6ba666 9d4b1b8
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 80176 of 80176 words (nodes).
-Size: min(0, log((N/1000)**2)) = 8.76844843643474.
+Size: counted 97697 of 97697 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.16374170466738.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,12 +15,12 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 53149 out of 80176 total words have one or more features.
+Features: 64172 out of 97697 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 1968 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 80176 words.
+Udapi: found 2082 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 97697 words.
 Genres: found 7 out of 17 known.
 validate.py --lang en --max-err=10 UD_English-GUM/en_gum-ud-dev.conllu
 *** PASSED ***
@@ -32,11 +32,11 @@ Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.411764705882353) = 0.0316742081447964
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.634681461799467) = 0.162738836358838
+(weight=0.256410256410256) * (score{size}=0.663293742653957) = 0.17007531862922
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.754540011973658) = 0.232166157530356
+(weight=0.307692307692308) * (score{udapi}=0.786892125653807) = 0.242120654047325
 (weight=0.0769230769230769) * (score{udeprels}=0.756756756756757) = 0.0582120582120582
-(TOTAL score=0.720688696143485) * (availability=1) * (validity=1) = 0.720688696143485
+(TOTAL score=0.737979674930835) * (availability=1) * (validity=1) = 0.737979674930835
 STARS = 3.5
-UD_English-GUM	0.720688696143485	3.5
+UD_English-GUM	0.737979674930835	3.5
