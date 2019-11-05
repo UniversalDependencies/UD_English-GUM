@@ -21,28 +21,28 @@
 # s_type=frag
 1	Michiel	Michiel	PROPN	NNP	Number=Sing	0	root	_	_
 2	Cock	Cock	PROPN	NNP	Number=Sing	1	flat	_	_
-3	m.p.cock@vu.nl	m.p.cock@vu.nl	PROPN	NNP	Number=Sing	1	appos	_	_
-4	Vrije	Vrije	X	FW	_	5	compound	_	_
-5	Universiteit	Universiteit	X	FW	_	1	nmod:npmod	_	_
-6	Amsterdam	Amsterdam	PROPN	NNP	Number=Sing	5	nmod:npmod	_	SpaceAfter=No
+3	m.p.cock@vu.nl	m.p.cock@vu.nl	PROPN	NNP	Number=Sing	1	list	_	_
+4	Vrije	Vrije	X	FW	_	1	list	_	_
+5	Universiteit	Universiteit	X	FW	_	4	flat	_	_
+6	Amsterdam	Amsterdam	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	_	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
-9	Netherlands	Netherlands	PROPN	NNPS	Number=Plur	6	nmod:npmod	_	_
+9	Netherlands	Netherlands	PROPN	NNPS	Number=Plur	1	list	_	_
 
 # sent_id = GUM_academic_librarians-4
 # text = Lotte Wilms lotte.wilms@kb.nl National Library of the Netherlands, the Netherlands
 # s_type=frag
 1	Lotte	Lotte	PROPN	NNP	Number=Sing	0	root	_	_
 2	Wilms	Wilms	PROPN	NNP	Number=Sing	1	flat	_	_
-3	lotte.wilms@kb.nl	lotte.wilms@kb.nl	PROPN	NNP	Number=Sing	1	appos	_	_
+3	lotte.wilms@kb.nl	lotte.wilms@kb.nl	PROPN	NNP	Number=Sing	1	list	_	_
 4	National	National	PROPN	NNP	Number=Sing	5	amod	_	_
-5	Library	Library	PROPN	NNP	Number=Sing	1	nmod:npmod	_	_
+5	Library	Library	PROPN	NNP	Number=Sing	1	list	_	_
 6	of	of	ADP	IN	_	8	case	_	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
 8	Netherlands	Netherlands	PROPN	NNPS	Number=Plur	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	11	punct	_	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
-11	Netherlands	Netherlands	PROPN	NNPS	Number=Plur	8	nmod:npmod	_	_
+11	Netherlands	Netherlands	PROPN	NNPS	Number=Plur	1	list	_	_
 
 # sent_id = GUM_academic_librarians-5
 # text = In 2015, an initiative was started to set up a Dutch speaking DH+Lib community in the Netherlands and Belgium, based on the example of the American communal space of librarians, archivists, LIS graduate students, and information specialists to discuss topics ‘Where the Digital Humanities and Libraries meet’.
@@ -50,7 +50,7 @@
 1	In	in	ADP	IN	_	2	case	_	_
 2	2015	@card@	NUM	CD	NumType=Card	7	obl	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
-4	an	an	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
 5	initiative	initiative	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
 6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
 7	started	start	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
@@ -331,7 +331,7 @@
 18	in	in	SCONJ	IN	_	23	mark	_	_
 19	order	order	NOUN	NN	Number=Sing	18	fixed	_	_
 20	for	for	ADP	IN	_	18	fixed	_	_
-21	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
+21	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
 22	to	to	PART	TO	_	23	mark	_	_
 23	take	take	VERB	VB	VerbForm=Inf	7	advcl	_	_
 24	up	up	ADP	RP	_	23	compound:prt	_	_
@@ -405,7 +405,7 @@
 5	sessions	session	NOUN	NNS	Number=Plur	2	nmod	_	_
 6	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
 7	enable	enable	VERB	VB	VerbForm=Inf	0	root	_	_
-8	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
 9	to	to	PART	TO	_	10	mark	_	_
 10	provide	provide	VERB	VB	VerbForm=Inf	7	xcomp	_	_
 11	services	service	NOUN	NNS	Number=Plur	10	obj	_	_
@@ -450,7 +450,7 @@
 5	out	out	ADP	RP	_	4	compound:prt	_	_
 6	to	to	PART	TO	_	7	mark	_	_
 7	turn	turn	VERB	VB	VerbForm=Inf	4	xcomp	_	_
-8	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
 9	into	into	ADP	IN	_	10	case	_	_
 10	programmers	programmer	NOUN	NNS	Number=Plur	7	obl	_	_
 11	or	or	CCONJ	CC	_	13	cc	_	_

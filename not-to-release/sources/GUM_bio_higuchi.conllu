@@ -2,19 +2,19 @@
 # sent_id = GUM_bio_higuchi-1
 # text = Ichiyō Higuchi
 # s_type=frag
-1	Ichiyō	Ichiyō	PROPN	NNP	Number=Sing	2	compound	_	_
-2	Higuchi	Higuchi	PROPN	NNP	Number=Sing	0	root	_	_
+1	Ichiyō	Ichiyō	PROPN	NNP	Number=Sing	0	root	_	_
+2	Higuchi	Higuchi	PROPN	NNP	Number=Sing	1	flat	_	_
 
 # sent_id = GUM_bio_higuchi-2
 # text = Ichiyō Higuchi (樋口 一葉 Higuchi Ichiyō, May 2, 1872 – November 23, 1896) was a pen name of Japanese author Natsu Higuchi (樋口 奈津 Higuchi Natsu), also known as Natsuko Higuchi (樋口 夏子 Higuchi Natsuko).
 # s_type=decl
-1	Ichiyō	Ichiyō	PROPN	NNP	Number=Sing	2	compound	_	_
-2	Higuchi	Higuchi	PROPN	NNP	Number=Sing	22	nsubj	_	_
+1	Ichiyō	Ichiyō	PROPN	NNP	Number=Sing	22	nsubj	_	_
+2	Higuchi	Higuchi	PROPN	NNP	Number=Sing	1	flat	_	_
 3	(	(	PUNCT	-LRB-	_	4	punct	_	SpaceAfter=No
 4	樋口	樋口	X	FW	_	2	appos	_	_
-5	一葉	一葉	X	FW	_	4	compound	_	_
+5	一葉	一葉	X	FW	_	4	flat	_	_
 6	Higuchi	Higuchi	PROPN	NNP	Number=Sing	2	appos	_	_
-7	Ichiyō	Ichiyō	PROPN	NNP	Number=Sing	6	compound	_	SpaceAfter=No
+7	Ichiyō	Ichiyō	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	10	punct	_	_
 9	May	May	PROPN	NNP	Number=Sing	10	compound	_	_
 10	2	2	NUM	CD	NumType=Card	2	nmod:tmod	_	SpaceAfter=No
@@ -37,9 +37,9 @@
 27	Higuchi	Higuchi	PROPN	NNP	Number=Sing	25	appos	_	_
 28	(	(	PUNCT	-LRB-	_	29	punct	_	SpaceAfter=No
 29	樋口	樋口	X	FW	_	25	appos	_	_
-30	奈津	奈津	X	FW	_	29	compound	_	_
+30	奈津	奈津	X	FW	_	29	flat	_	_
 31	Higuchi	Higuchi	PROPN	NNP	Number=Sing	27	appos	_	_
-32	Natsu	Natsu	PROPN	NNP	Number=Sing	31	compound	_	SpaceAfter=No
+32	Natsu	Natsu	PROPN	NNP	Number=Sing	31	flat	_	SpaceAfter=No
 33	)	)	PUNCT	-RRB-	_	31	punct	_	SpaceAfter=No
 34	,	,	PUNCT	,	_	36	punct	_	_
 35	also	also	ADV	RB	_	36	advmod	_	_
@@ -49,9 +49,9 @@
 39	Higuchi	Higuchi	PROPN	NNP	Number=Sing	38	flat	_	_
 40	(	(	PUNCT	-LRB-	_	41	punct	_	SpaceAfter=No
 41	樋口	樋口	X	FW	_	38	appos	_	_
-42	夏子	夏子	X	FW	_	41	compound	_	_
+42	夏子	夏子	X	FW	_	41	flat	_	_
 43	Higuchi	Higuchi	PROPN	NNP	Number=Sing	38	appos	_	_
-44	Natsuko	Natsuko	PROPN	NNP	Number=Sing	43	compound	_	SpaceAfter=No
+44	Natsuko	Natsuko	PROPN	NNP	Number=Sing	43	flat	_	SpaceAfter=No
 45	)	)	PUNCT	-RRB-	_	43	punct	_	SpaceAfter=No
 46	.	.	PUNCT	.	_	22	punct	_	_
 
@@ -256,7 +256,7 @@
 16	poet-turned-fiction-writer	poet-turned-fiction-writer	NOUN	NN	Number=Sing	10	obj	_	_
 17	and	and	CCONJ	CC	_	18	cc	_	_
 18	connect	connect	VERB	VB	VerbForm=Inf	10	conj	_	_
-19	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+19	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
 20	with	with	ADP	IN	_	21	case	_	_
 21	editors	editor	NOUN	NNS	Number=Plur	18	obl	_	SpaceAfter=No
 22	:	:	PUNCT	:	_	23	punct	_	_
@@ -272,7 +272,7 @@
 3	in	in	ADP	IN	_	4	case	_	_
 4	love	love	NOUN	NN	Number=Sing	2	obl	_	_
 5	with	with	ADP	IN	_	6	case	_	_
-6	him	him	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
 7	right	right	ADV	RB	_	8	advmod	_	_
 8	away	away	ADV	RB	_	2	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	11	punct	_	_
@@ -340,12 +340,12 @@
 11	,	,	PUNCT	,	_	7	punct	_	_
 12	love	love	NOUN	NN	Number=Sing	5	obj	_	_
 13	for	for	ADP	IN	_	14	case	_	_
-14	him	him	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nmod	_	SpaceAfter=No
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	18	punct	_	_
 16	and	and	CCONJ	CC	_	18	cc	_	_
 17	instead	instead	ADV	RB	_	18	advmod	_	_
 18	treated	treat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
-19	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+19	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
 20	as	as	ADP	IN	_	23	case	_	_
 21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
 22	younger	young	ADJ	JJR	Degree=Cmp	23	amod	_	_
@@ -527,7 +527,7 @@
 31	who	who	PRON	WP	PronType=Rel	33	nsubj	_	_
 32	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
 33	abandoned	abandon	VERB	VBN	Tense=Past|VerbForm=Part	30	acl:relcl	_	_
-34	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	obj	_	_
+34	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	obj	_	_
 35	(	(	PUNCT	-LRB-	_	37	punct	_	SpaceAfter=No
 36	and	and	CCONJ	CC	_	37	cc	_	_
 37	remains	remain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	conj	_	_
@@ -547,7 +547,7 @@
 51	in	in	ADP	IN	_	52	case	_	_
 52	love	love	NOUN	NN	Number=Sing	50	obl	_	_
 53	with	with	ADP	IN	_	54	case	_	_
-54	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	52	nmod	_	SpaceAfter=No
+54	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	52	nmod	_	SpaceAfter=No
 55	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = GUM_bio_higuchi-21
@@ -604,7 +604,7 @@
 6	prestigious	prestigious	ADJ	JJ	Degree=Pos	7	amod	_	_
 7	journal	journal	NOUN	NN	Number=Sing	3	obl	_	_
 8	Miyako	Miyako	X	FW	_	10	compound	_	_
-9	no	no	X	FW	_	10	compound	_	_
+9	no	no	X	FW	Polarity=Neg	10	compound	_	_
 10	Hana	Hana	X	FW	_	7	appos	_	_
 11	in	in	ADP	IN	_	12	case	_	_
 12	1892	@card@	NUM	CD	NumType=Card	3	obl	_	SpaceAfter=No
@@ -1018,7 +1018,7 @@
 8	brothers	brother	NOUN	NNS	Number=Plur	5	nmod	_	_
 9	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	advcl	_	_
 10	before	before	ADP	IN	_	11	case	_	_
-11	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
+11	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	9	punct	_	_
 13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
