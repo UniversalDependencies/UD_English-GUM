@@ -37,13 +37,13 @@
 5	Bataan	Bataan	PROPN	NNP	Number=Sing	6	compound	_	_
 6	Peninsula	Peninsula	PROPN	NNP	Number=Sing	8	compound	_	_
 7	State	State	PROPN	NNP	Number=Sing	8	compound	_	_
-8	University	University	PROPN	NNP	Number=Sing	3	appos	_	SpaceAfter=No
-9	,	,	PUNCT	,	_	8	punct	_	_
+8	University	University	PROPN	NNP	Number=Sing	3	list	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
 10	2100	@card@	NUM	CD	NumType=Card	13	nummod	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	10	punct	_	_
 12	Balanga	Balanga	PROPN	NNP	Number=Sing	13	compound	_	_
 13	City	City	PROPN	NNP	Number=Sing	3	appos	_	_
-14	Bataan	Bataan	PROPN	NNP	Number=Sing	8	appos	_	SpaceAfter=No
+14	Bataan	Bataan	PROPN	NNP	Number=Sing	3	list	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	16	punct	_	_
 16	Philippines	Philippine	PROPN	NNPS	Number=Plur	13	appos	_	_
 
@@ -128,7 +128,7 @@
 # sent_id = GUM_academic_lighting-8
 # text = There are different type of lighting bulbs used at home can affect the overall lighting consumption.
 # s_type=decl
-1	There	There	PRON	EX	_	2	expl	_	_
+1	There	there	PRON	EX	_	2	expl	_	_
 2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	different	different	ADJ	JJ	Degree=Pos	4	amod	_	_
 4	type	type	NOUN	NN	Number=Sing	2	nsubj	_	_
@@ -254,16 +254,16 @@
 41	from	from	ADP	IN	_	43	case	_	_
 42	busted	bust	VERB	VBN	Tense=Past|VerbForm=Part	43	amod	_	_
 43	CFL	CFL	NOUN	NN	Number=Sing	31	obl	_	_
-44	that	that	PRON	WDT	PronType=Rel	48	nsubj	_	_
+44	that	that	PRON	WDT	PronType=Dem	48	nsubj	_	_
 45	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	48	cop	_	Typo=Yes
-46	efficient	efficient	ADJ	JJ	Degree=Pos	48	amod	_	SpaceAfter=No
-47	,	,	PUNCT	,	_	46	punct	_	_
-48	economical	economical	ADJ	JJ	Degree=Pos	43	acl:relcl	_	SpaceAfter=No
-49	,	,	PUNCT	,	_	53	punct	_	_
-50	and	and	CCONJ	CC	_	53	cc	_	_
+46	efficient	efficient	ADJ	JJ	Degree=Pos	43	acl:relcl	_	SpaceAfter=No
+47	,	,	PUNCT	,	_	48	punct	_	_
+48	economical	economical	ADJ	JJ	Degree=Pos	46	conj	_	SpaceAfter=No
+49	,	,	PUNCT	,	_	50	punct	_	_
+50	and	and	CCONJ	CC	_	48	cc	_	_
 51	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	aux	_	_
 52	not	not	PART	RB	Polarity=Neg	53	advmod	_	_
-53	contain	contain	VERB	VB	VerbForm=Inf	48	conj	_	_
+53	contain	contain	VERB	VB	VerbForm=Inf	46	conj	_	_
 54	toxic	toxic	ADJ	JJ	Degree=Pos	55	amod	_	_
 55	chemicals	chemical	NOUN	NNS	Number=Plur	53	obj	_	SpaceAfter=No
 56	.	.	PUNCT	.	_	11	punct	_	_
@@ -548,7 +548,7 @@
 # sent_id = GUM_academic_lighting-26
 # text = There are three general types of lighting that are widely used in the household nowadays: the (light-emitting diode) LED bulb, (compact fluorescent light) CFL bulb and the incandescent bulb.
 # s_type=decl
-1	There	There	PRON	EX	_	2	expl	_	_
+1	There	there	PRON	EX	_	2	expl	_	_
 2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	three	three	NUM	CD	NumType=Card	5	nummod	_	_
 4	general	general	ADJ	JJ	Degree=Pos	5	amod	_	_
@@ -591,7 +591,7 @@
 1	But	but	CCONJ	CC	_	5	cc	_	_
 2	each	each	PRON	DT	_	5	nsubj	_	_
 3	of	of	ADP	IN	_	4	case	_	_
-4	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
 5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
 7	perks	perk	NOUN	NNS	Number=Plur	5	obj	_	_
@@ -633,7 +633,7 @@
 26	and	and	CCONJ	CC	_	28	cc	_	_
 27	this	this	PRON	DT	Number=Sing|PronType=Dem	28	nsubj	_	_
 28	cause	cause	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	conj	_	Typo=Yes
-29	us	us	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	28	obj	_	_
+29	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	28	obj	_	_
 30	to	to	PART	TO	_	31	mark	_	_
 31	pay	pay	VERB	VB	VerbForm=Inf	28	xcomp	_	_
 32	for	for	ADP	IN	_	34	case	_	_
