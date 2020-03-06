@@ -37,7 +37,7 @@
 20	Coruña	Coruña	PROPN	NNP	Number=Sing	18	flat	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	22	punct	_	_
 22	15071	15071	NUM	CD	NumType=Card	1	list	_	_
-23	A	A	PROPN	NNP	Definite=Ind|Number=Sing|PronType=Art	22	flat	_	_
+23	A	A	PROPN	NNP	Number=Sing	22	flat	_	_
 24	Coruña	Coruña	PROPN	NNP	Number=Sing	22	flat	_	SpaceAfter=No
 25	,	,	PUNCT	,	_	26	punct	_	_
 26	Spain	Spain	PROPN	NNP	Number=Sing	22	appos	_	SpaceAfter=No
@@ -54,13 +54,13 @@
 5	XoveTIC	XoveTIC	PROPN	NNP	Number=Sing	6	compound	_	_
 6	Congress	Congress	PROPN	NNP	Number=Sing	1	obl	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	_	_
-8	A	A	DET	NNP	Definite=Ind|Number=Sing|PronType=Art	9	det	_	_
+8	A	A	DET	NNP	Number=Sing	9	det	_	_
 9	Coruña	Coruña	PROPN	NNP	Number=Sing	1	obl:npmod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	_	_
 11	Spain	Spain	PROPN	NNP	Number=Sing	9	appos	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	13	punct	_	_
 13	5	5	NUM	CD	NumType=Card	1	obl:tmod	_	_
-14	–	–	ADP	TO	_	15	case	_	_
+14	–	–	ADP	IN	_	15	case	_	_
 15	6	6	NUM	CD	NumType=Card	13	nmod	_	SpaceAfter=No
 16	September	September	PROPN	NNP	Number=Sing	13	compound	_	_
 17	2019	2019	NUM	CD	NumType=Card	13	nmod:tmod	_	SpaceAfter=No
@@ -120,9 +120,9 @@
 21	operators	operator	NOUN	NNS	Number=Plur	23	nsubj:pass	_	_
 22	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux:pass	_	_
 23	applied	apply	VERB	VBN	Tense=Past|VerbForm=Part	17	acl:relcl	_	_
-24	to	to	ADP	TO	_	27	case	_	_
+24	to	to	ADP	IN	_	27	case	_	_
 25	two	two	NUM	CD	NumType=Card	27	nummod	_	_
-26	real-world	real-world	ADJ	JJ	Degree=Pos|Number=Sing	27	amod	_	_
+26	real-world	real-world	ADJ	JJ	Degree=Pos	27	amod	_	_
 27	applications	application	NOUN	NNS	Number=Plur	23	obl	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -144,7 +144,7 @@
 # sent_id = GUM_academic_mutation-8
 # text = 1. Introduction
 # s_type=frag
-1	1.	1.	X	LS	NumType=Card	2	dep	_	_
+1	1.	1.	X	LS	_	2	dep	_	_
 2	Introduction	introduction	NOUN	NN	Number=Sing	0	root	_	_
 
 # sent_id = GUM_academic_mutation-9
@@ -169,9 +169,9 @@
 17	System	system	NOUN	NN	Number=Sing	13	obl	_	_
 18	Under	under	ADP	IN	_	19	case	_	_
 19	Test	test	NOUN	NN	Number=Sing	17	nmod	_	_
-20	(	(	PUNCT	-LRB-	Number=Sing	21	punct	_	SpaceAfter=No
+20	(	(	PUNCT	-LRB-	_	21	punct	_	SpaceAfter=No
 21	SUT	SUT	NOUN	NN	Number=Sing	17	appos	_	SpaceAfter=No
-22	)	)	PUNCT	-RRB-	Number=Sing	21	punct	_	SpaceAfter=No
+22	)	)	PUNCT	-RRB-	_	21	punct	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = GUM_academic_mutation-10
@@ -200,7 +200,7 @@
 21	,	,	PUNCT	,	_	20	punct	_	_
 22	will	will	AUX	MD	VerbForm=Fin	23	aux	_	_
 23	lead	lead	VERB	VB	VerbForm=Inf	12	acl:relcl	_	_
-24	to	to	ADP	TO	_	26	case	_	_
+24	to	to	ADP	IN	_	26	case	_	_
 25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
 26	behaviour	behaviour	NOUN	NN	Number=Sing	23	obl	_	_
 27	different	different	ADJ	JJ	Degree=Pos	26	amod	_	_
@@ -246,7 +246,7 @@
 16	purpose	purpose	NOUN	NN	Number=Sing	12	compound	_	_
 17	and	and	CCONJ	CC	_	18	cc	_	_
 18	specific	specific	ADJ	JJ	Degree=Pos	16	conj	_	_
-19	to	to	ADP	TO	_	21	case	_	_
+19	to	to	ADP	IN	_	21	case	_	_
 20	different	different	ADJ	JJ	Degree=Pos	21	amod	_	_
 21	technologies	technology	NOUN	NNS	Number=Plur	18	obl	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	23	punct	_	_
@@ -255,7 +255,7 @@
 25	paradigms	paradigm	NOUN	NNS	Number=Plur	21	conj	_	_
 26	[	[	PUNCT	-LSB-	_	27	punct	_	SpaceAfter=No
 27	2	2	NUM	CD	NumType=Card	10	dep	_	_
-28	–	–	ADP	TO	_	29	case	_	_
+28	–	–	ADP	IN	_	29	case	_	_
 29	9	9	NUM	CD	NumType=Card	27	nmod	_	SpaceAfter=No
 30	]	]	PUNCT	-RSB-	_	27	punct	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	10	punct	_	_
@@ -294,7 +294,7 @@
 7	mutation	mutation	NOUN	NN	Number=Sing	8	compound	_	_
 8	operators	operator	NOUN	NNS	Number=Plur	6	obj	_	_
 9	specific	specific	ADJ	JJ	Degree=Pos	8	amod	_	_
-10	to	to	ADP	TO	_	12	case	_	_
+10	to	to	ADP	IN	_	12	case	_	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
 12	domain	domain	NOUN	NN	Number=Sing	9	obl	_	_
 13	of	of	ADP	IN	_	20	case	_	_
@@ -313,7 +313,7 @@
 1	These	these	DET	DT	Number=Plur|PronType=Dem	2	det	_	_
 2	operators	operator	NOUN	NNS	Number=Plur	3	nsubj	_	_
 3	reproduce	reproduce	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	programming	programming	NOUN	NN	Number=Sing|VerbForm=Ger	5	amod	_	_
+4	programming	programming	NOUN	NN	Number=Sing	5	amod	_	_
 5	errors	error	NOUN	NNS	Number=Plur	3	obj	_	_
 6	that	that	PRON	WDT	PronType=Rel	10	nsubj	_	_
 7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
@@ -352,9 +352,9 @@
 17	apply	apply	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	_
 18	these	these	DET	DT	Number=Plur|PronType=Dem	19	det	_	_
 19	operators	operator	NOUN	NNS	Number=Plur	17	obj	_	_
-20	to	to	ADP	TO	_	24	case	_	_
+20	to	to	ADP	IN	_	24	case	_	_
 21	two	two	NUM	CD	NumType=Card	24	nummod	_	_
-22	real-world	real-world	ADJ	JJ	Degree=Pos|Number=Sing	24	amod	_	_
+22	real-world	real-world	ADJ	JJ	Degree=Pos	24	amod	_	_
 23	GIS	GIS	NOUN	NN	Number=Sing	24	compound	_	_
 24	applications	application	NOUN	NNS	Number=Plur	17	obl	_	_
 25	and	and	CCONJ	CC	_	27	cc	_	_
@@ -434,7 +434,7 @@
 4	apply	apply	VERB	VB	VerbForm=Inf	12	advcl	_	_
 5	these	these	DET	DT	Number=Plur|PronType=Dem	6	det	_	_
 6	operators	operator	NOUN	NNS	Number=Plur	4	obj	_	_
-7	to	to	ADP	TO	_	9	case	_	_
+7	to	to	ADP	IN	_	9	case	_	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
 9	SUT	SUT	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	4	punct	_	_
@@ -453,7 +453,7 @@
 # s_type=decl
 1	Reflection	reflection	NOUN	NN	Number=Sing	2	nsubj	_	_
 2	allows	allow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	us	us	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
+3	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
 4	to	to	PART	TO	_	5	mark	_	_
 5	obtain	obtain	VERB	VB	VerbForm=Inf	2	xcomp	_	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
@@ -556,7 +556,7 @@
 # sent_id = GUM_academic_mutation-24
 # text = Next, we describe the definition of two operators and two cases of application on real-world GIS applications.
 # s_type=decl
-1	Next	next	ADV	RB	Degree=Pos	4	advmod	_	SpaceAfter=No
+1	Next	next	ADV	RB	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	_	_
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 4	describe	describe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -571,7 +571,7 @@
 13	of	of	ADP	IN	_	14	case	_	_
 14	application	application	NOUN	NN	Number=Sing	12	nmod	_	_
 15	on	on	ADP	IN	_	18	case	_	_
-16	real-world	real-world	ADJ	JJ	Degree=Pos|Number=Sing	18	amod	_	_
+16	real-world	real-world	ADJ	JJ	Degree=Pos	18	amod	_	_
 17	GIS	GIS	NOUN	NN	Number=Sing	18	compound	_	_
 18	applications	application	NOUN	NNS	Number=Plur	14	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	_	_
@@ -581,10 +581,10 @@
 # s_type=frag
 1	ChangeCoordSys	ChangeCoordSys	PROPN	NNP	Number=Sing	2	compound	_	_
 2	Operator	Operator	PROPN	NNP	Number=Sing	0	root	_	_
-3	(	(	PUNCT	-LRB-	Number=Sing	4	punct	_	SpaceAfter=No
-4	Listing	listing	NOUN	NN	Number=Sing	2	appos	_	_
+3	(	(	PUNCT	-LRB-	_	4	punct	_	SpaceAfter=No
+4	Listing	listing	NOUN	NN	Number=Sing	2	dep	_	_
 5	1	1	NUM	CD	NumType=Card	4	dep	_	SpaceAfter=No
-6	)	)	PUNCT	-RRB-	Number=Sing	4	punct	_	SpaceAfter=No
+6	)	)	PUNCT	-RRB-	_	4	punct	_	SpaceAfter=No
 7	:	:	PUNCT	:	_	2	punct	_	_
 
 # sent_id = GUM_academic_mutation-26
@@ -681,7 +681,7 @@
 2	operator	operator	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
 4	applied	apply	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
-5	to	to	ADP	TO	_	10	case	_	_
+5	to	to	ADP	IN	_	10	case	_	_
 6	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
 7	mobile	mobile	ADJ	JJ	Degree=Pos	8	amod	_	_
 8	technology	technology	NOUN	NN	Number=Sing	10	compound	_	_
@@ -791,10 +791,10 @@
 18	in	in	ADP	IN	_	20	case	_	_
 19	erroneous	erroneous	ADJ	JJ	Degree=Pos	20	amod	_	_
 20	zones	zone	NOUN	NNS	Number=Plur	17	obl	_	_
-21	(	(	PUNCT	-LRB-	Number=Sing	22	punct	_	SpaceAfter=No
+21	(	(	PUNCT	-LRB-	_	22	punct	_	SpaceAfter=No
 22	Figure	figure	NOUN	NN	Number=Sing	8	dep	_	_
 23	1	1	NUM	CD	NumType=Card	22	dep	_	SpaceAfter=No
-24	)	)	PUNCT	-RRB-	Number=Sing	22	punct	_	SpaceAfter=No
+24	)	)	PUNCT	-RRB-	_	22	punct	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = GUM_academic_mutation-36
@@ -814,10 +814,10 @@
 # s_type=frag
 1	BooleanPolygonConstraint	BooleanPolygonConstraint	PROPN	NNP	Number=Sing	2	compound	_	_
 2	Operator	Operator	PROPN	NNP	Number=Sing	0	root	_	_
-3	(	(	PUNCT	-LRB-	Number=Sing	4	punct	_	SpaceAfter=No
+3	(	(	PUNCT	-LRB-	_	4	punct	_	SpaceAfter=No
 4	Listing	listing	NOUN	NN	Number=Sing	2	appos	_	_
 5	2	2	NUM	CD	NumType=Card	4	dep	_	SpaceAfter=No
-6	)	)	PUNCT	-RRB-	Number=Sing	4	punct	_	SpaceAfter=No
+6	)	)	PUNCT	-RRB-	_	4	punct	_	SpaceAfter=No
 7	:	:	PUNCT	:	_	2	punct	_	_
 
 # sent_id = GUM_academic_mutation-38
@@ -884,10 +884,10 @@
 5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	_
 6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
 7	applied	apply	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
-8	to	to	ADP	TO	_	12	case	_	_
+8	to	to	ADP	IN	_	12	case	_	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
 10	land	land	NOUN	NN	Number=Sing	11	compound	_	_
-11	reparcelling	reparcelling	NOUN	NN	Number=Sing|VerbForm=Ger	12	amod	_	_
+11	reparcelling	reparcelling	NOUN	NN	Number=Sing	12	amod	_	_
 12	system	system	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -959,15 +959,15 @@
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
 21	operation	operation	NOUN	NN	Number=Sing	14	obl	_	_
 22	applied	apply	VERB	VBN	Tense=Past|VerbForm=Part	21	acl	_	_
-23	to	to	ADP	TO	_	27	case	_	_
+23	to	to	ADP	IN	_	27	case	_	_
 24	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
 25	two	two	NUM	CD	NumType=Card	27	nummod	_	_
 26	initial	initial	ADJ	JJ	Degree=Pos	27	amod	_	_
 27	geometries	geometry	NOUN	NNS	Number=Plur	22	obl	_	_
-28	(	(	PUNCT	-LRB-	Number=Sing	29	punct	_	SpaceAfter=No
+28	(	(	PUNCT	-LRB-	_	29	punct	_	SpaceAfter=No
 29	Figure	figure	NOUN	NN	Number=Sing	3	dep	_	_
 30	2	2	NUM	CD	NumType=Card	29	dep	_	SpaceAfter=No
-31	)	)	PUNCT	-RRB-	Number=Sing	29	punct	_	SpaceAfter=No
+31	)	)	PUNCT	-RRB-	_	29	punct	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = GUM_academic_mutation-44
@@ -985,7 +985,7 @@
 # sent_id = GUM_academic_mutation-45
 # text = 3. Conclusions
 # s_type=frag
-1	3.	3.	X	LS	NumType=Card	2	dep	_	_
+1	3.	3.	X	LS	_	2	dep	_	_
 2	Conclusions	conclusion	NOUN	NNS	Number=Plur	0	root	_	_
 
 # sent_id = GUM_academic_mutation-46
@@ -1032,7 +1032,7 @@
 4	new	new	ADJ	JJ	Degree=Pos	5	amod	_	_
 5	operators	operator	NOUN	NNS	Number=Plur	3	obj	_	_
 6	specific	specific	ADJ	JJ	Degree=Pos	5	amod	_	_
-7	to	to	ADP	TO	_	10	case	_	_
+7	to	to	ADP	IN	_	10	case	_	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
 9	GIS	GIS	NOUN	NN	Number=Sing	10	compound	_	_
 10	domain	domain	NOUN	NN	Number=Sing	6	obl	_	_
@@ -1041,8 +1041,8 @@
 13	way	way	NOUN	NN	Number=Sing	5	conj	_	_
 14	to	to	PART	TO	_	15	mark	_	_
 15	apply	apply	VERB	VB	VerbForm=Inf	13	acl	_	_
-16	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
-17	to	to	ADP	TO	_	19	case	_	_
+16	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+17	to	to	ADP	IN	_	19	case	_	_
 18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
 19	SUT	SUT	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	3	punct	_	_
@@ -1078,7 +1078,7 @@
 8	extend	extend	VERB	VB	VerbForm=Inf	6	xcomp	_	_
 9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
 10	approach	approach	NOUN	NN	Number=Sing	8	obj	_	_
-11	to	to	ADP	TO	_	13	case	_	_
+11	to	to	ADP	IN	_	13	case	_	_
 12	other	other	ADJ	JJ	Degree=Pos	13	amod	_	_
 13	domains	domain	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	19	punct	_	_
@@ -1088,7 +1088,7 @@
 18	to	to	PART	TO	_	19	mark	_	_
 19	use	use	VERB	VB	VerbForm=Inf	8	conj	_	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
-21	developed	developed	ADJ	JJ	Degree=Pos|Tense=Past|VerbForm=Part	22	amod	_	_
+21	developed	developed	ADJ	JJ	Degree=Pos	22	amod	_	_
 22	operators	operator	NOUN	NNS	Number=Plur	19	obj	_	_
 23	for	for	ADP	IN	_	26	case	_	_
 24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_

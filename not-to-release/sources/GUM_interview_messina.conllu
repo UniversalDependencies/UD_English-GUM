@@ -22,7 +22,7 @@
 3	October	October	PROPN	NNP	Number=Sing	4	compound	_	_
 4	3	3	NUM	CD	NumType=Card	1	appos	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	_	_
-6	2007	@card@	NUM	CD	NumType=Card	4	nmod:tmod	_	_
+6	2007	2007	NUM	CD	NumType=Card	4	nmod:tmod	_	_
 
 # sent_id = GUM_interview_messina-3
 # text = You have received a good deal of attention recently.
@@ -57,7 +57,7 @@
 12	people	people	NOUN	NNS	Number=Plur	13	nsubj	_	_
 13	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	34	advcl	_	_
 14	up	up	ADP	RP	_	13	compound:prt	_	_
-15	to	to	ADP	TO	_	16	case	_	_
+15	to	to	ADP	IN	_	16	case	_	_
 16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obl	_	_
 17	and	and	CCONJ	CC	_	18	cc	_	_
 18	introduce	introduce	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	conj	_	_
@@ -133,7 +133,7 @@
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
 2	've	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
-4	to	to	ADP	TO	_	5	case	_	_
+4	to	to	ADP	IN	_	5	case	_	_
 5	readings	reading	NOUN	NNS	Number=Plur	3	obl	_	_
 6	and	and	CCONJ	CC	_	7	cc	_	_
 7	concerts	concert	NOUN	NNS	Number=Plur	5	conj	_	SpaceAfter=No
@@ -163,10 +163,10 @@
 5	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	performed	perform	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
 7	in	in	ADP	IN	_	9	case	_	_
-8	32	@card@	NUM	CD	NumType=Card	9	nummod	_	_
+8	32	32	NUM	CD	NumType=Card	9	nummod	_	_
 9	countries	country	NOUN	NNS	Number=Plur	6	obl	_	_
 10	and	and	CCONJ	CC	_	12	cc	_	_
-11	40	@card@	NUM	CD	NumType=Card	12	nummod	_	_
+11	40	40	NUM	CD	NumType=Card	12	nummod	_	_
 12	states	state	NOUN	NNS	Number=Plur	9	conj	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	6	punct	_	_
 
@@ -212,9 +212,9 @@
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	started	start	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
 5	in	in	ADP	IN	_	6	case	_	_
-6	1993	@card@	NUM	CD	NumType=Card	4	obl	_	SpaceAfter=No
+6	1993	1993	NUM	CD	NumType=Card	4	obl	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	_	_
-8	Spoken	speak	PROPN	NNP	Number=Sing	9	compound	_	_
+8	Spoken	speak	PROPN	NNP	Number=Sing	9	amod	_	_
 9	Motion	Motion	PROPN	NNP	Number=Sing	2	appos	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	2	punct	_	_
 11	received	receive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -231,8 +231,8 @@
 22	out	out	SCONJ	RP	_	29	mark	_	_
 23	of	of	ADP	IN	_	29	case	_	_
 24	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
-25	New	New	PROPN	NNP	Number=Sing	26	compound	_	_
-26	York	York	PROPN	NNP	Number=Sing	28	amod	_	_
+25	New	New	PROPN	NNP	Number=Sing	28	amod	_	_
+26	York	York	PROPN	NNP	Number=Sing	25	flat	_	_
 27	spoken	speak	VERB	VBN	Tense=Past|VerbForm=Part	28	compound	_	_
 28	word	word	NOUN	NN	Number=Sing	29	amod	_	_
 29	scene	scene	NOUN	NN	Number=Sing	21	advcl	_	SpaceAfter=No
@@ -265,13 +265,13 @@
 4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
 5	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	6	amod	_	_
 6	autograph	autograph	NOUN	NN	Number=Sing	3	obj	_	_
-7	to	to	ADP	TO	_	9	case	_	_
+7	to	to	ADP	IN	_	9	case	_	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
 9	kid	kid	NOUN	NN	Number=Sing	3	obl	_	_
 10	when	when	SCONJ	WRB	PronType=Int	15	mark	_	_
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
 12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
-13	25	@card@	NUM	CD	NumType=Card	14	nummod	_	_
+13	25	25	NUM	CD	NumType=Card	14	nummod	_	_
 14	years	year	NOUN	NNS	Number=Plur	15	obl:npmod	_	_
 15	old	old	ADJ	JJ	Degree=Pos	3	advcl	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	2	punct	_	_
@@ -297,7 +297,7 @@
 15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 16	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
 17	used	use	VERB	VBN	Tense=Past|VerbForm=Part	16	xcomp	_	_
-18	to	to	ADP	TO	_	20	case	_	_
+18	to	to	ADP	IN	_	20	case	_	_
 19	that	that	DET	DT	Number=Sing|PronType=Dem	20	det	_	_
 20	kind	kind	NOUN	NN	Number=Sing	17	obl	_	_
 21	of	of	ADP	IN	_	22	case	_	_
@@ -308,7 +308,7 @@
 # text = To me, the ultimate feeling of success as an artist, is to move somebody enough where they thank you.
 # s_type=decl
 # speaker=FrankMessina
-1	To	To	ADP	TO	_	2	case	_	_
+1	To	To	ADP	IN	_	2	case	_	_
 2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obl	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
@@ -583,7 +583,7 @@
 5	of	of	ADP	IN	_	6	case	_	_
 6	adversity	adversity	NOUN	NN	Number=Sing	4	nmod	_	_
 7	during	during	ADP	IN	_	8	case	_	_
-8	9/11	@card@	PROPN	NNP	Number=Sing	2	obl	_	_
+8	9/11	9/11	PROPN	NNP	Number=Sing	2	obl	_	_
 9	being	be	VERB	VBG	VerbForm=Ger	2	advcl	_	_
 10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
 11	civilian	civilian	ADJ	JJ	Degree=Pos	12	amod	_	_
@@ -598,18 +598,18 @@
 2	loaded	load	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	ferry	ferry	NOUN	NN	Number=Sing	4	compound	_	_
 4	boats	boat	NOUN	NNS	Number=Plur	2	obj	_	_
-5	in	in	ADP	IN	_	7	case	_	_
-6	Jersey	Jersey	PROPN	NNP	Number=Sing	7	compound	_	_
-7	City	City	PROPN	NNP	Number=Sing	2	obl	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	Jersey	Jersey	PROPN	NNP	Number=Sing	2	obl	_	_
+7	City	City	PROPN	NNP	Number=Sing	6	flat	_	_
 8	across	across	ADP	IN	_	10	case	_	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
-10	river	river	NOUN	NN	Number=Sing	7	nmod	_	_
+10	river	river	NOUN	NN	Number=Sing	6	nmod	_	_
 11	to	to	PART	TO	_	12	mark	_	_
 12	deliver	deliver	VERB	VB	VerbForm=Inf	2	xcomp	_	_
 13	goods	good	NOUN	NNS	Number=Plur	12	obj	_	_
-14	to	to	ADP	TO	_	16	case	_	_
-15	Ground	Ground	PROPN	NNP	Number=Sing	16	compound	_	_
-16	Zero	Zero	PROPN	NNP	Number=Sing	12	obl	_	SpaceAfter=No
+14	to	to	ADP	IN	_	15	case	_	_
+15	Ground	Ground	PROPN	NNP	Number=Sing	12	obl	_	_
+16	Zero	Zero	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = GUM_interview_messina-31
@@ -618,7 +618,7 @@
 # speaker=FrankMessina
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	to	to	ADP	TO	_	4	case	_	_
+3	to	to	ADP	IN	_	4	case	_	_
 4	Whitman	Whitman	PROPN	NNP	Number=Sing	2	obl	_	_
 5	to	to	PART	TO	_	6	mark	_	_
 6	find	find	VERB	VB	VerbForm=Inf	2	xcomp	_	_
@@ -714,7 +714,7 @@
 25	to	to	PART	TO	_	27	mark	_	_
 26	either	either	CCONJ	CC	_	27	cc:preconj	_	_
 27	rise	rise	VERB	VB	VerbForm=Inf	24	xcomp	_	_
-28	to	to	ADP	TO	_	30	case	_	_
+28	to	to	ADP	IN	_	30	case	_	_
 29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
 30	occasion	occasion	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No
 31	,	,	PUNCT	,	_	33	punct	_	_
@@ -799,7 +799,7 @@
 18	order	order	NOUN	NN	Number=Sing	17	fixed	_	_
 19	to	to	PART	TO	_	20	mark	_	_
 20	rise	rise	VERB	VB	VerbForm=Inf	27	advcl	_	_
-21	to	to	ADP	TO	_	23	case	_	_
+21	to	to	ADP	IN	_	23	case	_	_
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
 23	occasion	occasion	NOUN	NN	Number=Sing	20	obl	_	_
 24	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	27	nsubj	_	_
@@ -980,7 +980,7 @@
 13	and	and	CCONJ	CC	_	14	cc	_	_
 14	sent	send	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
 15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
-16	to	to	ADP	TO	_	17	case	_	_
+16	to	to	ADP	IN	_	17	case	_	_
 17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obl	_	_
 18	in	in	ADP	IN	_	20	case	_	_
 19	an	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
@@ -1160,7 +1160,7 @@
 6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
 7	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
 8	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	5	ccomp	_	_
-9	to	to	ADP	TO	_	11	case	_	_
+9	to	to	ADP	IN	_	11	case	_	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
 11	playoffs	playoff	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
 12	;	;	PUNCT	:	_	14	punct	_	_
@@ -1227,7 +1227,7 @@
 6	loss	loss	NOUN	NN	Number=Sing	3	obl	_	_
 7	last	last	ADJ	JJ	Degree=Pos	8	amod	_	_
 8	year	year	NOUN	NN	Number=Sing	6	nmod:tmod	_	_
-9	to	to	ADP	TO	_	11	case	_	_
+9	to	to	ADP	IN	_	11	case	_	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
 11	Cardinals	cardinal	PROPN	NNPS	Number=Plur	6	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	3	punct	_	_
@@ -1241,7 +1241,7 @@
 3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 5	up	up	ADP	RP	_	4	compound:prt	_	_
-6	to	to	ADP	TO	_	7	case	_	_
+6	to	to	ADP	IN	_	7	case	_	_
 7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
 8	during	during	ADP	IN	_	9	case	_	_
 9	one	one	NUM	CD	NumType=Card	4	obl	_	_
@@ -1260,7 +1260,7 @@
 22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
 23	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux	_	_
 24	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	21	ccomp	_	_
-25	to	to	ADP	TO	_	28	case	_	_
+25	to	to	ADP	IN	_	28	case	_	_
 26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
 27	post	post	ADJ	JJ	Degree=Pos	28	amod	_	_
 28	season	season	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No

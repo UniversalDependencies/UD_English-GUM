@@ -39,7 +39,7 @@
 7	State	State	PROPN	NNP	Number=Sing	8	compound	_	_
 8	University	University	PROPN	NNP	Number=Sing	3	list	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	_	_
-10	2100	@card@	NUM	CD	NumType=Card	13	nummod	_	SpaceAfter=No
+10	2100	2100	NUM	CD	NumType=Card	13	nummod	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	10	punct	_	_
 12	Balanga	Balanga	PROPN	NNP	Number=Sing	13	compound	_	_
 13	City	City	PROPN	NNP	Number=Sing	3	appos	_	_
@@ -192,7 +192,7 @@
 # s_type=decl
 1	In	in	ADP	IN	_	2	case	_	_
 2	addition	addition	NOUN	NN	Number=Sing	5	obl	_	_
-3	to	to	ADP	TO	_	4	case	_	_
+3	to	to	ADP	IN	_	4	case	_	_
 4	this	this	PRON	DT	Number=Sing|PronType=Dem	2	nmod	_	_
 5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
@@ -213,7 +213,7 @@
 # s_type=decl
 1	In	in	ADP	IN	_	2	case	_	_
 2	response	response	NOUN	NN	Number=Sing	11	obl	_	_
-3	to	to	ADP	TO	_	6	case	_	_
+3	to	to	ADP	IN	_	6	case	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
 5	said	said	ADJ	JJ	Degree=Pos	6	amod	_	_
 6	problem	problem	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
@@ -223,7 +223,7 @@
 10	study	study	NOUN	NN	Number=Sing	11	nsubj	_	_
 11	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	solution	solution	NOUN	NN	Number=Sing	11	obj	_	Typo=Yes
-13	to	to	ADP	TO	_	15	case	_	_
+13	to	to	ADP	IN	_	15	case	_	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
 15	problem	problem	NOUN	NN	Number=Sing	12	nmod	_	_
 16	of	of	ADP	IN	_	18	case	_	_
@@ -283,7 +283,7 @@
 4	results	result	NOUN	NNS	Number=Plur	1	obl	_	_
 5	of	of	ADP	IN	_	11	case	_	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
-7	2011	@card@	NUM	CD	NumType=Card	11	nummod	_	_
+7	2011	2011	NUM	CD	NumType=Card	11	nummod	_	_
 8	Household	Household	PROPN	NNP	Number=Sing	10	compound	_	_
 9	Energy	Energy	PROPN	NNP	Number=Sing	10	compound	_	_
 10	Consumption	Consumption	PROPN	NNP	Number=Sing	11	compound	_	_
@@ -314,19 +314,19 @@
 # text = About 87 percent of 21.0 million households used electricity from March to August 2011.
 # s_type=decl
 1	About	about	ADV	RB	_	2	advmod	_	_
-2	87	@card@	NUM	CD	NumType=Card	3	nummod	_	_
+2	87	87	NUM	CD	NumType=Card	3	nummod	_	_
 3	percent	percent	NOUN	NN	Number=Sing	8	nsubj	_	_
 4	of	of	ADP	IN	_	7	case	_	_
-5	21.0	@card@	NUM	CD	NumType=Card	6	compound	_	_
+5	21.0	21.0	NUM	CD	NumType=Card	6	compound	_	_
 6	million	million	NUM	CD	NumType=Card	7	nummod	_	_
 7	households	household	NOUN	NNS	Number=Plur	3	nmod	_	_
 8	used	use	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 9	electricity	electricity	NOUN	NN	Number=Sing	8	obj	_	_
 10	from	from	ADP	IN	_	11	case	_	_
 11	March	March	PROPN	NNP	Number=Sing	8	obl	_	_
-12	to	to	ADP	TO	_	13	case	_	_
+12	to	to	ADP	IN	_	13	case	_	_
 13	August	August	PROPN	NNP	Number=Sing	8	obl	_	_
-14	2011	@card@	NUM	CD	NumType=Card	13	nmod:tmod	_	SpaceAfter=No
+14	2011	2011	NUM	CD	NumType=Card	13	nmod:tmod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = GUM_academic_lighting-16
@@ -334,7 +334,7 @@
 # s_type=decl
 1	As	as	ADP	IN	_	3	case	_	_
 2	of	of	ADP	IN	_	1	fixed	_	_
-3	2016	@card@	NUM	CD	NumType=Card	13	obl	_	SpaceAfter=No
+3	2016	2016	NUM	CD	NumType=Card	13	obl	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
 6	demand	demand	NOUN	NN	Number=Sing	13	nsubj	_	_
@@ -390,9 +390,9 @@
 # text = January - june2016 philippine power demand
 # s_type=frag
 1	January	January	PROPN	NNP	Number=Sing	7	compound	_	_
-2	-	-	ADP	TO	_	3	case	_	_
+2	-	-	ADP	IN	_	3	case	_	_
 3	june	June	PROPN	NNP	Number=Sing	1	nmod	_	SpaceAfter=No|Typo=Yes
-4	2016	@card@	NUM	CD	NumType=Card	1	nmod:tmod	_	_
+4	2016	2016	NUM	CD	NumType=Card	1	nmod:tmod	_	_
 5	philippine	Philippine	ADJ	JJ	Degree=Pos	7	amod	_	Typo=Yes
 6	power	power	NOUN	NN	Number=Sing	7	compound	_	_
 7	demand	demand	NOUN	NN	Number=Sing	0	root	_	_
@@ -427,7 +427,7 @@
 25	,	,	PUNCT	,	_	19	punct	_	_
 26	consume	consume	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 27	nearly	nearly	ADV	RB	_	28	advmod	_	_
-28	27	@card@	NUM	CD	NumType=Card	29	nummod	_	_
+28	27	27	NUM	CD	NumType=Card	29	nummod	_	_
 29	percent	percent	NOUN	NN	Number=Sing	26	obj	_	_
 30	of	of	ADP	IN	_	32	case	_	_
 31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
@@ -465,7 +465,7 @@
 14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 15	consumes	consume	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 16	about	about	ADV	RB	_	17	advmod	_	_
-17	18	@card@	NUM	CD	NumType=Card	18	nummod	_	SpaceAfter=No
+17	18	18	NUM	CD	NumType=Card	18	nummod	_	SpaceAfter=No
 18	%	%	SYM	NN	Number=Sing	15	obj	_	_
 19	of	of	ADP	IN	_	23	case	_	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
@@ -754,7 +754,7 @@
 # s_type=decl
 1	In	in	ADP	IN	_	2	case	_	_
 2	addition	addition	NOUN	NN	Number=Sing	9	obl	_	_
-3	to	to	ADP	TO	_	6	case	_	_
+3	to	to	ADP	IN	_	6	case	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
 5	harmful	harmful	ADJ	JJ	Degree=Pos	6	amod	_	_
 6	effects	effect	NOUN	NNS	Number=Plur	2	nmod	_	_
@@ -807,7 +807,7 @@
 10	of	of	ADP	IN	_	12	case	_	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
 12	skin	skin	NOUN	NN	Number=Sing	9	nmod	_	_
-13	to	to	ADP	TO	_	14	case	_	_
+13	to	to	ADP	IN	_	14	case	_	_
 14	UVR	UVR	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
 15	;	;	PUNCT	:	_	21	punct	_	_
 16	acute	acute	ADJ	JJ	Degree=Pos	17	amod	_	_
@@ -856,7 +856,7 @@
 # s_type=decl
 1	In	in	ADP	IN	_	2	case	_	_
 2	response	response	NOUN	NN	Number=Sing	26	obl	_	_
-3	to	to	ADP	TO	_	6	case	_	_
+3	to	to	ADP	IN	_	6	case	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
 5	aforementioned	aforementioned	ADJ	JJ	Degree=Pos	6	amod	_	_
 6	situation	situation	NOUN	NN	Number=Sing	2	nmod	_	_
@@ -905,7 +905,7 @@
 16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
 17	great	great	ADJ	JJ	Degree=Pos	18	amod	_	_
 18	compatibility	compatibility	NOUN	NN	Number=Sing	15	obj	_	_
-19	to	to	ADP	TO	_	20	case	_	_
+19	to	to	ADP	IN	_	20	case	_	_
 20	LED	LED	NOUN	NN	Number=Sing	18	nmod	_	_
 21	in	in	ADP	IN	_	22	case	_	_
 22	terms	term	NOUN	NNS	Number=Plur	18	nmod	_	_

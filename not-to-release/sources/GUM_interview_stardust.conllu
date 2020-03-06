@@ -23,9 +23,9 @@
 1	Sunday	Sunday	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	4	punct	_	_
 3	May	May	PROPN	NNP	Number=Sing	4	compound	_	_
-4	28	@card@	NUM	CD	NumType=Card	1	appos	_	SpaceAfter=No
+4	28	28	NUM	CD	NumType=Card	1	appos	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	_	_
-6	2006	@card@	NUM	CD	NumType=Card	4	nmod:tmod	_	_
+6	2006	2006	NUM	CD	NumType=Card	4	nmod:tmod	_	_
 
 # sent_id = GUM_interview_stardust-3
 # text = Stardust is a NASA space capsule that collected samples from comet 81P/Wild (also known as "Wild 2) in deep space and landed back on Earth on January 15, 2006.
@@ -60,9 +60,9 @@
 28	Earth	Earth	PROPN	NNP	Number=Sing	25	obl	_	_
 29	on	on	ADP	IN	_	31	case	_	_
 30	January	January	PROPN	NNP	Number=Sing	31	compound	_	_
-31	15	@card@	NUM	CD	NumType=Card	28	nmod	_	SpaceAfter=No
+31	15	15	NUM	CD	NumType=Card	28	nmod	_	SpaceAfter=No
 32	,	,	PUNCT	,	_	33	punct	_	_
-33	2006	@card@	NUM	CD	NumType=Card	31	nmod:tmod	_	SpaceAfter=No
+33	2006	2006	NUM	CD	NumType=Card	31	nmod:tmod	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = GUM_interview_stardust-4
@@ -159,9 +159,9 @@
 13	)	)	PUNCT	-RRB-	_	12	punct	_	_
 14	on	on	ADP	IN	_	16	case	_	_
 15	May	May	PROPN	NNP	Number=Sing	16	compound	_	_
-16	18	@card@	NUM	CD	NumType=Card	2	obl	_	SpaceAfter=No
+16	18	18	NUM	CD	NumType=Card	2	obl	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	18	punct	_	_
-18	2006	@card@	NUM	CD	NumType=Card	16	nmod:tmod	_	SpaceAfter=No
+18	2006	2006	NUM	CD	NumType=Card	16	nmod:tmod	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = GUM_interview_stardust-9
@@ -222,9 +222,9 @@
 1	Artist	artist	NOUN	NN	Number=Sing	3	nmod:poss	_	SpaceAfter=No
 2	's	's	PART	POS	_	1	case	_	_
 3	rendering	rendering	NOUN	NN	Number=Sing	0	root	_	_
-4	of	of	ADP	IN	_	6	case	_	_
-5	Spacecraft	spacecraft	PROPN	NNP	Number=Sing	6	compound	_	_
-6	Stardust	stardust	PROPN	NNP	Number=Sing	3	nmod	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	Spacecraft	spacecraft	PROPN	NNP	Number=Sing	3	nmod	_	_
+6	Stardust	stardust	PROPN	NNP	Number=Sing	5	flat	_	_
 
 # sent_id = GUM_interview_stardust-13
 # text = Image: NASA
@@ -247,7 +247,7 @@
 8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
 9	launched	launch	VERB	VBN	Tense=Past|VerbForm=Part	6	acl:relcl	_	_
 10	in	in	ADP	IN	_	11	case	_	_
-11	1999	@card@	NUM	CD	NumType=Card	9	obl	_	SpaceAfter=No
+11	1999	1999	NUM	CD	NumType=Card	9	obl	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = GUM_interview_stardust-15
@@ -528,7 +528,7 @@
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 3	video	video	NOUN	NN	Number=Sing	4	nsubj	_	_
 4	available	available	ADJ	JJ	Degree=Pos	0	root	_	_
-5	to	to	ADP	TO	_	7	case	_	_
+5	to	to	ADP	IN	_	7	case	_	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
 7	public	public	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
 8	?	?	PUNCT	.	_	4	punct	_	_
@@ -678,7 +678,7 @@
 27	Lab	Lab	PROPN	NNP	Number=Sing	22	nmod	_	_
 28	in	in	ADP	IN	_	29	case	_	_
 29	Building	Building	PROPN	NNP	Number=Sing	27	nmod	_	_
-30	31	@card@	NUM	CD	NumType=Card	29	nummod	_	_
+30	31	31	NUM	CD	NumType=Card	29	nummod	_	_
 31	at	at	ADP	IN	_	34	case	_	_
 32	Johnson	Johnson	PROPN	NNP	Number=Sing	34	compound	_	_
 33	Space	Space	PROPN	NNP	Number=Sing	34	compound	_	_
@@ -748,7 +748,7 @@
 2	images	image	NOUN	NNS	Number=Plur	4	nsubj:pass	_	_
 3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 4	sent	send	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
-5	to	to	ADP	TO	_	6	case	_	_
+5	to	to	ADP	IN	_	6	case	_	_
 6	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obl	_	_
 7	—	—	PUNCT	:	_	9	punct	_	_
 8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
@@ -987,7 +987,7 @@
 23	moving	move	VERB	VBG	Tense=Pres|VerbForm=Part	17	ccomp	_	_
 24	with	with	ADP	IN	_	25	case	_	_
 25	respect	respect	NOUN	NN	Number=Sing	23	obl	_	_
-26	to	to	ADP	TO	_	30	case	_	_
+26	to	to	ADP	IN	_	30	case	_	_
 27	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
 28	local	local	ADJ	JJ	Degree=Pos	30	amod	_	_
 29	interstellar	interstellar	ADJ	JJ	Degree=Pos	30	amod	_	_
@@ -1051,7 +1051,7 @@
 5	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
 6	be	be	VERB	VB	VerbForm=Inf	2	ccomp	_	_
 7	around	around	ADV	RB	_	8	advmod	_	_
-8	45	@card@	NUM	CD	NumType=Card	9	nummod	_	_
+8	45	45	NUM	CD	NumType=Card	9	nummod	_	_
 9	particles	particle	NOUN	NNS	Number=Plur	2	nsubj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	16	punct	_	_
 11	but	but	CCONJ	CC	_	16	cc	_	_
@@ -1125,7 +1125,7 @@
 4	wonderful	wonderful	ADJ	JJ	Degree=Pos	5	amod	_	_
 5	quote	quote	NOUN	NN	Number=Sing	2	nsubj	_	_
 6	attributed	attribute	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	_	_
-7	to	to	ADP	TO	_	8	case	_	_
+7	to	to	ADP	IN	_	8	case	_	_
 8	Einstein	Einstein	PROPN	NNP	Number=Sing	6	obl	_	_
 9	—	—	PUNCT	:	_	5	punct	_	_
 10	"	"	PUNCT	``	_	23	punct	_	SpaceAfter=No
@@ -1246,7 +1246,7 @@
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 4	switched	switch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 5	over	over	ADP	RP	_	4	compound:prt	_	_
-6	to	to	ADP	TO	_	9	case	_	_
+6	to	to	ADP	IN	_	9	case	_	_
 7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
 8	new	new	ADJ	JJ	Degree=Pos	9	amod	_	_
 9	site	site	NOUN	NN	Number=Sing	4	obl	_	_
@@ -1299,7 +1299,7 @@
 23	accelerate	accelerate	VERB	VB	VerbForm=Inf	21	xcomp	_	_
 24	dust	dust	NOUN	NN	Number=Sing	25	compound	_	_
 25	particles	particle	NOUN	NNS	Number=Plur	23	obj	_	_
-26	to	to	ADP	TO	_	29	case	_	_
+26	to	to	ADP	IN	_	29	case	_	_
 27	very	very	ADV	RB	_	28	advmod	_	_
 28	high	high	ADJ	JJ	Degree=Pos	29	amod	_	_
 29	speeds	speed	NOUN	NNS	Number=Plur	23	obl	_	SpaceAfter=No

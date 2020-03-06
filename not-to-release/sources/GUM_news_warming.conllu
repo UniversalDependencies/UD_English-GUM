@@ -20,9 +20,9 @@
 1	Monday	Monday	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	4	punct	_	_
 3	July	July	PROPN	NNP	Number=Sing	4	compound	_	_
-4	28	@card@	NUM	CD	NumType=Card	1	appos	_	SpaceAfter=No
+4	28	28	NUM	CD	NumType=Card	1	appos	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	_	_
-6	2014	@card@	NUM	CD	NumType=Card	4	nmod:tmod	_	_
+6	2014	2014	NUM	CD	NumType=Card	4	nmod:tmod	_	_
 
 # sent_id = GUM_news_warming-3
 # text = A research team from the Massachusetts Institute of Technology and Colorado State University of the US and the University of Sheffield of the UK has analysed effects of global warming and ozone pollution over 2000 - 2050 on the worldwide production of wheat, rice, maize and soybean.
@@ -61,9 +61,9 @@
 32	ozone	ozone	NOUN	NN	Number=Sing	33	compound	_	_
 33	pollution	pollution	NOUN	NN	Number=Sing	30	conj	_	_
 34	over	over	ADP	IN	_	35	case	_	_
-35	2000	@card@	NUM	CD	NumType=Card	33	nmod	_	_
-36	-	-	ADP	TO	_	37	case	_	_
-37	2050	@card@	NUM	CD	NumType=Card	35	nmod	_	_
+35	2000	2000	NUM	CD	NumType=Card	33	nmod	_	_
+36	-	-	ADP	IN	_	37	case	_	_
+37	2050	2050	NUM	CD	NumType=Card	35	nmod	_	_
 38	on	on	ADP	IN	_	41	case	_	_
 39	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	_
 40	worldwide	worldwide	ADJ	JJ	Degree=Pos	41	amod	_	_
@@ -104,12 +104,12 @@
 6	crop	crop	NOUN	NN	Number=Sing	7	compound	_	_
 7	yields	yield	NOUN	NNS	Number=Plur	4	nmod	_	_
 8	by	by	ADP	IN	_	9	case	_	_
-9	2050	@card@	NUM	CD	NumType=Card	7	nmod	_	_
+9	2050	2050	NUM	CD	NumType=Card	7	nmod	_	_
 10	exceeded	exceed	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
-11	10	@card@	NUM	CD	NumType=Card	12	nummod	_	SpaceAfter=No
+11	10	10	NUM	CD	NumType=Card	12	nummod	_	SpaceAfter=No
 12	%	%	SYM	NN	Number=Sing	10	obj	_	_
 13	of	of	ADP	IN	_	15	case	_	_
-14	2000	@card@	NUM	CD	NumType=Card	15	nummod	_	_
+14	2000	2000	NUM	CD	NumType=Card	15	nummod	_	_
 15	levels	level	NOUN	NNS	Number=Plur	12	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	18	punct	_	_
 17	substantially	substantially	ADV	RB	_	18	advmod	_	_
@@ -147,7 +147,7 @@
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	estimated	estimate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	by	by	ADP	IN	_	4	case	_	_
-4	2050	@card@	NUM	CD	NumType=Card	2	obl	_	SpaceAfter=No
+4	2050	2050	NUM	CD	NumType=Card	2	obl	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	12	punct	_	_
 6	increasing	increase	VERB	VBG	VerbForm=Ger	7	amod	_	_
 7	population	population	NOUN	NN	Number=Sing	12	nsubj	_	_
@@ -160,7 +160,7 @@
 14	food	food	NOUN	NN	Number=Sing	15	compound	_	_
 15	needs	need	NOUN	NNS	Number=Plur	12	obj	_	_
 16	by	by	ADP	IN	_	18	case	_	_
-17	50	@card@	NUM	CD	NumType=Card	18	nummod	_	_
+17	50	50	NUM	CD	NumType=Card	18	nummod	_	_
 18	percent	percent	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -198,7 +198,7 @@
 8	different	different	ADJ	JJ	Degree=Pos	0	root	_	_
 9	[...]	[...]	PUNCT	:	_	10	punct	_	_
 10	leading	lead	VERB	VBG	VerbForm=Ger	8	acl	_	_
-11	to	to	ADP	TO	_	16	case	_	_
+11	to	to	ADP	IN	_	16	case	_	_
 12	either	either	CCONJ	DT	_	13	cc:preconj	_	_
 13	offsetting	offset	VERB	VBG	VerbForm=Ger	16	amod	_	_
 14	or	or	CCONJ	CC	_	15	cc	_	_
@@ -218,18 +218,18 @@
 # text = By 2050, undernourishment would increase by either 49 percent or by 27 percent, depending on the scenario.
 # s_type=sub
 1	By	by	ADP	IN	_	2	case	_	_
-2	2050	@card@	NUM	CD	NumType=Card	6	obl	_	SpaceAfter=No
+2	2050	2050	NUM	CD	NumType=Card	6	obl	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	undernourishment	undernourishment	NOUN	NN	Number=Sing	6	nsubj	_	_
 5	would	would	AUX	MD	VerbForm=Fin	6	aux	_	_
 6	increase	increase	VERB	VB	VerbForm=Inf	0	root	_	_
 7	by	by	ADP	IN	_	10	case	_	_
 8	either	either	CCONJ	DT	_	10	cc:preconj	_	_
-9	49	@card@	NUM	CD	NumType=Card	10	nummod	_	_
+9	49	49	NUM	CD	NumType=Card	10	nummod	_	_
 10	percent	percent	NOUN	NN	Number=Sing	6	obl	_	_
 11	or	or	CCONJ	CC	_	14	cc	_	_
 12	by	by	ADP	IN	_	14	case	_	_
-13	27	@card@	NUM	CD	NumType=Card	14	nummod	_	_
+13	27	27	NUM	CD	NumType=Card	14	nummod	_	_
 14	percent	percent	NOUN	NN	Number=Sing	7	conj	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	19	punct	_	_
 16	depending	depend	SCONJ	VBG	VerbForm=Ger	19	mark	_	_
@@ -297,7 +297,7 @@
 10	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
 11	primarily	primarily	ADV	RB	_	12	advmod	_	_
 12	sensitive	sensitive	ADJ	JJ	Degree=Pos	0	root	_	_
-13	to	to	ADP	TO	_	14	case	_	_
+13	to	to	ADP	IN	_	14	case	_	_
 14	ozone	ozone	NOUN	NN	Number=Sing	12	obl	_	_
 15	-	-	PUNCT	:	_	18	punct	_	_
 16	in	in	ADP	IN	_	18	case	_	_
@@ -349,7 +349,7 @@
 11	causes	cause	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	dep	_	_
 12	more	more	ADJ	JJR	Degree=Cmp	13	amod	_	_
 13	damage	damage	NOUN	NN	Number=Sing	11	obj	_	_
-14	to	to	ADP	TO	_	15	case	_	_
+14	to	to	ADP	IN	_	15	case	_	_
 15	plants	plant	NOUN	NNS	Number=Plur	11	obl	_	_
 16	than	than	ADP	IN	_	20	case	_	_
 17	all	all	DET	DT	_	20	det	_	_
@@ -385,7 +385,7 @@
 11	AS	AS	PROPN	NNP	Number=Sing	6	obl	_	_
 12	Heagle	Heagle	PROPN	NNP	Number=Sing	11	flat	_	_
 13	in	in	ADP	IN	_	14	case	_	_
-14	1989	@card@	NUM	CD	NumType=Card	6	obl	_	SpaceAfter=No
+14	1989	1989	NUM	CD	NumType=Card	6	obl	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	1	punct	_	_
 16	show	show	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	dicot	dicot	NOUN	NN	Number=Sing	18	compound	_	_
@@ -431,13 +431,13 @@
 5	ozone	ozone	NOUN	NN	Number=Sing	6	compound	_	_
 6	pollution	pollution	NOUN	NN	Number=Sing	7	nsubj	_	_
 7	caused	cause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
-8	46	@card@	NUM	CD	NumType=Card	9	nummod	_	_
+8	46	46	NUM	CD	NumType=Card	9	nummod	_	_
 9	percent	percent	NOUN	NN	Number=Sing	7	obj	_	_
 10	of	of	ADP	IN	_	13	case	_	_
 11	previously	previously	ADV	RB	_	12	advmod	_	_
 12	heat-attributed	heat-attributed	VERB	VBN	Tense=Past|VerbForm=Part	13	amod	_	_
 13	damage	damage	NOUN	NN	Number=Sing	9	nmod	_	_
-14	to	to	ADP	TO	_	16	case	_	_
+14	to	to	ADP	IN	_	16	case	_	_
 15	soybean	soybean	NOUN	NN	Number=Sing	16	compound	_	_
 16	crops	crop	NOUN	NNS	Number=Plur	13	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	3	punct	_	_
@@ -609,7 +609,7 @@
 12	dropped	drop	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
 13	partly	partly	ADV	RB	_	14	advmod	_	_
 14	due	due	ADJ	JJ	Degree=Pos	12	xcomp	_	_
-15	to	to	ADP	TO	_	19	case	_	_
+15	to	to	ADP	IN	_	19	case	_	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
 17	Clean	Clean	PROPN	NNP	Number=Sing	18	compound	_	_
 18	Air	Air	PROPN	NNP	Number=Sing	19	compound	_	_
@@ -636,7 +636,7 @@
 15	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	declined	decline	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
 17	by	by	ADP	IN	_	19	case	_	_
-18	25	@card@	NUM	CD	NumType=Card	19	nummod	_	_
+18	25	25	NUM	CD	NumType=Card	19	nummod	_	_
 19	percent	percent	NOUN	NN	Number=Sing	16	obl	_	_
 20	on	on	ADP	IN	_	21	case	_	_
 21	average	average	NOUN	NN	Number=Sing	19	nmod	_	_
@@ -644,9 +644,9 @@
 23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
 24	U.S.	U.S.	PROPN	NNP	Number=Sing	16	obl	_	_
 25	from	from	ADP	IN	_	26	case	_	_
-26	1980	@card@	NUM	CD	NumType=Card	16	obl	_	_
-27	to	to	ADP	TO	_	28	case	_	_
-28	2012	@card@	NUM	CD	NumType=Card	16	obl	_	_
+26	1980	1980	NUM	CD	NumType=Card	16	obl	_	_
+27	to	to	ADP	IN	_	28	case	_	_
+28	2012	2012	NUM	CD	NumType=Card	16	obl	_	_
 29	[...]	[...]	PUNCT	.	_	16	punct	_	_
 
 # sent_id = GUM_news_warming-26

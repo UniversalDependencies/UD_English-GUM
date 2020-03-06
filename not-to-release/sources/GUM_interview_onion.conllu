@@ -22,9 +22,9 @@
 1	Sunday	Sunday	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	4	punct	_	_
 3	November	November	PROPN	NNP	Number=Sing	4	compound	_	_
-4	25	@card@	NUM	CD	NumType=Card	1	appos	_	SpaceAfter=No
+4	25	25	NUM	CD	NumType=Card	1	appos	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	_	_
-6	2007	@card@	NUM	CD	NumType=Card	4	nmod:tmod	_	_
+6	2007	2007	NUM	CD	NumType=Card	4	nmod:tmod	_	_
 
 # sent_id = GUM_interview_onion-3
 # text = How The Onion writes an issue
@@ -105,10 +105,10 @@
 12	,	,	PUNCT	,	_	14	punct	_	_
 13	as	as	SCONJ	RB	_	14	mark	_	_
 14	opposed	oppose	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
-15	to	to	ADP	TO	_	19	case	_	_
+15	to	to	ADP	IN	_	19	case	_	_
 16	The	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
-17	New	New	PROPN	NNP	Number=Sing	18	compound	_	_
-18	York	York	PROPN	NNP	Number=Sing	19	compound	_	_
+17	New	New	PROPN	NNP	Number=Sing	19	compound	_	_
+18	York	York	PROPN	NNP	Number=Sing	17	flat	_	_
 19	Times	Times	PROPN	NNP	Number=Sing	14	obl	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	22	punct	_	_
 21	which	which	PRON	WDT	PronType=Rel	22	nsubj	_	_
@@ -147,7 +147,7 @@
 3	about	about	ADV	RB	_	5	advmod	_	_
 4	six	six	NUM	CD	NumType=Card	5	nummod	_	_
 5	hundred	hundred	NUM	CD	NumType=Card	10	nummod	_	_
-6	to	to	ADP	TO	_	8	case	_	_
+6	to	to	ADP	IN	_	8	case	_	_
 7	eight	eight	NUM	CD	NumType=Card	8	nummod	_	_
 8	hundred	hundred	NUM	CD	NumType=Card	5	nmod	_	_
 9	headline	headline	NOUN	NN	Number=Sing	10	compound	_	_
@@ -183,7 +183,7 @@
 5	on	on	ADP	IN	_	7	case	_	_
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
 7	Monday	Monday	PROPN	NNP	Number=Sing	2	obl	_	_
-8	to	to	ADP	TO	_	11	case	_	_
+8	to	to	ADP	IN	_	11	case	_	_
 9	about	about	ADV	RB	_	11	advmod	_	_
 10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
 11	hundred	hundred	NUM	CD	NumType=Card	2	obl	_	SpaceAfter=No
@@ -218,7 +218,7 @@
 3	assign	assign	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
 5	headline	headline	NOUN	NN	Number=Sing	3	obj	_	_
-6	to	to	ADP	TO	_	9	case	_	_
+6	to	to	ADP	IN	_	9	case	_	_
 7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
 8	specific	specific	ADJ	JJ	Degree=Pos	9	amod	_	_
 9	writer	writer	NOUN	NN	Number=Sing	3	obl	_	_
@@ -252,7 +252,7 @@
 20	aspect	aspect	NOUN	NN	Number=Sing	17	obj	_	_
 21	of	of	ADP	IN	_	22	case	_	_
 22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nmod	_	_
-23	to	to	ADP	TO	_	27	case	_	_
+23	to	to	ADP	IN	_	27	case	_	_
 24	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
 25	graphic	graphic	ADJ	JJ	Degree=Pos	27	amod	_	_
 26	design	design	NOUN	NN	Number=Sing	27	compound	_	_
@@ -263,7 +263,7 @@
 31	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
 32	visual	visual	ADJ	JJ	Degree=Pos	33	amod	_	_
 33	aspect	aspect	NOUN	NN	Number=Sing	30	obj	_	_
-34	to	to	ADP	TO	_	35	case	_	_
+34	to	to	ADP	IN	_	35	case	_	_
 35	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	obl	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -332,7 +332,7 @@
 29	then	then	ADV	RB	PronType=Dem	30	advmod	_	_
 30	assign	assign	VERB	VB	VerbForm=Inf	19	conj	_	_
 31	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
-32	to	to	ADP	TO	_	35	case	_	_
+32	to	to	ADP	IN	_	35	case	_	_
 33	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	_	_
 34	particular	particular	ADJ	JJ	Degree=Pos	35	amod	_	_
 35	writer	writer	NOUN	NN	Number=Sing	30	obl	_	_
@@ -363,9 +363,9 @@
 14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
 15	list	list	NOUN	NN	Number=Sing	11	obl	_	_
 16	of	of	ADP	IN	_	21	case	_	_
-17	15	@card@	NUM	CD	NumType=Card	21	nummod	_	_
+17	15	15	NUM	CD	NumType=Card	21	nummod	_	_
 18	or	or	CCONJ	CC	_	19	cc	_	_
-19	20	@card@	NUM	CD	NumType=Card	17	conj	_	_
+19	20	20	NUM	CD	NumType=Card	17	conj	_	_
 20	headline	headline	NOUN	NN	Number=Sing	21	compound	_	_
 21	ideas	idea	NOUN	NNS	Number=Plur	15	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	25	punct	_	_
@@ -471,11 +471,11 @@
 3	like	like	SCONJ	IN	_	13	mark	_	_
 4	some	some	DET	DT	_	5	det	_	_
 5	publications	publication	NOUN	NNS	Number=Plur	13	nsubj	_	SpaceAfter=No
-6	,	,	PUNCT	,	_	10	punct	_	_
-7	like	like	ADP	IN	_	10	case	_	_
-8	AM	AM	PROPN	NNP	Number=Sing	10	compound	_	_
-9	New	New	PROPN	NNP	Number=Sing	10	compound	_	_
-10	York	York	PROPN	NNP	Number=Sing	5	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	like	like	ADP	IN	_	9	case	_	_
+8	AM	AM	PROPN	NNP	Number=Sing	9	compound	_	_
+9	New	New	PROPN	NNP	Number=Sing	5	nmod	_	_
+10	York	York	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	5	punct	_	_
 12	always	always	ADV	RB	_	13	advmod	_	_
 13	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
@@ -788,7 +788,7 @@
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
 3	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
 4	reaction	reaction	NOUN	NN	Number=Sing	0	root	_	_
-5	to	to	ADP	TO	_	6	case	_	_
+5	to	to	ADP	IN	_	6	case	_	_
 6	all	all	PRON	DT	_	4	nmod	_	_
 7	of	of	ADP	IN	_	10	case	_	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
@@ -840,7 +840,7 @@
 17	from	from	ADP	IN	_	19	case	_	_
 18	US	US	PROPN	NNP	Number=Sing	19	compound	_	_
 19	Weekly	Weekly	PROPN	NNP	Number=Sing	16	nmod	_	_
-20	to	to	ADP	TO	_	22	case	_	_
+20	to	to	ADP	IN	_	22	case	_	_
 21	Time	Time	PROPN	NNP	Number=Sing	22	compound	_	_
 22	Magazine	Magazine	PROPN	NNP	Number=Sing	19	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	3	punct	_	_
@@ -873,11 +873,11 @@
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
 4	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 5	similar	similar	ADJ	JJ	Degree=Pos	4	xcomp	_	_
-6	to	to	ADP	TO	_	7	case	_	_
+6	to	to	ADP	IN	_	7	case	_	_
 7	what	what	PRON	WP	PronType=Int	5	obl	_	_
 8	Colbert	Colbert	PROPN	NNP	Number=Sing	9	nsubj	_	_
 9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
-10	to	to	ADP	TO	_	11	case	_	_
+10	to	to	ADP	IN	_	11	case	_	_
 11	Terry	Terry	PROPN	NNP	Number=Sing	9	obl	_	_
 12	Gross	Gross	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	2	punct	_	_
@@ -890,13 +890,13 @@
 2	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	n’t	not	PART	RB	Polarity=Neg	4	advmod	_	_
 4	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
-5	to	to	ADP	TO	_	7	case	_	_
+5	to	to	ADP	IN	_	7	case	_	_
 6	just	just	ADJ	JJ	Degree=Pos	7	amod	_	_
 7	traffic	traffic	NOUN	NN	Number=Sing	4	obl	_	_
 8	in	in	ADP	IN	_	14	case	_	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
 10	same	same	ADJ	JJ	Degree=Pos	14	amod	_	_
-11	24	@card@	NUM	CD	NumType=Card	14	nummod	_	_
+11	24	24	NUM	CD	NumType=Card	14	nummod	_	_
 12	hour	hour	NOUN	NN	Number=Sing	14	compound	_	_
 13	news	news	NOUN	NN	Number=Sing	14	compound	_	_
 14	cycle	cycle	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
@@ -909,7 +909,7 @@
 1	There	there	PRON	EX	_	2	expl	_	SpaceAfter=No
 2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
-4	24	@card@	NUM	CD	NumType=Card	8	nummod	_	_
+4	24	24	NUM	CD	NumType=Card	8	nummod	_	_
 5	hour	hour	NOUN	NN	Number=Sing	8	compound	_	_
 6	comedy	comedy	NOUN	NN	Number=Sing	8	amod	_	_
 7	news	news	NOUN	NN	Number=Sing	8	compound	_	_
@@ -946,7 +946,7 @@
 15	everything	everything	NOUN	NN	Number=Sing	14	obj	_	_
 16	in	in	ADP	IN	_	19	case	_	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
-18	24	@card@	NUM	CD	NumType=Card	19	nummod	_	_
+18	24	24	NUM	CD	NumType=Card	19	nummod	_	_
 19	hours	hour	NOUN	NNS	Number=Plur	14	obl	_	_
 20	and	and	CCONJ	CC	_	24	cc	_	_
 21	on	on	ADP	IN	_	24	case	_	_
@@ -1126,7 +1126,7 @@
 14	,	,	PUNCT	,	_	9	punct	_	_
 15	likened	liken	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	_
 16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
-17	to	to	ADP	TO	_	18	case	_	_
+17	to	to	ADP	IN	_	18	case	_	_
 18	wine	wine	NOUN	NN	Number=Sing	15	obl	_	_
 19	tasting	taste	VERB	VBG	VerbForm=Ger	18	acl	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	5	punct	_	_
@@ -1263,12 +1263,12 @@
 3	what	what	PRON	WP	PronType=Int	5	obj	_	_
 4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
 5	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
-6	on	on	ADP	IN	_	8	case	_	_
-7	Studio	studio	PROPN	NNP	Number=Sing	8	compound	_	_
-8	60	@card@	PROPN	NNP	Number=Sing	5	obl	_	_
-9	and	and	CCONJ	CC	_	11	cc	_	_
-10	30	@card@	PROPN	NNP	Number=Sing	11	compound	_	_
-11	Rock	Rock	PROPN	NNP	Number=Sing	8	conj	_	SpaceAfter=No
+6	on	on	ADP	IN	_	7	case	_	_
+7	Studio	studio	PROPN	NNP	Number=Sing	5	obl	_	_
+8	60	60	PROPN	NNP	Number=Sing	7	flat	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	30	30	PROPN	NNP	Number=Sing	7	conj	_	_
+11	Rock	Rock	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	5	punct	_	_
 13	those	those	PRON	DT	Number=Plur|PronType=Dem	15	nsubj:pass	_	_
 14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_

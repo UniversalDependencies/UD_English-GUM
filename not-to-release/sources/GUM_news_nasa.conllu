@@ -24,9 +24,9 @@
 1	Wednesday	Wednesday	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	4	punct	_	_
 3	April	April	PROPN	NNP	Number=Sing	4	nmod:tmod	_	_
-4	13	@card@	NUM	CD	NumType=Card	1	appos	_	SpaceAfter=No
+4	13	13	NUM	CD	NumType=Card	1	appos	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	_	_
-6	2011	@card@	NUM	CD	NumType=Card	4	nmod:tmod	_	_
+6	2011	2011	NUM	CD	NumType=Card	4	nmod:tmod	_	_
 
 # sent_id = GUM_news_nasa-3
 # text = NASA Administrator Charles Bolden announces where four space shuttle orbiters will be permanently displayed at the conclusion of the Space Shuttle Program during an event commemorating the 30th anniversay of the first shuttle launch on April 12, 2011.
@@ -67,9 +67,9 @@
 34	launch	launch	NOUN	NN	Number=Sing	29	nmod	_	_
 35	on	on	ADP	IN	_	37	case	_	_
 36	April	April	PROPN	NNP	Number=Sing	37	nmod:tmod	_	_
-37	12	@card@	NUM	CD	NumType=Card	34	nmod	_	SpaceAfter=No
+37	12	12	NUM	CD	NumType=Card	34	nmod	_	SpaceAfter=No
 38	,	,	PUNCT	,	_	39	punct	_	_
-39	2011	@card@	NUM	CD	NumType=Card	37	nmod:tmod	_	SpaceAfter=No
+39	2011	2011	NUM	CD	NumType=Card	37	nmod:tmod	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = GUM_news_nasa-4
@@ -118,9 +118,9 @@
 # s_type=decl
 1	On	on	ADP	IN	_	3	case	_	_
 2	April	April	PROPN	NNP	Number=Sing	3	nmod:tmod	_	_
-3	12	@card@	NUM	CD	NumType=Card	10	obl	_	SpaceAfter=No
+3	12	12	NUM	CD	NumType=Card	10	obl	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	_	_
-5	1981	@card@	NUM	CD	NumType=Card	3	nmod:tmod	_	SpaceAfter=No
+5	1981	1981	NUM	CD	NumType=Card	3	nmod:tmod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	3	punct	_	_
 7	Space	Space	PROPN	NNP	Number=Sing	8	compound	_	_
 8	Shuttle	shuttle	PROPN	NNP	Number=Sing	9	compound	_	_
@@ -255,14 +255,14 @@
 26	Dulles	Dulles	PROPN	NNP	Number=Sing	28	compound	_	_
 27	International	International	PROPN	NNP	Number=Sing	28	amod	_	_
 28	Airport	Airport	PROPN	NNP	Number=Sing	23	nmod	_	_
-29	to	to	ADP	TO	_	33	case	_	_
+29	to	to	ADP	IN	_	33	case	_	_
 30	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
 31	Intrepid	intrepid	PROPN	NNP	Number=Sing	33	compound	_	_
 32	Sea-Air-Space	Sea-Air-Space	PROPN	NNP	Number=Sing	33	compound	_	_
 33	Museum	Museum	PROPN	NNP	Number=Sing	10	obl	_	_
 34	in	in	ADP	IN	_	37	case	_	_
-35	New	New	PROPN	NNP	Number=Sing	36	compound	_	_
-36	York	York	PROPN	NNP	Number=Sing	37	compound	_	_
+35	New	New	PROPN	NNP	Number=Sing	37	compound	_	_
+36	York	York	PROPN	NNP	Number=Sing	35	flat	_	_
 37	City	City	PROPN	NNP	Number=Sing	33	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	10	punct	_	_
 
@@ -351,9 +351,9 @@
 19	Center	Center	PROPN	NNP	Number=Sing	7	obl	_	_
 20	on	on	ADP	IN	_	22	case	_	_
 21	April	April	PROPN	NNP	Number=Sing	22	nmod:tmod	_	_
-22	12	@card@	NUM	CD	NumType=Card	7	obl	_	SpaceAfter=No
+22	12	12	NUM	CD	NumType=Card	7	obl	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	24	punct	_	_
-24	1981	@card@	NUM	CD	NumType=Card	22	nmod:tmod	_	SpaceAfter=No
+24	1981	1981	NUM	CD	NumType=Card	22	nmod:tmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = GUM_news_nasa-14
@@ -384,21 +384,21 @@
 15	month	month	NOUN	NN	Number=Sing	12	nmod	_	_
 16	on	on	ADP	IN	_	18	case	_	_
 17	April	April	PROPN	NNP	Number=Sing	18	nmod:tmod	_	_
-18	29	@card@	NUM	CD	NumType=Card	7	obl	_	SpaceAfter=No
+18	29	29	NUM	CD	NumType=Card	7	obl	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	3	punct	_	_
 20	will	will	AUX	MD	VerbForm=Fin	22	aux	_	_
 21	be	be	AUX	VB	VerbForm=Inf	22	aux:pass	_	_
 22	sent	send	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
-23	to	to	ADP	TO	_	27	case	_	_
+23	to	to	ADP	IN	_	27	case	_	_
 24	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
 25	California	California	PROPN	NNP	Number=Sing	27	compound	_	_
 26	Science	Science	PROPN	NNP	Number=Sing	27	compound	_	_
 27	Center	Center	PROPN	NNP	Number=Sing	22	obl	_	_
-28	in	in	ADP	IN	_	30	case	_	_
-29	Los	Los	PROPN	NNP	Number=Sing	30	compound	_	_
-30	Angeles	Angeles	PROPN	NNP	Number=Sing	27	nmod	_	SpaceAfter=No
+28	in	in	ADP	IN	_	29	case	_	_
+29	Los	Los	PROPN	NNP	Number=Sing	27	nmod	_	_
+30	Angeles	Angeles	PROPN	NNP	Number=Sing	29	flat	_	SpaceAfter=No
 31	,	,	PUNCT	,	_	32	punct	_	_
-32	California	California	PROPN	NNP	Number=Sing	30	appos	_	_
+32	California	California	PROPN	NNP	Number=Sing	29	appos	_	_
 33	following	follow	VERB	VBG	VerbForm=Ger	35	case	_	_
 34	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
 35	retirement	retirement	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
@@ -430,7 +430,7 @@
 21	which	which	PRON	WDT	PronType=Rel	22	nsubj	_	_
 22	launches	launch	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
 23	June	June	PROPN	NNP	Number=Sing	24	nmod:tmod	_	_
-24	28	@card@	NUM	CD	NumType=Card	22	obl:tmod	_	SpaceAfter=No
+24	28	28	NUM	CD	NumType=Card	22	obl:tmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = GUM_news_nasa-17
@@ -445,7 +445,7 @@
 7	February	February	PROPN	NNP	Number=Sing	8	nmod:tmod	_	_
 8	1	1	NUM	CD	NumType=Card	3	obl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	_	_
-10	2003	@card@	NUM	CD	NumType=Card	8	nmod:tmod	_	_
+10	2003	2003	NUM	CD	NumType=Card	8	nmod:tmod	_	_
 11	when	when	SCONJ	WRB	PronType=Int	13	mark	_	_
 12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	disintegrated	disintegrate	VERB	VBD	Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin	3	advcl	_	_
@@ -469,16 +469,16 @@
 6	when	when	SCONJ	WRB	PronType=Int	8	mark	_	_
 7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	exploded	explode	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	_
-9	73	@card@	NUM	CD	NumType=Card	10	nummod	_	_
+9	73	73	NUM	CD	NumType=Card	10	nummod	_	_
 10	seconds	second	NOUN	NNS	Number=Plur	8	obl:tmod	_	_
 11	after	after	ADP	IN	_	12	case	_	_
 12	liftoff	liftoff	NOUN	NN	Number=Sing	10	nmod	_	_
 13	back	back	ADV	RB	_	16	advmod	_	_
 14	on	on	ADP	IN	_	16	case	_	_
 15	January	January	PROPN	NNP	Number=Sing	16	nmod:tmod	_	_
-16	28	@card@	NUM	CD	NumType=Card	8	obl	_	SpaceAfter=No
+16	28	28	NUM	CD	NumType=Card	8	obl	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	18	punct	_	_
-18	1986	@card@	NUM	CD	NumType=Card	16	nmod:tmod	_	_
+18	1986	1986	NUM	CD	NumType=Card	16	nmod:tmod	_	_
 19	killing	kill	VERB	VBG	VerbForm=Ger	8	advcl	_	_
 20	all	all	DET	DT	_	21	det	_	_
 21	six	six	NUM	CD	NumType=Card	19	obj	_	_
@@ -511,7 +511,7 @@
 21	"	"	PUNCT	''	_	3	punct	_	_
 22	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 23	Bolden	Bolden	PROPN	NNP	Number=Sing	22	nsubj	_	_
-24	to	to	ADP	TO	_	27	case	_	_
+24	to	to	ADP	IN	_	27	case	_	_
 25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
 26	gathered	gather	VERB	VBN	Tense=Past|VerbForm=Part	27	amod	_	_
 27	crowd	crowd	NOUN	NN	Number=Sing	22	obl	_	_
@@ -601,7 +601,7 @@
 15	providing	provide	VERB	VBG	VerbForm=Ger	11	conj	_	_
 16	outstanding	outstanding	ADJ	JJ	Degree=Pos	17	amod	_	_
 17	access	access	NOUN	NN	Number=Sing	15	obj	_	_
-18	to	to	ADP	TO	_	22	case	_	_
+18	to	to	ADP	IN	_	22	case	_	_
 19	U.S.	U.S.	PROPN	NNP	Number=Sing	22	compound	_	_
 20	and	and	CCONJ	CC	_	21	cc	_	_
 21	international	international	ADJ	JJ	Degree=Pos	19	conj	_	_
@@ -875,7 +875,7 @@
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
 6	affront	affront	NOUN	NN	Number=Sing	0	root	_	_
-7	to	to	ADP	TO	_	9	case	_	_
+7	to	to	ADP	IN	_	9	case	_	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
 9	thousands	thousand	NOUN	NNS	Number=Plur	6	nmod	_	_
 10	of	of	ADP	IN	_	12	case	_	_
@@ -1026,7 +1026,7 @@
 18	for	for	ADP	IN	_	22	case	_	_
 19	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
 20	last	last	ADJ	JJ	Degree=Pos	22	amod	_	_
-21	30	@card@	NUM	CD	NumType=Card	22	nummod	_	_
+21	30	30	NUM	CD	NumType=Card	22	nummod	_	_
 22	years	year	NOUN	NNS	Number=Plur	16	obl	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	3	punct	_	_
 24	Seattle	Seattle	PROPN	NNP	Number=Sing	30	nsubj	_	_
@@ -1067,7 +1067,7 @@
 # text = In 2008, Endeavour and Atlantis await a journey on their respective launchpads.
 # s_type=decl
 1	In	in	ADP	IN	_	2	case	_	_
-2	2008	@card@	NUM	CD	NumType=Card	7	obl	_	SpaceAfter=No
+2	2008	2008	NUM	CD	NumType=Card	7	obl	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	Endeavour	endeavour	PROPN	NNP	Number=Sing	7	nsubj	_	_
 5	and	and	CCONJ	CC	_	6	cc	_	_
@@ -1192,13 +1192,13 @@
 4	inspire	inspire	VERB	VB	VerbForm=Inf	3	xcomp	_	_
 5	young	young	ADJ	JJ	Degree=Pos	6	amod	_	_
 6	people	people	NOUN	NNS	Number=Plur	4	obj	_	_
-7	to	to	ADP	TO	_	9	case	_	_
+7	to	to	ADP	IN	_	9	case	_	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
 9	adventure	adventure	NOUN	NN	Number=Sing	4	obl	_	_
 10	of	of	ADP	IN	_	11	case	_	_
 11	space	space	NOUN	NN	Number=Sing	9	nmod	_	_
 12	and	and	CCONJ	CC	_	15	cc	_	_
-13	to	to	ADP	TO	_	15	case	_	_
+13	to	to	ADP	IN	_	15	case	_	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
 15	excitement	excitement	NOUN	NN	Number=Sing	7	conj	_	_
 16	of	of	ADP	IN	_	18	case	_	_
@@ -1224,7 +1224,7 @@
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
 6	affront	affront	NOUN	NN	Number=Sing	0	root	_	_
-7	to	to	ADP	TO	_	9	case	_	_
+7	to	to	ADP	IN	_	9	case	_	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
 9	thousands	thousand	NOUN	NNS	Number=Plur	6	nmod	_	_
 10	of	of	ADP	IN	_	12	case	_	_
@@ -1285,7 +1285,7 @@
 8	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
 9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
 10	given	give	VERB	VBN	Tense=Past|VerbForm=Part	6	acl:relcl	_	_
-11	to	to	ADP	TO	_	14	case	_	_
+11	to	to	ADP	IN	_	14	case	_	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
 13	Adler	Adler	PROPN	NNP	Number=Sing	14	compound	_	_
 14	Planetarium	planetarium	PROPN	NNP	Number=Sing	10	obl	_	_
@@ -1385,7 +1385,7 @@
 6	heat	heat	NOUN	NN	Number=Sing	7	compound	_	_
 7	shield	shield	NOUN	NN	Number=Sing	8	compound	_	_
 8	tiles	tile	NOUN	NNS	Number=Plur	4	obj	_	_
-9	to	to	ADP	TO	_	10	case	_	_
+9	to	to	ADP	IN	_	10	case	_	_
 10	schools	school	NOUN	NNS	Number=Plur	4	obl	_	_
 11	and	and	CCONJ	CC	_	12	cc	_	_
 12	universities	university	NOUN	NNS	Number=Plur	10	conj	_	_
