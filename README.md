@@ -10,7 +10,7 @@ The dependencies in the corpus up to GUM version 5 were originally annotated usi
 
 # Documents and splits
 
-The training, development and test sets contain complete, contiguous documents, balanced for genre. Test and dev contain similar amounts of data, usually around 2,500 tokens in each genre in each, and the rest is assigned to training. There is currently less data in the genres fiction, bio and academic, but equal amounts of these are in test and dev (two documents each) and the rest is in training data. For the exact file lists in each split see:
+The training, development and test sets contain complete, contiguous documents, balanced for genre. Test and dev contain similar amounts of data, usually around 2,500 tokens in each genre in each, and the rest is assigned to training. For the exact file lists in each split see:
 
 https://github.com/UniversalDependencies/UD_English-GUM/tree/master/not-to-release/file-lists
 
