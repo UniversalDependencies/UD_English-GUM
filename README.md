@@ -8,6 +8,26 @@ GUM, the Georgetown University Multilayer corpus, is an open source collection o
 
 The dependencies in the corpus up to GUM version 5 were originally annotated using Stanford Typed Depenencies (de Marneffe & Manning 2013) and converted automatically to UD using DepEdit (https://corpling.uis.georgetown.edu/depedit/). The rule-based conversion took into account gold entity annotations found in other annotation layers of the GUM corpus (e.g. entity annotations), and has since been corrected manually in native UD. The original conversion script used can found in the GUM build bot code from version 5, available from the (non-UD) GUM repository. Documents from version 6 of GUM onwards were annotated directly in UD, and subsequent manual error correction to all GUM data has also been done directly using the UD guidelines. For more details see the [corpus website](https://corpling.uis.georgetown.edu/gum/).
 
+# Additional annotations in MISC
+
+The MISC column contains **entity, coreference and discourse** annotations from the full GUM corpus, encoded using the annotations `Entity` and `Discourse`. The `Entity` annotation uses the CoNLL 2012 shared task bracketing format, which identifies entities using round opening and closing brackets as well as a unique ID per entity, repeated across mentions. In the following example, Czech composer Dvořák appears in a single token mention, labeled `(person-1)` indicating the entity type (`person`) combined with the unique ID of all mentions of Dvořák in the text (`person-1`). Multi-token mentions receive opening brackets on the line in which they open, such as `(person-49` (in this case Johannes Brahms), and a closing annotation `person-50)` at the token on which they end. Multiple annotations are possible for one token, corresponding to nested entities, e.g. `(event-48(person-49` below. Note that currently only plain coreference annotations are included in this format (including appositions and cataphora), but not split antecedent and bridging anaphora, which can be found in the GUM [source repo](https://github.com/amir-zeldes/gum/).
+
+Discourse annotations are given in RST dependencies following the conversion from RST constituent trees as suggested by Li et al. (2014) - for the original RST constituent parses of GUM see the [source repo](https://github.com/amir-zeldes/gum/). At the beginning of each Elementary Discourse Unit (EDU), and annotation `Discourse` gives the discourse function of the unit beginning with that token, followed by a colon, the ID of the current unit, and an arrow pointing to the ID of the parent unit in the discourse parse. For instance, `Discourse=concession:28->29` in the example below means that this token begins discourse unit 28, which functions as a `concession` to unit 29, which begins at token 9 in this sentence. The unique `ROOT` node of the discourse tree has no arrow notation, e.g. `Discourse=ROOT:4` means that this token begins unit 4, which is the Central Discourse Unit (or discourse root) of the current document.
+
+```
+1	Although	although	SCONJ	IN	_	5	mark	_	Discourse=concession:28->29
+2	Dvořák	Dvořák	PROPN	NNP	Number=Sing	5	nsubj	_	Entity=(person-1)
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	not	not	PART	RB	Polarity=Neg	5	advmod	_	_
+5	aware	aware	ADJ	JJ	Degree=Pos	14	advcl	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	_	Entity=(event-48)|SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	Johannes	Johannes	PROPN	NNP	Number=Sing	14	nsubj	_	Discourse=background:29->30|Entity=(event-48(person-49
+10	Brahms	Brahms	PROPN	NNP	Number=Sing	9	flat	_	Entity=person-49)
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+```
+
 # Documents and splits
 
 The training, development and test sets contain complete, contiguous documents, balanced for genre. Test and dev contain similar amounts of data, usually around 2,500 tokens in each genre in each, and the rest is assigned to training. For the exact file lists in each split see:
@@ -42,6 +62,12 @@ As a scholarly citation for the corpus in articles, please use this paper:
 ```
 
 # Changelog
+
+* 2020-10-31
+  * Major improvements to entity and coreference consistency
+  * Removed 'quantity' entity type
+  * Added discourse dependency information in MISC column
+  * Moved Typo annotation from MISC to FEATS
 
 * 2020-03-06 
   * Added rest of GUM6 documents
