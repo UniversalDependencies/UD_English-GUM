@@ -4,29 +4,52 @@ Universal Dependencies syntax annotations from the GUM corpus (https://corpling.
 
 # Introduction
 
-GUM, the Georgetown University Multilayer corpus, is an open source collection of richly annotated web texts from multiple text types. The corpus is collected and expanded by students as part of the curriculum in the course LING-367 "Computational Corpus Linguistics" at Georgetown University. The selection of text types is meant to represent different communicative purposes, while coming from sources that are readily and openly available (usually Creative Commons licenses), so that new texts can be annotated and published with ease.
+GUM, the Georgetown University Multilayer corpus, is an open source collection of richly annotated texts from multiple text types. The corpus is collected and expanded by students as part of the curriculum in the course LING-367 "Computational Corpus Linguistics" at Georgetown University. The selection of text types is meant to represent different communicative purposes, while coming from sources that are readily and openly available (usually Creative Commons licenses), so that new texts can be annotated and published with ease.
 
 The dependencies in the corpus up to GUM version 5 were originally annotated using Stanford Typed Depenencies (de Marneffe & Manning 2013) and converted automatically to UD using DepEdit (https://corpling.uis.georgetown.edu/depedit/). The rule-based conversion took into account gold entity annotations found in other annotation layers of the GUM corpus (e.g. entity annotations), and has since been corrected manually in native UD. The original conversion script used can found in the GUM build bot code from version 5, available from the (non-UD) GUM repository. Documents from version 6 of GUM onwards were annotated directly in UD, and subsequent manual error correction to all GUM data has also been done directly using the UD guidelines. For more details see the [corpus website](https://corpling.uis.georgetown.edu/gum/).
 
 # Additional annotations in MISC
 
-The MISC column contains **entity, coreference and discourse** annotations from the full GUM corpus, encoded using the annotations `Entity` and `Discourse`. The `Entity` annotation uses the CoNLL 2012 shared task bracketing format, which identifies entities using round opening and closing brackets as well as a unique ID per entity, repeated across mentions. In the following example, Czech composer Dvořák appears in a single token mention, labeled `(person-1)` indicating the entity type (`person`) combined with the unique ID of all mentions of Dvořák in the text (`person-1`). Multi-token mentions receive opening brackets on the line in which they open, such as `(person-49` (in this case Johannes Brahms), and a closing annotation `person-50)` at the token on which they end. Multiple annotations are possible for one token, corresponding to nested entities, e.g. `(event-48(person-49` below. Note that currently only plain coreference annotations are included in this format (including appositions and cataphora), but not split antecedent and bridging anaphora, which can be found in the GUM [source repo](https://github.com/amir-zeldes/gum/).
+The MISC column contains **entity, coreference, Wikification and discourse** annotations from the full GUM corpus, encoded using the annotations `Entity`, `Split`, `Bridge` and `Discourse`. The `Entity` annotation uses the CoNLL 2012 shared task bracketing format, which identifies potentially coreferring entities using round opening and closing brackets as well as a unique ID per entity, repeated across mentions. In the following example, actor Jared Padalecki appears in a single token mention, labeled `(person-1-Jared_Padalecki)` indicating the entity type (`person`) combined with the unique ID of all mentions of Padalecki in the text (`person-1`). Because Padalecki is a named entity with a corresponding Wikipedia page, the Wikification identifier corresponding to his Wikipedia page is given after the second hyphen, resulting in the unique entity ID (`person-1-Jared_Padalecki`). Multi-token mentions receive opening brackets on the line in which they open, such as `(person-97-Jensen_Ackles`, and a closing annotation `person-97-Jensen_Ackles)` at the token on which they end. Multiple annotations are possible for one token, corresponding to nested entities, e.g. `(time-175)time-189)` below corresponds to the last token of the time entities "2015" and "April 2015" respectively. 
 
-Discourse annotations are given in RST dependencies following the conversion from RST constituent trees as suggested by Li et al. (2014) - for the original RST constituent parses of GUM see the [source repo](https://github.com/amir-zeldes/gum/). At the beginning of each Elementary Discourse Unit (EDU), and annotation `Discourse` gives the discourse function of the unit beginning with that token, followed by a colon, the ID of the current unit, and an arrow pointing to the ID of the parent unit in the discourse parse. For instance, `Discourse=concession:28->29` in the example below means that this token begins discourse unit 28, which functions as a `concession` to unit 29, which begins at token 9 in this sentence. The unique `ROOT` node of the discourse tree has no arrow notation, e.g. `Discourse=ROOT:4` means that this token begins unit 4, which is the Central Discourse Unit (or discourse root) of the current document.
+The additional annotations `Split` and `Bridge` mark non-strict identity anaphora: for example, at token 28 in the example, the pronoun "their" refers back to two non-adjacent entities, requiring a split antecedent annotation. The value `Split=person-1-Jared_Padalecki<person-192,person-97-Jensen_Ackles<person-192` indicates that `person-192` (the pronoun "their") refers back to two previous Entity annotations, with pointers separatated by a comma: `person-1-Jared_Padalecki` and `person-97-Jensen_Ackles`. Bridging anaphora is annotated when an entity has not been mentioned before, but is resolvable in context by way of a different entity: for example, token 2 has the annotation `Bridge=abstract-173<event-188`, which indicates that although `event-188` ("the second campaign...") has not been mentioned before, its identity is mediated by the previous mention of another entity, `abstract-173` (the project "Always Keep Fighting", mentioned earlier in the document, to which the campaign event belongs).
+
+Discourse annotations are given in RST dependencies following the conversion from RST constituent trees as suggested by Li et al. (2014) - for the original RST constituent parses of GUM see the [source repo](https://github.com/amir-zeldes/gum/). At the beginning of each Elementary Discourse Unit (EDU), and annotation `Discourse` gives the discourse function of the unit beginning with that token, followed by a colon, the ID of the current unit, and an arrow pointing to the ID of the parent unit in the discourse parse. For instance, `Discourse=purpose:105->104` at token 21 in the example below means that this token begins discourse unit 105, which functions as a `purpose` to unit 104, which begins at token 1 in this sentence ("Padalecki partnered with co-star Jensen Ackles --purpose-> to release a shirt..."). The unique `ROOT` node of the discourse tree has no arrow notation, e.g. `Discourse=ROOT:2` means that this token begins unit 2, which is the Central Discourse Unit (or discourse root) of the current document. 
+
+More information and additional annotation layers can be found in the GUM [source repo](https://github.com/amir-zeldes/gum/).
 
 ```
-1	Although	although	SCONJ	IN	_	5	mark	_	Discourse=concession:28->29
-2	Dvořák	Dvořák	PROPN	NNP	Number=Sing	5	nsubj	_	Entity=(person-1)
-3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
-4	not	not	PART	RB	Polarity=Neg	5	advmod	_	_
-5	aware	aware	ADJ	JJ	Degree=Pos	14	advcl	_	_
-6	of	of	ADP	IN	_	7	case	_	_
-7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	_	Entity=(event-48)|SpaceAfter=No
-8	,	,	PUNCT	,	_	5	punct	_	_
-9	Johannes	Johannes	PROPN	NNP	Number=Sing	14	nsubj	_	Discourse=background:29->30|Entity=(event-48(person-49
-10	Brahms	Brahms	PROPN	NNP	Number=Sing	9	flat	_	Entity=person-49)
-11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+1	For	for	ADP	IN	_	4	case	_	Discourse=sequence:104->98
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	Bridge=abstract-173<event-188|Entity=(event-188
+3	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	_	_
+4	campaign	campaign	NOUN	NN	Number=Sing	16	obl	_	_
+5	in	in	ADP	IN	_	10	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+7	Always	Always	ADV	NNP	Number=Sing	8	advmod	_	Entity=(abstract-173
+8	Keep	Keep	PROPN	NNP	Number=Sing	10	compound	_	_
+9	Fighting	Fighting	PROPN	NNP	Number=Sing	8	xcomp	_	_
+10	series	series	NOUN	NN	Number=Sing	4	nmod	_	Entity=abstract-173)
+11	in	in	ADP	IN	_	12	case	_	_
+12	April	April	PROPN	NNP	Number=Sing	4	nmod	_	Entity=(time-189
+13	2015	2015	NUM	CD	NumForm=Digit|NumType=Card	12	nmod:tmod	_	Entity=(time-175)event-188)time-189)|SpaceAfter=No
+14	,	,	PUNCT	,	_	4	punct	_	_
+15	Padalecki	Padalecki	PROPN	NNP	Number=Sing	16	nsubj	_	Entity=(person-1-Jared_Padalecki)
+16	partnered	partner	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	with	with	ADP	IN	_	18	case	_	_
+18	co-star	co-star	NOUN	NN	Number=Sing	16	obl	_	Entity=(person-97-Jensen_Ackles
+19	Jensen	Jensen	PROPN	NNP	Number=Sing	18	appos	_	_
+20	Ackles	Ackles	PROPN	NNP	Number=Sing	19	flat	_	Entity=person-97-Jensen_Ackles)
+21	to	to	PART	TO	_	22	mark	_	Discourse=purpose:105->104
+22	release	release	VERB	VB	VerbForm=Inf	16	advcl	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	Entity=(object-190
+24	shirt	shirt	NOUN	NN	Number=Sing	22	obj	_	Entity=object-190)
+25	featuring	feature	VERB	VBG	VerbForm=Ger	24	acl	_	Discourse=elaboration:106->105
+26	both	both	PRON	DT	_	25	obj	_	Entity=(object-191
+27	of	of	ADP	IN	_	29	case	_	_
+28	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	Entity=(person-192)|Split=person-1-Jared_Padalecki<person-192,person-97-Jensen_Ackles<person-192
+29	faces	face	NOUN	NNS	Number=Plur	26	nmod	_	Entity=object-191)|SpaceAfter=No
 ```
+
 
 # Documents and splits
 
@@ -38,7 +61,7 @@ https://github.com/UniversalDependencies/UD_English-GUM/tree/master/not-to-relea
 
 GUM annotation team (so far - thanks for participating!)
 
-Adrienne Isaac, Akitaka Yamada, Amani Aloufi, Amelia Becker, Andrea Price, Andrew O\'Brien, Anna Runova, Anne Butler, Arianna Janoff, Ayan Mandal, Aysenur Sagdic, Bertille Baron, Bradford Salen, Brandon Tullock, Brent Laing, Candice Penelton, Chenyue Guo, Colleen Diamond, Connor O\'Dwyer, Cristina Lopez, Dan Simonson, Didem Ikizoglu, Edwin Ko, Emily Pace, Emma Manning, Ethan Beaman, Felipe De Jesus, Han Bu, Hana Altalhi, Hang Jiang, Hannah Wingett, Hanwool Choe, Hassan Munshi, Ho Fai Cheng, Hortensia Gutierrez, Jakob Prange, James Maguire, Janine Karo, Jehan al-Mahmoud, Jemm Excelle Dela Cruz, Jessica Kotfila, Joaquin Gris Roca, John Chi, Jongbong Lee, Juliet May, Katarina Starcevic, Katelyn MacDougald, Katherine Vadella, Lara Bryfonski, Leah Northington, Lindley Winchester, Linxi Zhang, Logan Peng, Lucia Donatelli, Luke Gessler, Mackenzie Gong, Margaret Anne Rowe, Margaret Borowczyk, Maria Stoianova, Mariko Uno, Mary Henderson, Maya Barzilai, Md. Jahurul Islam, Michael Kranzlein, Michaela Harrington, Minnie Annan, Mitchell Abrams, Mohammad Ali Yektaie, Naomee-Minh Nguyen, Nicholas Mararac, Nicholas Workman, Nicole Steinberg, Rachel Thorson, Rebecca Childress, Rebecca Farkas, Riley Breslin Amalfitano, Rima Elabdali, Robert Maloney, Ruizhong Li, Ryan Mannion, Ryan Murphy, Sakol Suethanapornkul, Sasha Slone, Sean Macavaney, Sean Simpson, Seyma Toker, Shane Quinn, Shannon Mooney, Shelby Lake, Shira Wein, Sichang Tu, Siddharth Singh, Siyu Liang, Stephanie Kramer, Sylvia Sierra, Talal Alharbi, Timothy Ingrassia, Trevor Adriaanse, Wenxi Yang, Xiaopei Wu, Yang Liu, Yilun Zhu, Yingzhu Chen, Yiran Xu, Young-A Son, Yu-Tzu Chang, Yuhang Hu, Yushi Zhao, Zhuosi Luo, Zhuxin Wang, Amir Zeldes
+Adrienne Isaac, Akitaka Yamada, Alex Giorgioni, Alexandra Berends, Alexandra Slome, Amani Aloufi, Amelia Becker, Andrea Price, Andrew O\'Brien, Anna Runova, Anne Butler, Arianna Janoff, Ayan Mandal, Aysenur Sagdic, Bertille Baron, Bradford Salen, Brandon Tullock, Brent Laing, Candice Penelton, Chenyue Guo, Colleen Diamond, Connor O\'Dwyer, Cristina Lopez, Dan Simonson, Didem Ikizoglu, Edwin Ko, Emily Pace, Emma Manning, Ethan Beaman, Felipe De Jesus, Han Bu, Hana Altalhi, Hang Jiang, Hannah Wingett, Hanwool Choe, Hassan Munshi, Helen Dominic, Ho Fai Cheng, Hortensia Gutierrez, Jakob Prange, James Maguire, Janine Karo, Jehan al-Mahmoud, Jemm Excelle Dela Cruz, Jessica Kotfila, Joaquin Gris Roca, John Chi, Jongbong Lee, Juliet May, Jungyoon Koh, Katarina Starcevic, Katelyn MacDougald, Katherine Vadella, Khalid Alharbi, Lara Bryfonski, Leah Northington, Lindley Winchester, Linxi Zhang, Logan Peng, Lucia Donatelli, Luke Gessler, Mackenzie Gong, Margaret Borowczyk, Margaret Anne Rowe, Maria Stoianova, Mariko Uno, Mary Henderson, Maya Barzilai, Md. Jahurul Islam, Michael Kranzlein, Michaela Harrington, Minnie Annan, Mitchell Abrams, Mohammad Ali Yektaie, Naomee-Minh Nguyen, Nicholas Mararac, Nicholas Workman, Nicole Steinberg, Rachel Thorson, Rebecca Childress, Rebecca Farkas, Riley Breslin Amalfitano, Rima Elabdali, Robert Maloney, Ruizhong Li, Ryan Mannion, Ryan Murphy, Sakol Suethanapornkul, Sarah Bellavance, Sasha Slone, Sean Macavaney, Sean Simpson, Seyma Toker, Shane Quinn, Shannon Mooney, Shelby Lake, Shira Wein, Sichang Tu, Siddharth Singh, Siyu Liang, Stephanie Kramer, Sylvia Sierra, Talal Alharbi, Tatsuya Aoyama, Timothy Ingrassia, Trevor Adriaanse, Ulie Xu, Wenxi Yang, Xiaopei Wu, Yang Liu, Yi-Ju Lin, Yilun Zhu, Yingzhu Chen, Yiran Xu, Young-A Son, Yuhang Hu, Yushi Zhao, Yu-Tzu Chang, Zhuosi Luo, Zhuxin Wang, Amir Zeldes
 
 ... and other annotators who wish to remain anonymous!
 
@@ -62,6 +85,14 @@ As a scholarly citation for the corpus in articles, please use this paper:
 ```
 
 # Changelog
+
+* 2020-01-20
+  * Added documents from four new genres: conversation, speeches, textbooks and vlogs
+  * Added Wikification annotations
+  * Added bridging and split antecedent anaphora to MISC
+  * Improved FEATS, now including Abbr and NumForm
+  * Added sentence addressee annotations
+  * Rebalanced splits to account for new genres
 
 * 2020-10-31
   * Major improvements to entity and coreference consistency
@@ -99,7 +130,7 @@ As a scholarly citation for the corpus in articles, please use this paper:
 Data available since: UD v2.2
 License: CC BY-NC-SA 4.0
 Includes text: yes
-Genre: academic fiction nonfiction news spoken web wiki
+Genre: academic blog fiction government news nonfiction spoken web wiki
 Lemmas: manual native
 UPOS: converted from manual
 XPOS: manual native
