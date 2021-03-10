@@ -53,7 +53,7 @@ More information and additional annotation layers can be found in the GUM [sourc
 
 # Documents and splits
 
-The training, development and test sets contain complete, contiguous documents, balanced for genre. Test and dev contain similar amounts of data, usually around 2,500 tokens in each genre in each, and the rest is assigned to training. For the exact file lists in each split see:
+The training, development and test sets contain complete, contiguous documents, balanced for genre. Test and dev contain similar amounts of data, usually around 1,800 tokens in each genre in each, and the rest is assigned to training. For the exact file lists in each split see:
 
 https://github.com/UniversalDependencies/UD_English-GUM/tree/master/not-to-release/file-lists
 
@@ -85,6 +85,9 @@ As a scholarly citation for the corpus in articles, please use this paper:
 ```
 
 # Changelog
+
+* 2020-03-10
+  * Added enhanced dependencies
 
 * 2020-01-20
   * Added documents from four new genres: conversation, speeches, textbooks and vlogs
