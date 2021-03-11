@@ -6,42 +6,42 @@ Universal Dependencies syntax annotations from the GUM corpus (https://corpling.
 
 GUM, the Georgetown University Multilayer corpus, is an open source collection of richly annotated texts from multiple text types. The corpus is collected and expanded by students as part of the curriculum in the course LING-367 "Computational Corpus Linguistics" at Georgetown University. The selection of text types is meant to represent different communicative purposes, while coming from sources that are readily and openly available (usually Creative Commons licenses), so that new texts can be annotated and published with ease.
 
-The dependencies in the corpus up to GUM version 5 were originally annotated using Stanford Typed Depenencies (de Marneffe & Manning 2013) and converted automatically to UD using DepEdit (https://corpling.uis.georgetown.edu/depedit/). The rule-based conversion took into account gold entity annotations found in other annotation layers of the GUM corpus (e.g. entity annotations), and has since been corrected manually in native UD. The original conversion script used can found in the GUM build bot code from version 5, available from the (non-UD) GUM repository. Documents from version 6 of GUM onwards were annotated directly in UD, and subsequent manual error correction to all GUM data has also been done directly using the UD guidelines. For more details see the [corpus website](https://corpling.uis.georgetown.edu/gum/).
+The dependencies in the corpus up to GUM version 5 were originally annotated using Stanford Typed Depenencies (de Marneffe & Manning 2013) and converted automatically to UD using DepEdit (https://corpling.uis.georgetown.edu/depedit/). The rule-based conversion took into account gold entity annotations found in other annotation layers of the GUM corpus (e.g. entity annotations), and has since been corrected manually in native UD. The original conversion script used can found in the GUM build bot code from version 5, available from the (non-UD) GUM repository. Documents from version 6 of GUM onwards were annotated directly in UD, and subsequent manual error correction to all GUM data has also been done directly using the UD guidelines. Enhanced dependencies were added semi-automatically from version 7.1 of the corpus. For more details see the [corpus website](https://corpling.uis.georgetown.edu/gum/).
 
 # Additional annotations in MISC
 
 The MISC column contains **entity, coreference, Wikification and discourse** annotations from the full GUM corpus, encoded using the annotations `Entity`, `Split`, `Bridge` and `Discourse`. The `Entity` annotation uses the CoNLL 2012 shared task bracketing format, which identifies potentially coreferring entities using round opening and closing brackets as well as a unique ID per entity, repeated across mentions. In the following example, actor Jared Padalecki appears in a single token mention, labeled `(person-1-Jared_Padalecki)` indicating the entity type (`person`) combined with the unique ID of all mentions of Padalecki in the text (`person-1`). Because Padalecki is a named entity with a corresponding Wikipedia page, the Wikification identifier corresponding to his Wikipedia page is given after the second hyphen, resulting in the unique entity ID (`person-1-Jared_Padalecki`). Multi-token mentions receive opening brackets on the line in which they open, such as `(person-97-Jensen_Ackles`, and a closing annotation `person-97-Jensen_Ackles)` at the token on which they end. Multiple annotations are possible for one token, corresponding to nested entities, e.g. `(time-175)time-189)` below corresponds to the last token of the time entities "2015" and "April 2015" respectively. 
 
 ```
-1	For	for	ADP	IN	_	4	case	_	Discourse=sequence:104->98
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	Bridge=abstract-173<event-188|Entity=(event-188
-3	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	_	_
-4	campaign	campaign	NOUN	NN	Number=Sing	16	obl	_	_
-5	in	in	ADP	IN	_	10	case	_	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
-7	Always	Always	ADV	NNP	Number=Sing	8	advmod	_	Entity=(abstract-173
-8	Keep	Keep	PROPN	NNP	Number=Sing	10	compound	_	_
-9	Fighting	Fighting	PROPN	NNP	Number=Sing	8	xcomp	_	_
-10	series	series	NOUN	NN	Number=Sing	4	nmod	_	Entity=abstract-173)
-11	in	in	ADP	IN	_	12	case	_	_
-12	April	April	PROPN	NNP	Number=Sing	4	nmod	_	Entity=(time-189
-13	2015	2015	NUM	CD	NumForm=Digit|NumType=Card	12	nmod:tmod	_	Entity=(time-175)event-188)time-189)|SpaceAfter=No
-14	,	,	PUNCT	,	_	4	punct	_	_
-15	Padalecki	Padalecki	PROPN	NNP	Number=Sing	16	nsubj	_	Entity=(person-1-Jared_Padalecki)
-16	partnered	partner	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-17	with	with	ADP	IN	_	18	case	_	_
-18	co-star	co-star	NOUN	NN	Number=Sing	16	obl	_	Entity=(person-97-Jensen_Ackles
-19	Jensen	Jensen	PROPN	NNP	Number=Sing	18	appos	_	_
-20	Ackles	Ackles	PROPN	NNP	Number=Sing	19	flat	_	Entity=person-97-Jensen_Ackles)
-21	to	to	PART	TO	_	22	mark	_	Discourse=purpose:105->104
-22	release	release	VERB	VB	VerbForm=Inf	16	advcl	_	_
-23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	Entity=(object-190
-24	shirt	shirt	NOUN	NN	Number=Sing	22	obj	_	Entity=object-190)
-25	featuring	feature	VERB	VBG	VerbForm=Ger	24	acl	_	Discourse=elaboration:106->105
-26	both	both	PRON	DT	_	25	obj	_	Entity=(object-191
-27	of	of	ADP	IN	_	29	case	_	_
-28	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	Entity=(person-192)|Split=person-1-Jared_Padalecki<person-192,person-97-Jensen_Ackles<person-192
-29	faces	face	NOUN	NNS	Number=Plur	26	nmod	_	Entity=object-191)|SpaceAfter=No
+1	For	for	ADP	IN	_	4	case	4:case	Discourse=sequence:104->98
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=abstract-173<event-188|Entity=(event-188
+3	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	4:amod	_
+4	campaign	campaign	NOUN	NN	Number=Sing	16	obl	16:obl:for	_
+5	in	in	ADP	IN	_	10	case	10:case	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	_
+7	Always	Always	ADV	NNP	Number=Sing	8	advmod	8:advmod	Entity=(abstract-173
+8	Keep	Keep	PROPN	NNP	Number=Sing	10	compound	10:compound	_
+9	Fighting	Fighting	PROPN	NNP	Number=Sing	8	xcomp	8:xcomp	_
+10	series	series	NOUN	NN	Number=Sing	4	nmod	4:nmod:in	Entity=abstract-173)
+11	in	in	ADP	IN	_	12	case	12:case	_
+12	April	April	PROPN	NNP	Number=Sing	4	nmod	4:nmod:in	Entity=(time-189
+13	2015	2015	NUM	CD	NumForm=Digit|NumType=Card	12	nmod:tmod	12:nmod:tmod	Entity=(time-175)event-188)time-189)|SpaceAfter=No
+14	,	,	PUNCT	,	_	4	punct	4:punct	_
+15	Padalecki	Padalecki	PROPN	NNP	Number=Sing	16	nsubj	16:nsubj	Entity=(person-1-Jared_Padalecki)
+16	partnered	partner	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+17	with	with	ADP	IN	_	18	case	18:case	_
+18	co-star	co-star	NOUN	NN	Number=Sing	16	obl	16:obl:with	Entity=(person-97-Jensen_Ackles
+19	Jensen	Jensen	PROPN	NNP	Number=Sing	18	appos	18:appos	_
+20	Ackles	Ackles	PROPN	NNP	Number=Sing	19	flat	19:flat	Entity=person-97-Jensen_Ackles)
+21	to	to	PART	TO	_	22	mark	22:mark	Discourse=purpose:105->104
+22	release	release	VERB	VB	VerbForm=Inf	16	advcl	16:advcl:to	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(object-190
+24	shirt	shirt	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=object-190)
+25	featuring	feature	VERB	VBG	VerbForm=Ger	24	acl	24:acl	Discourse=elaboration:106->105
+26	both	both	PRON	DT	_	25	obj	25:obj	Entity=(object-191
+27	of	of	ADP	IN	_	29	case	29:case	_
+28	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	Entity=(person-192)|Split=person-1-Jared_Padalecki<person-192,person-97-Jensen_Ackles<person-192
+29	faces	face	NOUN	NNS	Number=Plur	26	nmod	26:nmod:of	Entity=object-191)|SpaceAfter=No
 ```
 
 The additional annotations `Split` and `Bridge` mark non-strict identity anaphora (see the [Universal Anaphora](http://universalanaphora.org/) project for more details). For example, at token 28 in the example, the pronoun "their" refers back to two non-adjacent entities, requiring a split antecedent annotation. The value `Split=person-1-Jared_Padalecki<person-192,person-97-Jensen_Ackles<person-192` indicates that `person-192` (the pronoun "their") refers back to two previous Entity annotations, with pointers separatated by a comma: `person-1-Jared_Padalecki` and `person-97-Jensen_Ackles`. Bridging anaphora is annotated when an entity has not been mentioned before, but is resolvable in context by way of a different entity: for example, token 2 has the annotation `Bridge=abstract-173<event-188`, which indicates that although `event-188` ("the second campaign...") has not been mentioned before, its identity is mediated by the previous mention of another entity, `abstract-173` (the project "Always Keep Fighting", mentioned earlier in the document, to which the campaign event belongs).
