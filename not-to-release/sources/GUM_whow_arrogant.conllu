@@ -259,7 +259,7 @@
 24	than	than	ADP	IN	_	25	case	25:case	_
 25	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	23	obl	23:obl:than	Entity=(person-2)
 26	or	or	CCONJ	CC	_	27	cc	26.1:cc	Discourse=contrast:28->27
-26.1	something	something	NOUN	NN	Number=Sing	_	_	18:conj:or|27:obj|29:obj|32:obj	CopyOf=18
+26.1	something	something	NOUN	NN	Number=Sing	_	_	18:conj:or	CopyOf=18
 26.2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	27:nsubj|29:nsubj	CopyOf=19
 27	own	own	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	conj	26.1:acl:relcl	_
 28	/	/	SYM	SYM	_	29	cc	29:cc	_
@@ -843,9 +843,9 @@
 18	what	what	PRON	WP	PronType=Int	11	conj	11:conj:or	_
 19	to	to	PART	TO	_	20	mark	20:mark	_
 20	avoid	avoid	VERB	VB	VerbForm=Inf	18	acl	18:acl:to	_
-21	those	this	PRON	DT	Number=Plur|PronType=Dem	20	obj	20:obj|23:mark	Entity=(person-90
-22	that	that	SCONJ	WDT	PronType=Rel	23	mark	21:ref	Discourse=elaboration:93->92
-23	contradict	contradict	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	21:acl:relcl	_
+21	those	this	PRON	DT	Number=Plur|PronType=Dem	20	obj	20:obj|23:nsubj	Entity=(person-90
+22	that	that	PRON	WDT	PronType=Rel	23	nsubj	21:ref	Discourse=elaboration:93->92
+23	contradict	contradict	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	21:acl:relcl	_
 24	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(abstract-91(person-1)
 25	fantasy	fantasy	NOUN	NN	Number=Sing	26	compound	26:compound	_
 26	land	land	NOUN	NN	Number=Sing	23	obj	23:obj|28:nsubj	_
@@ -1160,8 +1160,8 @@
 6	arrogant	arrogant	ADJ	JJ	Degree=Pos	7	amod	7:amod	Entity=(person-1
 7	people	people	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj	Entity=person-1)
 8	see	see	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-9	people	people	NOUN	NNS	Number=Plur	8	obj	8:obj|14:mark	Entity=(person-116
-10	that	that	SCONJ	WDT	PronType=Rel	14	mark	9:ref	Discourse=elaboration:126->125
+9	people	people	NOUN	NNS	Number=Plur	8	obj	8:obj|14:obj	Entity=(person-116
+10	that	that	PRON	WDT	PronType=Rel	14	obj	9:ref	Discourse=elaboration:126->125
 11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	14:nsubj	Entity=(person-1)
 12	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	14:aux	SpaceAfter=No
 13	n't	not	PART	RB	Polarity=Neg	14	advmod	14:advmod	_
@@ -1315,10 +1315,10 @@
 5	by	by	SCONJ	IN	_	6	mark	6:mark	Discourse=means:143->142
 6	creating	create	VERB	VBG	VerbForm=Ger	2	advcl	2:advcl:by	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(abstract-128
-8	impression	impression	NOUN	NN	Number=Sing	6	obj	6:obj|11:mark	_
-9	that	that	SCONJ	WDT	PronType=Rel	11	mark	8:ref	Discourse=elaboration:144->143
+8	impression	impression	NOUN	NN	Number=Sing	6	obj	6:obj	_
+9	that	that	SCONJ	IN	_	11	mark	11:mark	Discourse=elaboration:144->143
 10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	11:nsubj	Entity=(person-1)
-11	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	8:acl:relcl	_
+11	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl	8:acl:that	_
 12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Entity=(person-129
 13	lot	lot	NOUN	NN	Number=Sing	11	obj	11:obj	_
 14	of	of	ADP	IN	_	15	case	15:case	_

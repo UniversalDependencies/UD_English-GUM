@@ -21,13 +21,13 @@
 17	Great	Great	PROPN	NNP	Number=Sing	18	compound	18:compound	_
 18	Lakes	Lakes	PROPN	NNPS	Number=Plur	14	nmod	14:nmod:of	Entity=place-2)place-3-Lake_Erie)|SpaceAfter=No
 19	,	,	PUNCT	,	_	22	punct	22:punct	_
-20	in	in	ADP	IN	_	22	case	22:case	Entity=(place-4-Cuyahoga_County,_Ohio
+20	in	in	ADP	IN	_	22	case	22:case	Entity=(place-4-Cuyahoga_County%2C_Ohio
 21	Cuyahoga	Cuyahoga	PROPN	NNP	Number=Sing	22	compound	22:compound	_
 22	County	County	PROPN	NNP	Number=Sing	6	nmod	6:nmod:in	SpaceAfter=No
 23	,	,	PUNCT	,	_	24	punct	24:punct	_
 24	Ohio	Ohio	PROPN	NNP	Number=Sing	22	appos	22:appos	Entity=(place-5-Ohio|SpaceAfter=No
 25	,	,	PUNCT	,	_	26	punct	26:punct	_
-26	USA	USA	PROPN	NNP	Abbr=Yes|Number=Sing	22	appos	22:appos	Entity=(place-6-United_States)place-1-Cleveland)place-4-Cuyahoga_County,_Ohio)place-5-Ohio)|SpaceAfter=No
+26	USA	USA	PROPN	NNP	Abbr=Yes|Number=Sing	22	appos	22:appos	Entity=(place-6-United_States)place-1-Cleveland)place-4-Cuyahoga_County%2C_Ohio)place-5-Ohio)|SpaceAfter=No
 27	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_voyage_cleveland-2
@@ -247,8 +247,8 @@
 21	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(event-34
 22	dramatic	dramatic	ADJ	JJ	Degree=Pos	24	amod	24:amod	_
 23	revitalization	revitalization	NOUN	NN	Number=Sing	24	compound	24:compound	_
-24	process	process	NOUN	NN	Number=Sing	20	obj	20:obj|26:mark	_
-25	that	that	SCONJ	WDT	PronType=Rel	26	mark	24:ref	Discourse=elaboration:14->13
+24	process	process	NOUN	NN	Number=Sing	20	obj	20:obj|26:nsubj	_
+25	that	that	PRON	WDT	PronType=Rel	26	nsubj	24:ref	Discourse=elaboration:14->13
 26	continues	continue	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	24:acl:relcl	_
 27	today	today	NOUN	NN	Number=Sing	26	obl:tmod	26:obl:tmod	Entity=(time-36)event-34)|SpaceAfter=No
 28	.	.	PUNCT	.	_	8	punct	8:punct	_
@@ -298,13 +298,13 @@
 1	Despite	despite	ADP	IN	_	4	case	4:case	Discourse=antithesis:18->20
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(abstract-42
 3	common	common	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
-4	perception	perception	NOUN	NN	Number=Sing	25	obl	10:mark|25:obl:despite	_
-5	that	that	SCONJ	WDT	PronType=Rel	10	mark	4:ref	Discourse=elaboration:19->18
+4	perception	perception	NOUN	NN	Number=Sing	25	obl	25:obl:despite	_
+5	that	that	SCONJ	IN	_	10	mark	10:mark	Discourse=elaboration:19->18
 6	Cleveland	Cleveland	PROPN	NNP	Number=Sing	10	nsubj	10:nsubj	Entity=(place-1-Cleveland)
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
 8	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(place-43
 9	industrial	industrial	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
-10	town	town	NOUN	NN	Number=Sing	4	acl:relcl	4:acl:relcl	Entity=abstract-42)place-43)|SpaceAfter=No
+10	town	town	NOUN	NN	Number=Sing	4	acl	4:acl:that	Entity=abstract-42)place-43)|SpaceAfter=No
 11	,	,	PUNCT	,	_	4	punct	4:punct	_
 12	just	just	ADV	RB	_	18	advmod	18:advmod	Discourse=joint:20->8
 13	beyond	beyond	ADP	IN	_	18	case	18:case	_
