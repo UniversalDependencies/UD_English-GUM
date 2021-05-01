@@ -1,7 +1,14 @@
 # newdoc id = GUM_interview_daly
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2014-09-15
+# meta::dateCreated = 2014-01-21
+# meta::dateModified = 2014-07-13
+# meta::sourceURL = https://en.wikinews.org/wiki/Cold_as_ice:_Wikinews_interviews_Marymegan_Daly_on_unusual_new_sea_anemone
+# meta::speakerCount = 2
+# meta::title = Cold as ice: Wikinews interviews Marymegan Daly on unusual new sea anemone
 # sent_id = GUM_interview_daly-1
-# text = Cold as ice: Wikinews interviews Marymegan Daly on unusual new sea anemone
 # s_type = other
+# text = Cold as ice: Wikinews interviews Marymegan Daly on unusual new sea anemone
 1	Cold	cold	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=preparation:1->2
 2	as	as	ADP	IN	_	3	case	3:case	_
 3	ice	ice	NOUN	NN	Number=Sing	1	obl	1:obl:as	Entity=(substance-1)|SpaceAfter=No
@@ -17,19 +24,19 @@
 13	anemone	anemone	NOUN	NN	Number=Sing	7	nmod	7:nmod:on	Entity=animal-4)
 
 # sent_id = GUM_interview_daly-2
-# text = Tuesday, January 21, 2014
 # s_type = frag
-1	Tuesday	Tuesday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:3->5|Entity=(time-6)|SpaceAfter=No
+# text = Tuesday, January 21, 2014
+1	Tuesday	Tuesday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:3->5|Entity=(time-6-Tuesday)|SpaceAfter=No
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
-3	January	January	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(time-6
+3	January	January	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(time-6-Tuesday
 4	21	21	NUM	CD	NumForm=Digit|NumType=Card	1	appos	1:appos	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
-6	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	4	nmod:tmod	4:nmod:tmod	Entity=(time-7)time-6)
+6	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	4	nmod:tmod	4:nmod:tmod	Entity=(time-7)time-6-Tuesday)
 
 # sent_id = GUM_interview_daly-3
-# text = How did you come to be involved with this discovery
 # s_type = q
 # speaker = Wikinews
+# text = How did you come to be involved with this discovery
 1	How	how	SCONJ	WRB	PronType=Int	4	mark	4:mark	Discourse=question:4->5
 2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	4	aux	4:aux	_
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj|7:nsubj:xsubj	Entity=(person-3)
@@ -42,9 +49,9 @@
 10	discovery	discovery	NOUN	NN	Number=Sing	7	obl	7:obl:with	Entity=event-8)
 
 # sent_id = GUM_interview_daly-4
-# text = Frank Rack got in touch after they returned from Antarctica in hopes that I could help with an identification on the anemone.
 # s_type = decl
 # speaker = MarymeganDaly
+# text = Frank Rack got in touch after they returned from Antarctica in hopes that I could help with an identification on the anemone.
 1	Frank	Frank	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=ROOT:5|Entity=(person-9
 2	Rack	Rack	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-9)
 3	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -70,9 +77,9 @@
 23	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_daly-5
-# text = What was your first reaction upon learning there was an undiscovered ecosystem under the ice in the Ross Sea?
 # s_type = wh
 # speaker = Wikinews
+# text = What was your first reaction upon learning there was an undiscovered ecosystem under the ice in the Ross Sea?
 1	What	what	PRON	WP	PronType=Int	5	nsubj	5:nsubj	Discourse=question:8->11
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
 3	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(event-13(person-3)
@@ -95,21 +102,21 @@
 20	?	?	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_interview_daly-6
-# text = I was amazed and really excited.
 # s_type = decl
 # speaker = MarymeganDaly
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj|6:nsubj	Discourse=joint:11->5|Entity=(person-3)
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	cop	3:cop	_
-3	amazed	amaze	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
+# text = I was amazed and really excited.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj:pass	3:nsubj:pass|6:nsubj:pass	Discourse=joint:11->5|Entity=(person-3)
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux:pass	3:aux:pass|6:aux:pass	_
+3	amazed	amaze	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 4	and	and	CCONJ	CC	_	6	cc	6:cc	_
 5	really	really	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
 6	excited	excite	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	3:conj:and	SpaceAfter=No
 7	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_daly-7
-# text = I think to say it was unexpected is inaccurate, because it implies that there was a well-founded expectation of something.
 # s_type = decl
 # speaker = MarymeganDaly
+# text = I think to say it was unexpected is inaccurate, because it implies that there was a well-founded expectation of something.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:12->13|Entity=(person-3)
 2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	to	to	PART	TO	_	4	mark	4:mark	Discourse=concession:13->11|Entity=(event-18
@@ -134,9 +141,9 @@
 22	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_daly-8
-# text = The technology that Frank and his colleagues are using to explore the ice is so important because, given our lack of data, we have no reasonable expectation of what it should be like, or what it shouldn't be like.
 # s_type = decl
 # speaker = MarymeganDaly
+# text = The technology that Frank and his colleagues are using to explore the ice is so important because, given our lack of data, we have no reasonable expectation of what it should be like, or what it shouldn't be like.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=result:15->19|Entity=(object-21
 2	technology	technology	NOUN	NN	Number=Sing	16	nsubj	9:obj|16:nsubj	_
 3	that	that	PRON	WDT	PronType=Rel	9	obj	2:ref	Discourse=elaboration:16->15
@@ -176,17 +183,19 @@
 37	or	or	CCONJ	CC	_	43	cc	43:cc	Discourse=contrast:23->22
 38	what	what	PRON	WP	PronType=Int	43	obj	43:obj	_
 39	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	43	nsubj	43:nsubj	Entity=(abstract-14)
-40	should	should	AUX	MD	VerbForm=Fin	43	aux	43:aux	SpaceAfter=No
+40-41	shouldn't	_	_	_	_	_	_	_	_
+40	should	should	AUX	MD	VerbForm=Fin	43	aux	43:aux	_
 41	n't	not	PART	RB	Polarity=Neg	43	advmod	43:advmod	_
 42	be	be	AUX	VB	VerbForm=Inf	43	cop	43:cop	_
 43	like	like	ADJ	JJ	Degree=Pos	30	conj	30:conj:or|31:case	Entity=abstract-25)|SpaceAfter=No
 44	.	.	PUNCT	.	_	16	punct	16:punct	_
 
 # sent_id = GUM_interview_daly-9
-# text = There's a return trip planned hopefully for 2015, with both biologists and ANDRILL geologists.
 # s_type = decl
 # speaker = Wikinews
-1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=background:24->27|SpaceAfter=No
+# text = There's a return trip planned hopefully for 2015, with both biologists and ANDRILL geologists.
+1-2	There's	_	_	_	_	_	_	_	_
+1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=background:24->27
 2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(event-26
 4	return	return	NOUN	NN	Number=Sing	5	compound	5:compound	_
@@ -205,9 +214,9 @@
 17	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_daly-10
-# text = Are you intending to go there yourself?
 # s_type = q
 # speaker = Wikinews
+# text = Are you intending to go there yourself?
 1	Are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	3:aux	Discourse=question:27->29
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Entity=(person-3)
 3	intending	intend	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
@@ -218,19 +227,19 @@
 8	?	?	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_daly-11
-# text = I would love to.
 # s_type = sub
 # speaker = MarymeganDaly
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=concession:28->29|Entity=(person-3)
+# text = I would love to.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj|4:nsubj:xsubj	Discourse=concession:28->29|Entity=(person-3)
 2	would	would	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	love	love	VERB	VB	VerbForm=Inf	0	root	0:root	_
-4	to	to	PART	TO	_	3	obl	3:obl	SpaceAfter=No
+4	to	to	PART	TO	_	3	xcomp	3:xcomp	SpaceAfter=No
 5	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_daly-12
-# text = But I am also happy to not go, as long as someone collects more animals on my behalf!
 # s_type = decl
 # speaker = MarymeganDaly
+# text = But I am also happy to not go, as long as someone collects more animals on my behalf!
 1	But	but	CCONJ	CC	_	5	cc	5:cc	Discourse=joint:29->5
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj|8:nsubj:xsubj	Entity=(person-3)
 3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
@@ -253,9 +262,9 @@
 20	!	!	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_interview_daly-13
-# text = What I want to do with the animals requires new material preserved in diverse ways, but it doesn't require me to be there.
 # s_type = decl
 # speaker = MarymeganDaly
+# text = What I want to do with the animals requires new material preserved in diverse ways, but it doesn't require me to be there.
 1	What	what	PRON	WP	PronType=Int	3	nsubj	3:nsubj|5:nsubj:xsubj	Discourse=background:31->33|Entity=(abstract-33
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Entity=(person-3)
 3	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	csubj	9:csubj	_
@@ -274,7 +283,8 @@
 16	,	,	PUNCT	,	_	21	punct	21:punct	_
 17	but	but	CCONJ	CC	_	21	cc	21:cc	Discourse=cause:33->29
 18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	21:nsubj	Entity=(abstract-33)
-19	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	21:aux	SpaceAfter=No
+19-20	doesn't	_	_	_	_	_	_	_	_
+19	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	21:aux	_
 20	n't	not	PART	RB	Polarity=Neg	21	advmod	21:advmod	_
 21	require	require	VERB	VB	VerbForm=Inf	9	conj	9:conj:but	_
 22	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	21	obj	21:obj|24:nsubj:xsubj	Entity=(person-3)
@@ -284,9 +294,9 @@
 26	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_interview_daly-14
-# text = Although I am sure that being there would enhance my understanding of the animals and the system in which they live, and would help me formulate more and better questions about the anemones, ship time is expensive, especially in Antarctica, and if there are biologists whose contribution is predicated on being there, they should have priority to be there.
 # s_type = decl
 # speaker = MarymeganDaly
+# text = Although I am sure that being there would enhance my understanding of the animals and the system in which they live, and would help me formulate more and better questions about the anemones, ship time is expensive, especially in Antarctica, and if there are biologists whose contribution is predicated on being there, they should have priority to be there.
 1	Although	although	SCONJ	IN	_	4	mark	4:mark	Discourse=attribution:34->35
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-3)
 3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
@@ -354,9 +364,9 @@
 65	.	.	PUNCT	.	_	39	punct	39:punct	_
 
 # sent_id = GUM_interview_daly-15
-# text = These animals are shrouded in mystery.
 # s_type = decl
 # speaker = Wikinews
+# text = These animals are shrouded in mystery.
 1	These	this	DET	DT	Number=Plur|PronType=Dem	2	det	2:det	Discourse=preparation:44->45|Entity=(animal-34
 2	animals	animal	NOUN	NNS	Number=Plur	4	nsubj:pass	4:nsubj:pass	Entity=animal-34)
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
@@ -366,9 +376,9 @@
 7	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_interview_daly-16
-# text = Some of the most intriguing questions are chemical; do they produce some kind of antifreeze, and is that orange glow in the ROV lights their own?
 # s_type = multiple
 # speaker = Wikinews
+# text = Some of the most intriguing questions are chemical; do they produce some kind of antifreeze, and is that orange glow in the ROV lights their own?
 1	Some	some	PRON	DT	_	8	nsubj	8:nsubj	Discourse=preparation:45->46|Entity=(abstract-42
 2	of	of	ADP	IN	_	6	case	6:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(abstract-43
@@ -400,9 +410,9 @@
 29	?	?	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_interview_daly-17
-# text = Talk us through the difficulties encountered when trying to find answers with the specimens on hand.
 # s_type = imp
 # speaker = Wikinews
+# text = Talk us through the difficulties encountered when trying to find answers with the specimens on hand.
 1	Talk	talk	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:48->51
 2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	1:obj	Entity=(person-49)
 3	through	through	ADP	IN	_	5	case	5:case	_
@@ -422,9 +432,9 @@
 17	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_interview_daly-18
-# text = The samples we have are small in terms of numbers and they are all preserved in formalin (a kind of formaldehyde solution).
 # s_type = decl
 # speaker = MarymeganDaly
+# text = The samples we have are small in terms of numbers and they are all preserved in formalin (a kind of formaldehyde solution).
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint:51->46|Entity=(object-52
 2	samples	sample	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=object-52)
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Bridge=person-3<person-53|Entity=(person-53)
@@ -452,9 +462,9 @@
 25	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_interview_daly-19
-# text = The formalin is great for preserving structures, but for anemones, it prevents study of DNA or of the chemistry of the body.
 # s_type = decl
 # speaker = MarymeganDaly
+# text = The formalin is great for preserving structures, but for anemones, it prevents study of DNA or of the chemistry of the body.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration:54->51|Entity=(substance-55
 2	formalin	formalin	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=substance-55)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
@@ -482,13 +492,14 @@
 25	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_interview_daly-20
-# text = This means we can't look at the issue you raise with these animals.
 # s_type = decl
 # speaker = MarymeganDaly
+# text = This means we can't look at the issue you raise with these animals.
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	2:nsubj	Discourse=result:57->56|Entity=(event-59)
 2	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-53)
-4	ca	can	AUX	MD	VerbForm=Fin	6	aux	6:aux	SpaceAfter=No
+4-5	can't	_	_	_	_	_	_	_	_
+4	ca	can	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
 5	n't	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	_
 6	look	look	VERB	VB	VerbForm=Inf	2	ccomp	2:ccomp	_
 7	at	at	ADP	IN	_	9	case	9:case	_
@@ -502,9 +513,9 @@
 15	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_daly-21
-# text = What we could do, however, was to study anatomy and figure out what it is, so that when we have samples preserved for studying e.g., the genome, transcriptome, or metabolome, or conduct tests of the fluid in the burrows or in the animals themselves, we can make precise comparisons, and figure out what these animals have or do (metabolically or chemically) that lets them live where they live.
 # s_type = decl
 # speaker = MarymeganDaly
+# text = What we could do, however, was to study anatomy and figure out what it is, so that when we have samples preserved for studying e.g., the genome, transcriptome, or metabolome, or conduct tests of the fluid in the burrows or in the animals themselves, we can make precise comparisons, and figure out what these animals have or do (metabolically or chemically) that lets them live where they live.
 1	What	what	PRON	WP	PronType=Rel	10	nsubj	10:nsubj|13:nsubj	Discourse=elaboration:60->54
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-53)
 3	could	could	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
@@ -523,7 +534,7 @@
 16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj	Entity=(abstract-57)
 17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	SpaceAfter=No
 18	,	,	PUNCT	,	_	55	punct	55:punct	_
-19	so	so	SCONJ	RB	_	55	mark	55:mark	Discourse=purpose:61->60
+19	so	so	SCONJ	IN	_	55	mark	55:mark	Discourse=purpose:61->60
 20	that	that	ADP	IN	_	19	fixed	19:fixed	_
 21	when	when	SCONJ	WRB	PronType=Int	23	mark	23:mark	Discourse=circumstance:62->65
 22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	23:nsubj|39:nsubj	Entity=(person-53)
@@ -587,9 +598,9 @@
 80	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_interview_daly-22
-# text = Just knowing a whole lot about a single species isn't very useful, even if that animal is as special as these clearly are -
-# s_type = decl
+# s_type = multiple
 # speaker = MarymeganDaly
+# text = Just knowing a whole lot about a single species isn't very useful, even if that animal is as special as these clearly are - we need to know what about them is different and thus related to living in this strange way.
 1	Just	just	ADV	RB	_	2	advmod	2:advmod	Discourse=justify:70->74
 2	knowing	know	VERB	VBG	VerbForm=Ger	13	csubj	13:csubj	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(abstract-71
@@ -599,7 +610,8 @@
 7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(animal-72
 8	single	single	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 9	species	species	NOUN	NN	Number=Sing	5	nmod	5:nmod:about	Entity=animal-72)
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	SpaceAfter=No
+10-11	isn't	_	_	_	_	_	_	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_
 11	n't	not	PART	RB	Polarity=Neg	13	advmod	13:advmod	_
 12	very	very	ADV	RB	_	13	advmod	13:advmod	_
 13	useful	useful	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
@@ -615,43 +627,39 @@
 23	these	this	PRON	DT	Number=Plur|PronType=Dem	25	nsubj	25:nsubj	Entity=(animal-34)
 24	clearly	clearly	ADV	RB	Degree=Pos	25	advmod	25:advmod	_
 25	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	21:advcl:as	_
-26	-	-	PUNCT	.	_	13	punct	13:punct	Discourse=attribution:73->74
+26	-	-	PUNCT	:	_	28	punct	28:punct	Discourse=attribution:73->74
+27	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	nsubj	28:nsubj|30:nsubj:xsubj	Entity=(person-53)
+28	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	parataxis	13:parataxis	_
+29	to	to	PART	TO	_	30	mark	30:mark	_
+30	know	know	VERB	VB	VerbForm=Inf	28	xcomp	28:xcomp	_
+31	what	what	PRON	WP	PronType=Int	35	nsubj	35:nsubj|38:nsubj	Discourse=joint:74->46|Entity=(abstract-73
+32	about	about	ADP	IN	_	33	case	33:case	_
+33	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	31	nmod	31:nmod:about	Entity=(animal-34)abstract-73)
+34	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	35:cop	_
+35	different	different	ADJ	JJ	Degree=Pos	30	ccomp	30:ccomp	_
+36	and	and	CCONJ	CC	_	38	cc	38:cc	Discourse=result:75->74
+37	thus	thus	ADV	RB	_	38	advmod	38:advmod	_
+38	related	related	ADJ	JJ	Degree=Pos	35	conj	30:ccomp|35:conj:and	_
+39	to	to	SCONJ	IN	_	40	mark	40:mark	_
+40	living	live	VERB	VBG	VerbForm=Ger	38	advcl	38:advcl:to	_
+41	in	in	ADP	IN	_	44	case	44:case	_
+42	this	this	DET	DT	Number=Sing|PronType=Dem	44	det	44:det	Entity=(abstract-74
+43	strange	strange	ADJ	JJ	Degree=Pos	44	amod	44:amod	_
+44	way	way	NOUN	NN	Number=Sing	40	obl	40:obl:in	Entity=abstract-74)|SpaceAfter=No
+45	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_interview_daly-23
-# text = we need to know what about them is different and thus related to living in this strange way.
-# s_type = sub
-# speaker = MarymeganDaly
-1	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj|4:nsubj:xsubj	Entity=(person-53)
-2	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	to	to	PART	TO	_	4	mark	4:mark	_
-4	know	know	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	_
-5	what	what	PRON	WP	PronType=Int	9	nsubj	9:nsubj|12:nsubj	Discourse=joint:74->46|Entity=(abstract-73
-6	about	about	ADP	IN	_	7	case	7:case	_
-7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	nmod	5:nmod:about	Entity=(animal-34)abstract-73)
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
-9	different	different	ADJ	JJ	Degree=Pos	4	ccomp	4:ccomp	_
-10	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=result:75->74
-11	thus	thus	ADV	RB	_	12	advmod	12:advmod	_
-12	related	relate	VERB	VBN	Tense=Past|VerbForm=Part	9	conj	4:ccomp|9:conj:and	_
-13	to	to	PART	TO	_	14	mark	14:mark	_
-14	living	live	VERB	VBG	VerbForm=Ger	12	advcl	12:advcl:to	_
-15	in	in	ADP	IN	_	18	case	18:case	_
-16	this	this	DET	DT	Number=Sing|PronType=Dem	18	det	18:det	Entity=(abstract-74
-17	strange	strange	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
-18	way	way	NOUN	NN	Number=Sing	14	obl	14:obl:in	Entity=abstract-74)|SpaceAfter=No
-19	.	.	PUNCT	.	_	2	punct	2:punct	_
-
-# sent_id = GUM_interview_daly-24
-# text = The only way to get at what's different is to make comparisons with close relatives.
 # s_type = decl
 # speaker = MarymeganDaly
+# text = The only way to get at what's different is to make comparisons with close relatives.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=elaboration:76->74|Entity=(abstract-75
 2	only	only	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	way	way	NOUN	NN	Number=Sing	10	nsubj	10:nsubj|12:nsubj:xsubj	_
 4	to	to	PART	TO	_	5	mark	5:mark	Discourse=purpose:77->76
 5	get	get	VERB	VB	VerbForm=Inf	3	acl	3:acl:to	_
 6	at	at	ADP	IN	_	7	case	7:case	_
-7	what	what	PRON	WP	PronType=Rel	5	obl	5:obl:at	Entity=(abstract-76|SpaceAfter=No
+7-8	what's	_	_	_	_	_	_	_	_
+7	what	what	PRON	WP	PronType=Rel	5	obl	5:obl:at	Entity=(abstract-76
 8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
 9	different	different	ADJ	JJ	Degree=Pos	7	acl:relcl	7:acl:relcl	Entity=abstract-75)abstract-76)
 10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=same-unit:78->76
@@ -663,10 +671,10 @@
 16	relatives	relative	NOUN	NNS	Number=Plur	12	obl	12:obl:with	Entity=abstract-77)animal-78)|SpaceAfter=No
 17	.	.	PUNCT	.	_	10	punct	10:punct	_
 
-# sent_id = GUM_interview_daly-25
-# text = We can start that side of the work now, anticipating having more beasts in the future.
+# sent_id = GUM_interview_daly-24
 # s_type = decl
 # speaker = MarymeganDaly
+# text = We can start that side of the work now, anticipating having more beasts in the future.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=purpose:79->74|Entity=(person-53)
 2	can	can	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	start	start	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -686,10 +694,10 @@
 17	future	future	NOUN	NN	Number=Sing	12	obl	12:obl:in	Entity=time-82)|SpaceAfter=No
 18	.	.	PUNCT	.	_	3	punct	3:punct	_
 
-# sent_id = GUM_interview_daly-26
-# text = In terms of their glow, I suspect that it's not theirs -
+# sent_id = GUM_interview_daly-25
 # s_type = decl
 # speaker = MarymeganDaly
+# text = In terms of their glow, I suspect that it's not theirs - although luminescence is common in anemone relatives, they don't usually make light themselves.
 1	In	in	ADP	IN	_	2	case	2:case	Discourse=attribution:81->82
 2	terms	term	NOUN	NNS	Number=Plur	8	obl	8:obl:in	_
 3	of	of	ADP	IN	_	5	case	5:case	_
@@ -699,37 +707,34 @@
 7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	8:nsubj	Entity=(person-83)
 8	suspect	suspect	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 9	that	that	SCONJ	IN	_	13	mark	13:mark	Discourse=antithesis:82->85
-10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	Entity=(abstract-45)|SpaceAfter=No
+10-11	it's	_	_	_	_	_	_	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	Entity=(abstract-45)
 11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_
 12	not	not	PART	RB	Polarity=Neg	13	advmod	13:advmod	_
-13	theirs	theirs	PRON	PRP	Case=Acc	8	ccomp	8:ccomp	Entity=(abstract-84)
-14	-	-	PUNCT	.	_	8	punct	8:punct	Discourse=concession:83->84
+13	theirs	theirs	PRON	PRP	Case=Acc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	ccomp	8:ccomp	Entity=(abstract-84)
+14	-	-	PUNCT	:	_	27	punct	27:punct	Discourse=concession:83->84
+15	although	although	SCONJ	IN	_	18	mark	18:mark	_
+16	luminescence	luminescence	NOUN	NN	Number=Sing	18	nsubj	18:nsubj	Entity=(abstract-85)
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	_
+18	common	common	ADJ	JJ	Degree=Pos	27	advcl	27:advcl:although	_
+19	in	in	ADP	IN	_	21	case	21:case	_
+20	anemone	anemone	NOUN	NN	Number=Sing	21	compound	21:compound	Entity=(animal-78(animal-86)
+21	relatives	relative	NOUN	NNS	Number=Plur	18	obl	18:obl:in	Entity=animal-78)|SpaceAfter=No
+22	,	,	PUNCT	,	_	18	punct	18:punct	_
+23	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	27	nsubj	27:nsubj	Discourse=evidence:84->82|Entity=(animal-78)
+24-25	don't	_	_	_	_	_	_	_	_
+24	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	27:aux	_
+25	n't	not	PART	RB	Polarity=Neg	27	advmod	27:advmod	_
+26	usually	usually	ADV	RB	Degree=Pos	27	advmod	27:advmod	_
+27	make	make	VERB	VB	VerbForm=Inf	8	parataxis	8:parataxis	_
+28	light	light	NOUN	NN	Number=Sing	27	obj	27:obj	Entity=(abstract-87)
+29	themselves	themselves	PRON	PRP	Number=Plur|Person=3|PronType=Prs	27	obl:npmod	27:obl:npmod	Entity=(animal-78)|SpaceAfter=No
+30	.	.	PUNCT	.	_	8	punct	8:punct	_
 
-# sent_id = GUM_interview_daly-27
-# text = although luminescence is common in anemone relatives, they don't usually make light themselves.
+# sent_id = GUM_interview_daly-26
 # s_type = decl
 # speaker = MarymeganDaly
-1	although	although	SCONJ	IN	_	4	mark	4:mark	_
-2	luminescence	luminescence	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=(abstract-85)
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
-4	common	common	ADJ	JJ	Degree=Pos	13	advcl	13:advcl:although	_
-5	in	in	ADP	IN	_	7	case	7:case	_
-6	anemone	anemone	NOUN	NN	Number=Sing	7	compound	7:compound	Entity=(animal-78(animal-86)
-7	relatives	relative	NOUN	NNS	Number=Plur	4	obl	4:obl:in	Entity=animal-78)|SpaceAfter=No
-8	,	,	PUNCT	,	_	4	punct	4:punct	_
-9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	13:nsubj	Discourse=evidence:84->82|Entity=(animal-78)
-10	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	13:aux	SpaceAfter=No
-11	n't	not	PART	RB	Polarity=Neg	13	advmod	13:advmod	_
-12	usually	usually	ADV	RB	Degree=Pos	13	advmod	13:advmod	_
-13	make	make	VERB	VB	VerbForm=Inf	0	root	0:root	_
-14	light	light	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=(abstract-87)
-15	themselves	themselves	PRON	PRP	Number=Plur|Person=3|PronType=Prs	13	obl:npmod	13:obl:npmod	Entity=(animal-78)|SpaceAfter=No
-16	.	.	PUNCT	.	_	13	punct	13:punct	_
-
-# sent_id = GUM_interview_daly-28
 # text = They do make a host of florescent proteins, and these may interact with the light of the ROV to give that gorgeous glow.
-# s_type = decl
-# speaker = MarymeganDaly
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint:85->46|Entity=(animal-78)
 2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	make	make	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -756,10 +761,10 @@
 24	glow	glow	NOUN	NN	Number=Sing	21	obj	21:obj	Entity=abstract-45)|SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	3:punct	_
 
-# sent_id = GUM_interview_daly-29
-# text = What analysis did you perform on the specimens and what equipment was used?
+# sent_id = GUM_interview_daly-27
 # s_type = wh
 # speaker = Wikinews
+# text = What analysis did you perform on the specimens and what equipment was used?
 1	What	what	DET	WDT	PronType=Int	2	det	2:det	Discourse=question:88->90|Entity=(abstract-90
 2	analysis	analysis	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=abstract-90)
 3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	5	aux	5:aux	_
@@ -775,10 +780,10 @@
 13	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	5:conj:and	SpaceAfter=No
 14	?	?	PUNCT	.	_	5	punct	5:punct	_
 
-# sent_id = GUM_interview_daly-30
-# text = I used a dissecting scope to look at the animal's external anatomy and overall body organization (magnification of 60 X).
+# sent_id = GUM_interview_daly-28
 # s_type = decl
 # speaker = MarymeganDaly
+# text = I used a dissecting scope to look at the animal's external anatomy and overall body organization (magnification of 60 X).
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint:90->5|Entity=(person-3)
 2	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(object-92
@@ -788,7 +793,8 @@
 7	look	look	VERB	VB	VerbForm=Inf	2	advcl	2:advcl:to	_
 8	at	at	ADP	IN	_	13	case	13:case	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(object-93(animal-34
-10	animal	animal	NOUN	NN	Number=Sing	13	nmod:poss	13:nmod:poss	SpaceAfter=No
+10-11	animal's	_	_	_	_	_	_	_	_
+10	animal	animal	NOUN	NN	Number=Sing	13	nmod:poss	13:nmod:poss	_
 11	's	's	PART	POS	_	10	case	10:case	Entity=animal-34)
 12	external	external	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
 13	anatomy	anatomy	NOUN	NN	Number=Sing	7	obl	7:obl:at	Entity=object-93)
@@ -804,10 +810,10 @@
 23	)	)	PUNCT	-RRB-	_	19	punct	19:punct	SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	2:punct	_
 
-# sent_id = GUM_interview_daly-31
-# text = I embedded a few of the animals in wax and then cut them into very thin slices using a microtome, mounted the slices on microscope slides, stained the slices to enhance contrast, and then looked at those slides under a compound microscope
+# sent_id = GUM_interview_daly-29
 # s_type = decl
 # speaker = MarymeganDaly
+# text = I embedded a few of the animals in wax and then cut them into very thin slices using a microtome, mounted the slices on microscope slides, stained the slices to enhance contrast, and then looked at those slides under a compound microscope
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj|12:nsubj|38:nsubj	Discourse=sequence:93->90|Entity=(abstract-97(person-3)
 2	embedded	embed	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(animal-98
@@ -854,12 +860,13 @@
 44	compound	compound	ADJ	JJ	Degree=Pos	45	amod	45:amod	Entity=(object-104
 45	microscope	microscope	NOUN	NN	Number=Sing	38	obl	38:obl:under	Entity=abstract-97)object-104)
 
-# sent_id = GUM_interview_daly-32
-# text = (that's how I got the pictures of the muscles etc in the paper).
+# sent_id = GUM_interview_daly-30
 # s_type = decl
 # speaker = MarymeganDaly
+# text = (that's how I got the pictures of the muscles etc in the paper).
 1	(	(	PUNCT	-LRB-	_	4	punct	4:punct	Discourse=elaboration:100->99|SpaceAfter=No
-2	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Entity=(abstract-97)|SpaceAfter=No
+2-3	that's	_	_	_	_	_	_	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Entity=(abstract-97)
 3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 4	how	how	SCONJ	WRB	PronType=Rel	0	root	0:root	_
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-3)
@@ -876,10 +883,10 @@
 16	)	)	PUNCT	-RRB-	_	4	punct	4:punct	SpaceAfter=No
 17	.	.	PUNCT	.	_	4	punct	4:punct	_
 
-# sent_id = GUM_interview_daly-33
-# text = I used that same compound scope to look at squashed bits of tissue to see the stinging capsules (= nematocysts).
+# sent_id = GUM_interview_daly-31
 # s_type = decl
 # speaker = MarymeganDaly
+# text = I used that same compound scope to look at squashed bits of tissue to see the stinging capsules (= nematocysts).
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=sequence:101->90|Entity=(person-3)
 2	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	6:det	Entity=(object-104
@@ -904,10 +911,10 @@
 22	)	)	PUNCT	-RRB-	_	21	punct	21:punct	SpaceAfter=No
 23	.	.	PUNCT	.	_	2	punct	2:punct	_
 
-# sent_id = GUM_interview_daly-34
-# text = I compared the things I saw under the 'scopes to what had been published on other species in this group.
+# sent_id = GUM_interview_daly-32
 # s_type = decl
 # speaker = MarymeganDaly
+# text = I compared the things I saw under the 'scopes to what had been published on other species in this group.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=sequence:105->90|Entity=(event-111(person-3)
 2	compared	compare	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(abstract-112
@@ -924,16 +931,16 @@
 14	published	publish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	acl:relcl	11:acl:relcl	_
 15	on	on	ADP	IN	_	17	case	17:case	_
 16	other	other	ADJ	JJ	Degree=Pos	17	amod	17:amod	Entity=(animal-115
-17	species	specie	NOUN	NNS	Number=Plur	14	obl	14:obl:on	_
+17	species	species	NOUN	NNS	Number=Plur	14	obl	14:obl:on	_
 18	in	in	ADP	IN	_	20	case	20:case	_
 19	this	this	DET	DT	Number=Sing|PronType=Dem	20	det	20:det	Entity=(animal-116
 20	group	group	NOUN	NN	Number=Sing	17	nmod	17:nmod:in	Entity=event-111)abstract-114)animal-115)animal-116)|SpaceAfter=No
 21	.	.	PUNCT	.	_	2	punct	2:punct	_
 
-# sent_id = GUM_interview_daly-35
-# text = This step seems trivial, but it is really the most important part!
+# sent_id = GUM_interview_daly-33
 # s_type = decl
 # speaker = MarymeganDaly
+# text = This step seems trivial, but it is really the most important part!
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=concession:108->109|Entity=(event-111
 2	step	step	NOUN	NN	Number=Sing	3	nsubj	3:nsubj|4:nsubj:xsubj	Entity=event-111)
 3	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -949,10 +956,10 @@
 13	part	part	NOUN	NN	Number=Sing	3	conj	3:conj:but	Entity=abstract-117)|SpaceAfter=No
 14	!	!	PUNCT	.	_	3	punct	3:punct	_
 
-# sent_id = GUM_interview_daly-36
-# text = By comparing my observations to what my colleagues and predecessors had found, I figured out what group it belongs to, and was able to determine that within that group, it was a new species.
+# sent_id = GUM_interview_daly-34
 # s_type = decl
 # speaker = MarymeganDaly
+# text = By comparing my observations to what my colleagues and predecessors had found, I figured out what group it belongs to, and was able to determine that within that group, it was a new species.
 1	By	by	SCONJ	IN	_	2	mark	2:mark	Discourse=means:110->111
 2	comparing	compare	VERB	VBG	VerbForm=Ger	15	advcl	15:advcl:by	_
 3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(abstract-118(person-3)
@@ -992,10 +999,10 @@
 37	species	species	NOUN	NN	Number=Sing	27	ccomp	27:ccomp	Entity=animal-34)|SpaceAfter=No
 38	.	.	PUNCT	.	_	15	punct	15:punct	_
 
-# sent_id = GUM_interview_daly-37
-# text = It was three years between recovery of specimens and final publication, why did it take so long?
+# sent_id = GUM_interview_daly-35
 # s_type = multiple
 # speaker = Wikinews
+# text = It was three years between recovery of specimens and final publication, why did it take so long?
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=background:114->115
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
 3	three	three	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	Entity=(time-121
@@ -1016,10 +1023,10 @@
 18	long	long	ADV	RB	Degree=Pos	16	advmod	16:advmod	SpaceAfter=No
 19	?	?	PUNCT	.	_	4	punct	4:punct	_
 
-# sent_id = GUM_interview_daly-38
-# text = You mean, how did we manage to make it all happen so quickly, right? :)
+# sent_id = GUM_interview_daly-36
 # s_type = other
 # speaker = MarymeganDaly
+# text = You mean, how did we manage to make it all happen so quickly, right? :)
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:116->117|Entity=(person-124)
 2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	,	_	7	punct	7:punct	_
@@ -1030,7 +1037,7 @@
 8	to	to	PART	TO	_	9	mark	9:mark	_
 9	make	make	VERB	VB	VerbForm=Inf	7	xcomp	7:xcomp	_
 10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	9:obj|12:nsubj:xsubj	Entity=(event-123)
-11	all	all	DET	RB	Degree=Pos	10	det	10:det	_
+11	all	all	DET	DT	_	10	det	10:det	_
 12	happen	happen	VERB	VB	VerbForm=Inf	9	xcomp	9:xcomp	_
 13	so	so	ADV	RB	_	14	advmod	14:advmod	_
 14	quickly	quickly	ADV	RB	Degree=Pos	12	advmod	12:advmod	SpaceAfter=No
@@ -1039,10 +1046,10 @@
 17	?	?	PUNCT	.	_	2	punct	2:punct	_
 18	:)	:)	SYM	SYM	_	2	discourse	2:discourse	_
 
-# sent_id = GUM_interview_daly-39
-# text = It was about two years from when Frank sent me specimens to when we got the paper out.
+# sent_id = GUM_interview_daly-37
 # s_type = decl
 # speaker = MarymeganDaly
+# text = It was about two years from when Frank sent me specimens to when we got the paper out.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=joint:119->5
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
 3	about	about	ADV	RB	_	4	advmod	4:advmod	Entity=(time-125
@@ -1063,10 +1070,10 @@
 18	out	out	ADP	RP	_	15	compound:prt	15:compound:prt	SpaceAfter=No
 19	.	.	PUNCT	.	_	5	punct	5:punct	_
 
-# sent_id = GUM_interview_daly-40
-# text = Some of that time was just lost time -
+# sent_id = GUM_interview_daly-38
 # s_type = decl
 # speaker = MarymeganDaly
+# text = Some of that time was just lost time - I had other projects in the queue that I needed to finish.
 1	Some	some	PRON	DT	_	8	nsubj	8:nsubj	Discourse=cause:120->119|Entity=(time-126
 2	of	of	ADP	IN	_	4	case	4:case	_
 3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Entity=(time-125
@@ -1075,30 +1082,25 @@
 6	just	just	ADV	RB	_	8	advmod	8:advmod	_
 7	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	8	amod	8:amod	Entity=(time-127
 8	time	time	NOUN	NN	Number=Sing	0	root	0:root	Entity=time-127)
-9	-	-	PUNCT	.	_	8	punct	8:punct	Discourse=elaboration:121->120
+9	-	-	PUNCT	:	_	11	punct	11:punct	Discourse=elaboration:121->120
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj	Entity=(person-3)
+11	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	parataxis	8:parataxis	_
+12	other	other	ADJ	JJ	Degree=Pos	13	amod	13:amod	Entity=(abstract-128
+13	projects	project	NOUN	NNS	Number=Plur	11	obj	11:obj	_
+14	in	in	ADP	IN	_	16	case	16:case	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(abstract-129
+16	queue	queue	NOUN	NN	Number=Sing	13	nmod	13:nmod:in	Entity=abstract-129)
+17	that	that	PRON	WDT	_	21	obj	21:obj	Discourse=elaboration:122->121
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	19:nsubj|21:nsubj:xsubj	Entity=(person-3)
+19	needed	need	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	acl:relcl	13:acl:relcl	_
+20	to	to	PART	TO	_	21	mark	21:mark	_
+21	finish	finish	VERB	VB	VerbForm=Inf	19	xcomp	19:xcomp	Entity=abstract-128)|SpaceAfter=No
+22	.	.	PUNCT	.	_	8	punct	8:punct	_
 
-# sent_id = GUM_interview_daly-41
-# text = I had other projects in the queue that I needed to finish.
+# sent_id = GUM_interview_daly-39
 # s_type = decl
 # speaker = MarymeganDaly
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Entity=(person-3)
-2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
-3	other	other	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(abstract-128
-4	projects	project	NOUN	NNS	Number=Plur	2	obj	2:obj	_
-5	in	in	ADP	IN	_	7	case	7:case	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(abstract-129
-7	queue	queue	NOUN	NN	Number=Sing	4	nmod	4:nmod:in	Entity=abstract-129)
-8	that	that	PRON	WDT	_	12	obj	12:obj	Discourse=elaboration:122->121
-9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj|12:nsubj:xsubj	Entity=(person-3)
-10	needed	need	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_
-11	to	to	PART	TO	_	12	mark	12:mark	_
-12	finish	finish	VERB	VB	VerbForm=Inf	10	xcomp	10:xcomp	Entity=abstract-128)|SpaceAfter=No
-13	.	.	PUNCT	.	_	2	punct	2:punct	_
-
-# sent_id = GUM_interview_daly-42
 # text = Once we figured out what it was, we played a lot of manuscript email tag, which can be challenging and time consuming given the differing schedules that folks keep in terms of travel, field work, etc.
-# s_type = decl
-# speaker = MarymeganDaly
 1	Once	once	ADV	RB	NumType=Mult	3	advmod	3:advmod	Discourse=condition:123->124
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-53)
 3	figured	figure	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	10	advcl	10:advcl	_
@@ -1140,24 +1142,24 @@
 39	,	,	PUNCT	,	_	40	punct	40:punct	_
 40	etc.	etc.	X	FW	Abbr=Yes	35	conj	33:nmod:of|35:conj	Entity=abstract-133)
 
-# sent_id = GUM_interview_daly-43
-# text = Manuscript review and processing took about four months.
+# sent_id = GUM_interview_daly-40
 # s_type = decl
 # speaker = MarymeganDaly
+# text = Manuscript review and processing took about four months.
 1	Manuscript	manuscript	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=sequence:129->119|Entity=(event-137(abstract-138)
 2	review	review	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	_
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
-4	processing	process	VERB	VBG	VerbForm=Ger	2	conj	2:conj:and|5:nsubj	Entity=event-137)
+4	processing	process	VERB	VBG	VerbForm=Ger	2	conj	2:conj:and|5:csubj	Entity=event-137)
 5	took	take	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 6	about	about	ADV	RB	_	7	advmod	7:advmod	Entity=(time-139
 7	four	four	NUM	CD	NumForm=Word|NumType=Card	8	nummod	8:nummod	_
 8	months	month	NOUN	NNS	Number=Plur	5	obl:tmod	5:obl:tmod	Entity=time-139)|SpaceAfter=No
 9	.	.	PUNCT	.	_	5	punct	5:punct	_
 
-# sent_id = GUM_interview_daly-44
-# text = What sort of difficulties were posed by the unorthodox preservatives used, and what additional work might be possible on a specimen with intact DNA?
+# sent_id = GUM_interview_daly-41
 # s_type = wh
 # speaker = Wikinews
+# text = What sort of difficulties were posed by the unorthodox preservatives used, and what additional work might be possible on a specimen with intact DNA?
 1	What	what	DET	WDT	PronType=Int	2	det	2:det	Discourse=question:130->133
 2	sort	sort	NOUN	NN	Number=Sing	6	nsubj:pass	6:nsubj:pass	_
 3	of	of	ADP	IN	_	4	case	4:case	_
@@ -1185,41 +1187,36 @@
 25	DNA	DNA	NOUN	NN	Abbr=Yes|Number=Sing	22	nmod	22:nmod:with	Entity=(substance-60-DNA)object-143)|SpaceAfter=No
 26	?	?	PUNCT	.	_	6	punct	6:punct	_
 
-# sent_id = GUM_interview_daly-45
-# text = The preservation was not unorthodox -
+# sent_id = GUM_interview_daly-42
 # s_type = decl
 # speaker = MarymeganDaly
+# text = The preservation was not unorthodox - they followed best practices for anatomical preservation.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=substance-55<abstract-144|Discourse=joint:133->5|Entity=(abstract-144
 2	preservation	preservation	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=abstract-144)
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
 4	not	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
 5	unorthodox	unorthodox	ADJ	JJ	Degree=Pos|Polarity=Neg	0	root	0:root	_
-6	-	-	PUNCT	.	_	5	punct	5:punct	_
+6	-	-	PUNCT	:	_	8	punct	8:punct	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	8:nsubj	Discourse=elaboration:134->133|Entity=(person-145)
+8	followed	follow	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	5:parataxis	_
+9	best	good	ADJ	JJS	Degree=Sup	10	amod	10:amod	Entity=(abstract-146
+10	practices	practice	NOUN	NNS	Number=Plur	8	obj	8:obj	_
+11	for	for	ADP	IN	_	13	case	13:case	_
+12	anatomical	anatomical	ADJ	JJ	Degree=Pos	13	amod	13:amod	Entity=(abstract-147
+13	preservation	preservation	NOUN	NN	Number=Sing	10	nmod	10:nmod:for	Entity=abstract-146)abstract-147)|SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	5:punct	_
 
-# sent_id = GUM_interview_daly-46
-# text = they followed best practices for anatomical preservation.
+# sent_id = GUM_interview_daly-43
 # s_type = decl
 # speaker = MarymeganDaly
-1	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration:134->133|Entity=(person-145)
-2	followed	follow	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-3	best	good	ADJ	JJS	Degree=Sup	4	amod	4:amod	Entity=(abstract-146
-4	practices	practice	NOUN	NNS	Number=Plur	2	obj	2:obj	_
-5	for	for	ADP	IN	_	7	case	7:case	_
-6	anatomical	anatomical	ADJ	JJ	Degree=Pos	7	amod	7:amod	Entity=(abstract-147
-7	preservation	preservation	NOUN	NN	Number=Sing	4	nmod	4:nmod:for	Entity=abstract-146)abstract-147)|SpaceAfter=No
-8	.	.	PUNCT	.	_	2	punct	2:punct	_
-
-# sent_id = GUM_interview_daly-47
 # text = Having DNA-suitable material will let us see whether there are new genes, or genes turned on in different ways and at different times that help explain how these animals burrow into hard ice and then survive in the cold.
-# s_type = decl
-# speaker = MarymeganDaly
 1	Having	have	VERB	VBG	VerbForm=Ger	5	csubj	5:csubj	Discourse=attribution:135->136
 2	DNA-suitable	DNA-suitable	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(object-143
 3	material	material	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=object-143)
 4	will	will	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
 5	let	let	VERB	VB	VerbForm=Inf	0	root	0:root	_
-6	us	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	7:nsubj	Entity=(person-53)
-7	see	see	VERB	VB	VerbForm=Inf	5	ccomp	5:ccomp	_
+6	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	obj	5:obj|7:nsubj:xsubj	Entity=(person-53)
+7	see	see	VERB	VB	VerbForm=Inf	5	xcomp	5:xcomp	_
 8	whether	whether	SCONJ	IN	_	10	mark	10:mark	Discourse=joint:136->133
 9	there	there	PRON	EX	_	10	expl	10:expl	_
 10	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	7:ccomp	_
@@ -1229,7 +1226,7 @@
 14	or	or	CCONJ	CC	_	15	cc	15:cc	Discourse=contrast:137->136
 15	genes	gene	NOUN	NNS	Number=Plur	12	conj	10:nsubj|12:conj:or|26:nsubj	Entity=(abstract-149
 16	turned	turn	VERB	VBN	Tense=Past|VerbForm=Part	15	acl	15:acl	_
-17	on	on	ADP	IN	_	16	compound:prt	16:compound:prt	_
+17	on	on	ADP	RP	_	16	compound:prt	16:compound:prt	_
 18	in	in	ADP	IN	_	20	case	20:case	_
 19	different	different	ADJ	JJ	Degree=Pos	20	amod	20:amod	Entity=(abstract-150
 20	ways	way	NOUN	NNS	Number=Plur	16	obl	16:obl:in	Entity=abstract-150)
@@ -1249,16 +1246,16 @@
 34	ice	ice	NOUN	NN	Number=Sing	31	obl	31:obl:into	Entity=substance-152)
 35	and	and	CCONJ	CC	_	37	cc	37:cc	Discourse=joint:140->139
 36	then	then	ADV	RB	PronType=Dem	37	advmod	37:advmod	_
-37	survive	VVP	VERB	VB	Person=2|VerbForm=Inf	31	conj	28:acl:relcl|31:conj:and	_
+37	survive	survive	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	conj	28:acl:relcl|31:conj:and	_
 38	in	in	ADP	IN	_	40	case	40:case	_
 39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	40:det	Entity=(abstract-153
 40	cold	cold	NOUN	NN	Number=Sing	37	obl	37:obl:in	Entity=abstract-149)abstract-153)|SpaceAfter=No
 41	.	.	PUNCT	.	_	5	punct	5:punct	_
 
-# sent_id = GUM_interview_daly-48
-# text = I am curious about the population structure of the "fields" of anemones -
+# sent_id = GUM_interview_daly-44
 # s_type = decl
 # speaker = MarymeganDaly
+# text = I am curious about the population structure of the "fields" of anemones - the group to which Edwardsiella andrillae belongs includes many species that reproduce asexually, and it's possible that the fields are "clones" produced asexually rather than the result of sexual reproduction.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=preparation:141->146|Entity=(person-3)
 2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	curious	curious	ADJ	JJ	Degree=Pos	0	root	0:root	_
@@ -1273,52 +1270,48 @@
 12	"	''	PUNCT	''	_	11	punct	11:punct	_
 13	of	of	ADP	IN	_	14	case	14:case	_
 14	anemones	anemone	NOUN	NNS	Number=Plur	11	nmod	11:nmod:of	Entity=(animal-34)abstract-154)place-156)
-15	-	-	PUNCT	.	_	3	punct	3:punct	_
+15	-	-	PUNCT	:	_	23	punct	23:punct	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Discourse=background:142->146|Entity=(abstract-157
+17	group	group	NOUN	NN	Number=Sing	23	nsubj	22:obl:to|23:nsubj	_
+18	to	to	ADP	IN	_	19	case	19:case	Discourse=elaboration:143->142
+19	which	which	PRON	WDT	PronType=Rel	22	obl	17:ref	_
+20	Edwardsiella	Edwardsiella	X	FW	_	21	compound	21:compound	Entity=(animal-34
+21	andrillae	andrillae	X	FW	_	22	nsubj	22:nsubj	Entity=animal-34)
+22	belongs	belong	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	17:acl:relcl	Entity=abstract-157)
+23	includes	include	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	3:parataxis	Discourse=same-unit:144->142
+24	many	many	ADJ	JJ	Degree=Pos	25	amod	25:amod	Entity=(animal-158
+25	species	species	NOUN	NNS	Number=Plur	23	obj	23:obj|27:nsubj	_
+26	that	that	PRON	WDT	PronType=Rel	27	nsubj	25:ref	Discourse=elaboration:145->144
+27	reproduce	reproduce	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	25:acl:relcl	_
+28	asexually	asexually	ADV	RB	Degree=Pos	27	advmod	27:advmod	Entity=animal-158)|SpaceAfter=No
+29	,	,	PUNCT	,	_	33	punct	33:punct	_
+30	and	and	CCONJ	CC	_	33	cc	33:cc	Discourse=joint:146->133
+31-32	it's	_	_	_	_	_	_	_	_
+31	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	expl	33:expl	Entity=(abstract-159)
+32	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	33:cop	_
+33	possible	possible	ADJ	JJ	Degree=Pos	23	conj	23:conj:and	_
+34	that	that	SCONJ	IN	_	39	mark	39:mark	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	36:det	Entity=(abstract-159(place-156
+36	fields	field	NOUN	NNS	Number=Plur	39	nsubj	39:nsubj	Entity=place-156)
+37	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	cop	39:cop	_
+38	"	''	PUNCT	``	_	39	punct	39:punct	Entity=(animal-160|SpaceAfter=No
+39	clones	clone	NOUN	NNS	Number=Plur	33	csubj	33:csubj	SpaceAfter=No
+40	"	''	PUNCT	''	_	39	punct	39:punct	_
+41	produced	produce	VERB	VBN	Tense=Past|VerbForm=Part	39	acl	39:acl	Discourse=elaboration:147->146
+42	asexually	asexually	ADV	RB	Degree=Pos	41	advmod	41:advmod	Entity=abstract-159)animal-160)
+43	rather	rather	ADV	RB	_	46	cc	46:cc	Discourse=antithesis:148->147
+44	than	than	ADP	IN	_	43	fixed	43:fixed	_
+45	the	the	DET	DT	Definite=Def|PronType=Art	46	det	46:det	Entity=(abstract-161
+46	result	result	NOUN	NN	Number=Sing	42	conj	41:advmod|42:conj:rather_than	_
+47	of	of	ADP	IN	_	49	case	49:case	_
+48	sexual	sexual	ADJ	JJ	Degree=Pos	49	amod	49:amod	Entity=(event-162
+49	reproduction	reproduction	NOUN	NN	Number=Sing	46	nmod	46:nmod:of	Entity=abstract-161)event-162)|SpaceAfter=No
+50	.	.	PUNCT	.	_	3	punct	3:punct	_
 
-# sent_id = GUM_interview_daly-49
-# text = the group to which Edwardsiella andrillae belongs includes many species that reproduce asexually, and it's possible that the fields are "clones" produced asexually rather than the result of sexual reproduction.
+# sent_id = GUM_interview_daly-45
 # s_type = decl
 # speaker = MarymeganDaly
-1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=background:142->146|Entity=(abstract-157
-2	group	group	NOUN	NN	Number=Sing	8	nsubj	7:obl:to|8:nsubj	_
-3	to	to	ADP	IN	_	4	case	4:case	Discourse=elaboration:143->142
-4	which	which	PRON	WDT	PronType=Rel	7	obl	2:ref	_
-5	Edwardsiella	Edwardsiella	X	FW	_	6	compound	6:compound	Entity=(animal-34
-6	andrillae	andrillae	X	FW	_	7	nsubj	7:nsubj	Entity=animal-34)
-7	belongs	belong	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	Entity=abstract-157)
-8	includes	include	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=same-unit:144->142
-9	many	many	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(animal-158
-10	species	specie	NOUN	NNS	Number=Plur	8	obj	8:obj|12:nsubj	_
-11	that	that	PRON	WDT	PronType=Rel	12	nsubj	10:ref	Discourse=elaboration:145->144
-12	reproduce	reproduce	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	10:acl:relcl	_
-13	asexually	asexually	ADV	RB	Degree=Pos	12	advmod	12:advmod	Entity=animal-158)|SpaceAfter=No
-14	,	,	PUNCT	,	_	18	punct	18:punct	_
-15	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=joint:146->133
-16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	18:expl	Entity=(abstract-159)|SpaceAfter=No
-17	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	_
-18	possible	possible	ADJ	JJ	Degree=Pos	8	conj	8:conj:and	_
-19	that	that	SCONJ	IN	_	24	mark	24:mark	_
-20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(abstract-159(place-156
-21	fields	field	NOUN	NNS	Number=Plur	24	nsubj	24:nsubj	Entity=place-156)
-22	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	cop	24:cop	_
-23	"	''	PUNCT	``	_	24	punct	24:punct	Entity=(animal-160|SpaceAfter=No
-24	clones	clone	NOUN	NNS	Number=Plur	18	csubj	18:csubj	SpaceAfter=No
-25	"	''	PUNCT	''	_	24	punct	24:punct	_
-26	produced	produce	VERB	VBN	Tense=Past|VerbForm=Part	24	acl	24:acl	Discourse=elaboration:147->146
-27	asexually	asexually	ADV	RB	Degree=Pos	26	advmod	26:advmod	Entity=abstract-159)animal-160)
-28	rather	rather	ADV	RB	_	31	cc	31:cc	Discourse=antithesis:148->147
-29	than	than	ADP	IN	_	28	fixed	28:fixed	_
-30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	31:det	Entity=(abstract-161
-31	result	result	NOUN	NN	Number=Sing	27	conj	26:advmod|27:conj:rather_than	_
-32	of	of	ADP	IN	_	34	case	34:case	_
-33	sexual	sexual	ADJ	JJ	Degree=Pos	34	amod	34:amod	Entity=(event-162
-34	reproduction	reproduction	NOUN	NN	Number=Sing	31	nmod	31:nmod:of	Entity=abstract-161)event-162)|SpaceAfter=No
-35	.	.	PUNCT	.	_	8	punct	8:punct	_
-
-# sent_id = GUM_interview_daly-50
 # text = DNA is the only way to test this.
-# s_type = decl
-# speaker = MarymeganDaly
 1	DNA	NN	PROPN	NNP	Abbr=Yes|Number=Sing	5	nsubj	5:nsubj	Discourse=elaboration:149->146|Entity=(substance-60-DNA)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(abstract-163
@@ -1329,9 +1322,9 @@
 8	this	this	PRON	DT	Number=Sing|PronType=Dem	7	obj	7:obj	Entity=(abstract-159)abstract-163)|SpaceAfter=No
 9	.	.	PUNCT	.	_	5	punct	5:punct	_
 
-# sent_id = GUM_interview_daly-51
-# text = This map shows the location of the Ross Ice Shelf in the Antarctic, and the two known localities for E. andrillae relative to McMurdo Station
+# sent_id = GUM_interview_daly-46
 # s_type = decl
+# text = This map shows the location of the Ross Ice Shelf in the Antarctic, and the two known localities for E. andrillae relative to McMurdo Station
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=background:151->5|Entity=(abstract-164
 2	map	map	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=abstract-164)
 3	shows	show	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -1341,7 +1334,7 @@
 7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(place-165-Ross_Ice_Shelf
 8	Ross	Ross	PROPN	NNP	Number=Sing	10	compound	10:compound	Entity=(person-166-James_Clark_Ross)
 9	Ice	Ice	PROPN	NNP	Number=Sing	10	compound	10:compound	_
-10	Shelf	shelf	PROPN	NNP	Number=Sing	5	nmod	5:nmod:of	Entity=place-165-Ross_Ice_Shelf)
+10	Shelf	Shelf	PROPN	NNP	Number=Sing	5	nmod	5:nmod:of	Entity=place-165-Ross_Ice_Shelf)
 11	in	in	ADP	IN	_	13	case	13:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(place-11-Antarctica
 13	Antarctic	Antarctic	ADJ	JJ	Degree=Pos	5	nmod	5:nmod:in	Entity=place-16-Ross_Sea)place-11-Antarctica)|SpaceAfter=No
@@ -1359,18 +1352,18 @@
 25	McMurdo	Mcmurdo	PROPN	NNP	Number=Sing	26	compound	26:compound	Entity=(place-168-McMurdo_Station(person-169-Archibald_McMurdo)
 26	Station	Station	PROPN	NNP	Number=Sing	23	obl	23:obl:to	Entity=place-168-McMurdo_Station)
 
-# sent_id = GUM_interview_daly-52
-# text = image: Daily et al.
+# sent_id = GUM_interview_daly-47
 # s_type = frag
+# text = image: Daily et al.
 1	image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:152->153|Entity=(abstract-170)|SpaceAfter=No
 2	:	:	PUNCT	:	_	3	punct	3:punct	_
 3	Daily	Daily	PROPN	NNP	Number=Sing	1	parataxis	1:parataxis	Discourse=attribution:153->151|Entity=(person-53
 4	et	et	X	FW	_	5	cc	5:cc	_
 5	al.	al.	X	FW	Abbr=Yes	3	conj	3:conj:et	Entity=person-53)
 
-# sent_id = GUM_interview_daly-53
-# text = Daly explained how she obtained these images of the anemone's anatomy.
+# sent_id = GUM_interview_daly-48
 # s_type = decl
+# text = Daly explained how she obtained these images of the anemone's anatomy.
 1	Daly	Daly	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=attribution:154->155|Entity=(person-3)
 2	explained	explain	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	how	how	SCONJ	WRB	PronType=Rel	2	obj	2:obj	Discourse=joint:155->151
@@ -1380,14 +1373,15 @@
 7	images	image	NOUN	NNS	Number=Plur	5	obj	5:obj	_
 8	of	of	ADP	IN	_	12	case	12:case	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(abstract-172(animal-34
-10	anemone	anemone	NOUN	NN	Number=Sing	12	nmod:poss	12:nmod:poss	SpaceAfter=No
+10-11	anemone's	_	_	_	_	_	_	_	_
+10	anemone	anemone	NOUN	NN	Number=Sing	12	nmod:poss	12:nmod:poss	_
 11	's	's	PART	POS	_	10	case	10:case	Entity=animal-34)
 12	anatomy	anatomy	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	Entity=abstract-171)abstract-172)|SpaceAfter=No
 13	.	.	PUNCT	.	_	2	punct	2:punct	_
 
-# sent_id = GUM_interview_daly-54
-# text = Image: Daily et al.
+# sent_id = GUM_interview_daly-49
 # s_type = frag
+# text = Image: Daily et al.
 1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:156->157|Entity=(abstract-173)|SpaceAfter=No
 2	:	:	PUNCT	:	_	3	punct	3:punct	_
 3	Daily	Daily	PROPN	NNP	Number=Sing	1	parataxis	1:parataxis	Discourse=attribution:157->155|Entity=(person-53

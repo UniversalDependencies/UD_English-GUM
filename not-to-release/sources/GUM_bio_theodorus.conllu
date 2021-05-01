@@ -1,19 +1,26 @@
 # newdoc id = GUM_bio_theodorus
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2018-08-09
+# meta::dateCreated = 2008-06-16
+# meta::dateModified = 2017-01-13
+# meta::sourceURL = https://en.wikipedia.org/wiki/Theodorus_of_Tabennese
+# meta::speakerCount = 0
+# meta::title = Theodorus of Tabennese
 # sent_id = GUM_bio_theodorus-1
-# text = Theodorus of Tabennese
 # s_type = frag
+# text = Theodorus of Tabennese
 1	Theodorus	Theodorus	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:1->2|Entity=(person-1-Theodorus_of_Tabennese
 2	of	of	ADP	IN	_	3	case	3:case	_
 3	Tabennese	Tabennese	PROPN	NNP	Number=Sing	1	nmod	1:nmod:of	Entity=(place-2)person-1-Theodorus_of_Tabennese)
 
 # sent_id = GUM_bio_theodorus-2
-# text = Theodorus of Tabennese (c. 314 – 368), also known as Abba Theodorus and Theodore the Sanctified was the spiritual successor to Pachomius and played a crucial role in preventing the first Christian cenobitic monastic federation from collapsing after the death of its founder.
 # s_type = decl
+# text = Theodorus of Tabennese (c. 314 – 368), also known as Abba Theodorus and Theodore the Sanctified was the spiritual successor to Pachomius and played a crucial role in preventing the first Christian cenobitic monastic federation from collapsing after the death of its founder.
 1	Theodorus	Theodorus	PROPN	NNP	Number=Sing	23	nsubj	23:nsubj|27:nsubj	Discourse=ROOT:2|Entity=(person-1-Theodorus_of_Tabennese
 2	of	of	ADP	IN	_	3	case	3:case	_
 3	Tabennese	Tabennese	PROPN	NNP	Number=Sing	1	nmod	1:nmod:of	Entity=(place-2)
 4	(	(	PUNCT	-LRB-	_	6	punct	6:punct	Discourse=elaboration:3->2|SpaceAfter=No
-5	c.	c.	ADV	RB	Abbr=Yes|Degree=Pos	6	advmod	6:advmod	_
+5	c.	c.	ADV	FW	Abbr=Yes	6	advmod	6:advmod	_
 6	314	314	NUM	CD	NumForm=Digit|NumType=Card	1	dep	1:dep	Entity=(time-3)
 7	–	-	SYM	SYM	_	8	case	8:case	_
 8	368	368	NUM	CD	NumForm=Digit|NumType=Card	6	nmod	6:nmod:to	Entity=(time-4)|SpaceAfter=No
@@ -58,8 +65,8 @@
 47	.	.	PUNCT	.	_	23	punct	23:punct	_
 
 # sent_id = GUM_bio_theodorus-3
-# text = Icon of St. Theodorus of Tabennese
 # s_type = frag
+# text = Icon of St. Theodorus of Tabennese
 1	Icon	icon	NOUN	NN	Number=Sing	0	root	0:root	Discourse=background:8->11|Entity=(object-9
 2	of	of	ADP	IN	_	3	case	3:case	_
 3	St.	St.	PROPN	NNP	Abbr=Yes|Number=Sing	1	nmod	1:nmod:of	Entity=(person-1-Theodorus_of_Tabennese
@@ -68,13 +75,13 @@
 6	Tabennese	Tabennese	PROPN	NNP	Number=Sing	3	nmod	3:nmod:of	Entity=(place-2)object-9)person-1-Theodorus_of_Tabennese)
 
 # sent_id = GUM_bio_theodorus-4
-# text = Biography
 # s_type = frag
+# text = Biography
 1	Biography	biography	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:9->11|Entity=(abstract-10)
 
 # sent_id = GUM_bio_theodorus-5
-# text = According to hagiography, Theodorus was born into a wealthy Christian family and was well educated from a young age.
 # s_type = decl
+# text = According to hagiography, Theodorus was born into a wealthy Christian family and was well educated from a young age.
 1	According	accord	VERB	VBG	VerbForm=Ger	3	case	3:case	Discourse=attribution:10->11
 2	to	to	ADP	IN	_	1	fixed	1:fixed	_
 3	hagiography	hagiography	NOUN	NN	Number=Sing	7	obl	7:obl:according_to	Entity=(abstract-11)|SpaceAfter=No
@@ -98,8 +105,8 @@
 21	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_bio_theodorus-6
-# text = Early in life he denied the excesses of his parents, and at the age of fourteen joined a monastery in the diocese of Sne, near the modern town of Esna, Egypt.
 # s_type = decl
+# text = Early in life he denied the excesses of his parents, and at the age of fourteen joined a monastery in the diocese of Sne, near the modern town of Esna, Egypt.
 1	Early	early	ADV	RB	Degree=Pos	5	advmod	5:advmod	Discourse=sequence:13->11
 2	in	in	ADP	IN	_	3	case	3:case	_
 3	life	life	NOUN	NN	Number=Sing	1	nmod	1:nmod:in	Bridge=person-1-Theodorus_of_Tabennese<abstract-14|Entity=(abstract-14)
@@ -137,12 +144,13 @@
 35	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_bio_theodorus-7
-# text = A brother from Theodorus’ monastery stayed with Pachomius in Tabennese while traveling and preached of the virtues of the Koinonia upon his return to Sne.
 # s_type = decl
+# text = A brother from Theodorus’ monastery stayed with Pachomius in Tabennese while traveling and preached of the virtues of the Koinonia upon his return to Sne.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	Discourse=cause:15->23|Entity=(person-23
 2	brother	brother	NOUN	NN	Number=Sing	7	nsubj	7:nsubj|15:nsubj	_
 3	from	from	ADP	IN	_	6	case	6:case	_
-4	Theodorus	Theodorus	PROPN	NNP	Number=Sing	6	nmod:poss	6:nmod:poss	Entity=(organization-18(person-1-Theodorus_of_Tabennese|SpaceAfter=No
+4-5	Theodorus’	_	_	_	_	_	_	_	_
+4	Theodorus	Theodorus	PROPN	NNP	Number=Sing	6	nmod:poss	6:nmod:poss	Entity=(organization-18(person-1-Theodorus_of_Tabennese
 5	’	's	PART	POS	_	4	case	4:case	Entity=person-1-Theodorus_of_Tabennese)
 6	monastery	monastery	NOUN	NN	Number=Sing	2	nmod	2:nmod:from	Entity=person-23)organization-18)
 7	stayed	stay	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -168,8 +176,8 @@
 27	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_bio_theodorus-8
-# text = Praying and weeping, Theodorus became determined that his destiny lay with Pachomius.
 # s_type = decl
+# text = Praying and weeping, Theodorus became determined that his destiny lay with Pachomius.
 1	Praying	pray	VERB	VBG	VerbForm=Ger	6	advcl	6:advcl	Discourse=manner:18->20
 2	and	and	CCONJ	CC	_	3	cc	3:cc	Discourse=joint:19->18
 3	weeping	weep	VERB	VBG	VerbForm=Ger	1	conj	1:conj:and|6:advcl	SpaceAfter=No
@@ -186,8 +194,8 @@
 14	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_bio_theodorus-9
-# text = Although initially denied passage to Tabennese by a Pachomian monk due to his wealthy background, Theodorus opted to follow the visiting monk, and his persistence (and lack of obedience) paid off.
 # s_type = decl
+# text = Although initially denied passage to Tabennese by a Pachomian monk due to his wealthy background, Theodorus opted to follow the visiting monk, and his persistence (and lack of obedience) paid off.
 1	Although	although	SCONJ	IN	_	3	mark	3:mark	Discourse=concession:22->23
 2	initially	initially	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
 3	denied	deny	VERB	VBN	Tense=Past|VerbForm=Part	18	advcl	18:advcl:although	_
@@ -199,7 +207,7 @@
 9	Pachomian	Pachomian	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
 10	monk	monk	NOUN	NN	Number=Sing	3	obl	3:obl:by	Entity=person-29)
 11	due	due	ADJ	JJ	Degree=Pos	15	case	15:case	_
-12	to	to	PART	TO	_	11	fixed	11:fixed	_
+12	to	to	ADP	IN	_	11	fixed	11:fixed	_
 13	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	15:nmod:poss	Bridge=organization-12<abstract-30|Entity=(abstract-30(person-1-Theodorus_of_Tabennese)
 14	wealthy	wealthy	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
 15	background	background	NOUN	NN	Number=Sing	3	obl	3:obl:due_to	Entity=abstract-30)|SpaceAfter=No
@@ -226,8 +234,8 @@
 36	.	.	PUNCT	.	_	18	punct	18:punct	_
 
 # sent_id = GUM_bio_theodorus-10
-# text = He was welcomed by Pachomius upon his arrival, and quickly integrated into the community at Tabennese around 328.
 # s_type = decl
+# text = He was welcomed by Pachomius upon his arrival, and quickly integrated into the community at Tabennese around 328.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	3:nsubj:pass|12:nsubj:pass	Discourse=sequence:27->23|Entity=(person-1-Theodorus_of_Tabennese)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	welcomed	welcome	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -250,8 +258,8 @@
 20	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_bio_theodorus-11
-# text = Quickly becoming a favorite of Pachomius, Theodorus lived an enviably ascetic life in the monastery, and took on the title of the "brothers’ comforter".
 # s_type = decl
+# text = Quickly becoming a favorite of Pachomius, Theodorus lived an enviably ascetic life in the monastery, and took on the title of the "brothers’ comforter".
 1	Quickly	quickly	ADV	RB	Degree=Pos	2	advmod	2:advmod	Discourse=circumstance:29->30
 2	becoming	become	VERB	VBG	VerbForm=Ger	9	advcl	9:advcl	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	_
@@ -277,15 +285,16 @@
 23	of	of	ADP	IN	_	28	case	28:case	_
 24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(person-1-Theodorus_of_Tabennese
 25	"	''	PUNCT	``	_	26	punct	26:punct	SpaceAfter=No
-26	brothers	brother	NOUN	NNS	Number=Plur	28	nmod:poss	28:nmod:poss	Entity=(person-40|SpaceAfter=No
+26-27	brothers’	_	_	_	_	_	_	_	_
+26	brothers	brother	NOUN	NNS	Number=Plur	28	nmod:poss	28:nmod:poss	Entity=(person-40
 27	’	's	PART	POS	_	26	case	26:case	Entity=person-40)
 28	comforter	comforter	NOUN	NN	Number=Sing	22	nmod	22:nmod:of	SpaceAfter=No
 29	"	''	PUNCT	''	_	28	punct	28:punct	Entity=abstract-39)person-1-Theodorus_of_Tabennese)|SpaceAfter=No
 30	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_bio_theodorus-12
-# text = Theodorus asserted his influence openly (which resulted in reprimands from Pachomius) and generally maintained himself as a prominent figure at Tabennese for several years, despite never being given a position of power in the monastic hierarchy.
 # s_type = decl
+# text = Theodorus asserted his influence openly (which resulted in reprimands from Pachomius) and generally maintained himself as a prominent figure at Tabennese for several years, despite never being given a position of power in the monastic hierarchy.
 1	Theodorus	Theodorus	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj|16:nsubj	Discourse=sequence:32->11|Entity=(person-1-Theodorus_of_Tabennese)
 2	asserted	assert	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root|8:nsubj	_
 3	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(abstract-41(person-1-Theodorus_of_Tabennese)
@@ -328,8 +337,8 @@
 40	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_theodorus-13
-# text = Finally, Pachomius called on him to preach to the brothers despite his youth, and eventually appointed him steward of Tabennese after several new monasteries had been built.
 # s_type = decl
+# text = Finally, Pachomius called on him to preach to the brothers despite his youth, and eventually appointed him steward of Tabennese after several new monasteries had been built.
 1	Finally	finally	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=sequence:36->11|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	Pachomius	Pachomius	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj|8:nsubj:xsubj|18:nsubj	Entity=(person-5-Pachomius_the_Great)
@@ -362,8 +371,8 @@
 30	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_bio_theodorus-14
-# text = Retiring to the monastery of Phbow, Pachomius gave Theodorus complete control over Tabennese, though recalled him from the position after witnessing several monks under Theodorus’ watch violating the monastic rules without reprimand.
 # s_type = decl
+# text = Retiring to the monastery of Phbow, Pachomius gave Theodorus complete control over Tabennese, though recalled him from the position after witnessing several monks under Theodorus’ watch violating the monastic rules without reprimand.
 1	Retiring	retire	VERB	VBG	VerbForm=Ger	9	advcl	9:advcl	Discourse=circumstance:40->41
 2	to	to	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(place-49
@@ -390,7 +399,8 @@
 24	several	several	ADJ	JJ	Degree=Pos	25	amod	25:amod	Discourse=cause:44->42|Entity=(person-54
 25	monks	monk	NOUN	NNS	Number=Plur	23	obj	23:obj|30:nsubj:xsubj	_
 26	under	under	ADP	IN	_	29	case	29:case	_
-27	Theodorus	Theodorus	PROPN	NNP	Number=Sing	29	nmod:poss	29:nmod:poss	Entity=(event-55(person-1-Theodorus_of_Tabennese|SpaceAfter=No
+27-28	Theodorus’	_	_	_	_	_	_	_	_
+27	Theodorus	Theodorus	PROPN	NNP	Number=Sing	29	nmod:poss	29:nmod:poss	Entity=(event-55(person-1-Theodorus_of_Tabennese
 28	’	's	PART	POS	_	27	case	27:case	Entity=person-1-Theodorus_of_Tabennese)
 29	watch	watch	NOUN	NN	Number=Sing	25	nmod	25:nmod:under	Entity=person-54)event-55)
 30	violating	violate	VERB	VBG	VerbForm=Ger	23	xcomp	23:xcomp	_
@@ -402,8 +412,8 @@
 36	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_bio_theodorus-15
-# text = Having failed to prove his governing ability and once more in a position no higher than when he had entered the monastery, Theodorus became a personal assistant to Pachomius and remained relatively quiet for some years.
 # s_type = decl
+# text = Having failed to prove his governing ability and once more in a position no higher than when he had entered the monastery, Theodorus became a personal assistant to Pachomius and remained relatively quiet for some years.
 1	Having	have	AUX	VBG	VerbForm=Ger	2	aux	2:aux	Discourse=circumstance:45->47
 2	failed	fail	VERB	VBN	Tense=Past|VerbForm=Part	25	advcl	25:advcl	_
 3	to	to	PART	TO	_	4	mark	4:mark	_
@@ -444,8 +454,8 @@
 38	.	.	PUNCT	.	_	25	punct	25:punct	_
 
 # sent_id = GUM_bio_theodorus-16
-# text = Despite his clear potential and popularity, Pachomius refused to grant Theodorus any kind of authority; though the old man's failing health soon changed things forever.
 # s_type = decl
+# text = Despite his clear potential and popularity, Pachomius refused to grant Theodorus any kind of authority; though the old man's failing health soon changed things forever.
 1	Despite	despite	ADP	IN	_	4	case	4:case	Discourse=concession:49->50
 2	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(abstract-62(person-1-Theodorus_of_Tabennese)
 3	clear	clear	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -466,7 +476,8 @@
 18	though	though	SCONJ	IN	_	26	mark	26:mark	Discourse=preparation:51->54
 19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(abstract-64(person-5-Pachomius_the_Great
 20	old	old	ADJ	JJ	Degree=Pos	21	amod	21:amod	_
-21	man	man	NOUN	NN	Number=Sing	24	nmod:poss	24:nmod:poss	SpaceAfter=No
+21-22	man's	_	_	_	_	_	_	_	_
+21	man	man	NOUN	NN	Number=Sing	24	nmod:poss	24:nmod:poss	_
 22	's	's	PART	POS	_	21	case	21:case	Entity=person-5-Pachomius_the_Great)
 23	failing	fail	VERB	VBG	VerbForm=Ger	24	amod	24:amod	_
 24	health	health	NOUN	NN	Number=Sing	26	nsubj	26:nsubj	Entity=abstract-64)
@@ -477,8 +488,8 @@
 29	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_bio_theodorus-17
-# text = After Theodorus had been assisting Pachomius at Tabennese for several years following his demotion, Pachomius became very ill and seemed to be on the verge of death.
 # s_type = decl
+# text = After Theodorus had been assisting Pachomius at Tabennese for several years following his demotion, Pachomius became very ill and seemed to be on the verge of death.
 1	After	after	SCONJ	IN	_	5	mark	5:mark	Discourse=circumstance:52->54
 2	Theodorus	Theodorus	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(person-1-Theodorus_of_Tabennese)
 3	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	5:aux	_
@@ -510,8 +521,8 @@
 29	.	.	PUNCT	.	_	17	punct	17:punct	_
 
 # sent_id = GUM_bio_theodorus-18
-# text = Pachomius had not named a successor, and several brothers pleaded with Theodorus to assert himself as head of the Koinonia when the sickly man died.
 # s_type = decl
+# text = Pachomius had not named a successor, and several brothers pleaded with Theodorus to assert himself as head of the Koinonia when the sickly man died.
 1	Pachomius	Pachomius	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Discourse=background:56->57|Entity=(person-5-Pachomius_the_Great)
 2	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	4:aux	_
 3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
@@ -541,8 +552,8 @@
 27	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_bio_theodorus-19
-# text = Despite the assertion that Theodorus apparently did not want the rank of a father or this world's glory, he consented.
 # s_type = decl
+# text = Despite the assertion that Theodorus apparently did not want the rank of a father or this world's glory, he consented.
 1	Despite	despite	ADP	IN	_	3	case	3:case	Discourse=concession:59->61
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(abstract-70
 3	assertion	assertion	NOUN	NN	Number=Sing	22	obl	22:obl:despite	_
@@ -559,7 +570,8 @@
 14	father	father	NOUN	NN	Number=Sing	11	nmod	11:nmod:of	Entity=abstract-71)person-72)
 15	or	or	CCONJ	CC	_	19	cc	19:cc	_
 16	this	this	DET	DT	Number=Sing|PronType=Dem	17	det	17:det	Entity=(abstract-73(place-74
-17	world	world	NOUN	NN	Number=Sing	19	nmod:poss	19:nmod:poss	SpaceAfter=No
+17-18	world's	_	_	_	_	_	_	_	_
+17	world	world	NOUN	NN	Number=Sing	19	nmod:poss	19:nmod:poss	_
 18	's	's	PART	POS	_	17	case	17:case	Entity=place-74)
 19	glory	glory	NOUN	NN	Number=Sing	11	conj	9:obj|11:conj:or	Entity=abstract-70)abstract-73)|SpaceAfter=No
 20	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -568,8 +580,8 @@
 23	.	.	PUNCT	.	_	22	punct	22:punct	_
 
 # sent_id = GUM_bio_theodorus-20
-# text = Unfortunately for the would-be leader, Pachomius recovered, and upon hearing of Theodorus’ decision, exiled the ambitious young man.
 # s_type = decl
+# text = Unfortunately for the would-be leader, Pachomius recovered, and upon hearing of Theodorus’ decision, exiled the ambitious young man.
 1	Unfortunately	unfortunately	ADV	RB	Degree=Pos|Polarity=Neg	5	advmod	5:advmod	Discourse=sequence:62->54
 2	for	for	ADP	IN	_	5	case	5:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(person-1-Theodorus_of_Tabennese
@@ -583,7 +595,8 @@
 11	upon	upon	SCONJ	IN	_	12	mark	12:mark	_
 12	hearing	hear	VERB	VBG	VerbForm=Ger	18	advcl	18:advcl:upon	_
 13	of	of	ADP	IN	_	16	case	16:case	_
-14	Theodorus	Theodorus	PROPN	NNP	Number=Sing	16	nmod:poss	16:nmod:poss	Entity=(event-75(person-1-Theodorus_of_Tabennese|SpaceAfter=No
+14-15	Theodorus’	_	_	_	_	_	_	_	_
+14	Theodorus	Theodorus	PROPN	NNP	Number=Sing	16	nmod:poss	16:nmod:poss	Entity=(event-75(person-1-Theodorus_of_Tabennese
 15	’	's	PART	POS	_	14	case	14:case	Entity=person-1-Theodorus_of_Tabennese)
 16	decision	decision	NOUN	NN	Number=Sing	12	obl	12:obl:of	Entity=event-75)|SpaceAfter=No
 17	,	,	PUNCT	,	_	12	punct	12:punct	_
@@ -595,8 +608,8 @@
 23	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_bio_theodorus-21
-# text = After living a life of constant weeping and prayer in solitude, Pachomius forgave Theodorus and allowed him to live among the brothers once more.
 # s_type = decl
+# text = After living a life of constant weeping and prayer in solitude, Pachomius forgave Theodorus and allowed him to live among the brothers once more.
 1	After	after	SCONJ	IN	_	2	mark	2:mark	Discourse=circumstance:65->67
 2	living	live	VERB	VBG	VerbForm=Ger	14	advcl	14:advcl:after	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(abstract-76
@@ -625,8 +638,8 @@
 26	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # sent_id = GUM_bio_theodorus-22
-# text = Normalcy returned, though never again would Pachomius fully trust his former protégé.
 # s_type = decl
+# text = Normalcy returned, though never again would Pachomius fully trust his former protégé.
 1	Normalcy	normalcy	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	Discourse=result:69->67|Entity=(abstract-80)
 2	returned	return	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	,	_	10	punct	10:punct	_
@@ -643,8 +656,8 @@
 14	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_theodorus-23
-# text = In 348 Pachomius died, naming the brother Petronios as his successor rather than the clearly qualified Theodorus.
 # s_type = decl
+# text = In 348 Pachomius died, naming the brother Petronios as his successor rather than the clearly qualified Theodorus.
 1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence:71->11
 2	348	348	NUM	CD	NumForm=Digit|NumType=Card	4	obl	4:obl:in	Entity=(time-81)
 3	Pachomius	Pachomius	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Entity=(person-5-Pachomius_the_Great)
@@ -666,8 +679,8 @@
 19	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_bio_theodorus-24
-# text = The death of Petronios later that year would leave Apa Horsiesios in charge, and the popular Theodorus would retreat to the distant monastery of Phnoum.
 # s_type = decl
+# text = The death of Petronios later that year would leave Apa Horsiesios in charge, and the popular Theodorus would retreat to the distant monastery of Phnoum.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=sequence:74->11|Entity=(event-83
 2	death	death	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	_
 3	of	of	ADP	IN	_	4	case	4:case	_
@@ -697,8 +710,8 @@
 27	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_bio_theodorus-25
-# text = Although it seems Theodorus practiced complete submission to the new leader of the Koinonia, problems soon arose in several Pachomian monasteries that viewed Horsiesios as a weak leader.
 # s_type = decl
+# text = Although it seems Theodorus practiced complete submission to the new leader of the Koinonia, problems soon arose in several Pachomian monasteries that viewed Horsiesios as a weak leader.
 1	Although	although	SCONJ	IN	_	3	mark	3:mark	Discourse=concession:76->77
 2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	_
 3	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	18:advcl:although	_
@@ -731,8 +744,8 @@
 30	.	.	PUNCT	.	_	18	punct	18:punct	_
 
 # sent_id = GUM_bio_theodorus-26
-# text = Refusing to work or communicate and demanding a new leader, many of the elder monks completely abandoned any notion of obedience to Horsiesios.
 # s_type = decl
+# text = Refusing to work or communicate and demanding a new leader, many of the elder monks completely abandoned any notion of obedience to Horsiesios.
 1	Refusing	refuse	VERB	VBG	VerbForm=Ger	18	advcl	18:advcl	Discourse=evidence:79->81
 2	to	to	PART	TO	_	3	mark	3:mark	_
 3	work	work	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
@@ -760,8 +773,8 @@
 25	.	.	PUNCT	.	_	18	punct	18:punct	_
 
 # sent_id = GUM_bio_theodorus-27
-# text = The federation of monasteries was falling apart, and Theodorus rushed to Tabennese to placate the rebels.
 # s_type = decl
+# text = The federation of monasteries was falling apart, and Theodorus rushed to Tabennese to placate the rebels.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=evaluation:82->81|Entity=(organization-7
 2	federation	federation	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	_
 3	of	of	ADP	IN	_	4	case	4:case	_
@@ -782,8 +795,8 @@
 18	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_bio_theodorus-28
-# text = Soon after his arrival, Theodorus was the new de facto leader, though he claimed to be only acting on behalf of Horsiesios.
 # s_type = decl
+# text = Soon after his arrival, Theodorus was the new de facto leader, though he claimed to be only acting on behalf of Horsiesios.
 1	Soon	soon	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=sequence:85->11
 2	after	after	ADP	IN	_	4	case	4:case	_
 3	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(event-96(person-1-Theodorus_of_Tabennese)
@@ -811,15 +824,16 @@
 25	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_bio_theodorus-29
-# text = For eighteen years Theodorus administered from Pachomius’ old headquarters in Phbow, using techniques far more assertive than his predecessors, such as constantly shuffling the offices and locations of the most ambitious monks.
 # s_type = decl
+# text = For eighteen years Theodorus administered from Pachomius’ old headquarters in Phbow, using techniques far more assertive than his predecessors, such as constantly shuffling the offices and locations of the most ambitious monks.
 1	For	for	ADP	IN	_	3	case	3:case	Discourse=sequence:87->11
 2	eighteen	eighteen	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	Entity=(time-97
 3	years	year	NOUN	NNS	Number=Plur	5	obl	5:obl:for	Entity=time-97)
 4	Theodorus	Theodorus	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(person-1-Theodorus_of_Tabennese)
 5	administered	administer	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 6	from	from	ADP	IN	_	10	case	10:case	_
-7	Pachomius	Pachomius	PROPN	NNP	Number=Sing	10	nmod:poss	10:nmod:poss	Entity=(place-98(person-5-Pachomius_the_Great|SpaceAfter=No
+7-8	Pachomius’	_	_	_	_	_	_	_	_
+7	Pachomius	Pachomius	PROPN	NNP	Number=Sing	10	nmod:poss	10:nmod:poss	Entity=(place-98(person-5-Pachomius_the_Great
 8	’	's	PART	POS	_	7	case	7:case	Entity=person-5-Pachomius_the_Great)
 9	old	old	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
 10	headquarters	headquarters	NOUN	NN	Number=Sing	5	obl	5:obl:from	_
@@ -851,8 +865,8 @@
 36	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_bio_theodorus-30
-# text = Yet in spite of this somewhat unstable shifting, the Koinonia was ruled peacefully for nearly two decades, at which point Theodorus predicted he would soon die.
 # s_type = decl
+# text = Yet in spite of this somewhat unstable shifting, the Koinonia was ruled peacefully for nearly two decades, at which point Theodorus predicted he would soon die.
 1	Yet	yet	ADV	RB	_	13	advmod	13:advmod	Discourse=contrast:90->87
 2	in	in	ADP	IN	_	3	case	3:case	Discourse=concession:91->92
 3	spite	spite	NOUN	NN	Number=Sing	13	obl	13:obl:in	_
@@ -884,8 +898,8 @@
 29	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_bio_theodorus-31
-# text = Within a few months his prediction came true, and Apa Horsiesios once more took his place as the head of the communities in both title and authority. [1]
 # s_type = decl
+# text = Within a few months his prediction came true, and Apa Horsiesios once more took his place as the head of the communities in both title and authority. [1]
 1	Within	within	ADP	IN	_	4	case	4:case	Discourse=sequence:95->11
 2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(time-106
 3	few	few	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -910,12 +924,12 @@
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(organization-25-Koinonia
 23	communities	community	NOUN	NNS	Number=Plur	20	nmod	20:nmod:of	Entity=person-84)organization-25-Koinonia)
 24	in	in	ADP	IN	_	26	case	26:case	_
-25	both	both	CCONJ	DT	_	26	cc:preconj	26:cc:preconj	Entity=(abstract-107
+25	both	both	CCONJ	CC	_	26	cc:preconj	26:cc:preconj	Entity=(abstract-107
 26	title	title	NOUN	NN	Number=Sing	20	nmod	20:nmod:in	_
 27	and	and	CCONJ	CC	_	28	cc	28:cc	_
 28	authority	authority	NOUN	NN	Number=Sing	26	conj	20:nmod:in|26:conj:and	Entity=abstract-107)|SpaceAfter=No
 29	.	.	PUNCT	.	_	7	punct	7:punct	_
-30	[	[	PUNCT	SYM	_	31	punct	31:punct	Discourse=evidence:97->95|SpaceAfter=No
+30	[	[	PUNCT	-LRB-	_	31	punct	31:punct	Discourse=evidence:97->95|SpaceAfter=No
 31	1	1	NUM	CD	NumForm=Digit|NumType=Card	7	dep	7:dep	Entity=(abstract-108)|SpaceAfter=No
-32	]	]	PUNCT	SYM	_	31	punct	31:punct	_
+32	]	]	PUNCT	-RRB-	_	31	punct	31:punct	_
 

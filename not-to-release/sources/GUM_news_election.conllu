@@ -1,8 +1,15 @@
 # newdoc id = GUM_news_election
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2016-09-19
+# meta::dateCreated = 2016-09-09
+# meta::dateModified = 2016-09-10
+# meta::sourceURL = https://en.wikinews.org/wiki/New_faces_emerge_as_veteran_politicians_step_down_in_Hong_Kong_legislative_election
+# meta::speakerCount = 0
+# meta::title = New faces emerge as veteran politicians step down in Hong Kong legislative election
 # sent_id = GUM_news_election-1
-# text = New faces emerge as veteran politicians step down in Hong Kong legislative election
 # s_type = decl
-1	New	New	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=preparation:1->6|Entity=(person-1
+# text = New faces emerge as veteran politicians step down in Hong Kong legislative election
+1	New	new	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=preparation:1->6|Entity=(person-1
 2	faces	face	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=person-1)
 3	emerge	emerge	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	as	as	SCONJ	IN	_	7	mark	7:mark	Discourse=circumstance:2->1
@@ -17,8 +24,8 @@
 13	election	election	NOUN	NN	Number=Sing	7	obl	7:obl:in	Entity=event-3)
 
 # sent_id = GUM_news_election-2
-# text = Friday, September 9, 2016
 # s_type = frag
+# text = Friday, September 9, 2016
 1	Friday	Friday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:3->6|Entity=(time-5)|SpaceAfter=No
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	September	September	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(time-5
@@ -27,8 +34,8 @@
 6	2016	2016	NUM	CD	NumForm=Digit|NumType=Card	4	nmod:tmod	4:nmod:tmod	Entity=(time-6)time-5)
 
 # sent_id = GUM_news_election-3
-# text = The Hong Kong legislative election was held on Sunday, with a record-breaking turnout of around 2 million voters and turnout rate of 58%.
 # s_type = decl
+# text = The Hong Kong legislative election was held on Sunday, with a record-breaking turnout of around 2 million voters and turnout rate of 58%.
 1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Discourse=background:4->6|Entity=(event-3
 2	Hong	Hong	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=(place-4-Hong_Kong
 3	Kong	Kong	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=place-4-Hong_Kong)
@@ -57,8 +64,8 @@
 26	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_news_election-4
-# text = The results show the anti-establishment camp successfully maintained a majority in the geographical constituencies' seats thus veto power to any members' bills, and also a minority larger than a third to veto any bills featuring major political reforms.
 # s_type = decl
+# text = The results show the anti-establishment camp successfully maintained a majority in the geographical constituencies' seats thus veto power to any members' bills, and also a minority larger than a third to veto any bills featuring major political reforms.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=event-3<abstract-11|Discourse=attribution:5->6|Entity=(abstract-11
 2	results	result	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=abstract-11)
 3	show	show	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -72,7 +79,8 @@
 11	in	in	ADP	IN	_	16	case	16:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(abstract-14
 13	geographical	geographical	ADJ	JJ	Degree=Pos	14	amod	14:amod	Entity=(organization-15
-14	constituencies	constituency	NOUN	NNS	Number=Plur	16	nmod:poss	16:nmod:poss	SpaceAfter=No
+14-15	constituencies'	_	_	_	_	_	_	_	_
+14	constituencies	constituency	NOUN	NNS	Number=Plur	16	nmod:poss	16:nmod:poss	_
 15	'	's	PART	POS	_	16	case	16:case	Entity=organization-15)
 16	seats	seat	NOUN	NNS	Number=Plur	10	nmod	10:nmod:in	Entity=abstract-13)abstract-14)
 17	thus	thus	ADV	RB	_	19	advmod	19:advmod	_
@@ -80,7 +88,8 @@
 19	power	power	NOUN	NN	Number=Sing	10	conj	8:obj|10:conj:and	_
 20	to	to	ADP	IN	_	24	case	24:case	_
 21	any	any	DET	DT	_	22	det	22:det	Entity=(abstract-17
-22	members	member	NOUN	NNS	Number=Plur	24	nmod:poss	24:nmod:poss	Entity=(person-18|SpaceAfter=No
+22-23	members'	_	_	_	_	_	_	_	_
+22	members	member	NOUN	NNS	Number=Plur	24	nmod:poss	24:nmod:poss	Entity=(person-18
 23	'	's	PART	POS	_	19	case	19:case	Entity=person-18)
 24	bills	bill	NOUN	NNS	Number=Plur	19	nmod	19:nmod:to	Entity=abstract-16)abstract-17)|SpaceAfter=No
 25	,	,	PUNCT	,	_	29	punct	29:punct	_
@@ -103,8 +112,8 @@
 42	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_election-5
-# text = Young and new faces emerged in the new council members, as veteran politicians stepped down in both the anti-establishment and pro-Beijing campus.
 # s_type = decl
+# text = Young and new faces emerged in the new council members, as veteran politicians stepped down in both the anti-establishment and pro-Beijing campus.
 1	Young	young	ADJ	JJ	Degree=Pos	4	amod	4:amod	Discourse=elaboration:7->6|Entity=(person-1
 2	and	and	CCONJ	CC	_	3	cc	3:cc	_
 3	new	new	ADJ	JJ	Degree=Pos	1	conj	1:conj:and|4:amod	_
@@ -131,14 +140,14 @@
 24	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_news_election-6
-# text = Election Results
 # s_type = frag
+# text = Election Results
 1	Election	election	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=preparation:9->10|Entity=(abstract-11(event-3)
 2	Results	result	NOUN	NNS	Number=Plur	0	root	0:root	Entity=abstract-11)
 
 # sent_id = GUM_news_election-7
-# text = Eddie Chu received the largest vote in any geographical constituency
 # s_type = decl
+# text = Eddie Chu received the largest vote in any geographical constituency
 1	Eddie	Eddie	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=elaboration:10->6|Entity=(person-25-Eddie_Chu
 2	Chu	Chu	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-25-Eddie_Chu)
 3	received	receive	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -151,12 +160,12 @@
 10	constituency	constituency	NOUN	NN	Number=Sing	6	nmod	6:nmod:in	Entity=abstract-26)place-27)
 
 # sent_id = GUM_news_election-8
-# text = In the New Territories West geographical constituency, nonpartisan pan-democrat Eddie Chu was elected with 84,121 votes, the most given to any list in the geographical constituencies.
 # s_type = decl
+# text = In the New Territories West geographical constituency, nonpartisan pan-democrat Eddie Chu was elected with 84,121 votes, the most given to any list in the geographical constituencies.
 1	In	in	ADP	IN	_	7	case	7:case	Discourse=elaboration:11->10
 2	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(place-28-New_Territories_West_%28constituency%29
 3	New	New	PROPN	NNP	Number=Sing	4	compound	4:compound	_
-4	Territories	Territories	PROPN	NNP	Number=Sing	5	compound	5:compound	_
+4	Territories	Territory	PROPN	NNP	Number=Sing	5	compound	5:compound	_
 5	West	West	PROPN	NNP	Number=Sing	7	compound	7:compound	_
 6	geographical	geographical	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	constituency	constituency	NOUN	NN	Number=Sing	14	obl	14:obl:in	Entity=place-28-New_Territories_West_%28constituency%29)|SpaceAfter=No
@@ -184,8 +193,8 @@
 29	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # sent_id = GUM_news_election-9
-# text = Other anti-establishment candidates elected in this district were localist camp's Cheng Chung-tai of Civic Passion, pan-democracy camp's Kwok Ka-ki and Andrew Wan of respectively Civic Party and the Democratic Party.
 # s_type = decl
+# text = Other anti-establishment candidates elected in this district were localist camp's Cheng Chung-tai of Civic Passion, pan-democracy camp's Kwok Ka-ki and Andrew Wan of respectively Civic Party and the Democratic Party.
 1	Other	other	ADJ	JJ	Degree=Pos	3	amod	3:amod	Bridge=organization-12<person-31|Discourse=joint:12->10|Entity=(person-31
 2	anti-establishment	anti-establishment	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	candidates	candidate	NOUN	NNS	Number=Plur	12	nsubj	12:nsubj|21:nsubj	Entity=person-31)
@@ -195,16 +204,18 @@
 7	district	district	NOUN	NN	Number=Sing	4	obl	4:obl:in	Entity=place-28-New_Territories_West_%28constituency%29)
 8	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	cop	12:cop	Discourse=same-unit:14->12
 9	localist	localist	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(person-31(person-32-Cheng_Chung-tai(organization-33
-10	camp	camp	NOUN	NN	Number=Sing	12	nmod:poss	12:nmod:poss	SpaceAfter=No
+10-11	camp's	_	_	_	_	_	_	_	_
+10	camp	camp	NOUN	NN	Number=Sing	12	nmod:poss	12:nmod:poss	_
 11	's	's	PART	POS	_	10	case	10:case	Entity=organization-33)
 12	Cheng	Cheng	PROPN	NNP	Number=Sing	0	root	0:root	_
 13	Chung-tai	Chung-tai	PROPN	NNP	Number=Sing	12	flat	12:flat	_
 14	of	of	ADP	IN	_	16	case	16:case	_
-15	Civic	Civic	PROPN	NNP	Number=Sing	16	amod	16:amod	Entity=(organization-34-Civic_Passion
+15	Civic	Civic	ADJ	NNP	Degree=Pos	16	amod	16:amod	Entity=(organization-34-Civic_Passion
 16	Passion	Passion	PROPN	NNP	Number=Sing	12	nmod	12:nmod:of	Entity=person-32-Cheng_Chung-tai)organization-34-Civic_Passion)|SpaceAfter=No
 17	,	,	PUNCT	,	_	21	punct	21:punct	_
 18	pan-democracy	pan-democracy	NOUN	NN	Number=Sing	19	compound	19:compound	Entity=(person-35-Kwok_Ka-ki(organization-36
-19	camp	camp	NOUN	NN	Number=Sing	21	nmod:poss	21:nmod:poss	SpaceAfter=No
+19-20	camp's	_	_	_	_	_	_	_	_
+19	camp	camp	NOUN	NN	Number=Sing	21	nmod:poss	21:nmod:poss	_
 20	's	's	PART	POS	_	19	case	19:case	Entity=organization-36)
 21	Kwok	Kwok	PROPN	NNP	Number=Sing	12	conj	12:conj	_
 22	Ka-ki	Ka-ki	PROPN	NNP	Number=Sing	21	flat	21:flat	Entity=person-35-Kwok_Ka-ki)
@@ -213,17 +224,17 @@
 25	Wan	Wan	PROPN	NNP	Number=Sing	24	flat	24:flat	Entity=person-37-Andrew_Wan)
 26	of	of	ADP	IN	_	29	case	29:case	_
 27	respectively	respectively	ADV	RB	Degree=Pos	29	advmod	29:advmod	_
-28	Civic	Civic	PROPN	NNP	Number=Sing	29	amod	29:amod	Entity=(organization-38-Civic_Party
+28	Civic	Civic	ADJ	NNP	Degree=Pos	29	amod	29:amod	Entity=(organization-38-Civic_Party
 29	Party	Party	PROPN	NNP	Number=Sing	21	nmod	21:nmod:of	Entity=organization-38-Civic_Party)
 30	and	and	CCONJ	CC	_	33	cc	33:cc	_
 31	the	the	DET	DT	Definite=Def|PronType=Art	33	det	33:det	Entity=(organization-39-Democratic_Party_%28Hong_Kong%29
-32	Democratic	Democratic	PROPN	NNP	Number=Sing	33	amod	33:amod	_
+32	Democratic	Democratic	ADJ	NNP	Degree=Pos	33	amod	33:amod	_
 33	Party	Party	PROPN	NNP	Number=Sing	29	conj	21:nmod:of|29:conj:and	Entity=person-31)organization-39-Democratic_Party_%28Hong_Kong%29)|SpaceAfter=No
 34	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_news_election-10
-# text = The pro-Beijing camp candidates elected were New People Party's Michael Tien, DAB's Ben Chan and Leung Che-cheung, FTU's Alice Mak and pro-establishment nonpartisan Junius Ho.
 # s_type = decl
+# text = The pro-Beijing camp candidates elected were New People Party's Michael Tien, DAB's Ben Chan and Leung Che-cheung, FTU's Alice Mak and pro-establishment nonpartisan Junius Ho.
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Discourse=joint:15->10|Entity=(person-40
 2	pro-Beijing	pro-Beijing	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(organization-24
 3	camp	camp	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=organization-24)
@@ -232,12 +243,14 @@
 6	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	cop	11:cop	Discourse=contrast:17->15
 7	New	New	PROPN	NNP	Number=Sing	9	compound	9:compound	Entity=(person-40(person-41-Michael_Tien(organization-42-New_People's_Party_%28Hong_Kong%29
 8	People	People	PROPN	NNP	Number=Sing	9	compound	9:compound	_
-9	Party	Party	PROPN	NNP	Number=Sing	11	nmod:poss	11:nmod:poss	SpaceAfter=No
+9-10	Party's	_	_	_	_	_	_	_	_
+9	Party	Party	PROPN	NNP	Number=Sing	11	nmod:poss	11:nmod:poss	_
 10	's	's	PART	POS	_	9	case	9:case	Entity=organization-42-New_People's_Party_%28Hong_Kong%29)
 11	Michael	Michael	PROPN	NNP	Number=Sing	0	root	0:root	_
 12	Tien	Tien	PROPN	NNP	Number=Sing	11	flat	11:flat	Entity=person-41-Michael_Tien)|SpaceAfter=No
 13	,	,	PUNCT	,	_	16	punct	16:punct	_
-14	DAB	DAB	PROPN	NNP	Abbr=Yes|Number=Sing	16	nmod:poss	16:nmod:poss	Entity=(person-43(organization-44-Democratic_Alliance_for_the_Betterment_and_Progress_of_Hong_Kong|SpaceAfter=No
+14-15	DAB's	_	_	_	_	_	_	_	_
+14	DAB	DAB	PROPN	NNP	Abbr=Yes|Number=Sing	16	nmod:poss	16:nmod:poss	Entity=(person-43(organization-44-Democratic_Alliance_for_the_Betterment_and_Progress_of_Hong_Kong
 15	's	's	PART	POS	_	14	case	14:case	Entity=organization-44-Democratic_Alliance_for_the_Betterment_and_Progress_of_Hong_Kong)
 16	Ben	Ben	PROPN	NNP	Number=Sing	11	conj	11:conj:and	Entity=(person-45-Ben_Chan
 17	Chan	Chan	PROPN	NNP	Number=Sing	16	flat	16:flat	Entity=person-45-Ben_Chan)
@@ -245,7 +258,8 @@
 19	Leung	Leung	PROPN	NNP	Number=Sing	20	compound	20:compound	Entity=(person-46-Leung_Che-cheung
 20	Che-cheung	Che-cheung	PROPN	NNP	Number=Sing	16	conj	11:conj|16:conj:and	Entity=person-43)person-46-Leung_Che-cheung)|SpaceAfter=No
 21	,	,	PUNCT	,	_	24	punct	24:punct	_
-22	FTU	FTU	PROPN	NNP	Abbr=Yes|Number=Sing	24	nmod:poss	24:nmod:poss	Entity=(person-47-Alice_Mak_%28politician%29(organization-48-Hong_Kong_Federation_of_Trade_Unions|SpaceAfter=No
+22-23	FTU's	_	_	_	_	_	_	_	_
+22	FTU	FTU	PROPN	NNP	Abbr=Yes|Number=Sing	24	nmod:poss	24:nmod:poss	Entity=(person-47-Alice_Mak_%28politician%29(organization-48-Hong_Kong_Federation_of_Trade_Unions
 23	's	's	PART	POS	_	22	case	22:case	Entity=organization-48-Hong_Kong_Federation_of_Trade_Unions)
 24	Alice	Alice	PROPN	NNP	Number=Sing	11	conj	11:conj:and	_
 25	Mak	Mak	PROPN	NNP	Number=Sing	24	flat	24:flat	Entity=person-47-Alice_Mak_%28politician%29)
@@ -257,9 +271,9 @@
 31	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_news_election-11
-# text = Two pan-democratic veteran politicians Lee Cheuk-yan of the Labour Party and Frederick Fung of ADPL were defeated in this constituency, with Junius Ho defeating Lee Cheuk-yan by around five thousand votes.
 # s_type = decl
-1	Two	Two	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	Discourse=joint:18->10|Entity=(person-50
+# text = Two pan-democratic veteran politicians Lee Cheuk-yan of the Labour Party and Frederick Fung of ADPL were defeated in this constituency, with Junius Ho defeating Lee Cheuk-yan by around five thousand votes.
+1	Two	two	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	Discourse=joint:18->10|Entity=(person-50
 2	pan-democratic	pan-democratic	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 3	veteran	veteran	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	politicians	politician	NOUN	NNS	Number=Plur	17	nsubj:pass	17:nsubj:pass	Entity=person-50)
@@ -294,28 +308,29 @@
 33	.	.	PUNCT	.	_	17	punct	17:punct	_
 
 # sent_id = GUM_news_election-12
-# text = Michael Tien of NPP
 # s_type = frag
+# text = Michael Tien of NPP
 1	Michael	Michael	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=background:20->10|Entity=(person-41-Michael_Tien
 2	Tien	Tien	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	of	of	ADP	IN	_	4	case	4:case	_
 4	NPP	NPP	PROPN	NNP	Abbr=Yes|Number=Sing	1	nmod	1:nmod:of	Entity=(organization-42-New_People's_Party_%28Hong_Kong%29)person-41-Michael_Tien)
 
 # sent_id = GUM_news_election-13
-# text = DAB's Elizabeth Quat
 # s_type = frag
-1	DAB	DAB	NOUN	NN	Abbr=Yes|Number=Sing	3	nmod:poss	3:nmod:poss	Discourse=background:21->22|Entity=(person-54-Elizabeth_Quat(organization-44-Democratic_Alliance_for_the_Betterment_and_Progress_of_Hong_Kong|SpaceAfter=No
+# text = DAB's Elizabeth Quat
+1-2	DAB's	_	_	_	_	_	_	_	_
+1	DAB	DAB	NOUN	NN	Abbr=Yes|Number=Sing	3	nmod:poss	3:nmod:poss	Discourse=background:21->22|Entity=(person-54-Elizabeth_Quat(organization-44-Democratic_Alliance_for_the_Betterment_and_Progress_of_Hong_Kong
 2	's	's	PART	POS	_	1	case	1:case	Entity=organization-44-Democratic_Alliance_for_the_Betterment_and_Progress_of_Hong_Kong)
 3	Elizabeth	Elizabeth	PROPN	NNP	Number=Sing	0	root	0:root	_
 4	Quat	Quat	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=person-54-Elizabeth_Quat)
 
 # sent_id = GUM_news_election-14
-# text = In the New Territories East geographical constituency, pan-democracy camp councillors Alvin Yeung from the Civic Party, Fernando Cheung of the Labour Party, Raymond Chan of People Power, and Leung Kwok-hung of LSD were successfully elected.
 # s_type = decl
+# text = In the New Territories East geographical constituency, pan-democracy camp councillors Alvin Yeung from the Civic Party, Fernando Cheung of the Labour Party, Raymond Chan of People Power, and Leung Kwok-hung of LSD were successfully elected.
 1	In	in	ADP	IN	_	7	case	7:case	Discourse=joint:22->10
 2	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(place-55-New_Territories_East_%28constituency%29
 3	New	New	PROPN	NNP	Number=Sing	7	compound	7:compound	_
-4	Territories	Territories	PROPN	NNP	Number=Sing	7	compound	7:compound	_
+4	Territories	Territory	PROPN	NNP	Number=Sing	7	compound	7:compound	_
 5	East	East	PROPN	NNP	Number=Sing	7	compound	7:compound	_
 6	geographical	geographical	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	constituency	constituency	NOUN	NN	Number=Sing	39	obl	39:obl:in	Entity=place-55-New_Territories_East_%28constituency%29)|SpaceAfter=No
@@ -327,7 +342,7 @@
 13	Yeung	Yeung	PROPN	NNP	Number=Sing	12	flat	12:flat	_
 14	from	from	ADP	IN	_	17	case	17:case	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(organization-38-Civic_Party
-16	Civic	Civic	PROPN	NNP	Number=Sing	17	amod	17:amod	_
+16	Civic	Civic	ADJ	NNP	Degree=Pos	17	amod	17:amod	_
 17	Party	Party	PROPN	NNP	Number=Sing	12	nmod	12:nmod:from	Entity=person-57-Alvin_Yeung)organization-38-Civic_Party)|SpaceAfter=No
 18	,	,	PUNCT	,	_	19	punct	19:punct	_
 19	Fernando	Fernando	PROPN	NNP	Number=Sing	12	conj	11:appos|12:conj:and	Entity=(person-58-Fernando_Cheung
@@ -354,19 +369,20 @@
 40	.	.	PUNCT	.	_	39	punct	39:punct	_
 
 # sent_id = GUM_news_election-15
-# text = Pan-democrat Lam Cheuk-ting from the Democratic Party and localist group Youngspiration's Baggio Leung were successfully elected newcomers.
 # s_type = decl
+# text = Pan-democrat Lam Cheuk-ting from the Democratic Party and localist group Youngspiration's Baggio Leung were successfully elected newcomers.
 1	Pan-democrat	Pan-democrat	NOUN	NN	Number=Sing	18	nsubj	18:nsubj	Discourse=joint:23->22|Entity=(person-63(person-64-Lam_Cheuk-ting
 2	Lam	Lam	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	Cheuk-ting	Cheuk-ting	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 4	from	from	ADP	IN	_	7	case	7:case	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(organization-39-Democratic_Party_%28Hong_Kong%29
-6	Democratic	Democratic	PROPN	NNP	Number=Sing	7	amod	7:amod	_
-7	Party	party	PROPN	NNP	Number=Sing	1	nmod	1:nmod:from	Entity=person-64-Lam_Cheuk-ting)organization-39-Democratic_Party_%28Hong_Kong%29)
+6	Democratic	Democratic	ADJ	NNP	Degree=Pos	7	amod	7:amod	_
+7	Party	Party	PROPN	NNP	Number=Sing	1	nmod	1:nmod:from	Entity=person-64-Lam_Cheuk-ting)organization-39-Democratic_Party_%28Hong_Kong%29)
 8	and	and	CCONJ	CC	_	13	cc	13:cc	_
 9	localist	localist	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(person-65-Baggio_Leung(organization-66-Youngspiration
 10	group	group	NOUN	NN	Number=Sing	11	compound	11:compound	_
-11	Youngspiration	Youngspiration	PROPN	NNP	Number=Sing	13	nmod:poss	13:nmod:poss	SpaceAfter=No
+11-12	Youngspiration's	_	_	_	_	_	_	_	_
+11	Youngspiration	Youngspiration	PROPN	NNP	Number=Sing	13	nmod:poss	13:nmod:poss	_
 12	's	's	PART	POS	_	11	case	11:case	Entity=organization-66-Youngspiration)
 13	Baggio	Baggio	PROPN	NNP	Number=Sing	1	conj	1:conj:and|18:nsubj	_
 14	Leung	Leung	PROPN	NNP	Number=Sing	13	flat	13:flat	Entity=person-63)person-65-Baggio_Leung)
@@ -377,8 +393,8 @@
 19	.	.	PUNCT	.	_	18	punct	18:punct	_
 
 # sent_id = GUM_news_election-16
-# text = For the Pro-Beijing camp, Elizabeth Quat of DAB was elected with 58,825 votes, the highest in the constituency.
 # s_type = decl
+# text = For the Pro-Beijing camp, Elizabeth Quat of DAB was elected with 58,825 votes, the highest in the constituency.
 1	For	for	ADP	IN	_	4	case	4:case	Discourse=joint:24->22
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(organization-24
 3	Pro-Beijing	Pro-Beijing	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -402,8 +418,8 @@
 21	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_news_election-17
-# text = Other pro-Beijing candidates elected in this constituency were Gary Chan of DAB and Eunice Yung of New People's Party.
 # s_type = decl
+# text = Other pro-Beijing candidates elected in this constituency were Gary Chan of DAB and Eunice Yung of New People's Party.
 1	Other	other	ADJ	JJ	Degree=Pos	3	amod	3:amod	Bridge=organization-24<person-68|Discourse=joint:25->24|Entity=(person-68
 2	pro-Beijing	pro-Beijing	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	candidates	candidate	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj|14:nsubj	_
@@ -421,21 +437,22 @@
 15	Yung	Yung	PROPN	NNP	Number=Sing	14	flat	14:flat	_
 16	of	of	ADP	IN	_	20	case	20:case	_
 17	New	New	PROPN	NNP	Number=Sing	18	compound	18:compound	Entity=(organization-42-New_People's_Party_%28Hong_Kong%29
-18	People	People	PROPN	NNP	Number=Sing	20	nmod:poss	20:nmod:poss	SpaceAfter=No
+18-19	People's	_	_	_	_	_	_	_	_
+18	People	People	PROPN	NNP	Number=Sing	20	nmod:poss	20:nmod:poss	_
 19	's	's	PART	POS	_	18	case	18:case	_
 20	Party	Party	PROPN	NNP	Number=Sing	14	nmod	14:nmod:of	Entity=person-68)person-70-Eunice_Yung)organization-42-New_People's_Party_%28Hong_Kong%29)|SpaceAfter=No
 21	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_news_election-18
-# text = Pan-democrat Gary Fan of the Neo Democrats failed to get re-elected in this constituency, and resigned from his leadership in his party due to its election defeat.
 # s_type = decl
+# text = Pan-democrat Gary Fan of the Neo Democrats failed to get re-elected in this constituency, and resigned from his leadership in his party due to its election defeat.
 1	Pan-democrat	Pan-democrat	NOUN	NN	Number=Sing	8	nsubj	8:nsubj|10:nsubj:xsubj|17:nsubj	Discourse=joint:28->22|Entity=(person-71-Gary_Fan
 2	Gary	Gary	PROPN	NNP	Number=Sing	3	compound	3:compound	_
 3	Fan	Fan	PROPN	NNP	Number=Sing	1	appos	1:appos	_
 4	of	of	ADP	IN	_	7	case	7:case	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(organization-72-Neo_Democrats
 6	Neo	Neo	PROPN	NNP	Number=Sing	7	compound	7:compound	_
-7	Democrats	Democrats	PROPN	NNPS	Number=Plur	3	nmod	3:nmod:of	Entity=person-71-Gary_Fan)organization-72-Neo_Democrats)
+7	Democrats	Democrat	PROPN	NNPS	Number=Plur	3	nmod	3:nmod:of	Entity=person-71-Gary_Fan)organization-72-Neo_Democrats)
 8	failed	fail	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 9	to	to	PART	TO	_	10	mark	10:mark	_
 10	get	get	VERB	VB	VerbForm=Inf	8	xcomp	8:xcomp	_
@@ -453,34 +470,35 @@
 22	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	23:nmod:poss	Entity=(organization-72-Neo_Democrats(person-71-Gary_Fan)
 23	party	party	NOUN	NN	Number=Sing	17	obl	17:obl:in	Entity=abstract-73)organization-72-Neo_Democrats)
 24	due	due	ADJ	JJ	Degree=Pos	28	case	28:case	_
-25	to	to	PART	TO	_	24	fixed	24:fixed	_
+25	to	to	ADP	IN	_	24	fixed	24:fixed	_
 26	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	28:nmod:poss	Entity=(event-74(organization-72-Neo_Democrats)
 27	election	election	NOUN	NN	Number=Sing	28	compound	28:compound	_
 28	defeat	defeat	NOUN	NN	Number=Sing	17	obl	17:obl:due_to	Entity=event-74)|SpaceAfter=No
 29	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_news_election-19
-# text = Alvin Yeung of Civic Party
 # s_type = frag
+# text = Alvin Yeung of Civic Party
 1	Alvin	Alvin	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=background:30->22|Entity=(person-57-Alvin_Yeung
 2	Yeung	Yeung	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	of	of	ADP	IN	_	5	case	5:case	_
-4	Civic	Civic	PROPN	NNP	Number=Sing	5	amod	5:amod	Entity=(organization-38-Civic_Party
+4	Civic	Civic	ADJ	NNP	Degree=Pos	5	amod	5:amod	Entity=(organization-38-Civic_Party
 5	Party	Party	PROPN	NNP	Number=Sing	1	nmod	1:nmod:of	Entity=person-57-Alvin_Yeung)organization-38-Civic_Party)
 
 # sent_id = GUM_news_election-20
-# text = New People Party's Regina Ip
 # s_type = frag
+# text = New People Party's Regina Ip
 1	New	New	PROPN	NNP	Number=Sing	3	compound	3:compound	Discourse=background:31->32|Entity=(person-75-Regina_Ip(organization-42-New_People's_Party_%28Hong_Kong%29
 2	People	People	PROPN	NNP	Number=Sing	3	compound	3:compound	_
-3	Party	Party	PROPN	NNP	Number=Sing	5	nmod:poss	5:nmod:poss	SpaceAfter=No
+3-4	Party's	_	_	_	_	_	_	_	_
+3	Party	Party	PROPN	NNP	Number=Sing	5	nmod:poss	5:nmod:poss	_
 4	's	's	PART	POS	_	3	case	3:case	Entity=organization-42-New_People's_Party_%28Hong_Kong%29)
 5	Regina	Regina	PROPN	NNP	Number=Sing	0	root	0:root	_
 6	Ip	Ip	PROPN	NNP	Number=Sing	5	flat	5:flat	Entity=person-75-Regina_Ip)
 
 # sent_id = GUM_news_election-21
-# text = In the Hong Kong Island geographical constituency, pro-Beijing New People Party's Regina Ip was re-elected with 60,760 votes.
 # s_type = decl
+# text = In the Hong Kong Island geographical constituency, pro-Beijing New People Party's Regina Ip was re-elected with 60,760 votes.
 1	In	in	ADP	IN	_	7	case	7:case	Discourse=joint:32->10
 2	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(place-76
 3	Hong	Hong	PROPN	NNP	Number=Sing	7	compound	7:compound	Entity=(place-77-Hong_Kong_Island(place-4-Hong_Kong
@@ -492,7 +510,8 @@
 9	pro-Beijing	pro-Beijing	ADJ	JJ	Degree=Pos	12	amod	12:amod	Entity=(person-75-Regina_Ip(organization-42-New_People's_Party_%28Hong_Kong%29
 10	New	New	PROPN	NNP	Number=Sing	12	compound	12:compound	_
 11	People	People	PROPN	NNP	Number=Sing	12	compound	12:compound	_
-12	Party	Party	PROPN	NNP	Number=Sing	14	nmod:poss	14:nmod:poss	SpaceAfter=No
+12-13	Party's	_	_	_	_	_	_	_	_
+12	Party	Party	PROPN	NNP	Number=Sing	14	nmod:poss	14:nmod:poss	_
 13	's	's	PART	POS	_	12	case	12:case	Entity=organization-42-New_People's_Party_%28Hong_Kong%29)
 14	Regina	Regina	PROPN	NNP	Number=Sing	17	nsubj:pass	17:nsubj:pass	_
 15	Ip	Ip	PROPN	NNP	Number=Sing	14	flat	14:flat	Entity=person-75-Regina_Ip)
@@ -504,27 +523,30 @@
 21	.	.	PUNCT	.	_	17	punct	17:punct	_
 
 # sent_id = GUM_news_election-22
-# text = Other pro-Beijing elected were FTU's Kwok Wai-keung and DAB's Horace Cheung.
 # s_type = decl
+# text = Other pro-Beijing elected were FTU's Kwok Wai-keung and DAB's Horace Cheung.
 1	Other	other	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=joint:33->32|Entity=(person-79
 2	pro-Beijing	pro-Beijing	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj|12:nsubj	_
 3	elected	elect	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	2:acl	Discourse=elaboration:34->33|Entity=person-79)
 4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	Discourse=same-unit:35->33
-5	FTU	FTU	PROPN	NNP	Abbr=Yes|Number=Sing	7	nmod:poss	7:nmod:poss	Entity=(person-79(person-80-Kwok_Wai-keung(organization-48-Hong_Kong_Federation_of_Trade_Unions|SpaceAfter=No
+5-6	FTU's	_	_	_	_	_	_	_	_
+5	FTU	FTU	PROPN	NNP	Abbr=Yes|Number=Sing	7	nmod:poss	7:nmod:poss	Entity=(person-79(person-80-Kwok_Wai-keung(organization-48-Hong_Kong_Federation_of_Trade_Unions
 6	's	's	PART	POS	_	5	case	5:case	Entity=organization-48-Hong_Kong_Federation_of_Trade_Unions)
 7	Kwok	Kwok	PROPN	NNP	Number=Sing	0	root	0:root	_
 8	Wai-keung	Wai-keung	PROPN	NNP	Number=Sing	7	flat	7:flat	Entity=person-80-Kwok_Wai-keung)
 9	and	and	CCONJ	CC	_	12	cc	12:cc	_
-10	DAB	DAB	PROPN	NNP	Abbr=Yes|Number=Sing	12	nmod:poss	12:nmod:poss	Entity=(person-81-Horace_Cheung(organization-44-Democratic_Alliance_for_the_Betterment_and_Progress_of_Hong_Kong|SpaceAfter=No
+10-11	DAB's	_	_	_	_	_	_	_	_
+10	DAB	DAB	PROPN	NNP	Abbr=Yes|Number=Sing	12	nmod:poss	12:nmod:poss	Entity=(person-81-Horace_Cheung(organization-44-Democratic_Alliance_for_the_Betterment_and_Progress_of_Hong_Kong
 11	's	's	PART	POS	_	10	case	10:case	Entity=organization-44-Democratic_Alliance_for_the_Betterment_and_Progress_of_Hong_Kong)
 12	Horace	Horace	PROPN	NNP	Number=Sing	7	conj	7:conj:and	_
 13	Cheung	Cheung	PROPN	NNP	Number=Sing	12	flat	12:flat	Entity=person-79)person-81-Horace_Cheung)|SpaceAfter=No
 14	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_news_election-23
-# text = Demosisto's Nathan Law earned a surprise victory as second place in the constituency with 50,818 votes, and becomes the youngest Legislative Council member in Hong Kong's history.
 # s_type = decl
-1	Demosisto	Demosisto	PROPN	NNP	Number=Sing	3	nmod:poss	3:nmod:poss	Discourse=joint:36->32|Entity=(person-82-Nathan_Law(organization-83-Demosisto|SpaceAfter=No
+# text = Demosisto's Nathan Law earned a surprise victory as second place in the constituency with 50,818 votes, and becomes the youngest Legislative Council member in Hong Kong's history.
+1-2	Demosisto's	_	_	_	_	_	_	_	_
+1	Demosisto	Demosisto	PROPN	NNP	Number=Sing	3	nmod:poss	3:nmod:poss	Discourse=joint:36->32|Entity=(person-82-Nathan_Law(organization-83-Demosisto
 2	's	's	PART	POS	_	1	case	1:case	Entity=organization-83-Demosisto)
 3	Nathan	Nathan	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj|20:nsubj|25:nsubj:xsubj	_
 4	Law	Law	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=person-82-Nathan_Law)
@@ -551,14 +573,15 @@
 25	member	member	NOUN	NN	Number=Sing	20	xcomp	20:xcomp	_
 26	in	in	ADP	IN	_	30	case	30:case	_
 27	Hong	Hong	PROPN	NNP	Number=Sing	30	nmod:poss	30:nmod:poss	Entity=(abstract-88(place-4-Hong_Kong
-28	Kong	Kong	PROPN	NNP	Number=Sing	27	flat	27:flat	SpaceAfter=No
+28-29	Kong's	_	_	_	_	_	_	_	_
+28	Kong	Kong	PROPN	NNP	Number=Sing	27	flat	27:flat	_
 29	's	's	PART	POS	_	27	case	27:case	Entity=place-4-Hong_Kong)
 30	history	history	NOUN	NN	Number=Sing	25	nmod	25:nmod:in	Entity=person-82-Nathan_Law)abstract-88)|SpaceAfter=No
 31	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_news_election-24
-# text = The other two anti-establishment camp elects were Hui Chi-fung from the Democratic Party and Tanya Chan of the Civic Party, both considered to be in the pan-democracy camp.
 # s_type = decl
+# text = The other two anti-establishment camp elects were Hui Chi-fung from the Democratic Party and Tanya Chan of the Civic Party, both considered to be in the pan-democracy camp.
 1	The	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Discourse=joint:38->36|Entity=(person-89
 2	other	other	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
 3	two	two	NUM	CD	NumForm=Word|NumType=Card	6	nummod	6:nummod	_
@@ -570,14 +593,14 @@
 9	Chi-fung	Chi-fung	PROPN	NNP	Number=Sing	8	flat	8:flat	_
 10	from	from	ADP	IN	_	13	case	13:case	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(organization-39-Democratic_Party_%28Hong_Kong%29
-12	Democratic	Democratic	PROPN	NNP	Number=Sing	13	amod	13:amod	_
+12	Democratic	Democratic	ADJ	NNP	Degree=Pos	13	amod	13:amod	_
 13	Party	Party	PROPN	NNP	Number=Sing	8	nmod	8:nmod:from	Entity=person-90-Ted_Hui)organization-39-Democratic_Party_%28Hong_Kong%29)
 14	and	and	CCONJ	CC	_	15	cc	15:cc	_
 15	Tanya	Tanya	PROPN	NNP	Number=Sing	8	conj	8:conj:and	Entity=(person-91-Tanya_Chan
 16	Chan	Chan	PROPN	NNP	Number=Sing	15	flat	15:flat	_
 17	of	of	ADP	IN	_	20	case	20:case	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(organization-38-Civic_Party
-19	Civic	Civic	PROPN	NNP	Number=Sing	20	amod	20:amod	_
+19	Civic	Civic	ADJ	NNP	Degree=Pos	20	amod	20:amod	_
 20	Party	Party	PROPN	NNP	Number=Sing	15	nmod	15:nmod:of	Entity=person-89)person-91-Tanya_Chan)organization-38-Civic_Party)|SpaceAfter=No
 21	,	,	PUNCT	,	_	22	punct	22:punct	_
 22	both	both	PRON	DT	_	8	appos	8:appos	Discourse=elaboration:39->38|Entity=(person-89)
@@ -591,8 +614,8 @@
 30	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_news_election-25
-# text = Pan-democrat veteran Cyd Ho from the Labour Party lost her seat in this constituency.
 # s_type = decl
+# text = Pan-democrat veteran Cyd Ho from the Labour Party lost her seat in this constituency.
 1	Pan-democrat	Pan-democrat	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=joint:40->32|Entity=(person-92-Cyd_Ho
 2	veteran	veteran	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	_
 3	Cyd	Cyd	PROPN	NNP	Number=Sing	2	flat	2:flat	_
@@ -610,24 +633,24 @@
 15	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_news_election-26
-# text = Nathan Law of Demosisto
 # s_type = frag
+# text = Nathan Law of Demosisto
 1	Nathan	Nathan	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=background:41->32|Entity=(person-82-Nathan_Law
 2	Law	Law	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	of	of	ADP	IN	_	4	case	4:case	_
 4	Demosisto	Demosisto	PROPN	NNP	Number=Sing	1	nmod	1:nmod:of	Entity=(organization-83-Demosisto)person-82-Nathan_Law)
 
 # sent_id = GUM_news_election-27
-# text = Ann Chiang of DAB
 # s_type = frag
+# text = Ann Chiang of DAB
 1	Ann	Ann	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=background:42->43|Entity=(person-94-Ann_Chiang
 2	Chiang	Chiang	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	of	of	ADP	IN	_	4	case	4:case	_
 4	DAB	DAB	PROPN	NNP	Abbr=Yes|Number=Sing	1	nmod	1:nmod:of	Entity=(organization-44-Democratic_Alliance_for_the_Betterment_and_Progress_of_Hong_Kong)person-94-Ann_Chiang)
 
 # sent_id = GUM_news_election-28
-# text = In the Kowloon West geographical constituency, pro-Beijing councillors Ann Chiang of DAB and Priscilla Leung of BPA were successfully re-elected, as well as pan-democratic councillors Claudia Mo of the Civic Party and Wong Pik-wan of the Democratic Party.
 # s_type = decl
+# text = In the Kowloon West geographical constituency, pro-Beijing councillors Ann Chiang of DAB and Priscilla Leung of BPA were successfully re-elected, as well as pan-democratic councillors Claudia Mo of the Civic Party and Wong Pik-wan of the Democratic Party.
 1	In	in	ADP	IN	_	6	case	6:case	Discourse=joint:43->10
 2	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(place-95-Kowloon_West_%28constituency%29
 3	Kowloon	Kowloon	PROPN	NNP	Number=Sing	6	compound	6:compound	Entity=(place-96-Kowloon)
@@ -659,20 +682,20 @@
 29	Mo	Mo	PROPN	NNP	Number=Sing	28	flat	28:flat	_
 30	of	of	ADP	IN	_	33	case	33:case	_
 31	the	the	DET	DT	Definite=Def|PronType=Art	33	det	33:det	Entity=(organization-38-Civic_Party
-32	Civic	Civic	PROPN	NNP	Number=Sing	33	amod	33:amod	_
+32	Civic	Civic	ADJ	NNP	Degree=Pos	33	amod	33:amod	_
 33	Party	Party	PROPN	NNP	Number=Sing	28	nmod	28:nmod:of	Entity=person-101-Claudia_Mo)organization-38-Civic_Party)
 34	and	and	CCONJ	CC	_	35	cc	35:cc	_
 35	Wong	Wong	PROPN	NNP	Number=Sing	28	conj	27:appos|28:conj:and	Entity=(person-102-Helena_Wong_%28politician%29
 36	Pik-wan	Pik-wan	PROPN	NNP	Number=Sing	35	flat	35:flat	_
 37	of	of	ADP	IN	_	40	case	40:case	_
 38	the	the	DET	DT	Definite=Def|PronType=Art	40	det	40:det	Entity=(organization-39-Democratic_Party_%28Hong_Kong%29
-39	Democratic	Democratic	PROPN	NNP	Number=Sing	40	amod	40:amod	_
+39	Democratic	Democratic	ADJ	NNP	Degree=Pos	40	amod	40:amod	_
 40	Party	Party	PROPN	NNP	Number=Sing	35	nmod	35:nmod:of	Entity=person-100)person-102-Helena_Wong_%28politician%29)organization-39-Democratic_Party_%28Hong_Kong%29)|SpaceAfter=No
 41	.	.	PUNCT	.	_	21	punct	21:punct	_
 
 # sent_id = GUM_news_election-29
-# text = The rest of the candidates elected in this constituency were young and relatively new activists from the localist camp, Lau Siu-lai and Youngspiration's Yau Wai-ching.
 # s_type = decl
+# text = The rest of the candidates elected in this constituency were young and relatively new activists from the localist camp, Lau Siu-lai and Youngspiration's Yau Wai-ching.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint:44->43|Entity=(person-103
 2	rest	rest	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	_
 3	of	of	ADP	IN	_	5	case	5:case	_
@@ -696,15 +719,16 @@
 21	Lau	Lau	PROPN	NNP	Number=Sing	15	appos	15:appos	Entity=(person-103(person-105-Lau_Siu-lai
 22	Siu-lai	Siu-lai	PROPN	NNP	Number=Sing	21	flat	21:flat	Entity=person-105-Lau_Siu-lai)
 23	and	and	CCONJ	CC	_	26	cc	26:cc	_
-24	Youngspiration	Youngspiration	PROPN	NNP	Number=Sing	26	nmod:poss	26:nmod:poss	Entity=(person-106-Yau_Wai-ching(organization-107-Youngspiration|SpaceAfter=No
+24-25	Youngspiration's	_	_	_	_	_	_	_	_
+24	Youngspiration	Youngspiration	PROPN	NNP	Number=Sing	26	nmod:poss	26:nmod:poss	Entity=(person-106-Yau_Wai-ching(organization-107-Youngspiration
 25	's	's	PART	POS	_	24	case	24:case	Entity=organization-107-Youngspiration)
 26	Yau	Yau	PROPN	NNP	Number=Sing	21	conj	15:appos|21:conj:and	_
 27	Wai-ching	Wai-ching	PROPN	NNP	Number=Sing	26	flat	26:flat	Entity=person-103)person-106-Yau_Wai-ching)|SpaceAfter=No
 28	.	.	PUNCT	.	_	15	punct	15:punct	_
 
 # sent_id = GUM_news_election-30
-# text = Yau Wai-ching defeated another localist camp candidate, veteran politician Raymond Wong of the Proletariat Political Institute, by 424 votes.
 # s_type = decl
+# text = Yau Wai-ching defeated another localist camp candidate, veteran politician Raymond Wong of the Proletariat Political Institute, by 424 votes.
 1	Yau	Yau	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=elaboration:47->44|Entity=(person-106-Yau_Wai-ching
 2	Wai-ching	Wai-ching	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-106-Yau_Wai-ching)
 3	defeated	defeat	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -719,7 +743,7 @@
 12	Wong	Wong	PROPN	NNP	Number=Sing	7	appos	7:appos	_
 13	of	of	ADP	IN	_	17	case	17:case	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(organization-109-Proletariat_Political_Institute
-15	Proletariat	proletariat	PROPN	NNP	Number=Sing	17	compound	17:compound	_
+15	Proletariat	Proletariat	PROPN	NNP	Number=Sing	17	compound	17:compound	_
 16	Political	Political	PROPN	NNP	Number=Sing	17	compound	17:compound	_
 17	Institute	Institute	PROPN	NNP	Number=Sing	12	nmod	12:nmod:of	Entity=person-108)organization-109-Proletariat_Political_Institute)|SpaceAfter=No
 18	,	,	PUNCT	,	_	21	punct	21:punct	_
@@ -729,25 +753,25 @@
 22	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_election-31
-# text = Claudia Mo of Civic Party
 # s_type = frag
+# text = Claudia Mo of Civic Party
 1	Claudia	Claudia	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=background:48->43|Entity=(person-101-Claudia_Mo
 2	Mo	Mo	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	of	of	ADP	IN	_	5	case	5:case	_
-4	Civic	Civic	PROPN	NNP	Number=Sing	5	amod	5:amod	Entity=(organization-38-Civic_Party
+4	Civic	Civic	ADJ	NNP	Degree=Pos	5	amod	5:amod	Entity=(organization-38-Civic_Party
 5	Party	Party	PROPN	NNP	Number=Sing	1	nmod	1:nmod:of	Entity=person-101-Claudia_Mo)organization-38-Civic_Party)
 
 # sent_id = GUM_news_election-32
-# text = Wong Kwok-kin of FTU
 # s_type = frag
+# text = Wong Kwok-kin of FTU
 1	Wong	Wong	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=background:49->50|Entity=(person-111-Wong_Kwok-kin
 2	Kwok-kin	Kwok-kin	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	of	of	ADP	IN	_	4	case	4:case	_
 4	FTU	FTU	PROPN	NNP	Abbr=Yes|Number=Sing	1	nmod	1:nmod:of	Entity=(organization-48-Hong_Kong_Federation_of_Trade_Unions)person-111-Wong_Kwok-kin)
 
 # sent_id = GUM_news_election-33
-# text = In the Kowloon East geographical constituency, pro-Beijing district councillor Wilson Or was elected with 51,516 votes, the highest in this constituency.
 # s_type = decl
+# text = In the Kowloon East geographical constituency, pro-Beijing district councillor Wilson Or was elected with 51,516 votes, the highest in this constituency.
 1	In	in	ADP	IN	_	6	case	6:case	Discourse=joint:50->10
 2	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(place-112-Kowloon_East_%28constituency%29
 3	Kowloon	Kowloon	PROPN	NNP	Number=Sing	6	compound	6:compound	Entity=(place-96-Kowloon)
@@ -759,7 +783,7 @@
 9	district	district	NOUN	NN	Number=Sing	10	compound	10:compound	_
 10	councillor	councillor	NOUN	NN	Number=Sing	14	nsubj:pass	14:nsubj:pass	_
 11	Wilson	Wilson	PROPN	NNP	Number=Sing	10	flat	10:flat	_
-12	Or	or	PROPN	NNP	Number=Sing	10	flat	10:flat	Entity=person-113-Wilson_Or)
+12	Or	Or	PROPN	NNP	Number=Sing	10	flat	10:flat	Entity=person-113-Wilson_Or)
 13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	14:aux:pass	_
 14	elected	elect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 15	with	with	ADP	IN	_	17	case	17:case	_
@@ -774,8 +798,8 @@
 24	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # sent_id = GUM_news_election-34
-# text = Nonpartisan Paul Tse and Wong Kwok-kin of the FTU were successfully re-elected.
 # s_type = decl
+# text = Nonpartisan Paul Tse and Wong Kwok-kin of the FTU were successfully re-elected.
 1	Nonpartisan	nonpartisan	NOUN	NN	Number=Sing	12	nsubj:pass	12:nsubj:pass	Discourse=joint:51->50|Entity=(person-115-Paul_Tse
 2	Paul	Paul	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	Tse	Tse	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-115-Paul_Tse)
@@ -791,8 +815,8 @@
 13	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_news_election-35
-# text = Pan-democracy camp councillor Wu Chi-wai of the Democratic Party was elected.
 # s_type = decl
+# text = Pan-democracy camp councillor Wu Chi-wai of the Democratic Party was elected.
 1	Pan-democracy	Pan-democracy	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=joint:52->50|Entity=(person-116-Wu_Chi-wai(organization-36
 2	camp	camp	NOUN	NN	Number=Sing	3	compound	3:compound	Entity=organization-36)
 3	councillor	councillor	NOUN	NN	Number=Sing	11	nsubj:pass	11:nsubj:pass	_
@@ -800,17 +824,18 @@
 5	Chi-wai	Chi-wai	PROPN	NNP	Number=Sing	3	flat	3:flat	_
 6	of	of	ADP	IN	_	9	case	9:case	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(organization-39-Democratic_Party_%28Hong_Kong%29
-8	Democratic	Democratic	PROPN	NNP	Number=Sing	9	amod	9:amod	_
+8	Democratic	Democratic	ADJ	NNP	Degree=Pos	9	amod	9:amod	_
 9	Party	Party	PROPN	NNP	Number=Sing	3	nmod	3:nmod:of	Entity=person-116-Wu_Chi-wai)organization-39-Democratic_Party_%28Hong_Kong%29)
 10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	11:aux:pass	_
 11	elected	elect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	SpaceAfter=No
 12	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_news_election-36
-# text = Civic Party's Jeremy Tam was elected for the first time.
 # s_type = decl
-1	Civic	Civic	PROPN	NNP	Number=Sing	2	amod	2:amod	Discourse=joint:53->50|Entity=(person-117-Jeremy_Tam(organization-38-Civic_Party
-2	Party	Party	PROPN	NNP	Number=Sing	4	nmod:poss	4:nmod:poss	SpaceAfter=No
+# text = Civic Party's Jeremy Tam was elected for the first time.
+1	Civic	Civic	ADJ	NNP	Degree=Pos	2	amod	2:amod	Discourse=joint:53->50|Entity=(person-117-Jeremy_Tam(organization-38-Civic_Party
+2-3	Party's	_	_	_	_	_	_	_	_
+2	Party	Party	PROPN	NNP	Number=Sing	4	nmod:poss	4:nmod:poss	_
 3	's	's	PART	POS	_	2	case	2:case	Entity=organization-38-Civic_Party)
 4	Jeremy	Jeremy	PROPN	NNP	Number=Sing	7	nsubj:pass	7:nsubj:pass	_
 5	Tam	Tam	PROPN	NNP	Number=Sing	4	flat	4:flat	Entity=person-117-Jeremy_Tam)
@@ -823,12 +848,13 @@
 12	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_news_election-37
-# text = Localist group Civic Passion's Wong Yeung-tat was defeated in this district, and resigned his leadership in Civic Passion.
 # s_type = decl
+# text = Localist group Civic Passion's Wong Yeung-tat was defeated in this district, and resigned his leadership in Civic Passion.
 1	Localist	localist	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=joint:54->50|Entity=(person-119-Wong_Yeung-tat(organization-34-Civic_Passion
 2	group	group	NOUN	NN	Number=Sing	4	compound	4:compound	_
-3	Civic	Civic	PROPN	NNP	Number=Sing	4	amod	4:amod	_
-4	Passion	Passion	PROPN	NNP	Number=Sing	6	nmod:poss	6:nmod:poss	SpaceAfter=No
+3	Civic	Civic	ADJ	NNP	Degree=Pos	4	amod	4:amod	_
+4-5	Passion's	_	_	_	_	_	_	_	_
+4	Passion	Passion	PROPN	NNP	Number=Sing	6	nmod:poss	6:nmod:poss	_
 5	's	's	PART	POS	_	4	case	4:case	Entity=organization-34-Civic_Passion)
 6	Wong	Wong	PROPN	NNP	Number=Sing	9	nsubj:pass	9:nsubj:pass|15:nsubj:pass	_
 7	Yeung-tat	Yeung-tat	PROPN	NNP	Number=Sing	6	flat	6:flat	Entity=person-119-Wong_Yeung-tat)
@@ -843,23 +869,23 @@
 16	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	Entity=(abstract-120(person-119-Wong_Yeung-tat)
 17	leadership	leadership	NOUN	NN	Number=Sing	15	obj	15:obj	Entity=abstract-120)
 18	in	in	ADP	IN	_	20	case	20:case	_
-19	Civic	Civic	PROPN	NNP	Number=Sing	20	amod	20:amod	Entity=(organization-34-Civic_Passion
+19	Civic	Civic	ADJ	NNP	Degree=Pos	20	amod	20:amod	Entity=(organization-34-Civic_Passion
 20	Passion	Passion	PROPN	NNP	Number=Sing	15	obl	15:obl:in	Entity=organization-34-Civic_Passion)|SpaceAfter=No
 21	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_news_election-38
-# text = Wu Chi-wai of the Democratic Party
 # s_type = frag
+# text = Wu Chi-wai of the Democratic Party
 1	Wu	Wu	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=background:56->50|Entity=(person-116-Wu_Chi-wai
 2	Chi-wai	Chi-wai	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	of	of	ADP	IN	_	6	case	6:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(organization-39-Democratic_Party_%28Hong_Kong%29
-5	Democratic	Democratic	PROPN	NNP	Number=Sing	6	amod	6:amod	_
+5	Democratic	Democratic	ADJ	NNP	Degree=Pos	6	amod	6:amod	_
 6	Party	Party	PROPN	NNP	Number=Sing	1	nmod	1:nmod:of	Entity=person-116-Wu_Chi-wai)organization-39-Democratic_Party_%28Hong_Kong%29)
 
 # sent_id = GUM_news_election-39
-# text = Leung Yiu-chung of NWSC; from file, 2008.
 # s_type = frag
+# text = Leung Yiu-chung of NWSC; from file, 2008.
 1	Leung	Leung	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=background:57->58|Entity=(person-121-Leung_Yiu-chung
 2	Yiu-chung	Yiu-chung	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	of	of	ADP	IN	_	4	case	4:case	_
@@ -872,20 +898,20 @@
 10	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_news_election-40
-# text = In the District Council (Second) functional constituency, commonly know as "Super District Council" seats, pan-democracy camp's Kwong Chun-yu of the Democratic Party received 491,667 votes, the highest in this constituency.
 # s_type = decl
+# text = In the District Council (Second) functional constituency, commonly know as "Super District Council" seats, pan-democracy camp's Kwong Chun-yu of the Democratic Party received 491,667 votes, the highest in this constituency.
 1	In	in	ADP	IN	_	9	case	9:case	Discourse=joint:58->10
 2	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(place-125-District_Council_%28Second%29
 3	District	District	PROPN	NNP	Number=Sing	4	compound	4:compound	_
 4	Council	Council	PROPN	NNP	Number=Sing	9	compound	9:compound	_
 5	(	(	PUNCT	-LRB-	_	6	punct	6:punct	Discourse=elaboration:59->58|SpaceAfter=No
-6	Second	Second	ADJ	JJ	Degree=Pos	4	dep	4:dep	SpaceAfter=No
+6	Second	Second	PROPN	NNP	Number=Sing	4	dep	4:dep	SpaceAfter=No
 7	)	)	PUNCT	-RRB-	_	6	punct	6:punct	_
 8	functional	functional	ADJ	JJ	Degree=Pos	9	amod	9:amod	Discourse=same-unit:60->58
 9	constituency	constituency	NOUN	NN	Number=Sing	30	obl	30:obl:in	Entity=place-125-District_Council_%28Second%29)|SpaceAfter=No
 10	,	,	PUNCT	,	_	12	punct	12:punct	_
 11	commonly	commonly	ADV	RB	Degree=Pos	12	advmod	12:advmod	Discourse=elaboration:61->60
-12	know	know	VERB	VBN	Tense=Past|VerbForm=Part	9	acl	9:acl	_
+12	know	know	VERB	VBN	Tense=Past|Typo=Yes|VerbForm=Part	9	acl	9:acl	_
 13	as	as	ADP	IN	_	19	case	19:case	_
 14	"	''	PUNCT	``	_	17	punct	17:punct	Entity=(abstract-126|SpaceAfter=No
 15	Super	Super	PROPN	NNP	Number=Sing	17	compound	17:compound	Entity=(place-125-District_Council_%28Second%29
@@ -895,13 +921,14 @@
 19	seats	seat	NOUN	NNS	Number=Plur	12	obl	12:obl:as	Entity=abstract-126)|SpaceAfter=No
 20	,	,	PUNCT	,	_	9	punct	9:punct	_
 21	pan-democracy	pan-democracy	NOUN	NN	Number=Sing	22	compound	22:compound	Discourse=same-unit:62->58|Entity=(person-127-Roy_Kwong(organization-36
-22	camp	camp	NOUN	NN	Number=Sing	24	nmod:poss	24:nmod:poss	SpaceAfter=No
+22-23	camp's	_	_	_	_	_	_	_	_
+22	camp	camp	NOUN	NN	Number=Sing	24	nmod:poss	24:nmod:poss	_
 23	's	's	PART	POS	_	22	case	22:case	Entity=organization-36)
 24	Kwong	Kwong	PROPN	NNP	Number=Sing	30	nsubj	30:nsubj	_
 25	Chun-yu	Chun-yu	PROPN	NNP	Number=Sing	24	flat	24:flat	_
 26	of	of	ADP	IN	_	29	case	29:case	_
 27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	29:det	Entity=(organization-39-Democratic_Party_%28Hong_Kong%29
-28	Democratic	Democratic	PROPN	NNP	Number=Sing	29	amod	29:amod	_
+28	Democratic	Democratic	ADJ	NNP	Degree=Pos	29	amod	29:amod	_
 29	Party	Party	PROPN	NNP	Number=Sing	24	nmod	24:nmod:of	Entity=person-127-Roy_Kwong)organization-39-Democratic_Party_%28Hong_Kong%29)
 30	received	receive	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 31	491,667	491667	NUM	CD	NumForm=Digit|NumType=Card	32	nummod	32:nummod	Entity=(abstract-128
@@ -915,10 +942,10 @@
 39	.	.	PUNCT	.	_	30	punct	30:punct	_
 
 # sent_id = GUM_news_election-41
-# text = Other pan-democrats elected were Leung Yiu-chung of NWSC and James To of the Democratic Party.
 # s_type = decl
+# text = Other pan-democrats elected were Leung Yiu-chung of NWSC and James To of the Democratic Party.
 1	Other	other	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=joint:63->58|Entity=(person-129
-2	pan-democrats	pan-democrats	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj|10:nsubj	_
+2	pan-democrats	pan-democrat	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj|10:nsubj	_
 3	elected	elect	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	2:acl	Discourse=elaboration:64->63|Entity=person-129)
 4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	Discourse=same-unit:65->63
 5	Leung	Leung	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(person-129(person-121-Leung_Yiu-chung
@@ -930,15 +957,16 @@
 11	To	To	PROPN	NNP	Number=Sing	10	flat	10:flat	_
 12	of	of	ADP	IN	_	15	case	15:case	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(organization-39-Democratic_Party_%28Hong_Kong%29
-14	Democratic	Democratic	PROPN	NNP	Number=Sing	15	amod	15:amod	_
+14	Democratic	Democratic	ADJ	NNP	Degree=Pos	15	amod	15:amod	_
 15	Party	Party	PROPN	NNP	Number=Sing	10	nmod	10:nmod:of	Entity=person-129)person-130-James_To)organization-39-Democratic_Party_%28Hong_Kong%29)|SpaceAfter=No
 16	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_news_election-42
-# text = Pro-Beijing DAB's Starry Lee and Holden Chow were successfully elected in this constituency, while pro-Beijing veteran politician Wong Kwok-hing of FTU was defeated by 10,694 votes by James To.
 # s_type = decl
+# text = Pro-Beijing DAB's Starry Lee and Holden Chow were successfully elected in this constituency, while pro-Beijing veteran politician Wong Kwok-hing of FTU was defeated by 10,694 votes by James To.
 1	Pro-Beijing	Pro-Beijing	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=joint:66->58|Entity=(person-131-Starry_Lee(organization-44-Democratic_Alliance_for_the_Betterment_and_Progress_of_Hong_Kong
-2	DAB	DAB	PROPN	NNP	Abbr=Yes|Number=Sing	4	nmod:poss	4:nmod:poss	SpaceAfter=No
+2-3	DAB's	_	_	_	_	_	_	_	_
+2	DAB	DAB	PROPN	NNP	Abbr=Yes|Number=Sing	4	nmod:poss	4:nmod:poss	_
 3	's	's	PART	POS	_	2	case	2:case	Entity=organization-44-Democratic_Alliance_for_the_Betterment_and_Progress_of_Hong_Kong)
 4	Starry	Starry	PROPN	NNP	Number=Sing	11	nsubj:pass	11:nsubj:pass	_
 5	Lee	Lee	PROPN	NNP	Number=Sing	4	flat	4:flat	Entity=person-131-Starry_Lee)
@@ -971,9 +999,10 @@
 32	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_news_election-43
-# text = DAB's Starry Lee; from file, 2015.
 # s_type = frag
-1	DAB	DAB	PROPN	NNP	Abbr=Yes|Number=Sing	3	nmod:poss	3:nmod:poss	Discourse=background:68->66|Entity=(person-131-Starry_Lee(organization-44-Democratic_Alliance_for_the_Betterment_and_Progress_of_Hong_Kong|SpaceAfter=No
+# text = DAB's Starry Lee; from file, 2015.
+1-2	DAB's	_	_	_	_	_	_	_	_
+1	DAB	DAB	PROPN	NNP	Abbr=Yes|Number=Sing	3	nmod:poss	3:nmod:poss	Discourse=background:68->66|Entity=(person-131-Starry_Lee(organization-44-Democratic_Alliance_for_the_Betterment_and_Progress_of_Hong_Kong
 2	's	's	PART	POS	_	1	case	1:case	Entity=organization-44-Democratic_Alliance_for_the_Betterment_and_Progress_of_Hong_Kong)
 3	Starry	Starry	PROPN	NNP	Number=Sing	0	root	0:root	_
 4	Lee	Lee	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=person-131-Starry_Lee)|SpaceAfter=No
@@ -985,8 +1014,8 @@
 10	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_election-44
-# text = In traditional functional constituencies, the pan-democracy camp gained a seat from the pro-Beijing camp.
 # s_type = decl
+# text = In traditional functional constituencies, the pan-democracy camp gained a seat from the pro-Beijing camp.
 1	In	in	ADP	IN	_	4	case	4:case	Discourse=joint:69->10
 2	traditional	traditional	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(organization-137
 3	functional	functional	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -1005,8 +1034,8 @@
 16	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_news_election-45
-# text = Shiu Ka-chun of the Social Welfare constituency defeated their opponents, hence the pan-democrats' seats in the functional constituencies increased from 9 to 10.
 # s_type = decl
+# text = Shiu Ka-chun of the Social Welfare constituency defeated their opponents, hence the pan-democrats' seats in the functional constituencies increased from 9 to 10.
 1	Shiu	Shiu	PROPN	NNP	Number=Sing	8	nsubj	8:nsubj	Discourse=elaboration:70->69|Entity=(person-139-Shiu_Ka-chun
 2	Ka-chun	Ka-chun	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	of	of	ADP	IN	_	7	case	7:case	_
@@ -1020,7 +1049,8 @@
 11	,	,	PUNCT	,	_	21	punct	21:punct	_
 12	hence	hence	ADV	RB	Degree=Pos	21	advmod	21:advmod	Discourse=result:71->70
 13	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(abstract-142
-14	pan-democrats	pan-democrats	NOUN	NNS	Number=Plur	16	nmod:poss	16:nmod:poss	Entity=(person-143|SpaceAfter=No
+14-15	pan-democrats'	_	_	_	_	_	_	_	_
+14	pan-democrats	pan-democrat	NOUN	NNS	Number=Plur	16	nmod:poss	16:nmod:poss	Entity=(person-143
 15	'	's	PART	POS	_	14	case	14:case	Entity=person-143)
 16	seats	seat	NOUN	NNS	Number=Plur	21	nsubj	21:nsubj	_
 17	in	in	ADP	IN	_	20	case	20:case	_
@@ -1035,8 +1065,8 @@
 26	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_news_election-46
-# text = Also, an independent who does not claim to belong to either camp, Edward Yiu of the Architectural, Surveying, Planning and Landscape constituency, defeated his opponents and was elected.
 # s_type = decl
+# text = Also, an independent who does not claim to belong to either camp, Edward Yiu of the Architectural, Surveying, Planning and Landscape constituency, defeated his opponents and was elected.
 1	Also	also	ADV	RB	_	28	advmod	28:advmod	Discourse=joint:72->69|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(person-145
@@ -1055,13 +1085,13 @@
 16	Yiu	Yiu	PROPN	NNP	Number=Sing	15	flat	15:flat	_
 17	of	of	ADP	IN	_	26	case	26:case	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(organization-147-Architectural%2C_Surveying%2C_Planning_and_Landscape_%28constituency%29
-19	Architectural	architectural	PROPN	NNP	Number=Sing	26	compound	26:compound	SpaceAfter=No
+19	Architectural	Architectural	PROPN	NNP	Number=Sing	26	compound	26:compound	SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	21:punct	_
-21	Surveying	surveying	PROPN	NNP	Number=Sing	19	conj	19:conj:and|26:compound	SpaceAfter=No
+21	Surveying	Surveying	PROPN	NNP	Number=Sing	19	conj	19:conj:and|26:compound	SpaceAfter=No
 22	,	,	PUNCT	,	_	23	punct	23:punct	_
 23	Planning	Planning	PROPN	NNP	Number=Sing	19	conj	19:conj:and|26:compound	_
 24	and	and	CCONJ	CC	_	25	cc	25:cc	_
-25	Landscape	landscape	PROPN	NNP	Number=Sing	19	conj	19:conj:and|26:compound	_
+25	Landscape	Landscape	PROPN	NNP	Number=Sing	19	conj	19:conj:and|26:compound	_
 26	constituency	constituency	NOUN	NN	Number=Sing	15	nmod	15:nmod:of	Entity=person-145)organization-147-Architectural%2C_Surveying%2C_Planning_and_Landscape_%28constituency%29)|SpaceAfter=No
 27	,	,	PUNCT	,	_	4	punct	4:punct	_
 28	defeated	defeat	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -1073,8 +1103,8 @@
 34	.	.	PUNCT	.	_	28	punct	28:punct	_
 
 # sent_id = GUM_news_election-47
-# text = The turnout of this election was the highest in the history of Legislative Council elections, with around 2 million voters voted and a turnout rate of 58%.
 # s_type = decl
+# text = The turnout of this election was the highest in the history of Legislative Council elections, with around 2 million voters voted and a turnout rate of 58%.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=restatement:76->6|Entity=(event-8
 2	turnout	turnout	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	_
 3	of	of	ADP	IN	_	5	case	5:case	_
@@ -1107,8 +1137,8 @@
 30	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_news_election-48
-# text = At a polling station in Taikoo of the Hong Kong Island constituency, after the polls closed at 22:30, with the long queues outside the station the last ballot there was cast at 2:30 the next day, four hours after the last person was allowed to join the queue.
 # s_type = decl
+# text = At a polling station in Taikoo of the Hong Kong Island constituency, after the polls closed at 22:30, with the long queues outside the station the last ballot there was cast at 2:30 the next day, four hours after the last person was allowed to join the queue.
 1	At	at	ADP	IN	_	4	case	4:case	Discourse=elaboration:78->76
 2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(place-151
 3	polling	polling	NOUN	NN	Number=Sing	4	compound	4:compound	_
@@ -1163,8 +1193,8 @@
 52	.	.	PUNCT	.	_	33	punct	33:punct	_
 
 # sent_id = GUM_news_election-49
-# text = The previous general legislative election in Hong Kong was before the 2014 protests.
 # s_type = decl
+# text = The previous general legislative election in Hong Kong was before the 2014 protests.
 1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Bridge=event-3<event-161|Discourse=background:82->76|Entity=(event-161
 2	previous	previous	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
 3	general	general	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
@@ -1176,13 +1206,13 @@
 9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	13:cop	_
 10	before	before	ADP	IN	_	13	case	13:case	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(event-162
-12	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	13	nummod	13:nummod	Entity=(time-163)
+12	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	13	compound	13:compound	Entity=(time-163)
 13	protests	protest	NOUN	NNS	Number=Plur	0	root	0:root	Entity=event-162)|SpaceAfter=No
 14	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_news_election-50
-# text = The election elects 70 members of the Legislative Council.
 # s_type = decl
+# text = The election elects 70 members of the Legislative Council.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=background:83->6|Entity=(event-3
 2	election	election	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=event-3)
 3	elects	elect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_

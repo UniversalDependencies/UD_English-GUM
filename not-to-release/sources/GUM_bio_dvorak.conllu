@@ -1,13 +1,20 @@
 # newdoc id = GUM_bio_dvorak
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2018-09-12
+# meta::dateCreated = 2003-12-03
+# meta::dateModified = 2018-09-05
+# meta::sourceURL = https://en.wikipedia.org/wiki/Anton%C3%ADn_Dvo%C5%99%C3%A1k
+# meta::speakerCount = 0
+# meta::title = Antonin Dvorak
 # sent_id = GUM_bio_dvorak-1
-# text = Antonín Dvořák
 # s_type = frag
+# text = Antonín Dvořák
 1	Antonín	Antonín	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:1->2|Entity=(person-1-Antonín_Dvořák
 2	Dvořák	Dvořák	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-1-Antonín_Dvořák)
 
 # sent_id = GUM_bio_dvorak-2
-# text = Antonín Leopold Dvořák (/ d(ə)ˈvɔːrʒɑːk, -ʒæk / d(ə)-VOR-zha(h)k; Czech: [ˈantoɲiːn ˈlɛopolt ˈdvor̝aːk]; 8 September 1841 – 1 May 1904) was a Czech composer.
 # s_type = decl
+# text = Antonín Leopold Dvořák (/ d(ə)ˈvɔːrʒɑːk, -ʒæk / d(ə)-VOR-zha(h)k; Czech: [ˈantoɲiːn ˈlɛopolt ˈdvor̝aːk]; 8 September 1841 – 1 May 1904) was a Czech composer.
 1	Antonín	Antonín	PROPN	NNP	Number=Sing	31	nsubj	31:nsubj	Discourse=ROOT:2|Entity=(person-1-Antonín_Dvořák
 2	Leopold	Leopold	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	Dvořák	Dvořák	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-1-Antonín_Dvořák)
@@ -21,11 +28,11 @@
 11	;	;	PUNCT	:	_	15	punct	15:punct	_
 12	Czech	Czech	PROPN	NNP	Number=Sing	15	dep	15:dep	Discourse=preparation:4->5|Entity=(abstract-2-Czech_language)|SpaceAfter=No
 13	:	:	PUNCT	:	_	12	punct	12:punct	_
-14	[	[	PUNCT	-LSB-	_	15	punct	15:punct	Discourse=elaboration:5->2|SpaceAfter=No
+14	[	[	PUNCT	-LRB-	_	15	punct	15:punct	Discourse=elaboration:5->2|SpaceAfter=No
 15	ˈantoɲiːn	ˈantoɲiːn	PROPN	NNP	Number=Sing	1	parataxis	1:parataxis	Entity=(person-1-Antonín_Dvořák
 16	ˈlɛopolt	ˈlɛopolt	PROPN	NNP	Number=Sing	15	flat	15:flat	_
 17	ˈdvor̝aːk	ˈdvor̝aːk	PROPN	NNP	Number=Sing	15	flat	15:flat	Entity=person-1-Antonín_Dvořák)|SpaceAfter=No
-18	]	]	PUNCT	-RSB-	_	15	punct	15:punct	SpaceAfter=No
+18	]	]	PUNCT	-RRB-	_	15	punct	15:punct	SpaceAfter=No
 19	;	;	PUNCT	:	_	20	punct	20:punct	_
 20	8	8	NUM	CD	NumForm=Digit|NumType=Card	15	nmod:tmod	15:nmod:tmod	Discourse=joint:6->5|Entity=(time-3
 21	September	September	PROPN	NNP	Number=Sing	20	compound	20:compound	Entity=(time-4
@@ -42,8 +49,8 @@
 32	.	.	PUNCT	.	_	31	punct	31:punct	_
 
 # sent_id = GUM_bio_dvorak-3
-# text = After Bedřich Smetana, he was the next Czech Romantic-era composer to achieve worldwide recognition.
 # s_type = decl
+# text = After Bedřich Smetana, he was the next Czech Romantic-era composer to achieve worldwide recognition.
 1	After	after	ADP	IN	_	2	case	2:case	Discourse=elaboration:8->2
 2	Bedřich	Bedřich	PROPN	NNP	Number=Sing	11	nmod	11:nmod:after	Entity=(person-9-Bedřich_Smetana
 3	Smetana	Smetana	PROPN	NNP	Number=Sing	2	flat	2:flat	Entity=person-9-Bedřich_Smetana)|SpaceAfter=No
@@ -62,10 +69,11 @@
 16	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_bio_dvorak-4
-# text = Following Smetana's nationalist example, Dvořák frequently employed aspects, specifically rhythms, of the folk music of Moravia and his native Bohemia.
 # s_type = decl
+# text = Following Smetana's nationalist example, Dvořák frequently employed aspects, specifically rhythms, of the folk music of Moravia and his native Bohemia.
 1	Following	follow	VERB	VBG	VerbForm=Ger	5	case	5:case	Discourse=cause:10->11
-2	Smetana	Smetana	PROPN	NNP	Number=Sing	5	nmod:poss	5:nmod:poss	Entity=(abstract-12(person-9-Bedřich_Smetana|SpaceAfter=No
+2-3	Smetana's	_	_	_	_	_	_	_	_
+2	Smetana	Smetana	PROPN	NNP	Number=Sing	5	nmod:poss	5:nmod:poss	Entity=(abstract-12(person-9-Bedřich_Smetana
 3	's	's	PART	POS	_	2	case	2:case	Entity=person-9-Bedřich_Smetana)
 4	nationalist	nationalist	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
 5	example	example	NOUN	NN	Number=Sing	9	obl	9:obl:following	Entity=abstract-12)|SpaceAfter=No
@@ -91,9 +99,10 @@
 25	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_bio_dvorak-5
-# text = Dvořák's own style has been described as "the fullest recreation of a national idiom with that of the symphonic tradition, absorbing folk influences and finding effective ways of using them". [1]
 # s_type = decl
-1	Dvořák	Dvořák	PROPN	NNP	Number=Sing	4	nmod:poss	4:nmod:poss	Discourse=evaluation:12->11|Entity=(abstract-18(person-1-Antonín_Dvořák|SpaceAfter=No
+# text = Dvořák's own style has been described as "the fullest recreation of a national idiom with that of the symphonic tradition, absorbing folk influences and finding effective ways of using them". [1]
+1-2	Dvořák's	_	_	_	_	_	_	_	_
+1	Dvořák	Dvořák	PROPN	NNP	Number=Sing	4	nmod:poss	4:nmod:poss	Discourse=evaluation:12->11|Entity=(abstract-18(person-1-Antonín_Dvořák
 2	's	's	PART	POS	_	1	case	1:case	Entity=person-1-Antonín_Dvořák)
 3	own	own	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	style	style	NOUN	NN	Number=Sing	7	nsubj:pass	7:nsubj:pass	Entity=abstract-18)
@@ -128,19 +137,19 @@
 33	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	32	obj	32:obj	Entity=(abstract-21)abstract-22)|SpaceAfter=No
 34	"	''	PUNCT	''	_	12	punct	12:punct	SpaceAfter=No
 35	.	.	PUNCT	.	_	7	punct	7:punct	_
-36	[	[	PUNCT	-LSB-	_	37	punct	37:punct	Discourse=evidence:15->12|SpaceAfter=No
+36	[	[	PUNCT	-LRB-	_	37	punct	37:punct	Discourse=evidence:15->12|SpaceAfter=No
 37	1	1	NUM	CD	NumForm=Digit|NumType=Card	7	dep	7:dep	Entity=(abstract-23)|SpaceAfter=No
-38	]	]	PUNCT	-RSB-	_	37	punct	37:punct	_
+38	]	]	PUNCT	-RRB-	_	37	punct	37:punct	_
 
 # sent_id = GUM_bio_dvorak-6
-# text = Antonín Dvořák
 # s_type = frag
+# text = Antonín Dvořák
 1	Antonín	Antonín	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=background:16->2|Entity=(person-1-Antonín_Dvořák
 2	Dvořák	Dvořák	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-1-Antonín_Dvořák)
 
 # sent_id = GUM_bio_dvorak-7
-# text = Dvořák displayed his musical gifts at an early age, being an apt violin student from age six.
 # s_type = decl
+# text = Dvořák displayed his musical gifts at an early age, being an apt violin student from age six.
 1	Dvořák	Dvořák	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=elaboration:17->2|Entity=(person-1-Antonín_Dvořák)
 2	displayed	display	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(abstract-24(person-1-Antonín_Dvořák)
@@ -162,8 +171,8 @@
 19	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_dvorak-8
-# text = The first public performances of his works were in Prague in 1872 and, with special success, in 1873, when he was aged 31.
 # s_type = decl
+# text = The first public performances of his works were in Prague in 1872 and, with special success, in 1873, when he was aged 31.
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Discourse=sequence:19->17|Entity=(event-27
 2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	4:amod	_
 3	public	public	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -188,13 +197,13 @@
 22	when	when	SCONJ	WRB	PronType=Int	25	mark	25:mark	Discourse=circumstance:20->19
 23	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj:pass	25:nsubj:pass|26:nsubj:xsubj	Entity=(person-1-Antonín_Dvořák)
 24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	aux:pass	25:aux:pass	_
-25	aged	age	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	12:advcl:when	_
+25	aged	aged	ADJ	JJ	Degree=Pos	12	advcl	12:advcl:when	_
 26	31	31	NUM	CD	NumForm=Digit|NumType=Card	25	xcomp	25:xcomp	Entity=(abstract-33)|SpaceAfter=No
 27	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_bio_dvorak-9
-# text = Seeking recognition beyond the Prague area, he submitted a score of his First Symphony to a prize competition in Germany, but did not win, and the unreturned manuscript was lost until rediscovered many decades later.
 # s_type = decl
+# text = Seeking recognition beyond the Prague area, he submitted a score of his First Symphony to a prize competition in Germany, but did not win, and the unreturned manuscript was lost until rediscovered many decades later.
 1	Seeking	seek	VERB	VBG	VerbForm=Ger	9	advcl	9:advcl	Discourse=cause:21->22
 2	recognition	recognition	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=(abstract-34
 3	beyond	beyond	ADP	IN	_	6	case	6:case	_
@@ -208,7 +217,7 @@
 11	score	score	NOUN	NN	Number=Sing	9	obj	9:obj	_
 12	of	of	ADP	IN	_	15	case	15:case	_
 13	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	15:nmod:poss	Entity=(person-1-Antonín_Dvořák)
-14	First	First	PROPN	NNP	Number=Sing	15	amod	15:amod	_
+14	First	First	ADJ	NNP	Degree=Pos	15	amod	15:amod	_
 15	Symphony	Symphony	PROPN	NNP	Number=Sing	11	nmod	11:nmod:of	Entity=object-36)
 16	to	to	ADP	IN	_	19	case	19:case	_
 17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(event-37
@@ -231,13 +240,13 @@
 34	until	until	SCONJ	IN	_	35	mark	35:mark	Discourse=sequence:25->24
 35	rediscovered	rediscover	VERB	VBN	Tense=Past|VerbForm=Part	33	advcl	33:advcl:until	_
 36	many	many	ADJ	JJ	Degree=Pos	37	amod	37:amod	Bridge=time-32<time-40|Entity=(time-40
-37	decades	decade	NOUN	NNS	Number=Plur	38	nmod:npmod	38:nmod:npmod	_
+37	decades	decade	NOUN	NNS	Number=Plur	38	obl:tmod	38:obl:tmod	_
 38	later	late	ADV	RBR	Degree=Cmp	35	advmod	35:advmod	Entity=time-40)|SpaceAfter=No
 39	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_bio_dvorak-10
-# text = In 1874 he made a submission to the Austrian State Prize for Composition, including scores of two further symphonies and other works.
 # s_type = decl
+# text = In 1874 he made a submission to the Austrian State Prize for Composition, including scores of two further symphonies and other works.
 1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence:26->17
 2	1874	1874	NUM	CD	NumForm=Digit|NumType=Card	4	obl	4:obl:in	Entity=(time-41)
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-1-Antonín_Dvořák)
@@ -246,13 +255,13 @@
 6	submission	submission	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=abstract-42)
 7	to	to	ADP	IN	_	11	case	11:case	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(abstract-43
-9	Austrian	Austrian	PROPN	NNP	Number=Sing	11	amod	11:amod	_
+9	Austrian	Austrian	ADJ	NNP	Degree=Pos	11	amod	11:amod	_
 10	State	State	PROPN	NNP	Number=Sing	11	compound	11:compound	_
 11	Prize	Prize	PROPN	NNP	Number=Sing	6	nmod	6:nmod:to	_
 12	for	for	ADP	IN	_	13	case	13:case	_
 13	Composition	Composition	PROPN	NNP	Number=Sing	11	nmod	11:nmod:for	Entity=(abstract-44-Musical_composition)abstract-43)|SpaceAfter=No
 14	,	,	PUNCT	,	_	15	punct	15:punct	_
-15	including	include	VERB	VBG	VerbForm=Ger	4	obl	4:obl	Discourse=elaboration:27->26
+15	including	include	VERB	VBG	VerbForm=Ger	4	advcl	4:advcl	Discourse=elaboration:27->26
 16	scores	score	NOUN	NNS	Number=Plur	15	obj	15:obj	Entity=(object-45
 17	of	of	ADP	IN	_	20	case	20:case	_
 18	two	two	NUM	CD	NumForm=Word|NumType=Card	20	nummod	20:nummod	Entity=(abstract-46
@@ -264,8 +273,8 @@
 24	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_bio_dvorak-11
-# text = Although Dvořák was not aware of it, Johannes Brahms was the leading member of the jury and was highly impressed.
 # s_type = decl
+# text = Although Dvořák was not aware of it, Johannes Brahms was the leading member of the jury and was highly impressed.
 1	Although	although	SCONJ	IN	_	5	mark	5:mark	Discourse=concession:28->29
 2	Dvořák	Dvořák	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(person-1-Antonín_Dvořák)
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
@@ -274,7 +283,7 @@
 6	of	of	ADP	IN	_	7	case	7:case	_
 7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	5:obl:of	Entity=(event-48)|SpaceAfter=No
 8	,	,	PUNCT	,	_	5	punct	5:punct	_
-9	Johannes	Johannes	PROPN	NNP	Number=Sing	14	nsubj	14:nsubj|21:nsubj	Discourse=background:29->30|Entity=(event-48(person-49-Johannes_Brahms
+9	Johannes	Johannes	PROPN	NNP	Number=Sing	14	nsubj	14:nsubj|21:nsubj:pass	Discourse=background:29->30|Entity=(event-48(person-49-Johannes_Brahms
 10	Brahms	Brahms	PROPN	NNP	Number=Sing	9	flat	9:flat	Entity=person-49-Johannes_Brahms)
 11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	14:cop	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(person-49-Johannes_Brahms
@@ -284,14 +293,14 @@
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(organization-50
 17	jury	jury	NOUN	NN	Number=Sing	14	nmod	14:nmod:of	Entity=person-49-Johannes_Brahms)organization-50)
 18	and	and	CCONJ	CC	_	21	cc	21:cc	Discourse=result:30->26
-19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	cop	21:cop	_
+19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux:pass	21:aux:pass	_
 20	highly	highly	ADV	RB	Degree=Pos	21	advmod	21:advmod	_
-21	impressed	impressed	ADJ	JJ	Degree=Pos	14	conj	14:conj:and	Entity=event-48)|SpaceAfter=No
+21	impressed	impress	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	conj	14:conj:and	Entity=event-48)|SpaceAfter=No
 22	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # sent_id = GUM_bio_dvorak-12
-# text = The prize was awarded to Dvořák in 1874 [a] and again in 1876 and in 1877, when Brahms and the prominent critic Eduard Hanslick, also a member of the jury, made themselves known to him.
 # s_type = decl
+# text = The prize was awarded to Dvořák in 1874 [a] and again in 1876 and in 1877, when Brahms and the prominent critic Eduard Hanslick, also a member of the jury, made themselves known to him.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=sequence:31->26|Entity=(abstract-43
 2	prize	prize	NOUN	NN	Number=Sing	4	nsubj:pass	4:nsubj:pass	Entity=abstract-43)
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	4:aux:pass	_
@@ -300,9 +309,9 @@
 6	Dvořák	Dvořák	PROPN	NNP	Number=Sing	4	obl	4:obl:to	Entity=(person-1-Antonín_Dvořák)
 7	in	in	ADP	IN	_	8	case	8:case	_
 8	1874	1874	NUM	CD	NumForm=Digit|NumType=Card	4	obl	4:obl:in	Entity=(time-41)
-9	[	[	PUNCT	-LSB-	_	10	punct	10:punct	Discourse=elaboration:32->31|SpaceAfter=No
+9	[	[	PUNCT	-LRB-	_	10	punct	10:punct	Discourse=elaboration:32->31|SpaceAfter=No
 10	a	a	NOUN	NN	Number=Sing	4	dep	4:dep	Entity=(abstract-51)|SpaceAfter=No
-11	]	]	PUNCT	-RSB-	_	10	punct	10:punct	_
+11	]	]	PUNCT	-RRB-	_	10	punct	10:punct	_
 12	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=sequence:33->31
 13	again	again	ADV	RB	Degree=Pos	15	advmod	15:advmod	_
 14	in	in	ADP	IN	_	15	case	15:case	_
@@ -335,8 +344,8 @@
 41	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_bio_dvorak-13
-# text = Brahms recommended Dvořák to his publisher, Simrock, who soon afterward commissioned what became the Slavonic Dances, Op. 46.
 # s_type = decl
+# text = Brahms recommended Dvořák to his publisher, Simrock, who soon afterward commissioned what became the Slavonic Dances, Op. 46.
 1	Brahms	Brahms	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=result:36->26|Entity=(person-49-Johannes_Brahms)
 2	recommended	recommend	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	Dvořák	Dvořák	PROPN	NNP	Number=Sing	2	obj	2:obj	Entity=(person-1-Antonín_Dvořák)
@@ -353,7 +362,7 @@
 14	what	what	PRON	WP	PronType=Rel	13	obj	6:ref	_
 15	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(abstract-57-Slavonic_Dances
-17	Slavonic	Slavonic	PROPN	NNP	Number=Sing	18	amod	18:amod	_
+17	Slavonic	Slavonic	ADJ	NNP	Degree=Pos	18	amod	18:amod	_
 18	Dances	Dance	PROPN	NNPS	Number=Plur	15	xcomp	15:xcomp	SpaceAfter=No
 19	,	,	PUNCT	,	_	20	punct	20:punct	_
 20	Op.	Op.	PROPN	NNP	Abbr=Yes|Number=Sing	18	appos	18:appos	_
@@ -361,15 +370,15 @@
 22	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_dvorak-14
-# text = These were highly praised by the Berlin music critic Louis Ehlert in 1878, the sheet music (of the original piano 4-hands version) had excellent sales, and Dvořák's international reputation was launched at last.
 # s_type = decl
+# text = These were highly praised by the Berlin music critic Louis Ehlert in 1878, the sheet music (of the original piano 4-hands version) had excellent sales, and Dvořák's international reputation was launched at last.
 1	These	this	PRON	DT	Number=Plur|PronType=Dem	4	nsubj:pass	4:nsubj:pass	Discourse=elaboration:38->37|Entity=(abstract-57-Slavonic_Dances)
 2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 3	highly	highly	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
 4	praised	praise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 5	by	by	ADP	IN	_	9	case	9:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(person-58-Louis_Ehlert
-7	Berlin	Berlin	PROPN	NNP	Number=Sing	9	amod	9:amod	Entity=(place-59-Berlin)
+7	Berlin	Berlin	PROPN	NNP	Number=Sing	9	compound	9:compound	Entity=(place-59-Berlin)
 8	music	music	NOUN	NN	Number=Sing	9	compound	9:compound	_
 9	critic	critic	NOUN	NN	Number=Sing	4	obl	4:obl:by	_
 10	Louis	Louis	PROPN	NNP	Number=Sing	9	flat	9:flat	_
@@ -385,7 +394,7 @@
 20	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(abstract-62
 21	original	original	ADJ	JJ	Degree=Pos	24	amod	24:amod	_
 22	piano	piano	NOUN	NN	Number=Sing	24	compound	24:compound	Entity=(object-63)
-23	4-hands	4-hands	ADJ	JJ	Degree=Pos	24	amod	24:amod	_
+23	4-hands	4-hand	NOUN	NNS	Number=Plur	24	compound	24:compound	_
 24	version	version	NOUN	NN	Number=Sing	17	nmod	17:nmod:of	Entity=abstract-62)|SpaceAfter=No
 25	)	)	PUNCT	-RRB-	_	24	punct	24:punct	Entity=object-61)
 26	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	4:conj:and	Discourse=same-unit:41->39
@@ -393,7 +402,8 @@
 28	sales	sale	NOUN	NNS	Number=Plur	26	obj	26:obj	Entity=abstract-64)|SpaceAfter=No
 29	,	,	PUNCT	,	_	36	punct	36:punct	_
 30	and	and	CCONJ	CC	_	36	cc	36:cc	Discourse=result:42->37
-31	Dvořák	Dvořák	PROPN	NNP	Number=Sing	34	nmod:poss	34:nmod:poss	Entity=(abstract-65(person-1-Antonín_Dvořák|SpaceAfter=No
+31-32	Dvořák's	_	_	_	_	_	_	_	_
+31	Dvořák	Dvořák	PROPN	NNP	Number=Sing	34	nmod:poss	34:nmod:poss	Entity=(abstract-65(person-1-Antonín_Dvořák
 32	's	's	PART	POS	_	31	case	31:case	Entity=person-1-Antonín_Dvořák)
 33	international	international	ADJ	JJ	Degree=Pos	34	amod	34:amod	_
 34	reputation	reputation	NOUN	NN	Number=Sing	36	nsubj:pass	36:nsubj:pass	Entity=abstract-65)
@@ -404,9 +414,10 @@
 39	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_bio_dvorak-15
-# text = Dvořák's first piece of a religious nature, his setting of Stabat Mater, was premiered in Prague in 1880.
 # s_type = decl
-1	Dvořák	Dvořák	PROPN	NNP	Number=Sing	4	nmod:poss	4:nmod:poss	Discourse=sequence:43->17|Entity=(abstract-66(person-1-Antonín_Dvořák|SpaceAfter=No
+# text = Dvořák's first piece of a religious nature, his setting of Stabat Mater, was premiered in Prague in 1880.
+1-2	Dvořák's	_	_	_	_	_	_	_	_
+1	Dvořák	Dvořák	PROPN	NNP	Number=Sing	4	nmod:poss	4:nmod:poss	Discourse=sequence:43->17|Entity=(abstract-66(person-1-Antonín_Dvořák
 2	's	's	PART	POS	_	1	case	1:case	Entity=person-1-Antonín_Dvořák)
 3	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	4:amod	_
 4	piece	piece	NOUN	NN	Number=Sing	17	nsubj:pass	17:nsubj:pass	_
@@ -430,8 +441,8 @@
 22	.	.	PUNCT	.	_	17	punct	17:punct	_
 
 # sent_id = GUM_bio_dvorak-16
-# text = It was very successfully performed in London in 1883, leading to many other performances in the United Kingdom and United States. [2]
 # s_type = decl
+# text = It was very successfully performed in London in 1883, leading to many other performances in the United Kingdom and United States. [2]
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	5:nsubj:pass	Discourse=sequence:44->43|Entity=(abstract-66)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	5:aux:pass	_
 3	very	very	ADV	RB	_	4	advmod	4:advmod	_
@@ -449,19 +460,19 @@
 15	performances	performance	NOUN	NNS	Number=Plur	11	obl	11:obl:to	_
 16	in	in	ADP	IN	_	19	case	19:case	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(place-73-United_Kingdom
-18	United	United	PROPN	NNP	Number=Sing	19	amod	19:amod	_
+18	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	19	amod	19:amod	_
 19	Kingdom	Kingdom	PROPN	NNP	Number=Sing	15	nmod	15:nmod:in	Entity=place-73-United_Kingdom)
 20	and	and	CCONJ	CC	_	22	cc	22:cc	_
-21	United	United	PROPN	NNP	Number=Sing	22	amod	22:amod	Entity=(place-74-United_States
-22	States	States	PROPN	NNPS	Number=Plur	19	conj	15:nmod:in|19:conj:and	Entity=event-72)place-74-United_States)|SpaceAfter=No
+21	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	22	amod	22:amod	Entity=(place-74-United_States
+22	States	State	PROPN	NNPS	Number=Plur	19	conj	15:nmod:in|19:conj:and	Entity=event-72)place-74-United_States)|SpaceAfter=No
 23	.	.	PUNCT	.	_	5	punct	5:punct	_
-24	[	[	PUNCT	-LSB-	_	25	punct	25:punct	Discourse=evidence:46->45|SpaceAfter=No
+24	[	[	PUNCT	-LRB-	_	25	punct	25:punct	Discourse=evidence:46->45|SpaceAfter=No
 25	2	2	NUM	CD	NumForm=Digit|NumType=Card	5	dep	5:dep	Entity=(abstract-75)|SpaceAfter=No
-26	]	]	PUNCT	-RSB-	_	25	punct	25:punct	_
+26	]	]	PUNCT	-RRB-	_	25	punct	25:punct	_
 
 # sent_id = GUM_bio_dvorak-17
-# text = In his career, Dvořák made nine invited visits to England, often conducting performances of his own works.
 # s_type = decl
+# text = In his career, Dvořák made nine invited visits to England, often conducting performances of his own works.
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=elaboration:47->45
 2	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(abstract-76(person-1-Antonín_Dvořák)
 3	career	career	NOUN	NN	Number=Sing	6	obl	6:obl:in	Entity=abstract-76)|SpaceAfter=No
@@ -469,7 +480,7 @@
 5	Dvořák	Dvořák	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Entity=(person-1-Antonín_Dvořák)
 6	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 7	nine	nine	NUM	CD	NumForm=Word|NumType=Card	9	nummod	9:nummod	Entity=(event-77
-8	invited	invited	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
+8	invited	invite	VERB	VBN	Tense=Past|VerbForm=Part	9	amod	9:amod	_
 9	visits	visit	NOUN	NNS	Number=Plur	6	obj	6:obj	_
 10	to	to	ADP	IN	_	11	case	11:case	_
 11	England	England	PROPN	NNP	Number=Sing	9	nmod	9:nmod:to	Entity=(place-78-United_Kingdom)event-77)|SpaceAfter=No
@@ -484,10 +495,10 @@
 20	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_bio_dvorak-18
-# text = His Seventh Symphony was written for London.
 # s_type = decl
+# text = His Seventh Symphony was written for London.
 1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Discourse=elaboration:49->45|Entity=(person-1-Antonín_Dvořák)
-2	Seventh	Seventh	PROPN	NNP	Number=Sing	3	amod	3:amod	Entity=(abstract-80-Symphony_No._7_%28Dvořák%29
+2	Seventh	Seventh	ADJ	NNP	Degree=Pos	3	amod	3:amod	Entity=(abstract-80-Symphony_No._7_%28Dvořák%29
 3	Symphony	Symphony	PROPN	NNP	Number=Sing	5	nsubj:pass	5:nsubj:pass	Entity=abstract-80-Symphony_No._7_%28Dvořák%29)
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	5:aux:pass	_
 5	written	write	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -496,8 +507,8 @@
 8	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_bio_dvorak-19
-# text = Visiting Russia in March 1890, he conducted concerts of his own music in Moscow and Saint Petersburg. [3]
 # s_type = decl
+# text = Visiting Russia in March 1890, he conducted concerts of his own music in Moscow and Saint Petersburg. [3]
 1	Visiting	visit	VERB	VBG	VerbForm=Ger	8	advcl	8:advcl	Discourse=circumstance:50->51
 2	Russia	Russia	PROPN	NNP	Number=Sing	1	obj	1:obj	Entity=(place-81-Russia)
 3	in	in	ADP	IN	_	4	case	4:case	_
@@ -517,13 +528,13 @@
 17	Saint	Saint	PROPN	NNP	Number=Sing	15	conj	8:obl:in|15:conj:and	Entity=(place-86-Saint_Petersburg
 18	Petersburg	Petersburg	PROPN	NNP	Number=Sing	17	flat	17:flat	Entity=event-84)place-86-Saint_Petersburg)|SpaceAfter=No
 19	.	.	PUNCT	.	_	8	punct	8:punct	_
-20	[	[	PUNCT	-LSB-	_	21	punct	21:punct	Discourse=evidence:52->51|SpaceAfter=No
+20	[	[	PUNCT	-LRB-	_	21	punct	21:punct	Discourse=evidence:52->51|SpaceAfter=No
 21	3	3	NUM	CD	NumForm=Digit|NumType=Card	8	dep	8:dep	Entity=(abstract-87)|SpaceAfter=No
-22	]	]	PUNCT	-RSB-	_	21	punct	21:punct	_
+22	]	]	PUNCT	-RRB-	_	21	punct	21:punct	_
 
 # sent_id = GUM_bio_dvorak-20
-# text = In 1891 Dvořák was appointed as a professor at the Prague Conservatory.
 # s_type = decl
+# text = In 1891 Dvořák was appointed as a professor at the Prague Conservatory.
 1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence:53->17
 2	1891	1891	NUM	CD	NumForm=Digit|NumType=Card	5	obl	5:obl:in	Entity=(time-88)
 3	Dvořák	Dvořák	PROPN	NNP	Number=Sing	5	nsubj:pass	5:nsubj:pass	Entity=(person-1-Antonín_Dvořák)
@@ -539,8 +550,8 @@
 13	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_bio_dvorak-21
-# text = In 1890 – 91, he wrote his Dumky Trio, one of his most successful chamber music pieces.
 # s_type = decl
+# text = In 1890 – 91, he wrote his Dumky Trio, one of his most successful chamber music pieces.
 1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence:54->17
 2	1890	1890	NUM	CD	NumForm=Digit|NumType=Card	7	obl	7:obl:in	Entity=(time-83)
 3	–	-	SYM	SYM	_	4	case	4:case	_
@@ -563,8 +574,8 @@
 20	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_bio_dvorak-22
-# text = In 1892, Dvořák moved to the United States and became the director of the National Conservatory of Music of America in New York City.
 # s_type = decl
+# text = In 1892, Dvořák moved to the United States and became the director of the National Conservatory of Music of America in New York City.
 1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence:55->17
 2	1892	1892	NUM	CD	NumForm=Digit|NumType=Card	5	obl	5:obl:in	Entity=(time-93)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -572,15 +583,15 @@
 5	moved	move	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 6	to	to	ADP	IN	_	9	case	9:case	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(place-74-United_States
-8	United	United	PROPN	NNP	Number=Sing	9	amod	9:amod	_
-9	States	States	PROPN	NNPS	Number=Plur	5	obl	5:obl:to	Entity=place-74-United_States)
+8	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	9	amod	9:amod	_
+9	States	State	PROPN	NNPS	Number=Plur	5	obl	5:obl:to	Entity=place-74-United_States)
 10	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=sequence:56->55
 11	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	5:conj:and	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(person-1-Antonín_Dvořák
 13	director	director	NOUN	NN	Number=Sing	11	xcomp	11:xcomp	_
 14	of	of	ADP	IN	_	17	case	17:case	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(organization-94-National_Conservatory_of_Music_of_America
-16	National	National	PROPN	NNP	Number=Sing	17	amod	17:amod	_
+16	National	National	ADJ	NNP	Degree=Pos	17	amod	17:amod	_
 17	Conservatory	Conservatory	PROPN	NNP	Number=Sing	13	nmod	13:nmod:of	_
 18	of	of	ADP	IN	_	19	case	19:case	_
 19	Music	Music	PROPN	NNP	Number=Sing	17	nmod	17:nmod:of	Entity=(abstract-95-Music)
@@ -593,13 +604,13 @@
 26	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_bio_dvorak-23
-# text = While in the United States, Dvořák wrote his two most successful orchestral works: the Symphony From the New World, which spread his reputation worldwide, [4] and his Cello Concerto, one of the most highly regarded of all cello concerti.
 # s_type = decl
+# text = While in the United States, Dvořák wrote his two most successful orchestral works: the Symphony From the New World, which spread his reputation worldwide, [4] and his Cello Concerto, one of the most highly regarded of all cello concerti.
 1	While	while	SCONJ	IN	_	5	mark	5:mark	Discourse=circumstance:57->58
 2	in	in	ADP	IN	_	5	case	5:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(place-74-United_States
-4	United	United	PROPN	NNP	Number=Sing	5	amod	5:amod	_
-5	States	States	PROPN	NNPS	Number=Plur	8	advcl	8:advcl:while	Entity=place-74-United_States)|SpaceAfter=No
+4	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	5	amod	5:amod	_
+5	States	State	PROPN	NNPS	Number=Plur	8	advcl	8:advcl:while	Entity=place-74-United_States)|SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	5:punct	_
 7	Dvořák	Dvořák	PROPN	NNP	Number=Sing	8	nsubj	8:nsubj	Discourse=elaboration:58->55|Entity=(person-1-Antonín_Dvořák)
 8	wrote	write	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -614,7 +625,7 @@
 17	Symphony	Symphony	PROPN	NNP	Number=Sing	14	appos	14:appos|24:nsubj	_
 18	From	from	ADP	IN	_	21	case	21:case	_
 19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(place-99
-20	New	New	PROPN	NNP	Number=Sing	21	amod	21:amod	_
+20	New	New	ADJ	NNP	Degree=Pos	21	amod	21:amod	_
 21	World	World	PROPN	NNP	Number=Sing	17	nmod	17:nmod:from	Entity=place-99)|SpaceAfter=No
 22	,	,	PUNCT	,	_	24	punct	24:punct	_
 23	which	which	PRON	WDT	PronType=Rel	24	nsubj	17:ref	Discourse=elaboration:60->59
@@ -623,9 +634,9 @@
 26	reputation	reputation	NOUN	NN	Number=Sing	24	obj	24:obj	Entity=abstract-100)
 27	worldwide	worldwide	ADV	RB	Degree=Pos	24	advmod	24:advmod	Entity=abstract-98-Symphony_No._9_%28Dvořák%29)|SpaceAfter=No
 28	,	,	PUNCT	,	_	17	punct	17:punct	_
-29	[	[	PUNCT	-LSB-	_	30	punct	30:punct	Discourse=evidence:61->59|SpaceAfter=No
+29	[	[	PUNCT	-LRB-	_	30	punct	30:punct	Discourse=evidence:61->59|SpaceAfter=No
 30	4	4	NUM	CD	NumForm=Digit|NumType=Card	8	dislocated	8:dislocated	Entity=(abstract-101)|SpaceAfter=No
-31	]	]	PUNCT	-RSB-	_	30	punct	30:punct	_
+31	]	]	PUNCT	-RRB-	_	30	punct	30:punct	_
 32	and	and	CCONJ	CC	_	35	cc	35:cc	Discourse=same-unit:62->59
 33	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	35:nmod:poss	Entity=(abstract-102-Cello_Concerto_%28Dvořák%29(person-1-Antonín_Dvořák)
 34	Cello	Cello	PROPN	NNP	Number=Sing	35	compound	35:compound	_
@@ -644,21 +655,21 @@
 47	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_bio_dvorak-24
-# text = He also wrote his most appreciated piece of chamber music, the American String Quartet, during this time.
 # s_type = decl
+# text = He also wrote his most appreciated piece of chamber music, the American String Quartet, during this time.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint:63->58|Entity=(person-1-Antonín_Dvořák)
 2	also	also	ADV	RB	_	3	advmod	3:advmod	_
 3	wrote	write	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(abstract-105(person-1-Antonín_Dvořák)
 5	most	most	ADV	RBS	Degree=Sup	6	advmod	6:advmod	_
-6	appreciated	appreciated	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
+6	appreciated	appreciate	VERB	VBN	Tense=Past|VerbForm=Part	7	amod	7:amod	_
 7	piece	piece	NOUN	NN	Number=Sing	3	obj	3:obj	_
 8	of	of	ADP	IN	_	10	case	10:case	_
 9	chamber	chamber	NOUN	NN	Number=Sing	10	compound	10:compound	Entity=(abstract-92
 10	music	music	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	Entity=abstract-105)abstract-92)|SpaceAfter=No
 11	,	,	PUNCT	,	_	15	punct	15:punct	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(abstract-105
-13	American	American	PROPN	NNP	Number=Sing	15	amod	15:amod	_
+13	American	American	ADJ	NNP	Degree=Pos	15	amod	15:amod	_
 14	String	String	PROPN	NNP	Number=Sing	15	compound	15:compound	_
 15	Quartet	Quartet	PROPN	NNP	Number=Sing	7	appos	7:appos	Entity=abstract-105)|SpaceAfter=No
 16	,	,	PUNCT	,	_	19	punct	19:punct	_
@@ -668,8 +679,8 @@
 20	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_bio_dvorak-25
-# text = But shortfalls in payment of his salary, along with increasing recognition in Europe and an onset of homesickness, led him to leave the United States and return to Bohemia in 1895.
 # s_type = decl
+# text = But shortfalls in payment of his salary, along with increasing recognition in Europe and an onset of homesickness, led him to leave the United States and return to Bohemia in 1895.
 1	But	but	CCONJ	CC	_	21	cc	21:cc	Discourse=contrast:64->55
 2	shortfalls	shortfall	NOUN	NNS	Number=Plur	21	nsubj	21:nsubj|29:nsubj:xsubj	Entity=(event-107
 3	in	in	ADP	IN	_	4	case	4:case	_
@@ -695,8 +706,8 @@
 23	to	to	PART	TO	_	24	mark	24:mark	_
 24	leave	leave	VERB	VB	VerbForm=Inf	21	xcomp	21:xcomp	_
 25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(place-74-United_States
-26	United	United	PROPN	NNP	Number=Sing	27	amod	27:amod	_
-27	States	States	PROPN	NNPS	Number=Plur	24	obj	24:obj	Entity=place-74-United_States)
+26	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	27	amod	27:amod	_
+27	States	State	PROPN	NNPS	Number=Plur	24	obj	24:obj	Entity=place-74-United_States)
 28	and	and	CCONJ	CC	_	29	cc	29:cc	_
 29	return	return	VERB	VB	Person=2|VerbForm=Inf	24	conj	21:xcomp|24:conj:and	_
 30	to	to	ADP	IN	_	31	case	31:case	_
@@ -706,11 +717,12 @@
 34	.	.	PUNCT	.	_	21	punct	21:punct	_
 
 # sent_id = GUM_bio_dvorak-26
-# text = All of Dvořák's nine operas but his first have librettos in Czech and were intended to convey Czech national spirit, as were some of his choral works.
 # s_type = decl
+# text = All of Dvořák's nine operas but his first have librettos in Czech and were intended to convey Czech national spirit, as were some of his choral works.
 1	All	all	PRON	DT	_	10	nsubj	10:nsubj|16:nsubj:pass|18:nsubj:xsubj	Discourse=joint:65->17|Entity=(abstract-115
 2	of	of	ADP	IN	_	6	case	6:case	_
-3	Dvořák	Dvořák	PROPN	NNP	Number=Sing	6	nmod:poss	6:nmod:poss	Entity=(person-1-Antonín_Dvořák|SpaceAfter=No
+3-4	Dvořák's	_	_	_	_	_	_	_	_
+3	Dvořák	Dvořák	PROPN	NNP	Number=Sing	6	nmod:poss	6:nmod:poss	Entity=(person-1-Antonín_Dvořák
 4	's	's	PART	POS	_	3	case	3:case	Entity=person-1-Antonín_Dvořák)
 5	nine	nine	NUM	CD	NumForm=Word|NumType=Card	6	nummod	6:nummod	_
 6	operas	opera	NOUN	NNS	Number=Plur	1	nmod	1:nmod:of	_
@@ -740,8 +752,8 @@
 30	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_bio_dvorak-27
-# text = By far the most successful of the operas is Rusalka.
 # s_type = decl
+# text = By far the most successful of the operas is Rusalka.
 1	By	by	ADP	IN	_	2	case	2:case	Discourse=elaboration:68->65
 2	far	far	ADV	RB	Degree=Pos	10	nmod	10:nmod:by	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(abstract-121
@@ -755,8 +767,8 @@
 11	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_bio_dvorak-28
-# text = Among his smaller works, the seventh Humoresque and the song "Songs My Mother Taught Me" are also widely performed and recorded.
 # s_type = decl
+# text = Among his smaller works, the seventh Humoresque and the song "Songs My Mother Taught Me" are also widely performed and recorded.
 1	Among	among	ADP	IN	_	4	case	4:case	Discourse=joint:69->68
 2	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(abstract-123(person-1-Antonín_Dvořák)
 3	smaller	small	ADJ	JJR	Degree=Cmp	4	amod	4:amod	_
@@ -769,7 +781,7 @@
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Bridge=abstract-123<abstract-125|Entity=(abstract-125
 11	song	song	NOUN	NN	Number=Sing	8	conj	8:conj:and|22:nsubj:pass	Entity=abstract-125)
 12	"	''	PUNCT	``	_	13	punct	13:punct	SpaceAfter=No
-13	Songs	Songs	PROPN	NNPS	Number=Plur	11	appos	11:appos	Entity=(abstract-125
+13	Songs	Song	PROPN	NNPS	Number=Plur	11	appos	11:appos	Entity=(abstract-125
 14	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	15:nmod:poss	Entity=(person-126(person-127)
 15	Mother	Mother	PROPN	NNP	Number=Sing	16	nsubj	16:nsubj	Entity=person-126)
 16	Taught	Taught	PROPN	NNP	Number=Sing	13	acl:relcl	13:acl:relcl	_
@@ -784,8 +796,8 @@
 25	.	.	PUNCT	.	_	22	punct	22:punct	_
 
 # sent_id = GUM_bio_dvorak-29
-# text = He has been described as "arguably the most versatile ... composer of his time". [5]
 # s_type = decl
+# text = He has been described as "arguably the most versatile ... composer of his time". [5]
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	4:nsubj:pass	Discourse=evaluation:70->2|Entity=(person-1-Antonín_Dvořák)
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	aux:pass	4:aux:pass	_
@@ -796,14 +808,14 @@
 8	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	_
 9	most	most	ADV	RBS	Degree=Sup	10	advmod	10:advmod	_
 10	versatile	versatile	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
-11	...	...	PUNCT	:	_	10	punct	10:punct	_
+11	...	…	PUNCT	:	_	10	punct	10:punct	_
 12	composer	composer	NOUN	NN	Number=Sing	4	obl	4:obl:as	_
 13	of	of	ADP	IN	_	15	case	15:case	_
 14	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	15:nmod:poss	Entity=(time-129(person-1-Antonín_Dvořák)
 15	time	time	NOUN	NN	Number=Sing	12	nmod	12:nmod:of	Entity=person-128)time-129)|SpaceAfter=No
 16	"	''	PUNCT	''	_	12	punct	12:punct	SpaceAfter=No
 17	.	.	PUNCT	.	_	4	punct	4:punct	_
-18	[	[	PUNCT	-LSB-	_	19	punct	19:punct	Discourse=evidence:71->70|SpaceAfter=No
+18	[	[	PUNCT	-LRB-	_	19	punct	19:punct	Discourse=evidence:71->70|SpaceAfter=No
 19	5	5	NUM	CD	NumForm=Digit|NumType=Card	4	dep	4:dep	Entity=(abstract-130)|SpaceAfter=No
-20	]	]	PUNCT	-RSB-	_	19	punct	19:punct	_
+20	]	]	PUNCT	-RRB-	_	19	punct	19:punct	_
 

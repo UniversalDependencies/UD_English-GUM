@@ -1,15 +1,23 @@
 # newdoc id = GUM_interview_onion
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2016-09-19
+# meta::dateCreated = 2007-11-25
+# meta::dateModified = 2013-09-10
+# meta::sourceURL = https://en.wikinews.org/wiki/The_Onion:_An_interview_with_%27America%27s_Finest_News_Source%27
+# meta::speakerCount = 3
+# meta::title = The Onion: An interview with 'America's Finest News Source'
 # sent_id = GUM_interview_onion-1
-# text = The Onion: An interview with 'America's Finest News Source'
 # s_type = frag
+# text = The Onion: An interview with 'America's Finest News Source'
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=preparation:1->8|Entity=(organization-1-The_Onion
-2	Onion	onion	PROPN	NNP	Number=Sing	0	root	0:root	Entity=organization-1-The_Onion)|SpaceAfter=No
+2	Onion	Onion	PROPN	NNP	Number=Sing	0	root	0:root	Entity=organization-1-The_Onion)|SpaceAfter=No
 3	:	:	PUNCT	:	_	5	punct	5:punct	_
 4	An	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Discourse=elaboration:2->1|Entity=(event-2
 5	interview	interview	NOUN	NN	Number=Sing	2	appos	2:appos	_
 6	with	with	ADP	IN	_	12	case	12:case	_
 7	'	'	PUNCT	``	_	12	punct	12:punct	SpaceAfter=No
-8	America	America	PROPN	NNP	Number=Sing	11	nmod:poss	11:nmod:poss	Entity=(organization-1-The_Onion(place-3-United_States|SpaceAfter=No
+8-9	America's	_	_	_	_	_	_	_	_
+8	America	America	PROPN	NNP	Number=Sing	11	nmod:poss	11:nmod:poss	Entity=(organization-1-The_Onion(place-3-United_States
 9	's	's	PART	POS	_	8	case	8:case	Entity=place-3-United_States)
 10	Finest	fine	ADJ	JJS	Degree=Sup	11	amod	11:amod	_
 11	News	news	NOUN	NN	Number=Sing	12	compound	12:compound	Entity=(abstract-4)
@@ -17,8 +25,8 @@
 13	'	'	PUNCT	''	_	12	punct	12:punct	Entity=event-2)
 
 # sent_id = GUM_interview_onion-2
-# text = Sunday, November 25, 2007
 # s_type = frag
+# text = Sunday, November 25, 2007
 1	Sunday	Sunday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:3->8|Entity=(time-5)|SpaceAfter=No
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	November	November	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(time-5
@@ -27,18 +35,18 @@
 6	2007	2007	NUM	CD	NumForm=Digit|NumType=Card	4	nmod:tmod	4:nmod:tmod	Entity=(time-6)time-5)
 
 # sent_id = GUM_interview_onion-3
-# text = How The Onion writes an issue
 # s_type = decl
+# text = How The Onion writes an issue
 1	How	how	SCONJ	WRB	PronType=Int	4	mark	4:mark	Discourse=preparation:4->8
 2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(organization-1-The_Onion
-3	Onion	onion	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Entity=organization-1-The_Onion)
+3	Onion	Onion	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Entity=organization-1-The_Onion)
 4	writes	write	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(abstract-7
 6	issue	issue	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=abstract-7)
 
 # sent_id = GUM_interview_onion-4
-# text = This exclusive interview features first-hand journalism by a Wikinews reporter.
 # s_type = decl
+# text = This exclusive interview features first-hand journalism by a Wikinews reporter.
 1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Discourse=joint:5->4|Entity=(event-2
 2	exclusive	exclusive	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	interview	interview	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=event-2)
@@ -52,8 +60,8 @@
 11	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_interview_onion-5
-# text = See the collaboration page for more details.
 # s_type = imp
+# text = See the collaboration page for more details.
 1	See	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration:6->5
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=organization-10<place-11|Entity=(place-11
 3	collaboration	collaboration	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(abstract-12)
@@ -64,22 +72,22 @@
 8	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_interview_onion-6
-# text = How do you decide on the stories?
 # s_type = wh
 # speaker = DavidShankbone
+# text = How do you decide on the stories?
 1	How	how	ADV	WRB	PronType=Int	4	advmod	4:advmod	Discourse=question:7->8
 2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-14)
 4	decide	decide	VERB	VB	VerbForm=Inf	0	root	0:root	_
 5	on	on	ADP	IN	_	7	case	7:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(abstract-15
-7	stories	storey	NOUN	NNS	Number=Plur	4	obl	4:obl:on	Entity=abstract-15)|SpaceAfter=No
+7	stories	story	NOUN	NNS	Number=Plur	4	obl	4:obl:on	Entity=abstract-15)|SpaceAfter=No
 8	?	?	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_interview_onion-7
-# text = We do everything backwards here.
 # s_type = decl
 # speaker = ChetClem
+# text = We do everything backwards here.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=ROOT:8|Entity=(person-14)
 2	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	everything	everything	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=(abstract-16)
@@ -88,9 +96,9 @@
 6	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-8
-# text = We start with the headline and then flesh out the story, as opposed to The New York Times, which writes the issue and then has a headline editor to make it snappy.
 # s_type = decl
 # speaker = ChetClem
+# text = We start with the headline and then flesh out the story, as opposed to The New York Times, which writes the issue and then has a headline editor to make it snappy.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj|8:nsubj	Discourse=elaboration:9->8|Entity=(person-14)
 2	start	start	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	with	with	ADP	IN	_	5	case	5:case	_
@@ -128,9 +136,9 @@
 35	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-9
-# text = We start with a joke.
 # s_type = decl
 # speaker = ChetClem
+# text = We start with a joke.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint:15->9|Entity=(person-14)
 2	start	start	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	with	with	ADP	IN	_	5	case	5:case	_
@@ -139,9 +147,9 @@
 6	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-10
-# text = We read about six hundred to eight hundred headline ideas on a Monday coming from our staff and a small group of writers outside — a contributing core.
 # s_type = decl
 # speaker = ChetClem
+# text = We read about six hundred to eight hundred headline ideas on a Monday coming from our staff and a small group of writers outside — a contributing core.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=background:16->15|Entity=(person-14)
 2	read	read	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	about	about	ADV	RB	_	5	advmod	5:advmod	Entity=(abstract-25
@@ -165,7 +173,7 @@
 21	group	group	NOUN	NN	Number=Sing	17	conj	14:obl:from|17:conj:and	_
 22	of	of	ADP	IN	_	23	case	23:case	_
 23	writers	writer	NOUN	NNS	Number=Plur	21	nmod	21:nmod:of	_
-24	outside	outside	ADV	IN	_	23	advmod	23:advmod	Entity=person-27)person-29)
+24	outside	outside	ADV	RB	Degree=Pos	23	advmod	23:advmod	Entity=person-27)person-29)
 25	—	—	PUNCT	:	_	28	punct	28:punct	Discourse=restatement:18->17
 26	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	28:det	Entity=(person-27
 27	contributing	contribute	VERB	VBG	VerbForm=Ger	28	amod	28:amod	_
@@ -173,9 +181,9 @@
 29	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-11
-# text = We whittle that down on a Monday to about a hundred, come in Tuesday and pick an issue and brainstorm with the whole editorial staff; all fifteen of us.
 # s_type = decl
 # speaker = ChetClem
+# text = We whittle that down on a Monday to about a hundred, come in Tuesday and pick an issue and brainstorm with the whole editorial staff; all fifteen of us.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj|13:nsubj|17:nsubj	Discourse=sequence:19->15|Entity=(person-14)
 2	whittle	whittle	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	obj	2:obj	Entity=(abstract-25)
@@ -210,9 +218,9 @@
 32	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-12
-# text = Then we assign a headline to a specific writer to execute.
 # s_type = decl
 # speaker = ChetClem
+# text = Then we assign a headline to a specific writer to execute.
 1	Then	then	ADV	RB	PronType=Dem	3	advmod	3:advmod	Discourse=sequence:24->15
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-14)
 3	assign	assign	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -227,9 +235,9 @@
 12	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_onion-13
-# text = We go through a number of drafts and then have the editors pick it up and assign the photojournalism aspect of it to our graphic design team, who adds the visual aspect to it.
 # s_type = decl
 # speaker = ChetClem
+# text = We go through a number of drafts and then have the editors pick it up and assign the photojournalism aspect of it to our graphic design team, who adds the visual aspect to it.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj|10:nsubj	Discourse=sequence:26->15|Entity=(person-14)
 2	go	go	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	through	through	ADP	IN	_	5	case	5:case	_
@@ -241,12 +249,12 @@
 9	then	then	ADV	RB	PronType=Dem	10	advmod	10:advmod	_
 10	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	2:conj:and	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(person-28
-12	editors	editor	NOUN	NNS	Number=Plur	13	nsubj	13:nsubj|17:nsubj	Entity=person-28)
-13	pick	pick	VERB	VB	VerbForm=Inf	10	ccomp	10:ccomp	_
+12	editors	editor	NOUN	NNS	Number=Plur	10	obj	10:obj|13:nsubj:xsubj|17:nsubj:xsubj	Entity=person-28)
+13	pick	pick	VERB	VB	VerbForm=Inf	10	xcomp	10:xcomp	_
 14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	13:obj	Bridge=abstract-35<abstract-36|Entity=(abstract-36)
 15	up	up	ADP	RP	_	13	compound:prt	13:compound:prt	_
 16	and	and	CCONJ	CC	_	17	cc	17:cc	Discourse=sequence:28->26
-17	assign	assign	VERB	VB	Person=2|VerbForm=Inf	13	conj	10:ccomp|13:conj:and	_
+17	assign	assign	VERB	VB	Person=2|VerbForm=Inf	13	conj	10:xcomp|13:conj:and	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(abstract-37
 19	photojournalism	photojournalism	NOUN	NN	Number=Sing	20	compound	20:compound	Entity=(abstract-38)
 20	aspect	aspect	NOUN	NN	Number=Sing	17	obj	17:obj	_
@@ -268,9 +276,9 @@
 36	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-14
-# text = The editors punch it up over the last couple of days and then it goes out over the Internet and into the print edition.
 # s_type = decl
 # speaker = ChetClem
+# text = The editors punch it up over the last couple of days and then it goes out over the Internet and into the print edition.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=sequence:30->15|Entity=(person-28
 2	editors	editor	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=person-28)
 3	punch	punch	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -298,12 +306,13 @@
 25	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_onion-15
-# text = So you don’t have writers coming up with a story and headline, but you will instead have a team of writers choosing the best headlines and then assign it to a particular writer who was not necessarily involved?
 # s_type = q
 # speaker = DavidShankbone
+# text = So you don’t have writers coming up with a story and headline, but you will instead have a team of writers choosing the best headlines and then assign it to a particular writer who was not necessarily involved?
 1	So	so	ADV	RB	_	5	advmod	5:advmod	Discourse=antithesis:32->34
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-45)
-3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	5:aux	SpaceAfter=No
+3-4	don’t	_	_	_	_	_	_	_	_
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 4	n’t	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
 5	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	_
 6	writers	writer	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=(person-46)
@@ -344,9 +353,9 @@
 41	?	?	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_interview_onion-16
-# text = Writers will occasionally write their own headlines, but we come up with a list of 15 or 20 headline ideas, what we think will make a good story and then we assign it based upon what people’s writing strengths are.
 # s_type = decl
 # speaker = ChetClem
+# text = Writers will occasionally write their own headlines, but we come up with a list of 15 or 20 headline ideas, what we think will make a good story and then we assign it based upon what people’s writing strengths are.
 1	Writers	writer	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Discourse=concession:38->39|Entity=(person-46)
 2	will	will	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	occasionally	occasionally	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
@@ -385,7 +394,8 @@
 36	based	base	VERB	VBN	Tense=Past|VerbForm=Part	34	advcl	34:advcl	Discourse=manner:43->42
 37	upon	upon	ADP	IN	_	38	case	38:case	_
 38	what	what	PRON	WP	PronType=Rel	36	obl	36:obl:upon	_
-39	people	people	NOUN	NNS	Number=Plur	42	nmod:poss	42:nmod:poss	Entity=(abstract-56(person-46|SpaceAfter=No
+39-40	people’s	_	_	_	_	_	_	_	_
+39	people	person	NOUN	NNS	Number=Plur	42	nmod:poss	42:nmod:poss	Entity=(abstract-56(person-46
 40	’s	's	PART	POS	_	39	case	39:case	Entity=person-46)
 41	writing	writing	NOUN	NN	Number=Sing	42	compound	42:compound	Entity=(abstract-57)
 42	strengths	strength	NOUN	NNS	Number=Plur	43	nsubj	43:nsubj	Entity=abstract-56)
@@ -393,13 +403,13 @@
 44	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_interview_onion-17
-# text = We have some people who are great at politics; some people we give all the war stuff to; someone who is in charge of the Britney Spears story of the week — the entertainment stories.
 # s_type = decl
 # speaker = ChetClem
+# text = We have some people who are great at politics; some people we give all the war stuff to; someone who is in charge of the Britney Spears story of the week — the entertainment stories.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration:44->42|Entity=(person-14)
 2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	some	some	DET	DT	_	4	det	4:det	Bridge=person-46<person-58|Entity=(person-58
-4	people	people	NOUN	NNS	Number=Plur	2	obj	2:obj|7:nsubj	_
+4	people	person	NOUN	NNS	Number=Plur	2	obj	2:obj|7:nsubj	_
 5	who	who	PRON	WP	PronType=Rel	7	nsubj	4:ref	Discourse=elaboration:45->44
 6	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 7	great	great	ADJ	JJ	Degree=Pos	4	acl:relcl	4:acl:relcl	_
@@ -407,14 +417,14 @@
 9	politics	politics	NOUN	NNS	Number=Plur	7	obl	7:obl:at	Entity=(abstract-59)person-58)|SpaceAfter=No
 10	;	;	PUNCT	:	_	12	punct	12:punct	_
 11	some	some	DET	DT	_	12	det	12:det	Bridge=person-46<person-60|Discourse=same-unit:46->44|Entity=(person-60
-12	people	people	NOUN	NNS	Number=Plur	4	conj	2:obj|4:conj	Entity=person-60)
+12	people	person	NOUN	NNS	Number=Plur	4	conj	2:obj|4:conj	Entity=person-60)
 13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	14:nsubj	Discourse=elaboration:47->46|Entity=(person-14)
 14	give	give	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	acl:relcl	12:acl:relcl	_
 15	all	all	PRON	PDT	_	18	det:predet	18:det:predet	Entity=(abstract-61
 16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	_
 17	war	war	NOUN	NN	Number=Sing	18	compound	18:compound	Entity=(event-62)
 18	stuff	stuff	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=abstract-61)
-19	to	to	PART	TO	_	14	obl	14:obl	SpaceAfter=No
+19	to	to	ADP	IN	_	14	obl	14:obl	SpaceAfter=No
 20	;	;	PUNCT	:	_	21	punct	21:punct	_
 21	someone	someone	NOUN	NN	Number=Sing	4	conj	2:obj|4:conj|25:nsubj	Bridge=person-46<person-63|Discourse=same-unit:48->44|Entity=(person-63
 22	who	who	PRON	WP	PronType=Rel	25	nsubj	21:ref	Discourse=condition:49->48
@@ -432,40 +442,40 @@
 34	—	—	PUNCT	:	_	37	punct	37:punct	Discourse=elaboration:50->49
 35	the	the	DET	DT	Definite=Def|PronType=Art	37	det	37:det	Bridge=abstract-64<abstract-67|Entity=(abstract-67
 36	entertainment	entertainment	NOUN	NN	Number=Sing	37	compound	37:compound	Entity=(abstract-68)
-37	stories	storey	NOUN	NNS	Number=Plur	30	parataxis	30:parataxis	Entity=person-63)abstract-67)|SpaceAfter=No
+37	stories	story	NOUN	NNS	Number=Plur	30	parataxis	30:parataxis	Entity=person-63)abstract-67)|SpaceAfter=No
 38	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-18
-# text = The headlines
 # s_type = frag
+# text = The headlines
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=preparation:51->58|Entity=(abstract-69
 2	headlines	headline	NOUN	NNS	Number=Plur	0	root	0:root	Entity=abstract-69)
 
 # sent_id = GUM_interview_onion-19
-# text = Editorial Manager Chet Clem and President Sean Mills.
 # s_type = frag
-1	Editorial	editorial	NOUN	NN	Number=Sing	2	amod	2:amod	Discourse=background:52->58|Entity=(person-70
-2	Manager	Manager	NOUN	NN	Number=Sing	3	amod	3:amod	_
-3	Chet	Chet	PROPN	NNP	Number=Sing	0	root	0:root	_
-4	Clem	Clem	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=person-70)
+# text = Editorial Manager Chet Clem and President Sean Mills.
+1	Editorial	editorial	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=background:52->58|Entity=(person-70
+2	Manager	manager	NOUN	NN	Number=Sing	0	root	0:root	_
+3	Chet	Chet	PROPN	NNP	Number=Sing	2	flat	2:flat	_
+4	Clem	Clem	PROPN	NNP	Number=Sing	2	flat	2:flat	Entity=person-70)
 5	and	and	CCONJ	CC	_	6	cc	6:cc	_
-6	President	President	NOUN	NN	Number=Sing	3	conj	3:conj:and	Entity=(person-71
+6	President	President	PROPN	NNP	Number=Sing	2	conj	2:conj:and	Entity=(person-71
 7	Sean	Sean	PROPN	NNP	Number=Sing	6	flat	6:flat	_
 8	Mills	Mills	PROPN	NNP	Number=Sing	6	flat	6:flat	Entity=person-71)|SpaceAfter=No
-9	.	.	PUNCT	.	_	3	punct	3:punct	_
+9	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-20
-# text = Image: David Shankbone
 # s_type = frag
+# text = Image: David Shankbone
 1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:53->54|Entity=(abstract-72)|SpaceAfter=No
 2	:	:	PUNCT	:	_	3	punct	3:punct	_
 3	David	David	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:54->52|Entity=(person-73-David_Shankbone
 4	Shankbone	Shankbone	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=person-73-David_Shankbone)
 
 # sent_id = GUM_interview_onion-21
-# text = It seems like some publications, like AM New York, always have a Britney Spears story;
 # s_type = decl
 # speaker = DavidShankbone
+# text = It seems like some publications, like AM New York, always have a Britney Spears story;
 1	It	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	2:expl	Discourse=background:55->56|Entity=(event-74)
 2	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	like	like	SCONJ	IN	_	13	mark	13:mark	_
@@ -486,16 +496,16 @@
 18	;	;	PUNCT	:	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-22
-# text = is there anything similar with The Onion where they continually revisit a topic or person?
 # s_type = q
 # speaker = DavidShankbone
+# text = is there anything similar with The Onion where they continually revisit a topic or person?
 1	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=question:56->58
 2	there	there	PRON	EX	_	1	expl	1:expl	_
 3	anything	anything	NOUN	NN	Number=Sing	1	nsubj	1:nsubj	Entity=(abstract-77
 4	similar	similar	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=abstract-77)
 5	with	with	ADP	IN	_	7	case	7:case	_
 6	The	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(organization-1-The_Onion
-7	Onion	onion	PROPN	NNP	Number=Sing	3	nmod	3:nmod:with	Entity=organization-1-The_Onion)
+7	Onion	Onion	PROPN	NNP	Number=Sing	3	nmod	3:nmod:with	Entity=organization-1-The_Onion)
 8	where	where	ADV	WRB	PronType=Rel	11	advmod	11:advmod	Discourse=elaboration:57->56
 9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	11:nsubj	Entity=(organization-1-The_Onion)
 10	continually	continually	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
@@ -507,9 +517,9 @@
 16	?	?	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_interview_onion-23
-# text = No, not necessarily.
 # s_type = intj
 # speaker = ChetClem
+# text = No, not necessarily.
 1	No	no	INTJ	UH	Polarity=Neg	4	discourse	4:discourse	Discourse=joint:58->8|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
@@ -517,21 +527,21 @@
 5	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_interview_onion-24
-# text = We are a little less reactionary.
 # s_type = decl
 # speaker = ChetClem
+# text = We are a little less reactionary.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	6:nsubj	Discourse=elaboration:59->58|Entity=(person-14)
 2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	_
-4	little	little	ADV	RB	Degree=Pos	5	nmod:npmod	5:nmod:npmod	_
+4	little	little	ADJ	JJ	Degree=Pos	5	obl:npmod	5:obl:npmod	_
 5	less	less	ADV	RBR	Degree=Cmp	6	advmod	6:advmod	_
 6	reactionary	reactionary	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
 7	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_interview_onion-25
-# text = We tend to target the zeitgeist more than anything.
 # s_type = decl
 # speaker = ChetClem
+# text = We tend to target the zeitgeist more than anything.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj|4:nsubj:xsubj	Discourse=joint:60->59|Entity=(person-14)
 2	tend	tend	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	to	to	PART	TO	_	4	mark	4:mark	_
@@ -544,15 +554,17 @@
 10	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-26
-# text = We’ll hit the mainstream media’s portrayal of the entertainment world as much as we’ll hit characters in the entertainment world.
 # s_type = decl
 # speaker = ChetClem
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=elaboration:61->60|Entity=(person-14)|SpaceAfter=No
+# text = We’ll hit the mainstream media’s portrayal of the entertainment world as much as we’ll hit characters in the entertainment world.
+1-2	We’ll	_	_	_	_	_	_	_	_
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=elaboration:61->60|Entity=(person-14)
 2	’ll	will	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	hit	hit	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(abstract-82
 5	mainstream	mainstream	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(organization-83
-6	media	media	NOUN	NN	Number=Sing	8	nmod:poss	8:nmod:poss	SpaceAfter=No
+6-7	media’s	_	_	_	_	_	_	_	_
+6	media	media	NOUN	NN	Number=Sing	8	nmod:poss	8:nmod:poss	_
 7	’s	's	PART	POS	_	6	case	6:case	Entity=organization-83)
 8	portrayal	portrayal	NOUN	NN	Number=Sing	3	obj	3:obj	_
 9	of	of	ADP	IN	_	12	case	12:case	_
@@ -562,7 +574,8 @@
 13	as	as	ADV	RB	_	14	advmod	14:advmod	_
 14	much	much	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
 15	as	as	SCONJ	IN	_	18	mark	18:mark	Discourse=manner:62->61
-16	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	18:nsubj	Entity=(person-14)|SpaceAfter=No
+16-17	we’ll	_	_	_	_	_	_	_	_
+16	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	18:nsubj	Entity=(person-14)
 17	’ll	will	AUX	MD	VerbForm=Fin	18	aux	18:aux	_
 18	hit	hit	VERB	VB	VerbForm=Inf	14	advcl	14:advcl:as	_
 19	characters	character	NOUN	NNS	Number=Plur	18	obj	18:obj	Entity=(person-85
@@ -573,14 +586,16 @@
 24	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_onion-27
-# text = We’ll attack People Magazine’s coverage of Britney as much as Britney.
 # s_type = decl
 # speaker = ChetClem
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=evidence:63->61|Entity=(person-14)|SpaceAfter=No
+# text = We’ll attack People Magazine’s coverage of Britney as much as Britney.
+1-2	We’ll	_	_	_	_	_	_	_	_
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=evidence:63->61|Entity=(person-14)
 2	’ll	will	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	attack	attack	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	People	People	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=(abstract-86(organization-87-People_%28magazine%29
-5	Magazine	Magazine	PROPN	NNP	Number=Sing	7	nmod:poss	7:nmod:poss	SpaceAfter=No
+5-6	Magazine’s	_	_	_	_	_	_	_	_
+5	Magazine	Magazine	PROPN	NNP	Number=Sing	7	nmod:poss	7:nmod:poss	_
 6	’s	's	PART	POS	_	5	case	5:case	Entity=organization-87-People_%28magazine%29)
 7	coverage	coverage	NOUN	NN	Number=Sing	3	obj	3:obj	_
 8	of	of	ADP	IN	_	9	case	9:case	_
@@ -592,9 +607,9 @@
 14	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_onion-28
-# text = In an interview with Terry Gross, Stephen Colbert said of his time at Second City that they had decided on not doing political humor and, in particular, hackneyed political humor such as Ted Kennedy drinking jokes.
 # s_type = decl
 # speaker = DavidShankbone
+# text = In an interview with Terry Gross, Stephen Colbert said of his time at Second City that they had decided on not doing political humor and, in particular, hackneyed political humor such as Ted Kennedy drinking jokes.
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=attribution:64->65
 2	an	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Entity=(event-88
 3	interview	interview	NOUN	NN	Number=Sing	10	obl	10:obl:in	_
@@ -609,7 +624,7 @@
 12	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(time-91(person-90-Stephen_Colbert)
 13	time	time	NOUN	NN	Number=Sing	10	obl	10:obl:of	_
 14	at	at	ADP	IN	_	16	case	16:case	_
-15	Second	Second	PROPN	NNP	Number=Sing	16	amod	16:amod	Entity=(organization-92-The_Second_City
+15	Second	Second	ADJ	NNP	Degree=Pos	16	amod	16:amod	Entity=(organization-92-The_Second_City
 16	City	City	PROPN	NNP	Number=Sing	13	nmod	13:nmod:at	Entity=time-91)organization-92-The_Second_City)
 17	that	that	SCONJ	IN	_	20	mark	20:mark	Discourse=background:65->68
 18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	20:nsubj	Entity=(organization-92-The_Second_City)
@@ -632,14 +647,14 @@
 35	as	as	ADP	IN	_	34	fixed	34:fixed	_
 36	Ted	Ted	PROPN	NNP	Number=Sing	39	compound	39:compound	Entity=(abstract-95(person-96-Ted_Kennedy
 37	Kennedy	Kennedy	PROPN	NNP	Number=Sing	36	flat	36:flat	Entity=person-96-Ted_Kennedy)
-38	drinking	drinking	NOUN	NN	Number=Sing	39	amod	39:amod	_
+38	drinking	drinking	NOUN	NN	Number=Sing	39	compound	39:compound	_
 39	jokes	joke	NOUN	NNS	Number=Plur	33	nmod	33:nmod:such_as	Entity=abstract-94)abstract-95)|SpaceAfter=No
 40	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_interview_onion-29
-# text = They felt it was overdone, mean-spirited and not funny.
 # s_type = decl
 # speaker = DavidShankbone
+# text = They felt it was overdone, mean-spirited and not funny.
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:66->67|Entity=(organization-92-The_Second_City)
 2	felt	feel	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	5:nsubj:pass|7:nsubj:xsubj|10:nsubj:xsubj	Discourse=cause:67->65|Entity=(abstract-94)
@@ -653,9 +668,9 @@
 11	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-30
-# text = Do your writers have similar rules of thumb?
 # s_type = q
 # speaker = DavidShankbone
+# text = Do your writers have similar rules of thumb?
 1	Do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	Discourse=question:68->71
 2	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(person-46(person-14)
 3	writers	writer	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=person-46)
@@ -667,11 +682,12 @@
 9	?	?	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_interview_onion-31
-# text = We don’t have any rules or known lines we won’t cross.
 # s_type = decl
 # speaker = ChetClem
+# text = We don’t have any rules or known lines we won’t cross.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=antithesis:69->71|Entity=(person-14)
-2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	SpaceAfter=No
+2-3	don’t	_	_	_	_	_	_	_	_
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	n’t	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	_
 5	any	any	DET	DT	_	6	det	6:det	Entity=(abstract-98
@@ -680,15 +696,16 @@
 8	known	know	VERB	VBN	Tense=Past|VerbForm=Part	9	amod	9:amod	Entity=(abstract-99
 9	lines	line	NOUN	NNS	Number=Plur	6	conj	4:obj|6:conj:or	_
 10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	13:nsubj	Discourse=elaboration:70->69|Entity=(person-14)
-11	wo	will	AUX	MD	VerbForm=Fin	13	aux	13:aux	SpaceAfter=No
+11-12	won’t	_	_	_	_	_	_	_	_
+11	wo	will	AUX	MD	VerbForm=Fin	13	aux	13:aux	_
 12	n’t	not	PART	RB	Polarity=Neg	13	advmod	13:advmod	_
 13	cross	cross	NOUN	NN	Number=Sing	6	acl:relcl	6:acl:relcl	Entity=abstract-99)|SpaceAfter=No
 14	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_interview_onion-32
-# text = We have an understanding based upon having the same writers in the back room for years, and those writers training the new writers as they come in.
 # s_type = decl
 # speaker = ChetClem
+# text = We have an understanding based upon having the same writers in the back room for years, and those writers training the new writers as they come in.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint:71->58|Entity=(person-14)
 2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(abstract-100
@@ -720,9 +737,9 @@
 29	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-33
-# text = There is an understanding in the room.
 # s_type = decl
 # speaker = ChetClem
+# text = There is an understanding in the room.
 1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=restatement:75->71
 2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(abstract-100
@@ -733,15 +750,15 @@
 8	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-34
-# text = If it makes the room laugh, it probably ends up in the paper.
 # s_type = decl
 # speaker = ChetClem
+# text = If it makes the room laugh, it probably ends up in the paper.
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=condition:76->77
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(abstract-102)
 3	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	10:advcl:if	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(place-101
-5	room	room	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=place-101)
-6	laugh	laugh	VERB	VB	VerbForm=Inf	3	ccomp	3:ccomp	SpaceAfter=No
+5	room	room	NOUN	NN	Number=Sing	3	obj	3:obj|6:nsubj:xsubj	Entity=place-101)
+6	laugh	laugh	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	SpaceAfter=No
 7	,	,	PUNCT	,	_	3	punct	3:punct	_
 8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj	Discourse=elaboration:77->71|Entity=(abstract-102)
 9	probably	probably	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
@@ -753,9 +770,9 @@
 15	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_interview_onion-35
-# text = One example is we ran an article a couple of years back that was, "No Jennifer Lopez News Today".
 # s_type = decl
 # speaker = ChetClem
+# text = One example is we ran an article a couple of years back that was, "No Jennifer Lopez News Today".
 1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=elaboration:78->77|Entity=(abstract-104
 2	example	example	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=abstract-104)
 3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -775,15 +792,15 @@
 17	No	no	DET	DT	Polarity=Neg	21	det	21:det	_
 18	Jennifer	Jennifer	PROPN	NNP	Number=Sing	21	compound	21:compound	Entity=(abstract-105(person-108-Jennifer_Lopez
 19	Lopez	Lopez	PROPN	NNP	Number=Sing	21	compound	21:compound	Entity=person-108-Jennifer_Lopez)
-20	News	News	NOUN	NN	Number=Sing	21	compound	21:compound	Entity=abstract-105)
-21	Today	Today	NOUN	NN	Number=Sing	14	parataxis	14:parataxis	Entity=(time-109)|SpaceAfter=No
+20	News	news	NOUN	NN	Number=Sing	21	compound	21:compound	Entity=abstract-105)
+21	Today	today	NOUN	NN	Number=Sing	14	parataxis	14:parataxis	Entity=(time-109)|SpaceAfter=No
 22	"	''	PUNCT	''	_	21	punct	21:punct	Entity=abstract-105)abstract-107)|SpaceAfter=No
 23	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_onion-36
-# text = That was our reaction to all of the J-Lo stuff.
 # s_type = decl
 # speaker = ChetClem
+# text = That was our reaction to all of the J-Lo stuff.
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Discourse=background:80->78|Entity=(abstract-107)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
 3	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(abstract-107(person-14)
@@ -797,11 +814,12 @@
 11	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_interview_onion-37
-# text = We weren’t going to touch on her dress, or who she was dating.
 # s_type = decl
 # speaker = ChetClem
+# text = We weren’t going to touch on her dress, or who she was dating.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj|6:nsubj:xsubj	Discourse=antithesis:81->82|Entity=(person-14)
-2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	aux	4:aux	SpaceAfter=No
+2-3	weren’t	_	_	_	_	_	_	_	_
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	aux	4:aux	_
 3	n’t	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
 5	to	to	PART	TO	_	6	mark	6:mark	_
@@ -818,9 +836,9 @@
 16	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_interview_onion-38
-# text = Just the fact that those were the lead stories for so many days, in everything from US Weekly to Time Magazine.
 # s_type = frag
 # speaker = ChetClem
+# text = Just the fact that those were the lead stories for so many days, in everything from US Weekly to Time Magazine.
 1	Just	just	ADV	RB	_	3	advmod	3:advmod	Discourse=elaboration:82->78
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(abstract-114
 3	fact	fact	NOUN	NN	Number=Sing	0	root	0:root	_
@@ -829,7 +847,7 @@
 6	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	cop	9:cop	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(abstract-111
 8	lead	lead	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
-9	stories	storey	NOUN	NNS	Number=Plur	3	acl	3:acl:that	Entity=abstract-111)
+9	stories	story	NOUN	NNS	Number=Plur	3	acl	3:acl:that	Entity=abstract-111)
 10	for	for	ADP	IN	_	13	case	13:case	_
 11	so	so	ADV	RB	_	12	advmod	12:advmod	Entity=(time-115
 12	many	many	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
@@ -846,12 +864,13 @@
 23	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_onion-39
-# text = I think it’s important we have an original take on those things.
 # s_type = decl
 # speaker = SeanMills
+# text = I think it’s important we have an original take on those things.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:84->85|Entity=(person-119)
 2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	5:expl	Discourse=joint:85->71|Entity=(event-120)|SpaceAfter=No
+3-4	it’s	_	_	_	_	_	_	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	5:expl	Discourse=joint:85->71|Entity=(event-120)
 4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 5	important	important	ADJ	JJ	Degree=Pos	2	ccomp	2:ccomp	_
 6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	7:nsubj	Entity=(event-120(person-14)
@@ -865,12 +884,13 @@
 14	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-40
-# text = I think it’s similar to what Colbert said to Terry Gross.
 # s_type = decl
 # speaker = SeanMills
+# text = I think it’s similar to what Colbert said to Terry Gross.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:86->87|Entity=(person-119)
 2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj|5:nsubj:xsubj	Discourse=evaluation:87->88|Entity=(abstract-122)|SpaceAfter=No
+3-4	it’s	_	_	_	_	_	_	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj|5:nsubj:xsubj	Discourse=evaluation:87->88|Entity=(abstract-122)
 4	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp	_
 5	similar	similar	ADJ	JJ	Degree=Pos	4	xcomp	4:xcomp	_
 6	to	to	ADP	IN	_	7	case	7:case	_
@@ -883,11 +903,12 @@
 13	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-41
-# text = We don’t want to just traffic in the same 24 hour news cycle.
 # s_type = decl
 # speaker = SeanMills
+# text = We don’t want to just traffic in the same 24 hour news cycle.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=antithesis:88->85|Entity=(abstract-122(person-14)
-2	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+2-3	don’t	_	_	_	_	_	_	_	_
+2	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	n’t	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp	_
 5	to	to	ADP	IN	_	7	case	7:case	_
@@ -903,10 +924,11 @@
 15	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-42
-# text = There’s a 24 hour comedy news cycle that exists on all the late night talk shows.
 # s_type = decl
 # speaker = SeanMills
-1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=antithesis:89->91|SpaceAfter=No
+# text = There’s a 24 hour comedy news cycle that exists on all the late night talk shows.
+1-2	There’s	_	_	_	_	_	_	_	_
+1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=antithesis:89->91
 2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(abstract-126
 4	24	24	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	5:nummod	Entity=(time-124
@@ -926,11 +948,11 @@
 18	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-43
-# text = The Onion has a different creative process where we are not trying to hit everything in the 24 hours and on the same notes.
 # s_type = decl
 # speaker = SeanMills
+# text = The Onion has a different creative process where we are not trying to hit everything in the 24 hours and on the same notes.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=cause:91->93|Entity=(organization-1-The_Onion
-2	Onion	onion	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Entity=organization-1-The_Onion)
+2	Onion	Onion	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Entity=organization-1-The_Onion)
 3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(abstract-130
 5	different	different	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
@@ -956,9 +978,9 @@
 25	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_onion-44
-# text = We want an original take.
 # s_type = decl
 # speaker = SeanMills
+# text = We want an original take.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=restatement:93->85|Entity=(person-14)
 2	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(abstract-121
@@ -967,9 +989,9 @@
 6	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-45
-# text = If we choose to do something on J-Lo, it’s going to be something like that, something less obvious.
 # s_type = decl
 # speaker = SeanMills
+# text = If we choose to do something on J-Lo, it’s going to be something like that, something less obvious.
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=condition:94->95
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Entity=(person-14)
 3	choose	choose	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:if	_
@@ -979,7 +1001,8 @@
 7	on	on	ADP	IN	_	8	case	8:case	_
 8	J-Lo	J-Lo	PROPN	NNP	Number=Sing	5	obl	5:obl:on	Entity=(person-108-Jennifer_Lopez)abstract-133)|SpaceAfter=No
 9	,	,	PUNCT	,	_	3	punct	3:punct	_
-10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	Discourse=elaboration:95->93|Entity=(abstract-133)|SpaceAfter=No
+10-11	it’s	_	_	_	_	_	_	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	Discourse=elaboration:95->93|Entity=(abstract-133)
 11	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 12	going	go	VERB	VBG	VerbForm=Ger	11	advcl	11:advcl	_
 13	to	to	PART	TO	_	15	mark	15:mark	_
@@ -994,9 +1017,9 @@
 22	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_interview_onion-46
-# text = When you are going through the headlines, is it just you guys sitting around trying to crack each other up?
 # s_type = q
 # speaker = DavidShankbone
+# text = When you are going through the headlines, is it just you guys sitting around trying to crack each other up?
 1	When	when	ADV	WRB	PronType=Int	4	advmod	4:advmod	Discourse=circumstance:96->97|Entity=(event-134
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-14)
 3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
@@ -1021,10 +1044,11 @@
 22	?	?	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_interview_onion-47
-# text = It’s the least amount of fun possible.
 # s_type = decl
 # speaker = ChetClem
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=antithesis:99->101|Entity=(event-134)|SpaceAfter=No
+# text = It’s the least amount of fun possible.
+1-2	It’s	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=antithesis:99->101|Entity=(event-134)
 2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(abstract-135
 4	least	least	ADJ	JJS	Degree=Sup	5	amod	5:amod	_
@@ -1035,36 +1059,40 @@
 9	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-48
-# text = Nah, I’m kidding.
 # s_type = decl
 # speaker = ChetClem
-1	Nah	Nah	INTJ	UH	_	4	discourse	4:discourse	Discourse=evaluation:100->99|SpaceAfter=No
+# text = Nah, I’m kidding.
+1	Nah	nah	INTJ	UH	_	4	discourse	4:discourse	Discourse=evaluation:100->99|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj|5:nsubj:xsubj	Entity=(person-119)|SpaceAfter=No
+3-4	I’m	_	_	_	_	_	_	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj|5:nsubj:xsubj	Entity=(person-119)
 4	’m	be	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	kidding	kid	VERB	VBG	VerbForm=Ger	4	xcomp	4:xcomp	SpaceAfter=No
 6	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_interview_onion-49
-# text = It’s actually more businesslike than you’d imagine.
 # s_type = decl
 # speaker = ChetClem
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|5:nsubj:xsubj	Discourse=joint:101->58|Entity=(event-134)|SpaceAfter=No
+# text = It’s actually more businesslike than you’d imagine.
+1-2	It’s	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|5:nsubj:xsubj	Discourse=joint:101->58|Entity=(event-134)
 2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	actually	actually	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 4	more	more	ADV	RBR	Degree=Cmp	5	advmod	5:advmod	_
 5	businesslike	businesslike	ADJ	JJ	Degree=Pos	2	xcomp	2:xcomp	_
 6	than	than	SCONJ	IN	_	9	mark	9:mark	Discourse=antithesis:102->101
-7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Entity=(person-45)|SpaceAfter=No
-8	’d	would	AUX	MD	VerbForm=Fin	9	aux	9:aux	_
+7-8	you’d	_	_	_	_	_	_	_	_
+7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Entity=(person-45)
+8	’d	will	AUX	MD	VerbForm=Fin	9	aux	9:aux	_
 9	imagine	imagine	VERB	VB	VerbForm=Inf	5	ccomp	5:ccomp	SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-50
-# text = It’s very much like you are trying to make the room laugh, but the room has been a sort of captive audience for many many years now, so it takes a lot to make the room laugh.
 # s_type = decl
 # speaker = ChetClem
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj|10:nsubj:xsubj|13:nsubj:xsubj	Discourse=elaboration:103->101|Entity=(event-134)|SpaceAfter=No
+# text = It’s very much like you are trying to make the room laugh, but the room has been a sort of captive audience for many many years now, so it takes a lot to make the room laugh.
+1-2	It’s	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj|10:nsubj:xsubj|13:nsubj:xsubj	Discourse=elaboration:103->101|Entity=(event-134)
 2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
 3	very	very	ADV	RB	_	4	advmod	4:advmod	_
 4	much	much	ADV	RB	Degree=Pos	8	advmod	8:advmod	_
@@ -1107,13 +1135,14 @@
 41	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_interview_onion-51
-# text = The best analogy I’ve heard is when Rob Siegel, former editor-in-chief, likened it to wine tasting.
 # s_type = decl
 # speaker = SeanMills
+# text = The best analogy I’ve heard is when Rob Siegel, former editor-in-chief, likened it to wine tasting.
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Discourse=background:106->109|Entity=(abstract-140
 2	best	good	ADJ	JJS	Degree=Sup	4	amod	4:amod	_
 3	analogy	analogy	NOUN	NN	Number=Sing	4	compound	4:compound	_
-4	I	I	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Discourse=elaboration:107->106|Entity=(person-119)|SpaceAfter=No
+4-5	I’ve	_	_	_	_	_	_	_	_
+4	I	I	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Discourse=elaboration:107->106|Entity=(person-119)
 5	’ve	have	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 6	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	7	csubj	7:csubj	Entity=abstract-140)
 7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	5:ccomp	Discourse=same-unit:108->106
@@ -1132,10 +1161,11 @@
 20	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_interview_onion-52
-# text = It’s this quiet experience where you are trying to soak in what the joke is, have we done anything like this, is it a unique take, what are other people doing.
 # s_type = decl
 # speaker = SeanMills
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint:109->101|Entity=(event-134)|SpaceAfter=No
+# text = It’s this quiet experience where you are trying to soak in what the joke is, have we done anything like this, is it a unique take, what are other people doing.
+1-2	It’s	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint:109->101|Entity=(event-134)
 2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	ccomp	26:ccomp	_
 3	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	5:det	Entity=(event-134
 4	quiet	quiet	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
@@ -1168,15 +1198,16 @@
 31	what	what	PRON	WP	PronType=Rel	34	nsubj	29:ref	Discourse=joint:113->110
 32	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	34:cop	_
 33	other	other	ADJ	JJ	Degree=Pos	34	amod	34:amod	Entity=(person-147
-34	people	people	NOUN	NNS	Number=Plur	29	acl:relcl	29:acl:relcl	Entity=person-147)
+34	people	person	NOUN	NNS	Number=Plur	29	acl:relcl	29:acl:relcl	Entity=person-147)
 35	doing	do	VERB	VBG	VerbForm=Ger	34	acl	34:acl	SpaceAfter=No
 36	.	.	PUNCT	.	_	26	punct	26:punct	_
 
 # sent_id = GUM_interview_onion-53
-# text = It’s sort of like," Hmmm ... that’s hilarious. That’s really really funny" rather than people falling off their chairs.
 # s_type = decl
 # speaker = SeanMills
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Discourse=elaboration:114->109|Entity=(event-134)|SpaceAfter=No
+# text = It’s sort of like," Hmmm ... that’s hilarious. That’s really really funny" rather than people falling off their chairs.
+1-2	It’s	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Discourse=elaboration:114->109|Entity=(event-134)
 2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
 3	sort	sort	NOUN	NN	Number=Sing	12	obl:npmod	12:obl:npmod	_
 4	of	of	ADP	IN	_	3	fixed	3:fixed	_
@@ -1184,12 +1215,14 @@
 6	,	,	PUNCT	,	_	5	punct	5:punct	SpaceAfter=No
 7	"	''	PUNCT	''	_	12	punct	12:punct	_
 8	Hmmm	Hmmm	INTJ	UH	_	12	discourse	12:discourse	_
-9	...	...	PUNCT	:	_	8	punct	8:punct	_
-10	that	that	PRON	DT	Number=Sing|PronType=Dem	12	nsubj	12:nsubj	Entity=(abstract-144)|SpaceAfter=No
+9	...	…	PUNCT	:	_	8	punct	8:punct	_
+10-11	that’s	_	_	_	_	_	_	_	_
+10	that	that	PRON	DT	Number=Sing|PronType=Dem	12	nsubj	12:nsubj	Entity=(abstract-144)
 11	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
 12	hilarious	hilarious	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
 13	.	.	PUNCT	.	_	12	punct	12:punct	_
-14	That	that	PRON	DT	Number=Sing|PronType=Dem	18	nsubj	18:nsubj	Discourse=restatement:115->114|Entity=(abstract-144)|SpaceAfter=No
+14-15	That’s	_	_	_	_	_	_	_	_
+14	That	that	PRON	DT	Number=Sing|PronType=Dem	18	nsubj	18:nsubj	Discourse=restatement:115->114|Entity=(abstract-144)
 15	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	_
 16	really	really	ADV	RB	Degree=Pos	18	advmod	18:advmod	_
 17	really	really	ADV	RB	Degree=Pos	18	advmod	18:advmod	_
@@ -1197,7 +1230,7 @@
 19	"	''	PUNCT	''	_	12	punct	12:punct	_
 20	rather	rather	ADV	RB	_	23	cc	23:cc	Discourse=antithesis:116->114
 21	than	than	ADP	IN	_	20	fixed	20:fixed	_
-22	people	people	NOUN	NNS	Number=Plur	23	nsubj	23:nsubj	Entity=(person-148)
+22	people	person	NOUN	NNS	Number=Plur	23	nsubj	23:nsubj	Entity=(person-148)
 23	falling	fall	VERB	VBG	VerbForm=Ger	12	conj	12:conj:rather_than	_
 24	off	off	ADP	IN	_	26	case	26:case	_
 25	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(object-149(person-148)
@@ -1205,10 +1238,11 @@
 27	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_interview_onion-54
-# text = It’s more subdued than I think what most people would expect.
 # s_type = decl
 # speaker = SeanMills
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|4:nsubj:xsubj	Discourse=evaluation:117->114|Entity=(event-134)|SpaceAfter=No
+# text = It’s more subdued than I think what most people would expect.
+1-2	It’s	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|4:nsubj:xsubj	Discourse=evaluation:117->114|Entity=(event-134)
 2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	more	more	ADV	RBR	Degree=Cmp	4	advmod	4:advmod	_
 4	subdued	subdued	ADJ	JJ	Degree=Pos	2	xcomp	2:xcomp	_
@@ -1217,16 +1251,17 @@
 7	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp	4:ccomp	_
 8	what	what	PRON	WP	PronType=Int	12	obj	12:obj	Discourse=antithesis:119->117
 9	most	most	ADJ	JJS	Degree=Sup	10	amod	10:amod	Entity=(person-150
-10	people	people	NOUN	NNS	Number=Plur	12	nsubj	12:nsubj	Entity=person-150)
+10	people	person	NOUN	NNS	Number=Plur	12	nsubj	12:nsubj	Entity=person-150)
 11	would	would	AUX	MD	VerbForm=Fin	12	aux	12:aux	_
 12	expect	expect	VERB	VB	VerbForm=Inf	7	ccomp	7:ccomp	SpaceAfter=No
 13	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-55
-# text = It’s more analytical and clinical?
 # s_type = q
 # speaker = DavidShankbone
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|4:nsubj:xsubj|6:nsubj:xsubj	Discourse=question:120->122|Entity=(event-134)|SpaceAfter=No
+# text = It’s more analytical and clinical?
+1-2	It’s	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|4:nsubj:xsubj|6:nsubj:xsubj	Discourse=question:120->122|Entity=(event-134)
 2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	more	more	ADV	RBR	Degree=Cmp	4	advmod	4:advmod	_
 4	analytical	analytical	ADJ	JJ	Degree=Pos	2	xcomp	2:xcomp	_
@@ -1235,37 +1270,38 @@
 7	?	?	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-56
-# text = Not all the time, but it can’t be a laugh a minute.
 # s_type = multiple
 # speaker = SeanMills
+# text = Not all the time, but it can’t be a laugh a minute.
 1	Not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Discourse=concession:121->122
 2	all	all	PRON	PDT	_	4	det:predet	4:det:predet	Entity=(time-151
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_
 4	time	time	NOUN	NN	Number=Sing	12	parataxis	12:parataxis	Entity=time-151)|SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
-6	but	but	CCONJ	CC	_	12	advmod	12:advmod	Discourse=joint:122->58
+6	but	but	CCONJ	CC	_	12	cc	12:cc	Discourse=joint:122->58
 7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Entity=(event-134)
-8	ca	can	AUX	MD	VerbForm=Fin	12	aux	12:aux	SpaceAfter=No
+8-9	can’t	_	_	_	_	_	_	_	_
+8	ca	can	AUX	MD	VerbForm=Fin	12	aux	12:aux	_
 9	n’t	not	PART	RB	Polarity=Neg	12	advmod	12:advmod	_
 10	be	be	AUX	VB	VerbForm=Inf	12	cop	12:cop	_
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(event-152
 12	laugh	laugh	NOUN	NN	Number=Sing	0	root	0:root	Entity=event-152)
 13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(time-153
-14	minute	minute	NOUN	NN	Number=Sing	12	nmod:npmod	12:nmod:npmod	Entity=time-153)|SpaceAfter=No
+14	minute	minute	NOUN	NN	Number=Sing	12	obl:tmod	12:obl:tmod	Entity=time-153)|SpaceAfter=No
 15	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_interview_onion-57
-# text = Yeah, what you see on Studio 60 and 30 Rock, those are scripted writers rooms.
 # s_type = decl
 # speaker = ChetClem
+# text = Yeah, what you see on Studio 60 and 30 Rock, those are scripted writers rooms.
 1	Yeah	yeah	INTJ	UH	_	17	discourse	17:discourse	Discourse=antithesis:123->125|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	what	what	PRON	WP	PronType=Rel	17	dislocated	17:dislocated	Entity=(place-154
 4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-45)
 5	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	acl:relcl	3:acl:relcl	_
 6	on	on	ADP	IN	_	7	case	7:case	_
-7	Studio	studio	PROPN	NNP	Number=Sing	5	obl	5:obl:on	Entity=(abstract-155-Studio_60_on_the_Sunset_Strip
-8	60	60	PROPN	NNP	Number=Sing	7	flat	7:flat	Entity=abstract-155-Studio_60_on_the_Sunset_Strip)
+7	Studio	Studio	PROPN	NNP	Number=Sing	5	obl	5:obl:on	Entity=(abstract-155-Studio_60_on_the_Sunset_Strip
+8	60	60	NUM	CD	NumForm=Digit|NumType=Card	7	flat	7:flat	Entity=abstract-155-Studio_60_on_the_Sunset_Strip)
 9	and	and	CCONJ	CC	_	10	cc	10:cc	_
 10	30	30	PROPN	NNP	Number=Sing	7	conj	5:obl:on|7:conj:and	Entity=(abstract-156-30_Rock
 11	Rock	Rock	PROPN	NNP	Number=Sing	10	flat	10:flat	Entity=place-154)abstract-156-30_Rock)|SpaceAfter=No
@@ -1278,9 +1314,9 @@
 18	.	.	PUNCT	.	_	17	punct	17:punct	_
 
 # sent_id = GUM_interview_onion-58
-# text = Everything is funny there.
 # s_type = decl
 # speaker = ChetClem
+# text = Everything is funny there.
 1	Everything	everything	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=evaluation:124->123|Entity=(abstract-157)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	funny	funny	ADJ	JJ	Degree=Pos	0	root	0:root	_
@@ -1288,10 +1324,11 @@
 5	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_onion-59
-# text = There's a lot of unfunny jokes that are told in a back room, that's why they stay and die in that back room and don’t go out in The Onion.
 # s_type = decl
 # speaker = ChetClem
-1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=cause:125->122|Entity=(abstract-158|SpaceAfter=No
+# text = There's a lot of unfunny jokes that are told in a back room, that's why they stay and die in that back room and don’t go out in The Onion.
+1-2	There's	_	_	_	_	_	_	_	_
+1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=cause:125->122|Entity=(abstract-158
 2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(abstract-159
 4	lot	lot	NOUN	NN	Number=Sing	2	obj	2:obj|10:nsubj:pass	_
@@ -1306,7 +1343,8 @@
 13	back	back	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
 14	room	room	NOUN	NN	Number=Sing	10	obl	10:obl:in	Entity=abstract-158)abstract-159)place-160)|SpaceAfter=No
 15	,	,	PUNCT	,	_	10	punct	10:punct	_
-16	that	that	PRON	DT	Number=Sing|PronType=Dem	18	nsubj	18:nsubj	Discourse=result:127->125|Entity=(abstract-158)|SpaceAfter=No
+16-17	that's	_	_	_	_	_	_	_	_
+16	that	that	PRON	DT	Number=Sing|PronType=Dem	18	nsubj	18:nsubj	Discourse=result:127->125|Entity=(abstract-158)
 17	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	_
 18	why	why	SCONJ	WRB	PronType=Rel	2	parataxis	2:parataxis	_
 19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	20:nsubj|22:nsubj	Entity=(abstract-159)
@@ -1318,19 +1356,20 @@
 25	back	back	ADJ	JJ	Degree=Pos	26	amod	26:amod	_
 26	room	room	NOUN	NN	Number=Sing	20	obl	20:obl:in	Entity=place-160)
 27	and	and	CCONJ	CC	_	30	cc	30:cc	Discourse=joint:129->127
-28	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	30:aux	SpaceAfter=No
+28-29	don’t	_	_	_	_	_	_	_	_
+28	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	30:aux	_
 29	n’t	not	PART	RB	Polarity=Neg	30	advmod	30:advmod	_
 30	go	go	VERB	VB	Person=2|VerbForm=Inf	10	conj	4:acl:relcl|10:conj:and	_
 31	out	out	ADP	RP	_	30	compound:prt	30:compound:prt	_
 32	in	in	ADP	IN	_	34	case	34:case	_
 33	The	the	DET	DT	Definite=Def|PronType=Art	34	det	34:det	Entity=(organization-1-The_Onion
-34	Onion	onion	PROPN	NNP	Number=Sing	30	obl	30:obl:in	Entity=organization-1-The_Onion)|SpaceAfter=No
+34	Onion	Onion	PROPN	NNP	Number=Sing	30	obl	30:obl:in	Entity=organization-1-The_Onion)|SpaceAfter=No
 35	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-60
-# text = If someone is continually telling unfunny jokes, do you eventually fire them?
 # s_type = q
 # speaker = DavidShankbone
+# text = If someone is continually telling unfunny jokes, do you eventually fire them?
 1	If	if	SCONJ	IN	_	5	mark	5:mark	Discourse=condition:130->131
 2	someone	someone	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=(person-161)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
@@ -1347,10 +1386,11 @@
 14	?	?	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_interview_onion-61
-# text = That’s why we are on the 10th floor to make sure they die when they get kicked out.
 # s_type = decl
 # speaker = ChetClem
-1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=antithesis:132->138|Entity=(abstract-162)|SpaceAfter=No
+# text = That’s why we are on the 10th floor to make sure they die when they get kicked out.
+1-2	That’s	_	_	_	_	_	_	_	_
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=antithesis:132->138|Entity=(abstract-162)
 2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	why	why	SCONJ	WRB	PronType=Rel	0	root	0:root	Entity=(abstract-162
 4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	9:nsubj	Entity=(person-14)
@@ -1372,9 +1412,9 @@
 20	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_onion-62
-# text = It can be a real mess on Broadway.
 # s_type = decl
 # speaker = ChetClem
+# text = It can be a real mess on Broadway.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=result:136->132|Entity=(abstract-164)
 2	can	can	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
 3	be	be	AUX	VB	VerbForm=Inf	6	cop	6:cop	_
@@ -1386,44 +1426,44 @@
 9	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_interview_onion-63
-# text = By the time you get to be a writer for The Onion, though, the odds are you are going to succeed because we make it pretty challenging.
 # s_type = decl
 # speaker = SeanMills
+# text = By the time you get to be a writer for The Onion, though, the odds are you are going to succeed because we make it pretty challenging.
 1	By	by	ADP	IN	_	3	case	3:case	Discourse=circumstance:137->138
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(time-166
-3	time	time	NOUN	NN	Number=Sing	5	obl	5:obl:by	_
+3	time	time	NOUN	NN	Number=Sing	21	obl	21:obl:by	_
 4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj|9:nsubj:xsubj	Entity=(person-45)
-5	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	ccomp	18:ccomp	_
+5	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	acl:relcl	3:acl:relcl	_
 6	to	to	PART	TO	_	9	mark	9:mark	Entity=(abstract-167
 7	be	be	AUX	VB	VerbForm=Inf	9	cop	9:cop	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(person-168
 9	writer	writer	NOUN	NN	Number=Sing	5	xcomp	5:xcomp	_
 10	for	for	ADP	IN	_	12	case	12:case	_
 11	The	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(organization-1-The_Onion
-12	Onion	onion	PROPN	NNP	Number=Sing	9	nmod	9:nmod:for	Entity=time-166)abstract-167)person-168)organization-1-The_Onion)|SpaceAfter=No
-13	,	,	PUNCT	,	_	14	punct	14:punct	_
-14	though	though	ADV	RB	Degree=Pos	9	advmod	9:advmod	SpaceAfter=No
-15	,	,	PUNCT	,	_	5	punct	5:punct	_
+12	Onion	Onion	PROPN	NNP	Number=Sing	9	nmod	9:nmod:for	Entity=time-166)abstract-167)person-168)organization-1-The_Onion)|SpaceAfter=No
+13	,	,	PUNCT	,	_	3	punct	3:punct	_
+14	though	though	ADV	RB	Degree=Pos	21	advmod	21:advmod	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	14:punct	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Discourse=joint:138->58|Entity=(abstract-169
-17	odds	odd	NOUN	NNS	Number=Plur	18	nsubj	18:nsubj	Entity=abstract-169)
-18	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+17	odds	odd	NOUN	NNS	Number=Plur	21	nsubj	21:nsubj|23:nsubj:xsubj	Entity=abstract-169)
+18	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	21	cop	21:cop	_
 19	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	21	nsubj	21:nsubj|23:nsubj:xsubj	Entity=(person-45)
-20	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	aux	21:aux	_
-21	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	18	ccomp	18:ccomp	_
+20	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	21	aux	21:aux	_
+21	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
 22	to	to	PART	TO	_	23	mark	23:mark	_
 23	succeed	succeed	VERB	VB	VerbForm=Inf	21	xcomp	21:xcomp	_
 24	because	because	SCONJ	IN	_	26	mark	26:mark	Discourse=cause:139->138
 25	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	26	nsubj	26:nsubj	Entity=(person-14)
-26	make	make	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	advcl	23:advcl:because	_
+26	make	make	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	advcl	21:advcl:because	_
 27	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	obj	26:obj|29:nsubj:xsubj	Entity=(abstract-167)
 28	pretty	pretty	ADV	RB	_	29	advmod	29:advmod	_
 29	challenging	challenging	ADJ	JJ	Degree=Pos	26	xcomp	26:xcomp	SpaceAfter=No
-30	.	.	PUNCT	.	_	18	punct	18:punct	_
+30	.	.	PUNCT	.	_	21	punct	21:punct	_
 
 # sent_id = GUM_interview_onion-64
-# text = You go through quite a bit.
 # s_type = decl
 # speaker = SeanMills
+# text = You go through quite a bit.
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=restatement:140->139|Entity=(person-45)
 2	go	go	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	through	through	ADP	IN	_	6	case	6:case	_
@@ -1433,9 +1473,9 @@
 7	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-65
-# text = You will already have demonstrated a pretty long successful record of writing stuff for us before you will be in that room on a daily basis.
 # s_type = decl
 # speaker = SeanMills
+# text = You will already have demonstrated a pretty long successful record of writing stuff for us before you will be in that room on a daily basis.
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Discourse=justify:141->139|Entity=(person-45)
 2	will	will	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
 3	already	already	ADV	RB	_	5	advmod	5:advmod	_
@@ -1465,9 +1505,9 @@
 27	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_interview_onion-66
-# text = But if somebody wakes up one morning and suddenly no longer is funny, then yeah, head first, out the door as quickly as possible, and as sadistically as possible.
 # s_type = decl
 # speaker = SeanMills
+# text = But if somebody wakes up one morning and suddenly no longer is funny, then yeah, head first, out the door as quickly as possible, and as sadistically as possible.
 1	But	but	CCONJ	CC	_	23	cc	23:cc	Discourse=concession:144->138
 2	if	if	SCONJ	IN	_	4	mark	4:mark	Discourse=condition:145->147
 3	somebody	somebody	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=(person-173)
@@ -1491,9 +1531,9 @@
 21	out	out	ADP	IN	_	23	case	23:case	_
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Bridge=place-160<object-176|Entity=(object-176
 23	door	door	NOUN	NN	Number=Sing	0	root	0:root	Entity=object-176)
-24	as	as	ADV	IN	_	25	advmod	25:advmod	_
+24	as	as	ADV	RB	_	25	advmod	25:advmod	_
 25	quickly	quickly	ADV	RB	Degree=Pos	23	advmod	23:advmod	_
-26	as	as	SCONJ	RB	_	27	mark	27:mark	Discourse=manner:148->147
+26	as	as	SCONJ	IN	_	27	mark	27:mark	Discourse=manner:148->147
 27	possible	possible	ADJ	JJ	Degree=Pos	25	advcl	25:advcl:as	SpaceAfter=No
 28	,	,	PUNCT	,	_	31	punct	31:punct	_
 29	and	and	CCONJ	CC	_	31	cc	31:cc	Discourse=same-unit:149->147

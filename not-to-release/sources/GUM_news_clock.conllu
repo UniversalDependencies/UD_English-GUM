@@ -1,7 +1,14 @@
 # newdoc id = GUM_news_clock
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2016-09-19
+# meta::dateCreated = 2015-09-22
+# meta::dateModified = 2015-11-05
+# meta::sourceURL = https://en.wikinews.org/wiki/Texas_student_Ahmed_Mohamed_inspires_social_movement
+# meta::speakerCount = 0
+# meta::title = Texas student Ahmed Mohamed inspires social movement
 # sent_id = GUM_news_clock-1
-# text = Texas student Ahmed Mohamed inspires social movement
 # s_type = decl
+# text = Texas student Ahmed Mohamed inspires social movement
 1	Texas	Texas	PROPN	NNP	Number=Sing	2	compound	2:compound	Discourse=preparation:1->4|Entity=(person-1(place-2-Texas)
 2	student	student	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	_
 3	Ahmed	Ahmed	PROPN	NNP	Number=Sing	2	flat	2:flat	_
@@ -11,8 +18,8 @@
 7	movement	movement	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=organization-3)
 
 # sent_id = GUM_news_clock-2
-# text = Tuesday, September 22, 2015
 # s_type = decl
+# text = Tuesday, September 22, 2015
 1	Tuesday	Tuesday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:2->4|Entity=(time-4)|SpaceAfter=No
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	September	September	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(time-4
@@ -21,15 +28,16 @@
 6	2015	2015	NUM	CD	NumForm=Digit|NumType=Card	4	nmod:tmod	4:nmod:tmod	Entity=(time-5)time-4)
 
 # sent_id = GUM_news_clock-3
-# text = News of police response to a boy's digital clock in Texas last week has inspired a global social movement in support of the youth.
 # s_type = decl
+# text = News of police response to a boy's digital clock in Texas last week has inspired a global social movement in support of the youth.
 1	News	news	NOUN	NN	Number=Sing	16	nsubj	16:nsubj	Discourse=preparation:3->4|Entity=(abstract-6
 2	of	of	ADP	IN	_	4	case	4:case	_
 3	police	police	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(event-7(organization-8)
 4	response	response	NOUN	NN	Number=Sing	1	nmod	1:nmod:of	_
 5	to	to	ADP	IN	_	10	case	10:case	_
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(object-9(person-1
-7	boy	boy	NOUN	NN	Number=Sing	10	nmod:poss	10:nmod:poss	SpaceAfter=No
+7-8	boy's	_	_	_	_	_	_	_	_
+7	boy	boy	NOUN	NN	Number=Sing	10	nmod:poss	10:nmod:poss	_
 8	's	's	PART	POS	_	7	case	7:case	Entity=person-1)
 9	digital	digital	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
 10	clock	clock	NOUN	NN	Number=Sing	4	nmod	4:nmod:to	Entity=object-9)
@@ -51,8 +59,8 @@
 26	.	.	PUNCT	.	_	16	punct	16:punct	_
 
 # sent_id = GUM_news_clock-4
-# text = Ahmed Mohamed, a 14-year-old boy from Irving, Texas, was arrested at his school by police after he brought a digital clock he had made to school.
 # s_type = decl
+# text = Ahmed Mohamed, a 14-year-old boy from Irving, Texas, was arrested at his school by police after he brought a digital clock he had made to school.
 1	Ahmed	Ahmed	PROPN	NNP	Number=Sing	13	nsubj:pass	13:nsubj:pass	Discourse=ROOT:4|Entity=(event-13(person-1
 2	Mohamed	Mohamed	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-1)|SpaceAfter=No
 3	,	,	PUNCT	,	_	6	punct	6:punct	_
@@ -85,8 +93,8 @@
 30	.	.	PUNCT	.	_	13	punct	13:punct	Entity=event-13)
 
 # sent_id = GUM_news_clock-5
-# text = After news of the police response was reported, Mohamed received support online ranging from US President Barack Obama to Facebook creator Mark Zuckerberg.
 # s_type = decl
+# text = After news of the police response was reported, Mohamed received support online ranging from US President Barack Obama to Facebook creator Mark Zuckerberg.
 1	After	after	SCONJ	IN	_	8	mark	8:mark	Discourse=circumstance:8->9
 2	news	news	NOUN	NN	Number=Sing	8	nsubj:pass	8:nsubj:pass	Entity=(abstract-6
 3	of	of	ADP	IN	_	6	case	6:case	_
@@ -114,8 +122,8 @@
 25	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_news_clock-6
-# text = Yesterday Mohamed received VIP attention at Google headquarters in California at the Google Science Fair — and tomorrow he plans to meet international dignitaries at the United Nations headquarters in New York.
 # s_type = decl
+# text = Yesterday Mohamed received VIP attention at Google headquarters in California at the Google Science Fair — and tomorrow he plans to meet international dignitaries at the United Nations headquarters in New York.
 1	Yesterday	yesterday	NOUN	NN	Number=Sing	3	obl:tmod	3:obl:tmod	Discourse=sequence:11->4
 2	Mohamed	Mohamed	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Entity=(person-1)
 3	received	receive	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -142,8 +150,8 @@
 24	dignitaries	dignitary	NOUN	NNS	Number=Plur	22	obj	22:obj	Entity=person-26)
 25	at	at	ADP	IN	_	29	case	29:case	_
 26	the	the	DET	DT	Definite=Def|PronType=Art	29	det	29:det	Entity=(place-27
-27	United	United	PROPN	NNP	Number=Sing	28	amod	28:amod	Entity=(organization-28-United_Nations
-28	Nations	Nations	PROPN	NNPS	Number=Plur	29	compound	29:compound	Entity=organization-28-United_Nations)
+27	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	28	amod	28:amod	Entity=(organization-28-United_Nations
+28	Nations	Nation	PROPN	NNPS	Number=Plur	29	compound	29:compound	Entity=organization-28-United_Nations)
 29	headquarters	headquarters	NOUN	NN	Number=Sing	22	obl	22:obl:at	_
 30	in	in	ADP	IN	_	31	case	31:case	_
 31	New	New	PROPN	NNP	Number=Sing	29	nmod	29:nmod:in	Entity=(place-29-New_York_City
@@ -151,9 +159,9 @@
 33	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_clock-7
-# text = US President Barack Obama tweet to student Ahmed Mohamed
 # s_type = frag
-1	US	US	PROPN	NNP	Abbr=Yes|Number=Sing	2	amod	2:amod	Discourse=joint:13->4|Entity=(abstract-30(person-16-Barack_Obama(place-17-United_States)
+# text = US President Barack Obama tweet to student Ahmed Mohamed
+1	US	US	ADJ	NNP	Degree=Pos	2	amod	2:amod	Discourse=joint:13->4|Entity=(abstract-30(person-16-Barack_Obama(place-17-United_States)
 2	President	President	PROPN	NNP	Number=Sing	5	compound	5:compound	_
 3	Barack	Barack	PROPN	NNP	Number=Sing	2	flat	2:flat	_
 4	Obama	Obama	PROPN	NNP	Number=Sing	2	flat	2:flat	Entity=person-16-Barack_Obama)
@@ -164,19 +172,19 @@
 9	Mohamed	Mohamed	PROPN	NNP	Number=Sing	7	flat	7:flat	Entity=abstract-30)person-1)
 
 # sent_id = GUM_news_clock-8
-# text = Image: Twitter / Barack Obama.
 # s_type = frag
+# text = Image: Twitter / Barack Obama.
 1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=elaboration:14->13|Entity=(abstract-31)|SpaceAfter=No
 2	:	:	PUNCT	:	_	3	punct	3:punct	_
-3	Twitter	twitter	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:15->14|Entity=(organization-32-Twitter)
+3	Twitter	Twitter	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:15->14|Entity=(organization-32-Twitter)
 4	/	/	SYM	SYM	_	5	cc	5:cc	_
 5	Barack	Barack	PROPN	NNP	Number=Sing	3	conj	1:dep|3:conj:slash	Entity=(person-16-Barack_Obama
 6	Obama	Obama	PROPN	NNP	Number=Sing	5	flat	5:flat	Entity=person-16-Barack_Obama)|SpaceAfter=No
 7	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_news_clock-9
-# text = Mohamed brought the digital clock he made to school on September 14, and a teacher mistakenly thought it resembled a bomb.
 # s_type = decl
+# text = Mohamed brought the digital clock he made to school on September 14, and a teacher mistakenly thought it resembled a bomb.
 1	Mohamed	Mohamed	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint:16->4|Entity=(person-1)
 2	brought	bring	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(object-9
@@ -202,8 +210,8 @@
 23	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_news_clock-10
-# text = Police arrested and questioned the student.
 # s_type = decl
+# text = Police arrested and questioned the student.
 1	Police	Police	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj|4:nsubj	Discourse=result:21->20|Entity=(organization-8)
 2	arrested	arrest	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
@@ -213,8 +221,8 @@
 7	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_news_clock-11
-# text = Images of the boy wearing a NASA T-shirt and handcuffed by the police were quickly posted and reposted online.
 # s_type = decl
+# text = Images of the boy wearing a NASA T-shirt and handcuffed by the police were quickly posted and reposted online.
 1	Images	image	NOUN	NNS	Number=Plur	16	nsubj:pass	16:nsubj:pass|18:nsubj:pass	Discourse=cause:22->28|Entity=(abstract-36
 2	of	of	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(person-1
@@ -232,13 +240,13 @@
 15	quickly	quickly	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
 16	posted	post	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 17	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=sequence:26->22
-18	reposted	reposted	VERB	VBN	Tense=Past|VerbForm=Part	16	conj	16:conj:and	_
+18	reposted	repost	VERB	VBN	Tense=Past|VerbForm=Part	16	conj	16:conj:and	_
 19	online	online	ADV	RB	Degree=Pos	16	advmod	16:advmod	SpaceAfter=No
 20	.	.	PUNCT	.	_	16	punct	16:punct	_
 
 # sent_id = GUM_news_clock-12
-# text = The Deseret News observed that the hashtag on Twitter, #IStandWithAhmed, had become an international phenomenon.
 # s_type = decl
+# text = The Deseret News observed that the hashtag on Twitter, #IStandWithAhmed, had become an international phenomenon.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=attribution:27->28|Entity=(organization-39-Deseret_News
 2	Deseret	Deseret	PROPN	NNP	Number=Sing	3	compound	3:compound	_
 3	News	News	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Entity=organization-39-Deseret_News)
@@ -247,7 +255,7 @@
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(abstract-40
 7	hashtag	hashtag	NOUN	NN	Number=Sing	14	nsubj	14:nsubj|17:nsubj:xsubj	_
 8	on	on	ADP	IN	_	9	case	9:case	_
-9	Twitter	twitter	PROPN	NNP	Number=Sing	7	nmod	7:nmod:on	Entity=(organization-32-Twitter)abstract-40)|SpaceAfter=No
+9	Twitter	Twitter	PROPN	NNP	Number=Sing	7	nmod	7:nmod:on	Entity=(organization-32-Twitter)abstract-40)|SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	11:punct	_
 11	#IStandWithAhmed	#IStandWithAhmed	PROPN	NNP	Number=Sing	7	appos	7:appos	Entity=(abstract-40)|SpaceAfter=No
 12	,	,	PUNCT	,	_	7	punct	7:punct	_
@@ -259,8 +267,8 @@
 18	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_news_clock-13
-# text = The Straits Times noted what began as individual messages to Mohamed had grown into a "support movement".
 # s_type = decl
+# text = The Straits Times noted what began as individual messages to Mohamed had grown into a "support movement".
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=attribution:29->30|Entity=(organization-42-The_Straits_Times
 2	Straits	Straits	PROPN	NNP	Number=Sing	3	compound	3:compound	_
 3	Times	Times	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Entity=organization-42-The_Straits_Times)
@@ -283,8 +291,8 @@
 20	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_news_clock-14
-# text = American academic and professor Marc Lamont Hill commented,
 # s_type = decl
+# text = American academic and professor Marc Lamont Hill commented,
 1	American	American	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=attribution:31->32|Entity=(person-44-Marc_Lamont_Hill
 2	academic	academic	NOUN	NN	Number=Sing	5	compound	5:compound	_
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
@@ -296,8 +304,8 @@
 9	,	,	PUNCT	,	_	8	punct	8:punct	_
 
 # sent_id = GUM_news_clock-15
-# text = "Hoping that the #istandwithahmed movement translates into a substantive national conversation on race, punishment, and incarceration."
 # s_type = decl
+# text = "Hoping that the #istandwithahmed movement translates into a substantive national conversation on race, punishment, and incarceration."
 1	"	''	PUNCT	``	_	2	punct	2:punct	Discourse=joint:32->28|SpaceAfter=No
 2	Hoping	hope	VERB	VBG	VerbForm=Ger	0	root	0:root	_
 3	that	that	SCONJ	IN	_	7	mark	7:mark	_
@@ -321,10 +329,10 @@
 21	"	''	PUNCT	''	_	2	punct	2:punct	_
 
 # sent_id = GUM_news_clock-16
-# text = The Twitter attention led to outreach from Google and Mohamed was invited to their Google Science Fair.
 # s_type = decl
+# text = The Twitter attention led to outreach from Google and Mohamed was invited to their Google Science Fair.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=cause:33->34|Entity=(event-49
-2	Twitter	twitter	PROPN	NNP	Number=Sing	3	compound	3:compound	Entity=(organization-32-Twitter)
+2	Twitter	Twitter	PROPN	NNP	Number=Sing	3	compound	3:compound	Entity=(organization-32-Twitter)
 3	attention	attention	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=event-49)
 4	led	lead	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 5	to	to	ADP	IN	_	6	case	6:case	_
@@ -343,8 +351,8 @@
 18	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_news_clock-17
-# text = Mohamed was a VIP guest at the Google Science Fair this weekend, and was able to meet finalists at the event held at Google's headquarters located in Mountain View, California.
 # s_type = decl
+# text = Mohamed was a VIP guest at the Google Science Fair this weekend, and was able to meet finalists at the event held at Google's headquarters located in Mountain View, California.
 1	Mohamed	Mohamed	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj|16:nsubj|18:nsubj:xsubj	Discourse=elaboration:35->34|Entity=(person-1)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(person-1
@@ -369,7 +377,8 @@
 22	event	event	NOUN	NN	Number=Sing	18	obl	18:obl:at	_
 23	held	hold	VERB	VBN	Tense=Past|VerbForm=Part	22	acl	22:acl	Discourse=elaboration:37->36
 24	at	at	ADP	IN	_	27	case	27:case	_
-25	Google	Google	PROPN	NNP	Number=Sing	27	nmod:poss	27:nmod:poss	Entity=(place-21(organization-53-Google|SpaceAfter=No
+25-26	Google's	_	_	_	_	_	_	_	_
+25	Google	Google	PROPN	NNP	Number=Sing	27	nmod:poss	27:nmod:poss	Entity=(place-21(organization-53-Google
 26	's	's	PART	POS	_	25	case	25:case	Entity=organization-53-Google)
 27	headquarters	headquarters	NOUN	NN	Number=Sing	23	obl	23:obl:at	_
 28	located	locate	VERB	VBN	Tense=Past|VerbForm=Part	27	acl	27:acl	Discourse=elaboration:38->37
@@ -381,8 +390,8 @@
 34	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_news_clock-18
-# text = Co-founder of Google, Sergey Brin, personally met with Mohamed during his visit to Google.
 # s_type = decl
+# text = Co-founder of Google, Sergey Brin, personally met with Mohamed during his visit to Google.
 1	Co-founder	co-founder	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	Discourse=elaboration:39->35|Entity=(person-56
 2	of	of	ADP	IN	_	3	case	3:case	_
 3	Google	Google	PROPN	NNP	Number=Sing	1	nmod	1:nmod:of	Entity=(organization-22-Google)person-56)|SpaceAfter=No
@@ -402,8 +411,8 @@
 17	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_news_clock-19
-# text = On Wednesday, Mohamed and his father are to travel to the United Nations.
 # s_type = decl
+# text = On Wednesday, Mohamed and his father are to travel to the United Nations.
 1	On	on	ADP	IN	_	2	case	2:case	Discourse=sequence:40->16
 2	Wednesday	Wednesday	PROPN	NNP	Number=Sing	10	obl	10:obl:on	Entity=(time-58)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -416,13 +425,13 @@
 10	travel	travel	VERB	VB	VerbForm=Inf	0	root	0:root	_
 11	to	to	ADP	IN	_	14	case	14:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(organization-28-United_Nations
-13	United	United	PROPN	NNP	Number=Sing	14	amod	14:amod	_
-14	Nations	Nations	PROPN	NNPS	Number=Plur	10	obl	10:obl:to	Entity=organization-28-United_Nations)|SpaceAfter=No
+13	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	14	amod	14:amod	_
+14	Nations	Nation	PROPN	NNPS	Number=Plur	10	obl	10:obl:to	Entity=organization-28-United_Nations)|SpaceAfter=No
 15	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_news_clock-20
-# text = His father Mohamed El-Hassan Mohamed said he was taking his entire family to the U.N. headquarters in New York, because international dignitaries wanted to meet with his son and express their support.
 # s_type = decl
+# text = His father Mohamed El-Hassan Mohamed said he was taking his entire family to the U.N. headquarters in New York, because international dignitaries wanted to meet with his son and express their support.
 1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=attribution:41->42|Entity=(person-59(person-1)
 2	father	father	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=person-59)
 3	Mohamed	Mohamed	PROPN	NNP	Number=Sing	2	appos	2:appos	Entity=(person-59
@@ -459,8 +468,8 @@
 34	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_news_clock-21
-# text = Psychology major at University of Texas Arlington Amneh Jafari heard of the incident and wanted to issue her support to Mohamed.
 # s_type = decl
+# text = Psychology major at University of Texas Arlington Amneh Jafari heard of the incident and wanted to issue her support to Mohamed.
 1	Psychology	psychology	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=background:44->45|Entity=(person-62(abstract-63)
 2	major	major	NOUN	NN	Number=Sing	10	nsubj	10:nsubj|15:nsubj|17:nsubj:xsubj	_
 3	at	at	ADP	IN	_	4	case	4:case	_
@@ -485,8 +494,8 @@
 22	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_news_clock-22
-# text = She chose the hastag #IStandWithAhmed and posted to Twitter.
 # s_type = decl
+# text = She chose the hastag #IStandWithAhmed and posted to Twitter.
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|7:nsubj	Discourse=joint:46->4|Entity=(person-66)
 2	chose	choose	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(abstract-40
@@ -495,12 +504,12 @@
 6	and	and	CCONJ	CC	_	7	cc	7:cc	Discourse=joint:47->46
 7	posted	post	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	2:conj:and	_
 8	to	to	ADP	IN	_	9	case	9:case	_
-9	Twitter	twitter	PROPN	NNP	Number=Sing	7	obl	7:obl:to	Entity=(organization-32-Twitter)|SpaceAfter=No
+9	Twitter	Twitter	PROPN	NNP	Number=Sing	7	obl	7:obl:to	Entity=(organization-32-Twitter)|SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_news_clock-23
-# text = Jafari said she felt Mohamed had been subject to Islamophobia and her hashtag created greater awareness about this issue.
 # s_type = decl
+# text = Jafari said she felt Mohamed had been subject to Islamophobia and her hashtag created greater awareness about this issue.
 1	Jafari	Jafari	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=attribution:48->49|Entity=(person-66)
 2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=background:49->46|Entity=(person-66)
@@ -523,8 +532,8 @@
 20	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_news_clock-24
-# text = The hashtag took on a life of its own, and was used in messages on Twitter over one million times by Thursday night.
 # s_type = decl
+# text = The hashtag took on a life of its own, and was used in messages on Twitter over one million times by Thursday night.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=sequence:51->46|Entity=(abstract-40
 2	hashtag	hashtag	NOUN	NN	Number=Sing	3	nsubj	3:nsubj|13:nsubj:pass	Entity=abstract-40)
 3	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -541,7 +550,7 @@
 14	in	in	ADP	IN	_	15	case	15:case	_
 15	messages	message	NOUN	NNS	Number=Plur	13	obl	13:obl:in	Entity=(abstract-70
 16	on	on	ADP	IN	_	17	case	17:case	_
-17	Twitter	twitter	PROPN	NNP	Number=Sing	15	nmod	15:nmod:on	Entity=(organization-32-Twitter)abstract-70)
+17	Twitter	Twitter	PROPN	NNP	Number=Sing	15	nmod	15:nmod:on	Entity=(organization-32-Twitter)abstract-70)
 18	over	over	ADV	RB	_	20	advmod	20:advmod	_
 19	one	one	NUM	CD	NumForm=Word|NumType=Card	20	compound	20:compound	_
 20	million	million	NUM	CD	NumForm=Word|NumType=Card	21	nummod	21:nummod	_
@@ -552,8 +561,8 @@
 25	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_clock-25
-# text = NASA tweeted support of Ahmed Mohamed via its account International Space Station
 # s_type = decl
+# text = NASA tweeted support of Ahmed Mohamed via its account International Space Station
 1	NASA	NASA	PROPN	NNP	Abbr=Yes|Number=Sing	2	nsubj	2:nsubj	Discourse=joint:53->4|Entity=(organization-38-NASA)
 2	tweeted	tweet	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	support	support	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=(abstract-72
@@ -563,24 +572,24 @@
 7	via	via	ADP	IN	_	9	case	9:case	_
 8	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(abstract-73(organization-38-NASA)
 9	account	account	NOUN	NN	Number=Sing	2	obl	2:obl:via	Entity=abstract-73)
-10	International	International	PROPN	NNP	Number=Sing	12	amod	12:amod	Entity=(abstract-73
+10	International	International	ADJ	NNP	Degree=Pos	12	amod	12:amod	Entity=(abstract-73
 11	Space	Space	PROPN	NNP	Number=Sing	12	compound	12:compound	_
 12	Station	Station	PROPN	NNP	Number=Sing	9	appos	9:appos	Entity=abstract-73)
 
 # sent_id = GUM_news_clock-26
-# text = Image: Twitter / NASA.
 # s_type = frag
+# text = Image: Twitter / NASA.
 1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=elaboration:54->53|Entity=(abstract-74)|SpaceAfter=No
 2	:	:	PUNCT	:	_	3	punct	3:punct	_
-3	Twitter	twitter	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:55->54|Entity=(organization-32-Twitter)
+3	Twitter	Twitter	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:55->54|Entity=(organization-32-Twitter)
 4	/	/	SYM	SYM	_	5	cc	5:cc	_
 5	NASA	NASA	PROPN	NNP	Abbr=Yes|Number=Sing	3	conj	1:dep|3:conj:slash	Entity=(organization-38-NASA)|SpaceAfter=No
 6	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_news_clock-27
-# text = US President Barack Obama tweeted using his @POTUS account:
 # s_type = decl
-1	US	US	PROPN	NNP	Abbr=Yes|Number=Sing	2	amod	2:amod	Discourse=attribution:56->59|Entity=(person-16-Barack_Obama(place-17-United_States)
+# text = US President Barack Obama tweeted using his @POTUS account:
+1	US	US	ADJ	NNP	Degree=Pos	2	amod	2:amod	Discourse=attribution:56->59|Entity=(person-16-Barack_Obama(place-17-United_States)
 2	President	President	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	_
 3	Barack	Barack	PROPN	NNP	Number=Sing	2	flat	2:flat	_
 4	Obama	Obama	PROPN	NNP	Number=Sing	2	flat	2:flat	Entity=person-16-Barack_Obama)
@@ -592,8 +601,8 @@
 10	:	:	PUNCT	:	_	5	punct	5:punct	_
 
 # sent_id = GUM_news_clock-28
-# text = "Cool clock, Ahmed.
 # s_type = frag
+# text = "Cool clock, Ahmed.
 1	"	''	PUNCT	``	_	3	punct	3:punct	Discourse=justify:58->59|SpaceAfter=No
 2	Cool	cool	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(object-9
 3	clock	clock	NOUN	NN	Number=Sing	0	root	0:root	Entity=object-9)|SpaceAfter=No
@@ -602,21 +611,21 @@
 6	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_clock-29
-# text = Want to bring it to the White House?
 # s_type = q
+# text = Want to bring it to the White House?
 1	Want	want	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	Discourse=joint:59->53
 2	to	to	PART	TO	_	3	mark	3:mark	_
 3	bring	bring	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
 4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	3:obj	Entity=(object-9)
 5	to	to	ADP	IN	_	8	case	8:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(place-76-White_House
-7	White	White	PROPN	NNP	Number=Sing	8	amod	8:amod	_
+7	White	White	ADJ	NNP	Degree=Pos	8	amod	8:amod	_
 8	House	House	PROPN	NNP	Number=Sing	3	obl	3:obl:to	Entity=place-76-White_House)|SpaceAfter=No
 9	?	?	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_news_clock-30
-# text = We should inspire more kids like you to like science.
 # s_type = sub
+# text = We should inspire more kids like you to like science.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint:60->59|Entity=(person-77)
 2	should	should	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	inspire	inspire	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -630,9 +639,10 @@
 11	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_clock-31
-# text = It's what makes America great."
 # s_type = decl
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=motivation:61->60|Entity=(abstract-79)|SpaceAfter=No
+# text = It's what makes America great."
+1-2	It's	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=motivation:61->60|Entity=(abstract-79)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 3	what	what	PRON	WP	PronType=Int	4	nsubj	4:nsubj	_
 4	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -642,9 +652,9 @@
 8	"	''	PUNCT	''	_	4	punct	4:punct	_
 
 # sent_id = GUM_news_clock-32
-# text = Twitter gave Mohamed the option to come to their company for an internship.
 # s_type = decl
-1	Twitter	twitter	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint:62->53|Entity=(organization-32-Twitter)
+# text = Twitter gave Mohamed the option to come to their company for an internship.
+1	Twitter	Twitter	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint:62->53|Entity=(organization-32-Twitter)
 2	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	Mohamed	Mohamed	PROPN	NNP	Number=Sing	2	iobj	2:iobj	Entity=(person-1)
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(abstract-80
@@ -660,8 +670,8 @@
 14	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_news_clock-33
-# text = Facebook co-founder Mark Zuckerberg tweeted to Mohamed and said the boy was welcome to come and tour the company.
 # s_type = decl
+# text = Facebook co-founder Mark Zuckerberg tweeted to Mohamed and said the boy was welcome to come and tour the company.
 1	Facebook	Facebook	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=attribution:64->66|Entity=(person-18-Mark_Zuckerberg(organization-19-Facebook%2C_Inc.)
 2	co-founder	co-founder	NOUN	NN	Number=Sing	5	nsubj	5:nsubj|9:nsubj	_
 3	Mark	Mark	PROPN	NNP	Number=Sing	2	flat	2:flat	_
@@ -684,8 +694,8 @@
 20	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_news_clock-34
-# text = Executive director of the Dallas chapter of the Council on American - Islamic Relations Alia Salem said Mohamed wishes to use his newfound fame and attention to spotlight social causes including the treatment of Muslims in the United States.
 # s_type = decl
+# text = Executive director of the Dallas chapter of the Council on American - Islamic Relations Alia Salem said Mohamed wishes to use his newfound fame and attention to spotlight social causes including the treatment of Muslims in the United States.
 1	Executive	executive	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=attribution:67->68|Entity=(person-82
 2	director	director	NOUN	NN	Number=Sing	15	compound	15:compound	_
 3	of	of	ADP	IN	_	6	case	6:case	_
@@ -696,10 +706,10 @@
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(organization-85-Council_on_American–Islamic_Relations
 9	Council	Council	PROPN	NNP	Number=Sing	6	nmod	6:nmod:of	_
 10	on	on	ADP	IN	_	14	case	14:case	_
-11	American	American	PROPN	NNP	Number=Sing	14	amod	14:amod	Entity=(abstract-86
+11	American	American	ADJ	NNP	Degree=Pos	14	amod	14:amod	Entity=(abstract-86
 12	-	-	PUNCT	:	_	13	punct	13:punct	_
-13	Islamic	Islamic	PROPN	NNP	Number=Sing	11	conj	11:conj|14:amod	_
-14	Relations	Relations	PROPN	NNPS	Number=Plur	9	nmod	9:nmod:on	Entity=organization-83)organization-85-Council_on_American–Islamic_Relations)abstract-86)
+13	Islamic	Islamic	PROPN	NNP	Number=Sing	11	conj	11:conj|14:compound	_
+14	Relations	Relation	PROPN	NNPS	Number=Plur	9	nmod	9:nmod:on	Entity=organization-83)organization-85-Council_on_American–Islamic_Relations)abstract-86)
 15	Alia	Alia	PROPN	NNP	Number=Sing	17	nsubj	17:nsubj	_
 16	Salem	Salem	PROPN	NNP	Number=Sing	15	flat	15:flat	Entity=person-82)
 17	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -720,21 +730,21 @@
 32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	33:det	Entity=(abstract-89
 33	treatment	treatment	NOUN	NN	Number=Sing	30	nmod	30:nmod:including	_
 34	of	of	ADP	IN	_	35	case	35:case	_
-35	Muslims	Muslims	PROPN	NNPS	Number=Plur	33	nmod	33:nmod:of	Entity=(person-90
+35	Muslims	Muslim	PROPN	NNPS	Number=Plur	33	nmod	33:nmod:of	Entity=(person-90
 36	in	in	ADP	IN	_	39	case	39:case	_
 37	the	the	DET	DT	Definite=Def|PronType=Art	39	det	39:det	Entity=(place-17-United_States
-38	United	United	PROPN	NNP	Number=Sing	39	amod	39:amod	_
-39	States	States	PROPN	NNPS	Number=Plur	33	nmod	33:nmod:in	Entity=abstract-88)abstract-89)person-90)place-17-United_States)|SpaceAfter=No
+38	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	39	amod	39:amod	_
+39	States	State	PROPN	NNPS	Number=Plur	33	nmod	33:nmod:in	Entity=abstract-88)abstract-89)person-90)place-17-United_States)|SpaceAfter=No
 40	.	.	PUNCT	.	_	17	punct	17:punct	_
 
 # sent_id = GUM_news_clock-35
-# text = University of Texas Arlington Muslim Student Association president Sehar Memon said the large amount of positive feedback for Mohamed had helped make his situation much better.
 # s_type = decl
+# text = University of Texas Arlington Muslim Student Association president Sehar Memon said the large amount of positive feedback for Mohamed had helped make his situation much better.
 1	University	University	PROPN	NNP	Number=Sing	7	compound	7:compound	Discourse=attribution:71->72|Entity=(person-91(organization-92(organization-93-University_of_Texas_at_Arlington
 2	of	of	ADP	IN	_	3	case	3:case	_
 3	Texas	Texas	PROPN	NNP	Number=Sing	1	nmod	1:nmod:of	Entity=(place-2-Texas)
 4	Arlington	Arlington	PROPN	NNP	Number=Sing	1	appos	1:appos	Entity=(place-65-Arlington%2C_Texas)organization-93-University_of_Texas_at_Arlington)
-5	Muslim	Muslim	PROPN	NNP	Number=Sing	6	amod	6:amod	_
+5	Muslim	Muslim	ADJ	NNP	Degree=Pos	6	amod	6:amod	_
 6	Student	Student	PROPN	NNP	Number=Sing	7	compound	7:compound	Entity=(person-94)
 7	Association	Association	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=organization-92)
 8	president	president	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	_
@@ -755,12 +765,12 @@
 23	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	24:nmod:poss	Entity=(abstract-96(person-1)
 24	situation	situation	NOUN	NN	Number=Sing	22	obj	22:obj|26:nsubj:xsubj	Entity=abstract-96)
 25	much	much	ADV	RB	Degree=Pos	26	advmod	26:advmod	_
-26	better	well	ADJ	JJR	Degree=Cmp	22	xcomp	22:xcomp	SpaceAfter=No
+26	better	good	ADJ	JJR	Degree=Cmp	22	xcomp	22:xcomp	SpaceAfter=No
 27	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_news_clock-36
-# text = Memon also said she believed the social movement in reaction to Mohamed helped improve Muslim / non-Muslim.
 # s_type = decl
+# text = Memon also said she believed the social movement in reaction to Mohamed helped improve Muslim / non-Muslim.
 1	Memon	Memon	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=attribution:73->74|Entity=(person-91)
 2	also	also	ADV	RB	_	3	advmod	3:advmod	_
 3	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -781,8 +791,8 @@
 18	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_clock-37
-# text = Both the Irving Independent School District and the Irving Police Department have asserted that the boy's religion and name were not a factor in the manner in which they approached the situation.
 # s_type = decl
+# text = Both the Irving Independent School District and the Irving Police Department have asserted that the boy's religion and name were not a factor in the manner in which they approached the situation.
 1	Both	both	CCONJ	CC	_	6	cc:preconj	6:cc:preconj	Discourse=attribution:76->77
 2	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(organization-98(organization-99-Irving_Independent_School_District
 3	Irving	Irving	PROPN	NNP	Number=Sing	6	compound	6:compound	Entity=(place-100-Irving%2C_Texas)
@@ -798,7 +808,8 @@
 13	asserted	assert	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 14	that	that	SCONJ	IN	_	24	mark	24:mark	Discourse=contrast:77->68
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(abstract-102(person-1
-16	boy	boy	NOUN	NN	Number=Sing	18	nmod:poss	18:nmod:poss	SpaceAfter=No
+16-17	boy's	_	_	_	_	_	_	_	_
+16	boy	boy	NOUN	NN	Number=Sing	18	nmod:poss	18:nmod:poss	_
 17	's	's	PART	POS	_	16	case	16:case	Entity=person-1)
 18	religion	religion	NOUN	NN	Number=Sing	24	nsubj	24:nsubj	Entity=abstract-102)
 19	and	and	CCONJ	CC	_	20	cc	20:cc	_

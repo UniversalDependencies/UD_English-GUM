@@ -1,7 +1,14 @@
 # newdoc id = GUM_fiction_error
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2019-09-11
+# meta::dateCreated = 2009-04-26
+# meta::dateModified = 2009-04-26
+# meta::sourceURL = http://thoughtcrime.crummy.com/2009/Error.html
+# meta::speakerCount = 0
+# meta::title = Single-Bit Error
 # sent_id = GUM_fiction_error-1
-# text = When Tyler was very young, his grandmother was his favorite person in the world because, unlike his parents, who believed that children should always be told the truth as adults understood it, she would fill in the gaps in his knowledge — Santa Claus, the Easter Bunny, God.
 # s_type = decl
+# text = When Tyler was very young, his grandmother was his favorite person in the world because, unlike his parents, who believed that children should always be told the truth as adults understood it, she would fill in the gaps in his knowledge — Santa Claus, the Easter Bunny, God.
 1	When	when	SCONJ	WRB	PronType=Int	5	mark	5:mark	Discourse=circumstance:1->2
 2	Tyler	Tyler	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(person-1)
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
@@ -59,8 +66,8 @@
 55	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_fiction_error-2
-# text = His parents were always too busy and often a little too serious, but his grandmother had a sense of peace about her, a lightness that lifted his spirit.
 # s_type = decl
+# text = His parents were always too busy and often a little too serious, but his grandmother had a sense of peace about her, a lightness that lifted his spirit.
 1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=elaboration:8->2|Entity=(person-4(person-1)
 2	parents	parent	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj|12:nsubj	Entity=person-4)
 3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
@@ -94,14 +101,15 @@
 31	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_fiction_error-3
-# text = A few times, when Tyler’s parents were away, she took him with her to church.
 # s_type = decl
+# text = A few times, when Tyler’s parents were away, she took him with her to church.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Discourse=elaboration:10->2|Entity=(time-17
 2	few	few	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	times	time	NOUN	NNS	Number=Plur	13	obl:tmod	13:obl:tmod	Entity=time-17)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5	when	when	SCONJ	WRB	PronType=Int	10	mark	10:mark	Discourse=circumstance:11->12
-6	Tyler	Tyler	PROPN	NNP	Number=Sing	8	nmod:poss	8:nmod:poss	Entity=(person-4(person-1|SpaceAfter=No
+6-7	Tyler’s	_	_	_	_	_	_	_	_
+6	Tyler	Tyler	PROPN	NNP	Number=Sing	8	nmod:poss	8:nmod:poss	Entity=(person-4(person-1
 7	’s	's	PART	POS	_	6	case	6:case	Entity=person-1)
 8	parents	parent	NOUN	NNS	Number=Plur	10	nsubj	10:nsubj	Entity=person-4)
 9	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	cop	10:cop	_
@@ -117,8 +125,8 @@
 19	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_fiction_error-4
-# text = He remembered liking the singing and the colorful windows, and how safe he felt there, in that large, empty space, sitting on a hard bench next to her warmth.
 # s_type = decl
+# text = He remembered liking the singing and the colorful windows, and how safe he felt there, in that large, empty space, sitting on a hard bench next to her warmth.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|3:nsubj:xsubj	Discourse=attribution:13->14|Entity=(person-1)
 2	remembered	remember	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	liking	like	VERB	VBG	VerbForm=Ger	2	xcomp	2:xcomp	Discourse=evaluation:14->10
@@ -155,8 +163,8 @@
 34	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_fiction_error-5
-# text = When she died, grief overwhelmed Tyler.
 # s_type = decl
+# text = When she died, grief overwhelmed Tyler.
 1	When	when	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=circumstance:16->17
 2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-2)
 3	died	die	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	6:advcl:when	SpaceAfter=No
@@ -167,8 +175,8 @@
 8	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_fiction_error-6
-# text = But like most adults, when he grew older he could only recall the intensity of that love in childhood in an abstract way.
 # s_type = sub
+# text = But like most adults, when he grew older he could only recall the intensity of that love in childhood in an abstract way.
 1	But	but	CCONJ	CC	_	13	cc	13:cc	Discourse=contrast:18->17
 2	like	like	ADP	IN	_	4	case	4:case	_
 3	most	most	ADJ	JJS	Degree=Sup	4	amod	4:amod	Entity=(person-24
@@ -196,8 +204,8 @@
 25	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_fiction_error-7
-# text = He made the common error of identifying maturity with worth, and assumed that the love he had for her as a young child must have been lacking in strength and depth.
 # s_type = decl
+# text = He made the common error of identifying maturity with worth, and assumed that the love he had for her as a young child must have been lacking in strength and depth.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|13:nsubj	Discourse=elaboration:21->18|Entity=(person-1)
 2	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(abstract-29
@@ -233,8 +241,8 @@
 33	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_fiction_error-8
-# text = For many years after her death, however, Tyler was tortured by the memory of a certain visit from her.
 # s_type = decl
+# text = For many years after her death, however, Tyler was tortured by the memory of a certain visit from her.
 1	For	for	ADP	IN	_	3	case	3:case	Discourse=ROOT:27
 2	many	many	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(time-34
 3	years	year	NOUN	NNS	Number=Plur	12	obl	12:obl:for	_
@@ -259,8 +267,8 @@
 22	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_fiction_error-9
-# text = He was five or so, and they were playing some board game at the kitchen table.
 # s_type = decl
+# text = He was five or so, and they were playing some board game at the kitchen table.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=background:28->29|Entity=(person-1)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	3:cop	_
 3	five	five	NUM	CD	NumForm=Word|NumType=Card	0	root	0:root	Entity=(abstract-38)
@@ -281,8 +289,8 @@
 18	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_fiction_error-10
-# text = As he swung his legs in his excitement, he kicked her repeatedly in the shins.
 # s_type = decl
+# text = As he swung his legs in his excitement, he kicked her repeatedly in the shins.
 1	As	as	SCONJ	IN	_	3	mark	3:mark	Discourse=circumstance:30->31
 2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-1)
 3	swung	swing	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	advcl	11:advcl:as	_
@@ -302,8 +310,8 @@
 17	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_fiction_error-11
-# text = She asked him to stop, and he refused, giggling.
 # s_type = decl
+# text = She asked him to stop, and he refused, giggling.
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|5:nsubj:xsubj	Discourse=solutionhood:32->33|Entity=(person-2)
 2	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	2:iobj	Entity=(person-1)
@@ -318,8 +326,8 @@
 12	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_fiction_error-12
-# text = When she finally frowned at him and threatened to stop playing if he didn’t stop he told her to go to Hell.
 # s_type = decl
+# text = When she finally frowned at him and threatened to stop playing if he didn’t stop he told her to go to Hell.
 1	When	when	SCONJ	WRB	PronType=Int	4	mark	4:mark	Discourse=circumstance:35->38
 2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj|8:nsubj|10:nsubj:xsubj	Entity=(person-2)
 3	finally	finally	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
@@ -333,7 +341,8 @@
 11	playing	play	VERB	VBG	VerbForm=Ger	10	xcomp	10:xcomp	_
 12	if	if	SCONJ	IN	_	16	mark	16:mark	Discourse=condition:37->36
 13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	16:nsubj	Entity=(person-1)
-14	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	16:aux	SpaceAfter=No
+14-15	didn’t	_	_	_	_	_	_	_	_
+14	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	16:aux	_
 15	n’t	not	PART	RB	Polarity=Neg	16	advmod	16:advmod	_
 16	stop	stop	VERB	VB	VerbForm=Inf	10	advcl	10:advcl:if	_
 17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	18:nsubj|21:nsubj:xsubj	Discourse=cause:38->39|Entity=(person-1)
@@ -346,18 +355,19 @@
 24	.	.	PUNCT	.	_	18	punct	18:punct	_
 
 # sent_id = GUM_fiction_error-13
-# text = In Tyler’s mind he could see her face grow taut, lose color, and then, for the only time he could remember, she began to cry.
 # s_type = decl
+# text = In Tyler’s mind he could see her face grow taut, lose color, and then, for the only time he could remember, she began to cry.
 1	In	in	ADP	IN	_	4	case	4:case	Discourse=sequence:39->31
-2	Tyler	Tyler	PROPN	NNP	Number=Sing	4	nmod:poss	4:nmod:poss	Entity=(abstract-47(person-1|SpaceAfter=No
+2-3	Tyler’s	_	_	_	_	_	_	_	_
+2	Tyler	Tyler	PROPN	NNP	Number=Sing	4	nmod:poss	4:nmod:poss	Entity=(abstract-47(person-1
 3	’s	's	PART	POS	_	2	case	2:case	Entity=person-1)
 4	mind	mind	NOUN	NN	Number=Sing	7	obl	7:obl:in	Entity=abstract-47)
 5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	Entity=(person-1)
 6	could	could	AUX	MD	VerbForm=Fin	7	aux	7:aux	_
 7	see	see	VERB	VB	VerbForm=Inf	0	root	0:root	_
 8	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(object-48(person-2)
-9	face	face	NOUN	NN	Number=Sing	10	nsubj	10:nsubj|11:nsubj:xsubj|13:nsubj:xsubj|28:nsubj:xsubj	Entity=object-48)
-10	grow	grow	VERB	VB	VerbForm=Inf	7	ccomp	7:ccomp	_
+9	face	face	NOUN	NN	Number=Sing	7	obj	7:obj|10:nsubj:xsubj	Entity=object-48)
+10	grow	grow	VERB	VB	VerbForm=Inf	7	xcomp	7:xcomp	_
 11	taut	taut	ADJ	JJ	Degree=Pos	10	xcomp	10:xcomp	SpaceAfter=No
 12	,	,	PUNCT	,	_	13	punct	13:punct	_
 13	lose	lose	VERB	VB	Person=2|VerbForm=Inf	11	conj	10:xcomp|11:conj:and	_
@@ -381,8 +391,8 @@
 31	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_fiction_error-14
-# text = He also remembered his own utter confusion.
 # s_type = decl
+# text = He also remembered his own utter confusion.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint:43->39|Entity=(person-1)
 2	also	also	ADV	RB	_	3	advmod	3:advmod	_
 3	remembered	remember	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -393,8 +403,8 @@
 8	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_fiction_error-15
-# text = His parents did not have much use for religion and so for him Hell was a word without much mystery or power.
 # s_type = decl
+# text = His parents did not have much use for religion and so for him Hell was a word without much mystery or power.
 1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=background:44->45|Entity=(person-4(person-1)
 2	parents	parent	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=person-4)
 3	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	5:aux	_
@@ -420,8 +430,8 @@
 23	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_fiction_error-16
-# text = At that time he knew only vaguely that Hell was a place you did not want to go, like the dark basement or the even darker attic.
 # s_type = decl
+# text = At that time he knew only vaguely that Hell was a place you did not want to go, like the dark basement or the even darker attic.
 1	At	at	ADP	IN	_	3	case	3:case	Discourse=attribution:46->47
 2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Entity=(time-57
 3	time	time	NOUN	NN	Number=Sing	5	obl	5:obl:at	Entity=time-57)
@@ -453,8 +463,8 @@
 29	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_fiction_error-17
-# text = He remembered feeling resentful that she was crying and he did not even understand why.
 # s_type = decl
+# text = He remembered feeling resentful that she was crying and he did not even understand why.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint:50->39|Entity=(person-1)
 2	remembered	remember	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	feeling	feel	VERB	VBG	VerbForm=Ger	2	ccomp	2:ccomp	_
@@ -473,8 +483,8 @@
 16	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_fiction_error-18
-# text = Tyler felt the guilt of this memory even in his teenage years.
 # s_type = decl
+# text = Tyler felt the guilt of this memory even in his teenage years.
 1	Tyler	Tyler	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=elaboration:52->27|Entity=(person-1)
 2	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(abstract-61
@@ -490,8 +500,8 @@
 13	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_fiction_error-19
-# text = For him it summed up all his insecurities and fears about his own cruelty, ignorance, and the possibility that he was, in reality, not a good person.
 # s_type = decl
+# text = For him it summed up all his insecurities and fears about his own cruelty, ignorance, and the possibility that he was, in reality, not a good person.
 1	For	for	ADP	IN	_	2	case	2:case	Discourse=elaboration:53->52
 2	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	4:obl:for	Entity=(person-1)
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(abstract-36)
@@ -526,8 +536,8 @@
 32	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_fiction_error-20
-# text = The fact that he had caused someone who loved him such pain with so little effort and understanding troubled him deeply.
 # s_type = decl
+# text = The fact that he had caused someone who loved him such pain with so little effort and understanding troubled him deeply.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration:55->53|Entity=(abstract-68
 2	fact	fact	NOUN	NN	Number=Sing	19	nsubj	19:nsubj	_
 3	that	that	SCONJ	IN	_	6	mark	6:mark	Discourse=elaboration:56->55
@@ -552,8 +562,8 @@
 22	.	.	PUNCT	.	_	19	punct	19:punct	_
 
 # sent_id = GUM_fiction_error-21
-# text = One day Tyler looked through an old family photo album, and in it was a picture of the kitchen in the house they used to live in.
 # s_type = decl
+# text = One day Tyler looked through an old family photo album, and in it was a picture of the kitchen in the house they used to live in.
 1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=circumstance:59->60
 2	day	day	NOUN	NN	Number=Sing	4	obl:tmod	4:obl:tmod	_
 3	Tyler	Tyler	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Entity=(person-1)
@@ -585,8 +595,8 @@
 29	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_fiction_error-22
-# text = He was surprised to discover that the small kitchen contained a central island, and had no space for the table in his memory at all.
 # s_type = decl
+# text = He was surprised to discover that the small kitchen contained a central island, and had no space for the table in his memory at all.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	3:nsubj:pass|5:nsubj:xsubj	Discourse=cause:62->63|Entity=(person-1)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	surprised	surprise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -616,8 +626,8 @@
 27	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_fiction_error-23
-# text = With the discovery of that single error in his memory came a cascade of other revelations.
 # s_type = decl
+# text = With the discovery of that single error in his memory came a cascade of other revelations.
 1	With	with	ADP	IN	_	3	case	3:case	Discourse=result:64->63
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(event-76
 3	discovery	discovery	NOUN	NN	Number=Sing	11	obl	11:obl:with	_
@@ -637,8 +647,8 @@
 17	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_fiction_error-24
-# text = Now he remembered that they always ate in the dining room, and when they did play board games, it was always on the coffee table in the living room.
 # s_type = decl
+# text = Now he remembered that they always ate in the dining room, and when they did play board games, it was always on the coffee table in the living room.
 1	Now	now	ADV	RB	_	3	advmod	3:advmod	Discourse=elaboration:65->64
 2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-1)
 3	remembered	remember	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -673,8 +683,8 @@
 32	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_fiction_error-25
-# text = The memory that had caused him such pain over the years could not possibly have occurred.
 # s_type = sub
+# text = The memory that had caused him such pain over the years could not possibly have occurred.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=justify:69->72|Entity=(abstract-36
 2	memory	memory	NOUN	NN	Number=Sing	16	nsubj	5:nsubj|16:nsubj	_
 3	that	that	PRON	WDT	PronType=Rel	5	nsubj	2:ref	Discourse=elaboration:70->69
@@ -694,8 +704,8 @@
 17	.	.	PUNCT	.	_	16	punct	16:punct	_
 
 # sent_id = GUM_fiction_error-26
-# text = Somehow, he must have manufactured the whole scene in his imagination.
 # s_type = sub
+# text = Somehow, he must have manufactured the whole scene in his imagination.
 1	Somehow	somehow	ADV	RB	_	6	advmod	6:advmod	Discourse=contrast:72->27|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-1)
@@ -711,8 +721,8 @@
 13	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_fiction_error-27
-# text = It was not very hard to explain what really happened, he thought.
 # s_type = decl
+# text = It was not very hard to explain what really happened, he thought.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	5:expl	Discourse=preparation:73->76|Entity=(abstract-90)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
 3	not	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
@@ -729,8 +739,8 @@
 14	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_fiction_error-28
-# text = The death of his grandmother had probably caused in him feelings of abandonment and guilt.
 # s_type = decl
+# text = The death of his grandmother had probably caused in him feelings of abandonment and guilt.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=cause:75->76|Entity=(event-35
 2	death	death	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	_
 3	of	of	ADP	IN	_	5	case	5:case	_
@@ -749,8 +759,8 @@
 16	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_fiction_error-29
-# text = In his confusion he had taken elements from storybooks and imagined out of nothing this memory to punish himself.
 # s_type = decl
+# text = In his confusion he had taken elements from storybooks and imagined out of nothing this memory to punish himself.
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=evaluation:76->72
 2	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(abstract-94(person-1)
 3	confusion	confusion	NOUN	NN	Number=Sing	6	obl	6:obl:in	Entity=abstract-94)
@@ -773,8 +783,8 @@
 20	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_fiction_error-30
-# text = This was the sort of fantasy that could have occurred to any young child who lost an important relative.
 # s_type = decl
+# text = This was the sort of fantasy that could have occurred to any young child who lost an important relative.
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Discourse=justify:79->76|Entity=(abstract-36)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_
@@ -797,8 +807,8 @@
 20	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_fiction_error-31
-# text = With that realization, the image of his grandmother crying faded in his memory and became less and less believable.
 # s_type = decl
+# text = With that realization, the image of his grandmother crying faded in his memory and became less and less believable.
 1	With	with	ADP	IN	_	3	case	3:case	Discourse=result:82->72
 2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Entity=(event-76
 3	realization	realization	NOUN	NN	Number=Sing	11	obl	11:obl:with	Entity=event-76)|SpaceAfter=No
@@ -822,8 +832,8 @@
 21	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_fiction_error-32
-# text = Tyler thought he was very lucky to have discovered the single error in his false memory, which enabled him to reason his way into distinguishing between reality and fantasy.
 # s_type = decl
+# text = Tyler thought he was very lucky to have discovered the single error in his false memory, which enabled him to reason his way into distinguishing between reality and fantasy.
 1	Tyler	Tyler	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=attribution:86->87|Entity=(person-1)
 2	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj|9:nsubj:xsubj	Discourse=evaluation:87->72|Entity=(person-1)
@@ -857,8 +867,8 @@
 31	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_fiction_error-33
-# text = He felt that it was a coming-of-age moment.
 # s_type = decl
+# text = He felt that it was a coming-of-age moment.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:89->90|Entity=(person-1)
 2	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	that	that	SCONJ	IN	_	8	mark	8:mark	Discourse=joint:90->87
@@ -870,9 +880,9 @@
 9	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_fiction_error-34
-# text = Nonetheless, he admitted to himself that he was a little sad also at the discovery.
 # s_type = decl
-1	Nonetheless	Nonetheless	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=contrast:91->87|SpaceAfter=No
+# text = Nonetheless, he admitted to himself that he was a little sad also at the discovery.
+1	Nonetheless	nonetheless	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=contrast:91->87|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=attribution:92->93|Entity=(person-1)
 4	admitted	admit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -891,8 +901,8 @@
 17	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_fiction_error-35
-# text = For however imaginary that memory was, it was also a part of his love for his grandmother.
 # s_type = decl
+# text = For however imaginary that memory was, it was also a part of his love for his grandmother.
 1	For	for	SCONJ	IN	_	3	mark	3:mark	Discourse=cause:94->93
 2	however	however	ADV	RB	_	3	advmod	3:advmod	Discourse=concession:95->96
 3	imaginary	imaginary	ADJ	JJ	Degree=Pos	12	advcl	12:advcl:for	_
@@ -914,8 +924,8 @@
 19	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_fiction_error-36
-# text = When that memory lost its compelling aura of truth, it was like another part of her died with it.
 # s_type = decl
+# text = When that memory lost its compelling aura of truth, it was like another part of her died with it.
 1	When	when	SCONJ	WRB	PronType=Int	4	mark	4:mark	Discourse=circumstance:97->98
 2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Entity=(abstract-99
 3	memory	memory	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=abstract-99)
@@ -939,8 +949,8 @@
 21	.	.	PUNCT	.	_	18	punct	18:punct	_
 
 # sent_id = GUM_fiction_error-37
-# text = He had no name for the emptiness that remained.
 # s_type = decl
+# text = He had no name for the emptiness that remained.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration:99->98|Entity=(person-1)
 2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	no	no	DET	DT	Polarity=Neg	4	det	4:det	Entity=(abstract-104

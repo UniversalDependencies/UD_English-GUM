@@ -1,13 +1,20 @@
 # newdoc id = GUM_bio_emperor
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2017-09-13
+# meta::dateCreated = 2001-11-15
+# meta::dateModified = 2017-09-13
+# meta::sourceURL = https://en.wikipedia.org/wiki/Emperor_Norton
+# meta::speakerCount = 0
+# meta::title = Emperor Norton
 # sent_id = GUM_bio_emperor-1
-# text = Emperor Norton
 # s_type = frag
+# text = Emperor Norton
 1	Emperor	Emperor	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:1->2|Entity=(person-1-Emperor_Norton
 2	Norton	Norton	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-1-Emperor_Norton)
 
 # sent_id = GUM_bio_emperor-2
-# text = Joshua Abraham Norton (c. 1818 – January 8, 1880), known as Emperor Norton, was a citizen of San Francisco, California, who in 1859 proclaimed himself "Norton I, Emperor of the United States".
 # s_type = decl
+# text = Joshua Abraham Norton (c. 1818 – January 8, 1880), known as Emperor Norton, was a citizen of San Francisco, California, who in 1859 proclaimed himself "Norton I, Emperor of the United States".
 1	Joshua	Joshua	PROPN	NNP	Number=Sing	21	nsubj	21:nsubj	Discourse=ROOT:2|Entity=(person-1-Emperor_Norton
 2	Abraham	Abraham	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	Norton	Norton	PROPN	NNP	Number=Sing	1	flat	1:flat	_
@@ -42,19 +49,19 @@
 32	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	31	obj	31:obj|34:nsubj:xsubj	Entity=(person-1-Emperor_Norton)
 33	"	''	PUNCT	``	_	34	punct	34:punct	SpaceAfter=No
 34	Norton	Norton	PROPN	NNP	Number=Sing	31	xcomp	31:xcomp	Entity=(person-1-Emperor_Norton
-35	I	I	NUM	NNP	Number=Sing	34	nummod	34:nummod	Entity=person-1-Emperor_Norton)|SpaceAfter=No
+35	I	I	NUM	CD	NumForm=Roman|NumType=Card	34	nummod	34:nummod	Entity=person-1-Emperor_Norton)|SpaceAfter=No
 36	,	,	PUNCT	,	_	37	punct	37:punct	_
 37	Emperor	Emperor	PROPN	NNP	Number=Sing	34	appos	34:appos	Entity=(person-1-Emperor_Norton
 38	of	of	ADP	IN	_	41	case	41:case	_
 39	the	the	DET	DT	Definite=Def|PronType=Art	41	det	41:det	_
-40	United	United	PROPN	NNP	Number=Sing	41	amod	41:amod	Entity=(place-8-United_States
-41	States	States	PROPN	NNPS	Number=Plur	37	nmod	37:nmod:of	Entity=person-1-Emperor_Norton)place-8-United_States)|SpaceAfter=No
+40	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	41	amod	41:amod	Entity=(place-8-United_States
+41	States	State	PROPN	NNPS	Number=Plur	37	nmod	37:nmod:of	Entity=person-1-Emperor_Norton)place-8-United_States)|SpaceAfter=No
 42	"	''	PUNCT	''	_	34	punct	34:punct	Entity=person-1-Emperor_Norton)|SpaceAfter=No
 43	.	.	PUNCT	.	_	21	punct	21:punct	_
 
 # sent_id = GUM_bio_emperor-3
-# text = He later expanded his pretense by claiming to be "Protector of Mexico" as well.
 # s_type = decl
+# text = He later expanded his pretense by claiming to be "Protector of Mexico" as well.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=elaboration:7->2|Entity=(person-1-Emperor_Norton)
 2	later	late	ADV	RBR	Degree=Cmp	3	advmod	3:advmod	_
 3	expanded	expand	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -74,8 +81,8 @@
 17	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_bio_emperor-4
-# text = Born in England, Norton spent most of his early life in South Africa.
 # s_type = decl
+# text = Born in England, Norton spent most of his early life in South Africa.
 1	Born	bear	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	5:acl	Discourse=background:9->10
 2	in	in	ADP	IN	_	3	case	3:case	_
 3	England	England	PROPN	NNP	Number=Sing	1	obl	1:obl:in	Entity=(place-11-United_Kingdom)|SpaceAfter=No
@@ -93,8 +100,8 @@
 15	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_bio_emperor-5
-# text = After the death of his mother in 1846 and his father in 1848, he sailed west, arriving in San Francisco possibly in November 1849.
 # s_type = decl
+# text = After the death of his mother in 1846 and his father in 1848, he sailed west, arriving in San Francisco possibly in November 1849.
 1	After	after	ADP	IN	_	3	case	3:case	Discourse=sequence:11->10
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(event-15
 3	death	death	NOUN	NN	Number=Sing	16	obl	16:obl:after	_
@@ -124,8 +131,8 @@
 27	.	.	PUNCT	.	_	16	punct	16:punct	_
 
 # sent_id = GUM_bio_emperor-6
-# text = Norton initially made a living as a businessman, but he lost his fortune investing in Peruvian rice.
 # s_type = decl
+# text = Norton initially made a living as a businessman, but he lost his fortune investing in Peruvian rice.
 1	Norton	Norton	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=sequence:13->10|Entity=(person-1-Emperor_Norton)
 2	initially	initially	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
 3	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -147,8 +154,8 @@
 19	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_bio_emperor-7
-# text = After he lost a lawsuit in which he tried to void his rice contract, Norton's public prominence faded.
 # s_type = decl
+# text = After he lost a lawsuit in which he tried to void his rice contract, Norton's public prominence faded.
 1	After	after	SCONJ	IN	_	3	mark	3:mark	Discourse=circumstance:16->18
 2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-1-Emperor_Norton)
 3	lost	lose	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	advcl	20:advcl:after	_
@@ -164,7 +171,8 @@
 13	rice	rice	NOUN	NN	Number=Sing	14	compound	14:compound	Bridge=plant-24<abstract-26|Entity=(abstract-26(plant-27)
 14	contract	contract	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=event-25)abstract-26)|SpaceAfter=No
 15	,	,	PUNCT	,	_	3	punct	3:punct	_
-16	Norton	Norton	PROPN	NNP	Number=Sing	19	nmod:poss	19:nmod:poss	Discourse=sequence:18->10|Entity=(abstract-28(person-1-Emperor_Norton|SpaceAfter=No
+16-17	Norton's	_	_	_	_	_	_	_	_
+16	Norton	Norton	PROPN	NNP	Number=Sing	19	nmod:poss	19:nmod:poss	Discourse=sequence:18->10|Entity=(abstract-28(person-1-Emperor_Norton
 17	's	's	PART	POS	_	16	case	16:case	Entity=person-1-Emperor_Norton)
 18	public	public	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
 19	prominence	prominence	NOUN	NN	Number=Sing	20	nsubj	20:nsubj	Entity=abstract-28)
@@ -172,8 +180,8 @@
 21	.	.	PUNCT	.	_	20	punct	20:punct	_
 
 # sent_id = GUM_bio_emperor-8
-# text = He reemerged in September 1859, laying claim to the position of Emperor of the United States.
 # s_type = decl
+# text = He reemerged in September 1859, laying claim to the position of Emperor of the United States.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=circumstance:19->20|Entity=(person-1-Emperor_Norton)
 2	reemerged	reemerge	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	in	in	ADP	IN	_	4	case	4:case	_
@@ -189,13 +197,13 @@
 13	Emperor	Emperor	PROPN	NNP	Number=Sing	11	nmod	11:nmod:of	Entity=(person-31-Emperor_Norton
 14	of	of	ADP	IN	_	17	case	17:case	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(place-8-United_States
-16	United	United	PROPN	NNP	Number=Sing	17	amod	17:amod	_
-17	States	States	PROPN	NNPS	Number=Plur	13	nmod	13:nmod:of	Entity=abstract-30)person-31-Emperor_Norton)place-8-United_States)|SpaceAfter=No
+16	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	17	amod	17:amod	_
+17	States	State	PROPN	NNPS	Number=Plur	13	nmod	13:nmod:of	Entity=abstract-30)person-31-Emperor_Norton)place-8-United_States)|SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_emperor-9
-# text = He had no political power, and his influence extended only so far as he was humored by those around him;
 # s_type = decl
+# text = He had no political power, and his influence extended only so far as he was humored by those around him;
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=concession:21->24|Entity=(person-1-Emperor_Norton)
 2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	no	no	DET	DT	Polarity=Neg	5	det	5:det	_
@@ -220,8 +228,8 @@
 22	;	;	PUNCT	:	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_emperor-10
-# text = nevertheless, he was treated deferentially in San Francisco, and currency issued in his name was honored in the establishments he frequented.
 # s_type = decl
+# text = nevertheless, he was treated deferentially in San Francisco, and currency issued in his name was honored in the establishments he frequented.
 1	nevertheless	nevertheless	ADV	RB	Degree=Pos	5	advmod	5:advmod	Discourse=elaboration:24->20|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	5:nsubj:pass	Entity=(person-1-Emperor_Norton)
@@ -248,8 +256,8 @@
 24	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_bio_emperor-11
-# text = Though some considered him insane or eccentric, citizens of San Francisco celebrated his regal presence and his proclamations, such as his order that the United States Congress be dissolved by force and his numerous decrees calling for a bridge connecting San Francisco to Oakland, and a corresponding tunnel to be built under San Francisco Bay.
 # s_type = decl
+# text = Though some considered him insane or eccentric, citizens of San Francisco celebrated his regal presence and his proclamations, such as his order that the United States Congress be dissolved by force and his numerous decrees calling for a bridge connecting San Francisco to Oakland, and a corresponding tunnel to be built under San Francisco Bay.
 1	Though	though	SCONJ	IN	_	3	mark	3:mark	Discourse=concession:29->30
 2	some	some	PRON	DT	_	3	nsubj	3:nsubj|7:nsubj:xsubj	Entity=(person-38)
 3	considered	consider	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	advcl	13:advcl:though	_
@@ -276,8 +284,8 @@
 24	order	order	NOUN	NN	Number=Sing	19	nmod	19:nmod:such_as	_
 25	that	that	SCONJ	IN	_	31	mark	31:mark	Discourse=elaboration:31->30
 26	the	the	DET	DT	Definite=Def|PronType=Art	29	det	29:det	Entity=(organization-43-United_States_Congress(place-8-United_States
-27	United	United	PROPN	NNP	Number=Sing	28	amod	28:amod	_
-28	States	States	PROPN	NNP	Number=Sing	29	compound	29:compound	Entity=place-8-United_States)
+27	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	28	amod	28:amod	_
+28	States	State	PROPN	NNPS	Number=Plur	29	compound	29:compound	Entity=place-8-United_States)
 29	Congress	Congress	PROPN	NNP	Number=Sing	31	nsubj:pass	31:nsubj:pass	Entity=organization-43-United_States_Congress)
 30	be	be	AUX	VB	VerbForm=Inf	31	aux:pass	31:aux:pass	_
 31	dissolved	dissolve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	acl	24:acl:that	_
@@ -288,9 +296,9 @@
 36	numerous	numerous	ADJ	JJ	Degree=Pos	37	amod	37:amod	_
 37	decrees	decree	NOUN	NNS	Number=Plur	24	conj	19:nmod:such_as|24:conj:and	_
 38	calling	call	VERB	VBG	VerbForm=Ger	37	acl	37:acl	Discourse=antithesis:33->32
-39	for	for	SCONJ	IN	_	54	mark	54:mark	_
+39	for	for	ADP	IN	_	41	case	41:case	_
 40	a	a	DET	DT	Definite=Ind|PronType=Art	41	det	41:det	Entity=(place-45
-41	bridge	bridge	NOUN	NN	Number=Sing	54	nsubj	54:nsubj	_
+41	bridge	bridge	NOUN	NN	Number=Sing	38	obl	38:obl:for	_
 42	connecting	connect	VERB	VBG	VerbForm=Ger	41	acl	41:acl	Discourse=elaboration:34->33
 43	San	San	PROPN	NNP	Number=Sing	42	obj	42:obj	Entity=(place-5-San_Francisco
 44	Francisco	Francisco	PROPN	NNP	Number=Sing	43	flat	43:flat	Entity=place-5-San_Francisco)
@@ -300,10 +308,10 @@
 48	and	and	CCONJ	CC	_	51	cc	51:cc	Discourse=same-unit:35->33
 49	a	a	DET	DT	Definite=Ind|PronType=Art	51	det	51:det	Entity=(place-47
 50	corresponding	corresponding	ADJ	JJ	Degree=Pos	51	amod	51:amod	_
-51	tunnel	tunnel	NOUN	NN	Number=Sing	41	conj	41:conj:and|54:nsubj	_
+51	tunnel	tunnel	NOUN	NN	Number=Sing	41	conj	38:obl:for|41:conj:and	_
 52	to	to	PART	TO	_	54	mark	54:mark	_
 53	be	be	AUX	VB	VerbForm=Inf	54	aux:pass	54:aux:pass	_
-54	built	build	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	38	advcl	38:advcl:for_to	_
+54	built	build	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	38	xcomp	38:xcomp	_
 55	under	under	ADP	IN	_	58	case	58:case	_
 56	San	San	PROPN	NNP	Number=Sing	58	compound	58:compound	Bridge=place-5-San_Francisco<place-48-San_Francisco_Bay|Entity=(place-48-San_Francisco_Bay(place-5-San_Francisco
 57	Francisco	Francisco	PROPN	NNP	Number=Sing	56	flat	56:flat	Entity=place-5-San_Francisco)
@@ -311,8 +319,8 @@
 59	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_bio_emperor-12
-# text = Long after his death, similar structures were built in the form of the San Francisco – Oakland Bay Bridge and the Transbay Tube, and there have been campaigns to rename the bridge "The Emperor Norton Bridge".
 # s_type = decl
+# text = Long after his death, similar structures were built in the form of the San Francisco – Oakland Bay Bridge and the Transbay Tube, and there have been campaigns to rename the bridge "The Emperor Norton Bridge".
 1	Long	long	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=background:36->37
 2	after	after	ADP	IN	_	4	case	4:case	_
 3	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(event-49(person-1-Emperor_Norton)
@@ -356,8 +364,8 @@
 41	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_bio_emperor-13
-# text = On January 8, 1880, Norton collapsed at the corner of California and Dupont (now Grant) streets and died before he could be given medical treatment.
 # s_type = decl
+# text = On January 8, 1880, Norton collapsed at the corner of California and Dupont (now Grant) streets and died before he could be given medical treatment.
 1	On	on	ADP	IN	_	3	case	3:case	Discourse=joint:39->10
 2	January	January	PROPN	NNP	Number=Sing	3	nmod:tmod	3:nmod:tmod	Entity=(time-3
 3	8	8	NUM	CD	NumForm=Digit|NumType=Card	8	obl	8:obl:on	SpaceAfter=No
@@ -390,11 +398,11 @@
 30	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_bio_emperor-14
-# text = Nearly 30,000 people packed the streets of San Francisco to pay him homage at his funeral.
 # s_type = decl
+# text = Nearly 30,000 people packed the streets of San Francisco to pay him homage at his funeral.
 1	Nearly	nearly	ADV	RB	Degree=Pos	2	advmod	2:advmod	Discourse=result:44->39|Entity=(person-58
 2	30,000	30000	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	3:nummod	_
-3	people	people	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=person-58)
+3	people	person	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=person-58)
 4	packed	pack	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(place-59
 6	streets	street	NOUN	NNS	Number=Plur	4	obj	4:obj	_
@@ -411,8 +419,8 @@
 17	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_bio_emperor-15
-# text = Norton has been immortalized as the basis of characters in the literature of writers Mark Twain, Robert Louis Stevenson, Christopher Moore, Morris and Goscinny, Selma Lagerlöf, and Neil Gaiman.
 # s_type = decl
+# text = Norton has been immortalized as the basis of characters in the literature of writers Mark Twain, Robert Louis Stevenson, Christopher Moore, Morris and Goscinny, Selma Lagerlöf, and Neil Gaiman.
 1	Norton	Norton	PROPN	NNP	Number=Sing	4	nsubj:pass	4:nsubj:pass	Discourse=joint:46->10|Entity=(person-1-Emperor_Norton)
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	aux:pass	4:aux:pass	_
@@ -450,34 +458,34 @@
 35	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_bio_emperor-16
-# text = Norton I, Emperor of the United States, photograph, c. 1871 – 72
 # s_type = frag
+# text = Norton I, Emperor of the United States, photograph, c. 1871 – 72
 1	Norton	Norton	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=background:47->10|Entity=(person-1-Emperor_Norton
-2	I	I	NUM	NNP	Number=Sing	1	nummod	1:nummod	Entity=person-1-Emperor_Norton)|SpaceAfter=No
+2	I	I	NUM	CD	NumForm=Roman|NumType=Card	1	nummod	1:nummod	Entity=person-1-Emperor_Norton)|SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
 4	Emperor	Emperor	PROPN	NNP	Number=Sing	1	appos	1:appos	Entity=(person-1-Emperor_Norton
 5	of	of	ADP	IN	_	8	case	8:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(place-8-United_States
-7	United	United	PROPN	NNP	Number=Sing	8	amod	8:amod	_
-8	States	States	PROPN	NNP	Number=Sing	4	nmod	4:nmod:of	Entity=person-1-Emperor_Norton)place-8-United_States)|SpaceAfter=No
+7	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	8	amod	8:amod	_
+8	States	State	PROPN	NNPS	Number=Plur	4	nmod	4:nmod:of	Entity=person-1-Emperor_Norton)place-8-United_States)|SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	10:punct	_
 10	photograph	photograph	NOUN	NN	Number=Sing	1	dep	1:dep	Entity=(object-72|SpaceAfter=No
 11	,	,	PUNCT	,	_	13	punct	13:punct	_
-12	c.	c.	X	FW	Abbr=Yes	13	advcl	13:advcl	_
+12	c.	c.	ADV	FW	Abbr=Yes	13	advmod	13:advmod	_
 13	1871	1871	NUM	CD	NumForm=Digit|NumType=Card	1	nmod:tmod	1:nmod:tmod	Entity=(time-73)
 14	–	-	SYM	SYM	_	15	case	15:case	_
 15	72	72	NUM	CD	NumForm=Digit|NumType=Card	13	nmod	13:nmod:to	Bridge=time-73<time-74|Entity=(time-74)object-72)
 
 # sent_id = GUM_bio_emperor-17
-# text = Declares himself emperor
 # s_type = other
-1	Declares	Declare	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=preparation:48->52
+# text = Declares himself emperor
+1	Declares	declare	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=preparation:48->52
 2	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	1	obj	1:obj|3:nsubj:xsubj	Entity=(person-1-Emperor_Norton)
 3	emperor	emperor	NOUN	NN	Number=Sing	1	xcomp	1:xcomp	Entity=(person-1-Emperor_Norton)
 
 # sent_id = GUM_bio_emperor-18
-# text = Emperor Joshua Norton, in full military regalia, circa 1880 or earlier
 # s_type = frag
+# text = Emperor Joshua Norton, in full military regalia, circa 1880 or earlier
 1	Emperor	Emperor	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=background:49->52|Entity=(person-1-Emperor_Norton
 2	Joshua	Joshua	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	Norton	Norton	PROPN	NNP	Number=Sing	1	flat	1:flat	SpaceAfter=No
@@ -487,14 +495,14 @@
 7	military	military	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	regalia	regalia	NOUN	NNS	Number=Plur	1	nmod	1:nmod:in	Entity=abstract-75)|SpaceAfter=No
 9	,	,	PUNCT	,	_	11	punct	11:punct	_
-10	circa	circa	X	FW	_	11	advcl	11:advcl	_
+10	circa	circa	ADV	FW	_	11	advmod	11:advmod	_
 11	1880	1880	NUM	CD	NumForm=Digit|NumType=Card	1	nmod:tmod	1:nmod:tmod	Entity=(time-4)
 12	or	or	CCONJ	CC	_	13	cc	13:cc	_
 13	earlier	early	ADV	RBR	Degree=Cmp	11	conj	1:nmod:tmod|11:conj:or	Entity=person-1-Emperor_Norton)
 
 # sent_id = GUM_bio_emperor-19
-# text = By 1859, Norton had become completely disgruntled with what he considered the inadequacies of the legal and political structures of the United States.
 # s_type = decl
+# text = By 1859, Norton had become completely disgruntled with what he considered the inadequacies of the legal and political structures of the United States.
 1	By	by	ADP	IN	_	2	case	2:case	Discourse=cause:50->52
 2	1859	1859	NUM	CD	NumForm=Digit|NumType=Card	6	obl	6:obl:by	Entity=(time-7)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -502,7 +510,7 @@
 5	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	6:aux	_
 6	become	become	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 7	completely	completely	ADV	RB	Degree=Pos	8	advmod	8:advmod	_
-8	disgruntled	disgruntled	ADJ	JJ	Degree=Pos	6	xcomp	6:xcomp	_
+8	disgruntled	disgruntle	VERB	VBN	Tense=Past|VerbForm=Part	6	xcomp	6:xcomp	_
 9	with	with	ADP	IN	_	10	case	10:case	_
 10	what	what	PRON	WP	PronType=Rel	8	obl	8:obl:with	_
 11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj|14:nsubj:xsubj	Entity=(person-1-Emperor_Norton)
@@ -517,13 +525,13 @@
 20	structures	structure	NOUN	NNS	Number=Plur	14	nmod	14:nmod:of	_
 21	of	of	ADP	IN	_	24	case	24:case	_
 22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(place-8-United_States
-23	United	United	PROPN	NNP	Number=Sing	24	amod	24:amod	_
-24	States	States	PROPN	NNPS	Number=Plur	20	nmod	20:nmod:of	Entity=abstract-76)abstract-77)place-8-United_States)|SpaceAfter=No
+23	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	24	amod	24:amod	_
+24	States	State	PROPN	NNPS	Number=Plur	20	nmod	20:nmod:of	Entity=abstract-76)abstract-77)place-8-United_States)|SpaceAfter=No
 25	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_bio_emperor-20
-# text = On September 17, 1859, he took matters into his own hands and distributed letters to the various newspapers in the city, proclaiming himself "Emperor of these United States":
 # s_type = decl
+# text = On September 17, 1859, he took matters into his own hands and distributed letters to the various newspapers in the city, proclaiming himself "Emperor of these United States":
 1	On	on	ADP	IN	_	3	case	3:case	Discourse=circumstance:51->52
 2	September	September	PROPN	NNP	Number=Sing	3	nmod:tmod	3:nmod:tmod	Entity=(time-78
 3	17	17	NUM	CD	NumForm=Digit|NumType=Card	8	obl	8:obl:on	SpaceAfter=No
@@ -554,14 +562,14 @@
 28	Emperor	Emperor	PROPN	NNP	Number=Sing	25	xcomp	25:xcomp	Entity=(person-1-Emperor_Norton
 29	of	of	ADP	IN	_	32	case	32:case	_
 30	these	this	DET	DT	Number=Plur|PronType=Dem	32	det	32:det	Entity=(place-8-United_States
-31	United	United	PROPN	NNP	Number=Sing	32	amod	32:amod	_
-32	States	States	PROPN	NNPS	Number=Plur	28	nmod	28:nmod:of	Entity=person-1-Emperor_Norton)place-8-United_States)|SpaceAfter=No
+31	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	32	amod	32:amod	_
+32	States	State	PROPN	NNPS	Number=Plur	28	nmod	28:nmod:of	Entity=person-1-Emperor_Norton)place-8-United_States)|SpaceAfter=No
 33	"	''	PUNCT	''	_	28	punct	28:punct	SpaceAfter=No
 34	:	:	PUNCT	:	_	8	punct	8:punct	_
 
 # sent_id = GUM_bio_emperor-21
-# text = At the peremptory request and desire of a large majority of the citizens of these United States, I, Joshua Norton, formerly of Algoa Bay, Cape of Good Hope, and now for the last 9 years and 10 months past of S.F., Cal., declare and proclaim myself Emperor of these U.S.;
 # s_type = decl
+# text = At the peremptory request and desire of a large majority of the citizens of these United States, I, Joshua Norton, formerly of Algoa Bay, Cape of Good Hope, and now for the last 9 years and 10 months past of S.F., Cal., declare and proclaim myself Emperor of these U.S.;
 1	At	at	ADP	IN	_	4	case	4:case	Discourse=elaboration:54->52
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_
 3	peremptory	peremptory	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(abstract-83
@@ -577,8 +585,8 @@
 13	citizens	citizen	NOUN	NNS	Number=Plur	10	nmod	10:nmod:of	_
 14	of	of	ADP	IN	_	17	case	17:case	_
 15	these	this	DET	DT	Number=Plur|PronType=Dem	17	det	17:det	Entity=(place-8-United_States
-16	United	United	PROPN	NNP	Number=Sing	17	amod	17:amod	_
-17	States	States	PROPN	NNPS	Number=Plur	13	nmod	13:nmod:of	Entity=abstract-83)person-84)person-85)place-8-United_States)|SpaceAfter=No
+16	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	17	amod	17:amod	_
+17	States	State	PROPN	NNPS	Number=Plur	13	nmod	13:nmod:of	Entity=abstract-83)person-84)person-85)place-8-United_States)|SpaceAfter=No
 18	,	,	PUNCT	,	_	4	punct	4:punct	_
 19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	50	nsubj	50:nsubj|52:nsubj	Entity=(person-1-Emperor_Norton)|SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	21:punct	_
@@ -592,7 +600,7 @@
 28	,	,	PUNCT	,	_	29	punct	29:punct	_
 29	Cape	Cape	PROPN	NNP	Number=Sing	27	appos	27:appos	Entity=(place-87-Cape_of_Good_Hope
 30	of	of	ADP	IN	_	32	case	32:case	_
-31	Good	Good	PROPN	NNP	Number=Sing	32	amod	32:amod	_
+31	Good	Good	ADJ	NNP	Degree=Pos	32	amod	32:amod	_
 32	Hope	Hope	PROPN	NNP	Number=Sing	29	nmod	29:nmod:of	Entity=place-86-Algoa_Bay)place-87-Cape_of_Good_Hope)|SpaceAfter=No
 33	,	,	PUNCT	,	_	46	punct	46:punct	_
 34	and	and	CCONJ	CC	_	46	cc	46:cc	_
@@ -614,7 +622,7 @@
 50	declare	declare	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 51	and	and	CCONJ	CC	_	52	cc	52:cc	_
 52	proclaim	proclaim	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	50	conj	50:conj:and	_
-53	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	50	obj	50:obj|52:obj|54:nsubj:xsubj	Entity=(person-1-Emperor_Norton)
+53	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|Poss=Yes|PronType=Prs|Reflex=Yes	50	obj	50:obj|52:obj|54:nsubj:xsubj	Entity=(person-1-Emperor_Norton)
 54	Emperor	Emperor	PROPN	NNP	Number=Sing	50	xcomp	50:xcomp	Entity=(person-1-Emperor_Norton
 55	of	of	ADP	IN	_	57	case	57:case	_
 56	these	this	DET	DT	Number=Plur|PronType=Dem	57	det	57:det	Entity=(place-8-United_States
@@ -622,8 +630,8 @@
 58	;	;	PUNCT	:	_	50	punct	50:punct	_
 
 # sent_id = GUM_bio_emperor-22
-# text = and in virtue of the authority thereby in me vested, do hereby order and direct the representatives of the different States of the Union to assemble in Musical Hall, of this city, on the 1st day of Feb. next, then and there to make such alterations in the existing laws of the Union as may ameliorate the evils under which the country is laboring, and thereby cause confidence to exist, both at home and abroad, in our stability and integrity.
 # s_type = decl
+# text = and in virtue of the authority thereby in me vested, do hereby order and direct the representatives of the different States of the Union to assemble in Musical Hall, of this city, on the 1st day of Feb. next, then and there to make such alterations in the existing laws of the Union as may ameliorate the evils under which the country is laboring, and thereby cause confidence to exist, both at home and abroad, in our stability and integrity.
 1	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=purpose:55->56
 2	in	in	ADP	IN	_	3	case	3:case	_
 3	virtue	virtue	NOUN	NN	Number=Sing	14	obl	14:obl:in	_
@@ -645,14 +653,14 @@
 19	of	of	ADP	IN	_	22	case	22:case	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(place-91
 21	different	different	ADJ	JJ	Degree=Pos	22	amod	22:amod	_
-22	States	state	NOUN	NNS	Number=Plur	18	nmod	18:nmod:of	_
+22	States	State	PROPN	NNPS	Number=Plur	18	nmod	18:nmod:of	_
 23	of	of	ADP	IN	_	25	case	25:case	_
 24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(place-8-United_States
 25	Union	Union	PROPN	NNP	Number=Sing	22	nmod	22:nmod:of	Entity=person-90)place-91)place-8-United_States)
 26	to	to	PART	TO	_	27	mark	27:mark	_
 27	assemble	assemble	VERB	VB	VerbForm=Inf	14	xcomp	14:xcomp	_
 28	in	in	ADP	IN	_	30	case	30:case	_
-29	Musical	Musical	PROPN	NNP	Number=Sing	30	amod	30:amod	Entity=(place-92
+29	Musical	Musical	ADJ	NNP	Degree=Pos	30	amod	30:amod	Entity=(place-92
 30	Hall	Hall	PROPN	NNP	Number=Sing	27	obl	27:obl:in	SpaceAfter=No
 31	,	,	PUNCT	,	_	34	punct	34:punct	_
 32	of	of	ADP	IN	_	34	case	34:case	_
@@ -664,7 +672,7 @@
 38	1st	1st	ADJ	JJ	Degree=Pos|NumType=Ord	39	amod	39:amod	_
 39	day	day	NOUN	NN	Number=Sing	27	obl	27:obl:on	_
 40	of	of	ADP	IN	_	41	case	41:case	_
-41	Feb.	Feb.	PROPN	NNP	Abbr=Yes|Number=Sing	39	nmod	39:nmod:of	Entity=(time-94
+41	Feb.	February	PROPN	NNP	Abbr=Yes|Number=Sing	39	nmod	39:nmod:of	Entity=(time-94
 42	next	next	ADJ	JJ	Degree=Pos	41	amod	41:amod	Entity=time-93)time-94)|SpaceAfter=No
 43	,	,	PUNCT	,	_	48	punct	48:punct	_
 44	then	then	ADV	RB	PronType=Dem	48	advmod	48:advmod	Discourse=joint:56->54
@@ -672,11 +680,11 @@
 46	there	there	ADV	RB	PronType=Dem	44	conj	44:conj:and|48:advmod	_
 47	to	to	PART	TO	_	48	mark	48:mark	_
 48	make	make	VERB	VB	VerbForm=Inf	27	advcl	27:advcl:to	_
-49	such	such	DET	DT	_	50	det	50:det	Entity=(abstract-95
+49	such	such	DET	JJ	Degree=Pos	50	det	50:det	Entity=(abstract-95
 50	alterations	alteration	NOUN	NNS	Number=Plur	48	obj	48:obj	_
 51	in	in	ADP	IN	_	54	case	54:case	_
 52	the	the	DET	DT	Definite=Def|PronType=Art	54	det	54:det	Entity=(abstract-96
-53	existing	existing	VERB	VBG	VerbForm=Ger	54	amod	54:amod	_
+53	existing	exist	VERB	VBG	VerbForm=Ger	54	amod	54:amod	_
 54	laws	law	NOUN	NNS	Number=Plur	50	nmod	50:nmod:in	_
 55	of	of	ADP	IN	_	57	case	57:case	_
 56	the	the	DET	DT	Definite=Def|PronType=Art	57	det	57:det	Entity=(place-8-United_States
@@ -714,22 +722,22 @@
 88	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # sent_id = GUM_bio_emperor-23
-# text = — NORTON I, Emperor of the United States.
 # s_type = frag
+# text = — NORTON I, Emperor of the United States.
 1	—	—	PUNCT	:	_	2	punct	2:punct	Discourse=attribution:60->54
 2	NORTON	Norton	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(abstract-102(person-1-Emperor_Norton
-3	I	I	NUM	NNP	Number=Sing	2	nummod	2:nummod	Entity=person-1-Emperor_Norton)|SpaceAfter=No
+3	I	I	NUM	CD	NumForm=Roman|NumType=Card	2	nummod	2:nummod	Entity=person-1-Emperor_Norton)|SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
 5	Emperor	Emperor	PROPN	NNP	Number=Sing	2	appos	2:appos	Entity=(person-1-Emperor_Norton
 6	of	of	ADP	IN	_	9	case	9:case	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(place-8-United_States
-8	United	United	PROPN	NNP	Number=Sing	9	amod	9:amod	_
-9	States	States	PROPN	NNPS	Number=Plur	5	nmod	5:nmod:of	Entity=abstract-102)person-1-Emperor_Norton)place-8-United_States)|SpaceAfter=No
+8	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	9	amod	9:amod	_
+9	States	State	PROPN	NNPS	Number=Plur	5	nmod	5:nmod:of	Entity=abstract-102)person-1-Emperor_Norton)place-8-United_States)|SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_emperor-24
-# text = The announcement was first reprinted for humorous effect by the editor of the San Francisco Bulletin.
 # s_type = decl
+# text = The announcement was first reprinted for humorous effect by the editor of the San Francisco Bulletin.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration:61->52|Entity=(abstract-103
 2	announcement	announcement	NOUN	NN	Number=Sing	5	nsubj:pass	5:nsubj:pass	Entity=abstract-103)
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	5:aux:pass	_
@@ -749,8 +757,8 @@
 17	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_bio_emperor-25
-# text = Norton would later add "Protector of Mexico" to this title.
 # s_type = decl
+# text = Norton would later add "Protector of Mexico" to this title.
 1	Norton	Norton	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Discourse=sequence:62->52|Entity=(person-1-Emperor_Norton)
 2	would	would	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	later	late	ADV	RBR	Degree=Cmp	4	advmod	4:advmod	_
@@ -766,15 +774,15 @@
 13	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_bio_emperor-26
-# text = Thus commenced his unprecedented and whimsical 21-year "reign" over America.
 # s_type = decl
+# text = Thus commenced his unprecedented and whimsical 21-year "reign" over America.
 1	Thus	thus	ADV	RB	_	2	advmod	2:advmod	Discourse=result:63->52
 2	commenced	commence	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(abstract-107(person-1-Emperor_Norton)
 4	unprecedented	unprecedented	ADJ	JJ	Degree=Pos|Polarity=Neg	9	amod	9:amod	_
 5	and	and	CCONJ	CC	_	6	cc	6:cc	_
 6	whimsical	whimsical	ADJ	JJ	Degree=Pos	4	conj	4:conj:and|9:amod	_
-7	21-year	21-year	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
+7	21-year	21-year	NOUN	NN	Number=Sing	9	compound	9:compound	_
 8	"	''	PUNCT	``	_	9	punct	9:punct	SpaceAfter=No
 9	reign	reign	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	SpaceAfter=No
 10	"	''	PUNCT	''	_	9	punct	9:punct	_
@@ -783,18 +791,19 @@
 13	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_emperor-27
-# text = One of Norton's undated proclamations
 # s_type = frag
+# text = One of Norton's undated proclamations
 1	One	one	NUM	CD	NumForm=Word|NumType=Card	0	root	0:root	Bridge=abstract-41<object-108|Discourse=evidence:64->65|Entity=(object-108
 2	of	of	ADP	IN	_	6	case	6:case	_
-3	Norton	Norton	PROPN	NNP	Number=Sing	6	nmod:poss	6:nmod:poss	Entity=(person-1-Emperor_Norton|SpaceAfter=No
+3-4	Norton's	_	_	_	_	_	_	_	_
+3	Norton	Norton	PROPN	NNP	Number=Sing	6	nmod:poss	6:nmod:poss	Entity=(person-1-Emperor_Norton
 4	's	's	PART	POS	_	3	case	3:case	Entity=person-1-Emperor_Norton)
 5	undated	undated	ADJ	JJ	Degree=Pos|Polarity=Neg	6	amod	6:amod	_
 6	proclamations	proclamation	NOUN	NNS	Number=Plur	1	nmod	1:nmod:of	Entity=object-108)
 
 # sent_id = GUM_bio_emperor-28
-# text = In his self-appointed role of emperor, Norton issued numerous decrees on matters of the state.
 # s_type = decl
+# text = In his self-appointed role of emperor, Norton issued numerous decrees on matters of the state.
 1	In	in	ADP	IN	_	4	case	4:case	Discourse=joint:65->52
 2	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(abstract-102(person-1-Emperor_Norton)
 3	self-appointed	self-appointed	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -814,8 +823,8 @@
 17	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_bio_emperor-29
-# text = After assuming absolute control over the country, he saw no further need for a legislature, and on October 12, 1859, he issued a decree formally abolishing the United States Congress.
 # s_type = decl
+# text = After assuming absolute control over the country, he saw no further need for a legislature, and on October 12, 1859, he issued a decree formally abolishing the United States Congress.
 1	After	after	SCONJ	IN	_	2	mark	2:mark	Discourse=circumstance:66->67
 2	assuming	assume	VERB	VBG	VerbForm=Ger	10	advcl	10:advcl:after	_
 3	absolute	absolute	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(abstract-111
@@ -847,14 +856,14 @@
 29	formally	formally	ADV	RB	Degree=Pos	30	advmod	30:advmod	Discourse=elaboration:69->68
 30	abolishing	abolish	VERB	VBG	VerbForm=Ger	28	acl	28:acl	_
 31	the	the	DET	DT	Definite=Def|PronType=Art	34	det	34:det	Entity=(organization-43-United_States_Congress
-32	United	United	PROPN	NNP	Number=Sing	33	amod	33:amod	Entity=(place-8-United_States
-33	States	States	PROPN	NNPS	Number=Plur	34	compound	34:compound	Entity=place-8-United_States)
+32	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	33	amod	33:amod	Entity=(place-8-United_States
+33	States	State	PROPN	NNPS	Number=Plur	34	compound	34:compound	Entity=place-8-United_States)
 34	Congress	Congress	PROPN	NNP	Number=Sing	30	obj	30:obj	Entity=abstract-114)organization-43-United_States_Congress)|SpaceAfter=No
 35	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_bio_emperor-30
-# text = In it, Norton observed:
 # s_type = decl
+# text = In it, Norton observed:
 1	In	in	ADP	IN	_	2	case	2:case	Discourse=attribution:70->71
 2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	5:obl:in	Entity=(abstract-114)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -863,9 +872,9 @@
 6	:	:	PUNCT	:	_	5	punct	5:punct	_
 
 # sent_id = GUM_bio_emperor-31
-# text = ... fraud and corruption prevent a fair and proper expression of the public voice;
 # s_type = decl
-1	...	...	PUNCT	:	_	5	punct	5:punct	Discourse=elaboration:71->68
+# text = ... fraud and corruption prevent a fair and proper expression of the public voice;
+1	...	…	PUNCT	:	_	5	punct	5:punct	Discourse=elaboration:71->68
 2	fraud	fraud	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=(abstract-115)
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
 4	corruption	corruption	NOUN	NN	Number=Sing	2	conj	2:conj:and|5:nsubj	Entity=(abstract-116)
@@ -882,8 +891,8 @@
 15	;	;	PUNCT	:	_	5	punct	5:punct	_
 
 # sent_id = GUM_bio_emperor-32
-# text = that open violation of the laws are constantly occurring, caused by mobs, parties, factions and undue influence of political sects;
 # s_type = decl
+# text = that open violation of the laws are constantly occurring, caused by mobs, parties, factions and undue influence of political sects;
 1	that	that	SCONJ	IN	_	9	mark	9:mark	Discourse=joint:72->71
 2	open	open	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(event-119
 3	violation	violation	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	_
@@ -910,8 +919,8 @@
 24	;	;	PUNCT	:	_	9	punct	9:punct	_
 
 # sent_id = GUM_bio_emperor-33
-# text = that the citizen has not that protection of person and property which he is entitled.
 # s_type = decl
+# text = that the citizen has not that protection of person and property which he is entitled.
 1	that	that	SCONJ	IN	_	4	mark	4:mark	Discourse=joint:74->71
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(person-124
 3	citizen	citizen	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=person-124)
@@ -930,8 +939,8 @@
 16	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_bio_emperor-34
-# text = Norton ordered all interested parties to assemble at Platt's Music Hall in San Francisco in February 1860 to "remedy the evil complained of".
 # s_type = decl
+# text = Norton ordered all interested parties to assemble at Platt's Music Hall in San Francisco in February 1860 to "remedy the evil complained of".
 1	Norton	Norton	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=sequence:76->68|Entity=(person-1-Emperor_Norton)
 2	ordered	order	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	all	all	DET	DT	_	5	det	5:det	Entity=(organization-128
@@ -940,7 +949,8 @@
 6	to	to	PART	TO	_	7	mark	7:mark	_
 7	assemble	assemble	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	_
 8	at	at	ADP	IN	_	12	case	12:case	_
-9	Platt	Platt	PROPN	NNP	Number=Sing	12	nmod:poss	12:nmod:poss	Entity=(place-92(person-129|SpaceAfter=No
+9-10	Platt's	_	_	_	_	_	_	_	_
+9	Platt	Platt	PROPN	NNP	Number=Sing	12	nmod:poss	12:nmod:poss	Entity=(place-92(person-129
 10	's	's	PART	POS	_	9	case	9:case	Entity=person-129)
 11	Music	Music	PROPN	NNP	Number=Sing	12	compound	12:compound	_
 12	Hall	Hall	PROPN	NNP	Number=Sing	7	obl	7:obl:at	Entity=place-92)
@@ -961,8 +971,8 @@
 27	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_emperor-35
-# text = In an imperial decree the following month, Norton summoned the Army to depose the elected officials of the U.S. Congress:
 # s_type = decl
+# text = In an imperial decree the following month, Norton summoned the Army to depose the elected officials of the U.S. Congress:
 1	In	in	ADP	IN	_	4	case	4:case	Discourse=attribution:79->85
 2	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Bridge=abstract-109<abstract-131|Entity=(abstract-131
 3	imperial	imperial	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -987,8 +997,8 @@
 22	:	:	PUNCT	:	_	10	punct	10:punct	_
 
 # sent_id = GUM_bio_emperor-36
-# text = WHEREAS, a body of men calling themselves the National Congress are now in session in Washington City, in violation of our Imperial edict of the 12th of October last, declaring the said Congress abolished;
 # s_type = decl
+# text = WHEREAS, a body of men calling themselves the National Congress are now in session in Washington City, in violation of our Imperial edict of the 12th of October last, declaring the said Congress abolished;
 1	WHEREAS	whereas	SCONJ	IN	_	15	mark	15:mark	Discourse=cause:80->85|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(organization-43-United_States_Congress
@@ -998,7 +1008,7 @@
 7	calling	call	VERB	VBG	VerbForm=Ger	6	acl	6:acl	Discourse=elaboration:81->80
 8	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	7	obj	7:obj|11:nsubj:xsubj	Entity=(person-135)
 9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(organization-43-United_States_Congress
-10	National	National	PROPN	NNP	Number=Sing	11	amod	11:amod	_
+10	National	National	ADJ	NNP	Degree=Pos	11	amod	11:amod	_
 11	Congress	Congress	PROPN	NNP	Number=Sing	7	xcomp	7:xcomp	Entity=organization-43-United_States_Congress)organization-43-United_States_Congress)
 12	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	Discourse=same-unit:82->80
 13	now	now	ADV	RB	_	15	obl:tmod	15:obl:tmod	_
@@ -1012,7 +1022,7 @@
 21	violation	violation	NOUN	NN	Number=Sing	15	nmod	15:nmod:in	_
 22	of	of	ADP	IN	_	25	case	25:case	_
 23	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	25	nmod:poss	25:nmod:poss	Entity=(abstract-114(person-1-Emperor_Norton)
-24	Imperial	Imperial	ADJ	JJ	Degree=Pos	25	amod	25:amod	_
+24	Imperial	imperial	ADJ	JJ	Degree=Pos	25	amod	25:amod	_
 25	edict	edict	NOUN	NN	Number=Sing	21	nmod	21:nmod:of	_
 26	of	of	ADP	IN	_	28	case	28:case	_
 27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Entity=(time-113
@@ -1025,13 +1035,13 @@
 34	the	the	DET	DT	Definite=Def|PronType=Art	36	det	36:det	Entity=(organization-43-United_States_Congress
 35	said	say	VERB	VBN	Tense=Past|VerbForm=Part	36	amod	36:amod	_
 36	Congress	Congress	PROPN	NNP	Number=Sing	33	obj	33:obj|37:nsubj:xsubj	Entity=organization-43-United_States_Congress)
-37	abolished	abolish	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	33	xcomp	33:xcomp	Entity=abstract-114)|SpaceAfter=No
+37	abolished	abolish	VERB	VBN	Tense=Past|VerbForm=Part	33	xcomp	33:xcomp	Entity=abstract-114)|SpaceAfter=No
 38	;	;	PUNCT	:	_	15	punct	15:punct	_
 
 # sent_id = GUM_bio_emperor-37
-# text = WHEREAS, it is necessary for the repose of our Empire that the said decree should be strictly complied with;
 # s_type = decl
-1	WHEREAS	WHEREAS	SCONJ	IN	_	5	mark	5:mark	Discourse=joint:84->80|SpaceAfter=No
+# text = WHEREAS, it is necessary for the repose of our Empire that the said decree should be strictly complied with;
+1	WHEREAS	whereas	SCONJ	IN	_	5	mark	5:mark	Discourse=joint:84->80|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	5:expl	Entity=(event-138)
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
@@ -1041,7 +1051,7 @@
 8	repose	repose	NOUN	NN	Number=Sing	5	obl	5:obl:for	_
 9	of	of	ADP	IN	_	11	case	11:case	_
 10	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(place-140(person-1-Emperor_Norton)
-11	Empire	empire	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	Entity=abstract-139)place-140)
+11	Empire	Empire	PROPN	NNP	Number=Sing	8	nmod	8:nmod:of	Entity=abstract-139)place-140)
 12	that	that	SCONJ	IN	_	19	mark	19:mark	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(event-138(abstract-114
 14	said	say	VERB	VBN	Tense=Past|VerbForm=Part	15	amod	15:amod	_
@@ -1054,8 +1064,8 @@
 21	;	;	PUNCT	:	_	5	punct	5:punct	_
 
 # sent_id = GUM_bio_emperor-38
-# text = NOW, THEREFORE, we do hereby Order and Direct Major-General Scott, the Command-in-Chief of our Armies, immediately upon receipt of this, our Decree, to proceed with a suitable force and clear the Halls of Congress.
 # s_type = decl
+# text = NOW, THEREFORE, we do hereby Order and Direct Major-General Scott, the Command-in-Chief of our Armies, immediately upon receipt of this, our Decree, to proceed with a suitable force and clear the Halls of Congress.
 1	NOW	now	ADV	RB	_	8	obl:tmod	8:obl:tmod	Discourse=sequence:85->68|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	THEREFORE	therefore	ADV	RB	Degree=Pos	8	advmod	8:advmod	SpaceAfter=No
@@ -1063,17 +1073,17 @@
 5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	8:nsubj|10:nsubj|36:nsubj:xsubj	Entity=(person-1-Emperor_Norton)
 6	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	8:aux|10:aux	_
 7	hereby	hereby	ADV	RB	Degree=Pos	8	advmod	8:advmod	_
-8	Order	Order	VERB	VB	VerbForm=Inf	0	root	0:root	_
+8	Order	order	VERB	VB	VerbForm=Inf	0	root	0:root	_
 9	and	and	CCONJ	CC	_	10	cc	10:cc	_
-10	Direct	Direct	VERB	VB	Person=2|VerbForm=Inf	8	conj	8:conj:and	_
+10	Direct	direct	VERB	VB	Person=2|VerbForm=Inf	8	conj	8:conj:and	_
 11	Major-General	Major-General	PROPN	NNP	Number=Sing	8	obj	8:obj|10:obj|30:nsubj:xsubj|36:nsubj:xsubj	Entity=(person-141-Winfield_Scott
 12	Scott	Scott	PROPN	NNP	Number=Sing	11	flat	11:flat	Entity=person-141-Winfield_Scott)|SpaceAfter=No
 13	,	,	PUNCT	,	_	15	punct	15:punct	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(person-141-Winfield_Scott
-15	Command-in-Chief	Command-in-Chief	NOUN	NN	Number=Sing	11	appos	11:appos	_
+15	Command-in-Chief	Command-in-Chief	PROPN	NNP	Number=Sing	11	appos	11:appos	_
 16	of	of	ADP	IN	_	18	case	18:case	_
 17	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	Entity=(organization-133(person-1-Emperor_Norton)
-18	Armies	army	NOUN	NNS	Number=Plur	15	nmod	15:nmod:of	Entity=person-141-Winfield_Scott)organization-133)|SpaceAfter=No
+18	Armies	Army	PROPN	NNPS	Number=Plur	15	nmod	15:nmod:of	Entity=person-141-Winfield_Scott)organization-133)|SpaceAfter=No
 19	,	,	PUNCT	,	_	30	punct	30:punct	_
 20	immediately	immediately	ADV	RB	Degree=Pos	22	advmod	22:advmod	_
 21	upon	upon	ADP	IN	_	22	case	22:case	_
@@ -1093,7 +1103,7 @@
 35	and	and	CCONJ	CC	_	36	cc	36:cc	_
 36	clear	clear	VERB	VB	Person=2|VerbForm=Inf	30	conj	8:xcomp|30:conj:and	_
 37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	38:det	Entity=(place-143
-38	Halls	Halls	NOUN	NNS	Number=Plur	36	obj	36:obj	_
+38	Halls	Hall	NOUN	NNS	Number=Plur	36	obj	36:obj	_
 39	of	of	ADP	IN	_	40	case	40:case	_
 40	Congress	Congress	PROPN	NNP	Number=Sing	38	nmod	38:nmod:of	Entity=(organization-43-United_States_Congress)place-143)|SpaceAfter=No
 41	.	.	PUNCT	.	_	8	punct	8:punct	_

@@ -1,13 +1,20 @@
 # newdoc id = GUM_news_warming
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2014-09-15
+# meta::dateCreated = 2014-07-28
+# meta::dateModified = 2014-08-06
+# meta::sourceURL = https://en.wikinews.org/wiki/Scientists_analyse_effects_of_global_warming,_atmospheric_ozone_on_crops
+# meta::speakerCount = 0
+# meta::title = Scientists analyse effects of global warming, atmospheric ozone on crops
 # sent_id = GUM_news_warming-1
-# text = Scientists analyse effects of global warming, atmospheric ozone on crops
 # s_type = decl
+# text = Scientists analyse effects of global warming, atmospheric ozone on crops
 1	Scientists	scientist	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Discourse=preparation:1->6|Entity=(event-1(person-2)
 2	analyse	analyse	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	effects	effect	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=(abstract-3
 4	of	of	ADP	IN	_	6	case	6:case	_
 5	global	global	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(event-4
-6	warming	warming	VERB	VBG	VerbForm=Ger	3	nmod	3:nmod:of	Entity=event-4)|SpaceAfter=No
+6	warming	warming	NOUN	NN	Number=Sing	3	nmod	3:nmod:of	Entity=event-4)|SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	9:punct	_
 8	atmospheric	atmospheric	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(substance-5
 9	ozone	ozone	NOUN	NN	Number=Sing	6	conj	3:nmod:of|6:conj	Entity=abstract-3)substance-5)
@@ -15,8 +22,8 @@
 11	crops	crop	NOUN	NNS	Number=Plur	9	nmod	9:nmod:on	Entity=(plant-6)event-1)
 
 # sent_id = GUM_news_warming-2
-# text = Monday, July 28, 2014
 # s_type = frag
+# text = Monday, July 28, 2014
 1	Monday	Monday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:2->6|Entity=(time-7)|SpaceAfter=No
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	July	July	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(time-7
@@ -25,8 +32,8 @@
 6	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	4	nmod:tmod	4:nmod:tmod	Entity=(time-8)time-7)
 
 # sent_id = GUM_news_warming-3
-# text = A research team from the Massachusetts Institute of Technology and Colorado State University of the US and the University of Sheffield of the UK has analysed effects of global warming and ozone pollution over 2000 - 2050 on the worldwide production of wheat, rice, maize and soybean.
 # s_type = decl
+# text = A research team from the Massachusetts Institute of Technology and Colorado State University of the US and the University of Sheffield of the UK has analysed effects of global warming and ozone pollution over 2000 - 2050 on the worldwide production of wheat, rice, maize and soybean.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Discourse=preparation:3->6|Entity=(event-9(person-2
 2	research	research	NOUN	NN	Number=Sing	3	compound	3:compound	_
 3	team	team	NOUN	NN	Number=Sing	26	nsubj	26:nsubj	Entity=person-2)
@@ -56,7 +63,7 @@
 27	effects	effect	NOUN	NNS	Number=Plur	26	obj	26:obj	Entity=(abstract-3
 28	of	of	ADP	IN	_	30	case	30:case	_
 29	global	global	ADJ	JJ	Degree=Pos	30	amod	30:amod	Entity=(event-4
-30	warming	warming	VERB	VBG	VerbForm=Ger	27	nmod	27:nmod:of	Entity=event-4)
+30	warming	warming	NOUN	NN	Number=Sing	27	nmod	27:nmod:of	Entity=event-4)
 31	and	and	CCONJ	CC	_	33	cc	33:cc	_
 32	ozone	ozone	NOUN	NN	Number=Sing	33	compound	33:compound	Entity=(abstract-19(substance-5)
 33	pollution	pollution	NOUN	NN	Number=Sing	30	conj	27:nmod:of|30:conj:and	Entity=event-9)abstract-3)abstract-19)
@@ -79,23 +86,23 @@
 50	.	.	PUNCT	.	_	26	punct	26:punct	_
 
 # sent_id = GUM_news_warming-4
-# text = The study was published in journal Nature Climate Change yesterday.
 # s_type = decl
+# text = The study was published in journal Nature Climate Change yesterday.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=background:4->3|Entity=(abstract-23
 2	study	study	NOUN	NN	Number=Sing	4	nsubj:pass	4:nsubj:pass	Entity=abstract-23)
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 4	published	publish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 5	in	in	ADP	IN	_	6	case	6:case	_
 6	journal	journal	NOUN	NN	Number=Sing	4	obl	4:obl:in	Entity=(organization-24-Nature_Climate_Change
-7	Nature	nature	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=(abstract-25(abstract-26)
-8	Climate	climate	PROPN	NNP	Number=Sing	9	compound	9:compound	Entity=abstract-25)
+7	Nature	Nature	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=(abstract-25(abstract-26)
+8	Climate	Climate	PROPN	NNP	Number=Sing	9	compound	9:compound	Entity=abstract-25)
 9	Change	Change	PROPN	NNP	Number=Sing	6	appos	6:appos	Entity=organization-24-Nature_Climate_Change)
 10	yesterday	yesterday	ADV	RB	Degree=Pos	4	obl:tmod	4:obl:tmod	Entity=(time-27)|SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_news_warming-5
-# text = The scientists found reduction of crop yields by 2050 exceeded 10% of 2000 levels, substantially decreasing food security, in all cases examined.
 # s_type = decl
+# text = The scientists found reduction of crop yields by 2050 exceeded 10% of 2000 levels, substantially decreasing food security, in all cases examined.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=attribution:5->6|Entity=(person-2
 2	scientists	scientist	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=person-2)
 3	found	find	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -124,8 +131,8 @@
 26	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_warming-6
-# text = Several scenarios were considered because of uncertainty of future levels of ozone pollution.
 # s_type = decl
+# text = Several scenarios were considered because of uncertainty of future levels of ozone pollution.
 1	Several	several	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=background:8->6|Entity=(event-35
 2	scenarios	scenario	NOUN	NNS	Number=Plur	4	nsubj:pass	4:nsubj:pass	Entity=event-35)
 3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	4:aux:pass	_
@@ -142,8 +149,8 @@
 14	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_news_warming-7
-# text = They estimated by 2050, increasing population and changing diet would increase world food needs by 50 percent.
 # s_type = decl
+# text = They estimated by 2050, increasing population and changing diet would increase world food needs by 50 percent.
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:10->11|Entity=(person-2)
 2	estimated	estimate	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	by	by	ADP	IN	_	4	case	4:case	Discourse=joint:11->6
@@ -165,8 +172,8 @@
 19	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_news_warming-8
-# text = As coauthor Colette Heald told The Huffington Post, "The climate projections are quite consistent [...]
 # s_type = decl
+# text = As coauthor Colette Heald told The Huffington Post, "The climate projections are quite consistent [...]
 1	As	as	SCONJ	IN	_	5	mark	5:mark	Discourse=attribution:12->13
 2	coauthor	coauthor	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Bridge=person-2<person-43-Colette_Heald|Entity=(person-43-Colette_Heald
 3	Colette	Colette	PROPN	NNP	Number=Sing	4	compound	4:compound	_
@@ -186,8 +193,8 @@
 17	[...]	[...]	PUNCT	.	_	16	punct	16:punct	_
 
 # sent_id = GUM_news_warming-9
-# text = the future of ozone pollution is very different [...] leading to either offsetting or reinforcing effects [of climate change] on crops".
 # s_type = decl
+# text = the future of ozone pollution is very different [...] leading to either offsetting or reinforcing effects [of climate change] on crops".
 1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=preparation:14->15|Entity=(abstract-37
 2	future	future	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	_
 3	of	of	ADP	IN	_	5	case	5:case	_
@@ -199,24 +206,24 @@
 9	[...]	[...]	PUNCT	:	_	10	punct	10:punct	_
 10	leading	lead	VERB	VBG	VerbForm=Ger	8	acl	8:acl	Discourse=cause:15->16
 11	to	to	ADP	IN	_	16	case	16:case	_
-12	either	either	CCONJ	DT	_	13	cc:preconj	13:cc:preconj	_
+12	either	either	CCONJ	CC	_	13	cc:preconj	13:cc:preconj	_
 13	offsetting	offset	VERB	VBG	VerbForm=Ger	16	amod	16:amod	_
 14	or	or	CCONJ	CC	_	15	cc	15:cc	_
 15	reinforcing	reinforce	VERB	VBG	VerbForm=Ger	13	conj	13:conj:or|16:amod	_
 16	effects	effect	NOUN	NNS	Number=Plur	10	obl	10:obl:to	Entity=(abstract-3
-17	[	[	PUNCT	-LSB-	_	20	punct	20:punct	SpaceAfter=No
+17	[	[	PUNCT	-LRB-	_	20	punct	20:punct	SpaceAfter=No
 18	of	of	ADP	IN	_	20	case	20:case	_
 19	climate	climate	NOUN	NN	Number=Sing	20	compound	20:compound	Entity=(event-47(abstract-46)
 20	change	change	NOUN	NN	Number=Sing	16	nmod	16:nmod:of	Entity=event-47)|SpaceAfter=No
-21	]	]	PUNCT	-RSB-	_	20	punct	20:punct	_
+21	]	]	PUNCT	-RRB-	_	20	punct	20:punct	_
 22	on	on	ADP	IN	_	23	case	23:case	_
 23	crops	crop	NOUN	NNS	Number=Plur	16	nmod	16:nmod:on	Entity=(plant-6)abstract-3)|SpaceAfter=No
 24	"	''	PUNCT	''	_	8	punct	8:punct	SpaceAfter=No
 25	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_news_warming-10
-# text = By 2050, undernourishment would increase by either 49 percent or by 27 percent, depending on the scenario.
 # s_type = sub
+# text = By 2050, undernourishment would increase by either 49 percent or by 27 percent, depending on the scenario.
 1	By	by	ADP	IN	_	2	case	2:case	Discourse=elaboration:16->6
 2	2050	2050	NUM	CD	NumForm=Digit|NumType=Card	6	obl	6:obl:by	Entity=(time-29)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -224,7 +231,7 @@
 5	would	would	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
 6	increase	increase	VERB	VB	VerbForm=Inf	0	root	0:root	_
 7	by	by	ADP	IN	_	10	case	10:case	_
-8	either	either	CCONJ	DT	_	10	cc:preconj	10:cc:preconj	_
+8	either	either	CCONJ	CC	_	10	cc:preconj	10:cc:preconj	_
 9	49	49	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	10:nummod	Entity=(abstract-49
 10	percent	percent	NOUN	NN	Number=Sing	6	obl	6:obl:by	Entity=abstract-49)
 11	or	or	CCONJ	CC	_	14	cc	14:cc	_
@@ -239,8 +246,8 @@
 20	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_news_warming-11
-# text = The study focuses on ozone-temperature covariation: ground-level ozone increases with temperatures.
 # s_type = decl
+# text = The study focuses on ozone-temperature covariation: ground-level ozone increases with temperatures.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=preparation:18->19|Entity=(abstract-23
 2	study	study	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=abstract-23)
 3	focuses	focus	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -256,17 +263,17 @@
 13	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_warming-12
-# text = Heald said although temperature and ozone are separately known to impact crop yields, "nobody has looked at these together".
 # s_type = decl
+# text = Heald said although temperature and ozone are separately known to impact crop yields, "nobody has looked at these together".
 1	Heald	Heald	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=attribution:20->22|Entity=(person-43-Colette_Heald)
 2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	although	although	SCONJ	IN	_	9	mark	9:mark	Discourse=concession:21->22
-4	temperature	temperature	NOUN	NN	Number=Sing	9	nsubj	9:nsubj|11:nsubj:xsubj	Entity=(abstract-54(substance-53)
+4	temperature	temperature	NOUN	NN	Number=Sing	9	nsubj:pass	9:nsubj:pass|11:nsubj:xsubj	Entity=(abstract-54(substance-53)
 5	and	and	CCONJ	CC	_	6	cc	6:cc	_
 6	ozone	ozone	NOUN	NN	Number=Sing	4	conj	4:conj:and|9:nsubj:xsubj|11:nsubj:xsubj	Entity=(substance-5)abstract-54)
 7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	9:aux:pass	_
 8	separately	separately	ADV	RB	Degree=Pos	9	advmod	9:advmod	_
-9	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	dep	18:dep	_
+9	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	advcl	18:advcl:although	_
 10	to	to	PART	TO	_	11	mark	11:mark	_
 11	impact	impact	VERB	VB	VerbForm=Inf	9	xcomp	9:xcomp	_
 12	crop	crop	NOUN	NN	Number=Sing	13	compound	13:compound	Entity=(object-22(plant-6)
@@ -283,8 +290,8 @@
 23	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_news_warming-13
-# text = Depending on region and crops, the yields may be primarily sensitive to ozone - in the case of wheat - or heat - in the case of maize - alone, providing a local estimation of relative benefits of climate change adaptation versus ozone regulation.
 # s_type = sub
+# text = Depending on region and crops, the yields may be primarily sensitive to ozone - in the case of wheat - or heat - in the case of maize - alone, providing a local estimation of relative benefits of climate change adaptation versus ozone regulation.
 1	Depending	depend	VERB	VBG	VerbForm=Ger	3	case	3:case	Discourse=condition:23->24
 2	on	on	ADP	IN	_	1	fixed	1:fixed	_
 3	region	region	NOUN	NN	Number=Sing	12	obl	12:obl:depending_on	Entity=(place-56)
@@ -334,8 +341,8 @@
 47	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_news_warming-14
-# text = The U.S. Department of Agriculture notes, "Ground-level ozone causes more damage to plants than all other air pollutants combined", highlighting the importance of air quality for agriculture.
 # s_type = decl
+# text = The U.S. Department of Agriculture notes, "Ground-level ozone causes more damage to plants than all other air pollutants combined", highlighting the importance of air quality for agriculture.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=attribution:30->32|Entity=(place-62-United_States
 2	U.S.	U.S.	PROPN	NNP	Abbr=Yes|Number=Sing	3	compound	3:compound	Entity=place-62-United_States)
 3	Department	Department	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj|24:nsubj:xsubj	Entity=(organization-63-United_States_Department_of_Agriculture
@@ -370,8 +377,8 @@
 32	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_news_warming-15
-# text = Results of NCLAN studies, published in a paper by AS Heagle in 1989, show dicot species, such as soybean, cotton, and peanut, lose more yield from ozone than do monocot species such as sorghum, field corn, and winter wheat.
 # s_type = decl
+# text = Results of NCLAN studies, published in a paper by AS Heagle in 1989, show dicot species, such as soybean, cotton, and peanut, lose more yield from ozone than do monocot species such as sorghum, field corn, and winter wheat.
 1	Results	result	NOUN	NNS	Number=Plur	16	nsubj	16:nsubj	Discourse=attribution:33->36|Entity=(object-70
 2	of	of	ADP	IN	_	4	case	4:case	_
 3	NCLAN	NCLAN	PROPN	NNP	Abbr=Yes|Number=Sing	4	compound	4:compound	Entity=(abstract-71
@@ -389,7 +396,7 @@
 15	,	,	PUNCT	,	_	1	punct	1:punct	_
 16	show	show	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=same-unit:35->33
 17	dicot	dicot	NOUN	NN	Number=Sing	18	compound	18:compound	Discourse=joint:36->32|Entity=(plant-75
-18	species	specie	NOUN	NNS	Number=Plur	29	nsubj	29:nsubj	Entity=plant-75)|SpaceAfter=No
+18	species	species	NOUN	NNS	Number=Plur	29	nsubj	29:nsubj	Entity=plant-75)|SpaceAfter=No
 19	,	,	PUNCT	,	_	22	punct	22:punct	_
 20	such	such	ADJ	JJ	Degree=Pos	22	case	22:case	_
 21	as	as	ADP	IN	_	20	fixed	20:fixed	_
@@ -408,7 +415,7 @@
 34	than	than	SCONJ	IN	_	35	mark	35:mark	Discourse=antithesis:37->36
 35	do	do	VERB	VB	VerbForm=Inf	31	acl	31:acl:than	_
 36	monocot	monocot	NOUN	NN	Number=Sing	37	compound	37:compound	Entity=(plant-79
-37	species	specie	NOUN	NNS	Number=Plur	35	nsubj	35:nsubj	Entity=plant-79)
+37	species	species	NOUN	NNS	Number=Plur	35	nsubj	35:nsubj	Entity=plant-79)
 38	such	such	ADJ	JJ	Degree=Pos	40	case	40:case	_
 39	as	as	ADP	IN	_	38	fixed	38:fixed	_
 40	sorghum	sorghum	NOUN	NN	Number=Sing	37	nmod	37:nmod:such_as	Bridge=plant-79<plant-80|Entity=(plant-80)|SpaceAfter=No
@@ -422,8 +429,8 @@
 48	.	.	PUNCT	.	_	16	punct	16:punct	_
 
 # sent_id = GUM_news_warming-16
-# text = The researchers found that ozone pollution caused 46 percent of previously heat-attributed damage to soybean crops.
 # s_type = decl
+# text = The researchers found that ozone pollution caused 46 percent of previously heat-attributed damage to soybean crops.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=attribution:38->39|Entity=(person-83
 2	researchers	researcher	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=person-83)
 3	found	find	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -435,7 +442,7 @@
 9	percent	percent	NOUN	NN	Number=Sing	7	obj	7:obj	_
 10	of	of	ADP	IN	_	13	case	13:case	_
 11	previously	previously	ADV	RB	Degree=Pos	12	advmod	12:advmod	_
-12	heat-attributed	heat-attributed	VERB	VBN	Tense=Past|VerbForm=Part	13	amod	13:amod	Entity=(event-85
+12	heat-attributed	heat-attributed	ADJ	JJ	Degree=Pos	13	amod	13:amod	Entity=(event-85
 13	damage	damage	NOUN	NN	Number=Sing	9	nmod	9:nmod:of	Entity=event-85)
 14	to	to	ADP	IN	_	16	case	16:case	_
 15	soybean	soybean	NOUN	NN	Number=Sing	16	compound	16:compound	Entity=(plant-76
@@ -443,8 +450,8 @@
 17	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_warming-17
-# text = The model does not include the effect of rising carbon dioxide concentration, which has complex and potentially offsetting impacts on global food supply.
 # s_type = decl
+# text = The model does not include the effect of rising carbon dioxide concentration, which has complex and potentially offsetting impacts on global food supply.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=concession:40->19|Entity=(abstract-86
 2	model	model	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=abstract-86)
 3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
@@ -472,8 +479,8 @@
 25	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_news_warming-18
-# text = The U.S. Environmental Protection Agency says some crops may have higher yields with increased levels of carbon dioxide.
 # s_type = sub
+# text = The U.S. Environmental Protection Agency says some crops may have higher yields with increased levels of carbon dioxide.
 1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Discourse=attribution:42->43|Entity=(place-15-United_States
 2	U.S.	U.S.	PROPN	NNP	Abbr=Yes|Number=Sing	5	compound	5:compound	Entity=place-15-United_States)
 3	Environmental	Environmental	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(organization-91-United_States_Environmental_Protection_Agency
@@ -495,12 +502,12 @@
 19	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_news_warming-19
-# text = However, global warming also increases probability of extreme crops-damaging weather events such as floods, droughts, and extreme temperatures.
 # s_type = decl
+# text = However, global warming also increases probability of extreme crops-damaging weather events such as floods, droughts, and extreme temperatures.
 1	However	however	ADV	RB	_	6	advmod	6:advmod	Discourse=elaboration:44->40|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	global	global	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(event-4
-4	warming	warming	VERB	VBG	VerbForm=Ger	6	nsubj	6:nsubj	Entity=event-4)
+4	warming	warming	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=event-4)
 5	also	also	ADV	RB	_	6	advmod	6:advmod	_
 6	increases	increase	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 7	probability	probability	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=(abstract-93
@@ -521,8 +528,8 @@
 22	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_news_warming-20
-# text = Climate change affects distribution of weeds, pests, and diseases.
 # s_type = decl
+# text = Climate change affects distribution of weeds, pests, and diseases.
 1	Climate	climate	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=elaboration:45->44|Entity=(event-47(abstract-46)
 2	change	change	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=event-47)
 3	affects	affect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -537,8 +544,8 @@
 12	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_warming-21
-# text = Heald noted the findings show pollution reduction is also important.
 # s_type = decl
+# text = Heald noted the findings show pollution reduction is also important.
 1	Heald	Heald	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=attribution:46->48|Entity=(person-43-Colette_Heald)
 2	noted	note	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Discourse=attribution:47->48|Entity=(abstract-102
@@ -552,8 +559,8 @@
 11	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_news_warming-22
-# text = "An air-quality cleanup would improve crop yields [...]
 # s_type = sub
+# text = "An air-quality cleanup would improve crop yields [...]
 1	"	''	PUNCT	``	_	6	punct	6:punct	Discourse=justify:49->48|SpaceAfter=No
 2	An	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(abstract-103
 3	air-quality	air-quality	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(abstract-69)
@@ -565,8 +572,8 @@
 9	[...]	[...]	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_news_warming-23
-# text = Ozone is something that we understand the causes of, and the steps that need to be taken to improve air quality."
 # s_type = decl
+# text = Ozone is something that we understand the causes of, and the steps that need to be taken to improve air quality."
 1	Ozone	ozone	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=elaboration:50->49|Entity=(substance-5)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	something	something	NOUN	NN	Number=Sing	0	root	0:root	Entity=(substance-5
@@ -593,8 +600,8 @@
 24	"	''	PUNCT	''	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_warming-24
-# text = As Heald told The Huffington Post, US surface ozone has dropped partly due to the Clean Air Act.
 # s_type = decl
+# text = As Heald told The Huffington Post, US surface ozone has dropped partly due to the Clean Air Act.
 1	As	as	SCONJ	IN	_	3	mark	3:mark	Discourse=attribution:54->55
 2	Heald	Heald	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Entity=(person-43-Colette_Heald)
 3	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl	12:advcl:as	_
@@ -617,8 +624,8 @@
 20	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_news_warming-25
-# text = "Despite an increase in vehicle miles driven and energy consumption, surface ozone has declined by 25 percent on average across the U.S. from 1980 to 2012 [...]
 # s_type = decl
+# text = "Despite an increase in vehicle miles driven and energy consumption, surface ozone has declined by 25 percent on average across the U.S. from 1980 to 2012 [...]
 1	"	''	PUNCT	``	_	16	punct	16:punct	Discourse=concession:56->59|SpaceAfter=No
 2	Despite	despite	ADP	IN	_	4	case	4:case	_
 3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(event-110
@@ -650,8 +657,8 @@
 29	[...]	[...]	PUNCT	.	_	16	punct	16:punct	_
 
 # sent_id = GUM_news_warming-26
-# text = However, the future of ozone air quality in the U.S. and around the world will depend on local emissions, the use of pollution control technology, regulations, and air quality policy."
 # s_type = decl
+# text = However, the future of ozone air quality in the U.S. and around the world will depend on local emissions, the use of pollution control technology, regulations, and air quality policy."
 1	However	however	ADV	RB	_	17	advmod	17:advmod	Discourse=contrast:60->55|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(abstract-117
@@ -690,8 +697,8 @@
 36	"	''	PUNCT	''	_	17	punct	17:punct	_
 
 # sent_id = GUM_news_warming-27
-# text = The study was supported by the Croucher Foundation, US National Science Foundation, and US National Park Service.
 # s_type = decl
+# text = The study was supported by the Croucher Foundation, US National Science Foundation, and US National Park Service.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=background:61->6|Entity=(abstract-23
 2	study	study	NOUN	NN	Number=Sing	4	nsubj:pass	4:nsubj:pass	Entity=abstract-23)
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	4:aux:pass	_

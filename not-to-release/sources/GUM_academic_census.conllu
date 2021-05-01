@@ -1,16 +1,23 @@
 # newdoc id = GUM_academic_census
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2018-09-10
+# meta::dateCreated = 2018-08-29
+# meta::dateModified = 2018-08-29
+# meta::sourceURL = https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0202223
+# meta::speakerCount = 0
+# meta::title = Automatically assembling a full census of an academic field
 # sent_id = GUM_academic_census-1
-# text = 1 Introduction
 # s_type = frag
+# text = 1 Introduction
 1	1	1	NUM	CD	NumForm=Digit|NumType=Card	2	dep	2:dep	Discourse=preparation:1->68|Entity=(abstract-1
 2	Introduction	introduction	NOUN	NN	Number=Sing	0	root	0:root	Entity=abstract-1)
 
 # sent_id = GUM_academic_census-2
-# text = Tenured and tenure-track university faculty play a special role in determining the speed and direction of scientific progress, both directly through their research and indirectly through their training of new researchers.
 # s_type = decl
+# text = Tenured and tenure-track university faculty play a special role in determining the speed and direction of scientific progress, both directly through their research and indirectly through their training of new researchers.
 1	Tenured	Tenured	ADJ	JJ	Degree=Pos	5	amod	5:amod	Discourse=background:2->5|Entity=(person-2
 2	and	and	CCONJ	CC	_	3	cc	3:cc	_
-3	tenure-track	tenure-track	NOUN	NN	Number=Sing	1	conj	1:conj:and|5:amod	_
+3	tenure-track	tenure-track	NOUN	NN	Number=Sing	1	conj	1:conj:and|5:compound	_
 4	university	university	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(organization-3)
 5	faculty	faculty	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=person-2)
 6	play	play	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -43,8 +50,8 @@
 33	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_academic_census-3
-# text = Past studies establish that each of these efforts is strongly and positively influenced through various forms of faculty diversity, including ethnic, racial, and gender diversity.
 # s_type = decl
+# text = Past studies establish that each of these efforts is strongly and positively influenced through various forms of faculty diversity, including ethnic, racial, and gender diversity.
 1	Past	past	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=attribution:4->5|Entity=(abstract-10
 2	studies	study	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=abstract-10)
 3	establish	establish	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -71,13 +78,13 @@
 24	racial	racial	ADJ	JJ	Degree=Pos	22	conj	22:conj:and|28:amod	SpaceAfter=No
 25	,	,	PUNCT	,	_	27	punct	27:punct	_
 26	and	and	CCONJ	CC	_	27	cc	27:cc	_
-27	gender	gender	NOUN	NN	Number=Sing	22	conj	22:conj:and|28:amod	_
+27	gender	gender	NOUN	NN	Number=Sing	22	conj	22:conj:and|28:compound	_
 28	diversity	diversity	NOUN	NN	Number=Sing	16	nmod	16:nmod:including	Entity=abstract-12)abstract-15)|SpaceAfter=No
 29	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_academic_census-4
-# text = As an example, research shows that greater diversity within a community or group can lead to improved critical thinking [1] and more creative solutions to complex tasks [2, 3] by pairing together individuals with unique skillsets and perspectives that complement and often augment the abilities of their peers.
 # s_type = decl
+# text = As an example, research shows that greater diversity within a community or group can lead to improved critical thinking [1] and more creative solutions to complex tasks [2, 3] by pairing together individuals with unique skillsets and perspectives that complement and often augment the abilities of their peers.
 1	As	as	ADP	IN	_	3	case	3:case	Discourse=attribution:7->8
 2	an	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	_
 3	example	example	NOUN	NN	Number=Sing	6	obl	6:obl:as	SpaceAfter=No
@@ -98,9 +105,9 @@
 18	improved	improve	VERB	VBN	Tense=Past|VerbForm=Part	20	amod	20:amod	Entity=(abstract-19
 19	critical	critical	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
 20	thinking	thinking	NOUN	NN	Number=Sing	16	obl	16:obl:to	Entity=abstract-19)
-21	[	[	PUNCT	-LSB-	_	22	punct	22:punct	Discourse=evidence:9->8|SpaceAfter=No
+21	[	[	PUNCT	-LRB-	_	22	punct	22:punct	Discourse=evidence:9->8|SpaceAfter=No
 22	1	1	NUM	CD	NumForm=Digit|NumType=Card	16	dep	16:dep	Entity=(abstract-20)|SpaceAfter=No
-23	]	]	PUNCT	-RSB-	_	22	punct	22:punct	_
+23	]	]	PUNCT	-RRB-	_	22	punct	22:punct	_
 24	and	and	CCONJ	CC	_	27	cc	27:cc	Discourse=same-unit:10->8
 25	more	more	ADV	RBR	Degree=Cmp	26	advmod	26:advmod	Entity=(abstract-21
 26	creative	creative	ADJ	JJ	Degree=Pos	27	amod	27:amod	_
@@ -108,18 +115,18 @@
 28	to	to	ADP	IN	_	30	case	30:case	_
 29	complex	complex	ADJ	JJ	Degree=Pos	30	amod	30:amod	Entity=(abstract-22
 30	tasks	task	NOUN	NNS	Number=Plur	27	nmod	27:nmod:to	Entity=abstract-21)abstract-22)
-31	[	[	PUNCT	-LSB-	_	32	punct	32:punct	Discourse=evidence:11->10|SpaceAfter=No
+31	[	[	PUNCT	-LRB-	_	32	punct	32:punct	Discourse=evidence:11->10|SpaceAfter=No
 32	2	2	NUM	CD	NumForm=Digit|NumType=Card	27	dep	27:dep	Entity=(abstract-23)|SpaceAfter=No
 33	,	,	PUNCT	,	_	34	punct	34:punct	_
 34	3	3	NUM	CD	NumForm=Digit|NumType=Card	27	dep	27:dep	Entity=(abstract-24)|SpaceAfter=No
-35	]	]	PUNCT	-RSB-	_	34	punct	34:punct	_
+35	]	]	PUNCT	-RRB-	_	34	punct	34:punct	_
 36	by	by	SCONJ	IN	_	37	mark	37:mark	Discourse=means:12->8
 37	pairing	pair	VERB	VBG	VerbForm=Ger	16	advcl	16:advcl:by	_
-38	together	together	ADV	RB	Degree=Pos	37	compound:prt	37:compound:prt	_
+38	together	together	ADV	RB	Degree=Pos	37	advmod	37:advmod	_
 39	individuals	individual	NOUN	NNS	Number=Plur	37	obj	37:obj	Entity=(person-25
 40	with	with	ADP	IN	_	42	case	42:case	_
 41	unique	unique	ADJ	JJ	Degree=Pos	42	amod	42:amod	Entity=(abstract-26
-42	skillsets	skillsets	NOUN	NNS	Number=Plur	39	nmod	39:nmod:with|46:nsubj	_
+42	skillsets	skillset	NOUN	NNS	Number=Plur	39	nmod	39:nmod:with|46:nsubj	_
 43	and	and	CCONJ	CC	_	44	cc	44:cc	_
 44	perspectives	perspective	NOUN	NNS	Number=Plur	42	conj	39:nmod:with|42:conj:and	Entity=(abstract-27
 45	that	that	PRON	WDT	PronType=Rel	46	nsubj	42:ref	Discourse=elaboration:13->12
@@ -135,8 +142,8 @@
 55	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_academic_census-5
-# text = Additionally, diversity has been shown to produce more supportive social climates and effective learning environments [4], which can facilitate the mentoring of young scientists.
 # s_type = decl
+# text = Additionally, diversity has been shown to produce more supportive social climates and effective learning environments [4], which can facilitate the mentoring of young scientists.
 1	Additionally	additionally	ADV	RB	Degree=Pos	6	advmod	6:advmod	Discourse=joint:14->8|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	diversity	diversity	NOUN	NN	Number=Sing	6	nsubj:pass	6:nsubj:pass|8:nsubj:xsubj	Entity=(abstract-30)
@@ -153,9 +160,9 @@
 14	effective	effective	ADJ	JJ	Degree=Pos	16	amod	16:amod	Entity=(place-32
 15	learning	learning	NOUN	NN	Number=Sing	16	compound	16:compound	_
 16	environments	environment	NOUN	NNS	Number=Plur	12	conj	8:obj|12:conj:and	_
-17	[	[	PUNCT	-LSB-	_	18	punct	18:punct	Discourse=evidence:15->14|SpaceAfter=No
+17	[	[	PUNCT	-LRB-	_	18	punct	18:punct	Discourse=evidence:15->14|SpaceAfter=No
 18	4	4	NUM	CD	NumForm=Digit|NumType=Card	6	dep	6:dep	Entity=(abstract-33)|SpaceAfter=No
-19	]	]	PUNCT	-RSB-	_	18	punct	18:punct	SpaceAfter=No
+19	]	]	PUNCT	-RRB-	_	18	punct	18:punct	SpaceAfter=No
 20	,	,	PUNCT	,	_	23	punct	23:punct	_
 21	which	which	PRON	WDT	PronType=Rel	23	nsubj	12:ref	Discourse=elaboration:16->14
 22	can	can	AUX	MD	VerbForm=Fin	23	aux	23:aux	_
@@ -168,8 +175,8 @@
 29	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_academic_census-6
-# text = Despite these positive effects, however, quantifying the impact of diversity in science remains exceedingly difficult, due in large part to a lack of comprehensive data about the scientific workforce.
 # s_type = decl
+# text = Despite these positive effects, however, quantifying the impact of diversity in science remains exceedingly difficult, due in large part to a lack of comprehensive data about the scientific workforce.
 1	Despite	despite	ADP	IN	_	4	case	4:case	Discourse=concession:17->18
 2	these	this	DET	DT	Number=Plur|PronType=Dem	4	det	4:det	Entity=(abstract-36|Split=abstract-19<abstract-36,abstract-21<abstract-36
 3	positive	positive	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -192,7 +199,7 @@
 20	in	in	ADP	IN	_	22	case	22:case	_
 21	large	large	ADJ	JJ	Degree=Pos	22	amod	22:amod	_
 22	part	part	NOUN	NN	Number=Sing	25	obl	25:obl:in	_
-23	to	to	PART	TO	_	19	fixed	19:fixed	_
+23	to	to	ADP	IN	_	19	fixed	19:fixed	_
 24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	25:det	Entity=(abstract-39
 25	lack	lack	NOUN	NN	Number=Sing	15	obl	15:obl:due_to	_
 26	of	of	ADP	IN	_	28	case	28:case	_
@@ -205,13 +212,13 @@
 33	.	.	PUNCT	.	_	15	punct	15:punct	_
 
 # sent_id = GUM_academic_census-7
-# text = Measuring the composition and dynamics of a scientific workforce, particularly in a rapidly expanding field like computer science, is a crucial first step toward understanding how scholarly research is conducted and how it might be enhanced.
 # s_type = decl
+# text = Measuring the composition and dynamics of a scientific workforce, particularly in a rapidly expanding field like computer science, is a crucial first step toward understanding how scholarly research is conducted and how it might be enhanced.
 1	Measuring	measure	VERB	VBG	VerbForm=Ger	25	csubj	25:csubj	Discourse=background:19->68|Entity=(event-42
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(abstract-43
 3	composition	composition	NOUN	NN	Number=Sing	1	obj	1:obj	_
 4	and	and	CCONJ	CC	_	5	cc	5:cc	_
-5	dynamics	dynamics	NOUN	NNS	Number=Plur	3	conj	1:obj|3:conj:and	_
+5	dynamics	dynamic	NOUN	NNS	Number=Plur	3	conj	1:obj|3:conj:and	_
 6	of	of	ADP	IN	_	9	case	9:case	_
 7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(person-44
 8	scientific	scientific	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
@@ -248,8 +255,8 @@
 39	.	.	PUNCT	.	_	25	punct	25:punct	_
 
 # sent_id = GUM_academic_census-8
-# text = For many scientific fields, however, there is no central listing of all tenure-track faculty, making it difficult to define a rigorous sample frame for analysis.
 # s_type = decl
+# text = For many scientific fields, however, there is no central listing of all tenure-track faculty, making it difficult to define a rigorous sample frame for analysis.
 1	For	for	ADP	IN	_	4	case	4:case	Discourse=antithesis:20->19
 2	many	many	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(abstract-48
 3	scientific	scientific	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -281,8 +288,8 @@
 29	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_academic_census-9
-# text = Further, rates of adoption of services like GoogleScholar and ResearchGate vary within, and across disciplines.
 # s_type = decl
+# text = Further, rates of adoption of services like GoogleScholar and ResearchGate vary within, and across disciplines.
 1	Further	far	ADV	RBR	Degree=Cmp	12	advmod	12:advmod	Discourse=joint:22->20|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	rates	rate	NOUN	NNS	Number=Plur	12	nsubj	12:nsubj	Entity=(abstract-54
@@ -303,8 +310,8 @@
 18	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_academic_census-10
-# text = For instance, gender representation in computing is an important issue with broad implications [5], but without a full census of computing faculty, the degree of inequality and its possible sources are difficult to establish [6].
 # s_type = decl
+# text = For instance, gender representation in computing is an important issue with broad implications [5], but without a full census of computing faculty, the degree of inequality and its possible sources are difficult to establish [6].
 1	For	for	ADP	IN	_	2	case	2:case	Discourse=justify:23->19
 2	instance	instance	NOUN	NN	Number=Sing	11	nmod	11:nmod:for	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -319,9 +326,9 @@
 12	with	with	ADP	IN	_	14	case	14:case	_
 13	broad	broad	ADJ	JJ	Degree=Pos	14	amod	14:amod	Entity=(abstract-63
 14	implications	implication	NOUN	NNS	Number=Plur	11	nmod	11:nmod:with	Entity=abstract-60)abstract-63)
-15	[	[	PUNCT	-LSB-	_	16	punct	16:punct	Discourse=evidence:24->23|SpaceAfter=No
+15	[	[	PUNCT	-LRB-	_	16	punct	16:punct	Discourse=evidence:24->23|SpaceAfter=No
 16	5	5	NUM	CD	NumForm=Digit|NumType=Card	11	dep	11:dep	Entity=(abstract-64)|SpaceAfter=No
-17	]	]	PUNCT	-RSB-	_	16	punct	16:punct	SpaceAfter=No
+17	]	]	PUNCT	-RRB-	_	16	punct	16:punct	SpaceAfter=No
 18	,	,	PUNCT	,	_	37	punct	37:punct	_
 19	but	but	CCONJ	CC	_	37	cc	37:cc	Discourse=contrast:25->23
 20	without	without	ADP	IN	_	23	case	23:case	_
@@ -344,23 +351,23 @@
 37	difficult	difficult	ADJ	JJ	Degree=Pos	11	conj	11:conj:but	_
 38	to	to	PART	TO	_	39	mark	39:mark	_
 39	establish	establish	VERB	VB	VerbForm=Inf	37	xcomp	37:xcomp	_
-40	[	[	PUNCT	-LSB-	_	41	punct	41:punct	Discourse=evidence:26->25|SpaceAfter=No
+40	[	[	PUNCT	-LRB-	_	41	punct	41:punct	Discourse=evidence:26->25|SpaceAfter=No
 41	6	6	NUM	CD	NumForm=Digit|NumType=Card	37	dep	37:dep	Entity=(abstract-70)|SpaceAfter=No
-42	]	]	PUNCT	-RSB-	_	41	punct	41:punct	SpaceAfter=No
+42	]	]	PUNCT	-RRB-	_	41	punct	41:punct	SpaceAfter=No
 43	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_academic_census-11
-# text = Some disciplines, like political science, are organized around a single professional society, whose membership roll approximates a full census [7].
 # s_type = decl
+# text = Some disciplines, like political science, are organized around a single professional society, whose membership roll approximates a full census [7].
 1	Some	some	DET	DT	_	2	det	2:det	Bridge=abstract-59<abstract-71|Discourse=background:27->35|Entity=(abstract-71
-2	disciplines	discipline	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj	SpaceAfter=No
+2	disciplines	discipline	NOUN	NNS	Number=Plur	9	nsubj:pass	9:nsubj:pass	SpaceAfter=No
 3	,	,	PUNCT	,	_	6	punct	6:punct	_
 4	like	like	ADP	IN	_	6	case	6:case	_
 5	political	political	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(abstract-72
 6	science	science	NOUN	NN	Number=Sing	2	nmod	2:nmod:like	Entity=abstract-71)abstract-72)|SpaceAfter=No
 7	,	,	PUNCT	,	_	2	punct	2:punct	_
-8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
-9	organized	organize	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	9:aux:pass	_
+9	organized	organize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 10	around	around	ADP	IN	_	14	case	14:case	_
 11	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(organization-73
 12	single	single	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
@@ -374,14 +381,14 @@
 20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(event-76
 21	full	full	ADJ	JJ	Degree=Pos	22	amod	22:amod	_
 22	census	census	NOUN	NN	Number=Sing	19	obj	19:obj	Entity=organization-73)event-76)
-23	[	[	PUNCT	-LSB-	_	24	punct	24:punct	Discourse=evidence:29->27|SpaceAfter=No
+23	[	[	PUNCT	-LRB-	_	24	punct	24:punct	Discourse=evidence:29->27|SpaceAfter=No
 24	7	7	NUM	CD	NumForm=Digit|NumType=Card	9	dep	9:dep	Entity=(abstract-77)|SpaceAfter=No
-25	]	]	PUNCT	-RSB-	_	24	punct	24:punct	SpaceAfter=No
+25	]	]	PUNCT	-RRB-	_	24	punct	24:punct	SpaceAfter=No
 26	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_academic_census-12
-# text = Most fields, on the other hand, including computer science, lack a single all-encompassing organization and membership information is instead distributed across many disjoint lists, such as web-based faculty directories for individual departments.
 # s_type = decl
+# text = Most fields, on the other hand, including computer science, lack a single all-encompassing organization and membership information is instead distributed across many disjoint lists, such as web-based faculty directories for individual departments.
 1	Most	most	ADJ	JJS	Degree=Sup	2	amod	2:amod	Bridge=abstract-59<abstract-78|Discourse=contrast:30->27|Entity=(abstract-78
 2	fields	field	NOUN	NNS	Number=Plur	13	nsubj	13:nsubj	Entity=abstract-78)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -401,7 +408,7 @@
 17	organization	organization	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=organization-73)
 18	and	and	CCONJ	CC	_	23	cc	23:cc	Discourse=elaboration:33->30
 19	membership	membership	NOUN	NN	Number=Sing	20	compound	20:compound	Entity=(abstract-79(abstract-80)
-20	information	information	NOUN	NN	Number=Sing	23	nsubj	23:nsubj	Entity=abstract-79)
+20	information	information	NOUN	NN	Number=Sing	23	nsubj:pass	23:nsubj:pass	Entity=abstract-79)
 21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	23:aux:pass	_
 22	instead	instead	ADV	RB	Degree=Pos	23	advmod	23:advmod	_
 23	distributed	distribute	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	conj	13:conj:and	_
@@ -421,8 +428,8 @@
 37	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_academic_census-13
-# text = Because assembling such a full census is difficult, past studies have tended to avoid this task and have instead used samples of researchers [8 – 11], usually specific to a particular field [12 – 16], and often focused on the scientific elite [17, 18].
 # s_type = decl
+# text = Because assembling such a full census is difficult, past studies have tended to avoid this task and have instead used samples of researchers [8 – 11], usually specific to a particular field [12 – 16], and often focused on the scientific elite [17, 18].
 1	Because	because	SCONJ	IN	_	8	mark	8:mark	Discourse=cause:34->35
 2	assembling	assemble	VERB	VBG	VerbForm=Ger	8	csubj	8:csubj	_
 3	such	such	PRON	PDT	_	6	det:predet	6:det:predet	Entity=(event-76
@@ -447,11 +454,11 @@
 22	samples	sample	NOUN	NNS	Number=Plur	21	obj	21:obj	Entity=(abstract-87
 23	of	of	ADP	IN	_	24	case	24:case	_
 24	researchers	researcher	NOUN	NNS	Number=Plur	22	nmod	22:nmod:of	Entity=(person-88)
-25	[	[	PUNCT	-LSB-	_	26	punct	26:punct	Discourse=evidence:37->35|SpaceAfter=No
+25	[	[	PUNCT	-LRB-	_	26	punct	26:punct	Discourse=evidence:37->35|SpaceAfter=No
 26	8	8	NUM	CD	NumForm=Digit|NumType=Card	13	dep	13:dep	Entity=(abstract-89)
 27	–	-	SYM	SYM	_	28	case	28:case	_
 28	11	11	NUM	CD	NumForm=Digit|NumType=Card	26	nmod	26:nmod:to	Entity=(abstract-90)|SpaceAfter=No
-29	]	]	PUNCT	-RSB-	_	26	punct	26:punct	SpaceAfter=No
+29	]	]	PUNCT	-RRB-	_	26	punct	26:punct	SpaceAfter=No
 30	,	,	PUNCT	,	_	32	punct	32:punct	_
 31	usually	usually	ADV	RB	Degree=Pos	32	advmod	32:advmod	Discourse=same-unit:38->35
 32	specific	specific	ADJ	JJ	Degree=Pos	22	amod	22:amod	_
@@ -459,11 +466,11 @@
 34	a	a	DET	DT	Definite=Ind|PronType=Art	36	det	36:det	Bridge=abstract-59<abstract-91|Entity=(abstract-91
 35	particular	particular	ADJ	JJ	Degree=Pos	36	amod	36:amod	_
 36	field	field	NOUN	NN	Number=Sing	32	obl	32:obl:to	Entity=abstract-87)abstract-91)
-37	[	[	PUNCT	-LSB-	_	38	punct	38:punct	Discourse=evidence:39->38|SpaceAfter=No
+37	[	[	PUNCT	-LRB-	_	38	punct	38:punct	Discourse=evidence:39->38|SpaceAfter=No
 38	12	12	NUM	CD	NumForm=Digit|NumType=Card	32	dep	32:dep	Entity=(abstract-92)
 39	–	-	NOUN	NN	Number=Sing	40	case	40:case	_
 40	16	16	NUM	CD	NumForm=Digit|NumType=Card	38	nmod	38:nmod:to	Entity=(abstract-93)|SpaceAfter=No
-41	]	]	PUNCT	-RSB-	_	38	punct	38:punct	SpaceAfter=No
+41	]	]	PUNCT	-RRB-	_	38	punct	38:punct	SpaceAfter=No
 42	,	,	PUNCT	,	_	45	punct	45:punct	_
 43	and	and	CCONJ	CC	_	45	cc	45:cc	Discourse=joint:40->35
 44	often	often	ADV	RB	Degree=Pos	45	advmod	45:advmod	_
@@ -472,16 +479,16 @@
 47	the	the	DET	DT	Definite=Def|PronType=Art	49	det	49:det	Entity=(person-94
 48	scientific	scientific	ADJ	JJ	Degree=Pos	49	amod	49:amod	_
 49	elite	elite	NOUN	NN	Number=Sing	45	obl	45:obl:on	Entity=person-94)
-50	[	[	PUNCT	-LSB-	_	51	punct	51:punct	Discourse=evidence:41->40|SpaceAfter=No
+50	[	[	PUNCT	-LRB-	_	51	punct	51:punct	Discourse=evidence:41->40|SpaceAfter=No
 51	17	17	NUM	CD	NumForm=Digit|NumType=Card	45	dep	45:dep	Entity=(abstract-95)|SpaceAfter=No
 52	,	,	PUNCT	,	_	53	punct	53:punct	_
 53	18	18	NUM	CD	NumForm=Digit|NumType=Card	51	conj	45:dep|51:conj	Entity=(abstract-96)|SpaceAfter=No
-54	]	]	PUNCT	-RSB-	_	51	punct	51:punct	SpaceAfter=No
+54	]	]	PUNCT	-RRB-	_	51	punct	51:punct	SpaceAfter=No
 55	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_academic_census-14
-# text = Although useful, such samples are not representative of the scientific workforce as a whole and thus have limited generalizability.
 # s_type = decl
+# text = Although useful, such samples are not representative of the scientific workforce as a whole and thus have limited generalizability.
 1	Although	although	SCONJ	IN	_	2	mark	2:mark	Discourse=concession:42->43
 2	useful	useful	ADJ	JJ	Degree=Pos	8	advcl	8:advcl:although	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -505,8 +512,8 @@
 21	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_academic_census-15
-# text = One of the largest census efforts to date assembled, by hand, a nearly complete record of three academic fields: computer science, history, and business [19].
 # s_type = decl
+# text = One of the largest census efforts to date assembled, by hand, a nearly complete record of three academic fields: computer science, history, and business [19].
 1	One	one	NUM	CD	NumForm=Word|NumType=Card	9	nsubj	9:nsubj	Discourse=contrast:45->35|Entity=(event-98
 2	of	of	ADP	IN	_	6	case	6:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	_
@@ -536,14 +543,14 @@
 27	,	,	PUNCT	,	_	29	punct	29:punct	_
 28	and	and	CCONJ	CC	_	29	cc	29:cc	_
 29	business	business	NOUN	NN	Number=Sing	24	conj	21:appos|24:conj:and	Entity=(abstract-103)abstract-100)abstract-101)
-30	[	[	PUNCT	-LSB-	_	31	punct	31:punct	Discourse=evidence:47->45|SpaceAfter=No
+30	[	[	PUNCT	-LRB-	_	31	punct	31:punct	Discourse=evidence:47->45|SpaceAfter=No
 31	19	19	NUM	CD	NumForm=Digit|NumType=Card	9	dep	9:dep	Entity=(abstract-104)|SpaceAfter=No
-32	]	]	PUNCT	-RSB-	_	31	punct	31:punct	SpaceAfter=No
+32	]	]	PUNCT	-RRB-	_	31	punct	31:punct	SpaceAfter=No
 33	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_academic_census-16
-# text = This data set has shed considerable light on dramatic inequalities in faculty training, placement, and scholarly productivity [6, 19, 20].
 # s_type = decl
+# text = This data set has shed considerable light on dramatic inequalities in faculty training, placement, and scholarly productivity [6, 19, 20].
 1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Discourse=evaluation:48->45|Entity=(abstract-100
 2	data	datum	NOUN	NNS	Number=Plur	3	compound	3:compound	_
 3	set	set	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=abstract-100)
@@ -563,22 +570,22 @@
 17	and	and	CCONJ	CC	_	19	cc	19:cc	_
 18	scholarly	scholarly	ADJ	JJ	Degree=Pos	19	amod	19:amod	Entity=(abstract-109
 19	productivity	productivity	NOUN	NN	Number=Sing	13	conj	10:nmod:in|13:conj:and	Entity=abstract-106)abstract-109)
-20	[	[	PUNCT	-LSB-	_	21	punct	21:punct	Discourse=evidence:49->48|SpaceAfter=No
+20	[	[	PUNCT	-LRB-	_	21	punct	21:punct	Discourse=evidence:49->48|SpaceAfter=No
 21	6	6	NUM	CD	NumForm=Digit|NumType=Card	5	dep	5:dep	Entity=(abstract-70)|SpaceAfter=No
 22	,	,	PUNCT	,	_	23	punct	23:punct	_
 23	19	19	NUM	CD	NumForm=Digit|NumType=Card	21	conj	5:dep|21:conj	Entity=(abstract-104)|SpaceAfter=No
 24	,	,	PUNCT	,	_	25	punct	25:punct	_
 25	20	20	NUM	CD	NumForm=Digit|NumType=Card	21	conj	5:dep|21:conj	Entity=(abstract-110)|SpaceAfter=No
-26	]	]	PUNCT	-RSB-	_	21	punct	21:punct	SpaceAfter=No
+26	]	]	PUNCT	-RRB-	_	21	punct	21:punct	SpaceAfter=No
 27	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_academic_census-17
-# text = But, this data set is only a single snapshot of an evolving and expanding system and hence offers few insights into the changing composition and diversity trends within these academic fields.
 # s_type = decl
+# text = But, this data set is only a single snapshot of an evolving and expanding system and hence offers few insights into the changing composition and diversity trends within these academic fields.
 1	But	but	CCONJ	CC	_	19	cc	19:cc	Discourse=contrast:50->48|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	5:det	Entity=(abstract-100
-4	data	data	NOUN	NN	Number=Sing	5	compound	5:compound	_
+4	data	datum	NOUN	NNS	Number=Plur	5	compound	5:compound	_
 5	set	set	NOUN	NN	Number=Sing	10	nsubj	10:nsubj|19:nsubj	Entity=abstract-100)
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
 7	only	only	ADV	RB	_	10	advmod	10:advmod	_
@@ -610,8 +617,8 @@
 33	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_academic_census-18
-# text = In some fields, yearly data on faculty numbers and composition are available in aggregate.
 # s_type = decl
+# text = In some fields, yearly data on faculty numbers and composition are available in aggregate.
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=joint:52->35
 2	some	some	DET	DT	_	3	det	3:det	Bridge=abstract-59<abstract-117|Entity=(abstract-117
 3	fields	field	NOUN	NNS	Number=Plur	13	obl	13:obl:in	Entity=abstract-117)|SpaceAfter=No
@@ -630,8 +637,8 @@
 16	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_academic_census-19
-# text = In computer science, the Computing Research Association (CRA) documents trends in the employment of PhD recipients through the annual Taulbee survey of computing departments in North America (cra.org/resources/taulbee-survey).
 # s_type = decl
+# text = In computer science, the Computing Research Association (CRA) documents trends in the employment of PhD recipients through the annual Taulbee survey of computing departments in North America (cra.org/resources/taulbee-survey).
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=elaboration:53->52
 2	computer	computer	NOUN	NN	Number=Sing	3	compound	3:compound	Entity=(abstract-46
 3	science	science	NOUN	NN	Number=Sing	12	obl	12:obl:in	Entity=abstract-46)|SpaceAfter=No
@@ -668,8 +675,8 @@
 34	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_academic_census-20
-# text = Such surveys can provide valuable insight into trends and summary statistics on the scientific workforce but suffer from two key weaknesses.
 # s_type = multiple
+# text = Such surveys can provide valuable insight into trends and summary statistics on the scientific workforce but suffer from two key weaknesses.
 1	Such	such	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=preparation:57->59|Entity=(abstract-131
 2	surveys	survey	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj|17:nsubj	Entity=abstract-131)
 3	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux|17:aux	_
@@ -694,8 +701,8 @@
 22	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_academic_census-21
-# text = First, surveys are subject to variable response rates and the misinterpretation of questions or sample frames, which can inject bias into fine-grained analyses [21, 22].
 # s_type = decl
+# text = First, surveys are subject to variable response rates and the misinterpretation of questions or sample frames, which can inject bias into fine-grained analyses [21, 22].
 1	First	first	ADV	RB	Degree=Pos|NumType=Ord	5	advmod	5:advmod	Discourse=evaluation:59->52|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	surveys	survey	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=(abstract-136)
@@ -721,16 +728,16 @@
 23	into	into	ADP	IN	_	25	case	25:case	_
 24	fine-grained	fine-grained	ADJ	JJ	Degree=Pos	25	amod	25:amod	Entity=(abstract-142
 25	analyses	analysis	NOUN	NNS	Number=Plur	21	obl	21:obl:into	Entity=abstract-137)abstract-138)abstract-142)
-26	[	[	PUNCT	-LSB-	_	27	punct	27:punct	Discourse=evidence:61->59|SpaceAfter=No
+26	[	[	PUNCT	-LRB-	_	27	punct	27:punct	Discourse=evidence:61->59|SpaceAfter=No
 27	21	21	NUM	CD	NumForm=Digit|NumType=Card	21	dep	21:dep	Entity=(abstract-143)|SpaceAfter=No
 28	,	,	PUNCT	,	_	29	punct	29:punct	_
 29	22	22	NUM	CD	NumForm=Digit|NumType=Card	27	conj	21:dep|27:conj	Entity=(abstract-144)|SpaceAfter=No
-30	]	]	PUNCT	-RSB-	_	27	punct	27:punct	SpaceAfter=No
+30	]	]	PUNCT	-RRB-	_	27	punct	27:punct	SpaceAfter=No
 31	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_academic_census-22
-# text = Second, aggregate information provides only a high-level view of a field, which can make it difficult to investigate causality [23].
 # s_type = decl
+# text = Second, aggregate information provides only a high-level view of a field, which can make it difficult to investigate causality [23].
 1	Second	second	ADV	RB	Degree=Pos|NumType=Ord	5	advmod	5:advmod	Discourse=joint:62->59|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	aggregate	aggregate	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(abstract-145
@@ -752,14 +759,14 @@
 19	to	to	PART	TO	_	20	mark	20:mark	Entity=(abstract-148
 20	investigate	investigate	VERB	VB	VerbForm=Inf	18	xcomp	18:xcomp	_
 21	causality	causality	NOUN	NN	Number=Sing	20	obj	20:obj	Entity=(abstract-149)abstract-148)
-22	[	[	PUNCT	-LSB-	_	23	punct	23:punct	Discourse=evidence:64->62|SpaceAfter=No
+22	[	[	PUNCT	-LRB-	_	23	punct	23:punct	Discourse=evidence:64->62|SpaceAfter=No
 23	23	23	NUM	CD	NumForm=Digit|NumType=Card	5	dep	5:dep	Entity=(abstract-150)|SpaceAfter=No
-24	]	]	PUNCT	-RSB-	_	23	punct	23:punct	SpaceAfter=No
+24	]	]	PUNCT	-RRB-	_	23	punct	23:punct	SpaceAfter=No
 25	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_academic_census-23
-# text = For example, differences in recruitment and retention strategies across departments will be washed out by averaging, thereby masking any insights into the efficacy of individual strategies and policies.
 # s_type = decl
+# text = For example, differences in recruitment and retention strategies across departments will be washed out by averaging, thereby masking any insights into the efficacy of individual strategies and policies.
 1	For	for	ADP	IN	_	2	case	2:case	Discourse=evidence:65->62
 2	example	example	NOUN	NN	Number=Sing	14	obl	14:obl:for	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -793,8 +800,8 @@
 31	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # sent_id = GUM_academic_census-24
-# text = Here, we present a novel system, based on a topical web crawler, that can quickly and automatically assemble a full census of an academic field using digital data available on the public World Wide Web.
 # s_type = decl
+# text = Here, we present a novel system, based on a topical web crawler, that can quickly and automatically assemble a full census of an academic field using digital data available on the public World Wide Web.
 1	Here	here	ADV	RB	PronType=Dem	4	advmod	4:advmod	Discourse=ROOT:68|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-161)
@@ -836,8 +843,8 @@
 39	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_academic_census-25
-# text = This system is efficient and accurate, and it can be adapted to any academic discipline and used for continuous collection.
 # s_type = multiple
+# text = This system is efficient and accurate, and it can be adapted to any academic discipline and used for continuous collection.
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=evaluation:72->68|Entity=(abstract-162
 2	system	system	NOUN	NN	Number=Sing	4	nsubj	4:nsubj|6:nsubj	Entity=abstract-162)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
@@ -862,8 +869,8 @@
 22	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_academic_census-26
-# text = The system is capable of collecting census data for an entire academic field in just a few hours using off-the-shelf computing hardware, a vast improvement over the roughly 1600 hours required to do this task by hand [19].
 # s_type = decl
+# text = The system is capable of collecting census data for an entire academic field in just a few hours using off-the-shelf computing hardware, a vast improvement over the roughly 1600 hours required to do this task by hand [19].
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration:75->68|Entity=(abstract-169(abstract-162
 2	system	system	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=abstract-162)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
@@ -902,14 +909,14 @@
 36	task	task	NOUN	NN	Number=Sing	34	obj	34:obj	Entity=event-170)
 37	by	by	ADP	IN	_	38	case	38:case	_
 38	hand	hand	NOUN	NN	Number=Sing	34	obl	34:obl:by	Entity=abstract-169)time-175)
-39	[	[	PUNCT	-LSB-	_	40	punct	40:punct	Discourse=evidence:81->75|SpaceAfter=No
+39	[	[	PUNCT	-LRB-	_	40	punct	40:punct	Discourse=evidence:81->75|SpaceAfter=No
 40	19	19	NUM	CD	NumForm=Digit|NumType=Card	31	dep	31:dep	Entity=(abstract-104)|SpaceAfter=No
-41	]	]	PUNCT	-RSB-	_	40	punct	40:punct	SpaceAfter=No
+41	]	]	PUNCT	-RRB-	_	40	punct	40:punct	SpaceAfter=No
 42	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_academic_census-27
-# text = By assembling an accurate census of an entire field from online information alone, this system will facilitate new research on the composition of academic fields by providing access to complete faculty listings, without having to rely on surveys or professional societies.
 # s_type = decl
+# text = By assembling an accurate census of an entire field from online information alone, this system will facilitate new research on the composition of academic fields by providing access to complete faculty listings, without having to rely on surveys or professional societies.
 1	By	by	SCONJ	IN	_	2	mark	2:mark	Discourse=means:82->83
 2	assembling	assemble	VERB	VBG	VerbForm=Ger	18	advcl	18:advcl:by	_
 3	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(abstract-171
@@ -956,8 +963,8 @@
 44	.	.	PUNCT	.	_	18	punct	18:punct	_
 
 # sent_id = GUM_academic_census-28
-# text = This system can also be used longitudinally to study how the workforce’s composition changes over time, which is particularly valuable for evaluating the effectiveness of policies meant to broaden participation or improve retention of faculty.
 # s_type = sub
+# text = This system can also be used longitudinally to study how the workforce’s composition changes over time, which is particularly valuable for evaluating the effectiveness of policies meant to broaden participation or improve retention of faculty.
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=joint:86->75|Entity=(abstract-162
 2	system	system	NOUN	NN	Number=Sing	6	nsubj:pass	6:nsubj:pass|9:nsubj:xsubj	Entity=abstract-162)
 3	can	can	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
@@ -969,7 +976,8 @@
 9	study	study	VERB	VB	VerbForm=Inf	6	xcomp	6:xcomp	_
 10	how	how	SCONJ	WRB	PronType=Rel	9	obj	9:obj	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(abstract-177(person-41
-12	workforce	workforce	NOUN	NN	Number=Sing	14	nmod:poss	14:nmod:poss	SpaceAfter=No
+12-13	workforce’s	_	_	_	_	_	_	_	_
+12	workforce	workforce	NOUN	NN	Number=Sing	14	nmod:poss	14:nmod:poss	_
 13	’s	's	PART	POS	_	12	case	12:case	Entity=person-41)
 14	composition	composition	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=abstract-177)
 15	changes	change	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	10:acl:relcl|22:nsubj	_
@@ -998,8 +1006,8 @@
 38	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_academic_census-29
-# text = Finally, applied to many academic fields in parallel, the system can elucidate scientists’ movement between different disciplines and relate those labor flows to scientific advances.
 # s_type = sub
+# text = Finally, applied to many academic fields in parallel, the system can elucidate scientists’ movement between different disciplines and relate those labor flows to scientific advances.
 1	Finally	finally	ADV	RB	Degree=Pos	14	advmod	14:advmod	Discourse=circumstance:91->92|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	applied	apply	VERB	VBN	Tense=Past|VerbForm=Part	14	advcl	14:advcl	_
@@ -1014,7 +1022,8 @@
 12	system	system	NOUN	NN	Number=Sing	14	nsubj	14:nsubj|22:nsubj	Entity=abstract-162)
 13	can	can	AUX	MD	VerbForm=Fin	14	aux	14:aux|22:aux	_
 14	elucidate	elucidate	VERB	VB	VerbForm=Inf	0	root	0:root	_
-15	scientists	scientist	NOUN	NNS	Number=Plur	17	nmod:poss	17:nmod:poss	Entity=(abstract-188(person-189|SpaceAfter=No
+15-16	scientists’	_	_	_	_	_	_	_	_
+15	scientists	scientist	NOUN	NNS	Number=Plur	17	nmod:poss	17:nmod:poss	Entity=(abstract-188(person-189
 16	’	's	PART	POS	_	15	case	15:case	Entity=person-189)
 17	movement	movement	NOUN	NN	Number=Sing	14	obj	14:obj	_
 18	between	between	ADP	IN	_	20	case	20:case	_
@@ -1031,8 +1040,8 @@
 29	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # sent_id = GUM_academic_census-30
-# text = In short, many important research questions will benefit from the availability of accurate and frequently-recollected census data.
 # s_type = decl
+# text = In short, many important research questions will benefit from the availability of accurate and frequently-recollected census data.
 1	In	in	ADP	IN	_	2	case	2:case	Discourse=evaluation:94->68
 2	short	short	ADJ	JJ	Degree=Pos	9	obl	9:obl:in	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -1054,8 +1063,8 @@
 19	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_academic_census-31
-# text = Our study is organized as follows.
 # s_type = decl
+# text = Our study is organized as follows.
 1	Our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=preparation:95->96|Entity=(abstract-197(person-161)
 2	study	study	NOUN	NN	Number=Sing	4	nsubj:pass	4:nsubj:pass	Entity=abstract-197)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
@@ -1065,8 +1074,8 @@
 7	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_academic_census-32
-# text = We begin by detailing the design and implementation of our web crawler framework.
 # s_type = decl
+# text = We begin by detailing the design and implementation of our web crawler framework.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration:96->68|Entity=(person-161)
 2	begin	begin	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	by	by	SCONJ	IN	_	4	mark	4:mark	Discourse=means:97->96
@@ -1083,8 +1092,8 @@
 14	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_academic_census-33
-# text = Next, we present the results of our work in two sections.
 # s_type = decl
+# text = Next, we present the results of our work in two sections.
 1	Next	next	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=sequence:98->96|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-161)
@@ -1100,8 +1109,8 @@
 13	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_academic_census-34
-# text = The first demonstrates the validity and utility of the crawler by collecting census data for the field of computer science and comparing it to a hand-curated census, collected in 2011 [19].
 # s_type = decl
+# text = The first demonstrates the validity and utility of the crawler by collecting census data for the field of computer science and comparing it to a hand-curated census, collected in 2011 [19].
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=abstract-202<abstract-203|Discourse=elaboration:99->98|Entity=(abstract-203
 2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	nsubj	3:nsubj	Entity=abstract-203)
 3	demonstrates	demonstrate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -1133,14 +1142,14 @@
 29	collected	collect	VERB	VBN	Tense=Past|VerbForm=Part	27	acl	27:acl	Discourse=elaboration:102->101
 30	in	in	ADP	IN	_	31	case	31:case	_
 31	2011	2011	NUM	CD	NumForm=Digit|NumType=Card	29	obl	29:obl:in	Entity=(time-207)abstract-206)
-32	[	[	PUNCT	-LSB-	_	33	punct	33:punct	Discourse=evidence:103->102|SpaceAfter=No
+32	[	[	PUNCT	-LRB-	_	33	punct	33:punct	Discourse=evidence:103->102|SpaceAfter=No
 33	19	19	NUM	CD	NumForm=Digit|NumType=Card	27	dep	27:dep	Entity=(abstract-104)|SpaceAfter=No
-34	]	]	PUNCT	-RSB-	_	33	punct	33:punct	SpaceAfter=No
+34	]	]	PUNCT	-RRB-	_	33	punct	33:punct	SpaceAfter=No
 35	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_academic_census-35
-# text = The second provides an example of the type of research enabled by our system and uses the 2011 and 2017 censuses to investigate the “leaky pipeline” problem in faculty retention.
 # s_type = decl
+# text = The second provides an example of the type of research enabled by our system and uses the 2011 and 2017 censuses to investigate the “leaky pipeline” problem in faculty retention.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=abstract-202<abstract-208|Discourse=sequence:104->99|Entity=(abstract-208
 2	second	second	NOUN	NN	Number=Sing	3	nsubj	3:nsubj|16:nsubj	Entity=abstract-208)
 3	provides	provide	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_

@@ -1,13 +1,20 @@
 # newdoc id = GUM_bio_hadid
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2017-09-13
+# meta::dateCreated = 2004-03-08
+# meta::dateModified = 2017-09-10
+# meta::sourceURL = https://en.wikipedia.org/wiki/Zaha_Hadid
+# meta::speakerCount = 0
+# meta::title = Zaha Hadid
 # sent_id = GUM_bio_hadid-1
-# text = Zaha Hadid
 # s_type = frag
+# text = Zaha Hadid
 1	Zaha	Zaha	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:1->2|Entity=(person-1-Zaha_Hadid
 2	Hadid	Hadid	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-1-Zaha_Hadid)
 
 # sent_id = GUM_bio_hadid-2
-# text = Dame Zaha Mohammad Hadid DBE RA (Arabic: زها حديد Zahā Ḥadīd; 31 October 1950 – 31 March 2016) was an Iraqi-British architect.
 # s_type = decl
+# text = Dame Zaha Mohammad Hadid DBE RA (Arabic: زها حديد Zahā Ḥadīd; 31 October 1950 – 31 March 2016) was an Iraqi-British architect.
 1	Dame	Dame	PROPN	NNP	Number=Sing	26	nsubj	26:nsubj	Discourse=ROOT:2|Entity=(person-1-Zaha_Hadid
 2	Zaha	Zaha	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	Mohammad	Mohammad	PROPN	NNP	Number=Sing	1	flat	1:flat	_
@@ -37,8 +44,8 @@
 27	.	.	PUNCT	.	_	26	punct	26:punct	_
 
 # sent_id = GUM_bio_hadid-3
-# text = She was the first woman to receive the Pritzker Architecture Prize, in 2004.
 # s_type = decl
+# text = She was the first woman to receive the Pritzker Architecture Prize, in 2004.
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=elaboration:7->2|Entity=(person-1-Zaha_Hadid)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(person-1-Zaha_Hadid
@@ -56,12 +63,13 @@
 15	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_bio_hadid-4
-# text = She received the UK's most prestigious architectural award, the Stirling Prize, in 2010 and 2011.
 # s_type = decl
+# text = She received the UK's most prestigious architectural award, the Stirling Prize, in 2010 and 2011.
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=sequence:9->7|Entity=(person-1-Zaha_Hadid)
 2	received	receive	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(abstract-13(place-14-United_Kingdom
-4	UK	UK	PROPN	NNP	Abbr=Yes|Number=Sing	9	nmod:poss	9:nmod:poss	SpaceAfter=No
+4-5	UK's	_	_	_	_	_	_	_	_
+4	UK	UK	PROPN	NNP	Abbr=Yes|Number=Sing	9	nmod:poss	9:nmod:poss	_
 5	's	's	PART	POS	_	4	case	4:case	Entity=place-14-United_Kingdom)
 6	most	most	ADV	RBS	Degree=Sup	7	advmod	7:advmod	_
 7	prestigious	prestigious	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
@@ -79,8 +87,8 @@
 19	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_hadid-5
-# text = In 2012, she was made a Dame by Elizabeth II for services to architecture, and in 2015 she became the first and only woman to be awarded the Royal Gold Medal from the Royal Institute of British Architects.
 # s_type = decl
+# text = In 2012, she was made a Dame by Elizabeth II for services to architecture, and in 2015 she became the first and only woman to be awarded the Royal Gold Medal from the Royal Institute of British Architects.
 1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence:10->7
 2	2012	2012	NUM	CD	NumForm=Digit|NumType=Card	6	obl	6:obl:in	Entity=(time-18)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -91,7 +99,7 @@
 8	Dame	Dame	PROPN	NNP	Number=Sing	6	xcomp	6:xcomp	Entity=person-1-Zaha_Hadid)
 9	by	by	ADP	IN	_	10	case	10:case	_
 10	Elizabeth	Elizabeth	PROPN	NNP	Number=Sing	6	obl	6:obl:by	Entity=(person-19-Elizabeth_II
-11	II	II	PROPN	NNP	Number=Sing	10	amod	10:amod	Entity=person-19-Elizabeth_II)
+11	II	II	NUM	CD	NumForm=Roman|NumType=Card	10	amod	10:amod	Entity=person-19-Elizabeth_II)
 12	for	for	ADP	IN	_	13	case	13:case	_
 13	services	service	NOUN	NNS	Number=Plur	6	obl	6:obl:for	Entity=(abstract-20
 14	to	to	ADP	IN	_	15	case	15:case	_
@@ -111,21 +119,21 @@
 28	be	be	AUX	VB	VerbForm=Inf	29	aux:pass	29:aux:pass	_
 29	awarded	award	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	26	acl	26:acl:to	_
 30	the	the	DET	DT	Definite=Def|PronType=Art	33	det	33:det	Entity=(abstract-22-Royal_Gold_Medal
-31	Royal	Royal	PROPN	NNP	Number=Sing	33	amod	33:amod	_
+31	Royal	Royal	ADJ	NNP	Degree=Pos	33	amod	33:amod	_
 32	Gold	Gold	PROPN	NNP	Number=Sing	33	compound	33:compound	_
 33	Medal	Medal	PROPN	NNP	Number=Sing	29	obj	29:obj	Entity=abstract-22-Royal_Gold_Medal)
 34	from	from	ADP	IN	_	37	case	37:case	_
 35	the	the	DET	DT	Definite=Def|PronType=Art	37	det	37:det	Entity=(organization-23-Royal_Institute_of_British_Architects
-36	Royal	Royal	PROPN	NNP	Number=Sing	37	amod	37:amod	_
+36	Royal	Royal	ADJ	NNP	Degree=Pos	37	amod	37:amod	_
 37	Institute	Institute	PROPN	NNP	Number=Sing	29	obl	29:obl:from	_
 38	of	of	ADP	IN	_	40	case	40:case	_
-39	British	British	PROPN	NNP	Number=Sing	40	amod	40:amod	Entity=(person-24
-40	Architects	Architects	PROPN	NNPS	Number=Plur	37	nmod	37:nmod:of	Entity=person-1-Zaha_Hadid)organization-23-Royal_Institute_of_British_Architects)person-24)|SpaceAfter=No
+39	British	British	ADJ	NNP	Degree=Pos	40	amod	40:amod	Entity=(person-24
+40	Architects	Architect	PROPN	NNPS	Number=Plur	37	nmod	37:nmod:of	Entity=person-1-Zaha_Hadid)organization-23-Royal_Institute_of_British_Architects)person-24)|SpaceAfter=No
 41	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_bio_hadid-6
-# text = She was described by The Guardian of London as the 'Queen of the curve', who "liberated architectural geometry, giving it a whole new expressive identity. "
 # s_type = decl
+# text = She was described by The Guardian of London as the 'Queen of the curve', who "liberated architectural geometry, giving it a whole new expressive identity. "
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	3:nsubj:pass	Discourse=joint:13->7|Entity=(person-1-Zaha_Hadid)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	described	describe	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -145,7 +153,7 @@
 17	,	,	PUNCT	,	_	20	punct	20:punct	_
 18	who	who	PRON	WP	PronType=Rel	20	nsubj	12:ref	Discourse=elaboration:14->13
 19	"	''	PUNCT	``	_	20	punct	20:punct	SpaceAfter=No
-20	liberated	liberated	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	12:acl:relcl	_
+20	liberated	liberate	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	12:acl:relcl	_
 21	architectural	architectural	ADJ	JJ	Degree=Pos	22	amod	22:amod	Entity=(abstract-27
 22	geometry	geometry	NOUN	NN	Number=Sing	20	obj	20:obj	Entity=abstract-27)|SpaceAfter=No
 23	,	,	PUNCT	,	_	24	punct	24:punct	_
@@ -160,8 +168,8 @@
 32	"	''	PUNCT	``	_	20	punct	20:punct	Entity=person-1-Zaha_Hadid)|SpaceAfter=No
 
 # sent_id = GUM_bio_hadid-7
-# text = Her major works include the aquatic centre for the London 2012 Olympics, Michigan State University's Broad Art Museum in the US, and the Guangzhou Opera House in China.
 # s_type = decl
+# text = Her major works include the aquatic centre for the London 2012 Olympics, Michigan State University's Broad Art Museum in the US, and the Guangzhou Opera House in China.
 1	Her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Discourse=joint:16->7|Entity=(place-29(person-1-Zaha_Hadid)
 2	major	major	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	works	work	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=place-29)
@@ -173,11 +181,12 @@
 9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(event-31-2012_Summer_Olympics
 10	London	London	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=(place-26-London)
 11	2012	2012	NUM	CD	NumForm=Digit|NumType=Card	12	compound	12:compound	Entity=(time-32)
-12	Olympics	Olympic	PROPN	NNPS	Number=Plur	7	nmod	7:nmod:for	Entity=place-30)event-31-2012_Summer_Olympics)|SpaceAfter=No
+12	Olympics	Olympics	PROPN	NNPS	Number=Plur	7	nmod	7:nmod:for	Entity=place-30)event-31-2012_Summer_Olympics)|SpaceAfter=No
 13	,	,	PUNCT	,	_	20	punct	20:punct	_
 14	Michigan	Michigan	PROPN	NNP	Number=Sing	16	compound	16:compound	Bridge=place-29<place-33-Eli_and_Edythe_Broad_Art_Museum|Entity=(place-33-Eli_and_Edythe_Broad_Art_Museum(organization-34-Michigan_State_University(place-35-Michigan
 15	State	State	PROPN	NNP	Number=Sing	16	compound	16:compound	Entity=place-35-Michigan)
-16	University	University	PROPN	NNP	Number=Sing	20	nmod:poss	20:nmod:poss	SpaceAfter=No
+16-17	University's	_	_	_	_	_	_	_	_
+16	University	University	PROPN	NNP	Number=Sing	20	nmod:poss	20:nmod:poss	_
 17	's	's	PART	POS	_	16	case	16:case	Entity=organization-34-Michigan_State_University)
 18	Broad	Broad	PROPN	NNP	Number=Sing	20	compound	20:compound	Entity=(person-36-Eli_Broad)
 19	Art	Art	PROPN	NNP	Number=Sing	20	compound	20:compound	_
@@ -196,8 +205,8 @@
 32	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_bio_hadid-8
-# text = Some of her designs have been presented posthumously, including the statuette for the 2017 Brit Awards, and many of her buildings are still under construction, including the Al Wakrah Stadium in Qatar, a venue for the 2022 FIFA World Cup.
 # s_type = decl
+# text = Some of her designs have been presented posthumously, including the statuette for the 2017 Brit Awards, and many of her buildings are still under construction, including the Al Wakrah Stadium in Qatar, a venue for the 2022 FIFA World Cup.
 1	Some	some	PRON	DT	_	7	nsubj:pass	7:nsubj:pass	Discourse=joint:17->7|Entity=(abstract-41
 2	of	of	ADP	IN	_	4	case	4:case	_
 3	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(abstract-42(person-1-Zaha_Hadid)
@@ -245,8 +254,8 @@
 45	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_bio_hadid-9
-# text = Early life and academic career
 # s_type = frag
+# text = Early life and academic career
 1	Early	early	ADJ	JJ	Degree=Pos	2	amod	2:amod	Bridge=person-1-Zaha_Hadid<abstract-53|Discourse=preparation:21->22|Entity=(abstract-53
 2	life	life	NOUN	NN	Number=Sing	0	root	0:root	Entity=abstract-53)
 3	and	and	CCONJ	CC	_	5	cc	5:cc	_
@@ -254,8 +263,8 @@
 5	career	career	NOUN	NN	Number=Sing	2	conj	2:conj:and	Entity=abstract-54)
 
 # sent_id = GUM_bio_hadid-10
-# text = Hadid was born on 31 October 1950 in Baghdad, Iraq, to an upper-class Iraqi family.
 # s_type = decl
+# text = Hadid was born on 31 October 1950 in Baghdad, Iraq, to an upper-class Iraqi family.
 1	Hadid	Hadid	PROPN	NNP	Number=Sing	3	nsubj:pass	3:nsubj:pass	Discourse=joint:22->2|Entity=(person-1-Zaha_Hadid)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -276,8 +285,8 @@
 18	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_bio_hadid-11
-# text = Her father Mohammed Hadid Muhammad al-Hajj Husayn Hadid was a wealthy industrialist from Mosul.
 # s_type = decl
+# text = Her father Mohammed Hadid Muhammad al-Hajj Husayn Hadid was a wealthy industrialist from Mosul.
 1	Her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Bridge=person-57<person-58|Discourse=joint:23->22|Entity=(person-58(person-1-Zaha_Hadid)
 2	father	father	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=person-58)
 3	Mohammed	Mohammed	PROPN	NNP	Number=Sing	2	appos	2:appos	Entity=(person-58
@@ -295,8 +304,8 @@
 15	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_bio_hadid-12
-# text = He co-founded the left-liberal al-Ahali group in 1932, a significant political organisation in the 1930s and 1940s.
 # s_type = decl
+# text = He co-founded the left-liberal al-Ahali group in 1932, a significant political organisation in the 1930s and 1940s.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration:24->23|Entity=(person-58)
 2	co-founded	co-found	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(organization-60-Ahali_group
@@ -318,8 +327,8 @@
 19	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_hadid-13
-# text = He was the co-founder of the National Democratic Party in Iraq.
 # s_type = decl
+# text = He was the co-founder of the National Democratic Party in Iraq.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=joint:25->24|Entity=(person-58)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(person-58
@@ -334,8 +343,8 @@
 12	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_bio_hadid-14
-# text = He served as minister of finance after the overthrow of the monarch after the 1958 Iraqi coup d'état for the government of General Abd al-Karim Qasim.
 # s_type = decl
+# text = He served as minister of finance after the overthrow of the monarch after the 1958 Iraqi coup d'état for the government of General Abd al-Karim Qasim.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint:26->24|Entity=(person-58)
 2	served	serve	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	as	as	ADP	IN	_	4	case	4:case	_
@@ -365,8 +374,8 @@
 27	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_hadid-15
-# text = Her mother Wajiha al-Sabunji was an artist from Mosul.
 # s_type = decl
+# text = Her mother Wajiha al-Sabunji was an artist from Mosul.
 1	Her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Bridge=person-57<person-71|Discourse=joint:27->22|Entity=(person-71(person-1-Zaha_Hadid)
 2	mother	mother	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=person-71)
 3	Wajiha	Wajiha	PROPN	NNP	Number=Sing	2	appos	2:appos	Entity=(person-71
@@ -379,8 +388,8 @@
 10	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_bio_hadid-16
-# text = In the 1960s Hadid attended boarding schools in England and Switzerland.
 # s_type = decl
+# text = In the 1960s Hadid attended boarding schools in England and Switzerland.
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=joint:28->22
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(time-72
 3	1960s	1960s	NOUN	NNS	Number=Plur	5	obl	5:obl:in	Entity=time-72)
@@ -395,8 +404,8 @@
 12	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_bio_hadid-17
-# text = Hadid studied mathematics at the American University of Beirut before moving, in 1972, to London to study at the Architectural Association School of Architecture.
 # s_type = decl
+# text = Hadid studied mathematics at the American University of Beirut before moving, in 1972, to London to study at the Architectural Association School of Architecture.
 1	Hadid	Hadid	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=sequence:29->28|Entity=(person-1-Zaha_Hadid)
 2	studied	study	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	mathematics	mathematics	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=(abstract-76)
@@ -426,8 +435,8 @@
 27	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_hadid-18
-# text = There she studied with Rem Koolhaas, Elia Zenghelis and Bernard Tschumi.
 # s_type = decl
+# text = There she studied with Rem Koolhaas, Elia Zenghelis and Bernard Tschumi.
 1	There	there	ADV	RB	PronType=Dem	3	advmod	3:advmod	Discourse=sequence:32->28
 2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-1-Zaha_Hadid)
 3	studied	study	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -443,8 +452,8 @@
 13	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_bio_hadid-19
-# text = Her former professor, Koolhaas, described her at graduation as "a planet in her own orbit."
 # s_type = decl
+# text = Her former professor, Koolhaas, described her at graduation as "a planet in her own orbit."
 1	Her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Discourse=elaboration:33->32|Entity=(person-81-Rem_Koolhaas(person-1-Zaha_Hadid)
 2	former	former	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	professor	professor	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=person-81-Rem_Koolhaas)|SpaceAfter=No
@@ -467,8 +476,8 @@
 20	"	''	PUNCT	''	_	14	punct	14:punct	_
 
 # sent_id = GUM_bio_hadid-20
-# text = Zenghelis described her as the most outstanding pupil he ever taught.
 # s_type = decl
+# text = Zenghelis described her as the most outstanding pupil he ever taught.
 1	Zenghelis	Zenghelis	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint:34->33|Entity=(person-82-Elia_Zenghelis)
 2	described	describe	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	2:obj	Entity=(person-1-Zaha_Hadid)
@@ -483,8 +492,8 @@
 12	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_hadid-21
-# text = "We called her the inventor of the 89 degrees.
 # s_type = decl
+# text = "We called her the inventor of the 89 degrees.
 1	"	''	PUNCT	``	_	3	punct	3:punct	Discourse=justify:35->34|SpaceAfter=No
 2	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Bridge=person-82-Elia_Zenghelis<person-87|Entity=(person-87)
 3	called	call	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -498,8 +507,8 @@
 11	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_bio_hadid-22
-# text = Nothing was ever at 90 degrees.
 # s_type = decl
+# text = Nothing was ever at 90 degrees.
 1	Nothing	nothing	NOUN	NN	Number=Sing|Polarity=Neg	6	nsubj	6:nsubj	Discourse=cause:36->35|Entity=(abstract-90)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
 3	ever	ever	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
@@ -509,8 +518,8 @@
 7	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_bio_hadid-23
-# text = She had spectacular vision.
 # s_type = decl
+# text = She had spectacular vision.
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint:37->35|Entity=(person-88-Zaha_Hadid)
 2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	spectacular	spectacular	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(abstract-92
@@ -518,9 +527,9 @@
 5	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_hadid-24
-# text = All the buildings were exploding into tiny little pieces."
 # s_type = decl
-1	All	All	PRON	PDT	_	3	det:predet	3:det:predet	Discourse=evidence:38->37|Entity=(place-93
+# text = All the buildings were exploding into tiny little pieces."
+1	All	all	PRON	PDT	_	3	det:predet	3:det:predet	Discourse=evidence:38->37|Entity=(place-93
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	_
 3	buildings	building	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=place-93)
 4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	5:aux	_
@@ -533,8 +542,8 @@
 11	"	''	PUNCT	''	_	5	punct	5:punct	_
 
 # sent_id = GUM_bio_hadid-25
-# text = He recalled that she was less interested in details, such as staircases.
 # s_type = decl
+# text = He recalled that she was less interested in details, such as staircases.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:39->40|Entity=(person-82-Elia_Zenghelis)
 2	recalled	recall	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	that	that	SCONJ	IN	_	7	mark	7:mark	Discourse=elaboration:40->34
@@ -551,8 +560,8 @@
 14	.	.	PUNCT	.	_	2	punct	2:punct	SpaceAfter=No
 
 # sent_id = GUM_bio_hadid-26
-# text = " The way she drew a staircase you would smash your head against the ceiling, and the space was reducing and reducing, and you would end up in the upper corner of the ceiling.
 # s_type = decl
+# text = " The way she drew a staircase you would smash your head against the ceiling, and the space was reducing and reducing, and you would end up in the upper corner of the ceiling.
 1	"	''	PUNCT	''	_	3	punct	3:punct	Discourse=evidence:41->46
 2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(abstract-97
 3	way	way	NOUN	NN	Number=Sing	0	root	0:root	_
@@ -592,10 +601,11 @@
 37	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_bio_hadid-27
-# text = She couldn’t care about tiny details.
 # s_type = decl
+# text = She couldn’t care about tiny details.
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=elaboration:46->40|Entity=(person-88-Zaha_Hadid)
-2	could	could	AUX	MD	VerbForm=Fin	4	aux	4:aux	SpaceAfter=No
+2-3	couldn’t	_	_	_	_	_	_	_	_
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	n’t	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	care	care	VERB	VB	VerbForm=Inf	0	root	0:root	_
 5	about	about	ADP	IN	_	7	case	7:case	_
@@ -604,8 +614,8 @@
 8	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_bio_hadid-28
-# text = Her mind was on the broader pictures —
 # s_type = decl
+# text = Her mind was on the broader pictures —
 1	Her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=restatement:47->46|Entity=(abstract-105(person-88-Zaha_Hadid)
 2	mind	mind	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=abstract-105)
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
@@ -616,8 +626,8 @@
 8	—	—	PUNCT	:	_	7	punct	7:punct	_
 
 # sent_id = GUM_bio_hadid-29
-# text = when it came to the joinery she knew we could fix that later.
 # s_type = decl
+# text = when it came to the joinery she knew we could fix that later.
 1	when	when	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=circumstance:48->50
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
 3	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	advcl	8:advcl:when	_
@@ -634,8 +644,8 @@
 14	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_bio_hadid-30
-# text = She was right.’
 # s_type = decl
+# text = She was right.’
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=evaluation:51->50|Entity=(person-88-Zaha_Hadid)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	3:cop	_
 3	right	right	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
@@ -643,10 +653,10 @@
 5	’	'	PUNCT	''	_	3	punct	3:punct	_
 
 # sent_id = GUM_bio_hadid-31
-# text = Her fourth-year student project was a painting of a hotel in the form of a bridge, inspired by the works of the Russian suprematist artist Kazimir Malevich
 # s_type = decl
+# text = Her fourth-year student project was a painting of a hotel in the form of a bridge, inspired by the works of the Russian suprematist artist Kazimir Malevich
 1	Her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Discourse=sequence:52->28|Entity=(object-108(person-88-Zaha_Hadid)
-2	fourth-year	fourth-year	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
+2	fourth-year	fourth-year	NOUN	NN	Number=Sing	4	compound	4:compound	_
 3	student	student	NOUN	NN	Number=Sing	4	compound	4:compound	_
 4	project	project	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=object-108)
 5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_

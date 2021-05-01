@@ -1,17 +1,24 @@
 # newdoc id = GUM_whow_elevator
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2016-09-19
+# meta::dateCreated = 2009-06-26
+# meta::dateModified = 2016-08-27
+# meta::sourceURL = https://www.wikihow.com/Annoy-People-in-Elevators
+# meta::speakerCount = 0
+# meta::title = How to Annoy People in Elevators
 # sent_id = GUM_whow_elevator-1
-# text = How to Annoy People in Elevators
 # s_type = inf
+# text = How to Annoy People in Elevators
 1	How	how	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=preparation:1->22
 2	to	to	PART	TO	_	3	mark	3:mark	_
 3	Annoy	annoy	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	_
-4	People	people	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=(person-1)
+4	People	person	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=(person-1)
 5	in	in	ADP	IN	_	6	case	6:case	_
 6	Elevators	elevator	NOUN	NNS	Number=Plur	3	obl	3:obl:in	Entity=(place-2)
 
 # sent_id = GUM_whow_elevator-2
-# text = An elevator is almost the perfect environment to be a prankster.
 # s_type = decl
+# text = An elevator is almost the perfect environment to be a prankster.
 1	An	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	Discourse=background:2->22|Entity=(place-3
 2	elevator	elevator	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=place-3)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
@@ -26,14 +33,15 @@
 12	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_whow_elevator-3
-# text = It’s easy to annoy people when you are cramped in such a small, tight space.
 # s_type = decl
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=justify:4->2|Entity=(event-6)|SpaceAfter=No
+# text = It’s easy to annoy people when you are cramped in such a small, tight space.
+1-2	It’s	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=justify:4->2|Entity=(event-6)
 2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	easy	easy	ADJ	JJ	Degree=Pos	0	root	0:root	_
 4	to	to	PART	TO	_	5	mark	5:mark	Entity=(event-6
 5	annoy	annoy	VERB	VB	VerbForm=Inf	3	csubj	3:csubj	_
-6	people	people	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=(person-1)event-6)
+6	people	person	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=(person-1)event-6)
 7	when	when	SCONJ	WRB	PronType=Int	10	mark	10:mark	Discourse=circumstance:5->4
 8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	10:nsubj	Entity=(person-7)
 9	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
@@ -48,17 +56,17 @@
 18	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_whow_elevator-4
-# text = Because elevator rides usually last less than a minute, make sure your pranks are quick and have a lot of punch.
 # s_type = imp
+# text = Because elevator rides usually last less than a minute, make sure your pranks are quick and have a lot of punch.
 1	Because	because	SCONJ	IN	_	5	mark	5:mark	Discourse=cause:6->7
 2	elevator	elevator	NOUN	NN	Number=Sing	3	compound	3:compound	Entity=(event-9(place-10)
 3	rides	ride	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=event-9)
 4	usually	usually	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 5	last	last	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:because	_
-6	less	less	ADJ	JJR	Degree=Cmp	5	obj	5:obj	_
+6	less	less	ADJ	JJR	Degree=Cmp	9	advmod	9:advmod	_
 7	than	than	ADP	IN	_	6	fixed	6:fixed	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(time-11
-9	minute	minute	NOUN	NN	Number=Sing	6	obl:npmod	6:obl:npmod	Entity=time-11)|SpaceAfter=No
+9	minute	minute	NOUN	NN	Number=Sing	5	obl:tmod	5:obl:tmod	Entity=time-11)|SpaceAfter=No
 10	,	,	PUNCT	,	_	5	punct	5:punct	_
 11	make	make	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint:7->2
 12	sure	sure	ADJ	JJ	Degree=Pos	11	xcomp	11:xcomp	_
@@ -75,11 +83,11 @@
 23	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_whow_elevator-5
-# text = When annoying people on an elevator, keep your pranks lighthearted and fun as opposed to mean-spirited so that everyone leaving the elevator will have a pleasant story to tell.
 # s_type = imp
+# text = When annoying people on an elevator, keep your pranks lighthearted and fun as opposed to mean-spirited so that everyone leaving the elevator will have a pleasant story to tell.
 1	When	when	SCONJ	WRB	PronType=Int	2	mark	2:mark	Discourse=circumstance:9->10
 2	annoying	annoy	VERB	VBG	VerbForm=Ger	8	advcl	8:advcl:when	_
-3	people	people	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=(person-1)
+3	people	person	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=(person-1)
 4	on	on	ADP	IN	_	6	case	6:case	_
 5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(place-14
 6	elevator	elevator	NOUN	NN	Number=Sing	2	obl	2:obl:on	Entity=place-14)|SpaceAfter=No
@@ -92,9 +100,9 @@
 13	fun	fun	ADJ	JJ	Degree=Pos	11	conj	10:amod|11:conj:and	_
 14	as	as	ADV	RB	_	17	case	17:case	Discourse=antithesis:11->10
 15	opposed	oppose	VERB	VBN	Tense=Past|VerbForm=Part	14	fixed	14:fixed	_
-16	to	to	PART	TO	_	14	fixed	14:fixed	_
+16	to	to	ADP	IN	_	14	fixed	14:fixed	_
 17	mean-spirited	mean-spirited	ADJ	JJ	Degree=Pos	10	nmod	10:nmod:as_opposed_to	_
-18	so	so	SCONJ	RB	_	25	mark	25:mark	Discourse=purpose:12->10
+18	so	so	SCONJ	IN	_	25	mark	25:mark	Discourse=purpose:12->10
 19	that	that	ADP	IN	_	18	fixed	18:fixed	_
 20	everyone	everyone	NOUN	NN	Number=Sing	25	nsubj	25:nsubj	Entity=(person-15
 21	leaving	leave	VERB	VBG	VerbForm=Ger	20	acl	20:acl	Discourse=elaboration:13->12
@@ -110,8 +118,8 @@
 31	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_whow_elevator-6
-# text = Method 1 Using the Elevator to Annoy People
 # s_type = ger
+# text = Method 1 Using the Elevator to Annoy People
 1	Method	method	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:16->17|Entity=(abstract-18
 2	1	1	NUM	CD	NumForm=Digit|NumType=Card	1	dep	1:dep	Entity=abstract-18)
 3	Using	use	VERB	VBG	VerbForm=Ger	1	appos	1:appos	Discourse=preparation:17->22|Entity=(abstract-18
@@ -119,11 +127,11 @@
 5	Elevator	elevator	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=place-16)
 6	to	to	PART	TO	_	7	mark	7:mark	Discourse=purpose:18->17
 7	Annoy	annoy	VERB	VB	VerbForm=Inf	3	advcl	3:advcl:to	_
-8	People	people	NOUN	NNS	Number=Plur	7	obj	7:obj	Entity=(person-1)abstract-18)
+8	People	person	NOUN	NNS	Number=Plur	7	obj	7:obj	Entity=(person-1)abstract-18)
 
 # sent_id = GUM_whow_elevator-7
-# text = Push all the buttons.
 # s_type = imp
+# text = Push all the buttons.
 1	Push	push	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:19->22|Entity=(event-19
 2	all	all	PRON	PDT	_	4	det:predet	4:det:predet	Bridge=place-16<object-20|Entity=(object-20
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_
@@ -131,8 +139,8 @@
 5	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_elevator-8
-# text = When you get into the elevator, push the button for every floor.
 # s_type = imp
+# text = When you get into the elevator, push the button for every floor.
 1	When	when	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=circumstance:20->21
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-7)
 3	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	8:advcl:when	_
@@ -149,17 +157,18 @@
 14	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_whow_elevator-9
-# text = This makes everyone’s ride on the elevator longer, if only for a few seconds.
 # s_type = decl
+# text = This makes everyone’s ride on the elevator longer, if only for a few seconds.
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	2:nsubj	Discourse=ROOT:22|Entity=(event-19)
 2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	everyone	everyone	NOUN	NN	Number=Sing	5	nmod:poss	5:nmod:poss	Entity=(event-22(person-15|SpaceAfter=No
+3-4	everyone’s	_	_	_	_	_	_	_	_
+3	everyone	everyone	NOUN	NN	Number=Sing	5	nmod:poss	5:nmod:poss	Entity=(event-22(person-15
 4	’s	's	PART	POS	_	3	case	3:case	Entity=person-15)
 5	ride	ride	NOUN	NN	Number=Sing	2	obj	2:obj|9:nsubj:xsubj	_
 6	on	on	ADP	IN	_	8	case	8:case	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(place-16
 8	elevator	elevator	NOUN	NN	Number=Sing	5	nmod	5:nmod:on	Entity=event-22)place-16)
-9	longer	longer	ADJ	JJR	Degree=Cmp	2	xcomp	2:xcomp	SpaceAfter=No
+9	longer	long	ADJ	JJR	Degree=Cmp	2	xcomp	2:xcomp	SpaceAfter=No
 10	,	,	PUNCT	,	_	16	punct	16:punct	_
 11	if	if	SCONJ	IN	_	16	mark	16:mark	Discourse=concession:23->22
 12	only	only	ADV	RB	_	16	advmod	16:advmod	_
@@ -170,8 +179,8 @@
 17	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_whow_elevator-10
-# text = If you want to take it a step further, look around questioningly at everyone in the elevator when no one gets off at the floors you pushed. [1]
 # s_type = imp
+# text = If you want to take it a step further, look around questioningly at everyone in the elevator when no one gets off at the floors you pushed. [1]
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=condition:24->25
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Entity=(person-7)
 3	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:if	_
@@ -179,7 +188,7 @@
 5	take	take	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
 6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	5:obj	Entity=(event-12)
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(abstract-24
-8	step	step	NOUN	NN	Number=Sing	9	nmod:npmod	9:nmod:npmod	Entity=abstract-24)
+8	step	step	NOUN	NN	Number=Sing	9	obl:npmod	9:obl:npmod	Entity=abstract-24)
 9	further	far	ADV	RBR	Degree=Cmp	5	advmod	5:advmod	SpaceAfter=No
 10	,	,	PUNCT	,	_	3	punct	3:punct	_
 11	look	look	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration:25->22
@@ -192,22 +201,22 @@
 18	elevator	elevator	NOUN	NN	Number=Sing	15	nmod	15:nmod:in	Entity=person-15)place-16)
 19	when	when	SCONJ	WRB	PronType=Int	22	mark	22:mark	Discourse=circumstance:26->25
 20	no	no	DET	DT	Polarity=Neg	21	det	21:det	Entity=(person-25
-21	one	one	NUM	CD	NumForm=Word|NumType=Card	22	nsubj	22:nsubj	Entity=person-25)
+21	one	one	NOUN	NN	Number=Sing	22	nsubj	22:nsubj	Entity=person-25)
 22	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:when	_
-23	off	off	ADP	RP	_	22	compound:prt	22:compound:prt	_
+23	off	off	ADV	RB	Degree=Pos	22	advmod	22:advmod	_
 24	at	at	ADP	IN	_	26	case	26:case	_
 25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(place-21
 26	floors	floor	NOUN	NNS	Number=Plur	22	obl	22:obl:at	_
 27	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	28	nsubj	28:nsubj	Discourse=elaboration:27->26|Entity=(person-7)
 28	pushed	push	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	26	acl:relcl	26:acl:relcl	Entity=place-21)|SpaceAfter=No
 29	.	.	PUNCT	.	_	11	punct	11:punct	_
-30	[	[	PUNCT	-LSB-	_	31	punct	31:punct	Discourse=evidence:28->22|SpaceAfter=No
+30	[	[	PUNCT	-LRB-	_	31	punct	31:punct	Discourse=evidence:28->22|SpaceAfter=No
 31	1	1	NUM	CD	NumForm=Digit|NumType=Card	11	dep	11:dep	Entity=(abstract-26)|SpaceAfter=No
-32	]	]	PUNCT	-RSB-	_	31	punct	31:punct	_
+32	]	]	PUNCT	-RRB-	_	31	punct	31:punct	_
 
 # sent_id = GUM_whow_elevator-11
-# text = When someone comes in, say, "I've got this," before you push all of the buttons.
 # s_type = imp
+# text = When someone comes in, say, "I've got this," before you push all of the buttons.
 1	When	when	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=circumstance:29->31
 2	someone	someone	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=(person-27)
 3	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	6:advcl:when	_
@@ -216,7 +225,8 @@
 6	say	say	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution:30->31|SpaceAfter=No
 7	,	,	PUNCT	,	_	11	punct	11:punct	_
 8	"	''	PUNCT	``	_	11	punct	11:punct	Discourse=elaboration:31->22|SpaceAfter=No
-9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj	Entity=(person-7)|SpaceAfter=No
+9-10	I've	_	_	_	_	_	_	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj	Entity=(person-7)
 10	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
 11	got	get	VERB	VBN	Tense=Past|VerbForm=Part	6	dep	6:dep	_
 12	this	this	PRON	DT	Number=Sing|PronType=Dem	11	obj	11:obj	Entity=(abstract-28)|SpaceAfter=No
@@ -232,8 +242,8 @@
 22	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_whow_elevator-12
-# text = You can also push all the buttons as you reach the floor you are getting off at.
 # s_type = sub
+# text = You can also push all the buttons as you reach the floor you are getting off at.
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Discourse=contrast:33->31|Entity=(person-7)
 2	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	also	also	ADV	RB	_	4	advmod	4:advmod	_
@@ -249,13 +259,13 @@
 13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Discourse=elaboration:35->34|Entity=(person-7)
 14	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
 15	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	12	acl:relcl	12:acl:relcl	_
-16	off	off	ADP	RP	_	15	compound:prt	15:compound:prt	_
+16	off	off	ADV	RB	Degree=Pos	15	advmod	15:advmod	_
 17	at	at	ADP	IN	_	15	obl	15:obl	Entity=place-29)|SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_whow_elevator-13
-# text = If someone asks you why you pushed all the buttons, you can honestly say, "It was just a joke!"
 # s_type = sub
+# text = If someone asks you why you pushed all the buttons, you can honestly say, "It was just a joke!"
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=condition:36->40
 2	someone	someone	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=attribution:37->38|Entity=(person-30)
 3	asks	ask	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	15:advcl:if	_
@@ -282,8 +292,8 @@
 24	"	''	PUNCT	''	_	22	punct	22:punct	_
 
 # sent_id = GUM_whow_elevator-14
-# text = Make a dinging noise at each floor.
 # s_type = imp
+# text = Make a dinging noise at each floor.
 1	Make	make	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:41->43
 2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(abstract-31
 3	dinging	ding	VERB	VBG	VerbForm=Ger	4	amod	4:amod	_
@@ -294,8 +304,8 @@
 8	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_elevator-15
-# text = Every time the elevator reaches a new floor, say “ding!” very loudly.
 # s_type = imp
+# text = Every time the elevator reaches a new floor, say “ding!” very loudly.
 1	Every	every	DET	DT	_	2	det	2:det	Discourse=circumstance:42->43
 2	time	time	NOUN	NN	Number=Sing	10	obl:npmod	10:obl:npmod	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(place-16
@@ -315,8 +325,8 @@
 17	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_whow_elevator-16
-# text = You can even sing the word “ding” on each floor like notes in a scale, getting higher as you reach each new floor. [2]
 # s_type = sub
+# text = You can even sing the word “ding” on each floor like notes in a scale, getting higher as you reach each new floor. [2]
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Discourse=elaboration:44->43|Entity=(person-7)
 2	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	even	even	ADV	RB	_	4	advmod	4:advmod	_
@@ -344,13 +354,13 @@
 25	new	new	ADJ	JJ	Degree=Pos	26	amod	26:amod	_
 26	floor	floor	NOUN	NN	Number=Sing	23	obj	23:obj	Entity=place-36)|SpaceAfter=No
 27	.	.	PUNCT	.	_	4	punct	4:punct	_
-28	[	[	PUNCT	-LSB-	_	29	punct	29:punct	Discourse=evidence:47->43|SpaceAfter=No
+28	[	[	PUNCT	-LRB-	_	29	punct	29:punct	Discourse=evidence:47->43|SpaceAfter=No
 29	2	2	NUM	CD	NumForm=Digit|NumType=Card	4	dep	4:dep	Entity=(abstract-37)|SpaceAfter=No
-30	]	]	PUNCT	-RSB-	_	29	punct	29:punct	_
+30	]	]	PUNCT	-RRB-	_	29	punct	29:punct	_
 
 # sent_id = GUM_whow_elevator-17
-# text = You can make other noises if you prefer, such as a bird cawing or an explosion sound every time a button is pushed.
 # s_type = sub
+# text = You can make other noises if you prefer, such as a bird cawing or an explosion sound every time a button is pushed.
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=contrast:48->43|Entity=(person-7)
 2	can	can	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	make	make	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -378,8 +388,8 @@
 25	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_whow_elevator-18
-# text = Talk to your reflection in the mirror.
 # s_type = imp
+# text = Talk to your reflection in the mirror.
 1	Talk	talk	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:54->56
 2	to	to	ADP	IN	_	4	case	4:case	_
 3	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(abstract-44(person-7)
@@ -390,9 +400,9 @@
 8	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_elevator-19
-# text = Many elevators have mirrors on the walls.
 # s_type = decl
-1	Many	Many	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=background:55->56|Entity=(place-46
+# text = Many elevators have mirrors on the walls.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=background:55->56|Entity=(place-46
 2	elevators	elevator	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=place-46)
 3	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	mirrors	mirror	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=(object-47
@@ -402,8 +412,8 @@
 8	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_whow_elevator-20
-# text = A great way to be mischievous in an elevator is to carry on a running commentary while you look at yourself in the mirror.
 # s_type = decl
+# text = A great way to be mischievous in an elevator is to carry on a running commentary while you look at yourself in the mirror.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Discourse=joint:56->22|Entity=(abstract-49
 2	great	great	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	way	way	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	_
@@ -431,8 +441,8 @@
 25	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_whow_elevator-21
-# text = You could look at yourself, turning to catch different angles and say “All right, all right, now we ’re talking,” very loudly.
 # s_type = sub
+# text = You could look at yourself, turning to catch different angles and say “All right, all right, now we’re talking,” very loudly.
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj|13:nsubj	Discourse=elaboration:60->56|Entity=(person-7)
 2	could	could	AUX	MD	VerbForm=Fin	3	aux	3:aux|13:aux	_
 3	look	look	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -454,7 +464,7 @@
 19	right	right	NOUN	NN	Number=Sing	18	goeswith	18:goeswith	SpaceAfter=No
 20	,	,	PUNCT	,	_	24	punct	24:punct	_
 21	now	now	ADV	RB	_	24	advmod	24:advmod	_
-22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	24:nsubj	Entity=(person-53)
+22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	24:nsubj	Entity=(person-53)|SpaceAfter=No
 23	’re	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	aux	24:aux	_
 24	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	18	parataxis	18:parataxis	SpaceAfter=No
 25	,	,	PUNCT	,	_	15	punct	15:punct	SpaceAfter=No
@@ -464,8 +474,8 @@
 29	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_whow_elevator-22
-# text = You could also keep adjusting your shirt or your hair, keeping a running dialogue about what look is best for you.
 # s_type = sub
+# text = You could also keep adjusting your shirt or your hair, keeping a running dialogue about what look is best for you.
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj|5:nsubj:xsubj	Discourse=contrast:64->60|Entity=(person-7)
 2	could	could	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	also	also	ADV	RB	_	4	advmod	4:advmod	_
@@ -491,8 +501,8 @@
 23	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_whow_elevator-23
-# text = Stand in the corner of the elevator facing the wall.
 # s_type = imp
+# text = Stand in the corner of the elevator facing the wall.
 1	Stand	stand	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=contrast:66->60
 2	in	in	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(place-58
@@ -506,9 +516,10 @@
 11	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_elevator-24
-# text = Don't say anything the whole ride.
 # s_type = imp
-1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=joint:68->66|SpaceAfter=No
+# text = Don't say anything the whole ride.
+1-2	Don't	_	_	_	_	_	_	_	_
+1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=joint:68->66
 2	n't	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	_
 3	say	say	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
 4	anything	anything	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(abstract-60)
@@ -518,8 +529,8 @@
 8	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_whow_elevator-25
-# text = Dance to the elevator music.
 # s_type = imp
+# text = Dance to the elevator music.
 1	Dance	dance	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:69->73
 2	to	to	ADP	IN	_	5	case	5:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Bridge=place-50<abstract-62|Entity=(abstract-62
@@ -528,9 +539,9 @@
 6	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_elevator-26
-# text = Many elevators play music in the background, usually soft rock or smooth jazz.
 # s_type = decl
-1	Many	Many	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=background:70->73|Entity=(place-64
+# text = Many elevators play music in the background, usually soft rock or smooth jazz.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=background:70->73|Entity=(place-64
 2	elevators	elevator	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=place-64)
 3	play	play	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	music	music	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(abstract-62)
@@ -547,10 +558,10 @@
 15	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_whow_elevator-27
-# text = If you ’re in an elevator that is playing music, start to dance.
 # s_type = imp
+# text = If you’re in an elevator that is playing music, start to dance.
 1	If	if	SCONJ	IN	_	6	mark	6:mark	Discourse=condition:71->73
-2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-7)
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-7)|SpaceAfter=No
 3	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 4	in	in	ADP	IN	_	6	case	6:case	_
 5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Bridge=place-64<place-68|Entity=(place-68
@@ -566,8 +577,8 @@
 15	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_whow_elevator-28
-# text = Start just bobbing your head and tapping your feet, and then get your whole body into it.
 # s_type = imp
+# text = Start just bobbing your head and tapping your feet, and then get your whole body into it.
 1	Start	start	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration:74->73
 2	just	just	ADV	RB	_	3	advmod	3:advmod	_
 3	bobbing	bob	VERB	VBG	VerbForm=Ger	1	xcomp	1:xcomp	_
@@ -589,8 +600,8 @@
 19	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_elevator-29
-# text = Take up as much space as you can to dance until everyone is staring at you. [3]
 # s_type = imp
+# text = Take up as much space as you can to dance until everyone is staring at you. [3]
 1	Take	take	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint:76->74
 2	up	up	ADP	RP	_	1	compound:prt	1:compound:prt	_
 3	as	as	ADV	RB	_	5	advmod	5:advmod	_
@@ -598,9 +609,9 @@
 5	space	space	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=place-73)
 6	as	as	SCONJ	IN	_	8	mark	8:mark	Discourse=elaboration:77->76
 7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	8:nsubj	Entity=(person-7)
-8	can	can	AUX	MD	VerbForm=Fin	1	acl:relcl	1:acl:relcl	_
+8	can	can	AUX	MD	VerbForm=Fin	1	advcl	1:advcl:as	_
 9	to	to	PART	TO	_	10	mark	10:mark	Discourse=purpose:78->76
-10	dance	dance	VERB	VB	VerbForm=Inf	8	xcomp	8:xcomp	Entity=(event-69)
+10	dance	dance	VERB	VB	VerbForm=Inf	1	advcl	1:advcl:to	Entity=(event-69)
 11	until	until	SCONJ	IN	_	14	mark	14:mark	Discourse=result:79->76
 12	everyone	everyone	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	Entity=(person-74)
 13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	14:aux	_
@@ -608,21 +619,21 @@
 15	at	at	ADP	IN	_	16	case	16:case	_
 16	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	14	obl	14:obl:at	Entity=(person-7)|SpaceAfter=No
 17	.	.	PUNCT	.	_	1	punct	1:punct	_
-18	[	[	PUNCT	-LSB-	_	19	punct	19:punct	Discourse=evidence:80->73|SpaceAfter=No
+18	[	[	PUNCT	-LRB-	_	19	punct	19:punct	Discourse=evidence:80->73|SpaceAfter=No
 19	3	3	NUM	CD	NumForm=Digit|NumType=Card	1	dep	1:dep	Entity=(abstract-75)|SpaceAfter=No
-20	]	]	PUNCT	-RSB-	_	19	punct	19:punct	_
+20	]	]	PUNCT	-RRB-	_	19	punct	19:punct	_
 
 # sent_id = GUM_whow_elevator-30
-# text = Announce every floor.
 # s_type = imp
+# text = Announce every floor.
 1	Announce	announce	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:81->82
 2	every	every	DET	DT	_	3	det	3:det	Entity=(place-32
 3	floor	floor	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=place-32)|SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_elevator-31
-# text = At every floor, make a loud announcement telling everyone the floor number.
 # s_type = imp
+# text = At every floor, make a loud announcement telling everyone the floor number.
 1	At	at	ADP	IN	_	3	case	3:case	Discourse=joint:82->22
 2	every	every	DET	DT	_	3	det	3:det	Entity=(place-32
 3	floor	floor	NOUN	NN	Number=Sing	5	obl	5:obl:at	Entity=place-32)|SpaceAfter=No
@@ -639,43 +650,43 @@
 14	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_whow_elevator-32
-# text = Say something like “Everyone going to floor ten, get off now! No time to dilly dally!” [4]
 # s_type = imp
+# text = Say something like “Everyone going to floor ten, get off now! No time to dilly dally!” [4]
 1	Say	say	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution:84->85
 2	something	something	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=(abstract-78)
 3	like	like	ADP	IN	_	2	nmod	2:nmod	_
 4	“	''	PUNCT	``	_	11	punct	11:punct	Discourse=elaboration:85->82|SpaceAfter=No
-5	Everyone	Everyone	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	Entity=(person-79
+5	Everyone	everyone	NOUN	NN	Number=Sing	11	vocative	11:vocative	Entity=(person-79
 6	going	go	VERB	VBG	VerbForm=Ger	5	acl	5:acl	Discourse=elaboration:86->85
 7	to	to	ADP	IN	_	8	case	8:case	_
 8	floor	floor	NOUN	NN	Number=Sing	6	obl	6:obl:to	Entity=(place-80
 9	ten	ten	NUM	CD	NumForm=Word|NumType=Card	8	amod	8:amod	Entity=person-79)place-80)|SpaceAfter=No
 10	,	,	PUNCT	,	_	5	punct	5:punct	_
-11	get	get	VERB	VB	VerbForm=Inf	1	dep	1:dep	Discourse=same-unit:87->85
-12	off	off	ADP	RP	_	11	compound:prt	11:compound:prt	_
+11	get	get	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	ccomp	1:ccomp	Discourse=same-unit:87->85
+12	off	off	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
 13	now	now	ADV	RB	_	11	advmod	11:advmod	SpaceAfter=No
 14	!	!	PUNCT	.	_	11	punct	11:punct	_
 15	No	no	DET	DT	Polarity=Neg	16	det	16:det	Discourse=antithesis:88->85|Entity=(time-81
-16	time	time	NOUN	NN	Number=Sing	11	dep	11:dep	Entity=time-81)
+16	time	time	NOUN	NN	Number=Sing	11	parataxis	11:parataxis	Entity=time-81)
 17	to	to	PART	TO	_	18	mark	18:mark	Discourse=elaboration:89->88
-18	dilly	dilly	VERB	VB	VerbForm=Inf	16	xcomp	16:xcomp	_
+18	dilly	dilly	VERB	VB	VerbForm=Inf	16	acl	16:acl:to	_
 19	dally	dally	VERB	VB	VerbForm=Inf	18	goeswith	18:goeswith	SpaceAfter=No
 20	!	!	PUNCT	.	_	11	punct	11:punct	SpaceAfter=No
 21	”	''	PUNCT	''	_	11	punct	11:punct	_
-22	[	[	PUNCT	-LSB-	_	23	punct	23:punct	Discourse=evidence:90->82|SpaceAfter=No
+22	[	[	PUNCT	-LRB-	_	23	punct	23:punct	Discourse=evidence:90->82|SpaceAfter=No
 23	4	4	NUM	CD	NumForm=Digit|NumType=Card	1	dep	1:dep	Entity=(abstract-82)|SpaceAfter=No
-24	]	]	PUNCT	-RSB-	_	23	punct	23:punct	_
+24	]	]	PUNCT	-RRB-	_	23	punct	23:punct	_
 
 # sent_id = GUM_whow_elevator-33
-# text = You can also pretend to conduct people onto the elevator, saying “All aboard the elevator train!”
 # s_type = sub
+# text = You can also pretend to conduct people onto the elevator, saying “All aboard the elevator train!”
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj|6:nsubj:xsubj	Discourse=contrast:91->82|Entity=(person-7)
 2	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	also	also	ADV	RB	_	4	advmod	4:advmod	_
 4	pretend	pretend	VERB	VB	VerbForm=Inf	0	root	0:root	_
 5	to	to	PART	TO	_	6	mark	6:mark	_
 6	conduct	conduct	VERB	VB	VerbForm=Inf	4	xcomp	4:xcomp	_
-7	people	people	NOUN	NNS	Number=Plur	6	obj	6:obj	Entity=(person-83)
+7	people	person	NOUN	NNS	Number=Plur	6	obj	6:obj	Entity=(person-83)
 8	onto	onto	ADP	IN	_	10	case	10:case	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(place-84
 10	elevator	elevator	NOUN	NN	Number=Sing	6	obl	6:obl:onto	Entity=place-84)|SpaceAfter=No
@@ -691,11 +702,12 @@
 20	”	''	PUNCT	''	_	14	punct	14:punct	_
 
 # sent_id = GUM_whow_elevator-34
-# text = Exclaim that you've lost a beast.
 # s_type = imp
+# text = Exclaim that you've lost a beast.
 1	Exclaim	exclaim	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution:94->95
 2	that	that	SCONJ	IN	_	5	mark	5:mark	Discourse=preparation:95->99
-3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-7)|SpaceAfter=No
+3-4	you've	_	_	_	_	_	_	_	_
+3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-7)
 4	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 5	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	1	ccomp	1:ccomp	_
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(animal-85
@@ -703,8 +715,8 @@
 8	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_elevator-35
-# text = When the elevator is going from the bottom floor to the top, as soon as the doors close, exclaim that you lost your tarantula / snake / scorpion but confirm that it is somewhere in the elevator.
 # s_type = imp
+# text = When the elevator is going from the bottom floor to the top, as soon as the doors close, exclaim that you lost your tarantula / snake / scorpion but confirm that it is somewhere in the elevator.
 1	When	when	SCONJ	WRB	PronType=Int	5	mark	5:mark	Discourse=circumstance:96->99|Entity=(event-86
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(place-84
 3	elevator	elevator	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=place-84)
@@ -747,10 +759,10 @@
 40	.	.	PUNCT	.	_	21	punct	21:punct	Entity=event-86)
 
 # sent_id = GUM_whow_elevator-36
-# text = Most people will probably see that this is a joke.
 # s_type = decl
+# text = Most people will probably see that this is a joke.
 1	Most	most	ADJ	JJS	Degree=Sup	2	amod	2:amod	Discourse=elaboration:102->99|Entity=(person-92
-2	people	people	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=person-92)
+2	people	person	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=person-92)
 3	will	will	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
 4	probably	probably	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 5	see	see	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -762,8 +774,8 @@
 11	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_whow_elevator-37
-# text = However, if somebody looks seriously alarmed or is starting to panic, let them know that you were not being serious.
 # s_type = imp
+# text = However, if somebody looks seriously alarmed or is starting to panic, let them know that you were not being serious.
 1	However	however	ADV	RB	_	14	advmod	14:advmod	Discourse=contrast:103->102|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	if	if	SCONJ	IN	_	5	mark	5:mark	Discourse=condition:104->107
@@ -789,8 +801,8 @@
 23	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # sent_id = GUM_whow_elevator-38
-# text = Build in or add something to the elevator.
 # s_type = imp
+# text = Build in or add something to the elevator.
 1	Build	build	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:108->109
 2	in	in	ADP	IN	_	1	obl	1:obl	_
 3	or	or	CCONJ	CC	_	4	cc	4:cc	_
@@ -802,8 +814,8 @@
 9	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_elevator-39
-# text = For example, build a Lego city in the middle of the elevator.
 # s_type = imp
+# text = For example, build a Lego city in the middle of the elevator.
 1	For	for	ADP	IN	_	2	case	2:case	Discourse=joint:109->22
 2	example	example	NOUN	NN	Number=Sing	4	obl	4:obl:for	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -820,8 +832,8 @@
 14	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_whow_elevator-40
-# text = Lay a Twister mat on the floor and ask people if they want to play.
 # s_type = imp
+# text = Lay a Twister mat on the floor and ask people if they want to play.
 1	Lay	lay	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=contrast:110->109
 2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(object-97
 3	Twister	twister	NOUN	NN	Number=Sing	4	compound	4:compound	_
@@ -831,7 +843,7 @@
 7	floor	floor	NOUN	NN	Number=Sing	1	obl	1:obl:on	Entity=place-98)
 8	and	and	CCONJ	CC	_	9	cc	9:cc	Discourse=attribution:111->112
 9	ask	ask	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
-10	people	people	NOUN	NNS	Number=Plur	9	obj	9:obj	Entity=(person-99)
+10	people	person	NOUN	NNS	Number=Plur	9	obj	9:obj	Entity=(person-99)
 11	if	if	SCONJ	IN	_	13	mark	13:mark	Discourse=sequence:112->110
 12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	13:nsubj|15:nsubj:xsubj	Entity=(person-99)
 13	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl:if	_
@@ -840,33 +852,34 @@
 16	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_elevator-41
-# text = Talk to people.
 # s_type = imp
+# text = Talk to people.
 1	Talk	talk	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:113->117
 2	to	to	ADP	IN	_	3	case	3:case	_
-3	people	people	NOUN	NNS	Number=Plur	1	obl	1:obl:to	Entity=(person-100)|SpaceAfter=No
+3	people	person	NOUN	NNS	Number=Plur	1	obl	1:obl:to	Entity=(person-100)|SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_elevator-42
-# text = When there are a lot of people, say, "You 're probably wondering why I've gathered you here today."
 # s_type = imp
+# text = When there are a lot of people, say, "You're probably wondering why I've gathered you here today."
 1	When	when	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=circumstance:114->117
 2	there	there	PRON	EX	_	3	expl	3:expl	_
 3	are	be	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl:when	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(person-101
 5	lot	lot	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	_
 6	of	of	ADP	IN	_	7	case	7:case	_
-7	people	people	NOUN	NNS	Number=Plur	5	nmod	5:nmod:of	Entity=person-101)|SpaceAfter=No
+7	people	person	NOUN	NNS	Number=Plur	5	nmod	5:nmod:of	Entity=person-101)|SpaceAfter=No
 8	,	,	PUNCT	,	_	3	punct	3:punct	_
 9	say	say	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution:115->117|SpaceAfter=No
 10	,	,	PUNCT	,	_	15	punct	15:punct	_
 11	"	''	PUNCT	``	_	15	punct	15:punct	Discourse=attribution:116->117|SpaceAfter=No
-12	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Entity=(person-101)
+12	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Entity=(person-101)|SpaceAfter=No
 13	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
 14	probably	probably	ADV	RB	Degree=Pos	15	advmod	15:advmod	_
 15	wondering	wonder	VERB	VBG	Tense=Pres|VerbForm=Part	9	dep	9:dep	_
 16	why	why	SCONJ	WRB	PronType=Rel	15	obj	15:obj	Discourse=joint:117->22
-17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	19:nsubj	Entity=(person-7)|SpaceAfter=No
+17-18	I've	_	_	_	_	_	_	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	19:nsubj	Entity=(person-7)
 18	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
 19	gathered	gather	VERB	VBN	Tense=Past|VerbForm=Part	16	acl:relcl	16:acl:relcl	_
 20	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	19	obj	19:obj	Entity=(person-101)

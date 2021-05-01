@@ -10,9 +10,13 @@ The dependencies in the corpus up to GUM version 5 were originally annotated usi
 
 # Additional annotations in MISC
 
-The MISC column contains **entity, coreference, Wikification and discourse** annotations from the full GUM corpus, encoded using the annotations `Entity`, `Split`, `Bridge` and `Discourse`. The `Entity` annotation uses the CoNLL 2012 shared task bracketing format, which identifies potentially coreferring entities using round opening and closing brackets as well as a unique ID per entity, repeated across mentions. In the following example, actor Jared Padalecki appears in a single token mention, labeled `(person-1-Jared_Padalecki)` indicating the entity type (`person`) combined with the unique ID of all mentions of Padalecki in the text (`person-1`). Because Padalecki is a named entity with a corresponding Wikipedia page, the Wikification identifier corresponding to his Wikipedia page is given after the second hyphen, resulting in the unique entity ID (`person-1-Jared_Padalecki`). Multi-token mentions receive opening brackets on the line in which they open, such as `(person-97-Jensen_Ackles`, and a closing annotation `person-97-Jensen_Ackles)` at the token on which they end. Multiple annotations are possible for one token, corresponding to nested entities, e.g. `(time-175)time-189)` below corresponds to the last token of the time entities "2015" and "April 2015" respectively. 
+The MISC column contains **entity, coreference, Wikification and discourse** annotations from the full GUM corpus, encoded using the annotations `Entity`, `Split`, `Bridge` and `Discourse`. The `Entity` annotation uses the CoNLL 2012 shared task bracketing format, which identifies potentially coreferring entities using round opening and closing brackets as well as a unique ID per entity, repeated across mentions. In the following example, actor Jared Padalecki appears in a single token mention, labeled `(person-1-Jared_Padalecki)` indicating the entity type (`person`) combined with the unique ID of all mentions of Padalecki in the text (`person-1`). Because Padalecki is a named entity with a corresponding Wikipedia page, the Wikification identifier corresponding to his Wikipedia page is given after the second hyphen, resulting in the unique entity ID (`person-1-Jared_Padalecki`). The labels for each part of the hyphen-separated annotation is given at the top of each document in a comment `# global.Entity = entity-GRP-identity`, indicating that these annotations consist of the entity type, coreference group and named entity identity. 
+
+Multi-token mentions receive opening brackets on the line in which they open, such as `(person-97-Jensen_Ackles`, and a closing annotation `person-97-Jensen_Ackles)` at the token on which they end. Multiple annotations are possible for one token, corresponding to nested entities, e.g. `(time-175)time-189)` below corresponds to the last token of the time entities "2015" and "April 2015" respectively. 
 
 ```
+# global.Entity = entity-GRP-identity
+...
 1	For	for	ADP	IN	_	4	case	4:case	Discourse=sequence:104->98
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=abstract-173<event-188|Entity=(event-188
 3	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	4:amod	_
@@ -50,6 +54,21 @@ Discourse annotations are given in RST dependencies following the conversion fro
 
 More information and additional annotation layers can be found in the GUM [source repo](https://github.com/amir-zeldes/gum/).
 
+# Metadata
+
+Document metadata is given at the beginning of each new document in key-value pair comments beginning with the prefix `meta::`, as in:
+
+```
+# newdoc id = GUM_bio_padalecki
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2019-09-10
+# meta::dateCreated = 2004-08-14
+# meta::dateModified = 2019-09-11
+# meta::shortTitle = padalecki
+# meta::sourceURL = https://en.wikipedia.org/wiki/Jared_Padalecki
+# meta::speakerCount = 0
+# meta::title = Jared Padalecki
+```
 
 # Documents and splits
 
@@ -86,10 +105,15 @@ As a scholarly citation for the corpus in articles, please use this paper:
 
 # Changelog
 
-* 2020-03-10
+* 2021-05-01
+  * Added MWTs
+  * Added metadata
+  * Comprehensive corrections
+
+* 2021-03-10
   * Added enhanced dependencies
 
-* 2020-01-20
+* 2021-01-20
   * Added documents from four new genres: conversation, speeches, textbooks and vlogs
   * Added Wikification annotations
   * Added bridging and split antecedent anaphora to MISC
@@ -133,7 +157,7 @@ As a scholarly citation for the corpus in articles, please use this paper:
 Data available since: UD v2.2
 License: CC BY-NC-SA 4.0
 Includes text: yes
-Genre: academic blog fiction government news nonfiction spoken web wiki
+Genre: academic blog fiction government news nonfiction social spoken web wiki
 Lemmas: manual native
 UPOS: converted from manual
 XPOS: manual native

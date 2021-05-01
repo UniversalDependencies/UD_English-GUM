@@ -1,17 +1,24 @@
 # newdoc id = GUM_voyage_tulsa
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2016-09-19
+# meta::dateCreated = 2003-11-09
+# meta::dateModified = 2016-09-16
+# meta::sourceURL = https://en.wikivoyage.org/wiki/Tulsa
+# meta::speakerCount = 0
+# meta::title = Tulsa
 # sent_id = GUM_voyage_tulsa-1
-# text = Tulsa
 # s_type = frag
+# text = Tulsa
 1	Tulsa	Tulsa	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:1->9|Entity=(place-1-Tulsa%2C_Oklahoma)
 
 # sent_id = GUM_voyage_tulsa-2
-# text = Tulsa is in the Green Country region of Oklahoma.
 # s_type = decl
+# text = Tulsa is in the Green Country region of Oklahoma.
 1	Tulsa	Tulsa	PROPN	NNP	Number=Sing	7	nsubj	7:nsubj	Discourse=background:2->9|Entity=(place-1-Tulsa%2C_Oklahoma)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 3	in	in	ADP	IN	_	7	case	7:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(place-2-Green_Country
-5	Green	Green	PROPN	NNP	Number=Sing	6	amod	6:amod	_
+5	Green	Green	ADJ	NNP	Degree=Pos	6	amod	6:amod	_
 6	Country	Country	PROPN	NNP	Number=Sing	7	compound	7:compound	_
 7	region	region	NOUN	NN	Number=Sing	0	root	0:root	_
 8	of	of	ADP	IN	_	9	case	9:case	_
@@ -19,8 +26,8 @@
 10	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_voyage_tulsa-3
-# text = It is also called “T-town” by the locals and has been called the "Oil Capital of the World".
 # s_type = decl
+# text = It is also called “T-town” by the locals and has been called the "Oil Capital of the World".
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	4:nsubj:pass|14:nsubj:pass	Discourse=joint:3->2|Entity=(place-1-Tulsa%2C_Oklahoma)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 3	also	also	ADV	RB	_	4	advmod	4:advmod	_
@@ -46,14 +53,14 @@
 23	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_voyage_tulsa-4
-# text = The city had about 391,000 people and the metro area had about 937,000 people as of 2010 from the US Census Bureau.
 # s_type = decl
+# text = The city had about 391,000 people and the metro area had about 937,000 people as of 2010 from the US Census Bureau.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint:5->2|Entity=(place-1-Tulsa%2C_Oklahoma
 2	city	city	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=place-1-Tulsa%2C_Oklahoma)
 3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	about	about	ADV	RB	_	5	advmod	5:advmod	Entity=(person-7
 5	391,000	391000	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	6:nummod	_
-6	people	people	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=person-7)
+6	people	person	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=person-7)
 7	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=joint:6->5
 8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=place-1-Tulsa%2C_Oklahoma<place-8|Entity=(place-8
 9	metro	metro	NOUN	NN	Number=Sing	10	compound	10:compound	_
@@ -61,7 +68,7 @@
 11	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	3:conj:and	_
 12	about	about	ADV	RB	_	13	advmod	13:advmod	Entity=(person-9
 13	937,000	937000	NUM	CD	NumForm=Digit|NumType=Card	14	nummod	14:nummod	_
-14	people	people	NOUN	NNS	Number=Plur	11	obj	11:obj	Entity=person-9)
+14	people	person	NOUN	NNS	Number=Plur	11	obj	11:obj	Entity=person-9)
 15	as	as	SCONJ	RB	_	16	mark	16:mark	_
 16	of	of	ADP	IN	_	3	advcl	3:advcl:as	_
 17	2010	2010	NUM	CD	NumForm=Digit|NumType=Card	16	nummod	16:nummod	Entity=(time-10)
@@ -73,8 +80,8 @@
 23	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_voyage_tulsa-5
-# text = The Tulsa Bartlesville Combined area had 988,000 in the 2010 census.
 # s_type = decl
+# text = The Tulsa Bartlesville Combined area had 988,000 in the 2010 census.
 1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Discourse=joint:7->5|Entity=(place-13-Tulsa_metropolitan_area
 2	Tulsa	Tulsa	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=(place-1-Tulsa%2C_Oklahoma)
 3	Bartlesville	Bartlesville	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=(place-14-Bartlesville%2C_Oklahoma)
@@ -89,17 +96,17 @@
 12	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_voyage_tulsa-6
-# text = Understand
 # s_type = imp
+# text = Understand
 1	Understand	understand	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:8->9
 
 # sent_id = GUM_voyage_tulsa-7
-# text = Tulsa lies in northeastern Oklahoma, at the convergence of the Great Plains and the Ozark Plateau, and receives an average of 40 inches of precipitation each year, both of which account for its abundant beautiful rolling green terrain.
 # s_type = decl
+# text = Tulsa lies in northeastern Oklahoma, at the convergence of the Great Plains and the Ozark Plateau, and receives an average of 40 inches of precipitation each year, both of which account for its abundant beautiful rolling green terrain.
 1	Tulsa	Tulsa	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj|20:nsubj	Discourse=ROOT:9|Entity=(place-1-Tulsa%2C_Oklahoma)
 2	lies	lie	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	in	in	ADP	IN	_	5	case	5:case	_
-4	northeastern	northeastern	ADJ	JJ	Degree=Pos	5	amod	5:amod	Bridge=place-3-Oklahoma<place-17-Green_Country|Entity=(place-17-Green_Country
+4	northeastern	Northeastern	ADJ	JJ	Degree=Pos|Typo=Yes	5	amod	5:amod	Bridge=place-3-Oklahoma<place-17-Green_Country|Entity=(place-17-Green_Country
 5	Oklahoma	Oklahoma	PROPN	NNP	Number=Sing	2	obl	2:obl:in	Entity=place-17-Green_Country)|SpaceAfter=No
 6	,	,	PUNCT	,	_	9	punct	9:punct	_
 7	at	at	ADP	IN	_	9	case	9:case	_
@@ -108,7 +115,7 @@
 10	of	of	ADP	IN	_	13	case	13:case	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(place-19-Great_Plains
 12	Great	Great	PROPN	NNP	Number=Sing	13	compound	13:compound	_
-13	Plains	Plains	PROPN	NNP	Number=Sing	9	nmod	9:nmod:of	Entity=place-19-Great_Plains)
+13	Plains	Plain	PROPN	NNPS	Number=Plur	9	nmod	9:nmod:of	Entity=place-19-Great_Plains)
 14	and	and	CCONJ	CC	_	17	cc	17:cc	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(place-20-Ozarks
 16	Ozark	Ozark	PROPN	NNP	Number=Sing	17	compound	17:compound	_
@@ -140,8 +147,8 @@
 42	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_voyage_tulsa-8
-# text = As a result, Tulsa breaks the Oklahoma stereotype of being nothing but a flat, arid dust bowl.
 # s_type = decl
+# text = As a result, Tulsa breaks the Oklahoma stereotype of being nothing but a flat, arid dust bowl.
 1	As	as	ADP	IN	_	3	case	3:case	Discourse=result:12->9
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	_
 3	result	result	NOUN	NN	Number=Sing	6	obl	6:obl:as	SpaceAfter=No
@@ -154,7 +161,7 @@
 10	of	of	ADP	IN	_	9	nmod	9:nmod	_
 11	being	be	AUX	VBG	VerbForm=Ger	12	cop	12:cop	_
 12	nothing	nothing	NOUN	NN	Number=Sing|Polarity=Neg	9	nsubj	9:nsubj	_
-13	but	but	CCONJ	CC	_	19	case	19:case	_
+13	but	but	ADP	IN	_	19	case	19:case	_
 14	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(place-27
 15	flat	flat	ADJ	JJ	Degree=Pos	19	amod	19:amod	SpaceAfter=No
 16	,	,	PUNCT	,	_	15	punct	15:punct	_
@@ -164,8 +171,8 @@
 20	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_voyage_tulsa-9
-# text = Summers can be very warm and with the cold wind across the plains it can get very cold in the winter, but it does not last long.
 # s_type = sub
+# text = Summers can be very warm and with the cold wind across the plains it can get very cold in the winter, but it does not last long.
 1	Summers	summer	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Discourse=elaboration:13->9|Entity=(time-28)
 2	can	can	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
 3	be	be	AUX	VB	VerbForm=Inf	5	cop	5:cop	_
@@ -197,8 +204,8 @@
 29	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_voyage_tulsa-10
-# text = The winters are considered to be very mild.
 # s_type = decl
+# text = The winters are considered to be very mild.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=evaluation:16->14|Entity=(time-31
 2	winters	winter	NOUN	NNS	Number=Plur	4	nsubj:pass	4:nsubj:pass|8:nsubj:xsubj	Entity=time-31)
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
@@ -210,8 +217,8 @@
 9	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_voyage_tulsa-11
-# text = There is not much snow, just a few inches each year, typically, although in 2007 and again in 2008 there were rather large "ice storms".
 # s_type = decl
+# text = There is not much snow, just a few inches each year, typically, although in 2007 and again in 2008 there were rather large "ice storms".
 1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=justify:17->16
 2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
@@ -245,8 +252,8 @@
 31	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_voyage_tulsa-12
-# text = Tulsa has over 225 days of sunshine annually.
 # s_type = decl
+# text = Tulsa has over 225 days of sunshine annually.
 1	Tulsa	Tulsa	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=elaboration:20->13|Entity=(place-1-Tulsa%2C_Oklahoma)
 2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	over	over	ADV	RB	_	4	advmod	4:advmod	Entity=(time-37
@@ -258,8 +265,8 @@
 9	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_voyage_tulsa-13
-# text = In Tulsa you will find old west charm as well as a cosmopolitan atmosphere.
 # s_type = decl
+# text = In Tulsa you will find old west charm as well as a cosmopolitan atmosphere.
 1	In	in	ADP	IN	_	2	case	2:case	Discourse=joint:21->9
 2	Tulsa	Tulsa	PROPN	NNP	Number=Sing	5	obl	5:obl:in	Entity=(place-1-Tulsa%2C_Oklahoma)
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-38)
@@ -277,13 +284,13 @@
 15	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_voyage_tulsa-14
-# text = You will find the people of Tulsa love their city and they have that southern charm, so they are willing to help you find your way around.
 # s_type = decl
+# text = You will find the people of Tulsa love their city and they have that southern charm, so they are willing to help you find your way around.
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint:22->9|Entity=(person-38)
 2	will	will	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	find	find	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(person-41
-5	people	people	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj	_
+5	people	person	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj	_
 6	of	of	ADP	IN	_	7	case	7:case	_
 7	Tulsa	Tulsa	PROPN	NNP	Number=Sing	5	nmod	5:nmod:of	Entity=(place-1-Tulsa%2C_Oklahoma)person-41)
 8	love	love	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	_
@@ -297,21 +304,21 @@
 16	charm	charm	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=abstract-42)|SpaceAfter=No
 17	,	,	PUNCT	,	_	21	punct	21:punct	_
 18	so	so	ADV	RB	_	21	advmod	21:advmod	Discourse=result:24->22
-19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	21:nsubj|23:nsubj:xsubj	Entity=(person-41)
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	21:nsubj|23:nsubj:xsubj|25:nsubj:xsubj	Entity=(person-41)
 20	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	21:cop	_
 21	willing	willing	ADJ	JJ	Degree=Pos	8	advcl	8:advcl	_
 22	to	to	PART	TO	_	23	mark	23:mark	_
 23	help	help	VERB	VB	VerbForm=Inf	21	xcomp	21:xcomp	_
-24	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	25	nsubj	25:nsubj	Entity=(person-38)
-25	find	find	VERB	VB	VerbForm=Inf	23	ccomp	23:ccomp	_
+24	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	23	obj	23:obj|25:nsubj:xsubj	Entity=(person-38)
+25	find	find	VERB	VB	VerbForm=Inf	23	xcomp	23:xcomp	_
 26	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Entity=(abstract-43(person-38)
 27	way	way	NOUN	NN	Number=Sing	25	obj	25:obj	Entity=abstract-43)
 28	around	around	ADV	RB	Degree=Pos	25	advmod	25:advmod	SpaceAfter=No
 29	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_voyage_tulsa-15
-# text = Tulsa has one of the largest concentrations of Art Deco in the nation, having been a booming city during the 1920s when the architecture was first built by rich oil barons who built stately mansions and turned the Downtown area into a treasure trove of art.
 # s_type = decl
+# text = Tulsa has one of the largest concentrations of Art Deco in the nation, having been a booming city during the 1920s when the architecture was first built by rich oil barons who built stately mansions and turned the Downtown area into a treasure trove of art.
 1	Tulsa	Tulsa	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint:25->9|Entity=(place-1-Tulsa%2C_Oklahoma)
 2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	one	one	NUM	CD	NumForm=Word|NumType=Card	2	obj	2:obj	Entity=(abstract-44
@@ -362,20 +369,20 @@
 48	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_voyage_tulsa-16
-# text = Get in
 # s_type = imp
+# text = Get in
 1	Get	get	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:30->32
-2	in	in	ADP	RP	_	1	obl	1:obl	_
+2	in	in	ADV	RB	Degree=Pos	1	advmod	1:advmod	_
 
 # sent_id = GUM_voyage_tulsa-17
-# text = By plane
 # s_type = frag
+# text = By plane
 1	By	by	ADP	IN	_	2	case	2:case	Discourse=preparation:31->32
 2	plane	plane	NOUN	NN	Number=Sing	0	root	0:root	Entity=(object-53)
 
 # sent_id = GUM_voyage_tulsa-18
-# text = Tulsa International Airport (IATA: TUL) in the northern part of Tulsa.
 # s_type = frag
+# text = Tulsa International Airport (IATA: TUL) in the northern part of Tulsa.
 1	Tulsa	Tulsa	PROPN	NNP	Number=Sing	3	compound	3:compound	Discourse=joint:32->9|Entity=(place-54-Tulsa_International_Airport(place-1-Tulsa%2C_Oklahoma)
 2	International	International	PROPN	NNP	Number=Sing	3	compound	3:compound	_
 3	Airport	Airport	PROPN	NNP	Number=Sing	0	root	0:root	Entity=place-54-Tulsa_International_Airport)
@@ -393,8 +400,8 @@
 15	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_voyage_tulsa-19
-# text = It has major airlines with direct flights to major cities in the U.S.
 # s_type = decl
+# text = It has major airlines with direct flights to major cities in the U.S.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration:36->32|Entity=(place-54-Tulsa_International_Airport)
 2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	major	major	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(organization-56
@@ -410,8 +417,8 @@
 13	U.S.	U.S.	PROPN	NNP	Abbr=Yes|Number=Sing	10	nmod	10:nmod:in	Entity=organization-56)event-57)place-58)place-12-United_States)
 
 # sent_id = GUM_voyage_tulsa-20
-# text = It is a small but nice airport with sofas and chairs all around and a very laid-back feel.
 # s_type = decl
+# text = It is a small but nice airport with sofas and chairs all around and a very laid-back feel.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	Discourse=evaluation:37->32|Entity=(place-54-Tulsa_International_Airport)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(place-54-Tulsa_International_Airport
@@ -433,8 +440,8 @@
 19	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_voyage_tulsa-21
-# text = The car rental area and parking is well integrated.
 # s_type = decl
+# text = The car rental area and parking is well integrated.
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Discourse=elaboration:38->32|Entity=(place-62
 2	car	car	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(object-63)
 3	rental	rental	NOUN	NN	Number=Sing	4	compound	4:compound	_
@@ -447,8 +454,8 @@
 10	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_voyage_tulsa-22
-# text = The airport offers free short term parking (first half-hour free).
 # s_type = decl
+# text = The airport offers free short term parking (first half-hour free).
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint:39->38|Entity=(place-54-Tulsa_International_Airport
 2	airport	airport	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=place-54-Tulsa_International_Airport)
 3	offers	offer	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -464,8 +471,8 @@
 13	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_voyage_tulsa-23
-# text = Richard L. Jones, Jr. Airport (IATA: RVS) (often called the "Riverside Airport") is south of downtown and is a general aviation airport.
 # s_type = decl
+# text = Richard L. Jones, Jr. Airport (IATA: RVS) (often called the "Riverside Airport") is south of downtown and is a general aviation airport.
 1	Richard	Richard	PROPN	NNP	Number=Sing	6	compound	6:compound	Discourse=joint:41->32|Entity=(place-67-R._L._Jones_Jr._%28Riverside%29_Airport(person-68-Richard_Lloyd_Jones_Jr.
 2	L.	L.	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	Jones	Jones	PROPN	NNP	Number=Sing	1	flat	1:flat	SpaceAfter=No
@@ -499,14 +506,14 @@
 31	.	.	PUNCT	.	_	22	punct	22:punct	_
 
 # sent_id = GUM_voyage_tulsa-24
-# text = By train
 # s_type = frag
+# text = By train
 1	By	by	ADP	IN	_	2	case	2:case	Discourse=preparation:47->48
 2	train	train	NOUN	NN	Number=Sing	0	root	0:root	Entity=(object-70)
 
 # sent_id = GUM_voyage_tulsa-25
-# text = There is no passenger train service to Tulsa.
 # s_type = decl
+# text = There is no passenger train service to Tulsa.
 1	There	there	PRON	EX	_	6	expl	6:expl	Discourse=joint:48->32
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 3	no	no	DET	DT	Polarity=Neg	6	det	6:det	_
@@ -518,14 +525,14 @@
 9	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_voyage_tulsa-26
-# text = By car
 # s_type = frag
+# text = By car
 1	By	by	ADP	IN	_	2	case	2:case	Discourse=preparation:49->50
 2	car	car	NOUN	NN	Number=Sing	0	root	0:root	Entity=(object-63)
 
 # sent_id = GUM_voyage_tulsa-27
-# text = Most Tulsans drive almost everywhere, although bus, bike, and pedestrian routes are starting to catch on.
 # s_type = decl
+# text = Most Tulsans drive almost everywhere, although bus, bike, and pedestrian routes are starting to catch on.
 1	Most	most	ADJ	JJS	Degree=Sup	2	amod	2:amod	Bridge=person-41<person-73|Discourse=joint:50->32|Entity=(person-73
 2	Tulsans	Tulsan	PROPN	NNPS	Number=Plur	3	nsubj	3:nsubj	Entity=person-73)
 3	drive	drive	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -548,8 +555,8 @@
 20	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_voyage_tulsa-28
-# text = From the North / Kansas - US-75 South from Bartlesville, OK, or US-169 South from Coffeyville, KS.
 # s_type = frag
+# text = From the North / Kansas - US-75 South from Bartlesville, OK, or US-169 South from Coffeyville, KS.
 1	From	from	ADP	IN	_	3	case	3:case	Discourse=joint:52->50
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(place-78
 3	North	North	PROPN	NNP	Number=Sing	7	nmod	7:nmod:from	Entity=place-78)
@@ -573,11 +580,11 @@
 21	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_voyage_tulsa-29
-# text = From the Northeast / Missouri - I-44 West, aka the "Will Rogers Turnpike."
 # s_type = frag
+# text = From the Northeast / Missouri - I-44 West, aka the "Will Rogers Turnpike."
 1	From	from	ADP	IN	_	3	case	3:case	Discourse=joint:53->52
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(place-84
-3	Northeast	northeast	NOUN	NN	Number=Sing	7	nmod	7:nmod:from	Entity=place-84)
+3	Northeast	Northeast	PROPN	NNP	Number=Sing	7	nmod	7:nmod:from	Entity=place-84)
 4	/	/	SYM	SYM	_	5	cc	5:cc	_
 5	Missouri	Missouri	PROPN	NNP	Number=Sing	3	conj	3:conj:slash|7:nmod:from	Entity=(place-85-Missouri)
 6	-	-	PUNCT	:	_	3	punct	3:punct	_
@@ -594,10 +601,11 @@
 17	"	''	PUNCT	''	_	15	punct	15:punct	Entity=place-87-Will_Rogers_Turnpike)
 
 # sent_id = GUM_voyage_tulsa-30
-# text = The world's former largest McDonalds spans the roadway near Vinita, OK.
 # s_type = decl
+# text = The world's former largest McDonalds spans the roadway near Vinita, OK.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration:55->53|Entity=(place-89-McDonald's_%28Will_Rogers_Turnpike%29(place-6-World
-2	world	world	NOUN	NN	Number=Sing	6	nmod:poss	6:nmod:poss	SpaceAfter=No
+2-3	world's	_	_	_	_	_	_	_	_
+2	world	world	NOUN	NN	Number=Sing	6	nmod:poss	6:nmod:poss	_
 3	's	's	PART	POS	_	2	case	2:case	Entity=place-6-World)
 4	former	former	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
 5	largest	large	ADJ	JJS	Degree=Sup	6	amod	6:amod	_
@@ -612,8 +620,8 @@
 14	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_voyage_tulsa-31
-# text = From the East / Arkansas - US-412 West, aka the "Cherokee Turnpike."
 # s_type = frag
+# text = From the East / Arkansas - US-412 West, aka the "Cherokee Turnpike."
 1	From	from	ADP	IN	_	3	case	3:case	Discourse=joint:56->52
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(place-92
 3	East	East	PROPN	NNP	Number=Sing	7	nmod	7:nmod:from	Entity=place-92)
@@ -632,8 +640,8 @@
 16	"	''	PUNCT	''	_	14	punct	14:punct	Entity=abstract-95-Cherokee_Turnpike)
 
 # sent_id = GUM_voyage_tulsa-32
-# text = From the Southeast / Arkansas - The "Muskogee Turnpike."
 # s_type = frag
+# text = From the Southeast / Arkansas - The "Muskogee Turnpike."
 1	From	from	ADP	IN	_	3	case	3:case	Discourse=joint:58->52
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(place-96
 3	Southeast	southeast	NOUN	NN	Number=Sing	10	nmod	10:nmod:from	Entity=place-96)
@@ -648,8 +656,8 @@
 12	"	''	PUNCT	''	_	10	punct	10:punct	Entity=place-97-Muskogee_Turnpike)
 
 # sent_id = GUM_voyage_tulsa-33
-# text = From the South - US-75 from Okmulgee, OK, aka the "Okmulgee Beeline."
 # s_type = frag
+# text = From the South - US-75 from Okmulgee, OK, aka the "Okmulgee Beeline."
 1	From	from	ADP	IN	_	3	case	3:case	Discourse=joint:59->52
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(place-99
 3	South	South	PROPN	NNP	Number=Sing	5	nmod	5:nmod:from	Entity=place-99)
@@ -669,8 +677,8 @@
 17	"	''	PUNCT	''	_	15	punct	15:punct	Entity=abstract-102-U.S._Route_75)
 
 # sent_id = GUM_voyage_tulsa-34
-# text = From the Southwest / Oklahoma City - I-44 East, aka the "Turner Turnpike."
 # s_type = frag
+# text = From the Southwest / Oklahoma City - I-44 East, aka the "Turner Turnpike."
 1	From	from	ADP	IN	_	3	case	3:case	Discourse=joint:61->52
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(place-103
 3	Southwest	southwest	NOUN	NN	Number=Sing	8	nmod	8:nmod:from	Entity=place-103)
@@ -690,8 +698,8 @@
 17	"	''	PUNCT	''	_	15	punct	15:punct	Entity=place-106-Turner_Turnpike)
 
 # sent_id = GUM_voyage_tulsa-35
-# text = From the West - US-412 East, aka the "Cimarron Turnpike."
 # s_type = frag
+# text = From the West - US-412 East, aka the "Cimarron Turnpike."
 1	From	from	ADP	IN	_	3	case	3:case	Discourse=joint:63->52
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(place-108
 3	West	West	PROPN	NNP	Number=Sing	5	nmod	5:nmod:from	Entity=place-108)
@@ -708,8 +716,8 @@
 14	"	''	PUNCT	''	_	12	punct	12:punct	Entity=place-110-Cimarron_Turnpike)
 
 # sent_id = GUM_voyage_tulsa-36
-# text = For the slow scenic route from Northeast or Southwest come in on old Route 66.
 # s_type = imp
+# text = For the slow scenic route from Northeast or Southwest come in on old Route 66.
 1	For	for	ADP	IN	_	5	case	5:case	Discourse=joint:65->52
 2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(place-112
 3	slow	slow	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
@@ -728,14 +736,14 @@
 16	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_voyage_tulsa-37
-# text = By bus
 # s_type = frag
+# text = By bus
 1	By	by	ADP	IN	_	2	case	2:case	Discourse=preparation:66->67
 2	bus	bus	NOUN	NN	Number=Sing	0	root	0:root	Entity=(object-114)
 
 # sent_id = GUM_voyage_tulsa-38
-# text = Greyhound Bus Lines +1918584-4428, 317 S Detroit Ave. (downtown).
 # s_type = frag
+# text = Greyhound Bus Lines +1918584-4428, 317 S Detroit Ave. (downtown).
 1	Greyhound	Greyhound	PROPN	NNP	Number=Sing	2	compound	2:compound	Discourse=joint:67->32|Entity=(organization-115-Greyhound_Lines
 2	Bus	Bus	PROPN	NNP	Number=Sing	3	compound	3:compound	_
 3	Lines	Lines	PROPN	NNP	Number=Sing	0	root	0:root	Entity=organization-115-Greyhound_Lines)
@@ -751,15 +759,15 @@
 13	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_voyage_tulsa-39
-# text = Get around
 # s_type = imp
+# text = Get around
 1	Get	get	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:69->77
-2	around	around	ADP	RP	_	1	compound:prt	1:compound:prt	_
+2	around	around	ADV	RB	Degree=Pos	1	advmod	1:advmod	_
 
 # sent_id = GUM_voyage_tulsa-40
-# text = Thanks to urban planning, the major city streets are placed in a grid layout.
 # s_type = decl
-1	Thanks	Thank	NOUN	NNS	Number=Plur	11	obl:npmod	11:obl:npmod	Discourse=background:70->77
+# text = Thanks to urban planning, the major city streets are placed in a grid layout.
+1	Thanks	thanks	NOUN	NNS	Number=Plur	11	obl:npmod	11:obl:npmod	Discourse=background:70->77
 2	to	to	ADP	IN	_	4	case	4:case	_
 3	urban	urban	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(abstract-118
 4	planning	planning	NOUN	NN	Number=Sing	1	nmod	1:nmod:to	Entity=abstract-118)|SpaceAfter=No
@@ -777,30 +785,30 @@
 16	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_voyage_tulsa-41
-# text = Almost all major intersections are one mile from each other, and exactly in a straight line.
 # s_type = decl
+# text = Almost all major intersections are one mile from each other, and exactly in a straight line.
 1	Almost	almost	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=elaboration:71->70
 2	all	all	DET	DT	_	4	det	4:det	Entity=(place-121
 3	major	major	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
-4	intersections	intersection	NOUN	NNS	Number=Plur	0	root	0:root	Entity=place-121)
-5	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
+4	intersections	intersection	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj|17:nsubj	Entity=place-121)
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 6	one	one	NUM	CD	NumForm=Word|NumType=Card	7	nummod	7:nummod	Entity=(abstract-122
-7	mile	mile	NOUN	NN	Number=Sing	10	nmod:npmod	10:nmod:npmod	Entity=abstract-122)
+7	mile	mile	NOUN	NN	Number=Sing	0	root	0:root	Entity=abstract-122)
 8	from	from	ADP	IN	_	10	case	10:case	_
 9	each	each	DET	DT	_	10	det	10:det	Entity=(place-121
-10	other	other	ADJ	JJ	Degree=Pos	4	nmod	4:nmod:from	Entity=place-121)|SpaceAfter=No
+10	other	other	ADJ	JJ	Degree=Pos	7	obl	7:obl:from	Entity=place-121)|SpaceAfter=No
 11	,	,	PUNCT	,	_	17	punct	17:punct	_
 12	and	and	CCONJ	CC	_	17	cc	17:cc	_
 13	exactly	exactly	ADV	RB	Degree=Pos	17	advmod	17:advmod	_
 14	in	in	ADP	IN	_	17	case	17:case	_
 15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(abstract-123
 16	straight	straight	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
-17	line	line	NOUN	NN	Number=Sing	4	conj	4:conj:and	Entity=abstract-123)|SpaceAfter=No
-18	.	.	PUNCT	.	_	4	punct	4:punct	_
+17	line	line	NOUN	NN	Number=Sing	7	conj	7:conj:and	Entity=abstract-123)|SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_voyage_tulsa-42
-# text = That makes it much easier to find places than in cities where streets go every which way.
 # s_type = decl
+# text = That makes it much easier to find places than in cities where streets go every which way.
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	2:nsubj	Discourse=result:72->71
 2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	2:obj|5:nsubj:xsubj	Entity=(event-124)
@@ -821,8 +829,8 @@
 18	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_voyage_tulsa-43
-# text = The major exception is downtown, which is slanted at almost a 45 degree angle to the rest of the grid.
 # s_type = decl
+# text = The major exception is downtown, which is slanted at almost a 45 degree angle to the rest of the grid.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=contrast:74->71|Entity=(abstract-128
 2	major	major	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	exception	exception	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=abstract-128)
@@ -831,7 +839,7 @@
 6	,	,	PUNCT	,	_	9	punct	9:punct	_
 7	which	which	PRON	WDT	PronType=Rel	9	nsubj	5:ref	Discourse=elaboration:75->74
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
-9	slanted	slant	VERB	VBN	Tense=Past|VerbForm=Part	5	acl:relcl	5:acl:relcl	_
+9	slanted	slanted	ADJ	JJ	Degree=Pos	5	acl:relcl	5:acl:relcl	_
 10	at	at	ADP	IN	_	15	case	15:case	_
 11	almost	almost	ADV	RB	Degree=Pos	13	advmod	13:advmod	_
 12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Entity=(abstract-129
@@ -847,14 +855,14 @@
 22	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_voyage_tulsa-44
-# text = By car
 # s_type = frag
+# text = By car
 1	By	by	ADP	IN	_	2	case	2:case	Discourse=preparation:76->77
 2	car	car	NOUN	NN	Number=Sing	0	root	0:root	Entity=(object-63)
 
 # sent_id = GUM_voyage_tulsa-45
-# text = Several freeways and bypasses can be used to easily get around the Tulsa Metro area: I-244, I-44, US 169 (Mingo Valley Expressway, aka "Pearl Harbor Memorial Expressway"), US 75, Hwy 51 (Broken Arrow Expressway, The "B.A."), Creek Turnpike.
 # s_type = sub
+# text = Several freeways and bypasses can be used to easily get around the Tulsa Metro area: I-244, I-44, US 169 (Mingo Valley Expressway, aka "Pearl Harbor Memorial Expressway"), US 75, Hwy 51 (Broken Arrow Expressway, The "B.A."), Creek Turnpike.
 1	Several	several	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=joint:77->9
 2	freeways	freeway	NOUN	NNS	Number=Plur	7	nsubj:pass	7:nsubj:pass|10:nsubj:xsubj	Entity=(place-131)
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
@@ -912,8 +920,8 @@
 55	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_voyage_tulsa-46
-# text = The streets and avenues are planned on a 1 mile by 1 mile grid system, with the main arterials running on each mile.
 # s_type = decl
+# text = The streets and avenues are planned on a 1 mile by 1 mile grid system, with the main arterials running on each mile.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=background:85->87|Entity=(object-119
 2	streets	street	NOUN	NNS	Number=Plur	6	nsubj:pass	6:nsubj:pass	_
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
@@ -923,7 +931,7 @@
 7	on	on	ADP	IN	_	15	case	15:case	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(abstract-120
 9	1	1	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	10:nummod	Entity=(abstract-142
-10	mile	mile	NOUN	NN	Number=Sing	15	nmod:npmod	15:nmod:npmod	Entity=abstract-142)
+10	mile	mile	NOUN	NN	Number=Sing	14	compound	14:compound	Entity=abstract-142)
 11	by	by	ADP	IN	_	13	case	13:case	_
 12	1	1	NUM	CD	NumForm=Digit|NumType=Card	13	nummod	13:nummod	Entity=(abstract-143
 13	mile	mile	NOUN	NN	Number=Sing	10	nmod	10:nmod:by	Entity=abstract-143)
@@ -933,7 +941,7 @@
 17	with	with	SCONJ	IN	_	21	mark	21:mark	Discourse=manner:86->85
 18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Bridge=object-119<place-144|Entity=(place-144
 19	main	main	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
-20	arterials	arterials	NOUN	NNS	Number=Plur	21	nsubj	21:nsubj	Entity=place-144)
+20	arterials	arterial	NOUN	NNS	Number=Plur	21	nsubj	21:nsubj	Entity=place-144)
 21	running	run	VERB	VBG	VerbForm=Ger	15	acl	15:acl:with	_
 22	on	on	ADP	IN	_	24	case	24:case	_
 23	each	each	DET	DT	_	24	det	24:det	Entity=(abstract-145
@@ -941,8 +949,8 @@
 25	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_voyage_tulsa-47
-# text = In the core of the city, named avenues run north / south and are named after US cities, generally in repeating alphabetical order (for example, Winston - Yale - Allegheny - Braden).
 # s_type = decl
+# text = In the core of the city, named avenues run north / south and are named after US cities, generally in repeating alphabetical order (for example, Winston - Yale - Allegheny - Braden).
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=joint:87->77
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(place-146
 3	core	core	NOUN	NN	Number=Sing	10	obl	10:obl:in	_
@@ -983,8 +991,8 @@
 38	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_voyage_tulsa-48
-# text = In the mid-town area the names are taken from colleges and college towns.
 # s_type = decl
+# text = In the mid-town area the names are taken from colleges and college towns.
 1	In	in	ADP	IN	_	4	case	4:case	Discourse=elaboration:90->87
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(place-156
 3	mid-town	mid-town	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(place-157)
@@ -1001,8 +1009,8 @@
 14	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_voyage_tulsa-49
-# text = North / South is divided by Admiral Blvd.
 # s_type = decl
+# text = North / South is divided by Admiral Blvd.
 1	North	North	PROPN	NNP	Number=Sing	5	nsubj:pass	5:nsubj:pass	Discourse=joint:91->90|Entity=(place-162)
 2	/	/	SYM	SYM	_	3	cc	3:cc	_
 3	South	South	PROPN	NNP	Number=Sing	1	conj	1:conj:slash|5:nsubj:pass	Entity=(place-163)
@@ -1014,8 +1022,8 @@
 9	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_voyage_tulsa-50
-# text = Name streets East of Main are cities east of the Mississippi River, vice versa for name streets west of Main.
 # s_type = decl
+# text = Name streets East of Main are cities east of the Mississippi River, vice versa for name streets west of Main.
 1	Name	name	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=joint:92->90|Entity=(place-165
 2	streets	street	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	_
 3	East	East	ADJ	JJ	Degree=Pos	2	amod	2:amod	_
@@ -1029,26 +1037,26 @@
 11	Mississippi	Mississippi	PROPN	NNP	Number=Sing	12	compound	12:compound	_
 12	River	River	PROPN	NNP	Number=Sing	8	obl	8:obl:of	Entity=place-167)place-168)place-169-Mississippi_River)|SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	14:punct	_
-14	vice	vice	ADJ	JJ	Degree=Pos	7	parataxis	7:parataxis	Discourse=contrast:93->92
+14	vice	vice	ADV	RB	Degree=Pos	7	parataxis	7:parataxis	Discourse=contrast:93->92
 15	versa	versa	ADV	RB	Degree=Pos	14	fixed	14:fixed	_
 16	for	for	ADP	IN	_	18	case	18:case	_
 17	name	name	NOUN	NN	Number=Sing	18	compound	18:compound	Entity=(place-170
 18	streets	street	NOUN	NNS	Number=Plur	14	obl	14:obl:for	_
-19	west	west	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
+19	west	west	ADV	RB	Degree=Pos	18	advmod	18:advmod	_
 20	of	of	ADP	IN	_	21	case	21:case	_
 21	Main	Main	PROPN	NNP	Number=Sing	19	obl	19:obl:of	Entity=(place-166)place-170)|SpaceAfter=No
 22	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_voyage_tulsa-51
-# text = In the parts of the city farther from downtown, north-south streets are numbered.
 # s_type = decl
+# text = In the parts of the city farther from downtown, north-south streets are numbered.
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=background:94->95
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(place-171
 3	parts	part	NOUN	NNS	Number=Plur	14	obl	14:obl:in	_
 4	of	of	ADP	IN	_	6	case	6:case	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(place-1-Tulsa%2C_Oklahoma
 6	city	city	NOUN	NN	Number=Sing	3	nmod	3:nmod:of	Entity=place-1-Tulsa%2C_Oklahoma)
-7	farther	farther	ADJ	JJR	Degree=Cmp	3	amod	3:amod	_
+7	farther	far	ADJ	JJR	Degree=Cmp	3	amod	3:amod	_
 8	from	from	ADP	IN	_	9	case	9:case	_
 9	downtown	downtown	NOUN	NN	Number=Sing	7	obl	7:obl:from	Entity=(place-51)place-171)|SpaceAfter=No
 10	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -1059,8 +1067,8 @@
 15	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # sent_id = GUM_voyage_tulsa-52
-# text = It is important to recognize that the specific format of the north-south numbered street names is North / South 145th East / West Avenue.
 # s_type = decl
+# text = It is important to recognize that the specific format of the north-south numbered street names is North / South 145th East / West Avenue.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=joint:95->87|Entity=(abstract-173)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	important	important	ADJ	JJ	Degree=Pos	0	root	0:root	_
@@ -1088,8 +1096,8 @@
 25	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_voyage_tulsa-53
-# text = Numbered streets run East / West with Main Street and the Arkansas River as the dividing line.
 # s_type = decl
+# text = Numbered streets run East / West with Main Street and the Arkansas River as the dividing line.
 1	Numbered	numbered	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=elaboration:96->95|Entity=(place-176
 2	streets	street	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=place-176)
 3	run	run	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -1097,7 +1105,7 @@
 5	/	/	SYM	SYM	_	6	cc	6:cc	_
 6	West	West	PROPN	NNP	Number=Sing	4	conj	3:obj|4:conj:slash	Entity=(place-178)
 7	with	with	ADP	IN	_	9	case	9:case	_
-8	Main	Main	PROPN	NNP	Number=Sing	9	amod	9:amod	Entity=(place-166
+8	Main	Main	ADJ	NNP	Degree=Pos	9	amod	9:amod	Entity=(place-166
 9	Street	Street	PROPN	NNP	Number=Sing	3	obl	3:obl:with	Entity=place-166)
 10	and	and	CCONJ	CC	_	13	cc	13:cc	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(place-179-Arkansas_River
@@ -1110,8 +1118,8 @@
 18	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_voyage_tulsa-54
-# text = Watch out for Place, Street, Avenue designation, e.g. 47th Place, 47th Street, or Florence Place, Florence Avenue.
 # s_type = imp
+# text = Watch out for Place, Street, Avenue designation, e.g. 47th Place, 47th Street, or Florence Place, Florence Avenue.
 1	Watch	watch	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint:97->95
 2	out	out	ADP	RP	_	1	compound:prt	1:compound:prt	_
 3	for	for	ADP	IN	_	9	case	9:case	_
@@ -1123,10 +1131,10 @@
 9	designation	designation	NOUN	NN	Number=Sing	1	obl	1:obl:for	Entity=abstract-181)|SpaceAfter=No
 10	,	,	PUNCT	,	_	13	punct	13:punct	_
 11	e.g.	e.g.	ADV	FW	Abbr=Yes	13	advmod	13:advmod	_
-12	47th	47th	PROPN	NNP	Number=Sing	13	amod	13:amod	Entity=(place-182
+12	47th	47th	ADJ	NNP	Degree=Pos	13	amod	13:amod	Entity=(place-182
 13	Place	Place	PROPN	NNP	Number=Sing	9	dep	9:dep	Entity=place-182)|SpaceAfter=No
 14	,	,	PUNCT	,	_	16	punct	16:punct	_
-15	47th	47th	PROPN	NNP	Number=Sing	16	amod	16:amod	Entity=(place-183
+15	47th	47th	ADJ	NNP	Degree=Pos	16	amod	16:amod	Entity=(place-183
 16	Street	Street	PROPN	NNP	Number=Sing	13	conj	9:dep|13:conj:or	Entity=place-183)|SpaceAfter=No
 17	,	,	PUNCT	,	_	20	punct	20:punct	_
 18	or	or	CCONJ	CC	_	20	cc	20:cc	_
@@ -1138,8 +1146,8 @@
 24	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_voyage_tulsa-55
-# text = It is important to recognize that the specific format of the east-west numbered street names is West / East 71st Street North / South.
 # s_type = decl
+# text = It is important to recognize that the specific format of the east-west numbered street names is West / East 71st Street North / South.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=joint:98->95|Entity=(abstract-186)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	important	important	ADJ	JJ	Degree=Pos	0	root	0:root	_
@@ -1167,8 +1175,8 @@
 25	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_voyage_tulsa-56
-# text = In some parts of the city, numbered streets intersect, so the distinction is important.
 # s_type = decl
+# text = In some parts of the city, numbered streets intersect, so the distinction is important.
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=justify:99->100
 2	some	some	DET	DT	_	3	det	3:det	Entity=(place-189
 3	parts	part	NOUN	NNS	Number=Plur	10	obl	10:obl:in	_
@@ -1188,8 +1196,8 @@
 17	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_voyage_tulsa-57
-# text = Although rare, one east-west numbered street may even intersect with a street of the same number running north-south.
 # s_type = decl
+# text = Although rare, one east-west numbered street may even intersect with a street of the same number running north-south.
 1	Although	although	SCONJ	IN	_	2	mark	2:mark	Discourse=concession:101->102
 2	rare	rare	ADJ	JJ	Degree=Pos	10	advcl	10:advcl:although	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -1212,13 +1220,13 @@
 20	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_voyage_tulsa-58
-# text = Downtown streets were originally platted parallel to the Frisco railroad tracks.
 # s_type = decl
+# text = Downtown streets were originally platted parallel to the Frisco railroad tracks.
 1	Downtown	downtown	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=evidence:104->107|Entity=(place-195(place-51)
 2	streets	street	NOUN	NNS	Number=Plur	5	nsubj:pass	5:nsubj:pass	Entity=place-195)
 3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	5:aux:pass	_
 4	originally	originally	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
-5	platted	platted	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+5	platted	plat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 6	parallel	parallel	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
 7	to	to	ADP	IN	_	11	case	11:case	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(place-196
@@ -1228,8 +1236,8 @@
 12	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_voyage_tulsa-59
-# text = When Tulsa expanded beyond the bounds of its original plat, the expanded areas were platted in alignment with the points of the compass.
 # s_type = decl
+# text = When Tulsa expanded beyond the bounds of its original plat, the expanded areas were platted in alignment with the points of the compass.
 1	When	when	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=circumstance:105->106
 2	Tulsa	Tulsa	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Entity=(place-1-Tulsa%2C_Oklahoma)
 3	expanded	expand	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	advcl	16:advcl:when	_
@@ -1245,7 +1253,7 @@
 13	expanded	expanded	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
 14	areas	area	NOUN	NNS	Number=Plur	16	nsubj:pass	16:nsubj:pass	Entity=place-200)
 15	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	aux:pass	16:aux:pass	_
-16	platted	platted	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+16	platted	plat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 17	in	in	ADP	IN	_	18	case	18:case	_
 18	alignment	alignment	NOUN	NN	Number=Sing	16	obl	16:obl:in	_
 19	with	with	ADP	IN	_	21	case	21:case	_
@@ -1257,15 +1265,15 @@
 25	.	.	PUNCT	.	_	16	punct	16:punct	_
 
 # sent_id = GUM_voyage_tulsa-60
-# text = Thus the "twisted" area down-town represents the original extent of Tulsa ca 1907.
 # s_type = decl
+# text = Thus the "twisted" area down-town represents the original extent of Tulsa ca 1907.
 1	Thus	thus	ADV	RB	_	8	advmod	8:advmod	Discourse=joint:107->87
 2	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(place-203
 3	"	''	PUNCT	``	_	4	punct	4:punct	SpaceAfter=No
-4	twisted	twisted	ADJ	JJ	Degree=Pos	6	amod	6:amod	SpaceAfter=No
+4	twisted	twist	VERB	VBN	Tense=Past|VerbForm=Part	6	amod	6:amod	SpaceAfter=No
 5	"	''	PUNCT	''	_	4	punct	4:punct	_
 6	area	area	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	_
-7	down-town	down-town	NOUN	NN	Number=Sing	6	amod	6:amod	Entity=(place-51)place-203)
+7	down-town	down-town	NOUN	NN	Number=Sing	6	obl:npmod	6:obl:npmod	Entity=(place-51)place-203)
 8	represents	represent	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(place-199
 10	original	original	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
@@ -1277,14 +1285,14 @@
 16	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_voyage_tulsa-61
-# text = By bus
 # s_type = frag
+# text = By bus
 1	By	by	ADP	IN	_	2	case	2:case	Discourse=preparation:108->109
 2	bus	bus	NOUN	NN	Number=Sing	0	root	0:root	Entity=(object-205)
 
 # sent_id = GUM_voyage_tulsa-62
-# text = Tulsa Transit provides bus service for the Tulsa Metro area.
 # s_type = decl
+# text = Tulsa Transit provides bus service for the Tulsa Metro area.
 1	Tulsa	Tulsa	PROPN	NNP	Number=Sing	2	compound	2:compound	Discourse=joint:109->77|Entity=(organization-206-Metropolitan_Tulsa_Transit_Authority(place-1-Tulsa%2C_Oklahoma)
 2	Transit	Transit	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Entity=organization-206-Metropolitan_Tulsa_Transit_Authority)
 3	provides	provide	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -1298,8 +1306,8 @@
 11	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_voyage_tulsa-63
-# text = Cities served are Tulsa, Sand Springs, Sapulpa, Jenks, and Broken Arrow.
 # s_type = decl
+# text = Cities served are Tulsa, Sand Springs, Sapulpa, Jenks, and Broken Arrow.
 1	Cities	city	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj|7:nsubj|9:nsubj|11:nsubj|15:nsubj	Discourse=elaboration:110->109|Entity=(place-208
 2	served	serve	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	1:acl	Entity=place-208)
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
@@ -1313,13 +1321,13 @@
 11	Jenks	Jenks	PROPN	NNP	Number=Sing	4	conj	4:conj:and	Entity=(place-211-Jenks%2C_Oklahoma)|SpaceAfter=No
 12	,	,	PUNCT	,	_	15	punct	15:punct	_
 13	and	and	CCONJ	CC	_	15	cc	15:cc	_
-14	Broken	Broken	PROPN	NNP	Number=Sing	15	amod	15:amod	Entity=(place-140-Broken_Arrow%2C_Oklahoma
+14	Broken	Broken	ADJ	NNP	Degree=Pos	15	amod	15:amod	Entity=(place-140-Broken_Arrow%2C_Oklahoma
 15	Arrow	Arrow	PROPN	NNP	Number=Sing	4	conj	4:conj:and	Entity=place-208)place-140-Broken_Arrow%2C_Oklahoma)|SpaceAfter=No
 16	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_voyage_tulsa-64
-# text = The central station is at 319 S. Denver (downtown).
 # s_type = decl
+# text = The central station is at 319 S. Denver (downtown).
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=organization-206-Metropolitan_Tulsa_Transit_Authority<place-212|Discourse=joint:111->110|Entity=(place-212
 2	central	central	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	station	station	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=place-212)
@@ -1334,8 +1342,8 @@
 12	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_voyage_tulsa-65
-# text = They do not run that often, especially to the outer towns like Broken Arrow.
 # s_type = decl
+# text = They do not run that often, especially to the outer towns like Broken Arrow.
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=concession:113->109|Entity=(object-205)
 2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
@@ -1349,13 +1357,13 @@
 11	outer	outer	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
 12	towns	town	NOUN	NNS	Number=Plur	4	obl	4:obl:to	_
 13	like	like	ADP	IN	_	15	case	15:case	_
-14	Broken	Broken	PROPN	NNP	Number=Sing	15	amod	15:amod	Entity=(place-140-Broken_Arrow%2C_Oklahoma
+14	Broken	Broken	ADJ	NNP	Degree=Pos	15	amod	15:amod	Entity=(place-140-Broken_Arrow%2C_Oklahoma
 15	Arrow	Arrow	PROPN	NNP	Number=Sing	12	nmod	12:nmod:like	Entity=place-214)place-140-Broken_Arrow%2C_Oklahoma)|SpaceAfter=No
 16	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_voyage_tulsa-66
-# text = Unlike major cities in the Northeast, the city bus is not a major form of transportation in the city.
 # s_type = decl
+# text = Unlike major cities in the Northeast, the city bus is not a major form of transportation in the city.
 1	Unlike	unlike	ADP	IN	_	3	case	3:case	Discourse=background:114->113
 2	major	major	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(place-215
 3	cities	city	NOUN	NNS	Number=Plur	10	nmod	10:nmod:unlike	_
@@ -1379,8 +1387,8 @@
 21	.	.	PUNCT	.	_	15	punct	15:punct	_
 
 # sent_id = GUM_voyage_tulsa-67
-# text = It is usually a means of travel for those who are without their own motor vehicle.
 # s_type = decl
+# text = It is usually a means of travel for those who are without their own motor vehicle.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=joint:115->114|Entity=(object-205)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	usually	usually	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
@@ -1400,14 +1408,14 @@
 17	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_voyage_tulsa-68
-# text = By bicycle
 # s_type = frag
+# text = By bicycle
 1	By	by	ADP	IN	_	2	case	2:case	Discourse=preparation:117->118
 2	bicycle	bicycle	NOUN	NN	Number=Sing	0	root	0:root	Entity=(object-220)
 
 # sent_id = GUM_voyage_tulsa-69
-# text = Tulsa has an extensive interconnected paved bike trail system.
 # s_type = decl
+# text = Tulsa has an extensive interconnected paved bike trail system.
 1	Tulsa	Tulsa	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint:118->77|Entity=(place-1-Tulsa%2C_Oklahoma)
 2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(abstract-221
@@ -1420,8 +1428,8 @@
 10	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_voyage_tulsa-70
-# text = Rivertrail follows the Arkansas River from downtown Tulsa south to the suburbs.
 # s_type = decl
+# text = Rivertrail follows the Arkansas River from downtown Tulsa south to the suburbs.
 1	Rivertrail	Rivertrail	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=elaboration:119->118|Entity=(place-223)
 2	follows	follow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(place-179-Arkansas_River
@@ -1437,8 +1445,8 @@
 13	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_voyage_tulsa-71
-# text = The Katy Trail runs west to Sand Springs.
 # s_type = decl
+# text = The Katy Trail runs west to Sand Springs.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint:120->119|Entity=(object-225
 2	Katy	Katy	PROPN	NNP	Number=Sing	3	compound	3:compound	_
 3	Trail	Trail	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Entity=object-225)
@@ -1450,8 +1458,8 @@
 9	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_voyage_tulsa-72
-# text = The Osage Trail is a rails-to-trails route that begins at the OSU - Tulsacampus and travels north 15 miles to Skiatook.
 # s_type = decl
+# text = The Osage Trail is a rails-to-trails route that begins at the OSU-Tulsa campus and travels north 15 miles to Skiatook.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint:121->119|Entity=(place-226-Great_Osage_Trail
 2	Osage	Osage	PROPN	NNP	Number=Sing	3	compound	3:compound	_
 3	Trail	Trail	PROPN	NNP	Number=Sing	7	nsubj	7:nsubj	Entity=place-226-Great_Osage_Trail)
@@ -1463,9 +1471,9 @@
 9	begins	begin	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	7:acl:relcl	_
 10	at	at	ADP	IN	_	15	case	15:case	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(place-227
-12	OSU	OSU	PROPN	NNP	Abbr=Yes|Number=Sing	15	compound	15:compound	Entity=(organization-228-Oklahoma_State_University_System)
-13	-	-	PUNCT	SYM	_	12	punct	12:punct	_
-14	Tulsa	Tulsa	PROPN	NNP	Number=Sing	15	compound	15:compound	Entity=(place-1-Tulsa%2C_Oklahoma)|SpaceAfter=No
+12	OSU	OSU	PROPN	NNP	Abbr=Yes|Number=Sing	15	compound	15:compound	Entity=(organization-228-Oklahoma_State_University_System)|SpaceAfter=No
+13	-	-	PUNCT	SYM	_	12	punct	12:punct	SpaceAfter=No
+14	Tulsa	Tulsa	PROPN	NNP	Number=Sing	15	compound	15:compound	Entity=(place-1-Tulsa%2C_Oklahoma)
 15	campus	campus	NOUN	NN	Number=Sing	9	obl	9:obl:at	Entity=place-227)
 16	and	and	CCONJ	CC	_	17	cc	17:cc	_
 17	travels	travel	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	7:acl:relcl|9:conj:and	_
@@ -1477,8 +1485,8 @@
 23	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_voyage_tulsa-73
-# text = The Creek Trail connects Rivertrail and continues east through Broken Arrow to the NSU - BrokenArrow campus.
 # s_type = decl
+# text = The Creek Trail connects Rivertrail and continues east through Broken Arrow to the NSU-Broken Arrow campus.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint:123->119|Entity=(object-231-Creek_Turnpike
 2	Creek	Creek	PROPN	NNP	Number=Sing	3	compound	3:compound	_
 3	Trail	Trail	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj|7:nsubj	Entity=object-231-Creek_Turnpike)
@@ -1488,20 +1496,20 @@
 7	continues	continue	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj:and	_
 8	east	east	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
 9	through	through	ADP	IN	_	11	case	11:case	_
-10	Broken	Broken	PROPN	NNP	Number=Sing	11	amod	11:amod	Entity=(place-140-Broken_Arrow%2C_Oklahoma
+10	Broken	Broken	ADJ	NNP	Degree=Pos	11	amod	11:amod	Entity=(place-140-Broken_Arrow%2C_Oklahoma
 11	Arrow	Arrow	PROPN	NNP	Number=Sing	7	obl	7:obl:through	Entity=place-140-Broken_Arrow%2C_Oklahoma)
 12	to	to	ADP	IN	_	18	case	18:case	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(place-232
-14	NSU	NSU	PROPN	NNP	Abbr=Yes|Number=Sing	18	compound	18:compound	Entity=(organization-233-Northeastern_State_University)
-15	-	-	PUNCT	SYM	_	14	punct	14:punct	_
-16	Broken	Broken	PROPN	NNP	Number=Sing	17	amod	17:amod	Entity=(place-140-Broken_Arrow%2C_Oklahoma|SpaceAfter=No
+14	NSU	NSU	PROPN	NNP	Abbr=Yes|Number=Sing	18	compound	18:compound	Entity=(organization-233-Northeastern_State_University)|SpaceAfter=No
+15	-	-	PUNCT	SYM	_	14	punct	14:punct	SpaceAfter=No
+16	Broken	Broken	ADJ	NNP	Degree=Pos	17	amod	17:amod	Entity=(place-140-Broken_Arrow%2C_Oklahoma
 17	Arrow	Arrow	PROPN	NNP	Number=Sing	18	compound	18:compound	Entity=place-140-Broken_Arrow%2C_Oklahoma)
 18	campus	campus	NOUN	NN	Number=Sing	7	obl	7:obl:to	Entity=place-232)|SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_voyage_tulsa-74
-# text = Riders accustomed to flat terrain may find Tulsa's rolling land to be a bit more challenging, particularly during the heat of summer.
 # s_type = decl
+# text = Riders accustomed to flat terrain may find Tulsa's rolling land to be a bit more challenging, particularly during the heat of summer.
 1	Riders	rider	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	Discourse=joint:125->118|Entity=(person-234
 2	accustomed	accustomed	ADJ	JJ	Degree=Pos	1	amod	1:amod	_
 3	to	to	ADP	IN	_	5	case	5:case	_
@@ -1509,7 +1517,8 @@
 5	terrain	terrain	NOUN	NN	Number=Sing	2	obl	2:obl:to	Entity=person-234)place-235)
 6	may	may	AUX	MD	VerbForm=Fin	7	aux	7:aux	_
 7	find	find	VERB	VB	VerbForm=Inf	0	root	0:root	_
-8	Tulsa	Tulsa	PROPN	NNP	Number=Sing	11	nmod:poss	11:nmod:poss	Entity=(object-25(place-1-Tulsa%2C_Oklahoma|SpaceAfter=No
+8-9	Tulsa's	_	_	_	_	_	_	_	_
+8	Tulsa	Tulsa	PROPN	NNP	Number=Sing	11	nmod:poss	11:nmod:poss	Entity=(object-25(place-1-Tulsa%2C_Oklahoma
 9	's	's	PART	POS	_	8	case	8:case	Entity=place-1-Tulsa%2C_Oklahoma)
 10	rolling	rolling	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
 11	land	land	NOUN	NN	Number=Sing	7	obj	7:obj|17:nsubj:xsubj	Entity=object-25)
@@ -1529,8 +1538,8 @@
 25	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_voyage_tulsa-75
-# text = If you are looking for a good workout, the Creek Turnpike Trail follows the land's original contours.
 # s_type = decl
+# text = If you are looking for a good workout, the Creek Turnpike Trail follows the land's original contours.
 1	If	if	SCONJ	IN	_	4	mark	4:mark	Discourse=condition:126->127
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-38)
 3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
@@ -1546,15 +1555,16 @@
 13	Trail	Trail	PROPN	NNP	Number=Sing	14	nsubj	14:nsubj	Entity=object-231-Creek_Turnpike)
 14	follows	follow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(abstract-239(object-25
-16	land	land	NOUN	NN	Number=Sing	19	nmod:poss	19:nmod:poss	SpaceAfter=No
+16-17	land's	_	_	_	_	_	_	_	_
+16	land	land	NOUN	NN	Number=Sing	19	nmod:poss	19:nmod:poss	_
 17	's	's	PART	POS	_	16	case	16:case	Entity=object-25)
 18	original	original	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
 19	contours	contour	NOUN	NNS	Number=Plur	14	obj	14:obj	Entity=abstract-239)|SpaceAfter=No
 20	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # sent_id = GUM_voyage_tulsa-76
-# text = Rivertrail is probably be best choice for the rider seeking an easy route.
 # s_type = decl
+# text = Rivertrail is probably be best choice for the rider seeking an easy route.
 1	Rivertrail	Rivertrail	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Discourse=contrast:128->127|Entity=(place-223)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 3	probably	probably	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
@@ -1571,9 +1581,9 @@
 14	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_voyage_tulsa-77
-# text = Four bike loan depots, located along Rivertrail, allow riders to borrow a bike for free for up to twenty-four hours.
 # s_type = decl
-1	Four	Four	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	Discourse=joint:130->118|Entity=(organization-242
+# text = Four bike loan depots, located along Rivertrail, allow riders to borrow a bike for free for up to twenty-four hours.
+1	Four	four	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	Discourse=joint:130->118|Entity=(organization-242
 2	bike	bike	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(object-243)
 3	loan	loan	NOUN	NN	Number=Sing	4	compound	4:compound	_
 4	depots	depot	NOUN	NNS	Number=Plur	10	nsubj	10:nsubj	SpaceAfter=No
@@ -1591,20 +1601,20 @@
 16	for	for	ADP	IN	_	17	case	17:case	_
 17	free	free	ADJ	JJ	Degree=Pos	13	obl	13:obl:for	_
 18	for	for	ADP	IN	_	22	case	22:case	_
-19	up	up	ADP	IN	_	20	dep	20:dep	_
-20	to	to	PART	TO	_	21	advmod	21:advmod	_
+19	up	up	ADV	IN	_	21	advmod	21:advmod	_
+20	to	to	ADP	IN	_	19	fixed	19:fixed	_
 21	twenty-four	twenty-four	NUM	CD	NumForm=Word|NumType=Card	22	nummod	22:nummod	Entity=(time-245
 22	hours	hour	NOUN	NNS	Number=Plur	13	obl	13:obl:for	Entity=time-245)|SpaceAfter=No
 23	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_voyage_tulsa-78
-# text = Tulsa has an active bicycling community.
 # s_type = decl
+# text = Tulsa has an active bicycling community.
 1	Tulsa	Tulsa	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint:133->118|Entity=(place-1-Tulsa%2C_Oklahoma)
 2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(organization-246
 4	active	active	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
-5	bicycling	bicycling	NOUN	NN	Number=Sing	6	amod	6:amod	_
+5	bicycling	bicycling	NOUN	NN	Number=Sing	6	compound	6:compound	_
 6	community	community	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=organization-246)|SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	2:punct	_
 

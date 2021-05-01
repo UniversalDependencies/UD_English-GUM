@@ -1,13 +1,20 @@
 # newdoc id = GUM_bio_chao
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2019-09-09
+# meta::dateCreated = 2019-07-20
+# meta::dateModified = 2019-07-20
+# meta::sourceURL = https://en.wikipedia.org/wiki/Yuen_Ren_Chao
+# meta::speakerCount = 0
+# meta::title = Yuen Ren Chao
 # sent_id = GUM_bio_chao-1
-# text = Early life
 # s_type = frag
+# text = Early life
 1	Early	early	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=preparation:1->3|Entity=(time-1
 2	life	life	NOUN	NN	Number=Sing	0	root	0:root	Entity=time-1)
 
 # sent_id = GUM_bio_chao-2
-# text = Born in Tianjin with ancestry in Changzhou, Jiangsu province, Chao went to the United States with a Boxer Indemnity Scholarship in 1910 to study mathematics and physics at Cornell University, where he was a classmate and lifelong friend of Hu Shih, the leader of the New Culture Movement.
 # s_type = decl
+# text = Born in Tianjin with ancestry in Changzhou, Jiangsu province, Chao went to the United States with a Boxer Indemnity Scholarship in 1910 to study mathematics and physics at Cornell University, where he was a classmate and lifelong friend of Hu Shih, the leader of the New Culture Movement.
 1	Born	bear	VERB	VBN	Tense=Past|VerbForm=Part	12	acl	12:acl	Discourse=background:2->3
 2	in	in	ADP	IN	_	3	case	3:case	_
 3	Tianjin	Tianjin	PROPN	NNP	Number=Sing	1	obl	1:obl:in	Entity=(place-2-Tianjin)
@@ -23,8 +30,8 @@
 13	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 14	to	to	ADP	IN	_	17	case	17:case	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(place-7-United_States
-16	United	United	PROPN	NNP	Number=Sing	17	compound	17:compound	_
-17	States	States	PROPN	NNPS	Number=Plur	13	obl	13:obl:to	Entity=place-7-United_States)
+16	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	17	amod	17:amod	_
+17	States	State	PROPN	NNPS	Number=Plur	13	obl	13:obl:to	Entity=place-7-United_States)
 18	with	with	ADP	IN	_	22	case	22:case	_
 19	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	_
 20	Boxer	Boxer	PROPN	NNP	Number=Sing	21	compound	21:compound	Entity=(abstract-8-Boxer_Indemnity_Scholarship(abstract-9-Boxer_Protocol(person-10)
@@ -57,14 +64,14 @@
 47	leader	leader	NOUN	NN	Number=Sing	43	appos	43:appos	_
 48	of	of	ADP	IN	_	52	case	52:case	_
 49	the	the	DET	DT	Definite=Def|PronType=Art	52	det	52:det	Entity=(organization-16-New_Culture_Movement
-50	New	New	PROPN	NNP	Number=Sing	51	amod	51:amod	Entity=(abstract-17-New_Culture_Movement
+50	New	New	ADJ	NNP	Degree=Pos	51	amod	51:amod	Entity=(abstract-17-New_Culture_Movement
 51	Culture	Culture	PROPN	NNP	Number=Sing	52	compound	52:compound	Entity=abstract-17-New_Culture_Movement)
 52	Movement	Movement	PROPN	NNP	Number=Sing	47	nmod	47:nmod:of	Entity=organization-14-Cornell_University)person-15-Hu_Shih)organization-16-New_Culture_Movement)|SpaceAfter=No
 53	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_bio_chao-3
-# text = He then became interested in philosophy, and earned a Ph.D. in philosophy from Harvard University in 1918 with a dissertation entitled "Continuity: Study in Methodology".
 # s_type = decl
+# text = He then became interested in philosophy, and earned a Ph.D. in philosophy from Harvard University in 1918 with a dissertation entitled "Continuity: Study in Methodology".
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj|4:nsubj:xsubj|9:nsubj	Discourse=sequence:6->3|Entity=(person-6-Yuen_Ren_Chao)
 2	then	then	ADV	RB	PronType=Dem	3	advmod	3:advmod	_
 3	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -97,8 +104,8 @@
 30	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_bio_chao-4
-# text = Already in college his interests had turned to music and languages.
 # s_type = decl
+# text = Already in college his interests had turned to music and languages.
 1	Already	already	ADV	RB	_	7	advmod	7:advmod	Discourse=joint:9->3
 2	in	in	ADP	IN	_	3	case	3:case	_
 3	college	college	NOUN	NN	Number=Sing	7	obl	7:obl:in	Entity=(organization-20-Harvard_University)
@@ -113,8 +120,8 @@
 12	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_bio_chao-5
-# text = He spoke German and French fluently and some Japanese, and he had a reading knowledge of ancient Greek and Latin.
 # s_type = decl
+# text = He spoke German and French fluently and some Japanese, and he had a reading knowledge of ancient Greek and Latin.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration:10->9|Entity=(person-6-Yuen_Ren_Chao)
 2	spoke	speak	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	German	German	PROPN	NNP	Number=Sing	2	obj	2:obj	Entity=(abstract-29-German_language)
@@ -139,13 +146,14 @@
 22	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_chao-6
-# text = He served as Bertrand Russell's interpreter when Russell visited China in 1920.
 # s_type = decl
+# text = He served as Bertrand Russell's interpreter when Russell visited China in 1920.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint:12->10|Entity=(person-6-Yuen_Ren_Chao)
 2	served	serve	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	as	as	ADP	IN	_	7	case	7:case	_
 4	Bertrand	Bertrand	PROPN	NNP	Number=Sing	7	nmod:poss	7:nmod:poss	Entity=(person-6-Yuen_Ren_Chao(person-35-Bertrand_Russell
-5	Russell	Russell	PROPN	NNP	Number=Sing	4	flat	4:flat	SpaceAfter=No
+5-6	Russell's	_	_	_	_	_	_	_	_
+5	Russell	Russell	PROPN	NNP	Number=Sing	4	flat	4:flat	_
 6	's	's	PART	POS	_	4	case	4:case	Entity=person-35-Bertrand_Russell)
 7	interpreter	interpreter	NOUN	NN	Number=Sing	2	obl	2:obl:as	Entity=person-6-Yuen_Ren_Chao)
 8	when	when	SCONJ	WRB	PronType=Int	10	mark	10:mark	Discourse=circumstance:13->12
@@ -157,12 +165,12 @@
 14	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_chao-7
-# text = In his My Linguistic Autobiography, he wrote of his ability to pick up a Chinese dialect quickly, without much effort.
 # s_type = decl
+# text = In his My Linguistic Autobiography, he wrote of his ability to pick up a Chinese dialect quickly, without much effort.
 1	In	in	ADP	IN	_	5	case	5:case	Discourse=joint:14->10
 2	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(person-6-Yuen_Ren_Chao)
-3	My	My	PROPN	NNP	Number=Sing	5	nmod:poss	5:nmod:poss	Entity=(abstract-38(person-6-Yuen_Ren_Chao)
-4	Linguistic	Linguistic	PROPN	NNP	Number=Sing	5	amod	5:amod	_
+3	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(abstract-38(person-6-Yuen_Ren_Chao)
+4	Linguistic	Linguistic	ADJ	NNP	Degree=Pos	5	amod	5:amod	_
 5	Autobiography	Autobiography	PROPN	NNP	Number=Sing	8	obl	8:obl:in	Entity=abstract-38)|SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	5:punct	_
 7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj	Entity=(person-6-Yuen_Ren_Chao)
@@ -184,8 +192,8 @@
 23	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_bio_chao-8
-# text = Chao possessed a natural gift for hearing fine distinctions in pronunciation that was said to be "legendary for its acuity", enabling him to record the sounds of various dialects with a high degree of accuracy.
 # s_type = decl
+# text = Chao possessed a natural gift for hearing fine distinctions in pronunciation that was said to be "legendary for its acuity", enabling him to record the sounds of various dialects with a high degree of accuracy.
 1	Chao	Chao	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint:16->10|Entity=(person-6-Yuen_Ren_Chao)
 2	possessed	possess	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(abstract-41
@@ -227,8 +235,8 @@
 39	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_chao-9
-# text = Career development and later life
 # s_type = frag
+# text = Career development and later life
 1	Career	career	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=preparation:20->21|Entity=(abstract-49
 2	development	development	NOUN	NN	Number=Sing	0	root	0:root	Entity=abstract-49)
 3	and	and	CCONJ	CC	_	5	cc	5:cc	_
@@ -236,8 +244,8 @@
 5	life	life	NOUN	NN	Number=Sing	2	conj	2:conj:and	Entity=abstract-50)
 
 # sent_id = GUM_bio_chao-10
-# text = He returned to China in 1920, marrying the physician Yang Buwei there that year.
 # s_type = decl
+# text = He returned to China in 1920, marrying the physician Yang Buwei there that year.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=sequence:21->3|Entity=(person-6-Yuen_Ren_Chao)
 2	returned	return	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	to	to	ADP	IN	_	4	case	4:case	_
@@ -256,8 +264,8 @@
 16	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_chao-11
-# text = The ceremony was simple, rather than the noisy traditional wedding, attended only by Hu Shih and one other friend.
 # s_type = decl
+# text = The ceremony was simple, rather than the noisy traditional wedding, attended only by Hu Shih and one other friend.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration:23->22|Entity=(event-52
 2	ceremony	ceremony	NOUN	NN	Number=Sing	4	nsubj	4:nsubj|11:nsubj	Entity=event-52)
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
@@ -282,9 +290,10 @@
 22	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_bio_chao-12
-# text = Hu's account of it in the newspapers made the couple a model of modern marriage for China's New Culture generation.
 # s_type = decl
-1	Hu	Hu	PROPN	NNP	Number=Sing	3	nmod:poss	3:nmod:poss	Discourse=joint:26->23|Entity=(abstract-55(person-15-Hu_Shih|SpaceAfter=No
+# text = Hu's account of it in the newspapers made the couple a model of modern marriage for China's New Culture generation.
+1-2	Hu's	_	_	_	_	_	_	_	_
+1	Hu	Hu	PROPN	NNP	Number=Sing	3	nmod:poss	3:nmod:poss	Discourse=joint:26->23|Entity=(abstract-55(person-15-Hu_Shih
 2	's	's	PART	POS	_	1	case	1:case	Entity=person-15-Hu_Shih)
 3	account	account	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	_
 4	of	of	ADP	IN	_	5	case	5:case	_
@@ -301,16 +310,17 @@
 15	modern	modern	ADJ	JJ	Degree=Pos	16	amod	16:amod	Entity=(event-58
 16	marriage	marriage	NOUN	NN	Number=Sing	13	nmod	13:nmod:of	Entity=event-58)
 17	for	for	ADP	IN	_	22	case	22:case	_
-18	China	China	PROPN	NNP	Number=Sing	22	nmod:poss	22:nmod:poss	Entity=(abstract-59(place-36-China|SpaceAfter=No
+18-19	China's	_	_	_	_	_	_	_	_
+18	China	China	PROPN	NNP	Number=Sing	22	nmod:poss	22:nmod:poss	Entity=(abstract-59(place-36-China
 19	's	's	PART	POS	_	18	case	18:case	Entity=place-36-China)
-20	New	New	PROPN	NNP	Number=Sing	21	amod	21:amod	Entity=(abstract-17-New_Culture_Movement
+20	New	New	ADJ	NNP	Degree=Pos	21	amod	21:amod	Entity=(abstract-17-New_Culture_Movement
 21	Culture	Culture	PROPN	NNP	Number=Sing	22	compound	22:compound	Entity=abstract-17-New_Culture_Movement)
 22	generation	generation	NOUN	NN	Number=Sing	16	nmod	16:nmod:for	Entity=person-57)abstract-59)|SpaceAfter=No
 23	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_bio_chao-13
-# text = Chao taught mathematics at Tsinghua University and, one year later, returned to the United States to teach at Harvard.
 # s_type = decl
+# text = Chao taught mathematics at Tsinghua University and, one year later, returned to the United States to teach at Harvard.
 1	Chao	Chao	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj|13:nsubj	Discourse=sequence:27->21|Entity=(person-6-Yuen_Ren_Chao)
 2	taught	teach	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	mathematics	mathematics	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=(abstract-12)
@@ -321,13 +331,13 @@
 8	,	,	PUNCT	,	_	7	punct	7:punct	_
 9	one	one	NUM	CD	NumForm=Word|NumType=Card	10	nummod	10:nummod	Discourse=sequence:28->21|Entity=(time-61
 10	year	year	NOUN	NN	Number=Sing	13	obl:tmod	13:obl:tmod	_
-11	later	later	ADV	RBR	Degree=Cmp	10	advmod	10:advmod	Entity=time-61)|SpaceAfter=No
+11	later	late	ADV	RBR	Degree=Cmp	10	advmod	10:advmod	Entity=time-61)|SpaceAfter=No
 12	,	,	PUNCT	,	_	10	punct	10:punct	_
 13	returned	return	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	2:conj:and	_
 14	to	to	ADP	IN	_	17	case	17:case	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(place-7-United_States
-16	United	United	PROPN	NNP	Number=Sing	17	compound	17:compound	_
-17	States	States	PROPN	NNPS	Number=Plur	13	obl	13:obl:to	Entity=place-7-United_States)
+16	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	17	amod	17:amod	_
+17	States	State	PROPN	NNPS	Number=Plur	13	obl	13:obl:to	Entity=place-7-United_States)
 18	to	to	PART	TO	_	19	mark	19:mark	Discourse=purpose:29->28
 19	teach	teach	VERB	VB	VerbForm=Inf	13	advcl	13:advcl:to	_
 20	at	at	ADP	IN	_	21	case	21:case	_
@@ -335,8 +345,8 @@
 22	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_chao-14
-# text = He again returned to China in 1925, teaching at Tsinghua, and beginning a survey of the Wu dialects in 1926.
 # s_type = decl
+# text = He again returned to China in 1925, teaching at Tsinghua, and beginning a survey of the Wu dialects in 1926.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=sequence:30->21|Entity=(person-6-Yuen_Ren_Chao)
 2	again	again	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
 3	returned	return	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -362,8 +372,8 @@
 23	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_bio_chao-15
-# text = He began to conduct linguistic fieldwork throughout China for the Institute of History and Philology of Academia Sinica from 1928 onwards.
 # s_type = decl
+# text = He began to conduct linguistic fieldwork throughout China for the Institute of History and Philology of Academia Sinica from 1928 onwards.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|4:nsubj:xsubj	Discourse=sequence:33->21|Entity=(person-6-Yuen_Ren_Chao)
 2	began	begin	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	to	to	PART	TO	_	4	mark	4:mark	_
@@ -388,8 +398,8 @@
 22	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_chao-16
-# text = During this period of time, he collaborated with Luo Changpei and Li Fang-Kuei, the other two leading Chinese linguists of his generation, to edit and render into Chinese Bernhard Karlgren's monumental Etudes sur la Phonologie Chinoise (published in 1940).
 # s_type = decl
+# text = During this period of time, he collaborated with Luo Changpei and Li Fang-Kuei, the other two leading Chinese linguists of his generation, to edit and render into Chinese Bernhard Karlgren's monumental Etudes sur la Phonologie Chinoise (published in 1940).
 1	During	during	ADP	IN	_	3	case	3:case	Discourse=elaboration:34->33
 2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Entity=(time-72
 3	period	period	NOUN	NN	Number=Sing	8	obl	8:obl:during	_
@@ -422,7 +432,8 @@
 30	into	into	ADP	IN	_	31	case	31:case	_
 31	Chinese	Chinese	ADJ	JJ	Degree=Pos	29	obl	29:obl:into	Entity=(abstract-77)
 32	Bernhard	Bernhard	PROPN	NNP	Number=Sing	36	nmod:poss	36:nmod:poss	Entity=(abstract-78(person-79-Bernhard_Karlgren
-33	Karlgren	Karlgren	PROPN	NNP	Number=Sing	32	flat	32:flat	SpaceAfter=No
+33-34	Karlgren's	_	_	_	_	_	_	_	_
+33	Karlgren	Karlgren	PROPN	NNP	Number=Sing	32	flat	32:flat	_
 34	's	's	PART	POS	_	33	case	33:case	Entity=person-79-Bernhard_Karlgren)
 35	monumental	monumental	ADJ	JJ	Degree=Pos	36	amod	36:amod	_
 36	Etudes	Etudes	PROPN	NNP	Number=Sing	27	obj	27:obj|29:obj	_
@@ -438,8 +449,8 @@
 46	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_bio_chao-17
-# text = He left for the US in 1938, and resided there afterwards.
 # s_type = decl
+# text = He left for the US in 1938, and resided there afterwards.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|10:nsubj	Discourse=sequence:37->21|Entity=(person-6-Yuen_Ren_Chao)
 2	left	leave	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	for	for	ADP	IN	_	5	case	5:case	_
@@ -455,8 +466,8 @@
 13	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_chao-18
-# text = In 1945, he served as president of the Linguistic Society of America, and a special issue of the society's journal Language was dedicated to him in 1966.
 # s_type = decl
+# text = In 1945, he served as president of the Linguistic Society of America, and a special issue of the society's journal Language was dedicated to him in 1966.
 1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence:39->21
 2	1945	1945	NUM	CD	NumForm=Digit|NumType=Card	5	obl	5:obl:in	Entity=(time-82)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -466,7 +477,7 @@
 7	president	president	NOUN	NN	Number=Sing	5	obl	5:obl:as	Entity=(person-6-Yuen_Ren_Chao
 8	of	of	ADP	IN	_	11	case	11:case	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(organization-83-Linguistic_Society_of_America
-10	Linguistic	Linguistic	PROPN	NNP	Number=Sing	11	amod	11:amod	_
+10	Linguistic	Linguistic	ADJ	NNP	Degree=Pos	11	amod	11:amod	_
 11	Society	Society	PROPN	NNP	Number=Sing	7	nmod	7:nmod:of	_
 12	of	of	ADP	IN	_	13	case	13:case	_
 13	America	America	PROPN	NNP	Number=Sing	11	nmod	11:nmod:of	Entity=person-6-Yuen_Ren_Chao)organization-83-Linguistic_Society_of_America)|SpaceAfter=No
@@ -477,7 +488,8 @@
 18	issue	issue	NOUN	NN	Number=Sing	26	nsubj:pass	26:nsubj:pass	_
 19	of	of	ADP	IN	_	23	case	23:case	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(abstract-85
-21	society	society	NOUN	NN	Number=Sing	23	nmod:poss	23:nmod:poss	Entity=(organization-83-Linguistic_Society_of_America|SpaceAfter=No
+21-22	society's	_	_	_	_	_	_	_	_
+21	society	society	NOUN	NN	Number=Sing	23	nmod:poss	23:nmod:poss	Entity=(organization-83-Linguistic_Society_of_America
 22	's	's	PART	POS	_	21	case	21:case	Entity=organization-83-Linguistic_Society_of_America)
 23	journal	journal	NOUN	NN	Number=Sing	18	nmod	18:nmod:of	Entity=abstract-85)
 24	Language	Language	PROPN	NNP	Number=Sing	23	appos	23:appos	Entity=(abstract-85)abstract-84)
@@ -490,8 +502,8 @@
 31	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_bio_chao-19
-# text = He became an American citizen in 1954.
 # s_type = decl
+# text = He became an American citizen in 1954.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|5:nsubj:xsubj	Discourse=sequence:41->21|Entity=(person-6-Yuen_Ren_Chao)
 2	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(person-6-Yuen_Ren_Chao
@@ -502,8 +514,8 @@
 8	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_chao-20
-# text = In the 1950s he was among the first members of the Society for General Systems Research.
 # s_type = decl
+# text = In the 1950s he was among the first members of the Society for General Systems Research.
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=sequence:42->21
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(time-88
 3	1950s	1950s	NOUN	NNS	Number=Plur	9	nmod	9:nmod:in	Entity=time-88)
@@ -517,14 +529,14 @@
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(organization-90-International_Society_for_the_Systems_Sciences
 12	Society	Society	PROPN	NNP	Number=Sing	9	nmod	9:nmod:of	_
 13	for	for	ADP	IN	_	16	case	16:case	_
-14	General	General	PROPN	NNP	Number=Sing	16	amod	16:amod	Entity=(abstract-91-Systems_science
+14	General	General	ADJ	NNP	Degree=Pos	16	amod	16:amod	Entity=(abstract-91-Systems_science
 15	Systems	System	PROPN	NNPS	Number=Plur	16	compound	16:compound	_
 16	Research	Research	PROPN	NNP	Number=Sing	12	nmod	12:nmod:for	Entity=person-89)organization-90-International_Society_for_the_Systems_Sciences)abstract-91-Systems_science)|SpaceAfter=No
 17	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_bio_chao-21
-# text = From 1947 to 1960, he taught at the University of California at Berkeley, where in 1952, he became Agassiz Professor of Oriental Languages.
 # s_type = decl
+# text = From 1947 to 1960, he taught at the University of California at Berkeley, where in 1952, he became Agassiz Professor of Oriental Languages.
 1	From	from	ADP	IN	_	2	case	2:case	Discourse=sequence:43->21
 2	1947	1947	NUM	CD	NumForm=Digit|NumType=Card	7	obl	7:obl:from	Entity=(time-92)
 3	to	to	ADP	IN	_	4	case	4:case	_
@@ -549,14 +561,14 @@
 22	Agassiz	Agassiz	PROPN	NNP	Number=Sing	23	compound	23:compound	Entity=(person-6-Yuen_Ren_Chao(person-98-Louis_Agassiz)
 23	Professor	Professor	PROPN	NNP	Number=Sing	21	xcomp	21:xcomp	_
 24	of	of	ADP	IN	_	25	case	25:case	_
-25	Oriental	Oriental	PROPN	NNP	Number=Sing	26	amod	26:amod	Entity=(abstract-99-Languages_of_Asia
-26	Languages	Languages	PROPN	NNPS	Number=Plur	23	nmod	23:nmod	Entity=person-6-Yuen_Ren_Chao)abstract-99-Languages_of_Asia)|SpaceAfter=No
+25	Oriental	Oriental	ADJ	NNP	Degree=Pos	26	amod	26:amod	Entity=(abstract-99-Languages_of_Asia
+26	Languages	Language	PROPN	NNPS	Number=Plur	23	nmod	23:nmod	Entity=person-6-Yuen_Ren_Chao)abstract-99-Languages_of_Asia)|SpaceAfter=No
 27	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_bio_chao-22
-# text = Both Chao and Yang were known for their good senses of humor, he particularly for his love of subtle jokes and language puns: they published a family history entitled, Life with Chaos: the autobiography of a Chinese family.
 # s_type = decl
-1	Both	both	CCONJ	DT	_	2	cc:preconj	2:cc:preconj	Discourse=joint:45->21|Entity=(person-57
+# text = Both Chao and Yang were known for their good senses of humor, he particularly for his love of subtle jokes and language puns: they published a family history entitled, Life with Chaos: the autobiography of a Chinese family.
+1	Both	both	CCONJ	CC	_	2	cc:preconj	2:cc:preconj	Discourse=joint:45->21|Entity=(person-57
 2	Chao	Chao	PROPN	NNP	Number=Sing	6	nsubj:pass	6:nsubj:pass	Entity=(person-6-Yuen_Ren_Chao)
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
 4	Yang	Yang	PROPN	NNP	Number=Sing	2	conj	2:conj:and|6:nsubj:pass	Entity=(person-51-Buwei_Yang_Chao)person-57)
@@ -603,8 +615,8 @@
 43	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_bio_chao-23
-# text = Late in his life, he was invited by Deng Xiaoping to return to China in 1981.
 # s_type = decl
+# text = Late in his life, he was invited by Deng Xiaoping to return to China in 1981.
 1	Late	late	ADV	RB	Degree=Pos	8	advmod	8:advmod	Discourse=background:50->52
 2	in	in	ADP	IN	_	4	case	4:case	_
 3	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(abstract-107(person-6-Yuen_Ren_Chao)
@@ -625,8 +637,8 @@
 18	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_bio_chao-24
-# text = Previously at the invitation of Premier Zhou En-Lai, Chao and his wife returned to China in 1973 for the first time since the 1940s.
 # s_type = decl
+# text = Previously at the invitation of Premier Zhou En-Lai, Chao and his wife returned to China in 1973 for the first time since the 1940s.
 1	Previously	previously	ADV	RB	Degree=Pos	14	advmod	14:advmod	Discourse=background:51->50
 2	at	at	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(event-110
@@ -655,8 +667,8 @@
 26	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # sent_id = GUM_bio_chao-25
-# text = He visited China again between May and June in 1981 after his wife died in March the same year.
 # s_type = decl
+# text = He visited China again between May and June in 1981 after his wife died in March the same year.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint:52->21|Entity=(person-6-Yuen_Ren_Chao)
 2	visited	visit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	China	China	PROPN	NNP	Number=Sing	2	obj	2:obj	Entity=(place-36-China)
@@ -679,8 +691,8 @@
 20	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_chao-26
-# text = He died in Cambridge, Massachusetts.
 # s_type = decl
+# text = He died in Cambridge, Massachusetts.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=sequence:54->52|Entity=(person-6-Yuen_Ren_Chao)
 2	died	die	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	in	in	ADP	IN	_	4	case	4:case	_
@@ -690,8 +702,8 @@
 7	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_chao-27
-# text = His first daughter Rulan Chao Pian (1922 - 2013) was Professor of East Asian Studies and Music at Harvard.
 # s_type = decl
+# text = His first daughter Rulan Chao Pian (1922 - 2013) was Professor of East Asian Studies and Music at Harvard.
 1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Discourse=joint:55->21|Entity=(person-120(person-6-Yuen_Ren_Chao)
 2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	3:amod	_
 3	daughter	daughter	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	Entity=person-120)
@@ -707,8 +719,8 @@
 13	Professor	Professor	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(person-120
 14	of	of	ADP	IN	_	17	case	17:case	_
 15	East	East	PROPN	NNP	Number=Sing	16	compound	16:compound	Entity=(abstract-123-East_Asian_studies
-16	Asian	Asian	PROPN	NNP	Number=Sing	17	amod	17:amod	_
-17	Studies	Studies	PROPN	NNPS	Number=Plur	13	nmod	13:nmod:of	Entity=abstract-123-East_Asian_studies)
+16	Asian	Asian	ADJ	NNP	Degree=Pos	17	amod	17:amod	_
+17	Studies	Study	PROPN	NNPS	Number=Plur	13	nmod	13:nmod:of	Entity=abstract-123-East_Asian_studies)
 18	and	and	CCONJ	CC	_	19	cc	19:cc	_
 19	Music	Music	PROPN	NNP	Number=Sing	17	conj	13:nmod:of|17:conj:and	Entity=(abstract-27)person-120)
 20	at	at	ADP	IN	_	21	case	21:case	_
@@ -716,8 +728,8 @@
 22	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_bio_chao-28
-# text = His third daughter Lensey, born in 1929, is a children's book author and mathematician.
 # s_type = decl
+# text = His third daughter Lensey, born in 1929, is a children's book author and mathematician.
 1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Discourse=joint:58->55|Entity=(person-124(person-6-Yuen_Ren_Chao)
 2	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	3:amod	_
 3	daughter	daughter	NOUN	NN	Number=Sing	15	nsubj	15:nsubj|17:nsubj	_
@@ -729,7 +741,8 @@
 9	,	,	PUNCT	,	_	3	punct	3:punct	_
 10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	Discourse=same-unit:60->58
 11	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	Entity=(person-124
-12	children	child	NOUN	NNS	Number=Plur	14	nmod:poss	14:nmod:poss	SpaceAfter=No
+12-13	children's	_	_	_	_	_	_	_	_
+12	children	child	NOUN	NNS	Number=Plur	14	nmod:poss	14:nmod:poss	_
 13	's	's	PART	POS	_	12	case	12:case	_
 14	book	book	NOUN	NN	Number=Sing	15	compound	15:compound	_
 15	author	author	NOUN	NN	Number=Sing	0	root	0:root	Entity=person-124)

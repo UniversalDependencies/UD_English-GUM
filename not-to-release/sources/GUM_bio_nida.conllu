@@ -1,13 +1,20 @@
 # newdoc id = GUM_bio_nida
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2017-09-13
+# meta::dateCreated = 2013-04-26
+# meta::dateModified = 2017-05-19
+# meta::sourceURL = https://en.wikipedia.org/wiki/Eugene_Nida
+# meta::speakerCount = 0
+# meta::title = Eugene Nida
 # sent_id = GUM_bio_nida-1
-# text = Eugene Nida
 # s_type = frag
+# text = Eugene Nida
 1	Eugene	Eugene	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:1->2|Entity=(person-1-Eugene_Nida
 2	Nida	Nida	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-1-Eugene_Nida)
 
 # sent_id = GUM_bio_nida-2
-# text = Eugene A. Nida (November 11, 1914 – August 25, 2011) was a linguist who developed the dynamic-equivalence Bible-translation theory and one of the founders of the modern discipline of Translation Studies.
 # s_type = decl
+# text = Eugene A. Nida (November 11, 1914 – August 25, 2011) was a linguist who developed the dynamic-equivalence Bible-translation theory and one of the founders of the modern discipline of Translation Studies.
 1	Eugene	Eugene	PROPN	NNP	Number=Sing	17	nsubj	17:nsubj	Discourse=ROOT:2|Entity=(person-1-Eugene_Nida
 2	A.	A.	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	Nida	Nida	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-1-Eugene_Nida)
@@ -28,7 +35,7 @@
 18	who	who	PRON	WP	PronType=Rel	19	nsubj	17:ref	Discourse=elaboration:5->4
 19	developed	develop	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	acl:relcl	17:acl:relcl	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(abstract-6-Dynamic_and_formal_equivalence
-21	dynamic-equivalence	dynamic-equivalence	PROPN	NNP	Number=Sing	23	compound	23:compound	_
+21	dynamic-equivalence	dynamic-equivalence	NOUN	NN	Number=Sing	23	compound	23:compound	_
 22	Bible-translation	Bible-translation	PROPN	NNP	Number=Sing	23	compound	23:compound	Entity=(abstract-7-Bible_translations)
 23	theory	theory	NOUN	NN	Number=Sing	19	obj	19:obj	Entity=person-1-Eugene_Nida)abstract-6-Dynamic_and_formal_equivalence)
 24	and	and	CCONJ	CC	_	25	cc	25:cc	Discourse=joint:6->2
@@ -41,18 +48,18 @@
 31	modern	modern	ADJ	JJ	Degree=Pos	32	amod	32:amod	_
 32	discipline	discipline	NOUN	NN	Number=Sing	28	nmod	28:nmod:of	_
 33	of	of	ADP	IN	_	35	case	35:case	_
-34	Translation	translation	PROPN	NNP	Number=Sing	35	compound	35:compound	Entity=(event-10-Translation_studies(abstract-11-Translation)
-35	Studies	study	PROPN	NNPS	Number=Plur	32	nmod	32:nmod:of	Entity=person-1-Eugene_Nida)person-8)abstract-9)event-10-Translation_studies)|SpaceAfter=No
+34	Translation	Translation	PROPN	NNP	Number=Sing	35	compound	35:compound	Entity=(event-10-Translation_studies(abstract-11-Translation)
+35	Studies	Study	PROPN	NNPS	Number=Plur	32	nmod	32:nmod:of	Entity=person-1-Eugene_Nida)person-8)abstract-9)event-10-Translation_studies)|SpaceAfter=No
 36	.	.	PUNCT	.	_	17	punct	17:punct	_
 
 # sent_id = GUM_bio_nida-3
-# text = Life
 # s_type = frag
-1	Life	Life	NOUN	NN	Number=Sing	0	root	0:root	Bridge=person-1-Eugene_Nida<time-12|Discourse=preparation:7->8|Entity=(time-12)
+# text = Life
+1	Life	life	NOUN	NN	Number=Sing	0	root	0:root	Bridge=person-1-Eugene_Nida<time-12|Discourse=preparation:7->8|Entity=(time-12)
 
 # sent_id = GUM_bio_nida-4
-# text = Nida was born in Oklahoma City, Oklahoma on November 11, 1914.
 # s_type = decl
+# text = Nida was born in Oklahoma City, Oklahoma on November 11, 1914.
 1	Nida	Nida	PROPN	NNP	Number=Sing	3	nsubj:pass	3:nsubj:pass	Discourse=elaboration:8->2|Entity=(person-1-Eugene_Nida)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -69,8 +76,8 @@
 14	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_bio_nida-5
-# text = He became a Christian at a young age, when he responded to the altar call at his church "to accept Christ as my Saviour."
 # s_type = decl
+# text = He became a Christian at a young age, when he responded to the altar call at his church "to accept Christ as my Saviour."
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|4:nsubj:xsubj	Discourse=sequence:9->8|Entity=(person-1-Eugene_Nida)
 2	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(person-1-Eugene_Nida
@@ -96,13 +103,13 @@
 23	Christ	Christ	PROPN	NNP	Number=Sing	22	obj	22:obj	Entity=(person-17-Jesus)
 24	as	as	ADP	IN	_	26	case	26:case	_
 25	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(person-17-Jesus(person-1-Eugene_Nida)
-26	Saviour	saviour	PROPN	NNP	Number=Sing	23	nmod	23:nmod:as	Entity=person-17-Jesus)|SpaceAfter=No
+26	Saviour	saviour	NOUN	NN	Number=Sing	23	nmod	23:nmod:as	Entity=person-17-Jesus)|SpaceAfter=No
 27	.	.	PUNCT	.	_	22	punct	22:punct	SpaceAfter=No
 28	"	''	PUNCT	''	_	22	punct	22:punct	Entity=event-16)
 
 # sent_id = GUM_bio_nida-6
-# text = He graduated summa cum laude from the University of California in 1936.
 # s_type = decl
+# text = He graduated summa cum laude from the University of California in 1936.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=sequence:12->8|Entity=(person-1-Eugene_Nida)
 2	graduated	graduate	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	summa	summa	X	FW	_	5	compound	5:compound	_
@@ -118,8 +125,8 @@
 13	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_nida-7
-# text = After graduating he attended Camp Wycliffe, where Bible translation theory was taught.
 # s_type = decl
+# text = After graduating he attended Camp Wycliffe, where Bible translation theory was taught.
 1	After	after	SCONJ	IN	_	2	mark	2:mark	Discourse=circumstance:13->14
 2	graduating	graduate	VERB	VBG	VerbForm=Ger	4	advcl	4:advcl:after	_
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=sequence:14->8|Entity=(person-1-Eugene_Nida)
@@ -136,8 +143,8 @@
 14	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_bio_nida-8
-# text = He ministered for a short time among the Tarahumara Indians in Chihuahua, Mexico, until health problems due to an inadequate diet and the high altitude forced him to leave.
 # s_type = decl
+# text = He ministered for a short time among the Tarahumara Indians in Chihuahua, Mexico, until health problems due to an inadequate diet and the high altitude forced him to leave.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=sequence:16->8|Entity=(person-1-Eugene_Nida)
 2	ministered	minister	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	for	for	ADP	IN	_	6	case	6:case	_
@@ -147,7 +154,7 @@
 7	among	among	ADP	IN	_	10	case	10:case	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(person-25-Rarámuri
 9	Tarahumara	Tarahumara	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
-10	Indians	Indians	PROPN	NNPS	Number=Plur	2	obl	2:obl:among	Entity=person-25-Rarámuri)
+10	Indians	Indian	PROPN	NNPS	Number=Plur	2	obl	2:obl:among	Entity=person-25-Rarámuri)
 11	in	in	ADP	IN	_	12	case	12:case	_
 12	Chihuahua	Chihuahua	PROPN	NNP	Number=Sing	2	obl	2:obl:in	Entity=(place-26-Chihuahua_City|SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	14:punct	_
@@ -157,14 +164,14 @@
 17	health	health	NOUN	NN	Number=Sing	18	compound	18:compound	Entity=(abstract-28
 18	problems	problem	NOUN	NNS	Number=Plur	28	nsubj	28:nsubj	_
 19	due	due	ADJ	JJ	Degree=Pos	23	case	23:case	_
-20	to	to	PART	TO	_	19	fixed	19:fixed	_
+20	to	to	ADP	IN	_	19	fixed	19:fixed	_
 21	an	a	DET	DT	Definite=Ind|PronType=Art	23	det	23:det	Entity=(abstract-29
 22	inadequate	inadequate	ADJ	JJ	Degree=Pos	23	amod	23:amod	_
-23	diet	diet	NOUN	NN	Number=Sing	18	amod	18:amod	Entity=abstract-29)
+23	diet	diet	NOUN	NN	Number=Sing	18	nmod	18:nmod:due_to	Entity=abstract-29)
 24	and	and	CCONJ	CC	_	27	cc	27:cc	_
 25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(abstract-30
 26	high	high	ADJ	JJ	Degree=Pos	27	amod	27:amod	_
-27	altitude	altitude	NOUN	NN	Number=Sing	23	conj	18:amod|23:conj:and	Entity=abstract-28)abstract-30)
+27	altitude	altitude	NOUN	NN	Number=Sing	23	conj	18:nmod:due_to|23:conj:and	Entity=abstract-28)abstract-30)
 28	forced	force	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	advcl	2:advcl:until	_
 29	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obj	28:obj|31:nsubj:xsubj	Entity=(person-1-Eugene_Nida)
 30	to	to	PART	TO	_	31	mark	31:mark	_
@@ -172,8 +179,8 @@
 32	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_nida-9
-# text = Sometime in this period, Nida became a founding charter member of Wycliffe Bible Translators, a related organization to the Summer Institute of Linguistics.
 # s_type = decl
+# text = Sometime in this period, Nida became a founding charter member of Wycliffe Bible Translators, a related organization to the Summer Institute of Linguistics.
 1	Sometime	sometime	ADV	RB	_	7	advmod	7:advmod	Discourse=elaboration:18->16
 2	in	in	ADP	IN	_	4	case	4:case	_
 3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Entity=(time-24
@@ -182,13 +189,13 @@
 6	Nida	Nida	PROPN	NNP	Number=Sing	7	nsubj	7:nsubj|11:nsubj:xsubj	Entity=(person-1-Eugene_Nida)
 7	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(person-1-Eugene_Nida
-9	founding	founding	VERB	VBG	VerbForm=Ger	11	amod	11:amod	_
+9	founding	found	VERB	VBG	VerbForm=Ger	11	amod	11:amod	_
 10	charter	charter	NOUN	NN	Number=Sing	11	compound	11:compound	_
 11	member	member	NOUN	NN	Number=Sing	7	xcomp	7:xcomp	_
 12	of	of	ADP	IN	_	15	case	15:case	_
 13	Wycliffe	Wycliffe	PROPN	NNP	Number=Sing	15	compound	15:compound	Bridge=organization-21-Wycliffe_USA<organization-31-Wycliffe_Global_Alliance|Entity=(organization-31-Wycliffe_Global_Alliance
 14	Bible	Bible	PROPN	NNP	Number=Sing	15	compound	15:compound	Entity=(abstract-23-Bible)
-15	Translators	Translators	PROPN	NNPS	Number=Plur	11	nmod	11:nmod:of	Entity=person-1-Eugene_Nida)organization-31-Wycliffe_Global_Alliance)|SpaceAfter=No
+15	Translators	Translator	PROPN	NNPS	Number=Plur	11	nmod	11:nmod:of	Entity=person-1-Eugene_Nida)organization-31-Wycliffe_Global_Alliance)|SpaceAfter=No
 16	,	,	PUNCT	,	_	19	punct	19:punct	_
 17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(organization-31-Wycliffe_Global_Alliance
 18	related	related	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
@@ -202,8 +209,8 @@
 26	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_bio_nida-10
-# text = In 1937, Nida undertook studies at the University of Southern California, where he obtained a master's degree in New Testament Greek in 1939.
 # s_type = decl
+# text = In 1937, Nida undertook studies at the University of Southern California, where he obtained a master's degree in New Testament Greek in 1939.
 1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence:19->8
 2	1937	1937	NUM	CD	NumForm=Digit|NumType=Card	5	obl	5:obl:in	Entity=(time-34)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -214,18 +221,19 @@
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(organization-36-University_of_Southern_California
 9	University	University	PROPN	NNP	Number=Sing	5	obl	5:obl:at	_
 10	of	of	ADP	IN	_	12	case	12:case	_
-11	Southern	Southern	PROPN	NNP	Number=Sing	12	amod	12:amod	Entity=(place-37-Southern_California
+11	Southern	Southern	ADJ	NNP	Degree=Pos	12	amod	12:amod	Entity=(place-37-Southern_California
 12	California	California	PROPN	NNP	Number=Sing	9	nmod	9:nmod:of	Entity=place-37-Southern_California)|SpaceAfter=No
 13	,	,	PUNCT	,	_	16	punct	16:punct	_
 14	where	where	SCONJ	WRB	PronType=Int	16	mark	16:mark	Discourse=elaboration:20->19
 15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	16:nsubj	Entity=(person-1-Eugene_Nida)
 16	obtained	obtain	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	5:advcl:where	_
 17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	Entity=(abstract-38
-18	master	master	NOUN	NN	Number=Sing	20	nmod:poss	20:nmod:poss	SpaceAfter=No
+18-19	master's	_	_	_	_	_	_	_	_
+18	master	master	NOUN	NN	Number=Sing	20	nmod:poss	20:nmod:poss	_
 19	's	's	PART	POS	_	18	case	18:case	_
 20	degree	degree	NOUN	NN	Number=Sing	16	obj	16:obj	Entity=abstract-38)
 21	in	in	ADP	IN	_	24	case	24:case	_
-22	New	New	PROPN	NNP	Number=Sing	23	amod	23:amod	Entity=(abstract-39-Koine_Greek(abstract-40-New_Testament
+22	New	New	ADJ	NNP	Degree=Pos	23	amod	23:amod	Entity=(abstract-39-Koine_Greek(abstract-40-New_Testament
 23	Testament	Testament	PROPN	NNP	Number=Sing	24	compound	24:compound	Entity=abstract-40-New_Testament)
 24	Greek	Greek	PROPN	NNP	Number=Sing	20	nmod	20:nmod:in	Entity=abstract-39-Koine_Greek)
 25	in	in	ADP	IN	_	26	case	26:case	_
@@ -233,8 +241,8 @@
 27	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_bio_nida-11
-# text = In that same year he became interim pastor of Calvary Church of Santa Ana, California following the resignation of its founding pastor.
 # s_type = decl
+# text = In that same year he became interim pastor of Calvary Church of Santa Ana, California following the resignation of its founding pastor.
 1	In	in	ADP	IN	_	4	case	4:case	Discourse=elaboration:21->19
 2	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Entity=(time-41
 3	same	same	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -256,13 +264,13 @@
 19	resignation	resignation	NOUN	NN	Number=Sing	17	obj	17:obj	_
 20	of	of	ADP	IN	_	23	case	23:case	_
 21	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	23:nmod:poss	Entity=(person-45(organization-42-Calvary_Church_of_Santa_Ana)
-22	founding	founding	VERB	VBG	VerbForm=Ger	23	amod	23:amod	_
+22	founding	found	VERB	VBG	VerbForm=Ger	23	amod	23:amod	_
 23	pastor	pastor	NOUN	NN	Number=Sing	19	nmod	19:nmod:of	Entity=event-44)person-45)|SpaceAfter=No
 24	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_bio_nida-12
-# text = Despite his conservative background, in later years Nida became increasingly ecumenical and New Evangelical (clarification needed) in his approach.
 # s_type = decl
+# text = Despite his conservative background, in later years Nida became increasingly ecumenical and New Evangelical (clarification needed) in his approach.
 1	Despite	despite	ADP	IN	_	4	case	4:case	Discourse=concession:23->24
 2	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(abstract-46(person-1-Eugene_Nida)
 3	conservative	conservative	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -288,8 +296,8 @@
 23	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_bio_nida-13
-# text = In 1943, Nida received his Ph.D. in Linguistics from the University of Michigan.
 # s_type = decl
+# text = In 1943, Nida received his Ph.D. in Linguistics from the University of Michigan.
 1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence:27->8
 2	1943	1943	NUM	CD	NumForm=Digit|NumType=Card	5	obl	5:obl:in	Entity=(time-50)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -307,8 +315,8 @@
 15	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_bio_nida-14
-# text = He was ordained as a Baptist minister.
 # s_type = decl
+# text = He was ordained as a Baptist minister.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	3:nsubj:pass	Discourse=sequence:28->8|Entity=(person-1-Eugene_Nida)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	ordained	ordain	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -319,8 +327,8 @@
 8	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_bio_nida-15
-# text = He married Althea Lucille Sprague, who died in 1993.
 # s_type = decl
+# text = He married Althea Lucille Sprague, who died in 1993.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=sequence:29->8|Entity=(person-1-Eugene_Nida)
 2	married	marry	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	Althea	Althea	PROPN	NNP	Number=Sing	2	obj	2:obj|8:nsubj	Entity=(person-54
@@ -334,8 +342,8 @@
 11	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_nida-16
-# text = In 1997, he married María Elena Fernandez-Miranda, a lawyer and diplomatic attache.
 # s_type = decl
+# text = In 1997, he married María Elena Fernandez-Miranda, a lawyer and diplomatic attache.
 1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence:31->8
 2	1997	1997	NUM	CD	NumForm=Digit|NumType=Card	5	obl	5:obl:in	Entity=(time-56)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -353,8 +361,8 @@
 15	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_bio_nida-17
-# text = Nida retired in the early 1980s, although he continued to give lectures in universities all around the world, and lived in Alpine, Arizona, USA; Madrid, Spain and Brussels, Belgium.
 # s_type = decl
+# text = Nida retired in the early 1980s, although he continued to give lectures in universities all around the world, and lived in Alpine, Arizona, USA; Madrid, Spain and Brussels, Belgium.
 1	Nida	Nida	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=sequence:32->8|Entity=(person-1-Eugene_Nida)
 2	retired	retire	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	in	in	ADP	IN	_	6	case	6:case	_
@@ -394,8 +402,8 @@
 37	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_nida-18
-# text = He died in Madrid on August 25, 2011 aged 96.
 # s_type = decl
+# text = He died in Madrid on August 25, 2011 aged 96.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=sequence:35->8|Entity=(person-1-Eugene_Nida)
 2	died	die	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	in	in	ADP	IN	_	4	case	4:case	_
@@ -405,18 +413,18 @@
 7	25	25	NUM	CD	NumForm=Digit|NumType=Card	2	obl	2:obl:on	SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	9:punct	_
 9	2011	2011	NUM	CD	NumForm=Digit|NumType=Card	7	nmod:tmod	7:nmod:tmod	Entity=(time-5)time-4)
-10	aged	age	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	2:advcl	_
+10	aged	aged	ADJ	JJ	Degree=Pos	2	advcl	2:advcl	_
 11	96	96	NUM	CD	NumForm=Digit|NumType=Card	10	obj	10:obj	Entity=(abstract-69)|SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_nida-19
-# text = Theories
 # s_type = frag
+# text = Theories
 1	Theories	theory	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=preparation:36->37|Entity=(abstract-70)
 
 # sent_id = GUM_bio_nida-20
-# text = Nida has been a pioneer in the fields of translation theory and linguistics.
 # s_type = decl
+# text = Nida has been a pioneer in the fields of translation theory and linguistics.
 1	Nida	Nida	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Discourse=joint:37->8|Entity=(person-1-Eugene_Nida)
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	cop	5:cop	_
@@ -433,16 +441,16 @@
 14	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_bio_nida-21
-# text = His Ph.D. dissertation, A Synopsis of English Syntax, was the first full-scale analysis of a major language according to the "immediate-constituent" theory.
 # s_type = decl
+# text = His Ph.D. dissertation, A Synopsis of English Syntax, was the first full-scale analysis of a major language according to the "immediate-constituent" theory.
 1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Discourse=elaboration:38->37|Entity=(abstract-73(person-1-Eugene_Nida)
 2	Ph.D.	Ph.D.	PROPN	NNP	Abbr=Yes|Number=Sing	3	compound	3:compound	Entity=(abstract-51)
 3	dissertation	dissertation	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=abstract-73)|SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	6:punct	_
 5	A	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(abstract-73
-6	Synopsis	synopsis	PROPN	NNP	Number=Sing	3	appos	3:appos	_
+6	Synopsis	Synopsis	PROPN	NNP	Number=Sing	3	appos	3:appos	_
 7	of	of	ADP	IN	_	9	case	9:case	_
-8	English	English	PROPN	NNP	Number=Sing	9	amod	9:amod	Entity=(abstract-74-English_grammar(abstract-75-English_language)
+8	English	English	ADJ	NNP	Degree=Pos	9	amod	9:amod	Entity=(abstract-74-English_grammar(abstract-75-English_language)
 9	Syntax	Syntax	PROPN	NNP	Number=Sing	6	nmod	6:nmod:of	Entity=abstract-73)abstract-74-English_grammar)|SpaceAfter=No
 10	,	,	PUNCT	,	_	3	punct	3:punct	_
 11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	15:cop	_
@@ -455,7 +463,7 @@
 18	major	major	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
 19	language	language	NOUN	NN	Number=Sing	15	nmod	15:nmod:of	Entity=abstract-75-English_language)
 20	according	accord	VERB	VBG	VerbForm=Ger	26	case	26:case	Discourse=manner:39->38
-21	to	to	PART	TO	_	20	fixed	20:fixed	_
+21	to	to	ADP	IN	_	20	fixed	20:fixed	_
 22	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(abstract-76
 23	"	''	PUNCT	``	_	24	punct	24:punct	SpaceAfter=No
 24	immediate-constituent	immediate-constituent	ADJ	JJ	Degree=Pos	26	amod	26:amod	SpaceAfter=No
@@ -464,17 +472,17 @@
 27	.	.	PUNCT	.	_	15	punct	15:punct	_
 
 # sent_id = GUM_bio_nida-22
-# text = His textbook Morphology: The Descriptive Analysis of Words was one of the major works of American Structuralism.
 # s_type = decl
+# text = His textbook Morphology: The Descriptive Analysis of Words was one of the major works of American Structuralism.
 1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=joint:40->38|Entity=(abstract-77(person-1-Eugene_Nida)
 2	textbook	textbook	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	Entity=abstract-77)
-3	Morphology	morphology	PROPN	NNP	Number=Sing	2	appos	2:appos	Entity=(abstract-77(abstract-78-Morphology_%28linguistics%29)|SpaceAfter=No
+3	Morphology	Morphology	PROPN	NNP	Number=Sing	2	appos	2:appos	Entity=(abstract-77(abstract-78-Morphology_%28linguistics%29)|SpaceAfter=No
 4	:	:	PUNCT	:	_	7	punct	7:punct	_
 5	The	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Discourse=elaboration:41->40|Entity=(abstract-78-Morphology_%28linguistics%29
-6	Descriptive	descriptive	PROPN	NNP	Number=Sing	7	compound	7:compound	_
-7	Analysis	analysis	PROPN	NNP	Number=Sing	3	dep	3:dep	_
+6	Descriptive	Descriptive	PROPN	NNP	Number=Sing	7	compound	7:compound	_
+7	Analysis	Analysis	PROPN	NNP	Number=Sing	3	dep	3:dep	_
 8	of	of	ADP	IN	_	9	case	9:case	_
-9	Words	Words	PROPN	NNPS	Number=Plur	7	nmod	7:nmod:of	Entity=(abstract-79-Word)abstract-77)abstract-78-Morphology_%28linguistics%29)
+9	Words	Word	PROPN	NNPS	Number=Plur	7	nmod	7:nmod:of	Entity=(abstract-79-Word)abstract-77)abstract-78-Morphology_%28linguistics%29)
 10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	11:cop	Discourse=same-unit:42->40
 11	one	one	NUM	CD	NumForm=Word|NumType=Card	0	root	0:root	Entity=(abstract-77
 12	of	of	ADP	IN	_	15	case	15:case	_
@@ -483,12 +491,12 @@
 15	works	work	NOUN	NNS	Number=Plur	11	nmod	11:nmod:of	_
 16	of	of	ADP	IN	_	18	case	18:case	_
 17	American	American	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(abstract-80-Distributionalism
-18	Structuralism	structuralism	PROPN	NNP	Number=Sing	15	nmod	15:nmod:of	Entity=abstract-77)abstract-80-Distributionalism)|SpaceAfter=No
+18	Structuralism	Structuralism	PROPN	NNP	Number=Sing	15	nmod	15:nmod:of	Entity=abstract-77)abstract-80-Distributionalism)|SpaceAfter=No
 19	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_bio_nida-23
-# text = It remained the only thorough introduction to the field for decades and is still valuable for its many examples and exercises.
 # s_type = decl
+# text = It remained the only thorough introduction to the field for decades and is still valuable for its many examples and exercises.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|6:nsubj:xsubj	Discourse=evaluation:43->40|Entity=(abstract-77)
 2	remained	remain	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(abstract-77
@@ -513,8 +521,8 @@
 22	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_nida-24
-# text = His most notable contribution to translation theory is Dynamic Equivalence, also known as Functional Equivalence.
 # s_type = decl
+# text = His most notable contribution to translation theory is Dynamic Equivalence, also known as Functional Equivalence.
 1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Discourse=joint:45->38|Entity=(abstract-6-Dynamic_and_formal_equivalence(person-1-Eugene_Nida)
 2	most	most	ADV	RBS	Degree=Sup	3	advmod	3:advmod	_
 3	notable	notable	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -523,24 +531,24 @@
 6	translation	translation	NOUN	NN	Number=Sing	7	compound	7:compound	Entity=(abstract-72(abstract-11-Translation)
 7	theory	theory	NOUN	NN	Number=Sing	4	nmod	4:nmod:to	Entity=abstract-6-Dynamic_and_formal_equivalence)abstract-72)
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
-9	Dynamic	Dynamic	PROPN	NNP	Number=Sing	10	amod	10:amod	Entity=(abstract-6-Dynamic_and_formal_equivalence
+9	Dynamic	Dynamic	ADJ	NNP	Degree=Pos	10	amod	10:amod	Entity=(abstract-6-Dynamic_and_formal_equivalence
 10	Equivalence	Equivalence	PROPN	NNP	Number=Sing	0	root	0:root	Entity=abstract-6-Dynamic_and_formal_equivalence)|SpaceAfter=No
 11	,	,	PUNCT	,	_	13	punct	13:punct	_
 12	also	also	ADV	RB	_	13	advmod	13:advmod	Discourse=elaboration:46->45
 13	known	know	VERB	VBN	Tense=Past|VerbForm=Part	10	acl	10:acl	_
 14	as	as	ADP	IN	_	16	case	16:case	_
-15	Functional	Functional	PROPN	NNP	Number=Sing	16	amod	16:amod	Entity=(abstract-6-Dynamic_and_formal_equivalence
+15	Functional	Functional	ADJ	NNP	Degree=Pos	16	amod	16:amod	Entity=(abstract-6-Dynamic_and_formal_equivalence
 16	Equivalence	Equivalence	PROPN	NNP	Number=Sing	13	obl	13:obl:as	Entity=abstract-6-Dynamic_and_formal_equivalence)|SpaceAfter=No
 17	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_bio_nida-25
-# text = For more information, see "Dynamic and formal equivalence."
 # s_type = imp
+# text = For more information, see "Dynamic and formal equivalence."
 1	For	for	ADP	IN	_	3	case	3:case	Discourse=elaboration:47->45
 2	more	more	ADJ	JJR	Degree=Cmp	3	amod	3:amod	Entity=(abstract-83
 3	information	information	NOUN	NN	Number=Sing	5	obl	5:obl:for	Entity=abstract-83)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
-5	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	see	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
 6	"	''	PUNCT	``	_	10	punct	10:punct	SpaceAfter=No
 7	Dynamic	dynamic	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(abstract-84
 8	and	and	CCONJ	CC	_	9	cc	9:cc	_
@@ -550,8 +558,8 @@
 12	"	''	PUNCT	''	_	10	punct	10:punct	_
 
 # sent_id = GUM_bio_nida-26
-# text = Nida also developed the componential analysis technique, which split words into their components to help determine equivalence in translation (e.g. "bachelor" = male + unmarried).
 # s_type = decl
+# text = Nida also developed the componential analysis technique, which split words into their components to help determine equivalence in translation (e.g. "bachelor" = male + unmarried).
 1	Nida	Nida	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=joint:48->38|Entity=(person-1-Eugene_Nida)
 2	also	also	ADV	RB	_	3	advmod	3:advmod	_
 3	developed	develop	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -585,8 +593,8 @@
 31	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_bio_nida-27
-# text = This is, perhaps, not the best example of the technique, though it is the most well-known.
 # s_type = decl
+# text = This is, perhaps, not the best example of the technique, though it is the most well-known.
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	9	nsubj	9:nsubj	Discourse=concession:52->53|Entity=(abstract-88)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -609,11 +617,12 @@
 20	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_bio_nida-28
-# text = Nida's dynamic-equivalence theory is often held in opposition to the views of philologists who maintain that an understanding of the source text (ST) can be achieved by assessing the inter-animation of words on the page, and that meaning is self-contained within the text (i.e. much more focused on achieving semantic equivalence).
 # s_type = decl
-1	Nida	Nida	PROPN	NNP	Number=Sing	4	nmod:poss	4:nmod:poss	Discourse=elaboration:54->38|Entity=(abstract-91(person-1-Eugene_Nida|SpaceAfter=No
+# text = Nida's dynamic-equivalence theory is often held in opposition to the views of philologists who maintain that an understanding of the source text (ST) can be achieved by assessing the inter-animation of words on the page, and that meaning is self-contained within the text (i.e. much more focused on achieving semantic equivalence).
+1-2	Nida's	_	_	_	_	_	_	_	_
+1	Nida	Nida	PROPN	NNP	Number=Sing	4	nmod:poss	4:nmod:poss	Discourse=elaboration:54->38|Entity=(abstract-91(person-1-Eugene_Nida
 2	's	's	PART	POS	_	1	case	1:case	Entity=person-1-Eugene_Nida)
-3	dynamic-equivalence	dynamic-equivalence	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(abstract-6-Dynamic_and_formal_equivalence)
+3	dynamic-equivalence	dynamic-equivalence	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(abstract-6-Dynamic_and_formal_equivalence)
 4	theory	theory	NOUN	NN	Number=Sing	7	nsubj:pass	7:nsubj:pass	Entity=abstract-91)
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	7:aux:pass	_
 6	often	often	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
@@ -671,8 +680,8 @@
 58	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_bio_nida-29
-# text = This theory, along with other theories of correspondence in translating, are elaborated in his essay Principles of Correspondence, where Nida begins by asserting that given that "no two languages are identical, either in the meanings given to corresponding symbols or in the ways in which symbols are arranged in phrases and sentences, it stands to reason that there can be no absolute correspondence between languages.
 # s_type = decl
+# text = This theory, along with other theories of correspondence in translating, are elaborated in his essay Principles of Correspondence, where Nida begins by asserting that given that "no two languages are identical, either in the meanings given to corresponding symbols or in the ways in which symbols are arranged in phrases and sentences, it stands to reason that there can be no absolute correspondence between languages.
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=justify:62->71|Entity=(abstract-91
 2	theory	theory	NOUN	NN	Number=Sing	14	nsubj:pass	14:nsubj:pass	Entity=abstract-91)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -690,7 +699,7 @@
 15	in	in	ADP	IN	_	17	case	17:case	_
 16	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	Entity=(abstract-103(person-1-Eugene_Nida)
 17	essay	essay	NOUN	NN	Number=Sing	14	obl	14:obl:in	_
-18	Principles	principle	PROPN	NNPS	Number=Plur	17	appos	17:appos	Entity=(abstract-103
+18	Principles	Principle	PROPN	NNPS	Number=Plur	17	appos	17:appos	Entity=(abstract-103
 19	of	of	ADP	IN	_	20	case	20:case	_
 20	Correspondence	Correspondence	PROPN	NNP	Number=Sing	18	nmod	18:nmod:of	Entity=(abstract-102)abstract-103)|SpaceAfter=No
 21	,	,	PUNCT	,	_	24	punct	24:punct	_
@@ -747,8 +756,8 @@
 72	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # sent_id = GUM_bio_nida-30
-# text = Hence, there can be no fully exact translations."
 # s_type = decl
+# text = Hence, there can be no fully exact translations."
 1	Hence	hence	ADV	RB	Degree=Pos	9	advmod	9:advmod	Discourse=contrast:71->54|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	there	there	PRON	EX	_	9	expl	9:expl	_
@@ -762,8 +771,8 @@
 11	"	''	PUNCT	''	_	9	punct	9:punct	_
 
 # sent_id = GUM_bio_nida-31
-# text = While the impact of a translation may be close to the original, there can be no identity in detail.
 # s_type = decl
+# text = While the impact of a translation may be close to the original, there can be no identity in detail.
 1	While	while	SCONJ	IN	_	9	mark	9:mark	Discourse=concession:72->73
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(abstract-115
 3	impact	impact	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	_
@@ -787,8 +796,8 @@
 21	.	.	PUNCT	.	_	18	punct	18:punct	_
 
 # sent_id = GUM_bio_nida-32
-# text = Nida then sets forth the differences in translation, as he would account for it, within three basic factors:
 # s_type = decl
+# text = Nida then sets forth the differences in translation, as he would account for it, within three basic factors:
 1	Nida	Nida	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=preparation:74->78|Entity=(person-1-Eugene_Nida)
 2	then	then	ADV	RB	PronType=Dem	3	advmod	3:advmod	_
 3	sets	set	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -812,8 +821,8 @@
 21	:	:	PUNCT	:	_	3	punct	3:punct	_
 
 # sent_id = GUM_bio_nida-33
-# text = The nature of the message:
 # s_type = frag
+# text = The nature of the message:
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=abstract-121<abstract-122|Discourse=preparation:77->78|Entity=(abstract-122
 2	nature	nature	NOUN	NN	Number=Sing	0	root	0:root	_
 3	of	of	ADP	IN	_	5	case	5:case	_
@@ -822,8 +831,8 @@
 6	:	:	PUNCT	:	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_nida-34
-# text = in some messages the content is of primary consideration, and in others the form must be given a higher priority.
 # s_type = decl
+# text = in some messages the content is of primary consideration, and in others the form must be given a higher priority.
 1	in	in	ADP	IN	_	3	case	3:case	Discourse=joint:78->54
 2	some	some	DET	DT	_	3	det	3:det	Entity=(abstract-124
 3	messages	message	NOUN	NNS	Number=Plur	5	nmod	5:nmod:in	Entity=abstract-124)
@@ -848,8 +857,8 @@
 22	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_bio_nida-35
-# text = The purpose of the author and of the translator:
 # s_type = frag
+# text = The purpose of the author and of the translator:
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=abstract-121<abstract-130|Discourse=preparation:80->81|Entity=(abstract-130
 2	purpose	purpose	NOUN	NN	Number=Sing	0	root	0:root	_
 3	of	of	ADP	IN	_	5	case	5:case	_
@@ -862,21 +871,21 @@
 10	:	:	PUNCT	:	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_nida-36
-# text = to give information on both form and content;
 # s_type = inf
+# text = to give information on both form and content;
 1	to	to	PART	TO	_	2	mark	2:mark	Discourse=joint:81->78
 2	give	give	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	_
 3	information	information	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=(abstract-133)
 4	on	on	ADP	IN	_	6	case	6:case	_
-5	both	both	DET	DT	_	6	det	6:det	Entity=(abstract-134|Split=abstract-125<abstract-134,abstract-128<abstract-134
+5	both	both	CCONJ	CC	_	6	cc:preconj	6:cc:preconj	Entity=(abstract-134|Split=abstract-125<abstract-134,abstract-128<abstract-134
 6	form	form	NOUN	NN	Number=Sing	2	obl	2:obl:on	Entity=(abstract-128)
 7	and	and	CCONJ	CC	_	8	cc	8:cc	_
 8	content	content	NOUN	NN	Number=Sing	6	conj	2:obl:on|6:conj:and	Entity=(abstract-125)abstract-134)|SpaceAfter=No
 9	;	;	PUNCT	:	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_nida-37
-# text = to aim at full intelligibility of the reader so he / she may understand the full implications of the message;
 # s_type = inf
+# text = to aim at full intelligibility of the reader so he / she may understand the full implications of the message;
 1	to	to	PART	TO	_	2	mark	2:mark	Discourse=joint:82->81
 2	aim	aim	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	_
 3	at	at	ADP	IN	_	5	case	5:case	_
@@ -900,8 +909,8 @@
 21	;	;	PUNCT	:	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_nida-38
-# text = for imperative purposes that aim at not just understanding the translation but also at ensuring no misunderstanding of the translation.
 # s_type = frag
+# text = for imperative purposes that aim at not just understanding the translation but also at ensuring no misunderstanding of the translation.
 1	for	for	ADP	IN	_	3	case	3:case	Discourse=joint:84->81
 2	imperative	imperative	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(abstract-138
 3	purposes	purpose	NOUN	NNS	Number=Plur	0	root	0:root|5:nsubj	_
@@ -925,8 +934,8 @@
 21	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_bio_nida-39
-# text = The type of audience:
 # s_type = frag
+# text = The type of audience:
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=abstract-121<abstract-141|Discourse=preparation:87->88|Entity=(abstract-141
 2	type	type	NOUN	NN	Number=Sing	0	root	0:root	_
 3	of	of	ADP	IN	_	4	case	4:case	_
@@ -934,8 +943,8 @@
 5	:	:	PUNCT	:	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_nida-40
-# text = prospective audiences differ both in decoding ability and in potential interest.
 # s_type = decl
+# text = prospective audiences differ both in decoding ability and in potential interest.
 1	prospective	prospective	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=joint:88->78|Entity=(person-143
 2	audiences	audience	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=person-143)
 3	differ	differ	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -950,8 +959,8 @@
 12	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_bio_nida-41
-# text = Nida brings in the reminder that while there are no such things as "identical equivalents" in translating, what one must in translating seek to do is find the "closest natural equivalent".
 # s_type = decl
+# text = Nida brings in the reminder that while there are no such things as "identical equivalents" in translating, what one must in translating seek to do is find the "closest natural equivalent".
 1	Nida	Nida	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=attribution:89->90|Entity=(person-1-Eugene_Nida)
 2	brings	bring	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	in	in	ADP	RP	_	2	compound:prt	2:compound:prt	_
@@ -991,8 +1000,8 @@
 37	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_nida-42
-# text = Here he identifies two basic orientations in translating based on two different types of equivalence:
 # s_type = decl
+# text = Here he identifies two basic orientations in translating based on two different types of equivalence:
 1	Here	here	ADV	RB	PronType=Dem	3	advmod	3:advmod	Discourse=preparation:93->95
 2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-1-Eugene_Nida)
 3	identifies	identify	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -1011,15 +1020,15 @@
 16	:	:	PUNCT	:	_	3	punct	3:punct	_
 
 # sent_id = GUM_bio_nida-43
-# text = Formal Equivalence (F-E) and Dynamic Equivalence (D-E).
 # s_type = frag
-1	Formal	formal	PROPN	NNP	Number=Sing	2	amod	2:amod	Discourse=joint:95->54|Entity=(abstract-151(abstract-153-Dynamic_and_formal_equivalence
+# text = Formal Equivalence (F-E) and Dynamic Equivalence (D-E).
+1	Formal	Formal	ADJ	NNP	Degree=Pos	2	amod	2:amod	Discourse=joint:95->54|Entity=(abstract-151(abstract-153-Dynamic_and_formal_equivalence
 2	Equivalence	Equivalence	PROPN	NNP	Number=Sing	0	root	0:root	Entity=abstract-153-Dynamic_and_formal_equivalence)
 3	(	(	PUNCT	-LRB-	_	4	punct	4:punct	Discourse=restatement:96->95|SpaceAfter=No
 4	F-E	F-E	PROPN	NNP	Number=Sing	2	appos	2:appos	Entity=(abstract-153-Dynamic_and_formal_equivalence)|SpaceAfter=No
 5	)	)	PUNCT	-RRB-	_	4	punct	4:punct	_
 6	and	and	CCONJ	CC	_	8	cc	8:cc	Discourse=joint:97->95
-7	Dynamic	Dynamic	PROPN	NNP	Number=Sing	8	amod	8:amod	Entity=(abstract-6-Dynamic_and_formal_equivalence
+7	Dynamic	Dynamic	ADJ	NNP	Degree=Pos	8	amod	8:amod	Entity=(abstract-6-Dynamic_and_formal_equivalence
 8	Equivalence	Equivalence	PROPN	NNP	Number=Sing	2	conj	2:conj:and	Entity=abstract-6-Dynamic_and_formal_equivalence)
 9	(	(	PUNCT	-LRB-	_	10	punct	10:punct	Discourse=restatement:98->97|SpaceAfter=No
 10	D-E	D-E	PROPN	NNP	Number=Sing	8	appos	8:appos	Entity=(abstract-6-Dynamic_and_formal_equivalence)|SpaceAfter=No
@@ -1027,8 +1036,8 @@
 12	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_nida-44
-# text = F-E focuses attention on the message itself, in both form and content.
 # s_type = decl
+# text = F-E focuses attention on the message itself, in both form and content.
 1	F-E	F-E	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=elaboration:99->95|Entity=(abstract-153-Dynamic_and_formal_equivalence)
 2	focuses	focus	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	attention	attention	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=(abstract-154)
@@ -1038,15 +1047,15 @@
 7	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nmod:npmod	6:nmod:npmod	Entity=abstract-123)|SpaceAfter=No
 8	,	,	PUNCT	,	_	11	punct	11:punct	_
 9	in	in	ADP	IN	_	11	case	11:case	_
-10	both	both	CCONJ	DT	_	11	cc:preconj	11:cc:preconj	Entity=(abstract-134
+10	both	both	CCONJ	CC	_	11	cc:preconj	11:cc:preconj	Entity=(abstract-134
 11	form	form	NOUN	NN	Number=Sing	2	obl	2:obl:in	Entity=(abstract-128)
 12	and	and	CCONJ	CC	_	13	cc	13:cc	_
 13	content	content	NOUN	NN	Number=Sing	11	conj	2:obl:in|11:conj:and	Entity=(abstract-125)abstract-134)|SpaceAfter=No
 14	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_bio_nida-45
-# text = Such translations then would be concerned with such correspondences as poetry to poetry, sentence to sentence, and concept to concept.
 # s_type = sub
+# text = Such translations then would be concerned with such correspondences as poetry to poetry, sentence to sentence, and concept to concept.
 1	Such	such	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=elaboration:100->99|Entity=(abstract-155
 2	translations	translation	NOUN	NNS	Number=Plur	6	nsubj:pass	6:nsubj:pass	Entity=abstract-155)
 3	then	then	ADV	RB	PronType=Dem	6	advmod	6:advmod	_
@@ -1072,8 +1081,8 @@
 23	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_bio_nida-46
-# text = Such a formal orientation that typifies this type of structural equivalence is called a "gloss translation" in which the translator aims at reproducing as literally and meaningfully as possible the form and content of the original.
 # s_type = decl
+# text = Such a formal orientation that typifies this type of structural equivalence is called a "gloss translation" in which the translator aims at reproducing as literally and meaningfully as possible the form and content of the original.
 1	Such	such	PRON	PDT	_	4	det:predet	4:det:predet	Discourse=elaboration:101->99|Entity=(abstract-163
 2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	_
 3	formal	formal	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -1099,12 +1108,12 @@
 23	aims	aim	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	17:acl:relcl	_
 24	at	at	SCONJ	IN	_	25	mark	25:mark	_
 25	reproducing	reproduce	VERB	VBG	VerbForm=Ger	23	advcl	23:advcl:at	_
-26	as	as	ADV	IN	_	27	advmod	27:advmod	_
+26	as	as	ADV	RB	_	27	advmod	27:advmod	_
 27	literally	literally	ADV	RB	Degree=Pos	25	advmod	25:advmod	_
 28	and	and	CCONJ	CC	_	29	cc	29:cc	_
 29	meaningfully	meaningfully	ADV	RB	Degree=Pos	27	conj	25:advmod|27:conj:and	_
-30	as	as	ADP	IN	_	31	case	31:case	_
-31	possible	possible	ADJ	JJ	Degree=Pos	27	nmod	27:nmod:as	_
+30	as	as	SCONJ	IN	_	31	mark	31:mark	_
+31	possible	possible	ADJ	JJ	Degree=Pos	27	advcl	27:advcl:as	_
 32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	33:det	Entity=(abstract-134(abstract-128
 33	form	form	NOUN	NN	Number=Sing	25	obj	25:obj	Entity=abstract-128)
 34	and	and	CCONJ	CC	_	35	cc	35:cc	_
@@ -1115,8 +1124,8 @@
 39	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_bio_nida-47
-# text = The principles governing an F-E translation would then be: reproduction of grammatical units; consistency in word usage; and meanings in terms of the source context.
 # s_type = sub
+# text = The principles governing an F-E translation would then be: reproduction of grammatical units; consistency in word usage; and meanings in terms of the source context.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=preparation:105->108|Entity=(abstract-166
 2	principles	principle	NOUN	NNS	Number=Plur	11	nsubj	11:nsubj|16:nsubj|22:nsubj	_
 3	governing	govern	VERB	VBG	VerbForm=Ger	2	acl	2:acl	Discourse=elaboration:106->105

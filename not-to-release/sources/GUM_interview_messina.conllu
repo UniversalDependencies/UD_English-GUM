@@ -1,7 +1,14 @@
 # newdoc id = GUM_interview_messina
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2014-09-15
+# meta::dateCreated = 2007-10-03
+# meta::dateModified = 2014-04-29
+# meta::sourceURL = https://en.wikinews.org/wiki/Frank_Messina:_An_interview_with_the_%27Mets_Poet%27
+# meta::speakerCount = 2
+# meta::title = Frank Messina: An interview with the 'Mets Poet'
 # sent_id = GUM_interview_messina-1
-# text = Frank Messina: An Interview with the 'Mets Poet'
 # s_type = other
+# text = Frank Messina: An Interview with the 'Mets Poet'
 1	Frank	Frank	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:1->11|Entity=(person-1-Frank_Messina
 2	Messina	Messina	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-1-Frank_Messina)|SpaceAfter=No
 3	:	:	PUNCT	:	_	5	punct	5:punct	_
@@ -15,8 +22,8 @@
 11	'	'	PUNCT	''	_	9	punct	9:punct	Entity=person-1-Frank_Messina)
 
 # sent_id = GUM_interview_messina-2
-# text = Wednesday, October 3, 2007
 # s_type = frag
+# text = Wednesday, October 3, 2007
 1	Wednesday	Wednesday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:3->11|Entity=(time-4)|SpaceAfter=No
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	October	October	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(time-4
@@ -25,9 +32,9 @@
 6	2007	2007	NUM	CD	NumForm=Digit|NumType=Card	4	nmod:tmod	4:nmod:tmod	Entity=(time-5)time-4)
 
 # sent_id = GUM_interview_messina-3
-# text = You have received a good deal of attention recently.
 # s_type = decl
 # speaker = DavidShankbone
+# text = You have received a good deal of attention recently.
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=background:4->11|Entity=(person-1-Frank_Messina)
 2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	received	receive	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
@@ -40,12 +47,13 @@
 10	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_messina-4
-# text = Even though Im not Michael Jackson or somebody, when people come up to me and introduce themselves and say, 'Hey Frank, my name is John,' I say, 'Hey John, my name is Frank' and they laugh.
 # s_type = decl
 # speaker = FrankMessina
+# text = Even though Im not Michael Jackson or somebody, when people come up to me and introduce themselves and say, 'Hey Frank, my name is John,' I say, 'Hey John, my name is Frank' and they laugh.
 1	Even	even	ADV	RB	_	6	advmod	6:advmod	Discourse=concession:5->11
 2	though	though	SCONJ	IN	_	6	mark	6:mark	_
-3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj|9:nsubj	Entity=(person-1-Frank_Messina)|SpaceAfter=No
+3-4	Im	_	_	_	_	_	_	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj|9:nsubj	Entity=(person-1-Frank_Messina)
 4	m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 5	not	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	_
 6	Michael	Michael	PROPN	NNP	Number=Sing	34	advcl	34:advcl:though	Entity=(person-7-Michael_Jackson
@@ -54,7 +62,7 @@
 9	somebody	somebody	NOUN	NN	Number=Sing	6	conj	6:conj:or|34:advcl:though	Entity=(person-8)|SpaceAfter=No
 10	,	,	PUNCT	,	_	6	punct	6:punct	_
 11	when	when	SCONJ	WRB	PronType=Int	13	mark	13:mark	Discourse=circumstance:6->11|Entity=(event-9
-12	people	people	NOUN	NNS	Number=Plur	13	nsubj	13:nsubj|18:nsubj|21:nsubj	Entity=(person-10)
+12	people	person	NOUN	NNS	Number=Plur	13	nsubj	13:nsubj|18:nsubj|21:nsubj	Entity=(person-10)
 13	come	come	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	advcl	34:advcl:when	_
 14	up	up	ADP	RP	_	13	compound:prt	13:compound:prt	_
 15	to	to	ADP	IN	_	16	case	16:case	_
@@ -93,10 +101,11 @@
 48	.	.	PUNCT	.	_	34	punct	34:punct	_
 
 # sent_id = GUM_interview_messina-5
-# text = It's a funny phenomenon.
 # s_type = decl
 # speaker = FrankMessina
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=evaluation:13->11|Entity=(event-9)|SpaceAfter=No
+# text = It's a funny phenomenon.
+1-2	It's	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=evaluation:13->11|Entity=(event-9)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(event-9
 4	funny	funny	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
@@ -104,9 +113,9 @@
 6	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_interview_messina-6
-# text = What goes through your head when that happens?
 # s_type = wh
 # speaker = DavidShankbone
+# text = What goes through your head when that happens?
 1	What	what	PRON	WP	PronType=Int	2	nsubj	2:nsubj	Discourse=question:14->16
 2	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	through	through	ADP	IN	_	5	case	5:case	_
@@ -118,19 +127,20 @@
 9	?	?	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_messina-7
-# text = I understand it.
 # s_type = decl
 # speaker = FrankMessina
+# text = I understand it.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint:16->11|Entity=(person-1-Frank_Messina)
 2	understand	understand	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	2:obj	Entity=(event-9)|SpaceAfter=No
 4	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_messina-8
-# text = I've gone to readings and concerts.
 # s_type = decl
 # speaker = FrankMessina
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=background:17->18|Entity=(person-1-Frank_Messina)|SpaceAfter=No
+# text = I've gone to readings and concerts.
+1-2	I've	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=background:17->18|Entity=(person-1-Frank_Messina)
 2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 4	to	to	ADP	IN	_	5	case	5:case	_
@@ -140,22 +150,22 @@
 8	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_messina-9
-# text = I look at it as human interaction.
 # s_type = decl
 # speaker = FrankMessina
+# text = I look at it as human interaction.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration:18->16|Entity=(person-1-Frank_Messina)
 2	look	look	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	at	at	ADP	IN	_	2	compound:prt	2:compound:prt	_
-4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	3:obj	Entity=(event-9)
+3	at	at	ADP	IN	_	4	case	4:case	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obl	2:obl:at	Entity=(event-9)
 5	as	as	ADP	IN	_	7	case	7:case	_
 6	human	human	ADJ	JJ	Degree=Pos	7	amod	7:amod	Entity=(event-16
 7	interaction	interaction	NOUN	NN	Number=Sing	2	obl	2:obl:as	Entity=event-16)|SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_messina-10
-# text = Over the years I have performed in 32 countries and 40 states.
 # s_type = decl
 # speaker = FrankMessina
+# text = Over the years I have performed in 32 countries and 40 states.
 1	Over	over	ADP	IN	_	3	case	3:case	Discourse=background:19->35
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	_
 3	years	year	NOUN	NNS	Number=Plur	6	obl	6:obl:over	_
@@ -171,10 +181,11 @@
 13	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_interview_messina-11
-# text = I've been doing this professionally since I was in my twenties, and before that since I was sixteen doing little tidbit poetry readings in coffeehouses.
 # s_type = decl
 # speaker = FrankMessina
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=joint:20->19|Entity=(person-1-Frank_Messina)|SpaceAfter=No
+# text = I've been doing this professionally since I was in my twenties, and before that since I was sixteen doing little tidbit poetry readings in coffeehouses.
+1-2	I've	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=joint:20->19|Entity=(person-1-Frank_Messina)
 2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	aux	4:aux	_
 4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
@@ -188,25 +199,25 @@
 12	twenties	twenty	NOUN	NNS	Number=Plur	4	advcl	4:advcl:since	Entity=time-20)time-21)|SpaceAfter=No
 13	,	,	PUNCT	,	_	20	punct	20:punct	_
 14	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=joint:22->20
-15	before	before	SCONJ	IN	_	16	mark	16:mark	_
-16	that	that	PRON	DT	Number=Sing|PronType=Dem	20	advcl	20:advcl:before	Entity=(time-20)
+15	before	before	ADP	IN	_	16	case	16:case	_
+16	that	that	PRON	DT	Number=Sing|PronType=Dem	20	obl	20:obl:before	Entity=(time-20)
 17	since	since	SCONJ	IN	_	20	mark	20:mark	Discourse=circumstance:23->22
 18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	20:nsubj	Entity=(person-1-Frank_Messina)
 19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	20	cop	20:cop	_
 20	sixteen	sixteen	NUM	CD	NumForm=Word|NumType=Card	12	conj	4:advcl:since|12:conj:and	Entity=(abstract-22)
-21	doing	do	VERB	VBG	VerbForm=Ger	20	acl	20:acl	Discourse=elaboration:24->22
+21	doing	do	VERB	VBG	VerbForm=Ger	20	advcl	20:advcl	Discourse=elaboration:24->22
 22	little	little	ADJ	JJ	Degree=Pos	25	amod	25:amod	Entity=(abstract-23
-23	tidbit	tidbit	NOUN	NN	Number=Sing	25	amod	25:amod	_
+23	tidbit	tidbit	NOUN	NN	Number=Sing	25	compound	25:compound	_
 24	poetry	poetry	NOUN	NN	Number=Sing	25	compound	25:compound	Entity=(abstract-24)
 25	readings	reading	NOUN	NNS	Number=Plur	21	obj	21:obj	_
 26	in	in	ADP	IN	_	27	case	27:case	_
-27	coffeehouses	coffeehouse	NOUN	NNS	Number=Plur	25	nmod	25:nmod:in	Entity=(place-25)abstract-23)|SpaceAfter=No
+27	coffeehouses	coffeehouse	NOUN	NNS	Number=Plur	21	obl	21:obl:in	Entity=(place-25)abstract-23)|SpaceAfter=No
 28	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_interview_messina-12
-# text = The band I started in 1993, Spoken Motion, received a lot of recognition as a spoken word band born out of the New York spoken word scene.
 # s_type = decl
 # speaker = FrankMessina
+# text = The band I started in 1993, Spoken Motion, received a lot of recognition as a spoken word band born out of the New York spoken word scene.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint:25->19|Entity=(organization-26
 2	band	band	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	_
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=elaboration:26->25|Entity=(person-1-Frank_Messina)
@@ -214,7 +225,7 @@
 5	in	in	ADP	IN	_	6	case	6:case	_
 6	1993	1993	NUM	CD	NumForm=Digit|NumType=Card	4	obl	4:obl:in	Entity=(time-27)organization-26)|SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	9:punct	_
-8	Spoken	speak	PROPN	NNP	Number=Sing	9	amod	9:amod	Discourse=same-unit:27->25|Entity=(organization-26
+8	Spoken	Spoken	ADJ	NNP	Degree=Pos	9	amod	9:amod	Discourse=same-unit:27->25|Entity=(organization-26
 9	Motion	Motion	PROPN	NNP	Number=Sing	2	appos	2:appos	Entity=organization-26)|SpaceAfter=No
 10	,	,	PUNCT	,	_	2	punct	2:punct	_
 11	received	receive	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -224,24 +235,24 @@
 15	recognition	recognition	NOUN	NN	Number=Sing	13	nmod	13:nmod:of	Entity=abstract-28)
 16	as	as	ADP	IN	_	20	case	20:case	_
 17	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(organization-26
-18	spoken	speak	VERB	VBN	Tense=Past|VerbForm=Part	19	compound	19:compound	_
-19	word	word	NOUN	NN	Number=Sing	20	amod	20:amod	_
-20	band	band	NOUN	NN	Number=Sing	15	nmod	15:nmod:as	_
+18	spoken	speak	VERB	VBN	Tense=Past|VerbForm=Part	19	amod	19:amod	_
+19	word	word	NOUN	NN	Number=Sing	20	compound	20:compound	_
+20	band	band	NOUN	NN	Number=Sing	11	obl	11:obl:as	_
 21	born	bear	VERB	VBN	Tense=Past|VerbForm=Part	20	acl	20:acl	Discourse=elaboration:28->27
-22	out	out	SCONJ	RP	_	29	mark	29:mark	_
-23	of	of	ADP	IN	_	29	case	29:case	_
+22	out	out	ADP	IN	_	29	case	29:case	_
+23	of	of	ADP	IN	_	22	fixed	22:fixed	_
 24	the	the	DET	DT	Definite=Def|PronType=Art	29	det	29:det	Entity=(abstract-29
-25	New	New	PROPN	NNP	Number=Sing	28	amod	28:amod	Entity=(place-30-New_York_City
+25	New	New	PROPN	NNP	Number=Sing	29	compound	29:compound	Entity=(place-30-New_York_City
 26	York	York	PROPN	NNP	Number=Sing	25	flat	25:flat	Entity=place-30-New_York_City)
-27	spoken	speak	VERB	VBN	Tense=Past|VerbForm=Part	28	compound	28:compound	_
-28	word	word	NOUN	NN	Number=Sing	29	amod	29:amod	_
-29	scene	scene	NOUN	NN	Number=Sing	21	advcl	21:advcl:out	Entity=organization-26)abstract-29)|SpaceAfter=No
+27	spoken	speak	VERB	VBN	Tense=Past|VerbForm=Part	28	amod	28:amod	_
+28	word	word	NOUN	NN	Number=Sing	29	compound	29:compound	_
+29	scene	scene	NOUN	NN	Number=Sing	21	obl	21:obl:out_of	Entity=organization-26)abstract-29)|SpaceAfter=No
 30	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_interview_messina-13
-# text = I worked with some great musicians and performed around the world.
 # s_type = decl
 # speaker = FrankMessina
+# text = I worked with some great musicians and performed around the world.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj|8:nsubj	Discourse=elaboration:29->25|Entity=(person-1-Frank_Messina)
 2	worked	work	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	with	with	ADP	IN	_	6	case	6:case	_
@@ -256,9 +267,9 @@
 12	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_messina-14
-# text = I remember signing my first autograph to a kid when I was 25 years old.
 # s_type = decl
 # speaker = FrankMessina
+# text = I remember signing my first autograph to a kid when I was 25 years old.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj|3:nsubj:xsubj	Discourse=attribution:31->32|Entity=(person-1-Frank_Messina)
 2	remember	remember	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	signing	sign	VERB	VBG	VerbForm=Ger	2	xcomp	2:xcomp	Discourse=joint:32->19|Entity=(event-33
@@ -272,14 +283,14 @@
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	15:nsubj	Entity=(person-1-Frank_Messina)
 12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	15	cop	15:cop	_
 13	25	25	NUM	CD	NumForm=Digit|NumType=Card	14	nummod	14:nummod	Entity=(time-36
-14	years	year	NOUN	NNS	Number=Plur	15	obl:npmod	15:obl:npmod	Entity=time-36)
+14	years	year	NOUN	NNS	Number=Plur	15	obl:tmod	15:obl:tmod	Entity=time-36)
 15	old	old	ADJ	JJ	Degree=Pos	3	advcl	3:advcl:when	Entity=event-33)|SpaceAfter=No
 16	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_messina-15
-# text = As time went on, I came out with books and CDs, and I became used to that kind of thing.
 # s_type = decl
 # speaker = FrankMessina
+# text = As time went on, I came out with books and CDs, and I became used to that kind of thing.
 1	As	as	SCONJ	IN	_	3	mark	3:mark	Discourse=circumstance:34->35
 2	time	time	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=(time-37)
 3	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	7:advcl:as	_
@@ -305,10 +316,10 @@
 23	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_interview_messina-16
-# text = To me, the ultimate feeling of success as an artist, is to move somebody enough where they thank you.
 # s_type = decl
 # speaker = FrankMessina
-1	To	To	ADP	IN	_	2	case	2:case	Discourse=elaboration:37->36
+# text = To me, the ultimate feeling of success as an artist, is to move somebody enough where they thank you.
+1	To	to	ADP	IN	_	2	case	2:case	Discourse=elaboration:37->36
 2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obl	15:obl:to	Entity=(person-1-Frank_Messina)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(abstract-40
@@ -332,9 +343,9 @@
 22	.	.	PUNCT	.	_	15	punct	15:punct	_
 
 # sent_id = GUM_interview_messina-17
-# text = When someone comes up and says, 'Frank, thank you, your work is great."
 # s_type = decl
 # speaker = FrankMessina
+# text = When someone comes up and says, 'Frank, thank you, your work is great."
 1	When	when	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=circumstance:39->41
 2	someone	someone	NOUN	NN	Number=Sing	3	nsubj	3:nsubj|6:nsubj	Entity=(person-42)
 3	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -356,9 +367,9 @@
 19	"	''	PUNCT	''	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_messina-18
-# text = You have a long career in poetry, but as of late the attention you have garnered is for the Mets-inspired work.
 # s_type = decl
 # speaker = DavidShankbone
+# text = You have a long career in poetry, but as of late the attention you have garnered is for the Mets-inspired work.
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=background:43->48|Entity=(person-1-Frank_Messina)
 2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(abstract-44
@@ -384,9 +395,9 @@
 23	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_messina-19
-# text = How do you feel about having a lot of your work overshadowed by the Mets work?
 # s_type = wh
 # speaker = DavidShankbone
+# text = How do you feel about having a lot of your work overshadowed by the Mets work?
 1	How	how	ADV	WRB	PronType=Int	4	advmod	4:advmod	Discourse=attribution:47->48
 2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-1-Frank_Messina)
@@ -406,18 +417,19 @@
 17	?	?	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_interview_messina-20
-# text = It's ironic.
 # s_type = decl
 # speaker = FrankMessina
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint:49->11|Entity=(abstract-47)|SpaceAfter=No
+# text = It's ironic.
+1-2	It's	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint:49->11|Entity=(abstract-47)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	ironic	ironic	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
 4	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_messina-21
-# text = Some of the greatest poetry has been born out of failure and the depths of adversity in the human experience.
 # s_type = decl
 # speaker = FrankMessina
+# text = Some of the greatest poetry has been born out of failure and the depths of adversity in the human experience.
 1	Some	some	PRON	DT	_	8	nsubj:pass	8:nsubj:pass	Discourse=justify:50->49|Entity=(abstract-49
 2	of	of	ADP	IN	_	5	case	5:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(abstract-50
@@ -426,7 +438,7 @@
 6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
 7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	8	aux:pass	8:aux:pass	_
 8	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
-9	out	out	ADP	RP	_	11	case	11:case	_
+9	out	out	ADP	IN	_	11	case	11:case	_
 10	of	of	ADP	IN	_	9	fixed	9:fixed	_
 11	failure	failure	NOUN	NN	Number=Sing	8	obl	8:obl:out_of	Entity=(event-51)
 12	and	and	CCONJ	CC	_	14	cc	14:cc	_
@@ -441,9 +453,9 @@
 21	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_interview_messina-22
-# text = Walt Whitman, the first great American poet, wrote about the Civil War.
 # s_type = decl
 # speaker = FrankMessina
+# text = Walt Whitman, the first great American poet, wrote about the Civil War.
 1	Walt	Walt	PROPN	NNP	Number=Sing	10	nsubj	10:nsubj	Discourse=evidence:51->50|Entity=(person-54-Walt_Whitman
 2	Whitman	Whitman	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-54-Walt_Whitman)|SpaceAfter=No
 3	,	,	PUNCT	,	_	8	punct	8:punct	_
@@ -461,9 +473,9 @@
 15	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_interview_messina-23
-# text = He went looking for his brother, George Whitman, after he a telegram telling him his brother was injured in the South.
 # s_type = decl
 # speaker = FrankMessina
+# text = He went looking for his brother, George Whitman, after he a telegram telling him his brother was injured in the South.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|3:nsubj:xsubj	Discourse=elaboration:52->51|Entity=(person-54-Walt_Whitman)
 2	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	looking	look	VERB	VBG	VerbForm=Ger	2	xcomp	2:xcomp	_
@@ -481,7 +493,7 @@
 15	telling	tell	VERB	VBG	VerbForm=Ger	14	acl	14:acl	Discourse=attribution:54->55
 16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	15:iobj	Entity=(person-54-Walt_Whitman)
 17	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	Discourse=cause:55->52|Entity=(person-56(person-54-Walt_Whitman)
-18	brother	brother	NOUN	NN	Number=Sing	20	nsubj	20:nsubj	Entity=person-56)
+18	brother	brother	NOUN	NN	Number=Sing	20	nsubj:pass	20:nsubj:pass	Entity=person-56)
 19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux:pass	20:aux:pass	_
 20	injured	injure	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	ccomp	15:ccomp	_
 21	in	in	ADP	IN	_	23	case	23:case	_
@@ -490,9 +502,9 @@
 24	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_messina-24
-# text = When he started out his poems were about beating drums, and blow, bugle, blow.
 # s_type = decl
 # speaker = FrankMessina
+# text = When he started out his poems were about beating drums, and blow, bugle, blow.
 1	When	when	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=circumstance:56->57
 2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-54-Walt_Whitman)
 3	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	advcl	9:advcl:when	_
@@ -500,7 +512,7 @@
 5	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Discourse=sequence:57->52|Entity=(abstract-59(person-54-Walt_Whitman)
 6	poems	poem	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj|13:nsubj	Entity=abstract-59)
 7	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	cop	9:cop	_
-8	about	about	ADP	IN	_	9	case	9:case	_
+8	about	about	SCONJ	IN	_	9	mark	9:mark	_
 9	beating	beat	VERB	VBG	VerbForm=Ger	0	root	0:root	_
 10	drums	drum	NOUN	NNS	Number=Plur	9	obj	9:obj	SpaceAfter=No
 11	,	,	PUNCT	,	_	13	punct	13:punct	_
@@ -513,17 +525,17 @@
 18	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_interview_messina-25
-# text = Real patriotic.
 # s_type = frag
 # speaker = FrankMessina
+# text = Real patriotic.
 1	Real	real	ADV	RB	Degree=Pos	2	advmod	2:advmod	Discourse=evaluation:58->57
 2	patriotic	patriotic	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_messina-26
-# text = Then he started to see the real horrors of war.
 # s_type = decl
 # speaker = FrankMessina
+# text = Then he started to see the real horrors of war.
 1	Then	then	ADV	RB	PronType=Dem	3	advmod	3:advmod	Discourse=contrast:59->57
 2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Entity=(person-54-Walt_Whitman)
 3	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -537,9 +549,9 @@
 11	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_messina-27
-# text = He was able to tap into the human condition and the situation at that time.
 # s_type = decl
 # speaker = FrankMessina
+# text = He was able to tap into the human condition and the situation at that time.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Discourse=result:60->59|Entity=(person-54-Walt_Whitman)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	3:cop	_
 3	able	able	ADJ	JJ	Degree=Pos	0	root	0:root	_
@@ -558,9 +570,9 @@
 16	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_messina-28
-# text = Eventually when he found his brother he had resolution.
 # s_type = decl
 # speaker = FrankMessina
+# text = Eventually when he found his brother he had resolution.
 1	Eventually	eventually	ADV	RB	Degree=Pos	8	obl:tmod	8:obl:tmod	Discourse=sequence:61->52
 2	when	when	SCONJ	WRB	PronType=Int	4	mark	4:mark	Discourse=circumstance:62->63
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-54-Walt_Whitman)
@@ -573,9 +585,9 @@
 10	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_interview_messina-29
-# text = I experienced that kind of adversity during 9/11 being a civilian volunteer.
 # s_type = decl
 # speaker = FrankMessina
+# text = I experienced that kind of adversity during 9/11 being a civilian volunteer.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint:64->51|Entity=(person-1-Frank_Messina)
 2	experienced	experience	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Bridge=abstract-60<abstract-66|Entity=(abstract-66
@@ -591,9 +603,9 @@
 13	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_messina-30
-# text = I loaded ferry boats in Jersey City across the river to deliver goods to Ground Zero.
 # s_type = decl
 # speaker = FrankMessina
+# text = I loaded ferry boats in Jersey City across the river to deliver goods to Ground Zero.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration:66->64|Entity=(person-1-Frank_Messina)
 2	loaded	load	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	ferry	ferry	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(object-68
@@ -613,9 +625,9 @@
 17	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_messina-31
-# text = I turned to Whitman to find some understanding of what is happening in the world right now.
 # s_type = decl
 # speaker = FrankMessina
+# text = I turned to Whitman to find some understanding of what is happening in the world right now.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj|6:nsubj:xsubj	Discourse=result:68->64|Entity=(person-1-Frank_Messina)
 2	turned	turn	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	to	to	ADP	IN	_	4	case	4:case	_
@@ -636,9 +648,9 @@
 18	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_messina-32
-# text = When I wrote my 9/11-related poems, that was true adversity.
 # s_type = decl
 # speaker = FrankMessina
+# text = When I wrote my 9/11-related poems, that was true adversity.
 1	When	when	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=circumstance:70->71|Entity=(event-67-September_11_attacks
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-1-Frank_Messina)
 3	wrote	write	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	acl	11:acl:when	_
@@ -653,9 +665,9 @@
 12	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_interview_messina-33
-# text = I realize baseball is just a game.
 # s_type = decl
 # speaker = FrankMessina
+# text = I realize baseball is just a game.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:72->73|Entity=(person-1-Frank_Messina)
 2	realize	realize	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	baseball	baseball	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Discourse=antithesis:73->71|Entity=(abstract-75)
@@ -666,9 +678,9 @@
 8	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_messina-34
-# text = Can you recite a stanza that expresses how you feel right now?
 # s_type = decl
 # speaker = DavidShankbone
+# text = Can you recite a stanza that expresses how you feel right now?
 1	Can	can	AUX	MD	VerbForm=Fin	3	aux	3:aux	Discourse=question:74->85
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-1-Frank_Messina)
 3	recite	recite	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -684,9 +696,9 @@
 13	?	?	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_messina-35
-# text = This was a piece that the Times only quoted one stanza, but it's about preparation for a battle, and being prepared to either rise to the occasion, or go down:
 # s_type = decl
 # speaker = FrankMessina
+# text = This was a piece that the Times only quoted one stanza, but it's about preparation for a battle, and being prepared to either rise to the occasion, or go down:
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Discourse=preparation:77->79|Entity=(abstract-77)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(abstract-77
@@ -700,7 +712,8 @@
 11	stanza	stanza	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=abstract-77)abstract-79)|SpaceAfter=No
 12	,	,	PUNCT	,	_	15	punct	15:punct	_
 13	but	but	CCONJ	CC	_	15	cc	15:cc	Discourse=background:79->85
-14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj	Entity=(abstract-77)|SpaceAfter=No
+14-15	it's	_	_	_	_	_	_	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj	Entity=(abstract-77)
 15	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	4:acl:relcl|9:conj:but	_
 16	about	about	ADP	IN	_	17	case	17:case	_
 17	preparation	preparation	NOUN	NN	Number=Sing	15	obl	15:obl:about	Entity=(event-80
@@ -720,18 +733,19 @@
 31	,	,	PUNCT	,	_	33	punct	33:punct	_
 32	or	or	CCONJ	CC	_	33	cc	33:cc	Discourse=contrast:81->80
 33	go	go	VERB	VB	Person=2|VerbForm=Inf	27	conj	24:xcomp|27:conj:or	_
-34	down	down	ADP	RP	_	33	compound:prt	33:compound:prt	SpaceAfter=No
+34	down	down	ADV	RB	Degree=Pos	33	advmod	33:advmod	SpaceAfter=No
 35	:	:	PUNCT	:	_	4	punct	4:punct	_
 
 # sent_id = GUM_interview_messina-36
-# text = Do you know what it's like to be chased by the Ghost of Failure while staring through Victory's door?
 # s_type = q
 # speaker = FrankMessina
+# text = Do you know what it's like to be chased by the Ghost of Failure while staring through Victory's door?
 1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	3:aux	Discourse=attribution:82->83
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-82)
 3	know	know	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	what	what	PRON	WP	PronType=Int	3	ccomp	3:ccomp	Discourse=question:83->85
-5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(event-83)|SpaceAfter=No
+5-6	it's	_	_	_	_	_	_	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(event-83)
 6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 7	like	like	ADP	IN	_	4	case	4:case	_
 8	to	to	PART	TO	_	10	mark	10:mark	Entity=(event-83
@@ -739,27 +753,28 @@
 10	chased	chase	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	xcomp	4:xcomp	_
 11	by	by	ADP	IN	_	13	case	13:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(abstract-84
-13	Ghost	ghost	PROPN	NNP	Number=Sing	10	obl	10:obl:by	_
+13	Ghost	Ghost	PROPN	NNP	Number=Sing	10	obl	10:obl:by	_
 14	of	of	ADP	IN	_	15	case	15:case	_
-15	Failure	failure	PROPN	NNP	Number=Sing	13	nmod	13:nmod:of	Entity=(event-85)abstract-84)
+15	Failure	Failure	PROPN	NNP	Number=Sing	13	nmod	13:nmod:of	Entity=(event-85)abstract-84)
 16	while	while	SCONJ	IN	_	17	mark	17:mark	Discourse=circumstance:84->83
 17	staring	stare	VERB	VBG	VerbForm=Ger	10	advcl	10:advcl:while	_
 18	through	through	ADP	IN	_	21	case	21:case	_
-19	Victory	Victory	PROPN	NNP	Number=Sing	21	nmod:poss	21:nmod:poss	Entity=(abstract-86(event-87|SpaceAfter=No
+19-20	Victory's	_	_	_	_	_	_	_	_
+19	Victory	Victory	PROPN	NNP	Number=Sing	21	nmod:poss	21:nmod:poss	Entity=(abstract-86(event-87
 20	's	's	PART	POS	_	19	case	19:case	Entity=event-87)
 21	door	door	NOUN	NN	Number=Sing	17	obl	17:obl:through	Entity=event-83)abstract-86)|SpaceAfter=No
 22	?	?	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_messina-37
-# text = Of course you do, you 're a Mets fan caught in a do-or-die moment in late September at Shea
 # s_type = decl
 # speaker = FrankMessina
+# text = Of course you do, you're a Mets fan caught in a do-or-die moment in late September at Shea
 1	Of	of	ADV	IN	_	4	advmod	4:advmod	Discourse=joint:85->11
 2	course	course	NOUN	NN	Number=Sing	1	fixed	1:fixed	_
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-82)
 4	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	parataxis	10:parataxis	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
-6	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	10:nsubj	Discourse=cause:86->85|Entity=(person-82)
+6	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	10:nsubj	Discourse=cause:86->85|Entity=(person-82)|SpaceAfter=No
 7	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(person-82
 9	Mets	Met	PROPN	NNPS	Number=Plur	10	compound	10:compound	Entity=(organization-3-New_York_Mets)
@@ -776,12 +791,13 @@
 20	Shea	Shea	PROPN	NNP	Number=Sing	18	nmod	18:nmod:at	Entity=(place-90-Shea_Stadium)person-82)
 
 # sent_id = GUM_interview_messina-38
-# text = As one thats battled hard through many a broken dream Let me say, "in order to rise to the occasion you must be willing to go down with the ship",
 # s_type = decl
 # speaker = FrankMessina
+# text = As one thats battled hard through many a broken dream Let me say, "in order to rise to the occasion you must be willing to go down with the ship",
 1	As	as	ADP	IN	_	2	case	2:case	Discourse=circumstance:88->90
 2	one	one	NUM	CD	NumForm=Word|NumType=Card	12	obl	12:obl:as	Entity=(person-91
-3	that	that	PRON	WDT	_	5	csubj	5:csubj	Discourse=elaboration:89->88|SpaceAfter=No
+3-4	thats	_	_	_	_	_	_	_	_
+3	that	that	PRON	WDT	_	5	csubj	5:csubj	Discourse=elaboration:89->88
 4	s	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 5	battled	battle	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	2:acl	_
 6	hard	hard	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
@@ -805,10 +821,10 @@
 24	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	27	nsubj	27:nsubj|29:nsubj:xsubj	Discourse=joint:92->85|Entity=(person-82)
 25	must	must	AUX	MD	VerbForm=Fin	27	aux	27:aux	_
 26	be	be	AUX	VB	VerbForm=Inf	27	aux	27:aux	_
-27	willing	willing	VERB	VBG	Tense=Pres|VerbForm=Part	14	ccomp	14:ccomp	_
+27	willing	willing	ADJ	JJ	Degree=Pos	14	ccomp	14:ccomp	_
 28	to	to	PART	TO	_	29	mark	29:mark	_
 29	go	go	VERB	VB	VerbForm=Inf	27	xcomp	27:xcomp	_
-30	down	down	ADP	RP	_	29	compound:prt	29:compound:prt	_
+30	down	down	ADV	RB	Degree=Pos	29	advmod	29:advmod	_
 31	with	with	ADP	IN	_	33	case	33:case	_
 32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	33:det	_
 33	ship	ship	NOUN	NN	Number=Sing	29	obl	29:obl:with	SpaceAfter=No
@@ -816,9 +832,9 @@
 35	,	,	PUNCT	,	_	12	punct	12:punct	_
 
 # sent_id = GUM_interview_messina-39
-# text = Have no fear, no hesitation, for Winning shall be it's reward!
 # s_type = imp
 # speaker = FrankMessina
+# text = Have no fear, no hesitation, for Winning shall be it's reward!
 1	Have	have	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint:93->85|Entity=(event-94
 2	no	no	DET	DT	Polarity=Neg	3	det	3:det	Entity=(abstract-95
 3	fear	fear	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=abstract-95)|SpaceAfter=No
@@ -827,18 +843,19 @@
 6	hesitation	hesitation	NOUN	NN	Number=Sing	3	conj	1:obj|3:conj	Entity=event-94)abstract-96)|SpaceAfter=No
 7	,	,	PUNCT	,	_	13	punct	13:punct	_
 8	for	for	SCONJ	IN	_	13	mark	13:mark	Discourse=motivation:94->93
-9	Winning	win	VERB	VBG	VerbForm=Ger	13	nsubj	13:nsubj	_
+9	Winning	win	VERB	VBG	VerbForm=Ger	13	csubj	13:csubj	_
 10	shall	shall	AUX	MD	VerbForm=Fin	13	aux	13:aux	_
 11	be	be	AUX	VB	VerbForm=Inf	13	cop	13:cop	_
-12	it's	it	PRON	PRP$	_	13	nmod:poss	13:nmod:poss	Entity=(abstract-97(event-94)
+12	it's	its	PRON	PRP$	_	13	nmod:poss	13:nmod:poss	Entity=(abstract-97(event-94)
 13	reward	reward	NOUN	NN	Number=Sing	1	advcl	1:advcl:for	Entity=abstract-97)|SpaceAfter=No
 14	!	!	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_interview_messina-40
-# text = Don't let them get in your head!
 # s_type = imp
 # speaker = FrankMessina
-1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=joint:95->85|SpaceAfter=No
+# text = Don't let them get in your head!
+1-2	Don't	_	_	_	_	_	_	_	_
+1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=joint:95->85
 2	n't	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	_
 3	let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
 4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	3:obj|5:nsubj:xsubj	Entity=(person-98)
@@ -849,10 +866,11 @@
 9	!	!	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_messina-41
-# text = you've kept it up this long
 # s_type = decl
 # speaker = FrankMessina
-1	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=motivation:96->95|Entity=(person-82)|SpaceAfter=No
+# text = you've kept it up this long
+1-2	you've	_	_	_	_	_	_	_	_
+1	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=motivation:96->95|Entity=(person-82)
 2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	kept	keep	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	3:obj	_
@@ -861,10 +879,10 @@
 7	long	long	ADJ	JJ	Degree=Pos	3	obl:tmod	3:obl:tmod	_
 
 # sent_id = GUM_interview_messina-42
-# text = You 're a Mets fan in late September and youll fight til the glorious end
 # s_type = decl
 # speaker = FrankMessina
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Discourse=circumstance:97->98|Entity=(person-82)
+# text = You're a Mets fan in late September and youll fight til the glorious end
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Discourse=circumstance:97->98|Entity=(person-82)|SpaceAfter=No
 2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(person-82
 4	Mets	Met	PROPN	NNPS	Number=Plur	5	compound	5:compound	Entity=(organization-3-New_York_Mets)
@@ -873,7 +891,8 @@
 7	late	late	ADJ	JJ	Degree=Pos	8	amod	8:amod	Entity=(time-89
 8	September	September	PROPN	NNP	Number=Sing	5	nmod	5:nmod:in	Entity=person-82)time-89)
 9	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=joint:98->85
-10	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	12:nsubj	Entity=(person-82)|SpaceAfter=No
+10-11	youll	_	_	_	_	_	_	_	_
+10	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	12:nsubj	Entity=(person-82)
 11	ll	will	AUX	MD	VerbForm=Fin	12	aux	12:aux	_
 12	fight	fight	VERB	VB	VerbForm=Inf	5	conj	5:conj:and	_
 13	til	til	ADP	IN	_	16	case	16:case	Discourse=circumstance:99->98
@@ -882,9 +901,9 @@
 16	end	end	NOUN	NN	Number=Sing	12	obl	12:obl:til	Entity=event-100)
 
 # sent_id = GUM_interview_messina-43
-# text = Cheer the team today; (your boys in orange and blue) Let them hear you shout as they fight for what's mightily due
 # s_type = imp
 # speaker = FrankMessina
+# text = Cheer the team today; (your boys in orange and blue) Let them hear you shout as they fight for what's mightily due
 1	Cheer	cheer	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint:100->85
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(organization-3-New_York_Mets
 3	team	team	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=organization-3-New_York_Mets)
@@ -907,15 +926,16 @@
 20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	21:nsubj	Entity=(organization-3-New_York_Mets)
 21	fight	fight	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	16:advcl:as	_
 22	for	for	ADP	IN	_	23	case	23:case	_
-23	what	what	PRON	WP	PronType=Rel	21	obl	21:obl:for	SpaceAfter=No
+23-24	what's	_	_	_	_	_	_	_	_
+23	what	what	PRON	WP	PronType=Rel	21	obl	21:obl:for	_
 24	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	26:cop	_
 25	mightily	mightily	ADV	RB	Degree=Pos	26	advmod	26:advmod	_
 26	due	due	ADJ	JJ	Degree=Pos	23	acl:relcl	23:acl:relcl	_
 
 # sent_id = GUM_interview_messina-44
-# text = (copyright Frank Messina; reprinted with permission)"
 # s_type = frag
 # speaker = FrankMessina
+# text = (copyright Frank Messina; reprinted with permission)"
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=attribution:105->85|SpaceAfter=No
 2	copyright	copyright	NOUN	NN	Number=Sing	0	root	0:root	Entity=(abstract-102)
 3	Frank	Frank	PROPN	NNP	Number=Sing	2	obj	2:obj	Entity=(person-1-Frank_Messina
@@ -928,12 +948,13 @@
 10	"	''	PUNCT	''	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_messina-45
-# text = Sports fans aren't known as patrons of poetry.
 # s_type = decl
 # speaker = DavidShankbone
+# text = Sports fans aren't known as patrons of poetry.
 1	Sports	sport	NOUN	NNS	Number=Plur	2	compound	2:compound	Discourse=background:107->108|Entity=(person-104(abstract-105)
 2	fans	fan	NOUN	NNS	Number=Plur	5	nsubj:pass	5:nsubj:pass	Entity=person-104)
-3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	5:aux:pass	SpaceAfter=No
+3-4	aren't	_	_	_	_	_	_	_	_
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	5:aux:pass	_
 4	n't	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
 5	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 6	as	as	ADP	IN	_	7	case	7:case	_
@@ -943,9 +964,9 @@
 10	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_interview_messina-46
-# text = Have you had interaction with "new readers' through your Mets work?
 # s_type = q
 # speaker = DavidShankbone
+# text = Have you had interaction with "new readers' through your Mets work?
 1	Have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	3:aux	Discourse=question:108->109
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-1-Frank_Messina)
 3	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
@@ -962,9 +983,9 @@
 14	?	?	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_messina-47
-# text = This one person who I never met took a picture of me and sent it to me in an e-mail.
 # s_type = decl
 # speaker = FrankMessina
+# text = This one person who I never met took a picture of me and sent it to me in an e-mail.
 1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Discourse=joint:109->11|Entity=(person-109
 2	one	one	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	_
 3	person	person	NOUN	NN	Number=Sing	8	nsubj	7:obj|8:nsubj|14:nsubj	_
@@ -988,9 +1009,9 @@
 21	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_interview_messina-48
-# text = The e-mail said, 'Frank, I have never bothered you during the game, but I just wanted to say thank you for your work and thank you for making some sense of the successes and failures and I wish you much success with your work.'
 # s_type = decl
 # speaker = FrankMessina
+# text = The e-mail said, 'Frank, I have never bothered you during the game, but I just wanted to say thank you for your work and thank you for making some sense of the successes and failures and I wish you much success with your work.'
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=attribution:113->116|Entity=(abstract-111
 2	e-mail	E-mail	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=abstract-111)
 3	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
@@ -1043,9 +1064,9 @@
 50	'	'	PUNCT	''	_	11	punct	11:punct	_
 
 # sent_id = GUM_interview_messina-49
-# text = Last year in my section at the stadium I had a banner that read We Know'.
 # s_type = decl
 # speaker = FrankMessina
+# text = Last year in my section at the stadium I had a banner that read We Know'.
 1	Last	last	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=joint:120->109|Entity=(time-114
 2	year	year	NOUN	NN	Number=Sing	10	obl:tmod	10:obl:tmod	Entity=time-114)
 3	in	in	ADP	IN	_	5	case	5:case	_
@@ -1061,15 +1082,16 @@
 13	that	that	PRON	WDT	PronType=Rel	14	nsubj	12:ref	Discourse=attribution:121->122
 14	read	read	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	12:acl:relcl	_
 15	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	16:nsubj	Discourse=elaboration:122->120|Entity=(abstract-118(person-119)
-16	Know	Know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	ccomp	14:ccomp	Entity=object-117)abstract-118)|SpaceAfter=No
+16	Know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	ccomp	14:ccomp	Entity=object-117)abstract-118)|SpaceAfter=No
 17	'	'	PUNCT	''	_	10	punct	10:punct	SpaceAfter=No
 18	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_interview_messina-50
-# text = That's all it said.
 # s_type = decl
 # speaker = FrankMessina
-1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=restatement:123->120|Entity=(abstract-118)|SpaceAfter=No
+# text = That's all it said.
+1-2	That's	_	_	_	_	_	_	_	_
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=restatement:123->120|Entity=(abstract-118)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	all	all	PRON	DT	_	0	root	0:root	_
 4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=elaboration:124->123|Entity=(object-117)
@@ -1077,9 +1099,9 @@
 6	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_messina-51
-# text = Then earlier this year these shirts started to come out that said, "Poet says We Know".
 # s_type = decl
 # speaker = FrankMessina
+# text = Then earlier this year these shirts started to come out that said, "Poet says We Know".
 1	Then	then	ADV	RB	PronType=Dem	7	advmod	7:advmod	Discourse=sequence:125->120
 2	earlier	early	ADV	RBR	Degree=Cmp	4	advmod	4:advmod	Entity=(event-120
 3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Entity=(time-5
@@ -1102,20 +1124,21 @@
 20	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_interview_messina-52
-# text = It was amazing.
 # s_type = decl
 # speaker = FrankMessina
+# text = It was amazing.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=evaluation:129->125|Entity=(event-120)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	3:cop	_
 3	amazing	amazing	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
 4	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_messina-53
-# text = We didn't use the banner this year, though, because we didn't know.
 # s_type = decl
 # speaker = FrankMessina
+# text = We didn't use the banner this year, though, because we didn't know.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=contrast:130->120|Entity=(person-119)
-2	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	aux	4:aux	SpaceAfter=No
+2-3	didn't	_	_	_	_	_	_	_	_
+2	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	aux	4:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	use	use	VERB	VB	VerbForm=Inf	0	root	0:root	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(object-117
@@ -1127,18 +1150,20 @@
 11	,	,	PUNCT	,	_	16	punct	16:punct	_
 12	because	because	SCONJ	IN	_	16	mark	16:mark	Discourse=cause:131->130
 13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	16:nsubj	Entity=(person-119)
-14	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	16	aux	16:aux	SpaceAfter=No
+14-15	didn't	_	_	_	_	_	_	_	_
+14	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	16	aux	16:aux	_
 15	n't	not	PART	RB	Polarity=Neg	16	advmod	16:advmod	_
 16	know	know	VERB	VB	VerbForm=Inf	4	advcl	4:advcl:because	SpaceAfter=No
 17	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_interview_messina-54
-# text = The team wasn't so far ahead that we knew.
 # s_type = decl
 # speaker = FrankMessina
+# text = The team wasn't so far ahead that we knew.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration:132->131|Entity=(organization-3-New_York_Mets
 2	team	team	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=organization-3-New_York_Mets)
-3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	SpaceAfter=No
+3-4	wasn't	_	_	_	_	_	_	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
 4	n't	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	_
 5	so	so	ADV	RB	_	7	advmod	7:advmod	_
 6	far	far	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
@@ -1149,9 +1174,9 @@
 11	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_interview_messina-55
-# text = Last year we just knew we were going to the playoffs; we knew we were going post-season.
 # s_type = decl
 # speaker = FrankMessina
+# text = Last year we just knew we were going to the playoffs; we knew we were going post-season.
 1	Last	last	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=attribution:134->135|Entity=(time-114
 2	year	year	NOUN	NN	Number=Sing	5	obl:tmod	5:obl:tmod	Entity=time-114)
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-119)
@@ -1173,21 +1198,22 @@
 19	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_interview_messina-56
-# text = This year we weren't sure.
 # s_type = decl
 # speaker = FrankMessina
+# text = This year we weren't sure.
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=contrast:138->135|Entity=(time-5
 2	year	year	NOUN	NN	Number=Sing	6	obl:tmod	6:obl:tmod	Entity=time-5)
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-119)
-4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	6	cop	6:cop	SpaceAfter=No
+4-5	weren't	_	_	_	_	_	_	_	_
+4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
 5	n't	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	_
 6	sure	sure	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
 7	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_interview_messina-57
-# text = We were walking on eggshells.
 # s_type = decl
 # speaker = FrankMessina
+# text = We were walking on eggshells.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=result:139->138|Entity=(person-119)
 2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	aux	3:aux	_
 3	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
@@ -1196,9 +1222,9 @@
 6	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_messina-58
-# text = There was a woman, a season ticket holder and a die hard fan.
 # s_type = decl
 # speaker = FrankMessina
+# text = There was a woman, a season ticket holder and a die hard fan.
 1	There	there	PRON	EX	_	4	expl	4:expl	Discourse=background:140->142
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(person-124
@@ -1216,10 +1242,10 @@
 15	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_interview_messina-59
-# text = She was staggered by the loss last year to the Cardinals.
 # s_type = decl
 # speaker = FrankMessina
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint:141->140|Entity=(person-124)
+# text = She was staggered by the loss last year to the Cardinals.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	3:nsubj:pass	Discourse=joint:141->140|Entity=(person-124)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	staggered	staggered	ADJ	JJ	Degree=Pos	0	root	0:root	_
 4	by	by	ADP	IN	_	6	case	6:case	_
@@ -1233,9 +1259,9 @@
 12	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_messina-60
-# text = Last year she came up to me during one of the games late in the season; she was so happy we were going to the post season.
 # s_type = decl
 # speaker = FrankMessina
+# text = Last year she came up to me during one of the games late in the season; she was so happy we were going to the post season.
 1	Last	last	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=background:142->146|Entity=(time-114
 2	year	year	NOUN	NN	Number=Sing	4	obl:tmod	4:obl:tmod	Entity=time-114)
 3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-124)
@@ -1267,9 +1293,9 @@
 29	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_interview_messina-61
-# text = By that point we had clinched it.
 # s_type = decl
 # speaker = FrankMessina
+# text = By that point we had clinched it.
 1	By	by	ADP	IN	_	3	case	3:case	Discourse=background:145->142
 2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Entity=(event-129
 3	point	point	NOUN	NN	Number=Sing	6	obl	6:obl:by	Entity=event-129)
@@ -1280,9 +1306,9 @@
 8	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_interview_messina-62
-# text = She handed me a shirt she bought at the stadium and she gave me a big hug.
 # s_type = decl
 # speaker = FrankMessina
+# text = She handed me a shirt she bought at the stadium and she gave me a big hug.
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint:146->109|Entity=(person-124)
 2	handed	hand	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	iobj	2:iobj	Entity=(person-1-Frank_Messina)
@@ -1303,9 +1329,9 @@
 18	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_messina-63
-# text = With tears in her eyes she said, "Thank you, Mets Poet, thank you."
 # s_type = decl
 # speaker = FrankMessina
+# text = With tears in her eyes she said, "Thank you, Mets Poet, thank you."
 1	With	with	ADP	IN	_	2	case	2:case	Discourse=attribution:149->150|Entity=(event-134
 2	tears	tear	NOUN	NNS	Number=Plur	7	obl	7:obl:with	_
 3	in	in	ADP	IN	_	5	case	5:case	_
@@ -1327,14 +1353,16 @@
 19	"	''	PUNCT	''	_	10	punct	10:punct	Entity=event-134)
 
 # sent_id = GUM_interview_messina-64
-# text = It's cool ... it's like another family.
 # s_type = decl
 # speaker = FrankMessina
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=evaluation:152->146|Entity=(event-134)|SpaceAfter=No
+# text = It's cool ... it's like another family.
+1-2	It's	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=evaluation:152->146|Entity=(event-134)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	cool	cool	ADJ	JJ	Degree=Pos	0	root	0:root	_
-4	...	...	PUNCT	:	_	9	punct	9:punct	_
-5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	9:nsubj	Discourse=justify:153->152|Entity=(event-134)|SpaceAfter=No
+4	...	…	PUNCT	:	_	9	punct	9:punct	_
+5-6	it's	_	_	_	_	_	_	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	9:nsubj	Discourse=justify:153->152|Entity=(event-134)
 6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
 7	like	like	ADP	IN	_	9	case	9:case	_
 8	another	another	DET	DT	_	9	det	9:det	Entity=(organization-135
@@ -1342,22 +1370,23 @@
 10	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_messina-65
-# text = Moments like that must make you realize you have touched people who aren't normally touched by poetry.
 # s_type = sub
 # speaker = DavidShankbone
+# text = Moments like that must make you realize you have touched people who aren't normally touched by poetry.
 1	Moments	moment	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Discourse=attribution:154->155
 2	like	like	ADP	IN	_	3	case	3:case	_
 3	that	that	PRON	DT	Number=Sing|PronType=Dem	1	nmod	1:nmod:like	Entity=(event-134)
 4	must	must	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
 5	make	make	VERB	VB	VerbForm=Inf	0	root	0:root	_
-6	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	7:nsubj	Entity=(person-1-Frank_Messina)
-7	realize	realize	VERB	VB	VerbForm=Inf	5	ccomp	5:ccomp	_
+6	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	obj	5:obj|7:nsubj:xsubj	Entity=(person-1-Frank_Messina)
+7	realize	realize	VERB	VB	VerbForm=Inf	5	xcomp	5:xcomp	_
 8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	10:nsubj	Discourse=solutionhood:155->157|Entity=(event-136
 9	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	aux	10:aux	_
 10	touched	touch	VERB	VBN	Tense=Past|VerbForm=Part	7	ccomp	7:ccomp	_
-11	people	people	NOUN	NNS	Number=Plur	10	obj	10:obj|16:nsubj:pass	Entity=(person-137
+11	people	person	NOUN	NNS	Number=Plur	10	obj	10:obj|16:nsubj:pass	Entity=(person-137
 12	who	who	PRON	WP	PronType=Rel	16	nsubj:pass	11:ref	Discourse=elaboration:156->155
-13	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	16:aux:pass	SpaceAfter=No
+13-14	aren't	_	_	_	_	_	_	_	_
+13	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	16:aux:pass	_
 14	n't	not	PART	RB	Polarity=Neg	16	advmod	16:advmod	_
 15	normally	normally	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
 16	touched	touch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	acl:relcl	11:acl:relcl	_
@@ -1366,10 +1395,11 @@
 19	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_interview_messina-66
-# text = It's opened up a new fan base, so to speak.
 # s_type = decl
 # speaker = FrankMessina
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint:157->11|Entity=(event-136)|SpaceAfter=No
+# text = It's opened up a new fan base, so to speak.
+1-2	It's	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint:157->11|Entity=(event-136)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	opened	open	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 4	up	up	ADP	RP	_	3	compound:prt	3:compound:prt	_
@@ -1384,9 +1414,9 @@
 13	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_messina-67
-# text = For the last year SNY has broadcast footage of me with my poems, so quite a few fans known about the "Mets Poet'.
 # s_type = decl
 # speaker = FrankMessina
+# text = For the last year SNY has broadcast footage of me with my poems, so quite a few fans known about the "Mets Poet'.
 1	For	for	ADP	IN	_	4	case	4:case	Discourse=cause:159->160
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(time-5
 3	last	last	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -1401,12 +1431,12 @@
 12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(abstract-140
 13	poems	poem	NOUN	NNS	Number=Plur	10	nmod	10:nmod:with	Entity=abstract-139)abstract-140)|SpaceAfter=No
 14	,	,	PUNCT	,	_	20	punct	20:punct	_
-15	so	so	CCONJ	CC	_	20	cc	20:cc	Discourse=elaboration:160->157
+15	so	so	ADV	RB	_	20	advmod	20:advmod	Discourse=elaboration:160->157
 16	quite	quite	PRON	PDT	_	19	det:predet	19:det:predet	Entity=(person-141
 17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	_
 18	few	few	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
 19	fans	fan	NOUN	NNS	Number=Plur	20	nsubj	20:nsubj	Entity=person-141)
-20	known	know	VERB	VBN	Tense=Past|Typo=Yes|VerbForm=Part	7	conj	7:conj:so	_
+20	known	know	VERB	VBN	Tense=Past|Typo=Yes|VerbForm=Part	7	conj	7:conj	_
 21	about	about	ADP	IN	_	24	case	24:case	_
 22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(person-1-Frank_Messina
 23	"	''	PUNCT	``	_	22	punct	22:punct	SpaceAfter=No
@@ -1416,14 +1446,14 @@
 27	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_interview_messina-68
-# text = I have never called myself that, by the way.
 # s_type = decl
 # speaker = FrankMessina
+# text = I have never called myself that, by the way.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=preparation:161->162|Entity=(person-1-Frank_Messina)
 2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	never	never	ADV	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	called	call	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
-5	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	obj	4:obj|6:nsubj:xsubj	Entity=(person-1-Frank_Messina)
+5	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|Poss=Yes|PronType=Prs|Reflex=Yes	4	obj	4:obj|6:nsubj:xsubj	Entity=(person-1-Frank_Messina)
 6	that	that	PRON	DT	Number=Sing|PronType=Dem	4	xcomp	4:xcomp	Entity=(person-1-Frank_Messina)|SpaceAfter=No
 7	,	,	PUNCT	,	_	10	punct	10:punct	_
 8	by	by	ADP	IN	_	10	case	10:case	_
@@ -1432,9 +1462,9 @@
 11	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_interview_messina-69
-# text = The back of my jersey says "The Poet' because growing up that was my nickname.
 # s_type = decl
 # speaker = FrankMessina
+# text = The back of my jersey says "The Poet' because growing up that was my nickname.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint:162->11|Entity=(object-142
 2	back	back	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	_
 3	of	of	ADP	IN	_	5	case	5:case	_
@@ -1442,7 +1472,7 @@
 5	jersey	jersey	NOUN	NN	Number=Sing	2	nmod	2:nmod:of	Entity=object-142)object-143)
 6	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 7	"	''	PUNCT	``	_	9	punct	9:punct	Entity=(abstract-144|SpaceAfter=No
-8	The	the	DET	NNP	Number=Sing	9	det	9:det	_
+8	The	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	_
 9	Poet	Poet	PROPN	NNP	Number=Sing	6	obj	6:obj	SpaceAfter=No
 10	'	'	PUNCT	''	_	17	punct	17:punct	Entity=abstract-144)
 11	because	because	SCONJ	IN	_	17	mark	17:mark	Discourse=cause:163->162
@@ -1455,9 +1485,9 @@
 18	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_interview_messina-70
-# text = My brother was a runner and they used to call him The Birdman -- Birdie -- and they called me The Poet.
 # s_type = decl
 # speaker = FrankMessina
+# text = My brother was a runner and they used to call him The Birdman -- Birdie -- and they called me The Poet.
 1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=background:166->167|Entity=(person-145(person-1-Frank_Messina)
 2	brother	brother	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=person-145)
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
@@ -1470,10 +1500,10 @@
 10	call	call	VERB	VB	VerbForm=Inf	8	xcomp	8:xcomp	_
 11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	10:obj|13:nsubj:xsubj	Entity=(person-145)
 12	The	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(person-148
-13	Birdman	birdman	PROPN	NNP	Number=Sing	10	xcomp	10:xcomp	Entity=person-148)
-14	--	--	PUNCT	:	_	15	punct	15:punct	Discourse=restatement:168->167
+13	Birdman	Birdman	PROPN	NNP	Number=Sing	10	xcomp	10:xcomp	Entity=person-148)
+14	--	-	PUNCT	:	_	15	punct	15:punct	Discourse=restatement:168->167
 15	Birdie	Birdie	PROPN	NNP	Number=Sing	13	appos	13:appos	Entity=(person-148)
-16	--	--	PUNCT	:	_	19	punct	19:punct	_
+16	--	-	PUNCT	:	_	19	punct	19:punct	_
 17	and	and	CCONJ	CC	_	19	cc	19:cc	Discourse=joint:169->167
 18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	19:nsubj	Entity=(person-147)
 19	called	call	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	conj	5:conj|8:conj:and	_
@@ -1483,9 +1513,9 @@
 23	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_interview_messina-71
-# text = It was a natural thing, but I never coined myself as 'The Mets Poet.'
 # s_type = decl
 # speaker = FrankMessina
+# text = It was a natural thing, but I never coined myself as 'The Mets Poet.'
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=evaluation:170->169|Entity=(event-146)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(event-146
@@ -1496,10 +1526,10 @@
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj	Entity=(person-1-Frank_Messina)
 9	never	never	ADV	RB	Polarity=Neg	10	advmod	10:advmod	_
 10	coined	coin	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	conj	5:conj:but	_
-11	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	10	obj	10:obj	Entity=(person-1-Frank_Messina)
+11	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|Poss=Yes|PronType=Prs|Reflex=Yes	10	obj	10:obj	Entity=(person-1-Frank_Messina)
 12	as	as	ADP	IN	_	16	case	16:case	_
 13	'	'	PUNCT	``	_	16	punct	16:punct	SpaceAfter=No
-14	The	the	DET	NNP	Number=Sing	16	det	16:det	Entity=(person-1-Frank_Messina
+14	The	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(person-1-Frank_Messina
 15	Mets	Met	PROPN	NNPS	Number=Plur	16	compound	16:compound	_
 16	Poet	Poet	PROPN	NNP	Number=Sing	10	obl	10:obl:as	Entity=person-1-Frank_Messina)|SpaceAfter=No
 17	.	.	PUNCT	.	_	16	punct	16:punct	SpaceAfter=No

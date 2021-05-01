@@ -1,7 +1,14 @@
 # newdoc id = GUM_news_iodine
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2016-09-19
+# meta::dateCreated = 2006-02-23
+# meta::dateModified = 2013-05-06
+# meta::sourceURL = https://en.wikinews.org/wiki/Australian_children_suffering_from_iodine_deficiency
+# meta::speakerCount = 0
+# meta::title = Australian children suffering from iodine deficiency
 # sent_id = GUM_news_iodine-1
-# text = Australian children suffering from iodine deficiency
 # s_type = decl
+# text = Australian children suffering from iodine deficiency
 1	Australian	Australian	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=preparation:1->3|Entity=(person-1
 2	children	child	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=person-1)
 3	suffering	suffer	VERB	VBG	VerbForm=Ger	0	root	0:root	_
@@ -10,8 +17,8 @@
 6	deficiency	deficiency	NOUN	NN	Number=Sing	3	obl	3:obl:from	Entity=abstract-2)
 
 # sent_id = GUM_news_iodine-2
-# text = Thursday, February 23, 2006
 # s_type = frag
+# text = Thursday, February 23, 2006
 1	Thursday	Thursday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:2->3|Entity=(time-4)|SpaceAfter=No
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	February	February	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(time-4
@@ -20,8 +27,8 @@
 6	2006	2006	NUM	CD	NumForm=Digit|NumType=Card	4	nmod:tmod	4:nmod:tmod	Entity=(time-5)time-4)
 
 # sent_id = GUM_news_iodine-3
-# text = Almost half of all Australian primary school children are mild to moderately iodine deficient, researchers say.
 # s_type = decl
+# text = Almost half of all Australian primary school children are mild to moderately iodine deficient, researchers say.
 1	Almost	almost	ADV	RB	Degree=Pos	2	advmod	2:advmod	Discourse=ROOT:3|Entity=(person-6
 2	half	half	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	_
 3	of	of	ADP	IN	_	8	case	8:case	_
@@ -31,7 +38,7 @@
 7	school	school	NOUN	NN	Number=Sing	8	compound	8:compound	_
 8	children	child	NOUN	NNS	Number=Plur	2	nmod	2:nmod:of	Entity=person-6)person-7)
 9	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_
-10	mild	mild	ADJ	JJ	Degree=Pos	14	advmod	14:advmod	_
+10	mild	mild	ADV	RB	Degree=Pos|Typo=Yes	14	advmod	14:advmod	_
 11	to	to	ADP	IN	_	12	case	12:case	_
 12	moderately	moderately	ADV	RB	Degree=Pos	10	obl	10:obl:to	_
 13	iodine	iodine	NOUN	NN	Number=Sing	14	obl:npmod	14:obl:npmod	Entity=(substance-3)
@@ -42,8 +49,8 @@
 18	.	.	PUNCT	.	_	17	punct	17:punct	_
 
 # sent_id = GUM_news_iodine-4
-# text = A new study documenting iodine nutritional status in Australian school children has revealed many are not getting enough iodine - which can lead to mental and growth retardation.
 # s_type = decl
+# text = A new study documenting iodine nutritional status in Australian school children has revealed many are not getting enough iodine - which can lead to mental and growth retardation.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Discourse=attribution:5->8|Entity=(abstract-9
 2	new	new	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	study	study	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	_
@@ -70,15 +77,16 @@
 24	to	to	ADP	IN	_	28	case	28:case	_
 25	mental	mental	ADJ	JJ	Degree=Pos	28	amod	28:amod	Entity=(abstract-13
 26	and	and	CCONJ	CC	_	27	cc	27:cc	_
-27	growth	growth	NOUN	NN	Number=Sing	25	conj	25:conj:and|28:amod	_
+27	growth	growth	NOUN	NN	Number=Sing	25	conj	25:conj:and|28:compound	_
 28	retardation	retardation	NOUN	NN	Number=Sing	23	obl	23:obl:to	Entity=abstract-13)|SpaceAfter=No
 29	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_news_iodine-5
-# text = The report's authors say iodine deficiency is "the sleeper health issue in Australia", and potentially a very serious one.
 # s_type = decl
+# text = The report's authors say iodine deficiency is "the sleeper health issue in Australia", and potentially a very serious one.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=attribution:10->11|Entity=(person-8(abstract-9
-2	report	report	NOUN	NN	Number=Sing	4	nmod:poss	4:nmod:poss	SpaceAfter=No
+2-3	report's	_	_	_	_	_	_	_	_
+2	report	report	NOUN	NN	Number=Sing	4	nmod:poss	4:nmod:poss	_
 3	's	's	PART	POS	_	2	case	2:case	Entity=abstract-9)
 4	authors	author	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=person-8)
 5	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -103,21 +111,21 @@
 24	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_news_iodine-6
-# text = The results of the Australian National Iodine Nutrition Study published in the Medical Journal of Australia this week, revealed that children in mainland Australia are borderline iodine deficient.
 # s_type = decl
+# text = The results of the Australian National Iodine Nutrition Study published in the Medical Journal of Australia this week, revealed that children in mainland Australia are borderline iodine deficient.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=restatement:12->3|Entity=(abstract-16
 2	results	result	NOUN	NNS	Number=Plur	20	nsubj	20:nsubj	_
 3	of	of	ADP	IN	_	9	case	9:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(abstract-9
-5	Australian	Australian	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
-6	National	National	PROPN	NNP	Number=Sing	9	amod	9:amod	_
-7	Iodine	iodine	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=(substance-3)
-8	Nutrition	nutrition	PROPN	NNP	Number=Sing	9	compound	9:compound	_
-9	Study	study	PROPN	NNP	Number=Sing	2	nmod	2:nmod:of	Entity=abstract-9)
+5	Australian	Australian	ADJ	NNP	Degree=Pos	9	amod	9:amod	_
+6	National	National	ADJ	NNP	Degree=Pos	9	amod	9:amod	_
+7	Iodine	Iodine	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=(substance-3)
+8	Nutrition	Nutrition	PROPN	NNP	Number=Sing	9	compound	9:compound	_
+9	Study	Study	PROPN	NNP	Number=Sing	2	nmod	2:nmod:of	Entity=abstract-9)
 10	published	publish	VERB	VBN	Tense=Past|VerbForm=Part	9	acl	9:acl	Discourse=elaboration:13->12
 11	in	in	ADP	IN	_	14	case	14:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(organization-17-Medical_Journal_of_Australia
-13	Medical	Medical	PROPN	NNP	Number=Sing	14	amod	14:amod	_
+13	Medical	Medical	ADJ	NNP	Degree=Pos	14	amod	14:amod	_
 14	Journal	Journal	PROPN	NNP	Number=Sing	10	obl	10:obl:in	_
 15	of	of	ADP	IN	_	16	case	16:case	_
 16	Australia	Australia	PROPN	NNP	Number=Sing	14	nmod	14:nmod:of	Entity=(place-15-Australia)organization-17-Medical_Journal_of_Australia)
@@ -128,7 +136,7 @@
 21	that	that	SCONJ	IN	_	29	mark	29:mark	Discourse=same-unit:15->12
 22	children	child	NOUN	NNS	Number=Plur	29	nsubj	29:nsubj	Entity=(person-7
 23	in	in	ADP	IN	_	25	case	25:case	_
-24	mainland	mainland	ADJ	JJ	Degree=Pos	25	amod	25:amod	Bridge=place-15-Australia<place-19-Mainland_Australia|Entity=(place-19-Mainland_Australia
+24	mainland	mainland	NOUN	NN	Number=Sing	25	compound	25:compound	Bridge=place-15-Australia<place-19-Mainland_Australia|Entity=(place-19-Mainland_Australia
 25	Australia	Australia	PROPN	NNP	Number=Sing	22	nmod	22:nmod:in	Entity=person-7)place-19-Mainland_Australia)
 26	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	cop	29:cop	_
 27	borderline	borderline	ADV	RB	Degree=Pos	29	advmod	29:advmod	_
@@ -137,8 +145,8 @@
 30	.	.	PUNCT	.	_	20	punct	20:punct	_
 
 # sent_id = GUM_news_iodine-7
-# text = The report has prompted calls for all edible salt to be iodised.
 # s_type = decl
+# text = The report has prompted calls for all edible salt to be iodised.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=result:16->3|Entity=(abstract-9
 2	report	report	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=abstract-9)
 3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
@@ -154,8 +162,8 @@
 13	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_news_iodine-8
-# text = They say adding the mineral to salt is the simplest and most effective method of preventing iodine deficiency disorders.
 # s_type = decl
+# text = They say adding the mineral to salt is the simplest and most effective method of preventing iodine deficiency disorders.
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:17->18|Entity=(person-8)
 2	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	adding	add	VERB	VBG	VerbForm=Ger	14	csubj	14:csubj	Discourse=background:18->16|Entity=(event-22
@@ -178,8 +186,8 @@
 20	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_news_iodine-9
-# text = A cross-sectional survey of 1709 schoolchildren - aged 8 – 10 years, from 88 schools - was carried out in New South Wales, Victoria, South Australia, Western Australia and Queensland, between July 2003 and December 2004.
 # s_type = decl
+# text = A cross-sectional survey of 1709 schoolchildren - aged 8 – 10 years, from 88 schools - was carried out in New South Wales, Victoria, South Australia, Western Australia and Queensland, between July 2003 and December 2004.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Discourse=elaboration:20->3|Entity=(abstract-9
 2	cross-sectional	cross-sectional	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	survey	survey	NOUN	NN	Number=Sing	19	nsubj:pass	19:nsubj:pass	_
@@ -191,7 +199,7 @@
 9	8	8	NUM	CD	NumForm=Digit|NumType=Card	12	nummod	12:nummod	Entity=(time-25
 10	–	-	SYM	SYM	_	11	case	11:case	_
 11	10	10	NUM	CD	NumForm=Digit|NumType=Card	9	nmod	9:nmod:to	_
-12	years	year	NOUN	NNS	Number=Plur	8	obl:npmod	8:obl:npmod	Entity=time-25)|SpaceAfter=No
+12	years	year	NOUN	NNS	Number=Plur	8	obl:tmod	8:obl:tmod	Entity=time-25)|SpaceAfter=No
 13	,	,	PUNCT	,	_	16	punct	16:punct	_
 14	from	from	ADP	IN	_	16	case	16:case	_
 15	88	88	NUM	CD	NumForm=Digit|NumType=Card	16	nummod	16:nummod	Entity=(organization-26
@@ -210,7 +218,7 @@
 28	South	South	PROPN	NNP	Number=Sing	29	compound	29:compound	Bridge=place-15-Australia<place-29-South_Australia|Entity=(place-29-South_Australia
 29	Australia	Australia	PROPN	NNP	Number=Sing	24	conj	19:obl:in|24:conj:and	Entity=place-29-South_Australia)|SpaceAfter=No
 30	,	,	PUNCT	,	_	32	punct	32:punct	_
-31	Western	Western	PROPN	NNP	Number=Sing	32	amod	32:amod	Bridge=place-15-Australia<place-30-Western_Australia|Entity=(place-30-Western_Australia
+31	Western	Western	ADJ	NNP	Degree=Pos	32	amod	32:amod	Bridge=place-15-Australia<place-30-Western_Australia|Entity=(place-30-Western_Australia
 32	Australia	Australia	PROPN	NNP	Number=Sing	24	conj	19:obl:in|24:conj:and	Entity=place-30-Western_Australia)
 33	and	and	CCONJ	CC	_	34	cc	34:cc	_
 34	Queensland	Queensland	PROPN	NNP	Number=Sing	24	conj	19:obl:in|24:conj:and	Bridge=place-15-Australia<place-31-Queensland|Entity=(place-31-Queensland)|SpaceAfter=No
@@ -224,8 +232,8 @@
 42	.	.	PUNCT	.	_	19	punct	19:punct	_
 
 # sent_id = GUM_news_iodine-10
-# text = Tasmania was excluded from the study - where an voluntary iodine fortification program using iodised salt in bread, is ongoing.
 # s_type = decl
+# text = Tasmania was excluded from the study - where an voluntary iodine fortification program using iodised salt in bread, is ongoing.
 1	Tasmania	Tasmania	PROPN	NNP	Number=Sing	3	nsubj:pass	3:nsubj:pass	Discourse=elaboration:23->20|Entity=(event-36(place-37-Tasmania)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	excluded	exclude	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -250,8 +258,8 @@
 22	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_iodine-11
-# text = The authors say the results confirm the existence of inadequate iodine intake in the Australian population.
 # s_type = decl
+# text = The authors say the results confirm the existence of inadequate iodine intake in the Australian population.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=attribution:27->28|Entity=(person-8
 2	authors	author	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=person-8)
 3	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -271,8 +279,8 @@
 17	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_iodine-12
-# text = They call for "urgent implementation of mandatory iodisation of all edible salt in Australia."
 # s_type = decl
+# text = They call for "urgent implementation of mandatory iodisation of all edible salt in Australia."
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=restatement:29->3|Entity=(person-8)
 2	call	call	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	for	for	ADP	IN	_	6	case	6:case	_
@@ -292,8 +300,8 @@
 17	"	''	PUNCT	''	_	6	punct	6:punct	_
 
 # sent_id = GUM_news_iodine-13
-# text = Most iodine in food comes from seafood, milk and iodised salt.
 # s_type = decl
+# text = Most iodine in food comes from seafood, milk and iodised salt.
 1	Most	most	ADJ	JJS	Degree=Sup	2	amod	2:amod	Bridge=substance-3<substance-46|Discourse=background:30->3|Entity=(substance-46
 2	iodine	iodine	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=(substance-3)
 3	in	in	ADP	IN	_	4	case	4:case	_
@@ -309,16 +317,16 @@
 13	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_news_iodine-14
-# text = Professor Cres Eastman, Director of the National Iodine Nutrition study, and Chairman of the Australian Centre for Control of Iodine Deficiency Disorders, says it is crucial that children and pregnant women in particular have an adequate intake of iodine.
 # s_type = decl
-1	Professor	professor	PROPN	NNP	Number=Sing	26	nsubj	26:nsubj	Discourse=attribution:31->32|Entity=(person-50-Creswell_Eastman
+# text = Professor Cres Eastman, Director of the National Iodine Nutrition study, and Chairman of the Australian Centre for Control of Iodine Deficiency Disorders, says it is crucial that children and pregnant women in particular have an adequate intake of iodine.
+1	Professor	Professor	PROPN	NNP	Number=Sing	26	nsubj	26:nsubj	Discourse=attribution:31->32|Entity=(person-50-Creswell_Eastman
 2	Cres	Cres	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	Eastman	Eastman	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-50-Creswell_Eastman)|SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
 5	Director	Director	PROPN	NNP	Number=Sing	1	appos	1:appos	Entity=(person-50-Creswell_Eastman
 6	of	of	ADP	IN	_	11	case	11:case	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(abstract-9
-8	National	National	PROPN	NNP	Number=Sing	11	amod	11:amod	_
+8	National	National	ADJ	NNP	Degree=Pos	11	amod	11:amod	_
 9	Iodine	Iodine	PROPN	NNP	Number=Sing	11	compound	11:compound	Entity=(substance-3)
 10	Nutrition	Nutrition	PROPN	NNP	Number=Sing	11	compound	11:compound	_
 11	study	study	NOUN	NN	Number=Sing	5	nmod	5:nmod:of	Entity=person-50-Creswell_Eastman)abstract-9)|SpaceAfter=No
@@ -327,14 +335,14 @@
 14	Chairman	Chairman	PROPN	NNP	Number=Sing	5	conj	1:appos|5:conj:and	Entity=(person-50-Creswell_Eastman
 15	of	of	ADP	IN	_	18	case	18:case	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(organization-51
-17	Australian	Australian	PROPN	NNP	Number=Sing	18	amod	18:amod	_
+17	Australian	Australian	ADJ	NNP	Degree=Pos	18	amod	18:amod	_
 18	Centre	Centre	PROPN	NNP	Number=Sing	14	nmod	14:nmod:of	_
 19	for	for	ADP	IN	_	20	case	20:case	_
 20	Control	Control	PROPN	NNP	Number=Sing	18	nmod	18:nmod:for	_
 21	of	of	ADP	IN	_	24	case	24:case	_
-22	Iodine	iodine	PROPN	NNP	Number=Sing	23	compound	23:compound	Entity=(abstract-23(abstract-2(substance-3)
-23	Deficiency	deficiency	PROPN	NNP	Number=Sing	24	compound	24:compound	Entity=abstract-2)
-24	Disorders	disorder	PROPN	NNPS	Number=Plur	20	nmod	20:nmod:of	Entity=person-50-Creswell_Eastman)organization-51)abstract-23)|SpaceAfter=No
+22	Iodine	Iodine	PROPN	NNP	Number=Sing	23	compound	23:compound	Entity=(abstract-23(abstract-2(substance-3)
+23	Deficiency	Deficiency	PROPN	NNP	Number=Sing	24	compound	24:compound	Entity=abstract-2)
+24	Disorders	Disorder	PROPN	NNPS	Number=Plur	20	nmod	20:nmod:of	Entity=person-50-Creswell_Eastman)organization-51)abstract-23)|SpaceAfter=No
 25	,	,	PUNCT	,	_	1	punct	1:punct	_
 26	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 27	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	expl	29:expl	Discourse=joint:32->3|Entity=(event-52)
@@ -356,8 +364,8 @@
 43	.	.	PUNCT	.	_	26	punct	26:punct	_
 
 # sent_id = GUM_news_iodine-15
-# text = Iodine deficiency can lead to serious health problems including brain damage, stunted growth and deafness.
 # s_type = decl
+# text = Iodine deficiency can lead to serious health problems including brain damage, stunted growth and deafness.
 1	Iodine	iodine	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=justify:33->32|Entity=(abstract-2(substance-3)
 2	deficiency	deficiency	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=abstract-2)
 3	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
@@ -377,9 +385,9 @@
 17	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_news_iodine-16
-# text = Professor Eastman says manufacturers could easily remedy the situation by using iodised salt in their products in line with the United States and most European countries.
 # s_type = decl
-1	Professor	professor	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=attribution:35->36|Entity=(person-50-Creswell_Eastman
+# text = Professor Eastman says manufacturers could easily remedy the situation by using iodised salt in their products in line with the United States and most European countries.
+1	Professor	Professor	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=attribution:35->36|Entity=(person-50-Creswell_Eastman
 2	Eastman	Eastman	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-50-Creswell_Eastman)
 3	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	manufacturers	manufacturer	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	Discourse=joint:36->3|Entity=(organization-61)
@@ -399,8 +407,8 @@
 18	line	line	NOUN	NN	Number=Sing	11	obl	11:obl:in	_
 19	with	with	ADP	IN	_	22	case	22:case	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(place-64-United_States
-21	United	United	PROPN	NNP	Number=Sing	22	amod	22:amod	_
-22	States	States	PROPN	NNPS	Number=Plur	18	nmod	18:nmod:with	Entity=place-64-United_States)
+21	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	22	amod	22:amod	_
+22	States	State	PROPN	NNPS	Number=Plur	18	nmod	18:nmod:with	Entity=place-64-United_States)
 23	and	and	CCONJ	CC	_	26	cc	26:cc	_
 24	most	most	ADJ	JJS	Degree=Sup	26	amod	26:amod	Entity=(place-65
 25	European	European	ADJ	JJ	Degree=Pos	26	amod	26:amod	_
@@ -408,13 +416,14 @@
 27	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_iodine-17
-# text = "I suspect they won't do that on a voluntary basis, we've tried so far and haven't succeeded, so we've convinced the Food Standards of Australia and New Zealand | that all salt should be iodised," he said.
 # s_type = decl
+# text = "I suspect they won't do that on a voluntary basis, we've tried so far and haven't succeeded, so we've convinced the Food Standards of Australia and New Zealand | that all salt should be iodised," he said.
 1	"	''	PUNCT	``	_	3	punct	3:punct	Discourse=attribution:38->39|SpaceAfter=No
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-50-Creswell_Eastman)
 3	suspect	suspect	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	46	ccomp	46:ccomp	_
 4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	7:nsubj	Discourse=contrast:39->36|Entity=(organization-61)
-5	wo	will	AUX	MD	VerbForm=Fin	7	aux	7:aux	SpaceAfter=No
+5-6	won't	_	_	_	_	_	_	_	_
+5	wo	will	AUX	MD	VerbForm=Fin	7	aux	7:aux	_
 6	n't	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	_
 7	do	do	VERB	VB	VerbForm=Inf	3	ccomp	3:ccomp	_
 8	that	that	PRON	DT	Number=Sing|PronType=Dem	7	obj	7:obj	Entity=(abstract-62)
@@ -423,23 +432,26 @@
 11	voluntary	voluntary	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
 12	basis	basis	NOUN	NN	Number=Sing	7	obl	7:obl:on	SpaceAfter=No
 13	,	,	PUNCT	,	_	16	punct	16:punct	_
-14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	16:nsubj|22:nsubj	Discourse=joint:40->39|Entity=(person-66)|SpaceAfter=No
+14-15	we've	_	_	_	_	_	_	_	_
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	16:nsubj|22:nsubj	Discourse=joint:40->39|Entity=(person-66)
 15	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	16:aux	_
 16	tried	try	VERB	VBN	Tense=Past|VerbForm=Part	3	parataxis	3:parataxis	_
 17	so	so	ADV	RB	_	18	advmod	18:advmod	_
 18	far	far	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
 19	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=contrast:41->40
-20	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	22:aux	SpaceAfter=No
+20-21	haven't	_	_	_	_	_	_	_	_
+20	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	22:aux	_
 21	n't	not	PART	RB	Polarity=Neg	22	advmod	22:advmod	_
 22	succeeded	succeed	VERB	VBN	Tense=Past|VerbForm=Part	16	conj	16:conj:and	SpaceAfter=No
 23	,	,	PUNCT	,	_	27	punct	27:punct	_
 24	so	so	SCONJ	RB	_	27	mark	27:mark	Discourse=attribution:42->43
-25	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	27:nsubj	Entity=(person-66)|SpaceAfter=No
+25-26	we've	_	_	_	_	_	_	_	_
+25	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	27:nsubj	Entity=(person-66)
 26	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	27	aux	27:aux	_
 27	convinced	convince	VERB	VBN	Tense=Past|VerbForm=Part	3	advcl	3:advcl:so	_
 28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(organization-67-Food_Standards_Australia_New_Zealand
 29	Food	Food	PROPN	NNP	Number=Sing	30	compound	30:compound	Entity=(substance-47)
-30	Standards	Standards	PROPN	NNPS	Number=Plur	27	obj	27:obj	_
+30	Standards	Standard	PROPN	NNPS	Number=Plur	27	obj	27:obj	_
 31	of	of	ADP	IN	_	32	case	32:case	_
 32	Australia	Australia	PROPN	NNP	Number=Sing	30	nmod	30:nmod:of	Entity=(place-15-Australia)
 33	and	and	CCONJ	CC	_	34	cc	34:cc	_
@@ -459,8 +471,8 @@
 47	.	.	PUNCT	.	_	46	punct	46:punct	_
 
 # sent_id = GUM_news_iodine-18
-# text = The report says the decline in iodine intake appears to be due to changes in the dairy industry, where chlorine-containing sanitisers have replaced iodine-containing sanitisers.
 # s_type = decl
+# text = The report says the decline in iodine intake appears to be due to changes in the dairy industry, where chlorine-containing sanitisers have replaced iodine-containing sanitisers.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=attribution:45->46|Entity=(abstract-9
 2	report	report	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=abstract-9)
 3	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -482,16 +494,16 @@
 19	,	,	PUNCT	,	_	24	punct	24:punct	_
 20	where	where	SCONJ	WRB	PronType=Int	24	mark	24:mark	Discourse=elaboration:47->46
 21	chlorine-containing	chlorine-containing	ADJ	JJ	Degree=Pos	22	amod	22:amod	Entity=(substance-72
-22	sanitisers	sanitisers	NOUN	NNS	Number=Plur	24	nsubj	24:nsubj	Entity=substance-72)
+22	sanitisers	sanitiser	NOUN	NNS	Number=Plur	24	nsubj	24:nsubj	Entity=substance-72)
 23	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	24:aux	_
 24	replaced	replace	VERB	VBN	Tense=Past|VerbForm=Part	18	acl	18:acl:where	_
 25	iodine-containing	iodine-containing	ADJ	JJ	Degree=Pos	26	amod	26:amod	Entity=(substance-73
-26	sanitisers	sanitisers	NOUN	NNS	Number=Plur	24	obj	24:obj	Entity=event-70)substance-73)|SpaceAfter=No
+26	sanitisers	sanitiser	NOUN	NNS	Number=Plur	24	obj	24:obj	Entity=event-70)substance-73)|SpaceAfter=No
 27	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_iodine-19
-# text = Iodine released from these chemicals into milk has been the major source of dietary iodine in Australia for at least four decades, but is now declining.
 # s_type = decl
+# text = Iodine released from these chemicals into milk has been the major source of dietary iodine in Australia for at least four decades, but is now declining.
 1	Iodine	iodine	NOUN	NN	Number=Sing	12	nsubj	12:nsubj|27:nsubj	Discourse=justify:48->46|Entity=(substance-74
 2	released	release	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	1:acl	Discourse=elaboration:49->48
 3	from	from	ADP	IN	_	5	case	5:case	_
@@ -522,8 +534,8 @@
 28	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_news_iodine-20
-# text = Another contributory factor has been the decreasing consumption of iodised salt used in foods.
 # s_type = decl
+# text = Another contributory factor has been the decreasing consumption of iodised salt used in foods.
 1	Another	another	DET	DT	_	3	det	3:det	Discourse=joint:52->46|Entity=(abstract-77
 2	contributory	contributory	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	factor	factor	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=abstract-77)
@@ -532,17 +544,17 @@
 6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(abstract-77
 7	decreasing	decrease	VERB	VBG	VerbForm=Ger	8	amod	8:amod	_
 8	consumption	consumption	NOUN	NN	Number=Sing	0	root	0:root	_
-9	of	of	ADP	IN	_	8	nmod	8:nmod	_
+9	of	of	ADP	IN	_	11	case	11:case	_
 10	iodised	iodise	VERB	VBN	Tense=Past|VerbForm=Part	11	amod	11:amod	Entity=(substance-39
-11	salt	salt	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=abstract-77)substance-39)
+11	salt	salt	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	Entity=abstract-77)substance-39)
 12	used	use	VERB	VBN	Tense=Past|VerbForm=Part	11	acl	11:acl	Discourse=elaboration:53->52
 13	in	in	ADP	IN	_	14	case	14:case	_
 14	foods	food	NOUN	NNS	Number=Plur	12	obl	12:obl:in	Entity=(substance-47)|SpaceAfter=No
 15	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_news_iodine-21
-# text = The report states that few if any food manufacturers use iodised salt in the preparation and manufacture of foods.
 # s_type = decl
+# text = The report states that few if any food manufacturers use iodised salt in the preparation and manufacture of foods.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=attribution:54->55|Entity=(abstract-9
 2	report	report	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=abstract-9)
 3	states	state	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -565,9 +577,9 @@
 20	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_iodine-22
-# text = Professor Eastman says iodine is added to only 10 per cent of Australian salt in contravention of a World Health Organisation recommendation that all salt be iodised.
 # s_type = decl
-1	Professor	professor	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=attribution:56->57|Entity=(person-50-Creswell_Eastman
+# text = Professor Eastman says iodine is added to only 10 per cent of Australian salt in contravention of a World Health Organisation recommendation that all salt be iodised.
+1	Professor	Professor	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=attribution:56->57|Entity=(person-50-Creswell_Eastman
 2	Eastman	Eastman	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-50-Creswell_Eastman)
 3	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	iodine	iodine	NOUN	NN	Number=Sing	6	nsubj:pass	6:nsubj:pass	Discourse=background:57->60|Entity=(substance-3)
@@ -597,8 +609,8 @@
 28	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_iodine-23
-# text = He says authorities are reacting slowly to his urgent calls for mandatory iodised salt.
 # s_type = decl
+# text = He says authorities are reacting slowly to his urgent calls for mandatory iodised salt.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:59->60|Entity=(person-50-Creswell_Eastman)
 2	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	authorities	authority	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Discourse=joint:60->3|Entity=(organization-82)
@@ -609,15 +621,15 @@
 8	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(event-83(person-50-Creswell_Eastman)
 9	urgent	urgent	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
 10	calls	call	NOUN	NNS	Number=Plur	5	obl	5:obl:to	_
-11	for	for	ADP	IN	_	10	nmod	10:nmod	_
+11	for	for	ADP	IN	_	14	case	14:case	_
 12	mandatory	mandatory	ADJ	JJ	Degree=Pos	14	amod	14:amod	Bridge=substance-21<substance-84|Entity=(substance-84
 13	iodised	iodise	VERB	VBN	Tense=Past|VerbForm=Part	14	amod	14:amod	_
-14	salt	salt	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=event-83)substance-84)|SpaceAfter=No
+14	salt	salt	NOUN	NN	Number=Sing	10	nmod	10:nmod:for	Entity=event-83)substance-84)|SpaceAfter=No
 15	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_news_iodine-24
-# text = "The effects of iodine deficiency are dependent upon how severe it is and when it occurs.
 # s_type = decl
+# text = "The effects of iodine deficiency are dependent upon how severe it is and when it occurs.
 1	"	''	PUNCT	``	_	8	punct	8:punct	Discourse=background:61->62|SpaceAfter=No
 2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(abstract-85
 3	effects	effect	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj	_
@@ -638,8 +650,8 @@
 18	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_news_iodine-25
-# text = So if we go to the pregnant woman, she doesn't get enough iodine, she won't make enough thyroid hormone, and the foetus won't get the amount of thyroid hormone it needs for adequate and proper development of the brain, so you'll then see consequences being loss of IQ, learning difficulties, hearing difficulties and other neurological problems," Professor Eastman said.
 # s_type = decl
+# text = So if we go to the pregnant woman, she doesn't get enough iodine, she won't make enough thyroid hormone, and the foetus won't get the amount of thyroid hormone it needs for adequate and proper development of the brain, so you'll then see consequences being loss of IQ, learning difficulties, hearing difficulties and other neurological problems," Professor Eastman said.
 1	So	so	ADV	RB	_	13	advmod	13:advmod	Discourse=joint:62->3
 2	if	if	SCONJ	IN	_	4	mark	4:mark	Discourse=condition:63->65
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-86)
@@ -650,14 +662,16 @@
 8	woman	woman	NOUN	NN	Number=Sing	4	obl	4:obl:to	Entity=person-87)|SpaceAfter=No
 9	,	,	PUNCT	,	_	4	punct	4:punct	_
 10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	Discourse=condition:64->65|Entity=(person-87)
-11	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	13:aux	SpaceAfter=No
+11-12	doesn't	_	_	_	_	_	_	_	_
+11	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	13:aux	_
 12	n't	not	PART	RB	Polarity=Neg	13	advmod	13:advmod	_
 13	get	get	VERB	VB	VerbForm=Inf	71	ccomp	71:ccomp	_
 14	enough	enough	ADJ	JJ	Degree=Pos	15	amod	15:amod	Entity=(substance-3
 15	iodine	iodine	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=substance-3)|SpaceAfter=No
 16	,	,	PUNCT	,	_	20	punct	20:punct	_
 17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	20:nsubj	Discourse=same-unit:65->62|Entity=(person-87)
-18	wo	will	AUX	MD	VerbForm=Fin	20	aux	20:aux	SpaceAfter=No
+18-19	won't	_	_	_	_	_	_	_	_
+18	wo	will	AUX	MD	VerbForm=Fin	20	aux	20:aux	_
 19	n't	not	PART	RB	Polarity=Neg	20	advmod	20:advmod	_
 20	make	make	VERB	VB	VerbForm=Inf	13	conj	13:conj:and|71:ccomp	_
 21	enough	enough	ADJ	JJ	Degree=Pos	23	amod	23:amod	Entity=(substance-88
@@ -667,7 +681,8 @@
 25	and	and	CCONJ	CC	_	30	cc	30:cc	Discourse=result:66->65
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Bridge=person-87<person-90|Entity=(person-90
 27	foetus	foetus	NOUN	NN	Number=Sing	30	nsubj	30:nsubj	Entity=person-90)
-28	wo	will	AUX	MD	VerbForm=Fin	30	aux	30:aux	SpaceAfter=No
+28-29	won't	_	_	_	_	_	_	_	_
+28	wo	will	AUX	MD	VerbForm=Fin	30	aux	30:aux	_
 29	n't	not	PART	RB	Polarity=Neg	30	advmod	30:advmod	_
 30	get	get	VERB	VB	VerbForm=Inf	13	conj	13:conj:and|71:ccomp	_
 31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	32:det	_
@@ -687,7 +702,8 @@
 45	brain	brain	NOUN	NN	Number=Sing	42	nmod	42:nmod:of	Entity=abstract-92)object-93)|SpaceAfter=No
 46	,	,	PUNCT	,	_	51	punct	51:punct	_
 47	so	so	ADV	RB	_	51	advmod	51:advmod	Discourse=result:68->66
-48	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	51	nsubj	51:nsubj|59:nsubj:xsubj|62:nsubj:xsubj|66:nsubj:xsubj	Entity=(person-94)|SpaceAfter=No
+48-49	you'll	_	_	_	_	_	_	_	_
+48	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	51	nsubj	51:nsubj|59:nsubj:xsubj|62:nsubj:xsubj|66:nsubj:xsubj	Entity=(person-94)
 49	'll	will	AUX	MD	VerbForm=Fin	51	aux	51:aux	_
 50	then	then	ADV	RB	PronType=Dem	51	advmod	51:advmod	_
 51	see	see	VERB	VB	VerbForm=Inf	30	parataxis	30:parataxis	_
@@ -708,33 +724,36 @@
 66	problems	problem	NOUN	NNS	Number=Plur	54	conj	51:xcomp|54:conj:and	Entity=abstract-100)|SpaceAfter=No
 67	,	,	PUNCT	,	_	13	punct	13:punct	SpaceAfter=No
 68	"	''	PUNCT	''	_	13	punct	13:punct	_
-69	Professor	professor	PROPN	NNP	Number=Sing	71	nsubj	71:nsubj	Discourse=attribution:69->62|Entity=(person-50-Creswell_Eastman
+69	Professor	Professor	PROPN	NNP	Number=Sing	71	nsubj	71:nsubj	Discourse=attribution:69->62|Entity=(person-50-Creswell_Eastman
 70	Eastman	Eastman	PROPN	NNP	Number=Sing	69	flat	69:flat	Entity=person-50-Creswell_Eastman)
 71	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 72	.	.	PUNCT	.	_	71	punct	71:punct	_
 
 # sent_id = GUM_news_iodine-26
-# text = "If an infant's not getting enough iodine ... brain development won't be completed and they won't grow normally, and as you get older the problem will be that you will develop a goiter and your thyroid won't function as well as it should, so that may have all sorts of pernicious effects upon normal function in life."
 # s_type = decl
+# text = "If an infant's not getting enough iodine ... brain development won't be completed and they won't grow normally, and as you get older the problem will be that you will develop a goiter and your thyroid won't function as well as it should, so that may have all sorts of pernicious effects upon normal function in life."
 1	"	''	PUNCT	``	_	16	punct	16:punct	Discourse=condition:70->71|SpaceAfter=No
 2	If	if	SCONJ	IN	_	7	mark	7:mark	_
 3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(person-101
-4	infant	infant	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=person-101)|SpaceAfter=No
+4-5	infant's	_	_	_	_	_	_	_	_
+4	infant	infant	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=person-101)
 5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_
 6	not	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	_
 7	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	16	advcl	16:advcl:if	_
 8	enough	enough	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(substance-3
 9	iodine	iodine	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=substance-3)
-10	...	...	PUNCT	:	_	7	punct	7:punct	_
+10	...	…	PUNCT	:	_	7	punct	7:punct	_
 11	brain	brain	NOUN	NN	Number=Sing	12	compound	12:compound	Bridge=person-101<object-102|Discourse=elaboration:71->62|Entity=(abstract-92(object-102)
 12	development	development	NOUN	NN	Number=Sing	16	nsubj:pass	16:nsubj:pass	Entity=abstract-92)
-13	wo	will	AUX	MD	VerbForm=Fin	16	aux	16:aux	SpaceAfter=No
+13-14	won't	_	_	_	_	_	_	_	_
+13	wo	will	AUX	MD	VerbForm=Fin	16	aux	16:aux	_
 14	n't	not	PART	RB	Polarity=Neg	16	advmod	16:advmod	_
 15	be	be	AUX	VB	VerbForm=Inf	16	aux:pass	16:aux:pass	_
 16	completed	complete	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 17	and	and	CCONJ	CC	_	21	cc	21:cc	Discourse=joint:72->71
 18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	21:nsubj	Entity=(person-101)
-19	wo	will	AUX	MD	VerbForm=Fin	21	aux	21:aux	SpaceAfter=No
+19-20	won't	_	_	_	_	_	_	_	_
+19	wo	will	AUX	MD	VerbForm=Fin	21	aux	21:aux	_
 20	n't	not	PART	RB	Polarity=Neg	21	advmod	21:advmod	_
 21	grow	grow	VERB	VB	VerbForm=Inf	16	conj	16:conj:and	_
 22	normally	normally	ADV	RB	Degree=Pos	21	advmod	21:advmod	SpaceAfter=No
@@ -757,7 +776,8 @@
 39	and	and	CCONJ	CC	_	44	cc	44:cc	Discourse=joint:75->74
 40	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	41	nmod:poss	41:nmod:poss	Entity=(object-89(person-101)
 41	thyroid	thyroid	NOUN	NN	Number=Sing	44	nsubj	44:nsubj	Entity=object-89)
-42	wo	will	AUX	MD	VerbForm=Fin	44	aux	44:aux	SpaceAfter=No
+42-43	won't	_	_	_	_	_	_	_	_
+42	wo	will	AUX	MD	VerbForm=Fin	44	aux	44:aux	_
 43	n't	not	PART	RB	Polarity=Neg	44	advmod	44:advmod	_
 44	function	function	VERB	VB	VerbForm=Inf	36	conj	16:conj|36:conj:and	_
 45	as	as	ADV	RB	_	46	advmod	46:advmod	_
@@ -784,13 +804,13 @@
 66	"	''	PUNCT	''	_	16	punct	16:punct	_
 
 # sent_id = GUM_news_iodine-27
-# text = More than two billion people around the world live in areas prone to iodine deficiency, and yet the problem is easily fixed.
 # s_type = decl
-1	More	more	ADJ	JJR	Degree=Cmp	4	advmod	4:advmod	Discourse=background:78->83|Entity=(person-108
+# text = More than two billion people around the world live in areas prone to iodine deficiency, and yet the problem is easily fixed.
+1	More	more	ADV	RBR	Degree=Cmp	4	advmod	4:advmod	Discourse=background:78->83|Entity=(person-108
 2	than	than	ADP	IN	_	1	fixed	1:fixed	_
 3	two	two	NUM	CD	NumForm=Word|NumType=Card	4	compound	4:compound	_
 4	billion	billion	NUM	CD	NumForm=Word|NumType=Card	5	nummod	5:nummod	_
-5	people	people	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj	_
+5	people	person	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj	_
 6	around	around	ADP	IN	_	8	case	8:case	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(place-109
 8	world	world	NOUN	NN	Number=Sing	5	nmod	5:nmod:around	Entity=person-108)place-109)
@@ -812,8 +832,8 @@
 24	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_news_iodine-28
-# text = The World Health Organisation (WHO) recommends that every country should iodise all edible salt.
 # s_type = decl
+# text = The World Health Organisation (WHO) recommends that every country should iodise all edible salt.
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Discourse=attribution:80->83|Entity=(organization-81-World_Health_Organization
 2	World	World	PROPN	NNP	Number=Sing	4	compound	4:compound	_
 3	Health	Health	PROPN	NNP	Number=Sing	4	compound	4:compound	_
@@ -833,8 +853,8 @@
 17	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_news_iodine-29
-# text = The most well known effects of IDD are visible goiter and cretinism, a condition characterised by severe brain damage occurring in very early life.
 # s_type = decl
+# text = The most well known effects of IDD are visible goiter and cretinism, a condition characterised by severe brain damage occurring in very early life.
 1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Discourse=cause:84->83|Entity=(abstract-112
 2	most	most	ADV	RBS	Degree=Sup	4	advmod	4:advmod	_
 3	well	well	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
@@ -863,22 +883,23 @@
 26	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_news_iodine-30
-# text = WHO say Iodine deficiency is the world’s most prevalent, yet easily preventable, cause of brain damage.
 # s_type = decl
+# text = WHO say Iodine deficiency is the world’s most prevalent, yet easily preventable, cause of brain damage.
 1	WHO	WHO	PROPN	NNP	Abbr=Yes|Number=Sing	2	nsubj	2:nsubj	Discourse=attribution:87->88|Entity=(organization-81-World_Health_Organization)
 2	say	say	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	Iodine	iodine	NOUN	NN	Number=Sing	4	compound	4:compound	Discourse=joint:88->84|Entity=(abstract-2(substance-3)
 4	deficiency	deficiency	NOUN	NN	Number=Sing	16	nsubj	16:nsubj	Entity=abstract-2)
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	16:cop	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(abstract-2(place-109
-7	world	world	NOUN	NN	Number=Sing	16	nmod:poss	16:nmod:poss	SpaceAfter=No
+7-8	world’s	_	_	_	_	_	_	_	_
+7	world	world	NOUN	NN	Number=Sing	16	nmod:poss	16:nmod:poss	_
 8	’s	's	PART	POS	_	7	case	7:case	Entity=place-109)
 9	most	most	ADV	RBS	Degree=Sup	10	advmod	10:advmod	_
 10	prevalent	prevalent	ADJ	JJ	Degree=Pos	16	amod	16:amod	SpaceAfter=No
 11	,	,	PUNCT	,	_	14	punct	14:punct	_
-12	yet	yet	ADV	RB	_	14	advmod	14:advmod	_
+12	yet	yet	CCONJ	CC	_	14	cc	14:cc	_
 13	easily	easily	ADV	RB	Degree=Pos	14	advmod	14:advmod	_
-14	preventable	preventable	ADJ	JJ	Degree=Pos	10	dep	10:dep	SpaceAfter=No
+14	preventable	preventable	ADJ	JJ	Degree=Pos	10	conj	10:conj:yet|16:amod	SpaceAfter=No
 15	,	,	PUNCT	,	_	10	punct	10:punct	_
 16	cause	cause	NOUN	NN	Number=Sing	2	ccomp	2:ccomp	_
 17	of	of	ADP	IN	_	19	case	19:case	_
@@ -887,9 +908,9 @@
 20	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_news_iodine-31
-# text = Professor Eastman said he is alarmed by what they found.
 # s_type = decl
-1	Professor	professor	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=attribution:89->90|Entity=(person-50-Creswell_Eastman
+# text = Professor Eastman said he is alarmed by what they found.
+1	Professor	Professor	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=attribution:89->90|Entity=(person-50-Creswell_Eastman
 2	Eastman	Eastman	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-50-Creswell_Eastman)
 3	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	6:nsubj:pass	Discourse=evaluation:90->91|Entity=(person-50-Creswell_Eastman)
@@ -902,8 +923,8 @@
 11	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_iodine-32
-# text = "Pregnant women in Australia are getting about half as much as what they require on a daily basis.
 # s_type = decl
+# text = "Pregnant women in Australia are getting about half as much as what they require on a daily basis.
 1	"	''	PUNCT	``	_	7	punct	7:punct	Discourse=joint:91->3|SpaceAfter=No
 2	Pregnant	pregnant	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(event-116(person-54
 3	women	woman	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	_
@@ -926,15 +947,16 @@
 20	.	.	PUNCT	.	_	7	punct	7:punct	Entity=event-116)
 
 # sent_id = GUM_news_iodine-33
-# text = So that alarms me, because there's quite serious potential for adverse effects and brain damage in the next generation of children born in this country," he said.
 # s_type = decl
+# text = So that alarms me, because there's quite serious potential for adverse effects and brain damage in the next generation of children born in this country," he said.
 1	So	so	ADV	RB	_	3	advmod	3:advmod	Discourse=evaluation:93->91
 2	that	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Entity=(event-116)
 3	alarms	alarm	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	ccomp	31:ccomp	_
 4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	3:obj	Entity=(person-50-Creswell_Eastman)|SpaceAfter=No
 5	,	,	PUNCT	,	_	8	punct	8:punct	_
 6	because	because	SCONJ	IN	_	8	mark	8:mark	Discourse=result:94->93
-7	there	there	PRON	EX	_	8	expl	8:expl	SpaceAfter=No
+7-8	there's	_	_	_	_	_	_	_	_
+7	there	there	PRON	EX	_	8	expl	8:expl	_
 8	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl:because	_
 9	quite	quite	ADV	RB	_	10	advmod	10:advmod	Entity=(abstract-117
 10	serious	serious	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
@@ -962,8 +984,8 @@
 32	.	.	PUNCT	.	_	31	punct	31:punct	_
 
 # sent_id = GUM_news_iodine-34
-# text = "If Iodine deficiency is serious you lose 15 IQ points, on average.
 # s_type = decl
+# text = "If Iodine deficiency is serious you lose 15 IQ points, on average.
 1	"	''	PUNCT	``	_	8	punct	8:punct	Discourse=condition:97->98|SpaceAfter=No
 2	If	if	SCONJ	IN	_	6	mark	6:mark	_
 3	Iodine	iodine	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(abstract-2(substance-3)
@@ -981,13 +1003,14 @@
 15	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_news_iodine-35
-# text = There shouldn't be anyone suffering from iodine deficiency in a developed country like Australia."
 # s_type = sub
-1	There	there	PRON	EX	_	5	expl	5:expl	Discourse=elaboration:99->91
-2	should	should	AUX	MD	VerbForm=Fin	5	aux	5:aux	SpaceAfter=No
-3	n't	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
-4	be	be	AUX	VB	VerbForm=Inf	5	cop	5:cop	_
-5	anyone	anyone	NOUN	NN	Number=Sing	0	root	0:root	Entity=(person-122)
+# text = There shouldn't be anyone suffering from iodine deficiency in a developed country like Australia."
+1	There	there	PRON	EX	_	4	expl	4:expl	Discourse=elaboration:99->91
+2-3	shouldn't	_	_	_	_	_	_	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
+4	be	be	VERB	VB	VerbForm=Inf	0	root	0:root	_
+5	anyone	anyone	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=(person-122)
 6	suffering	suffer	VERB	VBG	VerbForm=Ger	5	acl	5:acl	Discourse=elaboration:100->99
 7	from	from	ADP	IN	_	9	case	9:case	_
 8	iodine	iodine	NOUN	NN	Number=Sing	9	compound	9:compound	Entity=(abstract-2(substance-3)
@@ -995,20 +1018,20 @@
 10	in	in	ADP	IN	_	13	case	13:case	_
 11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Entity=(place-123
 12	developed	develop	VERB	VBN	Tense=Past|VerbForm=Part	13	amod	13:amod	_
-13	country	country	NOUN	NN	Number=Sing	6	obl	6:obl:in	_
+13	country	country	NOUN	NN	Number=Sing	4	obl	4:obl:in	_
 14	like	like	ADP	IN	_	15	case	15:case	_
 15	Australia	Australia	PROPN	NNP	Number=Sing	13	nmod	13:nmod:like	Entity=(place-15-Australia)place-123)|SpaceAfter=No
-16	.	.	PUNCT	.	_	5	punct	5:punct	SpaceAfter=No
-17	"	''	PUNCT	''	_	5	punct	5:punct	_
+16	.	.	PUNCT	.	_	4	punct	4:punct	SpaceAfter=No
+17	"	''	PUNCT	''	_	4	punct	4:punct	_
 
 # sent_id = GUM_news_iodine-36
-# text = Lydia Buchtmann for Food Standards Australia New Zealand, says they are looking at mandatory guidelines on iodine by the end of the year.
 # s_type = decl
+# text = Lydia Buchtmann for Food Standards Australia New Zealand, says they are looking at mandatory guidelines on iodine by the end of the year.
 1	Lydia	Lydia	PROPN	NNP	Number=Sing	10	nsubj	10:nsubj	Discourse=attribution:101->102|Entity=(person-124
 2	Buchtmann	Buchtmann	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-124)
 3	for	for	ADP	IN	_	5	case	5:case	_
 4	Food	Food	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=(organization-67-Food_Standards_Australia_New_Zealand(substance-47)
-5	Standards	Standards	PROPN	NNPS	Number=Plur	1	nmod	1:nmod:for	_
+5	Standards	Standard	PROPN	NNPS	Number=Plur	1	nmod	1:nmod:for	_
 6	Australia	Australia	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=(place-15-Australia)
 7	New	New	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=(place-68-New_Zealand
 8	Zealand	Zealand	PROPN	NNP	Number=Sing	7	flat	7:flat	Entity=organization-67-Food_Standards_Australia_New_Zealand)place-68-New_Zealand)|SpaceAfter=No
@@ -1031,33 +1054,34 @@
 25	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_news_iodine-37
-# text = She says the issue is complicated and will take time to get right.
 # s_type = decl
+# text = She says the issue is complicated and will take time to get right.
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:103->104|Entity=(person-124)
 2	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Discourse=concession:104->102|Entity=(abstract-2
-4	issue	issue	NOUN	NN	Number=Sing	6	nsubj:pass	6:nsubj:pass|9:nsubj:pass	Entity=abstract-2)
+4	issue	issue	NOUN	NN	Number=Sing	6	nsubj:pass	6:nsubj:pass	Entity=abstract-2)
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	6:aux:pass	_
-6	complicated	complicate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	2:ccomp	_
+6	complicated	complicated	ADJ	JJ	Degree=Pos	2	ccomp	2:ccomp	_
 7	and	and	CCONJ	CC	_	9	cc	9:cc	Discourse=joint:105->104
 8	will	will	AUX	MD	VerbForm=Fin	9	aux	9:aux	_
 9	take	take	VERB	VB	Person=2|VerbForm=Inf	6	conj	2:ccomp|6:conj:and	_
 10	time	time	NOUN	NN	Number=Sing	9	obj	9:obj	_
 11	to	to	PART	TO	_	12	mark	12:mark	_
 12	get	get	VERB	VB	VerbForm=Inf	9	advcl	9:advcl:to	_
-13	right	right	ADV	RB	Degree=Pos	12	advmod	12:advmod	SpaceAfter=No
+13	right	right	ADJ	JJ	Degree=Pos	12	xcomp	12:xcomp	SpaceAfter=No
 14	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_news_iodine-38
-# text = We need to "make sure there's sufficient iodine added into the food supply, to help those people with a deficiency.
 # s_type = sub
+# text = We need to "make sure there's sufficient iodine added into the food supply, to help those people with a deficiency.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj|5:nsubj:xsubj|6:nsubj:xsubj	Discourse=joint:106->102|Entity=(person-127)
 2	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	to	to	PART	TO	_	5	mark	5:mark	_
 4	"	''	PUNCT	``	_	3	punct	3:punct	SpaceAfter=No
 5	make	make	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	_
 6	sure	sure	ADJ	JJ	Degree=Pos	5	xcomp	5:xcomp	_
-7	there	there	PRON	EX	_	8	expl	8:expl	SpaceAfter=No
+7-8	there's	_	_	_	_	_	_	_	_
+7	there	there	PRON	EX	_	8	expl	8:expl	_
 8	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	6:ccomp	_
 9	sufficient	sufficient	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
 10	iodine	iodine	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=(substance-3)
@@ -1068,17 +1092,17 @@
 15	supply	supply	NOUN	NN	Number=Sing	11	obl	11:obl:into	Entity=abstract-128)|SpaceAfter=No
 16	,	,	PUNCT	,	_	18	punct	18:punct	_
 17	to	to	PART	TO	_	18	mark	18:mark	Discourse=purpose:108->106
-18	help	help	VERB	VB	VerbForm=Inf	11	xcomp	11:xcomp	_
+18	help	help	VERB	VB	VerbForm=Inf	5	advcl	5:advcl:to	_
 19	those	this	DET	DT	Number=Plur|PronType=Dem	20	det	20:det	Entity=(person-129
-20	people	people	NOUN	NNS	Number=Plur	18	obj	18:obj	_
+20	people	person	NOUN	NNS	Number=Plur	18	obj	18:obj	_
 21	with	with	ADP	IN	_	23	case	23:case	_
 22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	23:det	Entity=(abstract-2
 23	deficiency	deficiency	NOUN	NN	Number=Sing	20	nmod	20:nmod:with	Entity=person-129)abstract-2)|SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_news_iodine-39
-# text = But at the other end of the scale we've got to make sure the people who eat a lot of food - we all know the teenage boy who comes home from school and eats a whole loaf of bread - that those people don't get too much and get overdose," Ms Bauchtman said.
 # s_type = decl
+# text = But at the other end of the scale we've got to make sure the people who eat a lot of food - we all know the teenage boy who comes home from school and eats a whole loaf of bread - that those people don't get too much and get overdose," Ms Bauchtman said.
 1	But	but	CCONJ	CC	_	11	cc	11:cc	Discourse=contrast:109->106
 2	at	at	ADP	IN	_	5	case	5:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	_
@@ -1087,14 +1111,15 @@
 6	of	of	ADP	IN	_	8	case	8:case	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	_
 8	scale	scale	NOUN	NN	Number=Sing	5	nmod	5:nmod:of	_
-9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	11:nsubj|13:nsubj:xsubj|14:nsubj:xsubj	Entity=(person-127)|SpaceAfter=No
+9-10	we've	_	_	_	_	_	_	_	_
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	11:nsubj|13:nsubj:xsubj|14:nsubj:xsubj	Entity=(person-127)
 10	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
 11	got	get	VERB	VBN	Tense=Past|VerbForm=Part	58	ccomp	58:ccomp	_
 12	to	to	PART	TO	_	13	mark	13:mark	_
 13	make	make	VERB	VB	VerbForm=Inf	11	xcomp	11:xcomp	_
 14	sure	sure	ADJ	JJ	Degree=Pos	13	xcomp	13:xcomp	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(person-130
-16	people	people	NOUN	NNS	Number=Plur	14	parataxis	14:parataxis|18:nsubj	_
+16	people	person	NOUN	NNS	Number=Plur	14	parataxis	14:parataxis|18:nsubj	_
 17	who	who	PRON	WP	PronType=Rel	18	nsubj	16:ref	Discourse=elaboration:110->109
 18	eat	eat	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	16:acl:relcl	_
 19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(substance-131
@@ -1110,7 +1135,7 @@
 29	boy	boy	NOUN	NN	Number=Sing	26	obj	26:obj|31:nsubj	_
 30	who	who	PRON	WP	PronType=Rel	31	nsubj	29:ref	Discourse=elaboration:112->111
 31	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	29:acl:relcl	_
-32	home	home	NOUN	NN	Number=Sing	31	obj	31:obj	Bridge=person-130<place-133|Entity=(place-133)
+32	home	home	ADV	RB	Degree=Pos	31	advmod	31:advmod	Bridge=person-130<place-133|Entity=(place-133)
 33	from	from	ADP	IN	_	34	case	34:case	_
 34	school	school	NOUN	NN	Number=Sing	31	obl	31:obl:from	Bridge=person-130<organization-134|Entity=(organization-134)
 35	and	and	CCONJ	CC	_	36	cc	36:cc	Discourse=joint:113->112
@@ -1123,14 +1148,15 @@
 42	-	-	PUNCT	:	_	48	punct	48:punct	_
 43	that	that	SCONJ	IN	_	48	mark	48:mark	Discourse=same-unit:114->109
 44	those	this	DET	DT	Number=Plur|PronType=Dem	45	det	45:det	Entity=(person-130
-45	people	people	NOUN	NNS	Number=Plur	48	nsubj	48:nsubj|52:nsubj	Entity=person-130)
-46	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	48	aux	48:aux	SpaceAfter=No
+45	people	person	NOUN	NNS	Number=Plur	48	nsubj	48:nsubj|52:nsubj	Entity=person-130)
+46-47	don't	_	_	_	_	_	_	_	_
+46	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	48	aux	48:aux|52:aux	_
 47	n't	not	PART	RB	Polarity=Neg	48	advmod	48:advmod	_
 48	get	get	VERB	VB	VerbForm=Inf	14	ccomp	14:ccomp	_
 49	too	too	ADV	RB	Degree=Pos	50	advmod	50:advmod	_
 50	much	much	ADV	RB	Degree=Pos	48	advmod	48:advmod	_
 51	and	and	CCONJ	CC	_	52	cc	52:cc	Discourse=result:115->109
-52	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	conj	14:ccomp|48:conj:and	_
+52	get	get	VERB	VB	Person=2|VerbForm=Inf	48	conj	14:ccomp|48:conj:and	_
 53	overdose	overdose	NOUN	NN	Number=Sing	52	obj	52:obj	Entity=(abstract-137)|SpaceAfter=No
 54	,	,	PUNCT	,	_	11	punct	11:punct	SpaceAfter=No
 55	"	''	PUNCT	''	_	11	punct	11:punct	_
@@ -1140,8 +1166,8 @@
 59	.	.	PUNCT	.	_	58	punct	58:punct	_
 
 # sent_id = GUM_news_iodine-40
-# text = "One of the reasons that iodine is going down is because people are taking that good healthy eating message and not adding salt during cooking."
 # s_type = decl
+# text = "One of the reasons that iodine is going down is because people are taking that good healthy eating message and not adding salt during cooking."
 1	"	''	PUNCT	``	_	15	punct	15:punct	Discourse=cause:117->120|SpaceAfter=No
 2	One	one	NUM	CD	NumForm=Word|NumType=Card	15	nsubj	15:nsubj|23:nsubj	Entity=(abstract-138
 3	of	of	ADP	IN	_	5	case	5:case	_
@@ -1154,7 +1180,7 @@
 10	down	down	ADV	RB	Degree=Pos	9	advmod	9:advmod	Entity=abstract-138)
 11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	Discourse=same-unit:119->117
 12	because	because	SCONJ	IN	_	15	mark	15:mark	_
-13	people	people	NOUN	NNS	Number=Plur	15	nsubj	15:nsubj|23:nsubj	Entity=(person-139)
+13	people	person	NOUN	NNS	Number=Plur	15	nsubj	15:nsubj|23:nsubj	Entity=(person-139)
 14	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	15:aux|23:aux	_
 15	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
 16	that	that	DET	DT	Number=Sing|PronType=Dem	20	det	20:det	Entity=(abstract-140
@@ -1172,8 +1198,8 @@
 28	"	''	PUNCT	''	_	15	punct	15:punct	_
 
 # sent_id = GUM_news_iodine-41
-# text = Senior researcher Mu Li, of the University of NSW's school of public health, said "it is reasonable to assume that pregnant women and breastfeeding mothers are also iodine deficient, putting the next generation of children born in this country at risk of the neuropsychological consequences of iodine deficiency."
 # s_type = decl
+# text = Senior researcher Mu Li, of the University of NSW's school of public health, said "it is reasonable to assume that pregnant women and breastfeeding mothers are also iodine deficient, putting the next generation of children born in this country at risk of the neuropsychological consequences of iodine deficiency."
 1	Senior	Senior	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=preparation:121->122|Entity=(person-143
 2	researcher	researcher	NOUN	NN	Number=Sing	17	nsubj	17:nsubj	_
 3	Mu	Mu	PROPN	NNP	Number=Sing	2	flat	2:flat	_
@@ -1183,7 +1209,8 @@
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(organization-144(organization-145-University_of_New_South_Wales
 8	University	University	PROPN	NNP	Number=Sing	2	nmod	2:nmod:of	_
 9	of	of	ADP	IN	_	12	case	12:case	_
-10	NSW	NSW	PROPN	NNP	Abbr=Yes|Number=Sing	12	nmod:poss	12:nmod:poss	Entity=(place-27-New_South_Wales)|SpaceAfter=No
+10-11	NSW's	_	_	_	_	_	_	_	_
+10	NSW	NSW	PROPN	NNP	Abbr=Yes|Number=Sing	12	nmod:poss	12:nmod:poss	Entity=(place-27-New_South_Wales)
 11	's	's	PART	POS	_	10	case	10:case	Entity=organization-145-University_of_New_South_Wales)
 12	school	school	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	_
 13	of	of	ADP	IN	_	15	case	15:case	_

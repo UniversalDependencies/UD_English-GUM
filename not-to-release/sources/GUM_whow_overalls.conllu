@@ -1,19 +1,26 @@
 # newdoc id = GUM_whow_overalls
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2014-09-15
+# meta::dateCreated = 2014-09-06
+# meta::dateModified = 2014-09-10
+# meta::sourceURL = https://www.wikihow.com/Wash-Overalls-in-a-Washing-Machine
+# meta::speakerCount = 0
+# meta::title = How to Wash Overalls in a Washing Machine
 # sent_id = GUM_whow_overalls-1
-# text = How to Wash Overalls in a Washing Machine
 # s_type = inf
+# text = How to Wash Overalls in a Washing Machine
 1	How	how	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=preparation:1->17
 2	to	to	PART	TO	_	3	mark	3:mark	_
 3	Wash	wash	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	_
 4	Overalls	overall	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=(object-1)
 5	in	in	ADP	IN	_	8	case	8:case	_
 6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(object-2
-7	Washing	wash	VERB	VBG	VerbForm=Ger	8	compound	8:compound	_
+7	Washing	wash	VERB	VBG	VerbForm=Ger	8	amod	8:amod	_
 8	Machine	machine	NOUN	NN	Number=Sing	3	obl	3:obl:in	Entity=object-2)
 
 # sent_id = GUM_whow_overalls-2
-# text = Whether you are a working man or just a little cutie trying to stay cute, those overalls are going to need washing sooner or later.
 # s_type = decl
+# text = Whether you are a working man or just a little cutie trying to stay cute, those overalls are going to need washing sooner or later.
 1	Whether	whether	SCONJ	IN	_	6	mark	6:mark	Discourse=circumstance:2->4
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj|11:nsubj	Entity=(person-3)
 3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
@@ -43,18 +50,19 @@
 27	.	.	PUNCT	.	_	20	punct	20:punct	_
 
 # sent_id = GUM_whow_overalls-3
-# text = The straps on adults’ overalls often get so twisted during the wash that one wishes she had just used an old fashioned washboard instead.
 # s_type = decl
+# text = The straps on adults’ overalls often get so twisted during the wash that one wishes she had just used an old fashioned washboard instead.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=object-1<object-7|Discourse=background:5->11|Entity=(object-7
-2	straps	strap	NOUN	NNS	Number=Plur	10	nsubj	10:nsubj	_
+2	straps	strap	NOUN	NNS	Number=Plur	10	nsubj:pass	10:nsubj:pass	_
 3	on	on	ADP	IN	_	6	case	6:case	_
-4	adults	adult	NOUN	NNS	Number=Plur	6	nmod:poss	6:nmod:poss	Entity=(object-8(person-9|SpaceAfter=No
+4-5	adults’	_	_	_	_	_	_	_	_
+4	adults	adult	NOUN	NNS	Number=Plur	6	nmod:poss	6:nmod:poss	Entity=(object-8(person-9
 5	’	's	PART	POS	_	4	case	4:case	Entity=person-9)
 6	overalls	overall	NOUN	NNS	Number=Plur	2	nmod	2:nmod:on	Entity=object-7)object-8)
 7	often	often	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
 8	get	get	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	10:aux:pass	_
 9	so	so	ADV	RB	_	10	advmod	10:advmod	_
-10	twisted	twisted	ADJ	JJ	Degree=Pos	0	root	0:root	_
+10	twisted	twist	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 11	during	during	ADP	IN	_	13	case	13:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(event-6
 13	wash	wash	NOUN	NN	Number=Sing	10	obl	10:obl:during	Entity=event-6)
@@ -67,14 +75,14 @@
 20	used	use	VERB	VBN	Tense=Past|VerbForm=Part	16	ccomp	16:ccomp	_
 21	an	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(object-11
 22	old	old	ADJ	JJ	Degree=Pos	23	advmod	23:advmod	_
-23	fashioned	fashion	ADJ	JJ	Degree=Pos	24	amod	24:amod	_
+23	fashioned	fashioned	ADJ	JJ	Degree=Pos	24	amod	24:amod	_
 24	washboard	washboard	NOUN	NN	Number=Sing	20	obj	20:obj	Entity=object-11)
 25	instead	instead	ADV	RB	Degree=Pos	20	advmod	20:advmod	SpaceAfter=No
 26	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_whow_overalls-4
-# text = Your appliances are also murder on the straps, which are almost always the first things to wear out on your overalls.
 # s_type = decl
+# text = Your appliances are also murder on the straps, which are almost always the first things to wear out on your overalls.
 1	Your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=elaboration:8->5|Entity=(object-12(person-3)
 2	appliances	appliance	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=object-12)
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
@@ -100,13 +108,13 @@
 23	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_whow_overalls-5
-# text = This article will show you how to save time and prevent wear, extending the life of your overalls until they are so soft you could wear them to bed.
 # s_type = decl
+# text = This article will show you how to save time and prevent wear, extending the life of your overalls until they are so soft you could wear them to bed.
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=attribution:10->11|Entity=(abstract-14
-2	article	article	NOUN	NN	Number=Sing	4	nsubj	4:nsubj|11:nsubj:xsubj	Entity=abstract-14)
+2	article	article	NOUN	NN	Number=Sing	4	nsubj	4:nsubj|8:nsubj:xsubj|11:nsubj:xsubj	Entity=abstract-14)
 3	will	will	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 4	show	show	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	4	obj	4:obj|8:nsubj:xsubj|11:nsubj:xsubj	Entity=(person-3)
+5	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	4	iobj	4:iobj	Entity=(person-3)
 6	how	how	SCONJ	WRB	PronType=Int	8	mark	8:mark	Discourse=preparation:11->17
 7	to	to	PART	TO	_	8	mark	8:mark	_
 8	save	save	VERB	VB	VerbForm=Inf	4	xcomp	4:xcomp	_
@@ -135,13 +143,13 @@
 31	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_whow_overalls-6
-# text = Steps
 # s_type = frag
+# text = Steps
 1	Steps	step	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=preparation:16->17|Entity=(abstract-19)
 
 # sent_id = GUM_whow_overalls-7
-# text = Wash alone or with "like" clothing.
 # s_type = imp
+# text = Wash alone or with "like" clothing.
 1	Wash	wash	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=ROOT:17
 2	alone	alone	ADV	RB	Degree=Pos	1	advmod	1:advmod	_
 3	or	or	CCONJ	CC	_	8	cc	8:cc	_
@@ -153,26 +161,29 @@
 9	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_overalls-8
-# text = It’s best to wash adults’ overalls alone, especially men’s.
 # s_type = decl
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=elaboration:18->17|Entity=(abstract-21)|SpaceAfter=No
+# text = It’s best to wash adults’ overalls alone, especially men’s.
+1-2	It’s	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=elaboration:18->17|Entity=(abstract-21)
 2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	best	good	ADJ	JJS	Degree=Sup	0	root	0:root	_
 4	to	to	PART	TO	_	5	mark	5:mark	Entity=(abstract-21
 5	wash	wash	VERB	VB	VerbForm=Inf	3	csubj	3:csubj	_
-6	adults	adult	NOUN	NNS	Number=Plur	8	nmod:poss	8:nmod:poss	Entity=(object-8(person-9|SpaceAfter=No
+6-7	adults’	_	_	_	_	_	_	_	_
+6	adults	adult	NOUN	NNS	Number=Plur	8	nmod:poss	8:nmod:poss	Entity=(object-8(person-9
 7	’	's	PART	POS	_	6	case	6:case	Entity=person-9)
 8	overalls	overall	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=object-8)
 9	alone	alone	ADV	RB	Degree=Pos	5	advmod	5:advmod	Entity=abstract-21)|SpaceAfter=No
 10	,	,	PUNCT	,	_	12	punct	12:punct	_
 11	especially	especially	ADV	RB	Degree=Pos	12	advmod	12:advmod	_
-12	men	man	NOUN	NNS	Number=Plur	8	appos	8:appos	Entity=(person-22|SpaceAfter=No
-13	’s	's	PART	POS	_	12	case	12:case	Entity=person-22)|SpaceAfter=No
+12-13	men’s	_	_	_	_	_	_	_	SpaceAfter=No
+12	men	man	NOUN	NNS	Number=Plur	8	appos	8:appos	Entity=(person-22
+13	’s	's	PART	POS	_	12	case	12:case	Entity=person-22)
 14	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_whow_overalls-9
-# text = However, it is okay to wash just a few items with them, like blue jeans.
 # s_type = decl
+# text = However, it is okay to wash just a few items with them, like blue jeans.
 1	However	however	ADV	RB	_	5	advmod	5:advmod	Discourse=concession:19->18|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	5:expl	Entity=(event-23)
@@ -189,15 +200,16 @@
 14	,	,	PUNCT	,	_	17	punct	17:punct	_
 15	like	like	ADP	IN	_	17	case	17:case	_
 16	blue	blue	ADJ	JJ	Degree=Pos	17	amod	17:amod	Bridge=object-24<object-25|Entity=(object-25
-17	jeans	jean	NOUN	NNS	Number=Plur	11	nmod	11:nmod:like	Entity=event-23)object-25)|SpaceAfter=No
+17	jeans	jeans	NOUN	NNS	Number=Plur	11	nmod	11:nmod:like	Entity=event-23)object-25)|SpaceAfter=No
 18	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_whow_overalls-10
-# text = What you don’t want to wash with them is anything that can get twisted up with the straps, like women’s long sleeve shirts or kids’ blankets.
 # s_type = decl
+# text = What you don’t want to wash with them is anything that can get twisted up with the straps, like women’s long sleeve shirts or kids’ blankets.
 1	What	what	PRON	WP	PronType=Int	7	obj	7:obj	Discourse=antithesis:20->18
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj|7:nsubj:xsubj	Entity=(person-3)
-3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	5:aux	SpaceAfter=No
+3-4	don’t	_	_	_	_	_	_	_	_
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 4	n’t	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
 5	want	want	VERB	VB	VerbForm=Inf	11	csubj	11:csubj	_
 6	to	to	PART	TO	_	7	mark	7:mark	_
@@ -216,45 +228,47 @@
 19	straps	strap	NOUN	NNS	Number=Plur	15	obl	15:obl:with	Entity=object-7)|SpaceAfter=No
 20	,	,	PUNCT	,	_	26	punct	26:punct	_
 21	like	like	ADP	IN	_	26	case	26:case	_
-22	women	woman	NOUN	NNS	Number=Plur	26	nmod:poss	26:nmod:poss	Bridge=object-26<object-27|Entity=(object-27(person-28|SpaceAfter=No
+22-23	women’s	_	_	_	_	_	_	_	_
+22	women	woman	NOUN	NNS	Number=Plur	26	nmod:poss	26:nmod:poss	Bridge=object-26<object-27|Entity=(object-27(person-28
 23	’s	's	PART	POS	_	22	case	22:case	Entity=person-28)
 24	long	long	ADJ	JJ	Degree=Pos	25	amod	25:amod	Entity=(object-29
 25	sleeve	sleeve	NOUN	NN	Number=Sing	26	compound	26:compound	Entity=object-29)
 26	shirts	shirt	NOUN	NNS	Number=Plur	15	obl	15:obl:like	Entity=object-27)
 27	or	or	CCONJ	CC	_	30	cc	30:cc	_
-28	kids	kid	NOUN	NNS	Number=Plur	30	nmod:poss	30:nmod:poss	Bridge=object-26<object-30|Entity=(object-30(person-31|SpaceAfter=No
+28-29	kids’	_	_	_	_	_	_	_	_
+28	kids	kid	NOUN	NNS	Number=Plur	30	nmod:poss	30:nmod:poss	Bridge=object-26<object-30|Entity=(object-30(person-31
 29	’	's	PART	POS	_	28	case	28:case	Entity=person-31)
 30	blankets	blanket	NOUN	NNS	Number=Plur	26	conj	15:obl:like|26:conj:or	Entity=object-26)object-30)|SpaceAfter=No
 31	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_whow_overalls-11
-# text = Think similar clothing, minus the twisty-ness.
 # s_type = imp
+# text = Think similar clothing, minus the twisty-ness.
 1	Think	think	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration:22->18
 2	similar	similar	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(object-32
 3	clothing	clothing	NOUN	NN	Number=Sing	1	obj	1:obj	SpaceAfter=No
 4	,	,	PUNCT	,	_	7	punct	7:punct	_
-5	minus	minus	CCONJ	CC	_	7	case	7:case	_
+5	minus	minus	ADP	IN	_	7	case	7:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(abstract-33
 7	twisty-ness	twisty-ness	NOUN	NN	Number=Sing	1	obl	1:obl:minus	Entity=object-32)abstract-33)|SpaceAfter=No
 8	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_overalls-12
-# text = Just do the denim and canvas stuff together.
 # s_type = imp
+# text = Just do the denim and canvas stuff together.
 1	Just	just	ADV	RB	_	2	advmod	2:advmod	Discourse=elaboration:23->22
-2	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+2	do	do	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(object-34
-4	denim	denim	NOUN	NN	Number=Sing	7	amod	7:amod	Entity=(substance-35)
+4	denim	denim	NOUN	NN	Number=Sing	7	compound	7:compound	Entity=(substance-35)
 5	and	and	CCONJ	CC	_	6	cc	6:cc	_
-6	canvas	canvas	NOUN	NN	Number=Sing	4	conj	4:conj:and|7:amod	Entity=(substance-36)
+6	canvas	canvas	NOUN	NN	Number=Sing	4	conj	4:conj:and|7:compound	Entity=(substance-36)
 7	stuff	stuff	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=object-34)
 8	together	together	ADV	RB	Degree=Pos	2	advmod	2:advmod	SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_whow_overalls-13
-# text = Fasten the straps to the bib.
 # s_type = imp
+# text = Fasten the straps to the bib.
 1	Fasten	fasten	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence:24->17
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(object-7
 3	straps	strap	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=object-7)
@@ -264,11 +278,12 @@
 7	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_overalls-14
-# text = If you didn’t know already, the bib is the top front part with the breast pockets.
 # s_type = decl
+# text = If you didn’t know already, the bib is the top front part with the breast pockets.
 1	If	if	SCONJ	IN	_	5	mark	5:mark	Discourse=preparation:25->26
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-3)
-3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	5	aux	5:aux	SpaceAfter=No
+3-4	didn’t	_	_	_	_	_	_	_	_
+3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	5	aux	5:aux	_
 4	n’t	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
 5	know	know	VERB	VB	VerbForm=Inf	14	acl	14:acl:if	_
 6	already	already	ADV	RB	_	5	advmod	5:advmod	SpaceAfter=No
@@ -278,7 +293,7 @@
 10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(object-37
 12	top	top	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
-13	front	front	NOUN	NN	Number=Sing	14	amod	14:amod	_
+13	front	front	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
 14	part	part	NOUN	NN	Number=Sing	0	root	0:root	_
 15	with	with	ADP	IN	_	18	case	18:case	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(object-38
@@ -287,8 +302,8 @@
 19	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # sent_id = GUM_whow_overalls-15
-# text = Go ahead and fasten both straps before you wash.
 # s_type = imp
+# text = Go ahead and fasten both straps before you wash.
 1	Go	go	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=restatement:27->24
 2	ahead	ahead	ADV	RB	Degree=Pos	1	advmod	1:advmod	_
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
@@ -301,8 +316,8 @@
 10	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_overalls-16
-# text = This will help keep them from twisting up during the wash.
 # s_type = decl
+# text = This will help keep them from twisting up during the wash.
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj|4:nsubj:xsubj	Discourse=purpose:29->24
 2	will	will	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	help	help	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -317,8 +332,8 @@
 12	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_whow_overalls-17
-# text = Use twist ties to keep the straps fastened.
 # s_type = imp
+# text = Use twist ties to keep the straps fastened.
 1	Use	use	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=means:30->24|Entity=(event-39
 2	twist	twist	NOUN	NN	Number=Sing	3	compound	3:compound	Entity=(object-40
 3	ties	tie	NOUN	NNS	Number=Plur	1	obj	1:obj|5:nsubj:xsubj	Entity=object-40)
@@ -330,8 +345,8 @@
 9	.	.	PUNCT	.	_	1	punct	1:punct	Entity=event-39)
 
 # sent_id = GUM_whow_overalls-18
-# text = This step will reapportion years of your life in the long run.
 # s_type = decl
+# text = This step will reapportion years of your life in the long run.
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=motivation:32->33|Entity=(event-39
 2	step	step	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=event-39)
 3	will	will	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
@@ -347,25 +362,26 @@
 13	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_whow_overalls-19
-# text = Don’t skip it.
 # s_type = imp
-1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=motivation:33->24|SpaceAfter=No
+# text = Don’t skip it.
+1-2	Don’t	_	_	_	_	_	_	_	_
+1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=motivation:33->24
 2	n’t	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	_
 3	skip	skip	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
 4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	3:obj	Entity=(event-39)|SpaceAfter=No
 5	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_whow_overalls-20
-# text = Take the 20 seconds to use a couple twist ties on the fasteners to make sure they don’t come loose.
 # s_type = imp
+# text = Take the 20 seconds to use a couple twist ties on the fasteners to make sure they don’t come loose.
 1	Take	take	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=restatement:34->33
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(time-43
 3	20	20	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
 4	seconds	second	NOUN	NNS	Number=Plur	1	obj	1:obj|6:nsubj:xsubj	Entity=time-43)
 5	to	to	PART	TO	_	6	mark	6:mark	Discourse=purpose:35->34
 6	use	use	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
-7	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(object-40
-8	couple	couple	NOUN	NN	Number=Sing	10	amod	10:amod	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(object-40
+8	couple	couple	NOUN	NN	Number=Sing	10	nummod	10:nummod	_
 9	twist	twist	NOUN	NN	Number=Sing	10	compound	10:compound	_
 10	ties	tie	NOUN	NNS	Number=Plur	6	obj	6:obj|15:nsubj:xsubj	Entity=object-40)
 11	on	on	ADP	IN	_	13	case	13:case	_
@@ -375,15 +391,16 @@
 15	make	make	VERB	VB	VerbForm=Inf	6	xcomp	6:xcomp	_
 16	sure	sure	ADJ	JJ	Degree=Pos	15	xcomp	15:xcomp	_
 17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	20:nsubj|21:nsubj:xsubj	Entity=(object-44)
-18	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	20:aux	SpaceAfter=No
+18-19	don’t	_	_	_	_	_	_	_	_
+18	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	20:aux	_
 19	n’t	not	PART	RB	Polarity=Neg	20	advmod	20:advmod	_
 20	come	come	VERB	VB	VerbForm=Inf	16	ccomp	16:ccomp	_
 21	loose	loose	ADJ	JJ	Degree=Pos	20	xcomp	20:xcomp	SpaceAfter=No
 22	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_overalls-21
-# text = If your washing machine is worth its salt, it will undo those straps in a heartbeat and tie them in a sheet bend unless you prevent it.
 # s_type = decl
+# text = If your washing machine is worth its salt, it will undo those straps in a heartbeat and tie them in a sheet bend unless you prevent it.
 1	If	if	SCONJ	IN	_	6	mark	6:mark	Discourse=condition:37->38
 2	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(object-45(person-3)
 3	washing	wash	VERB	VBG	VerbForm=Ger	4	amod	4:amod	_
@@ -415,8 +432,8 @@
 29	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_whow_overalls-22
-# text = All it takes is two twist ties and a few seconds of patience.
 # s_type = decl
+# text = All it takes is two twist ties and a few seconds of patience.
 1	All	all	PRON	DT	_	3	obl:npmod	3:obl:npmod	Discourse=motivation:41->33
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
 3	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	csubj	7:csubj|11:csubj	_
@@ -433,16 +450,16 @@
 14	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_whow_overalls-23
-# text = Empty the pockets.
 # s_type = imp
+# text = Empty the pockets.
 1	Empty	empty	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence:42->17
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(object-50
 3	pockets	pocket	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=object-50)|SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_overalls-24
-# text = Overalls have more pockets than pants.
 # s_type = decl
+# text = Overalls have more pockets than pants.
 1	Overalls	overall	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Discourse=background:43->42|Entity=(object-1)
 2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	more	more	ADJ	JJR	Degree=Cmp	4	amod	4:amod	Entity=(object-50
@@ -452,8 +469,8 @@
 7	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_whow_overalls-25
-# text = The bib has a wallet pocket and a watch pocket.
 # s_type = decl
+# text = The bib has a wallet pocket and a watch pocket.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration:44->43|Entity=(object-37
 2	bib	bib	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=object-37)
 3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -467,8 +484,8 @@
 11	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_whow_overalls-26
-# text = Kids put rocks, candy, and bugs in these.
 # s_type = decl
+# text = Kids put rocks, candy, and bugs in these.
 1	Kids	kid	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Discourse=motivation:45->42|Entity=(person-55)
 2	put	put	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	rocks	rock	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=(object-56)|SpaceAfter=No
@@ -482,8 +499,8 @@
 11	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_whow_overalls-27
-# text = Men put cell phones and small tools in them.
 # s_type = decl
+# text = Men put cell phones and small tools in them.
 1	Men	man	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Discourse=joint:46->45|Entity=(person-59)
 2	put	put	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	cell	cell	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(object-60
@@ -496,8 +513,8 @@
 10	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_whow_overalls-28
-# text = Women defy the laws of purse-space, so when it comes to bib pockets, the sky is the limit.
 # s_type = decl
+# text = Women defy the laws of purse-space, so when it comes to bib pockets, the sky is the limit.
 1	Women	woman	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Discourse=background:47->48|Entity=(person-62)
 2	defy	defy	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(abstract-63
@@ -521,34 +538,35 @@
 21	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_whow_overalls-29
-# text = Make sure all the pockets are empty.
 # s_type = imp
+# text = Make sure all the pockets are empty.
 1	Make	make	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=restatement:51->42
-2	sure	sure	ADP	RP	_	1	xcomp	1:xcomp	_
+2	sure	sure	ADJ	JJ	Degree=Pos	1	xcomp	1:xcomp	_
 3	all	all	PRON	PDT	_	5	det:predet	5:det:predet	Entity=(object-50
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	_
 5	pockets	pocket	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	Entity=object-50)
 6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
-7	empty	empty	ADJ	JJ	Degree=Pos	1	ccomp	1:ccomp|2:csubj:xsubj	SpaceAfter=No
+7	empty	empty	ADJ	JJ	Degree=Pos	2	ccomp	2:ccomp	SpaceAfter=No
 8	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_overalls-30
-# text = Move the strap adjusters around.
 # s_type = imp
+# text = Move the strap adjusters around.
 1	Move	move	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence:52->17
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=object-7<object-65|Entity=(object-65
 3	strap	strap	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(object-7)
 4	adjusters	adjuster	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=object-65)
-5	around	around	ADP	RP	_	1	compound:prt	1:compound:prt	SpaceAfter=No
+5	around	around	ADV	RB	Degree=Pos	1	advmod	1:advmod	SpaceAfter=No
 6	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_overalls-31
-# text = You’ve probably got them just the way you like them, but if you move the adjusters up or down on the straps occasionally, the straps will last longer.
 # s_type = decl
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Discourse=concession:53->55|Entity=(person-3)|SpaceAfter=No
+# text = You’ve probably got them just the way you like them, but if you move the adjusters up or down on the straps occasionally, the straps will last longer.
+1-2	You’ve	_	_	_	_	_	_	_	_
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Discourse=concession:53->55|Entity=(person-3)
 2	’ve	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	probably	probably	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
-4	got	got	VERB	VB	VerbForm=Inf	0	root	0:root	_
+4	got	get	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	4:obj	Entity=(object-65)
 6	just	just	ADV	RB	_	8	advmod	8:advmod	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	_
@@ -563,9 +581,9 @@
 16	move	move	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	30	advcl	30:advcl:if	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(object-65
 18	adjusters	adjuster	NOUN	NNS	Number=Plur	16	obj	16:obj	Entity=object-65)
-19	up	up	ADV	RP	_	16	advmod	16:advmod	_
+19	up	up	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
 20	or	or	CCONJ	CC	_	21	cc	21:cc	_
-21	down	down	ADP	RP	_	19	conj	16:advmod|19:conj:or	_
+21	down	down	ADV	RB	Degree=Pos	19	conj	16:advmod|19:conj:or	_
 22	on	on	ADP	IN	_	24	case	24:case	_
 23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(object-7
 24	straps	strap	NOUN	NNS	Number=Plur	16	obl	16:obl:on	Entity=object-7)
@@ -579,8 +597,8 @@
 32	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_whow_overalls-32
-# text = Depending on the adjusters, you may be able to leave them a little loose too.
 # s_type = sub
+# text = Depending on the adjusters, you may be able to leave them a little loose too.
 1	Depending	depend	SCONJ	VBG	VerbForm=Ger	4	mark	4:mark	Discourse=condition:56->57
 2	on	on	ADP	IN	_	1	fixed	1:fixed	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(object-65
@@ -594,14 +612,14 @@
 11	leave	leave	VERB	VB	VerbForm=Inf	9	xcomp	9:xcomp	_
 12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obj	11:obj|15:nsubj:xsubj	Entity=(object-65)
 13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	_
-14	little	little	ADV	RB	Degree=Pos	15	advmod	15:advmod	_
+14	little	little	ADJ	JJ	Degree=Pos	15	obl:npmod	15:obl:npmod	_
 15	loose	loose	ADJ	JJ	Degree=Pos	11	xcomp	11:xcomp	_
 16	too	too	ADV	RB	Degree=Pos	15	advmod	15:advmod	SpaceAfter=No
 17	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_whow_overalls-33
-# text = The straps wear out fastest around the adjusters over the course of numerous wash and dry cycles (not to mention being out in the elements if they are work clothes).
 # s_type = decl
+# text = The straps wear out fastest around the adjusters over the course of numerous wash and dry cycles (not to mention being out in the elements if they are work clothes).
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=background:58->61|Entity=(object-7
 2	straps	strap	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=object-7)
 3	wear	wear	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -615,11 +633,12 @@
 11	course	course	NOUN	NN	Number=Sing	3	obl	3:obl:over	_
 12	of	of	ADP	IN	_	17	case	17:case	_
 13	numerous	numerous	ADJ	JJ	Degree=Pos	17	amod	17:amod	Entity=(event-66
-14	wash	wash	VERB	VB	VerbForm=Inf	17	amod	17:amod	_
+14	wash	wash	NOUN	NN	Number=Sing	17	compound	17:compound	_
 15	and	and	CCONJ	CC	_	16	cc	16:cc	_
-16	dry	dry	VERB	VB	Person=2|VerbForm=Inf	14	conj	14:conj:and|17:amod	_
+16	dry	dry	NOUN	NN	Number=Sing	14	conj	14:conj:and|17:compound	_
 17	cycles	cycle	NOUN	NNS	Number=Plur	11	nmod	11:nmod:of	Entity=event-66)
-18	(	(	PUNCT	-LRB-	_	21	punct	21:punct	Discourse=elaboration:59->58|SpaceAfter=No
+18-19	(not	_	_	_	_	_	_	_	_
+18	(	(	PUNCT	-LRB-	_	21	punct	21:punct	Discourse=elaboration:59->58
 19	not	not	PART	RB	Polarity=Neg	21	advmod	21:advmod	_
 20	to	to	PART	TO	_	21	mark	21:mark	_
 21	mention	mention	VERB	VB	Person=2|VerbForm=Inf	3	parataxis	3:parataxis	_
@@ -637,8 +656,8 @@
 33	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_whow_overalls-34
-# text = Moving them distributes the wear and tear of washing.
 # s_type = decl
+# text = Moving them distributes the wear and tear of washing.
 1	Moving	move	VERB	VBG	VerbForm=Ger	3	csubj	3:csubj	Discourse=cause:61->55|Entity=(event-70
 2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obj	1:obj	Entity=(object-65)
 3	distributes	distribute	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -651,8 +670,8 @@
 10	.	.	PUNCT	.	_	3	punct	3:punct	Entity=event-70)
 
 # sent_id = GUM_whow_overalls-35
-# text = This is the same idea as rotating tires.
 # s_type = decl
+# text = This is the same idea as rotating tires.
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Discourse=background:62->55|Entity=(event-70)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(abstract-72
@@ -664,8 +683,8 @@
 9	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_whow_overalls-36
-# text = You know about rotating your tires, don't you?
 # s_type = q
+# text = You know about rotating your tires, don't you?
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:63->64|Entity=(person-3)
 2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	about	about	SCONJ	IN	_	4	mark	4:mark	Discourse=restatement:64->62
@@ -673,19 +692,20 @@
 5	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(object-73(person-3)
 6	tires	tire	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=object-73)|SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	8:punct	_
-8	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	discourse	2:discourse	Discourse=restatement:65->64|SpaceAfter=No
+8-9	don't	_	_	_	_	_	_	_	_
+8	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	discourse	2:discourse	Discourse=restatement:65->64
 9	n't	not	PART	RB	Polarity=Neg	8	advmod	8:advmod	_
 10	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	8:nsubj	Entity=(person-3)|SpaceAfter=No
 11	?	?	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_whow_overalls-37
-# text = Tips
 # s_type = frag
+# text = Tips
 1	Tips	tip	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=preparation:66->68|Entity=(abstract-74)
 
 # sent_id = GUM_whow_overalls-38
-# text = If you wash your overalls alone or in a light load, use about half the detergent called for and less water.
 # s_type = imp
+# text = If you wash your overalls alone or in a light load, use about half the detergent called for and less water.
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=condition:67->68
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-3)
 3	wash	wash	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	advcl	13:advcl:if	_
@@ -702,17 +722,17 @@
 14	about	about	ADV	RB	_	15	advmod	15:advmod	_
 15	half	half	PRON	PDT	_	17	det:predet	17:det:predet	Entity=(substance-76
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	_
-17	detergent	detergent	NOUN	NN	Number=Sing	13	obj	13:obj	_
+17	detergent	detergent	NOUN	NN	Number=Sing	13	obj	13:obj|18:obl:for	_
 18	called	call	VERB	VBN	Tense=Past|VerbForm=Part	17	acl	17:acl	_
-19	for	for	ADP	IN	_	18	compound:prt	18:compound:prt	Entity=substance-76)
+19	for	for	ADP	IN	_	18	obl	17:case	Entity=substance-76)
 20	and	and	CCONJ	CC	_	22	cc	22:cc	_
 21	less	less	ADJ	JJR	Degree=Cmp	22	amod	22:amod	Entity=(substance-77
 22	water	water	NOUN	NN	Number=Sing	17	conj	13:obj|17:conj:and	Entity=substance-77)|SpaceAfter=No
 23	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_whow_overalls-39
-# text = Leave the straps fastened and twist-tied to the bib when you throw them in the dryer.
 # s_type = imp
+# text = Leave the straps fastened and twist-tied to the bib when you throw them in the dryer.
 1	Leave	leave	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint:69->68|Entity=(event-78
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(object-7
 3	straps	strap	NOUN	NNS	Number=Plur	1	obj	1:obj|4:nsubj:xsubj|6:nsubj:xsubj	Entity=object-7)
@@ -732,8 +752,8 @@
 17	.	.	PUNCT	.	_	1	punct	1:punct	Entity=event-78)
 
 # sent_id = GUM_whow_overalls-40
-# text = This will cut down on some of the racket, but you 're still going to hear them.
 # s_type = decl
+# text = This will cut down on some of the racket, but you're still going to hear them.
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=motivation:71->69|Entity=(event-78)
 2	will	will	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	cut	cut	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -745,7 +765,7 @@
 9	racket	racket	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	Entity=event-80)|SpaceAfter=No
 10	,	,	PUNCT	,	_	15	punct	15:punct	_
 11	but	but	CCONJ	CC	_	15	cc	15:cc	Discourse=concession:72->71
-12	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj|17:nsubj:xsubj	Entity=(person-3)
+12	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj|17:nsubj:xsubj	Entity=(person-3)|SpaceAfter=No
 13	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
 14	still	still	ADV	RB	Degree=Pos	15	advmod	15:advmod	_
 15	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	3	conj	3:conj:but	_
@@ -755,21 +775,21 @@
 19	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_whow_overalls-41
-# text = Warnings
 # s_type = frag
+# text = Warnings
 1	Warnings	warning	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=preparation:73->74|Entity=(abstract-81)
 
 # sent_id = GUM_whow_overalls-42
-# text = The paper-type twist ties will deteriorate a little, but the dryer filter screen will catch the fallout.
 # s_type = decl
+# text = The paper-type twist ties will deteriorate a little, but the dryer filter screen will catch the fallout.
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=object-40<object-82|Discourse=joint:74->17|Entity=(object-82
-2	paper-type	paper-type	NOUN	NN	Number=Sing	4	amod	4:amod	_
+2	paper-type	paper-type	NOUN	NN	Number=Sing	4	compound	4:compound	_
 3	twist	twist	NOUN	NN	Number=Sing	4	compound	4:compound	_
 4	ties	tie	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=object-82)
 5	will	will	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
 6	deteriorate	deteriorate	VERB	VB	VerbForm=Inf	0	root	0:root	_
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	_
-8	little	little	ADJ	JJ	Degree=Pos	6	advmod	6:advmod	SpaceAfter=No
+8	little	little	ADJ	JJ	Degree=Pos	6	obl:npmod	6:obl:npmod	SpaceAfter=No
 9	,	,	PUNCT	,	_	16	punct	16:punct	_
 10	but	but	CCONJ	CC	_	16	cc	16:cc	Discourse=concession:75->74
 11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(object-83
@@ -783,9 +803,9 @@
 19	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_whow_overalls-43
-# text = Plastic-type twist ties will hold up in the wash, but may or may not melt in your dryer.
 # s_type = multiple
-1	Plastic-type	Plastic-type	NOUN	NN	Number=Sing	3	amod	3:amod	Bridge=object-40<object-85|Discourse=contrast:76->74|Entity=(object-85
+# text = Plastic-type twist ties will hold up in the wash, but may or may not melt in your dryer.
+1	Plastic-type	Plastic-type	NOUN	NN	Number=Sing	3	compound	3:compound	Bridge=object-40<object-85|Discourse=contrast:76->74|Entity=(object-85
 2	twist	twist	NOUN	NN	Number=Sing	3	compound	3:compound	_
 3	ties	tie	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj|16:nsubj	Entity=object-85)
 4	will	will	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
@@ -807,8 +827,8 @@
 20	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_whow_overalls-44
-# text = Use with caution.
 # s_type = imp
+# text = Use with caution.
 1	Use	use	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=evaluation:78->74
 2	with	with	ADP	IN	_	3	case	3:case	_
 3	caution	caution	NOUN	NN	Number=Sing	1	obl	1:obl:with	Entity=(abstract-86)|SpaceAfter=No

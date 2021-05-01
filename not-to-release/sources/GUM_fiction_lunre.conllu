@@ -1,18 +1,26 @@
 # newdoc id = GUM_fiction_lunre
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2018-08-15
+# meta::dateCreated = 2012-09-11
+# meta::dateModified = 2013-04-24
+# meta::sourceURL = http://smallbeerpress.com/download/16346/
+# meta::speakerCount = 3
+# meta::title = A Stranger in Olondria, Chapter Two: Master Lunre
 # sent_id = GUM_fiction_lunre-1
-# text = Chapter Two: Master Lunre
 # s_type = other
-1	Chapter	chapter	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:1->2|Entity=(abstract-1
-2	Two	Two	NUM	CD	NumForm=Word|NumType=Card	1	dep	1:dep	Entity=abstract-1)|SpaceAfter=No
+# text = Chapter Two: Master Lunre
+1	Chapter	Chapter	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:1->2|Entity=(abstract-1
+2	Two	two	NUM	CD	NumForm=Word|NumType=Card	1	dep	1:dep	Entity=abstract-1)|SpaceAfter=No
 3	:	:	PUNCT	:	_	4	punct	4:punct	_
 4	Master	Master	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=preparation:2->16|Entity=(person-2
 5	Lunre	Lunre	PROPN	NNP	Number=Sing	4	flat	4:flat	Entity=person-2)
 
 # sent_id = GUM_fiction_lunre-2
-# text = My father’s actions were largely incomprehensible to me, guided by his own secret and labyrinthine calculations.
 # s_type = decl
+# text = My father’s actions were largely incomprehensible to me, guided by his own secret and labyrinthine calculations.
 1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=background:3->8|Entity=(event-3(person-4(person-5)
-2	father	father	NOUN	NN	Number=Sing	4	nmod:poss	4:nmod:poss	SpaceAfter=No
+2-3	father’s	_	_	_	_	_	_	_	_
+2	father	father	NOUN	NN	Number=Sing	4	nmod:poss	4:nmod:poss	_
 3	’s	's	PART	POS	_	2	case	2:case	Entity=person-4)
 4	actions	action	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	Entity=event-3)
 5	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
@@ -32,8 +40,8 @@
 19	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_fiction_lunre-3
-# text = He dwelt in another world, a world of intrigue, bargains, contracts and clandestine purchases of land all over the island.
 # s_type = decl
+# text = He dwelt in another world, a world of intrigue, bargains, contracts and clandestine purchases of land all over the island.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration:5->3|Entity=(person-4)
 2	dwelt	dwell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	in	in	ADP	IN	_	5	case	5:case	_
@@ -60,8 +68,8 @@
 24	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_fiction_lunre-4
-# text = He was in many ways a world in himself, whole as a sphere.
 # s_type = decl
+# text = He was in many ways a world in himself, whole as a sphere.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	Discourse=evaluation:6->3|Entity=(person-4)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
 3	in	in	ADP	IN	_	5	case	5:case	_
@@ -79,8 +87,8 @@
 15	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_fiction_lunre-5
-# text = No doubt his decisions were perfectly logical in his own eyes — even the one that prompted him, a patriotic islander, to bring me a tutor from Bain: Master Lunre, an Olondrian.
 # s_type = decl
+# text = No doubt his decisions were perfectly logical in his own eyes — even the one that prompted him, a patriotic islander, to bring me a tutor from Bain: Master Lunre, an Olondrian.
 1	No	no	DET	DT	Polarity=Neg	2	det	2:det	Discourse=concession:7->3
 2	doubt	doubt	NOUN	NN	Number=Sing	7	discourse	7:discourse	_
 3	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(abstract-16(person-4)
@@ -95,7 +103,7 @@
 12	—	—	PUNCT	:	_	15	punct	15:punct	_
 13	even	even	ADV	RB	_	15	advmod	15:advmod	Discourse=background:8->16
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Bridge=abstract-16<abstract-18|Entity=(abstract-18
-15	one	one	NUM	CD	NumForm=Word|NumType=Card	7	parataxis	7:parataxis|17:nsubj	_
+15	one	one	NOUN	NN	Number=Sing	7	parataxis	7:parataxis|17:nsubj	_
 16	that	that	PRON	WDT	PronType=Rel	17	nsubj	15:ref	Discourse=elaboration:9->8
 17	prompted	prompt	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	15:acl:relcl	_
 18	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	17:obj|25:nsubj:xsubj	Entity=(person-4)|SpaceAfter=No
@@ -120,8 +128,8 @@
 37	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_fiction_lunre-6
-# text = The day began as it usually did when my father was expected home from his travels, the house festooned with flowers and stocked with coconut liquor.
 # s_type = decl
+# text = The day began as it usually did when my father was expected home from his travels, the house festooned with flowers and stocked with coconut liquor.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=preparation:11->14|Entity=(time-20
 2	day	day	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=time-20)
 3	began	begin	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -152,8 +160,8 @@
 28	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_fiction_lunre-7
-# text = We stood by the gate, washed and perfumed and arrayed in our brightest clothes, my mother twisting her hands in her skirt, my father’s wife with red eyes.
 # s_type = decl
+# text = We stood by the gate, washed and perfumed and arrayed in our brightest clothes, my mother twisting her hands in her skirt, my father’s wife with red eyes.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Bridge=person-5<person-26|Discourse=ROOT:16|Entity=(person-26)
 2	stood	stand	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	by	by	ADP	IN	_	5	case	5:case	_
@@ -180,7 +188,8 @@
 24	skirt	skirt	NOUN	NN	Number=Sing	19	obl	19:obl:in	Entity=object-31)|SpaceAfter=No
 25	,	,	PUNCT	,	_	32	punct	32:punct	_
 26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Discourse=joint:21->17|Entity=(person-32(person-4(person-5)
-27	father	father	NOUN	NN	Number=Sing	29	nmod:poss	29:nmod:poss	SpaceAfter=No
+27-28	father’s	_	_	_	_	_	_	_	_
+27	father	father	NOUN	NN	Number=Sing	29	nmod:poss	29:nmod:poss	_
 28	’s	's	PART	POS	_	27	case	27:case	Entity=person-4)
 29	wife	wife	NOUN	NN	Number=Sing	32	nsubj	32:nsubj	Entity=person-32)
 30	with	with	ADP	IN	_	32	case	32:case	_
@@ -189,8 +198,8 @@
 33	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_fiction_lunre-8
-# text = Jom, grown taller and broad in the shoulders, moaned gently to himself, while I stood nervously rubbing the heel of one sandal on the flagstones.
 # s_type = decl
+# text = Jom, grown taller and broad in the shoulders, moaned gently to himself, while I stood nervously rubbing the heel of one sandal on the flagstones.
 1	Jom	Jom	PROPN	NNP	Number=Sing	11	nsubj	11:nsubj	Discourse=joint:22->17|Entity=(person-34)|SpaceAfter=No
 2	,	,	PUNCT	,	_	3	punct	3:punct	_
 3	grown	grow	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	1:acl	Discourse=elaboration:23->22
@@ -222,8 +231,8 @@
 29	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_fiction_lunre-9
-# text = We scanned the deep blue valley for the first sign of the company, but before we saw them we heard the children shouting: “A yellow man!”
 # s_type = decl
+# text = We scanned the deep blue valley for the first sign of the company, but before we saw them we heard the children shouting: “A yellow man!”
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=concession:27->28|Entity=(person-26)
 2	scanned	scan	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(place-39
@@ -246,8 +255,8 @@
 20	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	21:nsubj	Discourse=attribution:29->30|Entity=(person-26)
 21	heard	hear	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	2	conj	2:conj:but	_
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(person-42
-23	children	child	NOUN	NNS	Number=Plur	24	nsubj	24:nsubj	Entity=person-42)
-24	shouting	shout	VERB	VBG	VerbForm=Ger	21	ccomp	21:ccomp	SpaceAfter=No
+23	children	child	NOUN	NNS	Number=Plur	21	obj	21:obj|24:nsubj:xsubj	Entity=person-42)
+24	shouting	shout	VERB	VBG	VerbForm=Ger	21	xcomp	21:xcomp	SpaceAfter=No
 25	:	:	PUNCT	:	_	29	punct	29:punct	_
 26	“	''	PUNCT	``	_	29	punct	29:punct	Discourse=sequence:30->16|SpaceAfter=No
 27	A	a	DET	DT	Definite=Ind|PronType=Art	29	det	29:det	Entity=(person-2
@@ -257,16 +266,16 @@
 31	”	''	PUNCT	''	_	29	punct	29:punct	_
 
 # sent_id = GUM_fiction_lunre-10
-# text = A yellow man!
 # s_type = frag
+# text = A yellow man!
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Discourse=evaluation:31->30|Entity=(person-2
 2	yellow	yellow	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	man	man	NOUN	NN	Number=Sing	0	root	0:root	Entity=person-2)|SpaceAfter=No
 4	!	!	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_fiction_lunre-11
-# text = We glanced at one another in confusion.
 # s_type = decl
+# text = We glanced at one another in confusion.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=result:32->30|Entity=(person-26)
 2	glanced	glance	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	at	at	ADP	IN	_	4	case	4:case	_
@@ -277,8 +286,8 @@
 8	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_fiction_lunre-12
-# text = My mother bit her lower lip; Jom gave a groan of alarm.
 # s_type = decl
+# text = My mother bit her lower lip; Jom gave a groan of alarm.
 1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=joint:33->32|Entity=(person-29(person-5)
 2	mother	mother	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=person-29)
 3	bit	bite	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -295,8 +304,8 @@
 14	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_fiction_lunre-13
-# text = At first I thought the children meant my father, whose golden skin, the color of the night-monkey’s pelt, was a rarity in the islands; but certainly the children of Tyom were familiar with my father, and would never have greeted a council-member with such ill-mannered yells.
 # s_type = decl
+# text = At first I thought the children meant my father, whose golden skin, the color of the night-monkey’s pelt, was a rarity in the islands; but certainly the children of Tyom were familiar with my father, and would never have greeted a council-member with such ill-mannered yells.
 1	At	at	ADP	IN	_	2	case	2:case	Discourse=attribution:35->36
 2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	4	obl	4:obl:at	_
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-5)
@@ -315,7 +324,8 @@
 16	color	color	NOUN	NN	Number=Sing	13	advcl	13:advcl	_
 17	of	of	ADP	IN	_	21	case	21:case	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(object-48
-19	night-monkey	night-monkey	NOUN	NN	Number=Sing	21	nmod:poss	21:nmod:poss	Entity=(animal-49|SpaceAfter=No
+19-20	night-monkey’s	_	_	_	_	_	_	_	_
+19	night-monkey	night-monkey	NOUN	NN	Number=Sing	21	nmod:poss	21:nmod:poss	Entity=(animal-49
 20	’s	's	PART	POS	_	19	case	19:case	Entity=animal-49)
 21	pelt	pelt	NOUN	NN	Number=Sing	16	nmod	16:nmod:of	Entity=abstract-47)object-48)|SpaceAfter=No
 22	,	,	PUNCT	,	_	13	punct	13:punct	_
@@ -352,8 +362,8 @@
 53	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_fiction_lunre-14
-# text = Then I remembered the only “yellow man” I had ever seen, an Olondrian wizard and doctor who had visited Tyom in my childhood, who wore two pieces of glass on his eyes, attached to his ears with wires, and roamed the hills of Tinimavet, cutting bits off the trees.
 # s_type = decl
+# text = Then I remembered the only “yellow man” I had ever seen, an Olondrian wizard and doctor who had visited Tyom in my childhood, who wore two pieces of glass on his eyes, attached to his ears with wires, and roamed the hills of Tinimavet, cutting bits off the trees.
 1	Then	then	ADV	RB	PronType=Dem	3	advmod	3:advmod	Discourse=sequence:40->36
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-5)
 3	remembered	remember	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -413,8 +423,8 @@
 57	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_fiction_lunre-15
-# text = I have since learned that that doctor wrote a well-received treatise, On the Medicinal Properties of the Juice of the Young Coconut, and died a respected man in his native city of Deinivel; but at the time I felt certain he had returned with his sack of tree-cuttings.
 # s_type = decl
+# text = I have since learned that that doctor wrote a well-received treatise, On the Medicinal Properties of the Juice of the Young Coconut, and died a respected man in his native city of Deinivel; but at the time I felt certain he had returned with his sack of tree-cuttings.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=attribution:48->49|Entity=(person-5)
 2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	since	since	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
@@ -429,14 +439,14 @@
 12	,	,	PUNCT	,	_	16	punct	16:punct	_
 13	On	on	ADP	IN	_	16	case	16:case	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(abstract-66
-15	Medicinal	Medicinal	PROPN	NNP	Number=Sing	16	amod	16:amod	_
-16	Properties	Properties	PROPN	NNPS	Number=Plur	11	appos	11:appos	_
+15	Medicinal	Medicinal	ADJ	NNP	Degree=Pos	16	amod	16:amod	_
+16	Properties	Property	PROPN	NNPS	Number=Plur	11	appos	11:appos	_
 17	of	of	ADP	IN	_	19	case	19:case	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(substance-67
 19	Juice	Juice	PROPN	NNP	Number=Sing	16	nmod	16:nmod:of	_
 20	of	of	ADP	IN	_	23	case	23:case	_
 21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(plant-68
-22	Young	Young	PROPN	NNP	Number=Sing	23	amod	23:amod	_
+22	Young	Young	ADJ	NNP	Degree=Pos	23	amod	23:amod	_
 23	Coconut	Coconut	PROPN	NNP	Number=Sing	19	nmod	19:nmod:of	Entity=abstract-65)abstract-66)substance-67)plant-68)|SpaceAfter=No
 24	,	,	PUNCT	,	_	26	punct	26:punct	_
 25	and	and	CCONJ	CC	_	26	cc	26:cc	Discourse=sequence:50->49
@@ -465,13 +475,13 @@
 48	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	49	nmod:poss	49:nmod:poss	Entity=(object-71(person-55)
 49	sack	sack	NOUN	NN	Number=Sing	46	obl	46:obl:with	_
 50	of	of	ADP	IN	_	51	case	51:case	_
-51	tree-cuttings	tree-cuttings	NOUN	NNS	Number=Plur	49	nmod	49:nmod:of	Entity=(plant-72)object-71)|SpaceAfter=No
+51	tree-cuttings	tree-cutting	NOUN	NNS	Number=Plur	49	nmod	49:nmod:of	Entity=(plant-72)object-71)|SpaceAfter=No
 52	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_fiction_lunre-16
-# text = “There they are,” said Pavit, the head house-servant, in a strained voice.
 # s_type = decl
 # speaker = Pavit
+# text = “There they are,” said Pavit, the head house-servant, in a strained voice.
 1	“	''	PUNCT	``	_	4	punct	4:punct	Discourse=sequence:53->16|SpaceAfter=No
 2	There	there	ADV	RB	PronType=Dem	4	advmod	4:advmod	_
 3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-41)
@@ -492,8 +502,8 @@
 18	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_fiction_lunre-17
-# text = And there they were: a chain of riders weaving among the trees.
 # s_type = decl
+# text = And there they were: a chain of riders weaving among the trees.
 1	And	and	CCONJ	CC	_	4	cc	4:cc	Discourse=restatement:55->53
 2	there	there	ADV	RB	PronType=Dem	4	advmod	4:advmod	_
 3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-41)
@@ -510,10 +520,11 @@
 14	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_fiction_lunre-18
-# text = My father’s plaited umbrella appeared, his still, imposing figure, and beside him another man, tall and lean, astride an island mule.
 # s_type = decl
+# text = My father’s plaited umbrella appeared, his still, imposing figure, and beside him another man, tall and lean, astride an island mule.
 1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=elaboration:58->56|Entity=(object-76(person-4(person-5)
-2	father	father	NOUN	NN	Number=Sing	5	nmod:poss	5:nmod:poss	SpaceAfter=No
+2-3	father’s	_	_	_	_	_	_	_	_
+2	father	father	NOUN	NN	Number=Sing	5	nmod:poss	5:nmod:poss	_
 3	’s	's	PART	POS	_	2	case	2:case	Entity=person-4)
 4	plaited	plait	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	5:acl	_
 5	umbrella	umbrella	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=object-76)
@@ -543,8 +554,8 @@
 28	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_fiction_lunre-19
-# text = The hectic screams of the children preceded the company into the village, so that they advanced like a festival, drawing people out of their houses.
 # s_type = decl
+# text = The hectic screams of the children preceded the company into the village, so that they advanced like a festival, drawing people out of their houses.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=justify:59->60|Entity=(event-80
 2	hectic	hectic	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	screams	scream	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	_
@@ -567,7 +578,7 @@
 20	festival	festival	NOUN	NN	Number=Sing	17	obl	17:obl:like	Entity=event-81)|SpaceAfter=No
 21	,	,	PUNCT	,	_	22	punct	22:punct	_
 22	drawing	draw	VERB	VBG	VerbForm=Ger	17	advcl	17:advcl	Discourse=result:61->60
-23	people	people	NOUN	NNS	Number=Plur	22	obj	22:obj	Entity=(person-82)
+23	people	person	NOUN	NNS	Number=Plur	22	obj	22:obj	Entity=(person-82)
 24	out	out	ADP	IN	_	27	case	27:case	_
 25	of	of	ADP	IN	_	24	fixed	24:fixed	_
 26	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Entity=(place-83(person-82)
@@ -575,8 +586,8 @@
 28	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_fiction_lunre-20
-# text = As they approached I saw that my father’s face was shining with pride, and his bearing had in it a new hauteur, like that of the old island kings.
 # s_type = decl
+# text = As they approached I saw that my father’s face was shining with pride, and his bearing had in it a new hauteur, like that of the old island kings.
 1	As	as	SCONJ	IN	_	3	mark	3:mark	Discourse=circumstance:62->63
 2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-41)
 3	approached	approach	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	advcl	5:advcl:as	_
@@ -584,7 +595,8 @@
 5	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 6	that	that	SCONJ	IN	_	12	mark	12:mark	_
 7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(object-84(person-4(person-5)
-8	father	father	NOUN	NN	Number=Sing	10	nmod:poss	10:nmod:poss	SpaceAfter=No
+8-9	father’s	_	_	_	_	_	_	_	_
+8	father	father	NOUN	NN	Number=Sing	10	nmod:poss	10:nmod:poss	_
 9	’s	's	PART	POS	_	8	case	8:case	Entity=person-4)
 10	face	face	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=object-84)
 11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	12:aux	_
@@ -612,8 +624,8 @@
 33	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_fiction_lunre-21
-# text = The man who rode beside him, looking uncomfortable with his long legs, kept his gaze lowered and fixed between the ears of his plodding mule.
 # s_type = decl
+# text = The man who rode beside him, looking uncomfortable with his long legs, kept his gaze lowered and fixed between the ears of his plodding mule.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint:65->63|Entity=(person-2
 2	man	man	NOUN	NN	Number=Sing	15	nsubj	4:nsubj|15:nsubj|20:nsubj:xsubj	_
 3	who	who	PRON	WP	PronType=Rel	4	nsubj	2:ref	Discourse=elaboration:66->65
@@ -644,8 +656,8 @@
 28	.	.	PUNCT	.	_	15	punct	15:punct	_
 
 # sent_id = GUM_fiction_lunre-22
-# text = He was not yellow, but very pale brown, the color of raw cashews; he had silver hair, worn cropped close to the skull so that it resembled a cap.
 # s_type = decl
+# text = He was not yellow, but very pale brown, the color of raw cashews; he had silver hair, worn cropped close to the skull so that it resembled a cap.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj|9:nsubj	Discourse=antithesis:69->70|Entity=(person-2)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
 3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
@@ -682,8 +694,8 @@
 34	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_fiction_lunre-23
-# text = He was not the leaf-collecting doctor, but an altogether strange man, with silver eyebrows in his smooth face and long fine-knuckled hands.
 # s_type = decl
+# text = He was not the leaf-collecting doctor, but an altogether strange man, with silver eyebrows in his smooth face and long fine-knuckled hands.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj|12:nsubj	Discourse=antithesis:75->76|Entity=(person-2)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
 3	not	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	_
@@ -711,8 +723,8 @@
 25	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_fiction_lunre-24
-# text = As he dismounted in front of the house I heard my mother whispering: “Protect us, God with the Black-and-White Tail, from that which is not of this earth.”
 # s_type = decl
+# text = As he dismounted in front of the house I heard my mother whispering: “Protect us, God with the Black-and-White Tail, from that which is not of this earth.”
 1	As	as	SCONJ	IN	_	3	mark	3:mark	Discourse=circumstance:77->78
 2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-2)
 3	dismounted	dismount	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	10	advcl	10:advcl:as	_
@@ -734,7 +746,7 @@
 19	God	God	PROPN	NNP	Number=Sing	16	vocative	16:vocative	Entity=(person-101
 20	with	with	ADP	IN	_	23	case	23:case	_
 21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(object-102
-22	Black-and-White	Black-and-White	PROPN	NNP	Number=Sing	23	amod	23:amod	_
+22	Black-and-White	Black-and-White	ADJ	NNP	Degree=Pos	23	amod	23:amod	_
 23	Tail	Tail	PROPN	NNP	Number=Sing	19	nmod	19:nmod:with	Entity=person-101)object-102)|SpaceAfter=No
 24	,	,	PUNCT	,	_	26	punct	26:punct	_
 25	from	from	ADP	IN	_	26	case	26:case	_
@@ -749,8 +761,8 @@
 34	”	''	PUNCT	''	_	16	punct	16:punct	_
 
 # sent_id = GUM_fiction_lunre-25
-# text = My father dismounted from his mule and strutted toward us, grinning.
 # s_type = decl
+# text = My father dismounted from his mule and strutted toward us, grinning.
 1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=sequence:80->16|Entity=(person-4(person-5)
 2	father	father	NOUN	NN	Number=Sing	3	nsubj	3:nsubj|8:nsubj	Entity=person-4)
 3	dismounted	dismount	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -766,8 +778,8 @@
 13	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_fiction_lunre-26
-# text = I thought I caught an odor off him, of fish, sea-sickness and sweat.
 # s_type = decl
+# text = I thought I caught an odor off him, of fish, sea-sickness and sweat.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:83->84|Entity=(person-5)
 2	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=sequence:84->16|Entity=(person-5)
@@ -786,8 +798,8 @@
 16	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_fiction_lunre-27
-# text = We knelt and stared down at the bald ground, murmuring ritual greetings, until he touched the tops of our heads with the palm of his fleshy hand.
 # s_type = decl
+# text = We knelt and stared down at the bald ground, murmuring ritual greetings, until he touched the tops of our heads with the palm of his fleshy hand.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj|4:nsubj	Discourse=sequence:85->16|Entity=(person-26)
 2	knelt	kneel	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	and	and	CCONJ	CC	_	4	cc	4:cc	Discourse=sequence:86->85
@@ -799,7 +811,7 @@
 9	ground	ground	NOUN	NN	Number=Sing	4	obl	4:obl:at	Entity=place-109)|SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	11:punct	_
 11	murmuring	murmur	VERB	VBG	VerbForm=Ger	4	advcl	4:advcl	Discourse=sequence:87->85
-12	ritual	ritual	ADJ	JJ	Degree=Pos	13	amod	13:amod	Entity=(abstract-110
+12	ritual	ritual	NOUN	NN	Number=Sing	13	compound	13:compound	Entity=(abstract-110
 13	greetings	greeting	NOUN	NNS	Number=Plur	11	obj	11:obj	Entity=abstract-110)|SpaceAfter=No
 14	,	,	PUNCT	,	_	17	punct	17:punct	_
 15	until	until	SCONJ	IN	_	17	mark	17:mark	Discourse=sequence:88->85
@@ -820,8 +832,8 @@
 30	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_fiction_lunre-28
-# text = Then we stood, unable to keep from staring at the stranger, who faced us awkwardly, half-smiling, taller than any man there.
 # s_type = decl
+# text = Then we stood, unable to keep from staring at the stranger, who faced us awkwardly, half-smiling, taller than any man there.
 1	Then	then	ADV	RB	PronType=Dem	3	advmod	3:advmod	Discourse=sequence:89->16
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-26)
 3	stood	stand	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No

@@ -1,8 +1,15 @@
 # newdoc id = GUM_speech_inauguration
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2020-09-05
+# meta::dateCreated = 1981-01-20
+# meta::dateModified = 1981-01-20
+# meta::sourceURL = https://www.presidency.ucsb.edu
+# meta::speakerCount = 1
+# meta::title = Inaugural Adress Ronald Reagan
 # sent_id = GUM_speech_inauguration-1
-# text = Senator Hatfield, Mr. Chief Justice, Mr. President, Vice President Bush, Vice President Mondale, Senator Baker, Speaker O'Neill, Reverend Moomaw, and my fellow citizens:
 # s_type = frag
 # speaker = RonaldReagan
+# text = Senator Hatfield, Mr. Chief Justice, Mr. President, Vice President Bush, Vice President Mondale, Senator Baker, Speaker O'Neill, Reverend Moomaw, and my fellow citizens:
 1	Senator	Senator	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:1->13|Entity=(person-1-Mark_Hatfield
 2	Hatfield	Hatfield	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-1-Mark_Hatfield)|SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
@@ -37,16 +44,16 @@
 32	:	:	PUNCT	:	_	1	punct	1:punct	_
 
 # sent_id = GUM_speech_inauguration-2
-# text = To a few of us here today this is a solemn and most momentous occasion, and yet in the history of our nation it is a commonplace occurrence.
 # s_type = decl
 # speaker = RonaldReagan
-1	To	To	ADP	IN	_	3	case	3:case	Discourse=background:2->13
+# text = To a few of us here today this is a solemn and most momentous occasion, and yet in the history of our nation it is a commonplace occurrence.
+1	To	to	ADP	IN	_	3	case	3:case	Discourse=background:2->13
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Entity=(person-11
 3	few	few	ADJ	JJ	Degree=Pos	15	nmod	15:nmod:to	_
 4	of	of	ADP	IN	_	5	case	5:case	_
 5	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	nmod	3:nmod:of	Entity=(person-9)person-11)
 6	here	here	ADV	RB	PronType=Dem	3	advmod	3:advmod	Entity=(place-12)
-7	today	today	NOUN	NN	Number=Sing	3	nmod:tmod	3:nmod:tmod	Entity=(time-13)
+7	today	today	NOUN	NN	Number=Sing	6	obl:tmod	6:obl:tmod	Entity=(time-13)
 8	this	this	PRON	DT	Number=Sing|PronType=Dem	15	nsubj	15:nsubj	Entity=(event-14)
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	_
 10	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	Entity=(event-14
@@ -72,9 +79,9 @@
 30	.	.	PUNCT	.	_	15	punct	15:punct	_
 
 # sent_id = GUM_speech_inauguration-3
-# text = The orderly transfer of authority as called for in the Constitution routinely takes place, as it has for almost two centuries, and few of us stop to think how unique we really are.
 # s_type = decl
 # speaker = RonaldReagan
+# text = The orderly transfer of authority as called for in the Constitution routinely takes place, as it has for almost two centuries, and few of us stop to think how unique we really are.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=justify:4->2|Entity=(event-14
 2	orderly	orderly	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	transfer	transfer	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	_
@@ -113,9 +120,9 @@
 36	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_speech_inauguration-4
-# text = In the eyes of many in the world, this every 4-year ceremony we accept as normal is nothing less than a miracle.
 # s_type = decl
 # speaker = RonaldReagan
+# text = In the eyes of many in the world, this every 4-year ceremony we accept as normal is nothing less than a miracle.
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=evaluation:10->4
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(object-21
 3	eyes	eye	NOUN	NNS	Number=Plur	19	obl	19:obl:in	_
@@ -142,9 +149,9 @@
 24	.	.	PUNCT	.	_	19	punct	19:punct	_
 
 # sent_id = GUM_speech_inauguration-5
-# text = Mr. President, I want our fellow citizens to know how much you did to carry on this tradition.
 # s_type = decl
 # speaker = RonaldReagan
+# text = Mr. President, I want our fellow citizens to know how much you did to carry on this tradition.
 1	Mr.	Mr.	PROPN	NNP	Abbr=Yes|Number=Sing	5	vocative	5:vocative	Discourse=ROOT:13|Entity=(person-3-Jimmy_Carter
 2	President	President	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-3-Jimmy_Carter)|SpaceAfter=No
 3	,	,	PUNCT	,	_	1	punct	1:punct	_
@@ -167,9 +174,9 @@
 20	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_speech_inauguration-6
-# text = By your gracious cooperation in the transition process, you have shown a watching world that we are a united people pledged to maintaining a political system which guarantees individual liberty to a greater degree than any other, and I thank you and your people for all your help in maintaining the continuity which is the bulwark of our Republic.
 # s_type = decl
 # speaker = RonaldReagan
+# text = By your gracious cooperation in the transition process, you have shown a watching world that we are a united people pledged to maintaining a political system which guarantees individual liberty to a greater degree than any other, and I thank you and your people for all your help in maintaining the continuity which is the bulwark of our Republic.
 1	By	by	ADP	IN	_	4	case	4:case	Discourse=attribution:15->16
 2	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(abstract-26(person-3-Jimmy_Carter)
 3	gracious	gracious	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -192,7 +199,7 @@
 20	united	unite	VERB	VBN	Tense=Past|VerbForm=Part	21	amod	21:amod	_
 21	people	people	NOUN	NN	Number=Sing	12	ccomp	12:ccomp	_
 22	pledged	pledge	VERB	VBN	Tense=Past|VerbForm=Part	21	acl	21:acl	Discourse=elaboration:17->16
-23	to	to	PART	TO	_	24	mark	24:mark	_
+23	to	to	SCONJ	IN	_	24	mark	24:mark	_
 24	maintaining	maintain	VERB	VBG	VerbForm=Ger	22	xcomp	22:xcomp	_
 25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	27:det	Entity=(abstract-30
 26	political	political	ADJ	JJ	Degree=Pos	27	amod	27:amod	_
@@ -215,7 +222,7 @@
 43	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	42	obj	42:obj	Entity=(person-3-Jimmy_Carter)
 44	and	and	CCONJ	CC	_	46	cc	46:cc	_
 45	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	46	nmod:poss	46:nmod:poss	Entity=(person-34(person-3-Jimmy_Carter)
-46	people	people	NOUN	NNS	Number=Plur	43	conj	42:obj|43:conj:and	Entity=person-34)
+46	people	person	NOUN	NNS	Number=Plur	43	conj	42:obj|43:conj:and	Entity=person-34)
 47	for	for	ADP	IN	_	50	case	50:case	_
 48	all	all	PRON	PDT	_	50	det:predet	50:det:predet	Entity=(event-35
 49	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	50	nmod:poss	50:nmod:poss	Entity=(person-3-Jimmy_Carter)
@@ -234,9 +241,9 @@
 62	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_speech_inauguration-7
-# text = The business of our nation goes forward.
 # s_type = decl
 # speaker = RonaldReagan
+# text = The business of our nation goes forward.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=preparation:22->23|Entity=(abstract-37
 2	business	business	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	_
 3	of	of	ADP	IN	_	5	case	5:case	_
@@ -247,11 +254,11 @@
 8	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_speech_inauguration-8
-# text = These United States are confronted with an economic affliction of great proportions.
 # s_type = decl
 # speaker = RonaldReagan
-1	These	these	DET	DT	Number=Plur|PronType=Dem	3	det	3:det	Discourse=background:23->38|Entity=(place-16
-2	United	United	PROPN	NNP	Number=Sing	3	amod	3:amod	_
+# text = These United States are confronted with an economic affliction of great proportions.
+1	These	this	DET	DT	Number=Plur|PronType=Dem	3	det	3:det	Discourse=background:23->38|Entity=(place-16
+2	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	3	amod	3:amod	_
 3	States	State	PROPN	NNPS	Number=Plur	5	nsubj:pass	5:nsubj:pass	Entity=place-16)
 4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	5:aux:pass	_
 5	confronted	confront	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -265,9 +272,9 @@
 13	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_speech_inauguration-9
-# text = We suffer from the longest and one of the worst sustained inflations in our national history.
 # s_type = decl
 # speaker = RonaldReagan
+# text = We suffer from the longest and one of the worst sustained inflations in our national history.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=evidence:24->23|Entity=(person-9)
 2	suffer	suffer	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	from	from	ADP	IN	_	12	case	12:case	_
@@ -287,9 +294,9 @@
 17	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_speech_inauguration-10
-# text = It distorts our economic decisions, penalizes thrift, and crushes the struggling young and the fixed-income elderly alike.
 # s_type = decl
 # speaker = RonaldReagan
+# text = It distorts our economic decisions, penalizes thrift, and crushes the struggling young and the fixed-income elderly alike.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|7:nsubj|11:nsubj	Discourse=elaboration:25->24|Entity=(abstract-40)
 2	distorts	distort	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(abstract-42(person-9)
@@ -312,9 +319,9 @@
 20	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_speech_inauguration-11
-# text = It threatens to shatter the lives of millions of our people.
 # s_type = decl
 # speaker = RonaldReagan
+# text = It threatens to shatter the lives of millions of our people.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|4:nsubj:xsubj	Discourse=joint:28->25|Entity=(abstract-40)
 2	threatens	threaten	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	to	to	PART	TO	_	4	mark	4:mark	_
@@ -325,13 +332,13 @@
 8	millions	million	NOUN	NNS	Number=Plur	6	nmod	6:nmod:of	Entity=(person-47
 9	of	of	ADP	IN	_	11	case	11:case	_
 10	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(person-9)
-11	people	people	NOUN	NNS	Number=Plur	8	nmod	8:nmod:of	Entity=person-46)person-47)|SpaceAfter=No
+11	people	person	NOUN	NNS	Number=Plur	8	nmod	8:nmod:of	Entity=person-46)person-47)|SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_speech_inauguration-12
-# text = Idle industries have cast workers into unemployment, human misery, and personal indignity.
 # s_type = decl
 # speaker = RonaldReagan
+# text = Idle industries have cast workers into unemployment, human misery, and personal indignity.
 1	Idle	idle	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=elaboration:29->28|Entity=(organization-48
 2	industries	industry	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=organization-48)
 3	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
@@ -349,10 +356,10 @@
 15	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_speech_inauguration-13
-# text = Those who do work are denied a fair return for their labor by a tax system which penalizes successful achievement and keeps us from maintaining full productivity.
 # s_type = decl
 # speaker = RonaldReagan
-1	Those	those	PRON	DT	Number=Plur|PronType=Dem	6	nsubj:pass	4:nsubj|6:nsubj:pass	Discourse=contrast:30->29|Entity=(person-53
+# text = Those who do work are denied a fair return for their labor by a tax system which penalizes successful achievement and keeps us from maintaining full productivity.
+1	Those	this	PRON	DT	Number=Plur|PronType=Dem	6	nsubj:pass	4:nsubj|6:nsubj:pass	Discourse=contrast:30->29|Entity=(person-53
 2	who	who	PRON	WP	PronType=Rel	4	nsubj	1:ref	Discourse=elaboration:31->30
 3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 4	work	work	VERB	VB	VerbForm=Inf	1	acl:relcl	1:acl:relcl	Entity=person-53)
@@ -382,9 +389,9 @@
 28	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_speech_inauguration-14
-# text = But great as our tax burden is, it has not kept pace with public spending.
 # s_type = decl
 # speaker = RonaldReagan
+# text = But great as our tax burden is, it has not kept pace with public spending.
 1	But	but	CCONJ	CC	_	12	cc	12:cc	Discourse=preparation:35->38
 2	great	great	ADJ	JJ	Degree=Pos	12	advcl	12:advcl	Discourse=concession:36->37
 3	as	as	SCONJ	IN	_	7	mark	7:mark	_
@@ -404,9 +411,9 @@
 17	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_speech_inauguration-15
-# text = For decades we have piled deficit upon deficit, mortgaging our future and our children's future for the temporary convenience of the present.
 # s_type = decl
 # speaker = RonaldReagan
+# text = For decades we have piled deficit upon deficit, mortgaging our future and our children's future for the temporary convenience of the present.
 1	For	for	ADP	IN	_	2	case	2:case	Discourse=motivation:38->47
 2	decades	decade	NOUN	NNS	Number=Plur	5	obl	5:obl:for	Entity=(time-62)
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-9)
@@ -421,7 +428,8 @@
 12	future	future	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=abstract-65)
 13	and	and	CCONJ	CC	_	17	cc	17:cc	_
 14	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	15:nmod:poss	Entity=(abstract-66(person-67(person-9)
-15	children	child	NOUN	NNS	Number=Plur	17	nmod:poss	17:nmod:poss	SpaceAfter=No
+15-16	children's	_	_	_	_	_	_	_	_
+15	children	child	NOUN	NNS	Number=Plur	17	nmod:poss	17:nmod:poss	_
 16	's	's	PART	POS	_	15	case	15:case	Entity=person-67)
 17	future	future	NOUN	NN	Number=Sing	12	conj	10:obj|12:conj:and	Entity=abstract-66)
 18	for	for	ADP	IN	_	21	case	21:case	_
@@ -434,10 +442,10 @@
 25	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_speech_inauguration-16
-# text = To continue this long trend is to guarantee tremendous social, cultural, political, and economic upheavals.
 # s_type = decl
 # speaker = RonaldReagan
-1	To	To	PART	TO	_	2	mark	2:mark	Discourse=evaluation:40->38
+# text = To continue this long trend is to guarantee tremendous social, cultural, political, and economic upheavals.
+1	To	to	PART	TO	_	2	mark	2:mark	Discourse=evaluation:40->38
 2	continue	continue	VERB	VB	VerbForm=Inf	8	csubj	8:csubj	_
 3	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	5:det	Entity=(abstract-70
 4	long	long	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
@@ -458,9 +466,9 @@
 19	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_speech_inauguration-17
-# text = You and I, as individuals, can, by borrowing, live beyond our means, but for only a limited period of time.
 # s_type = sub
 # speaker = RonaldReagan
+# text = You and I, as individuals, can, by borrowing, live beyond our means, but for only a limited period of time.
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	13:nsubj	Discourse=concession:41->44|Entity=(person-72(person-73)
 2	and	and	CCONJ	CC	_	3	cc	3:cc	_
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	conj	1:conj:and|13:nsubj	Entity=(person-10)person-72)|SpaceAfter=No
@@ -489,9 +497,9 @@
 26	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_speech_inauguration-18
-# text = Why, then, should we think that collectively, as a nation, we 're not bound by that same limitation?
 # s_type = wh
 # speaker = RonaldReagan
+# text = Why, then, should we think that collectively, as a nation, we're not bound by that same limitation?
 1	Why	why	ADV	WRB	PronType=Int	7	advmod	7:advmod	Discourse=attribution:45->46|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	then	then	ADV	RB	PronType=Dem	7	advmod	7:advmod	SpaceAfter=No
@@ -506,7 +514,7 @@
 12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Entity=(place-16
 13	nation	nation	NOUN	NN	Number=Sing	15	nmod	15:nmod:as	Entity=place-16)|SpaceAfter=No
 14	,	,	PUNCT	,	_	13	punct	13:punct	_
-15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj:pass	18:nsubj:pass	Entity=(person-9)
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj:pass	18:nsubj:pass	Entity=(person-9)|SpaceAfter=No
 16	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	aux:pass	18:aux:pass	_
 17	not	not	PART	RB	Polarity=Neg	18	advmod	18:advmod	_
 18	bound	bind	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	ccomp	7:ccomp	_
@@ -517,9 +525,9 @@
 23	?	?	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_speech_inauguration-19
-# text = We must act today in order to preserve tomorrow.
 # s_type = sub
 # speaker = RonaldReagan
+# text = We must act today in order to preserve tomorrow.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint:47->13|Entity=(person-9)
 2	must	must	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	act	act	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -532,9 +540,9 @@
 10	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_speech_inauguration-20
-# text = And let there be no misunderstanding: We are going to begin to act, beginning today.
 # s_type = multiple
 # speaker = RonaldReagan
+# text = And let there be no misunderstanding: We are going to begin to act, beginning today.
 1	And	and	CCONJ	CC	_	2	cc	2:cc	Discourse=preparation:49->50
 2	let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
 3	there	there	PRON	EX	_	4	expl	4:expl	_
@@ -555,9 +563,9 @@
 18	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_speech_inauguration-21
-# text = The economic ills we suffer have come upon us over several decades.
 # s_type = decl
 # speaker = RonaldReagan
+# text = The economic ills we suffer have come upon us over several decades.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=background:52->55|Entity=(abstract-79
 2	economic	economic	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	ills	ill	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	_
@@ -573,9 +581,9 @@
 13	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_speech_inauguration-22
-# text = They will not go away in days, weeks, or months, but they will go away.
 # s_type = decl
 # speaker = RonaldReagan
+# text = They will not go away in days, weeks, or months, but they will go away.
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=concession:55->56|Entity=(abstract-79)
 2	will	will	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
@@ -597,9 +605,9 @@
 19	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_speech_inauguration-23
-# text = They will go away because we as Americans have the capacity now, as we've had in the past, to do whatever needs to be done to preserve this last and greatest bastion of freedom.
 # s_type = decl
 # speaker = RonaldReagan
+# text = They will go away because we as Americans have the capacity now, as we've had in the past, to do whatever needs to be done to preserve this last and greatest bastion of freedom.
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=restatement:57->56|Entity=(abstract-79)
 2	will	will	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	go	go	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -614,7 +622,8 @@
 12	now	now	ADV	RB	_	9	advmod	9:advmod	SpaceAfter=No
 13	,	,	PUNCT	,	_	17	punct	17:punct	_
 14	as	as	SCONJ	IN	_	17	mark	17:mark	Discourse=manner:59->58
-15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	17:nsubj	Entity=(person-9)|SpaceAfter=No
+15-16	we've	_	_	_	_	_	_	_	_
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	17:nsubj	Entity=(person-9)
 16	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	aux	17:aux	_
 17	had	have	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	9:advcl:as	_
 18	in	in	ADP	IN	_	20	case	20:case	_
@@ -640,9 +649,9 @@
 38	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_speech_inauguration-24
-# text = In this present crisis, government is not the solution to our problem; government is the problem.
 # s_type = decl
 # speaker = RonaldReagan
+# text = In this present crisis, government is not the solution to our problem; government is the problem.
 1	In	in	ADP	IN	_	4	case	4:case	Discourse=antithesis:62->63
 2	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Entity=(event-87
 3	present	present	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -664,14 +673,15 @@
 19	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_speech_inauguration-25
-# text = From time to time we've been tempted to believe that society has become too complex to be managed by self-rule, that government by an elite group is superior to government for, by, and of the people.
 # s_type = decl
 # speaker = RonaldReagan
+# text = From time to time we've been tempted to believe that society has become too complex to be managed by self-rule, that government by an elite group is superior to government for, by, and of the people.
 1	From	from	ADP	IN	_	2	case	2:case	Discourse=attribution:64->65
 2	time	time	NOUN	NN	Number=Sing	8	obl	8:obl:from	Entity=(time-91)
 3	to	to	ADP	IN	_	4	case	4:case	_
 4	time	time	NOUN	NN	Number=Sing	2	nmod	2:nmod:to	Entity=(time-92)
-5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj:pass	8:nsubj:pass|10:nsubj:xsubj	Entity=(person-9)|SpaceAfter=No
+5-6	we've	_	_	_	_	_	_	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj:pass	8:nsubj:pass|10:nsubj:xsubj	Entity=(person-9)
 6	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
 7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	8	aux:pass	8:aux:pass	_
 8	tempted	tempt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -706,18 +716,18 @@
 37	and	and	CCONJ	CC	_	38	cc	38:cc	_
 38	of	of	ADP	IN	_	33	conj	33:conj:and|40:case	_
 39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	40:det	Entity=(person-98
-40	people	people	NOUN	NNS	Number=Plur	32	nmod	32:nmod:for	Entity=abstract-97)person-98)|SpaceAfter=No
+40	people	person	NOUN	NNS	Number=Plur	32	nmod	32:nmod:for	Entity=abstract-97)person-98)|SpaceAfter=No
 41	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_speech_inauguration-26
-# text = Well, if no one among us is capable of governing himself, then who among us has the capacity to govern someone else?
 # s_type = wh
 # speaker = RonaldReagan
+# text = Well, if no one among us is capable of governing himself, then who among us has the capacity to govern someone else?
 1	Well	well	INTJ	UH	_	18	discourse	18:discourse	Discourse=justify:67->72|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	if	if	SCONJ	IN	_	9	mark	9:mark	Discourse=condition:68->70
 4	no	no	DET	DT	Polarity=Neg	5	det	5:det	Entity=(person-99
-5	one	one	NUM	CD	NumForm=Word|NumType=Card	9	nsubj	9:nsubj	_
+5	one	one	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	_
 6	among	among	ADP	IN	_	7	case	7:case	_
 7	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	nmod	5:nmod:among	Entity=(person-9)person-99)
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
@@ -740,9 +750,9 @@
 25	?	?	PUNCT	.	_	18	punct	18:punct	_
 
 # sent_id = GUM_speech_inauguration-27
-# text = All of us together, in and out of government, must bear the burden.
 # s_type = sub
 # speaker = RonaldReagan
+# text = All of us together, in and out of government, must bear the burden.
 1	All	all	PRON	DT	_	13	nsubj	13:nsubj	Discourse=joint:72->13|Entity=(person-9
 2	of	of	ADP	IN	_	3	case	3:case	_
 3	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	nmod	1:nmod:of	_
@@ -761,9 +771,9 @@
 16	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_speech_inauguration-28
-# text = The solutions we seek must be equitable, with no one group singled out to pay a higher price.
 # s_type = sub
 # speaker = RonaldReagan
+# text = The solutions we seek must be equitable, with no one group singled out to pay a higher price.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration:73->72|Entity=(abstract-103
 2	solutions	solution	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	_
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=elaboration:74->73|Entity=(person-9)
@@ -774,7 +784,7 @@
 8	,	,	PUNCT	,	_	12	punct	12:punct	_
 9	with	with	ADP	IN	_	12	case	12:case	Discourse=manner:76->73
 10	no	no	DET	DT	Polarity=Neg	12	det	12:det	Entity=(person-104
-11	one	one	NUM	CD	NumForm=Word|NumType=Card	12	nummod	12:nummod	_
+11	one	one	NOUN	NN	Number=Sing	12	nummod	12:nummod	_
 12	group	group	NOUN	NN	Number=Sing	7	obl	7:obl:with	Entity=person-104)
 13	singled	single	VERB	VBN	Tense=Past|VerbForm=Part	12	acl	12:acl	_
 14	out	out	ADP	RP	_	13	compound:prt	13:compound:prt	_
@@ -786,9 +796,9 @@
 20	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_speech_inauguration-29
-# text = We hear much of special interest groups.
 # s_type = decl
 # speaker = RonaldReagan
+# text = We hear much of special interest groups.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=preparation:78->79|Entity=(person-9)
 2	hear	hear	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	much	much	ADV	RB	Degree=Pos	2	obj	2:obj	_
@@ -799,9 +809,9 @@
 8	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_speech_inauguration-30
-# text = Well, our concern must be for a special interest group that has been too long neglected.
 # s_type = sub
 # speaker = RonaldReagan
+# text = Well, our concern must be for a special interest group that has been too long neglected.
 1	Well	well	INTJ	UH	_	11	discourse	11:discourse	Discourse=elaboration:79->72|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(abstract-108(person-9)
@@ -822,9 +832,9 @@
 18	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_speech_inauguration-31
-# text = It knows no sectional boundaries or ethnic and racial divisions, and it crosses political party lines.
 # s_type = decl
 # speaker = RonaldReagan
+# text = It knows no sectional boundaries or ethnic and racial divisions, and it crosses political party lines.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration:81->79|Entity=(person-109)
 2	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	no	no	DET	DT	Polarity=Neg	5	det	5:det	Entity=(abstract-110
@@ -845,9 +855,9 @@
 18	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_speech_inauguration-32
-# text = It is made up of men and women who raise our food, patrol our streets, man our mines and factories, teach our children, keep our homes, and heal us when we 're sick — professionals, industrialists, shopkeepers, clerks, cabbies, and truck drivers.
 # s_type = decl
 # speaker = RonaldReagan
+# text = It is made up of men and women who raise our food, patrol our streets, man our mines and factories, teach our children, keep our homes, and heal us when we're sick — professionals, industrialists, shopkeepers, clerks, cabbies, and truck drivers.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	3:nsubj:pass	Discourse=joint:83->81|Entity=(person-109)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -883,7 +893,7 @@
 33	heal	heal	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	6:acl:relcl|10:conj:and	_
 34	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	33	obj	33:obj	Entity=(person-9)
 35	when	when	SCONJ	WRB	PronType=Int	38	mark	38:mark	Discourse=circumstance:90->89
-36	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	38	nsubj	38:nsubj	Entity=(person-9)
+36	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	38	nsubj	38:nsubj	Entity=(person-9)|SpaceAfter=No
 37	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	38	cop	38:cop	_
 38	sick	sick	ADJ	JJ	Degree=Pos	33	advcl	33:advcl:when	Entity=person-109)
 39	—	—	PUNCT	:	_	40	punct	40:punct	_
@@ -903,9 +913,9 @@
 53	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_speech_inauguration-33
-# text = They are, in short, "We the people," this breed called Americans.
 # s_type = decl
 # speaker = RonaldReagan
+# text = They are, in short, "We the people," this breed called Americans.
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	10:nsubj	Discourse=elaboration:92->84|Entity=(person-109)
 2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	cop	10:cop	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -915,7 +925,7 @@
 7	"	''	PUNCT	``	_	10	punct	10:punct	SpaceAfter=No
 8	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	10:nsubj	Entity=(person-109
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	_
-10	people	people	NOUN	NNS	Number=Plur	0	root	0:root	Entity=person-109)|SpaceAfter=No
+10	people	person	NOUN	NNS	Number=Plur	0	root	0:root	Entity=person-109)|SpaceAfter=No
 11	,	,	PUNCT	,	_	10	punct	10:punct	SpaceAfter=No
 12	"	''	PUNCT	''	_	10	punct	10:punct	_
 13	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	14:det	Discourse=restatement:93->92|Entity=(person-109
@@ -925,13 +935,14 @@
 17	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_speech_inauguration-34
-# text = Well, this administration's objective will be a healthy, vigorous, growing economy that provides equal opportunities for all Americans, with no barriers born of bigotry or discrimination.
 # s_type = decl
 # speaker = RonaldReagan
+# text = Well, this administration's objective will be a healthy, vigorous, growing economy that provides equal opportunities for all Americans, with no barriers born of bigotry or discrimination.
 1	Well	well	INTJ	UH	_	15	discourse	15:discourse	Discourse=joint:95->13|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Entity=(abstract-125(organization-126
-4	administration	administration	NOUN	NN	Number=Sing	6	nmod:poss	6:nmod:poss	SpaceAfter=No
+4-5	administration's	_	_	_	_	_	_	_	_
+4	administration	administration	NOUN	NN	Number=Sing	6	nmod:poss	6:nmod:poss	_
 5	's	's	PART	POS	_	4	case	4:case	Entity=organization-126)
 6	objective	objective	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=abstract-125)
 7	will	will	AUX	MD	VerbForm=Fin	15	aux	15:aux	_
@@ -962,9 +973,9 @@
 32	.	.	PUNCT	.	_	15	punct	15:punct	_
 
 # sent_id = GUM_speech_inauguration-35
-# text = Putting America back to work means putting all Americans back to work.
 # s_type = decl
 # speaker = RonaldReagan
+# text = Putting America back to work means putting all Americans back to work.
 1	Putting	put	VERB	VBG	VerbForm=Ger	6	csubj	6:csubj	Discourse=justify:98->100
 2	America	America	PROPN	NNP	Number=Sing	1	obj	1:obj|5:nsubj:xsubj	Entity=(place-16)
 3	back	back	ADV	RB	Degree=Pos	1	advmod	1:advmod	_
@@ -980,9 +991,9 @@
 13	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_speech_inauguration-36
-# text = Ending inflation means freeing all Americans from the terror of runaway living costs.
 # s_type = decl
 # speaker = RonaldReagan
+# text = Ending inflation means freeing all Americans from the terror of runaway living costs.
 1	Ending	end	VERB	VBG	VerbForm=Ger	3	csubj	3:csubj	Discourse=joint:99->98
 2	inflation	inflation	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=(abstract-132)
 3	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -999,9 +1010,9 @@
 14	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_speech_inauguration-37
-# text = All must share in the productive work of this "new beginning," and all must share in the bounty of a revived economy.
 # s_type = sub
 # speaker = RonaldReagan
+# text = All must share in the productive work of this "new beginning," and all must share in the bounty of a revived economy.
 1	All	all	PRON	DT	_	3	nsubj	3:nsubj	Discourse=elaboration:100->95|Entity=(person-9)
 2	must	must	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	share	share	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -1030,9 +1041,9 @@
 26	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_speech_inauguration-38
-# text = With the idealism and fair play which are the core of our system and our strength, we can have a strong and prosperous America, at peace with itself and the world.
 # s_type = sub
 # speaker = RonaldReagan
+# text = With the idealism and fair play which are the core of our system and our strength, we can have a strong and prosperous America, at peace with itself and the world.
 1	With	with	ADP	IN	_	3	case	3:case	Discourse=motivation:102->100
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(abstract-138
 3	idealism	idealism	NOUN	NN	Number=Sing	20	obl	10:nsubj|20:obl:with	_
@@ -1062,9 +1073,9 @@
 27	at	at	ADP	IN	_	28	case	28:case	_
 28	peace	peace	NOUN	NN	Number=Sing	25	nmod	25:nmod:at	Entity=(abstract-142
 29	with	with	ADP	IN	_	30	case	30:case	_
-30	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	28	nmod	28:nmod:with	Entity=(place-16)
+30	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	28	obl	28:obl:with	Entity=(place-16)
 31	and	and	CCONJ	CC	_	33	cc	33:cc	_
 32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	33:det	Entity=(place-23
-33	world	world	NOUN	NN	Number=Sing	30	conj	28:nmod:with|30:conj:and	Entity=place-16)abstract-142)place-23)|SpaceAfter=No
+33	world	world	NOUN	NN	Number=Sing	30	conj	28:obl:with|30:conj:and	Entity=place-16)abstract-142)place-23)|SpaceAfter=No
 34	.	.	PUNCT	.	_	20	punct	20:punct	_
 

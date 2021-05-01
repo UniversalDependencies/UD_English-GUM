@@ -1,16 +1,24 @@
 # newdoc id = GUM_vlog_lipstick
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2020-09-03
+# meta::dateCreated = 2020-06-25
+# meta::dateModified = 2020-06-25
+# meta::sourceURL = https://www.youtube.com/watch?v=mQB8o2hYcJs
+# meta::speakerCount = 2
+# meta::title = a day in the life vlog: spring cleaning + exploring black owned atlanta
 # sent_id = GUM_vlog_lipstick-1
-# text = Boom!
 # s_type = intj
 # speaker = AlyssaMarie
+# text = Boom!
 1	Boom	boom	INTJ	UH	_	0	root	0:root	Discourse=preparation:1->2|SpaceAfter=No
 2	!	!	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-2
-# text = It's like lipstick central.
 # s_type = decl
 # speaker = AlyssaMarie
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=background:2->6|Entity=(place-1)|SpaceAfter=No
+# text = It's like lipstick central.
+1-2	It's	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=background:2->6|Entity=(place-1)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	like	like	ADP	IN	_	5	case	5:case	_
 4	lipstick	lipstick	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(place-1(object-2)
@@ -18,10 +26,11 @@
 6	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_vlog_lipstick-3
-# text = It's actually pretty crazy in here.
 # s_type = decl
 # speaker = AlyssaMarie
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=evaluation:3->2|SpaceAfter=No
+# text = It's actually pretty crazy in here.
+1-2	It's	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=evaluation:3->2
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	actually	actually	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 4	pretty	pretty	ADV	RB	_	5	advmod	5:advmod	_
@@ -31,9 +40,9 @@
 8	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_vlog_lipstick-4
-# text = Eventually I actually — maybe we can check for this at Target.
 # s_type = sub
 # speaker = AlyssaMarie
+# text = Eventually I actually — maybe we can check for this at Target.
 1	Eventually	eventually	ADV	RB	Degree=Pos	2	orphan	3.2:advmod	Discourse=preparation:4->5
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	reparandum	3.2:nsubj	Entity=(person-3)
 3	actually	actually	ADV	RB	Degree=Pos|Typo=Yes	2	orphan	3.2:advmod	_
@@ -51,9 +60,9 @@
 13	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_vlog_lipstick-5
-# text = I actually want to get one of those acrylic things where the lipsticks can just stand up in it and it looks super neat.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = I actually want to get one of those acrylic things where the lipsticks can just stand up in it and it looks super neat.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Discourse=background:6->15|Entity=(person-3)
 2	actually	actually	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
 3	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -61,7 +70,7 @@
 5	get	get	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
 6	one	one	NUM	CD	NumForm=Word|NumType=Card	5	obj	5:obj	Entity=(object-7
 7	of	of	ADP	IN	_	10	case	10:case	_
-8	those	those	DET	DT	Number=Plur|PronType=Dem	10	det	10:det	Entity=(object-8
+8	those	this	DET	DT	Number=Plur|PronType=Dem	10	det	10:det	Entity=(object-8
 9	acrylic	acrylic	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
 10	things	thing	NOUN	NNS	Number=Plur	6	nmod	6:nmod:of	Entity=object-8)
 11	where	where	SCONJ	WRB	PronType=Rel	16	mark	16:mark	Discourse=elaboration:7->6
@@ -81,11 +90,12 @@
 25	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-6
-# text = Like that's definitely what I want.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = Like that's definitely what I want.
 1	Like	like	INTJ	UH	_	5	discourse	5:discourse	Discourse=restatement:9->6
-2	that	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Entity=(object-7)|SpaceAfter=No
+2-3	that's	_	_	_	_	_	_	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Entity=(object-7)
 3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 4	definitely	definitely	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 5	what	what	PRON	WP	PronType=Rel	0	root	0:root	Entity=(object-7
@@ -94,9 +104,9 @@
 8	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_vlog_lipstick-7
-# text = But I also need to clear a lot of these out because I know a lot of these lipsticks are at least over like two three years old and that's like not okay.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = But I also need to clear a lot of these out because I know a lot of these lipsticks are at least over like two three years old and that's like not okay.
 1	But	but	CCONJ	CC	_	4	cc	4:cc	Discourse=contrast:10->6
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj|6:nsubj:xsubj	Entity=(person-3)
 3	also	also	ADV	RB	_	4	advmod	4:advmod	_
@@ -106,7 +116,7 @@
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(object-10
 8	lot	lot	NOUN	NN	Number=Sing	6	obj	6:obj	_
 9	of	of	ADP	IN	_	10	case	10:case	_
-10	these	these	PRON	DT	Number=Plur|PronType=Dem	8	nmod	8:nmod:of	Entity=(object-11)object-10)
+10	these	this	PRON	DT	Number=Plur|PronType=Dem	8	nmod	8:nmod:of	Entity=(object-11)object-10)
 11	out	out	ADP	RP	_	6	compound:prt	6:compound:prt	_
 12	because	because	SCONJ	IN	_	14	mark	14:mark	Discourse=attribution:11->12
 13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	14:nsubj	Entity=(person-3)
@@ -114,19 +124,20 @@
 15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Discourse=cause:12->10|Entity=(abstract-12(object-10
 16	lot	lot	NOUN	NN	Number=Sing	28	nsubj	28:nsubj	_
 17	of	of	ADP	IN	_	19	case	19:case	_
-18	these	these	DET	DT	Number=Plur|PronType=Dem	19	det	19:det	Entity=(object-11
+18	these	this	DET	DT	Number=Plur|PronType=Dem	19	det	19:det	Entity=(object-11
 19	lipsticks	lipstick	NOUN	NNS	Number=Plur	16	nmod	16:nmod:of	Entity=object-10)object-11)
 20	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	28:cop	_
 21	at	at	ADP	IN	_	22	case	22:case	Entity=(time-13
 22	least	least	ADJ	JJS	Degree=Sup	25	nmod	25:nmod:at	_
-23	over	over	ADP	IN	_	25	case	25:case	_
+23	over	over	ADV	RB	_	25	case	25:case	_
 24	like	like	INTJ	UH	_	25	discourse	25:discourse	_
 25	two	two	NUM	CD	NumForm=Word|NumType=Card	27	nummod	27:nummod	_
 26	three	three	NUM	CD	NumForm=Word|NumType=Card	25	conj	25:conj|27:nummod	_
-27	years	year	NOUN	NNS	Number=Plur	28	obl:npmod	28:obl:npmod	Entity=time-13)
+27	years	year	NOUN	NNS	Number=Plur	28	obl:tmod	28:obl:tmod	Entity=time-13)
 28	old	old	ADJ	JJ	Degree=Pos	14	ccomp	14:ccomp	Entity=abstract-12)
 29	and	and	CCONJ	CC	_	34	cc	34:cc	Discourse=evaluation:13->12
-30	that	that	PRON	DT	Number=Sing|PronType=Dem	34	nsubj	34:nsubj	Entity=(abstract-12)|SpaceAfter=No
+30-31	that's	_	_	_	_	_	_	_	_
+30	that	that	PRON	DT	Number=Sing|PronType=Dem	34	nsubj	34:nsubj	Entity=(abstract-12)
 31	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	34:cop	_
 32	like	like	INTJ	UH	_	34	discourse	34:discourse	_
 33	not	not	PART	RB	Polarity=Neg	34	advmod	34:advmod	_
@@ -134,9 +145,9 @@
 35	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-8
-# text = Alright so let's have a quick look at this.
 # s_type = imp
 # speaker = AlyssaMarie
+# text = Alright so let's have a quick look at this.
 1	Alright	alright	INTJ	UH	_	3	discourse	3:discourse	Discourse=preparation:14->15
 2	so	so	INTJ	UH	_	3	discourse	3:discourse	_
 3	let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	SpaceAfter=No
@@ -150,15 +161,16 @@
 11	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-9
-# text = My fancy lipsticks — I can't part with them yet.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = My fancy lipsticks — I can't part with them yet.
 1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Bridge=object-11<object-15|Discourse=ROOT:15|Entity=(object-15(person-3)
 2	fancy	fancy	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	lipsticks	lipstick	NOUN	NNS	Number=Plur	8	dislocated	8:dislocated	Entity=object-15)
 4	—	—	PUNCT	:	Typo=Yes	3	punct	3:punct	_
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	8:nsubj	Entity=(person-3)
-6	ca	can	AUX	MD	VerbForm=Fin	8	aux	8:aux	SpaceAfter=No
+6-7	can't	_	_	_	_	_	_	_	_
+6	ca	can	AUX	MD	VerbForm=Fin	8	aux	8:aux	_
 7	n't	not	PART	RB	Polarity=Neg	8	advmod	8:advmod	_
 8	part	part	VERB	VB	VerbForm=Inf	0	root	0:root	_
 9	with	with	ADP	IN	_	10	case	10:case	_
@@ -167,39 +179,42 @@
 12	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_vlog_lipstick-10
-# text = I just I literally can't so I'm gon na keep those.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = I just I literally can't so I'm gonna keep those.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	reparandum	2.1:nsubj	Discourse=restatement:16->15|Entity=(person-3)
 2	just	just	ADV	RB	_	1	orphan	2.1:advmod	_
 2.1	ca	can	AUX	MD	VerbForm=Fin	_	_	6:reparandum	CopyOf=5
 2.2	n't	not	PART	RB	Polarity=Neg	_	_	2.1:advmod	CopyOf=6
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-3)
 4	literally	literally	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
-5	ca	can	AUX	MD	VerbForm=Fin	0	root	0:root	SpaceAfter=No
+5-6	can't	_	_	_	_	_	_	_	_
+5	ca	can	AUX	MD	VerbForm=Fin	0	root	0:root	_
 6	n't	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
 7	so	so	ADV	RB	_	10	advmod	10:advmod	Discourse=result:17->16
-8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj|12:nsubj:xsubj	Entity=(person-3)|SpaceAfter=No
+8-9	I'm	_	_	_	_	_	_	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj|12:nsubj:xsubj	Entity=(person-3)
 9	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	10:aux	_
+10-11	gonna	_	_	_	_	_	_	_	_
 10	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	5	parataxis	5:parataxis	_
 11	na	to	PART	TO	_	12	mark	12:mark	_
 12	keep	keep	VERB	VB	VerbForm=Inf	10	xcomp	10:xcomp	_
-13	those	those	PRON	DT	Number=Plur|PronType=Dem	12	obj	12:obj	Entity=(object-15)|SpaceAfter=No
+13	those	this	PRON	DT	Number=Plur|PronType=Dem	12	obj	12:obj	Entity=(object-15)|SpaceAfter=No
 14	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_vlog_lipstick-11
-# text = Let's see.
 # s_type = imp
 # speaker = AlyssaMarie
+# text = Let's see.
 1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:18->19|SpaceAfter=No
 2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	1:obj|3:nsubj:xsubj	Entity=(person-4)
 3	see	see	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-12
-# text = Okay so this is a Pat McGrath lipstick.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = Okay so this is a Pat McGrath lipstick.
 1	Okay	okay	INTJ	UH	_	8	discourse	8:discourse	Discourse=joint:19->15
 2	so	so	INTJ	UH	_	8	discourse	8:discourse	_
 3	this	this	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	8:nsubj	Entity=(object-16)
@@ -211,19 +226,20 @@
 9	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_vlog_lipstick-13
-# text = Oh my gosh.
 # s_type = intj
 # speaker = AlyssaMarie
+# text = Oh my gosh.
 1	Oh	oh	INTJ	UH	_	3	discourse	3:discourse	Discourse=evaluation:20->19
 2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	_
 3	gosh	gosh	INTJ	UH	_	0	root	0:root	SpaceAfter=No
 4	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-14
-# text = It's like the most beautiful red lipstick.
 # s_type = decl
 # speaker = AlyssaMarie
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj	Discourse=joint:21->20|Entity=(object-16)|SpaceAfter=No
+# text = It's like the most beautiful red lipstick.
+1-2	It's	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj	Discourse=joint:21->20|Entity=(object-16)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
 3	like	like	INTJ	UH	_	8	discourse	8:discourse	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(object-16
@@ -234,18 +250,18 @@
 9	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_vlog_lipstick-15
-# text = Look at this.
 # s_type = imp
 # speaker = AlyssaMarie
+# text = Look at this.
 1	Look	look	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=justify:22->21
 2	at	at	ADP	IN	_	3	case	3:case	_
 3	this	this	PRON	DT	Number=Sing|PronType=Dem	1	obl	1:obl:at	Entity=(object-16)|SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-16
-# text = Let me swatch it for you real quick, real quick.
 # s_type = imp
 # speaker = AlyssaMarie
+# text = Let me swatch it for you real quick, real quick.
 1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=means:23->22
 2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	1:obj|3:nsubj:xsubj	Entity=(person-3)
 3	swatch	swatch	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
@@ -260,16 +276,16 @@
 12	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-17
-# text = Mm!
 # s_type = intj
 # speaker = AlyssaMarie
+# text = Mm!
 1	Mm	mm	INTJ	UH	_	0	root	0:root	Discourse=evaluation:24->22|SpaceAfter=No
 2	!	!	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-18
-# text = Look at how beautiful this is.
 # s_type = imp
 # speaker = AlyssaMarie
+# text = Look at how beautiful this is.
 1	Look	look	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint:25->24
 2	at	at	ADP	IN	_	4	case	4:case	_
 3	how	how	SCONJ	WRB	PronType=Int	4	mark	4:mark	_
@@ -279,26 +295,27 @@
 7	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-19
-# text = I feel like I don't want to throw it away.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = I feel like I don't want to throw it away.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=evaluation:26->19|Entity=(person-3)
 2	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	like	like	SCONJ	IN	_	7	mark	7:mark	_
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj|9:nsubj:xsubj	Entity=(person-3)
-5	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	7:aux	SpaceAfter=No
+5-6	don't	_	_	_	_	_	_	_	_
+5	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_
 6	n't	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	_
 7	want	want	VERB	VB	VerbForm=Inf	2	advcl	2:advcl:like	_
 8	to	to	PART	TO	_	9	mark	9:mark	_
 9	throw	throw	VERB	VB	VerbForm=Inf	7	xcomp	7:xcomp	_
 10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	9:obj	Entity=(object-16)
-11	away	away	ADP	RP	_	9	compound:prt	9:compound:prt	SpaceAfter=No
+11	away	away	ADV	RB	Degree=Pos	9	advmod	9:advmod	SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_vlog_lipstick-20
-# text = But anyways, so on the bottom of this lipstick you can see where it says eighteen months is the shelf life so.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = But anyways, so on the bottom of this lipstick you can see where it says eighteen months is the shelf life so.
 1	But	but	CCONJ	CC	_	13	cc	13:cc	Discourse=background:27->34
 2	anyways	anyways	ADV	RB	_	13	advmod	13:advmod	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -325,9 +342,9 @@
 24	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_vlog_lipstick-21
-# text = Let me see if I can —
 # s_type = imp
 # speaker = AlyssaMarie
+# text = Let me see if I can —
 1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:28->29
 2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	1:obj|3:nsubj:xsubj	Entity=(person-21)
 3	see	see	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
@@ -337,9 +354,9 @@
 7	—	—	PUNCT	:	Typo=Yes	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-22
-# text = Can you all see this?
 # s_type = q
 # speaker = AlyssaMarie
+# text = Can you all see this?
 1	Can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	Discourse=solutionhood:29->30
 2	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-18
 3	all	all	DET	DT	_	2	det	2:det	Entity=person-18)
@@ -348,9 +365,9 @@
 6	?	?	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-23
-# text = I will definitely insert a little clip here that will show you what the shelf life symbol looks like on products.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = I will definitely insert a little clip here that will show you what the shelf life symbol looks like on products.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=evidence:30->27|Entity=(person-21)
 2	will	will	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	definitely	definitely	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
@@ -375,9 +392,9 @@
 22	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-24
-# text = So you will find this on all your cosmetics, your makeup.
 # s_type = sub
 # speaker = AlyssaMarie
+# text = So you will find this on all your cosmetics, your makeup.
 1	So	so	INTJ	UH	_	4	discourse	4:discourse	Discourse=elaboration:32->30
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-18)
 3	will	will	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
@@ -393,9 +410,9 @@
 13	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-25
-# text = It is usually on there.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = It is usually on there.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=joint:33->32|Entity=(abstract-24)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	usually	usually	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
@@ -404,9 +421,9 @@
 6	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_vlog_lipstick-26
-# text = So when it says eighteen M that means that product, after eighteen months, is expired.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = So when it says eighteen M that means that product, after eighteen months, is expired.
 1	So	so	INTJ	UH	_	8	discourse	8:discourse	Discourse=background:34->37
 2	when	when	SCONJ	WRB	PronType=Int	4	mark	4:mark	Discourse=condition:35->36
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(abstract-24)
@@ -427,9 +444,9 @@
 18	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_vlog_lipstick-27
-# text = I feel like this is not too far past eighteen months, and I mean look at the red.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = I feel like this is not too far past eighteen months, and I mean look at the red.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj|16:nsubj	Discourse=cause:37->40|Entity=(person-21)
 2	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	like	like	SCONJ	IN	_	9	mark	9:mark	_
@@ -452,16 +469,18 @@
 20	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_vlog_lipstick-28
-# text = It's beautiful, so I can't part with it.
 # s_type = decl
 # speaker = AlyssaMarie
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=evaluation:39->37|Entity=(abstract-28)|SpaceAfter=No
+# text = It's beautiful, so I can't part with it.
+1-2	It's	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=evaluation:39->37|Entity=(abstract-28)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	beautiful	beautiful	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
 4	,	,	PUNCT	,	_	9	punct	9:punct	_
 5	so	so	ADV	RB	_	9	advmod	9:advmod	Discourse=joint:40->15
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	9:nsubj	Entity=(abstract-29(person-21)
-7	ca	can	AUX	MD	VerbForm=Fin	9	aux	9:aux	SpaceAfter=No
+7-8	can't	_	_	_	_	_	_	_	_
+7	ca	can	AUX	MD	VerbForm=Fin	9	aux	9:aux	_
 8	n't	not	PART	RB	Polarity=Neg	9	advmod	9:advmod	_
 9	part	part	VERB	VB	VerbForm=Inf	3	parataxis	3:parataxis	_
 10	with	with	ADP	IN	_	11	case	11:case	_
@@ -469,9 +488,9 @@
 12	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-29
-# text = This is a problem.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = This is a problem.
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Discourse=evaluation:41->40|Entity=(abstract-29)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(abstract-29
@@ -479,36 +498,37 @@
 5	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-30
-# text = Oh my gosh.
 # s_type = intj
 # speaker = AlyssaMarie
+# text = Oh my gosh.
 1	Oh	oh	INTJ	UH	_	3	discourse	3:discourse	Discourse=preparation:42->43
 2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	_
 3	gosh	gosh	INTJ	UH	_	0	root	0:root	SpaceAfter=No
 4	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-31
-# text = The doorbell rang.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = The doorbell rang.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=background:43->45|Entity=(object-30
 2	doorbell	doorbell	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=object-30)
-3	rang	rang	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+3	rang	ring	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 4	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-32
-# text = Excitement!
 # s_type = frag
 # speaker = AlyssaMarie
+# text = Excitement!
 1	Excitement	excitement	NOUN	NN	Number=Sing	0	root	0:root	Discourse=evaluation:44->43|SpaceAfter=No
 2	!	!	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-33
-# text = Who's at the door Hershey?
+# addressee = Hershey
 # s_type = wh
 # speaker = AlyssaMarie
-# addressee = Hershey
-1	Who	who	PRON	WP	PronType=Int	5	nsubj	5:nsubj	Discourse=solutionhood:45->48|Entity=(person-31)|SpaceAfter=No
+# text = Who's at the door Hershey?
+1-2	Who's	_	_	_	_	_	_	_	_
+1	Who	who	PRON	WP	PronType=Int	5	nsubj	5:nsubj	Discourse=solutionhood:45->48|Entity=(person-31)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	at	at	ADP	IN	_	5	case	5:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(object-32
@@ -517,24 +537,25 @@
 7	?	?	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_vlog_lipstick-34
-# text = Ah!
 # s_type = intj
 # speaker = AlyssaMarie
+# text = Ah!
 1	Ah	ah	INTJ	UH	_	0	root	0:root	Discourse=preparation:46->48|SpaceAfter=No
 2	!	!	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-35
-# text = Alright.
 # s_type = intj
 # speaker = AlyssaMarie
+# text = Alright.
 1	Alright	alright	INTJ	UH	_	0	root	0:root	Discourse=joint:47->46|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-36
-# text = I'll be right back.
 # s_type = decl
 # speaker = AlyssaMarie
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Discourse=joint:48->15|Entity=(person-21)|SpaceAfter=No
+# text = I'll be right back.
+1-2	I'll	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Discourse=joint:48->15|Entity=(person-21)
 2	'll	will	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
 3	be	be	AUX	VB	VerbForm=Inf	5	cop	5:cop	_
 4	right	right	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
@@ -542,9 +563,9 @@
 6	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_vlog_lipstick-37
-# text = I got to get the door.
 # s_type = sub
 # speaker = AlyssaMarie
+# text = I got to get the door.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj|4:nsubj:xsubj	Discourse=cause:49->48|Entity=(person-21)
 2	got	get	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	to	to	PART	TO	_	4	mark	4:mark	_
@@ -554,16 +575,16 @@
 7	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_vlog_lipstick-38
-# text = Alright.
 # s_type = intj
 # speaker = AlyssaMarie
+# text = Alright.
 1	Alright	alright	INTJ	UH	_	0	root	0:root	Discourse=preparation:50->51|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-39
-# text = Let's get back into the spring cleaning.
 # s_type = imp
 # speaker = AlyssaMarie
+# text = Let's get back into the spring cleaning.
 1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:51->56|SpaceAfter=No
 2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	1:obj|3:nsubj:xsubj	Entity=(person-4)
 3	get	get	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
@@ -575,14 +596,15 @@
 9	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-40
-# text = You 're gon naspring clean with me?
+# addressee = Hershey
 # s_type = q
 # speaker = AlyssaMarie
-# addressee = Hershey
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj|6:nsubj:xsubj	Discourse=question:52->54|Entity=(animal-33)
+# text = You're gonna spring clean with me?
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj|6:nsubj:xsubj	Discourse=question:52->54|Entity=(animal-33)|SpaceAfter=No
 2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
+3-4	gonna	_	_	_	_	_	_	_	_
 3	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
-4	na	to	PART	TO	_	6	mark	6:mark	SpaceAfter=No
+4	na	to	PART	TO	_	6	mark	6:mark	_
 5	spring	spring	NOUN	NN	Number=Sing	6	compound	6:compound	_
 6	clean	clean	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
 7	with	with	ADP	IN	_	8	case	8:case	_
@@ -590,10 +612,10 @@
 9	?	?	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-41
-# text = What a sweet baby.
+# addressee = Hershey
 # s_type = other
 # speaker = AlyssaMarie
-# addressee = Hershey
+# text = What a sweet baby.
 1	What	what	PRON	WP	PronType=Int	4	det:predet	4:det:predet	Discourse=evaluation:53->54
 2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(animal-33
 3	sweet	sweet	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -601,28 +623,28 @@
 5	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-42
-# text = Yes you are!
+# addressee = Hershey
 # s_type = decl
 # speaker = AlyssaMarie
-# addressee = Hershey
+# text = Yes you are!
 1	Yes	yes	INTJ	UH	_	3	discourse	3:discourse	Discourse=justify:54->56
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(animal-33)
 3	are	be	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 4	!	!	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-43
-# text = Look at her.
 # s_type = imp
 # speaker = AlyssaMarie
+# text = Look at her.
 1	Look	look	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:55->56
 2	at	at	ADP	IN	_	3	case	3:case	_
 3	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obl	1:obl:at	Entity=(animal-33)|SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-44
-# text = Guys I love her so much!
 # s_type = decl
 # speaker = AlyssaMarie
+# text = Guys I love her so much!
 1	Guys	guy	NOUN	NNS	Number=Plur	3	vocative	3:vocative	Discourse=sequence:56->48|Entity=(person-18)
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-21)
 3	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -632,12 +654,13 @@
 7	!	!	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-45
-# text = Hershey it's your first vlog.
+# addressee = Hershey
 # s_type = decl
 # speaker = AlyssaMarie
-# addressee = Hershey
+# text = Hershey it's your first vlog.
 1	Hershey	Hershey	PROPN	NNP	Number=Sing	6	vocative	6:vocative	Discourse=joint:57->56|Entity=(animal-33)
-2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(abstract-36)|SpaceAfter=No
+2-3	it's	_	_	_	_	_	_	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(abstract-36)
 3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 4	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(abstract-36(animal-33)
 5	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	6	amod	6:amod	_
@@ -645,34 +668,34 @@
 7	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_vlog_lipstick-46
-# text = You 're doing great.
+# addressee = Hershey
 # s_type = decl
 # speaker = AlyssaMarie
-# addressee = Hershey
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=evaluation:58->57|Entity=(animal-33)
+# text = You're doing great.
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=evaluation:58->57|Entity=(animal-33)|SpaceAfter=No
 2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
 4	great	great	ADV	RB	Degree=Pos	3	advmod	3:advmod	SpaceAfter=No
 5	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-47
-# text = Ah!
 # s_type = intj
 # speaker = AlyssaMarie
+# text = Ah!
 1	Ah	ah	INTJ	UH	_	0	root	0:root	Discourse=preparation:59->61|SpaceAfter=No
 2	!	!	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-48
-# text = Alright.
 # s_type = intj
 # speaker = AlyssaMarie
+# text = Alright.
 1	Alright	alright	INTJ	UH	_	0	root	0:root	Discourse=joint:60->59|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-49
-# text = Let's get into this.
 # s_type = imp
 # speaker = AlyssaMarie
+# text = Let's get into this.
 1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:61->63|SpaceAfter=No
 2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	1:obj|3:nsubj:xsubj	Entity=(person-4)
 3	get	get	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
@@ -681,9 +704,9 @@
 6	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-50
-# text = See what else we got here.
 # s_type = inf
 # speaker = AlyssaMarie
+# text = See what else we got here.
 1	See	see	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	Discourse=joint:62->61
 2	what	what	PRON	WP	PronType=Rel	1	obj	1:obj	_
 3	else	else	ADJ	JJ	Degree=Pos	2	amod	2:amod	_
@@ -693,22 +716,22 @@
 7	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-51
-# text = Okay Too Faced Melted Matte Liquid Lipstick.
 # s_type = frag
 # speaker = AlyssaMarie
+# text = Okay Too Faced Melted Matte Liquid Lipstick.
 1	Okay	okay	INTJ	UH	_	7	discourse	7:discourse	Discourse=joint:63->15
 2	Too	Too	PROPN	NNP	Number=Sing	7	compound	7:compound	Entity=(object-37(organization-38
 3	Faced	Faced	PROPN	NNP	Number=Sing	2	flat	2:flat	Entity=organization-38)
-4	Melted	Melted	PROPN	NNP	Number=Sing	7	amod	7:amod	_
-5	Matte	Matte	PROPN	NNP	Number=Sing	7	amod	7:amod	_
-6	Liquid	Liquid	PROPN	NNP	Number=Sing	7	amod	7:amod	_
+4	Melted	Melt	VERB	NNP	Tense=Past|VerbForm=Part	7	amod	7:amod	_
+5	Matte	Matte	ADJ	NNP	Degree=Pos	7	amod	7:amod	_
+6	Liquid	Liquid	ADJ	NNP	Degree=Pos	7	amod	7:amod	_
 7	Lipstick	Lipstick	PROPN	NNP	Number=Sing	0	root	0:root	Entity=object-37)|SpaceAfter=No
 8	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_vlog_lipstick-52
-# text = I also love this.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = I also love this.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=evaluation:64->63|Entity=(person-21)
 2	also	also	ADV	RB	_	3	advmod	3:advmod	_
 3	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -716,9 +739,9 @@
 5	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-53
-# text = I love this color.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = I love this color.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=restatement:65->64|Entity=(person-21)
 2	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Bridge=object-37<abstract-39|Entity=(abstract-39
@@ -726,9 +749,9 @@
 5	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_vlog_lipstick-54
-# text = See what this says.
 # s_type = other
 # speaker = AlyssaMarie
+# text = See what this says.
 1	See	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:66->67
 2	what	what	PRON	WP	PronType=Rel	1	obj	1:obj	_
 3	this	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Entity=(object-37)
@@ -736,9 +759,9 @@
 5	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-55
-# text = This says twelve months.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = This says twelve months.
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	2:nsubj	Discourse=evidence:67->68|Entity=(object-37)
 2	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	twelve	twelve	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	Entity=(time-40
@@ -746,10 +769,10 @@
 5	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_vlog_lipstick-56
-# text = One hundred percent this is definitely definitely expired, but it's just with lipsticks it's kind of hard to tell.
 # s_type = decl
 # speaker = AlyssaMarie
-1	One	One	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=elaboration:68->63
+# text = One hundred percent this is definitely definitely expired, but it's just with lipsticks it's kind of hard to tell.
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=elaboration:68->63
 2	hundred	hundred	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	_
 3	percent	percent	NOUN	NN	Number=Sing	8	obl:npmod	8:obl:npmod	_
 4	this	this	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	8:nsubj	Entity=(object-37)
@@ -759,24 +782,26 @@
 8	expired	expired	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
 9	,	,	PUNCT	,	_	20	punct	20:punct	_
 10	but	but	CCONJ	CC	_	20	cc	20:cc	Discourse=concession:69->68
-11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	20:nsubj	SpaceAfter=No
+11-12	it's	_	_	_	_	_	_	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	20:nsubj	_
 12	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	20:cop	_
 13	just	just	ADV	RB	_	20	advmod	20:advmod	_
 14	with	with	ADP	IN	_	15	case	15:case	_
 15	lipsticks	lipstick	NOUN	NNS	Number=Plur	20	obl	20:obl:with	Entity=(object-41)
-16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	expl	20:expl	SpaceAfter=No
+16-17	it's	_	_	_	_	_	_	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	expl	20:expl	_
 17	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	20:cop	_
-18	kind	kind	NOUN	NN	Number=Sing	20	obl:npmod	20:obl:npmod	_
-19	of	of	ADP	IN	_	18	fixed	18:fixed	_
+18	kind	kind	ADV	RB	Degree=Pos	20	advmod	20:advmod	_
+19	of	of	ADV	RB	Degree=Pos	18	fixed	18:fixed	_
 20	hard	hard	ADJ	JJ	Degree=Pos	8	conj	8:conj:but	_
 21	to	to	PART	TO	_	22	mark	22:mark	_
 22	tell	tell	VERB	VB	VerbForm=Inf	20	csubj	20:csubj	SpaceAfter=No
 23	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_vlog_lipstick-57
-# text = Like — like usually with foundations when it's expired, you will see the oil separating and all that, but this just looks — it looks fine.
 # s_type = multiple
 # speaker = AlyssaMarie
+# text = Like — like usually with foundations when it's expired, you will see the oil separating and all that, but this just looks — it looks fine.
 1	Like	like	INTJ	UH	Typo=Yes	3	reparandum	3:reparandum	Discourse=antithesis:70->73
 2	—	—	PUNCT	:	Typo=Yes	1	punct	1:punct	_
 3	like	like	INTJ	UH	_	14	discourse	14:discourse	_
@@ -784,19 +809,20 @@
 5	with	with	ADP	IN	_	6	case	6:case	_
 6	foundations	foundation	NOUN	NNS	Number=Plur	10	obl	10:obl:with	Entity=(object-42)
 7	when	when	SCONJ	WRB	PronType=Int	10	mark	10:mark	Discourse=circumstance:71->72
-8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj	Entity=(object-42)|SpaceAfter=No
+8-9	it's	_	_	_	_	_	_	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj	Entity=(object-42)
 9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
 10	expired	expired	ADJ	JJ	Degree=Pos	14	advcl	14:advcl:when	SpaceAfter=No
 11	,	,	PUNCT	,	_	10	punct	10:punct	_
-12	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	14:nsubj	Discourse=same-unit:72->70|Entity=(person-18)
+12	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	14:nsubj|20:nsubj:xsubj	Discourse=same-unit:72->70|Entity=(person-18)
 13	will	will	AUX	MD	VerbForm=Fin	14	aux	14:aux	_
 14	see	see	VERB	VB	VerbForm=Inf	0	root	0:root	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Bridge=object-42<substance-43|Entity=(substance-43
-16	oil	oil	NOUN	NN	Number=Sing	17	nsubj	17:nsubj	Entity=substance-43)
-17	separating	separate	VERB	VBG	VerbForm=Ger	14	ccomp	14:ccomp	_
+16	oil	oil	NOUN	NN	Number=Sing	14	obj	14:obj|17:nsubj:xsubj|20:nsubj:xsubj	Entity=substance-43)
+17	separating	separate	VERB	VBG	VerbForm=Ger	14	xcomp	14:xcomp	_
 18	and	and	CCONJ	CC	_	20	cc	20:cc	_
 19	all	all	PRON	PDT	_	20	det:predet	20:det:predet	Bridge=object-42<substance-44|Entity=(substance-44
-20	that	that	PRON	DT	Number=Sing|PronType=Dem	17	conj	14:ccomp|17:conj:and	Entity=substance-44)|SpaceAfter=No
+20	that	that	PRON	DT	Number=Sing|PronType=Dem	17	conj	14:xcomp|17:conj:and	Entity=substance-44)|SpaceAfter=No
 21	,	,	PUNCT	,	_	28	punct	28:punct	_
 22	but	but	CCONJ	CC	_	28	cc	28:cc	Discourse=contrast:73->68
 23	this	this	PRON	DT	Number=Sing|PronType=Dem	25	nsubj	25:nsubj	Entity=(object-37)
@@ -809,19 +835,21 @@
 30	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # sent_id = GUM_vlog_lipstick-58
-# text = Makes it hard to throw away, but I'm gon na create like a little expired pile down here on the floor.
 # s_type = other
 # speaker = AlyssaMarie
+# text = Makes it hard to throw away, but I'm gonna create like a little expired pile down here on the floor.
 1	Makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=result:75->68
 2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obj	1:obj|3:nsubj:xsubj	Entity=(object-37)
 3	hard	hard	ADJ	JJ	Degree=Pos	1	xcomp	1:xcomp	_
 4	to	to	PART	TO	_	5	mark	5:mark	_
 5	throw	throw	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
-6	away	away	ADP	RP	_	5	compound:prt	5:compound:prt	SpaceAfter=No
+6	away	away	ADV	RB	Degree=Pos	5	advmod	5:advmod	SpaceAfter=No
 7	,	,	PUNCT	,	_	11	punct	11:punct	_
 8	but	but	CCONJ	CC	_	11	cc	11:cc	Discourse=contrast:76->75
-9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj|13:nsubj:xsubj	Entity=(person-21)|SpaceAfter=No
+9-10	I'm	_	_	_	_	_	_	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj|13:nsubj:xsubj	Entity=(person-21)
 10	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
+11-12	gonna	_	_	_	_	_	_	_	_
 11	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	1	conj	1:conj:but	_
 12	na	to	PART	TO	_	13	mark	13:mark	_
 13	create	create	VERB	VB	VerbForm=Inf	11	xcomp	11:xcomp	_
@@ -838,9 +866,9 @@
 24	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-59
-# text = Alright what is this?
 # s_type = wh
 # speaker = AlyssaMarie
+# text = Alright what is this?
 1	Alright	alright	INTJ	UH	_	4	discourse	4:discourse	Discourse=question:77->78
 2	what	what	PRON	WP	PronType=Int	4	nsubj	4:nsubj	_
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
@@ -848,9 +876,9 @@
 5	?	?	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-60
-# text = Oh this is Ofra!
 # s_type = decl
 # speaker = AlyssaMarie
+# text = Oh this is Ofra!
 1	Oh	oh	INTJ	UH	_	4	discourse	4:discourse	Discourse=joint:78->15
 2	this	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Entity=(object-47)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
@@ -858,9 +886,9 @@
 5	!	!	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-61
-# text = Oh my god I had this back in college is when I ordered this, which is probably around twenty sixteen.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = Oh my god I had this back in college is when I ordered this, which is probably around twenty sixteen.
 1	Oh	oh	INTJ	UH	_	13	discourse	13:discourse	Discourse=evaluation:79->80
 2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	_
 3	god	god	INTJ	UH	_	13	discourse	13:discourse	_
@@ -885,33 +913,33 @@
 22	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_vlog_lipstick-62
-# text = This is four years old.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = This is four years old.
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Discourse=restatement:83->82|Entity=(object-47)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	four	four	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	Entity=(time-50
-4	years	year	NOUN	NNS	Number=Plur	5	obl:npmod	5:obl:npmod	Entity=time-50)
+4	years	year	NOUN	NNS	Number=Plur	5	obl:tmod	5:obl:tmod	Entity=time-50)
 5	old	old	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
 6	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_vlog_lipstick-63
-# text = Everything has like rubbed off of it.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = Everything has like rubbed off of it.
 1	Everything	everything	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Discourse=justify:84->85|Entity=(abstract-51)
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	like	like	INTJ	UH	_	4	discourse	4:discourse	_
 4	rubbed	rub	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
-5	off	off	ADP	RP	_	4	compound:prt	4:compound:prt	_
-6	of	of	ADP	IN	_	7	case	7:case	_
-7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	4:obl:of	Entity=(object-47)|SpaceAfter=No
+5	off	off	ADP	IN	_	7	case	7:case	_
+6	of	of	ADP	IN	_	5	fixed	5:fixed	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	4:obl:off_of	Entity=(object-47)|SpaceAfter=No
 8	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-64
-# text = This has one thousand percent got to go in the throw away pile.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = This has one thousand percent got to go in the throw away pile.
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj|8:nsubj:xsubj	Discourse=evaluation:85->78|Entity=(object-47)
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 3	one	one	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	_
@@ -923,19 +951,19 @@
 9	in	in	ADP	IN	_	13	case	13:case	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(object-45
 11	throw	throw	VERB	VB	VerbForm=Inf	13	compound	13:compound	_
-12	away	away	ADP	RP	_	11	compound:prt	11:compound:prt	_
+12	away	away	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
 13	pile	pile	NOUN	NN	Number=Sing	8	obl	8:obl:in	Entity=object-45)|SpaceAfter=No
 14	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_vlog_lipstick-65
-# text = Oh it looks kind of dry and crusty too.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = Oh it looks kind of dry and crusty too.
 1	Oh	oh	INTJ	UH	_	3	discourse	3:discourse	Discourse=justify:86->85
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj|6:nsubj:xsubj|8:nsubj:xsubj	Entity=(object-47)
 3	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-4	kind	kind	NOUN	NN	Number=Sing	6	obl:npmod	6:obl:npmod	_
-5	of	of	ADP	IN	_	4	fixed	4:fixed	_
+4	kind	kind	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
+5	of	of	ADV	RB	Degree=Pos	4	fixed	4:fixed	_
 6	dry	dry	ADJ	JJ	Degree=Pos	3	xcomp	3:xcomp	_
 7	and	and	CCONJ	CC	_	8	cc	8:cc	_
 8	crusty	crusty	ADJ	JJ	Degree=Pos	6	conj	3:xcomp|6:conj:and	_
@@ -943,17 +971,17 @@
 10	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-66
-# text = Yeah no.
 # s_type = intj
 # speaker = AlyssaMarie
+# text = Yeah no.
 1	Yeah	yeah	INTJ	UH	_	2	discourse	2:discourse	Discourse=evaluation:87->86
 2	no	no	INTJ	UH	Polarity=Neg	0	root	0:root	SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_vlog_lipstick-67
-# text = Not a good look.
 # s_type = frag
 # speaker = AlyssaMarie
+# text = Not a good look.
 1	Not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Discourse=elaboration:88->87
 2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(abstract-52
 3	good	good	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -961,9 +989,9 @@
 5	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-68
-# text = Let's throw this out.
 # s_type = imp
 # speaker = AlyssaMarie
+# text = Let's throw this out.
 1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=restatement:89->85|SpaceAfter=No
 2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	1:obj|3:nsubj:xsubj	Entity=(person-4)
 3	throw	throw	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
@@ -972,9 +1000,9 @@
 6	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-69
-# text = Go ahead and comment below.
 # s_type = imp
 # speaker = AlyssaMarie
+# text = Go ahead and comment below.
 1	Go	go	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=motivation:90->91
 2	ahead	ahead	ADV	RB	Degree=Pos	1	advmod	1:advmod	_
 3	and	and	CCONJ	CC	_	4	cc	4:cc	Discourse=preparation:91->92
@@ -983,14 +1011,14 @@
 6	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-70
-# text = How many of you people actually knew that makeup expires?
 # s_type = wh
 # speaker = AlyssaMarie
+# text = How many of you people actually knew that makeup expires?
 1	How	how	ADV	WRB	PronType=Int	2	advmod	2:advmod	Discourse=background:92->78
 2	many	many	ADJ	JJ	Degree=Pos	7	nsubj	7:nsubj	_
 3	of	of	ADP	IN	_	4	case	4:case	_
 4	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	nmod	2:nmod:of	Entity=(person-18
-5	people	people	NOUN	NNS	Number=Plur	4	dep	4:dep	Entity=person-18)
+5	people	person	NOUN	NNS	Number=Plur	4	dep	4:dep	Entity=person-18)
 6	actually	actually	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
 7	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 8	that	that	SCONJ	IN	_	10	mark	10:mark	Discourse=elaboration:93->92
@@ -999,9 +1027,9 @@
 11	?	?	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_vlog_lipstick-71
-# text = Cuz I actually did not know and actually didn't realize what that symbol meant until I heard other people talking about it and I was like wait what?.
 # s_type = multiple
 # speaker = AlyssaMarie
+# text = Cuz I actually did not know and actually didn't realize what that symbol meant until I heard other people talking about it and I was like wait what?.
 1	Cuz	cuz	SCONJ	IN	Typo=Yes	6	mark	6:mark	Discourse=justify:94->92
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj|11:nsubj	Entity=(person-21)
 3	actually	actually	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
@@ -1010,40 +1038,41 @@
 6	know	know	VERB	VB	VerbForm=Inf	0	root	0:root	_
 7	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=joint:95->94
 8	actually	actually	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
-9	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	11:aux	SpaceAfter=No
+9-10	didn't	_	_	_	_	_	_	_	_
+9	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	11:aux	_
 10	n't	not	PART	RB	Polarity=Neg	11	advmod	11:advmod	_
 11	realize	realize	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	6	conj	6:conj:and	_
 12	what	what	PRON	WP	PronType=Rel	11	obj	11:obj	Discourse=elaboration:96->94
 13	that	that	DET	DT	Number=Sing|PronType=Dem	14	det	14:det	Entity=(abstract-24
 14	symbol	symbol	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=abstract-24)
 15	meant	mean	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	12:acl:relcl	_
-16	until	until	ADP	IN	_	18	case	18:case	Discourse=circumstance:97->94
+16	until	until	SCONJ	IN	_	18	mark	18:mark	Discourse=circumstance:97->94
 17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	18:nsubj	Entity=(person-21)
-18	heard	hear	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	advcl	11:advcl	_
+18	heard	hear	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	advcl	11:advcl:until	_
 19	other	other	ADJ	JJ	Degree=Pos	20	amod	20:amod	Entity=(person-53
-20	people	people	NOUN	NNS	Number=Plur	21	nsubj	21:nsubj	_
-21	talking	talk	VERB	VBG	VerbForm=Ger	18	ccomp	18:ccomp	_
+20	people	person	NOUN	NNS	Number=Plur	18	obj	18:obj|21:nsubj:xsubj	_
+21	talking	talk	VERB	VBG	VerbForm=Ger	18	xcomp	18:xcomp	_
 22	about	about	ADP	IN	_	23	case	23:case	_
 23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obl	21:obl:about	Entity=(abstract-24)person-53)
 24	and	and	CCONJ	CC	_	26	cc	26:cc	Discourse=attribution:98->99
 25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	26:nsubj	Entity=(person-21)
-26	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	18	conj	11:advcl|18:conj:and	_
-27	like	like	ADP	IN	_	26	compound:prt	26:compound:prt	_
+26	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	18	conj	11:advcl:until|18:conj:and	_
+27	like	like	ADP	RP	_	26	compound:prt	26:compound:prt	_
 28	wait	wait	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	26	ccomp	26:ccomp	Discourse=result:99->97
 29	what	what	PRON	WP	PronType=Int	28	parataxis	28:parataxis	SpaceAfter=No
 30	?	?	PUNCT	.	_	6	punct	6:punct	SpaceAfter=No
 31	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_vlog_lipstick-72
-# text = Next up we got Ashton Liquid Lipstick by Anastasia Beverly Hills.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = Next up we got Ashton Liquid Lipstick by Anastasia Beverly Hills.
 1	Next	next	ADV	RB	Degree=Pos	2	advmod	2:advmod	Discourse=joint:100->78
 2	up	up	ADV	RB	Degree=Pos	4	xcomp	4:xcomp	_
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-4)
 4	got	get	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 5	Ashton	Ashton	PROPN	NNP	Number=Sing	7	compound	7:compound	Entity=(object-54
-6	Liquid	Liquid	PROPN	NNP	Number=Sing	7	amod	7:amod	_
+6	Liquid	Liquid	ADJ	NNP	Degree=Pos	7	amod	7:amod	_
 7	Lipstick	Lipstick	PROPN	NNP	Number=Sing	4	obj	2:nsubj:xsubj|4:obj	_
 8	by	by	ADP	IN	_	9	case	9:case	_
 9	Anastasia	Anastasia	PROPN	NNP	Number=Sing	7	nmod	7:nmod:by	Entity=(organization-55-Anastasia_Beverly_Hills
@@ -1052,18 +1081,18 @@
 12	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-73
-# text = Six months!
 # s_type = frag
 # speaker = AlyssaMarie
-1	Six	Six	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=background:101->104|Entity=(time-57
+# text = Six months!
+1	Six	six	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=background:101->104|Entity=(time-57
 2	months	month	NOUN	NNS	Number=Plur	0	root	0:root	Entity=time-57)|SpaceAfter=No
 3	!	!	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_vlog_lipstick-74
-# text = You 're supposed to finish a whole liquid lipstick in six months.
 # s_type = decl
 # speaker = AlyssaMarie
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Discourse=restatement:102->101|Entity=(abstract-58(person-18)
+# text = You're supposed to finish a whole liquid lipstick in six months.
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Discourse=restatement:102->101|Entity=(abstract-58(person-18)|SpaceAfter=No
 2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	supposed	suppose	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 4	to	to	PART	TO	_	5	mark	5:mark	_
@@ -1078,18 +1107,18 @@
 13	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-75
-# text = That is wild.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = That is wild.
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=evaluation:103->101|Entity=(abstract-58)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	wild	wild	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
 4	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-76
-# text = I definitely had this for at least — at least four years cuz I definitely had this in college as well.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = I definitely had this for at least — at least four years cuz I definitely had this in college as well.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=justify:104->106|Entity=(person-21)
 2	definitely	definitely	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
 3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -1114,12 +1143,14 @@
 22	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-77
-# text = Yeah that's gon na have to go in the expired pile.
 # s_type = sub
 # speaker = AlyssaMarie
+# text = Yeah that's gonna have to go in the expired pile.
 1	Yeah	yeah	INTJ	UH	_	4	discourse	4:discourse	Discourse=evaluation:106->100
-2	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj|6:nsubj:xsubj|8:nsubj:xsubj	Entity=(object-54)|SpaceAfter=No
+2-3	that's	_	_	_	_	_	_	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj|6:nsubj:xsubj|8:nsubj:xsubj	Entity=(object-54)
 3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
+4-5	gonna	_	_	_	_	_	_	_	_
 4	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
 5	na	to	PART	TO	_	6	mark	6:mark	_
 6	have	have	VERB	VB	VerbForm=Inf	4	xcomp	4:xcomp	_
@@ -1132,9 +1163,9 @@
 13	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-78
-# text = So Dose of Colors definitely does not have an expiration date on their products.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = So Dose of Colors definitely does not have an expiration date on their products.
 1	So	so	INTJ	UH	_	8	discourse	8:discourse	Discourse=joint:107->15
 2	Dose	Dose	PROPN	NNP	Number=Sing	8	nsubj	8:nsubj	Entity=(abstract-60(organization-61
 3	of	of	ADP	IN	_	4	case	4:case	_
@@ -1152,11 +1183,12 @@
 15	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_vlog_lipstick-79
-# text = I don't know if this means that they just don't expire or I don't know.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = I don't know if this means that they just don't expire or I don't know.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=attribution:108->109|Entity=(person-21)
-2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	SpaceAfter=No
+2-3	don't	_	_	_	_	_	_	_	_
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	know	know	VERB	VB	VerbForm=Inf	0	root	0:root	_
 5	if	if	SCONJ	IN	_	7	mark	7:mark	Discourse=attribution:109->110
@@ -1165,22 +1197,25 @@
 8	that	that	SCONJ	IN	_	13	mark	13:mark	Discourse=evaluation:110->107
 9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	13:nsubj	Entity=(object-64)
 10	just	just	ADV	RB	_	13	advmod	13:advmod	_
-11	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	13:aux	SpaceAfter=No
+11-12	don't	_	_	_	_	_	_	_	_
+11	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	13:aux	_
 12	n't	not	PART	RB	Polarity=Neg	13	advmod	13:advmod	_
 13	expire	expire	VERB	VB	VerbForm=Inf	7	ccomp	7:ccomp	_
 14	or	or	CCONJ	CC	_	18	cc	18:cc	Discourse=attribution:111->113
 15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	18:nsubj	Entity=(person-21)
-16	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	18:aux	SpaceAfter=No
+16-17	don't	_	_	_	_	_	_	_	_
+16	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	18:aux	_
 17	n't	not	PART	RB	Polarity=Neg	18	advmod	18:advmod	_
 18	know	know	VERB	VB	VerbForm=Inf	7	conj	4:ccomp|7:conj:or	SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-80
-# text = I don't know what that means.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = I don't know what that means.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=restatement:112->111|Entity=(person-21)
-2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	SpaceAfter=No
+2-3	don't	_	_	_	_	_	_	_	_
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	know	know	VERB	VB	VerbForm=Inf	0	root	0:root	_
 5	what	what	PRON	WP	PronType=Rel	4	obj	4:obj	Discourse=contrast:113->110
@@ -1189,16 +1224,16 @@
 8	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-81
-# text = Okay.
 # s_type = intj
 # speaker = AlyssaMarie
+# text = Okay.
 1	Okay	okay	INTJ	UH	_	0	root	0:root	Discourse=preparation:114->115|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-82
-# text = Let's keep going.
 # s_type = imp
 # speaker = AlyssaMarie
+# text = Let's keep going.
 1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:115->116|SpaceAfter=No
 2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	1:obj|3:nsubj:xsubj	Entity=(person-4)
 3	keep	keep	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
@@ -1206,12 +1241,13 @@
 5	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-83
-# text = I'm ajust put all the Dose of Color in a separate pile cuz that's kind of weird.
 # s_type = decl
 # speaker = AlyssaMarie
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Discourse=result:116->107|Entity=(person-21)|SpaceAfter=No
+# text = I'ma just put all the Dose of Color in a separate pile cuz that's kind of weird.
+1-2	I'm	_	_	_	_	_	_	_	SpaceAfter=No
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Discourse=result:116->107|Entity=(person-21)
 2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
-3	a	to	PART	TO	_	5	mark	5:mark	SpaceAfter=No
+3	a	to	PART	TO	_	5	mark	5:mark	_
 4	just	just	ADV	RB	_	5	advmod	5:advmod	_
 5	put	put	VERB	VB	VerbForm=Inf	0	root	0:root	_
 6	all	all	PRON	PDT	_	8	det:predet	8:det:predet	Entity=(object-64
@@ -1224,17 +1260,18 @@
 13	separate	separate	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
 14	pile	pile	NOUN	NN	Number=Sing	5	obl	5:obl:in	Entity=object-65)
 15	cuz	cuz	SCONJ	IN	Typo=Yes	20	mark	20:mark	Discourse=cause:117->116
-16	that	that	PRON	DT	Number=Sing|PronType=Dem	20	nsubj	20:nsubj	Entity=(abstract-60)|SpaceAfter=No
+16-17	that's	_	_	_	_	_	_	_	_
+16	that	that	PRON	DT	Number=Sing|PronType=Dem	20	nsubj	20:nsubj	Entity=(abstract-60)
 17	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	20:cop	_
-18	kind	kind	NOUN	NN	Number=Sing	20	obl:npmod	20:obl:npmod	_
-19	of	of	ADP	IN	_	18	fixed	18:fixed	_
+18	kind	kind	ADV	RB	Degree=Pos	20	advmod	20:advmod	_
+19	of	of	ADV	RB	Degree=Pos	18	fixed	18:fixed	_
 20	weird	weird	ADJ	JJ	Degree=Pos	5	advcl	5:advcl:because	SpaceAfter=No
 21	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_vlog_lipstick-84
-# text = I might need to research that a little bit.
 # s_type = sub
 # speaker = AlyssaMarie
+# text = I might need to research that a little bit.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Discourse=concession:118->116|Entity=(person-21)
 2	might	might	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	need	need	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -1247,23 +1284,23 @@
 10	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-85
-# text = Oh!
 # s_type = intj
 # speaker = AlyssaMarie
+# text = Oh!
 1	Oh	oh	INTJ	UH	_	0	root	0:root	Discourse=preparation:119->120|SpaceAfter=No
 2	!	!	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-86
-# text = Okay.
 # s_type = intj
 # speaker = AlyssaMarie
+# text = Okay.
 1	Okay	okay	INTJ	UH	_	0	root	0:root	Discourse=preparation:120->121|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-87
-# text = Let me show you guys.
 # s_type = imp
 # speaker = AlyssaMarie
+# text = Let me show you guys.
 1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:121->122
 2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	1:obj|3:nsubj:xsubj	Entity=(person-21)
 3	show	show	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
@@ -1272,9 +1309,9 @@
 6	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-88
-# text = That is an expired lipstick.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = That is an expired lipstick.
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Discourse=joint:122->15|Entity=(object-66)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(object-66
@@ -1283,16 +1320,16 @@
 6	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_vlog_lipstick-89
-# text = Ew.
 # s_type = intj
 # speaker = AlyssaMarie
+# text = Ew.
 1	Ew	ew	INTJ	UH	_	0	root	0:root	Discourse=evaluation:123->122|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-90
-# text = Okay so the fancy lipsticks have a shelf life of twelve months, so one full year.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = Okay so the fancy lipsticks have a shelf life of twelve months, so one full year.
 1	Okay	okay	INTJ	UH	_	6	discourse	6:discourse	Discourse=background:124->127
 2	so	so	INTJ	UH	_	6	discourse	6:discourse	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(object-15
@@ -1313,50 +1350,52 @@
 18	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_vlog_lipstick-91
-# text = I know I've definitely had this over a year though.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = I know I've definitely had this over a year though.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:126->127|Entity=(person-21)
 2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	Discourse=justify:127->132|Entity=(person-21)|SpaceAfter=No
+3-4	I've	_	_	_	_	_	_	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	Discourse=justify:127->132|Entity=(person-21)
 4	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 5	definitely	definitely	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
 6	had	have	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	2:ccomp	_
 7	this	this	PRON	DT	Number=Sing|PronType=Dem	6	obj	6:obj	Entity=(object-66)
-8	over	over	ADV	IN	_	9	advmod	9:advmod	_
+8	over	over	ADV	RB	_	9	advmod	9:advmod	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(time-40
 10	year	year	NOUN	NN	Number=Sing	6	obl:tmod	6:obl:tmod	Entity=time-40)
 11	though	though	ADV	RB	Degree=Pos	2	advmod	2:advmod	SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_vlog_lipstick-92
-# text = I think.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = I think.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=concession:128->127|Entity=(person-21)
 2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_vlog_lipstick-93
-# text = Have I had this over a year?
 # s_type = q
 # speaker = AlyssaMarie
+# text = Have I had this over a year?
 1	Have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	3:aux	Discourse=antithesis:129->127
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-21)
 3	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	obj	3:obj	Entity=(object-66)
-5	over	over	ADV	IN	_	6	advmod	6:advmod	_
+5	over	over	ADV	RB	_	6	advmod	6:advmod	_
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(time-40
 7	year	year	NOUN	NN	Number=Sing	3	obl:tmod	3:obl:tmod	Entity=time-40)|SpaceAfter=No
 8	?	?	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-94
-# text = My gosh it's hard to think back.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = My gosh it's hard to think back.
 1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=evaluation:130->129
 2	gosh	gosh	INTJ	UH	_	5	discourse	5:discourse	_
-3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	5:expl	Entity=(abstract-68)|SpaceAfter=No
+3-4	it's	_	_	_	_	_	_	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	5:expl	Entity=(abstract-68)
 4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 5	hard	hard	ADJ	JJ	Degree=Pos	0	root	0:root	_
 6	to	to	PART	TO	_	7	mark	7:mark	Entity=(abstract-68
@@ -1365,9 +1404,9 @@
 9	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_vlog_lipstick-95
-# text = But yeah this just does not look good.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = But yeah this just does not look good.
 1	But	but	CCONJ	CC	_	7	cc	7:cc	Discourse=joint:131->127
 2	yeah	yeah	INTJ	UH	_	7	discourse	7:discourse	_
 3	this	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	7:nsubj|8:nsubj:xsubj	Entity=(object-66)
@@ -1379,13 +1418,15 @@
 9	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_vlog_lipstick-96
-# text = That's gon nahave to go in the expired pile.
 # s_type = sub
 # speaker = AlyssaMarie
-1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj|5:nsubj:xsubj|7:nsubj:xsubj	Discourse=joint:132->15|Entity=(object-66)|SpaceAfter=No
+# text = That's gonna have to go in the expired pile.
+1-2	That's	_	_	_	_	_	_	_	_
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj|5:nsubj:xsubj|7:nsubj:xsubj	Discourse=joint:132->15|Entity=(object-66)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
+3-4	gonna	_	_	_	_	_	_	_	_
 3	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
-4	na	to	PART	TO	_	5	mark	5:mark	SpaceAfter=No
+4	na	to	PART	TO	_	5	mark	5:mark	_
 5	have	have	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
 6	to	to	PART	TO	_	7	mark	7:mark	_
 7	go	go	VERB	VB	VerbForm=Inf	5	xcomp	5:xcomp	_
@@ -1396,16 +1437,16 @@
 12	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-97
-# text = Yikes!
 # s_type = intj
 # speaker = AlyssaMarie
+# text = Yikes!
 1	Yikes	yikes	INTJ	UH	_	0	root	0:root	Discourse=evaluation:133->134|SpaceAfter=No
 2	!	!	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-98
-# text = This black is also not looking good.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = This black is also not looking good.
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=evidence:134->144|Entity=(object-69
 2	black	black	NOUN	NN	Number=Sing	6	nsubj	6:nsubj|7:nsubj:xsubj	Entity=object-69)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
@@ -1416,13 +1457,14 @@
 8	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_vlog_lipstick-99
-# text = I feel like I've only had the black since last year Halloween though.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = I feel like I've only had the black since last year Halloween though.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=background:135->134|Entity=(person-21)
 2	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	like	like	SCONJ	IN	_	7	mark	7:mark	_
-4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	Entity=(person-21)|SpaceAfter=No
+4-5	I've	_	_	_	_	_	_	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	Entity=(person-21)
 5	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_
 6	only	only	ADV	RB	_	7	advmod	7:advmod	_
 7	had	have	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	2:advcl:like	_
@@ -1436,9 +1478,9 @@
 15	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_vlog_lipstick-100
-# text = Or was it the Halloween before?
 # s_type = q
 # speaker = AlyssaMarie
+# text = Or was it the Halloween before?
 1	Or	or	CCONJ	CC	_	5	cc	5:cc	Discourse=contrast:136->135
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(event-72)
@@ -1448,9 +1490,9 @@
 7	?	?	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_vlog_lipstick-101
-# text = Guys this is harder than I thought.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = Guys this is harder than I thought.
 1	Guys	guy	NOUN	NNS	Number=Plur	4	vocative	4:vocative	Discourse=evaluation:137->134
 2	this	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Entity=(event-34)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
@@ -1461,11 +1503,12 @@
 8	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-102
-# text = I can't remember when I bought things.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = I can't remember when I bought things.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=attribution:139->140|Entity=(person-21)
-2	ca	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	SpaceAfter=No
+2-3	can't	_	_	_	_	_	_	_	_
+2	ca	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	remember	remember	VERB	VB	VerbForm=Inf	0	root	0:root	_
 5	when	when	SCONJ	WRB	PronType=Rel	4	obj	4:obj	Discourse=cause:140->137
@@ -1475,10 +1518,11 @@
 9	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-103
-# text = It's not looking good though.
 # s_type = decl
 # speaker = AlyssaMarie
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj|5:nsubj:xsubj	Discourse=restatement:141->134|Entity=(object-69)|SpaceAfter=No
+# text = It's not looking good though.
+1-2	It's	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj|5:nsubj:xsubj	Discourse=restatement:141->134|Entity=(object-69)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
@@ -1487,10 +1531,11 @@
 7	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-104
-# text = It's all like super separated.
 # s_type = decl
 # speaker = AlyssaMarie
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=justify:142->141|Entity=(object-69)|SpaceAfter=No
+# text = It's all like super separated.
+1-2	It's	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=justify:142->141|Entity=(object-69)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 3	all	all	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
 4	like	like	INTJ	UH	_	6	discourse	6:discourse	_
@@ -1499,11 +1544,12 @@
 7	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_vlog_lipstick-105
-# text = I don't like how that looks.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = I don't like how that looks.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=evaluation:143->141|Entity=(person-21)
-2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	SpaceAfter=No
+2-3	don't	_	_	_	_	_	_	_	_
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	like	like	VERB	VB	VerbForm=Inf	0	root	0:root	_
 5	how	how	SCONJ	WRB	PronType=Rel	4	obj	4:obj	_
@@ -1512,16 +1558,16 @@
 8	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-106
-# text = Expired!
 # s_type = other
 # speaker = AlyssaMarie
+# text = Expired!
 1	Expired	expired	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=joint:144->15|SpaceAfter=No
 2	!	!	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-107
-# text = Oh so this is interesting.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = Oh so this is interesting.
 1	Oh	oh	INTJ	UH	_	5	discourse	5:discourse	Discourse=evaluation:145->146
 2	so	so	INTJ	UH	_	5	discourse	5:discourse	_
 3	this	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Entity=(abstract-74)
@@ -1530,9 +1576,9 @@
 6	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_vlog_lipstick-108
-# text = Black Up actually has twenty four months of shelf life for their lip pencils which is really really good.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = Black Up actually has twenty four months of shelf life for their lip pencils which is really really good.
 1	Black	Black	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Discourse=background:146->154|Entity=(abstract-74(organization-75
 2	Up	Up	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=organization-75)
 3	actually	actually	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
@@ -1555,19 +1601,20 @@
 20	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-109
-# text = That's two years.
 # s_type = decl
 # speaker = AlyssaMarie
-1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Discourse=restatement:148->146|Entity=(time-76)|SpaceAfter=No
+# text = That's two years.
+1-2	That's	_	_	_	_	_	_	_	_
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Discourse=restatement:148->146|Entity=(time-76)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 3	two	two	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	Entity=(time-76
 4	years	year	NOUN	NNS	Number=Plur	0	root	0:root	Entity=time-76)|SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-110
-# text = But is that actually good?
 # s_type = q
 # speaker = AlyssaMarie
+# text = But is that actually good?
 1	But	but	CCONJ	CC	_	5	cc	5:cc	Discourse=contrast:149->146
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	that	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Entity=(abstract-74)
@@ -1576,9 +1623,9 @@
 6	?	?	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_vlog_lipstick-111
-# text = Does that mean that this is chocked full of preservatives?
 # s_type = q
 # speaker = AlyssaMarie
+# text = Does that mean that this is chocked full of preservatives?
 1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	3:aux	Discourse=attribution:150->151
 2	that	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Entity=(abstract-74)
 3	mean	mean	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -1592,10 +1639,11 @@
 11	?	?	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-112
-# text = That's like not healthy for you?
 # s_type = q
 # speaker = AlyssaMarie
-1	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Discourse=evaluation:152->151|Entity=(abstract-79)|SpaceAfter=No
+# text = That's like not healthy for you?
+1-2	That's	_	_	_	_	_	_	_	_
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Discourse=evaluation:152->151|Entity=(abstract-79)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	like	like	INTJ	UH	_	5	discourse	5:discourse	_
 4	not	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
@@ -1605,21 +1653,23 @@
 8	?	?	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_vlog_lipstick-113
-# text = I don't know!
 # s_type = decl
 # speaker = AlyssaMarie
+# text = I don't know!
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=evaluation:153->149|Entity=(person-21)
-2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	SpaceAfter=No
+2-3	don't	_	_	_	_	_	_	_	_
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	know	know	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 5	!	!	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-114
-# text = But I've definitely had this for more than two years.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = But I've definitely had this for more than two years.
 1	But	but	CCONJ	CC	_	5	cc	5:cc	Discourse=evidence:154->155
-2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-21)|SpaceAfter=No
+2-3	I've	_	_	_	_	_	_	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-21)
 3	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 4	definitely	definitely	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 5	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
@@ -1632,16 +1682,16 @@
 12	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_vlog_lipstick-115
-# text = Expired.
 # s_type = other
 # speaker = AlyssaMarie
+# text = Expired.
 1	Expired	expired	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=joint:155->15|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-116
-# text = This blue lipstick is definitely old.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = This blue lipstick is definitely old.
 1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Discourse=background:156->164|Entity=(object-83
 2	blue	blue	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	lipstick	lipstick	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=object-83)
@@ -1651,19 +1701,20 @@
 7	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_vlog_lipstick-117
-# text = Definitely old.
 # s_type = frag
 # speaker = AlyssaMarie
+# text = Definitely old.
 1	Definitely	definitely	ADV	RB	Degree=Pos	2	advmod	2:advmod	Discourse=restatement:157->156
 2	old	old	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_vlog_lipstick-118
-# text = I don't know if you can actually tell by looking at it but she's old.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = I don't know if you can actually tell by looking at it but she's old.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=attribution:158->159|Entity=(person-21)
-2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	SpaceAfter=No
+2-3	don't	_	_	_	_	_	_	_	_
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	know	know	VERB	VB	VerbForm=Inf	0	root	0:root	_
 5	if	if	SCONJ	IN	_	9	mark	9:mark	Discourse=concession:159->161
@@ -1676,15 +1727,16 @@
 12	at	at	ADP	IN	_	13	case	13:case	_
 13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obl	11:obl:at	Entity=(object-83)
 14	but	but	CCONJ	CC	_	17	cc	17:cc	Discourse=restatement:161->156
-15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	17:nsubj	Entity=(object-83)|SpaceAfter=No
+15-16	she's	_	_	_	_	_	_	_	_
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	17:nsubj	Entity=(object-83)
 16	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	17:cop	_
 17	old	old	ADJ	JJ	Degree=Pos	4	conj	4:conj:but	SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-119
-# text = Let's see what the shelf life is.
 # s_type = imp
 # speaker = AlyssaMarie
+# text = Let's see what the shelf life is.
 1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:162->164|SpaceAfter=No
 2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	1:obj|3:nsubj:xsubj	Entity=(person-4)
 3	see	see	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
@@ -1696,20 +1748,21 @@
 9	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-120
-# text = That's interesting.
 # s_type = decl
 # speaker = AlyssaMarie
-1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=evaluation:163->164|SpaceAfter=No
+# text = That's interesting.
+1-2	That's	_	_	_	_	_	_	_	_
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=evaluation:163->164
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	interesting	interesting	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
 4	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-121
-# text = The Urban Decay does not have a shelf life on the actual stick.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = The Urban Decay does not have a shelf life on the actual stick.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint:164->15|Entity=(object-85
-2	Urban	Urban	PROPN	NNP	Number=Sing	3	amod	3:amod	_
+2	Urban	Urban	ADJ	NNP	Degree=Pos	3	amod	3:amod	_
 3	Decay	Decay	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Entity=object-85)
 4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 5	not	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	_
@@ -1724,9 +1777,9 @@
 14	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_vlog_lipstick-122
-# text = So you know how lipsticks usually come in packaging?
 # s_type = q
 # speaker = AlyssaMarie
+# text = So you know how lipsticks usually come in packaging?
 1	So	so	INTJ	UH	_	3	discourse	3:discourse	Discourse=attribution:165->166
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-18)
 3	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -1739,9 +1792,9 @@
 10	?	?	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-123
-# text = It usually comes in that little box?
 # s_type = q
 # speaker = AlyssaMarie
+# text = It usually comes in that little box?
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=restatement:167->166|Entity=(object-9)
 2	usually	usually	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
 3	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -1752,10 +1805,11 @@
 8	?	?	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-124
-# text = I'm thinking that maybe Dose of Colors and Urban Decay have the shelf life printed on those boxes but who keeps their lipsticks in a box?
 # s_type = multiple
 # speaker = AlyssaMarie
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=attribution:168->169|Entity=(person-21)|SpaceAfter=No
+# text = I'm thinking that maybe Dose of Colors and Urban Decay have the shelf life printed on those boxes but who keeps their lipsticks in a box?
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=attribution:168->169|Entity=(person-21)
 2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	thinking	think	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
 4	that	that	SCONJ	IN	_	12	mark	12:mark	Discourse=elaboration:169->164
@@ -1764,7 +1818,7 @@
 7	of	of	ADP	IN	_	8	case	8:case	_
 8	Colors	Color	PROPN	NNPS	Number=Plur	6	nmod	6:nmod:of	Entity=organization-61)
 9	and	and	CCONJ	CC	_	11	cc	11:cc	_
-10	Urban	Urban	PROPN	NNP	Number=Sing	11	amod	11:amod	Entity=(organization-88-Urban_Decay_%28cosmetics%29
+10	Urban	Urban	ADJ	NNP	Degree=Pos	11	amod	11:amod	Entity=(organization-88-Urban_Decay_%28cosmetics%29
 11	Decay	Decay	PROPN	NNP	Number=Sing	6	conj	6:conj:and|12:nsubj	Entity=organization-88-Urban_Decay_%28cosmetics%29)
 12	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(abstract-77
@@ -1772,7 +1826,7 @@
 15	life	life	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=abstract-77)
 16	printed	print	VERB	VBN	Tense=Past|VerbForm=Part	15	acl	15:acl	Discourse=elaboration:170->169
 17	on	on	ADP	IN	_	19	case	19:case	_
-18	those	those	DET	DT	Number=Plur|PronType=Dem	19	det	19:det	Entity=(object-87
+18	those	this	DET	DT	Number=Plur|PronType=Dem	19	det	19:det	Entity=(object-87
 19	boxes	box	NOUN	NNS	Number=Plur	16	obl	16:obl:on	Entity=object-87)
 20	but	but	CCONJ	CC	_	22	cc	22:cc	Discourse=contrast:171->169
 21	who	who	PRON	WP	PronType=Int	22	nsubj	22:nsubj	Entity=(person-89)
@@ -1785,9 +1839,9 @@
 28	?	?	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_vlog_lipstick-125
-# text = Like how do I know now if this is expired or not?
 # s_type = wh
 # speaker = AlyssaMarie
+# text = Like how do I know now if this is expired or not?
 1	Like	like	INTJ	UH	_	5	discourse	5:discourse	Discourse=attribution:172->173
 2	how	how	ADV	WRB	PronType=Int	5	advmod	5:advmod	_
 3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
@@ -1803,24 +1857,27 @@
 13	?	?	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_vlog_lipstick-126
-# text = I've definitely had this over two years though so I'm just gon nago ahead and throw it in the expired pile.
 # s_type = decl
 # speaker = AlyssaMarie
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=justify:174->176|Entity=(person-21)|SpaceAfter=No
+# text = I've definitely had this over two years though so I'm just gonna go ahead and throw it in the expired pile.
+1-2	I've	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=justify:174->176|Entity=(person-21)
 2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	definitely	definitely	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
 4	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	obj	4:obj	Entity=(object-86)
-6	over	over	ADV	IN	_	7	advmod	7:advmod	Entity=(time-90
+6	over	over	ADV	RB	_	7	advmod	7:advmod	Entity=(time-90
 7	two	two	NUM	CD	NumForm=Word|NumType=Card	8	nummod	8:nummod	_
 8	years	year	NOUN	NNS	Number=Plur	4	obl:tmod	4:obl:tmod	Entity=time-90)
 9	though	though	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
 10	so	so	SCONJ	RB	_	14	mark	14:mark	Discourse=preparation:175->176
-11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	14:nsubj|16:nsubj:xsubj|19:nsubj:xsubj	Entity=(person-21)|SpaceAfter=No
+11-12	I'm	_	_	_	_	_	_	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	14:nsubj|16:nsubj:xsubj|19:nsubj:xsubj	Entity=(person-21)
 12	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	14:aux	_
 13	just	just	ADV	RB	_	14	advmod	14:advmod	_
+14-15	gonna	_	_	_	_	_	_	_	_
 14	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	parataxis	4:parataxis	_
-15	na	to	PART	TO	_	16	mark	16:mark	SpaceAfter=No
+15	na	to	PART	TO	_	16	mark	16:mark	_
 16	go	go	VERB	VB	VerbForm=Inf	14	xcomp	14:xcomp	_
 17	ahead	ahead	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
 18	and	and	CCONJ	CC	_	19	cc	19:cc	Discourse=contrast:176->164
@@ -1833,21 +1890,22 @@
 25	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_lipstick-127
-# text = I feel like two years is kind of the limit that I've seen so far.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = I feel like two years is kind of the limit that I've seen so far.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=justify:177->176|Entity=(person-21)
 2	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	like	like	SCONJ	IN	_	10	mark	10:mark	_
 4	two	two	NUM	CD	NumForm=Word|NumType=Card	5	nummod	5:nummod	Entity=(time-90
 5	years	year	NOUN	NNS	Number=Plur	10	nsubj	10:nsubj	Entity=time-90)
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
-7	kind	kind	NOUN	NN	Number=Sing	10	obl:npmod	10:obl:npmod	_
-8	of	of	ADP	IN	_	7	fixed	7:fixed	_
+7	kind	kind	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
+8	of	of	ADV	RB	Degree=Pos	7	fixed	7:fixed	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(time-90
 10	limit	limit	NOUN	NN	Number=Sing	2	advcl	2:advcl:like|14:obj	_
 11	that	that	PRON	WDT	PronType=Rel	14	obj	10:ref	Discourse=elaboration:178->177
-12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	14:nsubj	Entity=(person-21)|SpaceAfter=No
+12-13	I've	_	_	_	_	_	_	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	14:nsubj	Entity=(person-21)
 13	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	14:aux	_
 14	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	10	acl:relcl	10:acl:relcl	_
 15	so	so	ADV	RB	_	16	advmod	16:advmod	_
@@ -1855,9 +1913,9 @@
 17	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_vlog_lipstick-128
-# text = This has a shelf life of six months!
 # s_type = decl
 # speaker = AlyssaMarie
+# text = This has a shelf life of six months!
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	2:nsubj	Discourse=evidence:179->180|Entity=(object-91)
 2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(abstract-92
@@ -1869,16 +1927,16 @@
 9	!	!	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_vlog_lipstick-129
-# text = Expired.
 # s_type = other
 # speaker = AlyssaMarie
+# text = Expired.
 1	Expired	expired	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=joint:180->15|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_lipstick-130
-# text = So this is the throw out slash expired pile.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = So this is the throw out slash expired pile.
 1	So	so	INTJ	UH	_	9	discourse	9:discourse	Discourse=result:181->15
 2	this	this	PRON	DT	Number=Sing|PronType=Dem	9	nsubj	9:nsubj	Entity=(object-45)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
@@ -1886,19 +1944,20 @@
 5	throw	throw	VERB	VB	VerbForm=Inf	9	compound	9:compound	_
 6	out	out	ADP	RP	_	5	compound:prt	5:compound:prt	_
 7	slash	slash	CCONJ	CC	_	8	cc	8:cc	_
-8	expired	expired	ADJ	JJ	Degree=Pos	5	conj	5:conj:slash|9:compound	_
+8	expired	expired	ADJ	JJ	Degree=Pos	5	conj	5:conj:slash|9:amod	_
 9	pile	pile	NOUN	NN	Number=Sing	0	root	0:root	Entity=object-45)|SpaceAfter=No
 10	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_vlog_lipstick-131
-# text = This is the I don't know what to do with it pile, but I think these are all the Dose of Colors lipsticks that I know I've had for at least over two years.
 # s_type = decl
 # speaker = AlyssaMarie
+# text = This is the I don't know what to do with it pile, but I think these are all the Dose of Colors lipsticks that I know I've had for at least over two years.
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	13	nsubj	13:nsubj	Discourse=contrast:182->181|Entity=(object-94)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(object-94
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	Entity=(person-21)
-5	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	7:aux	SpaceAfter=No
+5-6	don't	_	_	_	_	_	_	_	_
+5	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_
 6	n't	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	_
 7	know	know	VERB	VB	VerbForm=Inf	13	compound	13:compound	_
 8	what	what	PRON	WP	PronType=Int	7	obj	7:obj	_
@@ -1911,7 +1970,7 @@
 15	but	but	CCONJ	CC	_	17	cc	17:cc	Discourse=attribution:183->184
 16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	17:nsubj	Entity=(person-21)
 17	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	conj	13:conj:but	_
-18	these	these	PRON	DT	Number=Plur|PronType=Dem	25	nsubj	25:nsubj	Discourse=concession:184->182|Entity=(object-96)
+18	these	this	PRON	DT	Number=Plur|PronType=Dem	25	nsubj	25:nsubj	Discourse=concession:184->182|Entity=(object-96)
 19	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	25:cop	_
 20	all	all	PRON	PDT	_	25	det:predet	25:det:predet	Entity=(object-96
 21	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	_
@@ -1922,13 +1981,14 @@
 26	that	that	PRON	WDT	_	31	obj	31:obj	Discourse=attribution:185->186
 27	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	28:nsubj	Entity=(person-21)
 28	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	acl:relcl	25:acl:relcl	_
-29	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	31:nsubj	Discourse=elaboration:186->184|Entity=(person-21)|SpaceAfter=No
+29-30	I've	_	_	_	_	_	_	_	_
+29	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	31:nsubj	Discourse=elaboration:186->184|Entity=(person-21)
 30	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	31	aux	31:aux	_
 31	had	have	VERB	VBN	Tense=Past|VerbForm=Part	28	ccomp	28:ccomp	_
 32	for	for	ADP	IN	_	37	case	37:case	_
 33	at	at	ADP	IN	_	34	case	34:case	Entity=(time-97
 34	least	least	ADJ	JJS	Degree=Sup	36	nmod	36:nmod:at	_
-35	over	over	ADV	IN	_	36	advmod	36:advmod	_
+35	over	over	ADV	RB	_	36	advmod	36:advmod	_
 36	two	two	NUM	CD	NumForm=Word|NumType=Card	37	nummod	37:nummod	_
 37	years	year	NOUN	NNS	Number=Plur	31	obl	31:obl:for	Entity=time-97)|SpaceAfter=No
 38	.	.	PUNCT	.	_	13	punct	13:punct	_
