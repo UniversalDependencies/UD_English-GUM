@@ -60,7 +60,7 @@
 8	service	service	NOUN	NN	Number=Sing	5	obl	5:obl:in	_
 9	as	as	ADP	IN	_	11	case	11:case	_
 10	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(person-3
-11	Officer	Officer	PROPN	NNP	Number=Sing	5	obl	5:obl:as	_
+11	Officer	officer	NOUN	NN	Number=Sing	5	obl	5:obl:as	_
 12	in	in	ADP	IN	_	17	case	17:case	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(organization-10-United_States_Air_Force
 14	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	15	amod	15:amod	Entity=(place-5-United_States
@@ -181,7 +181,7 @@
 14	to	to	PART	TO	_	15	mark	15:mark	_
 15	win	win	VERB	VB	VerbForm=Inf	13	xcomp	13:xcomp	Entity=abstract-20)
 16	and	and	CCONJ	CC	_	17	cc	17:cc	_
-17	effect	effect	NOUN	NN	Number=Sing|Typo=Yes	3	conj	3:conj:and	_
+17	effect	effect	VERB	VB	Person=2|VerbForm=Inf	3	conj	3:conj:and	_
 18	change	change	NOUN	NN	Number=Sing	17	obj	17:obj	Entity=(event-21)|SpaceAfter=No
 19	?	?	PUNCT	.	_	3	punct	3:punct	_
 
@@ -392,7 +392,7 @@
 3	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	to	to	PART	TO	_	5	mark	5:mark	_
 5	make	make	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
-6	politics	politics	NOUN	NNS	Number=Plur	5	obj	5:obj|8:nsubj:xsubj	Entity=(abstract-46)
+6	politics	politics	NOUN	NN	Number=Sing	5	obj	5:obj|8:nsubj:xsubj	Entity=(abstract-46)
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(abstract-47
 8	career	career	NOUN	NN	Number=Sing	5	xcomp	5:xcomp	Entity=abstract-47)|SpaceAfter=No
 9	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -746,7 +746,7 @@
 6	that	that	PRON	WDT	PronType=Rel	7	nsubj	5:ref	Discourse=elaboration:63->62
 7	represents	represent	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(abstract-89
-9	far	far	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
+9	far	far	ADJ	JJ	Degree=Pos	10	compound	10:compound	_
 10	left	left	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
 11	wing	wing	NOUN	NN	Number=Sing	7	obj	7:obj	_
 12	of	of	ADP	IN	_	14	case	14:case	_
@@ -821,9 +821,9 @@
 1	Hill	Hill	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=background:73->77|Entity=(person-3)
 2	at	at	ADP	IN	_	6	case	6:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	_
-4	Lesser-known	Lesser-known	ADJ	JJ	Degree=Pos	5	amod	5:amod	Entity=(event-99(person-100
-5	candidates	candidate	NOUN	NNS	Number=Plur	6	compound	6:compound	Entity=person-100)
-6	forum	forum	NOUN	NN	Number=Sing	1	nmod	1:nmod:at	Entity=event-99)
+4	Lesser-known	Lesser-known	ADJ	NNP	Degree=Pos	5	amod	5:amod	Entity=(event-99(person-100
+5	candidates	Candidate	PROPN	NNPS	Number=Plur	6	compound	6:compound	Entity=person-100)
+6	forum	Forum	PROPN	NNP	Number=Sing	1	nmod	1:nmod:at	Entity=event-99)
 7	in	in	ADP	IN	_	8	case	8:case	_
 8	2011	2011	NUM	CD	NumForm=Digit|NumType=Card	6	nmod	6:nmod:in	Entity=(time-101)
 
@@ -1010,7 +1010,7 @@
 # text = Hill (right) with fellow 2012 presidential candidate Buddy Roemer.
 1	Hill	Hill	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=background:93->94|Entity=(person-3)
 2	(	(	PUNCT	-LRB-	_	3	punct	3:punct	SpaceAfter=No
-3	right	right	ADJ	JJ	Degree=Pos	1	dep	1:dep	SpaceAfter=No
+3	right	right	ADV	RB	Degree=Pos	1	dep	1:dep	SpaceAfter=No
 4	)	)	PUNCT	-RRB-	_	3	punct	3:punct	_
 5	with	with	ADP	IN	_	9	case	9:case	_
 6	fellow	fellow	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(person-135-Buddy_Roemer

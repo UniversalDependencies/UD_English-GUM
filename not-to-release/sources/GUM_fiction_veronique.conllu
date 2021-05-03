@@ -176,9 +176,9 @@
 2	If	if	SCONJ	IN	_	4	mark	4:mark	_
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-2)
 4	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-5	out	out	ADP	RP	_	4	compound:prt	4:compound:prt	_
-6	of	of	ADP	IN	_	7	case	7:case	_
-7	here	here	ADV	RB	PronType=Dem	4	obl	4:obl:of	Entity=(place-10)|SpaceAfter=No
+5	out	out	ADP	IN	_	7	case	7:case	_
+6	of	of	ADP	IN	_	5	fixed	5:fixed	_
+7	here	here	ADV	RB	PronType=Dem	4	obl	4:obl:out_of	Entity=(place-10)|SpaceAfter=No
 8	.	.	PUNCT	.	_	4	punct	4:punct	SpaceAfter=No
 9	"	''	PUNCT	''	_	4	punct	4:punct	_
 
@@ -206,9 +206,9 @@
 # text = "Get out of here" meant to make someone leave.
 1	"	''	PUNCT	``	_	2	punct	2:punct	Discourse=background:23->25|SpaceAfter=No
 2	Get	get	VERB	VB	VerbForm=Inf	7	csubj	7:csubj|9:csubj:xsubj|11:csubj:xsubj	_
-3	out	out	ADP	RP	_	2	compound:prt	2:compound:prt	_
-4	of	of	ADP	IN	_	5	case	5:case	_
-5	here	here	ADV	RB	PronType=Dem	2	obl	2:obl:of	Entity=(place-10)|SpaceAfter=No
+3	out	out	ADP	IN	_	5	case	5:case	_
+4	of	of	ADP	IN	_	3	fixed	3:fixed	_
+5	here	here	ADV	RB	PronType=Dem	2	obl	2:obl:out_of	Entity=(place-10)|SpaceAfter=No
 6	"	''	PUNCT	''	_	2	punct	2:punct	_
 7	meant	mean	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 8	to	to	PART	TO	_	9	mark	9:mark	_
@@ -738,10 +738,10 @@
 4	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	5	amod	5:amod	_
 5	people	person	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=person-45)
 6	came	come	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	2:ccomp	_
-7	out	out	ADP	RP	_	6	compound:prt	6:compound:prt	_
-8	of	of	ADP	IN	_	10	case	10:case	_
+7	out	out	ADP	IN	_	10	case	10:case	_
+8	of	of	ADP	IN	_	7	fixed	7:fixed	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(object-46
-10	sun	sun	NOUN	NN	Number=Sing	6	obl	6:obl:of	Entity=object-46)|SpaceAfter=No
+10	sun	sun	NOUN	NN	Number=Sing	6	obl	6:obl:out_of	Entity=object-46)|SpaceAfter=No
 11	.	.	PUNCT	.	_	2	punct	2:punct	Entity=event-44)
 
 # sent_id = GUM_fiction_veronique-48

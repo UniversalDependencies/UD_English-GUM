@@ -19,7 +19,7 @@
 # s_type = decl
 # text = The Beavertail Cactus (Opunitia basilares), found primarily in the Mojave Desert and northwest Mexico; can grow to be about 24 inches (60 cm) high; has pads that look like beavertails; and yields red or purple flowers from spring to early summer.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=background:2->14|Entity=(plant-1-Opuntia_basilaris
-2	Beavertail	Beavertail	NOUN	NN	Number=Sing	3	compound	3:compound	_
+2	Beavertail	Beavertail	PROPN	NNP	Number=Sing	3	compound	3:compound	_
 3	Cactus	Cactus	PROPN	NNP	Number=Sing	20	nsubj	20:nsubj|30:nsubj:xsubj|32:nsubj	_
 4	(	(	PUNCT	-LRB-	_	6	punct	6:punct	Discourse=restatement:3->2|SpaceAfter=No
 5	Opunitia	Opunitia	X	FW	_	6	compound	6:compound	Entity=(plant-1-Opuntia_basilaris
@@ -45,7 +45,7 @@
 25	inches	inch	NOUN	NNS	Number=Plur	30	obl:npmod	30:obl:npmod	Entity=abstract-4)
 26	(	(	PUNCT	-LRB-	_	28	punct	28:punct	Discourse=restatement:6->5|SpaceAfter=No
 27	60	60	NUM	CD	NumForm=Digit|NumType=Card	28	nummod	28:nummod	Entity=(abstract-4
-28	cm	cm	NOUN	NNS	Number=Plur	25	appos	25:appos	Entity=abstract-4)|SpaceAfter=No
+28	cm	centimeter	NOUN	NNS	Number=Plur	25	appos	25:appos	Entity=abstract-4)|SpaceAfter=No
 29	)	)	PUNCT	-RRB-	_	28	punct	28:punct	_
 30	high	high	ADJ	JJ	Degree=Pos	20	xcomp	20:xcomp	Discourse=same-unit:7->2|SpaceAfter=No
 31	;	;	PUNCT	:	_	32	punct	32:punct	_
@@ -295,11 +295,11 @@
 # sent_id = GUM_whow_cactus-15
 # s_type = decl
 # text = It can take as long as 4 to 4 years before you get flowers.
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Discourse=elaboration:34->32|Entity=(event-30)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=elaboration:34->32|Entity=(event-30)
 2	can	can	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	take	take	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	as	as	ADV	RB	_	5	advmod	5:advmod	_
-5	long	long	ADJ	JJ	Degree=Pos	3	xcomp	3:xcomp	_
+5	long	long	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
 6	as	as	ADP	IN	_	10	case	10:case	_
 7	4	4	NUM	CD	NumForm=Digit|NumType=Card|Typo=Yes	10	nummod	10:nummod	Entity=(time-32
 8	to	to	ADP	IN	_	9	case	9:case	_
@@ -420,8 +420,8 @@
 14	by	by	SCONJ	IN	_	15	mark	15:mark	Discourse=means:50->49
 15	sitting	sit	VERB	VBG	VerbForm=Ger	11	advcl	11:advcl:by	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Bridge=plant-40<plant-45|Entity=(plant-45
-17	pad	pad	NOUN	NN	Number=Sing	15	obj	15:obj	Entity=plant-45)
-18	upright	upright	ADJ	JJ	Degree=Pos	15	advmod	15:advmod	_
+17	pad	pad	NOUN	NN	Number=Sing	15	obj	15:obj|18:nsubj:xsubj	Entity=plant-45)
+18	upright	upright	ADJ	JJ	Degree=Pos	15	xcomp	15:xcomp	_
 19	in	in	ADP	IN	_	24	case	24:case	_
 20	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(place-46
 21	dry	dry	ADJ	JJ	Degree=Pos	24	amod	24:amod	SpaceAfter=No
@@ -511,7 +511,7 @@
 11	inch	inch	NOUN	NN	Number=Sing	16	obl:npmod	16:obl:npmod	Entity=abstract-55)
 12	(	(	PUNCT	-LRB-	_	14	punct	14:punct	Discourse=restatement:58->57|SpaceAfter=No
 13	2.5	2.5	NUM	CD	NumForm=Digit|NumType=Card	14	nummod	14:nummod	Entity=(abstract-55
-14	cm.	cm.	NOUN	NNS	Abbr=Yes|Number=Plur	11	appos	11:appos	Entity=abstract-55)|SpaceAfter=No
+14	cm.	centimeter	NOUN	NNS	Abbr=Yes|Number=Plur	11	appos	11:appos	Entity=abstract-55)|SpaceAfter=No
 15	)	)	PUNCT	-RRB-	_	14	punct	14:punct	_
 16	deep	deep	ADJ	JJ	Degree=Pos	1	advmod	1:advmod	Discourse=same-unit:59->57|SpaceAfter=No
 17	.	.	PUNCT	.	_	1	punct	1:punct	_
@@ -768,7 +768,7 @@
 16	benefit	benefit	VERB	VB	Person=2|VerbForm=Inf	13	conj	13:conj:and	_
 17	from	from	ADP	IN	_	20	case	20:case	_
 18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(substance-77
-19	balanced	balanced	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
+19	balanced	balance	VERB	VBN	Tense=Past|VerbForm=Part	20	amod	20:amod	_
 20	fertilizer	fertilizer	NOUN	NN	Number=Sing	16	obl	16:obl:from	Entity=substance-77)|SpaceAfter=No
 21	.	.	PUNCT	.	_	13	punct	13:punct	_
 
@@ -778,7 +778,7 @@
 1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence:85->38
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(plant-36
 3	cuttings	cutting	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=plant-36)
-4	grow	grow	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	SpaceAfter=No
+4	grow	grow	VERB	VB	VerbForm=Inf	1	ccomp	1:ccomp	SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_cactus-42

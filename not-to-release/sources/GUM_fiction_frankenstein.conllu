@@ -327,8 +327,8 @@
 # text = Chubby guy kind of hovers until I get the lights away from Cara and as soon as I put them on the shelf he grabs them and starts straightening them out and draping them back over the display.
 1	Chubby	chubby	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=sequence:38->9|Entity=(person-3
 2	guy	guy	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=person-3)
-3	kind	kind	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
-4	of	of	ADV	RB	Degree=Pos	3	fixed	3:fixed	_
+3	kind	kind	NOUN	NN	Number=Sing	5	obl:npmod	5:obl:npmod	_
+4	of	of	ADP	IN	_	3	fixed	3:fixed	_
 5	hovers	hover	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 6	until	until	SCONJ	IN	_	8	mark	8:mark	Discourse=circumstance:39->38
 7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	8:nsubj	Entity=(person-6)
@@ -392,8 +392,8 @@
 1-2	She’s	_	_	_	_	_	_	_	_
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=evaluation:46->45|Entity=(person-2)
 2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
-3	kind	kind	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
-4	of	of	ADV	RB	Degree=Pos	3	fixed	3:fixed	_
+3	kind	kind	NOUN	NN	Number=Sing	5	obl:npmod	5:obl:npmod	_
+4	of	of	ADP	IN	_	3	fixed	3:fixed	_
 5	pretty	pretty	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
 6	.	.	PUNCT	.	_	5	punct	5:punct	_
 
@@ -437,12 +437,12 @@
 15	asthma	asthma	NOUN	NN	Number=Sing	16	compound	16:compound	Entity=(abstract-17)
 16	attack	attack	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=event-16)|SpaceAfter=No
 17	,	,	PUNCT	,	_	23	punct	23:punct	_
-18	so	so	SCONJ	RB	_	23	mark	23:mark	Discourse=purpose:51->52
+18	so	so	ADV	RB	_	23	advmod	23:advmod	Discourse=purpose:51->52
 19	to	to	PART	TO	_	20	mark	20:mark	_
 20	distract	distract	VERB	VB	VerbForm=Inf	23	advcl	23:advcl:to	_
 21	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	20:obj	Entity=(person-2)
 22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	23:nsubj	Discourse=attribution:52->53|Entity=(person-6)
-23	say	say	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl:so	SpaceAfter=No
+23	say	say	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	parataxis	9:parataxis	SpaceAfter=No
 24	,	,	PUNCT	,	_	27	punct	27:punct	_
 25	“	''	PUNCT	``	_	27	punct	27:punct	Discourse=sequence:53->9|SpaceAfter=No
 26	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	27	nsubj	27:nsubj	Entity=(person-2)
@@ -462,11 +462,11 @@
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(event-19
 6	diet	diet	NOUN	NN	Number=Sing	2	obl	2:obl:on	Entity=event-19)|SpaceAfter=No
 7	,	,	PUNCT	,	_	12	punct	12:punct	_
-8	so	so	SCONJ	RB	_	12	mark	12:mark	Discourse=background:55->53
+8	so	so	ADV	RB	_	12	advmod	12:advmod	Discourse=background:55->53
 9	of	of	ADV	IN	_	12	advmod	12:advmod	_
 10	course	course	NOUN	NN	Number=Sing	9	fixed	9:fixed	_
 11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Entity=(person-2)
-12	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	2:advcl:so	_
+12	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	_
 13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(object-18
 14	cookie	cookie	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=object-18)|SpaceAfter=No
 15	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -947,9 +947,9 @@
 15	for	for	ADP	IN	_	16	case	16:case	_
 16	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	14	nmod	14:nmod:for	Entity=(person-5)object-50)|SpaceAfter=No
 17	,	,	PUNCT	,	_	20	punct	20:punct	_
-18	so	so	SCONJ	RB	_	20	mark	20:mark	Discourse=attribution:114->115
+18	so	so	ADV	RB	_	20	advmod	20:advmod	Discourse=attribution:114->115
 19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	20:nsubj	Entity=(person-6)
-20	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	advcl	3:advcl:so	_
+20	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	parataxis	3:parataxis	_
 21	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	iobj	20:iobj	Entity=(person-5)
 22	that	that	SCONJ	IN	_	25	mark	25:mark	Discourse=background:115->110
 23-24	I’d	_	_	_	_	_	_	_	_
@@ -1178,12 +1178,12 @@
 28	feel	feel	VERB	VB	VerbForm=Inf	2	conj	2:conj:but	_
 29	good	good	ADJ	JJ	Degree=Pos	28	xcomp	28:xcomp	SpaceAfter=No
 30	,	,	PUNCT	,	_	35	punct	35:punct	_
-31	so	so	SCONJ	RB	_	35	mark	35:mark	Discourse=evaluation:142->135
+31	so	so	ADV	RB	_	35	advmod	35:advmod	Discourse=evaluation:142->135
 32-33	it’s	_	_	_	_	_	_	_	_
 32	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	35	expl	35:expl	Entity=(event-65)
 33	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	35:cop	_
 34	pretty	pretty	ADV	RB	_	35	advmod	35:advmod	_
-35	amazing	amazing	ADJ	JJ	Degree=Pos	2	advcl	2:advcl:so	_
+35	amazing	amazing	ADJ	JJ	Degree=Pos	2	parataxis	2:parataxis	_
 36	that	that	SCONJ	IN	_	39	mark	39:mark	_
 37	Cara	Cara	PROPN	NNP	Number=Sing	39	nsubj	39:nsubj	Entity=(event-65(person-2)
 38	will	will	AUX	MD	VerbForm=Fin	39	aux	39:aux	_

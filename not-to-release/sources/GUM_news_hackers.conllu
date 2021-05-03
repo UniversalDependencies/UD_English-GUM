@@ -615,10 +615,10 @@
 # sent_id = GUM_news_hackers-20
 # s_type = decl
 # text = As of 15:11 GMT the site was accessible again, but only loads at relatively slow speeds, and by the end of the day Saturday the site was not loading at all.
-1	As	as	ADV	RB	_	8	advmod	8:advmod	Discourse=joint:65->6
-2	of	of	ADP	IN	_	4	case	4:case	_
-3	15:11	15:11	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	Entity=(time-60
-4	GMT	GMT	NOUN	NN	Number=Sing	1	nmod	1:nmod:of	Entity=time-60)
+1	As	as	ADV	RB	_	3	case	3:case	Discourse=joint:65->6
+2	of	of	ADP	IN	_	1	fixed	1:fixed	_
+3	15:11	15:11	NUM	CD	NumForm=Word|NumType=Card	8	obl	8:obl:as_of	Entity=(time-60
+4	GMT	GMT	NOUN	NN	Number=Sing	3	nmod:tmod	3:nmod:tmod	Entity=time-60)
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(abstract-3
 6	site	site	NOUN	NN	Number=Sing	8	nsubj	8:nsubj|13:nsubj	Entity=abstract-3)
 7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	8:cop	_
@@ -640,7 +640,7 @@
 23	of	of	ADP	IN	_	25	case	25:case	_
 24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	_
 25	day	day	NOUN	NN	Number=Sing	22	nmod	22:nmod:of	_
-26	Saturday	Saturday	PROPN	NNP	Number=Sing	22	dep	22:dep	Entity=time-62)
+26	Saturday	Saturday	PROPN	NNP	Number=Sing	22	nmod:tmod	22:nmod:tmod	Entity=time-62)
 27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Entity=(abstract-3
 28	site	site	NOUN	NN	Number=Sing	31	nsubj	31:nsubj	Entity=abstract-3)
 29	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	aux	31:aux	_

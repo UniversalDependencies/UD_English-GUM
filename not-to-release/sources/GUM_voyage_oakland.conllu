@@ -20,7 +20,7 @@
 4	distinctive	distinctive	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
 5	skyline	skyline	NOUN	NN	Number=Sing	1	nmod	1:nmod:of	_
 6	of	of	ADP	IN	_	7	case	7:case	_
-7	Downtown	downtown	NOUN	NN	Number=Sing	5	nmod	5:nmod:of	Entity=(place-3)place-2)|SpaceAfter=No
+7	Downtown	Downtown	PROPN	NNP	Number=Sing	5	nmod	5:nmod:of	Entity=(place-3)place-2)|SpaceAfter=No
 8	,	,	PUNCT	,	_	12	punct	12:punct	_
 9	including	include	VERB	VBG	VerbForm=Ger	12	case	12:case	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(place-4-Kaiser_Center
@@ -249,7 +249,7 @@
 11	to	to	PART	TO	_	12	mark	12:mark	_
 12	visit	visit	VERB	VB	VerbForm=Inf	10	xcomp	10:xcomp	Entity=place-3)
 13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_
-14	Downtown	downtown	NOUN	NN	Number=Sing	0	root	0:root	Entity=(place-3)|SpaceAfter=No
+14	Downtown	Downtown	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(place-3)|SpaceAfter=No
 15	,	,	PUNCT	,	_	19	punct	19:punct	_
 16	especially	especially	ADV	RB	Degree=Pos	19	advmod	19:advmod	Discourse=condition:12->11
 17	if	if	SCONJ	IN	_	19	mark	19:mark	_
@@ -324,7 +324,7 @@
 26	Street	Street	PROPN	NNP	Number=Sing	5	advcl	5:advcl:since	Entity=place-52)|SpaceAfter=No
 27	,	,	PUNCT	,	_	29	punct	29:punct	_
 28	just	just	ADV	RB	_	29	advmod	29:advmod	_
-29	west	west	ADJ	JJ	Degree=Pos	26	appos	26:appos	_
+29	west	west	ADV	RB	Degree=Pos	26	appos	26:appos	_
 30	of	of	ADP	IN	_	31	case	31:case	_
 31	Broadway	Broadway	PROPN	NNP	Number=Sing	29	obl	29:obl:of	Entity=(place-53-Broadway_%28San_Francisco%29)|SpaceAfter=No
 32	.	.	PUNCT	.	_	5	punct	5:punct	_
@@ -333,25 +333,25 @@
 # s_type = decl
 # text = Just east of Broadway and continuing north and south is Oakland's famous Chinatown, and that to get the real essence of "Chinatown," Oakland rather than San Francisco is your best bet.
 1	Just	just	ADV	RB	_	2	advmod	2:advmod	Discourse=joint:20->10
-2	east	east	ADJ	JJ	Degree=Pos	14	nsubj	14:nsubj	_
+2	east	east	ADV	RB	Degree=Pos	0	root	0:root	_
 3	of	of	ADP	IN	_	4	case	4:case	_
 4	Broadway	Broadway	PROPN	NNP	Number=Sing	2	obl	2:obl:of	Entity=(place-53-Broadway_%28San_Francisco%29)
 5	and	and	CCONJ	CC	_	6	cc	6:cc	_
-6	continuing	continue	VERB	VBG	VerbForm=Ger	4	conj	2:obl:of|4:conj:and	_
+6	continuing	continue	VERB	VBG	VerbForm=Ger	2	conj	2:conj:and	_
 7	north	north	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
 8	and	and	CCONJ	CC	_	9	cc	9:cc	_
 9	south	south	ADV	RB	Degree=Pos	7	conj	6:advmod|7:conj:and	_
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	2:cop	_
 11-12	Oakland's	_	_	_	_	_	_	_	_
 11	Oakland	Oakland	PROPN	NNP	Number=Sing	14	nmod:poss	14:nmod:poss	Entity=(place-54-Chinatown%2C_Oakland(place-7
 12	's	's	PART	POS	_	11	case	11:case	Entity=place-7)
 13	famous	famous	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
-14	Chinatown	Chinatown	PROPN	NNP	Number=Sing	0	root	0:root	Entity=place-54-Chinatown%2C_Oakland)|SpaceAfter=No
+14	Chinatown	Chinatown	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj|6:nsubj	Entity=place-54-Chinatown%2C_Oakland)|SpaceAfter=No
 15	,	,	PUNCT	,	_	36	punct	36:punct	_
 16	and	and	CCONJ	CC	_	36	cc	36:cc	Discourse=purpose:21->22
 17	that	that	PRON	DT	Number=Sing|PronType=Dem	19	reparandum	19:reparandum	Entity=(place-54-Chinatown%2C_Oakland)
 18	to	to	PART	TO	_	19	mark	19:mark	_
-19	get	get	VERB	VB	VerbForm=Inf	36	acl	36:acl:to	_
+19	get	get	VERB	VB	VerbForm=Inf	36	advcl	36:advcl:to	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(abstract-55
 21	real	real	ADJ	JJ	Degree=Pos	22	amod	22:amod	_
 22	essence	essence	NOUN	NN	Number=Sing	19	obj	19:obj	_
@@ -368,8 +368,8 @@
 33	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	36:cop	_
 34	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	36	nmod:poss	36:nmod:poss	Entity=(person-57)
 35	best	good	ADJ	JJS	Degree=Sup	36	amod	36:amod	_
-36	bet	bet	NOUN	NN	Number=Sing	14	conj	14:conj:and	SpaceAfter=No
-37	.	.	PUNCT	.	_	14	punct	14:punct	_
+36	bet	bet	NOUN	NN	Number=Sing	2	conj	2:conj:and	SpaceAfter=No
+37	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_voyage_oakland-11
 # s_type = decl
@@ -512,19 +512,19 @@
 # s_type = decl
 # text = Just west of Downtown and slightly north of the Financial District is Uptown.
 1	Just	just	ADV	RB	_	2	advmod	2:advmod	Discourse=joint:33->10
-2	west	west	ADJ	JJ	Degree=Pos	13	nsubj	13:nsubj	_
+2	west	west	ADV	RB	Degree=Pos	0	root	0:root	_
 3	of	of	ADP	IN	_	4	case	4:case	_
-4	Downtown	downtown	NOUN	NN	Number=Sing	2	obl	2:obl:of	Entity=(place-3)
+4	Downtown	Downtown	PROPN	NNP	Number=Sing	2	obl	2:obl:of	Entity=(place-3)
 5	and	and	CCONJ	CC	_	7	cc	7:cc	_
 6	slightly	slightly	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
-7	north	north	ADJ	JJ	Degree=Pos	4	conj	2:obl:of|4:conj:and	_
+7	north	north	ADV	RB	Degree=Pos	2	conj	2:conj:and	_
 8	of	of	ADP	IN	_	11	case	11:case	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(place-77
-10	Financial	Financial	PROPN	NNP	Number=Sing	11	compound	11:compound	_
-11	District	District	PROPN	NNP	Number=Sing	2	obl	2:obl:of	Entity=place-77)
-12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_
-13	Uptown	uptown	NOUN	NN	Number=Sing	0	root	0:root	Entity=(place-78)|SpaceAfter=No
-14	.	.	PUNCT	.	_	13	punct	13:punct	_
+10	Financial	Financial	ADJ	NNP	Degree=Pos	11	amod	11:amod	_
+11	District	District	PROPN	NNP	Number=Sing	7	obl	7:obl:of	Entity=place-77)
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	2:cop	_
+13	Uptown	Uptown	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj|7:nsubj	Entity=(place-78)|SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_voyage_oakland-16
 # s_type = decl
@@ -584,7 +584,7 @@
 4	burgeoning	burgeoning	ADJ	JJ	Degree=Pos	5	amod	5:amod	Entity=(place-78
 5	neighborhood	neighborhood	NOUN	NN	Number=Sing	0	root	0:root	_
 6	of	of	ADP	IN	_	8	case	8:case	_
-7	performing	perform	VERB	VBG	VerbForm=Ger	8	amod	8:amod	Entity=(abstract-89
+7	performing	performing	NOUN	NN	Number=Sing	8	compound	8:compound	Entity=(abstract-89
 8	arts	art	NOUN	NNS	Number=Plur	5	nmod	5:nmod:of	_
 9	ranging	range	VERB	VBG	VerbForm=Ger	8	acl	8:acl	Discourse=elaboration:39->38
 10	from	from	ADP	IN	_	11	case	11:case	_
@@ -608,7 +608,7 @@
 # sent_id = GUM_voyage_oakland-19
 # s_type = decl
 # text = Uptown also has some of the best in the city's vintage architecture, like the Gothic Revival Cathedral Building and the Art Deco Fox and Paramount Theaters, as well as several restaurants.
-1	Uptown	uptown	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=elaboration:40->33|Entity=(place-78)
+1	Uptown	Uptown	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=elaboration:40->33|Entity=(place-78)
 2	also	also	ADV	RB	_	3	advmod	3:advmod	_
 3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	some	some	PRON	DT	_	3	obj	3:obj	Entity=(abstract-94
@@ -660,9 +660,9 @@
 10	just	just	ADV	RB	_	12	advmod	12:advmod	_
 11	about	about	ADV	RB	_	10	fixed	10:fixed	_
 12	everywhere	everywhere	ADV	RB	Degree=Pos	8	obl	8:obl:to	Entity=(place-100-North_Oakland%2C_Oakland%2C_California
-13	north	north	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
+13	north	north	ADV	RB	Degree=Pos	12	advmod	12:advmod	_
 14	of	of	ADP	IN	_	15	case	15:case	_
-15	Uptown	uptown	NOUN	NN	Number=Sing	13	nmod	13:nmod:of	Entity=(place-78)
+15	Uptown	Uptown	PROPN	NNP	Number=Sing	13	nmod	13:nmod:of	Entity=(place-78)
 16	and	and	CCONJ	CC	_	17	cc	17:cc	_
 17	Lake	Lake	PROPN	NNP	Number=Sing	15	conj	13:nmod:of|15:conj:and	Entity=(place-102-Lake_Merritt
 18	Merritt	Merritt	PROPN	NNP	Number=Sing	17	flat	17:flat	Entity=abstract-101)place-100-North_Oakland%2C_Oakland%2C_California)place-102-Lake_Merritt)|SpaceAfter=No
@@ -711,7 +711,7 @@
 6	lies	lie	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_
 7	north-northwest	north-northwest	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
 8	from	from	ADP	IN	_	9	case	9:case	_
-9	Downtown	downtown	NOUN	NN	Number=Sing	6	obl	6:obl:from	Entity=(place-3)|SpaceAfter=No
+9	Downtown	Downtown	PROPN	NNP	Number=Sing	6	obl	6:obl:from	Entity=(place-3)|SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	11:punct	_
 11	centered	center	VERB	VBN	Tense=Past|VerbForm=Part	4	acl	4:acl	Discourse=elaboration:47->45
 12	along	along	ADP	IN	_	14	case	14:case	_
@@ -827,7 +827,7 @@
 7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(place-126
 8	BART	BART	PROPN	NNP	Abbr=Yes|Number=Sing	9	compound	9:compound	Entity=(object-45-Bay_Area_Rapid_Transit)
 9	station	station	NOUN	NN	Number=Sing	2	conj	2:conj:and|13:nsubj	_
-10	all	all	PRON	DT	_	11	det:predet	11:det:predet	_
+10	all	all	ADV	RB	Degree=Pos	12	advmod	12:advmod	_
 11	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(place-119-Rockridge%2C_Oakland%2C_California)
 12	own	own	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=place-126)
 13	make	make	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -845,12 +845,12 @@
 # sent_id = GUM_voyage_oakland-27
 # s_type = decl
 # text = South of Rockridge, and southeast of Temescal lies Piedmont Avenue, a street extending from Broadway near 34th and Hawthorne and an area with a group of hospitals on a hill (Pill Hill) up and through a neighborhood bordered on both sides by picturesque hills, houses and trees.
-1	South	South	NOUN	NN	Number=Sing	9	obl:npmod	9:obl:npmod	Discourse=joint:54->10
+1	South	South	ADV	RB	Degree=Pos	9	advmod	9:advmod	Discourse=joint:54->10
 2	of	of	ADP	IN	_	3	case	3:case	_
 3	Rockridge	Rockridge	PROPN	NNP	Number=Sing	1	nmod	1:nmod:of	Entity=(place-119-Rockridge%2C_Oakland%2C_California)|SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	6:punct	_
 5	and	and	CCONJ	CC	_	6	cc	6:cc	_
-6	southeast	southeast	NOUN	NN	Number=Sing	1	conj	1:conj:and|9:obl:npmod	_
+6	southeast	southeast	ADV	RB	Degree=Pos	1	conj	1:conj:and|9:advmod	_
 7	of	of	ADP	IN	_	8	case	8:case	_
 8	Temescal	Temescal	PROPN	NNP	Number=Sing	6	nmod	6:nmod:of	Entity=(place-109-Temescal%2C_Oakland%2C_California)
 9	lies	lie	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -1133,7 +1133,7 @@
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
 6	many	many	ADJ	JJ	Degree=Pos	8	amod	8:amod	Entity=(person-178
 7	San	San	PROPN	NNP	Number=Sing	8	compound	8:compound	_
-8	Franciscans	Franciscan	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj	Entity=person-178)
+8	Franciscans	Franciscan	PROPN	NNPS	Number=Plur	9	nsubj	9:nsubj	Entity=person-178)
 9	relocated	relocate	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 10	there	there	ADV	RB	PronType=Dem	9	advmod	9:advmod	Entity=(place-165-West_Oakland%2C_Oakland%2C_California)|SpaceAfter=No
 11	,	,	PUNCT	,	_	21	punct	21:punct	_
@@ -1202,7 +1202,7 @@
 40	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	16:conj:and	_
 41	a	a	DET	DT	Definite=Ind|PronType=Art	45	det	45:det	Entity=(organization-191
 42	burgeoning	burgeon	VERB	VBG	VerbForm=Ger	45	amod	45:amod	_
-43	performing	perform	VERB	VBG	VerbForm=Ger	44	amod	44:amod	Entity=(abstract-192
+43	performing	performing	NOUN	NN	Number=Sing	44	compound	44:compound	Entity=(abstract-192
 44	arts	art	NOUN	NNS	Number=Plur	45	compound	45:compound	Entity=abstract-192)
 45	community	community	NOUN	NN	Number=Sing	40	nsubj	40:nsubj	_
 46	growing	grow	VERB	VBG	VerbForm=Ger	45	acl	45:acl	_

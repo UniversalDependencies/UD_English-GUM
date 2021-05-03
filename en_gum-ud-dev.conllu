@@ -206,10 +206,10 @@
 35	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux:pass	36:aux:pass	_
 36	immersed	immerse	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	conj	12:acl:relcl|14:conj:and	_
 37	in	in	ADP	IN	_	41	case	41:case	_
-38	a	a	DET	DT	Definite=Ind|PronType=Art	41	det	41:det	Entity=(place-35
+38	a	a	DET	DT	Definite=Ind|PronType=Art	41	det	41:det	Entity=(abstract-35
 39	foreign	foreign	ADJ	JJ	Degree=Pos	40	amod	40:amod	Entity=(abstract-36
 40	language	language	NOUN	NN	Number=Sing	41	compound	41:compound	Entity=abstract-36)
-41	setting	setting	NOUN	NN	Number=Sing	36	obl	36:obl:in	Entity=place-35)
+41	setting	setting	NOUN	NN	Number=Sing	36	obl	36:obl:in	Entity=abstract-35)
 42	and	and	CCONJ	CC	_	44	cc	44:cc	Discourse=sequence:27->26
 43	then	then	ADV	RB	PronType=Dem	44	advmod	44:advmod	_
 44	moves	move	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	conj	14:conj|36:conj:and	_
@@ -346,7 +346,7 @@
 3	aware	aware	ADJ	JJ	Degree=Pos	0	root	0:root	_
 4	of	of	ADP	IN	_	6	case	6:case	_
 5	six	six	NUM	CD	NumForm=Word|NumType=Card	6	nummod	6:nummod	Entity=(abstract-53
-6	studies	study	NOUN	NNS	Number=Plur	3	obl	3:obl:of|39:nmod:of	Entity=abstract-53)
+6	studies	study	NOUN	NNS	Number=Plur	3	obl	3:obl:of|39:nmod:of	_
 7	designed	design	VERB	VBN	Tense=Past|VerbForm=Part	6	acl	6:acl	Discourse=elaboration:40->39
 8	to	to	PART	TO	_	9	mark	9:mark	Discourse=purpose:41->39
 9	investigate	investigate	VERB	VB	VerbForm=Inf	7	xcomp	7:xcomp	_
@@ -358,11 +358,11 @@
 15	period	period	NOUN	NN	Number=Sing	11	nmod	11:nmod:of	_
 16	of	of	ADP	IN	_	18	case	18:case	_
 17	limited	limited	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(abstract-56
-18	exposure	exposure	NOUN	NN	Number=Sing	15	nmod	15:nmod:of	Entity=abstract-54)time-55)abstract-56)
+18	exposure	exposure	NOUN	NN	Number=Sing	15	nmod	15:nmod:of	Entity=abstract-56)
 19	following	follow	VERB	VBG	VerbForm=Ger	15	acl	15:acl	Discourse=elaboration:42->41
 20	adult	adult	ADJ	JJ	Degree=Pos	22	amod	22:amod	Entity=(event-57
 21	L2	L2	NOUN	NN	Number=Sing	22	compound	22:compound	Entity=(abstract-3)
-22	training	training	NOUN	NN	Number=Sing	19	obj	19:obj	Entity=event-57)
+22	training	training	NOUN	NN	Number=Sing	19	obj	19:obj	Entity=abstract-54)time-55)event-57)
 23	[	[	PUNCT	-LRB-	_	24	punct	24:punct	Discourse=evidence:43->39|Entity=(abstract-53|SpaceAfter=No
 24	17	17	NUM	CD	NumForm=Digit|NumType=Card	3	dep	3:dep	Entity=(abstract-33)|SpaceAfter=No
 25	]	]	PUNCT	-RRB-	_	24	punct	24:punct	SpaceAfter=No
@@ -379,9 +379,9 @@
 36	24	24	NUM	CD	NumForm=Digit|NumType=Card	32	nmod	32:nmod:to	Entity=(abstract-59)|SpaceAfter=No
 37	]	]	PUNCT	-RRB-	_	36	punct	36:punct	Entity=abstract-53)|SpaceAfter=No
 38	,	,	PUNCT	,	_	43	punct	43:punct	_
-39	all	all	PRON	DT	_	43	nsubj:pass	43:nsubj:pass	Discourse=elaboration:44->39|Entity=(abstract-53
+39	all	all	PRON	DT	_	43	nsubj:pass	43:nsubj:pass	Discourse=elaboration:44->39
 40	of	of	ADP	IN	_	41	case	41:case	_
-41	which	which	PRON	WDT	PronType=Int	39	nmod	6:ref	Entity=abstract-53)
+41	which	which	PRON	WDT	PronType=Int	39	nmod	6:ref	_
 42	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	43	aux:pass	43:aux:pass	_
 43	restricted	restrict	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl:relcl	6:acl:relcl	_
 44	to	to	ADP	IN	_	46	case	46:case	_
@@ -392,7 +392,7 @@
 49	(	(	PUNCT	-LRB-	_	50	punct	50:punct	Discourse=elaboration:45->44|SpaceAfter=No
 50	performance	performance	NOUN	NN	Number=Sing	48	appos	48:appos	Entity=(abstract-62)|SpaceAfter=No
 51	)	)	PUNCT	-RRB-	_	50	punct	50:punct	_
-52	outcomes	outcome	NOUN	NNS	Number=Plur	46	nmod	46:nmod:of	Discourse=same-unit:46->44|Entity=abstract-60)abstract-61)|SpaceAfter=No
+52	outcomes	outcome	NOUN	NNS	Number=Plur	46	nmod	46:nmod:of	Discourse=same-unit:46->44|Entity=abstract-53)abstract-60)abstract-61)|SpaceAfter=No
 53	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_academic_exposure-12
@@ -2800,7 +2800,7 @@
 26	which	which	PRON	WDT	PronType=Rel	27	nsubj	24:ref	Discourse=elaboration:87->86
 27	endorsed	endorse	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	acl:relcl	24:acl:relcl	_
 28	liberal	liberal	ADJ	JJ	Degree=Pos	29	amod	29:amod	Entity=(abstract-122
-29	politics	politics	NOUN	NNS	Number=Plur	27	obj	27:obj	Entity=person-120-John_Hobhouse%2C_1st_Baron_Broughton)organization-121)abstract-122)|SpaceAfter=No
+29	politics	politics	NOUN	NN	Number=Sing	27	obj	27:obj	Entity=person-120-John_Hobhouse%2C_1st_Baron_Broughton)organization-121)abstract-122)|SpaceAfter=No
 30	,	,	PUNCT	,	_	13	punct	13:punct	_
 31	[	[	PUNCT	-LRB-	_	32	punct	32:punct	Discourse=evidence:88->85|SpaceAfter=No
 32	28	28	NUM	CD	NumForm=Digit|NumType=Card	6	dep	6:dep	Entity=(abstract-117)|SpaceAfter=No
@@ -7189,9 +7189,9 @@
 9	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	cop	11:cop	_
 10	too	too	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
 11	loud	loud	ADJ	JJ	Degree=Pos	2	conj	2:conj:but	_
-12	so	so	SCONJ	RB	_	14	mark	14:mark	Discourse=contrast:101->99
+12	so	so	ADV	RB	_	14	advmod	14:advmod	Discourse=contrast:101->99
 13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	14:nsubj	Entity=(person-2)
-14	stopped	stop	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	advcl	11:advcl:so	SpaceAfter=No
+14	stopped	stop	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	parataxis	11:parataxis	SpaceAfter=No
 15	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_fiction_beast-43
@@ -8403,9 +8403,9 @@
 8	measured	measure	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl:relcl	4:acl:relcl	_
 9	at	at	ADP	IN	_	11	case	11:case	_
 10	200	200	NUM	CD	NumForm=Digit|NumType=Card	11	nummod	11:nummod	Entity=(abstract-7
-11	km	km	NOUN	NNS	Number=Plur	8	obl	8:obl:at	_
+11	km	kilometer	NOUN	NNS	Number=Plur	8	obl	8:obl:at	_
 12	/	/	SYM	SYM	_	13	dep	13:dep	_
-13	h	h	NOUN	NN	Number=Sing	8	ccomp	8:ccomp	Entity=abstract-6)abstract-7)|SpaceAfter=No
+13	h	hour	NOUN	NN	Number=Sing	8	ccomp	8:ccomp	Entity=abstract-6)abstract-7)|SpaceAfter=No
 14	,	,	PUNCT	,	_	17	punct	17:punct	_
 15	as	as	SCONJ	IN	_	17	mark	17:mark	Discourse=circumstance:7->8
 16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	17:nsubj	Entity=(event-3-Cyclone_Phailin)
@@ -9854,8 +9854,8 @@
 18	and	and	CCONJ	CC	_	23	cc	23:cc	Discourse=result:35->34
 19	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	23:nsubj	Entity=(event-28(person-2)
 20	just	just	ADV	RB	_	23	advmod	23:advmod	_
-21	kind	kind	ADV	RB	Degree=Pos	23	advmod	23:advmod	_
-22	of	of	ADV	RB	Degree=Pos	21	fixed	21:fixed	_
+21	kind	kind	NOUN	NN	Number=Sing	23	obl:npmod	23:obl:npmod	_
+22	of	of	ADP	IN	_	21	fixed	21:fixed	_
 23	hit	hit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	conj	12:conj:and	_
 24	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	obj	23:obj	_
 25	off	off	ADP	RP	_	23	compound:prt	23:compound:prt	_
@@ -11610,11 +11610,11 @@
 21	n't	not	PART	RB	Polarity=Neg	22	advmod	22:advmod	_
 22	succeeded	succeed	VERB	VBN	Tense=Past|VerbForm=Part	16	conj	16:conj:and	SpaceAfter=No
 23	,	,	PUNCT	,	_	27	punct	27:punct	_
-24	so	so	SCONJ	RB	_	27	mark	27:mark	Discourse=attribution:42->43
+24	so	so	ADV	RB	_	27	advmod	27:advmod	Discourse=attribution:42->43
 25-26	we've	_	_	_	_	_	_	_	_
 25	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	27:nsubj	Entity=(person-66)
 26	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	27	aux	27:aux	_
-27	convinced	convince	VERB	VBN	Tense=Past|VerbForm=Part	3	advcl	3:advcl:so	_
+27	convinced	convince	VERB	VBN	Tense=Past|VerbForm=Part	3	parataxis	3:parataxis	_
 28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(organization-67-Food_Standards_Australia_New_Zealand
 29	Food	Food	PROPN	NNP	Number=Sing	30	compound	30:compound	Entity=(substance-47)
 30	Standards	Standard	PROPN	NNPS	Number=Plur	27	obj	27:obj	_
@@ -15212,8 +15212,8 @@
 1-2	It's	_	_	_	_	_	_	_	_
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	Discourse=evaluation:4->2|Entity=(time-3)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
-3	kind	kind	ADV	RB	Degree=Pos	7	advmod	7:advmod	Entity=(time-3
-4	of	of	ADV	RB	Degree=Pos	3	fixed	3:fixed	_
+3	kind	kind	NOUN	NN	Number=Sing	7	obl:npmod	7:obl:npmod	Entity=(time-3
+4	of	of	ADP	IN	_	3	fixed	3:fixed	_
 5	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	_
 6	interesting	interesting	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	week	week	NOUN	NN	Number=Sing	0	root	0:root	Entity=time-3)|SpaceAfter=No
@@ -15234,8 +15234,8 @@
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj|14:nsubj:xsubj|19:nsubj:xsubj	Entity=(person-4)
 10	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	2:conj:and	_
 11	to	to	PART	TO	_	14	mark	14:mark	_
-12	kind	kind	ADV	RB	Degree=Pos	14	advmod	14:advmod	_
-13	of	of	ADV	RB	Degree=Pos	12	fixed	12:fixed	_
+12	kind	kind	NOUN	NN	Number=Sing	14	obl:npmod	14:obl:npmod	_
+13	of	of	ADP	IN	_	12	fixed	12:fixed	_
 14	show	show	VERB	VB	VerbForm=Inf	10	xcomp	10:xcomp	_
 15	you	you	PRON	PRP	Case=Acc|Number=Plur|Person=2|PronType=Prs	16	dep	16:dep	Entity=(person-5
 16	guys	guy	NOUN	NNS	Number=Plur	14	obj	14:obj	Entity=person-5)
@@ -16205,8 +16205,8 @@
 2	since	since	SCONJ	IN	_	4	mark	4:mark	Discourse=cause:116->117
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj|7:nsubj:xsubj	Entity=(person-4)
 4	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	advcl	12:advcl:since	_
-5	kind	kind	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
-6	of	of	ADV	RB	Degree=Pos	5	fixed	5:fixed	_
+5	kind	kind	NOUN	NN	Number=Sing	7	obl:npmod	7:obl:npmod	_
+6	of	of	ADP	IN	_	5	fixed	5:fixed	_
 7	crappy	crappy	ADJ	JJ	Degree=Pos	4	xcomp	4:xcomp	_
 8	today	today	NOUN	NN	Number=Sing	4	obl:tmod	4:obl:tmod	Entity=(time-53)
 9-10	I'm	_	_	_	_	_	_	_	_
@@ -16324,8 +16324,8 @@
 31	show	show	VERB	VB	VerbForm=Inf	29	xcomp	29:xcomp	_
 32	you	you	PRON	PRP	Case=Acc|Number=Plur|Person=2|PronType=Prs	33	dep	33:dep	Entity=(person-5
 33	guys	guy	NOUN	NNS	Number=Plur	31	iobj	31:iobj	Entity=person-5)
-34	kind	kind	ADV	RB	Degree=Pos	36	advmod	36:advmod	_
-35	of	of	ADV	RB	Degree=Pos	34	fixed	34:fixed	_
+34	kind	kind	NOUN	NN	Number=Sing	36	obl:npmod	36:obl:npmod	_
+35	of	of	ADP	IN	_	34	fixed	34:fixed	_
 36	loosely	loosely	ADV	RB	Degree=Pos	31	advmod	31:advmod	_
 37	like	like	INTJ	UH	_	38	discourse	38:discourse	_
 38	how	how	SCONJ	WRB	PronType=Int	31	ccomp	31:ccomp	_
@@ -19987,7 +19987,7 @@
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 6	worth	worth	ADJ	JJ	Degree=Pos	12	advcl	12:advcl:if	_
 7	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(object-45)
-8	salt	salt	NOUN	NN	Number=Sing	6	dep	6:dep	SpaceAfter=No
+8	salt	salt	NOUN	NN	Number=Sing	6	obj	6:obj	SpaceAfter=No
 9	,	,	PUNCT	,	_	6	punct	6:punct	_
 10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj|19:nsubj	Discourse=motivation:38->33|Entity=(event-46(object-45)
 11	will	will	AUX	MD	VerbForm=Fin	12	aux	12:aux|19:aux	_
