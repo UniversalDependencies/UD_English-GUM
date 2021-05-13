@@ -1,13 +1,13 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_English-GUM:
-commit 5ee141a81a8a5c009c38406f81c15585a28b89fd
-Merge: 222e6dc 2c8b062
+commit d014d4873354b5b743d57fb3f49a80b3a099ae12
+Merge: d412342 90e11f8
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 113385 of 113385 words (nodes).
-Size: min(0, log((N/1000)**2)) = 9.4615782148245.
+Size: counted 134488 of 134488 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.80294995146152.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,13 +15,15 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 74366 out of 113385 total words have one or more features.
+Features: 90746 out of 134488 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 36 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 2286 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 113385 words.
-Genres: found 7 out of 17 known.
+Udapi:
+               TOTAL       2814
+Udapi: found 2814 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 134488 words.
+Genres: found 9 out of 17 known.
 validate.py --lang en --max-err=10 UD_English-GUM/en_gum-ud-dev.conllu
 *** PASSED ***
 validate.py --lang en --max-err=10 UD_English-GUM/en_gum-ud-test.conllu
@@ -30,13 +32,13 @@ validate.py --lang en --max-err=10 UD_English-GUM/en_gum-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.411764705882353) = 0.0316742081447964
+(weight=0.0769230769230769) * (score{genres}=0.529411764705882) = 0.0407239819004525
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.684851868132383) = 0.175603043110868
+(weight=0.256410256410256) * (score{size}=0.709561178382248) = 0.181938763687756
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.798386029898135) = 0.245657239968657
+(weight=0.307692307692308) * (score{udapi}=0.790762001070727) = 0.243311384944839
 (weight=0.0769230769230769) * (score{udeprels}=0.972972972972973) = 0.0748440748440748
-(TOTAL score=0.779060617350447) * (availability=1) * (validity=1) = 0.779060617350447
+(TOTAL score=0.792100256659174) * (availability=1) * (validity=1) = 0.792100256659174
 STARS = 4
-UD_English-GUM	0.779060617350447	4
+UD_English-GUM	0.792100256659174	4
