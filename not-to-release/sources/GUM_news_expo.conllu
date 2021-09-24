@@ -9,7 +9,7 @@
 # sent_id = GUM_news_expo-1
 # s_type = other
 # text = Pop culture celebrated at Fan Expo Canada 2016 in Toronto
-1	Pop	pop	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=preparation:1->6|Entity=(abstract-1
+1	Pop	pop	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=preparation:1->6:5|Entity=(abstract-1
 2	culture	culture	NOUN	NN	Number=Sing	3	nsubj:pass	3:nsubj:pass	_
 3	celebrated	celebrate	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 4	at	at	ADP	IN	_	6	case	6:case	_
@@ -23,7 +23,7 @@
 # sent_id = GUM_news_expo-2
 # s_type = frag
 # text = Wednesday, September 7, 2016
-1	Wednesday	Wednesday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:2->6|Entity=(time-7)|SpaceAfter=No
+1	Wednesday	Wednesday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:2->6:4|Entity=(time-7)|SpaceAfter=No
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	September	September	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(time-7
 4	7	7	NUM	CD	NumForm=Digit|NumType=Card	1	appos	1:appos	SpaceAfter=No
@@ -33,7 +33,7 @@
 # sent_id = GUM_news_expo-3
 # s_type = frag
 # text = The far end of part of the convention floor, shortly after opening Friday.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=background:3->6|Entity=(place-8
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=background:3->6:3|Entity=(place-8
 2	far	far	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	end	end	NOUN	NN	Number=Sing	0	root	0:root	_
 4	of	of	ADP	IN	_	5	case	5:case	_
@@ -52,16 +52,16 @@
 # sent_id = GUM_news_expo-4
 # s_type = frag
 # text = Image: Nick Moreau.
-1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:4->5|Entity=(abstract-11)|SpaceAfter=No
+1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:4->5:0|Entity=(abstract-11)|SpaceAfter=No
 2	:	:	PUNCT	:	_	3	punct	3:punct	_
-3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:5->3|Entity=(person-12
+3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:5->3:0|Entity=(person-12
 4	Moreau	Moreau	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=person-12)|SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_news_expo-5
 # s_type = decl
 # text = The 22nd Fan Expo Canada took place at the Metro Toronto Convention Centre this weekend, attracting thousands to the event, one of the most popular in North America.
-1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Discourse=ROOT:6|Entity=(event-2
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Discourse=ROOT:6:0|Entity=(event-2
 2	22nd	22nd	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	4:amod	_
 3	Fan	Fan	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(person-3)
 4	Expo	Expo	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	_
@@ -77,7 +77,7 @@
 14	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	15:det	Entity=(time-14
 15	weekend	weekend	NOUN	NN	Number=Sing	6	obl:tmod	6:obl:tmod	Entity=time-14)|SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	17:punct	_
-17	attracting	attract	VERB	VBG	VerbForm=Ger	6	advcl	6:advcl	Discourse=result:7->6
+17	attracting	attract	VERB	VBG	VerbForm=Ger	6	advcl	6:advcl	Discourse=result:7->6:0
 18	thousands	thousand	NOUN	NNS	Number=Plur	17	obj	17:obj	Entity=(person-15)
 19	to	to	ADP	IN	_	21	case	21:case	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(event-2
@@ -96,7 +96,7 @@
 # sent_id = GUM_news_expo-6
 # s_type = decl
 # text = Crossing between the genres of science fiction, horror, anime, fantasy and comics, the event sprawled throughout all corners of the facility.
-1	Crossing	cross	VERB	VBG	VerbForm=Ger	19	advcl	19:advcl	Discourse=circumstance:8->9
+1	Crossing	cross	VERB	VBG	VerbForm=Ger	19	advcl	19:advcl	Discourse=circumstance:8->9:0
 2	between	between	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(abstract-17
 4	genres	genre	NOUN	NNS	Number=Plur	1	obl	1:obl:between	_
@@ -112,7 +112,7 @@
 14	and	and	CCONJ	CC	_	15	cc	15:cc	_
 15	comics	comic	NOUN	NNS	Number=Plur	7	conj	4:nmod:of|7:conj:and	Entity=(abstract-23)abstract-17)abstract-18)|SpaceAfter=No
 16	,	,	PUNCT	,	_	1	punct	1:punct	_
-17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Discourse=elaboration:9->6|Entity=(event-2
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Discourse=elaboration:9->6:1|Entity=(event-2
 18	event	event	NOUN	NN	Number=Sing	19	nsubj	19:nsubj	Entity=event-2)
 19	sprawled	sprawl	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 20	throughout	throughout	ADP	IN	_	22	case	22:case	_
@@ -126,7 +126,7 @@
 # sent_id = GUM_news_expo-7
 # s_type = decl
 # text = Hundreds of vendors offered products new and old, joined by celebrity guests like Stan Lee, Mark Hamill, and Margaret Atwood.
-1	Hundreds	hundred	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Discourse=elaboration:10->6|Entity=(person-25
+1	Hundreds	hundred	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Discourse=elaboration:10->6:2|Entity=(person-25
 2	of	of	ADP	IN	_	3	case	3:case	_
 3	vendors	vendor	NOUN	NNS	Number=Plur	1	nmod	1:nmod:of	Entity=person-25)
 4	offered	offer	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -135,7 +135,7 @@
 7	and	and	CCONJ	CC	_	8	cc	8:cc	_
 8	old	old	ADJ	JJ	Degree=Pos	6	conj	5:amod|6:conj:and	Entity=abstract-26)|SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	10:punct	_
-10	joined	join	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	4:advcl	Discourse=elaboration:11->10
+10	joined	join	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	4:advcl	Discourse=elaboration:11->10:0
 11	by	by	ADP	IN	_	13	case	13:case	_
 12	celebrity	celebrity	NOUN	NN	Number=Sing	13	compound	13:compound	Entity=(person-27
 13	guests	guest	NOUN	NNS	Number=Plur	10	obl	10:obl:by	_
@@ -154,7 +154,7 @@
 # sent_id = GUM_news_expo-8
 # s_type = decl
 # text = Various local fan organizations were there in a charitable capacity, and thousands of fans donned costumes, many of which they themselves created.
-1	Various	various	ADJ	JJ	Degree=Pos	4	amod	4:amod	Discourse=joint:12->10|Entity=(organization-31
+1	Various	various	ADJ	JJ	Degree=Pos	4	amod	4:amod	Discourse=joint_m:12->10:1|Entity=(organization-31
 2	local	local	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 3	fan	fan	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(person-32)
 4	organizations	organization	NOUN	NNS	Number=Plur	10	nsubj	10:nsubj	Entity=organization-31)
@@ -165,14 +165,14 @@
 9	charitable	charitable	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
 10	capacity	capacity	NOUN	NN	Number=Sing	0	root	0:root	Entity=abstract-33)|SpaceAfter=No
 11	,	,	PUNCT	,	_	16	punct	16:punct	_
-12	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=joint:13->10
+12	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=joint_m:13->10:1
 13	thousands	thousand	NOUN	NNS	Number=Plur	16	nsubj	16:nsubj	Entity=(person-34
 14	of	of	ADP	IN	_	15	case	15:case	_
 15	fans	fan	NOUN	NNS	Number=Plur	13	nmod	13:nmod:of	Entity=person-34)
 16	donned	don	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	conj	10:conj:and	_
 17	costumes	costume	NOUN	NNS	Number=Plur	16	obj	16:obj	Entity=(object-35|SpaceAfter=No
 18	,	,	PUNCT	,	_	24	punct	24:punct	_
-19	many	many	ADJ	JJ	Degree=Pos	24	obj	24:obj	Discourse=elaboration:14->13
+19	many	many	ADJ	JJ	Degree=Pos	24	obj	24:obj	Discourse=elaboration:14->13:0
 20	of	of	ADP	IN	_	21	case	21:case	_
 21	which	which	PRON	WDT	PronType=Int	19	obl	19:obl:of	_
 22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	24:nsubj	Entity=(person-34)
@@ -183,32 +183,34 @@
 # sent_id = GUM_news_expo-9
 # s_type = decl
 # text = Atwood, a Booker Prize-winner, was there to launch her graphic novel Angel Catbird, with illustrator Johnnie Christmas.
-1	Atwood	Atwood	PROPN	NNP	Number=Sing	7	nsubj	7:nsubj|10:nsubj:xsubj	Discourse=elaboration:15->10|Entity=(person-30-Margaret_Atwood)|SpaceAfter=No
-2	,	,	PUNCT	,	_	5	punct	5:punct	_
-3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(person-30-Margaret_Atwood
-4	Booker	Booker	PROPN	NNP	Number=Sing	5	compound	5:compound	_
-5	Prize-winner	Prize-winner	NOUN	NN	Number=Sing	1	appos	1:appos	Entity=person-30-Margaret_Atwood)|SpaceAfter=No
-6	,	,	PUNCT	,	_	1	punct	1:punct	_
-7	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-8	there	there	ADV	RB	PronType=Dem	7	advmod	7:advmod	_
-9	to	to	PART	TO	_	10	mark	10:mark	Discourse=purpose:16->15
-10	launch	launch	VERB	VB	VerbForm=Inf	7	xcomp	7:xcomp	_
-11	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(abstract-36(person-30-Margaret_Atwood)
-12	graphic	graphic	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
-13	novel	novel	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=abstract-36)
-14	Angel	Angel	PROPN	NNP	Number=Sing	13	appos	13:appos	Entity=(abstract-36
-15	Catbird	Catbird	PROPN	NNP	Number=Sing	14	flat	14:flat	Entity=abstract-36)|SpaceAfter=No
-16	,	,	PUNCT	,	_	18	punct	18:punct	_
-17	with	with	ADP	IN	_	18	case	18:case	_
-18	illustrator	illustrator	NOUN	NN	Number=Sing	10	obl	10:obl:with	Entity=(person-37
-19	Johnnie	Johnnie	PROPN	NNP	Number=Sing	18	flat	18:flat	_
-20	Christmas	Christmas	PROPN	NNP	Number=Sing	18	flat	18:flat	Entity=person-37)|SpaceAfter=No
-21	.	.	PUNCT	.	_	7	punct	7:punct	_
+1	Atwood	Atwood	PROPN	NNP	Number=Sing	9	nsubj	9:nsubj|12:nsubj:xsubj	Discourse=elaboration:15->10:2|Entity=(person-30-Margaret_Atwood)|SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	7:punct	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(person-30-Margaret_Atwood
+4	Booker	Booker	PROPN	NNP	Number=Sing	7	compound	7:compound	_
+5	Prize	Prize	NOUN	NN	Number=Sing	7	compound	7:compound	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	punct	5:punct	SpaceAfter=No
+7	winner	winner	NOUN	NN	Number=Sing	1	appos	1:appos	Entity=person-30-Margaret_Atwood)|SpaceAfter=No
+8	,	,	PUNCT	,	_	1	punct	1:punct	_
+9	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+10	there	there	ADV	RB	PronType=Dem	9	advmod	9:advmod	_
+11	to	to	PART	TO	_	12	mark	12:mark	Discourse=purpose:16->15:0
+12	launch	launch	VERB	VB	VerbForm=Inf	9	xcomp	9:xcomp	_
+13	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	15:nmod:poss	Entity=(abstract-36(person-30-Margaret_Atwood)
+14	graphic	graphic	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
+15	novel	novel	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=abstract-36)
+16	Angel	Angel	PROPN	NNP	Number=Sing	15	appos	15:appos	Entity=(abstract-36
+17	Catbird	Catbird	PROPN	NNP	Number=Sing	16	flat	16:flat	Entity=abstract-36)|SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	20:punct	_
+19	with	with	ADP	IN	_	20	case	20:case	_
+20	illustrator	illustrator	NOUN	NN	Number=Sing	12	obl	12:obl:with	Entity=(person-37
+21	Johnnie	Johnnie	PROPN	NNP	Number=Sing	20	flat	20:flat	_
+22	Christmas	Christmas	PROPN	NNP	Number=Sing	20	flat	20:flat	Entity=person-37)|SpaceAfter=No
+23	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_news_expo-10
 # s_type = decl
 # text = Lee was making his final Canadian convention appearance, part of a larger farewell tour.
-1	Lee	Lee	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=joint:17->15|Entity=(person-28-Stan_Lee)
+1	Lee	Lee	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=joint_m:17->15:1|Entity=(person-28-Stan_Lee)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	3:aux	_
 3	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
 4	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(abstract-38(person-28-Stan_Lee)
@@ -229,7 +231,7 @@
 # s_type = decl
 # text = Hamill's schedule included a panel with Kevin Conroy, the voice of Batman in Batman: The Animated Series, in which the Star Wars lead played the Joker.
 1-2	Hamill's	_	_	_	_	_	_	_	_
-1	Hamill	Hamill	PROPN	NNP	Number=Sing	3	nmod:poss	3:nmod:poss	Discourse=joint:18->15|Entity=(abstract-41(person-29-Mark_Hamill
+1	Hamill	Hamill	PROPN	NNP	Number=Sing	3	nmod:poss	3:nmod:poss	Discourse=joint_m:18->15:1|Entity=(abstract-41(person-29-Mark_Hamill
 2	's	's	PART	POS	_	1	case	1:case	Entity=person-29-Mark_Hamill)
 3	schedule	schedule	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=abstract-41)
 4	included	include	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -250,7 +252,7 @@
 19	Animated	Animate	VERB	NNP	Tense=Past|VerbForm=Part	20	amod	20:amod	_
 20	Series	Series	PROPN	NNP	Number=Sing	16	appos	16:appos	SpaceAfter=No
 21	,	,	PUNCT	,	_	28	punct	28:punct	_
-22	in	in	ADP	IN	_	23	case	23:case	Discourse=elaboration:19->18
+22	in	in	ADP	IN	_	23	case	23:case	Discourse=elaboration:19->18:0
 23	which	which	PRON	WDT	PronType=Rel	28	obl	16:ref	_
 24	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(person-29-Mark_Hamill
 25	Star	Star	PROPN	NNP	Number=Sing	26	compound	26:compound	Entity=(abstract-46-Star_Wars
@@ -264,7 +266,7 @@
 # sent_id = GUM_news_expo-12
 # s_type = decl
 # text = Ubisoft, Microsoft, and PlayStation VR all had large areas set up for attendees to try their latest games.
-1	Ubisoft	Ubisoft	PROPN	NNP	Number=Sing	9	nsubj	9:nsubj	Discourse=joint:20->10|Entity=(abstract-48(organization-49-Ubisoft)|SpaceAfter=No
+1	Ubisoft	Ubisoft	PROPN	NNP	Number=Sing	9	nsubj	9:nsubj	Discourse=joint_m:20->10:3|Entity=(abstract-48(organization-49-Ubisoft)|SpaceAfter=No
 2	,	,	PUNCT	,	_	3	punct	3:punct	_
 3	Microsoft	Microsoft	PROPN	NNP	Number=Sing	1	conj	1:conj:and|9:nsubj	Entity=(organization-50-Microsoft)|SpaceAfter=No
 4	,	,	PUNCT	,	_	7	punct	7:punct	_
@@ -279,7 +281,7 @@
 13	up	up	ADP	RP	_	12	compound:prt	12:compound:prt	_
 14	for	for	SCONJ	IN	_	17	mark	17:mark	_
 15	attendees	attendee	NOUN	NNS	Number=Plur	17	nsubj	17:nsubj	Entity=(person-54)place-53)
-16	to	to	PART	TO	_	17	mark	17:mark	Discourse=purpose:21->20
+16	to	to	PART	TO	_	17	mark	17:mark	Discourse=purpose:21->20:0
 17	try	try	VERB	VB	VerbForm=Inf	12	advcl	12:advcl:for_to	_
 18	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(abstract-55(abstract-48)
 19	latest	late	ADJ	JJS	Degree=Sup	20	amod	20:amod	_
@@ -289,46 +291,48 @@
 # sent_id = GUM_news_expo-13
 # s_type = decl
 # text = In the 20-minute PlayStation VR demonstration of Batman: Arkham VR, players are dropped down a secret elevator in Bruce Wayne's manor, to the Bat Cave, to suit up.
-1	In	in	ADP	IN	_	6	case	6:case	Discourse=elaboration:22->20
-2	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(event-56
-3	20-minute	20-minute	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=(time-57)
-4	PlayStation	PlayStation	PROPN	NNP	Number=Sing	6	compound	6:compound	Entity=(object-51-PlayStation_VR(object-52-PlayStation)
-5	VR	VR	PROPN	NNP	Abbr=Yes|Number=Sing	6	compound	6:compound	Entity=object-51-PlayStation_VR)
-6	demonstration	demonstration	NOUN	NN	Number=Sing	15	obl	15:obl:in	_
-7	of	of	ADP	IN	_	8	case	8:case	_
-8	Batman	Batman	PROPN	NNP	Number=Sing	6	nmod	6:nmod:of	Entity=(abstract-58-Batman:_Arkham_VR|SpaceAfter=No
-9	:	:	PUNCT	:	_	11	punct	11:punct	_
-10	Arkham	Arkham	PROPN	NNP	Number=Sing	11	compound	11:compound	Entity=(place-59-Arkham_Asylum)
-11	VR	VR	PROPN	NNP	Abbr=Yes|Number=Sing	6	dep	6:dep	Entity=event-56)abstract-58-Batman:_Arkham_VR)|SpaceAfter=No
-12	,	,	PUNCT	,	_	6	punct	6:punct	_
-13	players	player	NOUN	NNS	Number=Plur	15	nsubj:pass	15:nsubj:pass|32:nsubj:xsubj	Entity=(person-60)
-14	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	15:aux:pass	_
-15	dropped	drop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
-16	down	down	ADP	IN	_	19	case	19:case	_
-17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(object-61
-18	secret	secret	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
-19	elevator	elevator	NOUN	NN	Number=Sing	15	obl	15:obl:down	_
-20	in	in	ADP	IN	_	24	case	24:case	_
-21	Bruce	Bruce	PROPN	NNP	Number=Sing	24	nmod:poss	24:nmod:poss	Entity=(place-62(person-44-Batman
-22-23	Wayne's	_	_	_	_	_	_	_	_
-22	Wayne	Wayne	PROPN	NNP	Number=Sing	21	flat	21:flat	_
-23	's	's	PART	POS	_	21	case	21:case	Entity=person-44-Batman)
-24	manor	manor	NOUN	NN	Number=Sing	19	nmod	19:nmod:in	Entity=object-61)place-62)|SpaceAfter=No
-25	,	,	PUNCT	,	_	29	punct	29:punct	_
-26	to	to	ADP	IN	_	29	case	29:case	_
-27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	29:det	Entity=(place-63-Batcave
-28	Bat	Bat	PROPN	NNP	Number=Sing	29	compound	29:compound	_
-29	Cave	Cave	PROPN	NNP	Number=Sing	15	obl	15:obl:to	Entity=place-63-Batcave)|SpaceAfter=No
-30	,	,	PUNCT	,	_	32	punct	32:punct	_
-31	to	to	PART	TO	_	32	mark	32:mark	Discourse=preparation:23->22
-32	suit	suit	VERB	VB	VerbForm=Inf	15	xcomp	15:xcomp	_
-33	up	up	ADP	RP	_	32	compound:prt	32:compound:prt	SpaceAfter=No
-34	.	.	PUNCT	.	_	15	punct	15:punct	_
+1	In	in	ADP	IN	_	8	case	8:case	Discourse=elaboration:22->20:1
+2	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(event-56
+3	20	20	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	5:nummod	Entity=(time-57|SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	3	punct	3:punct	SpaceAfter=No
+5	minute	minute	NOUN	NN	Number=Sing	8	compound	8:compound	Entity=time-57)
+6	PlayStation	PlayStation	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=(object-51-PlayStation_VR(object-52-PlayStation)
+7	VR	VR	PROPN	NNP	Abbr=Yes|Number=Sing	8	compound	8:compound	Entity=object-51-PlayStation_VR)
+8	demonstration	demonstration	NOUN	NN	Number=Sing	17	obl	17:obl:in	_
+9	of	of	ADP	IN	_	10	case	10:case	_
+10	Batman	Batman	PROPN	NNP	Number=Sing	8	nmod	8:nmod:of	Entity=(abstract-58-Batman:_Arkham_VR|SpaceAfter=No
+11	:	:	PUNCT	:	_	13	punct	13:punct	_
+12	Arkham	Arkham	PROPN	NNP	Number=Sing	13	compound	13:compound	Entity=(place-59-Arkham_Asylum)
+13	VR	VR	PROPN	NNP	Abbr=Yes|Number=Sing	8	dep	8:dep	Entity=event-56)abstract-58-Batman:_Arkham_VR)|SpaceAfter=No
+14	,	,	PUNCT	,	_	8	punct	8:punct	_
+15	players	player	NOUN	NNS	Number=Plur	17	nsubj:pass	17:nsubj:pass|34:nsubj:xsubj	Entity=(person-60)
+16	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	17:aux:pass	_
+17	dropped	drop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+18	down	down	ADP	IN	_	21	case	21:case	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	Entity=(object-61
+20	secret	secret	ADJ	JJ	Degree=Pos	21	amod	21:amod	_
+21	elevator	elevator	NOUN	NN	Number=Sing	17	obl	17:obl:down	_
+22	in	in	ADP	IN	_	26	case	26:case	_
+23	Bruce	Bruce	PROPN	NNP	Number=Sing	26	nmod:poss	26:nmod:poss	Entity=(place-62(person-44-Batman
+24-25	Wayne's	_	_	_	_	_	_	_	_
+24	Wayne	Wayne	PROPN	NNP	Number=Sing	23	flat	23:flat	_
+25	's	's	PART	POS	_	23	case	23:case	Entity=person-44-Batman)
+26	manor	manor	NOUN	NN	Number=Sing	21	nmod	21:nmod:in	Entity=object-61)place-62)|SpaceAfter=No
+27	,	,	PUNCT	,	_	31	punct	31:punct	_
+28	to	to	ADP	IN	_	31	case	31:case	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	31	det	31:det	Entity=(place-63-Batcave
+30	Bat	Bat	PROPN	NNP	Number=Sing	31	compound	31:compound	_
+31	Cave	Cave	PROPN	NNP	Number=Sing	17	obl	17:obl:to	Entity=place-63-Batcave)|SpaceAfter=No
+32	,	,	PUNCT	,	_	34	punct	34:punct	_
+33	to	to	PART	TO	_	34	mark	34:mark	Discourse=preparation:23->22:0
+34	suit	suit	VERB	VB	VerbForm=Inf	17	xcomp	17:xcomp	_
+35	up	up	ADP	RP	_	34	compound:prt	34:compound:prt	SpaceAfter=No
+36	.	.	PUNCT	.	_	17	punct	17:punct	_
 
 # sent_id = GUM_news_expo-14
 # s_type = decl
 # text = From there, the demonstration took players to investigate the murder of Nightwing.
-1	From	from	ADP	IN	_	2	case	2:case	Discourse=sequence:24->22
+1	From	from	ADP	IN	_	2	case	2:case	Discourse=sequence_m:24->22:1
 2	there	there	ADV	RB	PronType=Dem	6	obl	6:obl:from	Entity=(place-63-Batcave)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(event-56
@@ -346,7 +350,7 @@
 # sent_id = GUM_news_expo-15
 # s_type = decl
 # text = The Northern Arena Esports Championship ran throughout the weekend, facing off teams of video gamers in a packed hall.
-1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Discourse=joint:25->10|Entity=(event-66
+1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Discourse=joint_m:25->10:3|Entity=(event-66
 2	Northern	Northern	ADJ	NNP	Degree=Pos	3	amod	3:amod	Entity=(organization-67
 3	Arena	Arena	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=organization-67)
 4	Esports	Esport	PROPN	NNPS	Number=Plur	5	compound	5:compound	Entity=(abstract-68-Esports)
@@ -356,7 +360,7 @@
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(time-14
 9	weekend	weekend	NOUN	NN	Number=Sing	6	obl	6:obl:throughout	Entity=time-14)|SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	11:punct	_
-11	facing	face	VERB	VBG	VerbForm=Ger	6	advcl	6:advcl	Discourse=elaboration:26->25
+11	facing	face	VERB	VBG	VerbForm=Ger	6	advcl	6:advcl	Discourse=elaboration:26->25:0
 12	off	off	ADP	RP	_	11	compound:prt	11:compound:prt	_
 13	teams	team	NOUN	NNS	Number=Plur	11	obj	11:obj	Entity=(organization-69
 14	of	of	ADP	IN	_	16	case	16:case	_
@@ -371,7 +375,7 @@
 # sent_id = GUM_news_expo-16
 # s_type = decl
 # text = Even in early rounds, the event was well attended, with the stands full of gamers, watching the matches with live colour commentary.
-1	Even	even	ADV	RB	_	4	advmod	4:advmod	Discourse=elaboration:27->25
+1	Even	even	ADV	RB	_	4	advmod	4:advmod	Discourse=elaboration:27->25:1
 2	in	in	ADP	IN	_	4	case	4:case	_
 3	early	early	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(event-72
 4	rounds	round	NOUN	NNS	Number=Plur	10	obl	10:obl:in	Entity=event-72)|SpaceAfter=No
@@ -382,14 +386,14 @@
 9	well	well	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
 10	attended	attend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	SpaceAfter=No
 11	,	,	PUNCT	,	_	15	punct	15:punct	_
-12	with	with	SCONJ	IN	_	15	mark	15:mark	Discourse=evidence:28->27
+12	with	with	SCONJ	IN	_	15	mark	15:mark	Discourse=evidence:28->27:0
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(place-73
 14	stands	stand	NOUN	NNS	Number=Plur	15	nsubj	15:nsubj	Entity=place-73)
 15	full	full	ADJ	JJ	Degree=Pos	10	advcl	10:advcl:with	_
 16	of	of	ADP	IN	_	17	case	17:case	_
 17	gamers	gamer	NOUN	NNS	Number=Plur	15	obl	15:obl:of	Entity=(person-70)|SpaceAfter=No
 18	,	,	PUNCT	,	_	19	punct	19:punct	_
-19	watching	watch	VERB	VBG	VerbForm=Ger	17	acl	17:acl	Discourse=elaboration:29->28
+19	watching	watch	VERB	VBG	VerbForm=Ger	17	acl	17:acl	Discourse=elaboration:29->28:0
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(event-66
 21	matches	match	NOUN	NNS	Number=Plur	19	obj	19:obj	Entity=event-66)
 22	with	with	ADP	IN	_	25	case	25:case	_
@@ -401,7 +405,7 @@
 # sent_id = GUM_news_expo-17
 # s_type = decl
 # text = The finals saw US team Cloud9 and Immortals, from Brazil, face off in Counter-Strike: Global Offensive.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=event-66<event-75|Discourse=elaboration:30->25|Entity=(event-75
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=event-66<event-75|Discourse=elaboration:30->25:2|Entity=(event-75
 2	finals	final	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=event-75)
 3	saw	see	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	US	US	PROPN	NNP	Abbr=Yes|Number=Sing	5	compound	5:compound	Bridge=organization-69<organization-77-Cloud9|Entity=(organization-76(organization-77-Cloud9(place-78-United_States)
@@ -425,13 +429,13 @@
 # sent_id = GUM_news_expo-18
 # s_type = decl
 # text = Both unbeaten teams going in, the Brazillian team won the championship and $ 50,000.
-1	Both	both	DET	DT	_	3	nsubj	3:nsubj	Discourse=background:31->32|Entity=(organization-76)
+1	Both	both	DET	DT	_	3	nsubj	3:nsubj	Discourse=background:31->32:0|Entity=(organization-76)
 2	unbeaten	unbeaten	ADJ	JJ	Degree=Pos|Polarity=Neg	3	amod	3:amod	Entity=(organization-76
 3	teams	team	NOUN	NNS	Number=Plur	9	acl	9:acl	Entity=organization-76)
 4	going	go	VERB	VBG	VerbForm=Ger	3	acl	3:acl	_
 5	in	in	ADP	RP	_	4	compound:prt	4:compound:prt	SpaceAfter=No
 6	,	,	PUNCT	,	_	3	punct	3:punct	_
-7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Discourse=elaboration:32->30|Entity=(organization-79-Immortals_%28esports%29
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Discourse=elaboration:32->30:0|Entity=(organization-79-Immortals_%28esports%29
 8	Brazillian	Brazillian	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 9	team	team	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=organization-79-Immortals_%28esports%29)
 10	won	win	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -445,7 +449,7 @@
 # sent_id = GUM_news_expo-19
 # s_type = decl
 # text = Gameplay was delayed during the "third map" (third round) of the finals, when one Immortals player was caught with their headset off.
-1	Gameplay	gameplay	NOUN	NN	Number=Sing	3	nsubj:pass	3:nsubj:pass	Discourse=result:33->36|Entity=(event-66)
+1	Gameplay	gameplay	NOUN	NN	Number=Sing	3	nsubj:pass	3:nsubj:pass	Discourse=result:33->36:0|Entity=(event-66)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	delayed	delay	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 4	during	during	ADP	IN	_	8	case	8:case	_
@@ -454,15 +458,15 @@
 7	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	8	amod	8:amod	_
 8	map	map	NOUN	NN	Number=Sing	3	obl	3:obl:during	SpaceAfter=No
 9	"	''	PUNCT	''	_	8	punct	8:punct	Entity=event-83)
-10	(	(	PUNCT	-LRB-	_	12	punct	12:punct	Discourse=restatement:34->33|Entity=(event-84|SpaceAfter=No
+10	(	(	PUNCT	-LRB-	_	12	punct	12:punct	Discourse=restatement:34->33:0|Entity=(event-84|SpaceAfter=No
 11	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	12	amod	12:amod	_
 12	round	round	NOUN	NN	Number=Sing	8	appos	8:appos	SpaceAfter=No
 13	)	)	PUNCT	-RRB-	_	12	punct	12:punct	_
-14	of	of	ADP	IN	_	16	case	16:case	Discourse=same-unit:35->33
+14	of	of	ADP	IN	_	16	case	16:case	Discourse=same-unit_m:35->33:1
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(event-75
 16	finals	final	NOUN	NNS	Number=Plur	8	nmod	8:nmod:of	Entity=event-75)|SpaceAfter=No
 17	,	,	PUNCT	,	_	23	punct	23:punct	_
-18	when	when	SCONJ	WRB	PronType=Rel	23	mark	23:mark	Discourse=elaboration:36->32
+18	when	when	SCONJ	WRB	PronType=Rel	23	mark	23:mark	Discourse=elaboration:36->32:1
 19	one	one	NUM	CD	NumForm=Word|NumType=Card	21	nummod	21:nummod	Bridge=organization-79-Immortals_%28esports%29<person-85|Entity=(person-85
 20	Immortals	Immortal	PROPN	NNPS	Number=Plur	21	compound	21:compound	Entity=(organization-79-Immortals_%28esports%29)
 21	player	player	NOUN	NN	Number=Sing	23	nsubj:pass	23:nsubj:pass	Entity=person-85)
@@ -477,7 +481,7 @@
 # sent_id = GUM_news_expo-20
 # s_type = decl
 # text = After nearly half an hour, the team was deducted a point, leading to a sudden but temporary rush of success by the US team.
-1	After	after	ADP	IN	_	5	case	5:case	Discourse=result:37->36
+1	After	after	ADP	IN	_	5	case	5:case	Discourse=result:37->36:1
 2	nearly	nearly	ADV	RB	Degree=Pos	3	advmod	3:advmod	Entity=(time-87
 3	half	half	DET	PDT	_	5	det:predet	5:det:predet	_
 4	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	_
@@ -490,7 +494,7 @@
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(abstract-88
 12	point	point	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=abstract-88)|SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	14:punct	_
-14	leading	lead	VERB	VBG	VerbForm=Ger	10	advcl	10:advcl	Discourse=result:38->37
+14	leading	lead	VERB	VBG	VerbForm=Ger	10	advcl	10:advcl	Discourse=result:38->37:0
 15	to	to	ADP	IN	_	20	case	20:case	_
 16	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(abstract-89
 17	sudden	sudden	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
@@ -508,23 +512,23 @@
 # sent_id = GUM_news_expo-21
 # s_type = frag
 # text = Playstation VR demo
-1	Playstation	Playstation	PROPN	NNP	Number=Sing	2	compound	2:compound	Discourse=elaboration:39->10|Entity=(event-56(object-51-PlayStation_VR(object-52-PlayStation)
+1	Playstation	Playstation	PROPN	NNP	Number=Sing	2	compound	2:compound	Discourse=elaboration:39->10:4|Entity=(event-56(object-51-PlayStation_VR(object-52-PlayStation)
 2	VR	VR	PROPN	NNP	Abbr=Yes|Number=Sing	3	compound	3:compound	Entity=object-51-PlayStation_VR)
 3	demo	demo	NOUN	NN	Number=Sing	0	root	0:root	Entity=event-56)
 
 # sent_id = GUM_news_expo-22
 # s_type = frag
 # text = Image: Nick Moreau.
-1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:40->41|Entity=(abstract-90)|SpaceAfter=No
+1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:40->41:0|Entity=(abstract-90)|SpaceAfter=No
 2	:	:	PUNCT	:	_	3	punct	3:punct	_
-3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:41->39|Entity=(person-12
+3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:41->39:0|Entity=(person-12
 4	Moreau	Moreau	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=person-12)|SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_news_expo-23
 # s_type = frag
 # text = Displays of charity at event
-1	Displays	display	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=preparation:42->43|Entity=(event-91
+1	Displays	display	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=preparation:42->43:2|Entity=(event-91
 2	of	of	ADP	IN	_	3	case	3:case	_
 3	charity	charity	NOUN	NN	Number=Sing	1	nmod	1:nmod:of	Entity=(organization-92)
 4	at	at	ADP	IN	_	5	case	5:case	_
@@ -533,7 +537,7 @@
 # sent_id = GUM_news_expo-24
 # s_type = decl
 # text = The Canadian garrison of 501st Legion returned with their setup of photo-ops, with proceeds to the Make-A-Wish Foundation.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint:43->10|Entity=(organization-93
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint_m:43->10:5|Entity=(organization-93
 2	Canadian	Canadian	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	garrison	garrison	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	_
 4	of	of	ADP	IN	_	6	case	6:case	_
@@ -543,21 +547,27 @@
 8	with	with	ADP	IN	_	10	case	10:case	_
 9	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(abstract-95(organization-93)
 10	setup	setup	NOUN	NN	Number=Sing	7	obl	7:obl:with	_
-11	of	of	ADP	IN	_	12	case	12:case	_
-12	photo-ops	photo-op	NOUN	NNS	Number=Plur	10	nmod	10:nmod:of	Entity=(event-96)abstract-95)|SpaceAfter=No
-13	,	,	PUNCT	,	_	15	punct	15:punct	_
-14	with	with	ADP	IN	_	15	case	15:case	_
-15	proceeds	proceed	NOUN	NNS	Number=Plur	7	obl	7:obl:with	Entity=(abstract-97
-16	to	to	ADP	IN	_	19	case	19:case	_
-17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(organization-98-Make-A-Wish_Foundation
-18	Make-A-Wish	Make-A-Wish	PROPN	NNP	Number=Sing	19	compound	19:compound	_
-19	Foundation	Foundation	PROPN	NNP	Number=Sing	15	nmod	15:nmod:to	Entity=abstract-97)organization-98-Make-A-Wish_Foundation)|SpaceAfter=No
-20	.	.	PUNCT	.	_	7	punct	7:punct	_
+11	of	of	ADP	IN	_	14	case	14:case	_
+12	photo	photo	NOUN	NN	Number=Sing	14	compound	14:compound	Entity=(event-96|SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	12	punct	12:punct	SpaceAfter=No
+14	ops	op	NOUN	NNS	Number=Plur	10	nmod	10:nmod:of	Entity=abstract-95)event-96)|SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	17:punct	_
+16	with	with	ADP	IN	_	17	case	17:case	_
+17	proceeds	proceed	NOUN	NNS	Number=Plur	7	obl	7:obl:with	Entity=(abstract-97
+18	to	to	ADP	IN	_	25	case	25:case	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(organization-98-Make-A-Wish_Foundation
+20	Make	Make	PROPN	NNP	Number=Sing	25	compound	25:compound	SpaceAfter=No
+21	-	-	PUNCT	HYPH	_	24	punct	24:punct	SpaceAfter=No
+22	A	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	SpaceAfter=No
+23	-	-	PUNCT	HYPH	_	22	punct	22:punct	SpaceAfter=No
+24	Wish	Wish	PROPN	NNP	Number=Sing	20	obj	20:obj	_
+25	Foundation	Foundation	PROPN	NNP	Number=Sing	17	nmod	17:nmod:to	Entity=abstract-97)organization-98-Make-A-Wish_Foundation)|SpaceAfter=No
+26	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_news_expo-25
 # s_type = decl
 # text = Volunteer organization Comic Corps of Canada collects donations of comics, to distribute to children and youth in the hospital.
-1	Volunteer	volunteer	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=joint:44->43|Entity=(organization-99
+1	Volunteer	volunteer	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=joint_m:44->43:0|Entity=(organization-99
 2	organization	organization	NOUN	NN	Number=Sing	3	compound	3:compound	_
 3	Comic	Comic	PROPN	NNP	Number=Sing	7	nsubj	7:nsubj	_
 4	Corps	Corps	PROPN	NNP	Number=Sing	3	flat	3:flat	_
@@ -568,7 +578,7 @@
 9	of	of	ADP	IN	_	10	case	10:case	_
 10	comics	comic	NOUN	NNS	Number=Plur	8	nmod	8:nmod:of	Entity=(object-101)object-100)|SpaceAfter=No
 11	,	,	PUNCT	,	_	13	punct	13:punct	_
-12	to	to	PART	TO	_	13	mark	13:mark	Discourse=purpose:45->44
+12	to	to	PART	TO	_	13	mark	13:mark	Discourse=purpose:45->44:0
 13	distribute	distribute	VERB	VB	VerbForm=Inf	7	advcl	7:advcl:to	_
 14	to	to	ADP	IN	_	15	case	15:case	_
 15	children	child	NOUN	NNS	Number=Plur	13	obl	13:obl:to	Entity=(person-102
@@ -582,76 +592,82 @@
 # sent_id = GUM_news_expo-26
 # s_type = decl
 # text = Along with collecting comics on-site, the group was fundraising through raffles and button sales.
-1	Along	along	ADV	RB	Degree=Pos	3	advmod	3:advmod	Discourse=elaboration:46->44
+1	Along	along	ADV	RB	Degree=Pos	3	advmod	3:advmod	Discourse=elaboration:46->44:1
 2	with	with	SCONJ	IN	_	3	mark	3:mark	_
-3	collecting	collect	VERB	VBG	VerbForm=Ger	10	advcl	10:advcl:with	_
+3	collecting	collect	VERB	VBG	VerbForm=Ger	12	advcl	12:advcl:with	_
 4	comics	comic	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=(object-101)
-5	on-site	on-site	ADV	RB	Degree=Pos	3	advmod	3:advmod	SpaceAfter=No
-6	,	,	PUNCT	,	_	3	punct	3:punct	_
-7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Discourse=joint:47->46|Entity=(organization-99
-8	group	group	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=organization-99)
-9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	10:aux	_
-10	fundraising	fundrais	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
-11	through	through	ADP	IN	_	12	case	12:case	_
-12	raffles	raffle	NOUN	NNS	Number=Plur	10	obl	10:obl:through	Entity=(event-104)
-13	and	and	CCONJ	CC	_	15	cc	15:cc	_
-14	button	button	NOUN	NN	Number=Sing	15	compound	15:compound	Entity=(event-105(object-106)
-15	sales	sale	NOUN	NNS	Number=Plur	12	conj	10:obl:through|12:conj:and	Entity=event-105)|SpaceAfter=No
-16	.	.	PUNCT	.	_	10	punct	10:punct	_
+5	on	on	NOUN	NN	Number=Sing	7	case	7:case	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	punct	5:punct	SpaceAfter=No
+7	site	site	ADV	RB	Degree=Pos	3	advmod	3:advmod	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	3:punct	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Discourse=joint_m:47->46:0|Entity=(organization-99
+10	group	group	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=organization-99)
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	12:aux	_
+12	fundraising	fundrais	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
+13	through	through	ADP	IN	_	14	case	14:case	_
+14	raffles	raffle	NOUN	NNS	Number=Plur	12	obl	12:obl:through	Entity=(event-104)
+15	and	and	CCONJ	CC	_	17	cc	17:cc	_
+16	button	button	NOUN	NN	Number=Sing	17	compound	17:compound	Entity=(event-105(object-106)
+17	sales	sale	NOUN	NNS	Number=Plur	14	conj	12:obl:through|14:conj:and	Entity=event-105)|SpaceAfter=No
+18	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_news_expo-27
 # s_type = decl
 # text = Other charitable fan-based groups included The Ontario Ghostbusters, Doctor Who Society of Canada, and Klingon Assault Group.
-1	Other	other	ADJ	JJ	Degree=Pos	4	amod	4:amod	Discourse=joint:48->43|Entity=(organization-107
-2	charitable	charitable	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
-3	fan-based	fan-based	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
-4	groups	group	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=organization-107)
-5	included	include	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-6	The	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(organization-108
-7	Ontario	Ontario	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=(place-109-Ontario)
-8	Ghostbusters	Ghostbusters	PROPN	NNP	Number=Sing	5	obj	5:obj	Entity=organization-108)|SpaceAfter=No
-9	,	,	PUNCT	,	_	12	punct	12:punct	_
-10	Doctor	Doctor	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=(organization-110(person-111-The_Doctor_%28Doctor_Who%29
-11	Who	Who	PROPN	NNP	Number=Sing	10	flat	10:flat	Entity=person-111-The_Doctor_%28Doctor_Who%29)
-12	Society	Society	PROPN	NNP	Number=Sing	8	conj	5:obj|8:conj:and	_
-13	of	of	ADP	IN	_	14	case	14:case	_
-14	Canada	Canada	PROPN	NNP	Number=Sing	12	nmod	12:nmod:of	Entity=(place-4-Canada)organization-110)|SpaceAfter=No
-15	,	,	PUNCT	,	_	19	punct	19:punct	_
-16	and	and	CCONJ	CC	_	19	cc	19:cc	_
-17	Klingon	Klingon	PROPN	NNP	Number=Sing	19	compound	19:compound	Entity=(organization-112
-18	Assault	Assault	PROPN	NNP	Number=Sing	19	compound	19:compound	_
-19	Group	Group	PROPN	NNP	Number=Sing	8	conj	5:obj|8:conj:and	Entity=organization-112)|SpaceAfter=No
-20	.	.	PUNCT	.	_	5	punct	5:punct	_
+1	Other	other	ADJ	JJ	Degree=Pos	6	amod	6:amod	Discourse=joint_m:48->43:0|Entity=(organization-107
+2	charitable	charitable	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
+3	fan	fan	NOUN	NN	Number=Sing	5	compound	5:compound	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	3	punct	3:punct	SpaceAfter=No
+5	based	base	VERB	VBN	Tense=Past|VerbForm=Part	6	amod	6:amod	_
+6	groups	group	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	Entity=organization-107)
+7	included	include	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+8	The	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(organization-108
+9	Ontario	Ontario	PROPN	NNP	Number=Sing	10	compound	10:compound	Entity=(place-109-Ontario)
+10	Ghostbusters	Ghostbusters	PROPN	NNP	Number=Sing	7	obj	7:obj	Entity=organization-108)|SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	14:punct	_
+12	Doctor	Doctor	PROPN	NNP	Number=Sing	14	compound	14:compound	Entity=(organization-110(person-111-The_Doctor_%28Doctor_Who%29
+13	Who	Who	PROPN	NNP	Number=Sing	12	flat	12:flat	Entity=person-111-The_Doctor_%28Doctor_Who%29)
+14	Society	Society	PROPN	NNP	Number=Sing	10	conj	7:obj|10:conj:and	_
+15	of	of	ADP	IN	_	16	case	16:case	_
+16	Canada	Canada	PROPN	NNP	Number=Sing	14	nmod	14:nmod:of	Entity=(place-4-Canada)organization-110)|SpaceAfter=No
+17	,	,	PUNCT	,	_	21	punct	21:punct	_
+18	and	and	CCONJ	CC	_	21	cc	21:cc	_
+19	Klingon	Klingon	PROPN	NNP	Number=Sing	21	compound	21:compound	Entity=(organization-112
+20	Assault	Assault	PROPN	NNP	Number=Sing	21	compound	21:compound	_
+21	Group	Group	PROPN	NNP	Number=Sing	10	conj	7:obj|10:conj:and	Entity=organization-112)|SpaceAfter=No
+22	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_news_expo-28
 # s_type = decl
 # text = Brampton Spider-Gwen and Symbiote Spidey pose at the Comic Corps booth.
-1	Brampton	Brampton	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Discourse=elaboration:49->43|Entity=(person-113(place-114-Brampton)
-2	Spider-Gwen	Spider-Gwen	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-113)
-3	and	and	CCONJ	CC	_	4	cc	4:cc	_
-4	Symbiote	Symbiote	PROPN	NNP	Number=Sing	1	conj	1:conj:and|6:nsubj	Entity=(person-115(animal-116-Symbiote_%28comics%29)
-5	Spidey	Spidey	PROPN	NNP	Number=Sing	4	flat	4:flat	Entity=person-115)
-6	pose	pose	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-7	at	at	ADP	IN	_	11	case	11:case	_
-8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(place-117
-9	Comic	Comic	PROPN	NNP	Number=Sing	11	compound	11:compound	Entity=(organization-99
-10	Corps	Corps	PROPN	NNP	Number=Sing	9	flat	9:flat	Entity=organization-99)
-11	booth	booth	NOUN	NN	Number=Sing	6	obl	6:obl:at	Entity=place-117)|SpaceAfter=No
-12	.	.	PUNCT	.	_	6	punct	6:punct	_
+1	Brampton	Brampton	PROPN	NNP	Number=Sing	8	nsubj	8:nsubj	Discourse=elaboration:49->43:1|Entity=(person-113(place-114-Brampton)
+2	Spider	Spider	PROPN	NNP	Number=Sing	1	flat	1:flat	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	4	punct	4:punct	SpaceAfter=No
+4	Gwen	Gwen	PROPN	NNP	Number=Sing	2	flat	2:flat	Entity=person-113)
+5	and	and	CCONJ	CC	_	6	cc	6:cc	_
+6	Symbiote	Symbiote	PROPN	NNP	Number=Sing	1	conj	1:conj:and|8:nsubj	Entity=(person-115(animal-116-Symbiote_%28comics%29)
+7	Spidey	Spidey	PROPN	NNP	Number=Sing	6	flat	6:flat	Entity=person-115)
+8	pose	pose	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+9	at	at	ADP	IN	_	13	case	13:case	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(place-117
+11	Comic	Comic	PROPN	NNP	Number=Sing	13	compound	13:compound	Entity=(organization-99
+12	Corps	Corps	PROPN	NNP	Number=Sing	11	flat	11:flat	Entity=organization-99)
+13	booth	booth	NOUN	NN	Number=Sing	8	obl	8:obl:at	Entity=place-117)|SpaceAfter=No
+14	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_news_expo-29
 # s_type = frag
 # text = Image: Nick Moreau.
-1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:50->51|Entity=(abstract-118)|SpaceAfter=No
+1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:50->51:0|Entity=(abstract-118)|SpaceAfter=No
 2	:	:	PUNCT	:	_	3	punct	3:punct	_
-3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:51->49|Entity=(person-12
+3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:51->49:0|Entity=(person-12
 4	Moreau	Moreau	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=person-12)|SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_news_expo-30
 # s_type = frag
 # text = A showdown at the 501st Legion booth.
-1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	Discourse=joint:52->49|Entity=(event-119
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	Discourse=joint_m:52->49:1|Entity=(event-119
 2	showdown	showdown	NOUN	NN	Number=Sing	0	root	0:root	_
 3	at	at	ADP	IN	_	7	case	7:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(place-120
@@ -663,35 +679,37 @@
 # sent_id = GUM_news_expo-31
 # s_type = frag
 # text = Image: Nick Moreau.
-1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:53->54|Entity=(abstract-121)|SpaceAfter=No
+1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:53->54:0|Entity=(abstract-121)|SpaceAfter=No
 2	:	:	PUNCT	:	_	3	punct	3:punct	_
-3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:54->52|Entity=(person-12
+3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:54->52:0|Entity=(person-12
 4	Moreau	Moreau	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=person-12)|SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_news_expo-32
 # s_type = decl
 # text = Successful Stormtroopers share a high-five.
-1	Successful	successful	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=joint:55->49|Entity=(person-122
+1	Successful	successful	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=joint_m:55->49:1|Entity=(person-122
 2	Stormtroopers	stormtrooper	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=person-122)
 3	share	share	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(abstract-123
-5	high-five	high-five	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=abstract-123)|SpaceAfter=No
-6	.	.	PUNCT	.	_	3	punct	3:punct	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(abstract-123
+5	high	high	ADJ	JJ	Degree=Pos	7	amod	7:amod	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	punct	5:punct	SpaceAfter=No
+7	five	five	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=abstract-123)|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_expo-33
 # s_type = frag
 # text = Image: Nick Moreau.
-1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:56->57|Entity=(abstract-124)|SpaceAfter=No
+1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:56->57:0|Entity=(abstract-124)|SpaceAfter=No
 2	:	:	PUNCT	:	_	3	punct	3:punct	_
-3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:57->55|Entity=(person-12
+3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:57->55:0|Entity=(person-12
 4	Moreau	Moreau	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=person-12)|SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_news_expo-34
 # s_type = frag
 # text = Cosplay celebration of craftsmanship and characters
-1	Cosplay	cosplay	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=preparation:58->66|Entity=(event-125(abstract-126)
+1	Cosplay	cosplay	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=preparation:58->66:6|Entity=(event-125(abstract-126)
 2	celebration	celebration	NOUN	NN	Number=Sing	0	root	0:root	_
 3	of	of	ADP	IN	_	4	case	4:case	_
 4	craftsmanship	craftsmanship	NOUN	NN	Number=Sing	2	nmod	2:nmod:of	Entity=(abstract-127)
@@ -701,7 +719,7 @@
 # sent_id = GUM_news_expo-35
 # s_type = frag
 # text = Epic Mickey by The Katherinator.
-1	Epic	Epic	ADJ	NNP	Degree=Pos	2	amod	2:amod	Discourse=background:59->66|Entity=(person-129
+1	Epic	Epic	ADJ	NNP	Degree=Pos	2	amod	2:amod	Discourse=background:59->66:4|Entity=(person-129
 2	Mickey	Mickey	PROPN	NNP	Number=Sing	0	root	0:root	_
 3	by	by	ADP	IN	_	5	case	5:case	_
 4	The	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(person-130
@@ -711,16 +729,16 @@
 # sent_id = GUM_news_expo-36
 # s_type = frag
 # text = Image: Nick Moreau.
-1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:60->61|Entity=(abstract-131)|SpaceAfter=No
+1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:60->61:0|Entity=(abstract-131)|SpaceAfter=No
 2	:	:	PUNCT	:	_	3	punct	3:punct	_
-3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:61->59|Entity=(person-12
+3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:61->59:0|Entity=(person-12
 4	Moreau	Moreau	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=person-12)|SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_news_expo-37
 # s_type = decl
 # text = The thousands of cosplay outfits on parade around the various halls offered a tremendous cross-section of genres and eras of pop culture.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=background:62->66
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=background:62->66:3
 2	thousands	thousand	NOUN	NNS	Number=Plur	12	nsubj	12:nsubj	Entity=(object-132
 3	of	of	ADP	IN	_	5	case	5:case	_
 4	cosplay	cosplay	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(abstract-126)
@@ -747,7 +765,7 @@
 # sent_id = GUM_news_expo-38
 # s_type = decl
 # text = The majority of outfits involved at least some elements made from scratch, a fantastic display of craftsmanship.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=object-132<object-138|Discourse=elaboration:63->62|Entity=(object-138
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=object-132<object-138|Discourse=elaboration:63->62:0|Entity=(object-138
 2	majority	majority	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	_
 3	of	of	ADP	IN	_	4	case	4:case	_
 4	outfits	outfit	NOUN	NNS	Number=Plur	2	nmod	2:nmod:of	Entity=object-138)
@@ -756,11 +774,11 @@
 7	least	least	ADJ	JJS	Degree=Sup	8	acl	8:acl:at	_
 8	some	some	DET	DT	_	9	det	9:det	_
 9	elements	element	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=abstract-139)
-10	made	make	VERB	VBN	Tense=Past|VerbForm=Part	9	acl	9:acl	Discourse=elaboration:64->63
+10	made	make	VERB	VBN	Tense=Past|VerbForm=Part	9	acl	9:acl	Discourse=elaboration:64->63:0
 11	from	from	ADP	IN	_	12	case	12:case	_
 12	scratch	scratch	NOUN	NN	Number=Sing	10	obl	10:obl:from	SpaceAfter=No
 13	,	,	PUNCT	,	_	16	punct	16:punct	_
-14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Discourse=same-unit:65->63|Entity=(event-140
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Discourse=same-unit_m:65->63:1|Entity=(event-140
 15	fantastic	fantastic	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
 16	display	display	NOUN	NN	Number=Sing	9	appos	9:appos	_
 17	of	of	ADP	IN	_	18	case	18:case	_
@@ -770,7 +788,7 @@
 # sent_id = GUM_news_expo-39
 # s_type = decl
 # text = Of the thousands, Wikinews spoke with a cosplayer going by the name "The Katherinator".
-1	Of	of	ADP	IN	_	3	case	3:case	Discourse=joint:66->10
+1	Of	of	ADP	IN	_	3	case	3:case	Discourse=joint_m:66->10:5
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(person-141
 3	thousands	thousand	NOUN	NNS	Number=Plur	6	obl	6:obl:of	Entity=person-141)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -779,7 +797,7 @@
 7	with	with	ADP	IN	_	9	case	9:case	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Bridge=person-141<person-130|Entity=(person-130
 9	cosplayer	cosplayer	NOUN	NN	Number=Sing	6	obl	6:obl:with	_
-10	going	go	VERB	VBG	VerbForm=Ger	9	acl	9:acl	Discourse=elaboration:67->66
+10	going	go	VERB	VBG	VerbForm=Ger	9	acl	9:acl	Discourse=elaboration:67->66:0
 11	by	by	ADP	IN	_	13	case	13:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(abstract-143
 13	name	name	NOUN	NN	Number=Sing	10	obl	10:obl:by	Entity=abstract-143)
@@ -792,7 +810,7 @@
 # sent_id = GUM_news_expo-40
 # s_type = decl
 # text = She was outside the building in the gardens, waiting for a photographer she had arranged to shoot her new Epic Mickey costumed character-style outfit.
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=circumstance:68->66|Entity=(person-130)
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=circumstance:68->66:1|Entity=(person-130)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
 3	outside	outside	ADP	IN	_	5	case	5:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(place-144
@@ -801,28 +819,30 @@
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(place-145
 8	gardens	garden	NOUN	NNS	Number=Plur	5	nmod	5:nmod:in	Entity=place-145)|SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	10:punct	_
-10	waiting	wait	VERB	VBG	VerbForm=Ger	5	advcl	5:advcl	Discourse=purpose:69->68
+10	waiting	wait	VERB	VBG	VerbForm=Ger	5	advcl	5:advcl	Discourse=purpose:69->68:0
 11	for	for	ADP	IN	_	13	case	13:case	_
 12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Entity=(person-146
 13	photographer	photographer	NOUN	NN	Number=Sing	10	obl	10:obl:for	_
-14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	16:nsubj|18:nsubj:xsubj	Discourse=elaboration:70->69|Entity=(person-130)
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	16:nsubj|18:nsubj:xsubj	Discourse=elaboration:70->69:0|Entity=(person-130)
 15	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	16:aux	_
 16	arranged	arrange	VERB	VBN	Tense=Past|VerbForm=Part	13	acl:relcl	13:acl:relcl	Entity=person-146)
-17	to	to	PART	TO	_	18	mark	18:mark	Discourse=same-unit:71->69
+17	to	to	PART	TO	_	18	mark	18:mark	Discourse=same-unit_m:71->69:1
 18	shoot	shoot	VERB	VB	VerbForm=Inf	16	xcomp	16:xcomp	_
-19	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	25:nmod:poss	Entity=(object-147(person-130)
-20	new	new	ADJ	JJ	Degree=Pos	25	amod	25:amod	_
+19	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Entity=(object-147(person-130)
+20	new	new	ADJ	JJ	Degree=Pos	27	amod	27:amod	_
 21	Epic	Epic	ADJ	NNP	Degree=Pos	22	amod	22:amod	Entity=(abstract-148(person-129
 22	Mickey	Mickey	PROPN	NNP	Number=Sing	23	compound	23:compound	Entity=person-129)
-23	costumed	costume	VERB	VBN	Tense=Past|VerbForm=Part	24	amod	24:amod	_
-24	character-style	character-style	NOUN	NN	Number=Sing	25	compound	25:compound	Entity=abstract-148)
-25	outfit	outfit	NOUN	NN	Number=Sing	18	obj	18:obj	Entity=object-147)|SpaceAfter=No
-26	.	.	PUNCT	.	_	5	punct	5:punct	_
+23	costumed	costume	VERB	VBN	Tense=Past|VerbForm=Part	26	amod	26:amod	_
+24	character	character	NOUN	NN	Number=Sing	26	compound	26:compound	SpaceAfter=No
+25	-	-	PUNCT	HYPH	_	24	punct	24:punct	SpaceAfter=No
+26	style	style	NOUN	NN	Number=Sing	27	compound	27:compound	Entity=abstract-148)
+27	outfit	outfit	NOUN	NN	Number=Sing	18	obj	18:obj	Entity=object-147)|SpaceAfter=No
+28	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_news_expo-41
 # s_type = decl
 # text = With shoes as wide as a forearm, and a rigid torso of carved foam, she remained exuberant even when caught in the traffic between halls, many hours into wearing the outfit.
-1	With	with	ADP	IN	_	2	case	2:case	Discourse=elaboration:72->66
+1	With	with	ADP	IN	_	2	case	2:case	Discourse=elaboration:72->66:2
 2	shoes	shoe	NOUN	NNS	Number=Plur	18	obl	18:obl:with	Entity=(object-149
 3	as	as	ADP	IN	_	4	case	4:case	_
 4	wide	wide	ADJ	JJ	Degree=Pos	2	nmod	2:nmod:as	_
@@ -841,7 +861,7 @@
 17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	18:nsubj|19:nsubj:xsubj	Entity=(person-130)
 18	remained	remain	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 19	exuberant	exuberant	ADJ	JJ	Degree=Pos	18	xcomp	18:xcomp	_
-20	even	even	ADV	RB	_	22	advmod	22:advmod	Discourse=concession:73->72
+20	even	even	ADV	RB	_	22	advmod	22:advmod	Discourse=concession:73->72:0
 21	when	when	SCONJ	WRB	PronType=Int	22	mark	22:mark	_
 22	caught	catch	VERB	VBN	Tense=Past|VerbForm=Part	18	advcl	18:advcl:when	_
 23	in	in	ADP	IN	_	25	case	25:case	_
@@ -861,31 +881,31 @@
 # sent_id = GUM_news_expo-42
 # s_type = frag
 # text = Disney
-1	Disney	Disney	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:74->75|Entity=(organization-154-The_Walt_Disney_Company)
+1	Disney	Disney	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:74->75:1|Entity=(organization-154-The_Walt_Disney_Company)
 
 # sent_id = GUM_news_expo-43
 # s_type = frag
 # text = Belle
-1	Belle	Belle	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint:75->66|Entity=(person-155-Belle_%28Beauty_and_the_Beast%29)
+1	Belle	Belle	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint_m:75->66:5|Entity=(person-155-Belle_%28Beauty_and_the_Beast%29)
 
 # sent_id = GUM_news_expo-44
 # s_type = frag
 # text = Image: Nick Moreau.
-1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:76->77|Entity=(abstract-156)|SpaceAfter=No
+1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:76->77:0|Entity=(abstract-156)|SpaceAfter=No
 2	:	:	PUNCT	:	_	3	punct	3:punct	_
-3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:77->75|Entity=(person-12
+3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:77->75:0|Entity=(person-12
 4	Moreau	Moreau	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=person-12)|SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_news_expo-45
 # s_type = frag
 # text = Superheroes
-1	Superheroes	superhero	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=preparation:78->79|Entity=(person-157)
+1	Superheroes	superhero	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=preparation:78->79:1|Entity=(person-157)
 
 # sent_id = GUM_news_expo-46
 # s_type = frag
 # text = Black Widow and Captain America
-1	Black	Black	ADJ	NNP	Degree=Pos	2	amod	2:amod	Discourse=joint:79->66|Entity=(person-158-Black_Widow_%28Natasha_Romanova%29
+1	Black	Black	ADJ	NNP	Degree=Pos	2	amod	2:amod	Discourse=joint_m:79->66:5|Entity=(person-158-Black_Widow_%28Natasha_Romanova%29
 2	Widow	Widow	PROPN	NNP	Number=Sing	0	root	0:root	Entity=person-158-Black_Widow_%28Natasha_Romanova%29)
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
 4	Captain	Captain	PROPN	NNP	Number=Sing	2	conj	2:conj:and	Entity=(person-159-Captain_America
@@ -894,48 +914,50 @@
 # sent_id = GUM_news_expo-47
 # s_type = frag
 # text = Image: Nick Moreau.
-1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:80->81|Entity=(abstract-160)|SpaceAfter=No
+1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:80->81:0|Entity=(abstract-160)|SpaceAfter=No
 2	:	:	PUNCT	:	_	3	punct	3:punct	_
-3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:81->79|Entity=(person-12
+3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:81->79:0|Entity=(person-12
 4	Moreau	Moreau	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=person-12)|SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_news_expo-48
 # s_type = frag
 # text = Anime
-1	Anime	Anime	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:82->83|Entity=(abstract-21)
+1	Anime	Anime	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:82->83:2|Entity=(abstract-21)
 
 # sent_id = GUM_news_expo-49
 # s_type = frag
 # text = Three of Digimon's "Digi-destined", including cosplayer Jessica Anderson.
-1	Three	three	NUM	CD	NumForm=Word|NumType=Card	0	root	0:root	Discourse=joint:83->79|Entity=(person-161
-2	of	of	ADP	IN	_	6	case	6:case	_
+1	Three	three	NUM	CD	NumForm=Word|NumType=Card	0	root	0:root	Discourse=joint_m:83->79:2|Entity=(person-161
+2	of	of	ADP	IN	_	8	case	8:case	_
 3-4	Digimon's	_	_	_	_	_	_	_	_
-3	Digimon	Digimon	PROPN	NNP	Number=Sing	6	nmod:poss	6:nmod:poss	Entity=(abstract-162-Digimon
+3	Digimon	Digimon	PROPN	NNP	Number=Sing	8	nmod:poss	8:nmod:poss	Entity=(abstract-162-Digimon
 4	's	's	PART	POS	_	3	case	3:case	Entity=abstract-162-Digimon)
-5	"	''	PUNCT	``	_	6	punct	6:punct	SpaceAfter=No
-6	Digi-destined	Digi-destined	PROPN	NNPS	Number=Plur	1	nmod	1:nmod:of	SpaceAfter=No
-7	"	''	PUNCT	''	_	6	punct	6:punct	Entity=person-161)|SpaceAfter=No
-8	,	,	PUNCT	,	_	10	punct	10:punct	_
-9	including	include	VERB	VBG	VerbForm=Ger	10	case	10:case	Discourse=elaboration:84->83
-10	cosplayer	cosplayer	NOUN	NN	Number=Sing	1	nmod	1:nmod:including	Bridge=person-161<person-163|Entity=(person-163
-11	Jessica	Jessica	PROPN	NNP	Number=Sing	10	flat	10:flat	_
-12	Anderson	Anderson	PROPN	NNP	Number=Sing	10	flat	10:flat	Entity=person-163)|SpaceAfter=No
-13	.	.	PUNCT	.	_	1	punct	1:punct	_
+5	"	''	PUNCT	``	_	8	punct	8:punct	SpaceAfter=No
+6	Digi	Digi	PROPN	NNP	Number=Sing	8	compound	8:compound	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	6	punct	6:punct	SpaceAfter=No
+8	destined	destined	ADJ	JJ	Degree=Pos	1	nmod	1:nmod:of	SpaceAfter=No
+9	"	''	PUNCT	''	_	8	punct	8:punct	Entity=person-161)|SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	12:punct	_
+11	including	include	VERB	VBG	VerbForm=Ger	12	case	12:case	Discourse=elaboration:84->83:0
+12	cosplayer	cosplayer	NOUN	NN	Number=Sing	1	nmod	1:nmod:including	Bridge=person-161<person-163|Entity=(person-163
+13	Jessica	Jessica	PROPN	NNP	Number=Sing	12	flat	12:flat	_
+14	Anderson	Anderson	PROPN	NNP	Number=Sing	12	flat	12:flat	Entity=person-163)|SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_news_expo-50
 # s_type = frag
 # text = Image: Nick Moreau.
-1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:85->86|Entity=(abstract-164)|SpaceAfter=No
+1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:85->86:0|Entity=(abstract-164)|SpaceAfter=No
 2	:	:	PUNCT	:	_	3	punct	3:punct	_
-3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:86->83|Entity=(person-12
+3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:86->83:1|Entity=(person-12
 4	Moreau	Moreau	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=person-12)|SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_news_expo-51
 # s_type = frag
 # text = Video games, movies, and more
-1	Video	video	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=preparation:87->88|Entity=(abstract-165
+1	Video	video	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=preparation:87->88:2|Entity=(abstract-165
 2	games	game	NOUN	NNS	Number=Plur	0	root	0:root	Entity=abstract-165)|SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
 4	movies	movie	NOUN	NNS	Number=Plur	2	conj	2:conj:and	Entity=(abstract-166)|SpaceAfter=No
@@ -946,7 +968,7 @@
 # sent_id = GUM_news_expo-52
 # s_type = frag
 # text = Lady Cassandra from Doctor Who.
-1	Lady	Lady	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint:88->79|Entity=(person-167
+1	Lady	Lady	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint_m:88->79:2|Entity=(person-167
 2	Cassandra	Cassandra	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	from	from	ADP	IN	_	4	case	4:case	_
 4	Doctor	Doctor	PROPN	NNP	Number=Sing	1	nmod	1:nmod:from	Entity=(person-111-The_Doctor_%28Doctor_Who%29
@@ -956,16 +978,16 @@
 # sent_id = GUM_news_expo-53
 # s_type = frag
 # text = Image: Nick Moreau.
-1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:89->90|Entity=(abstract-168)|SpaceAfter=No
+1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:89->90:0|Entity=(abstract-168)|SpaceAfter=No
 2	:	:	PUNCT	:	_	3	punct	3:punct	_
-3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:90->88|Entity=(person-12
+3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:90->88:0|Entity=(person-12
 4	Moreau	Moreau	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=person-12)|SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_news_expo-54
 # s_type = frag
 # text = Peekaboo Cosplay as The Fawn
-1	Peekaboo	Peekaboo	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint:91->88|Entity=(person-169
+1	Peekaboo	Peekaboo	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint_m:91->88:1|Entity=(person-169
 2	Cosplay	Cosplay	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-169)
 3	as	as	ADP	IN	_	5	case	5:case	_
 4	The	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(person-170
@@ -974,9 +996,9 @@
 # sent_id = GUM_news_expo-55
 # s_type = frag
 # text = Image: Nick Moreau.
-1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:92->93|Entity=(abstract-171)|SpaceAfter=No
+1	Image	image	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:92->93:0|Entity=(abstract-171)|SpaceAfter=No
 2	:	:	PUNCT	:	_	3	punct	3:punct	_
-3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:93->91|Entity=(person-12
+3	Nick	Nick	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=attribution:93->91:0|Entity=(person-12
 4	Moreau	Moreau	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=person-12)|SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	1:punct	_
 

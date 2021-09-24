@@ -9,7 +9,7 @@
 # sent_id = GUM_interview_licen-1
 # s_type = decl
 # text = Wikinews interviews academic Simon Ličen about attitudes towards US Paralympics
-1	Wikinews	Wikinews	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=preparation:1->13|Entity=(organization-1-Wikinews)
+1	Wikinews	Wikinews	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=preparation:1->13:7|Entity=(organization-1-Wikinews)
 2	interviews	interview	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	academic	academic	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(person-2
 4	Simon	Simon	PROPN	NNP	Number=Sing	2	obj	2:obj	_
@@ -23,7 +23,7 @@
 # sent_id = GUM_interview_licen-2
 # s_type = frag
 # text = Saturday, November 16, 2013
-1	Saturday	Saturday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:2->13|Entity=(time-6)|SpaceAfter=No
+1	Saturday	Saturday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:2->13:6|Entity=(time-6)|SpaceAfter=No
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	November	November	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(time-6
 4	16	16	NUM	CD	NumForm=Digit|NumType=Card	1	appos	1:appos	SpaceAfter=No
@@ -33,7 +33,7 @@
 # sent_id = GUM_interview_licen-3
 # s_type = frag
 # text = A Russian stamp for Paralympic Games in Sochi in 2014
-1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Discourse=background:3->13|Entity=(object-8
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Discourse=background:3->13:5|Entity=(object-8
 2	Russian	Russian	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	stamp	stamp	NOUN	NN	Number=Sing	0	root	0:root	_
 4	for	for	ADP	IN	_	6	case	6:case	_
@@ -47,7 +47,7 @@
 # sent_id = GUM_interview_licen-4
 # s_type = decl
 # text = On Thursday, with 110 days until the start of the 2014 Winter Paralympics in Sochi, Russia, Wikinews interviewed Assistant Professor in Educational Leadership, Sport Studies and Educational / Counseling Psychology at Washington State University Simon Ličen about attitudes in United States towards the Paralympics.
-1	On	on	ADP	IN	_	2	case	2:case	Discourse=background:4->13
+1	On	on	ADP	IN	_	2	case	2:case	Discourse=background:4->13:4
 2	Thursday	Thursday	PROPN	NNP	Number=Sing	21	obl	21:obl:on	Entity=(time-12)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	with	with	ADP	IN	_	6	case	6:case	_
@@ -100,7 +100,7 @@
 # sent_id = GUM_interview_licen-5
 # s_type = decl
 # text = Ličen has recently joined the Sport Management Program at Washington State University to develop its sport media and communication research and teaching contents.
-1	Ličen	Ličen	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Discourse=background:5->4|Entity=(person-2)
+1	Ličen	Ličen	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Discourse=background:5->4:0|Entity=(person-2)
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	recently	recently	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
 4	joined	join	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
@@ -112,7 +112,7 @@
 10	Washington	Washington	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=(organization-20-Washington_State_University(place-21-Washington_%28state%29
 11	State	State	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=place-21-Washington_%28state%29)
 12	University	University	PROPN	NNP	Number=Sing	8	nmod	8:nmod:at	Entity=organization-23)organization-20-Washington_State_University)
-13	to	to	PART	TO	_	14	mark	14:mark	Discourse=purpose:6->5
+13	to	to	PART	TO	_	14	mark	14:mark	Discourse=purpose:6->5:0
 14	develop	develop	VERB	VB	VerbForm=Inf	4	advcl	4:advcl:to	_
 15	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(abstract-24(organization-23)
 16	sport	sport	NOUN	NN	Number=Sing	17	compound	17:compound	Entity=(abstract-25
@@ -128,7 +128,7 @@
 # sent_id = GUM_interview_licen-6
 # s_type = decl
 # text = Originally from Slovenia, he served as the Director of Media and Communications of a WTA Tour event and was a member of the UNESCO Slovenian National Commission.
-1	Originally	originally	ADV	RB	Degree=Pos	6	advmod	6:advmod	Discourse=joint:7->5
+1	Originally	originally	ADV	RB	Degree=Pos	6	advmod	6:advmod	Discourse=joint_m:7->5:1
 2	from	from	ADP	IN	_	3	case	3:case	_
 3	Slovenia	Slovenia	PROPN	NNP	Number=Sing	1	nmod	1:nmod:from	Entity=(place-27-Slovenia)|SpaceAfter=No
 4	,	,	PUNCT	,	_	1	punct	1:punct	_
@@ -146,7 +146,7 @@
 16	WTA	WTA	PROPN	NNP	Abbr=Yes|Number=Sing	18	compound	18:compound	Entity=(event-31(organization-32-Women's_Tennis_Association)
 17	Tour	Tour	PROPN	NNP	Number=Sing	18	compound	18:compound	Entity=event-31)
 18	event	event	NOUN	NN	Number=Sing	13	nmod	13:nmod:of	Entity=person-2)event-30)
-19	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=joint:8->7
+19	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=joint_m:8->7:0
 20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	22:cop	_
 21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(person-2
 22	member	member	NOUN	NN	Number=Sing	6	conj	6:conj:and	_
@@ -161,7 +161,7 @@
 # sent_id = GUM_interview_licen-7
 # s_type = decl
 # text = He was also the Team Manager of the Slovenian wheelchair basketball national team.
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=joint:9->5|Entity=(person-2)
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=joint_m:9->5:1|Entity=(person-2)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
 3	also	also	ADV	RB	_	5	advmod	5:advmod	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(person-2
@@ -180,11 +180,11 @@
 # s_type = wh
 # speaker = Wikinews
 # text = Why do you think the Paralympic movement has so little visibility in the US compared to other countries like Australia, the United Kingdom and even Canada?
-1	Why	why	ADV	WRB	PronType=Int	4	advmod	4:advmod	Discourse=attribution:10->11
+1	Why	why	ADV	WRB	PronType=Int	4	advmod	4:advmod	Discourse=attribution:10->11:1
 2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-2)
 4	think	think	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Discourse=question:11->13|Entity=(organization-38
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Discourse=question:11->13:2|Entity=(organization-38
 6	Paralympic	Paralympic	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	movement	movement	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=organization-38)
 8	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	4:ccomp	_
@@ -194,7 +194,7 @@
 12	in	in	ADP	IN	_	14	case	14:case	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(place-5-United_States
 14	US	US	PROPN	NNP	Abbr=Yes|Number=Sing	11	nmod	11:nmod:in	Entity=place-5-United_States)
-15	compared	compare	VERB	VBN	Tense=Past|VerbForm=Part	8	advcl	8:advcl	Discourse=antithesis:12->11
+15	compared	compare	VERB	VBN	Tense=Past|VerbForm=Part	8	advcl	8:advcl	Discourse=antithesis:12->11:0
 16	to	to	ADP	IN	_	18	case	18:case	_
 17	other	other	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(place-40
 18	countries	country	NOUN	NNS	Number=Plur	15	obl	15:obl:to	_
@@ -213,7 +213,7 @@
 # s_type = decl
 # speaker = Simon
 # text = Sports in the United States largely reaffirm existing relations of power in society.
-1	Sports	sport	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	Discourse=ROOT:13|Entity=(abstract-44
+1	Sports	sport	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	Discourse=ROOT:13:0|Entity=(abstract-44
 2	in	in	ADP	IN	_	5	case	5:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(place-5-United_States
 4	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	5	amod	5:amod	_
@@ -232,19 +232,19 @@
 # s_type = decl
 # speaker = Simon
 # text = It emphasizes consumerism, the belief that success always goes to people who merit it due to their abilities, dedication and qualifications, and reinforces, rather than changes, existing ideas related to gender, ethnicity and nationality.
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|26:nsubj	Discourse=elaboration:14->13|Entity=(abstract-44)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|26:nsubj	Discourse=elaboration:14->13:0|Entity=(abstract-44)
 2	emphasizes	emphasize	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	consumerism	consumerism	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=(abstract-48)|SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	6:punct	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(abstract-49
 6	belief	belief	NOUN	NN	Number=Sing	3	appos	3:appos	_
-7	that	that	SCONJ	IN	_	10	mark	10:mark	Discourse=elaboration:15->14
+7	that	that	SCONJ	IN	_	10	mark	10:mark	Discourse=elaboration:15->14:0
 8	success	success	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=(event-50)
 9	always	always	ADV	RB	_	10	advmod	10:advmod	_
 10	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	6:acl:that	_
 11	to	to	ADP	IN	_	12	case	12:case	_
 12	people	person	NOUN	NNS	Number=Plur	10	obl	10:obl:to|14:nsubj	Entity=(person-51
-13	who	who	PRON	WP	PronType=Rel	14	nsubj	12:ref	Discourse=elaboration:16->15
+13	who	who	PRON	WP	PronType=Rel	14	nsubj	12:ref	Discourse=elaboration:16->15:0
 14	merit	merit	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	12:acl:relcl	_
 15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	14:obj	Entity=(event-50)
 16	due	due	ADJ	JJ	Degree=Pos	14	advmod	14:advmod	_
@@ -256,16 +256,16 @@
 22	and	and	CCONJ	CC	_	23	cc	23:cc	_
 23	qualifications	qualification	NOUN	NNS	Number=Plur	19	conj	16:obl:to|19:conj:and	Entity=abstract-49)person-51)abstract-52)|SpaceAfter=No
 24	,	,	PUNCT	,	_	26	punct	26:punct	_
-25	and	and	CCONJ	CC	_	26	cc	26:cc	Discourse=joint:17->14
+25	and	and	CCONJ	CC	_	26	cc	26:cc	Discourse=joint_m:17->14:1
 26	reinforces	reinforce	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	2:conj:and	SpaceAfter=No
 27	,	,	PUNCT	,	_	28	punct	28:punct	_
-28	rather	rather	ADV	RB	_	26	advmod	26:advmod	Discourse=antithesis:18->17
+28	rather	rather	ADV	RB	_	26	advmod	26:advmod	Discourse=antithesis:18->17:0
 29	than	than	ADP	IN	_	30	case	30:case	_
 30	changes	change	NOUN	NNS	Number=Plur	28	nmod	28:nmod:than	SpaceAfter=No
 31	,	,	PUNCT	,	_	33	punct	33:punct	_
-32	existing	exist	VERB	VBG	VerbForm=Ger	33	amod	33:amod	Discourse=same-unit:19->17|Entity=(abstract-53
+32	existing	exist	VERB	VBG	VerbForm=Ger	33	amod	33:amod	Discourse=same-unit_m:19->17:1|Entity=(abstract-53
 33	ideas	idea	NOUN	NNS	Number=Plur	26	obj	26:obj	_
-34	related	related	ADJ	JJ	Degree=Pos	33	acl	33:acl	Discourse=elaboration:20->19
+34	related	related	ADJ	JJ	Degree=Pos	33	acl	33:acl	Discourse=elaboration:20->19:0
 35	to	to	ADP	IN	_	36	case	36:case	_
 36	gender	gender	NOUN	NN	Number=Sing	34	obl	34:obl:to	Entity=(abstract-54)|SpaceAfter=No
 37	,	,	PUNCT	,	_	38	punct	38:punct	_
@@ -278,20 +278,20 @@
 # s_type = decl
 # speaker = Simon
 # text = Paralympic sport brings attention to athletes who are typically overlooked in American society because the majority of the population does not want to identify with people who are disabled.
-1	Paralympic	Paralympic	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=justify:21->14|Entity=(abstract-57
+1	Paralympic	Paralympic	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=justify:21->14:2|Entity=(abstract-57
 2	sport	sport	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=abstract-57)
 3	brings	bring	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	attention	attention	NOUN	NN	Number=Sing	3	obj	3:obj	_
 5	to	to	ADP	IN	_	6	case	6:case	_
 6	athletes	athlete	NOUN	NNS	Number=Plur	3	obl	3:obl:to|10:nsubj:pass	Entity=(person-58
-7	who	who	PRON	WP	PronType=Rel	10	nsubj:pass	6:ref	Discourse=elaboration:22->21
+7	who	who	PRON	WP	PronType=Rel	10	nsubj:pass	6:ref	Discourse=elaboration:22->21:0
 8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	10:aux:pass	_
 9	typically	typically	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
 10	overlooked	overlook	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl:relcl	6:acl:relcl	_
 11	in	in	ADP	IN	_	13	case	13:case	_
 12	American	American	ADJ	JJ	Degree=Pos	13	amod	13:amod	Entity=(abstract-47
 13	society	society	NOUN	NN	Number=Sing	10	obl	10:obl:in	Entity=person-58)abstract-47)
-14	because	because	SCONJ	IN	_	22	mark	22:mark	Discourse=cause:23->22
+14	because	because	SCONJ	IN	_	22	mark	22:mark	Discourse=cause:23->22:0
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(person-59
 16	majority	majority	NOUN	NN	Number=Sing	22	nsubj	22:nsubj|24:nsubj:xsubj	_
 17	of	of	ADP	IN	_	19	case	19:case	_
@@ -304,7 +304,7 @@
 24	identify	identify	VERB	VB	VerbForm=Inf	22	xcomp	22:xcomp	_
 25	with	with	ADP	IN	_	26	case	26:case	_
 26	people	person	NOUN	NNS	Number=Plur	24	obl	24:obl:with|29:nsubj	Entity=(person-61
-27	who	who	PRON	WP	PronType=Rel	29	nsubj	26:ref	Discourse=elaboration:24->23
+27	who	who	PRON	WP	PronType=Rel	29	nsubj	26:ref	Discourse=elaboration:24->23:0
 28	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	29:aux	_
 29	disabled	disabled	ADJ	JJ	Degree=Pos	26	acl:relcl	26:acl:relcl	Entity=person-61)|SpaceAfter=No
 30	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -313,13 +313,13 @@
 # s_type = sub
 # speaker = Simon
 # text = Although disability is not contagious, interest in disabled sports might put into question the masculinity of the males following it.
-1	Although	although	SCONJ	IN	_	5	mark	5:mark	Discourse=concession:25->26
+1	Although	although	SCONJ	IN	_	5	mark	5:mark	Discourse=concession:25->26:1
 2	disability	disability	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=(abstract-62)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 4	not	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
 5	contagious	contagious	ADJ	JJ	Degree=Pos	12	advcl	12:advcl:although	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	5:punct	_
-7	interest	interest	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Discourse=joint:26->21
+7	interest	interest	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Discourse=joint_m:26->21:1
 8	in	in	ADP	IN	_	10	case	10:case	_
 9	disabled	disabled	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(abstract-63
 10	sports	sport	NOUN	NNS	Number=Plur	7	nmod	7:nmod:in	Entity=abstract-63)
@@ -332,7 +332,7 @@
 17	of	of	ADP	IN	_	19	case	19:case	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(person-65
 19	males	male	NOUN	NNS	Number=Plur	16	nmod	16:nmod:of	_
-20	following	follow	VERB	VBG	VerbForm=Ger	19	acl	19:acl	Discourse=elaboration:27->26|Entity=person-65)
+20	following	follow	VERB	VBG	VerbForm=Ger	19	acl	19:acl	Discourse=elaboration:27->26:0|Entity=person-65)
 21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obj	20:obj	Entity=(abstract-63)abstract-64)|SpaceAfter=No
 22	.	.	PUNCT	.	_	12	punct	12:punct	_
 
@@ -340,7 +340,7 @@
 # s_type = decl
 # speaker = Simon
 # text = Disabled athletes also challenge existing relations of power by displaying dedication, hard work and perseverance in different contexts than those most sports fans are accustomed to.
-1	Disabled	disabled	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=joint:28->21|Entity=(person-66
+1	Disabled	disabled	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=joint_m:28->21:1|Entity=(person-66
 2	athletes	athlete	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=person-66)
 3	also	also	ADV	RB	_	4	advmod	4:advmod	_
 4	challenge	challenge	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -348,7 +348,7 @@
 6	relations	relation	NOUN	NNS	Number=Plur	4	obj	4:obj	_
 7	of	of	ADP	IN	_	8	case	8:case	_
 8	power	power	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	Entity=(abstract-46)abstract-67)
-9	by	by	SCONJ	IN	_	10	mark	10:mark	Discourse=means:29->28
+9	by	by	SCONJ	IN	_	10	mark	10:mark	Discourse=means:29->28:0
 10	displaying	display	VERB	VBG	VerbForm=Ger	4	advcl	4:advcl:by	_
 11	dedication	dedication	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=(abstract-68)|SpaceAfter=No
 12	,	,	PUNCT	,	_	14	punct	14:punct	_
@@ -359,7 +359,7 @@
 17	in	in	ADP	IN	_	19	case	19:case	_
 18	different	different	ADJ	JJ	Degree=Pos	19	amod	19:amod	Entity=(abstract-71
 19	contexts	context	NOUN	NNS	Number=Plur	10	obl	10:obl:in	_
-20	than	than	ADP	IN	_	21	case	21:case	Discourse=antithesis:30->29
+20	than	than	ADP	IN	_	21	case	21:case	Discourse=antithesis:30->29:0
 21	those	this	PRON	DT	Number=Plur|PronType=Dem	18	obl	18:obl:than	Bridge=abstract-71<abstract-72|Entity=(abstract-72
 22	most	most	ADJ	JJS	Degree=Sup	24	amod	24:amod	_
 23	sports	sport	NOUN	NNS	Number=Plur	24	compound	24:compound	Entity=(person-73(abstract-74)
@@ -373,16 +373,16 @@
 # s_type = decl
 # speaker = Simon
 # text = Other countries, including the ones you mention, have stronger social orientations in all aspects of society.
-1	Other	other	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=contrast:31->13|Entity=(place-75
+1	Other	other	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=contrast_m:31->13:1|Entity=(place-75
 2	countries	country	NOUN	NNS	Number=Plur	10	nsubj	10:nsubj	SpaceAfter=No
 3	,	,	PUNCT	,	_	6	punct	6:punct	_
-4	including	include	VERB	VBG	VerbForm=Ger	6	case	6:case	Discourse=elaboration:32->31
+4	including	include	VERB	VBG	VerbForm=Ger	6	case	6:case	Discourse=elaboration:32->31:0
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(place-40
 6	ones	one	NOUN	NNS	Number=Plur	2	nmod	2:nmod:including	_
-7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	8:nsubj	Discourse=elaboration:33->32
+7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	8:nsubj	Discourse=elaboration:33->32:0
 8	mention	mention	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	acl:relcl	6:acl:relcl	Entity=place-75)place-40)|SpaceAfter=No
 9	,	,	PUNCT	,	_	2	punct	2:punct	_
-10	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=same-unit:34->31
+10	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:34->31:1
 11	stronger	strong	ADJ	JJR	Degree=Cmp	13	amod	13:amod	Entity=(abstract-76
 12	social	social	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
 13	orientations	orientation	NOUN	NNS	Number=Plur	10	obj	10:obj	Entity=abstract-76)
@@ -397,7 +397,7 @@
 # s_type = decl
 # speaker = Simon
 # text = Even though legislative support may be less strong than the one provided by the Americans with Disabilities Act, many social institutions including the media are more receptive to this form of diversity.
-1	Even	even	ADV	RB	_	8	advmod	8:advmod	Discourse=concession:35->38
+1	Even	even	ADV	RB	_	8	advmod	8:advmod	Discourse=concession:35->38:2
 2	though	though	SCONJ	IN	_	8	mark	8:mark	_
 3	legislative	legislative	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(abstract-79
 4	support	support	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=abstract-79)
@@ -405,10 +405,10 @@
 6	be	be	AUX	VB	VerbForm=Inf	8	cop	8:cop	_
 7	less	less	ADV	RBR	Degree=Cmp	8	advmod	8:advmod	_
 8	strong	strong	ADJ	JJ	Degree=Pos	28	advcl	28:advcl:though	_
-9	than	than	ADP	IN	_	11	case	11:case	Discourse=antithesis:36->35
+9	than	than	ADP	IN	_	11	case	11:case	Discourse=antithesis:36->35:0
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Bridge=abstract-79<abstract-80|Entity=(abstract-80
 11	one	one	NOUN	NN	Number=Sing	8	obl	8:obl:than	_
-12	provided	provide	VERB	VBN	Tense=Past|VerbForm=Part	11	acl	11:acl	Discourse=elaboration:37->36
+12	provided	provide	VERB	VBN	Tense=Past|VerbForm=Part	11	acl	11:acl	Discourse=elaboration:37->36:0
 13	by	by	ADP	IN	_	18	case	18:case	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	_
 15	Americans	American	PROPN	NNPS	Number=Plur	18	compound	18:compound	Entity=(abstract-81-Americans_with_Disabilities_Act_of_1990(person-82
@@ -416,13 +416,13 @@
 17	Disabilities	Disability	PROPN	NNPS	Number=Plur	15	nmod	15:nmod:with	Entity=(abstract-83)person-82)
 18	Act	Act	PROPN	NNP	Number=Sing	12	obl	12:obl:by	Entity=abstract-80)abstract-81-Americans_with_Disabilities_Act_of_1990)|SpaceAfter=No
 19	,	,	PUNCT	,	_	8	punct	8:punct	_
-20	many	many	ADJ	JJ	Degree=Pos	22	amod	22:amod	Discourse=evidence:38->31|Entity=(organization-84
+20	many	many	ADJ	JJ	Degree=Pos	22	amod	22:amod	Discourse=evidence:38->31:2|Entity=(organization-84
 21	social	social	ADJ	JJ	Degree=Pos	22	amod	22:amod	_
 22	institutions	institution	NOUN	NNS	Number=Plur	28	nsubj	28:nsubj	_
-23	including	include	VERB	VBG	VerbForm=Ger	25	case	25:case	Discourse=elaboration:39->38
+23	including	include	VERB	VBG	VerbForm=Ger	25	case	25:case	Discourse=elaboration:39->38:0
 24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(organization-85
 25	media	medium	NOUN	NNS	Number=Plur	22	nmod	22:nmod:including	Entity=organization-84)organization-85)
-26	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	cop	28:cop	Discourse=same-unit:40->38
+26	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	cop	28:cop	Discourse=same-unit_m:40->38:1
 27	more	more	ADV	RBR	Degree=Cmp	28	advmod	28:advmod	_
 28	receptive	receptive	ADJ	JJ	Degree=Pos	0	root	0:root	_
 29	to	to	ADP	IN	_	31	case	31:case	_
@@ -436,11 +436,11 @@
 # s_type = wh
 # speaker = Wikinews
 # text = What do you think the impact will be for the Paralympic movement will be with the Games being televised live in the United States for first time?
-1	What	what	PRON	WP	PronType=Int	4	obj	4:obj	Discourse=attribution:41->42
+1	What	what	PRON	WP	PronType=Int	4	obj	4:obj	Discourse=attribution:41->42:1
 2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-2)
 4	think	think	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Discourse=question:42->45|Entity=(abstract-87
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Discourse=question:42->45:5|Entity=(abstract-87
 6	impact	impact	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=abstract-87)
 7	will	will	AUX	MD	Typo=Yes|VerbForm=Fin	12	aux	12:aux	_
 8	be	be	AUX	VB	Typo=Yes|VerbForm=Inf	12	cop	12:cop	_
@@ -450,7 +450,7 @@
 12	movement	movement	NOUN	NN	Number=Sing	4	ccomp	4:ccomp	Entity=organization-38)
 13	will	will	AUX	MD	VerbForm=Fin	14	aux	14:aux	_
 14	be	be	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	4	ccomp	4:ccomp	_
-15	with	with	ADP	IN	_	17	case	17:case	Discourse=circumstance:43->42
+15	with	with	ADP	IN	_	17	case	17:case	Discourse=circumstance:43->42:0
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(event-9-2014_Winter_Paralympics
 17	Games	Game	PROPN	NNPS	Number=Plur	14	obl	14:obl:with	Entity=event-9-2014_Winter_Paralympics)
 18	being	be	AUX	VBG	VerbForm=Ger	19	aux:pass	19:aux:pass	Entity=(event-88
@@ -469,7 +469,7 @@
 # s_type = decl
 # speaker = Simon
 # text = The impact depends on a number of aspects.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=preparation:44->45|Entity=(abstract-87
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=preparation:44->45:3|Entity=(abstract-87
 2	impact	impact	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=abstract-87)
 3	depends	depend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	on	on	ADP	IN	_	6	case	6:case	_
@@ -483,13 +483,13 @@
 # s_type = decl
 # speaker = Simon
 # text = One of them is the channels that NBC as the broadcasting rights owner for the United States will use to air the Paralympic Games on.
-1	One	one	NUM	CD	NumForm=Word|NumType=Card	6	nsubj	6:nsubj	Bridge=abstract-90<abstract-91|Discourse=joint:45->13|Entity=(abstract-91
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	6	nsubj	6:nsubj	Bridge=abstract-90<abstract-91|Discourse=joint_m:45->13:3|Entity=(abstract-91
 2	of	of	ADP	IN	_	3	case	3:case	_
 3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	nmod	1:nmod:of	Entity=(abstract-90)abstract-91)
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(abstract-91
 6	channels	channel	NOUN	NNS	Number=Plur	0	root	0:root|19:obj	_
-7	that	that	PRON	WDT	PronType=Rel	19	obj	6:ref	Discourse=elaboration:46->45
+7	that	that	PRON	WDT	PronType=Rel	19	obj	6:ref	Discourse=elaboration:46->45:0
 8	NBC	NBC	PROPN	NNP	Abbr=Yes|Number=Sing	19	nsubj	19:nsubj	Entity=(organization-92-NBC
 9	as	as	ADP	IN	_	13	case	13:case	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(organization-92-NBC
@@ -502,7 +502,7 @@
 17	States	State	PROPN	NNPS	Number=Plur	13	nmod	13:nmod:for	Entity=organization-92-NBC)organization-92-NBC)place-5-United_States)
 18	will	will	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	19	aux	19:aux	_
 19	use	use	VERB	VB	VerbForm=Inf	6	acl:relcl	6:acl:relcl	_
-20	to	to	PART	TO	_	21	mark	21:mark	Discourse=purpose:47->46
+20	to	to	PART	TO	_	21	mark	21:mark	Discourse=purpose:47->46:0
 21	air	air	VERB	VB	VerbForm=Inf	19	advcl	19:advcl:to	_
 22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(event-9-2014_Winter_Paralympics
 23	Paralympic	Paralympic	ADJ	NNP	Degree=Pos	24	amod	24:amod	_
@@ -514,7 +514,7 @@
 # s_type = q
 # speaker = Simon
 # text = Will they be shown nationally or regionally, on NBC or on any of the company’s multiple cable networks?
-1	Will	will	AUX	MD	VerbForm=Fin	4	aux	4:aux	Discourse=elaboration:48->45
+1	Will	will	AUX	MD	VerbForm=Fin	4	aux	4:aux	Discourse=elaboration:48->45:1
 2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj:pass	4:nsubj:pass	Entity=(event-9-2014_Winter_Paralympics)
 3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	4:aux:pass	_
 4	shown	show	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -541,7 +541,7 @@
 # s_type = decl
 # speaker = Simon
 # text = A second aspect is the parts or hours of the day the Paralympics will be shown.
-1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Bridge=abstract-90<time-94|Discourse=joint:49->45|Entity=(time-94
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Bridge=abstract-90<time-94|Discourse=joint_m:49->45:2|Entity=(time-94
 2	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	3:amod	_
 3	aspect	aspect	NOUN	NN	Number=Sing	6	nsubj	6:nsubj|8:nsubj	Entity=time-94)
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
@@ -552,7 +552,7 @@
 9	of	of	ADP	IN	_	11	case	11:case	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(abstract-95
 11	day	day	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	Entity=abstract-95)
-12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Discourse=elaboration:50->49|Entity=(event-9-2014_Winter_Paralympics
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Discourse=elaboration:50->49:0|Entity=(event-9-2014_Winter_Paralympics
 13	Paralympics	Paralympics	PROPN	NNP	Number=Sing	16	nsubj:pass	16:nsubj:pass	Entity=event-9-2014_Winter_Paralympics)
 14	will	will	AUX	MD	VerbForm=Fin	16	aux	16:aux	_
 15	be	be	AUX	VB	VerbForm=Inf	16	aux:pass	16:aux:pass	_
@@ -563,37 +563,41 @@
 # s_type = imp
 # speaker = Simon
 # text = Remember that there is a nine-hour difference between Sochi and New York, and a 12-hour difference between Sochi and the US West Coast.
-1	Remember	remember	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution:51->52
-2	that	that	SCONJ	IN	_	4	mark	4:mark	Discourse=cause:52->53
+1	Remember	remember	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution:51->52:0
+2	that	that	SCONJ	IN	_	4	mark	4:mark	Discourse=cause:52->53:1
 3	there	there	PRON	EX	_	4	expl	4:expl	_
 4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	_
-5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(time-96
-6	nine-hour	nine-hour	NOUN	NN	Number=Sing	7	compound	7:compound	_
-7	difference	difference	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	_
-8	between	between	ADP	IN	_	9	case	9:case	_
-9	Sochi	Sochi	PROPN	NNP	Number=Sing	7	nmod	7:nmod:between	Entity=(place-10-Sochi)
-10	and	and	CCONJ	CC	_	11	cc	11:cc	_
-11	New	New	PROPN	NNP	Number=Sing	9	conj	7:nmod:between|9:conj:and	Bridge=place-5-United_States<place-97-New_York_City|Entity=(place-97-New_York_City
-12	York	York	PROPN	NNP	Number=Sing	11	flat	11:flat	Entity=time-96)place-97-New_York_City)|SpaceAfter=No
-13	,	,	PUNCT	,	_	17	punct	17:punct	_
-14	and	and	CCONJ	CC	_	17	cc	17:cc	_
-15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(time-98
-16	12-hour	12-hour	NOUN	NN	Number=Sing	17	compound	17:compound	_
-17	difference	difference	NOUN	NN	Number=Sing	7	conj	4:nsubj|7:conj:and	_
-18	between	between	ADP	IN	_	19	case	19:case	_
-19	Sochi	Sochi	PROPN	NNP	Number=Sing	17	nmod	17:nmod:between	Entity=(place-10-Sochi)
-20	and	and	CCONJ	CC	_	24	cc	24:cc	_
-21	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Bridge=place-5-United_States<place-99-West_Coast_of_the_United_States|Entity=(place-99-West_Coast_of_the_United_States
-22	US	US	PROPN	NNP	Abbr=Yes|Number=Sing	24	compound	24:compound	Entity=(place-5-United_States)
-23	West	West	PROPN	NNP	Number=Sing	24	compound	24:compound	_
-24	Coast	Coast	PROPN	NNP	Number=Sing	19	conj	17:nmod:between|19:conj:and	Entity=time-98)place-99-West_Coast_of_the_United_States)|SpaceAfter=No
-25	.	.	PUNCT	.	_	1	punct	1:punct	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(time-96
+6	nine	nine	NUM	CD	NumForm=Word|NumType=Card	8	nummod	8:nummod	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	6	punct	6:punct	SpaceAfter=No
+8	hour	hour	NOUN	NN	Number=Sing	9	compound	9:compound	_
+9	difference	difference	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	_
+10	between	between	ADP	IN	_	11	case	11:case	_
+11	Sochi	Sochi	PROPN	NNP	Number=Sing	9	nmod	9:nmod:between	Entity=(place-10-Sochi)
+12	and	and	CCONJ	CC	_	13	cc	13:cc	_
+13	New	New	PROPN	NNP	Number=Sing	11	conj	9:nmod:between|11:conj:and	Bridge=place-5-United_States<place-97-New_York_City|Entity=(place-97-New_York_City
+14	York	York	PROPN	NNP	Number=Sing	13	flat	13:flat	Entity=time-96)place-97-New_York_City)|SpaceAfter=No
+15	,	,	PUNCT	,	_	21	punct	21:punct	_
+16	and	and	CCONJ	CC	_	21	cc	21:cc	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	Entity=(time-98
+18	12	12	NUM	CD	NumForm=Digit|NumType=Card	20	nummod	20:nummod	SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	18	punct	18:punct	SpaceAfter=No
+20	hour	hour	NOUN	NN	Number=Sing	21	compound	21:compound	_
+21	difference	difference	NOUN	NN	Number=Sing	9	conj	4:nsubj|9:conj:and	_
+22	between	between	ADP	IN	_	23	case	23:case	_
+23	Sochi	Sochi	PROPN	NNP	Number=Sing	21	nmod	21:nmod:between	Entity=(place-10-Sochi)
+24	and	and	CCONJ	CC	_	28	cc	28:cc	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Bridge=place-5-United_States<place-99-West_Coast_of_the_United_States|Entity=(place-99-West_Coast_of_the_United_States
+26	US	US	PROPN	NNP	Abbr=Yes|Number=Sing	28	compound	28:compound	Entity=(place-5-United_States)
+27	West	West	PROPN	NNP	Number=Sing	28	compound	28:compound	_
+28	Coast	Coast	PROPN	NNP	Number=Sing	23	conj	21:nmod:between|23:conj:and	Entity=time-98)place-99-West_Coast_of_the_United_States)|SpaceAfter=No
+29	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_interview_licen-22
 # s_type = decl
 # speaker = Simon
 # text = So daytime events will be shown live in the United States in the middle of the night, and evening prime-time events will be shown — indeed live — in the morning U.S. time.
-1	So	so	ADV	RB	_	6	advmod	6:advmod	Discourse=elaboration:53->49
+1	So	so	ADV	RB	_	6	advmod	6:advmod	Discourse=elaboration:53->49:1
 2	daytime	daytime	NOUN	NN	Number=Sing	3	compound	3:compound	Bridge=event-9-2014_Winter_Paralympics<event-100|Entity=(event-100(time-101)
 3	events	event	NOUN	NNS	Number=Plur	6	nsubj:pass	6:nsubj:pass	Entity=event-100)
 4	will	will	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
@@ -610,30 +614,32 @@
 15	of	of	ADP	IN	_	17	case	17:case	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(time-103
 17	night	night	NOUN	NN	Number=Sing	14	nmod	14:nmod:of	Entity=time-102)time-103)|SpaceAfter=No
-18	,	,	PUNCT	,	_	25	punct	25:punct	_
-19	and	and	CCONJ	CC	_	25	cc	25:cc	Discourse=joint:54->53
-20	evening	evening	NOUN	NN	Number=Sing	22	compound	22:compound	Bridge=event-9-2014_Winter_Paralympics<event-104|Entity=(event-104(time-105)
-21	prime-time	prime-time	NOUN	NN	Number=Sing	22	compound	22:compound	_
-22	events	event	NOUN	NNS	Number=Plur	25	nsubj:pass	25:nsubj:pass	Entity=event-104)
-23	will	will	AUX	MD	VerbForm=Fin	25	aux	25:aux	_
-24	be	be	AUX	VB	VerbForm=Inf	25	aux:pass	25:aux:pass	_
-25	shown	show	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	conj	6:conj:and	_
-26	—	—	PUNCT	:	_	28	punct	28:punct	Discourse=manner:55->54
-27	indeed	indeed	ADV	RB	Degree=Pos	28	advmod	28:advmod	_
-28	live	live	ADV	RB	Degree=Pos	25	advmod	25:advmod	_
-29	—	—	PUNCT	:	_	32	punct	32:punct	_
-30	in	in	ADP	IN	_	32	case	32:case	Discourse=same-unit:56->54
-31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	32:det	Entity=(time-106
-32	morning	morning	NOUN	NN	Number=Sing	25	obl	25:obl:in	Entity=time-106)
-33	U.S.	U.S.	PROPN	NNP	Abbr=Yes|Number=Sing	34	compound	34:compound	Entity=(abstract-107(place-5-United_States)
-34	time	time	NOUN	NN	Number=Sing	32	nmod:tmod	32:nmod:tmod	Entity=abstract-107)|SpaceAfter=No
-35	.	.	PUNCT	.	_	6	punct	6:punct	_
+18	,	,	PUNCT	,	_	27	punct	27:punct	_
+19	and	and	CCONJ	CC	_	27	cc	27:cc	Discourse=joint_m:54->53:0
+20	evening	evening	NOUN	NN	Number=Sing	24	compound	24:compound	Bridge=event-9-2014_Winter_Paralympics<event-104|Entity=(event-104(time-105)
+21	prime	prime	ADJ	JJ	Degree=Pos	23	amod	23:amod	SpaceAfter=No
+22	-	-	PUNCT	HYPH	_	21	punct	21:punct	SpaceAfter=No
+23	time	time	NOUN	NN	Number=Sing	24	compound	24:compound	_
+24	events	event	NOUN	NNS	Number=Plur	27	nsubj:pass	27:nsubj:pass	Entity=event-104)
+25	will	will	AUX	MD	VerbForm=Fin	27	aux	27:aux	_
+26	be	be	AUX	VB	VerbForm=Inf	27	aux:pass	27:aux:pass	_
+27	shown	show	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	conj	6:conj:and	_
+28	—	—	PUNCT	:	_	30	punct	30:punct	Discourse=manner:55->54:0
+29	indeed	indeed	ADV	RB	Degree=Pos	30	advmod	30:advmod	_
+30	live	live	ADV	RB	Degree=Pos	27	advmod	27:advmod	_
+31	—	—	PUNCT	:	_	34	punct	34:punct	_
+32	in	in	ADP	IN	_	34	case	34:case	Discourse=same-unit_m:56->54:1
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	34:det	Entity=(time-106
+34	morning	morning	NOUN	NN	Number=Sing	27	obl	27:obl:in	Entity=time-106)
+35	U.S.	U.S.	PROPN	NNP	Abbr=Yes|Number=Sing	36	compound	36:compound	Entity=(abstract-107(place-5-United_States)
+36	time	time	NOUN	NN	Number=Sing	34	nmod:tmod	34:nmod:tmod	Entity=abstract-107)|SpaceAfter=No
+37	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_interview_licen-23
 # s_type = sub
 # speaker = Simon
 # text = So showing the Paralympics live on United States television might turn out to be less glamorous than it appears.
-1	So	so	ADV	RB	_	11	advmod	11:advmod	Discourse=result:57->53
+1	So	so	ADV	RB	_	11	advmod	11:advmod	Discourse=result:57->53:2
 2	showing	show	VERB	VBG	VerbForm=Ger	11	csubj	11:csubj|16:csubj:xsubj	Entity=(event-88
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(event-9-2014_Winter_Paralympics
 4	Paralympics	Paralympics	PROPN	NNP	Number=Sing	2	obj	2:obj	Entity=event-9-2014_Winter_Paralympics)
@@ -649,7 +655,7 @@
 14	be	be	AUX	VB	VerbForm=Inf	16	cop	16:cop	_
 15	less	less	ADV	RBR	Degree=Cmp	16	advmod	16:advmod	_
 16	glamorous	glamorous	ADJ	JJ	Degree=Pos	11	xcomp	11:xcomp	_
-17	than	than	SCONJ	IN	_	19	mark	19:mark	Discourse=antithesis:58->57
+17	than	than	SCONJ	IN	_	19	mark	19:mark	Discourse=antithesis:58->57:0
 18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	19:nsubj	Entity=(event-88)
 19	appears	appear	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	16:ccomp	SpaceAfter=No
 20	.	.	PUNCT	.	_	11	punct	11:punct	_
@@ -658,30 +664,30 @@
 # s_type = decl
 # speaker = Simon
 # text = A third important factor is the way the event will be mediated: will NBC have its best sports broadcasters following the event after having worked the Winter Olympics?
-1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Bridge=abstract-90<abstract-109|Discourse=joint:59->45|Entity=(abstract-109
+1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Bridge=abstract-90<abstract-109|Discourse=joint_m:59->45:2|Entity=(abstract-109
 2	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	4:amod	_
 3	important	important	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	factor	factor	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=abstract-109)
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(abstract-109
 7	way	way	NOUN	NN	Number=Sing	0	root	0:root	_
-8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Discourse=elaboration:60->59|Entity=(event-9-2014_Winter_Paralympics
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Discourse=elaboration:60->59:0|Entity=(event-9-2014_Winter_Paralympics
 9	event	event	NOUN	NN	Number=Sing	12	nsubj:pass	12:nsubj:pass	Entity=event-9-2014_Winter_Paralympics)
 10	will	will	AUX	MD	VerbForm=Fin	12	aux	12:aux	_
 11	be	be	AUX	VB	VerbForm=Inf	12	aux:pass	12:aux:pass	_
 12	mediated	mediate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	acl:relcl	7:acl:relcl	Entity=abstract-109)|SpaceAfter=No
 13	:	:	PUNCT	:	_	16	punct	16:punct	_
-14	will	will	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	16	aux	16:aux	Discourse=elaboration:61->59
+14	will	will	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	16	aux	16:aux	Discourse=elaboration:61->59:1
 15	NBC	NBC	PROPN	NNP	Abbr=Yes|Number=Sing	16	nsubj	16:nsubj	Entity=(organization-92-NBC)
 16	have	have	VERB	VB	VerbForm=Inf	7	parataxis	7:parataxis	_
 17	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(person-110(organization-92-NBC)
 18	best	good	ADJ	JJS	Degree=Sup	20	amod	20:amod	_
 19	sports	sport	NOUN	NNS	Number=Plur	20	compound	20:compound	Entity=(abstract-74)
 20	broadcasters	broadcaster	NOUN	NNS	Number=Plur	16	obj	16:obj	Entity=person-110)
-21	following	follow	VERB	VBG	VerbForm=Ger	20	acl	20:acl	Discourse=elaboration:62->61
+21	following	follow	VERB	VBG	VerbForm=Ger	20	acl	20:acl	Discourse=elaboration:62->61:0
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(event-9-2014_Winter_Paralympics
 23	event	event	NOUN	NN	Number=Sing	21	obj	21:obj	Entity=event-9-2014_Winter_Paralympics)
-24	after	after	SCONJ	IN	_	26	mark	26:mark	Discourse=circumstance:63->61
+24	after	after	SCONJ	IN	_	26	mark	26:mark	Discourse=circumstance:63->61:1
 25	having	have	AUX	VBG	VerbForm=Ger	26	aux	26:aux	_
 26	worked	work	VERB	VBN	Tense=Past|VerbForm=Part	23	acl	23:acl:after	_
 27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	29:det	Entity=(event-111-2014_Winter_Paralympics
@@ -693,19 +699,19 @@
 # s_type = q
 # speaker = Simon
 # text = Will they treat and announce the competitions as they do all others — for better and worse?
-1	Will	will	AUX	MD	VerbForm=Fin	3	aux	3:aux|5:aux	Discourse=joint:64->61
+1	Will	will	AUX	MD	VerbForm=Fin	3	aux	3:aux|5:aux	Discourse=joint_m:64->61:2
 2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj|5:nsubj	Entity=(person-110)
 3	treat	treat	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	and	and	CCONJ	CC	_	5	cc	5:cc	_
 5	announce	announce	VERB	VB	VerbForm=Inf	3	conj	3:conj:and	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Bridge=event-9-2014_Winter_Paralympics<event-113|Entity=(event-113
 7	competitions	competition	NOUN	NNS	Number=Plur	3	obj	3:obj|5:obj	Entity=event-113)
-8	as	as	SCONJ	IN	_	10	mark	10:mark	Discourse=manner:65->64
+8	as	as	SCONJ	IN	_	10	mark	10:mark	Discourse=manner:65->64:0
 9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	10:nsubj	Entity=(person-110)
 10	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl:as	_
 11	all	all	DET	DT	_	12	det	12:det	Entity=(event-114
 12	others	other	NOUN	NNS	Number=Plur	10	obj	10:obj	Entity=event-114)
-13	—	—	PUNCT	:	_	15	punct	15:punct	Discourse=result:66->64
+13	—	—	PUNCT	:	_	15	punct	15:punct	Discourse=result:66->64:1
 14	for	for	ADP	IN	_	15	case	15:case	_
 15	better	good	ADJ	JJR	Degree=Cmp	3	obl	3:obl:for	_
 16	and	and	CCONJ	CC	_	17	cc	17:cc	_
@@ -716,26 +722,26 @@
 # s_type = q
 # speaker = Simon
 # text = Will they take it as an opportunity to educate viewers about disability and diversity while showing superb athletic performances without engaging in a discourse of pity?
-1	Will	will	AUX	MD	VerbForm=Fin	3	aux	3:aux	Discourse=joint:67->61
+1	Will	will	AUX	MD	VerbForm=Fin	3	aux	3:aux	Discourse=joint_m:67->61:2
 2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-110)
 3	take	take	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	3:obj	Entity=(event-9-2014_Winter_Paralympics)
 5	as	as	ADP	IN	_	7	case	7:case	_
 6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(event-115
 7	opportunity	opportunity	NOUN	NN	Number=Sing	3	obl	3:obl:as	_
-8	to	to	PART	TO	_	9	mark	9:mark	Discourse=purpose:68->67
+8	to	to	PART	TO	_	9	mark	9:mark	Discourse=purpose:68->67:0
 9	educate	educate	VERB	VB	VerbForm=Inf	7	acl	7:acl:to	_
 10	viewers	viewer	NOUN	NNS	Number=Plur	9	obj	9:obj	Entity=(person-116)
 11	about	about	ADP	IN	_	12	case	12:case	_
 12	disability	disability	NOUN	NN	Number=Sing	10	nmod	10:nmod:about	Entity=(abstract-62)
 13	and	and	CCONJ	CC	_	14	cc	14:cc	_
 14	diversity	diversity	NOUN	NN	Number=Sing	12	conj	10:nmod:about|12:conj:and	Entity=(abstract-86)
-15	while	while	SCONJ	IN	_	16	mark	16:mark	Discourse=circumstance:69->67
+15	while	while	SCONJ	IN	_	16	mark	16:mark	Discourse=circumstance:69->67:1
 16	showing	show	VERB	VBG	VerbForm=Ger	9	advcl	9:advcl:while	_
 17	superb	superb	ADJ	JJ	Degree=Pos	19	amod	19:amod	Entity=(event-117
 18	athletic	athletic	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
 19	performances	performance	NOUN	NNS	Number=Plur	16	obj	16:obj	Entity=event-117)
-20	without	without	SCONJ	IN	_	21	mark	21:mark	Discourse=manner:70->69
+20	without	without	SCONJ	IN	_	21	mark	21:mark	Discourse=manner:70->69:0
 21	engaging	engage	VERB	VBG	VerbForm=Ger	16	advcl	16:advcl:without	_
 22	in	in	ADP	IN	_	24	case	24:case	_
 23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(abstract-118
@@ -748,18 +754,18 @@
 # s_type = decl
 # speaker = Simon
 # text = All in all, I think this is a terrific opportunity to improve sports coverage in a multitude of aspects; but we will have to wait until after the event to assess to what extent the broadcasters will meet these expectations.
-1	All	all	DET	DT	_	6	obl:npmod	6:obl:npmod	Discourse=attribution:71->72
+1	All	all	DET	DT	_	6	obl:npmod	6:obl:npmod	Discourse=attribution:71->72:2
 2	in	in	ADP	IN	_	1	fixed	1:fixed	_
 3	all	all	DET	DT	_	1	fixed	1:fixed	SpaceAfter=No
 4	,	,	PUNCT	,	_	1	punct	1:punct	_
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-2)
 6	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-7	this	this	PRON	DT	Number=Sing|PronType=Dem	11	nsubj	11:nsubj	Discourse=joint:72->45|Entity=(abstract-120(event-88)
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	11	nsubj	11:nsubj	Discourse=joint_m:72->45:4|Entity=(abstract-120(event-88)
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	11:cop	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(event-88
 10	terrific	terrific	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
 11	opportunity	opportunity	NOUN	NN	Number=Sing	6	ccomp	6:ccomp	_
-12	to	to	PART	TO	_	13	mark	13:mark	Discourse=purpose:73->72
+12	to	to	PART	TO	_	13	mark	13:mark	Discourse=purpose:73->72:0
 13	improve	improve	VERB	VB	VerbForm=Inf	11	acl	11:acl:to	_
 14	sports	sport	NOUN	NNS	Number=Plur	15	compound	15:compound	Entity=(abstract-121(abstract-74)
 15	coverage	coverage	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=abstract-121)
@@ -769,7 +775,7 @@
 19	of	of	ADP	IN	_	20	case	20:case	_
 20	aspects	aspect	NOUN	NNS	Number=Plur	18	nmod	18:nmod:of	Entity=abstract-120)event-88)abstract-122)|SpaceAfter=No
 21	;	;	PUNCT	:	_	25	punct	25:punct	_
-22	but	but	CCONJ	CC	_	25	cc	25:cc	Discourse=concession:74->72
+22	but	but	CCONJ	CC	_	25	cc	25:cc	Discourse=concession:74->72:1
 23	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	25:nsubj|27:nsubj:xsubj|33:nsubj:xsubj	Entity=(person-123)
 24	will	will	AUX	MD	VerbForm=Fin	25	aux	25:aux	_
 25	have	have	VERB	VB	VerbForm=Inf	6	conj	6:conj:but	_
@@ -779,7 +785,7 @@
 29	after	after	ADP	IN	_	31	case	31:case	_
 30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	31:det	Entity=(event-9-2014_Winter_Paralympics
 31	event	event	NOUN	NN	Number=Sing	27	advcl	27:advcl	Entity=event-9-2014_Winter_Paralympics)
-32	to	to	PART	TO	_	33	mark	33:mark	Discourse=purpose:75->74
+32	to	to	PART	TO	_	33	mark	33:mark	Discourse=purpose:75->74:0
 33	assess	assess	VERB	VB	VerbForm=Inf	27	xcomp	27:xcomp	_
 34	to	to	ADP	IN	_	36	case	36:case	_
 35	what	what	DET	WDT	PronType=Int	36	det	36:det	Entity=(abstract-124

@@ -9,12 +9,12 @@
 # sent_id = GUM_voyage_coron-1
 # s_type = frag
 # text = Coron
-1	Coron	Coron	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:1->7|Entity=(place-1-Coron%2C_Palawan)
+1	Coron	Coron	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:1->7:7|Entity=(place-1-Coron%2C_Palawan)
 
 # sent_id = GUM_voyage_coron-2
 # s_type = decl
 # text = Coron is in the province of Palawan, Philippines on Busuanga Island.
-1	Coron	Coron	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=background:2->7|Entity=(place-1-Coron%2C_Palawan)
+1	Coron	Coron	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=background:2->7:6|Entity=(place-1-Coron%2C_Palawan)
 2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	in	in	ADP	IN	_	2	obl	2:obl	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(place-2-Palawan
@@ -31,7 +31,7 @@
 # sent_id = GUM_voyage_coron-3
 # s_type = decl
 # text = It is the largest town on the island and has the largest share of accommodations.
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj|10:nsubj	Discourse=elaboration:3->2|Entity=(place-1-Coron%2C_Palawan)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj|10:nsubj	Discourse=elaboration:3->2:0|Entity=(place-1-Coron%2C_Palawan)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(place-1-Coron%2C_Palawan
 4	largest	large	ADJ	JJS	Degree=Sup	5	amod	5:amod	_
@@ -39,7 +39,7 @@
 6	on	on	ADP	IN	_	8	case	8:case	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(place-4-Busuanga_Island
 8	island	island	NOUN	NN	Number=Sing	5	nmod	5:nmod:on	Entity=place-1-Coron%2C_Palawan)place-4-Busuanga_Island)
-9	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=joint:4->3
+9	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=joint_m:4->3:0
 10	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	5:conj:and	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(place-5
 12	largest	large	ADJ	JJS	Degree=Sup	13	amod	13:amod	_
@@ -51,12 +51,12 @@
 # sent_id = GUM_voyage_coron-4
 # s_type = frag
 # text = Background
-1	Background	background	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:5->7|Entity=(abstract-7)
+1	Background	background	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:5->7:4|Entity=(abstract-7)
 
 # sent_id = GUM_voyage_coron-5
 # s_type = decl
 # text = Coron is both the name of the largest town on the island of Busuanga, and the name of a different, smaller island just offshore.
-1	Coron	Coron	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj|18:nsubj	Discourse=background:6->7|Entity=(abstract-8-Coron%2C_Palawan)
+1	Coron	Coron	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj|18:nsubj	Discourse=background:6->7:3|Entity=(abstract-8-Coron%2C_Palawan)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	both	both	CCONJ	CC	_	5	cc:preconj	5:cc:preconj	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(abstract-8-Coron%2C_Palawan
@@ -87,7 +87,7 @@
 # sent_id = GUM_voyage_coron-6
 # s_type = decl
 # text = The area is famous for its World War II wreck diving, and the site has been named in many lists of top dive spots in the world.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=place-9<place-10|Discourse=ROOT:7|Entity=(place-10
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=place-9<place-10|Discourse=ROOT:7:0|Entity=(place-10
 2	area	area	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=place-10)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 4	famous	famous	ADJ	JJ	Degree=Pos	0	root	0:root	_
@@ -99,7 +99,7 @@
 10	wreck	wreck	NOUN	NN	Number=Sing	11	compound	11:compound	_
 11	diving	diving	NOUN	NN	Number=Sing	4	obl	4:obl:for	Entity=event-11)|SpaceAfter=No
 12	,	,	PUNCT	,	_	18	punct	18:punct	_
-13	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=evidence:8->7
+13	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=evidence:8->7:0
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Bridge=event-11<place-13|Entity=(place-13
 15	site	site	NOUN	NN	Number=Sing	18	nsubj:pass	18:nsubj:pass	Entity=place-13)
 16	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	18:aux	_
@@ -120,7 +120,7 @@
 # sent_id = GUM_voyage_coron-7
 # s_type = decl
 # text = In September 1944, a fleet of Japanese ships hiding in the harbor were sunk in a daring raid by the US navy.
-1	In	in	ADP	IN	_	2	case	2:case	Discourse=background:9->7
+1	In	in	ADP	IN	_	2	case	2:case	Discourse=background:9->7:1
 2	September	September	PROPN	NNP	Number=Sing	15	obl	15:obl:in	Entity=(time-17-September_1944
 3	1944	1944	NUM	CD	NumForm=Digit|NumType=Card	2	nmod:tmod	2:nmod:tmod	Entity=(time-18)time-17-September_1944)|SpaceAfter=No
 4	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -129,11 +129,11 @@
 7	of	of	ADP	IN	_	9	case	9:case	_
 8	Japanese	Japanese	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(object-20
 9	ships	ship	NOUN	NNS	Number=Plur	6	nmod	6:nmod:of	Entity=object-20)
-10	hiding	hide	VERB	VBG	VerbForm=Ger	9	acl	9:acl	Discourse=elaboration:10->9
+10	hiding	hide	VERB	VBG	VerbForm=Ger	9	acl	9:acl	Discourse=elaboration:10->9:0
 11	in	in	ADP	IN	_	13	case	13:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(place-13
 13	harbor	harbor	NOUN	NN	Number=Sing	10	obl	10:obl:in	Entity=object-19)place-13)
-14	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	15:aux:pass	Discourse=same-unit:11->9
+14	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	15:aux:pass	Discourse=same-unit_m:11->9:1
 15	sunk	sink	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 16	in	in	ADP	IN	_	19	case	19:case	_
 17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(event-21
@@ -148,7 +148,7 @@
 # sent_id = GUM_voyage_coron-8
 # s_type = decl
 # text = The result is around ten well preserved underwater shipwrecks surrounded with coral reef.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=event-21<abstract-24|Discourse=result:12->9|Entity=(abstract-24
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=event-21<abstract-24|Discourse=result:12->9:2|Entity=(abstract-24
 2	result	result	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	Entity=abstract-24)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
 4	around	around	ADV	RB	Degree=Pos	5	advmod	5:advmod	Entity=(abstract-24
@@ -157,7 +157,7 @@
 7	preserved	preserve	VERB	VBN	Tense=Past|VerbForm=Part	9	amod	9:amod	_
 8	underwater	underwater	ADJ	JJ	Degree=Pos|Polarity=Neg	9	amod	9:amod	_
 9	shipwrecks	shipwreck	NOUN	NNS	Number=Plur	0	root	0:root	_
-10	surrounded	surround	VERB	VBN	Tense=Past|VerbForm=Part	9	acl	9:acl	Discourse=elaboration:13->12
+10	surrounded	surround	VERB	VBN	Tense=Past|VerbForm=Part	9	acl	9:acl	Discourse=elaboration:13->12:0
 11	with	with	ADP	IN	_	13	case	13:case	_
 12	coral	coral	ADJ	JJ	Degree=Pos	13	amod	13:amod	Entity=(animal-25
 13	reef	reef	NOUN	NN	Number=Sing	10	obl	10:obl:with	Entity=abstract-24)animal-25)|SpaceAfter=No
@@ -166,7 +166,7 @@
 # sent_id = GUM_voyage_coron-9
 # s_type = decl
 # text = There are also attractions on Coron Island itself.
-1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=joint:14->7
+1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=joint_m:14->7:2
 2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	also	also	ADV	RB	_	2	advmod	2:advmod	_
 4	attractions	attraction	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Entity=(abstract-26
@@ -179,7 +179,7 @@
 # sent_id = GUM_voyage_coron-10
 # s_type = decl
 # text = There are many beautiful white sand beaches, mostly tiny and surrounded by large limestone cliffs and wildlife.
-1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=elaboration:15->14
+1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=elaboration:15->14:0
 2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	many	many	ADJ	JJ	Degree=Pos	7	amod	7:amod	Entity=(place-27
 4	beautiful	beautiful	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
@@ -187,9 +187,9 @@
 6	sand	sand	NOUN	NN	Number=Sing	7	compound	7:compound	Entity=substance-28)
 7	beaches	beach	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	SpaceAfter=No
 8	,	,	PUNCT	,	_	10	punct	10:punct	_
-9	mostly	mostly	ADV	RB	Degree=Pos	10	advmod	10:advmod	Discourse=elaboration:16->15
+9	mostly	mostly	ADV	RB	Degree=Pos	10	advmod	10:advmod	Discourse=elaboration:16->15:0
 10	tiny	tiny	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
-11	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=joint:17->16
+11	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=joint_m:17->16:0
 12	surrounded	surround	VERB	VBN	Tense=Past|VerbForm=Part	10	conj	7:amod|10:conj:and	_
 13	by	by	ADP	IN	_	16	case	16:case	_
 14	large	large	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
@@ -202,7 +202,7 @@
 # sent_id = GUM_voyage_coron-11
 # s_type = decl
 # text = Barracuda and Kayangan lakes are both stunning locations, and good for snorkeling, and the island is the ancestral domain of an indigenous tribe who are managing the island in a sustainable way and keeping outsiders at a distance and offshore at night.
-1	Barracuda	Barracuda	PROPN	NNP	Number=Sing	4	compound	4:compound	Discourse=joint:18->15|Entity=(place-31(place-32)
+1	Barracuda	Barracuda	PROPN	NNP	Number=Sing	4	compound	4:compound	Discourse=joint_m:18->15:1|Entity=(place-31(place-32)
 2	and	and	CCONJ	CC	_	3	cc	3:cc	_
 3	Kayangan	Kayangan	PROPN	NNP	Number=Sing	1	conj	1:conj:and|4:compound	Entity=(place-33)
 4	lakes	lake	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj|11:nsubj	Entity=(place-34)place-31)
@@ -216,7 +216,7 @@
 12	for	for	SCONJ	IN	_	13	mark	13:mark	_
 13	snorkeling	snorkel	VERB	VBG	VerbForm=Ger	11	advcl	11:advcl:for	Entity=(event-35)|SpaceAfter=No
 14	,	,	PUNCT	,	_	21	punct	21:punct	_
-15	and	and	CCONJ	CC	_	21	cc	21:cc	Discourse=joint:19->15
+15	and	and	CCONJ	CC	_	21	cc	21:cc	Discourse=joint_m:19->15:1
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(place-9
 17	island	island	NOUN	NN	Number=Sing	21	nsubj	21:nsubj	Entity=place-9)
 18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	21:cop	_
@@ -227,7 +227,7 @@
 23	an	a	DET	DT	Definite=Ind|PronType=Art	25	det	25:det	Entity=(person-36
 24	indigenous	indigenous	ADJ	JJ	Degree=Pos	25	amod	25:amod	_
 25	tribe	tribe	NOUN	NN	Number=Sing	21	nmod	21:nmod:of|28:nsubj	_
-26	who	who	PRON	WP	PronType=Rel	28	nsubj	25:ref	Discourse=elaboration:20->19
+26	who	who	PRON	WP	PronType=Rel	28	nsubj	25:ref	Discourse=elaboration:20->19:0
 27	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	28:aux|36:aux	_
 28	managing	manage	VERB	VBG	Tense=Pres|VerbForm=Part	25	acl:relcl	25:acl:relcl	_
 29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(place-9
@@ -236,7 +236,7 @@
 32	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	34:det	Entity=(abstract-37
 33	sustainable	sustainable	ADJ	JJ	Degree=Pos	34	amod	34:amod	_
 34	way	way	NOUN	NN	Number=Sing	30	nmod	30:nmod:in	Entity=abstract-37)
-35	and	and	CCONJ	CC	_	36	cc	36:cc	Discourse=joint:21->20
+35	and	and	CCONJ	CC	_	36	cc	36:cc	Discourse=joint_m:21->20:0
 36	keeping	keep	VERB	VBG	VerbForm=Ger	28	conj	25:acl:relcl|28:conj:and	_
 37	outsiders	outsider	NOUN	NNS	Number=Plur	36	obj	36:obj	Entity=(person-38)
 38	at	at	ADP	IN	_	40	case	40:case	_
@@ -251,12 +251,12 @@
 # sent_id = GUM_voyage_coron-12
 # s_type = frag
 # text = History
-1	History	history	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:22->33|Entity=(abstract-42)
+1	History	history	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:22->33:2|Entity=(abstract-42)
 
 # sent_id = GUM_voyage_coron-13
 # s_type = decl
 # text = The first inhabitants of Coron were the Tagbanuas who belong to the second wave of Indonesians who migrated to this area some 5,000 years ago.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=background:23->26|Entity=(person-36
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=background:23->26:1|Entity=(person-36
 2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	3:amod	_
 3	inhabitants	inhabitant	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj	_
 4	of	of	ADP	IN	_	5	case	5:case	_
@@ -264,7 +264,7 @@
 6	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	cop	8:cop	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(person-36
 8	Tagbanuas	Tagbanua	PROPN	NNPS	Number=Plur	0	root	0:root|10:nsubj	_
-9	who	who	PRON	WP	PronType=Rel	10	nsubj	8:ref	Discourse=elaboration:24->23
+9	who	who	PRON	WP	PronType=Rel	10	nsubj	8:ref	Discourse=elaboration:24->23:0
 10	belong	belong	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	8:acl:relcl	_
 11	to	to	ADP	IN	_	14	case	14:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(event-43
@@ -272,7 +272,7 @@
 14	wave	wave	NOUN	NN	Number=Sing	10	obl	10:obl:to	_
 15	of	of	ADP	IN	_	16	case	16:case	_
 16	Indonesians	Indonesian	PROPN	NNPS	Number=Plur	14	nmod	14:nmod:of|18:nsubj	Entity=(person-44
-17	who	who	PRON	WP	PronType=Rel	18	nsubj	16:ref	Discourse=elaboration:25->24
+17	who	who	PRON	WP	PronType=Rel	18	nsubj	16:ref	Discourse=elaboration:25->24:0
 18	migrated	migrate	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	acl:relcl	16:acl:relcl	_
 19	to	to	ADP	IN	_	21	case	21:case	_
 20	this	this	DET	DT	Number=Sing|PronType=Dem	21	det	21:det	Bridge=place-1-Coron%2C_Palawan<place-45|Entity=(place-45
@@ -286,7 +286,7 @@
 # sent_id = GUM_voyage_coron-14
 # s_type = decl
 # text = They were a nomadic, seafaring people, living mainly by fishing and subsistence agriculture.
-1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	7:nsubj	Discourse=background:26->32|Entity=(person-44)
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	7:nsubj	Discourse=background:26->32:1|Entity=(person-44)
 2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(person-44
 4	nomadic	nomadic	ADJ	JJ	Degree=Pos	7	amod	7:amod	SpaceAfter=No
@@ -294,11 +294,11 @@
 6	seafaring	seafaring	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	people	people	NOUN	NN	Number=Sing	0	root	0:root	SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	9:punct	_
-9	living	live	VERB	VBG	VerbForm=Ger	7	acl	7:acl	Discourse=elaboration:27->26
+9	living	live	VERB	VBG	VerbForm=Ger	7	acl	7:acl	Discourse=elaboration:27->26:0
 10	mainly	mainly	ADV	RB	Degree=Pos	9	advmod	9:advmod	_
-11	by	by	ADP	IN	_	12	case	12:case	Discourse=means:28->27
+11	by	by	ADP	IN	_	12	case	12:case	Discourse=means:28->27:0
 12	fishing	fishing	NOUN	NN	Number=Sing	9	obl	9:obl:by	Entity=(abstract-47)
-13	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=joint:29->28
+13	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=joint_m:29->28:0
 14	subsistence	subsistence	NOUN	NN	Number=Sing	15	compound	15:compound	Entity=(abstract-48
 15	agriculture	agriculture	NOUN	NN	Number=Sing	12	conj	9:obl:by|12:conj:and	Entity=person-44)abstract-48)|SpaceAfter=No
 16	.	.	PUNCT	.	_	7	punct	7:punct	_
@@ -306,12 +306,12 @@
 # sent_id = GUM_voyage_coron-15
 # s_type = decl
 # text = Although they are now sedentary (with the young using cell phones, etc.), they maintain many of their old customs, traditions and beliefs.
-1	Although	although	SCONJ	IN	_	5	mark	5:mark	Discourse=concession:30->32
+1	Although	although	SCONJ	IN	_	5	mark	5:mark	Discourse=concession:30->32:0
 2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-44)
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 4	now	now	ADV	RB	_	5	advmod	5:advmod	_
 5	sedentary	sedentary	ADJ	JJ	Degree=Pos	18	advcl	18:advcl:although	_
-6	(	(	PUNCT	-LRB-	_	9	punct	9:punct	Discourse=elaboration:31->30|SpaceAfter=No
+6	(	(	PUNCT	-LRB-	_	9	punct	9:punct	Discourse=elaboration:31->30:0|SpaceAfter=No
 7	with	with	ADP	IN	_	9	case	9:case	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Bridge=person-36<person-49|Entity=(person-49
 9	young	young	ADJ	JJ	Degree=Pos	5	dep	5:dep	Entity=person-49)
@@ -322,7 +322,7 @@
 14	etc.	etc.	X	FW	Abbr=Yes	12	appos	12:appos	SpaceAfter=No
 15	)	)	PUNCT	-RRB-	_	9	punct	9:punct	SpaceAfter=No
 16	,	,	PUNCT	,	_	5	punct	5:punct	_
-17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	18:nsubj	Discourse=background:32->33|Entity=(person-44)
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	18:nsubj	Discourse=background:32->33:0|Entity=(person-44)
 18	maintain	maintain	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 19	many	many	ADJ	JJ	Degree=Pos	18	obj	18:obj	_
 20	of	of	ADP	IN	_	23	case	23:case	_
@@ -338,7 +338,7 @@
 # sent_id = GUM_voyage_coron-16
 # s_type = decl
 # text = Today, the Tagbanuas remain the dominant if not entire population of Coron.
-1	Today	today	NOUN	NN	Number=Sing	5	obl:tmod	5:obl:tmod	Discourse=joint:33->7|Entity=(time-52)|SpaceAfter=No
+1	Today	today	NOUN	NN	Number=Sing	5	obl:tmod	5:obl:tmod	Discourse=joint_m:33->7:5|Entity=(time-52)|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(person-44
 4	Tagbanuas	Tagbanua	PROPN	NNPS	Number=Plur	5	nsubj	5:nsubj|11:nsubj:xsubj	Entity=person-44)
@@ -356,7 +356,7 @@
 # sent_id = GUM_voyage_coron-17
 # s_type = decl
 # text = In 1902 that Coron was registered as a town and the name of the town was officially changed from Penon de Coron to Coron.
-1	In	in	ADP	IN	_	2	case	2:case	Discourse=joint:34->33
+1	In	in	ADP	IN	_	2	case	2:case	Discourse=joint_m:34->33:1
 2	1902	1902	NUM	CD	NumForm=Digit|NumType=Card	6	obl	6:obl:in	Entity=(time-53)
 3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Entity=(place-1-Coron%2C_Palawan
 4	Coron	Coron	PROPN	NNP	Number=Sing	6	nsubj:pass	6:nsubj:pass	Entity=place-1-Coron%2C_Palawan)
@@ -365,7 +365,7 @@
 7	as	as	ADP	IN	_	9	case	9:case	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(place-1-Coron%2C_Palawan
 9	town	town	NOUN	NN	Number=Sing	6	obl	6:obl:as	Entity=place-1-Coron%2C_Palawan)
-10	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=joint:35->34
+10	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=joint_m:35->34:0
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(abstract-8-Coron%2C_Palawan
 12	name	name	NOUN	NN	Number=Sing	18	nsubj:pass	18:nsubj:pass	_
 13	of	of	ADP	IN	_	15	case	15:case	_
@@ -385,7 +385,7 @@
 # sent_id = GUM_voyage_coron-18
 # s_type = decl
 # text = From 1939 to the outbreak of World War II, the municipality experienced the mining boom.
-1	From	from	ADP	IN	_	2	case	2:case	Discourse=sequence:36->34
+1	From	from	ADP	IN	_	2	case	2:case	Discourse=sequence_m:36->34:1
 2	1939	1939	NUM	CD	NumForm=Digit|NumType=Card	13	obl	13:obl:from	Entity=(time-55)
 3	to	to	ADP	IN	_	5	case	5:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(event-56
@@ -406,7 +406,7 @@
 # sent_id = GUM_voyage_coron-19
 # s_type = decl
 # text = Labor shifted from farming to mining.
-1	Labor	labor	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	Discourse=elaboration:37->36|Entity=(abstract-58)
+1	Labor	labor	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	Discourse=elaboration:37->36:0|Entity=(abstract-58)
 2	shifted	shift	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	from	from	ADP	IN	_	4	case	4:case	_
 4	farming	farming	NOUN	NN	Number=Sing	2	obl	2:obl:from	Bridge=abstract-48<abstract-59|Entity=(abstract-59)
@@ -417,7 +417,7 @@
 # sent_id = GUM_voyage_coron-20
 # s_type = decl
 # text = In July 1942 the Japanese occupied the mining camps and resumed operation of the manganese mines.
-1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence:38->34
+1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence_m:38->34:1
 2	July	July	PROPN	NNP	Number=Sing	6	obl	6:obl:in	Entity=(time-61-July_1942
 3	1942	1942	NUM	CD	NumForm=Digit|NumType=Card	2	nmod:tmod	2:nmod:tmod	Entity=(time-62)time-61-July_1942)
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Bridge=event-12-World_War_II<person-63|Entity=(person-63
@@ -426,7 +426,7 @@
 7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Bridge=abstract-60<place-64|Entity=(place-64
 8	mining	mining	NOUN	NN	Number=Sing	9	compound	9:compound	_
 9	camps	camp	NOUN	NNS	Number=Plur	6	obj	6:obj	Entity=place-64)
-10	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=joint:39->38
+10	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=joint_m:39->38:0
 11	resumed	resume	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	conj	6:conj:and	_
 12	operation	operation	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=(event-65
 13	of	of	ADP	IN	_	16	case	16:case	_
@@ -438,7 +438,7 @@
 # sent_id = GUM_voyage_coron-21
 # s_type = decl
 # text = On September 24, 1944, a group of Japanese ships were sunk by American warplanes in Coron waters as the ships retreated from Manila Bay.
-1	On	on	ADP	IN	_	3	case	3:case	Discourse=sequence:40->34
+1	On	on	ADP	IN	_	3	case	3:case	Discourse=sequence_m:40->34:1
 2	September	September	PROPN	NNP	Number=Sing	3	compound	3:compound	Entity=(time-68
 3	24	24	NUM	CD	NumForm=Digit|NumType=Card	13	obl	13:obl:on	SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
@@ -457,7 +457,7 @@
 17	in	in	ADP	IN	_	19	case	19:case	_
 18	Coron	Coron	PROPN	NNP	Number=Sing	19	compound	19:compound	Entity=(place-71(place-1-Coron%2C_Palawan)
 19	waters	water	NOUN	NNS	Number=Plur	16	nmod	16:nmod:in	Entity=object-70)place-71)
-20	as	as	SCONJ	IN	_	23	mark	23:mark	Discourse=circumstance:41->40
+20	as	as	SCONJ	IN	_	23	mark	23:mark	Discourse=circumstance:41->40:0
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(object-19
 22	ships	ship	NOUN	NNS	Number=Plur	23	nsubj	23:nsubj	Entity=object-19)
 23	retreated	retreat	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	advcl	13:advcl:as	_
@@ -469,7 +469,7 @@
 # sent_id = GUM_voyage_coron-22
 # s_type = decl
 # text = To this day, about 10 or 12 of these World War II Japanese shipwrecks comprise what is considered one of the best dive sites in the world.
-1	To	to	ADP	IN	_	3	case	3:case	Discourse=result:42->40
+1	To	to	ADP	IN	_	3	case	3:case	Discourse=result:42->40:1
 2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Entity=(time-52
 3	day	day	NOUN	NN	Number=Sing	16	obl	16:obl:to	Entity=time-52)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -502,7 +502,7 @@
 # sent_id = GUM_voyage_coron-23
 # s_type = decl
 # text = In 1947, large scale deep sea fishing was introduced to Coron, and the town experienced another boom, a fishing boom.
-1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence:43->34
+1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence_m:43->34:1
 2	1947	1947	NUM	CD	NumForm=Digit|NumType=Card	10	obl	10:obl:in	Entity=(time-75)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	large	large	ADJ	JJ	Degree=Pos	5	amod	5:amod	Entity=(event-76
@@ -515,7 +515,7 @@
 11	to	to	ADP	IN	_	12	case	12:case	_
 12	Coron	Coron	PROPN	NNP	Number=Sing	10	obl	10:obl:to	Entity=(place-1-Coron%2C_Palawan)|SpaceAfter=No
 13	,	,	PUNCT	,	_	17	punct	17:punct	_
-14	and	and	CCONJ	CC	_	17	cc	17:cc	Discourse=result:44->43
+14	and	and	CCONJ	CC	_	17	cc	17:cc	Discourse=result:44->43:0
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(place-1-Coron%2C_Palawan
 16	town	town	NOUN	NN	Number=Sing	17	nsubj	17:nsubj	Entity=place-1-Coron%2C_Palawan)
 17	experienced	experience	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	10:conj:and	_
@@ -530,11 +530,11 @@
 # sent_id = GUM_voyage_coron-24
 # s_type = decl
 # text = The population increased, as many people from Luzon and the Visayas came to work either as fishermen or miners.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=result:45->44|Entity=(person-79
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=result:45->44:0|Entity=(person-79
 2	population	population	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=person-79)
 3	increased	increase	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 4	,	,	PUNCT	,	_	13	punct	13:punct	_
-5	as	as	SCONJ	IN	_	13	mark	13:mark	Discourse=cause:46->45
+5	as	as	SCONJ	IN	_	13	mark	13:mark	Discourse=cause:46->45:0
 6	many	many	ADJ	JJ	Degree=Pos	7	amod	7:amod	Entity=(person-80
 7	people	person	NOUN	NNS	Number=Plur	13	nsubj	13:nsubj|15:nsubj:xsubj	_
 8	from	from	ADP	IN	_	9	case	9:case	_
@@ -543,7 +543,7 @@
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(place-82-Visayas
 12	Visayas	Visaya	PROPN	NNPS	Number=Plur	8	conj	8:conj:and|9:case	Entity=person-80)place-82-Visayas)
 13	came	come	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	advcl	3:advcl:as	_
-14	to	to	PART	TO	_	15	mark	15:mark	Discourse=purpose:47->46
+14	to	to	PART	TO	_	15	mark	15:mark	Discourse=purpose:47->46:0
 15	work	work	VERB	VB	VerbForm=Inf	13	xcomp	13:xcomp	_
 16	either	either	CCONJ	CC	_	18	cc:preconj	18:cc:preconj	_
 17	as	as	ADP	IN	_	18	case	18:case	_
@@ -555,7 +555,7 @@
 # sent_id = GUM_voyage_coron-25
 # s_type = decl
 # text = On June 17, 1950, Busuanga was officially created as a separate municipality from Coron and in 1954, Coron was further reduced by the official creation of the Municipality of Linapacan.
-1	On	on	ADP	IN	_	3	case	3:case	Discourse=sequence:48->34
+1	On	on	ADP	IN	_	3	case	3:case	Discourse=sequence_m:48->34:1
 2	June	June	PROPN	NNP	Number=Sing	3	compound	3:compound	Entity=(abstract-85
 3	17	17	NUM	CD	NumForm=Digit|NumType=Card	10	obl	10:obl:on	SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
@@ -571,7 +571,7 @@
 14	municipality	municipality	NOUN	NN	Number=Sing	10	obl	10:obl:as	_
 15	from	from	ADP	IN	_	16	case	16:case	_
 16	Coron	Coron	PROPN	NNP	Number=Sing	14	nmod	14:nmod:from	Entity=(place-1-Coron%2C_Palawan)place-87-Busuanga%2C_Palawan)
-17	and	and	CCONJ	CC	_	24	cc	24:cc	Discourse=sequence:49->34
+17	and	and	CCONJ	CC	_	24	cc	24:cc	Discourse=sequence_m:49->34:1
 18	in	in	ADP	IN	_	19	case	19:case	_
 19	1954	1954	NUM	CD	NumForm=Digit|NumType=Card	24	obl	24:obl:in	Entity=(time-88)|SpaceAfter=No
 20	,	,	PUNCT	,	_	19	punct	19:punct	_
@@ -593,7 +593,7 @@
 # sent_id = GUM_voyage_coron-26
 # s_type = decl
 # text = On September 12, 1992, Coron was finally reduced by the official creation of the Municipality of Culion.
-1	On	on	ADP	IN	_	3	case	3:case	Discourse=sequence:50->34
+1	On	on	ADP	IN	_	3	case	3:case	Discourse=sequence_m:50->34:1
 2	September	September	PROPN	NNP	Number=Sing	3	compound	3:compound	Entity=(time-91
 3	12	12	NUM	CD	NumForm=Digit|NumType=Card	10	obl	10:obl:on	SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
@@ -617,7 +617,7 @@
 # sent_id = GUM_voyage_coron-27
 # s_type = decl
 # text = In the past, Coron was virtually unknown outside of Palawan.
-1	In	in	ADP	IN	_	3	case	3:case	Discourse=background:51->53
+1	In	in	ADP	IN	_	3	case	3:case	Discourse=background:51->53:1
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(time-95
 3	past	past	NOUN	NN	Number=Sing	8	obl	8:obl:in	Entity=time-95)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -633,7 +633,7 @@
 # sent_id = GUM_voyage_coron-28
 # s_type = decl
 # text = It remains a small, quaint fishing town with laid back charm but with increasing media exposure it is growing, slowly but steadily,
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|8:nsubj:xsubj	Discourse=concession:52->53|Entity=(place-1-Coron%2C_Palawan)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|8:nsubj:xsubj	Discourse=concession:52->53:0|Entity=(place-1-Coron%2C_Palawan)
 2	remains	remain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(place-1-Coron%2C_Palawan
 4	small	small	ADJ	JJ	Degree=Pos	8	amod	8:amod	SpaceAfter=No
@@ -645,7 +645,7 @@
 10	laid	lay	VERB	VBN	Tense=Past|VerbForm=Part	12	acl	12:acl	Entity=(abstract-97
 11	back	back	ADP	RP	_	10	compound:prt	10:compound:prt	_
 12	charm	charm	NOUN	NN	Number=Sing	2	obl	2:obl:with	Entity=abstract-97)
-13	but	but	CCONJ	CC	_	20	cc	20:cc	Discourse=sequence:53->34
+13	but	but	CCONJ	CC	_	20	cc	20:cc	Discourse=sequence_m:53->34:1
 14	with	with	ADP	IN	_	17	case	17:case	_
 15	increasing	increase	VERB	VBG	VerbForm=Ger	17	acl	17:acl	_
 16	media	medium	NOUN	NNS	Number=Plur	17	compound	17:compound	Entity=(abstract-98(organization-99)
@@ -662,7 +662,7 @@
 # sent_id = GUM_voyage_coron-29
 # s_type = decl
 # text = Coron has taken an important position in the tourism industry.
-1	Coron	Coron	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=evaluation:54->53|Entity=(place-1-Coron%2C_Palawan)
+1	Coron	Coron	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=evaluation:54->53:2|Entity=(place-1-Coron%2C_Palawan)
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 4	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(abstract-100
@@ -677,7 +677,7 @@
 # sent_id = GUM_voyage_coron-30
 # s_type = decl
 # text = In the past decade, there has been a rapid influx of scuba divers and other tourists coming in, making tourism the major industry player in Coron today.
-1	In	in	ADP	IN	_	4	case	4:case	Discourse=evidence:55->54
+1	In	in	ADP	IN	_	4	case	4:case	Discourse=evidence:55->54:0
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(time-102
 3	past	past	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	decade	decade	NOUN	NN	Number=Sing	11	nmod	11:nmod:in	Entity=time-102)|SpaceAfter=No
@@ -697,7 +697,7 @@
 18	coming	come	VERB	VBG	VerbForm=Ger	11	acl	11:acl	_
 19	in	in	ADP	RP	_	18	compound:prt	18:compound:prt	SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	21:punct	_
-21	making	make	VERB	VBG	VerbForm=Ger	11	acl	11:acl	Discourse=result:56->55
+21	making	make	VERB	VBG	VerbForm=Ger	11	acl	11:acl	Discourse=result:56->55:0
 22	tourism	tourism	NOUN	NN	Number=Sing	21	obj	21:obj|26:nsubj:xsubj	Entity=(abstract-101)
 23	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(abstract-101
 24	major	major	ADJ	JJ	Degree=Pos	26	amod	26:amod	_

@@ -9,24 +9,24 @@
 # sent_id = GUM_bio_bernoulli-1
 # s_type = frag
 # text = Daniel Bernoulli
-1	Daniel	Daniel	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:1->2|Entity=(person-1-Daniel_Bernoulli
+1	Daniel	Daniel	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:1->2:6|Entity=(person-1-Daniel_Bernoulli
 2	Bernoulli	Bernoulli	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-1-Daniel_Bernoulli)
 
 # sent_id = GUM_bio_bernoulli-2
 # s_type = decl
 # text = Daniel Bernoulli FRS (German pronunciation: [bɛʁˈnʊli]; 8 February 1700 – 17 March 1782) was a Swiss mathematician and physicist and was one of the many prominent mathematicians in the Bernoulli family.
-1	Daniel	Daniel	PROPN	NNP	Number=Sing	23	nsubj	23:nsubj|25:nsubj	Discourse=ROOT:2|Entity=(person-1-Daniel_Bernoulli
+1	Daniel	Daniel	PROPN	NNP	Number=Sing	23	nsubj	23:nsubj|25:nsubj	Discourse=ROOT:2:0|Entity=(person-1-Daniel_Bernoulli
 2	Bernoulli	Bernoulli	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	FRS	FRS	PROPN	NNP	Abbr=Yes|Number=Sing	1	appos	1:appos	Entity=person-1-Daniel_Bernoulli)
-4	(	(	PUNCT	-LRB-	_	9	punct	9:punct	Discourse=preparation:3->4|SpaceAfter=No
+4	(	(	PUNCT	-LRB-	_	9	punct	9:punct	Discourse=preparation:3->4:0|SpaceAfter=No
 5	German	German	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(abstract-2
 6	pronunciation	pronunciation	NOUN	NN	Number=Sing	9	dep	9:dep	Entity=abstract-2)|SpaceAfter=No
 7	:	:	PUNCT	:	_	6	punct	6:punct	_
-8	[	[	PUNCT	-LRB-	_	9	punct	9:punct	Discourse=elaboration:4->2|SpaceAfter=No
+8	[	[	PUNCT	-LRB-	_	9	punct	9:punct	Discourse=elaboration:4->2:0|SpaceAfter=No
 9	bɛʁˈnʊli	bɛʁˈnʊli	PROPN	NNP	Number=Sing	1	parataxis	1:parataxis	Entity=(abstract-2)|SpaceAfter=No
 10	]	]	PUNCT	-RRB-	_	9	punct	9:punct	SpaceAfter=No
 11	;	;	PUNCT	:	_	12	punct	12:punct	_
-12	8	8	NUM	CD	NumForm=Digit|NumType=Card	9	parataxis	9:parataxis	Discourse=joint:5->4|Entity=(time-3
+12	8	8	NUM	CD	NumForm=Digit|NumType=Card	9	parataxis	9:parataxis	Discourse=joint_m:5->4:1|Entity=(time-3
 13	February	February	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=(time-4
 14	1700	1700	NUM	CD	NumForm=Digit|NumType=Card	12	nmod:tmod	12:nmod:tmod	Entity=(time-5)time-3)time-4)
 15	–	-	SYM	SYM	_	16	case	16:case	_
@@ -34,13 +34,13 @@
 17	March	March	PROPN	NNP	Number=Sing	16	compound	16:compound	Entity=(time-7
 18	1782	1782	NUM	CD	NumForm=Digit|NumType=Card	16	nmod:tmod	16:nmod:tmod	Entity=(time-8)time-6)time-7)|SpaceAfter=No
 19	)	)	PUNCT	-RRB-	_	9	punct	9:punct	_
-20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	23:cop	Discourse=same-unit:6->2
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	23:cop	Discourse=same-unit_m:6->2:1
 21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	23:det	Entity=(person-1-Daniel_Bernoulli
 22	Swiss	Swiss	ADJ	JJ	Degree=Pos	23	amod	23:amod	_
 23	mathematician	mathematician	NOUN	NN	Number=Sing	0	root	0:root	_
 24	and	and	CCONJ	CC	_	25	cc	25:cc	_
 25	physicist	physicist	NOUN	NN	Number=Sing	23	conj	23:conj:and	Entity=person-1-Daniel_Bernoulli)
-26	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=joint:7->2
+26	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=joint_m:7->2:2
 27	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	cop	28:cop	_
 28	one	one	NUM	CD	NumForm=Word|NumType=Card	23	conj	23:conj:and	Entity=(person-1-Daniel_Bernoulli
 29	of	of	ADP	IN	_	33	case	33:case	_
@@ -57,7 +57,7 @@
 # sent_id = GUM_bio_bernoulli-3
 # s_type = decl
 # text = He is particularly remembered for his applications of mathematics to mechanics, especially fluid mechanics, and for his pioneering work in probability and statistics.
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	4:nsubj:pass	Discourse=elaboration:8->2|Entity=(person-1-Daniel_Bernoulli)
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	4:nsubj:pass	Discourse=elaboration:8->2:3|Entity=(person-1-Daniel_Bernoulli)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 3	particularly	particularly	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
 4	remembered	remember	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -87,7 +87,7 @@
 # sent_id = GUM_bio_bernoulli-4
 # s_type = decl
 # text = His name is commemorated in the Bernoulli's principle, a particular example of the conservation of energy, which describes the mathematics of the mechanism underlying the operation of two important technologies of the 20th century: the carburetor and the airplane wing.
-1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=elaboration:9->8|Entity=(abstract-18(person-1-Daniel_Bernoulli)
+1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=elaboration:9->8:0|Entity=(abstract-18(person-1-Daniel_Bernoulli)
 2	name	name	NOUN	NN	Number=Sing	4	nsubj:pass	4:nsubj:pass	Entity=abstract-18)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 4	commemorated	commemorate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -107,14 +107,14 @@
 17	of	of	ADP	IN	_	18	case	18:case	_
 18	energy	energy	NOUN	NN	Number=Sing	16	nmod	16:nmod:of	Entity=(abstract-21)abstract-19)abstract-20)|SpaceAfter=No
 19	,	,	PUNCT	,	_	21	punct	21:punct	_
-20	which	which	PRON	WDT	PronType=Rel	21	nsubj	9:ref	Discourse=elaboration:10->9
+20	which	which	PRON	WDT	PronType=Rel	21	nsubj	9:ref	Discourse=elaboration:10->9:0
 21	describes	describe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	9:acl:relcl	_
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(abstract-22
 23	mathematics	mathematics	NOUN	NN	Number=Sing	21	obj	21:obj	_
 24	of	of	ADP	IN	_	26	case	26:case	_
 25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(abstract-23
 26	mechanism	mechanism	NOUN	NN	Number=Sing	23	nmod	23:nmod:of	_
-27	underlying	underlie	VERB	VBG	VerbForm=Ger	26	acl	26:acl	Discourse=elaboration:11->10
+27	underlying	underlie	VERB	VBG	VerbForm=Ger	26	acl	26:acl	Discourse=elaboration:11->10:0
 28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	29:det	Entity=(event-24
 29	operation	operation	NOUN	NN	Number=Sing	27	obj	27:obj	_
 30	of	of	ADP	IN	_	33	case	33:case	_
@@ -126,7 +126,7 @@
 36	20th	20th	ADJ	JJ	Degree=Pos|NumType=Ord	37	amod	37:amod	_
 37	century	century	NOUN	NN	Number=Sing	33	nmod	33:nmod:of	Entity=event-24)object-25)time-26)|SpaceAfter=No
 38	:	:	PUNCT	:	_	40	punct	40:punct	_
-39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	40:det	Bridge=object-25<object-27|Discourse=elaboration:12->11|Entity=(object-25(object-27
+39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	40:det	Bridge=object-25<object-27|Discourse=elaboration:12->11:0|Entity=(object-25(object-27
 40	carburetor	carburetor	NOUN	NN	Number=Sing	33	appos	33:appos	Entity=object-27)
 41	and	and	CCONJ	CC	_	44	cc	44:cc	_
 42	the	the	DET	DT	Definite=Def|PronType=Art	44	det	44:det	Bridge=object-25<object-28|Entity=(object-28
@@ -137,29 +137,29 @@
 # sent_id = GUM_bio_bernoulli-5
 # s_type = frag
 # text = Daniel Bernoulli
-1	Daniel	Daniel	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=background:13->2|Entity=(person-1-Daniel_Bernoulli
+1	Daniel	Daniel	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=background:13->2:4|Entity=(person-1-Daniel_Bernoulli
 2	Bernoulli	Bernoulli	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-1-Daniel_Bernoulli)
 
 # sent_id = GUM_bio_bernoulli-6
 # s_type = frag
 # text = Early life
-1	Early	early	ADJ	JJ	Degree=Pos	2	amod	2:amod	Bridge=person-1-Daniel_Bernoulli<time-29|Discourse=preparation:14->17|Entity=(time-29
+1	Early	early	ADJ	JJ	Degree=Pos	2	amod	2:amod	Bridge=person-1-Daniel_Bernoulli<time-29|Discourse=preparation:14->17:6|Entity=(time-29
 2	life	life	NOUN	NN	Number=Sing	0	root	0:root	Entity=time-29)
 
 # sent_id = GUM_bio_bernoulli-7
 # s_type = frag
 # text = Frontpage of Hydrodynamica (1738)
-1	Frontpage	frontpage	NOUN	NN	Number=Sing	0	root	0:root	Discourse=background:15->17|Entity=(object-30
+1	Frontpage	frontpage	NOUN	NN	Number=Sing	0	root	0:root	Discourse=background:15->17:5|Entity=(object-30
 2	of	of	ADP	IN	_	3	case	3:case	_
 3	Hydrodynamica	Hydrodynamica	PROPN	NNP	Number=Sing	1	nmod	1:nmod:of	Entity=(abstract-31-Hydrodynamica
-4	(	(	PUNCT	-LRB-	_	5	punct	5:punct	Discourse=elaboration:16->15|SpaceAfter=No
+4	(	(	PUNCT	-LRB-	_	5	punct	5:punct	Discourse=elaboration:16->15:0|SpaceAfter=No
 5	1738	1738	NUM	CD	NumForm=Digit|NumType=Card	3	nmod:tmod	3:nmod:tmod	Entity=(time-32)|SpaceAfter=No
 6	)	)	PUNCT	-RRB-	_	5	punct	5:punct	Entity=object-30)abstract-31-Hydrodynamica)
 
 # sent_id = GUM_bio_bernoulli-8
 # s_type = decl
 # text = Daniel Bernoulli was born in Groningen, in the Netherlands, into a family of distinguished mathematicians.
-1	Daniel	Daniel	PROPN	NNP	Number=Sing	4	nsubj:pass	4:nsubj:pass	Discourse=elaboration:17->2|Entity=(person-1-Daniel_Bernoulli
+1	Daniel	Daniel	PROPN	NNP	Number=Sing	4	nsubj:pass	4:nsubj:pass	Discourse=elaboration:17->2:5|Entity=(person-1-Daniel_Bernoulli
 2	Bernoulli	Bernoulli	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-1-Daniel_Bernoulli)
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 4	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -181,7 +181,7 @@
 # sent_id = GUM_bio_bernoulli-9
 # s_type = decl
 # text = The Bernoulli family came originally from Antwerp, at that time in the Spanish Netherlands, but emigrated to escape the Spanish persecution of the Huguenots.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=concession:18->19|Entity=(organization-10-Bernoulli_family
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=concession:18->19:1|Entity=(organization-10-Bernoulli_family
 2	Bernoulli	Bernoulli	PROPN	NNP	Number=Sing	3	compound	3:compound	_
 3	family	family	NOUN	NN	Number=Sing	4	nsubj	4:nsubj|18:nsubj	Entity=organization-10-Bernoulli_family)
 4	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -197,9 +197,9 @@
 14	Spanish	Spanish	ADJ	NNP	Degree=Pos	15	amod	15:amod	_
 15	Netherlands	Netherlands	PROPN	NNPS	Number=Plur	7	nmod	7:nmod:in	Entity=place-36-Margraviate_of_Antwerp)place-38-Spanish_Netherlands)|SpaceAfter=No
 16	,	,	PUNCT	,	_	18	punct	18:punct	_
-17	but	but	CCONJ	CC	_	18	cc	18:cc	Discourse=background:19->17
+17	but	but	CCONJ	CC	_	18	cc	18:cc	Discourse=background:19->17:0
 18	emigrated	emigrate	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	4:conj:but	_
-19	to	to	PART	TO	_	20	mark	20:mark	Discourse=purpose:20->19
+19	to	to	PART	TO	_	20	mark	20:mark	Discourse=purpose:20->19:0
 20	escape	escape	VERB	VB	VerbForm=Inf	18	advcl	18:advcl:to	_
 21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(event-39
 22	Spanish	Spanish	ADJ	JJ	Degree=Pos	23	amod	23:amod	_
@@ -212,7 +212,7 @@
 # sent_id = GUM_bio_bernoulli-10
 # s_type = decl
 # text = After a brief period in Frankfurt the family moved to Basel, in Switzerland.
-1	After	after	ADP	IN	_	4	case	4:case	Discourse=sequence:21->17
+1	After	after	ADP	IN	_	4	case	4:case	Discourse=sequence_m:21->17:1
 2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(time-41
 3	brief	brief	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	period	period	NOUN	NN	Number=Sing	9	obl	9:obl:after	_
@@ -231,14 +231,14 @@
 # sent_id = GUM_bio_bernoulli-11
 # s_type = decl
 # text = Daniel was a son of Johann Bernoulli (one of the "early developers" of calculus) and a nephew of Jacob Bernoulli (who" was the first to discover the theory of probability").
-1	Daniel	Daniel	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Discourse=elaboration:22->17|Entity=(person-1-Daniel_Bernoulli)
+1	Daniel	Daniel	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Discourse=elaboration:22->17:2|Entity=(person-1-Daniel_Bernoulli)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(person-1-Daniel_Bernoulli
 4	son	son	NOUN	NN	Number=Sing	0	root	0:root	_
 5	of	of	ADP	IN	_	6	case	6:case	_
 6	Johann	Johann	PROPN	NNP	Number=Sing	4	nmod	4:nmod:of	Entity=(person-45-Johann_Bernoulli
 7	Bernoulli	Bernoulli	PROPN	NNP	Number=Sing	6	flat	6:flat	Entity=person-45-Johann_Bernoulli)
-8	(	(	PUNCT	-LRB-	_	9	punct	9:punct	Discourse=elaboration:23->22|SpaceAfter=No
+8	(	(	PUNCT	-LRB-	_	9	punct	9:punct	Discourse=elaboration:23->22:0|SpaceAfter=No
 9	one	one	NUM	CD	NumForm=Word|NumType=Card	6	appos	6:appos	Entity=(person-45-Johann_Bernoulli
 10	of	of	ADP	IN	_	14	case	14:case	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	_
@@ -249,19 +249,19 @@
 16	of	of	ADP	IN	_	17	case	17:case	_
 17	calculus	calculus	NOUN	NN	Number=Sing	14	nmod	14:nmod:of	Entity=(abstract-46)person-45-Johann_Bernoulli)|SpaceAfter=No
 18	)	)	PUNCT	-RRB-	_	9	punct	9:punct	Entity=person-1-Daniel_Bernoulli)
-19	and	and	CCONJ	CC	_	21	cc	21:cc	Discourse=same-unit:24->22
+19	and	and	CCONJ	CC	_	21	cc	21:cc	Discourse=same-unit_m:24->22:1
 20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	Entity=(person-1-Daniel_Bernoulli
 21	nephew	nephew	NOUN	NN	Number=Sing	9	conj	6:appos|9:conj:and	_
 22	of	of	ADP	IN	_	23	case	23:case	_
 23	Jacob	Jacob	PROPN	NNP	Number=Sing	21	nmod	21:nmod:of|30:nsubj	Entity=(person-47-Jacob_Bernoulli
 24	Bernoulli	Bernoulli	PROPN	NNP	Number=Sing	23	flat	23:flat	_
-25	(	(	PUNCT	-LRB-	_	30	punct	30:punct	Discourse=elaboration:25->24|SpaceAfter=No
+25	(	(	PUNCT	-LRB-	_	30	punct	30:punct	Discourse=elaboration:25->24:0|SpaceAfter=No
 26	who	who	PRON	WP	PronType=Rel	30	nsubj	23:ref	SpaceAfter=No
 27	"	''	PUNCT	''	_	30	punct	30:punct	_
 28	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	cop	30:cop	_
 29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(person-47-Jacob_Bernoulli
 30	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	23	acl:relcl	23:acl:relcl	_
-31	to	to	PART	TO	_	32	mark	32:mark	Discourse=elaboration:26->25
+31	to	to	PART	TO	_	32	mark	32:mark	Discourse=elaboration:26->25:0
 32	discover	discover	VERB	VB	VerbForm=Inf	30	acl	30:acl:to	_
 33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	34:det	Entity=(abstract-48
 34	theory	theory	NOUN	NN	Number=Sing	32	obj	32:obj	_
@@ -274,7 +274,7 @@
 # sent_id = GUM_bio_bernoulli-12
 # s_type = decl
 # text = He had two brothers, Niklaus and Johann II.
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=background:27->28|Entity=(person-1-Daniel_Bernoulli)
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=background:27->28:0|Entity=(person-1-Daniel_Bernoulli)
 2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	two	two	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	Entity=(person-49
 4	brothers	brother	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=person-49)|SpaceAfter=No
@@ -288,7 +288,7 @@
 # sent_id = GUM_bio_bernoulli-13
 # s_type = decl
 # text = Daniel Bernoulli was described by W. W. Rouse Ball as "by far the ablest of the younger Bernoullis".
-1	Daniel	Daniel	PROPN	NNP	Number=Sing	4	nsubj:pass	4:nsubj:pass	Bridge=person-49<person-1-Daniel_Bernoulli|Discourse=joint:28->17|Entity=(person-1-Daniel_Bernoulli
+1	Daniel	Daniel	PROPN	NNP	Number=Sing	4	nsubj:pass	4:nsubj:pass	Bridge=person-49<person-1-Daniel_Bernoulli|Discourse=joint_m:28->17:3|Entity=(person-1-Daniel_Bernoulli
 2	Bernoulli	Bernoulli	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-1-Daniel_Bernoulli)
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 4	described	describe	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -313,7 +313,7 @@
 # sent_id = GUM_bio_bernoulli-14
 # s_type = decl
 # text = He is said to have had a bad relationship with his father.
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	3:nsubj:pass|6:nsubj:xsubj	Discourse=joint:29->17|Entity=(person-1-Daniel_Bernoulli)
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	3:nsubj:pass|6:nsubj:xsubj	Discourse=joint_m:29->17:3|Entity=(person-1-Daniel_Bernoulli)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	said	say	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 4	to	to	PART	TO	_	6	mark	6:mark	_
@@ -330,7 +330,7 @@
 # sent_id = GUM_bio_bernoulli-15
 # s_type = decl
 # text = Upon both of them entering and tying for first place in a scientific contest at the University of Paris, Johann, unable to bear the "shame" of being compared Daniel's equal, banned Daniel from his house.
-1	Upon	upon	SCONJ	IN	_	5	mark	5:mark	Discourse=circumstance:30->31
+1	Upon	upon	SCONJ	IN	_	5	mark	5:mark	Discourse=circumstance:30->31:1
 2	both	both	DET	DT	_	5	nsubj	5:nsubj|7:nsubj	Entity=(person-55|Split=person-45-Johann_Bernoulli<person-55,person-1-Daniel_Bernoulli<person-55
 3	of	of	ADP	IN	_	4	case	4:case	_
 4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	nmod	2:nmod:of	Entity=person-55)
@@ -350,9 +350,9 @@
 18	of	of	ADP	IN	_	19	case	19:case	_
 19	Paris	Paris	PROPN	NNP	Number=Sing	17	nmod	17:nmod:of	Entity=(place-59-Paris)event-57)organization-58-University_of_Paris)|SpaceAfter=No
 20	,	,	PUNCT	,	_	5	punct	5:punct	_
-21	Johann	Johann	PROPN	NNP	Number=Sing	37	nsubj	37:nsubj	Discourse=evidence:31->29|Entity=(person-45-Johann_Bernoulli)|SpaceAfter=No
+21	Johann	Johann	PROPN	NNP	Number=Sing	37	nsubj	37:nsubj	Discourse=evidence:31->29:0|Entity=(person-45-Johann_Bernoulli)|SpaceAfter=No
 22	,	,	PUNCT	,	_	23	punct	23:punct	_
-23	unable	unable	ADJ	JJ	Degree=Pos|Polarity=Neg	21	advcl	21:advcl	Discourse=cause:32->33
+23	unable	unable	ADJ	JJ	Degree=Pos|Polarity=Neg	21	advcl	21:advcl	Discourse=cause:32->33:0
 24	to	to	PART	TO	_	25	mark	25:mark	_
 25	bear	bear	VERB	VB	VerbForm=Inf	23	xcomp	23:xcomp	_
 26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Entity=(abstract-60
@@ -367,7 +367,7 @@
 34	's	's	PART	POS	_	33	case	33:case	Entity=person-1-Daniel_Bernoulli)
 35	equal	equal	NOUN	NN	Number=Sing	32	xcomp	32:xcomp	Entity=abstract-60)|SpaceAfter=No
 36	,	,	PUNCT	,	_	21	punct	21:punct	_
-37	banned	ban	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Discourse=same-unit:33->31
+37	banned	ban	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:33->31:0
 38	Daniel	Daniel	PROPN	NNP	Number=Sing	37	obj	37:obj	Entity=(person-1-Daniel_Bernoulli)
 39	from	from	ADP	IN	_	41	case	41:case	_
 40	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	41	nmod:poss	41:nmod:poss	Entity=(place-61(person-45-Johann_Bernoulli)
@@ -377,7 +377,7 @@
 # sent_id = GUM_bio_bernoulli-16
 # s_type = decl
 # text = Johann Bernoulli also plagiarized some key ideas from Daniel's book Hydrodynamica in his own book Hydraulica which he backdated to before Hydrodynamica.
-1	Johann	Johann	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Discourse=joint:34->31|Entity=(person-45-Johann_Bernoulli
+1	Johann	Johann	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Discourse=joint_m:34->31:2|Entity=(person-45-Johann_Bernoulli
 2	Bernoulli	Bernoulli	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-45-Johann_Bernoulli)
 3	also	also	ADV	RB	_	4	advmod	4:advmod	_
 4	plagiarized	plagiarize	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -395,7 +395,7 @@
 15	own	own	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
 16	book	book	NOUN	NN	Number=Sing	4	obl	4:obl:in|20:obj	_
 17	Hydraulica	Hydraulica	PROPN	NNP	Number=Sing	16	appos	16:appos	Entity=(abstract-63)
-18	which	which	PRON	WDT	PronType=Rel	20	obj	16:ref	Discourse=elaboration:35->34
+18	which	which	PRON	WDT	PronType=Rel	20	obj	16:ref	Discourse=elaboration:35->34:0
 19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	20:nsubj	Entity=(person-45-Johann_Bernoulli)
 20	backdated	backdate	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	acl:relcl	16:acl:relcl	_
 21	to	to	PART	TO	_	23	mark	23:mark	_
@@ -406,7 +406,7 @@
 # sent_id = GUM_bio_bernoulli-17
 # s_type = decl
 # text = Despite Daniel's attempts at reconciliation, his father carried the grudge until his death.
-1	Despite	despite	ADP	IN	_	4	case	4:case	Discourse=antithesis:36->37
+1	Despite	despite	ADP	IN	_	4	case	4:case	Discourse=antithesis:36->37:0
 2-3	Daniel's	_	_	_	_	_	_	_	_
 2	Daniel	Daniel	PROPN	NNP	Number=Sing	4	nmod:poss	4:nmod:poss	Entity=(event-64(person-1-Daniel_Bernoulli
 3	's	's	PART	POS	_	2	case	2:case	Entity=person-1-Daniel_Bernoulli)
@@ -414,7 +414,7 @@
 5	at	at	ADP	IN	_	6	case	6:case	_
 6	reconciliation	reconciliation	NOUN	NN	Number=Sing	4	nmod	4:nmod:at	Entity=(event-65)event-64)|SpaceAfter=No
 7	,	,	PUNCT	,	_	4	punct	4:punct	_
-8	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Discourse=antithesis:37->29|Entity=(person-45-Johann_Bernoulli(person-1-Daniel_Bernoulli)
+8	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Discourse=antithesis:37->29:1|Entity=(person-45-Johann_Bernoulli(person-1-Daniel_Bernoulli)
 9	father	father	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=person-45-Johann_Bernoulli)
 10	carried	carry	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(abstract-66
@@ -427,7 +427,7 @@
 # sent_id = GUM_bio_bernoulli-18
 # s_type = decl
 # text = Around schooling age, his father, Johann, encouraged him to study business, there being poor rewards awaiting a mathematician.
-1	Around	around	ADP	IN	_	3	case	3:case	Discourse=joint:38->17
+1	Around	around	ADP	IN	_	3	case	3:case	Discourse=joint_m:38->17:4
 2	schooling	school	VERB	VBG	VerbForm=Ger	3	amod	3:amod	Bridge=person-1-Daniel_Bernoulli<time-68|Entity=(time-68
 3	age	age	NOUN	NN	Number=Sing	10	obl	10:obl:around	Entity=time-68)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -442,11 +442,11 @@
 13	study	study	VERB	VB	VerbForm=Inf	10	xcomp	10:xcomp	_
 14	business	business	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=(abstract-69)|SpaceAfter=No
 15	,	,	PUNCT	,	_	17	punct	17:punct	_
-16	there	there	PRON	EX	_	17	expl	17:expl	Discourse=cause:39->38
+16	there	there	PRON	EX	_	17	expl	17:expl	Discourse=cause:39->38:0
 17	being	be	VERB	VBG	VerbForm=Ger	10	advcl	10:advcl	_
 18	poor	poor	ADJ	JJ	Degree=Pos	19	amod	19:amod	Entity=(abstract-70
 19	rewards	reward	NOUN	NNS	Number=Plur	17	nsubj	17:nsubj	_
-20	awaiting	await	VERB	VBG	VerbForm=Ger	19	acl	19:acl	Discourse=elaboration:40->39
+20	awaiting	await	VERB	VBG	VerbForm=Ger	19	acl	19:acl	Discourse=elaboration:40->39:0
 21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(person-71
 22	mathematician	mathematician	NOUN	NN	Number=Sing	20	obj	20:obj	Entity=abstract-70)person-71)|SpaceAfter=No
 23	.	.	PUNCT	.	_	10	punct	10:punct	_
@@ -454,12 +454,12 @@
 # sent_id = GUM_bio_bernoulli-19
 # s_type = decl
 # text = However, Daniel refused, because he wanted to study mathematics.
-1	However	however	ADV	RB	_	4	advmod	4:advmod	Discourse=contrast:41->38|SpaceAfter=No
+1	However	however	ADV	RB	_	4	advmod	4:advmod	Discourse=contrast_m:41->38:1|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	Daniel	Daniel	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Entity=(person-1-Daniel_Bernoulli)
 4	refused	refuse	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 5	,	,	PUNCT	,	_	8	punct	8:punct	_
-6	because	because	SCONJ	IN	_	8	mark	8:mark	Discourse=cause:42->41
+6	because	because	SCONJ	IN	_	8	mark	8:mark	Discourse=cause:42->41:0
 7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj|10:nsubj:xsubj	Entity=(person-1-Daniel_Bernoulli)
 8	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	4:advcl:because	_
 9	to	to	PART	TO	_	10	mark	10:mark	_
@@ -470,7 +470,7 @@
 # sent_id = GUM_bio_bernoulli-20
 # s_type = decl
 # text = He later gave in to his father's wish and studied business.
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj|11:nsubj	Discourse=sequence:43->38|Entity=(person-1-Daniel_Bernoulli)
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj|11:nsubj	Discourse=sequence_m:43->38:2|Entity=(person-1-Daniel_Bernoulli)
 2	later	late	ADV	RBR	Degree=Cmp	3	advmod	3:advmod	_
 3	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	in	in	ADP	RP	_	3	compound:prt	3:compound:prt	_
@@ -480,7 +480,7 @@
 7	father	father	NOUN	NN	Number=Sing	9	nmod:poss	9:nmod:poss	_
 8	's	's	PART	POS	_	7	case	7:case	Entity=person-45-Johann_Bernoulli)
 9	wish	wish	NOUN	NN	Number=Sing	3	obl	3:obl:to	Entity=abstract-73)
-10	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=joint:44->43
+10	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=joint_m:44->43:0
 11	studied	study	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	3:conj:and	_
 12	business	business	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=(abstract-69)|SpaceAfter=No
 13	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -488,7 +488,7 @@
 # sent_id = GUM_bio_bernoulli-21
 # s_type = decl
 # text = His father then asked him to study in medicine, and Daniel agreed under the condition that his father would teach him mathematics privately, which they continued for some time.
-1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=cause:45->46|Entity=(person-45-Johann_Bernoulli(person-1-Daniel_Bernoulli)
+1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=cause:45->46:1|Entity=(person-45-Johann_Bernoulli(person-1-Daniel_Bernoulli)
 2	father	father	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=person-45-Johann_Bernoulli)
 3	then	then	ADV	RB	PronType=Dem	4	advmod	4:advmod	_
 4	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -498,13 +498,13 @@
 8	in	in	ADP	IN	_	9	case	9:case	_
 9	medicine	medicine	NOUN	NN	Number=Sing	7	obl	7:obl:in	Entity=(abstract-74)|SpaceAfter=No
 10	,	,	PUNCT	,	_	13	punct	13:punct	_
-11	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=sequence:46->38
+11	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=sequence_m:46->38:2
 12	Daniel	Daniel	PROPN	NNP	Number=Sing	13	nsubj	13:nsubj	Entity=(person-1-Daniel_Bernoulli)
 13	agreed	agree	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	4:conj:and	_
 14	under	under	ADP	IN	_	16	case	16:case	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(abstract-75
 16	condition	condition	NOUN	NN	Number=Sing	13	obl	13:obl:under	_
-17	that	that	SCONJ	IN	_	21	mark	21:mark	Discourse=elaboration:47->46
+17	that	that	SCONJ	IN	_	21	mark	21:mark	Discourse=elaboration:47->46:0
 18	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(person-45-Johann_Bernoulli(person-1-Daniel_Bernoulli)
 19	father	father	NOUN	NN	Number=Sing	21	nsubj	21:nsubj	Entity=person-45-Johann_Bernoulli)
 20	would	would	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	21	aux	21:aux	_
@@ -513,7 +513,7 @@
 23	mathematics	mathematics	NOUN	NN	Number=Sing	21	obj	21:obj	Entity=(abstract-72)
 24	privately	privately	ADV	RB	Degree=Pos	21	advmod	21:advmod	Entity=abstract-75)|SpaceAfter=No
 25	,	,	PUNCT	,	_	28	punct	28:punct	_
-26	which	which	PRON	WDT	PronType=Rel	28	obj	21:ref	Discourse=elaboration:48->47
+26	which	which	PRON	WDT	PronType=Rel	28	obj	21:ref	Discourse=elaboration:48->47:0
 27	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj	28:nsubj	Entity=(person-55)
 28	continued	continue	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	acl:relcl	21:acl:relcl	_
 29	for	for	ADP	IN	_	31	case	31:case	_
@@ -524,7 +524,7 @@
 # sent_id = GUM_bio_bernoulli-22
 # s_type = decl
 # text = Daniel studied medicine at Basel, Heidelberg, and Strasbourg, and earned a PhD in anatomy and botany in 1721.
-1	Daniel	Daniel	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj|13:nsubj	Discourse=result:49->46|Entity=(person-1-Daniel_Bernoulli)
+1	Daniel	Daniel	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj|13:nsubj	Discourse=result:49->46:2|Entity=(person-1-Daniel_Bernoulli)
 2	studied	study	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	medicine	medicine	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=(abstract-74)
 4	at	at	ADP	IN	_	5	case	5:case	_
@@ -535,7 +535,7 @@
 9	and	and	CCONJ	CC	_	10	cc	10:cc	_
 10	Strasbourg	Strasbourg	PROPN	NNP	Number=Sing	5	conj	2:obl:at|5:conj:and	Entity=(place-78-Strasbourg)|SpaceAfter=No
 11	,	,	PUNCT	,	_	13	punct	13:punct	_
-12	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=result:50->49
+12	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=result:50->49:0
 13	earned	earn	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	2:conj:and	_
 14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	Entity=(abstract-79-Daniel_Bernoulli
 15	PhD	PhD	PROPN	NNP	Number=Sing	13	obj	13:obj	_
@@ -550,7 +550,7 @@
 # sent_id = GUM_bio_bernoulli-23
 # s_type = decl
 # text = He was a contemporary and close friend of Leonhard Euler.
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj|7:nsubj	Discourse=background:51->49|Entity=(person-1-Daniel_Bernoulli)
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj|7:nsubj	Discourse=background:51->49:1|Entity=(person-1-Daniel_Bernoulli)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(person-1-Daniel_Bernoulli
 4	contemporary	contemporary	ADJ	JJ	Degree=Pos	0	root	0:root	_
@@ -565,7 +565,7 @@
 # sent_id = GUM_bio_bernoulli-24
 # s_type = decl
 # text = He went to St. Petersburg in 1724 as professor of mathematics, but was very unhappy there, and a temporary illness in 1733 gave him an excuse for leaving St. Petersburg.
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=background:52->54|Entity=(person-1-Daniel_Bernoulli)
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=background:52->54:1|Entity=(person-1-Daniel_Bernoulli)
 2	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	to	to	ADP	IN	_	4	case	4:case	_
 4	St.	St.	PROPN	NNP	Abbr=Yes|Number=Sing	2	obl	2:obl:to	Entity=(place-84-Saint_Petersburg
@@ -577,13 +577,13 @@
 10	of	of	ADP	IN	_	11	case	11:case	_
 11	mathematics	mathematics	NOUN	NN	Number=Sing	9	nmod	9:nmod:of	Entity=(abstract-72)person-1-Daniel_Bernoulli)|SpaceAfter=No
 12	,	,	PUNCT	,	_	16	punct	16:punct	_
-13	but	but	CCONJ	CC	_	16	cc	16:cc	Discourse=evaluation:53->52
+13	but	but	CCONJ	CC	_	16	cc	16:cc	Discourse=evaluation:53->52:0
 14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	16:cop	_
 15	very	very	ADV	RB	_	16	advmod	16:advmod	_
 16	unhappy	unhappy	ADJ	JJ	Degree=Pos|Polarity=Neg	2	conj	2:conj:but	_
 17	there	there	ADV	RB	PronType=Dem	16	advmod	16:advmod	Entity=(place-84-Saint_Petersburg)|SpaceAfter=No
 18	,	,	PUNCT	,	_	25	punct	25:punct	_
-19	and	and	CCONJ	CC	_	25	cc	25:cc	Discourse=sequence:54->38
+19	and	and	CCONJ	CC	_	25	cc	25:cc	Discourse=sequence_m:54->38:2
 20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(event-86
 21	temporary	temporary	ADJ	JJ	Degree=Pos	22	amod	22:amod	_
 22	illness	illness	NOUN	NN	Number=Sing	25	nsubj	25:nsubj	_
@@ -593,7 +593,7 @@
 26	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	iobj	25:iobj	Entity=(person-1-Daniel_Bernoulli)
 27	an	a	DET	DT	Definite=Ind|PronType=Art	28	det	28:det	Entity=(abstract-88
 28	excuse	excuse	NOUN	NN	Number=Sing	25	obj	25:obj	_
-29	for	for	SCONJ	IN	_	30	mark	30:mark	Discourse=purpose:55->54
+29	for	for	SCONJ	IN	_	30	mark	30:mark	Discourse=purpose:55->54:0
 30	leaving	leave	VERB	VBG	VerbForm=Ger	28	acl	28:acl:for	_
 31	St.	St.	PROPN	NNP	Abbr=Yes|Number=Sing	30	obj	30:obj	Entity=(place-84-Saint_Petersburg
 32	Petersburg	Petersburg	PROPN	NNP	Number=Sing	31	flat	31:flat	Entity=abstract-88)place-84-Saint_Petersburg)|SpaceAfter=No
@@ -602,7 +602,7 @@
 # sent_id = GUM_bio_bernoulli-25
 # s_type = decl
 # text = He returned to the University of Basel, where he successively held the chairs of medicine, metaphysics, and natural philosophy until his death.
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=sequence:56->38|Entity=(person-1-Daniel_Bernoulli)
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=sequence_m:56->38:2|Entity=(person-1-Daniel_Bernoulli)
 2	returned	return	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	to	to	ADP	IN	_	5	case	5:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(organization-89-University_of_Basel
@@ -610,7 +610,7 @@
 6	of	of	ADP	IN	_	7	case	7:case	_
 7	Basel	Basel	PROPN	NNP	Number=Sing	5	nmod	5:nmod:of	Entity=(place-43-Basel)|SpaceAfter=No
 8	,	,	PUNCT	,	_	12	punct	12:punct	_
-9	where	where	SCONJ	WRB	PronType=Int	12	mark	12:mark	Discourse=elaboration:57->56
+9	where	where	SCONJ	WRB	PronType=Int	12	mark	12:mark	Discourse=elaboration:57->56:0
 10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Entity=(person-1-Daniel_Bernoulli)
 11	successively	successively	ADV	RB	Degree=Pos	12	advmod	12:advmod	_
 12	held	hold	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	2:advcl:where	_
@@ -632,7 +632,7 @@
 # sent_id = GUM_bio_bernoulli-26
 # s_type = decl
 # text = In May, 1750 he was elected a Fellow of the Royal Society.
-1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence:58->38
+1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence_m:58->38:2
 2	May	May	PROPN	NNP	Number=Sing	7	obl	7:obl:in	Entity=(time-94|SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
 4	1750	1750	NUM	CD	NumForm=Digit|NumType=Card	2	nmod:tmod	2:nmod:tmod	Entity=(time-95)time-94)
@@ -650,25 +650,25 @@
 # sent_id = GUM_bio_bernoulli-27
 # s_type = frag
 # text = Mathematical work
-1	Mathematical	mathematical	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=preparation:59->60|Entity=(abstract-97
+1	Mathematical	mathematical	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=preparation:59->60:4|Entity=(abstract-97
 2	work	work	NOUN	NN	Number=Sing	0	root	0:root	Entity=abstract-97)
 
 # sent_id = GUM_bio_bernoulli-28
 # s_type = decl
 # text = His earliest mathematical work was the Exercitationes (Mathematical Exercises), published in 1724 with the help of Goldbach.
-1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Bridge=abstract-97<abstract-98|Discourse=sequence:60->17|Entity=(abstract-98(person-1-Daniel_Bernoulli)
+1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Bridge=abstract-97<abstract-98|Discourse=sequence_m:60->17:7|Entity=(abstract-98(person-1-Daniel_Bernoulli)
 2	earliest	early	ADJ	JJS	Degree=Sup	4	amod	4:amod	_
 3	mathematical	mathematical	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	work	work	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=abstract-98)
 5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(abstract-98
 7	Exercitationes	Exercitationes	PROPN	NNP	Number=Sing	0	root	0:root	_
-8	(	(	PUNCT	-LRB-	_	10	punct	10:punct	Discourse=restatement:61->60|SpaceAfter=No
+8	(	(	PUNCT	-LRB-	_	10	punct	10:punct	Discourse=restatement:61->60:0|SpaceAfter=No
 9	Mathematical	Mathematical	ADJ	NNP	Degree=Pos	10	amod	10:amod	Entity=(abstract-98
 10	Exercises	Exercises	PROPN	NNP	Number=Sing	7	appos	7:appos	Entity=abstract-98)|SpaceAfter=No
 11	)	)	PUNCT	-RRB-	_	10	punct	10:punct	SpaceAfter=No
 12	,	,	PUNCT	,	_	13	punct	13:punct	_
-13	published	publish	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	7:acl	Discourse=elaboration:62->60
+13	published	publish	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	7:acl	Discourse=elaboration:62->60:1
 14	in	in	ADP	IN	_	15	case	15:case	_
 15	1724	1724	NUM	CD	NumForm=Digit|NumType=Card	13	obl	13:obl:in	Entity=(time-85)
 16	with	with	ADP	IN	_	18	case	18:case	_
@@ -681,7 +681,7 @@
 # sent_id = GUM_bio_bernoulli-29
 # s_type = decl
 # text = Two years later he pointed out for the first time the frequent desirability of resolving a compound motion into motions of translation and motion of rotation.
-1	Two	two	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Bridge=time-85<time-101|Discourse=sequence:63->60|Entity=(time-101
+1	Two	two	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Bridge=time-85<time-101|Discourse=sequence_m:63->60:2|Entity=(time-101
 2	years	year	NOUN	NNS	Number=Plur	3	obl:tmod	3:obl:tmod	_
 3	later	late	ADV	RBR	Degree=Cmp	5	advmod	5:advmod	Entity=time-101)
 4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-1-Daniel_Bernoulli)
@@ -694,7 +694,7 @@
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(abstract-102
 12	frequent	frequent	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
 13	desirability	desirability	NOUN	NN	Number=Sing	5	obj	5:obj	_
-14	of	of	SCONJ	IN	_	15	mark	15:mark	Discourse=elaboration:64->63
+14	of	of	SCONJ	IN	_	15	mark	15:mark	Discourse=elaboration:64->63:0
 15	resolving	resolve	VERB	VBG	VerbForm=Ger	13	acl	13:acl:of	_
 16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	Entity=(event-103
 17	compound	compound	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
@@ -712,13 +712,13 @@
 # sent_id = GUM_bio_bernoulli-30
 # s_type = decl
 # text = His chief work is Hydrodynamica, published in 1738;
-1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Discourse=sequence:65->60|Entity=(abstract-31-Hydrodynamica(person-1-Daniel_Bernoulli)
+1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Discourse=sequence_m:65->60:2|Entity=(abstract-31-Hydrodynamica(person-1-Daniel_Bernoulli)
 2	chief	chief	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	work	work	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=abstract-31-Hydrodynamica)
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 5	Hydrodynamica	Hydrodynamica	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(abstract-31-Hydrodynamica|SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	7:punct	_
-7	published	publish	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	5:acl	Discourse=elaboration:66->65
+7	published	publish	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	5:acl	Discourse=elaboration:66->65:0
 8	in	in	ADP	IN	_	9	case	9:case	_
 9	1738	1738	NUM	CD	NumForm=Digit|NumType=Card	7	obl	7:obl:in	Entity=(time-32)abstract-31-Hydrodynamica)|SpaceAfter=No
 10	;	;	PUNCT	:	_	5	punct	5:punct	_
@@ -726,7 +726,7 @@
 # sent_id = GUM_bio_bernoulli-31
 # s_type = decl
 # text = it resembles Joseph Louis Lagrange's Mécanique Analytique in being arranged so that all the results are consequences of a single principle, namely, conservation of energy.
-1	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|8:nsubj:xsubj	Discourse=elaboration:67->65|Entity=(abstract-31-Hydrodynamica)
+1	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|8:nsubj:xsubj	Discourse=elaboration:67->65:1|Entity=(abstract-31-Hydrodynamica)
 2	resembles	resemble	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	Joseph	Joseph	PROPN	NNP	Number=Sing	8	nmod:poss	8:nmod:poss	Entity=(abstract-108(person-109-Joseph_Louis_Lagrange
 4	Louis	Louis	PROPN	NNP	Number=Sing	3	flat	3:flat	_
@@ -735,10 +735,10 @@
 6	's	's	PART	POS	_	3	case	3:case	Entity=person-109-Joseph_Louis_Lagrange)
 7	Mécanique	Mécanique	PROPN	NNP	Number=Sing	8	compound	8:compound	_
 8	Analytique	Analytique	PROPN	NNP	Number=Sing	2	xcomp	2:xcomp	Entity=abstract-108)
-9	in	in	SCONJ	IN	_	11	mark	11:mark	Discourse=justify:68->67
+9	in	in	SCONJ	IN	_	11	mark	11:mark	Discourse=justify:68->67:0
 10	being	be	AUX	VBG	VerbForm=Ger	11	aux:pass	11:aux:pass	_
 11	arranged	arrange	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	advcl	2:advcl:in	_
-12	so	so	SCONJ	IN	_	18	mark	18:mark	Discourse=manner:69->68
+12	so	so	SCONJ	IN	_	18	mark	18:mark	Discourse=manner:69->68:0
 13	that	that	ADP	IN	_	12	fixed	12:fixed	_
 14	all	all	DET	PDT	_	16	det:predet	16:det:predet	Entity=(abstract-110
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	_
@@ -760,7 +760,7 @@
 # sent_id = GUM_bio_bernoulli-32
 # s_type = decl
 # text = This was followed by a memoir on the theory of the tides, to which, conjointly with the memoirs by Euler and Colin Maclaurin, a prize was awarded by the French Academy: these three memoirs contain all that was done on this subject between the publication of Isaac Newton's Philosophiae Naturalis Principia Mathematica and the investigations of Pierre-Simon Laplace.
-1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj:pass	3:nsubj:pass	Discourse=sequence:70->60|Entity=(abstract-31-Hydrodynamica)
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj:pass	3:nsubj:pass	Discourse=sequence_m:70->60:2|Entity=(abstract-31-Hydrodynamica)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	followed	follow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 4	by	by	ADP	IN	_	6	case	6:case	_
@@ -773,7 +773,7 @@
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(event-114
 12	tides	tide	NOUN	NNS	Number=Plur	9	nmod	9:nmod:of	Entity=event-114)|SpaceAfter=No
 13	,	,	PUNCT	,	_	30	punct	30:punct	_
-14	to	to	ADP	IN	_	15	case	15:case	Discourse=elaboration:71->70
+14	to	to	ADP	IN	_	15	case	15:case	Discourse=elaboration:71->70:0
 15	which	which	PRON	WDT	PronType=Rel	30	obl	6:ref	SpaceAfter=No
 16	,	,	PUNCT	,	_	15	punct	15:punct	_
 17	conjointly	conjointly	ADV	RB	Degree=Pos	20	advmod	20:advmod	_
@@ -795,12 +795,12 @@
 33	French	French	ADJ	NNP	Degree=Pos	34	amod	34:amod	_
 34	Academy	Academy	PROPN	NNP	Number=Sing	30	obl	30:obl:by	Entity=abstract-112)abstract-113)organization-118-French_Academy)|SpaceAfter=No
 35	:	:	PUNCT	:	_	39	punct	39:punct	_
-36	these	this	DET	DT	Number=Plur|PronType=Dem	38	det	38:det	Discourse=elaboration:72->70|Entity=(abstract-119|Split=abstract-31-Hydrodynamica<abstract-119,abstract-112<abstract-119,abstract-115<abstract-119
+36	these	this	DET	DT	Number=Plur|PronType=Dem	38	det	38:det	Discourse=elaboration:72->70:1|Entity=(abstract-119|Split=abstract-31-Hydrodynamica<abstract-119,abstract-112<abstract-119,abstract-115<abstract-119
 37	three	three	NUM	CD	NumForm=Word|NumType=Card	38	nummod	38:nummod	_
 38	memoirs	memoir	NOUN	NNS	Number=Plur	39	nsubj	39:nsubj	Entity=abstract-119)
 39	contain	contain	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	3:parataxis	_
 40	all	all	DET	DT	_	39	obj	39:obj|43:nsubj:pass	Entity=(abstract-120
-41	that	that	PRON	WDT	PronType=Rel	43	nsubj:pass	40:ref	Discourse=elaboration:73->72
+41	that	that	PRON	WDT	PronType=Rel	43	nsubj:pass	40:ref	Discourse=elaboration:73->72:0
 42	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	43	aux:pass	43:aux:pass	_
 43	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	40	acl:relcl	40:acl:relcl	_
 44	on	on	ADP	IN	_	46	case	46:case	_
@@ -822,14 +822,16 @@
 59	the	the	DET	DT	Definite=Def|PronType=Art	60	det	60:det	Entity=(abstract-124
 60	investigations	investigation	NOUN	NNS	Number=Plur	57	conj	49:nmod:of|57:conj:and	_
 61	of	of	ADP	IN	_	62	case	62:case	_
-62	Pierre-Simon	Pierre-Simon	PROPN	NNP	Number=Sing	60	nmod	60:nmod:of	Entity=(person-125-Pierre-Simon_Laplace
-63	Laplace	Laplace	PROPN	NNP	Number=Sing	62	flat	62:flat	Entity=abstract-120)abstract-124)person-125-Pierre-Simon_Laplace)|SpaceAfter=No
-64	.	.	PUNCT	.	_	3	punct	3:punct	_
+62	Pierre	Pierre	PROPN	NNP	Number=Sing	60	nmod	60:nmod:of	Entity=(person-125-Pierre-Simon_Laplace|SpaceAfter=No
+63	-	-	PUNCT	HYPH	_	64	punct	64:punct	SpaceAfter=No
+64	Simon	Simon	PROPN	NNP	Number=Sing	62	flat	62:flat	_
+65	Laplace	Laplace	PROPN	NNP	Number=Sing	62	flat	62:flat	Entity=abstract-120)abstract-124)person-125-Pierre-Simon_Laplace)|SpaceAfter=No
+66	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_bio_bernoulli-33
 # s_type = decl
 # text = Bernoulli also wrote a large number of papers on various mechanical questions, especially on problems connected with vibrating strings, and the solutions given by Brook Taylor and by Jean le Rond d'Alembert.
-1	Bernoulli	Bernoulli	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Bridge=person-83-Leonhard_Euler<person-1-Daniel_Bernoulli|Discourse=joint:74->60|Entity=(person-1-Daniel_Bernoulli)
+1	Bernoulli	Bernoulli	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Bridge=person-83-Leonhard_Euler<person-1-Daniel_Bernoulli|Discourse=joint_m:74->60:3|Entity=(person-1-Daniel_Bernoulli)
 2	also	also	ADV	RB	_	3	advmod	3:advmod	_
 3	wrote	write	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(abstract-126
@@ -853,7 +855,7 @@
 22	and	and	CCONJ	CC	_	24	cc	24:cc	_
 23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(abstract-130
 24	solutions	solution	NOUN	NNS	Number=Plur	16	conj	8:nmod:on|16:conj:and	_
-25	given	give	VERB	VBN	Tense=Past|VerbForm=Part	24	acl	24:acl	Discourse=elaboration:75->74
+25	given	give	VERB	VBN	Tense=Past|VerbForm=Part	24	acl	24:acl	Discourse=elaboration:75->74:0
 26	by	by	ADP	IN	_	27	case	27:case	_
 27	Brook	Brook	PROPN	NNP	Number=Sing	25	obl	25:obl:by	Entity=(person-131-Brook_Taylor
 28	Taylor	Taylor	PROPN	NNP	Number=Sing	27	flat	27:flat	Entity=person-131-Brook_Taylor)
@@ -868,7 +870,7 @@
 # sent_id = GUM_bio_bernoulli-34
 # s_type = decl
 # text = Together Bernoulli and Euler tried to discover more about the flow of fluids.
-1	Together	together	ADV	RB	Degree=Pos	5	advmod	5:advmod	Discourse=solutionhood:76->81
+1	Together	together	ADV	RB	Degree=Pos	5	advmod	5:advmod	Discourse=solutionhood:76->81:3
 2	Bernoulli	Bernoulli	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj|7:nsubj:xsubj	Bridge=person-83-Leonhard_Euler<person-133|Entity=(person-133(person-1-Daniel_Bernoulli)
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
 4	Euler	Euler	PROPN	NNP	Number=Sing	2	conj	2:conj:and|5:nsubj:xsubj|7:nsubj:xsubj	Entity=(person-83-Leonhard_Euler)person-133)
@@ -886,7 +888,7 @@
 # sent_id = GUM_bio_bernoulli-35
 # s_type = decl
 # text = In particular, they wanted to know about the relationship between the speed at which blood flows and its pressure.
-1	In	in	ADP	IN	_	2	case	2:case	Discourse=elaboration:77->76
+1	In	in	ADP	IN	_	2	case	2:case	Discourse=elaboration:77->76:0
 2	particular	particular	ADJ	JJ	Degree=Pos	5	obl	5:obl:in	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	5:nsubj|7:nsubj:xsubj	Entity=(person-133)
@@ -899,11 +901,11 @@
 11	between	between	ADP	IN	_	13	case	13:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(abstract-137
 13	speed	speed	NOUN	NN	Number=Sing	10	nmod	10:nmod:between|17:obl:at	Entity=abstract-137)
-14	at	at	ADP	IN	_	15	case	15:case	Discourse=elaboration:78->77
+14	at	at	ADP	IN	_	15	case	15:case	Discourse=elaboration:78->77:0
 15	which	which	PRON	WDT	PronType=Rel	17	obl	13:ref	_
 16	blood	blood	NOUN	NN	Number=Sing	17	nsubj	17:nsubj	Entity=(substance-138)
 17	flows	flow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	13:acl:relcl	_
-18	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=same-unit:79->77
+18	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=same-unit_m:79->77:1
 19	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(abstract-139(substance-138)
 20	pressure	pressure	NOUN	NN	Number=Sing	13	conj	10:nmod:between|13:conj:and	Entity=abstract-136)abstract-139)|SpaceAfter=No
 21	.	.	PUNCT	.	_	5	punct	5:punct	_
@@ -911,13 +913,13 @@
 # sent_id = GUM_bio_bernoulli-36
 # s_type = decl
 # text = To investigate this, Daniel experimented by puncturing the wall of a pipe with a small open ended straw and noted that the height to which the fluid rose up the straw was related to fluid's pressure in the pipe.
-1	To	to	PART	TO	_	2	mark	2:mark	Discourse=purpose:80->81
+1	To	to	PART	TO	_	2	mark	2:mark	Discourse=purpose:80->81:2
 2	investigate	investigate	VERB	VB	VerbForm=Inf	6	advcl	6:advcl:to	_
 3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	obj	2:obj	Entity=(abstract-136)|SpaceAfter=No
 4	,	,	PUNCT	,	_	2	punct	2:punct	_
-5	Daniel	Daniel	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj|21:nsubj	Discourse=joint:81->60|Entity=(person-1-Daniel_Bernoulli)
+5	Daniel	Daniel	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj|21:nsubj	Discourse=joint_m:81->60:3|Entity=(person-1-Daniel_Bernoulli)
 6	experimented	experiment	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-7	by	by	SCONJ	IN	_	8	mark	8:mark	Discourse=means:82->81
+7	by	by	SCONJ	IN	_	8	mark	8:mark	Discourse=means:82->81:0
 8	puncturing	puncture	VERB	VBG	VerbForm=Ger	6	advcl	6:advcl:by	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(object-140
 10	wall	wall	NOUN	NN	Number=Sing	8	obj	8:obj	_
@@ -930,12 +932,12 @@
 17	open	open	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
 18	ended	ended	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
 19	straw	straw	NOUN	NN	Number=Sing	8	obl	8:obl:with	Entity=object-142)
-20	and	and	CCONJ	CC	_	21	cc	21:cc	Discourse=attribution:83->84
+20	and	and	CCONJ	CC	_	21	cc	21:cc	Discourse=attribution:83->84:2
 21	noted	note	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	6:conj:and	_
-22	that	that	SCONJ	IN	_	34	mark	34:mark	Discourse=joint:84->81
+22	that	that	SCONJ	IN	_	34	mark	34:mark	Discourse=joint_m:84->81:1
 23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(abstract-143
 24	height	height	NOUN	NN	Number=Sing	34	nsubj	29:obl:to|34:nsubj	_
-25	to	to	ADP	IN	_	26	case	26:case	Discourse=elaboration:85->84
+25	to	to	ADP	IN	_	26	case	26:case	Discourse=elaboration:85->84:0
 26	which	which	PRON	WDT	PronType=Rel	29	obl	24:ref	_
 27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Entity=(substance-144
 28	fluid	fluid	NOUN	NN	Number=Sing	29	nsubj	29:nsubj	Entity=substance-144)
@@ -943,7 +945,7 @@
 30	up	up	ADP	IN	_	32	case	32:case	_
 31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	32:det	Entity=(object-142
 32	straw	straw	NOUN	NN	Number=Sing	29	obl	29:obl:up	Entity=abstract-143)object-142)
-33	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	cop	34:cop	Discourse=same-unit:86->84
+33	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	cop	34:cop	Discourse=same-unit_m:86->84:1
 34	related	related	ADJ	JJ	Degree=Pos	21	ccomp	21:ccomp	_
 35	to	to	ADP	IN	_	38	case	38:case	_
 36-37	fluid's	_	_	_	_	_	_	_	_
@@ -958,7 +960,7 @@
 # sent_id = GUM_bio_bernoulli-37
 # s_type = decl
 # text = Soon physicians all over Europe were measuring patients' blood pressure by sticking point-ended glass tubes directly into their arteries.
-1	Soon	soon	ADV	RB	Degree=Pos	7	advmod	7:advmod	Discourse=result:87->81
+1	Soon	soon	ADV	RB	Degree=Pos	7	advmod	7:advmod	Discourse=result:87->81:4
 2	physicians	physician	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	Entity=(person-146
 3	all	all	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 4	over	over	ADP	IN	_	5	case	5:case	_
@@ -970,21 +972,23 @@
 9	'	's	PART	POS	_	8	case	8:case	Entity=person-149)
 10	blood	blood	NOUN	NN	Number=Sing	11	compound	11:compound	_
 11	pressure	pressure	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=abstract-148)
-12	by	by	SCONJ	IN	_	13	mark	13:mark	Discourse=means:88->87
+12	by	by	SCONJ	IN	_	13	mark	13:mark	Discourse=means:88->87:0
 13	sticking	stick	VERB	VBG	VerbForm=Ger	7	advcl	7:advcl:by	_
-14	point-ended	point-ended	ADJ	JJ	Degree=Pos	16	amod	16:amod	Entity=(object-150
-15	glass	glass	NOUN	NN	Number=Sing	16	compound	16:compound	_
-16	tubes	tube	NOUN	NNS	Number=Plur	13	obj	13:obj	Entity=object-150)
-17	directly	directly	ADV	RB	Degree=Pos	20	advmod	20:advmod	_
-18	into	into	ADP	IN	_	20	case	20:case	_
-19	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(object-151(person-149)
-20	arteries	artery	NOUN	NNS	Number=Plur	13	obl	13:obl:into	Entity=object-151)|SpaceAfter=No
-21	.	.	PUNCT	.	_	7	punct	7:punct	_
+14	point	point	ADJ	JJ	Degree=Pos	16	compound	16:compound	Entity=(object-150|SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	14	punct	14:punct	SpaceAfter=No
+16	ended	ended	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
+17	glass	glass	NOUN	NN	Number=Sing	18	compound	18:compound	_
+18	tubes	tube	NOUN	NNS	Number=Plur	13	obj	13:obj	Entity=object-150)
+19	directly	directly	ADV	RB	Degree=Pos	22	advmod	22:advmod	_
+20	into	into	ADP	IN	_	22	case	22:case	_
+21	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	22:nmod:poss	Entity=(object-151(person-149)
+22	arteries	artery	NOUN	NNS	Number=Plur	13	obl	13:obl:into	Entity=object-151)|SpaceAfter=No
+23	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_bio_bernoulli-38
 # s_type = decl
 # text = It was not until about 170 years later, in 1896 that an Italian doctor discovered a less painful method which is still in use today.
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	8:expl	Discourse=sequence:89->81
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	8:expl	Discourse=sequence_m:89->81:5
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	8:cop	_
 3	not	not	PART	RB	Polarity=Neg	8	advmod	8:advmod	_
 4	until	until	ADP	IN	_	8	case	8:case	_
@@ -1004,7 +1008,7 @@
 18	less	less	ADV	RBR	Degree=Cmp	19	advmod	19:advmod	_
 19	painful	painful	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
 20	method	method	NOUN	NN	Number=Sing	16	obj	16:obj|23:nsubj	_
-21	which	which	PRON	WDT	PronType=Rel	23	nsubj	20:ref	Discourse=elaboration:90->89
+21	which	which	PRON	WDT	PronType=Rel	23	nsubj	20:ref	Discourse=elaboration:90->89:0
 22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	23:cop	_
 23	still	still	ADV	RB	Degree=Pos	20	acl:relcl	20:acl:relcl	_
 24	in	in	ADP	IN	_	25	case	25:case	_
@@ -1015,7 +1019,7 @@
 # sent_id = GUM_bio_bernoulli-39
 # s_type = decl
 # text = However, Bernoulli's method of measuring pressure is still used today in modern aircraft to measure the speed of the air passing the plane; that is its air speed.
-1	However	however	ADV	RB	_	11	advmod	11:advmod	Discourse=concession:91->89|SpaceAfter=No
+1	However	however	ADV	RB	_	11	advmod	11:advmod	Discourse=concession:91->89:1|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3-4	Bernoulli's	_	_	_	_	_	_	_	_
 3	Bernoulli	Bernoulli	PROPN	NNP	Number=Sing	5	nmod:poss	5:nmod:poss	Entity=(abstract-156(person-1-Daniel_Bernoulli
@@ -1031,18 +1035,18 @@
 13	in	in	ADP	IN	_	15	case	15:case	_
 14	modern	modern	ADJ	JJ	Degree=Pos	15	amod	15:amod	Entity=(object-158
 15	aircraft	aircraft	NOUN	NN	Number=Sing	11	obl	11:obl:in	Entity=object-158)
-16	to	to	PART	TO	_	17	mark	17:mark	Discourse=purpose:92->91
+16	to	to	PART	TO	_	17	mark	17:mark	Discourse=purpose:92->91:0
 17	measure	measure	VERB	VB	VerbForm=Inf	11	advcl	11:advcl:to	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(abstract-159
 19	speed	speed	NOUN	NN	Number=Sing	17	obj	17:obj	_
 20	of	of	ADP	IN	_	22	case	22:case	_
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(substance-160
 22	air	air	NOUN	NN	Number=Sing	19	nmod	19:nmod:of	_
-23	passing	pass	VERB	VBG	VerbForm=Ger	22	acl	22:acl	Discourse=elaboration:93->92
+23	passing	pass	VERB	VBG	VerbForm=Ger	22	acl	22:acl	Discourse=elaboration:93->92:0
 24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(object-158
 25	plane	plane	NOUN	NN	Number=Sing	23	obj	23:obj	Entity=abstract-159)substance-160)object-158)|SpaceAfter=No
 26	;	;	PUNCT	:	_	31	punct	31:punct	_
-27	that	that	PRON	DT	Number=Sing|PronType=Dem	31	obl:npmod	31:obl:npmod	Discourse=restatement:94->92
+27	that	that	PRON	DT	Number=Sing|PronType=Dem	31	obl:npmod	31:obl:npmod	Discourse=restatement:94->92:1
 28	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	fixed	27:fixed	_
 29	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	31:nmod:poss	Entity=(abstract-159(object-158)
 30	air	air	NOUN	NN	Number=Sing	31	compound	31:compound	_
@@ -1052,12 +1056,12 @@
 # sent_id = GUM_bio_bernoulli-40
 # s_type = decl
 # text = Taking his discoveries further, Daniel Bernoulli now returned to his earlier work on Conservation of Energy.
-1	Taking	take	VERB	VBG	VerbForm=Ger	9	advcl	9:advcl	Discourse=result:95->96
+1	Taking	take	VERB	VBG	VerbForm=Ger	9	advcl	9:advcl	Discourse=result:95->96:0
 2	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(abstract-161(person-1-Daniel_Bernoulli)
 3	discoveries	discovery	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=abstract-161)
 4	further	far	ADV	RBR	Degree=Cmp	1	advmod	1:advmod	SpaceAfter=No
 5	,	,	PUNCT	,	_	1	punct	1:punct	_
-6	Daniel	Daniel	PROPN	NNP	Number=Sing	9	nsubj	9:nsubj	Discourse=sequence:96->81|Entity=(person-1-Daniel_Bernoulli
+6	Daniel	Daniel	PROPN	NNP	Number=Sing	9	nsubj	9:nsubj	Discourse=sequence_m:96->81:5|Entity=(person-1-Daniel_Bernoulli
 7	Bernoulli	Bernoulli	PROPN	NNP	Number=Sing	6	flat	6:flat	Entity=person-1-Daniel_Bernoulli)
 8	now	now	ADV	RB	_	9	advmod	9:advmod	_
 9	returned	return	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -1074,7 +1078,7 @@
 # sent_id = GUM_bio_bernoulli-41
 # s_type = decl
 # text = It was known that a moving body exchanges its kinetic energy for potential energy when it gains height.
-1	It	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=background:97->100|Entity=(abstract-163)
+1	It	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=background:97->100:2|Entity=(abstract-163)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 4	that	that	SCONJ	IN	_	8	mark	8:mark	_
@@ -1088,7 +1092,7 @@
 12	for	for	ADP	IN	_	14	case	14:case	_
 13	potential	potential	ADJ	JJ	Degree=Pos	14	amod	14:amod	Entity=(abstract-166
 14	energy	energy	NOUN	NN	Number=Sing	8	obl	8:obl:for	Entity=abstract-166)
-15	when	when	SCONJ	WRB	PronType=Int	17	mark	17:mark	Discourse=circumstance:98->97
+15	when	when	SCONJ	WRB	PronType=Int	17	mark	17:mark	Discourse=circumstance:98->97:0
 16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	17:nsubj	Entity=(object-164)
 17	gains	gain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	8:advcl:when	_
 18	height	height	NOUN	NN	Number=Sing	17	obj	17:obj	Entity=(abstract-167)abstract-163)|SpaceAfter=No
@@ -1097,9 +1101,9 @@
 # sent_id = GUM_bio_bernoulli-42
 # s_type = decl
 # text = Daniel realised that in a similar way, a moving fluid exchanges its kinetic energy for pressure.
-1	Daniel	Daniel	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=attribution:99->100|Entity=(person-1-Daniel_Bernoulli)
+1	Daniel	Daniel	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=attribution:99->100:0|Entity=(person-1-Daniel_Bernoulli)
 2	realised	realise	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-3	that	that	SCONJ	IN	_	12	mark	12:mark	Discourse=sequence:100->81
+3	that	that	SCONJ	IN	_	12	mark	12:mark	Discourse=sequence_m:100->81:5
 4	in	in	ADP	IN	_	7	case	7:case	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(abstract-168
 6	similar	similar	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
@@ -1119,14 +1123,14 @@
 # sent_id = GUM_bio_bernoulli-43
 # s_type = decl
 # text = Mathematically this law is now written: ½ ρ u 2 + P = constant where P is pressure, ρ is the density of the fluid and u is its velocity.
-1	Mathematically	mathematically	ADV	RB	Degree=Pos	6	advmod	6:advmod	Discourse=preparation:101->102
+1	Mathematically	mathematically	ADV	RB	Degree=Pos	6	advmod	6:advmod	Discourse=preparation:101->102:1
 2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Entity=(abstract-169
 3	law	law	NOUN	NN	Number=Sing	6	nsubj:pass	6:nsubj:pass	Entity=abstract-169)
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	6:aux:pass	_
 5	now	now	ADV	RB	_	6	advmod	6:advmod	_
 6	written	write	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	SpaceAfter=No
 7	:	:	PUNCT	:	_	14	punct	14:punct	_
-8	½	½	NUM	CD	NumForm=Word|NumType=Frac	9	nummod	9:nummod	Discourse=elaboration:102->100|Entity=(abstract-169(abstract-172(abstract-173)
+8	½	½	NUM	CD	NumForm=Word|NumType=Frac	9	nummod	9:nummod	Discourse=elaboration:102->100:1|Entity=(abstract-169(abstract-172(abstract-173)
 9	ρ	ρ	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	Entity=(abstract-174)
 10	u	u	NOUN	NN	Number=Sing	9	dep	9:dep	Entity=(abstract-175)
 11	2	2	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	10:nummod	Entity=(abstract-176)
@@ -1134,19 +1138,19 @@
 13	P	P	NOUN	NN	Number=Sing	9	conj	9:conj:plus|14:nsubj	Entity=(abstract-177)abstract-172)
 14	=	=	SYM	SYM	_	6	parataxis	6:parataxis	_
 15	constant	constant	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=(abstract-172)abstract-169)
-16	where	where	SCONJ	WRB	PronType=Int	19	mark	19:mark	Discourse=background:103->102
+16	where	where	SCONJ	WRB	PronType=Int	19	mark	19:mark	Discourse=background:103->102:0
 17	P	P	NOUN	NN	Number=Sing	19	nsubj	19:nsubj	Entity=(abstract-177)
 18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	19:cop	_
 19	pressure	pressure	NOUN	NN	Number=Sing	14	advcl	14:advcl:where	Entity=(abstract-177)|SpaceAfter=No
 20	,	,	PUNCT	,	_	24	punct	24:punct	_
-21	ρ	ρ	NOUN	NN	Number=Sing	24	nsubj	24:nsubj	Bridge=abstract-173<abstract-174|Discourse=joint:104->103|Entity=(abstract-174)
+21	ρ	ρ	NOUN	NN	Number=Sing	24	nsubj	24:nsubj	Bridge=abstract-173<abstract-174|Discourse=joint_m:104->103:0|Entity=(abstract-174)
 22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	24:cop	_
 23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(abstract-174
 24	density	density	NOUN	NN	Number=Sing	19	conj	14:advcl:where|19:conj:and	_
 25	of	of	ADP	IN	_	27	case	27:case	_
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(substance-170
 27	fluid	fluid	NOUN	NN	Number=Sing	24	nmod	24:nmod:of	Entity=abstract-174)substance-170)
-28	and	and	CCONJ	CC	_	32	cc	32:cc	Discourse=joint:105->103
+28	and	and	CCONJ	CC	_	32	cc	32:cc	Discourse=joint_m:105->103:0
 29	u	u	NOUN	NN	Number=Sing	32	nsubj	32:nsubj	Entity=(abstract-175)
 30	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	32:cop	_
 31	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	32:nmod:poss	Entity=(abstract-175(substance-170)
@@ -1156,18 +1160,18 @@
 # sent_id = GUM_bio_bernoulli-44
 # s_type = decl
 # text = A consequence of this law is that if the velocity increases then the pressure falls.
-1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	Discourse=background:106->109|Entity=(abstract-178
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	Discourse=background:106->109:2|Entity=(abstract-178
 2	consequence	consequence	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	_
 3	of	of	ADP	IN	_	5	case	5:case	_
 4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	5:det	Entity=(abstract-169
 5	law	law	NOUN	NN	Number=Sing	2	nmod	2:nmod:of	Entity=abstract-178)abstract-169)
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	_
 7	that	that	SCONJ	IN	_	15	mark	15:mark	Entity=(abstract-178
-8	if	if	SCONJ	IN	_	11	mark	11:mark	Discourse=condition:107->108
+8	if	if	SCONJ	IN	_	11	mark	11:mark	Discourse=condition:107->108:0
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(abstract-175
 10	velocity	velocity	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	Entity=abstract-175)
 11	increases	increase	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	15:advcl:if	_
-12	then	then	ADV	RB	PronType=Dem	15	advmod	15:advmod	Discourse=same-unit:108->106
+12	then	then	ADV	RB	PronType=Dem	15	advmod	15:advmod	Discourse=same-unit_m:108->106:0
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(abstract-177
 14	pressure	pressure	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=abstract-177)
 15	falls	fall	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Entity=abstract-178)|SpaceAfter=No
@@ -1176,7 +1180,7 @@
 # sent_id = GUM_bio_bernoulli-45
 # s_type = decl
 # text = This is exploited by the wing of an aeroplane which is designed to create an area above its surface where the air velocity increases.
-1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj:pass	3:nsubj:pass	Discourse=elaboration:109->100|Entity=(abstract-178)
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj:pass	3:nsubj:pass	Discourse=elaboration:109->100:3|Entity=(abstract-178)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	exploited	exploit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 4	by	by	ADP	IN	_	6	case	6:case	_
@@ -1185,17 +1189,17 @@
 7	of	of	ADP	IN	_	9	case	9:case	_
 8	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(object-180
 9	aeroplane	aeroplane	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	Entity=object-180)
-10	which	which	PRON	WDT	PronType=Rel	12	nsubj:pass	6:ref	Discourse=elaboration:110->109
+10	which	which	PRON	WDT	PronType=Rel	12	nsubj:pass	6:ref	Discourse=elaboration:110->109:0
 11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	12:aux:pass	_
 12	designed	design	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl:relcl	6:acl:relcl	_
-13	to	to	PART	TO	_	14	mark	14:mark	Discourse=purpose:111->110
+13	to	to	PART	TO	_	14	mark	14:mark	Discourse=purpose:111->110:0
 14	create	create	VERB	VB	VerbForm=Inf	12	advcl	12:advcl:to	_
 15	an	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(place-181
 16	area	area	NOUN	NN	Number=Sing	14	obj	14:obj	_
 17	above	above	ADP	IN	_	19	case	19:case	_
 18	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(place-182(object-179)
 19	surface	surface	NOUN	NN	Number=Sing	16	nmod	16:nmod:above	Entity=place-181)place-182)
-20	where	where	SCONJ	WRB	PronType=Rel	24	mark	24:mark	Discourse=elaboration:112->111
+20	where	where	SCONJ	WRB	PronType=Rel	24	mark	24:mark	Discourse=elaboration:112->111:0
 21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Bridge=abstract-175<abstract-183|Entity=(abstract-183
 22	air	air	NOUN	NN	Number=Sing	23	compound	23:compound	Entity=(substance-184)
 23	velocity	velocity	NOUN	NN	Number=Sing	24	nsubj	24:nsubj	Entity=abstract-183)
@@ -1205,7 +1209,7 @@
 # sent_id = GUM_bio_bernoulli-46
 # s_type = decl
 # text = The pressure in this area is lower than that under the wing, so the wing is pushed upwards by the relatively higher pressure under the wing.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=abstract-177<abstract-185|Discourse=cause:113->114|Entity=(abstract-185
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=abstract-177<abstract-185|Discourse=cause:113->114:0|Entity=(abstract-185
 2	pressure	pressure	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	_
 3	in	in	ADP	IN	_	5	case	5:case	_
 4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	5:det	Entity=(place-181
@@ -1218,7 +1222,7 @@
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(object-179
 12	wing	wing	NOUN	NN	Number=Sing	9	nmod	9:nmod:under	Entity=abstract-186)object-179)|SpaceAfter=No
 13	,	,	PUNCT	,	_	18	punct	18:punct	_
-14	so	so	ADV	RB	_	18	advmod	18:advmod	Discourse=elaboration:114->109
+14	so	so	ADV	RB	_	18	advmod	18:advmod	Discourse=elaboration:114->109:1
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(object-179
 16	wing	wing	NOUN	NN	Number=Sing	18	nsubj:pass	18:nsubj:pass	Entity=object-179)
 17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	18:aux:pass	_

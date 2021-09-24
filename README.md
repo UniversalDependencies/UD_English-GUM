@@ -17,7 +17,7 @@ Multi-token mentions receive opening brackets on the line in which they open, su
 ```
 # global.Entity = entity-GRP-identity
 ...
-1	For	for	ADP	IN	_	4	case	4:case	Discourse=sequence:104->98
+1	For	for	ADP	IN	_	4	case	4:case	Discourse=sequence_m:104->98:2
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=abstract-173<event-188|Entity=(event-188
 3	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	4:amod	_
 4	campaign	campaign	NOUN	NN	Number=Sing	16	obl	16:obl:for	_
@@ -37,12 +37,12 @@ Multi-token mentions receive opening brackets on the line in which they open, su
 18	co-star	co-star	NOUN	NN	Number=Sing	16	obl	16:obl:with	Entity=(person-97-Jensen_Ackles
 19	Jensen	Jensen	PROPN	NNP	Number=Sing	18	appos	18:appos	_
 20	Ackles	Ackles	PROPN	NNP	Number=Sing	19	flat	19:flat	Entity=person-97-Jensen_Ackles)
-21	to	to	PART	TO	_	22	mark	22:mark	Discourse=purpose:105->104
+21	to	to	PART	TO	_	22	mark	22:mark	Discourse=purpose:105->104:0
 22	release	release	VERB	VB	VerbForm=Inf	16	advcl	16:advcl:to	_
 23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(object-190
 24	shirt	shirt	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=object-190)
-25	featuring	feature	VERB	VBG	VerbForm=Ger	24	acl	24:acl	Discourse=elaboration:106->105
-26	both	both	PRON	DT	_	25	obj	25:obj	Entity=(object-191
+25	featuring	feature	VERB	VBG	VerbForm=Ger	24	acl	24:acl	Discourse=elaboration:106->105:0
+26	both	both	DET	DT	_	25	obj	25:obj	Entity=(object-191
 27	of	of	ADP	IN	_	29	case	29:case	_
 28	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	Entity=(person-192)|Split=person-1-Jared_Padalecki<person-192,person-97-Jensen_Ackles<person-192
 29	faces	face	NOUN	NNS	Number=Plur	26	nmod	26:nmod:of	Entity=object-191)|SpaceAfter=No
@@ -50,7 +50,7 @@ Multi-token mentions receive opening brackets on the line in which they open, su
 
 The additional annotations `Split` and `Bridge` mark non-strict identity anaphora (see the [Universal Anaphora](http://universalanaphora.org/) project for more details). For example, at token 28 in the example, the pronoun "their" refers back to two non-adjacent entities, requiring a split antecedent annotation. The value `Split=person-1-Jared_Padalecki<person-192,person-97-Jensen_Ackles<person-192` indicates that `person-192` (the pronoun "their") refers back to two previous Entity annotations, with pointers separatated by a comma: `person-1-Jared_Padalecki` and `person-97-Jensen_Ackles`. Bridging anaphora is annotated when an entity has not been mentioned before, but is resolvable in context by way of a different entity: for example, token 2 has the annotation `Bridge=abstract-173<event-188`, which indicates that although `event-188` ("the second campaign...") has not been mentioned before, its identity is mediated by the previous mention of another entity, `abstract-173` (the project "Always Keep Fighting", mentioned earlier in the document, to which the campaign event belongs).
 
-Discourse annotations are given in RST dependencies following the conversion from RST constituent trees as suggested by Li et al. (2014) - for the original RST constituent parses of GUM see the [source repo](https://github.com/amir-zeldes/gum/). At the beginning of each Elementary Discourse Unit (EDU), and annotation `Discourse` gives the discourse function of the unit beginning with that token, followed by a colon, the ID of the current unit, and an arrow pointing to the ID of the parent unit in the discourse parse. For instance, `Discourse=purpose:105->104` at token 21 in the example below means that this token begins discourse unit 105, which functions as a `purpose` to unit 104, which begins at token 1 in this sentence ("Padalecki partnered with co-star Jensen Ackles --purpose-> to release a shirt..."). The unique `ROOT` node of the discourse tree has no arrow notation, e.g. `Discourse=ROOT:2` means that this token begins unit 2, which is the Central Discourse Unit (or discourse root) of the current document. 
+Discourse annotations are given in RST dependencies following the conversion from RST constituent trees as suggested by Li et al. (2014) - for the original RST constituent parses of GUM see the [source repo](https://github.com/amir-zeldes/gum/). At the beginning of each Elementary Discourse Unit (EDU), and annotation `Discourse` gives the discourse function of the unit beginning with that token, followed by a colon, the ID of the current unit, and an arrow pointing to the ID of the parent unit in the discourse parse. For instance, `Discourse=purpose:105->104:0` at token 21 in the example below means that this token begins discourse unit 105, which functions as a `purpose` to unit 104, which begins at token 1 in this sentence ("Padalecki partnered with co-star Jensen Ackles --purpose-> to release a shirt..."). The final `:0` indicates that the attachment has a depth of 0, without an intervening span in the original RST constituent tree (this information allows deterministic reconstruction of the RST constituent discourse tree from the conllu file). The unique `ROOT` node of the discourse tree has no arrow notation, e.g. `Discourse=ROOT:2:0` means that this token begins unit 2, which is the Central Discourse Unit (or discourse root) of the current document. 
 
 More information and additional annotation layers can be found in the GUM [source repo](https://github.com/amir-zeldes/gum/).
 
@@ -104,6 +104,11 @@ As a scholarly citation for the corpus in articles, please use this paper:
 ```
 
 # Changelog
+
+* 2021-09-23
+  * split hyphenated tokens to match EWT tokenization, added `HYPH` xpos tag
+  * added tree depth information in discourse dependencies, allowing reconstruction of RST constituents
+  * added `_m` suffix to multinuclear discourse dependencies (distinguishes multinuclear and satellite restatements)
 
 * 2021-05-01
   * Added MWTs

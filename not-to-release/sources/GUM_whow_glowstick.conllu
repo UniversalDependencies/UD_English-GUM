@@ -9,7 +9,7 @@
 # sent_id = GUM_whow_glowstick-1
 # s_type = inf
 # text = How to Make a Glowstick
-1	How	how	SCONJ	WRB	PronType=Int	0	root	0:root	Discourse=preparation:1->13
+1	How	how	ADV	WRB	PronType=Int	0	root	0:root	Discourse=preparation:1->13:3
 2	to	to	PART	TO	_	3	mark	3:mark	_
 3	Make	make	VERB	VB	VerbForm=Inf	1	acl	1:acl:to	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(object-1
@@ -18,7 +18,7 @@
 # sent_id = GUM_whow_glowstick-2
 # s_type = decl
 # text = Those glowing Mountain Dew videos with peroxide and baking soda are all hoaxes.
-1	Those	this	DET	DT	Number=Plur|PronType=Dem	5	det	5:det	Discourse=motivation:2->7|Entity=(abstract-2
+1	Those	this	DET	DT	Number=Plur|PronType=Dem	5	det	5:det	Discourse=motivation:2->7:1|Entity=(abstract-2
 2	glowing	glowing	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(substance-3
 3	Mountain	Mountain	PROPN	NNP	Number=Sing	4	compound	4:compound	_
 4	Dew	Dew	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=substance-3)
@@ -36,26 +36,26 @@
 # sent_id = GUM_whow_glowstick-3
 # s_type = decl
 # text = To truly make a glowstick without breaking an already-made glowstick and shoving its contents into a tube (also known as cheating), you've gotta let your inner scientist out (along with a few dollars).
-1	To	to	PART	TO	_	3	mark	3:mark	Discourse=purpose:3->7|Entity=(event-6
+1	To	to	PART	TO	_	3	mark	3:mark	Discourse=purpose:3->7:0|Entity=(event-6
 2	truly	truly	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
 3	make	make	VERB	VB	VerbForm=Inf	29	advcl	29:advcl:to	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(object-1
 5	glowstick	glowstick	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=object-1)
-6	without	without	SCONJ	IN	_	7	mark	7:mark	Discourse=manner:4->3
+6	without	without	SCONJ	IN	_	7	mark	7:mark	Discourse=manner:4->3:0
 7	breaking	break	VERB	VBG	VerbForm=Ger	3	advcl	3:advcl:without	Entity=(event-7
 8	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(object-8
 9	already	already	ADV	RB	_	11	advmod	11:advmod	SpaceAfter=No
 10	-	-	PUNCT	:	_	9	punct	9:punct	SpaceAfter=No
 11	made	make	VERB	VBN	Tense=Past|VerbForm=Part	12	amod	12:amod	_
 12	glowstick	glowstick	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=object-8)
-13	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=sequence:5->4
+13	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=sequence_m:5->4:0
 14	shoving	shove	VERB	VBG	VerbForm=Ger	7	conj	3:advcl:without|7:conj:and	_
 15	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(substance-9(object-8)
 16	contents	content	NOUN	NNS	Number=Plur	14	obj	14:obj	Entity=substance-9)
 17	into	into	ADP	IN	_	19	case	19:case	_
 18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(object-10
 19	tube	tube	NOUN	NN	Number=Sing	14	obl	14:obl:into	Entity=event-7)object-10)
-20	(	(	PUNCT	-LRB-	_	22	punct	22:punct	Discourse=evaluation:6->4|SpaceAfter=No
+20	(	(	PUNCT	-LRB-	_	22	punct	22:punct	Discourse=evaluation:6->4:1|SpaceAfter=No
 21	also	also	ADV	RB	_	22	advmod	22:advmod	_
 22	known	know	VERB	VBN	Tense=Past|VerbForm=Part	7	advcl	7:advcl	_
 23	as	as	ADP	IN	_	24	case	24:case	_
@@ -63,7 +63,7 @@
 25	)	)	PUNCT	-RRB-	_	22	punct	22:punct	Entity=event-6)|SpaceAfter=No
 26	,	,	PUNCT	,	_	3	punct	3:punct	_
 27-28	you've	_	_	_	_	_	_	_	_
-27	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	29	nsubj	29:nsubj|31:nsubj:xsubj	Discourse=preparation:7->9|Entity=(person-11)
+27	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	29	nsubj	29:nsubj|31:nsubj:xsubj	Discourse=preparation:7->9:1|Entity=(person-11)
 28	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	29	aux	29:aux	_
 29-30	gotta	_	_	_	_	_	_	_	_
 29	got	get	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
@@ -85,20 +85,20 @@
 # sent_id = GUM_whow_glowstick-4
 # s_type = imp
 # text = If you're still curious, read on.
-1	If	if	SCONJ	IN	_	5	mark	5:mark	Discourse=condition:8->9
+1	If	if	SCONJ	IN	_	5	mark	5:mark	Discourse=condition:8->9:0
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-11)|SpaceAfter=No
 3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 4	still	still	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 5	curious	curious	ADJ	JJ	Degree=Pos	7	advcl	7:advcl:if	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	5:punct	_
-7	read	read	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Discourse=background:9->13
+7	read	read	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Discourse=background:9->13:2
 8	on	on	ADV	RB	Degree=Pos	7	advmod	7:advmod	SpaceAfter=No
 9	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_whow_glowstick-5
 # s_type = decl
 # text = This is fun for anyone and everyone.
-1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=motivation:10->9|Entity=(event-6)
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=motivation:10->9:2|Entity=(event-6)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	fun	fun	ADJ	JJ	Degree=Pos	0	root	0:root	_
 4	for	for	ADP	IN	_	5	case	5:case	_
@@ -110,18 +110,18 @@
 # sent_id = GUM_whow_glowstick-6
 # s_type = multiple
 # text = Method One of Two: Using Luminol
-1	Method	method	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:11->12|Entity=(abstract-16
+1	Method	method	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:11->12:0|Entity=(abstract-16
 2	One	one	NUM	CD	NumForm=Word|NumType=Card	1	dislocated	1:dislocated	_
 3	of	of	ADP	IN	_	4	case	4:case	_
 4	Two	two	NUM	CD	NumForm=Word|NumType=Card	2	nmod	2:nmod:of	Entity=(abstract-17)abstract-16)|SpaceAfter=No
 5	:	:	PUNCT	:	_	6	punct	6:punct	_
-6	Using	use	VERB	VBG	VerbForm=Ger	1	appos	1:appos	Discourse=preparation:12->13
+6	Using	use	VERB	VBG	VerbForm=Ger	1	appos	1:appos	Discourse=preparation:12->13:1
 7	Luminol	Luminol	PROPN	NNP	Number=Sing	6	obj	6:obj	Entity=(substance-18-Luminol)
 
 # sent_id = GUM_whow_glowstick-7
 # s_type = imp
 # text = Put on protective glasses.
-1	Put	put	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	Discourse=ROOT:13
+1	Put	put	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=ROOT:13:0
 2	on	on	ADP	RP	_	1	compound:prt	1:compound:prt	_
 3	protective	protective	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(object-19
 4	glasses	glasses	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=object-19)|SpaceAfter=No
@@ -130,7 +130,7 @@
 # sent_id = GUM_whow_glowstick-8
 # s_type = imp
 # text = In addition, wear gloves to protect your skin.
-1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence:14->13
+1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence_m:14->13:0
 2	addition	addition	NOUN	NN	Number=Sing	4	obl	4:obl:in	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	wear	wear	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
@@ -145,7 +145,7 @@
 # s_type = decl
 # text = It's also a good idea to not wear your Sunday best.
 1-2	It's	_	_	_	_	_	_	_	_
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	6:expl	Discourse=sequence:15->13|Entity=(event-22)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	6:expl	Discourse=sequence_m:15->13:0|Entity=(event-22)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 3	also	also	ADV	RB	_	6	advmod	6:advmod	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(event-22
@@ -162,18 +162,18 @@
 # sent_id = GUM_whow_glowstick-10
 # s_type = imp
 # text = Throw on some old clothes or put a smock over clothes you want protected.
-1	Throw	throw	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=restatement:16->15
+1	Throw	throw	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=restatement_m:16->15:0
 2	on	on	ADP	RP	_	1	compound:prt	1:compound:prt	_
 3	some	some	DET	DT	_	5	det	5:det	Entity=(object-25
 4	old	old	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
 5	clothes	clothes	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=object-25)
-6	or	or	CCONJ	CC	_	7	cc	7:cc	Discourse=contrast:17->16
+6	or	or	CCONJ	CC	_	7	cc	7:cc	Discourse=contrast_m:17->16:0
 7	put	put	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:or	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(object-26
 9	smock	smock	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=object-26)
 10	over	over	ADP	IN	_	11	case	11:case	_
 11	clothes	clothes	NOUN	NNS	Number=Plur	7	obl	7:obl:over	Entity=(object-27
-12	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	13:nsubj|14:nsubj:xsubj	Discourse=elaboration:18->17|Entity=(person-11)
+12	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	13:nsubj|14:nsubj:xsubj	Discourse=elaboration:18->17:0|Entity=(person-11)
 13	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	acl:relcl	11:acl:relcl	_
 14	protected	protect	VERB	VBN	Tense=Past|VerbForm=Part	13	xcomp	13:xcomp	Entity=object-27)|SpaceAfter=No
 15	.	.	PUNCT	.	_	1	punct	1:punct	_
@@ -181,14 +181,14 @@
 # sent_id = GUM_whow_glowstick-11
 # s_type = decl
 # text = Some of this stuff is dangerous -- this experiment is not meant for children!
-1	Some	some	DET	DT	_	6	nsubj	6:nsubj	Discourse=cause:19->20|Entity=(substance-28
+1	Some	some	DET	DT	_	6	nsubj	6:nsubj	Discourse=cause:19->20:0|Entity=(substance-28
 2	of	of	ADP	IN	_	4	case	4:case	_
 3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Entity=(substance-29
 4	stuff	stuff	NOUN	NN	Number=Sing	1	nmod	1:nmod:of	Entity=substance-28)substance-29)
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 6	dangerous	dangerous	ADJ	JJ	Degree=Pos	0	root	0:root	_
 7	--	-	PUNCT	:	_	12	punct	12:punct	_
-8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	9:det	Discourse=preparation:20->24|Entity=(event-30
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	9:det	Discourse=preparation:20->24:3|Entity=(event-30
 9	experiment	experiment	NOUN	NN	Number=Sing	12	nsubj:pass	12:nsubj:pass	Entity=event-30)
 10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	12:aux:pass	_
 11	not	not	PART	RB	Polarity=Neg	12	advmod	12:advmod	_
@@ -200,13 +200,13 @@
 # sent_id = GUM_whow_glowstick-12
 # s_type = multiple
 # text = Listen up, kids: You'll be working with a solution that's near a 12 on the pH scale.
-1	Listen	listen	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:21->24
+1	Listen	listen	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:21->24:2
 2	up	up	ADP	RP	_	1	compound:prt	1:compound:prt	SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
 4	kids	kid	NOUN	NNS	Number=Plur	1	vocative	1:vocative	Entity=(person-11)|SpaceAfter=No
 5	:	:	PUNCT	:	_	9	punct	9:punct	_
 6-7	You'll	_	_	_	_	_	_	_	_
-6	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Discourse=motivation:22->24|Entity=(event-32(person-11)
+6	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Discourse=motivation:22->24:1|Entity=(event-32(person-11)
 7	'll	will	AUX	MD	VerbForm=Fin	9	aux	9:aux	_
 8	be	be	AUX	VB	VerbForm=Inf	9	aux	9:aux	_
 9	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	1	parataxis	1:parataxis	_
@@ -214,7 +214,7 @@
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(substance-33
 12	solution	solution	NOUN	NN	Number=Sing	9	obl	9:obl:with|14:nsubj	_
 13-14	that's	_	_	_	_	_	_	_	_
-13	that	that	PRON	WDT	PronType=Rel	14	nsubj	12:ref	Discourse=elaboration:23->22
+13	that	that	PRON	WDT	PronType=Rel	14	nsubj	12:ref	Discourse=elaboration:23->22:0
 14	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	12:acl:relcl	_
 15	near	near	ADP	IN	_	17	case	17:case	_
 16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(abstract-34
@@ -228,7 +228,7 @@
 # sent_id = GUM_whow_glowstick-13
 # s_type = decl
 # text = That basically means don't swallow it, don't put it in your eyes, don't bathe in it, and don't really expose yourself to it directly at all.
-1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=sequence:24->13|Entity=(event-32)
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=sequence_m:24->13:0|Entity=(event-32)
 2	basically	basically	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
 3	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4-5	don't	_	_	_	_	_	_	_	_
@@ -238,7 +238,7 @@
 7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	6:obj	Entity=(substance-33)|SpaceAfter=No
 8	,	,	PUNCT	,	_	11	punct	11:punct	_
 9-10	don't	_	_	_	_	_	_	_	_
-9	do	do	AUX	VB	VerbForm=Inf	11	aux	11:aux	Discourse=joint:25->24
+9	do	do	AUX	VB	VerbForm=Inf	11	aux	11:aux	Discourse=joint_m:25->24:0
 10	n't	not	PART	RB	Polarity=Neg	11	advmod	11:advmod	_
 11	put	put	VERB	VB	Person=2|VerbForm=Inf	6	conj	3:ccomp|6:conj:and	_
 12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	11:obj	Entity=(substance-33)
@@ -247,13 +247,13 @@
 15	eyes	eye	NOUN	NNS	Number=Plur	11	obl	11:obl:in	Entity=object-37)|SpaceAfter=No
 16	,	,	PUNCT	,	_	19	punct	19:punct	_
 17-18	don't	_	_	_	_	_	_	_	_
-17	do	do	AUX	VB	VerbForm=Inf	19	aux	19:aux	Discourse=joint:26->24
+17	do	do	AUX	VB	VerbForm=Inf	19	aux	19:aux	Discourse=joint_m:26->24:0
 18	n't	not	PART	RB	Polarity=Neg	19	advmod	19:advmod	_
 19	bathe	bathe	VERB	VB	Person=2|VerbForm=Inf	6	conj	3:ccomp|6:conj:and	_
 20	in	in	ADP	IN	_	21	case	21:case	_
 21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obl	19:obl:in	Entity=(substance-33)|SpaceAfter=No
 22	,	,	PUNCT	,	_	27	punct	27:punct	_
-23	and	and	CCONJ	CC	_	27	cc	27:cc	Discourse=joint:27->24
+23	and	and	CCONJ	CC	_	27	cc	27:cc	Discourse=joint_m:27->24:0
 24-25	don't	_	_	_	_	_	_	_	_
 24	do	do	AUX	VB	VerbForm=Inf	27	aux	27:aux	_
 25	n't	not	PART	RB	Polarity=Neg	27	advmod	27:advmod	_
@@ -270,21 +270,21 @@
 # sent_id = GUM_whow_glowstick-14
 # s_type = q
 # text = Got it?
-1	Got	get	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	Discourse=preparation:28->30
+1	Got	get	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	Discourse=preparation:28->30:3
 2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obj	1:obj	Entity=(abstract-36)|SpaceAfter=No
 3	?	?	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_glowstick-15
 # s_type = ger
 # text = Moving on.
-1	Moving	move	VERB	VBG	VerbForm=Ger	0	root	0:root	Discourse=joint:29->28
+1	Moving	move	VERB	VBG	VerbForm=Ger	0	root	0:root	Discourse=joint_m:29->28:0
 2	on	on	ADP	RP	_	1	compound:prt	1:compound:prt	SpaceAfter=No
 3	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_glowstick-16
 # s_type = imp
 # text = Combine 50 milliliters of hydrogen peroxide and a liter of distilled water in a mixing bowl.
-1	Combine	combine	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence:30->13
+1	Combine	combine	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence_m:30->13:0
 2	50	50	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	3:nummod	Entity=(substance-38(substance-4
 3	milliliters	milliliter	NOUN	NNS	Number=Plur	1	obj	1:obj	_
 4	of	of	ADP	IN	_	6	case	6:case	_
@@ -305,14 +305,14 @@
 # sent_id = GUM_whow_glowstick-17
 # s_type = decl
 # text = A ceramic bowl will work best, but plastic works too.
-1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Bridge=object-40<object-41|Discourse=elaboration:31->30|Entity=(object-41
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Bridge=object-40<object-41|Discourse=elaboration:31->30:0|Entity=(object-41
 2	ceramic	ceramic	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(substance-42)
 3	bowl	bowl	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=object-41)
 4	will	will	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	5	aux	5:aux	_
 5	work	work	VERB	VB	VerbForm=Inf	0	root	0:root	_
 6	best	well	ADV	RBS	Degree=Sup	5	advmod	5:advmod	SpaceAfter=No
 7	,	,	PUNCT	,	_	10	punct	10:punct	_
-8	but	but	CCONJ	CC	_	10	cc	10:cc	Discourse=concession:32->31
+8	but	but	CCONJ	CC	_	10	cc	10:cc	Discourse=concession:32->31:0
 9	plastic	plastic	ADJ	JJ	Degree=Pos	10	nsubj	10:nsubj	Entity=(substance-43)
 10	works	work	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	5:conj:but	_
 11	too	too	ADV	RB	Degree=Pos	10	advmod	10:advmod	SpaceAfter=No
@@ -321,7 +321,7 @@
 # sent_id = GUM_whow_glowstick-18
 # s_type = imp
 # text = Use funnels, measuring tubes, and basters to keep everything well-measured and well away from you.
-1	Use	use	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration:33->30
+1	Use	use	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration:33->30:1
 2	funnels	funnel	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=(object-44)|SpaceAfter=No
 3	,	,	PUNCT	,	_	5	punct	5:punct	_
 4	measuring	measuring	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(object-45
@@ -329,25 +329,27 @@
 6	,	,	PUNCT	,	_	8	punct	8:punct	_
 7	and	and	CCONJ	CC	_	8	cc	8:cc	_
 8	basters	baster	NOUN	NNS	Number=Plur	2	conj	1:obj|2:conj:and	Entity=(object-46)
-9	to	to	PART	TO	_	10	mark	10:mark	Discourse=purpose:34->33
+9	to	to	PART	TO	_	10	mark	10:mark	Discourse=purpose:34->33:0
 10	keep	keep	VERB	VB	VerbForm=Inf	8	acl	8:acl:to	_
-11	everything	everything	NOUN	NN	Number=Sing	10	obj	10:obj|12:nsubj:xsubj|15:nsubj:xsubj	Entity=(substance-47)
-12	well-measured	well-measured	ADJ	JJ	Degree=Pos	10	xcomp	10:xcomp	_
-13	and	and	CCONJ	CC	_	15	cc	15:cc	_
-14	well	well	ADV	RB	Degree=Pos	15	advmod	15:advmod	_
-15	away	away	ADV	RB	Degree=Pos	12	conj	10:xcomp|12:conj:and	_
-16	from	from	ADP	IN	_	17	case	17:case	_
-17	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	15	nmod	15:nmod:from	Entity=(person-11)|SpaceAfter=No
-18	.	.	PUNCT	.	_	1	punct	1:punct	_
+11	everything	everything	NOUN	NN	Number=Sing	10	obj	10:obj|14:nsubj:xsubj|17:nsubj:xsubj	Entity=(substance-47)
+12	well	well	ADV	RB	Degree=Pos	14	advmod	14:advmod	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	12	punct	12:punct	SpaceAfter=No
+14	measured	measure	VERB	VBN	Tense=Past|VerbForm=Part	10	xcomp	10:xcomp	_
+15	and	and	CCONJ	CC	_	17	cc	17:cc	_
+16	well	well	ADV	RB	Degree=Pos	17	advmod	17:advmod	_
+17	away	away	ADV	RB	Degree=Pos	14	conj	10:xcomp|14:conj:and	_
+18	from	from	ADP	IN	_	19	case	19:case	_
+19	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	17	nmod	17:nmod:from	Entity=(person-11)|SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_glowstick-19
 # s_type = decl
 # text = Hydrogen peroxide is used to replace the luminol's nitrogen atoms with oxygen.
-1	Hydrogen	hydrogen	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=background:35->30|Entity=(substance-4
+1	Hydrogen	hydrogen	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=background:35->30:2|Entity=(substance-4
 2	peroxide	peroxide	NOUN	NN	Number=Sing	4	nsubj:pass	4:nsubj:pass|6:nsubj:xsubj	Entity=substance-4)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 4	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
-5	to	to	PART	TO	_	6	mark	6:mark	Discourse=purpose:36->35
+5	to	to	PART	TO	_	6	mark	6:mark	Discourse=purpose:36->35:0
 6	replace	replace	VERB	VB	VerbForm=Inf	4	xcomp	4:xcomp	Entity=(event-48
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(substance-49(substance-18-Luminol
 8-9	luminol's	_	_	_	_	_	_	_	_
@@ -362,24 +364,24 @@
 # sent_id = GUM_whow_glowstick-20
 # s_type = multiple
 # text = When that happens, all the substances create a rave and start partying and electrons fly everywhere and what results?
-1	When	when	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=circumstance:37->38
+1	When	when	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=circumstance:37->38:1
 2	that	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Entity=(event-48)
 3	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	8:advcl:when	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
-5	all	all	DET	PDT	_	7	det:predet	7:det:predet	Discourse=cause:38->42|Entity=(substance-51|Split=substance-39<substance-51,substance-4<substance-51,substance-18-Luminol<substance-51,substance-50<substance-51
+5	all	all	DET	PDT	_	7	det:predet	7:det:predet	Discourse=cause:38->42:1|Entity=(substance-51|Split=substance-39<substance-51,substance-4<substance-51,substance-18-Luminol<substance-51,substance-50<substance-51
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	_
 7	substances	substance	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj|12:nsubj	Entity=substance-51)
 8	create	create	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(event-52
 10	rave	rave	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=event-52)
-11	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=restatement:39->38
+11	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=restatement_m:39->38:0
 12	start	start	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	8:conj:and	_
 13	partying	party	VERB	VBG	VerbForm=Ger	12	ccomp	12:ccomp	_
-14	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=restatement:40->38
+14	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=restatement_m:40->38:0
 15	electrons	electron	NOUN	NNS	Number=Plur	16	nsubj	16:nsubj	Entity=(substance-53)
 16	fly	fly	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	8:conj:and	_
 17	everywhere	everywhere	ADV	RB	Degree=Pos	16	advmod	16:advmod	Entity=(place-54)
-18	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=question:41->42
+18	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=question:41->42:0
 19	what	what	PRON	WP	PronType=Int	20	nsubj	20:nsubj	_
 20	results	result	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	8:conj:and	SpaceAfter=No
 21	?	?	PUNCT	.	_	8	punct	8:punct	_
@@ -387,14 +389,14 @@
 # sent_id = GUM_whow_glowstick-21
 # s_type = frag
 # text = The glow.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=object-1<abstract-55|Discourse=result:42->36|Entity=(abstract-55
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=object-1<abstract-55|Discourse=result:42->36:0|Entity=(abstract-55
 2	glow	glow	NOUN	NN	Number=Sing	0	root	0:root	Entity=abstract-55)|SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_whow_glowstick-22
 # s_type = imp
 # text = Mix .2 grams of luminol, 4 grams of sodium carbonate, .4 grams of copper sulfate, .5 grams of ammonium carbonate and 1 liter (0.3 US gal) of distilled water in a second bowl.
-1	Mix	mix	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence:43->13
+1	Mix	mix	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence_m:43->13:0
 2	.2	.2	NUM	CD	NumForm=Digit|NumType=Frac	3	nummod	3:nummod	Entity=(substance-56(substance-57(substance-58
 3	grams	gram	NOUN	NNS	Number=Plur	1	obj	1:obj	_
 4	of	of	ADP	IN	_	5	case	5:case	_
@@ -420,12 +422,12 @@
 24	and	and	CCONJ	CC	_	26	cc	26:cc	_
 25	1	1	NUM	CD	NumForm=Digit|NumType=Card	26	nummod	26:nummod	Entity=(substance-62
 26	liter	liter	NOUN	NN	Number=Sing	3	conj	1:obj|3:conj:and	_
-27	(	(	PUNCT	-LRB-	_	30	punct	30:punct	Discourse=restatement:44->43|SpaceAfter=No
+27	(	(	PUNCT	-LRB-	_	30	punct	30:punct	Discourse=restatement:44->43:0|SpaceAfter=No
 28	0.3	0.3	NUM	CD	NumForm=Digit|NumType=Frac	30	nummod	30:nummod	Entity=(substance-63
 29	US	US	PROPN	NNP	Abbr=Yes|Number=Sing	30	compound	30:compound	Entity=(place-64-United_States)
 30	gal	gal	NOUN	NN	Number=Sing	26	appos	26:appos	Entity=substance-63)|SpaceAfter=No
 31	)	)	PUNCT	-RRB-	_	30	punct	30:punct	_
-32	of	of	ADP	IN	_	34	case	34:case	Discourse=same-unit:45->43
+32	of	of	ADP	IN	_	34	case	34:case	Discourse=same-unit_m:45->43:1
 33	distilled	distil	VERB	VBN	Tense=Past|VerbForm=Part	34	amod	34:amod	_
 34	water	water	NOUN	NN	Number=Sing	26	nmod	26:nmod:of	Entity=substance-56)substance-62)
 35	in	in	ADP	IN	_	38	case	38:case	_
@@ -437,7 +439,7 @@
 # sent_id = GUM_whow_glowstick-23
 # s_type = decl
 # text = It is important not to touch the luminol.
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=motivation:46->47|Entity=(event-66)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=motivation:46->47:1|Entity=(event-66)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	important	important	ADJ	JJ	Degree=Pos	0	root	0:root	_
 4	not	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	Entity=(event-66
@@ -450,10 +452,10 @@
 # sent_id = GUM_whow_glowstick-24
 # s_type = imp
 # text = Use a funnel to make everything safe and easy.
-1	Use	use	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration:47->43
+1	Use	use	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration:47->43:2
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Entity=(object-44
 3	funnel	funnel	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=object-44)
-4	to	to	PART	TO	_	5	mark	5:mark	Discourse=purpose:48->47
+4	to	to	PART	TO	_	5	mark	5:mark	Discourse=purpose:48->47:0
 5	make	make	VERB	VB	VerbForm=Inf	3	acl	3:acl:to	_
 6	everything	everything	NOUN	NN	Number=Sing	5	obj	5:obj|7:nsubj:xsubj|9:nsubj:xsubj	Entity=(abstract-67)
 7	safe	safe	ADJ	JJ	Degree=Pos	5	xcomp	5:xcomp	_
@@ -464,7 +466,7 @@
 # sent_id = GUM_whow_glowstick-25
 # s_type = decl
 # text = Unfortunately, these hazardous chemicals will not float freely in mid-air like this graphic suggests.
-1	Unfortunately	unfortunately	ADV	RB	Degree=Pos|Polarity=Neg	8	advmod	8:advmod	Discourse=motivation:49->47|SpaceAfter=No
+1	Unfortunately	unfortunately	ADV	RB	Degree=Pos|Polarity=Neg	8	advmod	8:advmod	Discourse=motivation:49->47:2|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	these	this	DET	DT	Number=Plur|PronType=Dem	5	det	5:det	Entity=(substance-57
 4	hazardous	hazardous	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
@@ -475,7 +477,7 @@
 9	freely	freely	ADV	RB	Degree=Pos	8	advmod	8:advmod	_
 10	in	in	ADP	IN	_	11	case	11:case	_
 11	mid-air	mid-air	NOUN	NN	Number=Sing	8	obl	8:obl:in	_
-12	like	like	SCONJ	IN	_	15	mark	15:mark	Discourse=manner:50->49
+12	like	like	SCONJ	IN	_	15	mark	15:mark	Discourse=manner:50->49:0
 13	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	14:det	Entity=(abstract-68
 14	graphic	graphic	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=abstract-68)
 15	suggests	suggest	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	8:advcl:like	SpaceAfter=No
@@ -484,9 +486,9 @@
 # sent_id = GUM_whow_glowstick-26
 # s_type = decl
 # text = Yep, unless you're a coroner or some sort of crazy spy / criminologist you probably don't have this stuff lying around the house (hopefully not ...).
-1	Yep	yep	INTJ	UH	_	20	discourse	20:discourse	Discourse=preparation:51->58|SpaceAfter=No
+1	Yep	yep	INTJ	UH	_	20	discourse	20:discourse	Discourse=preparation:51->58:4|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	unless	unless	SCONJ	IN	_	7	mark	7:mark	Discourse=condition:52->53
+3	unless	unless	SCONJ	IN	_	7	mark	7:mark	Discourse=condition:52->53:2
 4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	7:nsubj|10:nsubj	Entity=(person-11)|SpaceAfter=No
 5	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(person-69
@@ -499,7 +501,7 @@
 13	spy	spy	NOUN	NN	Number=Sing	10	nmod	10:nmod:of	_
 14	/	/	CCONJ	CC	_	15	cc	15:cc	_
 15	criminologist	criminologist	NOUN	NN	Number=Sing	13	conj	10:nmod:of|13:conj:slash	Entity=person-70)
-16	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	nsubj	20:nsubj	Discourse=motivation:53->58|Entity=(person-11)
+16	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	nsubj	20:nsubj	Discourse=motivation:53->58:3|Entity=(person-11)
 17	probably	probably	ADV	RB	Degree=Pos	20	advmod	20:advmod	_
 18-19	don't	_	_	_	_	_	_	_	_
 18	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	20	aux	20:aux	_
@@ -507,11 +509,11 @@
 20	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	_
 21	this	this	DET	DT	Number=Sing|PronType=Dem	22	det	22:det	Entity=(substance-57
 22	stuff	stuff	NOUN	NN	Number=Sing	20	obj	20:obj	Entity=substance-57)
-23	lying	lie	VERB	VBG	VerbForm=Ger	22	acl	22:acl	Discourse=elaboration:54->53
+23	lying	lie	VERB	VBG	VerbForm=Ger	22	acl	22:acl	Discourse=elaboration:54->53:0
 24	around	around	ADP	IN	_	26	case	26:case	_
 25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(place-71
 26	house	house	NOUN	NN	Number=Sing	23	obl	23:obl:around	Entity=place-71)
-27	(	(	PUNCT	-LRB-	_	29	punct	29:punct	Discourse=evaluation:55->53|SpaceAfter=No
+27	(	(	PUNCT	-LRB-	_	29	punct	29:punct	Discourse=evaluation:55->53:1|SpaceAfter=No
 28	hopefully	hopefully	ADV	RB	Degree=Pos	29	advmod	29:advmod	_
 29	not	not	PART	RB	Polarity=Neg	20	advmod	20:advmod	_
 30	...	…	PUNCT	:	_	29	punct	29:punct	SpaceAfter=No
@@ -521,7 +523,7 @@
 # sent_id = GUM_whow_glowstick-27
 # s_type = imp
 # text = If you're dead set on starting your own glowstick business (worse ideas exist), try websites like Alfa Aesar [1] or Sigma Aldrich [2] for supplies.
-1	If	if	SCONJ	IN	_	5	mark	5:mark	Discourse=condition:56->58
+1	If	if	SCONJ	IN	_	5	mark	5:mark	Discourse=condition:56->58:2
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj:pass	5:nsubj:pass	Entity=(person-11)|SpaceAfter=No
 3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux:pass	5:aux:pass	_
 4	dead	dead	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
@@ -532,34 +534,34 @@
 9	own	own	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
 10	glowstick	glowstick	NOUN	NN	Number=Sing	11	compound	11:compound	Bridge=object-1<object-73|Entity=(object-73)
 11	business	business	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=abstract-72)
-12	(	(	PUNCT	-LRB-	_	15	punct	15:punct	Discourse=evaluation:57->56|SpaceAfter=No
+12	(	(	PUNCT	-LRB-	_	15	punct	15:punct	Discourse=evaluation:57->56:0|SpaceAfter=No
 13	worse	bad	ADJ	JJR	Degree=Cmp	14	amod	14:amod	Entity=(abstract-74
 14	ideas	idea	NOUN	NNS	Number=Plur	15	nsubj	15:nsubj	Entity=abstract-74)
 15	exist	exist	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	discourse	11:discourse	SpaceAfter=No
 16	)	)	PUNCT	-RRB-	_	15	punct	15:punct	SpaceAfter=No
 17	,	,	PUNCT	,	_	5	punct	5:punct	_
-18	try	try	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint:58->47
+18	try	try	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint_m:58->47:3
 19	websites	website	NOUN	NNS	Number=Plur	18	obj	18:obj	Entity=(abstract-75)
 20	like	like	ADP	IN	_	21	case	21:case	_
 21	Alfa	Alfa	PROPN	NNP	Number=Sing	19	nmod	19:nmod:like	Entity=(abstract-76-Alfa_Aesar
 22	Aesar	Aesar	PROPN	NNP	Number=Sing	21	flat	21:flat	Entity=abstract-76-Alfa_Aesar)
-23	[	[	PUNCT	-LRB-	_	24	punct	24:punct	Discourse=evidence:59->58|SpaceAfter=No
+23	[	[	PUNCT	-LRB-	_	24	punct	24:punct	Discourse=evidence:59->58:0|SpaceAfter=No
 24	1	1	NUM	CD	NumForm=Digit|NumType=Card	21	dep	21:dep	Entity=(abstract-77)|SpaceAfter=No
 25	]	]	PUNCT	-RRB-	_	24	punct	24:punct	_
-26	or	or	CCONJ	CC	_	28	cc	28:cc	Discourse=same-unit:60->58
+26	or	or	CCONJ	CC	_	28	cc	28:cc	Discourse=same-unit_m:60->58:1
 27	Sigma	sigma	NOUN	NN	Number=Sing	28	compound	28:compound	Entity=(abstract-78-Sigma-Aldrich
 28	Aldrich	Aldrich	PROPN	NNP	Number=Sing	19	conj	18:obj|19:conj:or	Entity=abstract-78-Sigma-Aldrich)
-29	[	[	PUNCT	-LRB-	_	30	punct	30:punct	Discourse=evidence:61->60|SpaceAfter=No
+29	[	[	PUNCT	-LRB-	_	30	punct	30:punct	Discourse=evidence:61->60:0|SpaceAfter=No
 30	2	2	NUM	CD	NumForm=Digit|NumType=Card	28	dep	28:dep	Entity=(abstract-79)|SpaceAfter=No
 31	]	]	PUNCT	-RRB-	_	30	punct	30:punct	_
-32	for	for	ADP	IN	_	33	case	33:case	Discourse=same-unit:62->58
+32	for	for	ADP	IN	_	33	case	33:case	Discourse=same-unit_m:62->58:1
 33	supplies	supply	NOUN	NNS	Number=Plur	18	obl	18:obl:for	Entity=(object-80)|SpaceAfter=No
 34	.	.	PUNCT	.	_	18	punct	18:punct	_
 
 # sent_id = GUM_whow_glowstick-28
 # s_type = imp
 # text = Mix everything well.
-1	Mix	mix	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence:63->13
+1	Mix	mix	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence_m:63->13:0
 2	everything	everything	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=(substance-56)
 3	well	well	ADV	RB	Degree=Pos	1	advmod	1:advmod	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
@@ -568,13 +570,13 @@
 # s_type = imp
 # text = Don't use your hands -- use a metal or plastic utensil of some sort.
 1-2	Don't	_	_	_	_	_	_	_	_
-1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=antithesis:64->65
+1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=antithesis:64->65:0
 2	n't	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	_
 3	use	use	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
 4	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(object-81(person-11)
 5	hands	hand	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=object-81)
 6	--	-	PUNCT	:	_	7	punct	7:punct	_
-7	use	use	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	3	parataxis	3:parataxis	Discourse=means:65->63
+7	use	use	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	3	parataxis	3:parataxis	Discourse=means:65->63:0
 8	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(object-82
 9	metal	metal	NOUN	NN	Number=Sing	12	compound	12:compound	_
 10	or	or	CCONJ	CC	_	11	cc	11:cc	_
@@ -588,10 +590,10 @@
 # sent_id = GUM_whow_glowstick-30
 # s_type = imp
 # text = Clean the containers and dry them thoroughly.
-1	Clean	clean	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence:66->13
+1	Clean	clean	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence_m:66->13:0
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(object-84
 3	containers	container	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=object-84)
-4	and	and	CCONJ	CC	_	5	cc	5:cc	Discourse=sequence:67->66
+4	and	and	CCONJ	CC	_	5	cc	5:cc	Discourse=sequence_m:67->66:0
 5	dry	dry	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
 6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obj	5:obj	Entity=(object-84)
 7	thoroughly	thoroughly	ADV	RB	Degree=Pos	5	advmod	5:advmod	SpaceAfter=No
@@ -601,7 +603,7 @@
 # s_type = decl
 # text = It's important to use sanitary, clean tubes for your glowsticks.
 1-2	It's	_	_	_	_	_	_	_	_
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=motivation:68->66|Entity=(event-85)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=motivation:68->66:1|Entity=(event-85)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	important	important	ADJ	JJ	Degree=Pos	0	root	0:root	_
 4	to	to	PART	TO	_	5	mark	5:mark	Entity=(event-85
@@ -618,7 +620,7 @@
 # sent_id = GUM_whow_glowstick-32
 # s_type = decl
 # text = The last thing you want is other substances interacting with the reactions you're depending on to make the substances glow.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=antithesis:69->68|Entity=(event-88
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=antithesis:69->68:0|Entity=(event-88
 2	last	last	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	thing	thing	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	_
 4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-11)
@@ -630,11 +632,11 @@
 10	with	with	ADP	IN	_	12	case	12:case	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(event-90
 12	reactions	reaction	NOUN	NNS	Number=Plur	9	obl	9:obl:with	_
-13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj|18:nsubj:xsubj|21:nsubj:xsubj	Discourse=elaboration:70->69|Entity=(person-11)|SpaceAfter=No
+13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj|18:nsubj:xsubj|21:nsubj:xsubj	Discourse=elaboration:70->69:0|Entity=(person-11)|SpaceAfter=No
 14	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
 15	depending	depend	VERB	VBG	Tense=Pres|VerbForm=Part	12	acl:relcl	12:acl:relcl	_
 16	on	on	ADP	IN	_	15	obl	15:obl	_
-17	to	to	PART	TO	_	18	mark	18:mark	Discourse=purpose:71->70
+17	to	to	PART	TO	_	18	mark	18:mark	Discourse=purpose:71->70:0
 18	make	make	VERB	VB	VerbForm=Inf	15	xcomp	15:xcomp	_
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(substance-57
 20	substances	substance	NOUN	NNS	Number=Plur	18	obj	18:obj|21:nsubj:xsubj	Entity=substance-57)
@@ -644,7 +646,7 @@
 # sent_id = GUM_whow_glowstick-33
 # s_type = imp
 # text = Set the correct lid next to each container.
-1	Set	set	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence:72->13|Entity=(event-91
+1	Set	set	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence_m:72->13:0|Entity=(event-91
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(object-92
 3	correct	correct	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	lid	lid	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=object-92)
@@ -657,7 +659,7 @@
 # sent_id = GUM_whow_glowstick-34
 # s_type = decl
 # text = This enables you to seal the containers quickly after filling.
-1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	2:nsubj	Discourse=motivation:73->72|Entity=(event-91)
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	2:nsubj	Discourse=motivation:73->72:0|Entity=(event-91)
 2	enables	enable	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	obj	2:obj|5:nsubj:xsubj	Entity=(person-11)
 4	to	to	PART	TO	_	5	mark	5:mark	_
@@ -665,7 +667,7 @@
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(object-84
 7	containers	container	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=object-84)
 8	quickly	quickly	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
-9	after	after	SCONJ	IN	_	10	mark	10:mark	Discourse=circumstance:74->73
+9	after	after	SCONJ	IN	_	10	mark	10:mark	Discourse=circumstance:74->73:0
 10	filling	fill	VERB	VBG	VerbForm=Ger	5	advcl	5:advcl:after	SpaceAfter=No
 11	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -673,7 +675,7 @@
 # s_type = decl
 # text = It's not like the glow will get up and run away from you, but still.
 1-2	It's	_	_	_	_	_	_	_	_
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=concession:75->77
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=concession:75->77:0
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	like	like	ADP	IN	_	0	root	0:root	_
@@ -682,20 +684,20 @@
 7	will	will	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	8	aux	8:aux|11:aux	_
 8	get	get	VERB	VB	VerbForm=Inf	4	ccomp	4:ccomp	_
 9	up	up	ADP	RP	_	8	compound:prt	8:compound:prt	_
-10	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=sequence:76->75
+10	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=sequence_m:76->75:0
 11	run	run	VERB	VB	VerbForm=Inf	8	conj	4:ccomp|8:conj:and	_
 12	away	away	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
 13	from	from	ADP	IN	_	14	case	14:case	_
 14	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	11	obl	11:obl:from	Entity=(person-11)|SpaceAfter=No
 15	,	,	PUNCT	,	_	17	punct	17:punct	_
-16	but	but	CCONJ	CC	_	17	cc	17:cc	Discourse=restatement:77->72
+16	but	but	CCONJ	CC	_	17	cc	17:cc	Discourse=restatement:77->72:1
 17	still	still	ADV	RB	Degree=Pos	4	conj	4:conj:but	SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_whow_glowstick-36
 # s_type = imp
 # text = Combine equal amounts of the first and second solution in the container and close the bottles.
-1	Combine	combine	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence:78->13
+1	Combine	combine	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence_m:78->13:0
 2	equal	equal	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(substance-93
 3	amounts	amount	NOUN	NNS	Number=Plur	1	obj	1:obj	_
 4	of	of	ADP	IN	_	9	case	9:case	_
@@ -707,7 +709,7 @@
 10	in	in	ADP	IN	_	12	case	12:case	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(object-84
 12	container	container	NOUN	NN	Number=Sing	1	obl	1:obl:in	Entity=object-84)
-13	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=sequence:79->13
+13	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=sequence_m:79->13:0
 14	close	close	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(object-95
 16	bottles	bottle	NOUN	NNS	Number=Plur	14	obj	14:obj	Entity=object-95)|SpaceAfter=No
@@ -716,10 +718,10 @@
 # sent_id = GUM_whow_glowstick-37
 # s_type = imp
 # text = Shake them up once the lids are on tightly.
-1	Shake	shake	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence:80->13
+1	Shake	shake	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence_m:80->13:0
 2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obj	1:obj	Entity=(object-95)
 3	up	up	ADP	RP	_	1	compound:prt	1:compound:prt	_
-4	once	once	SCONJ	IN	_	8	mark	8:mark	Discourse=condition:81->80
+4	once	once	SCONJ	IN	_	8	mark	8:mark	Discourse=condition:81->80:0
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Bridge=object-95<object-96|Entity=(object-96
 6	lids	lid	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj	Entity=object-96)
 7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
@@ -730,7 +732,7 @@
 # sent_id = GUM_whow_glowstick-38
 # s_type = imp
 # text = Then turn off the lights!
-1	Then	then	ADV	RB	PronType=Dem	2	advmod	2:advmod	Discourse=sequence:82->13
+1	Then	then	ADV	RB	PronType=Dem	2	advmod	2:advmod	Discourse=sequence_m:82->13:0
 2	turn	turn	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
 3	off	off	ADP	RP	_	2	compound:prt	2:compound:prt	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(abstract-97
@@ -740,7 +742,7 @@
 # sent_id = GUM_whow_glowstick-39
 # s_type = decl
 # text = If it's not already glowing, something went wrong.
-1	If	if	SCONJ	IN	_	6	mark	6:mark	Discourse=condition:83->84
+1	If	if	SCONJ	IN	_	6	mark	6:mark	Discourse=condition:83->84:0
 2-3	it's	_	_	_	_	_	_	_	_
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(object-95)
 3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
@@ -748,7 +750,7 @@
 5	already	already	ADV	RB	_	6	advmod	6:advmod	_
 6	glowing	glow	VERB	VBG	Tense=Pres|VerbForm=Part	9	advcl	9:advcl:if	SpaceAfter=No
 7	,	,	PUNCT	,	_	6	punct	6:punct	_
-8	something	something	NOUN	NN	Number=Sing	9	nsubj	9:nsubj|10:nsubj:xsubj	Discourse=motivation:84->85
+8	something	something	NOUN	NN	Number=Sing	9	nsubj	9:nsubj|10:nsubj:xsubj	Discourse=motivation:84->85:0
 9	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 10	wrong	wrong	ADJ	JJ	Degree=Pos	9	xcomp	9:xcomp	SpaceAfter=No
 11	.	.	PUNCT	.	_	9	punct	9:punct	_
@@ -756,15 +758,15 @@
 # sent_id = GUM_whow_glowstick-40
 # s_type = imp
 # text = Do over!
-1	Do	do	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence:85->13
+1	Do	do	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence_m:85->13:0
 2	over	over	ADP	RP	_	1	compound:prt	1:compound:prt	SpaceAfter=No
 3	!	!	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_glowstick-41
 # s_type = imp
 # text = Watch as the chemical compound creates a colorful glow.
-1	Watch	watch	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence:86->13
-2	as	as	SCONJ	IN	_	6	mark	6:mark	Discourse=circumstance:87->86
+1	Watch	watch	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence_m:86->13:0
+2	as	as	SCONJ	IN	_	6	mark	6:mark	Discourse=circumstance:87->86:0
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(substance-93
 4	chemical	chemical	NOUN	NN	Number=Sing	5	compound	5:compound	_
 5	compound	compound	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=substance-93)
@@ -777,13 +779,13 @@
 # sent_id = GUM_whow_glowstick-42
 # s_type = imp
 # text = Take your glowsticks to the party and charge your friends loads of money for them!
-1	Take	take	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence:88->13
+1	Take	take	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence_m:88->13:0
 2	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(object-87(person-11)
 3	glowsticks	glowstick	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=object-87)
 4	to	to	ADP	IN	_	6	case	6:case	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(event-98
 6	party	party	NOUN	NN	Number=Sing	1	obl	1:obl:to	Entity=event-98)
-7	and	and	CCONJ	CC	_	8	cc	8:cc	Discourse=sequence:89->88
+7	and	and	CCONJ	CC	_	8	cc	8:cc	Discourse=sequence_m:89->88:0
 8	charge	charge	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
 9	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(person-99(person-11)
 10	friends	friend	NOUN	NNS	Number=Plur	8	obj	8:obj	Entity=person-99)
@@ -797,7 +799,7 @@
 # sent_id = GUM_whow_glowstick-43
 # s_type = imp
 # text = But act quickly ...
-1	But	but	CCONJ	CC	_	2	cc	2:cc	Discourse=concession:90->88
+1	But	but	CCONJ	CC	_	2	cc	2:cc	Discourse=concession:90->88:1
 2	act	act	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
 3	quickly	quickly	ADV	RB	Degree=Pos	2	advmod	2:advmod	_
 4	...	…	PUNCT	:	_	2	punct	2:punct	_
@@ -805,7 +807,7 @@
 # sent_id = GUM_whow_glowstick-44
 # s_type = decl
 # text = the glow won't last very long.
-1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=motivation:91->90|Entity=(abstract-55
+1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=motivation:91->90:0|Entity=(abstract-55
 2	glow	glow	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=abstract-55)
 3-4	won't	_	_	_	_	_	_	_	_
 3	wo	will	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	5	aux	5:aux	_
@@ -818,14 +820,14 @@
 # sent_id = GUM_whow_glowstick-45
 # s_type = q
 # text = Expectations crushed?
-1	Expectations	expectation	NOUN	NNS	Number=Plur	2	nsubj:pass	2:nsubj:pass	Discourse=question:92->93|Entity=(abstract-101)
+1	Expectations	expectation	NOUN	NNS	Number=Plur	2	nsubj:pass	2:nsubj:pass	Discourse=question:92->93:1|Entity=(abstract-101)
 2	crushed	crush	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No
 3	?	?	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_whow_glowstick-46
 # s_type = other
 # text = Method two to the rescue!
-1	Method	method	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Discourse=contrast:93->91|Entity=(abstract-102
+1	Method	method	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Discourse=contrast_m:93->91:0|Entity=(abstract-102
 2	two	two	NUM	CD	NumForm=Word|NumType=Card	1	dep	1:dep	Entity=abstract-102)
 3	to	to	ADP	IN	_	5	case	5:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	_
@@ -835,9 +837,9 @@
 # sent_id = GUM_whow_glowstick-47
 # s_type = decl
 # text = The reaction that the luminol and hydrogen peroxide creates doesn't last long at all -- maybe a couple of minutes.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration:94->93|Entity=(event-103
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration:94->93:0|Entity=(event-103
 2	reaction	reaction	NOUN	NN	Number=Sing	12	nsubj	9:obj|12:nsubj	_
-3	that	that	PRON	WDT	PronType=Rel	9	obj	2:ref	Discourse=elaboration:95->94
+3	that	that	PRON	WDT	PronType=Rel	9	obj	2:ref	Discourse=elaboration:95->94:0
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(substance-18-Luminol
 5	luminol	luminol	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	Entity=substance-18-Luminol)
 6	and	and	CCONJ	CC	_	8	cc	8:cc	_
@@ -845,14 +847,14 @@
 8	peroxide	peroxide	NOUN	NN	Number=Sing	5	conj	5:conj:and|9:nsubj	Entity=substance-4)
 9	creates	create	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	Entity=event-103)
 10-11	doesn't	_	_	_	_	_	_	_	_
-10	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	12:aux	Discourse=same-unit:96->94
+10	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	12:aux	Discourse=same-unit_m:96->94:1
 11	n't	not	PART	RB	Polarity=Neg	12	advmod	12:advmod	_
 12	last	last	VERB	VB	VerbForm=Inf	0	root	0:root	_
 13	long	long	ADV	RB	Degree=Pos	12	advmod	12:advmod	_
 14	at	at	ADP	IN	_	15	case	15:case	_
 15	all	all	DET	DT	_	12	obl:npmod	12:obl:npmod	_
 16	--	-	PUNCT	:	_	19	punct	19:punct	_
-17	maybe	maybe	ADV	RB	_	19	advmod	19:advmod	Discourse=elaboration:97->94
+17	maybe	maybe	ADV	RB	_	19	advmod	19:advmod	Discourse=elaboration:97->94:2
 18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(time-104
 19	couple	couple	NOUN	NN	Number=Sing	12	obl:npmod	12:obl:npmod	_
 20	of	of	ADP	IN	_	21	case	21:case	_
@@ -862,18 +864,18 @@
 # sent_id = GUM_whow_glowstick-48
 # s_type = imp
 # text = For something that lasts hours, go to the next method (which is a lot easier to facilitate if you have access to a laboratory, but it's still worth mentioning).
-1	For	for	ADP	IN	_	2	case	2:case	Discourse=contrast:98->94
+1	For	for	ADP	IN	_	2	case	2:case	Discourse=contrast_m:98->94:3
 2	something	something	NOUN	NN	Number=Sing	7	obl	4:nsubj|7:obl:for	Entity=(object-105
-3	that	that	PRON	WDT	PronType=Rel	4	nsubj	2:ref	Discourse=elaboration:99->98
+3	that	that	PRON	WDT	PronType=Rel	4	nsubj	2:ref	Discourse=elaboration:99->98:0
 4	lasts	last	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_
 5	hours	hour	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=(time-106)object-105)|SpaceAfter=No
 6	,	,	PUNCT	,	_	2	punct	2:punct	_
-7	go	go	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=same-unit:100->98
+7	go	go	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:100->98:1
 8	to	to	ADP	IN	_	11	case	11:case	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(abstract-102
 10	next	next	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
 11	method	method	NOUN	NN	Number=Sing	7	obl	7:obl:to|17:nsubj	_
-12	(	(	PUNCT	-LRB-	_	17	punct	17:punct	Discourse=concession:101->103|SpaceAfter=No
+12	(	(	PUNCT	-LRB-	_	17	punct	17:punct	Discourse=concession:101->103:0|SpaceAfter=No
 13	which	which	PRON	WDT	PronType=Rel	17	nsubj	11:ref	_
 14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	17:cop	_
 15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	_
@@ -881,7 +883,7 @@
 17	easier	easy	ADJ	JJR	Degree=Cmp	11	acl:relcl	11:acl:relcl	_
 18	to	to	PART	TO	_	19	mark	19:mark	_
 19	facilitate	facilitate	VERB	VB	VerbForm=Inf	17	xcomp	17:xcomp	_
-20	if	if	SCONJ	IN	_	22	mark	22:mark	Discourse=condition:102->101
+20	if	if	SCONJ	IN	_	22	mark	22:mark	Discourse=condition:102->101:0
 21	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	22	nsubj	22:nsubj	Entity=(person-11)
 22	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	advcl	19:advcl:if	_
 23	access	access	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=(abstract-107
@@ -889,7 +891,7 @@
 25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	26:det	Entity=(place-108
 26	laboratory	laboratory	NOUN	NN	Number=Sing	23	nmod	23:nmod:to	Entity=abstract-107)place-108)|SpaceAfter=No
 27	,	,	PUNCT	,	_	32	punct	32:punct	_
-28	but	but	CCONJ	CC	_	32	cc	32:cc	Discourse=evaluation:103->98
+28	but	but	CCONJ	CC	_	32	cc	32:cc	Discourse=evaluation:103->98:2
 29-30	it's	_	_	_	_	_	_	_	_
 29	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	nsubj	32:nsubj|33:nsubj:xsubj	Entity=(abstract-102)
 30	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	32:cop	_

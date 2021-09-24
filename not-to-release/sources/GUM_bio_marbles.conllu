@@ -9,30 +9,30 @@
 # sent_id = GUM_bio_marbles-1
 # s_type = frag
 # text = Jenna Marbles
-1	Jenna	Jenna	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:1->2|Entity=(person-1-Jenna_Marbles
+1	Jenna	Jenna	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:1->2:5|Entity=(person-1-Jenna_Marbles
 2	Marbles	Marbles	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=person-1-Jenna_Marbles)
 
 # sent_id = GUM_bio_marbles-2
 # s_type = decl
 # text = Jenna Nicole Mourey (born September 15, 1986 [1] [2]), better known by her pseudonym Jenna Marbles, is an American YouTube personality, vlogger, comedian and actress.
-1	Jenna	Jenna	PROPN	NNP	Number=Sing	30	nsubj	30:nsubj|32:nsubj|34:nsubj|36:nsubj	Discourse=ROOT:2|Entity=(person-1-Jenna_Marbles
+1	Jenna	Jenna	PROPN	NNP	Number=Sing	30	nsubj	30:nsubj|32:nsubj|34:nsubj|36:nsubj	Discourse=ROOT:2:0|Entity=(person-1-Jenna_Marbles
 2	Nicole	Nicole	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	Mourey	Mourey	PROPN	NNP	Number=Sing	1	flat	1:flat	_
-4	(	(	PUNCT	-LRB-	_	5	punct	5:punct	Discourse=elaboration:3->2|SpaceAfter=No
+4	(	(	PUNCT	-LRB-	_	5	punct	5:punct	Discourse=elaboration:3->2:0|SpaceAfter=No
 5	born	bear	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	1:acl	_
 6	September	September	PROPN	NNP	Number=Sing	7	compound	7:compound	Entity=(time-2
 7	15	15	NUM	CD	NumForm=Digit|NumType=Card	5	obl:tmod	5:obl:tmod	SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	9:punct	_
 9	1986	1986	NUM	CD	NumForm=Digit|NumType=Card	7	nmod:tmod	7:nmod:tmod	Entity=(time-3)time-2)
-10	[	[	PUNCT	-LRB-	_	11	punct	11:punct	Discourse=evidence:4->3|SpaceAfter=No
+10	[	[	PUNCT	-LRB-	_	11	punct	11:punct	Discourse=evidence:4->3:0|SpaceAfter=No
 11	1	1	NUM	CD	NumForm=Digit|NumType=Card	5	dep	5:dep	Entity=(abstract-4)|SpaceAfter=No
 12	]	]	PUNCT	-RRB-	_	11	punct	11:punct	_
-13	[	[	PUNCT	-LRB-	_	14	punct	14:punct	Discourse=joint:5->4|SpaceAfter=No
+13	[	[	PUNCT	-LRB-	_	14	punct	14:punct	Discourse=joint_m:5->4:0|SpaceAfter=No
 14	2	2	NUM	CD	NumForm=Digit|NumType=Card	5	dep	5:dep	Entity=(abstract-5)|SpaceAfter=No
 15	]	]	PUNCT	-RRB-	_	14	punct	14:punct	SpaceAfter=No
 16	)	)	PUNCT	-RRB-	_	5	punct	5:punct	SpaceAfter=No
 17	,	,	PUNCT	,	_	19	punct	19:punct	_
-18	better	well	ADV	RBR	Degree=Cmp	19	advmod	19:advmod	Discourse=elaboration:6->2
+18	better	well	ADV	RBR	Degree=Cmp	19	advmod	19:advmod	Discourse=elaboration:6->2:1
 19	known	know	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	1:acl	_
 20	by	by	ADP	IN	_	22	case	22:case	_
 21	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	22:nmod:poss	Entity=(abstract-6-Jenna_Marbles(person-1-Jenna_Marbles)
@@ -40,7 +40,7 @@
 23	Jenna	Jenna	PROPN	NNP	Number=Sing	22	appos	22:appos	_
 24	Marbles	Marbles	PROPN	NNP	Number=Sing	23	flat	23:flat	Entity=person-1-Jenna_Marbles)abstract-6-Jenna_Marbles)|SpaceAfter=No
 25	,	,	PUNCT	,	_	1	punct	1:punct	_
-26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	30:cop	Discourse=same-unit:7->2
+26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	30:cop	Discourse=same-unit_m:7->2:2
 27	an	a	DET	DT	Definite=Ind|PronType=Art	30	det	30:det	Entity=(person-1-Jenna_Marbles
 28	American	American	ADJ	JJ	Degree=Pos	30	amod	30:amod	_
 29	YouTube	YouTube	PROPN	NNP	Number=Sing	30	compound	30:compound	Entity=(organization-7-YouTube)
@@ -56,7 +56,7 @@
 # sent_id = GUM_bio_marbles-3
 # s_type = decl
 # text = As of March 2019, her channel has approximately 3.1 billion video views and 19.5 million subscribers, [3] and is the 86th most subscribed channel on YouTube and the eighth-most-popular channel operated by a woman. [4]
-1	As	as	ADP	IN	_	3	case	3:case	Discourse=elaboration:8->2
+1	As	as	ADP	IN	_	3	case	3:case	Discourse=elaboration:8->2:3
 2	of	of	ADP	IN	_	1	fixed	1:fixed	_
 3	March	March	PROPN	NNP	Number=Sing	8	obl	8:obl:as_of	Entity=(time-8(time-9)
 4	2019	2019	NUM	CD	NumForm=Digit|NumType=Card	3	nmod:tmod	3:nmod:tmod	Entity=time-8)|SpaceAfter=No
@@ -74,10 +74,10 @@
 16	million	million	NUM	CD	NumForm=Word|NumType=Card	17	compound	17:compound	_
 17	subscribers	subscriber	NOUN	NNS	Number=Plur	13	conj	8:obj|13:conj:and	Entity=person-13)|SpaceAfter=No
 18	,	,	PUNCT	,	_	20	punct	20:punct	_
-19	[	[	PUNCT	-LRB-	_	20	punct	20:punct	Discourse=evidence:9->8|SpaceAfter=No
+19	[	[	PUNCT	-LRB-	_	20	punct	20:punct	Discourse=evidence:9->8:0|SpaceAfter=No
 20	3	3	NUM	CD	NumForm=Digit|NumType=Card	8	dep	8:dep	Entity=(abstract-14)|SpaceAfter=No
 21	]	]	PUNCT	-RRB-	_	20	punct	20:punct	_
-22	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=joint:10->8
+22	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=joint_m:10->8:1
 23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	28:cop	_
 24	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Entity=(abstract-10
 25	86th	86th	ADJ	JJ	Degree=Pos|NumType=Ord	28	amod	28:amod	_
@@ -86,60 +86,64 @@
 28	channel	channel	NOUN	NN	Number=Sing	8	conj	8:conj:and	_
 29	on	on	ADP	IN	_	30	case	30:case	_
 30	YouTube	YouTube	PROPN	NNP	Number=Sing	28	nmod	28:nmod:on	Entity=(organization-7-YouTube)abstract-10)
-31	and	and	CCONJ	CC	_	34	cc	34:cc	_
-32	the	the	DET	DT	Definite=Def|PronType=Art	34	det	34:det	Entity=(abstract-10
-33	eighth-most-popular	eighth-most-popular	ADJ	JJ	Degree=Pos	34	amod	34:amod	_
-34	channel	channel	NOUN	NN	Number=Sing	30	conj	28:nmod:on|30:conj:and	_
-35	operated	operate	VERB	VBN	Tense=Past|VerbForm=Part	34	acl	34:acl	Discourse=elaboration:11->10
-36	by	by	ADP	IN	_	38	case	38:case	_
-37	a	a	DET	DT	Definite=Ind|PronType=Art	38	det	38:det	Entity=(person-15
-38	woman	woman	NOUN	NN	Number=Sing	35	obl	35:obl:by	Entity=abstract-10)person-15)|SpaceAfter=No
-39	.	.	PUNCT	.	_	28	punct	28:punct	_
-40	[	[	PUNCT	-LRB-	_	41	punct	41:punct	Discourse=evidence:12->10|SpaceAfter=No
-41	4	4	NUM	CD	NumForm=Digit|NumType=Card	28	dep	28:dep	Entity=(abstract-16)|SpaceAfter=No
-42	]	]	PUNCT	-RRB-	_	41	punct	41:punct	_
+31	and	and	CCONJ	CC	_	38	cc	38:cc	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	38	det	38:det	Entity=(abstract-10
+33	eighth	eighth	ADV	RB	Degree=Pos	35	advmod	35:advmod	SpaceAfter=No
+34	-	-	PUNCT	HYPH	_	33	punct	33:punct	SpaceAfter=No
+35	most	most	ADV	RBS	Degree=Sup	37	advmod	37:advmod	SpaceAfter=No
+36	-	-	PUNCT	HYPH	_	35	punct	35:punct	SpaceAfter=No
+37	popular	popular	ADJ	JJ	Degree=Pos	38	amod	38:amod	_
+38	channel	channel	NOUN	NN	Number=Sing	30	conj	28:nmod:on|30:conj:and	_
+39	operated	operate	VERB	VBN	Tense=Past|VerbForm=Part	38	acl	38:acl	Discourse=elaboration:11->10:0
+40	by	by	ADP	IN	_	42	case	42:case	_
+41	a	a	DET	DT	Definite=Ind|PronType=Art	42	det	42:det	Entity=(person-15
+42	woman	woman	NOUN	NN	Number=Sing	39	obl	39:obl:by	Entity=abstract-10)person-15)|SpaceAfter=No
+43	.	.	PUNCT	.	_	28	punct	28:punct	_
+44	[	[	PUNCT	-LRB-	_	45	punct	45:punct	Discourse=evidence:12->10:1|SpaceAfter=No
+45	4	4	NUM	CD	NumForm=Digit|NumType=Card	28	dep	28:dep	Entity=(abstract-16)|SpaceAfter=No
+46	]	]	PUNCT	-RRB-	_	45	punct	45:punct	_
 
 # sent_id = GUM_bio_marbles-4
 # s_type = decl
 # text = Marbles is the first social media star to have a wax figure displayed in Madame Tussauds Museum, located in New York City. [5]
-1	Marbles	Marbles	PROPN	NNP	Number=Sing	7	nsubj	7:nsubj	Discourse=joint:13->8|Entity=(person-1-Jenna_Marbles)
+1	Marbles	Marbles	PROPN	NNP	Number=Sing	7	nsubj	7:nsubj	Discourse=joint_m:13->8:2|Entity=(person-1-Jenna_Marbles)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(person-1-Jenna_Marbles
 4	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	7	amod	7:amod	_
 5	social	social	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(abstract-17
 6	media	medium	NOUN	NNS	Number=Plur	7	compound	7:compound	Entity=abstract-17)
 7	star	star	NOUN	NN	Number=Sing	0	root	0:root	Entity=person-1-Jenna_Marbles)
-8	to	to	PART	TO	_	9	mark	9:mark	Discourse=elaboration:14->13
+8	to	to	PART	TO	_	9	mark	9:mark	Discourse=elaboration:14->13:0
 9	have	have	VERB	VB	VerbForm=Inf	7	acl	7:acl:to	_
 10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(object-18
 11	wax	wax	NOUN	NN	Number=Sing	12	compound	12:compound	Entity=(substance-19)
 12	figure	figure	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=object-18)
-13	displayed	display	VERB	VBN	Tense=Past|VerbForm=Part	12	acl	12:acl	Discourse=elaboration:15->14
+13	displayed	display	VERB	VBN	Tense=Past|VerbForm=Part	12	acl	12:acl	Discourse=elaboration:15->14:0
 14	in	in	ADP	IN	_	17	case	17:case	_
 15	Madame	Madame	PROPN	NNP	Number=Sing	17	compound	17:compound	Entity=(place-20-Madame_Tussauds(person-21-Madame_Tussauds
 16	Tussauds	Tussauds	PROPN	NNP	Number=Sing	15	flat	15:flat	Entity=person-21-Madame_Tussauds)
 17	Museum	Museum	PROPN	NNP	Number=Sing	13	obl	13:obl:in	SpaceAfter=No
 18	,	,	PUNCT	,	_	19	punct	19:punct	_
-19	located	locate	VERB	VBN	Tense=Past|VerbForm=Part	17	acl	17:acl	Discourse=elaboration:16->15
+19	located	locate	VERB	VBN	Tense=Past|VerbForm=Part	17	acl	17:acl	Discourse=elaboration:16->15:0
 20	in	in	ADP	IN	_	23	case	23:case	_
 21	New	New	PROPN	NNP	Number=Sing	22	compound	22:compound	Entity=(place-22-New_York_City
 22	York	York	PROPN	NNP	Number=Sing	23	compound	23:compound	_
 23	City	City	PROPN	NNP	Number=Sing	19	obl	19:obl:in	Entity=place-20-Madame_Tussauds)place-22-New_York_City)|SpaceAfter=No
 24	.	.	PUNCT	.	_	7	punct	7:punct	_
-25	[	[	PUNCT	-LRB-	_	26	punct	26:punct	Discourse=evidence:17->13|SpaceAfter=No
+25	[	[	PUNCT	-LRB-	_	26	punct	26:punct	Discourse=evidence:17->13:1|SpaceAfter=No
 26	5	5	NUM	CD	NumForm=Digit|NumType=Card	7	dep	7:dep	Entity=(abstract-23)|SpaceAfter=No
 27	]	]	PUNCT	-RRB-	_	26	punct	26:punct	_
 
 # sent_id = GUM_bio_marbles-5
 # s_type = frag
 # text = Early life
-1	Early	early	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=preparation:18->19|Entity=(time-24
+1	Early	early	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=preparation:18->19:3|Entity=(time-24
 2	life	life	NOUN	NN	Number=Sing	0	root	0:root	Entity=time-24)
 
 # sent_id = GUM_bio_marbles-6
 # s_type = decl
 # text = Marbles was born and raised in Rochester, New York, where she graduated from Brighton High School in 2004.
-1	Marbles	Marbles	PROPN	NNP	Number=Sing	3	nsubj:pass	3:nsubj:pass|5:nsubj:pass	Discourse=elaboration:19->2|Entity=(person-1-Jenna_Marbles)
+1	Marbles	Marbles	PROPN	NNP	Number=Sing	3	nsubj:pass	3:nsubj:pass|5:nsubj:pass	Discourse=elaboration:19->2:4|Entity=(person-1-Jenna_Marbles)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	3:aux:pass|5:aux:pass	_
 3	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 4	and	and	CCONJ	CC	_	5	cc	5:cc	_
@@ -150,7 +154,7 @@
 9	New	New	PROPN	NNP	Number=Sing	10	compound	10:compound	Entity=(place-26-New_York_City
 10	York	York	PROPN	NNP	Number=Sing	7	appos	7:appos	Entity=place-26-New_York_City)|SpaceAfter=No
 11	,	,	PUNCT	,	_	14	punct	14:punct	_
-12	where	where	SCONJ	WRB	PronType=Rel	14	mark	14:mark	Discourse=elaboration:20->19
+12	where	where	SCONJ	WRB	PronType=Rel	14	mark	14:mark	Discourse=elaboration:20->19:0
 13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj	Entity=(person-1-Jenna_Marbles)
 14	graduated	graduate	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	7:acl:relcl	_
 15	from	from	ADP	IN	_	18	case	18:case	_
@@ -164,36 +168,36 @@
 # sent_id = GUM_bio_marbles-7
 # s_type = decl
 # text = Her father is a chemist who holds several patents and she has one older brother. [6]
-1	Her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=elaboration:21->19|Entity=(person-30(person-1-Jenna_Marbles)
+1	Her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=elaboration:21->19:1|Entity=(person-30(person-1-Jenna_Marbles)
 2	father	father	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=person-30)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(person-30
 5	chemist	chemist	NOUN	NN	Number=Sing	0	root	0:root|7:nsubj	_
-6	who	who	PRON	WP	PronType=Rel	7	nsubj	5:ref	Discourse=elaboration:22->21
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	5:ref	Discourse=elaboration:22->21:0
 7	holds	hold	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_
 8	several	several	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(abstract-31
 9	patents	patent	NOUN	NNS	Number=Plur	7	obj	7:obj	Entity=person-30)abstract-31)
-10	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=joint:23->21
+10	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=joint_m:23->21:1
 11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Entity=(person-1-Jenna_Marbles)
 12	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	5:conj:and	_
 13	one	one	NUM	CD	NumForm=Word|NumType=Card	15	nummod	15:nummod	Entity=(person-32
 14	older	old	ADJ	JJR	Degree=Cmp	15	amod	15:amod	_
 15	brother	brother	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=person-32)|SpaceAfter=No
 16	.	.	PUNCT	.	_	5	punct	5:punct	_
-17	[	[	PUNCT	-LRB-	_	18	punct	18:punct	Discourse=evidence:24->21|SpaceAfter=No
+17	[	[	PUNCT	-LRB-	_	18	punct	18:punct	Discourse=evidence:24->21:2|SpaceAfter=No
 18	6	6	NUM	CD	NumForm=Digit|NumType=Card	5	dep	5:dep	Entity=(abstract-33)|SpaceAfter=No
 19	]	]	PUNCT	-RRB-	_	18	punct	18:punct	_
 
 # sent_id = GUM_bio_marbles-8
 # s_type = decl
 # text = She then moved to Boston, where she attended Suffolk University.
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=sequence:25->19|Entity=(person-1-Jenna_Marbles)
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=sequence_m:25->19:2|Entity=(person-1-Jenna_Marbles)
 2	then	then	ADV	RB	PronType=Dem	3	advmod	3:advmod	_
 3	moved	move	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	to	to	ADP	IN	_	5	case	5:case	_
 5	Boston	Boston	PROPN	NNP	Number=Sing	3	obl	3:obl:to	Entity=(place-34-Boston|SpaceAfter=No
 6	,	,	PUNCT	,	_	9	punct	9:punct	_
-7	where	where	SCONJ	WRB	PronType=Rel	9	mark	9:mark	Discourse=elaboration:26->25
+7	where	where	SCONJ	WRB	PronType=Rel	9	mark	9:mark	Discourse=elaboration:26->25:0
 8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	9:nsubj	Entity=(person-1-Jenna_Marbles)
 9	attended	attend	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_
 10	Suffolk	Suffolk	PROPN	NNP	Number=Sing	11	compound	11:compound	Entity=(organization-35-Suffolk_University(place-36-Suffolk_County%2C_Massachusetts)
@@ -203,7 +207,7 @@
 # sent_id = GUM_bio_marbles-9
 # s_type = decl
 # text = At Suffolk she obtained a Bachelor of Science in Psychology, and later attended Boston University for a Master of Education in Sport Psychology and Counseling. [7]
-1	At	at	ADP	IN	_	2	case	2:case	Discourse=sequence:27->19
+1	At	at	ADP	IN	_	2	case	2:case	Discourse=sequence_m:27->19:2
 2	Suffolk	Suffolk	PROPN	NNP	Number=Sing	4	obl	4:obl:at	Entity=(organization-35-Suffolk_University)
 3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj|14:nsubj	Entity=(person-1-Jenna_Marbles)
 4	obtained	obtain	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -214,7 +218,7 @@
 9	in	in	ADP	IN	_	10	case	10:case	_
 10	Psychology	psychology	NOUN	NN	Number=Sing	6	nmod	6:nmod:in	Entity=(abstract-38)abstract-37)|SpaceAfter=No
 11	,	,	PUNCT	,	_	14	punct	14:punct	_
-12	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=sequence:28->27
+12	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=sequence_m:28->27:0
 13	later	late	ADV	RBR	Degree=Cmp	14	advmod	14:advmod	_
 14	attended	attend	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	4:conj:and	_
 15	Boston	Boston	PROPN	NNP	Number=Sing	16	compound	16:compound	Entity=(organization-39-Boston_University(place-34-Boston)
@@ -230,19 +234,19 @@
 25	and	and	CCONJ	CC	_	26	cc	26:cc	_
 26	Counseling	counseling	NOUN	NN	Number=Sing	24	conj	19:nmod:in|24:conj:and	Entity=(abstract-44)abstract-40)|SpaceAfter=No
 27	.	.	PUNCT	.	_	4	punct	4:punct	_
-28	[	[	PUNCT	-LRB-	_	29	punct	29:punct	Discourse=evidence:29->27|SpaceAfter=No
+28	[	[	PUNCT	-LRB-	_	29	punct	29:punct	Discourse=evidence:29->27:1|SpaceAfter=No
 29	7	7	NUM	CD	NumForm=Digit|NumType=Card	4	dep	4:dep	Entity=(abstract-45)|SpaceAfter=No
 30	]	]	PUNCT	-RRB-	_	29	punct	29:punct	_
 
 # sent_id = GUM_bio_marbles-10
 # s_type = frag
 # text = Career
-1	Career	career	NOUN	NN	Number=Sing	0	root	0:root	Bridge=person-1-Jenna_Marbles<abstract-46|Discourse=preparation:30->35|Entity=(abstract-46)
+1	Career	career	NOUN	NN	Number=Sing	0	root	0:root	Bridge=person-1-Jenna_Marbles<abstract-46|Discourse=preparation:30->35:3|Entity=(abstract-46)
 
 # sent_id = GUM_bio_marbles-11
 # s_type = decl
 # text = In the summer of 2010, Marbles was sharing a three-bedroom apartment in Cambridge, Massachusetts.
-1	In	in	ADP	IN	_	3	case	3:case	Discourse=background:31->35
+1	In	in	ADP	IN	_	3	case	3:case	Discourse=background:31->35:2
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(time-47
 3	summer	summer	NOUN	NN	Number=Sing	9	obl	9:obl:in	_
 4	of	of	ADP	IN	_	5	case	5:case	_
@@ -251,24 +255,26 @@
 7	Marbles	Marbles	PROPN	NNP	Number=Sing	9	nsubj	9:nsubj	Entity=(person-1-Jenna_Marbles)
 8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	9:aux	_
 9	sharing	share	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
-10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(place-49
-11	three-bedroom	three-bedroom	NOUN	NN	Number=Sing	12	compound	12:compound	_
-12	apartment	apartment	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=place-49)
-13	in	in	ADP	IN	_	14	case	14:case	_
-14	Cambridge	Cambridge	PROPN	NNP	Number=Sing	9	obl	9:obl:in	Entity=(place-50-Cambridge%2C_Massachusetts|SpaceAfter=No
-15	,	,	PUNCT	,	_	16	punct	16:punct	_
-16	Massachusetts	Massachusetts	PROPN	NNP	Number=Sing	14	appos	14:appos	Entity=(place-51-Massachusetts)place-50-Cambridge%2C_Massachusetts)|SpaceAfter=No
-17	.	.	PUNCT	.	_	9	punct	9:punct	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(place-49
+11	three	three	NUM	CD	NumForm=Word|NumType=Card	13	nummod	13:nummod	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	11	punct	11:punct	SpaceAfter=No
+13	bedroom	bedroom	NOUN	NN	Number=Sing	14	compound	14:compound	_
+14	apartment	apartment	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=place-49)
+15	in	in	ADP	IN	_	16	case	16:case	_
+16	Cambridge	Cambridge	PROPN	NNP	Number=Sing	9	obl	9:obl:in	Entity=(place-50-Cambridge%2C_Massachusetts|SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	18:punct	_
+18	Massachusetts	Massachusetts	PROPN	NNP	Number=Sing	16	appos	16:appos	Entity=(place-51-Massachusetts)place-50-Cambridge%2C_Massachusetts)|SpaceAfter=No
+19	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_bio_marbles-12
 # s_type = decl
 # text = She paid $ 800 rent by working various jobs, like bartending, working at a tanning salon, blogging, and go-go dancing at nightclubs. [8]
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint:32->31|Entity=(person-1-Jenna_Marbles)
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint_m:32->31:0|Entity=(person-1-Jenna_Marbles)
 2	paid	pay	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	$	$	SYM	SYM	_	5	compound	5:compound	Entity=(abstract-52
 4	800	800	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	3:nummod	_
 5	rent	rent	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=abstract-52)
-6	by	by	SCONJ	IN	_	7	mark	7:mark	Discourse=means:33->32
+6	by	by	SCONJ	IN	_	7	mark	7:mark	Discourse=means:33->32:0
 7	working	work	VERB	VBG	VerbForm=Ger	2	advcl	2:advcl:by	_
 8	various	various	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(abstract-53
 9	jobs	job	NOUN	NNS	Number=Plur	7	obj	7:obj	SpaceAfter=No
@@ -283,21 +289,23 @@
 18	salon	salon	NOUN	NN	Number=Sing	14	obl	14:obl:at	Entity=abstract-55)place-56)|SpaceAfter=No
 19	,	,	PUNCT	,	_	20	punct	20:punct	_
 20	blogging	blog	VERB	VBG	VerbForm=Ger	12	conj	9:advcl:like|12:conj:and	Bridge=abstract-53<abstract-57|Entity=(abstract-57)|SpaceAfter=No
-21	,	,	PUNCT	,	_	24	punct	24:punct	_
-22	and	and	CCONJ	CC	_	24	cc	24:cc	_
-23	go-go	go-go	NOUN	NN	Number=Sing	24	compound	24:compound	Bridge=abstract-53<abstract-58|Entity=(abstract-58
-24	dancing	dance	VERB	VBG	VerbForm=Ger	12	conj	9:advcl:like|12:conj:and	_
-25	at	at	ADP	IN	_	26	case	26:case	_
-26	nightclubs	nightclub	NOUN	NNS	Number=Plur	24	obl	24:obl:at	Entity=(place-59)abstract-53)abstract-58)|SpaceAfter=No
-27	.	.	PUNCT	.	_	2	punct	2:punct	_
-28	[	[	PUNCT	-LRB-	_	29	punct	29:punct	Discourse=evidence:34->32|SpaceAfter=No
-29	8	8	NUM	CD	NumForm=Digit|NumType=Card	2	dep	2:dep	Entity=(abstract-60)|SpaceAfter=No
-30	]	]	PUNCT	-RRB-	_	29	punct	29:punct	_
+21	,	,	PUNCT	,	_	26	punct	26:punct	_
+22	and	and	CCONJ	CC	_	26	cc	26:cc	_
+23	go	go	NOUN	NN	Number=Sing	26	compound	26:compound	Bridge=abstract-53<abstract-58|Entity=(abstract-58|SpaceAfter=No
+24	-	-	PUNCT	HYPH	_	25	punct	25:punct	SpaceAfter=No
+25	go	go	VERB	VB	Person=2|VerbForm=Inf	23	parataxis	23:parataxis	_
+26	dancing	dance	VERB	VBG	VerbForm=Ger	12	conj	9:advcl:like|12:conj:and	_
+27	at	at	ADP	IN	_	28	case	28:case	_
+28	nightclubs	nightclub	NOUN	NNS	Number=Plur	26	obl	26:obl:at	Entity=(place-59)abstract-53)abstract-58)|SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	2:punct	_
+30	[	[	PUNCT	-LRB-	_	31	punct	31:punct	Discourse=evidence:34->32:1|SpaceAfter=No
+31	8	8	NUM	CD	NumForm=Digit|NumType=Card	2	dep	2:dep	Entity=(abstract-60)|SpaceAfter=No
+32	]	]	PUNCT	-RRB-	_	31	punct	31:punct	_
 
 # sent_id = GUM_bio_marbles-13
 # s_type = decl
 # text = That year, Marbles started her career with Barstool Sports, where she wrote for their female-oriented site StoolLaLa.
-1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=sequence:35->19|Entity=(time-48
+1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=sequence_m:35->19:4|Entity=(time-48
 2	year	year	NOUN	NN	Number=Sing	5	obl:tmod	5:obl:tmod	Entity=time-48)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	Marbles	Marbles	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(person-1-Jenna_Marbles)
@@ -308,39 +316,41 @@
 9	Barstool	Barstool	PROPN	NNP	Number=Sing	10	compound	10:compound	Entity=(organization-61-Barstool_Sports
 10	Sports	Sports	PROPN	NNP	Number=Sing	5	obl	5:obl:with	SpaceAfter=No
 11	,	,	PUNCT	,	_	14	punct	14:punct	_
-12	where	where	SCONJ	WRB	PronType=Rel	14	mark	14:mark	Discourse=elaboration:36->35
+12	where	where	SCONJ	WRB	PronType=Rel	14	mark	14:mark	Discourse=elaboration:36->35:0
 13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj	Entity=(person-1-Jenna_Marbles)
 14	wrote	write	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	acl:relcl	10:acl:relcl	_
-15	for	for	ADP	IN	_	18	case	18:case	_
-16	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	Entity=(abstract-62(organization-61-Barstool_Sports)
-17	female-oriented	female-oriented	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
-18	site	site	NOUN	NN	Number=Sing	14	obl	14:obl:for	Entity=abstract-62)
-19	StoolLaLa	StoolLaLa	PROPN	NNP	Number=Sing	18	appos	18:appos	Entity=(abstract-62)organization-61-Barstool_Sports)|SpaceAfter=No
-20	.	.	PUNCT	.	_	5	punct	5:punct	_
+15	for	for	ADP	IN	_	20	case	20:case	_
+16	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(abstract-62(organization-61-Barstool_Sports)
+17	female	female	NOUN	NN	Number=Sing	19	compound	19:compound	SpaceAfter=No
+18	-	-	PUNCT	HYPH	_	17	punct	17:punct	SpaceAfter=No
+19	oriented	orient	VERB	VBN	Tense=Past|VerbForm=Part	20	amod	20:amod	_
+20	site	site	NOUN	NN	Number=Sing	14	obl	14:obl:for	Entity=abstract-62)
+21	StoolLaLa	StoolLaLa	PROPN	NNP	Number=Sing	20	appos	20:appos	Entity=(abstract-62)organization-61-Barstool_Sports)|SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_bio_marbles-14
 # s_type = decl
 # text = She left Barstool Sports in 2011. [9]
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=sequence:37->35|Entity=(person-1-Jenna_Marbles)
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=sequence_m:37->35:1|Entity=(person-1-Jenna_Marbles)
 2	left	leave	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	Barstool	Barstool	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(organization-61-Barstool_Sports
 4	Sports	Sports	PROPN	NNP	Number=Sing	2	obj	2:obj	Entity=organization-61-Barstool_Sports)
 5	in	in	ADP	IN	_	6	case	6:case	_
 6	2011	2011	NUM	CD	NumForm=Digit|NumType=Card	2	obl	2:obl:in	Entity=(time-63)|SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	2:punct	_
-8	[	[	PUNCT	-LRB-	_	9	punct	9:punct	Discourse=evidence:38->37|SpaceAfter=No
+8	[	[	PUNCT	-LRB-	_	9	punct	9:punct	Discourse=evidence:38->37:0|SpaceAfter=No
 9	9	9	NUM	CD	NumForm=Digit|NumType=Card	2	dep	2:dep	Entity=(abstract-64)|SpaceAfter=No
 10	]	]	PUNCT	-RRB-	_	9	punct	9:punct	_
 
 # sent_id = GUM_bio_marbles-15
 # s_type = frag
 # text = YouTube
-1	YouTube	YouTube	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:39->40|Entity=(organization-7-YouTube)
+1	YouTube	YouTube	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:39->40:2|Entity=(organization-7-YouTube)
 
 # sent_id = GUM_bio_marbles-16
 # s_type = decl
 # text = Marbles uploads a new video to her YouTube channel every Wednesday/Thursday.
-1	Marbles	Marbles	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=sequence:40->19|Entity=(person-1-Jenna_Marbles)
+1	Marbles	Marbles	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=sequence_m:40->19:4|Entity=(person-1-Jenna_Marbles)
 2	uploads	upload	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(abstract-65
 4	new	new	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
@@ -358,27 +368,27 @@
 # sent_id = GUM_bio_marbles-17
 # s_type = decl
 # text = One video, released in 2010 and entitled "How To Trick People Into Thinking You're Good Looking" was viewed over 5.3 million times in its first week. [10] [11]
-1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Bridge=abstract-65<abstract-68|Discourse=elaboration:41->40|Entity=(abstract-68
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Bridge=abstract-65<abstract-68|Discourse=elaboration:41->40:0|Entity=(abstract-68
 2	video	video	NOUN	NN	Number=Sing	22	nsubj:pass	22:nsubj:pass	SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
-4	released	release	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	2:acl	Discourse=elaboration:42->41
+4	released	release	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	2:acl	Discourse=elaboration:42->41:0
 5	in	in	ADP	IN	_	6	case	6:case	_
 6	2010	2010	NUM	CD	NumForm=Digit|NumType=Card	4	obl	4:obl:in	Entity=(time-48)
-7	and	and	CCONJ	CC	_	8	cc	8:cc	Discourse=joint:43->42
+7	and	and	CCONJ	CC	_	8	cc	8:cc	Discourse=joint_m:43->42:0
 8	entitled	entitle	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	2:acl|4:conj:and	_
 9	"	''	PUNCT	``	_	12	punct	12:punct	SpaceAfter=No
 10	How	how	SCONJ	WRB	PronType=Int	12	mark	12:mark	Entity=(abstract-69
 11	To	to	PART	TO	_	12	mark	12:mark	_
 12	Trick	trick	VERB	VB	VerbForm=Inf	8	xcomp	8:xcomp	_
 13	People	person	NOUN	NNS	Number=Plur	12	obj	12:obj	Entity=(person-70)
-14	Into	into	SCONJ	IN	_	15	mark	15:mark	Discourse=attribution:44->45
+14	Into	into	SCONJ	IN	_	15	mark	15:mark	Discourse=attribution:44->45:0
 15	Thinking	think	VERB	VBG	VerbForm=Ger	12	advcl	12:advcl:into	_
-16	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	19:nsubj	Discourse=result:45->43|Entity=(person-71)|SpaceAfter=No
+16	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	19:nsubj	Discourse=result:45->43:0|Entity=(person-71)|SpaceAfter=No
 17	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	cop	19:cop	_
 18	Good	good	ADJ	JJ	Degree=Pos	19	compound	19:compound	_
 19	Looking	looking	ADJ	JJ	Degree=Pos	15	ccomp	15:ccomp	Entity=abstract-69)|SpaceAfter=No
 20	"	''	PUNCT	''	_	12	punct	12:punct	Entity=abstract-68)
-21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux:pass	22:aux:pass	Discourse=same-unit:46->41
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux:pass	22:aux:pass	Discourse=same-unit_m:46->41:1
 22	viewed	view	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 23	over	over	ADV	RB	_	25	advmod	25:advmod	Entity=(event-72
 24	5.3	5.3	NUM	CD	NumForm=Digit|NumType=Frac	25	nummod	25:nummod	_
@@ -389,17 +399,17 @@
 29	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	30	amod	30:amod	_
 30	week	week	NOUN	NN	Number=Sing	22	obl	22:obl:in	Entity=time-73)|SpaceAfter=No
 31	.	.	PUNCT	.	_	22	punct	22:punct	_
-32	[	[	PUNCT	-LRB-	_	33	punct	33:punct	Discourse=evidence:47->41|SpaceAfter=No
+32	[	[	PUNCT	-LRB-	_	33	punct	33:punct	Discourse=evidence:47->41:2|SpaceAfter=No
 33	10	10	NUM	CD	NumForm=Digit|NumType=Card	22	dep	22:dep	Entity=(abstract-74)|SpaceAfter=No
 34	]	]	PUNCT	-RRB-	_	33	punct	33:punct	_
-35	[	[	PUNCT	-LRB-	_	36	punct	36:punct	Discourse=joint:48->47|SpaceAfter=No
+35	[	[	PUNCT	-LRB-	_	36	punct	36:punct	Discourse=joint_m:48->47:0|SpaceAfter=No
 36	11	11	NUM	CD	NumForm=Digit|NumType=Card	22	dep	22:dep	Entity=(abstract-75)|SpaceAfter=No
 37	]	]	PUNCT	-RRB-	_	36	punct	36:punct	_
 
 # sent_id = GUM_bio_marbles-18
 # s_type = decl
 # text = Her video "How To Avoid Talking To People You Don't Want To Talk To "was featured in articles by The New York Times and ABC News in August 2011.
-1	Her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Bridge=abstract-65<abstract-76|Discourse=joint:49->41|Entity=(abstract-76(person-1-Jenna_Marbles)
+1	Her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Bridge=abstract-65<abstract-76|Discourse=joint_m:49->41:3|Entity=(abstract-76(person-1-Jenna_Marbles)
 2	video	video	NOUN	NN	Number=Sing	19	nsubj:pass	19:nsubj:pass	Entity=abstract-76)
 3	"	''	PUNCT	``	_	6	punct	6:punct	SpaceAfter=No
 4	How	how	SCONJ	WRB	PronType=Int	6	mark	6:mark	Entity=(abstract-76
@@ -408,7 +418,7 @@
 7	Talking	talk	VERB	VBG	VerbForm=Ger	6	xcomp	6:xcomp	_
 8	To	to	ADP	IN	_	9	case	9:case	_
 9	People	person	NOUN	NNS	Number=Plur	7	obl	7:obl:to	_
-10	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	13:nsubj|15:nsubj:xsubj	Discourse=elaboration:50->49|Entity=(person-71)
+10	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	13:nsubj|15:nsubj:xsubj	Discourse=elaboration:50->49:0|Entity=(person-71)
 11-12	Don't	_	_	_	_	_	_	_	_
 11	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	aux	13:aux	_
 12	n't	not	PART	RB	Polarity=Neg	13	advmod	13:advmod	_
@@ -417,7 +427,7 @@
 15	Talk	talk	VERB	VB	VerbForm=Inf	13	xcomp	13:xcomp	_
 16	To	to	ADP	IN	_	15	obl	15:obl	Entity=abstract-76)
 17	"	''	PUNCT	``	_	6	punct	6:punct	SpaceAfter=No
-18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	19:aux:pass	Discourse=same-unit:51->49
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	19:aux:pass	Discourse=same-unit_m:51->49:1
 19	featured	feature	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 20	in	in	ADP	IN	_	21	case	21:case	_
 21	articles	article	NOUN	NNS	Number=Plur	19	obl	19:obl:in	Entity=(abstract-77
@@ -437,14 +447,14 @@
 # sent_id = GUM_bio_marbles-19
 # s_type = decl
 # text = In the video, she stated, "I'm sick and tired of guys thinking that just because I showed up at a club or a dance or a bar, that I want to have their genitalia touching my backside"; [12] [13] the video had approximately 36.2 million views as of March 2018. [14]
-1	In	in	ADP	IN	_	3	case	3:case	Discourse=attribution:52->53
+1	In	in	ADP	IN	_	3	case	3:case	Discourse=attribution:52->53:2
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(abstract-76
 3	video	video	NOUN	NN	Number=Sing	6	obl	6:obl:in	Entity=abstract-76)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-1-Jenna_Marbles)
 6	stated	state	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 7	,	,	PUNCT	,	_	11	punct	11:punct	_
-8	"	''	PUNCT	``	_	11	punct	11:punct	Discourse=elaboration:53->49|SpaceAfter=No
+8	"	''	PUNCT	``	_	11	punct	11:punct	Discourse=elaboration:53->49:2|SpaceAfter=No
 9-10	I'm	_	_	_	_	_	_	_	_
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj|13:nsubj	Entity=(person-1-Jenna_Marbles)
 10	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	cop	11:cop	_
@@ -453,9 +463,9 @@
 13	tired	tired	ADJ	JJ	Degree=Pos	11	conj	6:ccomp|11:conj:and	_
 14	of	of	ADP	IN	_	15	case	15:case	_
 15	guys	guy	NOUN	NNS	Number=Plur	11	obl	11:obl:of	Entity=(person-83)
-16	thinking	think	VERB	VBG	VerbForm=Ger	15	acl	15:acl	Discourse=attribution:54->55
-17	that	that	SCONJ	IN	_	35	mark	35:mark	Discourse=elaboration:55->53
-18	just	just	ADV	RB	_	21	advmod	21:advmod	Discourse=evidence:56->57
+16	thinking	think	VERB	VBG	VerbForm=Ger	15	acl	15:acl	Discourse=attribution:54->55:1
+17	that	that	SCONJ	IN	_	35	mark	35:mark	Discourse=elaboration:55->53:0
+18	just	just	ADV	RB	_	21	advmod	21:advmod	Discourse=evidence:56->57:1
 19	because	because	SCONJ	IN	_	21	mark	21:mark	_
 20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	21:nsubj	Entity=(person-1-Jenna_Marbles)
 21	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	35	advcl	35:advcl:because	_
@@ -470,25 +480,25 @@
 30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	31:det	Entity=(place-86
 31	bar	bar	NOUN	NN	Number=Sing	28	conj	25:conj|28:conj:or	Entity=place-86)|SpaceAfter=No
 32	,	,	PUNCT	,	_	21	punct	21:punct	_
-33	that	that	SCONJ	IN	_	35	mark	35:mark	Discourse=same-unit:57->55
+33	that	that	SCONJ	IN	_	35	mark	35:mark	Discourse=same-unit_m:57->55:0
 34	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	35	nsubj	35:nsubj|37:nsubj:xsubj	Entity=(person-1-Jenna_Marbles)
 35	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	ccomp	16:ccomp	_
 36	to	to	PART	TO	_	37	mark	37:mark	_
 37	have	have	VERB	VB	VerbForm=Inf	35	xcomp	35:xcomp	_
 38	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	39	nmod:poss	39:nmod:poss	Entity=(object-87(person-83)
 39	genitalia	genital	NOUN	NNS	Number=Plur	37	obj	37:obj	Entity=object-87)
-40	touching	touch	VERB	VBG	VerbForm=Ger	39	acl	39:acl	Discourse=elaboration:58->57
+40	touching	touch	VERB	VBG	VerbForm=Ger	39	acl	39:acl	Discourse=elaboration:58->57:0
 41	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	42	nmod:poss	42:nmod:poss	Entity=(object-88(person-1-Jenna_Marbles)
 42	backside	backside	NOUN	NN	Number=Sing	40	obj	40:obj	Entity=object-88)|SpaceAfter=No
 43	"	''	PUNCT	''	_	11	punct	11:punct	SpaceAfter=No
 44	;	;	PUNCT	:	_	46	punct	46:punct	_
-45	[	[	PUNCT	-LRB-	_	46	punct	46:punct	Discourse=evidence:59->53|SpaceAfter=No
+45	[	[	PUNCT	-LRB-	_	46	punct	46:punct	Discourse=evidence:59->53:1|SpaceAfter=No
 46	12	12	NUM	CD	NumForm=Digit|NumType=Card	6	dep	6:dep	Entity=(abstract-89)|SpaceAfter=No
 47	]	]	PUNCT	-RRB-	_	46	punct	46:punct	_
-48	[	[	PUNCT	-LRB-	_	49	punct	49:punct	Discourse=joint:60->59|SpaceAfter=No
+48	[	[	PUNCT	-LRB-	_	49	punct	49:punct	Discourse=joint_m:60->59:0|SpaceAfter=No
 49	13	13	NUM	CD	NumForm=Digit|NumType=Card	6	dep	6:dep	Entity=(abstract-90)|SpaceAfter=No
 50	]	]	PUNCT	-RRB-	_	49	punct	49:punct	_
-51	the	the	DET	DT	Definite=Def|PronType=Art	52	det	52:det	Discourse=elaboration:61->53|Entity=(abstract-76
+51	the	the	DET	DT	Definite=Def|PronType=Art	52	det	52:det	Discourse=elaboration:61->53:3|Entity=(abstract-76
 52	video	video	NOUN	NN	Number=Sing	53	nsubj	53:nsubj	Entity=abstract-76)
 53	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	parataxis	6:parataxis	_
 54	approximately	approximately	ADV	RB	Degree=Pos	56	advmod	56:advmod	Entity=(event-91
@@ -500,14 +510,14 @@
 60	March	March	PROPN	NNP	Number=Sing	53	obl	53:obl:as_of	Entity=(time-92
 61	2018	2018	NUM	CD	NumForm=Digit|NumType=Card	60	nmod:tmod	60:nmod:tmod	Entity=(time-93)time-92)|SpaceAfter=No
 62	.	.	PUNCT	.	_	53	punct	53:punct	_
-63	[	[	PUNCT	-LRB-	_	64	punct	64:punct	Discourse=evidence:62->61|SpaceAfter=No
+63	[	[	PUNCT	-LRB-	_	64	punct	64:punct	Discourse=evidence:62->61:0|SpaceAfter=No
 64	14	14	NUM	CD	NumForm=Digit|NumType=Card	53	dep	53:dep	Entity=(abstract-94)|SpaceAfter=No
 65	]	]	PUNCT	-RRB-	_	64	punct	64:punct	_
 
 # sent_id = GUM_bio_marbles-20
 # s_type = decl
 # text = The pseudonym "Jenna Marbles "comes from her mother's complaint that "Mourey", their legal surname, pulled up only Jenna's videos on Google.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint:63->40|Entity=(abstract-6-Jenna_Marbles
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint_m:63->40:1|Entity=(abstract-6-Jenna_Marbles
 2	pseudonym	pseudonym	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=abstract-6-Jenna_Marbles)
 3	"	''	PUNCT	``	_	4	punct	4:punct	SpaceAfter=No
 4	Jenna	Jenna	PROPN	NNP	Number=Sing	2	appos	2:appos	Entity=(abstract-6-Jenna_Marbles
@@ -520,7 +530,7 @@
 10	mother	mother	NOUN	NN	Number=Sing	12	nmod:poss	12:nmod:poss	_
 11	's	's	PART	POS	_	10	case	10:case	Entity=person-96)
 12	complaint	complaint	NOUN	NN	Number=Sing	7	obl	7:obl:from	_
-13	that	that	SCONJ	IN	_	22	mark	22:mark	Discourse=elaboration:64->63
+13	that	that	SCONJ	IN	_	22	mark	22:mark	Discourse=elaboration:64->63:0
 14	"	''	PUNCT	``	_	15	punct	15:punct	SpaceAfter=No
 15	Mourey	Mourey	PROPN	NNP	Number=Sing	22	nsubj	22:nsubj	Bridge=person-1-Jenna_Marbles<abstract-97|Entity=(abstract-97)|SpaceAfter=No
 16	"	''	PUNCT	''	_	15	punct	15:punct	SpaceAfter=No
@@ -544,7 +554,7 @@
 # s_type = decl
 # text = Jenna's mother was unemployed at the time that Jenna's first video went viral, and was concerned that their content might put off potential employers. [7]
 1-2	Jenna's	_	_	_	_	_	_	_	_
-1	Jenna	Jenna	PROPN	NNP	Number=Sing	3	nmod:poss	3:nmod:poss	Discourse=background:65->68|Entity=(person-96(person-1-Jenna_Marbles
+1	Jenna	Jenna	PROPN	NNP	Number=Sing	3	nmod:poss	3:nmod:poss	Discourse=background:65->68:1|Entity=(person-96(person-1-Jenna_Marbles
 2	's	's	PART	POS	_	1	case	1:case	Entity=person-1-Jenna_Marbles)
 3	mother	mother	NOUN	NN	Number=Sing	5	nsubj:pass	5:nsubj:pass	Entity=person-96)
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	5:aux:pass	_
@@ -552,7 +562,7 @@
 6	at	at	ADP	IN	_	8	case	8:case	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(time-48
 8	time	time	NOUN	NN	Number=Sing	5	obl	5:obl:at	_
-9	that	that	SCONJ	IN	_	14	mark	14:mark	Discourse=circumstance:66->65
+9	that	that	SCONJ	IN	_	14	mark	14:mark	Discourse=circumstance:66->65:0
 10-11	Jenna's	_	_	_	_	_	_	_	_
 10	Jenna	Jenna	PROPN	NNP	Number=Sing	13	nmod:poss	13:nmod:poss	Entity=(abstract-68(person-1-Jenna_Marbles
 11	's	's	PART	POS	_	10	case	10:case	Entity=person-1-Jenna_Marbles)
@@ -561,10 +571,10 @@
 14	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	8:acl:relcl	_
 15	viral	viral	ADJ	JJ	Degree=Pos	14	xcomp	14:xcomp	Entity=time-48)|SpaceAfter=No
 16	,	,	PUNCT	,	_	19	punct	19:punct	_
-17	and	and	CCONJ	CC	_	19	cc	19:cc	Discourse=attribution:67->68
+17	and	and	CCONJ	CC	_	19	cc	19:cc	Discourse=attribution:67->68:0
 18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	19:aux:pass	_
 19	concerned	concern	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	5:conj:and	_
-20	that	that	SCONJ	IN	_	24	mark	24:mark	Discourse=background:68->63
+20	that	that	SCONJ	IN	_	24	mark	24:mark	Discourse=background:68->63:1
 21	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	22:nmod:poss	Entity=(abstract-101(abstract-99)
 22	content	content	NOUN	NN	Number=Sing	24	nsubj	24:nsubj	Entity=abstract-101)
 23	might	might	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	24	aux	24:aux	_
@@ -573,14 +583,14 @@
 26	potential	potential	ADJ	JJ	Degree=Pos	27	amod	27:amod	Entity=(organization-102
 27	employers	employer	NOUN	NNS	Number=Plur	24	obj	24:obj	Entity=organization-102)|SpaceAfter=No
 28	.	.	PUNCT	.	_	5	punct	5:punct	_
-29	[	[	PUNCT	-LRB-	_	30	punct	30:punct	Discourse=evidence:69->68|SpaceAfter=No
+29	[	[	PUNCT	-LRB-	_	30	punct	30:punct	Discourse=evidence:69->68:2|SpaceAfter=No
 30	7	7	NUM	CD	NumForm=Digit|NumType=Card	5	dep	5:dep	Entity=(abstract-45)|SpaceAfter=No
 31	]	]	PUNCT	-RRB-	_	30	punct	30:punct	_
 
 # sent_id = GUM_bio_marbles-22
 # s_type = decl
 # text = The name "Marbles" comes from her dog "Mr. Marbles".
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint:70->63|Entity=(abstract-6-Jenna_Marbles
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint_m:70->63:2|Entity=(abstract-6-Jenna_Marbles
 2	name	name	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=abstract-6-Jenna_Marbles)
 3	"	''	PUNCT	``	_	4	punct	4:punct	SpaceAfter=No
 4	Marbles	Marbles	PROPN	NNP	Number=Sing	2	appos	2:appos	Entity=(abstract-6-Jenna_Marbles)|SpaceAfter=No
@@ -598,7 +608,7 @@
 # sent_id = GUM_bio_marbles-23
 # s_type = decl
 # text = As of January 2019, Marbles's YouTube channel had about 19 million subscribers and 2.9 billion video views. [15] [16]
-1	As	as	ADP	IN	_	3	case	3:case	Discourse=joint:71->40
+1	As	as	ADP	IN	_	3	case	3:case	Discourse=joint_m:71->40:1
 2	of	of	ADP	IN	_	1	fixed	1:fixed	_
 3	January	January	PROPN	NNP	Number=Sing	10	obl	10:obl:as_of	Entity=(time-104
 4	2019	2019	NUM	CD	NumForm=Digit|NumType=Card	3	nmod:tmod	3:nmod:tmod	Entity=(time-105)time-104)|SpaceAfter=No
@@ -619,17 +629,17 @@
 18	video	video	NOUN	NN	Number=Sing	19	compound	19:compound	_
 19	views	view	NOUN	NNS	Number=Plur	14	conj	10:obj|14:conj:and	Entity=event-107)|SpaceAfter=No
 20	.	.	PUNCT	.	_	10	punct	10:punct	_
-21	[	[	PUNCT	-LRB-	_	22	punct	22:punct	Discourse=evidence:72->71|SpaceAfter=No
+21	[	[	PUNCT	-LRB-	_	22	punct	22:punct	Discourse=evidence:72->71:0|SpaceAfter=No
 22	15	15	NUM	CD	NumForm=Digit|NumType=Card	10	dep	10:dep	Entity=(abstract-108)|SpaceAfter=No
 23	]	]	PUNCT	-RRB-	_	22	punct	22:punct	_
-24	[	[	PUNCT	-LRB-	_	25	punct	25:punct	Discourse=joint:73->72|SpaceAfter=No
+24	[	[	PUNCT	-LRB-	_	25	punct	25:punct	Discourse=joint_m:73->72:0|SpaceAfter=No
 25	16	16	NUM	CD	NumForm=Digit|NumType=Card	10	dep	10:dep	Entity=(abstract-109)|SpaceAfter=No
 26	]	]	PUNCT	-RRB-	_	25	punct	25:punct	_
 
 # sent_id = GUM_bio_marbles-24
 # s_type = decl
 # text = Marbles appeared as Eve in season 2 of Epic Rap Battles of History, episode 13, "Adam vs. Eve" [17]
-1	Marbles	Marbles	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint:74->40|Entity=(person-1-Jenna_Marbles)
+1	Marbles	Marbles	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint_m:74->40:1|Entity=(person-1-Jenna_Marbles)
 2	appeared	appear	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	as	as	ADP	IN	_	4	case	4:case	_
 4	Eve	Eve	PROPN	NNP	Number=Sing	2	obl	2:obl:as	Entity=(person-110-Eve)
@@ -651,14 +661,14 @@
 20	vs.	versus	ADP	IN	Abbr=Yes	21	case	21:case	_
 21	Eve	Eve	PROPN	NNP	Number=Sing	19	nmod	19:nmod:versus	Entity=(person-110-Eve)abstract-111)|SpaceAfter=No
 22	"	''	PUNCT	''	_	19	punct	19:punct	_
-23	[	[	PUNCT	-LRB-	_	24	punct	24:punct	Discourse=evidence:75->74|SpaceAfter=No
+23	[	[	PUNCT	-LRB-	_	24	punct	24:punct	Discourse=evidence:75->74:0|SpaceAfter=No
 24	17	17	NUM	CD	NumForm=Digit|NumType=Card	2	dep	2:dep	Entity=(abstract-116)|SpaceAfter=No
 25	]	]	PUNCT	-RRB-	_	24	punct	24:punct	_
 
 # sent_id = GUM_bio_marbles-25
 # s_type = decl
 # text = She played a banana in The Annoying Orange episode "Fake n' Bacon".
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=sequence:76->74|Entity=(person-1-Jenna_Marbles)
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=sequence_m:76->74:1|Entity=(person-1-Jenna_Marbles)
 2	played	play	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(object-117
 4	banana	banana	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=object-117)
@@ -677,7 +687,7 @@
 # sent_id = GUM_bio_marbles-26
 # s_type = decl
 # text = She played Miley Cyrus in a "Wrecking Ball" - inspired segment of YouTube Rewind 2013.
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=sequence:77->74|Entity=(person-1-Jenna_Marbles)
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=sequence_m:77->74:1|Entity=(person-1-Jenna_Marbles)
 2	played	play	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	Miley	Miley	PROPN	NNP	Number=Sing	2	obj	2:obj	Entity=(person-120-Miley_Cyrus
 4	Cyrus	Cyrus	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=person-120-Miley_Cyrus)
@@ -699,7 +709,7 @@
 # sent_id = GUM_bio_marbles-27
 # s_type = decl
 # text = On January 30, 2014, she appeared in season four of Ridiculousness.
-1	On	on	ADP	IN	_	3	case	3:case	Discourse=sequence:78->74
+1	On	on	ADP	IN	_	3	case	3:case	Discourse=sequence_m:78->74:1
 2	January	January	PROPN	NNP	Number=Sing	3	compound	3:compound	Entity=(time-125
 3	30	30	NUM	CD	NumForm=Digit|NumType=Card	8	obl	8:obl:on	SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
@@ -717,24 +727,24 @@
 # sent_id = GUM_bio_marbles-28
 # s_type = decl
 # text = Marbles appeared as herself in Smosh: The Movie. [18]
-1	Marbles	Marbles	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=sequence:79->74|Entity=(person-1-Jenna_Marbles)
+1	Marbles	Marbles	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=sequence_m:79->74:1|Entity=(person-1-Jenna_Marbles)
 2	appeared	appear	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	as	as	ADP	IN	_	4	case	4:case	_
 4	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obl	2:obl:as	Entity=(person-1-Jenna_Marbles)
 5	in	in	ADP	IN	_	6	case	6:case	_
 6	Smosh	Smosh	PROPN	NNP	Number=Sing	2	obl	2:obl:in	Entity=(abstract-129-Smosh:_The_Movie|SpaceAfter=No
 7	:	:	PUNCT	:	_	9	punct	9:punct	_
-8	The	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Discourse=elaboration:80->79
+8	The	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Discourse=elaboration:80->79:0
 9	Movie	movie	NOUN	NN	Number=Sing	6	appos	6:appos	Entity=abstract-129-Smosh:_The_Movie)|SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	2:punct	_
-11	[	[	PUNCT	-LRB-	_	12	punct	12:punct	Discourse=evidence:81->79|SpaceAfter=No
+11	[	[	PUNCT	-LRB-	_	12	punct	12:punct	Discourse=evidence:81->79:1|SpaceAfter=No
 12	18	18	NUM	CD	NumForm=Digit|NumType=Card	2	dep	2:dep	Entity=(abstract-130)|SpaceAfter=No
 13	]	]	PUNCT	-RRB-	_	12	punct	12:punct	_
 
 # sent_id = GUM_bio_marbles-29
 # s_type = decl
 # text = In 2015, Marbles unveiled a wax figure of herself at Madame Tussauds New York.
-1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence:82->74
+1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence_m:82->74:1
 2	2015	2015	NUM	CD	NumForm=Digit|NumType=Card	5	obl	5:obl:in	Entity=(time-131)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	Marbles	Marbles	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(person-1-Jenna_Marbles)
@@ -754,14 +764,14 @@
 # sent_id = GUM_bio_marbles-30
 # s_type = decl
 # text = She was the first ever YouTube star to be immortalized at Madame Tussauds New York and her figure is the first selfie-taking wax figure at this location. [19]
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	Discourse=elaboration:83->82|Entity=(person-1-Jenna_Marbles)
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	Discourse=elaboration:83->82:0|Entity=(person-1-Jenna_Marbles)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(person-1-Jenna_Marbles
 4	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	7	amod	7:amod	_
 5	ever	ever	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
 6	YouTube	YouTube	PROPN	NNP	Number=Sing	7	compound	7:compound	Entity=(organization-7-YouTube)
 7	star	star	NOUN	NN	Number=Sing	0	root	0:root	_
-8	to	to	PART	TO	_	10	mark	10:mark	Discourse=elaboration:84->83
+8	to	to	PART	TO	_	10	mark	10:mark	Discourse=elaboration:84->83:0
 9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	10:aux:pass	_
 10	immortalized	immortalize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	acl	7:acl:to	_
 11	at	at	ADP	IN	_	12	case	12:case	_
@@ -769,45 +779,47 @@
 13	Tussauds	Tussauds	PROPN	NNP	Number=Sing	12	flat	12:flat	Entity=person-21-Madame_Tussauds)
 14	New	New	PROPN	NNP	Number=Sing	15	compound	15:compound	Entity=(place-22-New_York_City
 15	York	York	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=person-1-Jenna_Marbles)place-20-Madame_Tussauds)place-22-New_York_City)
-16	and	and	CCONJ	CC	_	24	cc	24:cc	Discourse=joint:85->83
+16	and	and	CCONJ	CC	_	26	cc	26:cc	Discourse=joint_m:85->83:1
 17	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	Entity=(object-18(person-1-Jenna_Marbles)
-18	figure	figure	NOUN	NN	Number=Sing	24	nsubj	24:nsubj	Entity=object-18)
-19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	24:cop	_
-20	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(object-18
-21	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	24	amod	24:amod	_
-22	selfie-taking	selfie-taking	ADJ	JJ	Degree=Pos	24	amod	24:amod	_
-23	wax	wax	NOUN	NN	Number=Sing	24	compound	24:compound	Entity=(substance-19)
-24	figure	figure	NOUN	NN	Number=Sing	7	conj	7:conj:and	_
-25	at	at	ADP	IN	_	27	case	27:case	_
-26	this	this	DET	DT	Number=Sing|PronType=Dem	27	det	27:det	Entity=(place-20-Madame_Tussauds
-27	location	location	NOUN	NN	Number=Sing	24	nmod	24:nmod:at	Entity=object-18)place-20-Madame_Tussauds)|SpaceAfter=No
-28	.	.	PUNCT	.	_	7	punct	7:punct	_
-29	[	[	PUNCT	-LRB-	_	30	punct	30:punct	Discourse=evidence:86->83|SpaceAfter=No
-30	19	19	NUM	CD	NumForm=Digit|NumType=Card	7	dep	7:dep	Entity=(abstract-132)|SpaceAfter=No
-31	]	]	PUNCT	-RRB-	_	30	punct	30:punct	_
+18	figure	figure	NOUN	NN	Number=Sing	26	nsubj	26:nsubj	Entity=object-18)
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	26:cop	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(object-18
+21	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	26	amod	26:amod	_
+22	selfie	selfie	NOUN	NN	Number=Sing	24	compound	24:compound	SpaceAfter=No
+23	-	-	PUNCT	HYPH	_	22	punct	22:punct	SpaceAfter=No
+24	taking	take	VERB	VBG	VerbForm=Ger	26	amod	26:amod	_
+25	wax	wax	NOUN	NN	Number=Sing	26	compound	26:compound	Entity=(substance-19)
+26	figure	figure	NOUN	NN	Number=Sing	7	conj	7:conj:and	_
+27	at	at	ADP	IN	_	29	case	29:case	_
+28	this	this	DET	DT	Number=Sing|PronType=Dem	29	det	29:det	Entity=(place-20-Madame_Tussauds
+29	location	location	NOUN	NN	Number=Sing	26	nmod	26:nmod:at	Entity=object-18)place-20-Madame_Tussauds)|SpaceAfter=No
+30	.	.	PUNCT	.	_	7	punct	7:punct	_
+31	[	[	PUNCT	-LRB-	_	32	punct	32:punct	Discourse=evidence:86->83:2|SpaceAfter=No
+32	19	19	NUM	CD	NumForm=Digit|NumType=Card	7	dep	7:dep	Entity=(abstract-132)|SpaceAfter=No
+33	]	]	PUNCT	-RRB-	_	32	punct	32:punct	_
 
 # sent_id = GUM_bio_marbles-31
 # s_type = decl
 # text = Marbles has also professionalized her business affairs by expanding her business and bringing in people to help, including, a personal assistant, a business manager, and her mother (the chief executive officer). [8]
-1	Marbles	Marbles	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Discourse=joint:87->40|Entity=(person-1-Jenna_Marbles)
+1	Marbles	Marbles	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Discourse=joint_m:87->40:1|Entity=(person-1-Jenna_Marbles)
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	also	also	ADV	RB	_	4	advmod	4:advmod	_
 4	professionalized	professionalize	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 5	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Bridge=abstract-46<abstract-133|Entity=(abstract-133(person-1-Jenna_Marbles)
 6	business	business	NOUN	NN	Number=Sing	7	compound	7:compound	_
 7	affairs	affair	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=abstract-133)
-8	by	by	SCONJ	IN	_	9	mark	9:mark	Discourse=means:88->87
+8	by	by	SCONJ	IN	_	9	mark	9:mark	Discourse=means:88->87:0
 9	expanding	expand	VERB	VBG	VerbForm=Ger	4	advcl	4:advcl:by	_
 10	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(abstract-133(person-1-Jenna_Marbles)
 11	business	business	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=abstract-133)
-12	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=joint:89->88
+12	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=joint_m:89->88:0
 13	bringing	bring	VERB	VBG	VerbForm=Ger	9	conj	4:advcl:by|9:conj:and	_
 14	in	in	ADP	RP	_	13	compound:prt	13:compound:prt	_
 15	people	person	NOUN	NNS	Number=Plur	13	obj	13:obj|17:nsubj:xsubj	Entity=(person-134)
-16	to	to	PART	TO	_	17	mark	17:mark	Discourse=purpose:90->89
+16	to	to	PART	TO	_	17	mark	17:mark	Discourse=purpose:90->89:0
 17	help	help	VERB	VB	VerbForm=Inf	13	xcomp	13:xcomp	SpaceAfter=No
 18	,	,	PUNCT	,	_	19	punct	19:punct	_
-19	including	include	VERB	VBG	VerbForm=Ger	13	advcl	13:advcl	Discourse=elaboration:91->89|SpaceAfter=No
+19	including	include	VERB	VBG	VerbForm=Ger	13	advcl	13:advcl	Discourse=elaboration:91->89:1|SpaceAfter=No
 20	,	,	PUNCT	,	_	23	punct	23:punct	_
 21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	23:det	Bridge=person-134<person-135|Entity=(person-135
 22	personal	personal	ADJ	JJ	Degree=Pos	23	amod	23:amod	_
@@ -820,21 +832,21 @@
 29	and	and	CCONJ	CC	_	31	cc	31:cc	_
 30	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	31:nmod:poss	Entity=(person-96(person-1-Jenna_Marbles)
 31	mother	mother	NOUN	NN	Number=Sing	27	conj	23:conj|27:conj:and	Entity=person-96)
-32	(	(	PUNCT	-LRB-	_	36	punct	36:punct	Discourse=elaboration:92->91|SpaceAfter=No
+32	(	(	PUNCT	-LRB-	_	36	punct	36:punct	Discourse=elaboration:92->91:0|SpaceAfter=No
 33	the	the	DET	DT	Definite=Def|PronType=Art	36	det	36:det	Entity=(person-96
 34	chief	chief	ADJ	JJ	Degree=Pos	36	amod	36:amod	_
 35	executive	executive	ADJ	JJ	Degree=Pos	36	amod	36:amod	_
 36	officer	officer	NOUN	NN	Number=Sing	31	appos	31:appos	Entity=person-96)|SpaceAfter=No
 37	)	)	PUNCT	-RRB-	_	36	punct	36:punct	SpaceAfter=No
 38	.	.	PUNCT	.	_	4	punct	4:punct	_
-39	[	[	PUNCT	-LRB-	_	40	punct	40:punct	Discourse=evidence:93->87|SpaceAfter=No
+39	[	[	PUNCT	-LRB-	_	40	punct	40:punct	Discourse=evidence:93->87:1|SpaceAfter=No
 40	8	8	NUM	CD	NumForm=Digit|NumType=Card	4	dep	4:dep	Entity=(abstract-60)|SpaceAfter=No
 41	]	]	PUNCT	-RRB-	_	40	punct	40:punct	_
 
 # sent_id = GUM_bio_marbles-32
 # s_type = decl
 # text = Marbles does a weekly podcast with her boyfriend Julien Solomita called "The Jenna Julien Podcast" (formerly called "The Jenna and Julien Podcast").
-1	Marbles	Marbles	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint:94->40|Entity=(person-1-Jenna_Marbles)
+1	Marbles	Marbles	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint_m:94->40:1|Entity=(person-1-Jenna_Marbles)
 2	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(abstract-137
 4	weekly	weekly	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
@@ -844,14 +856,14 @@
 8	boyfriend	boyfriend	NOUN	NN	Number=Sing	5	nmod	5:nmod:with	Entity=person-138)
 9	Julien	Julien	PROPN	NNP	Number=Sing	8	appos	8:appos	Entity=(person-138
 10	Solomita	Solomita	PROPN	NNP	Number=Sing	9	flat	9:flat	Entity=person-138)
-11	called	call	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl	5:acl	Discourse=elaboration:95->94
+11	called	call	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl	5:acl	Discourse=elaboration:95->94:0
 12	"	''	PUNCT	``	_	16	punct	16:punct	SpaceAfter=No
 13	The	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(abstract-139
 14	Jenna	Jenna	PROPN	NNP	Number=Sing	15	compound	15:compound	Entity=(person-1-Jenna_Marbles)
 15	Julien	Julien	PROPN	NNP	Number=Sing	16	compound	16:compound	Entity=(person-138)
 16	Podcast	Podcast	PROPN	NNP	Number=Sing	11	xcomp	11:xcomp	Entity=abstract-139)|SpaceAfter=No
 17	"	''	PUNCT	''	_	16	punct	16:punct	_
-18	(	(	PUNCT	-LRB-	_	20	punct	20:punct	Discourse=elaboration:96->94|SpaceAfter=No
+18	(	(	PUNCT	-LRB-	_	20	punct	20:punct	Discourse=elaboration:96->94:1|SpaceAfter=No
 19	formerly	formerly	ADV	RB	Degree=Pos	20	advmod	20:advmod	_
 20	called	call	VERB	VBN	Tense=Past|VerbForm=Part	16	acl	16:acl	_
 21	"	''	PUNCT	``	_	26	punct	26:punct	SpaceAfter=No
@@ -867,14 +879,14 @@
 # sent_id = GUM_bio_marbles-33
 # s_type = decl
 # text = Topics include stories of growing up, conspiracy theories, YouTubers and other general topics.
-1	Topics	topic	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Discourse=elaboration:97->94|Entity=(abstract-142)
+1	Topics	topic	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Discourse=elaboration:97->94:2|Entity=(abstract-142)
 2	include	include	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	stories	story	NOUN	NNS	Number=Plur	2	obj	2:obj	Bridge=abstract-142<abstract-143|Entity=(abstract-143
-4	of	of	SCONJ	IN	_	5	mark	5:mark	Discourse=elaboration:98->97
+4	of	of	SCONJ	IN	_	5	mark	5:mark	Discourse=elaboration:98->97:0
 5	growing	grow	VERB	VBG	VerbForm=Ger	3	acl	3:acl:of	Entity=(event-144
 6	up	up	ADP	RP	_	5	compound:prt	5:compound:prt	Entity=abstract-143)event-144)|SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	9:punct	_
-8	conspiracy	conspiracy	NOUN	NN	Number=Sing	9	compound	9:compound	Bridge=abstract-142<abstract-145|Discourse=same-unit:99->97|Entity=(abstract-145(abstract-146)
+8	conspiracy	conspiracy	NOUN	NN	Number=Sing	9	compound	9:compound	Bridge=abstract-142<abstract-145|Discourse=same-unit_m:99->97:1|Entity=(abstract-145(abstract-146)
 9	theories	theory	NOUN	NNS	Number=Plur	5	conj	3:acl:of|5:conj:and	Entity=abstract-145)|SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	11:punct	_
 11	YouTubers	YouTuber	PROPN	NNPS	Number=Plur	5	conj	3:acl:of|5:conj:and	Bridge=abstract-142<person-147-List_of_YouTubers|Entity=(person-147-List_of_YouTubers)
@@ -887,7 +899,7 @@
 # sent_id = GUM_bio_marbles-34
 # s_type = decl
 # text = They sometimes feature other YouTubers as guests on their podcast, including Shane Dawson. [20]
-1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint:100->97|Entity=(person-141)
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint_m:100->97:2|Entity=(person-141)
 2	sometimes	sometimes	ADV	RB	_	3	advmod	3:advmod	_
 3	feature	feature	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	other	other	ADJ	JJ	Degree=Pos	5	amod	5:amod	Entity=(person-149-List_of_YouTubers
@@ -898,31 +910,31 @@
 9	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(abstract-137(person-141)
 10	podcast	podcast	NOUN	NN	Number=Sing	3	obl	3:obl:on	Entity=abstract-137)|SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	12:punct	_
-12	including	include	VERB	VBG	VerbForm=Ger	3	advcl	3:advcl	Discourse=elaboration:101->100
+12	including	include	VERB	VBG	VerbForm=Ger	3	advcl	3:advcl	Discourse=elaboration:101->100:0
 13	Shane	Shane	PROPN	NNP	Number=Sing	12	obj	12:obj	Bridge=person-149-List_of_YouTubers<person-150-Shane_Dawson|Entity=(person-150-Shane_Dawson
 14	Dawson	Dawson	PROPN	NNP	Number=Sing	13	flat	13:flat	Entity=person-150-Shane_Dawson)|SpaceAfter=No
 15	.	.	PUNCT	.	_	3	punct	3:punct	_
-16	[	[	PUNCT	-LRB-	_	17	punct	17:punct	Discourse=evidence:102->100|SpaceAfter=No
+16	[	[	PUNCT	-LRB-	_	17	punct	17:punct	Discourse=evidence:102->100:1|SpaceAfter=No
 17	20	20	NUM	CD	NumForm=Digit|NumType=Card	3	dep	3:dep	Entity=(abstract-151)|SpaceAfter=No
 18	]	]	PUNCT	-RRB-	_	17	punct	17:punct	_
 
 # sent_id = GUM_bio_marbles-35
 # s_type = frag
 # text = Other ventures
-1	Other	other	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=preparation:103->104|Entity=(abstract-152
+1	Other	other	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=preparation:103->104:3|Entity=(abstract-152
 2	ventures	venture	NOUN	NNS	Number=Plur	0	root	0:root	Entity=abstract-152)
 
 # sent_id = GUM_bio_marbles-36
 # s_type = decl
 # text = Marbles released a brand of dog toys called Kermie Worm & Mr. Marbles.
-1	Marbles	Marbles	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=sequence:104->19|Entity=(person-1-Jenna_Marbles)
+1	Marbles	Marbles	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=sequence_m:104->19:4|Entity=(person-1-Jenna_Marbles)
 2	released	release	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(abstract-153
 4	brand	brand	NOUN	NN	Number=Sing	2	obj	2:obj	_
 5	of	of	ADP	IN	_	7	case	7:case	_
 6	dog	dog	NOUN	NN	Number=Sing	7	compound	7:compound	Entity=(object-154
 7	toys	toy	NOUN	NNS	Number=Plur	4	nmod	4:nmod:of	Entity=object-154)
-8	called	call	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	7:acl	Discourse=elaboration:105->104
+8	called	call	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	7:acl	Discourse=elaboration:105->104:0
 9	Kermie	Kermie	PROPN	NNP	Number=Sing	8	obj	8:obj	Entity=(abstract-155(animal-156
 10	Worm	Worm	PROPN	NNP	Number=Sing	9	flat	9:flat	Entity=animal-156)
 11	&	&	CCONJ	CC	_	12	cc	12:cc	_
@@ -933,7 +945,7 @@
 # sent_id = GUM_bio_marbles-37
 # s_type = decl
 # text = The toys' appearances are based upon her real dogs. [7]
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration:106->104|Entity=(abstract-157(object-154
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration:106->104:1|Entity=(abstract-157(object-154
 2-3	toys'	_	_	_	_	_	_	_	_
 2	toys	toy	NOUN	NNS	Number=Plur	4	nmod:poss	4:nmod:poss	_
 3	'	's	PART	POS	_	2	case	2:case	Entity=object-154)
@@ -945,14 +957,14 @@
 9	real	real	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
 10	dogs	dog	NOUN	NNS	Number=Plur	6	obl	6:obl:upon	Entity=animal-158)|SpaceAfter=No
 11	.	.	PUNCT	.	_	6	punct	6:punct	_
-12	[	[	PUNCT	-LRB-	_	13	punct	13:punct	Discourse=evidence:107->106|SpaceAfter=No
+12	[	[	PUNCT	-LRB-	_	13	punct	13:punct	Discourse=evidence:107->106:0|SpaceAfter=No
 13	7	7	NUM	CD	NumForm=Digit|NumType=Card	6	dep	6:dep	Entity=(abstract-45)|SpaceAfter=No
 14	]	]	PUNCT	-RRB-	_	13	punct	13:punct	_
 
 # sent_id = GUM_bio_marbles-38
 # s_type = decl
 # text = She has also created items with some of her most memorable quotes printed on them (e.g. "what are this").
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=joint:108->104|Entity=(person-1-Jenna_Marbles)
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=joint_m:108->104:2|Entity=(person-1-Jenna_Marbles)
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	also	also	ADV	RB	_	4	advmod	4:advmod	_
 4	created	create	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
@@ -964,10 +976,10 @@
 10	most	most	ADV	RBS	Degree=Sup	11	advmod	11:advmod	_
 11	memorable	memorable	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
 12	quotes	quote	NOUN	NNS	Number=Plur	7	nmod	7:nmod:of	Entity=object-159)abstract-160)abstract-161)
-13	printed	print	VERB	VBN	Tense=Past|VerbForm=Part	12	acl	12:acl	Discourse=elaboration:109->108
+13	printed	print	VERB	VBN	Tense=Past|VerbForm=Part	12	acl	12:acl	Discourse=elaboration:109->108:0
 14	on	on	ADP	IN	_	15	case	15:case	_
 15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obl	13:obl:on	Entity=(object-159)
-16	(	(	PUNCT	-LRB-	_	21	punct	21:punct	Discourse=elaboration:110->108|SpaceAfter=No
+16	(	(	PUNCT	-LRB-	_	21	punct	21:punct	Discourse=elaboration:110->108:1|SpaceAfter=No
 17	e.g.	e.g.	ADV	FW	Abbr=Yes	21	advmod	21:advmod	_
 18	"	''	PUNCT	``	_	21	punct	21:punct	SpaceAfter=No
 19	what	what	PRON	WP	PronType=Int	21	nsubj	21:nsubj	Bridge=abstract-160<abstract-162|Entity=(abstract-162
@@ -980,7 +992,7 @@
 # sent_id = GUM_bio_marbles-39
 # s_type = decl
 # text = Marbles also hosts a weekly pop countdown on SiriusXM Hits 1 called "YouTube 15". [21] [22]
-1	Marbles	Marbles	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=joint:111->104|Entity=(person-1-Jenna_Marbles)
+1	Marbles	Marbles	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=joint_m:111->104:2|Entity=(person-1-Jenna_Marbles)
 2	also	also	ADV	RB	_	3	advmod	3:advmod	_
 3	hosts	host	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(abstract-163
@@ -991,23 +1003,23 @@
 9	SiriusXM	SiriusXM	PROPN	NNP	Number=Sing	10	compound	10:compound	Entity=(abstract-164-Sirius_XM_Hits_1(organization-165-Sirius_XM)
 10	Hits	Hit	PROPN	NNPS	Number=Plur	7	nmod	7:nmod:on	_
 11	1	1	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	10:nummod	Entity=abstract-164-Sirius_XM_Hits_1)
-12	called	call	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl	7:acl	Discourse=elaboration:112->111
+12	called	call	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl	7:acl	Discourse=elaboration:112->111:0
 13	"	''	PUNCT	``	_	14	punct	14:punct	SpaceAfter=No
 14	YouTube	YouTube	PROPN	NNP	Number=Sing	12	xcomp	12:xcomp	Entity=(abstract-166(organization-7-YouTube)
 15	15	15	NUM	CD	NumForm=Digit|NumType=Card	14	nummod	14:nummod	Entity=abstract-163)abstract-166)|SpaceAfter=No
 16	"	''	PUNCT	''	_	14	punct	14:punct	SpaceAfter=No
 17	.	.	PUNCT	.	_	3	punct	3:punct	_
-18	[	[	PUNCT	-LRB-	_	19	punct	19:punct	Discourse=evidence:113->111|SpaceAfter=No
+18	[	[	PUNCT	-LRB-	_	19	punct	19:punct	Discourse=evidence:113->111:1|SpaceAfter=No
 19	21	21	NUM	CD	NumForm=Digit|NumType=Card	3	dep	3:dep	Entity=(abstract-167)|SpaceAfter=No
 20	]	]	PUNCT	-RRB-	_	19	punct	19:punct	_
-21	[	[	PUNCT	-LRB-	_	22	punct	22:punct	Discourse=joint:114->113|SpaceAfter=No
+21	[	[	PUNCT	-LRB-	_	22	punct	22:punct	Discourse=joint_m:114->113:0|SpaceAfter=No
 22	22	22	NUM	CD	NumForm=Digit|NumType=Card	3	dep	3:dep	Entity=(abstract-168)|SpaceAfter=No
 23	]	]	PUNCT	-RRB-	_	22	punct	22:punct	_
 
 # sent_id = GUM_bio_marbles-40
 # s_type = decl
 # text = In 2016, Marbles became an executive producer for Maximum Ride, a film based on the series of novels of the same name by James Patterson. [23]
-1	In	in	ADP	IN	_	2	case	2:case	Discourse=joint:115->104
+1	In	in	ADP	IN	_	2	case	2:case	Discourse=joint_m:115->104:2
 2	2016	2016	NUM	CD	NumForm=Digit|NumType=Card	5	obl	5:obl:in	Entity=(time-169)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	Marbles	Marbles	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj|8:nsubj:xsubj	Entity=(person-1-Jenna_Marbles)
@@ -1021,7 +1033,7 @@
 12	,	,	PUNCT	,	_	14	punct	14:punct	_
 13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(abstract-170-Maximum_Ride_%28film%29
 14	film	film	NOUN	NN	Number=Sing	11	appos	11:appos	Entity=abstract-170-Maximum_Ride_%28film%29)
-15	based	base	VERB	VBN	Tense=Past|VerbForm=Part	14	acl	14:acl	Discourse=elaboration:116->115
+15	based	base	VERB	VBN	Tense=Past|VerbForm=Part	14	acl	14:acl	Discourse=elaboration:116->115:0
 16	on	on	ADP	IN	_	18	case	18:case	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(abstract-171
 18	series	series	NOUN	NN	Number=Sing	15	obl	15:obl:on	_
@@ -1035,39 +1047,41 @@
 26	James	James	PROPN	NNP	Number=Sing	24	nmod	24:nmod:by	Entity=(person-174-James_Patterson
 27	Patterson	Patterson	PROPN	NNP	Number=Sing	26	flat	26:flat	Entity=person-1-Jenna_Marbles)abstract-171)abstract-172)person-174-James_Patterson)|SpaceAfter=No
 28	.	.	PUNCT	.	_	5	punct	5:punct	_
-29	[	[	PUNCT	-LRB-	_	30	punct	30:punct	Discourse=evidence:117->115|SpaceAfter=No
+29	[	[	PUNCT	-LRB-	_	30	punct	30:punct	Discourse=evidence:117->115:1|SpaceAfter=No
 30	23	23	NUM	CD	NumForm=Digit|NumType=Card	5	dep	5:dep	Entity=(abstract-175)|SpaceAfter=No
 31	]	]	PUNCT	-RRB-	_	30	punct	30:punct	_
 
 # sent_id = GUM_bio_marbles-41
 # s_type = frag
 # text = Personal life
-1	Personal	personal	ADJ	JJ	Degree=Pos	2	amod	2:amod	Bridge=person-1-Jenna_Marbles<abstract-176|Discourse=preparation:118->119|Entity=(abstract-176
+1	Personal	personal	ADJ	JJ	Degree=Pos	2	amod	2:amod	Bridge=person-1-Jenna_Marbles<abstract-176|Discourse=preparation:118->119:2|Entity=(abstract-176
 2	life	life	NOUN	NN	Number=Sing	0	root	0:root	Entity=abstract-176)
 
 # sent_id = GUM_bio_marbles-42
 # s_type = decl
 # text = In 2015, Marbles became a full-time vegan. [24] [25]
-1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence:119->19
+1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence_m:119->19:4
 2	2015	2015	NUM	CD	NumForm=Digit|NumType=Card	5	obl	5:obl:in	Entity=(time-131)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
-4	Marbles	Marbles	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj|8:nsubj:xsubj	Entity=(person-1-Jenna_Marbles)
+4	Marbles	Marbles	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj|10:nsubj:xsubj	Entity=(person-1-Jenna_Marbles)
 5	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(person-1-Jenna_Marbles
-7	full-time	full-time	NOUN	NN	Number=Sing	8	compound	8:compound	_
-8	vegan	vegan	NOUN	NN	Number=Sing	5	xcomp	5:xcomp	Entity=person-1-Jenna_Marbles)|SpaceAfter=No
-9	.	.	PUNCT	.	_	5	punct	5:punct	_
-10	[	[	PUNCT	-LRB-	_	11	punct	11:punct	Discourse=evidence:120->119|SpaceAfter=No
-11	24	24	NUM	CD	NumForm=Digit|NumType=Card	5	dep	5:dep	Entity=(abstract-177)|SpaceAfter=No
-12	]	]	PUNCT	-RRB-	_	11	punct	11:punct	_
-13	[	[	PUNCT	-LRB-	_	14	punct	14:punct	Discourse=joint:121->120|SpaceAfter=No
-14	25	25	NUM	CD	NumForm=Digit|NumType=Card	5	dep	5:dep	Entity=(abstract-178)|SpaceAfter=No
-15	]	]	PUNCT	-RRB-	_	14	punct	14:punct	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(person-1-Jenna_Marbles
+7	full	full	ADJ	JJ	Degree=Pos	9	amod	9:amod	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	7	punct	7:punct	SpaceAfter=No
+9	time	time	NOUN	NN	Number=Sing	10	compound	10:compound	_
+10	vegan	vegan	NOUN	NN	Number=Sing	5	xcomp	5:xcomp	Entity=person-1-Jenna_Marbles)|SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	5:punct	_
+12	[	[	PUNCT	-LRB-	_	13	punct	13:punct	Discourse=evidence:120->119:0|SpaceAfter=No
+13	24	24	NUM	CD	NumForm=Digit|NumType=Card	5	dep	5:dep	Entity=(abstract-177)|SpaceAfter=No
+14	]	]	PUNCT	-RRB-	_	13	punct	13:punct	_
+15	[	[	PUNCT	-LRB-	_	16	punct	16:punct	Discourse=joint_m:121->120:0|SpaceAfter=No
+16	25	25	NUM	CD	NumForm=Digit|NumType=Card	5	dep	5:dep	Entity=(abstract-178)|SpaceAfter=No
+17	]	]	PUNCT	-RRB-	_	16	punct	16:punct	_
 
 # sent_id = GUM_bio_marbles-43
 # s_type = decl
 # text = Marbles has been in a relationship with fellow YouTuber Julien Solomita since 2013, and the two live together in California with their four dogs, Marbles, Kermit, Peach and Bunny, who regularly appear in her videos. [26]
-1	Marbles	Marbles	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Discourse=joint:122->119|Entity=(person-1-Jenna_Marbles)
+1	Marbles	Marbles	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Discourse=joint_m:122->119:1|Entity=(person-1-Jenna_Marbles)
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	6:cop	_
 4	in	in	ADP	IN	_	6	case	6:case	_
@@ -1081,7 +1095,7 @@
 12	since	since	ADP	IN	_	13	case	13:case	_
 13	2013	2013	NUM	CD	NumForm=Digit|NumType=Card	6	nmod	6:nmod:since	Entity=(time-124)abstract-179)|SpaceAfter=No
 14	,	,	PUNCT	,	_	18	punct	18:punct	_
-15	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=joint:123->122
+15	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=joint_m:123->122:0
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(person-141
 17	two	two	NUM	CD	NumForm=Word|NumType=Card	18	nsubj	18:nsubj	Entity=person-141)
 18	live	live	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	6:conj:and	_
@@ -1101,14 +1115,14 @@
 32	and	and	CCONJ	CC	_	33	cc	33:cc	_
 33	Bunny	Bunny	PROPN	NNP	Number=Sing	25	conj	18:obl:with|25:conj:and	Entity=(animal-185)animal-181)|SpaceAfter=No
 34	,	,	PUNCT	,	_	37	punct	37:punct	_
-35	who	who	PRON	WP	PronType=Rel	37	nsubj	25:ref	Discourse=elaboration:124->123
+35	who	who	PRON	WP	PronType=Rel	37	nsubj	25:ref	Discourse=elaboration:124->123:0
 36	regularly	regularly	ADV	RB	Degree=Pos	37	advmod	37:advmod	_
 37	appear	appear	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	25:acl:relcl	_
 38	in	in	ADP	IN	_	40	case	40:case	_
 39	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	40	nmod:poss	40:nmod:poss	Entity=(abstract-99(person-1-Jenna_Marbles)
 40	videos	video	NOUN	NNS	Number=Plur	37	obl	37:obl:in	Entity=animal-181)abstract-99)|SpaceAfter=No
 41	.	.	PUNCT	.	_	6	punct	6:punct	_
-42	[	[	PUNCT	-LRB-	_	43	punct	43:punct	Discourse=evidence:125->122|SpaceAfter=No
+42	[	[	PUNCT	-LRB-	_	43	punct	43:punct	Discourse=evidence:125->122:1|SpaceAfter=No
 43	26	26	NUM	CD	NumForm=Digit|NumType=Card	6	dep	6:dep	Entity=(abstract-186)|SpaceAfter=No
 44	]	]	PUNCT	-RRB-	_	43	punct	43:punct	_
 
