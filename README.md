@@ -18,7 +18,7 @@ The `Entity` annotation uses the CoNLL 2012 shared task bracketing format, which
 
 Multi-token mentions receive opening brackets on the line in which they open, such as `(person-97-giv:inact-1,3-coref-Jensen_Ackles`, and a closing annotation `97)` at the token on which they end. Multiple annotations are possible for one token, corresponding to nested entities, e.g. `(time-175-giv:inact-1-coref)189)` below corresponds to the single token and last token of the time entities "2015" and "April 2015" respectively. 
 
-```
+```CoNLL-U
 # global.Entity = entity-GRP-infstat-MIN-coref_type-identity
 ...
 1	For	for	ADP	IN	_	4	case	4:case	Discourse=sequence_m:104->98:2
@@ -116,7 +116,7 @@ Discourse relations in GUM are defined based on the effect that W (a writer/spea
 
 Markup from the original XML annotations using TEI tags is available in the XML MISC annotation, which indicates which XML tags, if any, were opened or closed before or after the current token, and in what order. In tokens 7-9 in the example above, the XML annotations indicate the words "Always Keep Fighting" were originally italicized using the tag pair `<hi rend="italic">...</hi>`, which opens at token 7 and closes after token 9. To avoid confusion with the `=` sign in MISC annotations, XML `=` signs are escaped and represented as `:::`.
 
-```
+```CoNLL-U
 7	Always	Always	ADV	NNP	Number=Sing	8	advmod	8:advmod	XML=<hi rend:::"italic">
 8	Keep	Keep	PROPN	NNP	Number=Sing	10	compound	10:compound	_
 9	Fighting	Fighting	PROPN	NNP	Number=Sing	8	xcomp	8:xcomp	XML=</hi>
@@ -124,7 +124,7 @@ Markup from the original XML annotations using TEI tags is available in the XML 
 
 XML block tags spanning whole sentences (i.e. not beginning or ending mid sentence), such as paragraphs (`<p>`) or headings (`<head>`) are instead represented using the standard UD `# newpar` comment, which may however feature nested tags, for example:
 
-```
+```CoNLL-U
 # newpar = list type:::"unordered" (10 s) | item (4 s)
 ```
 
