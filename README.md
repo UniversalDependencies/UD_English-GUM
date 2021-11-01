@@ -10,7 +10,11 @@ The dependencies in the corpus up to GUM version 5 were originally annotated usi
 
 # Additional annotations in MISC
 
-The MISC column contains **entity, coreference, information status, Wikification and discourse** annotations from the full GUM corpus, encoded using the annotations `Entity`, `Split`, `Bridge` and `Discourse`. The `Entity` annotation uses the CoNLL 2012 shared task bracketing format, which identifies potentially coreferring entities using round opening and closing brackets as well as a unique ID per entity, repeated across mentions. In the following example, actor Jared Padalecki appears in a single token mention, labeled `(person-1-giv:act-1-coref-Jared_Padalecki)` indicating the entity type (`person`) combined with the unique ID of all mentions of Padalecki in the text (`person-1`). Because Padalecki is a named entity with a corresponding Wikipedia page, the Wikification identifier corresponding to his Wikipedia page is given after the last hyphen (`person-1-Jared_Padalecki`). We can also see an information status annotation (`giv:act`, indicating an aforementioned or 'given' entity, actively mentioned last no farther than the previous sentences; see Dipper et al. 2007), as well as minimum token ID information indicating the head tokens for fuzzy matching (in this case `1`, the first and only token  in this span) and the coreference type `coref`, indicating lexical subsequent mention. The labels for each part of the hyphen-separated annotation is given at the top of each document in a comment `# global.Entity = entity-GRP-infstat-MIN-coref_type-identity`, indicating that these annotations consist of the entity type, coreference group, information status, minimal tokens for head matching, the coreference type, and named entity identity (if available). 
+The MISC column contains **entity, coreference, information status, Wikification and discourse** annotations from the full GUM corpus, encoded using the annotations `Entity`, `Split`, `Bridge` and `Discourse`. 
+
+## Entity
+
+The `Entity` annotation uses the CoNLL 2012 shared task bracketing format, which identifies potentially coreferring entities using round opening and closing brackets as well as a unique ID per entity, repeated across mentions. In the following example, actor Jared Padalecki appears in a single token mention, labeled `(person-1-giv:act-1-coref-Jared_Padalecki)` indicating the entity type (`person`) combined with the unique ID of all mentions of Padalecki in the text (`person-1`). Because Padalecki is a named entity with a corresponding Wikipedia page, the Wikification identifier corresponding to his Wikipedia page is given after the last hyphen (`person-1-Jared_Padalecki`). We can also see an information status annotation (`giv:act`, indicating an aforementioned or 'given' entity, actively mentioned last no farther than the previous sentences; see Dipper et al. 2007), as well as minimum token ID information indicating the head tokens for fuzzy matching (in this case `1`, the first and only token  in this span) and the coreference type `coref`, indicating lexical subsequent mention. The labels for each part of the hyphen-separated annotation is given at the top of each document in a comment `# global.Entity = entity-GRP-infstat-MIN-coref_type-identity`, indicating that these annotations consist of the entity type, coreference group, information status, minimal tokens for head matching, the coreference type, and named entity identity (if available). 
 
 Multi-token mentions receive opening brackets on the line in which they open, such as `(person-97-giv:inact-1,3-coref-Jensen_Ackles`, and a closing annotation `97)` at the token on which they end. Multiple annotations are possible for one token, corresponding to nested entities, e.g. `(time-175-giv:inact-1-coref)189)` below corresponds to the single token and last token of the time entities "2015" and "April 2015" respectively. 
 
@@ -48,11 +52,85 @@ Multi-token mentions receive opening brackets on the line in which they open, su
 29	faces	face	NOUN	NNS	Number=Plur	26	nmod	26:nmod:of	Entity=191)|SpaceAfter=No
 ```
 
-The additional annotations `Split` and `Bridge` mark non-strict identity anaphora (see the [Universal Anaphora](http://universalanaphora.org/) project for more details). For example, at token 28 in the example, the pronoun "their" refers back to two non-adjacent entities, requiring a split antecedent annotation. The value `Split=1<192,97<192` indicates that `person-192` (the pronoun "their") refers back to two previous Entity annotations, with pointers separatated by a comma: `1` (`person-1-Jared_Padalecki`) and `97` (`person-97-Jensen_Ackles`). Bridging anaphora is annotated when an entity has not been mentioned before, but is resolvable in context by way of a different entity: for example, token 2 has the annotation `Bridge=173<188`, which indicates that although `event-188` ("the second campaign...") has not been mentioned before, its identity is mediated by the previous mention of another entity, `abstract-173` (the project "Always Keep Fighting", mentioned earlier in the document, to which the campaign event belongs). This also leads to the information status label `acc:inf`, accessible-inferable.
+Possible values for the annotations mentioned above are:
 
-Discourse annotations are given in RST dependencies following the conversion from RST constituent trees as suggested by Li et al. (2014) - for the original RST constituent parses of GUM see the [source repo](https://github.com/amir-zeldes/gum/). At the beginning of each Elementary Discourse Unit (EDU), and annotation `Discourse` gives the discourse function of the unit beginning with that token, followed by a colon, the ID of the current unit, and an arrow pointing to the ID of the parent unit in the discourse parse. For instance, `Discourse=purpose:105->104:0` at token 21 in the example below means that this token begins discourse unit 105, which functions as a `purpose` to unit 104, which begins at token 1 in this sentence ("Padalecki partnered with co-star Jensen Ackles --purpose-> to release a shirt..."). The final `:0` indicates that the attachment has a depth of 0, without an intervening span in the original RST constituent tree (this information allows deterministic reconstruction of the RST constituent discourse tree from the conllu file). The unique `ROOT` node of the discourse tree has no arrow notation, e.g. `Discourse=ROOT:2:0` means that this token begins unit 2, which is the Central Discourse Unit (or discourse root) of the current document. 
+  * entity type: abstract, animal, event, object, organization, person, place, plant, substance, time
+  * information status 
+    * new - not previously mentioned
+    * giv:act - mentioned no further than one sentence ago
+    * giv:inact - mentioned earlier
+    * acc:inf - accessible, inferable from some previous mention (e.g. the house... [the door]) 
+    * acc:aggr - accessible, aggregate, i.e. split antecedent mediated by a set of previous mentions
+    * acc:com - accessible, common ground, i.e. generic ([the world]) or situationally accessible ("pass [the salt]", first mention of "you" or "I")
+  * coref_type: 
+    * ana - pronominal anaphora (the dancers ... [they])
+    * appos - apposition (Kim, [the lawyer])
+    * cata - cataphora ("In [their] speech, the athletes said", or expletive cataphora: "[it] is easy [to dance]")
+    * coref - lexical coreference (e.g. [Kim] ... [Kim])
+    * disc - discourse deixis, non-NP, e.g. verbal antecedent as in "[Kim arrived] - [this] delighted the children
+    * pred - predication, e.g. Kim is [a teacher] (but NOT definite identification: This is Kim)
+    * sgl - singleton, not mentioned again in document
+  * identity: any Wikipedia article title
+  * MIN: a number or set of comma-separated numbers indicating indices of minimal head tokens within the span of the mention (first in span: 1, etc.)
 
-More information and additional annotation layers can be found in the GUM [source repo](https://github.com/amir-zeldes/gum/).
+## Split antecedent and bridging
+
+The annotations `Split` and `Bridge` mark non-strict identity anaphora (see the [Universal Anaphora](http://universalanaphora.org/) project for more details). For example, at token 28 in the example, the pronoun "their" refers back to two non-adjacent entities, requiring a split antecedent annotation. The value `Split=1<192,97<192` indicates that `person-192` (the pronoun "their") refers back to two previous Entity annotations, with pointers separatated by a comma: `1` (`person-1-Jared_Padalecki`) and `97` (`person-97-Jensen_Ackles`). 
+
+Bridging anaphora is annotated when an entity has not been mentioned before, but is resolvable in context by way of a different entity: for example, token 2 has the annotation `Bridge=173<188`, which indicates that although `event-188` ("the second campaign...") has not been mentioned before, its identity is mediated by the previous mention of another entity, `abstract-173` (the project "Always Keep Fighting", mentioned earlier in the document, to which the campaign event belongs). In other words, readers can infer that "the second campaign" is part of the already introduced larger project, which also had a first campaign. This inference also leads to the information status label `acc:inf`, accessible-inferable.
+
+## RST discourse trees
+
+Discourse annotations are given in RST dependencies following the conversion from RST constituent trees as suggested by Li et al. (2014) - for the original RST constituent parses of GUM see the [source repo](https://github.com/amir-zeldes/gum/). At the beginning of each Elementary Discourse Unit (EDU), and annotation `Discourse` gives the discourse function of the unit beginning with that token, followed by a colon, the ID of the current unit, and an arrow pointing to the ID of the parent unit in the discourse parse. For instance, `Discourse=purpose:105->104:0` at token 21 in the example below means that this token begins discourse unit 105, which functions as a `purpose` to unit 104, which begins at token 1 in this sentence ("Padalecki partnered with co-star Jensen Ackles --purpose-> to release a shirt..."). The final `:0` indicates that the attachment has a depth of 0, without an intervening span in the original RST constituent tree (this information allows deterministic reconstruction of the RST constituent discourse tree from the conllu file). The unique `ROOT` node of the discourse tree has no arrow notation, e.g. `Discourse=ROOT:2:0` means that this token begins unit 2, which is the Central Discourse Unit (or discourse root) of the current document. Although it is easiest to recover RST constituent trees from the source repo, it is also possible to generate them automatically from the dependencies with depth information, using the scripts in the [rst2dep repo](https://github.com/amir-zeldes/rst2dep/).
+
+Discourse relations in GUM include:
+
+  * Antithesis - R is meant to prefer N as an alternative to S
+  * Attribution - S provides the source of information in N
+  * Background - S provides information to increase R's understanding of N
+  * Cause - S is the cause of N (and N is more prominent)
+  * Circumstance - S details circumstances (often spatio-temporal) under which N applies
+  * Concession - R is meant to look past an incompatibility of N with S
+  * Condition - N occurs depending on S
+  * Contrast - W presents multiple Ns as incompatible, but of equal prominence
+  * Elaboration - S gives additional information about N
+  * Evaluation - S provides an assessment of N by W (R does not have to share this assemssment)
+  * Evidence - S provides evidence which increases R's belief in N
+  * Joint - any other collection of discourse units of equal prominence at the same level of hierarchy
+  * Justify - S increases R's acceptance of W's right to say N
+  * Manner - S indicates the manner in which N happens
+  * Means - S indicates the means by which N happens
+  * Motivation - S is meant to influence R's willingness to act according to N
+  * Preparation - S makes R more prepared for the appearance of N
+  * Purpose - N is initiated or exists in order to realize S
+  * Question - N is the answer to the question posed by S
+  * Restatement - Multiple Ns realize the same role and content
+  * Restatement - S partly realizes the same role and content as a previous N
+  * Result - S is the result of N (or: N is the cause of S, and N is more prominent)
+  * ROOT - central discourse unit of the document (not properly a discourse relation)
+  * Same-unit - indicates a discontinuous discourse unit (not properly a discourse relation)
+  * Sequence - Multiple Ns form a temporally ordered sequence of events in order
+  * Solutionhood - N is a solution to a problem presented by S
+
+## XML
+
+Markup from the original XML annotations using TEI tags is available in the XML MISC annotation, which indicates which XML tags, if any, were opened or closed before or after the current token, and in what order. In tokens 7-9 in the example above, the XML annotations indicate the words "Always Keep Fighting" were originally italicized using the tag pair `<hi rend="italic">...</hi>`, which opens at token 7 and closes after token 9. To avoid confusion with the `=` sign in MISC annotations, XML `=` signs are escaped and represented as `:::`.
+
+```
+7	Always	Always	ADV	NNP	Number=Sing	8	advmod	8:advmod	XML=<hi rend:::"italic">
+8	Keep	Keep	PROPN	NNP	Number=Sing	10	compound	10:compound	_
+9	Fighting	Fighting	PROPN	NNP	Number=Sing	8	xcomp	8:xcomp	XML=</hi>
+```
+
+XML block tags spanning whole sentences (i.e. not beginning or ending mid sentence), such as paragraphs (`<p>`) or headings (`<head>`) are instead represented using the standard UD `# newpar` comment, which may however feature nested tags, for example:
+
+```
+# newpar = list type:::"unordered" (10 s) | item (4 s)
+```
+
+This comment indicates the opening of a `<list type="unordered">` block element, which spans 10 sentences (`(10 s)`). However, the list begins with a nested block, a list item (i.e. a bullet point), which spans 4 sentences, as indicated after the pipe separator. For documentation of XML elements in GUM, please see the [GUM wiki](http://corpling.uis.georgetown.edu/wiki/doku.php?id=gum:tei_markup_in_gum).
+
+More information and additional annotation layers can also be found in the GUM [source repo](https://github.com/amir-zeldes/gum/).
 
 # Metadata
 
