@@ -38,7 +38,7 @@
 7	still	still	ADV	RB	Degree=Pos	8	advmod	8:advmod	_
 8	believed	believe	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	3:conj:and	_
 9	in	in	ADP	IN	_	10	case	10:case	_
-10	Santa	Santa	PROPN	NNP	Number=Sing	8	obl	8:obl:in	Entity=(person-4-acc:gen-1,2-coref-Santa_Claus
+10	Santa	Santa	PROPN	NNP	Number=Sing	8	obl	8:obl:in	Entity=(person-4-acc:com-1,2-coref-Santa_Claus
 11	Claus	Claus	PROPN	NNP	Number=Sing	10	flat	10:flat	Entity=4)|SpaceAfter=No
 12	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -177,7 +177,7 @@
 # s_type = decl
 # text = It was six o’clock.
 # newpar = p (6 s)
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=background:17->19:1|Entity=(time-33-acc:sit-1-coref)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=background:17->19:1|Entity=(time-33-acc:com-1-ana)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	3:cop	_
 3	six	six	NUM	CD	NumForm=Word|NumType=Card	0	root	0:root	Entity=(time-33-giv:act-1-coref
 4	o’clock	o'clock	ADV	RB	Degree=Pos	3	advmod	3:advmod	Entity=33)|SpaceAfter=No
@@ -270,7 +270,7 @@
 15	“	''	PUNCT	``	_	16	punct	16:punct	SpaceAfter=No|XML=<q>
 16	Goodbye	Goodbye	PROPN	NNP	Number=Sing	11	obj	11:obj	_
 17	to	to	ADP	IN	_	18	case	18:case	_
-18	You	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	16	nmod	16:nmod:to	Entity=(person-51-acc:sit-1-sgl)|SpaceAfter=No
+18	You	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	16	nmod	16:nmod:to	Entity=(person-51-acc:com-1-sgl)|SpaceAfter=No
 19	”	''	PUNCT	''	_	16	punct	16:punct	Entity=49)|XML=</q>
 20	with	with	ADP	IN	_	21	case	21:case	_
 21	bursts	burst	NOUN	NNS	Number=Plur	11	obl	11:obl:with	Entity=(abstract-52-new-1-sgl
@@ -352,7 +352,7 @@
 11	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(person-4-giv:act-1-ana-Santa_Claus)
 12	way	way	NOUN	NN	Number=Sing	8	conj	6:advcl|8:conj:and	_
 13	out	out	ADP	IN	_	15	case	15:case	_
-14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(object-63-acc:gen-2-sgl
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(object-63-acc:com-2-sgl
 15	door	door	NOUN	NN	Number=Sing	12	nmod	12:nmod:out	Entity=63)|SpaceAfter=No
 16	,	,	PUNCT	,	_	28	punct	28:punct	_
 17	because	because	SCONJ	IN	_	28	mark	28:mark	Discourse=cause:36->34:1
@@ -378,7 +378,7 @@
 37	wonderful	wonderful	ADJ	JJ	Degree=Pos	38	amod	38:amod	_
 38	night	night	NOUN	NN	Number=Sing	28	obl	28:obl:on	_
 39	of	of	ADP	IN	_	41	case	41:case	_
-40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	41:det	Entity=(time-67-acc:gen-2-sgl
+40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	41:det	Entity=(time-67-acc:com-2-sgl
 41	year	year	NOUN	NN	Number=Sing	38	nmod	38:nmod:of	Entity=67)36)|SpaceAfter=No|XML=</date>
 42	.	.	PUNCT	.	_	6	punct	6:punct	_
 
@@ -447,16 +447,16 @@
 # newpar = p (2 s)
 1	“	''	PUNCT	``	_	7	punct	7:punct	Discourse=background:41->34:4|SpaceAfter=No|XML=<sp who:::"#Santa" whom:::"#Betty">
 2-3	It’s	_	_	_	_	_	_	_	_
-2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	Entity=(abstract-77-new-1-coref)
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	Entity=(abstract-77-new-1-cata)
 3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 4	just	just	ADV	RB	_	7	advmod	7:advmod	_
 5	that	that	SCONJ	IN	_	7	mark	7:mark	_
-6	there	there	PRON	EX	_	7	expl	7:expl	Entity=(abstract-77-acc:sit-2-coref
+6	there	there	PRON	EX	_	7	expl	7:expl	Entity=(abstract-77-acc:com-2-coref
 7	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	17:ccomp	_
 8	more	more	ADJ	JJR	Degree=Cmp	9	amod	9:amod	Entity=(person-78-new-2-coref
 9	children	child	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	Entity=78)
 10	in	in	ADP	IN	_	12	case	12:case	_
-11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(place-79-acc:gen-2-sgl
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(place-79-acc:com-2-sgl
 12	world	world	NOUN	NN	Number=Sing	7	obl	7:obl:in	Entity=79)
 13	now	now	ADV	RB	_	7	advmod	7:advmod	Entity=77)|SpaceAfter=No
 14	,	,	PUNCT	,	_	7	punct	7:punct	SpaceAfter=No
@@ -694,7 +694,7 @@
 5	get	get	AUX	VB	VerbForm=Inf	6	aux:pass	6:aux:pass	_
 6	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	ccomp	17:ccomp	_
 7	in	in	ADP	IN	_	9	case	9:case	_
-8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(place-95-acc:gen-2-sgl
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(place-95-acc:com-2-sgl
 9	bedroom	bedroom	NOUN	NN	Number=Sing	6	obl	6:obl:in	Entity=95)
 10	like	like	ADP	IN	_	13	case	13:case	_
 11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Entity=(person-96-new-3-sgl
@@ -756,7 +756,7 @@
 # sent_id = GUM_fiction_claus-36
 # s_type = decl
 # text = One of her boys probably stepped on a landmine.
-1	One	one	NUM	CD	NumForm=Word|NumType=Card	6	nsubj	6:nsubj	Discourse=cause:66->62:1|Entity=(person-104-acc:gen-1-sgl
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	6	nsubj	6:nsubj	Discourse=cause:66->62:1|Entity=(person-104-acc:com-1-sgl
 2	of	of	ADP	IN	_	4	case	4:case	_
 3	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(person-54-giv:inact-2-coref(person-2-giv:act-1-ana-Mrs._Claus)
 4	boys	boy	NOUN	NNS	Number=Plur	1	nmod	1:nmod:of	Entity=54)104)
@@ -842,7 +842,7 @@
 15	longer	long	ADV	RBR	Degree=Cmp	14	advmod	14:advmod	_
 16	to	to	PART	TO	_	17	mark	17:mark	_
 17	clean	clean	VERB	VB	VerbForm=Inf	14	xcomp	14:xcomp	_
-18	tomorrow	tomorrow	NOUN	NN	Number=Sing	17	obl:tmod	17:obl:tmod	Entity=(time-112-acc:gen-1-sgl)|SpaceAfter=No
+18	tomorrow	tomorrow	NOUN	NN	Number=Sing	17	obl:tmod	17:obl:tmod	Entity=(time-112-acc:com-1-sgl)|SpaceAfter=No
 19	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_fiction_claus-42
@@ -1040,12 +1040,12 @@
 # newpar = sp who:::"#Gomze" whom:::"#Betty" (1 s)
 1	“	''	PUNCT	``	_	4	punct	4:punct	Discourse=joint_m:94->92:1|SpaceAfter=No
 2-3	It’ll	_	_	_	_	_	_	_	_
-2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	4:expl	Entity=(event-127-new-1-coref)
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	4:expl	Entity=(event-127-new-1-cata)
 3	’ll	will	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 4	take	take	VERB	VB	VerbForm=Inf	0	root	0:root	_
 5	that	that	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
 6	long	long	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
-7	to	to	PART	TO	_	8	mark	8:mark	Entity=(event-127-acc:gen-2-coref
+7	to	to	PART	TO	_	8	mark	8:mark	Entity=(event-127-acc:com-2-coref
 8	put	put	VERB	VB	VerbForm=Inf	4	csubj	4:csubj	_
 9	Humpty	Humpty	PROPN	NNP	Number=Sing	8	obj	8:obj	Entity=(person-128-new-1-sgl-Humpty_Dumpty)
 10	back	back	ADV	RB	Degree=Pos	8	advmod	8:advmod	_
@@ -1117,7 +1117,7 @@
 7	that	that	PRON	DT	Number=Sing|PronType=Dem	11	nsubj	11:nsubj	Entity=(plant-133-giv:act-1-ana)
 8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	11:cop	_
 9	more	more	ADV	RBR	Degree=Cmp	11	advmod	11:advmod	_
-10	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(abstract-134-new-2-sgl(person-135-acc:sit-1-sgl)
+10	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(abstract-134-new-2-sgl(person-135-acc:com-1-sgl)
 11	thing	thing	NOUN	NN	Number=Sing	4	advcl	4:advcl:if	Entity=134)|SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	4:punct	_
 

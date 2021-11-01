@@ -338,13 +338,13 @@
 15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	16:aux:pass	_
 16	released	release	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	acl:relcl	12:acl:relcl	_
 17	by	by	ADP	IN	_	18	case	18:case	_
-18	moisture	moisture	NOUN	NN	Number=Sing	16	obl	16:obl:by	Entity=(abstract-15-giv:inact-1-coref
+18	moisture	moisture	NOUN	NN	Number=Sing	16	obl	16:obl:by|24:nsubj	Entity=(abstract-15-giv:inact-1-coref
 19	evaporated	evaporate	VERB	VBN	Tense=Past|VerbForm=Part	18	acl	18:acl	Discourse=elaboration:31->30:0
 20	from	from	ADP	IN	_	22	case	22:case	_
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(place-29-giv:act-2-coref
-22	ocean	ocean	NOUN	NN	Number=Sing	19	obl	19:obl:from|24:nsubj	Entity=29)
-23	that	that	PRON	WDT	PronType=Rel	24	nsubj	22:ref	Discourse=elaboration:32->30:1
-24	condenses	condense	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	22:acl:relcl	_
+22	ocean	ocean	NOUN	NN	Number=Sing	19	obl	19:obl:from	Entity=29)
+23	that	that	PRON	WDT	PronType=Rel	24	nsubj	18:ref	Discourse=elaboration:32->30:1
+24	condenses	condense	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	18:acl:relcl	_
 25	to	to	PART	TO	_	26	mark	26:mark	Discourse=result:33->32:0
 26	form	form	VERB	VB	VerbForm=Inf	24	advcl	24:advcl:to	_
 27	rain	rain	NOUN	NN	Number=Sing	26	obj	26:obj	Entity=(substance-36-new-1-sgl)15)35)|SpaceAfter=No
@@ -541,11 +541,11 @@
 1	However	however	ADV	RB	_	11	advmod	11:advmod	Discourse=contrast_m:52->51:1|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	and	and	CCONJ	CC	_	6	cc	6:cc	Discourse=evaluation:53->54:0
-4	this	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Entity=(abstract-47-new-1-coref)
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Entity=(abstract-47-new-1-cata)
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 6	important	important	ADJ	JJ	Degree=Pos	11	parataxis	11:parataxis	SpaceAfter=No
 7	,	,	PUNCT	,	_	6	punct	6:punct	_
-8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	Discourse=same-unit_m:54->52:0|Entity=(abstract-47-acc:gen-4-coref(event-3-giv:act-1-ana-Cyclone_Phailin)
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	Discourse=same-unit_m:54->52:0|Entity=(abstract-47-acc:com-4-coref(event-3-giv:act-1-ana-Cyclone_Phailin)
 9	still	still	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
 10	will	will	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
 11	contain	contain	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -626,7 +626,7 @@
 # speaker = Richman
 # text = I have not followed that aspect of the societal response for the present storm.
 # newpar = sp who:::"#Richman" (4 s)
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=concession:61->65:2|Entity=(person-60-acc:sit-1-sgl)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=concession:61->65:2|Entity=(person-60-acc:com-1-sgl)
 2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	followed	follow	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
@@ -669,7 +669,7 @@
 # text = Hopefully, we all learn from past mistakes.
 1	Hopefully	hopefully	ADV	RB	Degree=Pos	5	advmod	5:advmod	Discourse=evaluation:64->62:1|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-65-acc:sit-1-sgl
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-65-acc:com-1-sgl
 4	all	all	DET	DT	_	3	det	3:det	Entity=65)
 5	learn	learn	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 6	from	from	ADP	IN	_	8	case	8:case	_
@@ -714,16 +714,16 @@
 31	as	as	ADP	IN	_	32	case	32:case	_
 32	300,000	300000	NUM	CD	NumForm=Digit|NumType=Card	30	obl	30:obl:as	Entity=(person-72-new-2-sgl
 33	people	person	NOUN	NNS	Number=Plur	34	nsubj	34:nsubj	Entity=72)
-34	killed	kill	VERB	VBN	Tense=Past|VerbForm=Part	20	advcl	20:advcl:with	Entity=63)|SpaceAfter=No
+34	killed	kill	VERB	VBN	Tense=Past|VerbForm=Part	20	acl	20:acl:with	Entity=63)|SpaceAfter=No
 35	,	,	PUNCT	,	_	37	punct	37:punct	_
 36	millions	million	NOUN	NNS	Number=Plur	37	nsubj	37:nsubj|38:nsubj:xsubj	Discourse=joint_m:67->66:0|Entity=(person-73-new-1-sgl)
-37	left	leave	VERB	VBN	Tense=Past|VerbForm=Part	34	conj	20:advcl:with|34:conj:and	_
+37	left	leave	VERB	VBN	Tense=Past|VerbForm=Part	34	conj	20:acl:with|34:conj:and	_
 38	homeless	homeless	ADJ	JJ	Degree=Pos	37	xcomp	37:xcomp	_
 39	and	and	CCONJ	CC	_	43	cc	43:cc	Discourse=joint_m:68->66:0
 40	estimated	estimate	VERB	VBN	Tense=Past|VerbForm=Part	41	amod	41:amod	Entity=(abstract-74-new-4-sgl
 41	damages	damage	NOUN	NNS	Number=Plur	43	nsubj	43:nsubj	_
 42	as	as	ADV	RB	_	43	advmod	43:advmod	_
-43	high	high	ADJ	JJ	Degree=Pos	34	conj	20:advcl:with|34:conj:and	_
+43	high	high	ADJ	JJ	Degree=Pos	34	conj	20:acl:with|34:conj:and	_
 44	as	as	ADP	IN	_	46	case	46:case	_
 45	US	US	PROPN	NNP	Abbr=Yes|Number=Sing	46	compound	46:compound	Entity=(abstract-75-new-2-sgl|SpaceAfter=No|XML=<ref><hi rend:::"blue"><w>
 46	$	$	SYM	SYM	_	43	obl	43:obl:as	XML=</w></hi></ref>
@@ -736,7 +736,7 @@
 # speaker = Snow
 # text = I don't have enough information to answer this question, one way or the other.
 # newpar = sp who:::"#Snow" (1 s)
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=joint_m:69->65:3|Entity=(person-76-acc:sit-1-sgl)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=joint_m:69->65:3|Entity=(person-76-acc:com-1-sgl)
 2-3	don't	_	_	_	_	_	_	_	_
 2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
@@ -805,7 +805,7 @@
 12	cyclone	cyclone	NOUN	NN	Number=Sing	9	obl	9:obl:for	Entity=3)
 13	than	than	SCONJ	IN	_	16	mark	16:mark	_
 14	in	in	ADP	IN	_	16	case	16:case	_
-15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(time-80-acc:gen-2-sgl
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(time-80-acc:com-2-sgl
 16	past	past	NOUN	NN	Number=Sing	7	advcl	7:advcl:than	Entity=80)|SpaceAfter=No
 17	.	.	PUNCT	.	_	7	punct	7:punct	_
 
@@ -876,7 +876,7 @@
 # speaker = Zhang
 # text = My knowledge of the responsiveness of the Indian government to this storm is purely from the cyber space.
 # newpar = sp who:::"#Zhang" (5 s)
-1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=joint_m:81->65:3|Entity=(abstract-90-new-2-sgl(person-91-acc:sit-1-coref)
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=joint_m:81->65:3|Entity=(abstract-90-new-2-sgl(person-91-acc:com-1-ana)
 2	knowledge	knowledge	NOUN	NN	Number=Sing	18	nsubj	18:nsubj	_
 3	of	of	ADP	IN	_	5	case	5:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(abstract-92-new-2-sgl
@@ -1096,7 +1096,7 @@
 2	all	all	DET	DT	_	3	det	3:det	Entity=(abstract-78-giv:inact-2-coref
 3	reports	report	NOUN	NNS	Number=Plur	13	obl	7:obj|13:obl:from	_
 4	that	that	PRON	WDT	PronType=Rel	7	obj	3:ref	Discourse=elaboration:100->99:0
-5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	Entity=(person-110-acc:sit-1-sgl)
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	Entity=(person-110-acc:com-1-sgl)
 6	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_
 7	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	3	acl:relcl	3:acl:relcl	Entity=78)|SpaceAfter=No
 8	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -1118,7 +1118,7 @@
 1	For	for	ADP	IN	_	3	case	3:case	Discourse=joint_m:102->65:3
 2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Entity=(abstract-58-giv:inact-2-coref
 3	question	question	NOUN	NN	Number=Sing	7	obl	7:obl:for	Entity=58)
-4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	Entity=(person-111-acc:sit-1-sgl)
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	Entity=(person-111-acc:com-1-sgl)
 5-6	don't	_	_	_	_	_	_	_	_
 5	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_
 6	n't	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	_

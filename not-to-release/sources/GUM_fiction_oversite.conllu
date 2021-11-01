@@ -18,7 +18,7 @@
 # text = “It doesn’t hurt, Gram,” Renata says.
 # newpar = p (3 s)
 1	“	''	PUNCT	``	_	5	punct	5:punct	Discourse=ROOT:2:0|SpaceAfter=No|XML=<sp who:::"#Renata">
-2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(object-2-new-1-coref)|XML=<hi rend:::"large initial capital"></hi>
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(object-2-new-1-ana)|XML=<hi rend:::"large initial capital"></hi>
 3-4	doesn’t	_	_	_	_	_	_	_	_
 3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 4	n’t	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
@@ -34,7 +34,7 @@
 # sent_id = GUM_fiction_oversite-3
 # s_type = decl
 # text = My sixteen-year-old daughter pulls up her T-shirt sleeve to show her bare arm, the skin summer brown and the muscle swelling slightly into smooth biceps, flawless.
-1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Discourse=circumstance:4->2:1|Entity=(person-4-giv:act-7-coref(person-5-acc:sit-1-coref)
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Discourse=circumstance:4->2:1|Entity=(person-4-giv:act-7-coref(person-5-acc:com-1-ana)
 2	sixteen	sixteen	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	SpaceAfter=No|XML=<w>
 3	-	-	PUNCT	HYPH	_	2	punct	2:punct	SpaceAfter=No
 4	year	year	NOUN	NN	Number=Sing	6	compound	6:compound	SpaceAfter=No
@@ -57,17 +57,17 @@
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Bridge=8<9|Discourse=elaboration:6->5:0|Entity=(object-9-acc:inf-2-sgl
 22	skin	skin	NOUN	NN	Number=Sing	24	nsubj	24:nsubj	Entity=9)
 23	summer	summer	NOUN	NN	Number=Sing	24	compound	24:compound	Entity=(time-10-new-1-sgl)
-24	brown	brown	ADJ	JJ	Degree=Pos	19	advcl	19:advcl	_
+24	brown	brown	ADJ	JJ	Degree=Pos	19	acl	19:acl	_
 25	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=joint_m:7->6:0
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Bridge=8<11|Entity=(object-11-acc:inf-2-sgl
 27	muscle	muscle	NOUN	NN	Number=Sing	28	nsubj	28:nsubj	Entity=11)
-28	swelling	swell	VERB	VBG	VerbForm=Ger	24	conj	19:advcl|24:conj:and	_
+28	swelling	swell	VERB	VBG	VerbForm=Ger	24	conj	19:acl|24:conj:and	_
 29	slightly	slightly	ADV	RB	Degree=Pos	28	advmod	28:advmod	_
 30	into	into	ADP	IN	_	32	case	32:case	_
 31	smooth	smooth	ADJ	JJ	Degree=Pos	32	amod	32:amod	Entity=(object-12-new-2-sgl
 32	biceps	biceps	NOUN	NN	Number=Sing	28	obl	28:obl:into	Entity=12)|SpaceAfter=No
 33	,	,	PUNCT	,	_	34	punct	34:punct	_
-34	flawless	flawless	ADJ	JJ	Degree=Pos	19	advcl	19:advcl	SpaceAfter=No
+34	flawless	flawless	ADJ	JJ	Degree=Pos	19	acl	19:acl	SpaceAfter=No
 35	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_fiction_oversite-4
@@ -87,7 +87,7 @@
 10	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=preparation:10->11:0
 11	see	see	VERB	VB	VerbForm=Inf	3	conj	3:conj:and	SpaceAfter=No
 12	,	,	PUNCT	,	_	17	punct	17:punct	_
-13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	17	nsubj	17:nsubj	Discourse=evidence:11->2:2|Entity=(person-13-acc:sit-1-sgl)
+13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	17	nsubj	17:nsubj	Discourse=evidence:11->2:2|Entity=(person-13-acc:com-1-sgl)
 14-15	can’t	_	_	_	_	_	_	_	_
 14	ca	can	AUX	MD	VerbForm=Fin	17	aux	17:aux	_
 15	n’t	not	PART	RB	Polarity=Neg	17	advmod	17:advmod	_
@@ -213,7 +213,7 @@
 # newpar = p (1 s)
 1	“	''	PUNCT	``	_	4	punct	4:punct	Discourse=sequence_m:22->2:4|SpaceAfter=No|XML=<sp who:::"#Protagonist">
 2-3	It’s	_	_	_	_	_	_	_	_
-2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(abstract-27-acc:sit-1-sgl)
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(abstract-27-acc:com-1-sgl)
 3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 4	okay	okay	ADJ	JJ	Degree=Pos	10	ccomp	10:ccomp	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
@@ -262,7 +262,7 @@
 6	that	that	PRON	WDT	PronType=Rel	8	nsubj	5:ref	Discourse=elaboration:28->27:0
 7	will	will	AUX	MD	VerbForm=Fin	8	aux	8:aux	_
 8	let	let	VERB	VB	VerbForm=Inf	5	acl:relcl	5:acl:relcl	_
-9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obj	8:obj|10:nsubj:xsubj	Entity=(person-29-acc:sit-1-sgl)
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obj	8:obj|10:nsubj:xsubj	Entity=(person-29-acc:com-1-sgl)
 10	know	know	VERB	VB	VerbForm=Inf	8	xcomp	8:xcomp	_
 11	where	where	SCONJ	WRB	PronType=Rel	10	obj	10:obj	_
 12	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	13:nsubj	Entity=(person-3-giv:inact-1-ana)
@@ -584,8 +584,8 @@
 4	,	,	PUNCT	,	_	8	punct	8:punct	_
 5	“	''	PUNCT	``	_	8	punct	8:punct	Discourse=question:65->67:2|SpaceAfter=No|XML=<sp who:::"#Mother">
 6	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
-7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj	Entity=(time-48-new-1-coref)
-8	time	time	NOUN	NN	Number=Sing	3	ccomp	3:ccomp	Entity=(time-48-acc:gen-1-coref
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj	Entity=(time-48-new-1-cata)
+8	time	time	NOUN	NN	Number=Sing	3	ccomp	3:ccomp	Entity=(time-48-acc:com-1-coref
 9	to	to	PART	TO	_	10	mark	10:mark	Discourse=elaboration:66->65:0
 10	go	go	VERB	VB	VerbForm=Inf	8	acl	8:acl:to	Entity=48)|SpaceAfter=No
 11	?	?	PUNCT	.	_	8	punct	8:punct	SpaceAfter=No
@@ -612,7 +612,7 @@
 # text = “They’re going to give you an injection.”
 # newpar = sp who:::"#Protagonist" (1 s)
 1	“	''	PUNCT	``	_	4	punct	4:punct	Discourse=cause:69->67:1|SpaceAfter=No
-2	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	4:nsubj|6:nsubj:xsubj	Entity=(person-49-acc:sit-1-coref)|SpaceAfter=No
+2	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	4:nsubj|6:nsubj:xsubj	Entity=(person-49-acc:com-1-ana)|SpaceAfter=No
 3	’re	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
 5	to	to	PART	TO	_	6	mark	6:mark	_
@@ -946,9 +946,9 @@
 14	up	up	ADP	RP	_	12	compound:prt	12:compound:prt	SpaceAfter=No
 15	,	,	PUNCT	,	_	12	punct	12:punct	_
 16-17	it’s	_	_	_	_	_	_	_	_
-16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	18:nsubj	Discourse=same-unit_m:106->104:0|Entity=(event-65-new-1-coref)
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	18:nsubj	Discourse=same-unit_m:106->104:0|Entity=(event-65-new-1-cata)
 17	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	_
-18	thinking	think	VERB	VBG	VerbForm=Ger	4	advcl	4:advcl:although|22:nsubj	Entity=(event-65-acc:gen-1-coref
+18	thinking	think	VERB	VBG	VerbForm=Ger	4	advcl	4:advcl:although|22:nsubj	Entity=(event-65-acc:com-1-coref
 19	about	about	ADP	IN	_	20	case	20:case	_
 20	Renata	Renata	PROPN	NNP	Number=Sing	18	obl	18:obl:about	Entity=(person-4-giv:act-1-coref)65)
 21	that	that	PRON	WDT	PronType=Rel	22	nsubj	18:ref	_
@@ -1186,7 +1186,7 @@
 12	,	,	PUNCT	,	_	14	punct	14:punct	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Discourse=manner:134->133:0|Entity=(abstract-87-new-2-sgl
 14	way	way	NOUN	NN	Number=Sing	9	obl:npmod	9:obl:npmod	_
-15	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	18	nsubj	18:nsubj	Entity=(person-88-acc:sit-1-sgl)
+15	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	18	nsubj	18:nsubj	Entity=(person-88-acc:com-1-sgl)
 16	can	can	AUX	MD	VerbForm=Fin	18	aux	18:aux	_
 17	sometimes	sometimes	ADV	RB	_	18	advmod	18:advmod	_
 18	will	will	VERB	VB	VerbForm=Inf	14	acl:relcl	14:acl:relcl	_

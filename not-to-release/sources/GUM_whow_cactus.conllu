@@ -65,9 +65,9 @@
 43	purple	purple	ADJ	JJ	Degree=Pos	41	conj	41:conj:or|44:amod	_
 44	flowers	flower	NOUN	NNS	Number=Plur	40	obj	40:obj	Entity=7)
 45	from	from	ADP	IN	_	46	case	46:case	_
-46	spring	spring	NOUN	NN	Number=Sing	40	obl	40:obl:from	Entity=(time-8-acc:gen-1-sgl)|XML=<date from:::"--03" to:::"--06"></date>
+46	spring	spring	NOUN	NN	Number=Sing	40	obl	40:obl:from	Entity=(time-8-acc:com-1-sgl)|XML=<date from:::"--03" to:::"--06"></date>
 47	to	to	ADP	IN	_	49	case	49:case	_
-48	early	early	ADJ	JJ	Degree=Pos	49	amod	49:amod	Entity=(time-9-acc:gen-2-sgl
+48	early	early	ADJ	JJ	Degree=Pos	49	amod	49:amod	Entity=(time-9-acc:com-2-sgl
 49	summer	summer	NOUN	NN	Number=Sing	46	nmod	46:nmod:to	Entity=9)|SpaceAfter=No|XML=<date from:::"--06" to:::"--09"></date>
 50	.	.	PUNCT	.	_	20	punct	20:punct	_
 
@@ -216,7 +216,7 @@
 7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obj	6:obj	Entity=(plant-23-giv:act-1-ana)|SpaceAfter=No
 8	,	,	PUNCT	,	_	11	punct	11:punct	_
 9	unless	unless	SCONJ	IN	_	11	mark	11:mark	Discourse=condition:24->22:1
-10	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj|13:nsubj:xsubj	Entity=(person-26-acc:sit-1-coref)
+10	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj|13:nsubj:xsubj	Entity=(person-26-acc:com-1-ana)
 11	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	advcl	2:advcl:unless	_
 12	to	to	PART	TO	_	13	mark	13:mark	_
 13	use	use	VERB	VB	VerbForm=Inf	11	xcomp	11:xcomp	_
@@ -385,7 +385,7 @@
 3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	obj	2:obj	Entity=(event-38-giv:act-1-coref)|SpaceAfter=No
 4	,	,	PUNCT	,	_	2	punct	2:punct	_
 5	choose	choose	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root|25:nsubj	Discourse=elaboration:43->41:1
-6	pads	pad	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=(plant-40-acc:sit-20,22-disc
+6	pads	pad	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=(plant-40-acc:com-20,22-disc
 7	(	(	PUNCT	-LRB-	_	14	punct	14:punct	Discourse=restatement:44->43:0|SpaceAfter=No
 8	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(plant-40-giv:act-7-coref
 9	flat	flat	ADJ	JJ	Degree=Pos	14	amod	14:amod	SpaceAfter=No
@@ -778,13 +778,13 @@
 # text = During the spring, summer, and fall, the Beavertail cactus grows and will benefit from a balanced fertilizer.
 # newpar = list type:::"unordered" (1 s) | item (1 s) | p (1 s)
 1	During	during	ADP	IN	_	3	case	3:case	Discourse=cause:83->84:0
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(time-75-acc:gen-2-sgl
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(time-75-acc:com-2-sgl
 3	spring	spring	NOUN	NN	Number=Sing	13	obl	13:obl:during	Entity=75)|SpaceAfter=No|XML=<date from:::"--03" to:::"--06"></date>
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
 5	summer	summer	NOUN	NN	Number=Sing	3	conj	3:conj:and|13:obl:during	Entity=(time-61-giv:inact-1-coref)|SpaceAfter=No|XML=<date from:::"--06" to:::"--09"></date>
 6	,	,	PUNCT	,	_	8	punct	8:punct	_
 7	and	and	CCONJ	CC	_	8	cc	8:cc	_
-8	fall	fall	NOUN	NN	Number=Sing	3	conj	3:conj:and|13:obl:during	Entity=(time-76-acc:gen-1-sgl)|SpaceAfter=No|XML=<date from:::"--09" to:::"--12"></date>
+8	fall	fall	NOUN	NN	Number=Sing	3	conj	3:conj:and|13:obl:during	Entity=(time-76-acc:com-1-sgl)|SpaceAfter=No|XML=<date from:::"--09" to:::"--12"></date>
 9	,	,	PUNCT	,	_	3	punct	3:punct	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(plant-1-giv:inact-3-coref-Opuntia_basilaris
 11	Beavertail	Beavertail	PROPN	NNP	Number=Sing	12	compound	12:compound	_

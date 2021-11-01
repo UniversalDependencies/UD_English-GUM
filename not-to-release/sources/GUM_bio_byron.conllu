@@ -245,7 +245,7 @@
 8	no	no	DET	DT	Polarity=Neg	9	det	9:det	Entity=(abstract-42-new-2-sgl
 9	indisposition	indisposition	NOUN	NN	Number=Sing	7	obj	7:obj|12:obl:of	_
 10	that	that	PRON	WDT	PronType=Rel	12	obl	9:ref	Discourse=concession:29->28:0
-11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	12:nsubj	Entity=(person-17-acc:sit-1-ana)
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	12:nsubj	Entity=(person-17-acc:com-1-ana)
 12	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	acl:relcl	9:acl:relcl	_
 13	of	of	ADP	IN	_	10	case	10:case	_
 14	but	but	ADP	IN	_	15	case	15:case	Discourse=same-unit_m:30->28:1
@@ -663,7 +663,7 @@
 # s_type = decl
 # text = In later years, he described the affair as "a violent, though pure love and passion".
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=joint_m:72->70:1
-2	later	late	ADJ	JJR	Degree=Cmp	3	amod	3:amod	Entity=(time-99-acc:gen-2-sgl
+2	later	late	ADJ	JJR	Degree=Cmp	3	amod	3:amod	Entity=(time-99-acc:com-2-sgl
 3	years	year	NOUN	NNS	Number=Plur	6	obl	6:obl:in	Entity=99)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-3-giv:act-1-ana-Lord_Byron)
@@ -839,10 +839,10 @@
 33	]	]	PUNCT	-RRB-	_	32	punct	32:punct	_
 34	and	and	CCONJ	CC	_	35	cc	35:cc	Discourse=same-unit_m:89->85:2
 35	Francis	Francis	PROPN	NNP	Number=Sing	13	conj	10:nmod:such_as|13:conj:and	Entity=(person-123-new-1,2,5,9-coref-Francis_Hodgson|XML=<ref target:::"https://en.wikipedia.org/wiki/Francis_Hodgson">
-36	Hodgson	Hodgson	PROPN	NNP	Number=Sing	35	flat	35:flat	SpaceAfter=No|XML=</ref>
-37	,	,	PUNCT	,	_	39	punct	39:punct	_
+36	Hodgson	Hodgson	PROPN	NNP	Number=Sing	35	flat	35:flat|48:obl:with	SpaceAfter=No|XML=</ref>
+37	,	,	PUNCT	,	_	36	punct	36:punct	_
 38	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	39:det	Entity=(person-123-giv:act-2,6-appos-Francis_Hodgson
-39	Fellow	Fellow	PROPN	NNP	Number=Sing	35	appos	35:appos|48:obl:with	_
+39	Fellow	Fellow	PROPN	NNP	Number=Sing	35	appos	35:appos	_
 40	at	at	ADP	IN	_	43	case	43:case	_
 41-42	King's	_	_	_	_	_	_	_	_
 41	King	King	PROPN	NNP	Number=Sing	43	nmod:poss	43:nmod:poss	Entity=(organization-124-new-3-sgl-King's_College%2C_Cambridge
@@ -850,9 +850,9 @@
 43	College	College	PROPN	NNP	Number=Sing	39	nmod	39:nmod:at	Entity=124)123)|SpaceAfter=No
 44	,	,	PUNCT	,	_	48	punct	48:punct	_
 45	with	with	ADP	IN	_	46	case	46:case	Discourse=elaboration:90->89:0
-46	whom	who	PRON	WP	PronType=Rel	48	obl	39:ref	_
+46	whom	who	PRON	WP	PronType=Rel	48	obl	36:ref	_
 47	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	48	nsubj	48:nsubj	Entity=(person-3-giv:act-1-ana-Lord_Byron)
-48	corresponded	correspond	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	acl:relcl	39:acl:relcl	_
+48	corresponded	correspond	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	acl:relcl	36:acl:relcl	_
 49	on	on	ADP	IN	_	53	case	53:case	_
 50	literary	literary	ADJ	JJ	Degree=Pos	53	amod	53:amod	Entity=(abstract-125-new-4-sgl
 51	and	and	CCONJ	CC	_	52	cc	52:cc	_

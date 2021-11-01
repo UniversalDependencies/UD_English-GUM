@@ -16,7 +16,7 @@
 # s_type = frag
 # text = Some of the distinctive skyline of Downtown, including the Kaiser Building and the Cathedral of Christ the Light.
 # newpar = figure (1 s) | caption (1 s)
-1	Some	some	DET	DT	_	0	root	0:root	Discourse=background:2->10:2|Entity=(place-1-acc:sit-1-sgl
+1	Some	some	DET	DT	_	0	root	0:root	Discourse=background:2->10:2|Entity=(place-1-acc:com-1-sgl
 2	of	of	ADP	IN	_	5	case	5:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(place-2-new-3-sgl
 4	distinctive	distinctive	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
@@ -47,13 +47,13 @@
 4	San	San	PROPN	NNP	Number=Sing	2	obl	2:obl:by	Entity=(place-6-new-1,2-coref-San_Francisco
 5	Francisco	Francisco	PROPN	NNP	Number=Sing	4	flat	4:flat	Entity=6)|SpaceAfter=No
 6	,	,	PUNCT	,	_	9	punct	9:punct	_
-7	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(place-6-giv:act-3-appos-San_Francisco(place-7-new-1-coref)
+7	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(place-6-giv:act-3-appos-San_Francisco(place-7-new-1-cata)
 8	larger	large	ADJ	JJR	Degree=Cmp	9	amod	9:amod	_
 9	neighbor	neighbor	NOUN	NN	Number=Sing	4	appos	4:appos	_
 10	lying	lie	VERB	VBG	VerbForm=Ger	9	acl	9:acl	_
 11	directly	directly	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
 12	to	to	ADP	IN	_	14	case	14:case	_
-13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(place-8-acc:gen-2-sgl
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(place-8-acc:com-2-sgl
 14	west	west	NOUN	NN	Number=Sing	10	obl	10:obl:to	Entity=8)6)|SpaceAfter=No
 15	,	,	PUNCT	,	_	2	punct	2:punct	_
 16	Oakland	Oakland	PROPN	NNP	Number=Sing	21	nsubj	21:nsubj|23:nsubj:xsubj	Discourse=background:4->10:1|Entity=(place-7-new-1-coref-Oakland%2C_California)
@@ -99,7 +99,7 @@
 # text = Since the 1960s, Oakland has been a hub of radical culture, and is the birthplace of both the Black Panther Party and the Hell's Angels.
 # newpar = p (2 s)
 1	Since	since	ADP	IN	_	3	case	3:case	Discourse=justify:6->10:0
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(time-14-acc:gen-2-sgl
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(time-14-acc:com-2-sgl
 3	1960s	1960s	NOUN	NNS	Number=Plur	9	nmod	9:nmod:since	Entity=14)|SpaceAfter=No|XML=<date from:::"1960-01-01" to:::"1969-12-31"></date>
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5	Oakland	Oakland	PROPN	NNP	Number=Sing	9	nsubj	9:nsubj|17:nsubj	Entity=(place-7-giv:act-1-coref-Oakland%2C_California)
@@ -371,7 +371,7 @@
 31	San	San	PROPN	NNP	Number=Sing	28	conj	28:conj:rather_than|36:nsubj	Entity=(place-6-giv:inact-1,2-coref-San_Francisco
 32	Francisco	Francisco	PROPN	NNP	Number=Sing	31	flat	31:flat	Entity=6)
 33	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	36:cop	_
-34	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	36	nmod:poss	36:nmod:poss	Entity=(person-57-acc:sit-1-coref)
+34	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	36	nmod:poss	36:nmod:poss	Entity=(person-57-acc:com-1-ana)
 35	best	good	ADJ	JJS	Degree=Sup	36	amod	36:amod	_
 36	bet	bet	NOUN	NN	Number=Sing	2	conj	2:conj:and	SpaceAfter=No
 37	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -537,7 +537,7 @@
 # s_type = decl
 # text = In the evening it buzzes with art galleries, theaters and residents and Bay Area visitors coming into the area to see concerts.
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=elaboration:34->33:0
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(time-79-acc:gen-2-sgl
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(time-79-acc:com-2-sgl
 3	evening	evening	NOUN	NN	Number=Sing	5	obl	5:obl:in	Entity=79)
 4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(place-78-giv:act-1-ana)
 5	buzzes	buzz	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -568,7 +568,7 @@
 2	popular	popular	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	area	area	NOUN	NN	Number=Sing	0	root	0:root	_
 4	on	on	ADP	IN	_	6	case	6:case	_
-5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(time-85-acc:gen-2-sgl
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(time-85-acc:com-2-sgl
 6	weekend	weekend	NOUN	NN	Number=Sing	3	nmod	3:nmod:on	Entity=85)
 7	with	with	ADP	IN	_	10	case	10:case	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(abstract-86-new-8-sgl
@@ -620,7 +620,7 @@
 1	Uptown	Uptown	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=elaboration:40->33:3|Entity=(place-78-giv:act-1-coref)
 2	also	also	ADV	RB	_	3	advmod	3:advmod	_
 3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-4	some	some	DET	DT	_	3	obj	3:obj	Entity=(abstract-94-new-1-coref
+4	some	some	DET	DT	_	3	obj	3:obj	Entity=(abstract-94-new-1-ana
 5	of	of	ADP	IN	_	7	case	7:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(abstract-95-new-2-sgl
 7	best	good	ADJ	JJS	Degree=Sup	4	nmod	4:nmod:of	_
@@ -744,7 +744,7 @@
 # s_type = decl
 # text = Until the 1960s, a dominantly Italian-American neighborhood, it is now a much more diversified neighborhood, home to many restaurants, including some of the city's best Korean and Ethiopian establishments.
 1	Until	until	ADP	IN	_	3	case	3:case	Discourse=concession:48->49:0
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(time-113-acc:gen-2-sgl
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(time-113-acc:com-2-sgl
 3	1960s	1960s	NOUN	NNS	Number=Plur	19	nmod	19:nmod:until	Entity=113)|SpaceAfter=No|XML=<date from:::"1960-01-01" to:::"1969-12-31"></date>
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(place-114-new-6-sgl-Temescal%2C_Oakland%2C_California
@@ -1104,7 +1104,7 @@
 20	opening	open	VERB	VBG	VerbForm=Ger	21	amod	21:amod	_
 21	decades	decade	NOUN	NNS	Number=Plur	17	obl	17:obl:as	_
 22	of	of	ADP	IN	_	25	case	25:case	_
-23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(time-170-acc:gen-3-sgl|XML=<date from:::"1800-01-01" to:::"1899-12-31">
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(time-170-acc:com-3-sgl|XML=<date from:::"1800-01-01" to:::"1899-12-31">
 24	19th	19th	ADJ	JJ	Degree=Pos|NumType=Ord	25	amod	25:amod	_
 25	century	century	NOUN	NN	Number=Sing	21	nmod	21:nmod:of	Entity=170)169)|SpaceAfter=No|XML=</date>
 26	.	.	PUNCT	.	_	10	punct	10:punct	_
@@ -1120,10 +1120,10 @@
 6	of	of	ADP	IN	_	7	case	7:case	_
 7	decline	decline	NOUN	NN	Number=Sing	5	nmod	5:nmod:of	_
 8	between	between	ADP	IN	_	10	case	10:case	_
-9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(time-172-acc:gen-2-sgl
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(time-172-acc:com-2-sgl
 10	1960s	1960s	NOUN	NNS	Number=Plur	7	nmod	7:nmod:between	Entity=172)|XML=<date from:::"1960-01-01" to:::"1969-12-31"></date>
 11	and	and	CCONJ	CC	_	15	cc	15:cc	_
-12	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(time-173-acc:gen-4-sgl
+12	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(time-173-acc:com-4-sgl
 13	more	more	ADV	RBR	Degree=Cmp	14	advmod	14:advmod	_
 14	recent	recent	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
 15	past	past	NOUN	NN	Number=Sing	10	conj	7:nmod:between|10:conj:and	Entity=173)171)|SpaceAfter=No
@@ -1167,10 +1167,10 @@
 14	industrial	industrial	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
 15	development	development	NOUN	NN	Number=Sing	21	nsubj	21:nsubj	_
 16	of	of	ADP	IN	_	18	case	18:case	_
-17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(time-181-acc:gen-2-sgl|XML=<date from:::"1920-01-01" to:::"1929-12-31">
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(time-181-acc:com-2-sgl|XML=<date from:::"1920-01-01" to:::"1929-12-31">
 18	20s	20s	NOUN	NNS	Number=Plur	15	nmod	15:nmod:of	Entity=181)|XML=</date>
 19	and	and	CCONJ	CC	_	20	cc	20:cc	_
-20	30s	30s	NOUN	NNS	Number=Plur	18	conj	15:nmod:of|18:conj:and	Entity=(time-182-acc:gen-1-sgl)180)|XML=<date from:::"1930-01-01" to:::"1939-12-31"></date>
+20	30s	30s	NOUN	NNS	Number=Plur	18	conj	15:nmod:of|18:conj:and	Entity=(time-182-acc:com-1-sgl)180)|XML=<date from:::"1930-01-01" to:::"1939-12-31"></date>
 21	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	9:conj:and	_
 22	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	23:nmod:poss	Entity=(person-183-new-2-sgl(place-166-giv:act-1-ana-West_Oakland%2C_Oakland%2C_California)
 23	population	population	NOUN	NN	Number=Sing	21	obj	21:obj	Entity=183)

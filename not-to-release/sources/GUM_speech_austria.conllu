@@ -10,7 +10,7 @@
 # s_type = decl
 # text = This year has once again confirmed the importance of the United Nations as the truly indispensable multilateral forum for addressing today’s global problems.
 # newpar = p (3 s)
-1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=background:1->3:1|Entity=(time-1-acc:sit-2-coref|XML=<date when:::"2011">
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=background:1->3:1|Entity=(time-1-acc:com-2-coref|XML=<date when:::"2011">
 2	year	year	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=1)|XML=</date>
 3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 4	once	once	ADV	RB	NumType=Mult	5	advmod	5:advmod	_
@@ -40,7 +40,7 @@
 # sent_id = GUM_speech_austria-2
 # s_type = decl
 # text = The humanitarian crisis in the Horn of Africa, ecological disasters such as Fukushima, political developments like the Arab Spring and terrorist attacks such as the assault on the United Nations building in Abuja last August require concerted action by the United Nations and its Member States.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=background:3->5:5|Entity=(event-6-acc:gen-3,8-sgl
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=background:3->5:5|Entity=(event-6-acc:com-3,8-sgl
 2	humanitarian	humanitarian	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	crisis	crisis	NOUN	NN	Number=Sing	38	nsubj	38:nsubj	_
 4	in	in	ADP	IN	_	6	case	6:case	_
@@ -53,12 +53,12 @@
 11	disasters	disaster	NOUN	NNS	Number=Plur	3	conj	3:conj:and|38:nsubj	_
 12	such	such	ADJ	JJ	Degree=Pos	14	case	14:case	_
 13	as	as	ADP	IN	_	12	fixed	12:fixed	_
-14	Fukushima	Fukushima	PROPN	NNP	Number=Sing	11	nmod	11:nmod:such_as	Entity=(event-10-acc:gen-1-coref-Fukushima_Daiichi_nuclear_disaster)9)|SpaceAfter=No
+14	Fukushima	Fukushima	PROPN	NNP	Number=Sing	11	nmod	11:nmod:such_as	Entity=(event-10-acc:com-1-coref-Fukushima_Daiichi_nuclear_disaster)9)|SpaceAfter=No
 15	,	,	PUNCT	,	_	17	punct	17:punct	_
 16	political	political	ADJ	JJ	Degree=Pos	17	amod	17:amod	Entity=(event-11-new-2,5-sgl
 17	developments	development	NOUN	NNS	Number=Plur	3	conj	3:conj:and|38:nsubj	_
 18	like	like	ADP	IN	_	21	case	21:case	_
-19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(event-12-acc:gen-2,3-coref-Arab_Spring
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(event-12-acc:com-2,3-coref-Arab_Spring
 20	Arab	Arab	ADJ	NNP	Degree=Pos	21	amod	21:amod	_
 21	Spring	Spring	PROPN	NNP	Number=Sing	17	nmod	17:nmod:like	Entity=12)11)
 22	and	and	CCONJ	CC	_	24	cc	24:cc	_
@@ -75,7 +75,7 @@
 33	building	building	NOUN	NN	Number=Sing	28	nmod	28:nmod:on	_
 34	in	in	ADP	IN	_	35	case	35:case	_
 35	Abuja	Abuja	PROPN	NNP	Number=Sing	33	nmod	33:nmod:in	Entity=(place-16-new-1-sgl-Abuja)
-36	last	last	ADJ	JJ	Degree=Pos	37	amod	37:amod	Entity=(time-17-acc:gen-2-sgl|XML=<date when:::"2011-08">
+36	last	last	ADJ	JJ	Degree=Pos	37	amod	37:amod	Entity=(time-17-acc:com-2-sgl|XML=<date when:::"2011-08">
 37	August	August	PROPN	NNP	Number=Sing	28	nmod:tmod	28:nmod:tmod	Entity=17)15)14)13)|XML=</date>
 38	require	require	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 39	concerted	concerted	ADJ	JJ	Degree=Pos	40	amod	40:amod	Entity=(event-18-new-2,5,9,10-sgl
@@ -125,7 +125,7 @@
 4	nine	nine	NUM	CD	NumForm=Word|NumType=Card	5	nummod	5:nummod	_
 5	months	month	NOUN	NNS	Number=Plur	9	obl	9:obl:in	Entity=26)|SpaceAfter=No|XML=</date>
 6	,	,	PUNCT	,	_	5	punct	5:punct	_
-7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	9:nsubj	Entity=(person-27-acc:sit-1-coref)
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	9:nsubj	Entity=(person-27-acc:com-1-ana)
 8	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
 9	witnessed	witness	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 10	momentous	momentous	ADJ	JJ	Degree=Pos	11	amod	11:amod	Entity=(event-28-new-2-sgl
@@ -506,7 +506,7 @@
 4	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 5	centre	centre	NOUN	NN	Number=Sing	6	compound	6:compound	_
 6	stage	stage	NOUN	NN	Number=Sing	4	obj	4:obj	_
-7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	8:det	Entity=(time-91-acc:sit-2-sgl|XML=<date from:::"2011-09-19" to:::"2011-09-24">
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	8:det	Entity=(time-91-acc:com-2-sgl|XML=<date from:::"2011-09-19" to:::"2011-09-24">
 8	week	week	NOUN	NN	Number=Sing	4	obl:tmod	4:obl:tmod	Entity=91)|XML=</date>
 9	here	here	ADV	RB	PronType=Dem	4	advmod	4:advmod	_
 10	at	at	ADP	IN	_	13	case	13:case	_
@@ -596,7 +596,7 @@
 4	in	in	ADP	IN	_	6	case	6:case	_
 5	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(abstract-105-new-2-coref(organization-104-giv:act-1-ana-Quartet_on_the_Middle_East)
 6	statement	statement	NOUN	NN	Number=Sing	10	obl	10:obl:in	_
-7	yesterday	yesterday	NOUN	NN	Number=Sing	6	nmod:tmod	6:nmod:tmod	Entity=(time-106-acc:gen-1-sgl)105)|SpaceAfter=No|XML=<date when:::"2011-09-23"></date>
+7	yesterday	yesterday	NOUN	NN	Number=Sing	6	nmod:tmod	6:nmod:tmod	Entity=(time-106-acc:com-1-sgl)105)|SpaceAfter=No|XML=<date when:::"2011-09-23"></date>
 8	,	,	PUNCT	,	_	6	punct	6:punct	_
 9	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	10:aux	_
 10	shown	show	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
@@ -678,7 +678,7 @@
 # sent_id = GUM_speech_austria-29
 # s_type = decl
 # text = Last year’s tenth anniversary of the adoption of Security Council resolution 1325 (2000) on women, peace and security reminded us that the promise of women’s full and equal participation in all efforts of maintaining peace and security, including in mediation processes, has not yet come true and that we all need to intensify our efforts.
-1	Last	last	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=attribution:53->54:4|Entity=(time-118-new-5,10-sgl(time-119-acc:gen-2-sgl|XML=<date when:::"2010">
+1	Last	last	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=attribution:53->54:4|Entity=(time-118-new-5,10-sgl(time-119-acc:com-2-sgl|XML=<date when:::"2010">
 2-3	year’s	_	_	_	_	_	_	_	_
 2	year	year	NOUN	NN	Number=Sing	5	nmod:poss	5:nmod:poss	XML=</date>
 3	’s	's	PART	POS	_	2	case	2:case	Entity=119)
@@ -753,7 +753,7 @@
 3	context	context	NOUN	NN	Number=Sing	5	obl	5:obl:in	Entity=132)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5	let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
-6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	5:obj|8:nsubj:xsubj	Entity=(person-133-acc:sit-1-coref)
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	5:obj|8:nsubj:xsubj	Entity=(person-133-acc:com-1-ana)
 7	also	also	ADV	RB	_	8	advmod	8:advmod	_
 8	mention	mention	VERB	VB	VerbForm=Inf	5	xcomp	5:xcomp	_
 9	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(abstract-134-new-3-sgl
@@ -942,7 +942,7 @@
 11	-	-	PUNCT	HYPH	_	12	punct	12:punct	SpaceAfter=No
 12	General	General	PROPN	NNP	Number=Sing	10	flat	10:flat	Entity=164)|XML=</w>
 13	on	on	ADP	IN	_	14	case	14:case	_
-14	Monday	Monday	PROPN	NNP	Number=Sing	7	obl	7:obl:on	Entity=(time-165-acc:gen-1-sgl)|XML=<date when:::"2011-09-19"></date>
+14	Monday	Monday	PROPN	NNP	Number=Sing	7	obl	7:obl:on	Entity=(time-165-acc:com-1-sgl)|XML=<date when:::"2011-09-19"></date>
 15	to	to	PART	TO	_	16	mark	16:mark	Discourse=elaboration:72->70:1
 16	achieve	achieve	VERB	VB	VerbForm=Inf	6	acl	6:acl:to	_
 17	universal	universal	ADJ	JJ	Degree=Pos|Polarity=Neg	18	amod	18:amod	Entity=(abstract-166-new-2-sgl
@@ -1008,7 +1008,7 @@
 # sent_id = GUM_speech_austria-40
 # s_type = decl
 # text = Last June, we hosted the Vienna Energy Forum, where about 1,400 participants discussed alternative energy concepts to reach the energy goals of the United Nations.
-1	Last	last	ADJ	JJ	Degree=Pos	2	compound	2:compound	Discourse=evidence:76->74:1|Entity=(time-181-acc:gen-2-sgl|XML=<date when:::"2011-06">
+1	Last	last	ADJ	JJ	Degree=Pos	2	compound	2:compound	Discourse=evidence:76->74:1|Entity=(time-181-acc:com-2-sgl|XML=<date when:::"2011-06">
 2	June	June	PROPN	NNP	Number=Sing	5	obl:tmod	5:obl:tmod	Entity=181)|SpaceAfter=No|XML=</date>
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-27-giv:inact-1-ana)
@@ -1063,7 +1063,7 @@
 # text = We owe it to future generations to make safety concerns come first when using nuclear power.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=motivation:80->79:0|Entity=(person-27-giv:act-1-ana)
 2	owe	owe	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	2:expl	Entity=(abstract-190-acc:sit-1-coref)
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	2:expl	Entity=(abstract-190-acc:com-1-ana)
 4	to	to	ADP	IN	_	6	case	6:case	_
 5	future	future	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(person-191-new-2-sgl
 6	generations	generation	NOUN	NNS	Number=Plur	2	obl	2:obl:to	Entity=191)

@@ -21,10 +21,10 @@
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(event-2-new-2-sgl
 3	end	end	NOUN	NN	Number=Sing	11	obl	11:obl:by	_
 4	of	of	ADP	IN	_	6	case	6:case	_
-5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	6:det	Entity=(abstract-3-acc:sit-2-sgl
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	6:det	Entity=(abstract-3-acc:com-2-sgl
 6	section	section	NOUN	NN	Number=Sing	3	nmod	3:nmod:of	Entity=3)2)|SpaceAfter=No
 7	,	,	PUNCT	,	_	3	punct	3:punct	_
-8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj|12:nsubj:xsubj	Entity=(person-4-acc:sit-1-coref)
+8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj|12:nsubj:xsubj	Entity=(person-4-acc:com-1-ana)
 9	will	will	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
 10	be	be	AUX	VB	VerbForm=Inf	11	cop	11:cop	_
 11	able	able	ADJ	JJ	Degree=Pos	0	root	0:root	_
@@ -65,7 +65,7 @@
 # text = Imagine all of your thoughts as if they were physical entities, swirling rapidly inside your mind.
 # newpar = p (7 s)
 1	Imagine	imagine	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:6->10:5
-2	all	all	DET	DT	_	1	obj	1:obj	Entity=(abstract-9-new-1-coref
+2	all	all	DET	DT	_	1	obj	1:obj	Entity=(abstract-9-new-1-ana
 3	of	of	ADP	IN	_	5	case	5:case	_
 4	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(person-4-giv:inact-1-ana)
 5	thoughts	thought	NOUN	NNS	Number=Plur	2	nmod	2:nmod:of	Entity=9)
@@ -88,9 +88,9 @@
 # text = How is it possible that the brain is able to move from one thought to the next in an organized, orderly fashion?
 1	How	how	ADV	WRB	PronType=Int	4	advmod	4:advmod	Discourse=question:9->10:3
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
-3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	4:expl	Entity=(abstract-11-new-1-coref)
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	4:expl	Entity=(abstract-11-new-1-cata)
 4	possible	possible	ADJ	JJ	Degree=Pos	0	root	0:root	_
-5	that	that	SCONJ	IN	_	9	mark	9:mark	Entity=(abstract-11-acc:sit-5-coref
+5	that	that	SCONJ	IN	_	9	mark	9:mark	Entity=(abstract-11-acc:com-5-coref
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(object-12-new-2-coref
 7	brain	brain	NOUN	NN	Number=Sing	9	nsubj	9:nsubj|11:nsubj:xsubj	Entity=12)
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
@@ -224,7 +224,7 @@
 9	to	to	PART	TO	_	10	mark	10:mark	Discourse=elaboration:26->25:0
 10	understand	understand	VERB	VB	VerbForm=Inf	8	acl	8:acl:to	_
 11	how	how	SCONJ	WRB	PronType=Rel	10	obj	10:obj	_
-12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	13:nsubj|15:nsubj|18:nsubj	Entity=(person-32-acc:sit-1-coref)
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	13:nsubj|15:nsubj|18:nsubj	Entity=(person-32-acc:com-1-ana)
 13	integrate	integrate	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	acl:relcl	11:acl:relcl	SpaceAfter=No
 14	,	,	PUNCT	,	_	15	punct	15:punct	_
 15	organize	organize	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	conj	11:acl:relcl|13:conj:and	SpaceAfter=No
@@ -325,7 +325,7 @@
 # sent_id = GUM_textbook_cognition-17
 # s_type = q
 # text = Can you get these things done before you head to class or will they need to wait until school is done?
-1	Can	can	AUX	MD	VerbForm=Fin	3	aux	3:aux	Discourse=joint_m:37->35:0|Entity=(abstract-49-acc:gen-3,15-coref
+1	Can	can	AUX	MD	VerbForm=Fin	3	aux	3:aux	Discourse=joint_m:37->35:0|Entity=(abstract-49-acc:com-3,15-coref
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-4-giv:act-1-ana)
 3	get	get	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	these	this	DET	DT	Number=Plur|PronType=Dem	5	det	5:det	Entity=(event-45-giv:act-2-coref
@@ -1110,7 +1110,7 @@
 # s_type = decl
 # text = In this way, concepts touch every aspect of our lives, from our many daily routines to the guiding principles behind the way governments function.
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=evaluation:113->108:1
-2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Entity=(abstract-170-acc:sit-2-sgl
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Entity=(abstract-170-acc:com-2-sgl
 3	way	way	NOUN	NN	Number=Sing	6	obl	6:obl:in	Entity=170)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5	concepts	concept	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=(abstract-6-giv:inact-1-coref)
@@ -1203,7 +1203,7 @@
 # sent_id = GUM_textbook_cognition-51
 # s_type = decl
 # text = Her peaceful resistance to segregation on a city bus in Montgomery, Alabama, is a recognizable example of civil disobedience.
-1	Her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Discourse=justify:123->122:0|Entity=(event-185-new-3,13-coref(person-184-acc:sit-1-ana-Rosa_Parks)
+1	Her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Discourse=justify:123->122:0|Entity=(event-185-new-3,13-coref(person-184-acc:com-1-ana-Rosa_Parks)
 2	peaceful	peaceful	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	resistance	resistance	NOUN	NN	Number=Sing	18	nsubj	18:nsubj	_
 4	to	to	ADP	IN	_	5	case	5:case	_
@@ -1387,7 +1387,7 @@
 22	direct	direct	ADJ	JJ	Degree=Pos	23	amod	23:amod	_
 23	experience	experience	NOUN	NN	Number=Sing	19	nmod	19:nmod:of	_
 24	with	with	ADP	IN	_	26	case	26:case	_
-25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(place-213-acc:gen-2-sgl
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(place-213-acc:com-2-sgl
 26	world	world	NOUN	NN	Number=Sing	23	nmod	23:nmod:with	Entity=213)212)211)211)
 27	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=same-unit_m:141->139:1
 28	those	this	PRON	DT	Number=Plur|PronType=Dem	16	conj	14:nmod:between|16:conj:and|32:nsubj	Entity=(abstract-214-new-1-sgl

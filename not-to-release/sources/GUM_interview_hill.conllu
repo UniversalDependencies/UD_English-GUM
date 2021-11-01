@@ -15,7 +15,7 @@
 3	Christopher	Christopher	PROPN	NNP	Number=Sing	2	obj	2:obj	Entity=(person-3-new-1,2-coref
 4	Hill	Hill	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=3)|SpaceAfter=No
 5	,	,	PUNCT	,	_	10	punct	10:punct	_
-6	U.S.	U.S.	PROPN	NNP	Abbr=Yes|Number=Sing	8	compound	8:compound	Entity=(person-3-giv:act-1,2,5-appos(organization-4-acc:gen-1,2,3-coref-Republican_Party_%28United_States%29(place-5-new-1-coref-United_States)
+6	U.S.	U.S.	PROPN	NNP	Abbr=Yes|Number=Sing	8	compound	8:compound	Entity=(person-3-giv:act-1,2,5-appos(organization-4-acc:com-1,2,3-coref-Republican_Party_%28United_States%29(place-5-new-1-coref-United_States)
 7	Republican	Republican	ADJ	NNP	Degree=Pos	8	amod	8:amod	_
 8	Party	Party	PROPN	NNP	Number=Sing	10	compound	10:compound	Entity=4)
 9	presidential	presidential	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
@@ -32,10 +32,10 @@
 # speaker = WilliamSSaturn
 # text = What qualifications do you have that will assist you in executing the duties of president?
 # newpar = sp who:::"#WilliamSSaturn" (1 s) | p (1 s)
-1	What	what	DET	WDT	PronType=Int	2	det	2:det	Discourse=question:3->13:2|Entity=(abstract-6-new-2-coref
-2	qualifications	qualification	NOUN	NNS	Number=Plur	5	obj	5:obj|8:nsubj	Entity=6)
+1	What	what	DET	WDT	PronType=Int	2	det	2:det	Discourse=question:3->13:2|Entity=(abstract-6-new-5-disc
+2	qualifications	qualification	NOUN	NNS	Number=Plur	5	obj	5:obj|8:nsubj	_
 3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
-4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-3-acc:sit-1-ana)
+4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-3-acc:com-1-ana)
 5	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	_
 6	that	that	PRON	WDT	PronType=Rel	8	nsubj	2:ref	Discourse=elaboration:4->3:0
 7	will	will	AUX	MD	VerbForm=Fin	8	aux	8:aux	_
@@ -46,7 +46,7 @@
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(abstract-7-new-2-sgl
 13	duties	duty	NOUN	NNS	Number=Plur	11	obj	11:obj	_
 14	of	of	ADP	IN	_	15	case	15:case	_
-15	president	president	NOUN	NN	Number=Sing	13	nmod	13:nmod:of	Entity=(person-8-acc:gen-1-coref)7)|SpaceAfter=No
+15	president	president	NOUN	NN	Number=Sing	13	nmod	13:nmod:of	Entity=(person-8-acc:com-1-coref)7)6)|SpaceAfter=No
 16	?	?	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_interview_hill-4
@@ -101,7 +101,7 @@
 5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(abstract-11-giv:act-2-pred
 6	Oath	oath	NOUN	NN	Number=Sing	2	ccomp	2:ccomp	_
 7	to	to	ADP	IN	_	8	case	8:case	_
-8	ALL	all	DET	DT	_	6	nmod	6:nmod:to	Entity=(person-14-new-1-coref
+8	ALL	all	DET	DT	_	6	nmod	6:nmod:to	Entity=(person-14-new-1-ana
 9	of	of	ADP	IN	_	11	case	11:case	_
 10	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	_
 11	people	person	NOUN	NNS	Number=Plur	8	nmod	8:nmod:of	Entity=14)11)|SpaceAfter=No
@@ -285,11 +285,11 @@
 # speaker = ChristopherHill
 # text = In those days it was all or nothing.
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=preparation:25->27:2
-2	those	this	DET	DT	Number=Plur|PronType=Dem	3	det	3:det	Entity=(time-34-acc:sit-2-sgl
+2	those	this	DET	DT	Number=Plur|PronType=Dem	3	det	3:det	Entity=(time-34-acc:com-2-sgl
 3	days	day	NOUN	NNS	Number=Plur	6	nmod	6:nmod:in	Entity=34)
 4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	_
 5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
-6	all	all	DET	DT	_	0	root	0:root	Entity=(abstract-35-new-1-coref)
+6	all	all	DET	DT	_	0	root	0:root	Entity=(abstract-35-new-1-ana)
 7	or	or	CCONJ	CC	_	8	cc	8:cc	_
 8	nothing	nothing	NOUN	NN	Number=Sing|Polarity=Neg	6	conj	6:conj:or	Entity=(abstract-36-new-1-coref)|SpaceAfter=No
 9	.	.	PUNCT	.	_	6	punct	6:punct	_
@@ -301,7 +301,7 @@
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=condition:26->27:0
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	_
 3	graduated	graduate	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	6	advcl	6:advcl:if	_
-4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj:pass	6:nsubj:pass	Discourse=background:27->22:2|Entity=(person-37-acc:sit-1-coref)
+4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj:pass	6:nsubj:pass	Discourse=background:27->22:2|Entity=(person-37-acc:com-1-ana)
 5	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	6	aux:pass	6:aux:pass	_
 6	assigned	assign	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(object-38-new-2-sgl
@@ -334,7 +334,7 @@
 # s_type = decl
 # speaker = ChristopherHill
 # text = Congress has proven itself ineffective as a body.
-1	Congress	Congress	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=background:32->35:0|Entity=(organization-41-acc:gen-1-coref-United_States_Congress)
+1	Congress	Congress	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=background:32->35:0|Entity=(organization-41-acc:com-1-coref-United_States_Congress)
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	proven	prove	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 4	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	3:obj|5:nsubj:xsubj	Entity=(organization-41-giv:act-1-ana-United_States_Congress)
@@ -354,10 +354,10 @@
 4	difference	difference	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=43)
 5	in	in	ADP	IN	_	6	case	6:case	_
 6	America	America	PROPN	NNP	Number=Sing	2	obl	2:obl:in	Entity=(place-5-giv:inact-1-coref-United_States)
-7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj|16:nsubj	Discourse=contrast_m:34->32:0|Entity=(person-44-acc:sit-1-sgl)
+7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj|16:nsubj	Discourse=contrast_m:34->32:0|Entity=(person-44-acc:com-1-sgl)
 8	must	must	AUX	MD	VerbForm=Fin	9	aux	9:aux|16:aux	_
 9	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	_
-10	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(abstract-45-acc:gen-4-coref
+10	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(abstract-45-acc:com-4-coref
 11	"	''	PUNCT	``	_	13	punct	13:punct	SpaceAfter=No
 12	Bully	bully	NOUN	NN	Number=Sing	13	compound	13:compound	XML=<ref>
 13	Pulpit	pulpit	NOUN	NN	Number=Sing	9	obj	9:obj	SpaceAfter=No|XML=</ref>
@@ -440,7 +440,7 @@
 13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	14:nsubj	Entity=(person-3-giv:act-1-ana)
 14	volunteered	volunteer	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	advcl	7:advcl:when	_
 15	for	for	ADP	IN	_	16	case	16:case	_
-16	Ronald	Ronald	PROPN	NNP	Number=Sing	14	obl	14:obl:for	Entity=(person-50-acc:gen-1,2-coref-Ronald_Reagan|XML=<ref>
+16	Ronald	Ronald	PROPN	NNP	Number=Sing	14	obl	14:obl:for	Entity=(person-50-acc:com-1,2-coref-Ronald_Reagan|XML=<ref>
 17	Reagan	Reagan	PROPN	NNP	Number=Sing	16	flat	16:flat	Entity=50)|XML=</ref>
 18	and	and	CCONJ	CC	_	20	cc	20:cc	_
 19	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(abstract-51-new-2-sgl(person-50-giv:act-1-ana-Ronald_Reagan)
@@ -1011,7 +1011,7 @@
 # s_type = decl
 # speaker = ChristopherHill
 # text = We have had too many decades of Ivy League elites and Professors immersed in theory.
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=antithesis:92->90:1|Entity=(person-129-acc:sit-1-coref)
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=antithesis:92->90:1|Entity=(person-129-acc:com-1-ana)
 2	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 4	too	too	ADV	RB	Degree=Pos	5	advmod	5:advmod	Entity=(time-130-new-3,5-sgl
@@ -1088,16 +1088,16 @@
 # text = I believe it is our responsibility to pass on the same opportunities to future generations that were promised to us.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:98->99:1|Entity=(person-3-giv:inact-1-ana)
 2	believe	believe	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=justify:99->102:0|Entity=(event-138-new-1-coref)
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=justify:99->102:0|Entity=(event-138-new-1-cata)
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
-5	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(event-138-acc:gen-2-coref(person-129-giv:inact-1-ana)
+5	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(event-138-acc:com-2-coref(person-129-giv:inact-1-ana)
 6	responsibility	responsibility	NOUN	NN	Number=Sing	2	ccomp	2:ccomp	Entity=138)
 7	to	to	PART	TO	_	8	mark	8:mark	Discourse=elaboration:100->99:0|Entity=(event-138-giv:act-2-disc
 8	pass	pass	VERB	VB	VerbForm=Inf	6	acl	6:acl:to	_
 9	on	on	ADP	RP	_	8	compound:prt	8:compound:prt	_
-10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(abstract-139-new-3-sgl
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(abstract-139-new-6-sgl
 11	same	same	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
-12	opportunities	opportunity	NOUN	NNS	Number=Plur	8	obj	8:obj|18:nsubj:pass	Entity=139)
+12	opportunities	opportunity	NOUN	NNS	Number=Plur	8	obj	8:obj|18:nsubj:pass	_
 13	to	to	ADP	IN	_	15	case	15:case	_
 14	future	future	ADJ	JJ	Degree=Pos	15	amod	15:amod	Entity=(event-140-new-2-sgl
 15	generations	generation	NOUN	NNS	Number=Plur	8	obl	8:obl:to	Entity=140)
@@ -1105,7 +1105,7 @@
 17	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux:pass	18:aux:pass	_
 18	promised	promise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	acl:relcl	12:acl:relcl	_
 19	to	to	ADP	IN	_	20	case	20:case	_
-20	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	18	obl	18:obl:to	Entity=(person-129-giv:act-1-ana)138)|SpaceAfter=No
+20	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	18	obl	18:obl:to	Entity=(person-129-giv:act-1-ana)139)138)|SpaceAfter=No
 21	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_hill-58

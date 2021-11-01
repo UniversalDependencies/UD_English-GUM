@@ -65,7 +65,7 @@
 25	)	)	PUNCT	-RRB-	_	22	punct	22:punct	Entity=6)|SpaceAfter=No
 26	,	,	PUNCT	,	_	3	punct	3:punct	_
 27-28	you've	_	_	_	_	_	_	_	_
-27	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	29	nsubj	29:nsubj|31:nsubj:xsubj	Discourse=preparation:7->9:1|Entity=(person-11-acc:sit-1-coref)
+27	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	29	nsubj	29:nsubj|31:nsubj:xsubj	Discourse=preparation:7->9:1|Entity=(person-11-acc:com-1-ana)
 28	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	29	aux	29:aux	_
 29-30	gotta	_	_	_	_	_	_	_	_
 29	got	get	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	XML=<w>
@@ -149,10 +149,10 @@
 # s_type = decl
 # text = It's also a good idea to not wear your Sunday best.
 1-2	It's	_	_	_	_	_	_	_	_
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	6:expl	Discourse=sequence_m:15->13:0|Entity=(event-22-new-1-coref)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	6:expl	Discourse=sequence_m:15->13:0|Entity=(event-22-new-1-cata)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 3	also	also	ADV	RB	_	6	advmod	6:advmod	_
-4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(event-22-acc:gen-3-coref
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(event-22-acc:com-3-coref
 5	good	good	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
 6	idea	idea	NOUN	NN	Number=Sing	0	root	0:root	Entity=22)
 7	to	to	PART	TO	_	9	mark	9:mark	Entity=(event-22-giv:act-3-coref
@@ -187,7 +187,7 @@
 # text = Some of this stuff is dangerous -- this experiment is not meant for children!
 1	Some	some	DET	DT	_	6	nsubj	6:nsubj	Discourse=cause:19->20:0|Entity=(substance-28-new-1-sgl
 2	of	of	ADP	IN	_	4	case	4:case	_
-3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Entity=(substance-29-acc:sit-2-sgl
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Entity=(substance-29-acc:com-2-sgl
 4	stuff	stuff	NOUN	NN	Number=Sing	1	nmod	1:nmod:of	Entity=29)28)
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 6	dangerous	dangerous	ADJ	JJ	Degree=Pos	0	root	0:root	_
@@ -216,7 +216,7 @@
 8	be	be	AUX	VB	VerbForm=Inf	9	aux	9:aux	_
 9	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	1	parataxis	1:parataxis	_
 10	with	with	ADP	IN	_	12	case	12:case	_
-11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(substance-33-acc:gen-2-coref
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(substance-33-acc:com-2-coref
 12	solution	solution	NOUN	NN	Number=Sing	9	obl	9:obl:with|14:nsubj	_
 13-14	that's	_	_	_	_	_	_	_	_
 13	that	that	PRON	WDT	PronType=Rel	14	nsubj	12:ref	Discourse=elaboration:23->22:0
@@ -337,7 +337,7 @@
 8	basters	baster	NOUN	NNS	Number=Plur	2	conj	1:obj|2:conj:and	Entity=(object-46-new-1-sgl)
 9	to	to	PART	TO	_	10	mark	10:mark	Discourse=purpose:34->33:0
 10	keep	keep	VERB	VB	VerbForm=Inf	8	acl	8:acl:to	_
-11	everything	everything	NOUN	NN	Number=Sing	10	obj	10:obj|14:nsubj:pass:xsubj|17:nsubj:xsubj	Entity=(substance-47-acc:gen-1-sgl)
+11	everything	everything	NOUN	NN	Number=Sing	10	obj	10:obj|14:nsubj:pass:xsubj|17:nsubj:xsubj	Entity=(substance-47-acc:com-1-sgl)
 12	well	well	ADV	RB	Degree=Pos	14	advmod	14:advmod	SpaceAfter=No|XML=<w>
 13	-	-	PUNCT	HYPH	_	12	punct	12:punct	SpaceAfter=No
 14	measured	measure	VERB	VBN	Tense=Past|VerbForm=Part	10	xcomp	10:xcomp	XML=</w>
@@ -447,10 +447,10 @@
 # sent_id = GUM_whow_glowstick-23
 # s_type = decl
 # text = It is important not to touch the luminol.
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=motivation:46->47:1|Entity=(event-66-new-1-coref)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=motivation:46->47:1|Entity=(event-66-new-1-cata)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	important	important	ADJ	JJ	Degree=Pos	0	root	0:root	_
-4	not	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	Entity=(event-66-acc:gen-3-coref
+4	not	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	Entity=(event-66-acc:com-3-coref
 5	to	to	PART	TO	_	6	mark	6:mark	_
 6	touch	touch	VERB	VB	VerbForm=Inf	3	csubj	3:csubj	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(substance-58-giv:act-2-coref
@@ -465,7 +465,7 @@
 3	funnel	funnel	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=44)
 4	to	to	PART	TO	_	5	mark	5:mark	Discourse=purpose:48->47:0
 5	make	make	VERB	VB	VerbForm=Inf	3	acl	3:acl:to	_
-6	everything	everything	NOUN	NN	Number=Sing	5	obj	5:obj|7:nsubj:xsubj|9:nsubj:xsubj	Entity=(abstract-67-acc:gen-1-sgl)
+6	everything	everything	NOUN	NN	Number=Sing	5	obj	5:obj|7:nsubj:xsubj|9:nsubj:xsubj	Entity=(abstract-67-acc:com-1-sgl)
 7	safe	safe	ADJ	JJ	Degree=Pos	5	xcomp	5:xcomp	_
 8	and	and	CCONJ	CC	_	9	cc	9:cc	_
 9	easy	easy	ADJ	JJ	Degree=Pos	7	conj	5:xcomp|7:conj:and	SpaceAfter=No
@@ -486,7 +486,7 @@
 10	in	in	ADP	IN	_	11	case	11:case	_
 11	mid-air	mid-air	NOUN	NN	Number=Sing	8	obl	8:obl:in	_
 12	like	like	SCONJ	IN	_	15	mark	15:mark	Discourse=manner:50->49:0
-13	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	14:det	Entity=(abstract-68-acc:sit-2-sgl
+13	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	14:det	Entity=(abstract-68-acc:com-2-sgl
 14	graphic	graphic	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=68)
 15	suggests	suggest	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	8:advcl:like	SpaceAfter=No
 16	.	.	PUNCT	.	_	8	punct	8:punct	_
@@ -520,7 +520,7 @@
 22	stuff	stuff	NOUN	NN	Number=Sing	20	obj	20:obj	Entity=57)
 23	lying	lie	VERB	VBG	VerbForm=Ger	22	acl	22:acl	Discourse=elaboration:54->53:0
 24	around	around	ADP	IN	_	26	case	26:case	_
-25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(place-71-acc:gen-2-sgl
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(place-71-acc:com-2-sgl
 26	house	house	NOUN	NN	Number=Sing	23	obl	23:obl:around	Entity=71)
 27	(	(	PUNCT	-LRB-	_	29	punct	29:punct	Discourse=evaluation:55->53:1|SpaceAfter=No
 28	hopefully	hopefully	ADV	RB	Degree=Pos	29	advmod	29:advmod	_
@@ -614,10 +614,10 @@
 # s_type = decl
 # text = It's important to use sanitary, clean tubes for your glowsticks.
 1-2	It's	_	_	_	_	_	_	_	_
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=motivation:68->66:1|Entity=(event-85-new-1-coref)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=motivation:68->66:1|Entity=(event-85-new-1-cata)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	important	important	ADJ	JJ	Degree=Pos	0	root	0:root	_
-4	to	to	PART	TO	_	5	mark	5:mark	Entity=(event-85-acc:gen-2-coref
+4	to	to	PART	TO	_	5	mark	5:mark	Entity=(event-85-acc:com-2-coref
 5	use	use	VERB	VB	VerbForm=Inf	3	csubj	3:csubj	_
 6	sanitary	sanitary	ADJ	JJ	Degree=Pos	9	amod	9:amod	Bridge=84<86|Entity=(object-86-acc:inf-4-sgl|SpaceAfter=No
 7	,	,	PUNCT	,	_	6	punct	6:punct	_
@@ -724,7 +724,7 @@
 12	container	container	NOUN	NN	Number=Sing	1	obl	1:obl:in	Entity=84)
 13	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=sequence_m:79->13:0
 14	close	close	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
-15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(object-95-acc:gen-2-coref
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(object-95-acc:com-2-coref
 16	bottles	bottle	NOUN	NNS	Number=Plur	14	obj	14:obj	Entity=95)|SpaceAfter=No
 17	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
@@ -748,7 +748,7 @@
 1	Then	then	ADV	RB	PronType=Dem	2	advmod	2:advmod	Discourse=sequence_m:82->13:0
 2	turn	turn	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
 3	off	off	ADP	RP	_	2	compound:prt	2:compound:prt	_
-4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(abstract-97-acc:gen-2-sgl
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(abstract-97-acc:com-2-sgl
 5	lights	light	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=97)|SpaceAfter=No
 6	!	!	PUNCT	.	_	2	punct	2:punct	_
 

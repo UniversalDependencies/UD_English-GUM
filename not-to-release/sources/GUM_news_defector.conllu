@@ -23,7 +23,7 @@
 # s_type = frag
 # text = Saturday, October 9, 2010
 # newpar = p (1 s)
-1	Saturday	Saturday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:3->5:11|Entity=(time-3-acc:gen-1-coref)|SpaceAfter=No|XML=<date when:::"2010-10-09" rend:::"bold">
+1	Saturday	Saturday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:3->5:11|Entity=(time-3-acc:com-1-coref)|SpaceAfter=No|XML=<date when:::"2010-10-09" rend:::"bold">
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	October	October	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(time-3-giv:act-2-appos
 4	9	9	NUM	CD	NumForm=Digit|NumType=Card	1	appos	1:appos	SpaceAfter=No
@@ -178,7 +178,7 @@
 6	20,000	20000	NUM	CD	NumForm=Digit|NumType=Card	5	compound	5:compound	Entity=17)
 7	bail	bail	NOUN	NN	Number=Sing	3	obl	3:obl:on	Entity=16)
 8	on	on	ADP	IN	_	9	case	9:case	_
-9	Thursday	Thursday	PROPN	NNP	Number=Sing	3	obl	3:obl:on	Entity=(time-18-acc:gen-1-sgl)|SpaceAfter=No|XML=<date when:::"2010-10-07"></date>
+9	Thursday	Thursday	PROPN	NNP	Number=Sing	3	obl	3:obl:on	Entity=(time-18-acc:com-1-sgl)|SpaceAfter=No|XML=<date when:::"2010-10-07"></date>
 10	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_defector-9
@@ -281,17 +281,17 @@
 2	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	3:aux	_
 3	read	read	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 4	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(abstract-32-new-7,8,22,24,25-coref
-5	article	article	NOUN	NN	Number=Sing	3	obj	3:obj	_
+5	article	article	NOUN	NN	Number=Sing	3	obj	3:obj|15:nsubj	_
 6	in	in	ADP	IN	_	10	case	10:case	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(organization-33-new-4-coref
 8	Scientology	Scientology	PROPN	NNP	Number=Sing	10	compound	10:compound	Entity=(organization-2-giv:inact-1-coref-Church_of_Scientology)
 9	propaganda	propaganda	NOUN	NN	Number=Sing	10	compound	10:compound	XML=<ref></ref>
-10	publication	publication	NOUN	NN	Number=Sing	3	obl	3:obl:in|15:nsubj	Entity=33)
+10	publication	publication	NOUN	NN	Number=Sing	3	obl	3:obl:in	Entity=33)
 11	Freedom	Freedom	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=(organization-33-giv:act-1,2-appos-Freedom_%28magazine%29|XML=<ref rend:::"italic">
 12	Magazine	Magazine	PROPN	NNP	Number=Sing	10	appos	10:appos	Entity=33)|SpaceAfter=No|XML=</ref>
 13	,	,	PUNCT	,	_	15	punct	15:punct	_
-14	which	which	PRON	WDT	PronType=Rel	15	nsubj	10:ref	Discourse=elaboration:32->31:0
-15	attacked	attack	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	acl:relcl	10:acl:relcl	_
+14	which	which	PRON	WDT	PronType=Rel	15	nsubj	5:ref	Discourse=elaboration:32->31:0
+15	attacked	attack	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_
 16	high	high	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(person-34-new-4,10,12,13-coref|SpaceAfter=No|XML=<w>
 17	-	-	PUNCT	HYPH	_	16	punct	16:punct	SpaceAfter=No
 18	ranking	rank	ADJ	JJ	Degree=Pos	19	amod	19:amod	XML=</w>
@@ -349,7 +349,7 @@
 9	about	about	ADP	IN	_	10	case	10:case	_
 10	Scientology	Scientology	PROPN	NNP	Number=Sing	8	nmod	8:nmod:about	Entity=(organization-2-giv:inact-1-coref-Church_of_Scientology)40)
 11	on	on	ADP	IN	_	13	case	13:case	_
-12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(abstract-41-acc:gen-2-sgl-Internet
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(abstract-41-acc:com-2-sgl-Internet
 13	Internet	Internet	PROPN	NNP	Number=Sing	6	obl	6:obl:on	Entity=41)|SpaceAfter=No|XML=<ref></ref>
 14	,	,	PUNCT	,	_	16	punct	16:punct	_
 15	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=joint_m:40->39:0
@@ -368,12 +368,12 @@
 1	Montalvo	Montalvo	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=sequence_m:42->31:2|Entity=(person-1-giv:act-1-coref)
 2	contacted	contact	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	former	former	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(person-43-new-2-sgl
-4	members	member	NOUN	NNS	Number=Plur	2	obj	2:obj	_
+4	members	member	NOUN	NNS	Number=Plur	2	obj	2:obj|9:nsubj	_
 5	of	of	ADP	IN	_	6	case	6:case	_
-6	Scientology	Scientology	PROPN	NNP	Number=Sing	4	nmod	4:nmod:of|9:nsubj	Entity=(organization-2-giv:act-1-coref-Church_of_Scientology)|SpaceAfter=No
+6	Scientology	Scientology	PROPN	NNP	Number=Sing	4	nmod	4:nmod:of	Entity=(organization-2-giv:act-1-coref-Church_of_Scientology)|SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	9:punct	_
-8	who	who	PRON	WP	PronType=Rel	9	nsubj	6:ref	Discourse=elaboration:43->42:0
-9	helped	help	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	6:acl:relcl	_
+8	who	who	PRON	WP	PronType=Rel	9	nsubj	4:ref	Discourse=elaboration:43->42:0
+9	helped	help	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_
 10	him	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj|15:nsubj	Entity=(person-1-giv:act-1-ana)
 11	leave	leave	VERB	VB	VerbForm=Inf	9	ccomp	9:ccomp	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(organization-2-giv:act-2-coref-Church_of_Scientology
@@ -837,7 +837,7 @@
 10	Los	Los	PROPN	NNP	Number=Sing	8	nmod	8:nmod:in	Entity=(place-66-giv:act-1,2-coref-Los_Angeles
 11	Angeles	Angeles	PROPN	NNP	Number=Sing	10	flat	10:flat	Entity=66)
 12	on	on	ADP	IN	_	14	case	14:case	_
-13	September	September	PROPN	NNP	Number=Sing	14	compound	14:compound	Entity=(time-90-new-2-sgl(time-91-acc:gen-1-coref)|XML=<date when:::"2010-09-24">
+13	September	September	PROPN	NNP	Number=Sing	14	compound	14:compound	Entity=(time-90-new-2-sgl(time-91-acc:com-1-coref)|XML=<date when:::"2010-09-24">
 14	24	24	NUM	CD	NumForm=Digit|NumType=Card	4	obl	4:obl:on	Entity=90)|SpaceAfter=No|XML=</date>
 15	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -883,7 +883,7 @@
 4	Weekly	Weekly	PROPN	NNP	Number=Sing	2	iobj	2:iobj	Entity=85)|XML=</ref>
 5	that	that	SCONJ	IN	_	17	mark	17:mark	Discourse=sequence_m:100->95:1
 6	on	on	ADP	IN	_	8	case	8:case	_
-7	October	October	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=(time-98-new-2-sgl(time-99-acc:gen-1-sgl)|XML=<date when:::"2010-10-06">
+7	October	October	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=(time-98-new-2-sgl(time-99-acc:com-1-sgl)|XML=<date when:::"2010-10-06">
 8	6	6	NUM	CD	NumForm=Digit|NumType=Card	17	obl	17:obl:on	Entity=98)|XML=</date>
 9	after	after	SCONJ	IN	_	10	mark	10:mark	Discourse=circumstance:101->102:0
 10	traveling	travel	VERB	VBG	VerbForm=Ger	17	advcl	17:advcl:after	_
@@ -909,7 +909,7 @@
 30	,	,	PUNCT	,	_	32	punct	32:punct	_
 31	and	and	CCONJ	CC	_	32	cc	32:cc	Discourse=sequence_m:104->100:1
 32	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	conj	2:ccomp|17:conj:and	_
-33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	34:det	Entity=(organization-101-acc:gen-2-sgl
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	34:det	Entity=(organization-101-acc:com-2-sgl
 34	police	police	NOUN	NN	Number=Sing	32	iobj	32:iobj	Entity=101)|SpaceAfter=No
 35	,	,	PUNCT	,	_	37	punct	37:punct	_
 36	"	''	PUNCT	``	_	37	punct	37:punct	SpaceAfter=No|XML=<quote>
@@ -937,7 +937,7 @@
 13	drives	drive	NOUN	NNS	Number=Plur	10	obj	10:obj	Entity=20)
 14	each	each	DET	DT	_	16	nsubj	16:nsubj	Bridge=20<104|Entity=(object-104-acc:inf-3-sgl
 15	of	of	ADP	IN	_	16	case	16:case	_
-16	$	$	SYM	SYM	_	13	advcl	13:advcl	_
+16	$	$	SYM	SYM	_	13	acl	13:acl	_
 17	200	200	NUM	CD	NumForm=Digit|NumType=Card	16	nummod	16:nummod	_
 18	in	in	ADP	IN	_	19	case	19:case	_
 19	value	value	NOUN	NN	Number=Sing	16	nmod	16:nmod:in	Entity=104)|SpaceAfter=No
@@ -1049,13 +1049,13 @@
 51	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	49	acl:relcl	49:acl:relcl	_
 52	out	out	ADP	IN	_	55	case	55:case	_
 53	of	of	ADP	IN	_	52	fixed	52:fixed	_
-54	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	55	nmod:poss	55:nmod:poss	Entity=(person-124-new-1-coref)
+54	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	55	nmod:poss	55:nmod:poss	Entity=(person-124-new-1-cata)
 55	ways	way	NOUN	NNS	Number=Plur	51	obl	51:obl:out_of	_
 56	(	(	PUNCT	-LRB-	_	58	punct	58:punct	Discourse=joint_m:120->119:0|SpaceAfter=No
 57	and	and	CCONJ	CC	_	58	cc	58:cc	_
 58	dipped	dip	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	51	conj	49:acl:relcl|51:conj:and	_
 59	into	into	ADP	IN	_	61	case	61:case	_
-60	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	61	nmod:poss	61:nmod:poss	Entity=(abstract-125-new-2-sgl(person-124-acc:sit-1-coref)
+60	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	61	nmod:poss	61:nmod:poss	Entity=(abstract-125-new-2-sgl(person-124-acc:com-1-coref)
 61	pockets	pocket	NOUN	NNS	Number=Plur	58	obl	58:obl:into	Entity=125)|SpaceAfter=No
 62	)	)	PUNCT	-RRB-	_	58	punct	58:punct	_
 63	to	to	PART	TO	_	64	mark	64:mark	Discourse=purpose:121->119:1

@@ -60,7 +60,7 @@
 # text = As of March 2019, her channel has approximately 3.1 billion video views and 19.5 million subscribers, [3] and is the 86th most subscribed channel on YouTube and the eighth-most-popular channel operated by a woman. [4]
 1	As	as	ADP	IN	_	3	case	3:case	Discourse=elaboration:8->2:3
 2	of	of	ADP	IN	_	1	fixed	1:fixed	_
-3	March	March	PROPN	NNP	Number=Sing	8	obl	8:obl:as_of	Entity=(time-8-new-1-sgl(time-9-acc:gen-1-sgl)|XML=<date when:::"2019-03">
+3	March	March	PROPN	NNP	Number=Sing	8	obl	8:obl:as_of	Entity=(time-8-new-1-sgl(time-9-acc:com-1-sgl)|XML=<date when:::"2019-03">
 4	2019	2019	NUM	CD	NumForm=Digit|NumType=Card	3	nmod:tmod	3:nmod:tmod	Entity=8)|SpaceAfter=No|XML=</date>
 5	,	,	PUNCT	,	_	3	punct	3:punct	_
 6	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(abstract-10-new-2-coref(person-1-giv:act-1-ana-Jenna_Marbles)
@@ -286,21 +286,21 @@
 9	jobs	job	NOUN	NNS	Number=Plur	7	obj	7:obj	SpaceAfter=No
 10	,	,	PUNCT	,	_	12	punct	12:punct	_
 11	like	like	SCONJ	IN	_	12	mark	12:mark	_
-12	bartending	bartend	VERB	VBG	VerbForm=Ger	9	advcl	9:advcl:like	Bridge=53<54|Entity=(abstract-54-acc:inf-1-sgl)|SpaceAfter=No
+12	bartending	bartend	VERB	VBG	VerbForm=Ger	9	acl	9:acl:like	Bridge=53<54|Entity=(abstract-54-acc:inf-1-sgl)|SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	14:punct	_
-14	working	work	VERB	VBG	VerbForm=Ger	12	conj	9:advcl:like|12:conj:and	Bridge=53<55|Entity=(abstract-55-acc:inf-1-sgl
+14	working	work	VERB	VBG	VerbForm=Ger	12	conj	9:acl:like|12:conj:and	Bridge=53<55|Entity=(abstract-55-acc:inf-1-sgl
 15	at	at	ADP	IN	_	18	case	18:case	_
 16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	Entity=(place-56-new-3-sgl
 17	tanning	tanning	NOUN	NN	Number=Sing	18	compound	18:compound	_
 18	salon	salon	NOUN	NN	Number=Sing	14	obl	14:obl:at	Entity=56)55)|SpaceAfter=No
 19	,	,	PUNCT	,	_	20	punct	20:punct	_
-20	blogging	blog	VERB	VBG	VerbForm=Ger	12	conj	9:advcl:like|12:conj:and	Bridge=53<57|Entity=(abstract-57-acc:inf-1-sgl)|SpaceAfter=No
+20	blogging	blog	VERB	VBG	VerbForm=Ger	12	conj	9:acl:like|12:conj:and	Bridge=53<57|Entity=(abstract-57-acc:inf-1-sgl)|SpaceAfter=No
 21	,	,	PUNCT	,	_	26	punct	26:punct	_
 22	and	and	CCONJ	CC	_	26	cc	26:cc	_
 23	go	go	NOUN	NN	Number=Sing	26	compound	26:compound	Bridge=53<58|Entity=(abstract-58-acc:inf-4-sgl|SpaceAfter=No|XML=<ref target:::"https://en.wikipedia.org/wiki/Go-go_dancing"><w>
 24	-	-	PUNCT	HYPH	_	25	punct	25:punct	SpaceAfter=No
 25	go	go	VERB	VB	Person=2|VerbForm=Inf	23	parataxis	23:parataxis	XML=</w>
-26	dancing	dance	VERB	VBG	VerbForm=Ger	12	conj	9:advcl:like|12:conj:and	XML=</ref>
+26	dancing	dance	VERB	VBG	VerbForm=Ger	12	conj	9:acl:like|12:conj:and	XML=</ref>
 27	at	at	ADP	IN	_	28	case	28:case	_
 28	nightclubs	nightclub	NOUN	NNS	Number=Plur	26	obl	26:obl:at	Entity=(place-59-new-1-sgl)58)53)|SpaceAfter=No
 29	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -339,7 +339,7 @@
 # text = She left Barstool Sports in 2011. [9]
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=sequence_m:37->35:1|Entity=(person-1-giv:act-1-ana-Jenna_Marbles)
 2	left	leave	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-3	Barstool	Barstool	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(organization-61-acc:gen-1,2-coref-Barstool_Sports
+3	Barstool	Barstool	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(organization-61-acc:com-1,2-coref-Barstool_Sports
 4	Sports	Sports	PROPN	NNP	Number=Sing	2	obj	2:obj	Entity=61)
 5	in	in	ADP	IN	_	6	case	6:case	_
 6	2011	2011	NUM	CD	NumForm=Digit|NumType=Card	2	obl	2:obl:in	Entity=(time-63-new-1-sgl)|SpaceAfter=No|XML=<date when:::"2011"></date>
@@ -391,7 +391,7 @@
 13	People	person	NOUN	NNS	Number=Plur	12	obj	12:obj	Entity=(person-70-new-1-sgl)
 14	Into	into	SCONJ	IN	_	15	mark	15:mark	Discourse=attribution:44->45:0
 15	Thinking	think	VERB	VBG	VerbForm=Ger	12	advcl	12:advcl:into	_
-16	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	19:nsubj	Discourse=result:45->43:0|Entity=(person-71-acc:sit-1-coref)|SpaceAfter=No
+16	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	19:nsubj	Discourse=result:45->43:0|Entity=(person-71-acc:com-1-ana)|SpaceAfter=No
 17	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	cop	19:cop	_
 18	Good	good	ADJ	JJ	Degree=Pos	19	compound	19:compound	_
 19	Looking	looking	ADJ	JJ	Degree=Pos	15	ccomp	15:ccomp	Entity=69)|SpaceAfter=No
@@ -584,7 +584,7 @@
 18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	19:aux:pass	_
 19	concerned	concern	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	5:conj:and	_
 20	that	that	SCONJ	IN	_	24	mark	24:mark	Discourse=background:68->63:1
-21	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	22:nmod:poss	Entity=(abstract-101-acc:gen-2-sgl(abstract-99-giv:act-1-ana)
+21	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	22:nmod:poss	Entity=(abstract-101-acc:com-2-sgl(abstract-99-giv:act-1-ana)
 22	content	content	NOUN	NN	Number=Sing	24	nsubj	24:nsubj	Entity=101)
 23	might	might	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	24	aux	24:aux	_
 24	put	put	VERB	VB	VerbForm=Inf	19	ccomp	19:ccomp	_
@@ -984,9 +984,9 @@
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	also	also	ADV	RB	_	4	advmod	4:advmod	_
 4	created	create	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
-5	items	item	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=(object-159-new-3-coref
+5	items	item	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=(object-159-new-3-ana
 6	with	with	ADP	IN	_	7	case	7:case	_
-7	some	some	DET	DT	_	4	obl	4:obl:with	Entity=(abstract-160-new-1-coref
+7	some	some	DET	DT	_	4	obl	4:obl:with	Entity=(abstract-160-new-1-ana
 8	of	of	ADP	IN	_	12	case	12:case	_
 9	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(abstract-161-new-4-sgl(person-1-giv:act-1-ana-Jenna_Marbles)
 10	most	most	ADV	RBS	Degree=Sup	11	advmod	11:advmod	_

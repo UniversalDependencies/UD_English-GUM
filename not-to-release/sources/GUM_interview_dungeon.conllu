@@ -26,7 +26,7 @@
 # sent_id = GUM_interview_dungeon-2
 # s_type = frag
 # text = Sunday, October 21, 2007
-1	Sunday	Sunday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:3->15:9|Entity=(time-6-acc:gen-1-coref-Sunday)|SpaceAfter=No|XML=<date when:::"2007-10-21" rend:::"bold">
+1	Sunday	Sunday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:3->15:9|Entity=(time-6-acc:com-1-coref-Sunday)|SpaceAfter=No|XML=<date when:::"2007-10-21" rend:::"bold">
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	October	October	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(time-6-giv:act-2-appos-Sunday
 4	21	21	NUM	CD	NumForm=Digit|NumType=Card	1	appos	1:appos	SpaceAfter=No
@@ -76,7 +76,7 @@
 # s_type = decl
 # speaker = Bill
 # text = Your exposure to this is probably primarily what you see in movies, scanning magazines, scanning the Internet, just snippets everywhere.
-1	Your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=background:8->9:1|Entity=(abstract-12-new-2-sgl(person-13-acc:sit-1-coref)
+1	Your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=background:8->9:1|Entity=(abstract-12-new-2-sgl(person-13-acc:com-1-ana)
 2	exposure	exposure	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=12)
 3	to	to	ADP	IN	_	4	case	4:case	_
 4	this	this	PRON	DT	Number=Sing|PronType=Dem	2	nmod	2:nmod:to	Entity=(abstract-1-giv:inact-1-ana)
@@ -93,7 +93,7 @@
 15	magazines	magazine	NOUN	NNS	Number=Plur	14	obj	14:obj	Entity=(object-15-new-1-sgl)|SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	17:punct	_
 17	scanning	scan	VERB	VBG	VerbForm=Ger	14	parataxis	14:parataxis	_
-18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(abstract-16-acc:gen-2-coref-Internet
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(abstract-16-acc:com-2-coref-Internet
 19	Internet	Internet	PROPN	NNP	Number=Sing	17	obj	17:obj	Entity=16)|SpaceAfter=No
 20	,	,	PUNCT	,	_	22	punct	22:punct	_
 21	just	just	ADV	RB	_	22	advmod	22:advmod	_
@@ -218,14 +218,14 @@
 32	good	good	ADJ	JJ	Degree=Pos	33	amod	33:amod	_
 33	feeling	feeling	NOUN	NN	Number=Sing	30	nmod	30:nmod:of	Entity=24)
 34	around	around	ADP	IN	_	35	case	35:case	_
-35	here	here	ADV	RB	PronType=Dem	33	nmod	33:nmod:around	Entity=(place-25-acc:gen-1-sgl)|SpaceAfter=No
+35	here	here	ADV	RB	PronType=Dem	33	nmod	33:nmod:around	Entity=(place-25-acc:com-1-sgl)|SpaceAfter=No
 36	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_interview_dungeon-15
 # s_type = decl
 # speaker = Bill
 # text = We hire the opposite of what you'd think we would hire, what the average person would think we would hire.
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:21->22:0|Entity=(person-26-acc:sit-1-coref)
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:21->22:0|Entity=(person-26-acc:com-1-ana)
 2	hire	hire	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(person-27-new-2-coref
 4	opposite	opposite	NOUN	NN	Number=Sing	2	obj	2:obj	_
@@ -537,12 +537,12 @@
 14	and	and	CCONJ	CC	_	15	cc	15:cc	_
 15	bookkeeping	bookkeeping	NOUN	NN	Number=Sing	8	conj	7:nsubj|8:conj:and	Entity=(abstract-53-new-1-coref)
 16	and	and	CCONJ	CC	_	17	cc	17:cc	_
-17	things	thing	NOUN	NNS	Number=Plur	15	conj	8:conj|15:conj:and	Entity=(abstract-54-new-1-sgl
+17	things	thing	NOUN	NNS	Number=Plur	15	conj	8:conj|15:conj:and|22:obj	Entity=(abstract-54-new-1-sgl
 18	like	like	ADP	IN	_	19	case	19:case	_
-19	that	that	PRON	DT	Number=Sing|PronType=Dem	17	nmod	17:nmod:like|22:obj	Entity=(abstract-53-giv:act-1-ana)
-20	that	that	PRON	WDT	PronType=Rel	22	obj	19:ref	Discourse=elaboration:64->63:0
-21	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	22	nsubj	22:nsubj	Entity=(person-55-acc:sit-1-sgl)
-22	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	acl:relcl	19:acl:relcl	_
+19	that	that	PRON	DT	Number=Sing|PronType=Dem	17	nmod	17:nmod:like	Entity=(abstract-53-giv:act-1-ana)
+20	that	that	PRON	WDT	PronType=Rel	22	obj	17:ref	Discourse=elaboration:64->63:0
+21	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	22	nsubj	22:nsubj	Entity=(person-55-acc:com-1-sgl)
+22	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	acl:relcl	17:acl:relcl	_
 23	to	to	PART	TO	_	24	mark	24:mark	_
 24	do	do	VERB	VB	VerbForm=Inf	22	xcomp	22:xcomp	Entity=54)49)|SpaceAfter=No
 25	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -555,7 +555,7 @@
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Discourse=evaluation:65->62:1|Entity=(abstract-49-giv:act-1-coref)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 3	about	about	ADV	RB	_	4	advmod	4:advmod	_
-4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	0:root	Entity=(abstract-56-acc:sit-1-sgl)|SpaceAfter=No
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	0:root	Entity=(abstract-56-acc:com-1-sgl)|SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_interview_dungeon-31
@@ -791,7 +791,7 @@
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(abstract-16-giv:inact-2-coref-Internet
 7	Internet	Internet	PROPN	NNP	Number=Sing	3	obl	3:obl:towards	Entity=16)
 8	at	at	ADP	IN	_	10	case	10:case	_
-9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	10:det	Entity=(time-77-acc:sit-2-sgl
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	10:det	Entity=(time-77-acc:com-2-sgl
 10	point	point	NOUN	NN	Number=Sing	3	obl	3:obl:at	Entity=77)|SpaceAfter=No
 11	,	,	PUNCT	,	_	21	punct	21:punct	_
 12	because	because	SCONJ	IN	_	21	mark	21:mark	Discourse=cause:88->87:0
@@ -847,7 +847,7 @@
 # newpar = sp who:::"#Bill" (2 s) | p (2 s)
 1	Pursuant	pursuant	ADJ	JJ	Degree=Pos	9	dep	9:dep	Discourse=preparation:94->95:0
 2	to	to	ADP	IN	_	5	case	5:case	_
-3	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(abstract-85-new-3-sgl(person-86-acc:sit-1-coref)
+3	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(abstract-85-new-3-sgl(person-86-acc:com-1-ana)
 4	business	business	NOUN	NN	Number=Sing	5	compound	5:compound	_
 5	question	question	NOUN	NN	Number=Sing	1	obl	1:obl:to	Entity=85)|SpaceAfter=No
 6	:	:	PUNCT	:	_	1	punct	1:punct	_
@@ -1053,7 +1053,7 @@
 13	leg	leg	NOUN	NN	Number=Sing	10	obj	10:obj	_
 14	up	up	ADV	RB	Degree=Pos	13	advmod	13:advmod	_
 15	on	on	ADP	IN	_	16	case	16:case	_
-16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nmod	13:nmod:on	Entity=(event-91-acc:sit-1-coref)|SpaceAfter=No
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nmod	13:nmod:on	Entity=(event-91-acc:com-1-coref)|SpaceAfter=No
 17	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_interview_dungeon-59
@@ -1331,7 +1331,7 @@
 8	greatest	great	ADJ	JJS	Degree=Sup	9	amod	9:amod	_
 9	woman	woman	NOUN	NN	Number=Sing	4	nmod	4:nmod:like	_
 10	in	in	ADP	IN	_	12	case	12:case	_
-11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(place-105-acc:gen-2-sgl
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(place-105-acc:com-2-sgl
 12	world	world	NOUN	NN	Number=Sing	9	nmod	9:nmod:in	Entity=105)104)|SpaceAfter=No
 13	"	''	PUNCT	''	_	9	punct	9:punct	Entity=103)
 14	reveal	reveal	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -1429,7 +1429,7 @@
 # s_type = decl
 # speaker = Bill
 # text = You get a baseline from asking girls and refining profiles --
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint_m:151->95:4|Entity=(person-110-acc:sit-1-sgl)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint_m:151->95:4|Entity=(person-110-acc:com-1-sgl)
 2	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(abstract-109-giv:inact-2-coref
 4	baseline	baseline	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=109)

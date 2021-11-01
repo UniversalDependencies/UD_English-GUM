@@ -22,7 +22,7 @@
 # text = When we divide and subdivide the tasks involved with producing a good or service, workers and businesses can produce a greater quantity of output.
 # newpar = p (4 s)
 1	When	when	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=circumstance:2->4:0
-2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj	Entity=(person-4-acc:sit-1-coref)
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj	Entity=(person-4-acc:com-1-ana)
 3	divide	divide	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	advcl	20:advcl:when	_
 4	and	and	CCONJ	CC	_	5	cc	5:cc	_
 5	subdivide	subdivide	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	3:conj:and|20:advcl:when	_
@@ -52,13 +52,13 @@
 # s_type = decl
 # text = In his observations of pin factories, Smith noticed that one worker alone might make 20 pins in a day, but that a small business of 10 workers (some of whom would need to complete two or three of the 18 tasks involved with pin-making), could make 48,000 pins in a day.
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=attribution:5->6:1
-2	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(abstract-11-new-2-sgl(person-12-new-1-coref)
+2	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(abstract-11-new-2-sgl(person-12-new-1-cata)
 3	observations	observation	NOUN	NNS	Number=Plur	9	obl	9:obl:in	_
 4	of	of	ADP	IN	_	6	case	6:case	_
 5	pin	pin	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=(organization-13-new-2-sgl(object-14-new-1-sgl)
 6	factories	factory	NOUN	NNS	Number=Plur	3	nmod	3:nmod:of	Entity=13)11)|SpaceAfter=No
 7	,	,	PUNCT	,	_	3	punct	3:punct	_
-8	Smith	Smith	PROPN	NNP	Number=Sing	9	nsubj	9:nsubj	Entity=(person-12-acc:gen-1-coref-Adam_Smith)
+8	Smith	Smith	PROPN	NNP	Number=Sing	9	nsubj	9:nsubj	Entity=(person-12-acc:com-1-coref-Adam_Smith)
 9	noticed	notice	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 10	that	that	SCONJ	IN	_	15	mark	15:mark	Discourse=evidence:6->4:1
 11	one	one	NUM	CD	NumForm=Word|NumType=Card	12	nummod	12:nummod	Entity=(person-15-new-2-sgl
@@ -294,10 +294,10 @@
 1	For	for	ADP	IN	_	2	case	2:case	Discourse=evidence:26->25:0
 2	example	example	NOUN	NN	Number=Sing	6	obl	6:obl:for	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
-4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	6:expl	Entity=(event-56-new-1-coref)
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	6:expl	Entity=(event-56-new-1-cata)
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 6	easier	easy	ADJ	JJR	Degree=Cmp	0	root	0:root	_
-7	to	to	PART	TO	_	11	mark	11:mark	Entity=(event-56-acc:gen-5,7-coref
+7	to	to	PART	TO	_	11	mark	11:mark	Entity=(event-56-acc:com-5,7-coref
 8	be	be	AUX	VB	VerbForm=Inf	11	cop	11:cop	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(person-57-new-3-sgl
 10	wheat	wheat	NOUN	NN	Number=Sing	11	compound	11:compound	Entity=(plant-58-new-1-sgl)
@@ -328,7 +328,7 @@
 # s_type = decl
 # text = If you live in or near a big city, it is easier to attract enough customers to operate a successful dry cleaning business or movie theater than if you live in a sparsely populated rural area.
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=condition:30->31:1
-2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-63-acc:sit-1-coref)
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-63-acc:com-1-ana)
 3	live	live	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	advcl	13:advcl:if	_
 4	in	in	ADP	IN	_	9	case	9:case	_
 5	or	or	CCONJ	CC	_	6	cc	6:cc	_
@@ -337,10 +337,10 @@
 8	big	big	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 9	city	city	NOUN	NN	Number=Sing	3	obl	3:obl:in	Entity=64)|SpaceAfter=No
 10	,	,	PUNCT	,	_	3	punct	3:punct	_
-11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	13:expl	Discourse=joint_m:31->26:2|Entity=(event-65-new-1-coref)
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	13:expl	Discourse=joint_m:31->26:2|Entity=(event-65-new-1-cata)
 12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_
 13	easier	easy	ADJ	JJR	Degree=Cmp	0	root	0:root	_
-14	to	to	PART	TO	_	15	mark	15:mark	Entity=(event-65-acc:gen-2-coref
+14	to	to	PART	TO	_	15	mark	15:mark	Entity=(event-65-acc:com-2-coref
 15	attract	attract	VERB	VB	VerbForm=Inf	13	csubj	13:csubj	_
 16	enough	enough	ADJ	JJ	Degree=Pos	17	amod	17:amod	Entity=(person-66-new-2-sgl
 17	customers	customer	NOUN	NNS	Number=Plur	15	obj	15:obj	_

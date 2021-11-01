@@ -22,7 +22,7 @@
 # sent_id = GUM_news_asylum-2
 # s_type = frag
 # text = Monday, May 18, 2015
-1	Monday	Monday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:2->3:8|Entity=(time-4-acc:gen-1-coref)|SpaceAfter=No|XML=<date when:::"2015-05-18" rend:::"bold">
+1	Monday	Monday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:2->3:8|Entity=(time-4-acc:com-1-coref)|SpaceAfter=No|XML=<date when:::"2015-05-18" rend:::"bold">
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	May	May	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(time-4-giv:act-2-appos
 4	18	18	NUM	CD	NumForm=Digit|NumType=Card	1	appos	1:appos	SpaceAfter=No
@@ -34,7 +34,7 @@
 # text = On Friday, fishermen rescued over 700 asylum seekers whose boat sank, and the Indonesian Navy reportedly saved 200 more after they were found swimming along the coast of Aceh, Indonesia.
 # newpar = p (1 s)
 1	On	on	ADP	IN	_	2	case	2:case	Discourse=ROOT:3:0
-2	Friday	Friday	PROPN	NNP	Number=Sing	5	obl	5:obl:on	Entity=(time-6-acc:gen-1-coref)|SpaceAfter=No|XML=<date when:::"2015-05-15"></date>
+2	Friday	Friday	PROPN	NNP	Number=Sing	5	obl	5:obl:on	Entity=(time-6-acc:com-1-coref)|SpaceAfter=No|XML=<date when:::"2015-05-15"></date>
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	fishermen	fisherman	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=(person-7-new-1-sgl)
 5	rescued	rescue	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -134,7 +134,7 @@
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(person-19-giv:act-2-coref-Rohingya_people
 11	Rohingya	Rohingya	PROPN	NNPS	Number=Plur	9	obj	9:obj	Entity=19)
 12	among	among	ADP	IN	_	18	case	18:case	_
-13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(abstract-22-new-6-sgl(place-23-acc:gen-2-sgl
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(abstract-22-new-6-sgl(place-23-acc:com-2-sgl
 14-15	world's	_	_	_	_	_	_	_	_
 14	world	world	NOUN	NN	Number=Sing	18	nmod:poss	18:nmod:poss	_
 15	's	's	PART	POS	_	14	case	14:case	Entity=23)
@@ -255,7 +255,7 @@
 # text = Discussing his concern in a public statement, Malaysia's Prime Minister, Najib Razak said, "We are in contact with all relevant parties, with whom we share the desire to find a solution to this crisis".
 # newpar = p (1 s)
 1	Discussing	discuss	VERB	VBG	VerbForm=Ger	16	advcl	16:advcl	Discourse=circumstance:30->32:2
-2	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(abstract-36-new-2-sgl(person-37-new-1-coref)
+2	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(abstract-36-new-2-sgl(person-37-new-1-cata)
 3	concern	concern	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=36)
 4	in	in	ADP	IN	_	7	case	7:case	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(abstract-38-new-3-sgl
@@ -263,7 +263,7 @@
 7	statement	statement	NOUN	NN	Number=Sing	1	obl	1:obl:in	Entity=38)|SpaceAfter=No
 8	,	,	PUNCT	,	_	1	punct	1:punct	_
 9-10	Malaysia's	_	_	_	_	_	_	_	_
-9	Malaysia	Malaysia	PROPN	NNP	Number=Sing	12	nmod:poss	12:nmod:poss	Discourse=attribution:31->32:1|Entity=(person-37-acc:gen-3,4-coref-Najib_Razak(place-27-giv:act-1-coref-Malaysia
+9	Malaysia	Malaysia	PROPN	NNP	Number=Sing	12	nmod:poss	12:nmod:poss	Discourse=attribution:31->32:1|Entity=(person-37-acc:com-3,4-coref-Najib_Razak(place-27-giv:act-1-coref-Malaysia
 10	's	's	PART	POS	_	9	case	9:case	Entity=27)
 11	Prime	Prime	ADJ	NNP	Degree=Pos	12	amod	12:amod	_
 12	Minister	Minister	PROPN	NNP	Number=Sing	16	nsubj	16:nsubj	Entity=37)|SpaceAfter=No

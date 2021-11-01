@@ -24,9 +24,9 @@
 # s_type = decl
 # text = It was Sunday in snowy Manhattan.
 # newpar = p (2 s)
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=circumstance:3->4:1|Entity=(time-3-new-1-coref)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=circumstance:3->4:1|Entity=(time-3-new-1-cata)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	3:cop	_
-3	Sunday	Sunday	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(time-3-acc:gen-1-coref)
+3	Sunday	Sunday	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(time-3-acc:com-1-coref)
 4	in	in	ADP	IN	_	6	case	6:case	_
 5	snowy	snowy	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(place-4-new-2-sgl-Manhattan
 6	Manhattan	Manhattan	PROPN	NNP	Number=Sing	3	obl	3:obl:in	Entity=4)|SpaceAfter=No
@@ -42,7 +42,7 @@
 5	tub	tub	NOUN	NN	Number=Sing	0	root	0:root	Entity=6)|SpaceAfter=No
 6	,	,	PUNCT	,	_	10	punct	10:punct	_
 7	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=joint_m:5->4:0
-8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj	Entity=(person-7-acc:sit-1-coref)
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj	Entity=(person-7-acc:com-1-ana)
 9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	aux	10:aux	_
 10	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	5	conj	5:conj:and	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(abstract-8-new-3-sgl
@@ -510,7 +510,7 @@
 # speaker = Jenna
 # text = It’s Jenna McMasters in 5C.
 1-2	It’s	_	_	_	_	_	_	_	_
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=background:50->52:5|Entity=(abstract-61-acc:sit-1-sgl)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=background:50->52:5|Entity=(abstract-61-acc:com-1-sgl)
 2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	Jenna	Jenna	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(person-5-giv:inact-1,2,4-coref
 4	McMasters	McMasters	PROPN	NNP	Number=Sing	3	flat	3:flat	_
@@ -763,8 +763,8 @@
 1	“	''	PUNCT	``	_	2	punct	2:punct	Discourse=preparation:70->72:1|SpaceAfter=No
 2	What	what	PRON	WP	PronType=Rel	0	root	0:root	_
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	2:cop	_
-4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Entity=(abstract-78-new-1-coref)
-5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=attribution:71->70:0|Entity=(person-79-acc:sit-1-sgl)
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Entity=(abstract-78-new-1-ana)
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=attribution:71->70:0|Entity=(person-79-acc:com-1-sgl)
 6	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_
 7	in	in	ADP	IN	_	9	case	9:case	_
 8	yoga	yoga	NOUN	NN	Number=Sing	9	compound	9:compound	Entity=(abstract-80-new-2-sgl(abstract-81-new-1-sgl)
@@ -809,7 +809,7 @@
 1	“	''	PUNCT	``	_	9	punct	9:punct	Discourse=background:74->7:4|SpaceAfter=No
 2	Robert	Robert	PROPN	NNP	Number=Sing	9	vocative	9:vocative	Entity=(person-7-giv:inact-1-coref)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
-4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	5:det	Entity=(event-85-acc:sit-2-sgl
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	5:det	Entity=(event-85-acc:com-2-sgl
 5	sort	sort	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	_
 6	of	of	ADP	IN	_	7	case	7:case	_
 7	thing	thing	NOUN	NN	Number=Sing	5	nmod	5:nmod:of	Entity=85)
@@ -886,7 +886,7 @@
 6	tell	tell	VERB	VB	VerbForm=Inf	4	xcomp	4:xcomp	_
 7	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|Poss=Yes|PronType=Prs|Reflex=Yes	6	iobj	6:iobj	Entity=(person-5-giv:act-1-ana)
 8	that	that	SCONJ	IN	_	11	mark	11:mark	Discourse=evaluation:81->7:5
-9	this	this	PRON	DT	Number=Sing|PronType=Dem	11	nsubj	11:nsubj	Entity=(abstract-91-acc:sit-1-sgl)
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	11	nsubj	11:nsubj	Entity=(abstract-91-acc:com-1-sgl)
 10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	11:cop	_
 11	cool	cool	ADJ	JJ	Degree=Pos	6	ccomp	6:ccomp	SpaceAfter=No
 12	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -1012,7 +1012,7 @@
 2	stretch	stretch	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
 3	out	out	ADP	RP	_	2	compound:prt	2:compound:prt	_
 4	on	on	ADP	IN	_	6	case	6:case	_
-5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(object-98-acc:gen-2-sgl
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(object-98-acc:com-2-sgl
 6	couch	couch	NOUN	NN	Number=Sing	2	obl	2:obl:on	Entity=98)|SpaceAfter=No
 7	,	,	PUNCT	,	_	11	punct	11:punct	_
 8	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=sequence_m:93->92:0
@@ -1073,7 +1073,7 @@
 # sent_id = GUM_fiction_pixies-57
 # s_type = other
 # text = That was our previous Sunday morning adventure: most unpleasant, and marked by the death of a new French-press pot.
-1	That	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	7:nsubj	Discourse=background:98->97:0|Entity=(event-104-acc:sit-1-coref)
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	7:nsubj	Discourse=background:98->97:0|Entity=(event-104-acc:com-1-ana)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
 3	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(event-104-giv:act-5-coref(person-67-giv:inact-1-ana)
 4	previous	previous	ADJ	JJ	Degree=Pos	7	amod	7:amod	_

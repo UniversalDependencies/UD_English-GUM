@@ -410,8 +410,8 @@
 2	2017	2017	NUM	CD	NumForm=Digit|NumType=Card	5	obl	5:obl:in	Entity=(time-81-new-1-sgl)|SpaceAfter=No|XML=<date when:::"2017"></date>
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	Goode	Goode	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(person-1-giv:act-1-coref-Matthew_Goode)
-5	portrayed	portray	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-6	Antony	Antony	PROPN	NNP	Number=Sing	5	obj	5:obj|27:obl:for	Entity=(person-82-new-1,2,4-coref-Antony_Armstrong-Jones%2C_1st_Earl_of_Snowdon|XML=<ref target:::"https://en.wikipedia.org/wiki/Antony_Armstrong-Jones,_1st_Earl_of_Snowdon">
+5	portrayed	portray	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root|27:obl:for	_
+6	Antony	Antony	PROPN	NNP	Number=Sing	5	obj	5:obj	Entity=(person-82-new-1,2,4-coref-Antony_Armstrong-Jones%2C_1st_Earl_of_Snowdon|XML=<ref target:::"https://en.wikipedia.org/wiki/Antony_Armstrong-Jones,_1st_Earl_of_Snowdon">
 7	Armstrong	Armstrong	PROPN	NNP	Number=Sing	6	flat	6:flat	SpaceAfter=No|XML=<w>
 8	-	-	PUNCT	HYPH	_	9	punct	9:punct	SpaceAfter=No
 9	Jones	Jones	PROPN	NNP	Number=Sing	7	flat	7:flat	Entity=82)|SpaceAfter=No|XML=</w>
@@ -430,9 +430,9 @@
 22	Crown	Crown	PROPN	NNP	Number=Sing	20	appos	20:appos	Entity=84)|SpaceAfter=No|XML=</ref>
 23	,	,	PUNCT	,	_	27	punct	27:punct	_
 24	for	for	ADP	IN	_	25	case	25:case	Discourse=elaboration:45->44:0
-25	which	which	PRON	WDT	PronType=Rel	27	obl	6:ref	_
+25	which	which	PRON	WDT	PronType=Rel	27	obl	5:ref	_
 26	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	27:nsubj	Entity=(person-1-giv:act-1-ana-Matthew_Goode)
-27	received	receive	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	6:acl:relcl	_
+27	received	receive	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_
 28	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	32:det	Entity=(event-86-new-3,5,7,8,12,13-sgl
 29	Primetime	Primetime	PROPN	NNP	Number=Sing	32	compound	32:compound	Entity=(abstract-87-new-2,3-sgl-Primetime_Emmy_Award|XML=<ref target:::"https://en.wikipedia.org/wiki/Primetime_Emmy_Award">
 30	Emmy	Emmy	PROPN	NNP	Number=Sing	31	compound	31:compound	_
@@ -497,7 +497,7 @@
 # s_type = frag
 # text = Personal life
 # newpar = head rend:::"bold" (1 s)
-1	Personal	personal	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=preparation:49->50:3|Entity=(abstract-96-acc:gen-2-sgl
+1	Personal	personal	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=preparation:49->50:3|Entity=(abstract-96-acc:com-2-sgl
 2	life	life	NOUN	NN	Number=Sing	0	root	0:root	Entity=96)
 
 # sent_id = GUM_bio_goode-15
@@ -543,7 +543,7 @@
 3	two	two	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	Entity=(person-103-new-2-coref
 4	daughters	daughter	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=103)|SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
-6	Matilda	Matilda	PROPN	NNP	Number=Sing	4	appos	4:appos	Discourse=elaboration:56->55:0|Entity=(person-103-giv:act-1,2,3,13,14,15,16-appos(person-104-acc:gen-1,2,3-sgl
+6	Matilda	Matilda	PROPN	NNP	Number=Sing	4	appos	4:appos	Discourse=elaboration:56->55:0|Entity=(person-103-giv:act-1,2,3,13,14,15,16-appos(person-104-acc:com-1,2,3-sgl
 7	Eve	Eve	PROPN	NNP	Number=Sing	6	flat	6:flat	_
 8	Goode	Goode	PROPN	NNP	Number=Sing	6	flat	6:flat	_
 9	[	[	PUNCT	-LRB-	_	10	punct	10:punct	Discourse=evidence:57->56:0|SpaceAfter=No|XML=<ref>
@@ -555,7 +555,7 @@
 15	2009	2009	NUM	CD	NumForm=Digit|NumType=Card	14	nmod:tmod	14:nmod:tmod	Entity=(time-38-giv:inact-1-coref)106)|SpaceAfter=No|XML=</date>
 16	)	)	PUNCT	-RRB-	_	13	punct	13:punct	Entity=104)
 17	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=joint_m:59->56:2
-18	Teddie	Teddie	PROPN	NNP	Number=Sing	6	conj	4:appos|6:conj:and	Entity=(person-107-acc:gen-1,2,3,4-sgl
+18	Teddie	Teddie	PROPN	NNP	Number=Sing	6	conj	4:appos|6:conj:and	Entity=(person-107-acc:com-1,2,3,4-sgl
 19	Eleanor	Eleanor	PROPN	NNP	Number=Sing	18	flat	18:flat	_
 20	Rose	Rose	PROPN	NNP	Number=Sing	18	flat	18:flat	_
 21	Goode	Goode	PROPN	NNP	Number=Sing	18	flat	18:flat	_
@@ -581,7 +581,7 @@
 # sent_id = GUM_bio_goode-18
 # s_type = frag
 # text = Career
-1	Career	career	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:63->64:2|Entity=(abstract-111-acc:gen-1-sgl)
+1	Career	career	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:63->64:2|Entity=(abstract-111-acc:com-1-sgl)
 
 # sent_id = GUM_bio_goode-19
 # s_type = decl

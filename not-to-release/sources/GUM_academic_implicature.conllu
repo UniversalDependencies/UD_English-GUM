@@ -18,10 +18,10 @@
 # s_type = decl
 # text = We hypothesized that the children, who were over the age of six at the time of collection, would have adult-like SI interpretations.
 # newpar = p (5 s)
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:2->3:2|Entity=(person-2-acc:sit-1-coref)
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:2->3:2|Entity=(person-2-acc:com-1-ana)
 2	hypothesized	hypothesize	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	that	that	SCONJ	IN	_	21	mark	21:mark	Discourse=background:3->20:2
-4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(person-3-acc:gen-2-coref
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(person-3-acc:com-2-coref
 5	children	child	NOUN	NNS	Number=Plur	21	nsubj	8:nsubj|21:nsubj	SpaceAfter=No
 6	,	,	PUNCT	,	_	8	punct	8:punct	_
 7	who	who	PRON	WP	PronType=Rel	8	nsubj	5:ref	Discourse=elaboration:4->3:0
@@ -180,7 +180,7 @@
 35	at	at	ADV	IN	_	39	advmod	39:advmod	_
 36	least	least	ADJ	JJS	Degree=Sup	35	fixed	35:fixed	_
 37	for	for	ADP	IN	_	39	case	39:case	_
-38	this	this	DET	DT	Number=Sing|PronType=Dem	39	det	39:det	Entity=(abstract-33-acc:sit-2-coref
+38	this	this	DET	DT	Number=Sing|PronType=Dem	39	det	39:det	Entity=(abstract-33-acc:com-2-coref
 39	study	study	NOUN	NN	Number=Sing	47	nmod	47:nmod:for	Entity=33)|SpaceAfter=No
 40	,	,	PUNCT	,	_	39	punct	39:punct	_
 41	the	the	DET	DT	Definite=Def|PronType=Art	44	det	44:det	Bridge=33<34|Entity=(abstract-34-acc:inf-4-coref
@@ -206,12 +206,12 @@
 4	not	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
 5	observed	observe	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 6	between	between	ADP	IN	_	7	case	7:case	_
-7	all	all	DET	DT	_	5	obl	5:obl:between	Entity=(abstract-36-new-1-coref)
+7	all	all	DET	DT	_	5	obl	5:obl:between	Entity=(abstract-36-new-1-cata)
 8	and	and	CCONJ	CC	_	10	cc	10:cc	_
 9	cardinal	cardinal	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(abstract-22-giv:act-2-coref
 10	numbers	number	NOUN	NNS	Number=Plur	7	conj	5:obl:between|7:conj:and	Entity=22)
 11	or	or	CCONJ	CC	_	12	cc	12:cc	_
-12	all	all	DET	DT	_	7	conj	5:obl:between|7:conj:or	Entity=(abstract-36-acc:sit-1-coref)
+12	all	all	DET	DT	_	7	conj	5:obl:between|7:conj:or	Entity=(abstract-36-acc:com-1-coref)
 13	and	and	CCONJ	CC	_	14	cc	14:cc	_
 14	some	some	DET	DT	_	12	conj	7:conj|12:conj:and	Entity=(abstract-24-giv:act-1-ana)|SpaceAfter=No
 15	.	.	PUNCT	.	_	5	punct	5:punct	_
@@ -398,11 +398,11 @@
 3	future	future	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	study	study	NOUN	NN	Number=Sing	9	obl	9:obl:in	Entity=65)|SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
-6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	9:expl	Entity=(abstract-66-new-1-coref)
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	9:expl	Entity=(abstract-66-new-1-cata)
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
 8	also	also	ADV	RB	_	9	advmod	9:advmod	_
 9	important	important	ADJ	JJ	Degree=Pos	0	root	0:root	_
-10	to	to	PART	TO	_	11	mark	11:mark	Entity=(abstract-66-acc:gen-2-coref
+10	to	to	PART	TO	_	11	mark	11:mark	Entity=(abstract-66-acc:com-2-coref
 11	consider	consider	VERB	VB	VerbForm=Inf	9	csubj	9:csubj	_
 12	if	if	SCONJ	IN	_	27	mark	27:mark	Discourse=joint_m:39->26:1
 13	additional	additional	ADJ	JJ	Degree=Pos	14	amod	14:amod	Entity=(event-67-new-2-sgl
@@ -519,11 +519,11 @@
 7	Hein	Hein	PROPN	NNP	Number=Sing	5	nmod	5:nmod:by	Entity=(person-82-giv:inact-1-coref)
 8	and	and	CCONJ	CC	_	9	cc	9:cc	_
 9	colleagues	colleague	NOUN	NNS	Number=Plur	7	conj	5:nmod:by|7:conj:and	Entity=(person-83-giv:inact-1-coref)81)
-10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj:pass	12:nsubj:pass	Entity=(event-90-new-1-coref)
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj:pass	12:nsubj:pass	Entity=(event-90-new-1-cata)
 11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	12:aux:pass	_
 12	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 13	that	that	SCONJ	IN	_	15	mark	15:mark	Discourse=contrast_m:51->48:1
-14	children	child	NOUN	NNS	Number=Plur	15	nsubj	15:nsubj	Entity=(event-90-acc:sit-2-coref(person-91-new-1-sgl)
+14	children	child	NOUN	NNS	Number=Plur	15	nsubj	15:nsubj	Entity=(event-90-acc:com-2-coref(person-91-new-1-sgl)
 15	responded	respond	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	ccomp	12:ccomp	_
 16	more	more	ADV	RBR	Degree=Cmp	19	advmod	19:advmod	_
 17	or	or	CCONJ	CC	_	18	cc	18:cc	_
@@ -595,11 +595,11 @@
 # sent_id = GUM_academic_implicature-21
 # s_type = decl
 # text = It is possible that these two children understood the task and really did believe that the puppet did not produce any poor descriptions, and in this regard, are not yet adult-like in their SI interpretations.
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=concession:57->53:2|Entity=(event-104-new-1-coref)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=concession:57->53:2|Entity=(event-104-new-1-cata)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	possible	possible	ADJ	JJ	Degree=Pos	0	root	0:root	_
 4	that	that	SCONJ	IN	_	8	mark	8:mark	_
-5	these	this	DET	DT	Number=Plur|PronType=Dem	7	det	7:det	Entity=(event-104-acc:sit-4,10-disc(person-96-giv:act-3-coref
+5	these	this	DET	DT	Number=Plur|PronType=Dem	7	det	7:det	Entity=(event-104-acc:com-4,10-disc(person-96-giv:act-3-coref
 6	two	two	NUM	CD	NumForm=Word|NumType=Card	7	nummod	7:nummod	_
 7	children	child	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj|14:nsubj	Entity=96)
 8	understood	understand	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	csubj	3:csubj	_
@@ -659,13 +659,13 @@
 # sent_id = GUM_academic_implicature-23
 # s_type = decl
 # text = It is also possible though that these two children were attempting to please the data collectors, or be polite, and that “yes” was in some ways a default answer to be provided when having to respond verbally in a test context.
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	4:expl	Discourse=contrast_m:64->57:3|Entity=(event-109-new-1-coref)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	4:expl	Discourse=contrast_m:64->57:3|Entity=(event-109-new-1-cata)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 3	also	also	ADV	RB	_	4	advmod	4:advmod	_
 4	possible	possible	ADJ	JJ	Degree=Pos	0	root	0:root	_
 5	though	though	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
 6	that	that	SCONJ	IN	_	11	mark	11:mark	_
-7	these	this	DET	DT	Number=Plur|PronType=Dem	9	det	9:det	Entity=(event-109-acc:sit-5,14,27-coref(person-96-giv:act-3-coref
+7	these	this	DET	DT	Number=Plur|PronType=Dem	9	det	9:det	Entity=(event-109-acc:com-5,14,27-coref(person-96-giv:act-3-coref
 8	two	two	NUM	CD	NumForm=Word|NumType=Card	9	nummod	9:nummod	_
 9	children	child	NOUN	NNS	Number=Plur	11	nsubj	11:nsubj|13:nsubj:xsubj	Entity=96)
 10	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux	11:aux	_
@@ -751,11 +751,11 @@
 6	,	,	PUNCT	,	_	2	punct	2:punct	_
 7	however	however	ADV	RB	_	10	advmod	10:advmod	SpaceAfter=No
 8	,	,	PUNCT	,	_	7	punct	7:punct	_
-9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	10:expl	Entity=(event-122-new-1-coref)
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	10:expl	Entity=(event-122-new-1-cata)
 10	became	become	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 11	clear	clear	ADJ	JJ	Degree=Pos	10	xcomp	10:xcomp	_
 12	that	that	SCONJ	IN	_	17	mark	17:mark	_
-13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(event-122-acc:sit-5,19-coref(person-3-giv:inact-2-coref
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(event-122-acc:com-5,19-coref(person-3-giv:inact-2-coref
 14	children	child	NOUN	NNS	Number=Plur	17	nsubj:pass	17:nsubj:pass	Entity=3)
 15	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	17:aux:pass	_
 16	not	not	PART	RB	Polarity=Neg	17	advmod	17:advmod	_
@@ -874,7 +874,7 @@
 1	Albeit	albeit	SCONJ	IN	_	2	mark	2:mark	Discourse=concession:84->85:1
 2	limited	limit	VERB	VBN	Tense=Past|VerbForm=Part	6	advcl	6:advcl:albeit	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
-4	these	this	DET	DT	Number=Plur|PronType=Dem	5	det	5:det	Discourse=joint_m:85->20:5|Entity=(abstract-138-acc:sit-2-sgl
+4	these	this	DET	DT	Number=Plur|PronType=Dem	5	det	5:det	Discourse=joint_m:85->20:5|Entity=(abstract-138-acc:com-2-sgl
 5	results	result	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj|18:nsubj	Entity=138)
 6	provide	provide	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 7	valuable	valuable	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
@@ -941,7 +941,7 @@
 20	important	important	ADJ	JJ	Degree=Pos	21	amod	21:amod	_
 21	addition	addition	NOUN	NN	Number=Sing	0	root	0:root	_
 22	to	to	ADP	IN	_	26	case	26:case	_
-23	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(abstract-148-new-4-sgl(person-149-acc:sit-1-sgl)
+23	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(abstract-148-new-4-sgl(person-149-acc:com-1-sgl)
 24	growing	grow	VERB	VBG	VerbForm=Ger	26	amod	26:amod	_
 25	cross-linguistic	cross-linguistic	ADJ	JJ	Degree=Pos	26	amod	26:amod	_
 26	knowledge	knowledge	NOUN	NN	Number=Sing	21	nmod	21:nmod:to	_

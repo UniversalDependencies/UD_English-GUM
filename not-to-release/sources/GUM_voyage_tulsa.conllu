@@ -179,7 +179,7 @@
 # sent_id = GUM_voyage_tulsa-9
 # s_type = sub
 # text = Summers can be very warm and with the cold wind across the plains it can get very cold in the winter, but it does not last long.
-1	Summers	summer	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Discourse=elaboration:13->9:3|Entity=(time-28-acc:gen-1-sgl)|XML=<date from:::"--06" to:::"--09"></date>
+1	Summers	summer	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Discourse=elaboration:13->9:3|Entity=(time-28-acc:com-1-sgl)|XML=<date from:::"--06" to:::"--09"></date>
 2	can	can	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
 3	be	be	AUX	VB	VerbForm=Inf	5	cop	5:cop	_
 4	very	very	ADV	RB	_	5	advmod	5:advmod	_
@@ -198,7 +198,7 @@
 17	very	very	ADV	RB	_	18	advmod	18:advmod	_
 18	cold	cold	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
 19	in	in	ADP	IN	_	21	case	21:case	_
-20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(time-31-acc:gen-2-coref|XML=<date from:::"--12" to:::"--03">
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(time-31-acc:com-2-coref|XML=<date from:::"--12" to:::"--03">
 21	winter	winter	NOUN	NN	Number=Sing	16	obl	16:obl:in	Entity=31)30)|SpaceAfter=No|XML=</date>
 22	,	,	PUNCT	,	_	27	punct	27:punct	_
 23	but	but	CCONJ	CC	_	27	cc	27:cc	Discourse=concession:15->14:0
@@ -276,7 +276,7 @@
 # newpar = p (3 s)
 1	In	in	ADP	IN	_	2	case	2:case	Discourse=joint_m:21->9:4
 2	Tulsa	Tulsa	PROPN	NNP	Number=Sing	5	obl	5:obl:in	Entity=(place-1-giv:act-1-coref-Tulsa%2C_Oklahoma)
-3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-38-acc:sit-1-coref)
+3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-38-acc:com-1-ana)
 4	will	will	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
 5	find	find	VERB	VB	VerbForm=Inf	0	root	0:root	_
 6	old	old	ADJ	JJ	Degree=Pos	8	amod	8:amod	Entity=(abstract-39-new-3-sgl
@@ -346,7 +346,7 @@
 18	booming	booming	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
 19	city	city	NOUN	NN	Number=Sing	1	nsubj	1:nsubj	Entity=1)
 20	during	during	ADP	IN	_	22	case	22:case	_
-21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(time-46-acc:gen-2-sgl|XML=<date from:::"1920-01-01" to:::"1929-12-31">
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(time-46-acc:com-2-sgl|XML=<date from:::"1920-01-01" to:::"1929-12-31">
 22	1920s	1920s	NOUN	NNS	Number=Plur	19	nmod	19:nmod:during	Entity=46)|XML=</date>
 23	when	when	SCONJ	WRB	PronType=Int	28	mark	28:mark	Discourse=circumstance:27->26:0
 24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(object-47-new-2-sgl
@@ -856,10 +856,10 @@
 # text = That makes it much easier to find places than in cities where streets go every which way.
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	2:nsubj	Discourse=result:72->71:0
 2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	2:obj|5:nsubj:xsubj	Entity=(event-124-new-1-coref)
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	2:obj|5:nsubj:xsubj	Entity=(event-124-new-1-cata)
 4	much	much	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 5	easier	easy	ADJ	JJR	Degree=Cmp	2	xcomp	2:xcomp	_
-6	to	to	PART	TO	_	7	mark	7:mark	Entity=(event-124-acc:gen-2-coref
+6	to	to	PART	TO	_	7	mark	7:mark	Entity=(event-124-acc:com-2-coref
 7	find	find	VERB	VB	VerbForm=Inf	5	xcomp	5:xcomp	_
 8	places	place	NOUN	NNS	Number=Plur	7	obj	7:obj	Entity=(place-125-new-1-sgl)124)
 9	than	than	SCONJ	IN	_	11	mark	11:mark	_
@@ -1123,12 +1123,12 @@
 # sent_id = GUM_voyage_tulsa-52
 # s_type = decl
 # text = It is important to recognize that the specific format of the north-south numbered street names is North / South 145th East / West Avenue.
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=joint_m:95->87:2|Entity=(abstract-173-new-1-coref)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=joint_m:95->87:2|Entity=(abstract-173-new-1-cata)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	important	important	ADJ	JJ	Degree=Pos	0	root	0:root	_
 4	to	to	PART	TO	_	5	mark	5:mark	_
 5	recognize	recognize	VERB	VB	VerbForm=Inf	3	csubj	3:csubj	_
-6	that	that	SCONJ	IN	_	9	mark	9:mark	Entity=(abstract-173-acc:sit-4,7,14,16,17,18,20-coref
+6	that	that	SCONJ	IN	_	9	mark	9:mark	Entity=(abstract-173-acc:com-4,7,14,16,17,18,20-coref
 7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(abstract-174-new-3,6-coref
 8	specific	specific	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 9	format	format	NOUN	NN	Number=Sing	5	ccomp	5:ccomp	_
@@ -1158,9 +1158,9 @@
 1	Numbered	numbered	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=elaboration:96->95:0|Entity=(place-176-new-2-sgl
 2	streets	street	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=176)
 3	run	run	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-4	East	East	PROPN	NNP	Number=Sing	3	obj	3:obj	Entity=(place-177-new-1-sgl)
+4	East	east	ADV	RB	Degree=Pos	3	advmod	3:advmod	Entity=(place-177-new-1-sgl)
 5	/	/	SYM	SYM	_	6	cc	6:cc	_
-6	West	West	PROPN	NNP	Number=Sing	4	conj	3:obj|4:conj:slash	Entity=(place-178-new-1-sgl)
+6	West	west	ADV	RB	Degree=Pos	4	conj	3:advmod|4:conj:slash	Entity=(place-178-new-1-sgl)
 7	with	with	ADP	IN	_	9	case	9:case	_
 8	Main	Main	ADJ	NNP	Degree=Pos	9	amod	9:amod	Entity=(place-166-giv:inact-1,2-coref
 9	Street	Street	PROPN	NNP	Number=Sing	3	obl	3:obl:with	Entity=166)
@@ -1205,10 +1205,10 @@
 # sent_id = GUM_voyage_tulsa-55
 # s_type = decl
 # text = It is important to recognize that the specific format of the east-west numbered street names is West / East 71st Street North / South.
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=joint_m:98->95:1|Entity=(abstract-186-new-1-coref)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=joint_m:98->95:1|Entity=(abstract-186-new-1-cata)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	important	important	ADJ	JJ	Degree=Pos	0	root	0:root	_
-4	to	to	PART	TO	_	5	mark	5:mark	Entity=(abstract-186-acc:gen-2,9,16,18,19,21,23-coref
+4	to	to	PART	TO	_	5	mark	5:mark	Entity=(abstract-186-acc:com-2,9,16,18,19,21,23-coref
 5	recognize	recognize	VERB	VB	VerbForm=Inf	3	csubj	3:csubj	_
 6	that	that	SCONJ	IN	_	23	mark	23:mark	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(abstract-187-new-3,6-coref
@@ -1465,7 +1465,7 @@
 6	of	of	ADP	IN	_	7	case	7:case	_
 7	travel	travel	NOUN	NN	Number=Sing	5	nmod	5:nmod:of	_
 8	for	for	ADP	IN	_	9	case	9:case	_
-9	those	this	PRON	DT	Number=Plur|PronType=Dem	7	nmod	7:nmod:for|11:nsubj	Entity=(person-218-new-1-coref
+9	those	this	PRON	DT	Number=Plur|PronType=Dem	7	nmod	7:nmod:for|11:nsubj	Entity=(person-218-new-1-ana
 10	who	who	PRON	WP	PronType=Rel	11	nsubj	9:ref	Discourse=elaboration:116->115:0
 11	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	9:acl:relcl	_
 12	without	without	ADP	IN	_	16	case	16:case	_
@@ -1608,7 +1608,7 @@
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(abstract-236-new-2-sgl
 22	heat	heat	NOUN	NN	Number=Sing	17	obl	17:obl:during	_
 23	of	of	ADP	IN	_	24	case	24:case	_
-24	summer	summer	NOUN	NN	Number=Sing	22	nmod	22:nmod:of	Entity=(time-237-acc:gen-1-sgl)236)|SpaceAfter=No|XML=<date from:::"--06" to:::"--09"></date>
+24	summer	summer	NOUN	NN	Number=Sing	22	nmod	22:nmod:of	Entity=(time-237-acc:com-1-sgl)236)|SpaceAfter=No|XML=<date from:::"--06" to:::"--09"></date>
 25	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_voyage_tulsa-75

@@ -124,7 +124,7 @@
 32	important	important	ADJ	JJ	Degree=Pos	33	amod	33:amod	_
 33	technologies	technology	NOUN	NNS	Number=Plur	29	nmod	29:nmod:of	_
 34	of	of	ADP	IN	_	37	case	37:case	_
-35	the	the	DET	DT	Definite=Def|PronType=Art	37	det	37:det	Entity=(time-26-acc:gen-3-sgl
+35	the	the	DET	DT	Definite=Def|PronType=Art	37	det	37:det	Entity=(time-26-acc:com-3-sgl
 36	20th	20th	ADJ	JJ	Degree=Pos|NumType=Ord	37	amod	37:amod	XML=<date from:::"1900-01-01" to:::"1999-12-31">
 37	century	century	NOUN	NN	Number=Sing	33	nmod	33:nmod:of	Entity=26)25)24)|SpaceAfter=No|XML=</date>
 38	:	:	PUNCT	:	_	40	punct	40:punct	_
@@ -196,7 +196,7 @@
 7	Antwerp	Antwerp	PROPN	NNP	Number=Sing	4	obl	4:obl:from	Entity=(place-36-new-1,8,9-sgl-Margraviate_of_Antwerp|SpaceAfter=No
 8	,	,	PUNCT	,	_	15	punct	15:punct	_
 9	at	at	ADP	IN	_	11	case	11:case	_
-10	that	that	DET	DT	Number=Sing|PronType=Dem	11	det	11:det	Entity=(time-37-acc:sit-2-sgl
+10	that	that	DET	DT	Number=Sing|PronType=Dem	11	det	11:det	Entity=(time-37-acc:com-2-sgl
 11	time	time	NOUN	NN	Number=Sing	15	nmod	15:nmod:at	Entity=37)
 12	in	in	ADP	IN	_	15	case	15:case	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(place-38-new-2,3-sgl-Spanish_Netherlands
@@ -359,7 +359,7 @@
 20	,	,	PUNCT	,	_	5	punct	5:punct	_
 21	Johann	Johann	PROPN	NNP	Number=Sing	37	nsubj	37:nsubj	Discourse=evidence:31->29:0|Entity=(person-45-giv:act-1-coref-Johann_Bernoulli)|SpaceAfter=No
 22	,	,	PUNCT	,	_	23	punct	23:punct	_
-23	unable	unable	ADJ	JJ	Degree=Pos|Polarity=Neg	21	advcl	21:advcl	Discourse=cause:32->33:0
+23	unable	unable	ADJ	JJ	Degree=Pos|Polarity=Neg	21	acl	21:acl	Discourse=cause:32->33:0
 24	to	to	PART	TO	_	25	mark	25:mark	_
 25	bear	bear	VERB	VB	VerbForm=Inf	23	xcomp	23:xcomp	_
 26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Entity=(abstract-60-new-3-sgl
@@ -424,7 +424,7 @@
 8	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Discourse=antithesis:37->29:1|Entity=(person-45-giv:act-2-coref-Johann_Bernoulli(person-1-giv:act-1-ana-Daniel_Bernoulli)
 9	father	father	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=45)
 10	carried	carry	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(abstract-66-acc:gen-2-sgl
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(abstract-66-acc:com-2-sgl
 12	grudge	grudge	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=66)
 13	until	until	ADP	IN	_	15	case	15:case	_
 14	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	15:nmod:poss	Entity=(event-67-new-2-sgl(person-45-giv:act-1-ana-Johann_Bernoulli)
@@ -913,11 +913,11 @@
 10	relationship	relationship	NOUN	NN	Number=Sing	7	obl	7:obl:about	_
 11	between	between	ADP	IN	_	13	case	13:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(abstract-137-new-2-sgl
-13	speed	speed	NOUN	NN	Number=Sing	10	nmod	10:nmod:between|17:obl:at	Entity=137)
+13	speed	speed	NOUN	NN	Number=Sing	10	nmod	10:nmod:between|17:obl:at	_
 14	at	at	ADP	IN	_	15	case	15:case	Discourse=elaboration:78->77:0
 15	which	which	PRON	WDT	PronType=Rel	17	obl	13:ref	_
 16	blood	blood	NOUN	NN	Number=Sing	17	nsubj	17:nsubj	Entity=(substance-138-new-1-coref)
-17	flows	flow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	13:acl:relcl	_
+17	flows	flow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	13:acl:relcl	Entity=137)
 18	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=same-unit_m:79->77:1
 19	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(abstract-139-new-2-sgl(substance-138-giv:act-1-ana)
 20	pressure	pressure	NOUN	NN	Number=Sing	13	conj	10:nmod:between|13:conj:and	Entity=139)136)|SpaceAfter=No
@@ -1027,7 +1027,7 @@
 23	still	still	ADV	RB	Degree=Pos	20	acl:relcl	20:acl:relcl	_
 24	in	in	ADP	IN	_	25	case	25:case	_
 25	use	use	NOUN	NN	Number=Sing	23	nmod	23:nmod:in	_
-26	today	today	NOUN	NN	Number=Sing	23	obl:tmod	23:obl:tmod	Entity=(time-155-acc:gen-1-coref)154)|SpaceAfter=No
+26	today	today	NOUN	NN	Number=Sing	23	obl:tmod	23:obl:tmod	Entity=(time-155-acc:com-1-coref)154)|SpaceAfter=No
 27	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_bio_bernoulli-39
@@ -1093,11 +1093,11 @@
 # sent_id = GUM_bio_bernoulli-41
 # s_type = decl
 # text = It was known that a moving body exchanges its kinetic energy for potential energy when it gains height.
-1	It	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=background:97->100:2|Entity=(abstract-163-new-1-coref)
+1	It	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=background:97->100:2|Entity=(abstract-163-new-1-cata)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 4	that	that	SCONJ	IN	_	8	mark	8:mark	_
-5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(abstract-163-acc:sit-4-coref(object-164-new-3-coref
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(abstract-163-acc:com-4-coref(object-164-new-3-coref
 6	moving	moving	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	body	body	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=164)
 8	exchanges	exchange	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	csubj:pass	3:csubj:pass	_
@@ -1213,12 +1213,12 @@
 16	area	area	NOUN	NN	Number=Sing	14	obj	14:obj	_
 17	above	above	ADP	IN	_	19	case	19:case	_
 18	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(place-182-new-2-sgl(object-179-giv:act-1-ana)
-19	surface	surface	NOUN	NN	Number=Sing	16	nmod	16:nmod:above	Entity=182)181)
+19	surface	surface	NOUN	NN	Number=Sing	16	nmod	16:nmod:above	Entity=182)
 20	where	where	SCONJ	WRB	PronType=Rel	24	mark	24:mark	Discourse=elaboration:112->111:0
 21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Bridge=175<183|Entity=(abstract-183-acc:inf-3-sgl
 22	air	air	NOUN	NN	Number=Sing	23	compound	23:compound	Entity=(substance-184-new-1-sgl)
 23	velocity	velocity	NOUN	NN	Number=Sing	24	nsubj	24:nsubj	Entity=183)
-24	increases	increase	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	16:acl:relcl	Entity=179)|SpaceAfter=No
+24	increases	increase	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	16:acl:relcl	Entity=181)179)|SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_bio_bernoulli-46

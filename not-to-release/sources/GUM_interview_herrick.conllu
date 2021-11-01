@@ -22,7 +22,7 @@
 # sent_id = GUM_interview_herrick-2
 # s_type = frag
 # text = Saturday, January 31, 2009
-1	Saturday	Saturday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:2->27:8|Entity=(time-5-acc:gen-1-coref)|SpaceAfter=No|XML=<date when:::"2009-01-31" rend:::"bold">
+1	Saturday	Saturday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:2->27:8|Entity=(time-5-acc:com-1-coref)|SpaceAfter=No|XML=<date when:::"2009-01-31" rend:::"bold">
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	January	January	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(time-5-giv:act-2-appos
 4	31	31	NUM	CD	NumForm=Digit|NumType=Card	1	appos	1:appos	SpaceAfter=No
@@ -58,7 +58,7 @@
 10	to	to	PART	TO	_	12	mark	12:mark	_
 11	"	''	PUNCT	``	_	12	punct	12:punct	SpaceAfter=No
 12	build	build	VERB	VB	VerbForm=Inf	9	xcomp	9:xcomp	_
-13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(abstract-11-new-11-coref(place-12-acc:gen-2-coref
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(abstract-11-new-11-coref(place-12-acc:com-2-coref
 14-15	world's	_	_	_	_	_	_	_	_
 14	world	world	NOUN	NN	Number=Sing	23	nmod:poss	23:nmod:poss	_
 15	's	's	PART	POS	_	14	case	14:case	Entity=12)
@@ -179,7 +179,7 @@
 # text = For our readers who are unaware of your site, could you briefly explain what wikiHow is?
 # newpar = sp who:::"#Wikinews" (1 s) | p (1 s)
 1	For	for	ADP	IN	_	3	case	3:case	Discourse=question:22->27:3|XML=<hi rend:::"bold">
-2	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(person-19-acc:gen-2-sgl
+2	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(person-19-acc:com-2-sgl
 3	readers	reader	NOUN	NNS	Number=Plur	14	obl	6:nsubj|14:obl:for	_
 4	who	who	PRON	WP	PronType=Rel	6	nsubj	3:ref	Discourse=elaboration:23->22:0
 5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
@@ -377,12 +377,12 @@
 # speaker = JackHerrick
 # text = We get over 14 million unique visitors per month (source: Google Analytics), which makes us the 135th most popular site according to Quantcast.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=evidence:41->40:0|Entity=(organization-22-giv:act-1-ana)
-2	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+2	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root|18:nsubj	_
 3	over	over	ADV	RB	_	5	advmod	5:advmod	Entity=(person-37-new-5-sgl
 4	14	14	NUM	CD	NumForm=Digit|NumType=Card	5	compound	5:compound	_
 5	million	million	NUM	CD	NumForm=Word|NumType=Card	7	nummod	7:nummod	_
 6	unique	unique	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
-7	visitors	visitor	NOUN	NNS	Number=Plur	2	obj	2:obj|18:nsubj	_
+7	visitors	visitor	NOUN	NNS	Number=Plur	2	obj	2:obj	_
 8	per	per	ADP	IN	_	9	case	9:case	_
 9	month	month	NOUN	NN	Number=Sing	7	nmod	7:nmod:per	Entity=(time-38-new-1-sgl)37)
 10	(	(	PUNCT	-LRB-	_	11	punct	11:punct	Discourse=preparation:42->43:0|SpaceAfter=No
@@ -392,8 +392,8 @@
 14	Analytics	Analytics	PROPN	NNP	Number=Sing	13	flat	13:flat	Entity=39)|SpaceAfter=No
 15	)	)	PUNCT	-RRB-	_	11	punct	11:punct	SpaceAfter=No
 16	,	,	PUNCT	,	_	18	punct	18:punct	_
-17	which	which	PRON	WP	PronType=Rel	18	nsubj	7:ref	Discourse=elaboration:44->41:1
-18	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	7:acl:relcl	_
+17	which	which	PRON	WP	PronType=Rel	18	nsubj	2:ref	Discourse=elaboration:44->41:1
+18	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_
 19	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	18	obj	18:obj|24:nsubj:xsubj	Entity=(abstract-3-giv:act-1-ana-wikiHow)
 20	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(abstract-3-giv:act-5-coref-wikiHow
 21	135th	135th	ADV	RB	Degree=Pos|NumType=Ord	24	amod	24:amod	_
@@ -458,7 +458,7 @@
 8	all	all	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
 9	over	over	ADP	IN	_	11	case	11:case	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(place-12-giv:inact-2-coref
-11	world	world	NOUN	NN	Number=Sing	6	advcl	6:advcl	Entity=12)47)|SpaceAfter=No
+11	world	world	NOUN	NN	Number=Sing	6	nmod	6:nmod:from_over	Entity=12)47)|SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	4:punct	Entity=45)
 
 # sent_id = GUM_interview_herrick-22
@@ -998,7 +998,7 @@
 10	ultimately	ultimately	ADV	RB	Degree=Pos	11	advmod	11:advmod	Discourse=same-unit_m:110->108:1
 11	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 12	that	that	SCONJ	IN	_	14	mark	14:mark	_
-13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	14:nsubj|16:nsubj:xsubj	Entity=(person-103-acc:sit-1-coref)
+13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	14:nsubj|16:nsubj:xsubj	Entity=(person-103-acc:com-1-ana)
 14	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	ccomp	11:ccomp	_
 15	to	to	PART	TO	_	16	mark	16:mark	_
 16	make	make	VERB	VB	VerbForm=Inf	14	xcomp	14:xcomp	_
@@ -1514,7 +1514,7 @@
 9	size	size	NOUN	NN	Number=Sing	4	obl	4:obl:to	_
 10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Discourse=elaboration:165->164:0|Entity=(abstract-3-giv:act-1-ana-wikiHow)
 11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
-12	today	today	NOUN	NN	Number=Sing	9	acl:relcl	9:acl:relcl	Entity=(time-150-acc:gen-1-sgl)149)|SpaceAfter=No
+12	today	today	NOUN	NN	Number=Sing	9	acl:relcl	9:acl:relcl	Entity=(time-150-acc:com-1-sgl)149)|SpaceAfter=No
 13	?	?	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_interview_herrick-67
@@ -1667,14 +1667,14 @@
 25	editors	editor	NOUN	NNS	Number=Plur	26	nsubj	26:nsubj|28:nsubj:xsubj	Entity=(person-167-new-1-sgl)
 26	joined	join	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	conj	17:conj:and	_
 27	to	to	PART	TO	_	28	mark	28:mark	Discourse=purpose:179->178:0
-28	improve	improve	VERB	VB	VerbForm=Inf	26	xcomp	26:xcomp	_
+28	improve	improve	VERB	VB	VerbForm=Inf	26	xcomp	26:xcomp|35:nsubj	_
 29	those	this	DET	DT	Number=Plur|PronType=Dem	30	det	30:det	Entity=(abstract-165-giv:act-2-coref
-30	articles	article	NOUN	NNS	Number=Plur	28	obj	28:obj|35:nsubj	Entity=165)|SpaceAfter=No
+30	articles	article	NOUN	NNS	Number=Plur	28	obj	28:obj	Entity=165)|SpaceAfter=No
 31	,	,	PUNCT	,	_	35	punct	35:punct	_
-32	which	which	PRON	WDT	PronType=Rel	35	nsubj	30:ref	Discourse=result:180->178:2
+32	which	which	PRON	WDT	PronType=Rel	35	nsubj	28:ref	Discourse=result:180->178:2
 33	in	in	ADP	IN	_	34	case	34:case	_
 34	turn	turn	NOUN	NN	Number=Sing	35	obl	35:obl:in	_
-35	attracted	attract	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	30	acl:relcl	30:acl:relcl	_
+35	attracted	attract	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	acl:relcl	28:acl:relcl	_
 36	more	more	ADJ	JJR	Degree=Cmp	37	amod	37:amod	Entity=(person-168-new-2-sgl
 37	readers	reader	NOUN	NNS	Number=Plur	35	obj	35:obj	Entity=168)|SpaceAfter=No
 38	.	.	PUNCT	.	_	4	punct	4:punct	_

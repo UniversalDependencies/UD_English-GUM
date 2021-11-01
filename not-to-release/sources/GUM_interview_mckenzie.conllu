@@ -9,7 +9,7 @@
 # sent_id = GUM_interview_mckenzie-1
 # s_type = frag
 # text = Friday, January 3, 2014
-1	Friday	Friday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:1->7:4|Entity=(time-1-acc:gen-1-coref)|SpaceAfter=No|XML=<date when:::"2014-01-03" rend:::"bold">
+1	Friday	Friday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:1->7:4|Entity=(time-1-acc:com-1-coref)|SpaceAfter=No|XML=<date when:::"2014-01-03" rend:::"bold">
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	January	January	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(time-1-giv:act-2-appos
 4	3	3	NUM	CD	NumForm=Digit|NumType=Card	1	appos	1:appos	SpaceAfter=No
@@ -30,9 +30,9 @@
 # s_type = decl
 # text = On Saturday, Wikinews interviewed Tina McKenzie, a former member of the Australia women's national wheelchair basketball team, known as the Gliders.
 1	On	on	ADP	IN	_	2	case	2:case	Discourse=background:3->7:2
-2	Saturday	Saturday	PROPN	NNP	Number=Sing	5	obl	5:obl:on	Entity=(time-6-acc:gen-1-sgl)|SpaceAfter=No|XML=<date when:::"2013-12-28"></date>
+2	Saturday	Saturday	PROPN	NNP	Number=Sing	5	obl	5:obl:on	Entity=(time-6-acc:com-1-sgl)|SpaceAfter=No|XML=<date when:::"2013-12-28"></date>
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
-4	Wikinews	Wikinews	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(organization-7-acc:gen-1-coref-Wikinews)|XML=<hi rend:::"italic"></hi>
+4	Wikinews	Wikinews	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(organization-7-acc:com-1-coref-Wikinews)|XML=<hi rend:::"italic"></hi>
 5	interviewed	interview	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 6	Tina	Tina	PROPN	NNP	Number=Sing	5	obj	5:obj	Entity=(person-8-new-1,2-coref-Tina_McKenzie|XML=<ref>
 7	McKenzie	McKenzie	PROPN	NNP	Number=Sing	6	flat	6:flat	Entity=8)|SpaceAfter=No|XML=</ref>
@@ -206,9 +206,9 @@
 # text = Cause that's one of our problems really, to compete.
 1	Cause	cause	SCONJ	IN	_	4	mark	4:mark	Discourse=cause:15->14:0
 2-3	that's	_	_	_	_	_	_	_	_
-2	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Entity=(event-21-new-1-coref)
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Entity=(event-21-new-1-cata)
 3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
-4	one	one	NUM	CD	NumForm=Word|NumType=Card	0	root	0:root	Entity=(event-21-acc:sit-1-coref
+4	one	one	NUM	CD	NumForm=Word|NumType=Card	0	root	0:root	Entity=(event-21-acc:com-1-coref
 5	of	of	ADP	IN	_	7	case	7:case	_
 6	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(organization-9-giv:act-1-ana-Australia_women's_national_wheelchair_basketball_team)
 7	problems	problem	NOUN	NNS	Number=Plur	4	nmod	4:nmod:of	Entity=21)
@@ -222,14 +222,14 @@
 # s_type = decl
 # speaker = TinaMcKenzie
 # text = It costs us so much money to for us to travel overseas and to compete internationally.
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	2:expl	Discourse=cause:17->15:1|Entity=(event-22-new-1-coref)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	2:expl	Discourse=cause:17->15:1|Entity=(event-22-new-1-cata)
 2	costs	cost	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	iobj	2:iobj	Entity=(organization-9-giv:act-1-ana-Australia_women's_national_wheelchair_basketball_team)
 4	so	so	ADV	RB	_	5	advmod	5:advmod	Entity=(abstract-23-new-3-sgl
 5	much	much	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
 6	money	money	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=23)
 7	to	to	PART	TO	_	11	reparandum	11:reparandum	_
-8	for	for	SCONJ	IN	_	11	mark	11:mark	Entity=(event-22-acc:gen-4,8-coref
+8	for	for	SCONJ	IN	_	11	mark	11:mark	Entity=(event-22-acc:com-4,8-coref
 9	us	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	11:nsubj|15:nsubj	_
 10	to	to	PART	TO	_	11	mark	11:mark	_
 11	travel	travel	VERB	VB	VerbForm=Inf	2	csubj	2:csubj	_
@@ -295,11 +295,11 @@
 7	,	,	PUNCT	,	_	8	punct	8:punct	_
 8	so	so	ADV	RB	_	6	advmod	6:advmod	Discourse=evaluation:22->18:1
 9-10	it's	_	_	_	_	_	_	_	_
-9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	12:expl	Entity=(event-26-new-1-coref)
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	12:expl	Entity=(event-26-new-1-cata)
 10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
 11	really	really	ADV	RB	Degree=Pos	12	advmod	12:advmod	_
 12	important	important	ADJ	JJ	Degree=Pos	0	root	0:root	_
-13	to	to	PART	TO	_	15	mark	15:mark	Entity=(event-26-acc:gen-3-coref
+13	to	to	PART	TO	_	15	mark	15:mark	Entity=(event-26-acc:com-3-coref
 14	be	be	AUX	VB	VerbForm=Inf	15	cop	15:cop	_
 15	able	able	ADJ	JJ	Degree=Pos	12	csubj	12:csubj	_
 16	to	to	PART	TO	_	17	mark	17:mark	_
@@ -556,11 +556,11 @@
 5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(event-51-new-3,4-sgl
 6	worst	bad	ADJ	JJS	Degree=Sup	8	amod	8:amod	_
 7	World	World	PROPN	NNP	Number=Sing	8	compound	8:compound	_
-8	Cups	Cup	PROPN	NNPS	Number=Plur	3	nmod	3:nmod:of	Entity=51)50)
+8	Cups	Cup	PROPN	NNPS	Number=Plur	3	nmod	3:nmod:of	_
 9-10	we've	_	_	_	_	_	_	_	_
 9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	11:nsubj	Discourse=elaboration:42->41:0|Entity=(organization-25-giv:act-1-ana-Australia_women's_national_wheelchair_basketball_team)
 10	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
-11	played	play	VERB	VBN	Tense=Past|VerbForm=Part	3	acl:relcl	3:acl:relcl	_
+11	played	play	VERB	VBN	Tense=Past|VerbForm=Part	8	acl:relcl	8:acl:relcl	Entity=51)50)
 12	actually	actually	ADV	RB	Degree=Pos	11	advmod	11:advmod	Discourse=same-unit_m:43->41:1|SpaceAfter=No
 13	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -616,7 +616,7 @@
 # speaker = TinaMcKenzie
 # text = But you know what?
 1	But	but	CCONJ	CC	_	3	cc	3:cc	Discourse=preparation:51->52:0
-2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-52-acc:sit-1-coref)
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-52-acc:com-1-ana)
 3	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	what	what	PRON	WDT	PronType=Int	3	obj	3:obj	SpaceAfter=No
 5	?	?	PUNCT	.	_	3	punct	3:punct	_
@@ -645,10 +645,10 @@
 5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	reparandum	9:reparandum	_
 6	...	…	PUNCT	:	_	5	punct	5:punct	_
 7-8	it's	_	_	_	_	_	_	_	_
-7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	9:expl	Discourse=joint_m:54->37:0|Entity=(event-53-new-1-coref)
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	9:expl	Discourse=joint_m:54->37:0|Entity=(event-53-new-1-cata)
 8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
 9	good	good	ADJ	JJ	Degree=Pos	0	root	0:root	_
-10	to	to	PART	TO	_	12	mark	12:mark	Entity=(event-53-acc:gen-3,9-disc
+10	to	to	PART	TO	_	12	mark	12:mark	Entity=(event-53-acc:com-3,9-disc
 11	be	be	AUX	VB	VerbForm=Inf	12	cop	12:cop	_
 12	able	able	ADJ	JJ	Degree=Pos	9	csubj	9:csubj	_
 13	to	to	PART	TO	_	14	mark	14:mark	_
@@ -668,7 +668,7 @@
 27	also	also	ADV	RB	_	28	advmod	28:advmod	_
 28	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	9:conj:but	_
 29	that	that	SCONJ	IN	_	31	mark	31:mark	_
-30	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	31	nsubj	31:nsubj	Entity=(person-54-acc:sit-1-coref)
+30	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	31	nsubj	31:nsubj	Entity=(person-54-acc:com-1-ana)
 31	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	28	ccomp	28:ccomp	_
 32	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	35:det	Entity=(event-55-new-6-sgl
 33	really	really	ADV	RB	Degree=Pos	34	advmod	34:advmod	_
@@ -725,7 +725,7 @@
 # speaker = TinaMcKenzie
 # text = And all that sort of stuff.
 1	And	and	CCONJ	CC	_	4	cc	4:cc	Discourse=restatement:62->59:1
-2	all	all	DET	PDT	_	4	det:predet	4:det:predet	Entity=(abstract-59-acc:sit-3-sgl
+2	all	all	DET	PDT	_	4	det:predet	4:det:predet	Entity=(abstract-59-acc:com-3-sgl
 3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	_
 4	sort	sort	NOUN	NN	Number=Sing	0	root	0:root	_
 5	of	of	ADP	IN	_	6	case	6:case	_
@@ -739,7 +739,7 @@
 # newpar = sp who:::"#Wikinews" (1 s) | p (1 s)
 1	Unfortunately	unfortunately	ADV	RB	Degree=Pos|Polarity=Neg	5	advmod	5:advmod	Discourse=attribution:63->64:0|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-60-acc:sit-1-sgl)
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-60-acc:com-1-sgl)
 4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 5	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
 6	about	about	SCONJ	IN	_	7	mark	7:mark	Discourse=cause:64->65:0
