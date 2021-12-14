@@ -151,7 +151,7 @@
 7	member	member	NOUN	NN	Number=Sing	1	appos	1:appos	_
 8	of	of	ADP	IN	_	9	case	9:case	_
 9	Scientology	Scientology	PROPN	NNP	Number=Sing	7	nmod	7:nmod:of	Entity=(organization-2-giv:inact-1-coref-Church_of_Scientology)
-10	all	all	DET	DT	_	12	det:predet	12:det:predet	_
+10	all	all	DET	DT	PronType=Tot	12	det:predet	12:det:predet	_
 11	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	_
 12	life	life	NOUN	NN	Number=Sing	7	nmod:tmod	7:nmod:tmod	Entity=1)|SpaceAfter=No
 13	,	,	PUNCT	,	_	1	punct	1:punct	_
@@ -224,7 +224,7 @@
 12	-	-	PUNCT	HYPH	_	11	punct	11:punct	SpaceAfter=No
 13	contract	contract	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=23)|SpaceAfter=No|XML=</w>
 14	,	,	PUNCT	,	_	15	punct	15:punct	_
-15	agreeing	agree	VERB	VBG	VerbForm=Ger	9	acl	9:acl	Discourse=elaboration:23->22:0
+15	agreeing	agree	VERB	VBG	VerbForm=Ger	9	acl	9:acl	Discourse=purpose:23->22:0
 16	to	to	PART	TO	_	17	mark	17:mark	_
 17	work	work	VERB	VB	VerbForm=Inf	15	xcomp	15:xcomp	_
 18	for	for	ADP	IN	_	20	case	20:case	_
@@ -266,7 +266,7 @@
 18	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=joint_m:29->27:1
 19	significant	significant	ADJ	JJ	Degree=Pos	20	amod	20:amod	Entity=(time-29-new-2-sgl
 20	time	time	NOUN	NN	Number=Sing	13	conj	9:nmod:with|13:conj:and	Entity=29)
-21	invested	invest	VERB	VBN	Tense=Past|VerbForm=Part	20	acl	20:acl	Discourse=antithesis:30->29:0
+21	invested	invest	VERB	VBN	Tense=Past|VerbForm=Part	20	acl	20:acl	Discourse=elaboration:30->29:0
 22	in	in	ADP	IN	_	23	case	23:case	_
 23	work	work	NOUN	NN	Number=Sing	21	obl	21:obl:in	Entity=(abstract-30-new-1-sgl)
 24	per	per	ADP	IN	_	25	case	25:case	_
@@ -289,7 +289,7 @@
 10	publication	publication	NOUN	NN	Number=Sing	3	obl	3:obl:in	Entity=33)
 11	Freedom	Freedom	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=(organization-33-giv:act-1,2-appos-Freedom_%28magazine%29|XML=<ref rend:::"italic">
 12	Magazine	Magazine	PROPN	NNP	Number=Sing	10	appos	10:appos	Entity=33)|SpaceAfter=No|XML=</ref>
-13	,	,	PUNCT	,	_	15	punct	15:punct	_
+13	,	,	PUNCT	,	_	10	punct	10:punct	_
 14	which	which	PRON	WDT	PronType=Rel	15	nsubj	5:ref	Discourse=elaboration:32->31:0
 15	attacked	attack	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_
 16	high	high	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(person-34-new-4,10,12,13-coref|SpaceAfter=No|XML=<w>
@@ -352,7 +352,7 @@
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(abstract-41-acc:com-2-sgl-Internet
 13	Internet	Internet	PROPN	NNP	Number=Sing	6	obl	6:obl:on	Entity=41)|SpaceAfter=No|XML=<ref></ref>
 14	,	,	PUNCT	,	_	16	punct	16:punct	_
-15	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=joint_m:40->39:0
+15	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=sequence_m:40->39:0
 16	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	4:conj:and	_
 17	upon	upon	ADP	IN	_	19	case	19:case	_
 18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(place-42-new-2-coref
@@ -478,7 +478,7 @@
 15	,	,	PUNCT	,	_	2	punct	2:punct	_
 16	Montalvo	Montalvo	PROPN	NNP	Number=Sing	19	nsubj:pass	19:nsubj:pass	Discourse=elaboration:55->5:8|Entity=(person-1-giv:act-1-coref)
 17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	19:aux:pass	_
-18	instead	instead	ADV	RB	Degree=Pos	19	advmod	19:advmod	_
+18	instead	instead	ADV	RB	_	19	advmod	19:advmod	_
 19	put	put	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 20	through	through	ADP	RP	_	19	compound:prt	19:compound:prt	_
 21	to	to	ADP	IN	_	24	case	24:case	_
@@ -503,7 +503,7 @@
 8	lie	lie	VERB	VB	VerbForm=Inf	6	xcomp	6:xcomp	_
 9	to	to	ADP	IN	_	10	case	10:case	_
 10	Daniel	Daniel	PROPN	NNP	Number=Sing	8	obl	8:obl:to	Entity=(person-1-giv:act-1-coref)
-11	that	that	SCONJ	IN	_	17	mark	17:mark	Discourse=sequence_m:58->55:1
+11	that	that	SCONJ	IN	_	17	mark	17:mark	Discourse=joint_m:58->55:1
 12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(object-20-giv:inact-3-coref
 13	hard	hard	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
 14	drives	drive	NOUN	NNS	Number=Plur	17	nsubj:pass	17:nsubj:pass	Entity=20)
@@ -551,7 +551,7 @@
 55	good	good	ADJ	JJ	Degree=Pos	57	amod	57:amod	_
 56	long	long	ADJ	JJ	Degree=Pos	57	amod	57:amod	_
 57	time	time	NOUN	NN	Number=Sing	49	obl	49:obl:for	Entity=58)54)|SpaceAfter=No
-58	,	,	PUNCT	,	_	64	punct	64:punct	_
+58	,	,	PUNCT	,	_	59	punct	59:punct	_
 59	UNLESS	unless	SCONJ	IN	Typo=Yes	64	mark	64:mark	Discourse=condition:63->62:0|XML=<sic></sic>
 60	of	of	ADV	IN	_	64	advmod	64:advmod	_
 61	course	course	NOUN	NN	Number=Sing	60	fixed	60:fixed	SpaceAfter=No
@@ -603,7 +603,7 @@
 29	Scientology	Scientology	PROPN	NNP	Number=Sing	30	compound	30:compound	Entity=(organization-2-giv:act-1-coref-Church_of_Scientology)
 30	device	device	NOUN	NN	Number=Sing	26	obl	26:obl:to	Entity=62)
 31	called	call	VERB	VBN	Tense=Past|VerbForm=Part	30	acl	30:acl	Discourse=elaboration:70->69:0
-32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	33:det	Entity=(object-63-new-2-sgl-E-meter
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	33:det	Entity=(object-63-new-2-sgl-E%2Dmeter
 33	E-meter	E-meter	PROPN	NNP	Number=Sing	31	xcomp	31:xcomp	Entity=63)60)|SpaceAfter=No|XML=<ref>
 34	.	.	PUNCT	.	_	9	punct	9:punct	XML=</ref>
 
@@ -615,7 +615,7 @@
 2	to	to	ADP	IN	_	1	fixed	1:fixed	_
 3	Rathbun	Rathbun	PROPN	NNP	Number=Sing	15	obl	15:obl:according_to	Entity=(person-15-giv:inact-1-coref-Mark_Rathbun)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
-5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Discourse=sequence_m:72->55:1|Entity=(person-64-new-2,6,7-coref
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Discourse=joint_m:72->55:1|Entity=(person-64-new-2,6,7-coref
 6	detective	detective	NOUN	NN	Number=Sing	15	nsubj:pass	15:nsubj:pass	_
 7	for	for	ADP	IN	_	13	case	13:case	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(organization-65-new-3,4,6-coref
@@ -650,7 +650,7 @@
 # s_type = decl
 # text = "Daniel was picked up by an investigator in a black car with blacked out windows.
 # newpar = quote (3 s)
-1	"	''	PUNCT	``	_	4	punct	4:punct	Discourse=sequence_m:75->55:1|SpaceAfter=No
+1	"	''	PUNCT	``	_	4	punct	4:punct	Discourse=joint_m:75->55:1|SpaceAfter=No
 2	Daniel	Daniel	PROPN	NNP	Number=Sing	4	nsubj:pass	4:nsubj:pass	Entity=(person-1-giv:inact-1-coref)
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 4	picked	pick	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -728,7 +728,7 @@
 # text = Rathbun asserted that Scientology officials, "... plied the Sheriff's detective with a grand conspiracy theory, characterizing me as the 'anti-christ' of the church of Scientology. ... The next thing Daniel knows he's in a cell where he sat for the next 30 hours."
 1	Rathbun	Rathbun	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=attribution:82->83:2|Entity=(person-15-giv:inact-1-coref-Mark_Rathbun)
 2	asserted	assert	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-3	that	that	SCONJ	IN	_	9	mark	9:mark	Discourse=sequence_m:83->55:1
+3	that	that	SCONJ	IN	_	9	mark	9:mark	Discourse=joint_m:83->55:1
 4	Scientology	Scientology	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=(person-50-giv:inact-6-coref(organization-2-giv:act-1-coref-Church_of_Scientology)
 5	officials	official	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	5:punct	_
@@ -935,7 +935,7 @@
 11	five	five	NUM	CD	NumForm=Word|NumType=Card	13	nummod	13:nummod	Entity=(object-20-giv:inact-3-coref
 12	hard	hard	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
 13	drives	drive	NOUN	NNS	Number=Plur	10	obj	10:obj	Entity=20)
-14	each	each	DET	DT	_	16	nsubj	16:nsubj	Bridge=20<104|Entity=(object-104-acc:inf-3-sgl
+14	each	each	DET	DT	PronType=Tot	16	nsubj	16:nsubj	Bridge=20<104|Entity=(object-104-acc:inf-3-sgl
 15	of	of	ADP	IN	_	16	case	16:case	_
 16	$	$	SYM	SYM	_	13	acl	13:acl	_
 17	200	200	NUM	CD	NumForm=Digit|NumType=Card	16	nummod	16:nummod	_
@@ -1034,7 +1034,7 @@
 36	Refusing	refuse	VERB	VBG	VerbForm=Ger	20	conj	17:appos|20:conj	Bridge=114<121|Entity=(event-121-acc:inf-1-sgl
 37	-	-	PUNCT	:	_	40	punct	40:punct	Discourse=concession:117->116:0
 38	despite	despite	ADP	IN	_	40	case	40:case	_
-39	every	every	DET	DT	_	40	det	40:det	Entity=(event-122-new-2,4,6-sgl
+39	every	every	DET	DT	PronType=Tot	40	det	40:det	Entity=(event-122-new-2,4,6-sgl
 40	provocation	provocation	NOUN	NN	Number=Sing	36	obl	36:obl:despite	_
 41	and	and	CCONJ	CC	_	42	cc	42:cc	_
 42	incentive	incentive	NOUN	NN	Number=Sing	40	conj	36:obl:despite|40:conj:and	_

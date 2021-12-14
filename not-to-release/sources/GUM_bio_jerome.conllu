@@ -20,14 +20,14 @@
 2	(	(	PUNCT	-LRB-	_	4	punct	4:punct	Discourse=elaboration:3->2:0|SpaceAfter=No
 3	/	/	PUNCT	SYM	_	4	punct	4:punct	XML=<ref>
 4	dʒəˈroʊm	dʒəˈroʊm	PROPN	NNP	Number=Sing	1	appos	1:appos	Entity=(person-1-giv:act-1-appos-Jerome)
-5	/	/	PUNCT	SYM	_	9	punct	9:punct	SpaceAfter=No|XML=</ref>
-6	;	;	PUNCT	:	_	9	punct	9:punct	_
+5	/	/	PUNCT	SYM	_	1	punct	1:punct	SpaceAfter=No|XML=</ref>
+6	;	;	PUNCT	:	_	7	punct	7:punct	_
 7	Latin	Latin	PROPN	NNP	Number=Sing	9	nmod	9:nmod	Discourse=preparation:4->5:0|Entity=(abstract-2-new-1-coref-Latin)|SpaceAfter=No|XML=<ref>
 8	:	:	PUNCT	:	_	7	punct	7:punct	XML=</ref>
 9	Eusebius	Eusebius	PROPN	NNP	Number=Sing	1	appos	1:appos	Discourse=joint_m:5->3:0|Entity=(person-1-giv:act-2,3,4-coref-Jerome|XML=<hi rend:::"italic">
 10	Sophronius	Sophronius	PROPN	NNP	Number=Sing	9	flat	9:flat	_
 11	Hieronymus	Hieronymus	PROPN	NNP	Number=Sing	9	flat	9:flat	SpaceAfter=No|XML=</hi>
-12	;	;	PUNCT	:	_	15	punct	15:punct	Entity=1)
+12	;	;	PUNCT	:	_	13	punct	13:punct	Entity=1)
 13	Greek	Greek	PROPN	NNP	Number=Sing	15	nmod	15:nmod	Discourse=preparation:6->7:0|Entity=(abstract-3-new-1-coref-Greek_language)|SpaceAfter=No|XML=<ref>
 14	:	:	PUNCT	:	_	13	punct	13:punct	XML=</ref>
 15	Εὐσέβιος	Εὐσέβιος	PROPN	NNP	Number=Sing	1	appos	1:appos	Discourse=joint_m:7->3:0|Entity=(person-1-giv:act-1,2,3-coref-Jerome
@@ -149,9 +149,9 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=background:21->23:1|Entity=(person-1-giv:act-2,5-coref-Jerome
 2	protégé	protégé	NOUN	NN	Number=Sing	15	advcl	15:advcl	_
 3	of	of	ADP	IN	_	4	case	4:case	_
-4	Pope	Pope	PROPN	NNP	Number=Sing	2	nmod	2:nmod:of|9:nsubj	Entity=(person-23-new-1,2,3-sgl-Pope_Damasus_I|XML=<ref>
+4	Pope	Pope	PROPN	NNP	Number=Sing	2	nmod	2:nmod:of|9:nsubj	Entity=(person-23-new-1,2-sgl-Pope_Damasus_I|XML=<ref>
 5	Damasus	Damasus	PROPN	NNP	Number=Sing	4	flat	4:flat	_
-6	I	I	NUM	CD	NumForm=Roman|NumType=Card	4	flat	4:flat	Entity=23)|SpaceAfter=No|XML=</ref>
+6	I	I	NUM	CD	NumForm=Roman|NumType=Card	4	dep	4:dep	Entity=23)|SpaceAfter=No|XML=</ref>
 7	,	,	PUNCT	,	_	9	punct	9:punct	_
 8	who	who	PRON	WP	PronType=Rel	9	nsubj	4:ref	Discourse=elaboration:22->21:0
 9	died	die	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_
@@ -425,7 +425,7 @@
 5	and	and	CCONJ	CC	_	9	cc	9:cc	_
 6	at	at	ADV	IN	_	8	advmod	8:advmod	_
 7	least	least	ADJ	JJS	Degree=Sup	6	fixed	6:fixed	_
-8	some	some	DET	DT	_	9	det	9:det	Entity=(abstract-66-new-2-sgl-Greek_language
+8	some	some	DET	DT	PronType=Ind	9	det	9:det	Entity=(abstract-66-new-2-sgl-Greek_language
 9	Greek	Greek	PROPN	NNP	Number=Sing	4	conj	3:obj|4:conj:and	Entity=66)|SpaceAfter=No|XML=<ref></ref>
 10	,	,	PUNCT	,	_	4	punct	4:punct	_
 11	[	[	PUNCT	-LRB-	_	12	punct	12:punct	Discourse=evidence:51->50:0|SpaceAfter=No|XML=<ref>
@@ -567,7 +567,7 @@
 17	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	Entity=(object-88-new-2-sgl(place-84-giv:act-1-ana)
 18	walls	wall	NOUN	NNS	Number=Plur	8	nmod	8:nmod:with	_
 19	on	on	ADP	IN	_	21	case	21:case	_
-20	either	either	DET	DT	_	21	det	21:det	Entity=(place-89-new-2-sgl
+20	either	either	DET	DT	PronType=Art	21	det	21:det	Entity=(place-89-new-2-sgl
 21	side	side	NOUN	NN	Number=Sing	18	nmod	18:nmod:on	Entity=89)
 22	lined	line	VERB	VBN	Tense=Past|VerbForm=Part	18	acl	18:acl	Discourse=elaboration:65->64:0
 23	with	with	ADP	IN	_	25	case	25:case	_
@@ -661,7 +661,7 @@
 17	closed	close	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 18	around	around	ADV	RB	Degree=Pos	17	advmod	17:advmod	_
 19	and	and	CCONJ	CC	_	21	cc	21:cc	Discourse=preparation:77->78:0
-20	there	there	PRON	EX	_	21	expl	21:expl	_
+20	there	there	PRON	EX	PronType=Dem	21	expl	21:expl	_
 21	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	conj	17:conj:and	_
 22	to	to	ADP	IN	_	24	case	24:case	_
 23	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	24:nmod:poss	Entity=(abstract-101-new-2-sgl(person-1-giv:inact-1-ana-Jerome)
@@ -719,7 +719,7 @@
 7	—	—	PUNCT	:	_	14	punct	14:punct	Discourse=elaboration:85->84:0
 8	"	''	PUNCT	``	_	14	punct	14:punct	SpaceAfter=No|XML=<quote>
 9	On	on	ADP	IN	_	11	case	11:case	Entity=(abstract-102-giv:act-6-appos
-10	all	all	DET	DT	_	11	det	11:det	Entity=(object-110-new-2-sgl
+10	all	all	DET	DT	PronType=Tot	11	det	11:det	Entity=(object-110-new-2-sgl
 11	sides	side	NOUN	NNS	Number=Plur	14	obl:npmod	14:obl:npmod	Entity=110)
 12	round	round	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
 13	horror	horror	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	Entity=(abstract-111-new-1-sgl)
@@ -860,7 +860,7 @@
 24	up	up	ADP	RP	_	23	compound:prt	23:compound:prt	_
 25	theological	theological	ADJ	JJ	Degree=Pos	26	amod	26:amod	Entity=(event-133-new-2-sgl
 26	studies	study	NOUN	NNS	Number=Plur	23	obj	23:obj	Entity=133)|SpaceAfter=No
-27	,	,	PUNCT	,	_	38	punct	38:punct	_
+27	,	,	PUNCT	,	_	28	punct	28:punct	_
 28	and	and	CCONJ	CC	_	38	cc	38:cc	Discourse=joint_m:102->101:0
 29	where	where	SCONJ	WRB	PronType=Int	38	mark	38:mark	SpaceAfter=No
 30	,	,	PUNCT	,	_	29	punct	29:punct	_
@@ -922,7 +922,7 @@
 # s_type = decl
 # text = Some of these accompanied Jerome when about 373, he set out on a journey through Thrace and Asia Minor into northern Syria.
 # newpar = p (4 s)
-1	Some	some	DET	DT	_	4	nsubj	4:nsubj	Discourse=elaboration:105->104:0|Entity=(person-144-new-1-ana
+1	Some	some	DET	DT	PronType=Ind	4	nsubj	4:nsubj	Discourse=elaboration:105->104:0|Entity=(person-144-new-1-ana
 2	of	of	ADP	IN	_	3	case	3:case	_
 3	these	this	PRON	DT	Number=Plur|PronType=Dem	1	nmod	1:nmod:of	Entity=(person-143-giv:act-1-ana)144)
 4	accompanied	accompany	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -966,7 +966,7 @@
 14	died	die	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 15	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=joint_m:110->107:2
 16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	20:nsubj	Entity=(event-152-new-5-disc(person-1-giv:act-1-ana-Jerome
-17	himself	himself	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nmod:npmod	16:nmod:npmod	Entity=1)
+17	himself	himself	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Emp	16	nmod:npmod	16:nmod:npmod	Entity=1)
 18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	20:cop	_
 19	seriously	seriously	ADV	RB	Degree=Pos	20	advmod	20:advmod	_
 20	ill	ill	ADJ	JJ	Degree=Pos	14	conj	14:conj:and	_

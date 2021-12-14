@@ -117,7 +117,7 @@
 1	"	''	PUNCT	``	_	3	punct	3:punct	Discourse=attribution:12->13:1|SpaceAfter=No
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-1-giv:act-1-ana)
 3	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-4	no	no	DET	DT	Polarity=Neg	5	det	5:det	_
+4	no	no	DET	DT	Polarity=Neg|PronType=Art	5	det	5:det	_
 5	doubt	doubt	NOUN	NN	Number=Sing	3	obj	3:obj	_
 6	that	that	SCONJ	IN	_	14	mark	14:mark	Discourse=evaluation:13->10:2
 7	as	as	SCONJ	IN	_	9	mark	9:mark	Discourse=circumstance:14->15:1
@@ -125,7 +125,7 @@
 9	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	14:advcl:as	_
 10	on	on	ADP	RP	_	9	compound:prt	9:compound:prt	SpaceAfter=No
 11	,	,	PUNCT	,	_	9	punct	9:punct	_
-12	there	there	PRON	EX	_	14	expl	14:expl	Discourse=same-unit_m:15->13:0
+12	there	there	PRON	EX	PronType=Dem	14	expl	14:expl	Discourse=same-unit_m:15->13:0
 13	will	will	AUX	MD	Number=Plur|Person=3|VerbForm=Fin	14	aux	14:aux	_
 14	be	be	VERB	VB	VerbForm=Inf	5	acl	5:acl:that	_
 15	more	more	ADJ	JJR	Degree=Cmp	18	amod	18:amod	Entity=(event-21-new-4-sgl
@@ -201,7 +201,7 @@
 # s_type = decl
 # text = Some ants were infected with Beauveria bassiana, a fungus.
 # newpar = p (3 s)
-1	Some	some	DET	DT	_	2	det	2:det	Discourse=circumstance:23->24:2|Entity=(animal-32-new-2-coref
+1	Some	some	DET	DT	PronType=Ind	2	det	2:det	Discourse=circumstance:23->24:2|Entity=(animal-32-new-2-coref
 2	ants	ant	NOUN	NNS	Number=Plur	4	nsubj:pass	4:nsubj:pass	Entity=32)
 3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 4	infected	infect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -377,7 +377,7 @@
 11	topic	topic	NOUN	NN	Number=Sing	7	appos	7:appos	Entity=57)|SpaceAfter=No
 12	,	,	PUNCT	,	_	13	punct	13:punct	_
 13	science	science	NOUN	NN	Number=Sing	7	conj	6:obj|7:conj:and	Entity=(abstract-58-new-1-sgl)|SpaceAfter=No
-14	,	,	PUNCT	,	_	22	punct	22:punct	_
+14	,	,	PUNCT	,	_	15	punct	15:punct	_
 15	and	and	CCONJ	CC	_	22	cc	22:cc	_
 16	"	''	PUNCT	``	_	17	punct	17:punct	Entity=(abstract-59-new-7-sgl|SpaceAfter=No|XML=<q>
 17	non-scientific	non-scientific	ADJ	JJ	Degree=Pos|Polarity=Neg	22	amod	22:amod	SpaceAfter=No
@@ -454,7 +454,7 @@
 11	during	during	ADP	IN	_	13	case	13:case	_
 12	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(event-68-new-2-sgl(person-65-giv:act-1-ana)
 13	studies	study	NOUN	NNS	Number=Plur	6	obl	6:obl:during	Entity=68)|SpaceAfter=No
-14	,	,	PUNCT	,	_	16	punct	16:punct	_
+14	,	,	PUNCT	,	_	13	punct	13:punct	_
 15	from	from	ADP	IN	_	16	case	16:case	_
 16	beetles	beetle	NOUN	NNS	Number=Plur	10	nmod	10:nmod:from	Bridge=67<69|Entity=(animal-69-acc:inf-1-sgl)|SpaceAfter=No
 17	,	,	PUNCT	,	_	19	punct	19:punct	_
@@ -690,7 +690,7 @@
 # speaker = NickBos
 # text = There's not that much money in fundamental science at the moment, so I try to cut the costs wherever possible.
 1-2	There's	_	_	_	_	_	_	_	_
-1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=cause:63->64:1
+1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=cause:63->64:1
 2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	not	not	PART	RB	Polarity=Neg	2	advmod	2:advmod	_
 4	that	that	PRON	DT	Number=Sing|PronType=Dem	5	obl:npmod	5:obl:npmod	Entity=(abstract-99-new-3-sgl
@@ -871,7 +871,7 @@
 # text = Afterwards, each ant was dipped in the solution for a couple of seconds, dried on a cloth and put in the nest.
 1	Afterwards	afterwards	ADV	RB	Degree=Pos	6	advmod	6:advmod	Discourse=sequence_m:82->66:1|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	each	each	DET	DT	_	4	det	4:det	Entity=(animal-103-giv:act-2-coref
+3	each	each	DET	DT	PronType=Tot	4	det	4:det	Entity=(animal-103-giv:act-2-coref
 4	ant	ant	NOUN	NN	Number=Sing	6	nsubj:pass	6:nsubj:pass|16:nsubj:pass|21:nsubj:pass	Entity=103)
 5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	6:aux:pass|16:aux:pass	_
 6	dipped	dip	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -911,7 +911,7 @@
 10	took	take	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 11	pictures	picture	NOUN	NNS	Number=Plur	10	obj	10:obj	Entity=(abstract-123-new-1-sgl
 12	of	of	ADP	IN	_	15	case	15:case	_
-13	each	each	DET	DT	_	15	det	15:det	Bridge=114<124|Entity=(place-124-acc:inf-3-sgl
+13	each	each	DET	DT	PronType=Tot	15	det	15:det	Bridge=114<124|Entity=(place-124-acc:inf-3-sgl
 14	foraging	foraging	NOUN	NN	Number=Sing	15	compound	15:compound	_
 15	arena	arena	NOUN	NN	Number=Sing	11	nmod	11:nmod:of	Entity=124)123)
 16	three	three	NUM	CD	NumForm=Word|NumType=Card	17	nummod	17:nummod	Entity=(event-125-new-2-sgl
@@ -927,7 +927,7 @@
 26	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	27	cop	27:cop	_
 27	present	present	ADJ	JJ	Degree=Pos	22	obj	22:obj	_
 28	on	on	ADP	IN	_	32	case	32:case	_
-29	each	each	DET	DT	_	32	det	32:det	Entity=(substance-129-acc:aggr-4-sgl|Split=116<129,118<129
+29	each	each	DET	DT	PronType=Tot	32	det	32:det	Entity=(substance-129-acc:aggr-4-sgl|Split=116<129,118<129
 30	food	food	NOUN	NN	Number=Sing	32	compound	32:compound	SpaceAfter=No|XML=<w>
 31	-	-	PUNCT	HYPH	_	30	punct	30:punct	SpaceAfter=No
 32	source	source	NOUN	NN	Number=Sing	27	obl	27:obl:on	Entity=129)127)|SpaceAfter=No|XML=</w>
@@ -1019,7 +1019,7 @@
 30	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	aux:pass	31:aux:pass	Discourse=same-unit_m:101->95:1
 31	obtained	obtain	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 32	in	in	ADP	IN	_	34	case	34:case	_
-33	another	another	DET	DT	_	34	det	34:det	Entity=(abstract-141-new-2-sgl
+33	another	another	DET	DT	PronType=Art	34	det	34:det	Entity=(abstract-141-new-2-sgl
 34	way	way	NOUN	NN	Number=Sing	31	obl	31:obl:in	Entity=141)
 35	(	(	PUNCT	-LRB-	_	38	punct	38:punct	Discourse=cause:102->95:2|SpaceAfter=No
 36	as	as	SCONJ	IN	_	38	mark	38:mark	_
@@ -1032,7 +1032,7 @@
 43	'	'	PUNCT	''	_	42	punct	42:punct	XML=</q>
 44	the	the	DET	DT	Definite=Def|PronType=Art	45	det	45:det	Entity=(substance-138-giv:act-2-coref-Reactive_oxygen_species
 45	ROS	ROS	PROPN	NNPS	Abbr=Yes|Number=Plur	42	obj	42:obj	Entity=138)|SpaceAfter=No
-46	,	,	PUNCT	,	_	56	punct	56:punct	_
+46	,	,	PUNCT	,	_	47	punct	47:punct	_
 47	as	as	SCONJ	IN	_	56	mark	56:mark	Discourse=cause:103->102:0
 48	healthy	healthy	ADJ	JJ	Degree=Pos	49	amod	49:amod	Entity=(animal-137-giv:act-2-coref
 49	ants	ant	NOUN	NNS	Number=Plur	56	nsubj	56:nsubj	Entity=137)|SpaceAfter=No
@@ -1095,7 +1095,7 @@
 13	weeks	week	NOUN	NNS	Number=Plur	15	obl	15:obl:for	Entity=147)
 14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	15:nsubj	Entity=(person-18-giv:act-1-ana)
 15	count	count	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	4:parataxis	Entity=(event-148-new-1-disc
-16	every	every	DET	DT	_	17	det	17:det	Entity=(time-149-new-2-sgl
+16	every	every	DET	DT	PronType=Tot	17	det	17:det	Entity=(time-149-new-2-sgl
 17	day	day	NOUN	NN	Number=Sing	15	obl:tmod	15:obl:tmod	Entity=149)
 18	how	how	SCONJ	WRB	PronType=Int	19	mark	19:mark	Entity=(animal-150-new-3-sgl
 19	many	many	ADJ	JJ	Degree=Pos	20	amod	20:amod	_

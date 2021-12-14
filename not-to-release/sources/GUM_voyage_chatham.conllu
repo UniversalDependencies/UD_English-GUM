@@ -163,7 +163,7 @@
 9	,	,	PUNCT	,	_	10	punct	10:punct	_
 10	Chatham	Chatham	PROPN	NNP	Number=Sing	8	appos	8:appos	Entity=(place-17-giv:act-1,2-appos-Chatham_Island
 11	Island	Island	PROPN	NNP	Number=Sing	10	flat	10:flat	_
-12	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nmod:npmod	10:nmod:npmod	Entity=17)|SpaceAfter=No
+12	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Emp	10	nmod:npmod	10:nmod:npmod	Entity=17)|SpaceAfter=No
 13	,	,	PUNCT	,	_	16	punct	16:punct	_
 14	with	with	ADP	IN	_	16	case	16:case	_
 15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(person-18-new-2-sgl
@@ -327,7 +327,7 @@
 16	and	and	CCONJ	CC	_	21	cc	21:cc	SpaceAfter=No
 17	,	,	PUNCT	,	_	16	punct	16:punct	_
 18	seasonally	seasonally	ADV	RB	Degree=Pos	3	advmod	3:advmod	SpaceAfter=No
-19	,	,	PUNCT	,	_	21	punct	21:punct	_
+19	,	,	PUNCT	,	_	18	punct	18:punct	_
 20	from	from	ADP	IN	_	21	case	21:case	_
 21	Napier	Napier	PROPN	NNP	Number=Sing	9	conj	9:conj:and|11:case	Entity=(place-40-new-1-sgl-Napier%2C_New_Zealand)|SpaceAfter=No|XML=<ref></ref>
 22	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -371,15 +371,15 @@
 4	New	New	PROPN	NNP	Number=Sing	2	nmod	2:nmod:of	Entity=(place-3-giv:act-1,2-coref-New_Zealand
 5	Zealand	Zealand	PROPN	NNP	Number=Sing	4	flat	4:flat	Entity=3)|SpaceAfter=No
 6	,	,	PUNCT	,	_	2	punct	2:punct	_
-7	there	there	PRON	EX	_	8	expl	8:expl	_
+7	there	there	PRON	EX	PronType=Dem	8	expl	8:expl	_
 8	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-9	no	no	DET	DT	Polarity=Neg	10	det	10:det	_
+9	no	no	DET	DT	Polarity=Neg|PronType=Art	10	det	10:det	_
 10	passport	passport	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=(abstract-44-new-1,4-sgl(abstract-45-new-1-sgl)
 11	or	or	CCONJ	CC	_	13	cc	13:cc	_
 12	visa	visa	NOUN	NN	Number=Sing	13	compound	13:compound	Entity=(abstract-46-new-1-sgl)
 13	requirements	requirement	NOUN	NNS	Number=Plur	10	conj	8:nsubj|10:conj:or	Entity=44)
 14	and	and	CCONJ	CC	_	17	cc	17:cc	_
-15	no	no	DET	DT	Polarity=Neg	17	det	17:det	_
+15	no	no	DET	DT	Polarity=Neg|PronType=Art	17	det	17:det	_
 16	border	border	NOUN	NN	Number=Sing	17	compound	17:compound	Entity=(abstract-47-new-2-sgl
 17	controls	control	NOUN	NNS	Number=Plur	10	conj	8:nsubj|10:conj:and	Entity=47)
 18	on	on	ADP	IN	_	19	case	19:case	_
@@ -407,7 +407,7 @@
 12	for	for	ADP	IN	_	14	case	14:case	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(place-1-giv:inact-2-coref-Chatham_Islands
 14	Chathams	Chatham	PROPN	NNPS	Number=Plur	11	nmod	11:nmod:for	Entity=1)51)|SpaceAfter=No
-15	,	,	PUNCT	,	_	35	punct	35:punct	_
+15	,	,	PUNCT	,	_	16	punct	16:punct	_
 16	as	as	SCONJ	IN	_	35	mark	35:mark	Discourse=motivation:36->34:1
 17	during	during	ADP	IN	_	20	case	20:case	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(time-52-new-3-sgl
@@ -433,9 +433,9 @@
 # sent_id = GUM_voyage_chatham-20
 # s_type = decl
 # text = There are no same-day return flights, so once there you have to stay at least one night.
-1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=cause:37->38:1
+1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=cause:37->38:1
 2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	no	no	DET	DT	Polarity=Neg	8	det	8:det	_
+3	no	no	DET	DT	Polarity=Neg|PronType=Art	8	det	8:det	_
 4	same	same	ADJ	JJ	Degree=Pos	6	amod	6:amod	Bridge=32<57|Entity=(event-57-acc:inf-5-sgl|SpaceAfter=No|XML=<w>
 5	-	-	PUNCT	HYPH	_	4	punct	4:punct	SpaceAfter=No
 6	day	day	NOUN	NN	Number=Sing	8	compound	8:compound	XML=</w>
@@ -605,7 +605,7 @@
 15	"	''	PUNCT	``	_	16	punct	16:punct	SpaceAfter=No|XML=<q>
 16	Rangatira	Rangatira	PROPN	NNP	Number=Sing	10	obj	10:obj	SpaceAfter=No
 17	"	''	PUNCT	''	_	16	punct	16:punct	Entity=74)|SpaceAfter=No|XML=</q>
-18	,	,	PUNCT	,	_	27	punct	27:punct	_
+18	,	,	PUNCT	,	_	19	punct	19:punct	_
 19	an	a	DET	DT	Definite=Ind|PronType=Art	27	det	27:det	Entity=(object-74-giv:act-9-appos
 20	antiquated	antiquated	ADJ	JJ	Degree=Pos	27	amod	27:amod	SpaceAfter=No
 21	,	,	PUNCT	,	_	22	punct	22:punct	_
@@ -666,7 +666,7 @@
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(place-1-giv:inact-2-coref-Chatham_Islands
 6	Chathams	Chatham	PROPN	NNPS	Number=Plur	3	obl	3:obl:at	Entity=1)
 7	and	and	CCONJ	CC	_	9	cc	9:cc	Discourse=joint_m:62->61:0
-8	there	there	PRON	EX	_	9	expl	9:expl	_
+8	there	there	PRON	EX	PronType=Dem	9	expl	9:expl	_
 9	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	3:conj:and	_
 10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(place-80-new-2-coref
 11	number	number	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	_
@@ -748,7 +748,7 @@
 # s_type = decl
 # text = There are several businesses on Chatham Island that will rent you a vehicle.
 # newpar = p (3 s)
-1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=joint_m:71->14:3
+1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=joint_m:71->14:3
 2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	several	several	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(object-88-new-2,5-sgl
 4	businesses	business	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	_
@@ -850,7 +850,7 @@
 # s_type = frag
 # text = Some of the world's most rare and endangered birds, plants and insects.
 # newpar = list type:::"unordered" (25 s) | item (1 s) | p (1 s)
-1	Some	some	DET	DT	_	0	root	0:root	Discourse=joint_m:80->79:0|Entity=(animal-98-new-1-sgl
+1	Some	some	DET	DT	PronType=Ind	0	root	0:root	Discourse=joint_m:80->79:0|Entity=(animal-98-new-1-sgl
 2	of	of	ADP	IN	_	10	case	10:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(abstract-99-acc:com-2-sgl
 4-5	world's	_	_	_	_	_	_	_	_
@@ -914,21 +914,21 @@
 # sent_id = GUM_voyage_chatham-43
 # s_type = decl
 # text = Guests of the lodge can meander around either a short easy walk, or take the longer 2 hr return walk out onto the spectacular beach.
-1	Guests	guest	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj|15:nsubj	Discourse=elaboration:85->84:0|Entity=(person-104-new-1-coref
+1	Guests	guest	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Discourse=elaboration:85->84:0|Entity=(person-104-new-1-coref
 2	of	of	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(place-103-giv:act-2-coref
 4	lodge	lodge	NOUN	NN	Number=Sing	1	nmod	1:nmod:of	Entity=103)104)
 5	can	can	AUX	MD	Number=Plur|Person=3|VerbForm=Fin	6	aux	6:aux	_
 6	meander	meander	VERB	VB	VerbForm=Inf	0	root	0:root	_
-7	around	around	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
-8	either	either	CCONJ	CC	_	6	cc:preconj	6:cc:preconj	_
+7	around	around	ADP	IN	_	12	case	12:case	_
+8	either	either	CCONJ	CC	_	12	cc:preconj	12:cc:preconj	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(event-105-new-4-sgl
 10	short	short	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
 11	easy	easy	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
 12	walk	walk	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=105)|SpaceAfter=No
 13	,	,	PUNCT	,	_	15	punct	15:punct	_
 14	or	or	CCONJ	CC	_	15	cc	15:cc	_
-15	take	take	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	6:conj:or	_
+15	take	take	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	6:obj|12:conj:or	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(event-106-new-6-sgl
 17	longer	long	ADJ	JJR	Degree=Cmp	21	amod	21:amod	_
 18	2	2	NUM	CD	NumForm=Digit|NumType=Card	19	nummod	19:nummod	Entity=(abstract-107-new-2-sgl
@@ -1044,7 +1044,7 @@
 # sent_id = GUM_voyage_chatham-48
 # s_type = decl
 # text = There are many views on why they did these carvings, but whatever the reason, you will find them a very special attraction.
-1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=background:95->96:1
+1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=background:95->96:1
 2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	many	many	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(abstract-117-new-2-sgl
 4	views	view	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Entity=117)
@@ -1054,7 +1054,7 @@
 8	did	do	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	6:acl:relcl	_
 9	these	this	DET	DT	Number=Plur|PronType=Dem	10	det	10:det	Entity=(object-114-giv:act-2-coref
 10	carvings	carving	NOUN	NNS	Number=Plur	8	obj	8:obj	Entity=114)|SpaceAfter=No
-11	,	,	PUNCT	,	_	19	punct	19:punct	_
+11	,	,	PUNCT	,	_	12	punct	12:punct	_
 12	but	but	CCONJ	CC	_	19	cc	19:cc	Discourse=motivation:96->93:1
 13	whatever	whatever	PRON	WDT	PronType=Int	19	advcl	19:advcl	Discourse=concession:97->98:0
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(abstract-118-new-2-sgl
@@ -1111,7 +1111,7 @@
 28	safe	safe	ADJ	JJ	Degree=Pos	29	amod	29:amod	Bridge=119<122|Entity=(place-122-acc:inf-2-sgl
 29	anchorage	anchorage	NOUN	NN	Number=Sing	26	conj	1:nmod:with|26:conj:and	Entity=122)
 30	in	in	ADP	IN	_	32	case	32:case	_
-31	all	all	DET	DT	_	32	det	32:det	Entity=(abstract-123-new-2-sgl
+31	all	all	DET	DT	PronType=Tot	32	det	32:det	Entity=(abstract-123-new-2-sgl
 32	weather	weather	NOUN	NN	Number=Sing	29	nmod	29:nmod:in	Entity=123)|SpaceAfter=No
 33	.	.	PUNCT	.	_	17	punct	17:punct	_
 
@@ -1334,7 +1334,7 @@
 # sent_id = GUM_voyage_chatham-61
 # s_type = decl
 # text = His own descendants and the descendants of other Moriori live on today.
-1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Discourse=restatement_m:123->122:0|Entity=(person-145-new-3-coref(person-141-giv:act-1-ana-Tommy_Solomon)
+1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Discourse=restatement-repetition_m:123->122:0|Entity=(person-145-new-3-coref(person-141-giv:act-1-ana-Tommy_Solomon)
 2	own	own	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	descendants	descendant	NOUN	NNS	Number=Plur	10	nsubj	10:nsubj	Entity=145)
 4	and	and	CCONJ	CC	_	6	cc	6:cc	_
@@ -1405,7 +1405,7 @@
 30	above	above	ADP	IN	_	32	case	32:case	_
 31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	32:det	Entity=(place-152-acc:com-2-sgl
 32	sea	sea	NOUN	NN	Number=Sing	29	obl	29:obl:above	Entity=152)
-33	each	each	DET	DT	_	34	det	34:det	Entity=(time-153-new-2-sgl
+33	each	each	DET	DT	PronType=Tot	34	det	34:det	Entity=(time-153-new-2-sgl
 34	day	day	NOUN	NN	Number=Sing	29	obl:tmod	29:obl:tmod	Entity=153)|SpaceAfter=No
 35	.	.	PUNCT	.	_	1	punct	1:punct	_
 

@@ -198,7 +198,7 @@
 20	's	's	PART	POS	_	19	case	19:case	Entity=6)
 21	Tax	Tax	PROPN	NNP	Number=Sing	22	compound	22:compound	Entity=(abstract-38-new-1-coref)
 22	Code	Code	PROPN	NNP	Number=Sing	17	nmod	17:nmod:of	Entity=37)36)|SpaceAfter=No
-23	,	,	PUNCT	,	_	30	punct	30:punct	_
+23	,	,	PUNCT	,	_	26	punct	26:punct	_
 24	US	US	PROPN	NNP	Abbr=Yes|Number=Sing	26	compound	26:compound	Entity=(abstract-39-new-1,2,7-sgl(abstract-40-new-1,2,3-sgl-Second_Amendment_to_the_United_States_Constitution(place-41-new-1-sgl-United_States)|XML=<ref>
 25	Second	Second	ADJ	NNP	Degree=Pos	26	amod	26:amod	_
 26	Amendment	Amendment	PROPN	NNP	Number=Sing	30	compound	30:compound	Entity=40)|XML=</ref>
@@ -206,7 +206,7 @@
 28	gun	gun	NOUN	NN	Number=Sing	30	compound	30:compound	XML=<ref></ref>
 29	-	-	PUNCT	HYPH	_	28	punct	28:punct	_
 30	rights	right	NOUN	NNS	Number=Plur	12	conj	9:obj|12:conj:and	Entity=39)|SpaceAfter=No
-31	,	,	PUNCT	,	_	35	punct	35:punct	_
+31	,	,	PUNCT	,	_	32	punct	32:punct	_
 32	same	same	ADJ	JJ	Degree=Pos	34	amod	34:amod	Entity=(abstract-42-new-4-sgl|SpaceAfter=No|XML=<ref><w>
 33	-	-	PUNCT	HYPH	_	32	punct	32:punct	SpaceAfter=No
 34	sex	sex	NOUN	NN	Number=Sing	35	compound	35:compound	XML=</w>
@@ -305,7 +305,7 @@
 9	in	in	ADP	IN	_	10	case	10:case	_
 10	Virginia	Virginia	PROPN	NNP	Number=Sing	6	obl	6:obl:in	Entity=(place-6-giv:inact-1-coref-Virginia)3)|SpaceAfter=No
 11	,	,	PUNCT	,	_	16	punct	16:punct	_
-12	but	but	CCONJ	CC	_	16	cc	16:cc	Discourse=joint_m:21->19:1
+12	but	but	CCONJ	CC	_	16	cc	16:cc	Discourse=same-unit_m:21->19:1
 13	also	also	ADV	RB	_	16	advmod	16:advmod	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(person-3-giv:act-3-coref-Robert_Sarvis
 15	only	only	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
@@ -847,7 +847,7 @@
 # speaker = RobertSarvis
 # text = There are precedents of independent governors dealing effectively with the legislature, and indeed a wise third-party governor can have greater effectiveness than a major party governor.
 # newpar = sp who:::"#RobertSarvis" (4 s) | p (4 s)
-1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=evidence:79->84:2
+1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=evidence:79->84:2
 2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	precedents	precedent	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Entity=(event-115-new-1-sgl
 4	of	of	ADP	IN	_	6	case	6:case	_
@@ -858,7 +858,7 @@
 9	with	with	ADP	IN	_	11	case	11:case	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(organization-114-giv:act-2-coref
 11	legislature	legislature	NOUN	NN	Number=Sing	7	obl	7:obl:with	Entity=114)115)|SpaceAfter=No
-12	,	,	PUNCT	,	_	22	punct	22:punct	_
+12	,	,	PUNCT	,	_	13	punct	13:punct	_
 13	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=joint_m:81->79:1
 14	indeed	indeed	ADV	RB	Degree=Pos	22	advmod	22:advmod	_
 15	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(person-117-new-6-sgl
@@ -888,7 +888,7 @@
 4	policy	policy	NOUN	NN	Number=Sing	5	compound	5:compound	_
 5	positions	position	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=122)
 6	with	with	ADP	IN	_	7	case	7:case	_
-7	each	each	DET	DT	_	2	obl	2:obl:with	_
+7	each	each	DET	DT	PronType=Tot	2	obl	2:obl:with	_
 8	of	of	ADP	IN	_	11	case	11:case	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(organization-103-giv:act-3-coref
 10	major	major	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
@@ -914,7 +914,7 @@
 13	good	good	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
 14	aspects	aspect	NOUN	NNS	Number=Plur	11	obj	11:obj	_
 15	of	of	ADP	IN	_	17	case	17:case	_
-16	each	each	DET	DT	_	17	det	17:det	Entity=(organization-103-giv:act-2-coref
+16	each	each	DET	DT	PronType=Tot	17	det	17:det	Entity=(organization-103-giv:act-2-coref
 17	party	party	NOUN	NN	Number=Sing	14	nmod	14:nmod:of	Entity=103)125)
 18	while	while	SCONJ	IN	_	19	mark	19:mark	Discourse=joint_m:85->84:0
 19	rejecting	reject	VERB	VBG	VerbForm=Ger	11	advcl	11:advcl:while	_
@@ -922,7 +922,7 @@
 21	bad	bad	ADJ	JJ	Degree=Pos	22	amod	22:amod	_
 22	parts	part	NOUN	NNS	Number=Plur	19	obj	19:obj	_
 23	of	of	ADP	IN	_	24	case	24:case	_
-24	both	both	DET	DT	_	22	nmod	22:nmod:of	Entity=(organization-103-giv:act-1-ana)126)|SpaceAfter=No
+24	both	both	DET	DT	PronType=Art	22	nmod	22:nmod:of	Entity=(organization-103-giv:act-1-ana)126)|SpaceAfter=No
 25	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_interview_libertarian-34

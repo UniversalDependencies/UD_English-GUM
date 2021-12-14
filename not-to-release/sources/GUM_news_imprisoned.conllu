@@ -248,21 +248,21 @@
 # s_type = decl
 # text = I was basically hauled in and told that my mum had attacked the church and that I needed to disconnect from her because she was suppressive.
 # newpar = p (3 s) | quote (1 s)
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	4:nsubj:pass|7:nsubj:pass	Discourse=restatement_m:27->22:2|Entity=(person-1-giv:act-1-ana)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	4:nsubj:pass|7:nsubj:pass	Discourse=restatement-repetition_m:27->22:2|Entity=(person-1-giv:act-1-ana)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	aux:pass	4:aux:pass|7:aux:pass	_
 3	basically	basically	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
 4	hauled	haul	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 5	in	in	ADP	RP	_	4	compound:prt	4:compound:prt	_
-6	and	and	CCONJ	CC	_	7	cc	7:cc	Discourse=attribution:28->29:1
+6	and	and	CCONJ	CC	_	7	cc	7:cc	Discourse=joint_m:28->27:0
 7	told	tell	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	4:conj:and	_
-8	that	that	SCONJ	IN	_	12	mark	12:mark	Discourse=joint_m:29->27:0
+8	that	that	SCONJ	IN	_	12	mark	12:mark	_
 9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(person-16-giv:act-2-coref(person-1-giv:act-1-ana)
 10	mum	mum	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=16)
 11	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	12:aux	_
 12	attacked	attack	VERB	VBN	Tense=Past|VerbForm=Part	7	ccomp	7:ccomp	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(organization-2-giv:act-2-coref-Church_of_Scientology
 14	church	church	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=2)
-15	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=result:30->29:0
+15	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=joint_m:29->28:0
 16	that	that	SCONJ	IN	_	18	mark	18:mark	_
 17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	18:nsubj|20:nsubj:xsubj	Entity=(person-1-giv:act-1-ana)
 18	needed	need	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	conj	7:ccomp|12:conj:and	_
@@ -270,7 +270,7 @@
 20	disconnect	disconnect	VERB	VB	VerbForm=Inf	18	xcomp	18:xcomp	_
 21	from	from	ADP	IN	_	22	case	22:case	_
 22	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obl	20:obl:from	Entity=(person-16-giv:act-1-ana)
-23	because	because	SCONJ	IN	_	26	mark	26:mark	Discourse=cause:31->30:0
+23	because	because	SCONJ	IN	_	26	mark	26:mark	Discourse=cause:30->29:0
 24	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nsubj	26:nsubj	Entity=(person-16-giv:act-1-ana)
 25	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	cop	26:cop	_
 26	suppressive	suppressive	ADJ	JJ	Degree=Pos	20	advcl	20:advcl:because	SpaceAfter=No|XML=<ref></ref>
@@ -279,7 +279,7 @@
 # sent_id = GUM_news_imprisoned-12
 # s_type = decl
 # text = Her mother had spoken out against Scientology on French television after her ex-husband and Paris's father, Albert Jaquier, committed suicide after he lost his fortune to Scientology.
-1	Her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=background:32->18:4|Entity=(person-16-giv:act-2-coref(person-1-giv:act-1-ana)
+1	Her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=background:31->18:4|Entity=(person-16-giv:act-2-coref(person-1-giv:act-1-ana)
 2	mother	mother	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=16)
 3	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	4:aux	_
 4	spoken	speak	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
@@ -289,7 +289,7 @@
 8	on	on	ADP	IN	_	10	case	10:case	_
 9	French	French	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(abstract-21-new-2-sgl|XML=<ref></ref>
 10	television	television	NOUN	NN	Number=Sing	7	nmod	7:nmod:on	Entity=21)
-11	after	after	SCONJ	IN	_	22	mark	22:mark	Discourse=cause:33->32:0
+11	after	after	SCONJ	IN	_	22	mark	22:mark	Discourse=cause:32->31:0
 12	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(person-22-new-2-coref(person-16-giv:act-1-ana)
 13	ex-husband	ex-husband	NOUN	NN	Number=Sing	22	nsubj	22:nsubj	Entity=22)
 14	and	and	CCONJ	CC	_	17	cc	17:cc	_
@@ -303,7 +303,7 @@
 21	,	,	PUNCT	,	_	13	punct	13:punct	_
 22	committed	commit	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	advcl	4:advcl:after	Entity=(event-23-new-1-sgl
 23	suicide	suicide	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=23)
-24	after	after	SCONJ	IN	_	26	mark	26:mark	Discourse=cause:34->33:0
+24	after	after	SCONJ	IN	_	26	mark	26:mark	Discourse=cause:33->32:0
 25	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	26:nsubj	Entity=(person-22-giv:act-1-ana)
 26	lost	lose	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	advcl	22:advcl:after	_
 27	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	28:nmod:poss	Entity=(abstract-24-new-2-sgl(person-22-giv:act-1-ana)
@@ -315,9 +315,9 @@
 # sent_id = GUM_news_imprisoned-13
 # s_type = decl
 # text = Paris claims that she was kept at Flag Land Base in Clearwater, Florida until she was eighteen and then transferred to the Freewinds.
-1	Paris	Paris	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=attribution:35->36:2|Entity=(person-1-giv:act-1-coref)
+1	Paris	Paris	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=attribution:34->35:2|Entity=(person-1-giv:act-1-coref)
 2	claims	claim	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	that	that	SCONJ	IN	_	6	mark	6:mark	Discourse=elaboration:36->18:5
+3	that	that	SCONJ	IN	_	6	mark	6:mark	Discourse=elaboration:35->18:5
 4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	6:nsubj:pass|21:nsubj:pass	Entity=(person-1-giv:act-1-ana)
 5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	6:aux:pass|21:aux:pass	_
 6	kept	keep	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	2:ccomp	_
@@ -329,11 +329,11 @@
 12	Clearwater	Clearwater	PROPN	NNP	Number=Sing	14	compound	14:compound	Entity=(place-26-new-1,3-sgl-Clearwater%2C_Florida|SpaceAfter=No|XML=<ref>
 13	,	,	PUNCT	,	_	12	punct	12:punct	_
 14	Florida	Florida	PROPN	NNP	Number=Sing	10	nmod	10:nmod:in	Entity=(place-27-new-1-sgl-Florida)26)|XML=</ref>
-15	until	until	SCONJ	IN	_	18	mark	18:mark	Discourse=circumstance:37->36:0
+15	until	until	SCONJ	IN	_	18	mark	18:mark	Discourse=circumstance:36->35:0
 16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	18:nsubj	Entity=(person-1-giv:act-1-ana)
 17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	18:cop	_
 18	eighteen	eighteen	NUM	CD	NumForm=Word|NumType=Card	6	advcl	6:advcl:until	Entity=(abstract-28-new-1-sgl)
-19	and	and	CCONJ	CC	_	21	cc	21:cc	Discourse=sequence_m:38->36:1
+19	and	and	CCONJ	CC	_	21	cc	21:cc	Discourse=sequence_m:37->35:1
 20	then	then	ADV	RB	PronType=Dem	21	advmod	21:advmod	_
 21	transferred	transfer	VERB	VBN	Tense=Past|VerbForm=Part	6	conj	2:ccomp|6:conj:and	_
 22	to	to	ADP	IN	_	24	case	24:case	_
@@ -345,14 +345,14 @@
 # s_type = decl
 # text = On board the Freewinds, Paris claims that she was working from 6:00am to midnight and due to lack of sleep ended up being a walking zombie.
 # newpar = p (2 s)
-1	On	on	ADP	IN	_	4	case	4:case	Discourse=elaboration:39->36:3
+1	On	on	ADP	IN	_	4	case	4:case	Discourse=attribution:38->39:1
 2	board	board	NOUN	NN	Number=Sing	1	fixed	1:fixed	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(object-6-giv:act-2-coref-Freewinds
 4	Freewinds	Freewinds	PROPN	NNP	Number=Sing	7	obl	7:obl:on_board	Entity=6)|SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
-6	Paris	Paris	PROPN	NNP	Number=Sing	7	nsubj	7:nsubj|22:nsubj|27:nsubj:xsubj	Discourse=attribution:40->41:1|Entity=(person-1-giv:act-1-coref)
+6	Paris	Paris	PROPN	NNP	Number=Sing	7	nsubj	7:nsubj|22:nsubj|27:nsubj:xsubj	Entity=(person-1-giv:act-1-coref)
 7	claims	claim	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-8	that	that	SCONJ	IN	_	11	mark	11:mark	Discourse=same-unit_m:41->39:0
+8	that	that	SCONJ	IN	_	11	mark	11:mark	Discourse=elaboration:39->35:3
 9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	Entity=(person-1-giv:act-1-ana)
 10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	11:aux	_
 11	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	7	ccomp	7:ccomp	_
@@ -360,7 +360,7 @@
 13	6:00am	6:00am	NUM	CD	NumForm=Word|NumType=Card	11	obl	11:obl:from	Entity=(time-29-new-1-sgl)|XML=<time when:::"06:00:00"></time>
 14	to	to	ADP	IN	_	15	case	15:case	_
 15	midnight	midnight	NOUN	NN	Number=Sing	11	obl	11:obl:to	Entity=(time-30-acc:com-1-sgl)|XML=<time when:::"00:00:00"></time>
-16	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=result:42->41:0
+16	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=result:40->39:0
 17	due	due	ADJ	JJ	Degree=Pos	19	case	19:case	_
 18	to	to	ADP	IN	_	17	fixed	17:fixed	_
 19	lack	lack	NOUN	NN	Number=Sing	22	obl	22:obl:due_to	Entity=(abstract-31-new-1-sgl
@@ -377,10 +377,10 @@
 # sent_id = GUM_news_imprisoned-15
 # s_type = decl
 # text = She also claims that in 1997 and 1998, she was tasked with removal of asbestos from the ship.
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=attribution:43->44:0|Entity=(person-1-giv:act-1-ana)
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=attribution:41->42:0|Entity=(person-1-giv:act-1-ana)
 2	also	also	ADV	RB	_	3	advmod	3:advmod	_
 3	claims	claim	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-4	that	that	SCONJ	IN	_	12	mark	12:mark	Discourse=joint_m:44->36:4
+4	that	that	SCONJ	IN	_	12	mark	12:mark	Discourse=sequence_m:42->35:4
 5	in	in	ADP	IN	_	6	case	6:case	_
 6	1997	1997	NUM	CD	NumForm=Digit|NumType=Card	12	obl	12:obl:in	Entity=(time-34-new-1-sgl)|XML=<date when:::"1997"></date>
 7	and	and	CCONJ	CC	_	8	cc	8:cc	_
@@ -402,7 +402,7 @@
 # s_type = decl
 # text = In 2007, Paris left the ship after a confrontation with the ship's management.
 # newpar = p (3 s)
-1	In	in	ADP	IN	_	2	case	2:case	Discourse=joint_m:45->36:4
+1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence_m:43->35:4
 2	2007	2007	NUM	CD	NumForm=Digit|NumType=Card	5	obl	5:obl:in	Entity=(time-38-new-1-sgl)|SpaceAfter=No|XML=<date when:::"2007"></date>
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	Paris	Paris	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(person-1-giv:act-1-coref)
@@ -423,7 +423,7 @@
 # sent_id = GUM_news_imprisoned-17
 # s_type = decl
 # text = She was eventually sent to Rehabilitation Project Force in Sydney, which the Church describes as a religious retreat, but critics charge is a forced work camp.
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	4:nsubj:pass	Discourse=joint_m:46->36:4|Entity=(person-1-giv:act-1-ana)
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	4:nsubj:pass	Discourse=sequence_m:44->35:4|Entity=(person-1-giv:act-1-ana)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 3	eventually	eventually	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
 4	sent	send	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -434,7 +434,7 @@
 9	in	in	ADP	IN	_	10	case	10:case	_
 10	Sydney	Sydney	PROPN	NNP	Number=Sing	8	nmod	8:nmod:in	Entity=(place-42-new-1-sgl-Sydney)|SpaceAfter=No|XML=<ref></ref>
 11	,	,	PUNCT	,	_	15	punct	15:punct	_
-12	which	which	PRON	WDT	PronType=Rel	15	obj	8:ref	Discourse=elaboration:47->46:0
+12	which	which	PRON	WDT	PronType=Rel	15	obj	8:ref	Discourse=elaboration:45->44:0
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(organization-2-giv:inact-2-coref-Church_of_Scientology
 14	Church	Church	PROPN	NNP	Number=Sing	15	nsubj	15:nsubj	Entity=2)
 15	describes	describe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	8:acl:relcl	_
@@ -443,7 +443,7 @@
 18	religious	religious	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
 19	retreat	retreat	NOUN	NN	Number=Sing	15	obl	15:obl:as	Entity=43)41)|SpaceAfter=No
 20	,	,	PUNCT	,	_	23	punct	23:punct	_
-21	but	but	CCONJ	CC	_	23	cc	23:cc	Discourse=concession:48->46:1
+21	but	but	CCONJ	CC	_	23	cc	23:cc	Discourse=concession:46->44:1
 22	critics	critic	NOUN	NNS	Number=Plur	23	nsubj	23:nsubj	Entity=(person-44-new-1-sgl)
 23	charge	charge	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	8:acl:relcl|15:conj:but	_
 24	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	28:cop	_
@@ -456,14 +456,14 @@
 # sent_id = GUM_news_imprisoned-18
 # s_type = decl
 # text = Here, she met her future husband and subsequently left the church.
-1	Here	here	ADV	RB	PronType=Dem	4	advmod	4:advmod	Discourse=result:49->46:2|Entity=(place-41-giv:act-1-coref-Rehabilitation_Project_Force)|SpaceAfter=No
+1	Here	here	ADV	RB	PronType=Dem	4	advmod	4:advmod	Discourse=result:47->44:2|Entity=(place-41-giv:act-1-coref-Rehabilitation_Project_Force)|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj|10:nsubj	Entity=(person-1-giv:act-1-ana)
 4	met	meet	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 5	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(person-47-new-3-sgl(person-1-giv:act-1-ana)
 6	future	future	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	husband	husband	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=47)
-8	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=sequence_m:50->49:0
+8	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=sequence_m:48->47:0
 9	subsequently	subsequently	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
 10	left	leave	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	4:conj:and	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(organization-2-giv:act-2-coref-Church_of_Scientology
@@ -474,7 +474,7 @@
 # s_type = decl
 # text = In a statement to the Australian Broadcasting Corporation, the Church denied these allegations:
 # newpar = p (5 s)
-1	In	in	ADP	IN	_	3	case	3:case	Discourse=attribution:51->52:1
+1	In	in	ADP	IN	_	3	case	3:case	Discourse=attribution:49->50:1
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Entity=(abstract-48-new-2,5,6-sgl
 3	statement	statement	NOUN	NN	Number=Sing	12	obl	12:obl:in	_
 4	to	to	ADP	IN	_	8	case	8:case	_
@@ -494,7 +494,7 @@
 # s_type = decl
 # text = She certainly wasn't 'forced' to be there.
 # newpar = quote (2 s)
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	6:nsubj:pass|9:nsubj:xsubj|10:nsubj:xsubj	Discourse=contrast_m:52->5:3|Entity=(person-1-giv:inact-1-ana)
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	6:nsubj:pass|9:nsubj:xsubj|10:nsubj:xsubj	Discourse=contrast_m:50->5:3|Entity=(person-1-giv:inact-1-ana)
 2	certainly	certainly	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
 3-4	wasn't	_	_	_	_	_	_	_	_
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	6:aux:pass	_
@@ -510,7 +510,7 @@
 # sent_id = GUM_news_imprisoned-21
 # s_type = decl
 # text = She was also never forced to perform labour in the engine room.
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	7:nsubj:pass	Discourse=joint_m:53->52:0|Entity=(person-1-giv:act-1-ana)
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	7:nsubj:pass	Discourse=joint_m:51->50:0|Entity=(person-1-giv:act-1-ana)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	5:aux:pass	_
 3	also	also	ADV	RB	_	5	advmod	5:advmod	_
 4	never	never	ADV	RB	Polarity=Neg	5	advmod	5:advmod	_
@@ -527,16 +527,16 @@
 # sent_id = GUM_news_imprisoned-22
 # s_type = decl
 # text = They also claimed Paris was a volunteer and claim she has a vested interest for misrepresenting her experiences with the Church.
-1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj|9:nsubj	Discourse=attribution:54->55:0|Entity=(organization-2-giv:inact-1-ana-Church_of_Scientology)
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj|9:nsubj	Discourse=attribution:52->53:0|Entity=(organization-2-giv:inact-1-ana-Church_of_Scientology)
 2	also	also	ADV	RB	_	3	advmod	3:advmod	_
 3	claimed	claim	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-4	Paris	Paris	PROPN	NNP	Number=Sing	7	nsubj	7:nsubj	Discourse=joint_m:55->52:2|Entity=(person-1-giv:act-1-coref)
+4	Paris	Paris	PROPN	NNP	Number=Sing	7	nsubj	7:nsubj	Discourse=joint_m:53->50:2|Entity=(person-1-giv:act-1-coref)
 5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(person-1-giv:act-2-pred
 7	volunteer	volunteer	NOUN	NN	Number=Sing	3	ccomp	3:ccomp	Entity=1)|XML=<q></q>
-8	and	and	CCONJ	CC	_	9	cc	9:cc	Discourse=attribution:56->57:0
+8	and	and	CCONJ	CC	_	9	cc	9:cc	Discourse=attribution:54->55:0
 9	claim	claim	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	3:conj:and	_
-10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	Discourse=joint_m:57->55:1|Entity=(person-1-giv:act-1-ana)
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	Discourse=joint_m:55->53:1|Entity=(person-1-giv:act-1-ana)
 11	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	9:ccomp	_
 12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(abstract-52-new-3-sgl
 13	vested	vested	ADJ	JJ	Degree=Pos	14	amod	14:amod	XML=<quote>
@@ -553,11 +553,11 @@
 # sent_id = GUM_news_imprisoned-23
 # s_type = decl
 # text = The Church also claims that Paris not having her passport was maritime procedure.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=attribution:58->59:0|Entity=(organization-2-giv:act-2-coref-Church_of_Scientology
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=attribution:56->57:0|Entity=(organization-2-giv:act-2-coref-Church_of_Scientology
 2	Church	Church	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Entity=2)
 3	also	also	ADV	RB	_	4	advmod	4:advmod	_
 4	claims	claim	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-5	that	that	SCONJ	IN	_	13	mark	13:mark	Discourse=joint_m:59->52:2
+5	that	that	SCONJ	IN	_	13	mark	13:mark	Discourse=joint_m:57->50:2
 6	Paris	Paris	PROPN	NNP	Number=Sing	8	nsubj	8:nsubj	Entity=(person-1-giv:act-1-coref)
 7	not	not	PART	RB	Polarity=Neg	8	advmod	8:advmod	_
 8	having	have	VERB	VBG	VerbForm=Ger	13	csubj	13:csubj	_

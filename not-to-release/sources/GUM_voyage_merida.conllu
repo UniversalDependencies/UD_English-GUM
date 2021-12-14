@@ -80,7 +80,7 @@
 # s_type = imp
 # text = Understand
 # newpar = head (1 s)
-1	Understand	understand	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=antithesis:7->8:3
+1	Understand	understand	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:7->8:3
 
 # sent_id = GUM_voyage_merida-7
 # s_type = decl
@@ -120,14 +120,14 @@
 # text = Downtown, there are hotels and restaurants to suit every budget.
 1	Downtown	downtown	NOUN	NN	Number=Sing	4	obl:npmod	4:obl:npmod	Bridge=1<15|Discourse=joint_m:10->9:0|Entity=(place-15-acc:inf-1-sgl)|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	there	there	PRON	EX	_	4	expl	4:expl	_
+3	there	there	PRON	EX	PronType=Dem	4	expl	4:expl	_
 4	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	hotels	hotel	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=(place-16-new-1,3-sgl
 6	and	and	CCONJ	CC	_	7	cc	7:cc	_
 7	restaurants	restaurant	NOUN	NNS	Number=Plur	5	conj	4:nsubj|5:conj:and	_
 8	to	to	PART	TO	_	9	mark	9:mark	Discourse=purpose:11->10:0
 9	suit	suit	VERB	VB	VerbForm=Inf	5	acl	5:acl:to	_
-10	every	every	DET	DT	_	11	det	11:det	Entity=(abstract-17-new-2-sgl
+10	every	every	DET	DT	PronType=Tot	11	det	11:det	Entity=(abstract-17-new-2-sgl
 11	budget	budget	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=17)16)|SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -339,7 +339,7 @@
 14	,	,	PUNCT	,	_	15	punct	15:punct	_
 15	inspired	inspire	VERB	VBN	Tense=Past|VerbForm=Part	13	acl	13:acl	Discourse=elaboration:26->25:0
 16	by	by	ADP	IN	_	18	case	18:case	_
-17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(place-53-new-4,6-sgl-Champs-Élysées
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(place-53-new-4,6-sgl-Champs%2DÉlysées
 18	Champs	Champs	PROPN	NNP	Number=Sing	15	obl	15:obl:by	SpaceAfter=No|XML=<ref><w>
 19	-	-	PUNCT	HYPH	_	20	punct	20:punct	SpaceAfter=No
 20	Élysées	clysé	PROPN	NNP	Number=Sing	18	flat	18:flat	XML=</w></ref>
@@ -407,7 +407,7 @@
 2	daytime	daytime	NOUN	NN	Number=Sing	3	compound	3:compound	_
 3	temperature	temperature	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=62)
 4	varies	vary	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
-5	;	;	PUNCT	:	_	13	punct	13:punct	_
+5	;	;	PUNCT	:	_	7	punct	7:punct	_
 6	in	in	ADP	IN	_	7	case	7:case	Discourse=elaboration:32->31:0
 7	January	January	PROPN	NNP	Number=Sing	13	nmod	13:nmod:in	Entity=(time-63-acc:com-1-sgl-January)|SpaceAfter=No|XML=<date when:::"--01"></date>
 8	,	,	PUNCT	,	_	7	punct	7:punct	_
@@ -467,7 +467,7 @@
 8	go	go	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	2:conj	_
 9	back	back	ADV	RB	Degree=Pos	8	advmod	8:advmod	_
 10	to	to	ADP	IN	_	11	case	11:case	_
-11	work	work	NOUN	NN	Number=Sing	9	nmod	9:nmod:to	Entity=(abstract-72-new-1-sgl)
+11	work	work	NOUN	NN	Number=Sing	8	obl	8:obl:to	Entity=(abstract-72-new-1-sgl)
 12	for	for	ADP	IN	_	15	case	15:case	_
 13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	Entity=(time-73-new-3-sgl
 14	few	few	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
@@ -526,11 +526,11 @@
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Bridge=52<83|Entity=(place-83-acc:inf-2-sgl
 13	streets	street	NOUN	NNS	Number=Plur	10	obl	10:obl:along	Entity=83)|SpaceAfter=No
 14	,	,	PUNCT	,	_	15	punct	15:punct	_
-15	sit	sit	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	3:advcl:as|10:conj:or	Discourse=contrast_m:45->44:0
+15	sit	sit	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	3:advcl:as|10:conj:or	Discourse=disjunction_m:45->44:0
 16	in	in	ADP	IN	_	18	case	18:case	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Bridge=52<84|Entity=(place-84-acc:inf-2-sgl
 18	plazas	plaza	NOUN	NNS	Number=Plur	15	obl	15:obl:in	Entity=84)
-19	or	or	CCONJ	CC	_	20	cc	20:cc	Discourse=contrast_m:46->44:0
+19	or	or	CCONJ	CC	_	20	cc	20:cc	Discourse=disjunction_m:46->44:0
 20	dine	dine	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	3:advcl:as|10:conj:or	_
 21	in	in	ADP	IN	_	25	case	25:case	_
 22	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(place-85-new-4-sgl
@@ -592,7 +592,7 @@
 8	Maya	Maya	PROPN	NNP	Number=Sing	9	compound	9:compound	Entity=(organization-28-giv:inact-1-coref-Maya_civilization)
 9	sites	site	NOUN	NNS	Number=Plur	6	obj	6:obj	Entity=89)|SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	11:punct	_
-11	walk	walk	VERB	VB	VerbForm=Inf	6	conj	1:conj|6:conj:or	Discourse=contrast_m:50->49:0
+11	walk	walk	VERB	VB	VerbForm=Inf	6	conj	1:conj|6:conj:or	Discourse=disjunction_m:50->49:0
 12	for	for	ADP	IN	_	13	case	13:case	_
 13	miles	mile	NOUN	NNS	Number=Plur	11	obl	11:obl:for	Entity=(abstract-96-new-1-sgl)
 14	along	along	ADP	IN	_	16	case	16:case	_
@@ -601,20 +601,20 @@
 17	of	of	ADP	IN	_	18	case	18:case	_
 18	Mexico	Mexico	PROPN	NNP	Number=Sing	16	nmod	16:nmod:of	Entity=(place-77-giv:inact-1-coref-Mexico)76)|SpaceAfter=No|XML=</ref>
 19	,	,	PUNCT	,	_	20	punct	20:punct	_
-20	attend	attend	VERB	VB	VerbForm=Inf	6	conj	1:conj|6:conj:or	Discourse=contrast_m:51->49:0
+20	attend	attend	VERB	VB	VerbForm=Inf	6	conj	1:conj|6:conj:or	Discourse=disjunction_m:51->49:0
 21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	23:det	Entity=(event-97-new-3-sgl
 22	village	village	NOUN	NN	Number=Sing	23	compound	23:compound	Entity=(place-91-giv:act-1-coref)
 23	festival	festival	NOUN	NN	Number=Sing	20	obj	20:obj	Entity=97)|SpaceAfter=No
 24	,	,	PUNCT	,	_	25	punct	25:punct	_
-25	photograph	photograph	VERB	VB	VerbForm=Inf	6	conj	1:conj|6:conj:or	Discourse=contrast_m:52->49:0
+25	photograph	photograph	VERB	VB	VerbForm=Inf	6	conj	1:conj|6:conj:or	Discourse=disjunction_m:52->49:0
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(animal-98-new-2-sgl
 27	wildlife	wildlife	NOUN	NN	Number=Sing	25	obj	25:obj	Entity=98)|SpaceAfter=No
 28	,	,	PUNCT	,	_	29	punct	29:punct	_
-29	crawl	crawl	VERB	VB	VerbForm=Inf	6	conj	1:conj|6:conj:or	Discourse=contrast_m:53->49:0
+29	crawl	crawl	VERB	VB	VerbForm=Inf	6	conj	1:conj|6:conj:or	Discourse=disjunction_m:53->49:0
 30	through	through	ADP	IN	_	32	case	32:case	_
 31	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	32:det	Bridge=92<99|Entity=(place-99-acc:inf-2-sgl
 32	cave	cave	NOUN	NN	Number=Sing	29	obl	29:obl:through	Entity=99)
-33	or	or	CCONJ	CC	_	34	cc	34:cc	Discourse=contrast_m:54->49:0
+33	or	or	CCONJ	CC	_	34	cc	34:cc	Discourse=disjunction_m:54->49:0
 34	swim	swim	VERB	VB	VerbForm=Inf	6	conj	1:conj|6:conj:or	_
 35	in	in	ADP	IN	_	37	case	37:case	_
 36	a	a	DET	DT	Definite=Ind|PronType=Art	37	det	37:det	Entity=(place-100-new-2-sgl
@@ -648,7 +648,7 @@
 6	information	information	NOUN	NN	Number=Sing	7	compound	7:compound	Entity=104)
 7	offices	office	NOUN	NNS	Number=Plur	3	obj	3:obj|9:nmod:of	SpaceAfter=No
 8	,	,	PUNCT	,	_	13	punct	13:punct	_
-9	all	all	DET	DT	_	13	nsubj	13:nsubj	Discourse=elaboration:60->59:0
+9	all	all	DET	DT	PronType=Tot	13	nsubj	13:nsubj	Discourse=elaboration:60->59:0
 10	of	of	ADP	IN	_	11	case	11:case	_
 11	which	which	PRON	WDT	PronType=Int	9	nmod	7:ref	_
 12	can	can	AUX	MD	VerbForm=Fin	13	aux	13:aux	_
@@ -669,7 +669,7 @@
 # sent_id = GUM_voyage_merida-30
 # s_type = decl
 # text = All offices also have free copies of Yucatan Today, a helpful weekly Spanish-English publication listing all events in the city and the surrounding region.
-1	All	all	DET	DT	_	2	det	2:det	Discourse=elaboration:61->59:1|Entity=(place-103-giv:act-2-coref
+1	All	all	DET	DT	PronType=Tot	2	det	2:det	Discourse=elaboration:61->59:1|Entity=(place-103-giv:act-2-coref
 2	offices	office	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=103)
 3	also	also	ADV	RB	_	4	advmod	4:advmod	_
 4	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -678,7 +678,7 @@
 7	of	of	ADP	IN	_	8	case	8:case	_
 8	Yucatan	Yucatan	PROPN	NNP	Number=Sing	6	nmod	6:nmod:of	Entity=(abstract-111-new-1,2-coref-Yucatán(place-43-giv:inact-1-coref-Yucatán)|XML=<ref>
 9	Today	Today	PROPN	NNP	Number=Sing	8	flat	8:flat	Entity=111)110)|SpaceAfter=No|XML=</ref>
-10	,	,	PUNCT	,	_	17	punct	17:punct	_
+10	,	,	PUNCT	,	_	11	punct	11:punct	_
 11	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(abstract-111-giv:act-7-appos-Yucatán
 12	helpful	helpful	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
 13	weekly	weekly	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
@@ -687,7 +687,7 @@
 16	English	English	ADJ	JJ	Degree=Pos	17	amod	17:amod	XML=</w>
 17	publication	publication	NOUN	NN	Number=Sing	8	appos	8:appos	_
 18	listing	list	VERB	VBG	VerbForm=Ger	17	acl	17:acl	Discourse=elaboration:62->61:0
-19	all	all	DET	DT	_	20	det	20:det	Entity=(event-112-new-5,9-sgl
+19	all	all	DET	DT	PronType=Tot	20	det	20:det	Entity=(event-112-new-5,9-sgl
 20	events	event	NOUN	NNS	Number=Plur	18	obj	18:obj	_
 21	in	in	ADP	IN	_	23	case	23:case	_
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(place-52-giv:act-2-coref-Mérida%2C_Yucatán

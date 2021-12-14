@@ -325,7 +325,7 @@
 4	not	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
 5	contagious	contagious	ADJ	JJ	Degree=Pos	12	advcl	12:advcl:although	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	5:punct	_
-7	interest	interest	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Discourse=joint_m:26->21:1
+7	interest	interest	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Discourse=contrast_m:26->21:1
 8	in	in	ADP	IN	_	10	case	10:case	_
 9	disabled	disabled	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(abstract-63-new-2-coref
 10	sports	sport	NOUN	NNS	Number=Plur	7	nmod	7:nmod:in	Entity=63)
@@ -346,7 +346,7 @@
 # s_type = decl
 # speaker = Simon
 # text = Disabled athletes also challenge existing relations of power by displaying dedication, hard work and perseverance in different contexts than those most sports fans are accustomed to.
-1	Disabled	disabled	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=joint_m:28->21:1|Entity=(person-66-new-2-sgl
+1	Disabled	disabled	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=joint_m:28->26:2|Entity=(person-66-new-2-sgl
 2	athletes	athlete	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=66)
 3	also	also	ADV	RB	_	4	advmod	4:advmod	_
 4	challenge	challenge	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -394,7 +394,7 @@
 12	social	social	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
 13	orientations	orientation	NOUN	NNS	Number=Plur	10	obj	10:obj	Entity=76)
 14	in	in	ADP	IN	_	16	case	16:case	_
-15	all	all	DET	DT	_	16	det	16:det	Entity=(abstract-77-new-2-sgl
+15	all	all	DET	DT	PronType=Tot	16	det	16:det	Entity=(abstract-77-new-2-sgl
 16	aspects	aspect	NOUN	NNS	Number=Plur	10	obl	10:obl:in	_
 17	of	of	ADP	IN	_	18	case	18:case	_
 18	society	society	NOUN	NN	Number=Sing	16	nmod	16:nmod:of	Bridge=75<78|Entity=(abstract-78-acc:inf-1-sgl)77)|SpaceAfter=No
@@ -535,7 +535,7 @@
 10	NBC	NBC	PROPN	NNP	Abbr=Yes|Number=Sing	4	obl	4:obl:on	Bridge=91<92|Entity=(organization-92-acc:inf-1-coref-NBC)
 11	or	or	CCONJ	CC	_	13	cc	13:cc	_
 12	on	on	ADP	IN	_	13	case	13:case	_
-13	any	any	DET	DT	_	9	conj	9:conj:or|10:case	_
+13	any	any	DET	DT	PronType=Ind	9	conj	9:conj:or|10:case	_
 14	of	of	ADP	IN	_	20	case	20:case	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Bridge=91<93|Entity=(abstract-93-acc:inf-6-sgl(organization-92-giv:act-2-coref-NBC
 16-17	company’s	_	_	_	_	_	_	_	_
@@ -574,7 +574,7 @@
 # text = Remember that there is a nine-hour difference between Sochi and New York, and a 12-hour difference between Sochi and the US West Coast.
 1	Remember	remember	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution:51->52:0
 2	that	that	SCONJ	IN	_	4	mark	4:mark	Discourse=cause:52->53:1
-3	there	there	PRON	EX	_	4	expl	4:expl	_
+3	there	there	PRON	EX	PronType=Dem	4	expl	4:expl	_
 4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(time-96-new-5,9,10-sgl
 6	nine	nine	NUM	CD	NumForm=Word|NumType=Card	8	nummod	8:nummod	SpaceAfter=No|XML=<w>
@@ -586,7 +586,7 @@
 12	and	and	CCONJ	CC	_	13	cc	13:cc	_
 13	New	New	PROPN	NNP	Number=Sing	11	conj	9:nmod:between|11:conj:and	Bridge=5<97|Entity=(place-97-acc:inf-1,2-sgl-New_York_City|XML=<ref>
 14	York	York	PROPN	NNP	Number=Sing	13	flat	13:flat	Entity=97)96)|SpaceAfter=No|XML=</ref>
-15	,	,	PUNCT	,	_	21	punct	21:punct	_
+15	,	,	PUNCT	,	_	16	punct	16:punct	_
 16	and	and	CCONJ	CC	_	21	cc	21:cc	_
 17	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	Entity=(time-98-new-5,10,11,12-sgl
 18	12	12	NUM	CD	NumForm=Digit|NumType=Card	20	nummod	20:nummod	SpaceAfter=No|XML=<w>
@@ -623,7 +623,7 @@
 15	of	of	ADP	IN	_	17	case	17:case	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(time-103-new-2-sgl
 17	night	night	NOUN	NN	Number=Sing	14	nmod	14:nmod:of	Entity=103)102)|SpaceAfter=No
-18	,	,	PUNCT	,	_	27	punct	27:punct	_
+18	,	,	PUNCT	,	_	19	punct	19:punct	_
 19	and	and	CCONJ	CC	_	27	cc	27:cc	Discourse=joint_m:54->53:0
 20	evening	evening	NOUN	NN	Number=Sing	24	compound	24:compound	Bridge=9<104|Entity=(event-104-acc:inf-5-sgl(time-105-new-1-sgl)
 21	prime	prime	ADJ	JJ	Degree=Pos	23	amod	23:amod	SpaceAfter=No|XML=<w>
@@ -718,7 +718,7 @@
 8	as	as	SCONJ	IN	_	10	mark	10:mark	Discourse=manner:65->64:0
 9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	10:nsubj	Entity=(person-110-giv:act-1-ana)
 10	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl:as	_
-11	all	all	DET	DT	_	12	det	12:det	Entity=(event-114-new-2-sgl
+11	all	all	DET	DT	PronType=Tot	12	det	12:det	Entity=(event-114-new-2-sgl
 12	others	other	NOUN	NNS	Number=Plur	10	obj	10:obj	Entity=114)
 13	—	—	PUNCT	:	_	15	punct	15:punct	Discourse=result:66->64:1
 14	for	for	ADP	IN	_	15	case	15:case	_
@@ -763,13 +763,13 @@
 # s_type = decl
 # speaker = Simon
 # text = All in all, I think this is a terrific opportunity to improve sports coverage in a multitude of aspects; but we will have to wait until after the event to assess to what extent the broadcasters will meet these expectations.
-1	All	all	DET	DT	_	6	obl:npmod	6:obl:npmod	Discourse=attribution:71->72:2
+1	All	all	DET	DT	PronType=Tot	6	obl:npmod	6:obl:npmod	Discourse=attribution:71->72:2
 2	in	in	ADP	IN	_	1	fixed	1:fixed	_
-3	all	all	DET	DT	_	1	fixed	1:fixed	SpaceAfter=No
+3	all	all	DET	DT	PronType=Tot	1	fixed	1:fixed	SpaceAfter=No
 4	,	,	PUNCT	,	_	1	punct	1:punct	_
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-2-giv:inact-1-ana)
 6	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-7	this	this	PRON	DT	Number=Sing|PronType=Dem	11	nsubj	11:nsubj	Discourse=joint_m:72->45:4|Entity=(abstract-120-new-5-disc(event-88-giv:inact-1-ana)
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	11	nsubj	11:nsubj	Discourse=evaluation:72->45:4|Entity=(abstract-120-new-5-disc(event-88-giv:inact-1-ana)
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	11:cop	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(event-88-giv:act-3-coref
 10	terrific	terrific	ADJ	JJ	Degree=Pos	11	amod	11:amod	_

@@ -104,7 +104,7 @@
 8	Dame	Dame	PROPN	NNP	Number=Sing	6	xcomp	6:xcomp	Entity=1)
 9	by	by	ADP	IN	_	10	case	10:case	_
 10	Elizabeth	Elizabeth	PROPN	NNP	Number=Sing	6	obl	6:obl:by	Entity=(person-19-new-1-sgl-Elizabeth_II
-11	II	II	NUM	CD	NumForm=Roman|NumType=Card	10	amod	10:amod	Entity=19)
+11	II	II	NUM	CD	NumForm=Roman|NumType=Card	10	dep	10:dep	Entity=19)
 12	for	for	ADP	IN	_	13	case	13:case	_
 13	services	service	NOUN	NNS	Number=Plur	6	obl	6:obl:for	Entity=(abstract-20-new-1-sgl
 14	to	to	ADP	IN	_	15	case	15:case	_
@@ -213,7 +213,7 @@
 # sent_id = GUM_bio_hadid-8
 # s_type = decl
 # text = Some of her designs have been presented posthumously, including the statuette for the 2017 Brit Awards, and many of her buildings are still under construction, including the Al Wakrah Stadium in Qatar, a venue for the 2022 FIFA World Cup.
-1	Some	some	DET	DT	_	7	nsubj:pass	7:nsubj:pass	Discourse=joint_m:17->7:2|Entity=(abstract-41-new-1-ana
+1	Some	some	DET	DT	PronType=Ind	7	nsubj:pass	7:nsubj:pass	Discourse=joint_m:17->7:2|Entity=(abstract-41-new-1-ana
 2	of	of	ADP	IN	_	4	case	4:case	_
 3	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(abstract-42-new-2-sgl(person-1-giv:act-1-ana-Zaha_Hadid)
 4	designs	design	NOUN	NNS	Number=Plur	1	nmod	1:nmod:of	Entity=42)41)
@@ -231,7 +231,7 @@
 16	Brit	Brit	PROPN	NNP	Number=Sing	17	compound	17:compound	_
 17	Awards	Awards	PROPN	NNP	Number=Sing	12	nmod	12:nmod:for	Entity=44)43)|SpaceAfter=No
 18	,	,	PUNCT	,	_	25	punct	25:punct	_
-19	and	and	CCONJ	CC	_	25	cc	25:cc	Discourse=contrast_m:19->17:1
+19	and	and	CCONJ	CC	_	25	cc	25:cc	Discourse=joint_m:19->17:1
 20	many	many	ADJ	JJ	Degree=Pos	25	nsubj	25:nsubj	_
 21	of	of	ADP	IN	_	23	case	23:case	_
 22	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	23:nmod:poss	Entity=(place-46-new-2-coref(person-1-giv:act-1-ana-Zaha_Hadid)
@@ -284,7 +284,7 @@
 9	Baghdad	Baghdad	PROPN	NNP	Number=Sing	3	obl	3:obl:in	Entity=(place-55-new-1,3-sgl-Baghdad|SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	11:punct	_
 11	Iraq	Iraq	PROPN	NNP	Number=Sing	9	appos	9:appos	Entity=(place-56-new-1-coref-Iraq)55)|SpaceAfter=No
-12	,	,	PUNCT	,	_	19	punct	19:punct	_
+12	,	,	PUNCT	,	_	13	punct	13:punct	_
 13	to	to	ADP	IN	_	19	case	19:case	_
 14	an	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(person-57-new-6-coref
 15	upper	upper	ADJ	JJ	Degree=Pos	17	amod	17:amod	SpaceAfter=No|XML=<w>
@@ -330,7 +330,7 @@
 10	group	group	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=60)
 11	in	in	ADP	IN	_	12	case	12:case	_
 12	1932	1932	NUM	CD	NumForm=Digit|NumType=Card	2	obl	2:obl:in	Entity=(time-61-new-1-sgl)|SpaceAfter=No|XML=<date when:::"1932"></date>
-13	,	,	PUNCT	,	_	17	punct	17:punct	_
+13	,	,	PUNCT	,	_	12	punct	12:punct	_
 14	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(organization-60-giv:act-7,9-coref-Ahali_group
 15	significant	significant	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
 16	political	political	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
@@ -345,7 +345,7 @@
 # sent_id = GUM_bio_hadid-13
 # s_type = decl
 # text = He was the co-founder of the National Democratic Party in Iraq.
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=joint_m:25->24:0|Entity=(person-58-giv:act-1-ana-Mohammed_Hadid)
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=elaboration:25->24:0|Entity=(person-58-giv:act-1-ana-Mohammed_Hadid)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(person-58-giv:act-2-coref-Mohammed_Hadid
 4	co-founder	co-founder	NOUN	NN	Number=Sing	0	root	0:root	_
@@ -361,7 +361,7 @@
 # sent_id = GUM_bio_hadid-14
 # s_type = decl
 # text = He served as minister of finance after the overthrow of the monarch after the 1958 Iraqi coup d'état for the government of General Abd al-Karim Qasim.
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint_m:26->24:0|Entity=(person-58-giv:act-1-ana-Mohammed_Hadid)
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=sequence_m:26->24:1|Entity=(person-58-giv:act-1-ana-Mohammed_Hadid)
 2	served	serve	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	as	as	ADP	IN	_	4	case	4:case	_
 4	minister	minister	NOUN	NN	Number=Sing	2	obl	2:obl:as	Bridge=56<58|Entity=(person-58-acc:inf-1-coref-Mohammed_Hadid
@@ -383,7 +383,7 @@
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(organization-69-new-2,5,6,8,9-sgl
 21	government	government	NOUN	NN	Number=Sing	2	obl	2:obl:for	_
 22	of	of	ADP	IN	_	23	case	23:case	_
-23	General	General	PROPN	NNP	Number=Sing	21	nmod	21:nmod:of	Entity=(person-70-new-1,2,3,5,6-sgl-Abd_al-Karim_Qasim
+23	General	General	PROPN	NNP	Number=Sing	21	nmod	21:nmod:of	Entity=(person-70-new-1,2,3,5,6-sgl-Abd_al%2DKarim_Qasim
 24	Abd	Abd	PROPN	NNP	Number=Sing	23	flat	23:flat	_
 25	al	al	PROPN	NNP	Number=Sing	23	flat	23:flat	SpaceAfter=No|XML=<w>
 26	-	-	PUNCT	HYPH	_	27	punct	27:punct	SpaceAfter=No
@@ -458,7 +458,7 @@
 # sent_id = GUM_bio_hadid-18
 # s_type = decl
 # text = There she studied with Rem Koolhaas, Elia Zenghelis and Bernard Tschumi.
-1	There	there	ADV	RB	PronType=Dem	3	advmod	3:advmod	Discourse=sequence_m:32->28:0
+1	There	there	ADV	RB	PronType=Dem	3	advmod	3:advmod	Discourse=elaboration:32->30:1
 2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-1-giv:act-1-ana-Zaha_Hadid)
 3	studied	study	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	with	with	ADP	IN	_	5	case	5:case	_
@@ -542,7 +542,7 @@
 # sent_id = GUM_bio_hadid-23
 # s_type = decl
 # text = She had spectacular vision.
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint_m:37->35:1|Entity=(person-88-giv:inact-1-ana-Zaha_Hadid)
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=restatement-repetition_m:37->35:1|Entity=(person-88-giv:inact-1-ana-Zaha_Hadid)
 2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	spectacular	spectacular	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(abstract-92-new-2-sgl
 4	vision	vision	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=92)|SpaceAfter=No
@@ -551,7 +551,7 @@
 # sent_id = GUM_bio_hadid-24
 # s_type = decl
 # text = All the buildings were exploding into tiny little pieces."
-1	All	all	DET	PDT	_	3	det:predet	3:det:predet	Discourse=evidence:38->37:0|Entity=(place-93-new-3-sgl
+1	All	all	DET	PDT	PronType=Tot	3	det:predet	3:det:predet	Discourse=evidence:38->37:0|Entity=(place-93-new-3-sgl
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	_
 3	buildings	building	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=93)
 4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	5:aux	_
@@ -638,7 +638,7 @@
 # sent_id = GUM_bio_hadid-28
 # s_type = decl
 # text = Her mind was on the broader pictures —
-1	Her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=restatement_m:47->46:0|Entity=(abstract-105-new-2-sgl(person-88-giv:act-1-ana-Zaha_Hadid)
+1	Her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=restatement-repetition_m:47->46:0|Entity=(abstract-105-new-2-sgl(person-88-giv:act-1-ana-Zaha_Hadid)
 2	mind	mind	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=105)
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
 4	on	on	ADP	IN	_	7	case	7:case	_
@@ -677,7 +677,7 @@
 # sent_id = GUM_bio_hadid-31
 # s_type = decl
 # text = Her fourth-year student project was a painting of a hotel in the form of a bridge, inspired by the works of the Russian suprematist artist Kazimir Malevich
-1	Her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Discourse=sequence_m:52->28:0|Entity=(object-108-new-6-coref(person-88-giv:act-1-ana-Zaha_Hadid)
+1	Her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Discourse=joint_m:52->33:1|Entity=(object-108-new-6-coref(person-88-giv:act-1-ana-Zaha_Hadid)
 2	fourth	fourth	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	4:amod	SpaceAfter=No|XML=<date when:::"1975"><w>
 3	-	-	PUNCT	HYPH	_	2	punct	2:punct	SpaceAfter=No
 4	year	year	NOUN	NN	Number=Sing	6	compound	6:compound	XML=</w></date>

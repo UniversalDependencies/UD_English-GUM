@@ -36,7 +36,7 @@
 1	pilgrims	pilgrim	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=background:3->4:6|Entity=(person-7-new-1-sgl)
 2	at	at	ADP	IN	_	6	case	6:case	_
 3-4	Mecca's	_	_	_	_	_	_	_	_
-3	Mecca	Mecca	PROPN	NNP	Number=Sing	6	nmod:poss	6:nmod:poss	Entity=(place-8-new-3,4-coref-Masjid_al-Haram(place-3-giv:inact-1-coref-Mecca
+3	Mecca	Mecca	PROPN	NNP	Number=Sing	6	nmod:poss	6:nmod:poss	Entity=(place-8-new-3,4-coref-Masjid_al%2DHaram(place-3-giv:inact-1-coref-Mecca
 4	's	's	PART	POS	_	3	case	3:case	Entity=3)
 5	Grand	Grand	ADJ	NNP	Degree=Pos	6	amod	6:amod	_
 6	Mosque	Mosque	PROPN	NNP	Number=Sing	1	nmod	1:nmod:at	Entity=8)
@@ -58,12 +58,12 @@
 8	fall	fall	VERB	VB	VerbForm=Inf	4	xcomp	4:xcomp	_
 9	into	into	ADP	IN	_	13	case	13:case	_
 10-11	Mecca's	_	_	_	_	_	_	_	_
-10	Mecca	Mecca	PROPN	NNP	Number=Sing	13	nmod:poss	13:nmod:poss	Entity=(place-8-giv:act-3,4-coref-Masjid_al-Haram(place-3-giv:act-1-coref-Mecca|XML=<ref></ref>
+10	Mecca	Mecca	PROPN	NNP	Number=Sing	13	nmod:poss	13:nmod:poss	Entity=(place-8-giv:act-3,4-coref-Masjid_al%2DHaram(place-3-giv:act-1-coref-Mecca|XML=<ref></ref>
 11	's	's	PART	POS	_	10	case	10:case	Entity=3)
 12	Grand	Grand	ADJ	NNP	Degree=Pos	13	amod	13:amod	XML=<ref>
 13	Mosque	Mosque	PROPN	NNP	Number=Sing	8	obl	8:obl:into	Entity=8)|SpaceAfter=No|XML=</ref>
 14	,	,	PUNCT	,	_	15	punct	15:punct	_
-15	killing	kill	VERB	VBG	VerbForm=Ger	8	advcl	8:advcl	Discourse=joint_m:5->4:0
+15	killing	kill	VERB	VBG	VerbForm=Ger	8	advcl	8:advcl	Discourse=result:5->4:0
 16	107	107	NUM	CD	NumForm=Digit|NumType=Card	15	obj	15:obj	Entity=(person-1-giv:inact-1-coref)
 17	or	or	CCONJ	CC	_	18	cc	18:cc	_
 18	more	more	ADJ	JJR	Degree=Cmp	16	conj	15:obj|16:conj:or	_
@@ -73,9 +73,9 @@
 22	,	,	PUNCT	,	_	30	punct	30:punct	_
 23	according	accord	VERB	VBG	VerbForm=Ger	30	case	30:case	_
 24	to	to	ADP	IN	_	23	fixed	23:fixed	_
-25	Saudi	Saudi	PROPN	NNP	Number=Sing	30	nmod:poss	30:nmod:poss	Entity=(organization-14-new-2,4,5,6-coref(place-15-new-1,2-sgl-Saudi_Arabia|XML=<ref>
+25	Saudi	Saudi	ADJ	NNP	Degree=Pos	26	amod	26:amod	Entity=(organization-14-new-1,4,5,6-coref(place-15-new-1,2-sgl-Saudi_Arabia|XML=<ref>
 26-27	Arabia's	_	_	_	_	_	_	_	_
-26	Arabia	Arabia	PROPN	NNP	Number=Sing	25	flat	25:flat	XML=</ref>
+26	Arabia	Arabia	PROPN	NNP	Number=Sing	30	nmod:poss	30:nmod:poss	XML=</ref>
 27	's	's	PART	POS	_	25	case	25:case	Entity=15)
 28	Civil	Civil	ADJ	NNP	Degree=Pos	29	amod	29:amod	_
 29	Defense	Defense	PROPN	NNP	Number=Sing	30	compound	30:compound	_
@@ -86,7 +86,7 @@
 # s_type = decl
 # text = Civil Defense Authority director General Suleiman al-Amr, in remarks to al-Ikhbariya television, said "All those who were wounded and the dead have been taken to hospital. There are no casualties left at the location."
 # newpar = p (1 s)
-1	Civil	Civil	ADJ	NNP	Degree=Pos	2	amod	2:amod	Discourse=joint_m:6->4:0|Entity=(person-16-new-1,2,4,5,6,7,9-sgl(organization-14-giv:act-1,2,3-coref
+1	Civil	Civil	ADJ	NNP	Degree=Pos	2	amod	2:amod	Discourse=attribution:6->7:1|Entity=(person-16-new-1,2,4,5,6,7,9-sgl(organization-14-giv:act-1,2,3-coref
 2	Defense	Defense	PROPN	NNP	Number=Sing	3	compound	3:compound	_
 3	Authority	Authority	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=14)
 4	director	director	NOUN	NN	Number=Sing	19	nsubj	19:nsubj	_
@@ -105,8 +105,8 @@
 17	television	television	NOUN	NN	Number=Sing	12	nmod	12:nmod:to	Entity=17)|SpaceAfter=No|XML=</ref>
 18	,	,	PUNCT	,	_	12	punct	12:punct	_
 19	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-20	"	''	PUNCT	``	_	31	punct	31:punct	SpaceAfter=No|XML=<quote>
-21	All	all	DET	PDT	_	22	det:predet	22:det:predet	Entity=(person-13-giv:act-2-ana
+20	"	''	PUNCT	``	_	31	punct	31:punct	Discourse=joint_m:7->4:1|SpaceAfter=No|XML=<quote>
+21	All	all	DET	PDT	PronType=Tot	22	det:predet	22:det:predet	Entity=(person-13-giv:act-2-ana
 22	those	this	PRON	DT	Number=Plur|PronType=Dem	31	nsubj:pass	25:nsubj:pass|31:nsubj:pass	_
 23	who	who	PRON	WP	PronType=Rel	25	nsubj:pass	22:ref	_
 24	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	aux:pass	25:aux:pass	_
@@ -120,13 +120,13 @@
 32	to	to	ADP	IN	_	33	case	33:case	_
 33	hospital	hospital	NOUN	NN	Number=Sing	31	obl	31:obl:to	Entity=(place-18-new-1-sgl)|SpaceAfter=No
 34	.	.	PUNCT	.	_	31	punct	31:punct	_
-35	There	there	PRON	EX	_	36	expl	36:expl	_
+35	There	there	PRON	EX	PronType=Dem	36	expl	36:expl	Discourse=joint_m:8->7:0
 36	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	parataxis	31:parataxis	_
-37	no	no	DET	DT	Polarity=Neg	38	det	38:det	Entity=(person-19-new-2-sgl
+37	no	no	DET	DT	Polarity=Neg|PronType=Art	38	det	38:det	Entity=(person-19-new-2-sgl
 38	casualties	casualty	NOUN	NNS	Number=Plur	36	nsubj	36:nsubj	Entity=19)
 39	left	leave	VERB	VBN	Tense=Past|VerbForm=Part	38	acl	38:acl	_
 40	at	at	ADP	IN	_	42	case	42:case	_
-41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	42:det	Entity=(place-8-giv:act-2-coref-Masjid_al-Haram
+41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	42:det	Entity=(place-8-giv:act-2-coref-Masjid_al%2DHaram
 42	location	location	NOUN	NN	Number=Sing	39	obl	39:obl:at	Entity=8)|SpaceAfter=No
 43	.	.	PUNCT	.	_	31	punct	31:punct	SpaceAfter=No
 44	"	''	PUNCT	''	_	31	punct	31:punct	XML=</quote>
@@ -135,15 +135,15 @@
 # s_type = decl
 # text = The accident, which occurred yesterday afternoon, was caused by strong winds and heavy rain that led the crane to fall.
 # newpar = p (2 s)
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=cause:7->4:1|Entity=(event-20-new-2-sgl
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration:9->4:2|Entity=(event-20-new-2-sgl
 2	accident	accident	NOUN	NN	Number=Sing	10	nsubj:pass	5:nsubj|10:nsubj:pass	SpaceAfter=No
 3	,	,	PUNCT	,	_	5	punct	5:punct	_
-4	which	which	PRON	WDT	PronType=Rel	5	nsubj	2:ref	_
+4	which	which	PRON	WDT	PronType=Rel	5	nsubj	2:ref	Discourse=elaboration:10->9:0
 5	occurred	occur	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_
 6	yesterday	yesterday	NOUN	NN	Number=Sing	7	compound	7:compound	Entity=(time-12-giv:inact-2-coref|XML=<date when:::"2015-09-11"></date>
 7	afternoon	afternoon	NOUN	NN	Number=Sing	5	obl:tmod	5:obl:tmod	Entity=12)20)|SpaceAfter=No
 8	,	,	PUNCT	,	_	2	punct	2:punct	_
-9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	10:aux:pass	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	10:aux:pass	Discourse=same-unit_m:11->9:1
 10	caused	cause	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 11	by	by	ADP	IN	_	13	case	13:case	_
 12	strong	strong	ADJ	JJ	Degree=Pos	13	amod	13:amod	Bridge=11<22|Entity=(event-21-new-2,5-sgl(event-22-acc:inf-2-sgl
@@ -151,7 +151,7 @@
 14	and	and	CCONJ	CC	_	16	cc	16:cc	_
 15	heavy	heavy	ADJ	JJ	Degree=Pos	16	amod	16:amod	Bridge=11<23|Entity=(event-23-acc:inf-2-sgl
 16	rain	rain	NOUN	NN	Number=Sing	13	conj	10:obl:by|13:conj:and	Entity=23)
-17	that	that	PRON	WDT	PronType=Rel	18	nsubj	13:ref	_
+17	that	that	PRON	WDT	PronType=Rel	18	nsubj	13:ref	Discourse=elaboration:12->11:0
 18	led	lead	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	13:acl:relcl	_
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(object-4-giv:inact-2-coref
 20	crane	crane	NOUN	NN	Number=Sing	18	obj	18:obj|22:nsubj:xsubj	Entity=4)
@@ -162,10 +162,10 @@
 # sent_id = GUM_news_crane-7
 # s_type = decl
 # text = Photos released of the scene showed numerous bloodied bodies and various scattered debris.
-1	Photos	photo	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Discourse=elaboration:8->4:2|Entity=(abstract-24-new-1-sgl
+1	Photos	photo	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Discourse=elaboration:13->9:2|Entity=(abstract-24-new-1-sgl
 2	released	release	VERB	VBN	Tense=Past|VerbForm=Part	1	acl:relcl	1:acl:relcl	_
 3	of	of	ADP	IN	_	5	case	5:case	_
-4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(place-8-giv:inact-2-coref-Masjid_al-Haram
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(place-8-giv:inact-2-coref-Masjid_al%2DHaram
 5	scene	scene	NOUN	NN	Number=Sing	2	obl	2:obl:of	Entity=8)24)
 6	showed	show	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 7	numerous	numerous	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(object-25-new-3-sgl
@@ -181,14 +181,14 @@
 # s_type = decl
 # text = The accident occurred at a time when the mosque was relatively uncrowded.
 # newpar = p (3 s)
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=background:9->4:3|Entity=(event-10-giv:inact-2-coref
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=background:14->4:3|Entity=(event-10-giv:inact-2-coref
 2	accident	accident	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=10)
 3	occurred	occur	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	at	at	ADP	IN	_	6	case	6:case	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(time-12-giv:inact-2-coref
 6	time	time	NOUN	NN	Number=Sing	3	obl	3:obl:at	_
-7	when	when	SCONJ	WRB	PronType=Int	12	mark	12:mark	Discourse=circumstance:10->9:0
-8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(place-8-giv:act-2-coref-Masjid_al-Haram
+7	when	when	SCONJ	WRB	PronType=Int	12	mark	12:mark	Discourse=circumstance:15->14:0
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(place-8-giv:act-2-coref-Masjid_al%2DHaram
 9	mosque	mosque	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=8)
 10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	12:cop	_
 11	relatively	relatively	ADV	RB	Degree=Pos	12	advmod	12:advmod	_
@@ -198,14 +198,14 @@
 # sent_id = GUM_news_crane-9
 # s_type = decl
 # text = "Had it happened an hour later it would have been much worse," Khaled Al-Maeena, editor at large at the Saudi Gazette, said.
-1	"	''	PUNCT	``	_	13	punct	13:punct	Discourse=restatement_m:11->9:1|SpaceAfter=No|XML=<quote>
+1	"	''	PUNCT	``	_	13	punct	13:punct	Discourse=condition:16->17:0|SpaceAfter=No|XML=<quote>
 2	Had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	4:aux	_
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(event-10-giv:act-1-ana)
 4	happened	happen	VERB	VBN	Tense=Past|VerbForm=Part	13	advcl	13:advcl	_
 5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(time-27-acc:com-2-sgl
 6	hour	hour	NOUN	NN	Number=Sing	7	obl:tmod	7:obl:tmod	Entity=27)
 7	later	late	ADV	RBR	Degree=Cmp	4	advmod	4:advmod	_
-8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	Entity=(event-10-giv:act-1-ana)
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	Discourse=elaboration:17->14:1|Entity=(event-10-giv:act-1-ana)
 9	would	would	AUX	MD	VerbForm=Fin	13	aux	13:aux	_
 10	have	have	AUX	VB	VerbForm=Inf	13	aux	13:aux	_
 11	been	be	AUX	VBN	Tense=Past|VerbForm=Part	13	cop	13:cop	_
@@ -213,7 +213,7 @@
 13	worse	bad	ADJ	JJR	Degree=Cmp	29	ccomp	29:ccomp	SpaceAfter=No
 14	,	,	PUNCT	,	_	13	punct	13:punct	SpaceAfter=No
 15	"	''	PUNCT	''	_	13	punct	13:punct	XML=</quote>
-16	Khaled	Khaled	PROPN	NNP	Number=Sing	29	nsubj	29:nsubj	Entity=(person-28-new-1,2,4-coref-Khaled_Al_Maeena
+16	Khaled	Khaled	PROPN	NNP	Number=Sing	29	nsubj	29:nsubj	Discourse=attribution:18->17:1|Entity=(person-28-new-1,2,4-coref-Khaled_Al_Maeena
 17	Al	Al	PROPN	NNP	Number=Sing	16	flat	16:flat	SpaceAfter=No|XML=<w>
 18	-	-	PUNCT	HYPH	_	19	punct	19:punct	SpaceAfter=No
 19	Maeena	Maeena	PROPN	NNP	Number=Sing	17	flat	17:flat	Entity=28)|SpaceAfter=No|XML=</w>
@@ -232,7 +232,7 @@
 # sent_id = GUM_news_crane-10
 # s_type = sub
 # text = "Had it happened five hours earlier or four hours earlier, I think the death toll would have been more than a thousand."
-1	"	''	PUNCT	``	_	14	punct	14:punct	Discourse=restatement_m:12->11:0|SpaceAfter=No|XML=<quote>
+1	"	''	PUNCT	``	_	14	punct	14:punct	Discourse=condition:19->21:1|SpaceAfter=No|XML=<quote>
 2	Had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	4:aux	_
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(event-10-giv:act-1-ana)
 4	happened	happen	VERB	VBN	Tense=Past|VerbForm=Part	24	advcl	24:advcl	_
@@ -244,9 +244,9 @@
 10	hours	hour	NOUN	NNS	Number=Plur	11	obl:tmod	11:obl:tmod	Entity=31)
 11	earlier	early	ADV	RBR	Degree=Cmp	7	conj	4:advmod|7:conj:or	SpaceAfter=No
 12	,	,	PUNCT	,	_	4	punct	4:punct	_
-13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	14:nsubj	Entity=(person-28-giv:act-1-ana-Khaled_Al_Maeena)
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	14:nsubj	Discourse=attribution:20->21:0|Entity=(person-28-giv:act-1-ana-Khaled_Al_Maeena)
 14	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Bridge=1<32|Entity=(abstract-32-acc:inf-3-sgl
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Bridge=1<32|Discourse=joint_m:21->17:2|Entity=(abstract-32-acc:inf-3-sgl
 16	death	death	NOUN	NN	Number=Sing	17	compound	17:compound	_
 17	toll	toll	NOUN	NN	Number=Sing	24	nsubj	24:nsubj	Entity=32)
 18	would	would	AUX	MD	VerbForm=Fin	24	aux	24:aux	_
@@ -263,7 +263,7 @@
 # s_type = decl
 # text = The crane accident comes just ten days before the beginning of the Hajj, the annual pilgrimage to Mecca, Islam's holiest site.
 # newpar = p (3 s)
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=circumstance:13->4:4|Entity=(event-10-giv:act-3-coref
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=circumstance:22->4:4|Entity=(event-10-giv:act-3-coref
 2	crane	crane	NOUN	NN	Number=Sing	3	compound	3:compound	_
 3	accident	accident	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=10)
 4	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -293,7 +293,7 @@
 # sent_id = GUM_news_crane-12
 # s_type = decl
 # text = As undergoing a pilgrimage to Mecca is a mandatory religious duty for all Muslims who physically and financially can, millions of pilgrims arrive in Mecca each year for the Hajj.
-1	As	as	SCONJ	IN	_	11	mark	11:mark	Discourse=background:14->16:1
+1	As	as	SCONJ	IN	_	11	mark	11:mark	Discourse=background:23->26:1
 2	undergoing	undergo	VERB	VBG	VerbForm=Ger	11	csubj	11:csubj	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(event-36-giv:act-2-coref-Hajj
 4	pilgrimage	pilgrimage	NOUN	NN	Number=Sing	2	obj	2:obj	_
@@ -305,21 +305,21 @@
 10	religious	religious	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
 11	duty	duty	NOUN	NN	Number=Sing	24	advcl	24:advcl:as	_
 12	for	for	ADP	IN	_	14	case	14:case	_
-13	all	all	DET	DT	_	14	det	14:det	Entity=(person-39-new-2-sgl
+13	all	all	DET	DT	PronType=Tot	14	det	14:det	Entity=(person-39-new-2-sgl
 14	Muslims	Muslim	PROPN	NNPS	Number=Plur	11	nmod	11:nmod:for|19:nsubj	_
-15	who	who	PRON	WP	PronType=Rel	19	nsubj	14:ref	_
+15	who	who	PRON	WP	PronType=Rel	19	nsubj	14:ref	Discourse=elaboration:24->23:0
 16	physically	physically	ADV	RB	Degree=Pos	19	advmod	19:advmod	_
 17	and	and	CCONJ	CC	_	18	cc	18:cc	_
 18	financially	financially	ADV	RB	Degree=Pos	16	conj	16:conj:and|19:advmod	_
 19	can	can	AUX	MD	VerbForm=Fin	14	acl:relcl	14:acl:relcl	Entity=39)38)|SpaceAfter=No
 20	,	,	PUNCT	,	_	11	punct	11:punct	_
-21	millions	million	NOUN	NNS	Number=Plur	24	nsubj	24:nsubj	Discourse=result:15->14:0|Entity=(person-40-new-1-sgl
+21	millions	million	NOUN	NNS	Number=Plur	24	nsubj	24:nsubj	Discourse=result:25->23:1|Entity=(person-40-new-1-sgl
 22	of	of	ADP	IN	_	23	case	23:case	_
 23	pilgrims	pilgrim	NOUN	NNS	Number=Plur	21	nmod	21:nmod:of	Entity=40)
 24	arrive	arrive	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 25	in	in	ADP	IN	_	26	case	26:case	_
 26	Mecca	Mecca	PROPN	NNP	Number=Sing	24	obl	24:obl:in	Entity=(place-3-giv:act-1-coref-Mecca)
-27	each	each	DET	DT	_	28	det	28:det	Entity=(time-41-new-2-sgl
+27	each	each	DET	DT	PronType=Tot	28	det	28:det	Entity=(time-41-new-2-sgl
 28	year	year	NOUN	NN	Number=Sing	24	obl:tmod	24:obl:tmod	Entity=41)
 29	for	for	ADP	IN	_	31	case	31:case	_
 30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	31:det	Entity=(event-36-giv:act-2-coref-Hajj
@@ -329,24 +329,24 @@
 # sent_id = GUM_news_crane-13
 # s_type = decl
 # text = Construction was underway at the mosque in order to enlarge the mosque and improve crowd control, which has been a recurring problem during Mecca's pilgrimages.
-1	Construction	construction	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=background:16->4:5|Entity=(event-42-new-1-sgl)
+1	Construction	construction	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=background:26->4:5|Entity=(event-42-new-1-sgl)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	3:cop	_
 3	underway	underway	ADJ	JJ	Degree=Pos|Polarity=Neg	0	root	0:root	_
 4	at	at	ADP	IN	_	6	case	6:case	_
-5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(place-8-giv:inact-2-coref-Masjid_al-Haram
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(place-8-giv:inact-2-coref-Masjid_al%2DHaram
 6	mosque	mosque	NOUN	NN	Number=Sing	3	obl	3:obl:at	Entity=8)
-7	in	in	SCONJ	IN	_	10	mark	10:mark	Discourse=purpose:17->16:0
+7	in	in	SCONJ	IN	_	10	mark	10:mark	Discourse=purpose:27->26:0
 8	order	order	NOUN	NN	Number=Sing	7	fixed	7:fixed	_
 9	to	to	PART	TO	_	10	mark	10:mark	_
 10	enlarge	enlarge	VERB	VB	VerbForm=Inf	3	advcl	3:advcl:in_order_to	_
-11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(place-8-giv:act-2-coref-Masjid_al-Haram
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(place-8-giv:act-2-coref-Masjid_al%2DHaram
 12	mosque	mosque	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=8)
 13	and	and	CCONJ	CC	_	14	cc	14:cc	_
-14	improve	improve	VERB	VB	VerbForm=Inf	10	conj	3:advcl:in_order_to|10:conj:and	_
+14	improve	improve	VERB	VB	VerbForm=Inf	10	conj	3:advcl:in_order_to|10:conj:and	Discourse=joint_m:28->27:0
 15	crowd	crowd	NOUN	NN	Number=Sing	16	compound	16:compound	Entity=(abstract-43-new-2-coref(person-44-new-1-sgl)
 16	control	control	NOUN	NN	Number=Sing	14	obj	14:obj|23:nsubj	SpaceAfter=No
 17	,	,	PUNCT	,	_	23	punct	23:punct	_
-18	which	which	PRON	WDT	PronType=Rel	23	nsubj	16:ref	_
+18	which	which	PRON	WDT	PronType=Rel	23	nsubj	16:ref	Discourse=elaboration:29->28:0
 19	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	23:aux	_
 20	been	be	AUX	VBN	Tense=Past|VerbForm=Part	23	cop	23:cop	_
 21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	23:det	Entity=(abstract-43-giv:act-3-pred

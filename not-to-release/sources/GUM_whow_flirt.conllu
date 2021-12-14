@@ -40,7 +40,7 @@
 17	Chat	Chat	PROPN	NNP	Number=Sing	12	conj	5:obl:on|12:conj:or	Entity=6)|SpaceAfter=No
 18	,	,	PUNCT	,	_	24	punct	24:punct	_
 19	or	or	CCONJ	CC	_	24	cc	24:cc	_
-20	any	any	DET	DT	_	24	det	24:det	Bridge=1<8|Entity=(abstract-8-acc:inf-5-sgl
+20	any	any	DET	DT	PronType=Ind	24	det	24:det	Bridge=1<8|Entity=(abstract-8-acc:inf-5-sgl
 21	other	other	ADJ	JJ	Degree=Pos	24	amod	24:amod	_
 22	instant	instant	ADJ	JJ	Degree=Pos	24	amod	24:amod	_
 23	messaging	message	VERB	VBG	VerbForm=Ger	24	acl	24:acl	_
@@ -104,7 +104,7 @@
 # s_type = frag
 # text = Part 1 of 2: Flirting Dos
 # newpar = head rend:::"bold" (1 s)
-1	Part	part	NOUN	NN	Number=Sing	0	root	0:root	Discourse=restatement_m:9->7:1|Entity=(abstract-14-giv:act-1-coref
+1	Part	part	NOUN	NN	Number=Sing	0	root	0:root	Discourse=restatement-repetition_m:9->7:1|Entity=(abstract-14-giv:act-1-coref
 2	1	1	NUM	CD	NumForm=Digit|NumType=Card	1	dep	1:dep	_
 3	of	of	ADP	IN	_	4	case	4:case	_
 4	2	2	NUM	CD	NumForm=Digit|NumType=Card	1	nmod	1:nmod:of	Entity=(abstract-15-new-1-coref)14)|SpaceAfter=No
@@ -165,7 +165,7 @@
 11	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(time-23-new-2-sgl(person-3-giv:act-1-ana)
 12	day	day	NOUN	NN	Number=Sing	8	obl	8:obl:about	Entity=23)|SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	14:punct	_
-14	asking	ask	VERB	VBG	VerbForm=Ger	8	conj	7:acl|8:conj:or	Discourse=contrast_m:18->17:0
+14	asking	ask	VERB	VBG	VerbForm=Ger	8	conj	7:acl|8:conj:or	Discourse=disjunction_m:18->17:0
 15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	iobj	14:iobj	Entity=(person-3-giv:act-1-ana)
 16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	Entity=(abstract-24-new-3-sgl
 17	specific	specific	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
@@ -175,7 +175,7 @@
 21	or	or	CCONJ	CC	_	22	cc	22:cc	_
 22	school	school	NOUN	NN	Number=Sing	20	conj	18:nmod:about|20:conj:or	Entity=(place-26-new-1-coref)24)|SpaceAfter=No
 23	,	,	PUNCT	,	_	26	punct	26:punct	_
-24	or	or	CCONJ	CC	_	26	cc	26:cc	Discourse=contrast_m:19->17:0
+24	or	or	CCONJ	CC	_	26	cc	26:cc	Discourse=disjunction_m:19->17:0
 25	simply	simply	ADV	RB	Degree=Pos	26	advmod	26:advmod	_
 26	saying	say	VERB	VBG	VerbForm=Ger	8	conj	7:acl|8:conj:or	_
 27	"	''	PUNCT	``	_	28	punct	28:punct	SpaceAfter=No|XML=<q>
@@ -216,7 +216,7 @@
 27	remind	remind	VERB	VB	VerbForm=Inf	18	advcl	18:advcl	_
 28	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	27	obj	27:obj	Entity=(person-2-giv:act-1-ana)
 29	that	that	SCONJ	IN	_	41	mark	41:mark	_
-30	no	no	DET	DT	Polarity=Neg	31	det	31:det	_
+30	no	no	DET	DT	Polarity=Neg|PronType=Art	31	det	31:det	_
 31	matter	matter	NOUN	NN	Number=Sing	35	obl:npmod	35:obl:npmod	_
 32	how	how	SCONJ	WRB	PronType=Int	33	mark	33:mark	_
 33	badly	badly	ADV	RB	Degree=Pos	35	advmod	35:advmod	_
@@ -243,9 +243,9 @@
 # text = There's no reason to be nervous when it comes to IM flirting —
 # newpar = list type:::"unordered" (5 s) | item (2 s) | p (2 s)
 1-2	There's	_	_	_	_	_	_	_	_
-1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=motivation:26->16:3
+1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=motivation:26->16:3
 2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	no	no	DET	DT	Polarity=Neg	4	det	4:det	Entity=(abstract-32-new-2-sgl
+3	no	no	DET	DT	Polarity=Neg|PronType=Art	4	det	4:det	Entity=(abstract-32-new-2-sgl
 4	reason	reason	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	Entity=32)
 5	to	to	PART	TO	_	7	mark	7:mark	Discourse=elaboration:27->26:0
 6	be	be	AUX	VB	VerbForm=Inf	7	cop	7:cop	_
@@ -278,7 +278,7 @@
 14	to	to	ADP	IN	_	15	case	15:case	_
 15	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	13	obl	13:obl:to	Entity=(person-2-giv:act-1-ana)|SpaceAfter=No
 16	,	,	PUNCT	,	_	11	punct	11:punct	_
-17	s/he	s/he	PRON	PRP	Case=Nom	19	nsubj	19:nsubj	Discourse=justify:32->26:2|Entity=(person-3-giv:act-1-ana)
+17	s/he	s/he	PRON	PRP	Case=Nom|PronType=Prs	19	nsubj	19:nsubj	Discourse=justify:32->26:2|Entity=(person-3-giv:act-1-ana)
 18	always	always	ADV	RB	_	19	advmod	19:advmod	_
 19	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(abstract-34-new-2-coref
@@ -290,7 +290,7 @@
 26	to	to	ADP	IN	_	28	case	28:case	_
 27	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	28	nmod:poss	28:nmod:poss	Entity=(abstract-22-giv:inact-2-coref(person-2-giv:act-1-ana)
 28	message	message	NOUN	NN	Number=Sing	25	obl	25:obl:to	Entity=22)34)|SpaceAfter=No
-29	,	,	PUNCT	,	_	40	punct	40:punct	_
+29	,	,	PUNCT	,	_	30	punct	30:punct	_
 30	as	as	SCONJ	IN	_	40	mark	40:mark	Discourse=cause:34->32:2|SpaceAfter=No
 31	,	,	PUNCT	,	_	30	punct	30:punct	_
 32	from	from	ADP	IN	_	34	case	34:case	_
@@ -400,7 +400,7 @@
 14	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	16	nsubj	16:nsubj	Entity=(person-2-giv:inact-1-ana)
 15	might	might	AUX	MD	VerbForm=Fin	16	aux	16:aux	_
 16	say	say	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
-17	:	:	PUNCT	:	_	22	punct	22:punct	_
+17	:	:	PUNCT	:	_	16	punct	16:punct	_
 18	"	''	PUNCT	``	_	22	punct	22:punct	Discourse=same-unit_m:45->42:0|SpaceAfter=No|XML=<q>
 19	Hey	hey	INTJ	UH	_	22	discourse	22:discourse	SpaceAfter=No
 20	,	,	PUNCT	,	_	19	punct	19:punct	_
@@ -485,7 +485,7 @@
 13	interests	interest	NOUN	NNS	Number=Plur	6	conj	4:nmod:about|6:conj:or	Entity=54)|SpaceAfter=No
 14	,	,	PUNCT	,	_	18	punct	18:punct	_
 15	or	or	CCONJ	CC	_	18	cc	18:cc	_
-16	any	any	DET	DT	_	18	det	18:det	Entity=(event-55-new-3-sgl
+16	any	any	DET	DT	PronType=Ind	18	det	18:det	Entity=(event-55-new-3-sgl
 17	recent	recent	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
 18	trips	trip	NOUN	NNS	Number=Plur	6	conj	4:nmod:about|6:conj:or	Entity=55)53)|SpaceAfter=No
 19	,	,	PUNCT	,	_	21	punct	21:punct	_
@@ -518,14 +518,14 @@
 # s_type = imp
 # text = When s/he responds, add your own comments or ask follow-up questions and proceed from there!
 1	When	when	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=circumstance:54->55:2
-2	s/he	s/he	PRON	PRP	Case=Nom	3	nsubj	3:nsubj	Entity=(person-3-giv:inact-1-ana)
+2	s/he	s/he	PRON	PRP	Case=Nom|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-3-giv:inact-1-ana)
 3	responds	respond	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	5:advcl:when	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5	add	add	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint_m:55->49:1
 6	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(abstract-58-new-3-sgl(person-2-giv:act-1-ana)
 7	own	own	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	comments	comment	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=58)
-9	or	or	CCONJ	CC	_	10	cc	10:cc	Discourse=contrast_m:56->55:0
+9	or	or	CCONJ	CC	_	10	cc	10:cc	Discourse=disjunction_m:56->55:0
 10	ask	ask	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	5	conj	5:conj:or	_
 11	follow	follow	NOUN	NN	Number=Sing	14	compound	14:compound	Entity=(abstract-59-new-4-sgl|SpaceAfter=No|XML=<w>
 12	-	-	PUNCT	HYPH	_	13	punct	13:punct	SpaceAfter=No
@@ -811,7 +811,7 @@
 # s_type = sub
 # text = For instance, if you're asked what you're up to, rather than saying, "looking for people to hit on on Facebook" you might find that it's a better idea to give a sarcastic answer like "writing the great American novel" or "drowning my sorrows".
 # newpar = list type:::"unordered" (4 s) | item (2 s) | p (2 s)
-1	For	for	ADP	IN	_	2	case	2:case	Discourse=joint_m:85->82:1
+1	For	for	ADP	IN	_	2	case	2:case	Discourse=elaboration:85->82:1
 2	instance	instance	NOUN	NN	Number=Sing	30	obl	30:obl:for	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	if	if	SCONJ	IN	_	7	mark	7:mark	Discourse=condition:86->88:1
@@ -913,7 +913,7 @@
 # s_type = sub
 # text = In our example conversation, you might work a joke or two into your music-related small talk.
 # newpar = item (2 s) | p (2 s)
-1	In	in	ADP	IN	_	4	case	4:case	Discourse=joint_m:93->82:1
+1	In	in	ADP	IN	_	4	case	4:case	Discourse=joint_m:93->82:2
 2	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(event-95-acc:com-3-sgl(person-63-giv:inact-1-ana)
 3	example	example	NOUN	NN	Number=Sing	4	compound	4:compound	_
 4	conversation	conversation	NOUN	NN	Number=Sing	8	obl	8:obl:in	Entity=95)|SpaceAfter=No
@@ -953,7 +953,7 @@
 13	n't	not	PART	RB	Polarity=Neg	14	advmod	14:advmod	_
 14	know	know	VERB	VB	VerbForm=Inf	6	obl	6:obl:like	_
 15	why	why	ADV	WRB	PronType=Int	22	advmod	22:advmod	Discourse=elaboration:96->93:0
-16	every	every	DET	DT	_	17	det	17:det	Entity=(abstract-99-new-2-sgl
+16	every	every	DET	DT	PronType=Tot	17	det	17:det	Entity=(abstract-99-new-2-sgl
 17	song	song	NOUN	NN	Number=Sing	22	nsubj	22:nsubj	_
 18	on	on	ADP	IN	_	20	case	20:case	_
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(abstract-100-new-2-sgl
@@ -965,7 +965,7 @@
 25	Flynn	Flynn	PROPN	NNP	Number=Sing	24	flat	24:flat	Entity=102)
 26	feature	feature	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=101)|SpaceAfter=No
 27	.	.	PUNCT	.	_	14	punct	14:punct	_
-28	Does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	dep	31:dep	Discourse=antithesis:97->96:1
+28	Does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	dep	31:dep	Discourse=joint_m:97->96:1
 29	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	31:nsubj	Entity=(person-102-giv:act-1-ana)
 30	even	even	ADV	RB	_	31	advmod	31:advmod	_
 31	have	have	VERB	VB	VerbForm=Inf	14	parataxis	14:parataxis	_
@@ -999,7 +999,7 @@
 2	n't	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	_
 3	be	be	AUX	VB	VerbForm=Inf	7	cop	7:cop	_
 4	too	too	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
-5	self	self	PRON	PRP	Case=Acc	7	compound	7:compound	SpaceAfter=No|XML=<w>
+5	self	self	PRON	PRP	Case=Acc|PronType=Prs	7	compound	7:compound	SpaceAfter=No|XML=<w>
 6	-	-	PUNCT	HYPH	_	5	punct	5:punct	SpaceAfter=No
 7	deprecating	deprecating	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No|XML=</w>
 8	.	.	PUNCT	.	_	7	punct	7:punct	Entity=108)|XML=</hi>
@@ -1037,7 +1037,7 @@
 16	this	this	DET	DT	Number=Sing|PronType=Dem	17	det	17:det	Entity=(event-109-giv:act-2-coref
 17	mantra	mantra	NOUN	NN	Number=Sing	18	nsubj	18:nsubj	Entity=109)
 18	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj:but	_
-19	some	some	DET	DT	_	20	det	20:det	Entity=(abstract-112-new-2-sgl
+19	some	some	DET	DT	PronType=Ind	20	det	20:det	Entity=(abstract-112-new-2-sgl
 20	truth	truth	NOUN	NN	Number=Sing	18	obj	18:obj	Entity=112)
 21	in	in	ADP	IN	_	23	case	23:case	_
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(place-113-new-2-sgl
@@ -1079,7 +1079,7 @@
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 4	plenty	plenty	ADJ	JJ	Degree=Pos	12	parataxis	12:parataxis	_
 5	—	—	PUNCT	:	_	4	punct	4:punct	_
-6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Discourse=restatement_m:109->108:1|Entity=(event-115-giv:act-1-coref)
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Discourse=restatement-repetition_m:109->108:1|Entity=(event-115-giv:act-1-coref)
 7-8	shouldn't	_	_	_	_	_	_	_	_
 7	should	should	AUX	MD	VerbForm=Fin	12	aux	12:aux	_
 8	n't	not	PART	RB	Polarity=Neg	12	advmod	12:advmod	_
@@ -1161,7 +1161,7 @@
 # sent_id = GUM_whow_flirt-42
 # s_type = decl
 # text = Any sort of pointed or caustic remarks about yourself or someone else don't have a place in flirtatious conversations.
-1	Any	any	DET	DT	_	2	det	2:det	Discourse=restatement_m:114->103:5|Entity=(abstract-125-new-2-sgl
+1	Any	any	DET	DT	PronType=Ind	2	det	2:det	Discourse=restatement-repetition_m:114->103:5|Entity=(abstract-125-new-2-sgl
 2	sort	sort	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	_
 3	of	of	ADP	IN	_	7	case	7:case	_
 4	pointed	pointed	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
@@ -1321,7 +1321,7 @@
 # s_type = imp
 # text = Instead of relying too heavily on compliments, instead, focus on having an engaging, genuine conversation.
 # newpar = list type:::"unordered" (3 s) | item (3 s) | p (3 s)
-1	Instead	instead	SCONJ	RB	Degree=Pos	3	mark	3:mark	Discourse=antithesis:125->126:0
+1	Instead	instead	SCONJ	RB	_	3	mark	3:mark	Discourse=antithesis:125->126:0
 2	of	of	ADP	IN	_	1	fixed	1:fixed	_
 3	relying	rely	VERB	VBG	VerbForm=Ger	11	advcl	11:advcl:instead_of	_
 4	too	too	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
@@ -1329,7 +1329,7 @@
 6	on	on	ADP	IN	_	7	case	7:case	_
 7	compliments	compliment	NOUN	NNS	Number=Plur	3	obl	3:obl:on	Entity=(abstract-131-giv:inact-1-coref)|SpaceAfter=No
 8	,	,	PUNCT	,	_	3	punct	3:punct	_
-9	instead	instead	ADV	RB	Degree=Pos	11	advmod	11:advmod	Discourse=contrast_m:126->117:3|SpaceAfter=No
+9	instead	instead	ADV	RB	_	11	advmod	11:advmod	Discourse=joint_m:126->117:3|SpaceAfter=No
 10	,	,	PUNCT	,	_	9	punct	9:punct	_
 11	focus	focus	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
 12	on	on	SCONJ	IN	_	13	mark	13:mark	_
@@ -1360,7 +1360,7 @@
 # sent_id = GUM_whow_flirt-50
 # s_type = imp
 # text = In other words, show that you're attracted to this person by giving him or her a great conversation, not by stating it outright.
-1	In	in	ADP	IN	_	3	case	3:case	Discourse=restatement_m:128->127:0
+1	In	in	ADP	IN	_	3	case	3:case	Discourse=restatement-repetition_m:128->127:0
 2	other	other	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	words	word	NOUN	NNS	Number=Plur	5	obl	5:obl:in	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_

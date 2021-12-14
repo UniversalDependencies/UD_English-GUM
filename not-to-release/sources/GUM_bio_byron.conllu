@@ -30,7 +30,7 @@
 9	Grammar	Grammar	PROPN	NNP	Number=Sing	10	compound	10:compound	_
 10	School	School	PROPN	NNP	Number=Sing	6	nmod	6:nmod:at	Entity=4)1)|SpaceAfter=No|XML=</ref>
 11	,	,	PUNCT	,	_	16	punct	16:punct	_
-12	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=joint_m:3->2:0
+12	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=sequence_m:3->2:0
 13	in	in	ADP	IN	_	14	case	14:case	_
 14	August	August	PROPN	NNP	Number=Sing	16	obl	16:obl:in	Entity=(time-6-new-1-sgl|XML=<date when:::"1799-08">
 15	1799	1799	NUM	CD	NumForm=Digit|NumType=Card	14	nmod:tmod	14:nmod:tmod	Entity=(time-7-new-1-sgl)6)|XML=</date>
@@ -242,7 +242,7 @@
 5	"	''	PUNCT	``	_	7	punct	7:punct	Discourse=evidence:28->21:3|SpaceAfter=No|XML=<quote>
 6	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	Entity=(person-3-giv:act-1-ana-Lord_Byron)
 7	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	_
-8	no	no	DET	DT	Polarity=Neg	9	det	9:det	Entity=(abstract-42-new-2-sgl
+8	no	no	DET	DT	Polarity=Neg|PronType=Art	9	det	9:det	Entity=(abstract-42-new-2-sgl
 9	indisposition	indisposition	NOUN	NN	Number=Sing	7	obj	7:obj|12:obl:of	_
 10	that	that	PRON	WDT	PronType=Rel	12	obl	9:ref	Discourse=concession:29->28:0
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	12:nsubj	Entity=(person-17-acc:com-1-ana)
@@ -257,7 +257,7 @@
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(abstract-43-giv:act-2-coref
 21	worst	bad	ADJ	JJS	Degree=Sup	15	appos	15:appos	_
 22	of	of	ADP	IN	_	24	case	24:case	_
-23	all	all	DET	DT	_	24	det	24:det	Entity=(abstract-44-new-2-sgl
+23	all	all	DET	DT	PronType=Tot	24	det	24:det	Entity=(abstract-44-new-2-sgl
 24	maladies	malady	NOUN	NNS	Number=Plur	21	obl	21:obl:of	Entity=44)43)42)
 25	in	in	ADP	IN	_	27	case	27:case	_
 26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Entity=(abstract-45-new-2-sgl(person-17-giv:act-1-ana)
@@ -509,14 +509,14 @@
 # s_type = intj
 # text = Ah!
 # newpar = p (2 s)
-1	Ah	ah	INTJ	UH	_	0	root	0:root	Discourse=preparation:56->57:2|SpaceAfter=No
+1	Ah	ah	INTJ	UH	_	0	root	0:root	Discourse=phatic:56->57:2|SpaceAfter=No
 2	!	!	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_bio_byron-17
 # s_type = decl
 # text = Sure some stronger impulse vibrates here, Which whispers friendship will be doubly dear To one, who thus for kindred hearts must roam, And seek abroad, the love denied at home.
 1	Sure	sure	ADV	RB	Degree=Pos	5	discourse	5:discourse	Discourse=evidence:57->42:5
-2	some	some	DET	DT	_	4	det	4:det	Entity=(abstract-79-new-4-sgl
+2	some	some	DET	DT	PronType=Ind	4	det	4:det	Entity=(abstract-79-new-4-sgl
 3	stronger	strong	ADJ	JJR	Degree=Cmp	4	amod	4:amod	_
 4	impulse	impulse	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	_
 5	vibrates	vibrate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root|9:nsubj	_
@@ -530,7 +530,7 @@
 13	doubly	doubly	ADV	RB	Degree=Pos	14	advmod	14:advmod	_
 14	dear	dear	ADJ	JJ	Degree=Pos	5	conj	5:conj	_
 15	To	to	ADP	IN	_	16	case	16:case	_
-16	one	one	PRON	PRP	_	14	obl	14:obl:to|24:nsubj	Entity=(person-81-new-1-sgl|SpaceAfter=No
+16	one	one	PRON	PRP	PronType=Prs	14	obl	14:obl:to|24:nsubj	Entity=(person-81-new-1-sgl|SpaceAfter=No
 17	,	,	PUNCT	,	_	24	punct	24:punct	_
 18	who	who	PRON	WP	PronType=Rel	24	nsubj	16:ref	Discourse=elaboration:60->59:0
 19	thus	thus	ADV	RB	_	24	advmod	24:advmod	_
@@ -635,8 +635,8 @@
 44	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	43	obj	43:obj	Entity=(person-3-giv:act-1-ana-Lord_Byron)
 45	to	to	ADP	IN	_	46	case	46:case	_
 46	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	43	obl	43:obl:to	Entity=(person-90-giv:act-1-ana)
-47	for	for	ADV	IN	_	43	advmod	43:advmod	_
-48	ever	ever	X	RB	Degree=Pos	47	goeswith	47:goeswith	SpaceAfter=No
+47	for	for	ADV	IN	Degree=Pos	43	advmod	43:advmod	_
+48	ever	ever	X	RB	_	47	goeswith	47:goeswith	SpaceAfter=No
 49	.	.	PUNCT	.	_	16	punct	16:punct	SpaceAfter=No
 50	"	''	PUNCT	''	_	16	punct	16:punct	XML=</quote>
 
@@ -662,7 +662,7 @@
 # sent_id = GUM_bio_byron-21
 # s_type = decl
 # text = In later years, he described the affair as "a violent, though pure love and passion".
-1	In	in	ADP	IN	_	3	case	3:case	Discourse=joint_m:72->70:1
+1	In	in	ADP	IN	_	3	case	3:case	Discourse=sequence_m:72->70:1
 2	later	late	ADJ	JJR	Degree=Cmp	3	amod	3:amod	Entity=(time-99-acc:com-2-sgl
 3	years	year	NOUN	NNS	Number=Plur	6	obl	6:obl:in	Entity=99)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -848,7 +848,7 @@
 41	King	King	PROPN	NNP	Number=Sing	43	nmod:poss	43:nmod:poss	Entity=(organization-124-new-3-sgl-King's_College%2C_Cambridge
 42	's	's	PART	POS	_	41	case	41:case	_
 43	College	College	PROPN	NNP	Number=Sing	39	nmod	39:nmod:at	Entity=124)123)|SpaceAfter=No
-44	,	,	PUNCT	,	_	48	punct	48:punct	_
+44	,	,	PUNCT	,	_	39	punct	39:punct	_
 45	with	with	ADP	IN	_	46	case	46:case	Discourse=elaboration:90->89:0
 46	whom	who	PRON	WP	PronType=Rel	48	obl	36:ref	_
 47	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	48	nsubj	48:nsubj	Entity=(person-3-giv:act-1-ana-Lord_Byron)

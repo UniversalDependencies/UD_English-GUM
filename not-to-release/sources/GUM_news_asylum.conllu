@@ -89,13 +89,13 @@
 15	noticed	notice	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	ccomp	12:ccomp	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(person-8-giv:act-2-coref
 17	people	person	NOUN	NNS	Number=Plur	15	obj	15:obj	Entity=8)
-18	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=sequence_m:9->8:0
+18	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=sequence_m:9->8:0
 19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(object-17-new-2-sgl
-20	warship	warship	NOUN	NN	Number=Sing	22	nsubj:pass	22:nsubj:pass|24:nsubj:xsubj	Entity=17)
+20	warship	warship	NOUN	NN	Number=Sing	22	nsubj:pass	22:nsubj:pass	Entity=17)
 21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux:pass	22:aux:pass	_
-22	deployed	deploy	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	ccomp	15:ccomp	_
+22	deployed	deploy	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	conj	12:ccomp|15:conj:and	_
 23	to	to	PART	TO	_	24	mark	24:mark	Discourse=purpose:10->9:0
-24	retrieve	retrieve	VERB	VB	VerbForm=Inf	22	xcomp	22:xcomp	_
+24	retrieve	retrieve	VERB	VB	VerbForm=Inf	22	advcl	22:advcl:to	_
 25	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	24	obj	24:obj	Entity=(person-8-giv:act-1-ana)|SpaceAfter=No
 26	.	.	PUNCT	.	_	12	punct	12:punct	_
 
@@ -202,7 +202,7 @@
 15	,	,	PUNCT	,	_	14	punct	14:punct	_
 16	according	accord	VERB	VBG	VerbForm=Ger	18	case	18:case	Discourse=attribution:24->25:0
 17	to	to	ADP	IN	_	16	fixed	16:fixed	_
-18	AFP	AFP	PROPN	NNP	Abbr=Yes|Number=Sing	28	obl	28:obl:according_to	Entity=(organization-31-new-1-sgl-Agence_France-Presse)|SpaceAfter=No|XML=<ref></ref>
+18	AFP	AFP	PROPN	NNP	Abbr=Yes|Number=Sing	28	obl	28:obl:according_to	Entity=(organization-31-new-1-sgl-Agence_France%2DPresse)|SpaceAfter=No|XML=<ref></ref>
 19	,	,	PUNCT	,	_	18	punct	18:punct	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Discourse=same-unit_m:25->23:0|Entity=(organization-21-giv:inact-2,3-coref-United_Nations
 21	Untied	United	ADJ	NNP	Degree=Pos	22	amod	22:amod	XML=<sic></sic>
@@ -278,7 +278,7 @@
 21	in	in	ADP	IN	_	22	case	22:case	_
 22	contact	contact	NOUN	NN	Number=Sing	16	ccomp	16:ccomp	Entity=(abstract-40-new-1-sgl
 23	with	with	ADP	IN	_	26	case	26:case	_
-24	all	all	DET	DT	_	26	det	26:det	Entity=(organization-41-new-3-sgl
+24	all	all	DET	DT	PronType=Tot	26	det	26:det	Entity=(organization-41-new-3-sgl
 25	relevant	relevant	ADJ	JJ	Degree=Pos	26	amod	26:amod	_
 26	parties	party	NOUN	NNS	Number=Plur	22	nmod	22:nmod:with|31:obl:with	SpaceAfter=No
 27	,	,	PUNCT	,	_	31	punct	31:punct	_

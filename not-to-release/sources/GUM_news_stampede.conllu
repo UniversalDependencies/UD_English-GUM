@@ -47,8 +47,8 @@
 1	According	accord	VERB	VBG	VerbForm=Ger	6	case	6:case	Discourse=attribution:4->5:0
 2	to	to	ADP	IN	_	1	fixed	1:fixed	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(organization-8-new-2,3,4-sgl-Ministry_of_Interior_%28Saudi_Arabia%29
-4	Saudi	Saudi	PROPN	NNP	Number=Sing	6	compound	6:compound	_
-5	Interior	Interior	PROPN	NNP	Number=Sing	6	compound	6:compound	_
+4	Saudi	Saudi	ADJ	NNP	Degree=Pos	6	amod	6:amod	_
+5	Interior	Interior	ADJ	NNP	Degree=Pos	6	amod	6:amod	_
 6	Ministry	Ministry	PROPN	NNP	Number=Sing	13	obl	13:obl:according_to	Entity=8)
 7	over	over	ADV	RB	_	8	advmod	8:advmod	Discourse=ROOT:5:0|Entity=(person-9-new-4-sgl
 8	345	345	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	10:nummod	_
@@ -67,9 +67,9 @@
 21	pilgrimage	pilgrimage	NOUN	NN	Number=Sing	13	obl	13:obl:during	XML=</ref>
 22	near	near	ADP	IN	_	23	case	23:case	_
 23	Mecca	Mecca	PROPN	NNP	Number=Sing	21	nmod	21:nmod:near	Entity=(place-10-new-1,3,4-coref-Mecca|SpaceAfter=No|XML=<ref>
-24	,	,	PUNCT	,	_	25	punct	25:punct	_
-25	Saudi	Saudi	PROPN	NNP	Number=Sing	23	compound	23:compound	Entity=(place-11-new-1,2-sgl-Saudi_Arabia
-26	Arabia	Arabia	PROPN	NNP	Number=Sing	25	flat	25:flat	Entity=11)10)3)|SpaceAfter=No|XML=</ref>
+24	,	,	PUNCT	,	_	26	punct	26:punct	_
+25	Saudi	Saudi	ADJ	NNP	Degree=Pos	26	amod	26:amod	Entity=(place-11-new-1,2-sgl-Saudi_Arabia
+26	Arabia	Arabia	PROPN	NNP	Number=Sing	23	appos	23:appos	Entity=11)10)3)|SpaceAfter=No|XML=</ref>
 27	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_news_stampede-5
@@ -184,7 +184,7 @@
 16	or	or	CCONJ	CC	_	17	cc	17:cc	_
 17	financially	financially	ADV	RB	Degree=Pos	15	conj	15:conj:or|18:advmod	_
 18	possible	possible	ADJ	JJ	Degree=Pos	3	advcl	3:advcl:if	SpaceAfter=No
-19	,	,	PUNCT	,	_	23	punct	23:punct	_
+19	,	,	PUNCT	,	_	18	punct	18:punct	_
 20	as	as	SCONJ	IN	_	23	mark	23:mark	Discourse=cause:17->15:1
 21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	23:nsubj	Entity=(event-3-giv:act-1-coref-Hajj)
 22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	23:cop	_
@@ -202,7 +202,7 @@
 # sent_id = GUM_news_stampede-9
 # s_type = decl
 # text = Saudi officials had already provided safeguards by installing an oval wall with padded edges to protect pilgrams from a crush, installed security cameras and placed over 60,000 security personnel in the area.
-1	Saudi	Saudi	PROPN	NNP	Number=Sing	2	compound	2:compound	Discourse=background:18->5:5|Entity=(person-30-new-2-sgl
+1	Saudi	Saudi	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=background:18->5:5|Entity=(person-30-new-2-sgl
 2	officials	official	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj|22:nsubj|26:nsubj	Entity=30)
 3	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	5:aux|22:aux|26:aux	_
 4	already	already	ADV	RB	_	5	advmod	5:advmod	_
@@ -293,13 +293,13 @@
 14	Ghaza	Ghaza	PROPN	NNP	Number=Sing	12	flat	12:flat	XML=</w>
 15	Hotel	Hotel	PROPN	NNP	Number=Sing	26	nsubj	26:nsubj	_
 16	near	near	ADP	IN	_	19	case	19:case	_
-17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(place-48-new-2,3,5-coref-Masjid_al-Haram
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(place-48-new-2,3,5-coref-Masjid_al%2DHaram
 18	Masjid	Masjid	PROPN	NNP	Number=Sing	19	compound	19:compound	XML=<ref>
 19	Al	Al	PROPN	NNP	Number=Sing	15	nmod	15:nmod:near	SpaceAfter=No|XML=<w>
 20	-	-	PUNCT	HYPH	_	21	punct	21:punct	SpaceAfter=No
 21	Haram	Haram	PROPN	NNP	Number=Sing	19	flat	19:flat	Entity=48)|XML=</w></ref>
 22	(	(	PUNCT	-LRB-	_	24	punct	24:punct	Discourse=restatement:29->28:0|SpaceAfter=No
-23	Grand	Grand	ADJ	NNP	Degree=Pos	24	amod	24:amod	Entity=(place-48-giv:act-1,2-appos-Masjid_al-Haram
+23	Grand	Grand	ADJ	NNP	Degree=Pos	24	amod	24:amod	Entity=(place-48-giv:act-1,2-appos-Masjid_al%2DHaram
 24	Mosque	Mosque	PROPN	NNP	Number=Sing	19	appos	19:appos	Entity=48)|SpaceAfter=No
 25	)	)	PUNCT	-RRB-	_	24	punct	24:punct	Entity=47)
 26	collasped	collaspe	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	advcl	9:advcl:when|29:nmod:of	Discourse=same-unit_m:30->28:1|SpaceAfter=No

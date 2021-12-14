@@ -222,7 +222,7 @@
 7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(substance-5-giv:inact-3-coref
 8	Santorum	Santorum	PROPN	NNP	Number=Sing	9	compound	9:compound	Entity=(person-6-giv:inact-1-coref-Rick_Santorum)
 9	cocktail	cocktail	NOUN	NN	Number=Sing	5	nmod	5:nmod:of	Entity=5)32)|SpaceAfter=No
-10	,	,	PUNCT	,	_	21	punct	21:punct	_
+10	,	,	PUNCT	,	_	2	punct	2:punct	_
 11	"	''	PUNCT	``	_	21	punct	21:punct	Discourse=circumstance:19->21:1|SpaceAfter=No|XML=<quote>
 12	When	when	SCONJ	WRB	PronType=Int	15	mark	15:mark	_
 13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj	Entity=(person-6-giv:act-1-ana-Rick_Santorum)
@@ -234,7 +234,7 @@
 19	,	,	PUNCT	,	_	15	punct	15:punct	_
 20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	21:nsubj	Discourse=attribution:20->21:0|Entity=(person-30-giv:act-1-ana)
 21	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	ccomp	2:ccomp	SpaceAfter=No
-22	,	,	PUNCT	,	_	28	punct	28:punct	_
+22	,	,	PUNCT	,	_	21	punct	21:punct	_
 23	'	'	PUNCT	``	_	28	punct	28:punct	Discourse=joint_m:21->11:2|SpaceAfter=No
 24	OK	OK	INTJ	UH	Abbr=Yes	28	discourse	28:discourse	SpaceAfter=No
 25	,	,	PUNCT	,	_	24	punct	24:punct	_
@@ -350,7 +350,7 @@
 6	US	US	PROPN	NNP	Abbr=Yes|Number=Sing	7	compound	7:compound	Entity=(abstract-45-new-2-sgl(place-46-new-1-coref-United_States)
 7	$	$	SYM	SYM	_	4	obl	4:obl:at	_
 8	8.00	8.00	NUM	CD	NumForm=Digit|NumType=Frac	7	nummod	7:nummod	Entity=45)|SpaceAfter=No
-9	,	,	PUNCT	,	_	20	punct	20:punct	_
+9	,	,	PUNCT	,	_	10	punct	10:punct	_
 10	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=joint_m:32->31:0
 11	upon	upon	ADP	IN	_	13	case	13:case	_
 12	an	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Entity=(event-47-new-2-sgl
@@ -438,12 +438,12 @@
 7	offensive	offensive	ADJ	JJ	Degree=Pos	0	root	0:root	_
 8	beyond	beyond	ADP	IN	_	13	case	13:case	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	8:punct	_
-10	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj	Discourse=preparation:39->40:1|Entity=(person-54-acc:com-1-ana)
+10	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj	Discourse=phatic:39->40:1|Entity=(person-54-acc:com-1-ana)
 11	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	parataxis	7:parataxis	SpaceAfter=No
-12	,	,	PUNCT	,	_	13	punct	13:punct	_
+12	,	,	PUNCT	,	_	11	punct	11:punct	_
 13	anything	anything	NOUN	NN	Number=Sing	7	obl	7:obl:beyond|23:obj	Discourse=same-unit_m:40->38:0|Entity=(abstract-55-new-1-coref
 14	that	that	PRON	WDT	PronType=Rel	23	obj	13:ref	Discourse=elaboration:41->40:0
-15	any	any	DET	DT	_	17	det	17:det	_
+15	any	any	DET	DT	PronType=Ind	17	det	17:det	_
 16	public	public	ADJ	JJ	Degree=Pos	17	amod	17:amod	Entity=(person-56-new-2-sgl
 17	figure	figure	NOUN	NN	Number=Sing	23	nsubj	23:nsubj	Entity=56)
 18	or	or	CCONJ	CC	_	19	cc	19:cc	_
@@ -567,7 +567,7 @@
 # newpar = p (4 s)
 1	Rick	Rick	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj|7:nsubj	Discourse=joint_m:52->11:2|Entity=(person-6-giv:inact-1,2-coref-Rick_Santorum
 2	Santorum	Santorum	PROPN	NNP	Number=Sing	1	flat	1:flat	_
-3	himself	himself	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nmod:npmod	1:nmod:npmod	Entity=6)
+3	himself	himself	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Emp	1	nmod:npmod	1:nmod:npmod	Entity=6)
 4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux|7:aux	_
 5	acknowledged	acknowledge	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 6	and	and	CCONJ	CC	_	7	cc	7:cc	_
@@ -625,7 +625,7 @@
 20	system	system	NOUN	NN	Number=Sing	14	conj	14:conj:or|16:case	Entity=85)81)
 21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	22:cop	_
 22	something	something	NOUN	NN	Number=Sing	0	root	0:root	Entity=(event-81-giv:act-1-pred
-23	that	that	PRON	WDT	_	29	obj	29:obj	Discourse=attribution:55->56:0
+23	that	that	PRON	WDT	PronType=Rel	29	obj	29:obj	Discourse=attribution:55->56:0
 24	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	25:nsubj	Entity=(organization-74-giv:act-1-ana-Google)
 25	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	22:acl:relcl	_
 26	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	29	nsubj	29:nsubj	Discourse=antithesis:56->54:0|Entity=(organization-74-giv:act-1-ana-Google)
@@ -678,10 +678,10 @@
 24	,	,	PUNCT	,	_	23	punct	23:punct	_
 25	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	26	nsubj	26:nsubj	Discourse=attribution:62->61:0|Entity=(person-54-giv:inact-1-ana)
 26	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	22	parataxis	22:parataxis	SpaceAfter=No
-27	,	,	PUNCT	,	_	28	punct	28:punct	_
+27	,	,	PUNCT	,	_	26	punct	26:punct	_
 28	anything	anything	NOUN	NN	Number=Sing	22	obl	22:obl:beyond|38:obj	Discourse=same-unit_m:63->61:1|Entity=(abstract-55-giv:inact-1-coref
 29	that	that	PRON	WDT	PronType=Rel	38	obj	28:ref	Discourse=elaboration:64->63:0
-30	any	any	DET	DT	_	32	det	32:det	Entity=(abstract-89-new-3,5-sgl
+30	any	any	DET	DT	PronType=Ind	32	det	32:det	Entity=(abstract-89-new-3,5-sgl
 31	public	public	ADJ	JJ	Degree=Pos	32	amod	32:amod	_
 32	figure	figure	NOUN	NN	Number=Sing	38	nsubj	38:nsubj	_
 33	or	or	CCONJ	CC	_	34	cc	34:cc	_
@@ -925,7 +925,7 @@
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(abstract-106-new-2-sgl
 9	stand	stand	NOUN	NN	Number=Sing	7	obj	7:obj	_
 10	on	on	ADP	IN	_	13	case	13:case	_
-11	any	any	DET	DT	_	13	det	13:det	Entity=(abstract-107-new-3-sgl
+11	any	any	DET	DT	PronType=Ind	13	det	13:det	Entity=(abstract-107-new-3-sgl
 12	political	political	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
 13	issues	issue	NOUN	NNS	Number=Plur	9	nmod	9:nmod:on	Entity=107)106)105)|SpaceAfter=No
 14	.	.	PUNCT	.	_	5	punct	5:punct	_
@@ -1000,7 +1000,7 @@
 5	or	or	CCONJ	CC	_	6	cc	6:cc	_
 6	not	not	PART	RB	Polarity=Neg	4	conj	4:conj:or|9:csubj	_
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
-8	another	another	DET	DT	_	9	det	9:det	Entity=(abstract-112-new-2-sgl
+8	another	another	DET	DT	PronType=Art	9	det	9:det	Entity=(abstract-112-new-2-sgl
 9	thing	thing	NOUN	NN	Number=Sing	0	root	0:root	_
 10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	11:nsubj|16:nsubj:xsubj	Discourse=elaboration:92->91:0|Entity=(person-29-giv:act-1-ana)
 11	leave	leave	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	acl:relcl	9:acl:relcl	_
@@ -1180,7 +1180,7 @@
 # newpar = sp who:::"#JohnRauschenberg" (2 s) | p (2 s)
 1	Not	not	PART	RB	Polarity=Neg	0	root	0:root	Discourse=joint_m:106->76:4
 2	at	at	ADP	IN	_	3	case	3:case	_
-3	all	all	DET	DT	_	1	nmod	1:nmod:at	SpaceAfter=No
+3	all	all	DET	DT	PronType=Tot	1	nmod	1:nmod:at	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_interview_cocktail-52
@@ -1320,7 +1320,7 @@
 21	popular	popular	ADJ	JJ	Degree=Pos	16	xcomp	16:xcomp	_
 22	since	since	SCONJ	IN	_	23	mark	23:mark	Discourse=circumstance:120->119:0
 23	getting	get	VERB	VBG	VerbForm=Ger	16	advcl	16:advcl:since	_
-24	all	all	DET	PDT	_	26	det:predet	26:det:predet	Entity=(abstract-136-new-3-sgl
+24	all	all	DET	PDT	PronType=Tot	26	det:predet	26:det:predet	Entity=(abstract-136-new-3-sgl
 25	this	this	DET	DT	Number=Sing|PronType=Dem	26	det	26:det	_
 26	publicity	publicity	NOUN	NN	Number=Sing	23	obj	23:obj	Entity=136)|SpaceAfter=No
 27	.	.	PUNCT	.	_	5	punct	5:punct	_
@@ -1331,7 +1331,7 @@
 # text = We have no way to estimate how many times we've served it overall, but we're now pouring around ten a night.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=concession:121->124:0|Entity=(person-29-giv:inact-1-ana)
 2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	no	no	DET	DT	Polarity=Neg	4	det	4:det	_
+3	no	no	DET	DT	Polarity=Neg|PronType=Art	4	det	4:det	_
 4	way	way	NOUN	NN	Number=Sing	2	obj	2:obj	_
 5	to	to	PART	TO	_	6	mark	6:mark	Discourse=attribution:122->123:0
 6	estimate	estimate	VERB	VB	VerbForm=Inf	4	acl	4:acl:to	_

@@ -136,10 +136,10 @@
 25	inches	inch	NOUN	NNS	Number=Plur	22	nmod	22:nmod:of	_
 26	of	of	ADP	IN	_	27	case	27:case	_
 27	precipitation	precipitation	NOUN	NN	Number=Sing	25	nmod	25:nmod:of	Entity=22)21)
-28	each	each	DET	DT	_	29	det	29:det	Entity=(time-23-new-2-coref
+28	each	each	DET	DT	PronType=Tot	29	det	29:det	Entity=(time-23-new-2-coref
 29	year	year	NOUN	NN	Number=Sing	20	obl:tmod	20:obl:tmod	Entity=23)|SpaceAfter=No
 30	,	,	PUNCT	,	_	34	punct	34:punct	_
-31	both	both	DET	DT	_	34	nsubj	34:nsubj	Discourse=result:11->9:1|Entity=(abstract-24-acc:aggr-1-sgl|Split=18<24,21<24
+31	both	both	DET	DT	PronType=Art	34	nsubj	34:nsubj	Discourse=result:11->9:1|Entity=(abstract-24-acc:aggr-1-sgl|Split=18<24,21<24
 32	of	of	ADP	IN	_	33	case	33:case	_
 33	which	which	PRON	WDT	PronType=Int	31	nmod	31:nmod:of	Entity=24)
 34	account	account	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	_
@@ -184,7 +184,7 @@
 3	be	be	AUX	VB	VerbForm=Inf	5	cop	5:cop	_
 4	very	very	ADV	RB	_	5	advmod	5:advmod	_
 5	warm	warm	ADJ	JJ	Degree=Pos	0	root	0:root	_
-6	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=contrast_m:14->13:0
+6	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=joint_m:14->13:0
 7	with	with	ADP	IN	_	10	case	10:case	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(abstract-29-new-3-sgl
 9	cold	cold	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
@@ -225,7 +225,7 @@
 # sent_id = GUM_voyage_tulsa-11
 # s_type = decl
 # text = There is not much snow, just a few inches each year, typically, although in 2007 and again in 2008 there were rather large "ice storms".
-1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=justify:17->16:0
+1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=justify:17->16:0
 2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	much	much	ADJ	JJ	Degree=Pos	5	amod	5:amod	Entity=(substance-32-new-2-sgl
@@ -235,7 +235,7 @@
 8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(substance-33-new-3-sgl
 9	few	few	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
 10	inches	inch	NOUN	NNS	Number=Plur	5	nmod:npmod	5:nmod:npmod	Entity=33)
-11	each	each	DET	DT	_	12	det	12:det	Entity=(time-23-giv:inact-2-coref
+11	each	each	DET	DT	PronType=Tot	12	det	12:det	Entity=(time-23-giv:inact-2-coref
 12	year	year	NOUN	NN	Number=Sing	10	nmod:tmod	10:nmod:tmod	Entity=23)|SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	14:punct	_
 14	typically	typically	ADV	RB	Degree=Pos	2	advmod	2:advmod	SpaceAfter=No
@@ -247,7 +247,7 @@
 20	again	again	ADV	RB	Degree=Pos	18	advmod	18:advmod	_
 21	in	in	ADP	IN	_	22	case	22:case	_
 22	2008	2008	NUM	CD	NumForm=Digit|NumType=Card	17	conj	17:conj:and|18:case	Entity=(time-35-new-1-sgl)|XML=<date when:::"2008"></date>
-23	there	there	PRON	EX	_	24	expl	24:expl	_
+23	there	there	PRON	EX	PronType=Dem	24	expl	24:expl	_
 24	were	be	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	advcl	2:advcl:although	_
 25	rather	rather	ADV	RB	_	26	advmod	26:advmod	Entity=(event-36-new-5-sgl
 26	large	large	ADJ	JJ	Degree=Pos	29	amod	29:amod	_
@@ -303,7 +303,7 @@
 8	love	love	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	_
 9	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(place-1-giv:act-2-coref-Tulsa%2C_Oklahoma(person-41-giv:act-1-ana)
 10	city	city	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=1)
-11	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=contrast_m:23->22:0
+11	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=joint_m:23->22:0
 12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	13:nsubj	Entity=(person-41-giv:act-1-ana)
 13	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	3:ccomp|8:conj:and	_
 14	that	that	DET	DT	Number=Sing|PronType=Dem	16	det	16:det	Entity=(abstract-42-new-3-sgl
@@ -531,9 +531,9 @@
 # s_type = decl
 # text = There is no passenger train service to Tulsa.
 # newpar = p (1 s)
-1	There	there	PRON	EX	_	6	expl	6:expl	Discourse=joint_m:48->32:7
+1	There	there	PRON	EX	PronType=Dem	6	expl	6:expl	Discourse=joint_m:48->32:7
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
-3	no	no	DET	DT	Polarity=Neg	6	det	6:det	_
+3	no	no	DET	DT	Polarity=Neg|PronType=Art	6	det	6:det	_
 4	passenger	passenger	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(abstract-71-new-3-sgl(object-72-new-2-sgl
 5	train	train	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=72)
 6	service	service	NOUN	NN	Number=Sing	0	root	0:root	_
@@ -557,7 +557,7 @@
 3	drive	drive	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	almost	almost	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
 5	everywhere	everywhere	ADV	RB	Degree=Pos	3	advmod	3:advmod	SpaceAfter=No
-6	,	,	PUNCT	,	_	16	punct	16:punct	_
+6	,	,	PUNCT	,	_	7	punct	7:punct	_
 7	although	although	SCONJ	IN	_	16	mark	16:mark	Discourse=concession:51->50:0
 8	bus	bus	NOUN	NN	Number=Sing	14	compound	14:compound	Entity=(abstract-74-new-7-sgl(object-75-new-1-sgl)|SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	10:punct	_
@@ -833,14 +833,14 @@
 # s_type = decl
 # text = Almost all major intersections are one mile from each other, and exactly in a straight line.
 1	Almost	almost	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=elaboration:71->70:0
-2	all	all	DET	DT	_	4	det	4:det	Entity=(place-121-new-3-coref
+2	all	all	DET	DT	PronType=Tot	4	det	4:det	Entity=(place-121-new-3-coref
 3	major	major	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	intersections	intersection	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj|17:nsubj	Entity=121)
 5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 6	one	one	NUM	CD	NumForm=Word|NumType=Card	7	nummod	7:nummod	Entity=(abstract-122-new-2-sgl
 7	mile	mile	NOUN	NN	Number=Sing	0	root	0:root	Entity=122)
 8	from	from	ADP	IN	_	9	case	9:case	_
-9	each	each	DET	DT	_	7	obl	7:obl:from	Entity=(place-121-giv:act-1-ana
+9	each	each	DET	DT	PronType=Rcp	7	obl	7:obl:from	Entity=(place-121-giv:act-1-ana
 10	other	other	ADJ	JJ	Degree=Pos	9	fixed	9:fixed	Entity=121)|SpaceAfter=No
 11	,	,	PUNCT	,	_	17	punct	17:punct	_
 12	and	and	CCONJ	CC	_	17	cc	17:cc	_
@@ -868,7 +868,7 @@
 12	where	where	SCONJ	WRB	PronType=Rel	14	mark	14:mark	Discourse=elaboration:73->72:0
 13	streets	street	NOUN	NNS	Number=Plur	14	nsubj	14:nsubj	Bridge=126<127|Entity=(place-127-acc:inf-1-sgl)
 14	go	go	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	11:acl:relcl	_
-15	every	every	DET	DT	_	17	det	17:det	_
+15	every	every	DET	DT	PronType=Tot	17	det	17:det	_
 16	which	which	DET	WDT	PronType=Int	17	det	17:det	_
 17	way	way	NOUN	NN	Number=Sing	14	obl:npmod	14:obl:npmod	Entity=126)|SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -996,7 +996,7 @@
 20	arterials	arterial	NOUN	NNS	Number=Plur	21	nsubj	21:nsubj	Entity=144)
 21	running	run	VERB	VBG	VerbForm=Ger	15	acl	15:acl:with	_
 22	on	on	ADP	IN	_	24	case	24:case	_
-23	each	each	DET	DT	_	24	det	24:det	Entity=(abstract-145-new-2-sgl
+23	each	each	DET	DT	PronType=Tot	24	det	24:det	Entity=(abstract-145-new-2-sgl
 24	mile	mile	NOUN	NN	Number=Sing	21	obl	21:obl:on	Entity=145)|SpaceAfter=No
 25	.	.	PUNCT	.	_	6	punct	6:punct	_
 
@@ -1089,7 +1089,7 @@
 11	Mississippi	Mississippi	PROPN	NNP	Number=Sing	12	compound	12:compound	XML=<ref target:::"https://en.wikivoyage.org/wiki/Mississippi_River">
 12	River	River	PROPN	NNP	Number=Sing	8	obl	8:obl:of	Entity=169)168)167)|SpaceAfter=No|XML=</ref>
 13	,	,	PUNCT	,	_	14	punct	14:punct	_
-14	vice	vice	ADV	RB	Degree=Pos	7	parataxis	7:parataxis	Discourse=contrast_m:93->92:0
+14	vice	vice	ADV	RB	Degree=Pos	7	parataxis	7:parataxis	Discourse=joint_m:93->92:0
 15	versa	versa	ADV	RB	Degree=Pos	14	fixed	14:fixed	_
 16	for	for	ADP	IN	_	18	case	18:case	_
 17	name	name	NOUN	NN	Number=Sing	18	compound	18:compound	Entity=(place-170-new-2-sgl
@@ -1237,7 +1237,7 @@
 # s_type = decl
 # text = In some parts of the city, numbered streets intersect, so the distinction is important.
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=justify:99->100:0
-2	some	some	DET	DT	_	3	det	3:det	Entity=(place-189-new-2-sgl
+2	some	some	DET	DT	PronType=Ind	3	det	3:det	Entity=(place-189-new-2-sgl
 3	parts	part	NOUN	NNS	Number=Plur	10	obl	10:obl:in	_
 4	of	of	ADP	IN	_	6	case	6:case	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(place-1-giv:inact-2-coref-Tulsa%2C_Oklahoma
@@ -1457,7 +1457,7 @@
 # sent_id = GUM_voyage_tulsa-67
 # s_type = decl
 # text = It is usually a means of travel for those who are without their own motor vehicle.
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=joint_m:115->114:0|Entity=(object-205-giv:act-1-ana)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=contrast_m:115->114:0|Entity=(object-205-giv:act-1-ana)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	usually	usually	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(object-205-giv:act-2-pred
@@ -1536,7 +1536,7 @@
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	11:cop	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(place-226-giv:act-7-pred-Great_Osage_Trail
 6	rails	rail	NOUN	NNS	Number=Plur	11	compound	11:compound	SpaceAfter=No|XML=<w>
-7	-	-	PUNCT	HYPH	_	10	punct	10:punct	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	8:punct	SpaceAfter=No
 8	to	to	ADP	IN	_	10	case	10:case	SpaceAfter=No
 9	-	-	PUNCT	HYPH	_	8	punct	8:punct	SpaceAfter=No
 10	trails	trail	NOUN	NNS	Number=Plur	6	nmod	6:nmod:to	XML=</w>

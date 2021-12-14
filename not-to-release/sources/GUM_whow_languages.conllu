@@ -37,7 +37,7 @@
 5	fundamental	fundamental	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
 6	property	property	NOUN	NN	Number=Sing	0	root	0:root	_
 7	in	in	ADP	IN	_	9	case	9:case	_
-8	all	all	DET	DT	_	9	det	9:det	Entity=(abstract-7-new-2-sgl
+8	all	all	DET	DT	PronType=Tot	9	det	9:det	Entity=(abstract-7-new-2-sgl
 9	languages	language	NOUN	NNS	Number=Plur	6	nmod	6:nmod:in	Entity=7)6)|SpaceAfter=No
 10	.	.	PUNCT	.	_	6	punct	6:punct	_
 
@@ -274,7 +274,7 @@
 24	to	to	PART	TO	_	28	mark	28:mark	_
 25	be	be	AUX	VB	VerbForm=Inf	28	cop	28:cop	_
 26	'	'	PUNCT	``	_	28	punct	28:punct	SpaceAfter=No
-27	Mat	Mat	DET	FW	_	28	det	28:det	Entity=(abstract-44-new-2-sgl
+27	Mat	Mat	DET	FW	PronType=Art	28	det	28:det	Entity=(abstract-44-new-2-sgl
 28	Fereder	Fereder	X	FW	_	19	xcomp	19:xcomp	Entity=44)|SpaceAfter=No
 29	'	'	PUNCT	''	_	28	punct	28:punct	SpaceAfter=No
 30	,	,	PUNCT	,	_	39	punct	39:punct	_
@@ -443,7 +443,7 @@
 # newpar = item n:::"4" (2 s) | figure (0 s) | p (2 s) | hi rend:::"bold" (1 s)
 1	Consider	consider	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint_m:36->3:2
 2	basing	base	VERB	VBG	VerbForm=Ger	1	xcomp	1:xcomp	_
-3	some	some	DET	DT	_	2	obj	2:obj	_
+3	some	some	DET	DT	PronType=Ind	2	obj	2:obj	_
 4	of	of	ADP	IN	_	6	case	6:case	_
 5	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(abstract-58-new-2-sgl(person-5-giv:inact-1-ana)
 6	words	word	NOUN	NNS	Number=Plur	3	nmod	3:nmod:of	Entity=58)
@@ -473,7 +473,7 @@
 13	'	'	PUNCT	``	_	14	punct	14:punct	SpaceAfter=No
 14	Khinssa	Khinssa	X	FW	_	6	obl	6:obl:as	Entity=(abstract-61-new-1-sgl)|SpaceAfter=No
 15	'	'	PUNCT	''	_	14	punct	14:punct	SpaceAfter=No
-16	,	,	PUNCT	,	_	18	punct	18:punct	_
+16	,	,	PUNCT	,	_	14	punct	14:punct	_
 17	'	'	PUNCT	``	_	18	punct	18:punct	Discourse=joint_m:40->39:0|SpaceAfter=No
 18	Drink	drink	VERB	VB	VerbForm=Inf	8	conj	6:obj|8:conj:and	Entity=(abstract-62-new-1-sgl)|SpaceAfter=No
 19	'	'	PUNCT	''	_	18	punct	18:punct	_
@@ -481,7 +481,7 @@
 21	'	'	PUNCT	``	_	22	punct	22:punct	SpaceAfter=No
 22	Bever	Bever	X	FW	_	6	obl	6:obl:as	Entity=(abstract-63-new-1-sgl)|SpaceAfter=No
 23	'	'	PUNCT	''	_	22	punct	22:punct	SpaceAfter=No
-24	,	,	PUNCT	,	_	27	punct	27:punct	_
+24	,	,	PUNCT	,	_	22	punct	22:punct	_
 25	and	and	CCONJ	CC	_	27	cc	27:cc	Discourse=joint_m:41->39:0
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(abstract-64-new-2-coref
 27	word	word	NOUN	NN	Number=Sing	8	conj	6:obj|8:conj:and	Entity=64)
@@ -536,7 +536,7 @@
 1	Why	why	ADV	WRB	PronType=Int	3	advmod	3:advmod	Discourse=elaboration:44->43:0
 2	not	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	_
 3	add	add	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	_
-4	some	some	DET	DT	_	7	det	7:det	Entity=(abstract-71-new-4-sgl
+4	some	some	DET	DT	PronType=Ind	7	det	7:det	Entity=(abstract-71-new-4-sgl
 5	non	non	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
 6	Latin	Latin	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	Characters	character	NOUN	NNS	Number=Plur	3	obj	3:obj	_
@@ -548,7 +548,7 @@
 # sent_id = GUM_whow_languages-26
 # s_type = sub
 # text = You can even make the whole language not based on the Latin Alphabet at all like Chinese!
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Discourse=contrast_m:45->44:0|Entity=(person-5-giv:inact-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Discourse=joint_m:45->44:0|Entity=(person-5-giv:inact-1-ana)
 2	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	even	even	ADV	RB	_	4	advmod	4:advmod	_
 4	make	make	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -562,7 +562,7 @@
 12	Latin	Latin	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
 13	Alphabet	alphabet	NOUN	NN	Number=Sing	9	obl	9:obl:on	Entity=74)
 14	at	at	ADP	IN	_	15	case	15:case	_
-15	all	all	DET	DT	_	9	obl	9:obl:at	_
+15	all	all	DET	DT	PronType=Tot	9	obl	9:obl:at	_
 16	like	like	ADP	IN	_	17	case	17:case	_
 17	Chinese	Chinese	PROPN	NNP	Number=Sing	7	nmod	7:nmod:like	Entity=(abstract-75-new-1-coref-Standard_Chinese)|SpaceAfter=No
 18	!	!	PUNCT	.	_	4	punct	4:punct	_
@@ -575,14 +575,14 @@
 2	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	even	even	ADV	RB	_	4	advmod	4:advmod	_
 4	take	take	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	some	some	DET	DT	_	6	det	6:det	Entity=(abstract-76-new-2-coref
+5	some	some	DET	DT	PronType=Ind	6	det	6:det	Entity=(abstract-76-new-2-coref
 6	words	word	NOUN	NNS	Number=Plur	4	obj	4:obj	_
 7	of	of	ADP	IN	_	8	case	8:case	Entity=(abstract-77-new-2-sgl
 8	languages	language	NOUN	NNS	Number=Plur	6	nmod	6:nmod:of	Entity=77)76)|SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	10:punct	_
 10	altering	alter	VERB	VBG	VerbForm=Ger	4	advcl	4:advcl	Discourse=manner:47->46:0
 11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	obj	10:obj	Entity=(abstract-76-giv:act-1-ana)
-12	or	or	CCONJ	CC	_	13	cc	13:cc	Discourse=contrast_m:48->47:0
+12	or	or	CCONJ	CC	_	13	cc	13:cc	Discourse=disjunction_m:48->47:0
 13	not	not	PART	RB	Polarity=Neg	10	conj	4:advcl|10:conj:or	SpaceAfter=No
 14	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -631,7 +631,7 @@
 1	Keep	keep	VERB	VB	Mood=Imp|Person=2|Typo=Yes|VerbForm=Fin	0	root	0:root	Discourse=joint_m:51->3:2|XML=<sic>
 2	track	track	NOUN	NN	Number=Sing|Typo=Yes	1	obj	1:obj	_
 3	of	of	ADP	IN	Typo=Yes	5	case	5:case	_
-4	all	all	DET	PDT	Typo=Yes	5	det:predet	5:det:predet	Entity=(abstract-83-new-2-sgl
+4	all	all	DET	PDT	PronType=Tot|Typo=Yes	5	det:predet	5:det:predet	Entity=(abstract-83-new-2-sgl
 5	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	2	nmod	2:nmod:of	Entity=(person-5-giv:act-1-ana)83)|XML=</sic>
 
 # sent_id = GUM_whow_languages-31
@@ -682,7 +682,7 @@
 6	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(abstract-4-giv:act-2-coref(person-5-giv:act-1-ana)
 7	language	language	NOUN	NN	Number=Sing	4	obl	4:obl:about	Entity=4)|SpaceAfter=No
 8	,	,	PUNCT	,	_	3	punct	3:punct	_
-9	experiment	experiment	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint_m:57->54:0
+9	experiment	experiment	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint_m:57->54:1
 10	and	and	CCONJ	CC	_	11	cc	11:cc	_
 11	expand	expand	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	9	conj	9:conj:and	SpaceAfter=No
 12	:	:	PUNCT	:	_	9	punct	9:punct	_
@@ -709,7 +709,7 @@
 # s_type = imp
 # text = Teach your friends this new language.
 # newpar = item (1 s)
-1	Teach	teach	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint_m:60->54:0
+1	Teach	teach	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint_m:60->54:1
 2	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(person-87-new-2-coref(person-5-giv:act-1-ana)
 3	friends	friend	NOUN	NNS	Number=Plur	1	iobj	1:iobj	Entity=87)
 4	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	6:det	Entity=(abstract-4-giv:act-3-coref
@@ -766,7 +766,7 @@
 # s_type = imp
 # text = Write your own poem / novel / story with your own made up language.
 # newpar = item (1 s)
-1	Write	write	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint_m:65->54:0
+1	Write	write	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint_m:65->54:1
 2	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(abstract-90-new-3,5,7-sgl(person-5-giv:act-1-ana)
 3	own	own	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	poem	poem	NOUN	NN	Number=Sing	1	obj	1:obj	_
@@ -841,7 +841,7 @@
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(abstract-95-new-2-sgl
 7	language	language	NOUN	NN	Number=Sing	2	ccomp	2:ccomp	_
-8	that	that	PRON	WDT	_	10	obj	10:obj	Discourse=elaboration:72->71:0
+8	that	that	PRON	WDT	PronType=Rel	10	obj	10:obj	Discourse=elaboration:72->71:0
 9	while	while	SCONJ	IN	_	10	mark	10:mark	Discourse=circumstance:73->74:0
 10	speaking	speak	VERB	VBG	VerbForm=Ger	15	advcl	15:advcl:while	SpaceAfter=No
 11	,	,	PUNCT	,	_	10	punct	10:punct	_
@@ -885,7 +885,7 @@
 8	to	to	ADP	IN	_	9	case	9:case	_
 9	right	right	NOUN	NN	Number=Sing	4	obl	4:obl:to	SpaceAfter=No
 10	,	,	PUNCT	,	_	15	punct	15:punct	_
-11	in	in	ADP	IN	_	12	case	12:case	Discourse=contrast_m:77->76:0
+11	in	in	ADP	IN	_	12	case	12:case	Discourse=joint_m:77->76:0
 12	Arabic	Arabic	PROPN	NNP	Number=Sing	15	nmod	15:nmod:in	Entity=(abstract-100-new-1-sgl-Arabic)
 13-14	it's	_	_	_	_	_	_	_	_
 13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj	Entity=(abstract-99-giv:act-1-ana)
@@ -894,12 +894,12 @@
 16	to	to	ADP	IN	_	17	case	17:case	_
 17	left	left	NOUN	NN	Number=Sing	15	nmod	15:nmod:to	SpaceAfter=No
 18	,	,	PUNCT	,	_	20	punct	20:punct	_
-19	Chinese	Chinese	PROPN	NNP	Number=Sing	20	nsubj	20:nsubj	Discourse=contrast_m:78->76:0|Entity=(abstract-75-giv:inact-1-coref-Standard_Chinese)
+19	Chinese	Chinese	PROPN	NNP	Number=Sing	20	nsubj	20:nsubj	Discourse=joint_m:78->76:0|Entity=(abstract-75-giv:inact-1-coref-Standard_Chinese)
 20	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj:and	_
 21	in	in	ADP	IN	_	22	case	22:case	_
 22	columns	column	NOUN	NNS	Number=Plur	20	obl	20:obl:in	SpaceAfter=No
 23	,	,	PUNCT	,	_	25	punct	25:punct	_
-24	and	and	CCONJ	CC	_	25	cc	25:cc	Discourse=contrast_m:79->76:0
+24	and	and	CCONJ	CC	_	25	cc	25:cc	Discourse=joint_m:79->76:0
 25	so	so	ADV	RB	_	4	conj	4:conj:and	_
 26	on	on	ADV	RB	Degree=Pos	25	advmod	25:advmod	SpaceAfter=No
 27	.	.	PUNCT	.	_	4	punct	4:punct	_
@@ -926,7 +926,7 @@
 # sent_id = GUM_whow_languages-47
 # s_type = imp
 # text = In other words, make sure that you follow the same guidelines.
-1	In	in	ADP	IN	_	3	case	3:case	Discourse=restatement_m:81->80:0
+1	In	in	ADP	IN	_	3	case	3:case	Discourse=restatement-repetition_m:81->80:0
 2	other	other	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	words	word	NOUN	NNS	Number=Plur	5	obl	5:obl:in	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -958,7 +958,7 @@
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=motivation:83->82:0|Entity=(abstract-103-giv:inact-1-ana)
 2	should	should	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	make	make	VERB	VB	VerbForm=Inf	0	root	0:root	_
-4	some	some	DET	DT	_	5	det	5:det	_
+4	some	some	DET	DT	PronType=Ind	5	det	5:det	_
 5	sense	sense	NOUN	NN	Number=Sing	3	obj	3:obj	SpaceAfter=No
 6	,	,	PUNCT	,	_	12	punct	12:punct	_
 7	so	so	SCONJ	IN	_	12	mark	12:mark	Discourse=purpose:84->83:0
@@ -991,7 +991,7 @@
 32	and	and	CCONJ	CC	_	33	cc	33:cc	Discourse=joint_m:88->86:0
 32.1	use	use	VERB	VB	VerbForm=Inf	_	_	23:conj:and	CopyOf=23
 33	See	see	VERB	VB	Person=2|VerbForm=Inf	23	conj	32.1:obj	Entity=(abstract-111-new-1-sgl
-34	ya	you	PRON	PRP	Case=Acc|Number=Sing|Typo=Yes	33	obj	33:obj	Entity=111)|XML=<sic></sic>
+34	ya	you	PRON	PRP	Case=Acc|Number=Sing|PronType=Prs|Typo=Yes	33	obj	33:obj	Entity=111)|XML=<sic></sic>
 35	as	as	ADV	RB	_	36	case	36:case	_
 36	c	c	X	FW	_	33	orphan	32.1:obl:as	Entity=(abstract-112-new-1-sgl
 37	yah	yah	X	FW	_	36	obj	36:obj	Entity=112)|SpaceAfter=No
@@ -1306,7 +1306,7 @@
 4	over	over	ADP	IN	_	6	case	6:case	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(abstract-161-new-2-coref
 6	letters	letter	NOUN	NNS	Number=Plur	2	obl	2:obl:over	Entity=161)
-7	or	or	CCONJ	CC	_	8	cc	8:cc	Discourse=contrast_m:117->116:0
+7	or	or	CCONJ	CC	_	8	cc	8:cc	Discourse=disjunction_m:117->116:0
 8	make	make	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	2	conj	2:conj:or	_
 9	up	up	ADP	RP	_	8	compound:prt	8:compound:prt	_
 10	something	something	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=(abstract-162-new-1-sgl)
@@ -1320,7 +1320,7 @@
 18	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	_
 19	to	to	PART	TO	_	20	mark	20:mark	_
 20	take	take	VERB	VB	VerbForm=Inf	18	xcomp	18:xcomp	_
-21	some	some	DET	DT	_	22	det	22:det	Entity=(time-163-new-2-sgl
+21	some	some	DET	DT	PronType=Ind	22	det	22:det	Entity=(time-163-new-2-sgl
 22	time	time	NOUN	NN	Number=Sing	20	obj	20:obj	Entity=163)
 23	on	on	ADP	IN	_	24	case	24:case	_
 24	this	this	PRON	DT	Number=Sing|PronType=Dem	22	nmod	22:nmod:on	Entity=(event-159-giv:act-1-coref)|SpaceAfter=No
@@ -1371,7 +1371,7 @@
 4	more	more	ADV	RBR	Degree=Cmp	5	advmod	5:advmod	_
 5	fun	fun	ADJ	JJ	Degree=Pos	0	root	0:root	_
 6	when	when	SCONJ	WRB	PronType=Int	8	mark	8:mark	Discourse=condition:124->123:0
-7	there	there	PRON	EX	_	8	expl	8:expl	_
+7	there	there	PRON	EX	PronType=Dem	8	expl	8:expl	_
 8	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl	5:acl:when	_
 9	other	other	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(person-171-new-2-sgl
 10	people	person	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj|13:nsubj	_
@@ -1418,7 +1418,7 @@
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	_
 9	break	break	NOUN	NN	Number=Sing	7	obj	7:obj	_
 10	about	about	ADV	RB	_	13	advmod	13:advmod	_
-11	every	every	DET	DT	_	13	det	13:det	Entity=(time-174-new-3-sgl
+11	every	every	DET	DT	PronType=Tot	13	det	13:det	Entity=(time-174-new-3-sgl
 12	five	five	NUM	CD	NumForm=Word|NumType=Card	13	nummod	13:nummod	_
 13	minutes	minute	NOUN	NNS	Number=Plur	7	obl:tmod	7:obl:tmod	Entity=174)
 14	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=sequence_m:130->129:0
@@ -1427,7 +1427,7 @@
 17	to	to	ADP	IN	_	18	case	18:case	_
 18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obl	15:obl:to	Entity=(abstract-173-giv:act-1-ana)
 19	or	or	CCONJ	CC	_	24	cc	24:cc	Discourse=antithesis:131->129:1
-20	all	all	DET	PDT	_	22	det:predet	22:det:predet	Entity=(abstract-161-giv:inact-3-coref
+20	all	all	DET	PDT	PronType=Tot	22	det:predet	22:det:predet	Entity=(abstract-161-giv:inact-3-coref
 21	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	22	nmod:poss	22:nmod:poss	Entity=(person-5-giv:act-1-ana)
 22	letters	letter	NOUN	NNS	Number=Plur	24	nsubj	24:nsubj|26:nsubj:xsubj|27:nsubj:xsubj	Entity=161)
 23	will	will	AUX	MD	Number=Plur|Person=3|VerbForm=Fin	24	aux	24:aux	_
@@ -1459,7 +1459,7 @@
 16	model	model	NOUN	NN	Number=Sing	11	obl	11:obl:as	Entity=177)
 17	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=joint_m:134->133:0
 18	change	change	VERB	VB	VerbForm=Inf	11	conj	11:conj:and	_
-19	some	some	DET	DT	_	20	det	20:det	Entity=(abstract-178-new-2,4-sgl
+19	some	some	DET	DT	PronType=Ind	20	det	20:det	Entity=(abstract-178-new-2,4-sgl
 20	letters	letter	NOUN	NNS	Number=Plur	18	obj	18:obj	_
 21	or	or	CCONJ	CC	_	22	cc	22:cc	_
 22	sounds	sound	NOUN	NNS	Number=Plur	20	conj	18:obj|20:conj:or	Entity=178)

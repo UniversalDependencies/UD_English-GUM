@@ -183,6 +183,10 @@ As a scholarly citation for the corpus in articles, please use this paper:
 
 # Changelog
 
+* 2021-12-14
+  * Corrections incl. bug fix for escaping wikification identifiers containing hyphens
+  * Added more exhaustive PronType annotations
+
 * 2021-10-31
   * Add annotated newpar comments representing possibly nesting blocks
   * Add XML MISC attribute for XML markup in source data which does not correspond to paragraph blocks

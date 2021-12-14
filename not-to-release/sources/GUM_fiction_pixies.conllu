@@ -66,7 +66,7 @@
 29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(substance-14-new-3-sgl
 30	slush	slush	NOUN	NN	Number=Sing	24	nmod	24:nmod:on	_
 31	outside	outside	ADV	RB	Degree=Pos	24	advmod	24:advmod	Entity=14)12)|SpaceAfter=No
-32	,	,	PUNCT	,	_	40	punct	40:punct	_
+32	,	,	PUNCT	,	_	33	punct	33:punct	_
 33	when	when	SCONJ	WRB	PronType=Int	40	mark	40:mark	Discourse=ROOT:7:0
 34	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	38	nmod:poss	38:nmod:poss	Entity=(event-15-new-5-sgl(person-7-giv:act-1-ana)
 35	coffee	coffee	NOUN	NN	Number=Sing	37	compound	37:compound	SpaceAfter=No|XML=<w>
@@ -86,11 +86,11 @@
 49	and	and	CCONJ	CC	_	51	cc	51:cc	_
 50	a	a	DET	DT	Definite=Ind|PronType=Art	51	det	51:det	Entity=(event-18-new-2-sgl
 51	splash	splash	NOUN	NN	Number=Sing	44	conj	40:obl:by|44:conj:and	Entity=18)|SpaceAfter=No
-52	,	,	PUNCT	,	_	62	punct	62:punct	_
+52	,	,	PUNCT	,	_	53	punct	53:punct	_
 53	and	and	CCONJ	CC	_	62	cc	62:cc	_
 54	a	a	DET	DT	Definite=Ind|PronType=Art	62	det	62:det	Entity=(event-19-new-9-sgl
 55	flesh	flesh	NOUN	NN	Number=Sing	62	compound	62:compound	SpaceAfter=No|XML=<w>
-56	-	-	PUNCT	HYPH	_	61	punct	61:punct	SpaceAfter=No
+56	-	-	PUNCT	HYPH	_	57	punct	57:punct	SpaceAfter=No
 57	upon	upon	ADP	IN	_	61	case	61:case	SpaceAfter=No
 58	-	-	PUNCT	HYPH	_	57	punct	57:punct	SpaceAfter=No
 59	cold	cold	ADJ	JJ	Degree=Pos	61	amod	61:amod	SpaceAfter=No
@@ -115,14 +115,14 @@
 # s_type = imp
 # speaker = Jenna
 # text = Shoo!
-1	Shoo	shoo	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=restatement_m:9->8:0|SpaceAfter=No
+1	Shoo	shoo	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=restatement-repetition_m:9->8:0|SpaceAfter=No
 2	!	!	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_fiction_pixies-7
 # s_type = imp
 # speaker = Jenna
 # text = Get out of my bathroom!”
-1	Get	get	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=restatement_m:10->8:0
+1	Get	get	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=restatement-repetition_m:10->8:0
 2	out	out	ADP	IN	_	5	case	5:case	_
 3	of	of	ADP	IN	_	2	fixed	2:fixed	_
 4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(place-17-giv:inact-2-coref(person-5-giv:inact-1-ana)
@@ -315,7 +315,7 @@
 # s_type = decl
 # speaker = Jenna
 # text = “Don’t humor them, dammit,” Jenna said, and stomped, still naked, still wet, toward the phone in the kitchen.
-1	“	''	PUNCT	``	_	4	punct	4:punct	Discourse=contrast_m:26->24:1|SpaceAfter=No|XML=<sp who:::"#Jenna" whom:::"#Robert">
+1	“	''	PUNCT	``	_	4	punct	4:punct	Discourse=evaluation:26->24:1|SpaceAfter=No|XML=<sp who:::"#Jenna" whom:::"#Robert">
 2-3	Don’t	_	_	_	_	_	_	_	_
 2	Do	do	AUX	VB	VerbForm=Inf	4	aux	4:aux	_
 3	n’t	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
@@ -333,7 +333,7 @@
 15	,	,	PUNCT	,	_	14	punct	14:punct	_
 16	still	still	ADV	RB	Degree=Pos	17	advmod	17:advmod	Discourse=manner:29->28:0
 17	naked	naked	ADJ	JJ	Degree=Pos	10	acl	10:acl	SpaceAfter=No
-18	,	,	PUNCT	,	_	20	punct	20:punct	_
+18	,	,	PUNCT	,	_	17	punct	17:punct	_
 19	still	still	ADV	RB	Degree=Pos	20	advmod	20:advmod	Discourse=joint_m:30->29:0
 20	wet	wet	ADJ	JJ	Degree=Pos	10	acl	10:acl	SpaceAfter=No
 21	,	,	PUNCT	,	_	24	punct	24:punct	_
@@ -382,20 +382,20 @@
 # sent_id = GUM_fiction_pixies-19
 # s_type = frag
 # text = Or water.
-1	Or	or	CCONJ	CC	_	2	cc	2:cc	Discourse=contrast_m:34->33:0
+1	Or	or	CCONJ	CC	_	2	cc	2:cc	Discourse=disjunction_m:34->33:0
 2	water	water	NOUN	NN	Number=Sing	0	root	0:root	Entity=(substance-46-new-1-sgl)|SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_fiction_pixies-20
 # s_type = frag
 # text = Ichor.
-1	Ichor	ichor	NOUN	NN	Number=Sing	0	root	0:root	Discourse=contrast_m:35->33:0|Entity=(substance-47-new-1-sgl)|SpaceAfter=No
+1	Ichor	ichor	NOUN	NN	Number=Sing	0	root	0:root	Discourse=disjunction_m:35->33:0|Entity=(substance-47-new-1-sgl)|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_fiction_pixies-21
 # s_type = frag
 # text = Whatever it is that the common Manhattan water-pixie uses for blood.
-1	Whatever	whatever	PRON	WDT	PronType=Rel	0	root	0:root|11:obj	Discourse=contrast_m:36->33:0|Entity=(substance-48-new-1-coref)
+1	Whatever	whatever	PRON	WDT	PronType=Rel	0	root	0:root|11:obj	Discourse=disjunction_m:36->33:0|Entity=(substance-48-new-1-coref)
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nsubj	1:nsubj	Entity=(substance-48-giv:act-1-ana)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	1:cop	_
 4	that	that	PRON	WDT	PronType=Rel	11	obj	1:ref	_
@@ -501,7 +501,7 @@
 # s_type = intj
 # speaker = Jenna
 # text = Hi.
-1	Hi	hi	INTJ	UH	_	0	root	0:root	Discourse=preparation:49->52:6|SpaceAfter=No
+1	Hi	hi	INTJ	UH	_	0	root	0:root	Discourse=phatic:49->52:6|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_fiction_pixies-27
@@ -582,7 +582,7 @@
 # s_type = decl
 # speaker = Jenna
 # text = Really, we need you to do something sooner ...
-1	Really	really	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=restatement_m:55->52:2|SpaceAfter=No
+1	Really	really	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=restatement-repetition_m:55->52:2|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-67-acc:aggr-1-coref)|Split=7<67,5<67
 4	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -635,7 +635,7 @@
 # s_type = intj
 # speaker = Jenna
 # text = Goodbye, Ramon.
-1	Goodbye	goodbye	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint_m:58->52:3|SpaceAfter=No
+1	Goodbye	goodbye	NOUN	NN	Number=Sing	0	root	0:root	Discourse=phatic:58->52:3|SpaceAfter=No
 2	,	,	PUNCT	,	_	3	punct	3:punct	_
 3	Ramon	Ramon	PROPN	NNP	Number=Sing	1	vocative	1:vocative	Entity=(person-60-giv:inact-1-coref)|SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
@@ -776,7 +776,7 @@
 # s_type = imp
 # speaker = Robert
 # text = Take a deep cleansing breath.
-1	Take	take	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=sequence_m:72->67:1|Entity=(abstract-78-giv:act-1-coref
+1	Take	take	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint_m:72->67:2|Entity=(abstract-78-giv:act-1-coref
 2	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(event-82-new-4-sgl
 3	deep	deep	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
 4	cleansing	cleanse	VERB	VBG	VerbForm=Ger	5	amod	5:amod	_
@@ -850,7 +850,7 @@
 7	earthquakes	earthquake	NOUN	NNS	Number=Plur	6	obj	6:obj	Entity=(event-87-new-1-sgl)|SpaceAfter=No
 8	,	,	PUNCT	,	_	11	punct	11:punct	_
 9	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=joint_m:78->77:0
-10	there	there	PRON	EX	_	11	expl	11:expl	_
+10	there	there	PRON	EX	PronType=Dem	11	expl	11:expl	_
 11	were	be	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	conj	6:conj:and	_
 12	wood	wood	NOUN	NN	Number=Sing	13	compound	13:compound	Entity=(animal-88-new-2-sgl
 13	sprites	sprite	NOUN	NNS	Number=Plur	11	nsubj	11:nsubj	Entity=88)
@@ -910,7 +910,7 @@
 12	when	when	SCONJ	WRB	PronType=Int	14	mark	14:mark	Discourse=circumstance:83->82:0
 13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	14:nsubj	Entity=(person-5-giv:act-1-ana)
 14	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	advcl	4:advcl:when	_
-15	no	no	DET	DT	Polarity=Neg	16	det	16:det	Entity=(abstract-94-new-2-sgl
+15	no	no	DET	DT	Polarity=Neg|PronType=Art	16	det	16:det	Entity=(abstract-94-new-2-sgl
 16	work	work	NOUN	NN	Number=Sing	14	obj	14:obj	_
 17	to	to	PART	TO	_	18	mark	18:mark	_
 18	do	do	VERB	VB	VerbForm=Inf	16	acl	16:acl:to	Entity=94)
@@ -1047,9 +1047,9 @@
 2	Just	just	ADV	RB	_	3	advmod	3:advmod	_
 3	make	make	VERB	VB	VerbForm=Inf	15	csubj	15:csubj	_
 4	sure	sure	ADJ	JJ	Degree=Pos	3	xcomp	3:xcomp	_
-5	there	there	PRON	EX	_	6	expl	6:expl	_
+5	there	there	PRON	EX	PronType=Dem	6	expl	6:expl	_
 6	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	4:ccomp	_
-7	no	no	DET	DT	Polarity=Neg	8	det	8:det	Entity=(animal-101-new-2-sgl
+7	no	no	DET	DT	Polarity=Neg|PronType=Art	8	det	8:det	Entity=(animal-101-new-2-sgl
 8	pixies	pixie	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=101)
 9	in	in	ADP	IN	_	12	case	12:case	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Bridge=99<102|Entity=(object-102-acc:inf-3-sgl
@@ -1057,7 +1057,7 @@
 12	pot	pot	NOUN	NN	Number=Sing	6	obl	6:obl:in	Entity=102)|SpaceAfter=No
 13	,	,	PUNCT	,	_	3	punct	3:punct	_
 14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	_
-15	all	all	DET	DT	_	0	root	0:root	_
+15	all	all	DET	DT	PronType=Tot	0	root	0:root	_
 16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	17:nsubj	Entity=(person-5-giv:act-1-ana)
 17	ask	ask	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	acl:relcl	15:acl:relcl	SpaceAfter=No
 18	.	.	PUNCT	.	_	15	punct	15:punct	SpaceAfter=No

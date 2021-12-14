@@ -134,11 +134,11 @@
 2	launched	launch	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	LibriVox	LibriVox	PROPN	NNP	Number=Sing	2	obj	2:obj	Entity=(organization-3-giv:inact-1-coref-LibriVox)|SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
-5	emailed	email	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	2:conj:and	Discourse=joint_m:13->12:0
-6	some	some	DET	DT	_	7	det	7:det	Entity=(person-21-new-2,5-coref(person-22-new-2-sgl
+5	emailed	email	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	2:conj:and	Discourse=sequence_m:13->12:0
+6	some	some	DET	DT	PronType=Ind	7	det	7:det	Entity=(person-21-new-2,5-coref(person-22-new-2-sgl
 7	friends	friend	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=22)
 8	and	and	CCONJ	CC	_	10	cc	10:cc	_
-9	some	some	DET	DT	_	10	det	10:det	Entity=(person-23-new-2-sgl
+9	some	some	DET	DT	PronType=Ind	10	det	10:det	Entity=(person-23-new-2-sgl
 10	podcasters	podcaster	NOUN	NNS	Number=Plur	7	conj	5:obj|7:conj:and|13:nsubj	_
 11	who	who	PRON	WP	PronType=Rel	13	nsubj	10:ref	Discourse=elaboration:14->13:0
 12	where	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|Typo=Yes|VerbForm=Fin	13	aux	13:aux	XML=<sic></sic>
@@ -146,7 +146,7 @@
 14	literary	literary	ADJ	JJ	Degree=Pos	15	amod	15:amod	Entity=(abstract-24-new-2-sgl
 15	stuff	stuff	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=24)23)21)|SpaceAfter=No
 16	,	,	PUNCT	,	_	18	punct	18:punct	_
-17	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=joint_m:15->12:0
+17	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=sequence_m:15->12:0
 18	invited	invite	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	2:conj:and	Entity=(event-25-new-1,9,11-disc
 19	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	obj	18:obj|21:nsubj:xsubj	Entity=(person-21-giv:act-1-ana)
 20	to	to	PART	TO	_	21	mark	21:mark	_
@@ -238,7 +238,7 @@
 1	Hugh	Hugh	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=background:24->28:3|Entity=(person-2-giv:act-1,2-coref
 2	McGuire	McGuire	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=2)
 3	with	with	ADP	IN	_	5	case	5:case	_
-4	some	some	DET	DT	_	5	det	5:det	Entity=(object-38-new-2-sgl
+4	some	some	DET	DT	PronType=Ind	5	det	5:det	Entity=(object-38-new-2-sgl
 5	books	book	NOUN	NNS	Number=Plur	1	nmod	1:nmod:with|12:nsubj:pass	_
 6	that	that	PRON	WDT	PronType=Rel	12	nsubj:pass	5:ref	Discourse=elaboration:25->24:0
 7	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	12:aux	_
@@ -303,7 +303,7 @@
 13	delinquent	delinquent	ADJ	JJ	Degree=Pos	3	conj	3:conj:but	_
 14	in	in	SCONJ	IN	_	15	mark	15:mark	Discourse=elaboration:32->31:0
 15	finishing	finish	VERB	VBG	VerbForm=Ger	13	advcl	13:advcl:in	_
-16	some	some	DET	DT	_	15	obj	15:obj	Entity=(abstract-43-new-1-sgl
+16	some	some	DET	DT	PronType=Ind	15	obj	15:obj	Entity=(abstract-43-new-1-sgl
 17	of	of	ADP	IN	_	18	case	18:case	_
 18	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	nmod	16:nmod:of	Bridge=42<44|Entity=(abstract-44-acc:inf-1-sgl)43)
 19	these	this	DET	DT	Number=Plur|PronType=Dem	20	det	20:det	Entity=(time-45-acc:com-2-sgl
@@ -316,7 +316,7 @@
 # text = Is there a particular LibriVox book which you think stands out because of the quality, the overall effort involved, its popularity, or for some other reason?
 # newpar = sp who:::"#Wikinews" (1 s)
 1	Is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=question:33->40:3
-2	there	there	PRON	EX	_	1	expl	1:expl	_
+2	there	there	PRON	EX	PronType=Dem	1	expl	1:expl	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(abstract-46-new-4-coref
 4	particular	particular	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
 5	LibriVox	LibriVox	PROPN	NNP	Number=Sing	6	compound	6:compound	Entity=(organization-3-giv:inact-1-coref-LibriVox)
@@ -330,18 +330,18 @@
 13	of	of	ADP	IN	_	12	fixed	12:fixed	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Bridge=46<47|Entity=(abstract-47-acc:inf-2-coref
 15	quality	quality	NOUN	NN	Number=Sing	10	obl	10:obl	Entity=47)|SpaceAfter=No
-16	,	,	PUNCT	,	_	19	punct	19:punct	_
+16	,	,	PUNCT	,	_	15	punct	15:punct	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Bridge=46<48|Entity=(abstract-48-acc:inf-3-sgl
 18	overall	overall	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
 19	effort	effort	NOUN	NN	Number=Sing	10	obl	10:obl	_
 20	involved	involve	VERB	VBN	Tense=Past|VerbForm=Part	19	acl	19:acl	Discourse=elaboration:38->37:0|Entity=48)|SpaceAfter=No
-21	,	,	PUNCT	,	_	23	punct	23:punct	_
+21	,	,	PUNCT	,	_	19	punct	19:punct	_
 22	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	23:nmod:poss	Discourse=same-unit_m:39->37:1|Entity=(abstract-49-new-2-sgl(abstract-46-giv:act-1-ana)
 23	popularity	popularity	NOUN	NN	Number=Sing	10	obl	10:obl:because_of	Entity=49)|SpaceAfter=No
 24	,	,	PUNCT	,	_	29	punct	29:punct	_
 25	or	or	CCONJ	CC	_	29	cc	29:cc	_
 26	for	for	ADP	IN	_	29	case	29:case	_
-27	some	some	DET	DT	_	29	det	29:det	Entity=(abstract-50-new-3-sgl
+27	some	some	DET	DT	PronType=Ind	29	det	29:det	Entity=(abstract-50-new-3-sgl
 28	other	other	ADJ	JJ	Degree=Pos	29	amod	29:amod	_
 29	reason	reason	NOUN	NN	Number=Sing	12	conj	12:conj:or|23:case	Entity=50)46)|SpaceAfter=No
 30	?	?	PUNCT	.	_	1	punct	1:punct	_
@@ -600,7 +600,7 @@
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(abstract-89-new-3-sgl
 4	Wikipedia	Wikipedia	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=(organization-90-new-1-sgl-Wikipedia)
 5	approach	approach	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=89)|SpaceAfter=No
-6	:	:	PUNCT	:	_	16	punct	16:punct	_
+6	:	:	PUNCT	:	_	9	punct	9:punct	_
 7	if	if	SCONJ	IN	_	9	mark	9:mark	Discourse=attribution:68->69:0
 8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Entity=(person-84-giv:inact-1-ana)
 9	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	advcl	16:advcl:if	_
@@ -631,7 +631,7 @@
 8	of	of	ADP	IN	_	9	case	9:case	_
 9	versions	version	NOUN	NNS	Number=Plur	7	nmod	7:nmod:of	_
 10	of	of	ADP	IN	_	12	case	12:case	_
-11	some	some	DET	DT	_	12	det	12:det	Entity=(abstract-92-new-2-sgl
+11	some	some	DET	DT	PronType=Ind	12	det	12:det	Entity=(abstract-92-new-2-sgl
 12	books	book	NOUN	NNS	Number=Plur	9	nmod	9:nmod:of	Entity=92)91)|SpaceAfter=No
 13	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -650,7 +650,7 @@
 9	of	of	ADP	IN	_	10	case	10:case	_
 10	voice	voice	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	Entity=95)|SpaceAfter=No
 11	:	:	PUNCT	:	_	19	punct	19:punct	_
-12	each	each	DET	DT	_	13	det	13:det	Discourse=evidence:74->73:0|Entity=(time-96-new-2-sgl
+12	each	each	DET	DT	PronType=Tot	13	det	13:det	Discourse=evidence:74->73:0|Entity=(time-96-new-2-sgl
 13	week	week	NOUN	NN	Number=Sing	19	obl:tmod	19:obl:tmod	Entity=96)
 14	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(abstract-97-new-4-coref
 15	new	new	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
@@ -699,7 +699,7 @@
 5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 6	expired	expire	VERB	VBN	Tense=Past|VerbForm=Part	2	acl:relcl	2:acl:relcl	Entity=103)|SpaceAfter=No
 7	,	,	PUNCT	,	_	2	punct	2:punct	_
-8	there	there	PRON	EX	_	9	expl	9:expl	Discourse=same-unit_m:81->79:1
+8	there	there	PRON	EX	PronType=Dem	9	expl	9:expl	Discourse=same-unit_m:81->79:1
 9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 10	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(abstract-105-new-3,9-sgl
 11	increasing	increase	VERB	VBG	VerbForm=Ger	12	amod	12:amod	_
@@ -722,7 +722,7 @@
 # text = You mentioned Larry Lessig's Free Culture, but it also includes some out of print titles by publishers who are open to the concept, such as O'Reilly.
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=concession:83->84:1|Entity=(person-2-giv:inact-1-ana)
 2	mentioned	mention	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	0:root	_
-3	Larry	Larry	PROPN	NNP	Number=Sing	7	nmod:poss	7:nmod:poss	Entity=(abstract-32-giv:inact-2,4,5-coref-Free-culture_movement(person-33-giv:inact-1,2-coref-Lawrence_Lessig
+3	Larry	Larry	PROPN	NNP	Number=Sing	7	nmod:poss	7:nmod:poss	Entity=(abstract-32-giv:inact-2,4,5-coref-Free%2Dculture_movement(person-33-giv:inact-1,2-coref-Lawrence_Lessig
 4-5	Lessig's	_	_	_	_	_	_	_	_
 4	Lessig	Lessig	PROPN	NNP	Number=Sing	3	flat	3:flat	_
 5	's	's	PART	POS	_	3	case	3:case	Entity=33)
@@ -733,7 +733,7 @@
 10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Entity=(organization-3-giv:inact-1-ana-LibriVox)
 11	also	also	ADV	RB	_	12	advmod	12:advmod	_
 12	includes	include	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	2:conj:but	_
-13	some	some	DET	DT	_	17	det	17:det	Entity=(abstract-109-new-5-sgl
+13	some	some	DET	DT	PronType=Ind	17	det	17:det	Entity=(abstract-109-new-5-sgl
 14	out	out	ADV	RB	_	17	amod	17:amod	_
 15	of	of	ADP	IN	_	16	case	16:case	_
 16	print	print	NOUN	NN	Number=Sing	14	nmod	14:nmod:of	_
@@ -772,7 +772,7 @@
 14	domain	domain	NOUN	NN	Number=Sing	15	compound	15:compound	Entity=16)
 15	works	work	NOUN	NNS	Number=Plur	10	nmod	10:nmod:to	Entity=113)|SpaceAfter=No
 16	,	,	PUNCT	,	_	20	punct	20:punct	_
-17	or	or	CCONJ	CC	_	20	cc	20:cc	Discourse=contrast_m:87->86:0
+17	or	or	CCONJ	CC	_	20	cc	20:cc	Discourse=disjunction_m:87->86:0
 18	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	20	aux	20:aux	_
 19	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	nsubj	20:nsubj	Entity=(person-2-giv:act-1-ana)
 20	have	have	VERB	VB	VerbForm=Inf	3	conj	3:conj:or	_
@@ -847,7 +847,7 @@
 # text = Also, there are other sites, notably podiobooks.com, which are better suited to CC works than LibriVox.
 1	Also	also	ADV	RB	_	4	advmod	4:advmod	Discourse=joint_m:94->90:2|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	there	there	PRON	EX	_	4	expl	4:expl	_
+3	there	there	PRON	EX	PronType=Dem	4	expl	4:expl	_
 4	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	other	other	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(abstract-122-new-2-sgl
 6	sites	site	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj|14:nsubj:pass	SpaceAfter=No
@@ -938,7 +938,7 @@
 # s_type = q
 # speaker = Wikinews
 # text = Instead of "public domain", wouldn't "free content" work just as well, using something like the Free Content Definition to limit the scope?
-1	Instead	instead	ADV	RB	Degree=Pos	5	case	5:case	Discourse=solutionhood:104->108:3
+1	Instead	instead	ADV	RB	_	5	case	5:case	Discourse=solutionhood:104->108:3
 2	of	of	ADP	IN	_	1	fixed	1:fixed	_
 3	"	''	PUNCT	``	_	5	punct	5:punct	SpaceAfter=No|XML=<q>
 4	public	public	ADJ	JJ	Degree=Pos	5	amod	5:amod	Entity=(abstract-16-giv:inact-2-coref
@@ -1027,13 +1027,13 @@
 48	ca	can	AUX	MD	VerbForm=Fin	50	aux	50:aux	_
 49	n't	not	PART	RB	Polarity=Neg	50	advmod	50:advmod	_
 50	recall	recall	VERB	VB	VerbForm=Inf	8	parataxis	8:parataxis	_
-51	any	any	DET	DT	_	54	det	54:det	Entity=(abstract-141-acc:com-4-sgl
+51	any	any	DET	DT	PronType=Ind	54	det	54:det	Entity=(abstract-141-acc:com-4-sgl
 52	specific	specific	ADJ	JJ	Degree=Pos	54	amod	54:amod	_
 53	project	project	NOUN	NN	Number=Sing	54	compound	54:compound	Entity=(abstract-142-new-1-sgl)
 54	names	name	NOUN	NNS	Number=Plur	50	obj	50:obj	Entity=141)|SpaceAfter=No
-55	,	,	PUNCT	,	_	62	punct	62:punct	_
+55	,	,	PUNCT	,	_	56	punct	56:punct	_
 56	but	but	CCONJ	CC	_	62	cc	62:cc	Discourse=evidence:115->113:0
-57	some	some	DET	DT	_	61	det	61:det	Entity=(abstract-143-new-5-sgl
+57	some	some	DET	DT	PronType=Ind	61	det	61:det	Entity=(abstract-143-new-5-sgl
 58	pay	pay	NOUN	NN	Number=Sing	60	compound	60:compound	Entity=(abstract-144-new-3-sgl|SpaceAfter=No|XML=<w>
 59	-	-	PUNCT	HYPH	_	58	punct	58:punct	SpaceAfter=No
 60	education	education	NOUN	NN	Number=Sing	61	compound	61:compound	Entity=144)|XML=</w>

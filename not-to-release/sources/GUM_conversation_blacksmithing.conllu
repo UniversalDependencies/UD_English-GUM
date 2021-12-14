@@ -71,7 +71,7 @@
 # speaker = Doris
 # text = So, Mae -
 # newpar = sp who:::"#Doris" whom:::"#MaeLynne" (1 s)
-1	So	so	ADV	RB	_	3	advmod	3:advmod	Discourse=preparation:6->7:0|SpaceAfter=No
+1	So	so	ADV	RB	_	3	advmod	3:advmod	Discourse=phatic:6->7:0|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	Mae	Mae	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(person-1-giv:inact-1-coref)
 4	-	-	PUNCT	:	_	3	punct	3:punct	_
@@ -83,7 +83,7 @@
 # text = I'm gonna
 # newpar = sp who:::"#MaeLynn" whom:::"#Doris" (1 s)
 1-2	I'm	_	_	_	_	_	_	_	_
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj|4:nsubj:xsubj	Discourse=preparation:7->9:1|Entity=(person-1-giv:act-1-ana)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj|4:nsubj:xsubj	Discourse=phatic:7->9:1|Entity=(person-1-giv:act-1-ana)
 2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3-4	gonna	_	_	_	_	_	_	_	_
 3	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	XML=<w>
@@ -124,7 +124,7 @@
 15	wait	wait	VERB	VB	VerbForm=Inf	13	xcomp	13:xcomp	_
 16	till	till	ADP	IN	_	19	case	19:case	_
 17	like	like	INTJ	UH	_	15	discourse	15:discourse	SpaceAfter=No
-18	,	,	PUNCT	,	_	19	punct	19:punct	_
+18	,	,	PUNCT	,	_	17	punct	17:punct	_
 19	early	early	ADJ	JJ	Degree=Pos	15	obl	15:obl:till	Entity=(time-11-new-1-sgl
 20	in	in	ADP	IN	_	22	case	22:case	_
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(time-12-acc:com-2-sgl|XML=<date when:::"2000-01-02">
@@ -135,8 +135,8 @@
 26	those	this	PRON	DT	Number=Plur|PronType=Dem	25	obj	25:obj	Entity=(object-5-giv:act-1-ana)4)|SpaceAfter=No
 27	,	,	PUNCT	,	_	33	punct	33:punct	_
 28	cause	cause	SCONJ	IN	_	33	mark	33:mark	Discourse=cause:12->10:1
-29	y-	you	PRON	PRP	Case=Acc|Number=Sing	33	reparandum	33:reparandum	Entity=(person-13-acc:com-1-ana)
-30	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	31:nsubj	Discourse=preparation:13->14:0|Entity=(person-1-giv:act-1-ana)
+29	y-	you	PRON	PRP	Case=Acc|Number=Sing|PronType=Prs	33	reparandum	33:reparandum	Entity=(person-13-acc:com-1-ana)
+30	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	31:nsubj	Discourse=phatic:13->14:0|Entity=(person-1-giv:act-1-ana)
 31	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	33	parataxis	33:parataxis	_
 32	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	33	nsubj	33:nsubj|35:nsubj:xsubj	Discourse=same-unit_m:14->12:0|Entity=(person-13-giv:act-1-ana)
 33	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	advcl	15:advcl:cause	_
@@ -149,7 +149,7 @@
 # s_type = decl
 # speaker = MaeLynn
 # text = N- you just, it takes well, it takes me longer than most people, cause you know, I'm not as strong and, and I'm not as good, as like somebody that would do it all the time.
-1	N-	n-	INTJ	UH	_	2	reparandum	2:reparandum	Discourse=preparation:15->17:3
+1	N-	n-	INTJ	UH	_	2	reparandum	2:reparandum	Discourse=phatic:15->17:3
 2	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	6	reparandum	6:reparandum	Entity=(person-13-giv:act-1-ana)
 3	just	just	ADV	RB	_	2	advmod	2:advmod	SpaceAfter=No
 4	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -160,13 +160,13 @@
 9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj	Discourse=justify:17->12:1|Entity=(event-4-giv:act-1-ana)
 10	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	6:parataxis	_
 11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	iobj	10:iobj	Entity=(person-1-giv:act-1-ana)
-12	longer	long	ADV	RBR	Degree=Cmp	10	advmod	10:advmod	_
+12	longer	long	ADV	RBR	Degree=Cmp	10	obj	10:obj	_
 13	than	than	ADP	IN	_	15	case	15:case	Discourse=antithesis:18->17:0
 14	most	most	ADJ	JJS	Degree=Sup	15	amod	15:amod	Entity=(person-14-new-2-sgl
 15	people	person	NOUN	NNS	Number=Plur	12	obl	12:obl:than	Entity=14)|SpaceAfter=No
-16	,	,	PUNCT	,	_	25	punct	25:punct	_
+16	,	,	PUNCT	,	_	17	punct	17:punct	_
 17	cause	cause	SCONJ	IN	_	25	mark	25:mark	Discourse=cause:19->17:2
-18	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	19:nsubj	Discourse=preparation:20->21:0|Entity=(person-15-new-1-ana)
+18	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	19:nsubj	Discourse=phatic:20->21:0|Entity=(person-15-new-1-ana)
 19	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	25	parataxis	25:parataxis	SpaceAfter=No
 20	,	,	PUNCT	,	_	19	punct	19:punct	_
 21-22	I'm	_	_	_	_	_	_	_	_
@@ -192,7 +192,7 @@
 39	would	would	AUX	MD	VerbForm=Fin	40	aux	40:aux	_
 40	do	do	VERB	VB	VerbForm=Inf	37	acl:relcl	37:acl:relcl	_
 41	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	40	obj	40:obj	Entity=(event-4-giv:act-1-ana)
-42	all	all	DET	PDT	_	44	det:predet	44:det:predet	_
+42	all	all	DET	PDT	PronType=Tot	44	det:predet	44:det:predet	_
 43	the	the	DET	DT	Definite=Def|PronType=Art	44	det	44:det	_
 44	time	time	NOUN	NN	Number=Sing	40	obl:tmod	40:obl:tmod	Entity=16)|SpaceAfter=No|XML=<hi rend:::"lengthened"></hi>
 45	.	.	PUNCT	.	_	6	punct	6:punct	_
@@ -202,7 +202,7 @@
 # s_type = decl
 # speaker = MaeLynn
 # text = You know.
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=preparation:25->28:0|Entity=(person-15-giv:act-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=phatic:25->28:0|Entity=(person-15-giv:act-1-ana)
 2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -214,7 +214,7 @@
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint_m:26->25:0|Entity=(person-1-giv:inact-1-ana)
 2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	parataxis	8:parataxis	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
-4	oh	oh	INTJ	UH	_	8	discourse	8:discourse	Discourse=restatement_m:27->26:0|XML=<hi rend:::"lengthened"></hi>
+4	oh	oh	INTJ	UH	_	8	discourse	8:discourse	Discourse=restatement-repetition_m:27->26:0|XML=<hi rend:::"lengthened"></hi>
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-1-giv:act-1-ana)
 6	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	parataxis	8:parataxis	_
 7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	8:nsubj	Discourse=concession:28->34:3|Entity=(person-1-giv:act-1-ana)
@@ -225,9 +225,9 @@
 12	stuff	stuff	NOUN	NN	Number=Sing	8	conj	8:conj:and	_
 13	like	like	ADP	IN	_	14	case	14:case	_
 14	that	that	PRON	DT	Number=Sing|PronType=Dem	12	nmod	12:nmod:like	SpaceAfter=No
-15	,	,	PUNCT	,	_	23	punct	23:punct	_
-16	but	but	CCONJ	CC	_	23	cc	23:cc	Discourse=preparation:29->32:0
-17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	18:nsubj	Discourse=preparation:30->31:0|Entity=(person-1-giv:act-1-ana)
+15	,	,	PUNCT	,	_	16	punct	16:punct	_
+16	but	but	CCONJ	CC	_	23	cc	23:cc	Discourse=phatic:29->34:2
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	18:nsubj	Discourse=phatic:30->31:0|Entity=(person-1-giv:act-1-ana)
 18	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	parataxis	23:parataxis	SpaceAfter=No
 19	,	,	PUNCT	,	_	18	punct	18:punct	_
 20-21	I'm	_	_	_	_	_	_	_	_
@@ -237,7 +237,7 @@
 23	like	like	INTJ	UH	_	8	conj	8:conj:but	SpaceAfter=No
 24	,	,	PUNCT	,	_	27	punct	27:punct	_
 25-26	I'm	_	_	_	_	_	_	_	_
-25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	27:nsubj	Discourse=preparation:32->34:2|Entity=(person-1-giv:act-1-ana)
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	27:nsubj	Discourse=joint_m:32->29:1|Entity=(person-1-giv:act-1-ana)
 26	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	cop	27:cop	_
 27	not	not	PART	RB	Polarity=Neg	23	parataxis	23:parataxis	XML=<hi rend:::"lengthened">
 28	uh	uh	INTJ	UH	_	27	discourse	27:discourse	SpaceAfter=No|XML=</hi>
@@ -266,7 +266,7 @@
 # speaker = MaeLynn
 # text = But you know, they do it for a living.
 1	But	but	CCONJ	CC	_	3	cc	3:cc	Discourse=elaboration:34->19:2
-2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=preparation:35->36:0|Entity=(person-15-giv:inact-1-ana)
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=phatic:35->36:0|Entity=(person-15-giv:inact-1-ana)
 3	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	6:punct	_
 5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=same-unit_m:36->34:0|Entity=(person-19-new-1-ana)
@@ -285,7 +285,7 @@
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=preparation:37->38:2|Entity=(person-15-giv:act-1-ana)
 2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	,	_	14	punct	14:punct	_
-4	most	most	ADJ	JJS	Degree=Sup	5	amod	5:amod	Discourse=restatement_m:38->19:3|Entity=(person-19-giv:act-2-coref
+4	most	most	ADJ	JJS	Degree=Sup	5	amod	5:amod	Discourse=restatement-repetition_m:38->19:3|Entity=(person-19-giv:act-2-coref
 5	people	person	NOUN	NNS	Number=Plur	14	nsubj	9:obj|14:nsubj	_
 6	that	that	PRON	WDT	PronType=Rel	9	obj	5:ref	Discourse=elaboration:39->38:0
 7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Entity=(person-15-giv:act-1-ana)
@@ -297,7 +297,7 @@
 13	horse	horse	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=21)19)
 14	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	Discourse=same-unit_m:40->38:1
 15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	14:obj	Entity=(event-4-giv:act-1-ana)
-16	all	all	DET	PDT	_	18	det:predet	18:det:predet	_
+16	all	all	DET	PDT	PronType=Tot	18	det:predet	18:det:predet	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	_
 18	time	time	NOUN	NN	Number=Sing	14	obl:tmod	14:obl:tmod	SpaceAfter=No|XML=<hi rend:::"lengthened"></hi>
 19	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -365,7 +365,7 @@
 # speaker = MaeLynn
 # text = Yeah.
 # newpar = sp who:::"#MaeLynn" whom:::"#Lenore" (2 s)
-1	Yeah	yeah	INTJ	UH	_	0	root	0:root	Discourse=restatement_m:46->44:1|SpaceAfter=No
+1	Yeah	yeah	INTJ	UH	_	0	root	0:root	Discourse=restatement-repetition_m:46->44:1|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_conversation_blacksmithing-19
@@ -373,7 +373,7 @@
 # s_type = intj
 # speaker = MaeLynn
 # text = Yeah.
-1	Yeah	yeah	INTJ	UH	_	0	root	0:root	Discourse=restatement_m:47->46:0|SpaceAfter=No
+1	Yeah	yeah	INTJ	UH	_	0	root	0:root	Discourse=restatement-repetition_m:47->46:0|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_conversation_blacksmithing-20
@@ -406,7 +406,7 @@
 # s_type = decl
 # speaker = MaeLynne
 # text = I don't have my own equipment at all.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=restatement_m:50->49:0|Entity=(person-1-giv:inact-1-ana)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=restatement-repetition_m:50->49:0|Entity=(person-1-giv:inact-1-ana)
 2-3	don't	_	_	_	_	_	_	_	_
 2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
@@ -415,7 +415,7 @@
 6	own	own	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	equipment	equipment	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=23)
 8	at	at	ADP	IN	_	9	case	9:case	_
-9	all	all	DET	DT	_	4	obl	4:obl:at	SpaceAfter=No
+9	all	all	DET	DT	PronType=Tot	4	obl	4:obl:at	SpaceAfter=No
 10	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_conversation_blacksmithing-23
@@ -425,12 +425,12 @@
 # text = Dad, you know, has done some of it.
 1	Dad	dad	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Discourse=elaboration:51->49:1|Entity=(person-24-new-1-coref)|SpaceAfter=No|XML=<hi rend:::"lengthened"></hi>
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Discourse=preparation:52->53:0|Entity=(person-15-giv:inact-1-ana)
+3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Discourse=phatic:52->53:0|Entity=(person-15-giv:inact-1-ana)
 4	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	parataxis	7:parataxis	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
 6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	7:aux	Discourse=same-unit_m:53->51:0
 7	done	do	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
-8	some	some	DET	DT	_	7	obj	7:obj	Entity=(event-25-new-1-sgl
+8	some	some	DET	DT	PronType=Ind	7	obj	7:obj	Entity=(event-25-new-1-sgl
 9	of	of	ADP	IN	_	10	case	10:case	_
 10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nmod	8:nmod:of	Entity=(event-4-giv:inact-1-ana)25)|SpaceAfter=No
 11	.	.	PUNCT	.	_	7	punct	7:punct	_
@@ -443,7 +443,7 @@
 1-2	That's	_	_	_	_	_	_	_	_
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Discourse=preparation:54->55:3|Entity=(abstract-26-new-1-cata)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
-3	another	another	DET	DT	_	4	det	4:det	Entity=(abstract-26-acc:com-2-coref
+3	another	another	DET	DT	PronType=Art	4	det	4:det	Entity=(abstract-26-acc:com-2-coref
 4	thing	thing	NOUN	NN	Number=Sing	10	csubj	10:csubj	Entity=26)
 5	too	too	ADV	RB	Degree=Pos	4	advmod	4:advmod	SpaceAfter=No
 6	,	,	PUNCT	,	_	4	punct	4:punct	_
@@ -489,7 +489,7 @@
 14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	13:obj	Entity=(event-4-giv:act-1-ana)
 15	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=joint_m:60->57:0
 16	stuff	stuff	NOUN	NN	Number=Sing	7	conj	4:xcomp|7:conj:and	_
-17	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	18	nsubj	18:nsubj	Discourse=evaluation:61->55:2|Entity=(person-15-giv:inact-1-ana)
+17	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	18	nsubj	18:nsubj	Discourse=phatic:61->55:2|Entity=(person-15-giv:inact-1-ana)
 18	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	parataxis	4:parataxis	SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -498,7 +498,7 @@
 # s_type = decl
 # speaker = MaeLynne
 # text = And, I don't know.
-1	And	and	CCONJ	CC	_	6	cc	6:cc	Discourse=preparation:62->63:0|SpaceAfter=No
+1	And	and	CCONJ	CC	_	6	cc	6:cc	Discourse=phatic:62->63:0|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-1-giv:inact-1-ana)
 4-5	don't	_	_	_	_	_	_	_	_
@@ -530,17 +530,17 @@
 # s_type = sub
 # speaker = MaeLynne
 # text = You have to — to graduate, you know, or well, to get the degree, you know, you have to take this class.
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj|6:nsubj:xsubj|15:nsubj:xsubj	Discourse=preparation:64->69:2|Entity=(person-13-giv:inact-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj|6:nsubj:xsubj|15:nsubj:xsubj	Discourse=phatic:64->69:2|Entity=(person-13-giv:inact-1-ana)
 2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	to	to	PART	TO	Typo=Yes	6	reparandum	6:reparandum	XML=<sic>
 4	—	—	PUNCT	:	Typo=Yes	3	punct	3:punct	XML=</sic>
 5	to	to	PART	TO	_	6	mark	6:mark	Discourse=purpose:65->69:1
 6	graduate	graduate	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	9:punct	_
-8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Discourse=preparation:66->67:0|Entity=(person-15-giv:inact-1-ana)
+8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Discourse=phatic:66->67:0|Entity=(person-15-giv:inact-1-ana)
 9	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	parataxis	6:parataxis	SpaceAfter=No
-10	,	,	PUNCT	,	_	15	punct	15:punct	_
-11	or	or	CCONJ	CC	_	15	cc	15:cc	Discourse=restatement_m:67->65:0
+10	,	,	PUNCT	,	_	11	punct	11:punct	_
+11	or	or	CCONJ	CC	_	15	cc	15:cc	Discourse=restatement-repetition_m:67->65:0
 12	well	well	INTJ	UH	_	15	discourse	15:discourse	SpaceAfter=No
 13	,	,	PUNCT	,	_	12	punct	12:punct	_
 14	to	to	PART	TO	_	15	mark	15:mark	_
@@ -548,7 +548,7 @@
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(abstract-31-new-2-sgl
 17	degree	degree	NOUN	NN	Number=Sing	15	obj	15:obj	Entity=31)|SpaceAfter=No
 18	,	,	PUNCT	,	_	20	punct	20:punct	_
-19	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	nsubj	20:nsubj	Discourse=preparation:68->69:0|Entity=(person-15-giv:act-1-ana)
+19	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	nsubj	20:nsubj	Discourse=phatic:68->69:0|Entity=(person-15-giv:act-1-ana)
 20	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	parataxis	15:parataxis	SpaceAfter=No
 21	,	,	PUNCT	,	_	23	punct	23:punct	_
 22	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	23	nsubj	23:nsubj|25:nsubj:xsubj	Discourse=background:69->78:1|Entity=(person-13-giv:act-1-ana)
@@ -564,7 +564,7 @@
 # s_type = sub
 # speaker = MaeLynne
 # text = And you can only take — if you want to, you can only take it for eight weeks.
-1	And	and	CCONJ	CC	Typo=Yes	5	cc	5:cc	Discourse=preparation:70->72:1|XML=<sic>
+1	And	and	CCONJ	CC	Typo=Yes	5	cc	5:cc	Discourse=phatic:70->72:1|XML=<sic>
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-13-giv:act-1-ana)
 3	can	can	AUX	MD	Typo=Yes|VerbForm=Fin	5	aux	5:aux	_
 4	only	only	ADV	RB	Typo=Yes	5	advmod	5:advmod	_
@@ -618,7 +618,7 @@
 # s_type = decl
 # speaker = MaeLynne
 # text = You know.
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=evaluation:76->73:1|Entity=(person-15-giv:inact-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=phatic:76->73:1|Entity=(person-15-giv:inact-1-ana)
 2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -687,7 +687,7 @@
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Bridge=32<37|Entity=(place-37-acc:inf-2-coref
 15	classroom	classroom	NOUN	NN	Number=Sing	12	obl	12:obl:into	Entity=37)|SpaceAfter=No
 16	,	,	PUNCT	,	_	18	punct	18:punct	_
-17	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=preparation:83->84:0
+17	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=phatic:83->84:0
 18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	conj	12:conj:and	Entity=(person-38-acc:com-1-ana)
 19	like	like	INTJ	UH	Typo=Yes	18	discourse	18:discourse	XML=<sic>
 20	...	…	PUNCT	:	Typo=Yes	12	punct	12:punct	XML=</sic>
@@ -703,7 +703,7 @@
 4	of	of	ADP	IN	_	6	case	6:case	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(time-40-new-2-sgl
 6	year	year	NOUN	NN	Number=Sing	3	nmod	3:nmod:of	Entity=40)39)
-7	there	there	PRON	EX	_	8	expl	8:expl	_
+7	there	there	PRON	EX	PronType=Dem	8	expl	8:expl	_
 8	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(abstract-41-new-2-coref
 10	lot	lot	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	_
@@ -717,7 +717,7 @@
 # s_type = decl
 # speaker = MaeLynne
 # text = I mean, it — that's just kinda how it happens, you know, because he kinda has to tell you ...
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=preparation:85->86:1|Entity=(person-1-giv:inact-1-ana)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=phatic:85->86:1|Entity=(person-1-giv:inact-1-ana)
 2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	parataxis	12:parataxis	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	reparandum	6:reparandum	Discourse=evaluation:86->84:1|Entity=(abstract-42-acc:com-1-ana)|XML=<sic>
@@ -731,7 +731,7 @@
 11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Entity=(abstract-42-giv:act-1-ana)
 12	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 13	,	,	PUNCT	,	_	15	punct	15:punct	_
-14	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Discourse=evaluation:87->86:0|Entity=(person-15-giv:inact-1-ana)
+14	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Discourse=phatic:87->86:0|Entity=(person-15-giv:inact-1-ana)
 15	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	parataxis	12:parataxis	SpaceAfter=No
 16	,	,	PUNCT	,	_	20	punct	20:punct	_
 17	because	because	SCONJ	IN	_	20	mark	20:mark	Discourse=cause:88->86:2
@@ -767,25 +767,25 @@
 # s_type = decl
 # speaker = MaeLynne
 # text = I mean, all the skeleton part of it you know, and — and they go through every kinda ligament.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=preparation:90->91:2|Entity=(person-1-giv:inact-1-ana)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=phatic:90->91:2|Entity=(person-1-giv:inact-1-ana)
 2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	parataxis	7:parataxis	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
-4	all	all	DET	PDT	_	7	det:predet	7:det:predet	Discourse=elaboration:91->89:0|Entity=(object-47-new-4-sgl
+4	all	all	DET	PDT	PronType=Tot	7	det:predet	7:det:predet	Discourse=elaboration:91->89:0|Entity=(object-47-new-4-sgl
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	_
 6	skeleton	skeleton	NOUN	NN	Number=Sing	7	compound	7:compound	_
 7	part	part	NOUN	NN	Number=Sing	0	root	0:root	_
 8	of	of	ADP	IN	_	9	case	9:case	_
 9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nmod	7:nmod:of	Entity=(animal-46-giv:act-1-ana)47)
-10	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj	Discourse=evaluation:92->91:0|Entity=(person-15-giv:inact-1-ana)
+10	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj	Discourse=phatic:92->91:0|Entity=(person-15-giv:inact-1-ana)
 11	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	parataxis	7:parataxis	SpaceAfter=No
-12	,	,	PUNCT	,	_	17	punct	17:punct	_
+12	,	,	PUNCT	,	_	13	punct	13:punct	_
 13	and	and	CCONJ	CC	Typo=Yes	15	reparandum	15:reparandum	Discourse=joint_m:93->91:1|XML=<sic>
 14	—	—	PUNCT	:	Typo=Yes	13	punct	13:punct	XML=</sic>
 15	and	and	CCONJ	CC	_	17	cc	17:cc	_
 16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	17:nsubj	Entity=(person-43-giv:act-1-ana)
 17	go	go	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	7:conj:and	_
 18	through	through	ADP	IN	_	20	case	20:case	_
-19	every	every	DET	DT	_	20	det	20:det	Entity=(object-48-new-2-sgl
+19	every	every	DET	DT	PronType=Tot	20	det	20:det	Entity=(object-48-new-2-sgl
 20	kind	kind	NOUN	NN	Number=Sing	17	obl	17:obl:through	SpaceAfter=No|XML=<w>
 21	a	of	ADP	IN	_	22	case	22:case	XML=</w>
 22	ligament	ligament	NOUN	NN	Number=Sing	20	nmod	20:nmod:of	Entity=48)|SpaceAfter=No
@@ -797,11 +797,11 @@
 # speaker = MaeLynne
 # text = And I mean, there's, millions of ligaments, and millions of tendons, you know, well not millions, but, I mean ...
 1	And	and	CCONJ	CC	_	6	cc	6:cc	Discourse=elaboration:94->91:3
-2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=preparation:95->96:0|Entity=(person-1-giv:act-1-ana)
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=phatic:95->96:0|Entity=(person-1-giv:act-1-ana)
 3	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	6:parataxis	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5-6	there's	_	_	_	_	_	_	_	SpaceAfter=No
-5	there	there	PRON	EX	_	6	expl	6:expl	Discourse=same-unit_m:96->94:0
+5	there	there	PRON	EX	PronType=Dem	6	expl	6:expl	Discourse=same-unit_m:96->94:0
 6	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 7	,	,	PUNCT	,	_	8	punct	8:punct	_
 8	millions	million	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=(object-49-new-1-coref
@@ -813,16 +813,16 @@
 14	of	of	ADP	IN	_	15	case	15:case	_
 15	tendons	tendon	NOUN	NNS	Number=Plur	13	nmod	13:nmod:of	Entity=50)|SpaceAfter=No
 16	,	,	PUNCT	,	_	18	punct	18:punct	_
-17	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	18	nsubj	18:nsubj	Discourse=evaluation:97->94:1|Entity=(person-15-giv:act-1-ana)
+17	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	18	nsubj	18:nsubj	Discourse=phatic:97->94:1|Entity=(person-15-giv:act-1-ana)
 18	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	parataxis	6:parataxis	SpaceAfter=No
 19	,	,	PUNCT	,	_	22	punct	22:punct	_
 20	well	well	INTJ	UH	_	22	discourse	22:discourse	Discourse=concession:98->99:0
 21	not	not	PART	RB	Polarity=Neg	22	advmod	22:advmod	_
 22	millions	million	NOUN	NNS	Number=Plur	6	parataxis	6:parataxis	Bridge=50<51|Entity=(object-51-acc:inf-1-sgl)|SpaceAfter=No
-23	,	,	PUNCT	,	_	27	punct	27:punct	_
+23	,	,	PUNCT	,	_	24	punct	24:punct	_
 24	but	but	CCONJ	CC	_	27	cc	27:cc	Discourse=concession:99->94:2|SpaceAfter=No
 25	,	,	PUNCT	,	_	24	punct	24:punct	_
-26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	27:nsubj	Discourse=evaluation:100->99:1|Entity=(person-1-giv:act-1-ana)
+26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	27:nsubj	Discourse=phatic:100->99:1|Entity=(person-1-giv:act-1-ana)
 27	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	conj	22:conj:but	_
 28	...	…	PUNCT	:	_	6	punct	6:punct	_
 
@@ -857,20 +857,20 @@
 11	,	,	PUNCT	,	_	13	punct	13:punct	_
 12	and	and	CCONJ	CC	_	13	cc	13:cc	_
 13	ligaments	ligament	NOUN	NNS	Number=Plur	10	conj	8:obj|10:conj:and	Entity=(object-49-giv:inact-1-coref)52)|SpaceAfter=No
-14	,	,	PUNCT	,	_	20	punct	20:punct	_
+14	,	,	PUNCT	,	_	15	punct	15:punct	_
 15	and	and	CCONJ	CC	_	20	cc	20:cc	_
 16	then	then	ADV	RB	PronType=Dem	20	advmod	20:advmod	SpaceAfter=No
 17	,	,	PUNCT	,	_	16	punct	16:punct	_
-18	all	all	DET	PDT	_	20	det:predet	20:det:predet	Bridge=46<53|Entity=(object-53-acc:inf-3-coref
+18	all	all	DET	PDT	PronType=Tot	20	det:predet	20:det:predet	Bridge=46<53|Entity=(object-53-acc:inf-3-coref
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	_
 20	bones	bone	NOUN	NNS	Number=Plur	10	conj	8:obj|10:conj:and	Entity=53)|SpaceAfter=No
-21	,	,	PUNCT	,	_	29	punct	29:punct	_
+21	,	,	PUNCT	,	_	22	punct	22:punct	_
 22	and	and	CCONJ	CC	_	29	cc	29:cc	SpaceAfter=No
 23	,	,	PUNCT	,	_	22	punct	22:punct	_
-24	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	25	nsubj	25:nsubj	Discourse=preparation:103->104:0|Entity=(person-15-giv:act-1-ana)
+24	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	25	nsubj	25:nsubj	Discourse=phatic:103->104:0|Entity=(person-15-giv:act-1-ana)
 25	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	29	parataxis	29:parataxis	SpaceAfter=No
 26	,	,	PUNCT	,	_	25	punct	25:punct	_
-27	all	all	DET	PDT	_	29	det:predet	29:det:predet	Discourse=same-unit_m:104->102:0
+27	all	all	DET	PDT	PronType=Tot	29	det:predet	29:det:predet	Discourse=same-unit_m:104->102:0
 28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	29:det	_
 29	way	way	NOUN	NN	Number=Sing	10	conj	8:obj|10:conj:and	_
 30	up	up	ADV	RB	Degree=Pos	29	advmod	29:advmod	_
@@ -893,17 +893,17 @@
 # s_type = other
 # speaker = MaeLynne
 # text = You know, all the way down to the hoof, and then, the bone in the hoof, and, then all the wall, and, you know, of the hoof, and, what everything was called there, and then, he went over on how to trim it, and where you —
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=preparation:105->106:0|Entity=(person-15-giv:act-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=phatic:105->106:0|Entity=(person-15-giv:act-1-ana)
 2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	parataxis	6:parataxis	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
-4	all	all	DET	PDT	_	6	det:predet	6:det:predet	Discourse=joint_m:106->102:1
+4	all	all	DET	PDT	PronType=Tot	6	det:predet	6:det:predet	Discourse=joint_m:106->102:1
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	_
 6	way	way	NOUN	NN	Number=Sing	0	root	0:root	_
 7	down	down	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
 8	to	to	ADP	IN	_	10	case	10:case	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=46<56|Entity=(object-56-acc:inf-2-coref
 10	hoof	hoof	NOUN	NN	Number=Sing	7	nmod	7:nmod:to	Entity=56)|SpaceAfter=No
-11	,	,	PUNCT	,	_	16	punct	16:punct	_
+11	,	,	PUNCT	,	_	12	punct	12:punct	_
 12	and	and	CCONJ	CC	_	16	cc	16:cc	_
 13	then	then	ADV	RB	PronType=Dem	16	advmod	16:advmod	SpaceAfter=No
 14	,	,	PUNCT	,	_	13	punct	13:punct	_
@@ -912,23 +912,23 @@
 17	in	in	ADP	IN	_	19	case	19:case	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(object-56-giv:act-2-coref
 19	hoof	hoof	NOUN	NN	Number=Sing	16	nmod	16:nmod:in	Entity=56)57)|SpaceAfter=No
-20	,	,	PUNCT	,	_	26	punct	26:punct	_
+20	,	,	PUNCT	,	_	21	punct	21:punct	_
 21	and	and	CCONJ	CC	_	26	cc	26:cc	SpaceAfter=No
 22	,	,	PUNCT	,	_	21	punct	21:punct	_
 23	then	then	ADV	RB	PronType=Dem	26	advmod	26:advmod	_
-24	all	all	DET	PDT	_	26	det:predet	26:det:predet	Entity=(object-58-new-3-sgl
+24	all	all	DET	PDT	PronType=Tot	26	det:predet	26:det:predet	Entity=(object-58-new-3-sgl
 25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	_
 26	wall	wall	NOUN	NN	Number=Sing	6	conj	6:conj:and	SpaceAfter=No|XML=<sic></sic>
-27	,	,	PUNCT	,	_	31	punct	31:punct	_
+27	,	,	PUNCT	,	_	28	punct	28:punct	_
 28	and	and	CCONJ	CC	_	31	cc	31:cc	SpaceAfter=No
 29	,	,	PUNCT	,	_	28	punct	28:punct	_
-30	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	31	nsubj	31:nsubj	Discourse=preparation:107->108:0|Entity=(person-15-giv:act-1-ana)
+30	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	31	nsubj	31:nsubj	Discourse=phatic:107->108:0|Entity=(person-15-giv:act-1-ana)
 31	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	26	parataxis	26:parataxis	SpaceAfter=No
 32	,	,	PUNCT	,	_	35	punct	35:punct	_
 33	of	of	ADP	IN	_	35	case	35:case	Discourse=same-unit_m:108->106:1
 34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	35:det	Entity=(object-56-giv:act-2-coref
 35	hoof	hoof	NOUN	NN	Number=Sing	26	nmod	26:nmod:of	Entity=56)58)|SpaceAfter=No
-36	,	,	PUNCT	,	_	39	punct	39:punct	_
+36	,	,	PUNCT	,	_	37	punct	37:punct	_
 37	and	and	CCONJ	CC	_	39	cc	39:cc	SpaceAfter=No
 38	,	,	PUNCT	,	_	37	punct	37:punct	_
 39	what	what	PRON	WP	PronType=Rel	6	conj	6:conj:and	_
@@ -936,7 +936,7 @@
 41	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	42	aux:pass	42:aux:pass	_
 42	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	39	acl:relcl	39:acl:relcl	_
 43	there	there	ADV	RB	PronType=Dem	42	advmod	42:advmod	SpaceAfter=No
-44	,	,	PUNCT	,	_	49	punct	49:punct	_
+44	,	,	PUNCT	,	_	45	punct	45:punct	_
 45	and	and	CCONJ	CC	_	49	cc	49:cc	Discourse=sequence_m:109->91:4
 46	then	then	ADV	RB	PronType=Dem	49	advmod	49:advmod	SpaceAfter=No
 47	,	,	PUNCT	,	_	46	punct	46:punct	_
@@ -960,9 +960,9 @@
 # s_type = decl
 # speaker = MaeLynne
 # text = Th- there's a white line, that you go by, and a horse has this little white line, and you clean it out with the — with the hoof knife.
-1	Th-	there	PRON	EX	Typo=Yes	2	reparandum	2:reparandum	Discourse=background:110->113:1|XML=<sic></sic>
+1	Th-	there	PRON	EX	PronType=Dem|Typo=Yes	2	reparandum	2:reparandum	Discourse=background:110->113:1|XML=<sic></sic>
 2-3	there's	_	_	_	_	_	_	_	_
-2	there	there	PRON	EX	_	3	expl	3:expl	_
+2	there	there	PRON	EX	PronType=Dem	3	expl	3:expl	_
 3	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(object-61-new-3-coref
 5	white	white	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
@@ -973,7 +973,7 @@
 10	go	go	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	acl:relcl	6:acl:relcl	_
 11	by	by	ADP	IN	_	8	case	8:case	Entity=61)|SpaceAfter=No
 12	,	,	PUNCT	,	_	16	punct	16:punct	_
-13	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=restatement_m:112->110:1
+13	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=restatement-repetition_m:112->110:1
 14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	Entity=(animal-46-giv:inact-2-coref
 15	horse	horse	NOUN	NN	Number=Sing	16	nsubj	16:nsubj	Entity=46)
 16	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	3:conj:and	_
@@ -1001,7 +1001,7 @@
 # s_type = q
 # speaker = MaeLynne
 # text = You know?
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=evaluation:114->113:0|Entity=(person-15-giv:act-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=phatic:114->113:0|Entity=(person-15-giv:act-1-ana)
 2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 3	?	?	PUNCT	.	_	2	punct	2:punct	_
 
@@ -1010,7 +1010,7 @@
 # s_type = q
 # speaker = MaeLynne
 # text = And then there — and then you can see this little white line?
-1	And	and	CCONJ	CC	Typo=Yes	3	cc	3:cc	Discourse=preparation:115->116:0|XML=<sic>
+1	And	and	CCONJ	CC	Typo=Yes	3	cc	3:cc	Discourse=phatic:115->116:0|XML=<sic>
 2	then	then	ADV	RB	PronType=Dem|Typo=Yes	3	advmod	3:advmod	_
 3	there	there	ADV	RB	PronType=Dem|Typo=Yes	9	reparandum	9:reparandum	_
 4	—	—	PUNCT	:	Typo=Yes	3	punct	3:punct	XML=</sic>
@@ -1048,7 +1048,7 @@
 # s_type = decl
 # speaker = MaeLynne
 # text = You know, the horse kinda helps you out, because it, has that little white line right there.
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=preparation:118->119:1|Entity=(person-15-giv:inact-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=phatic:118->119:1|Entity=(person-15-giv:inact-1-ana)
 2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	parataxis	7:parataxis	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Discourse=evaluation:119->113:3|Entity=(animal-46-giv:inact-2-coref
@@ -1057,7 +1057,7 @@
 7	helps	help	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 8	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	7	obj	7:obj	Entity=(person-13-giv:act-1-ana)
 9	out	out	ADP	RP	_	7	compound:prt	7:compound:prt	SpaceAfter=No
-10	,	,	PUNCT	,	_	14	punct	14:punct	_
+10	,	,	PUNCT	,	_	11	punct	11:punct	_
 11	because	because	SCONJ	IN	_	14	mark	14:mark	Discourse=justify:120->119:0
 12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj	Entity=(animal-46-giv:act-1-ana)|SpaceAfter=No
 13	,	,	PUNCT	,	_	12	punct	12:punct	_
@@ -1128,7 +1128,7 @@
 # text = Because, you know, I mean, you can make a horse go lame, by doing it.
 1	Because	because	SCONJ	IN	_	11	mark	11:mark	Discourse=cause:125->124:0|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Discourse=preparation:126->128:1|Entity=(person-15-giv:inact-1-ana)
+3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Discourse=phatic:126->128:1|Entity=(person-15-giv:inact-1-ana)
 4	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	parataxis	11:parataxis	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	Discourse=joint_m:127->126:0|Entity=(person-1-giv:act-1-ana)
@@ -1180,7 +1180,7 @@
 2	make	make	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
 3	em	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	2:obj	Entity=(animal-65-giv:act-1-ana)|SpaceAfter=No|XML=<sic></sic>
 4	,	,	PUNCT	,	_	6	punct	6:punct	_
-5	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	Discourse=preparation:133->134:0|Entity=(person-15-giv:inact-1-ana)
+5	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	Discourse=phatic:133->134:0|Entity=(person-15-giv:inact-1-ana)
 6	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	SpaceAfter=No
 7	,	,	PUNCT	,	_	14	punct	14:punct	_
 8	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=preparation:134->137:1
@@ -1199,7 +1199,7 @@
 21	of	of	ADP	IN	_	22	case	22:case	_
 22	days	day	NOUN	NNS	Number=Plur	20	nmod	20:nmod:of	Entity=66)|SpaceAfter=No
 23	,	,	PUNCT	,	_	25	punct	25:punct	_
-24	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	25	nsubj	25:nsubj	Discourse=preparation:135->137:0|Entity=(person-15-giv:act-1-ana)
+24	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	25	nsubj	25:nsubj	Discourse=phatic:135->137:0|Entity=(person-15-giv:act-1-ana)
 25	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	parataxis	14:parataxis	SpaceAfter=No
 26	,	,	PUNCT	,	_	28	punct	28:punct	_
 27	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	28:nsubj	Discourse=joint_m:136->135:0|Entity=(person-15-giv:act-1-ana)
@@ -1236,7 +1236,7 @@
 # s_type = sub
 # speaker = MaeLynne
 # text = You can really make a horse really bad.
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Discourse=restatement_m:140->139:1|Entity=(person-13-giv:act-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Discourse=restatement-repetition_m:140->139:1|Entity=(person-13-giv:act-1-ana)
 2	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	really	really	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
 4	make	make	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -1251,7 +1251,7 @@
 # s_type = other
 # speaker = MaeLynne
 # text = And they m-
-1	And	and	CCONJ	CC	_	3	cc	3:cc	Discourse=preparation:141->143:2
+1	And	and	CCONJ	CC	_	3	cc	3:cc	Discourse=phatic:141->143:2
 2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-69-acc:com-1-ana)
 3	m-	m-	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	0:root	XML=<sic></sic>
 
@@ -1260,7 +1260,7 @@
 # s_type = sub
 # speaker = MaeLynne
 # text = You know then, they have to, like, keep em, away from anything, you know, get em really in the soft ground, and, no hard pebbles, or hard clods of dirt or anything?
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=preparation:142->143:1|Entity=(person-15-giv:inact-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=phatic:142->143:1|Entity=(person-15-giv:inact-1-ana)
 2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	parataxis	6:parataxis	_
 3	then	then	ADV	RB	PronType=Dem	6	advmod	6:advmod	Discourse=result:143->139:2|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -1277,7 +1277,7 @@
 15	from	from	ADP	IN	_	16	case	16:case	_
 16	anything	anything	NOUN	NN	Number=Sing	14	nmod	14:nmod:from	Entity=(object-70-new-1-coref)|SpaceAfter=No
 17	,	,	PUNCT	,	_	19	punct	19:punct	_
-18	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	19:nsubj	Discourse=preparation:144->145:0|Entity=(person-15-giv:act-1-ana)
+18	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	19:nsubj	Discourse=phatic:144->145:0|Entity=(person-15-giv:act-1-ana)
 19	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	parataxis	11:parataxis	SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	21:punct	_
 21	get	get	VERB	VB	VerbForm=Inf	11	conj	6:xcomp|11:conj	Discourse=elaboration:145->143:0
@@ -1287,10 +1287,10 @@
 25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(substance-71-new-3-sgl
 26	soft	soft	ADJ	JJ	Degree=Pos	27	amod	27:amod	_
 27	ground	ground	NOUN	NN	Number=Sing	21	obl	21:obl:in	Entity=71)|SpaceAfter=No
-28	,	,	PUNCT	,	_	33	punct	33:punct	_
+28	,	,	PUNCT	,	_	29	punct	29:punct	_
 29	and	and	CCONJ	CC	_	33	cc	33:cc	SpaceAfter=No
 30	,	,	PUNCT	,	_	29	punct	29:punct	_
-31	no	no	DET	DT	Polarity=Neg	33	det	33:det	Entity=(object-72-new-3-sgl
+31	no	no	DET	DT	Polarity=Neg|PronType=Art	33	det	33:det	Entity=(object-72-new-3-sgl
 32	hard	hard	ADJ	JJ	Degree=Pos	33	amod	33:amod	_
 33	pebbles	pebble	NOUN	NNS	Number=Plur	27	conj	21:obl:in|27:conj:and	Entity=72)|SpaceAfter=No
 34	,	,	PUNCT	,	_	37	punct	37:punct	_
@@ -1339,7 +1339,7 @@
 # s_type = decl
 # speaker = MaeLynne
 # text = You know, I get em really long.
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=preparation:148->149:0|Entity=(person-15-giv:inact-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=phatic:148->149:0|Entity=(person-15-giv:inact-1-ana)
 2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	parataxis	5:parataxis	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Discourse=result:149->147:1|Entity=(person-1-giv:act-1-ana)
@@ -1354,9 +1354,9 @@
 # s_type = decl
 # speaker = MaeLynne
 # text = I mean they're still long, when I get done with them.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=preparation:150->151:1|Entity=(person-1-giv:act-1-ana)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=phatic:150->151:1|Entity=(person-1-giv:act-1-ana)
 2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	6:parataxis	_
-3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=restatement_m:151->149:1|Entity=(object-56-giv:act-1-ana)|SpaceAfter=No
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=restatement-repetition_m:151->149:1|Entity=(object-56-giv:act-1-ana)|SpaceAfter=No
 4	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 5	still	still	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
 6	long	long	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
@@ -1393,11 +1393,11 @@
 15	'll	will	AUX	MD	VerbForm=Fin	16	aux	16:aux	_
 16	think	think	VERB	VB	VerbForm=Inf	10	conj	10:conj:and	_
 17-18	I'm	_	_	_	_	_	_	_	_
-17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	19:nsubj	Discourse=restatement_m:155->153:0|Entity=(person-1-giv:act-1-ana)
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	19:nsubj	Discourse=restatement-repetition_m:155->153:0|Entity=(person-1-giv:act-1-ana)
 18	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	cop	19:cop	_
 19	done	done	ADJ	JJ	Degree=Pos	16	ccomp	16:ccomp	SpaceAfter=No
-20	,	,	PUNCT	,	_	27	punct	27:punct	_
-21	and	and	CCONJ	CC	_	27	cc	27:cc	Discourse=preparation:156->157:0
+20	,	,	PUNCT	,	_	21	punct	21:punct	_
+21	and	and	CCONJ	CC	_	27	cc	27:cc	Discourse=phatic:156->157:0
 22-23	I'll	_	_	_	_	_	_	_	_
 22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	24:nsubj	Entity=(person-1-giv:act-1-ana)
 23	'll	will	AUX	MD	VerbForm=Fin	24	aux	24:aux	_
@@ -1412,8 +1412,8 @@
 31	horse	horse	NOUN	NN	Number=Sing	33	nmod:poss	33:nmod:poss	_
 32	's	's	PART	POS	_	31	case	31:case	Entity=46)
 33	hoof	hoof	NOUN	NN	Number=Sing	27	obl	27:obl:at	Entity=56)|SpaceAfter=No
-34	,	,	PUNCT	,	_	43	punct	43:punct	_
-35	and	and	CCONJ	CC	_	43	cc	43:cc	Discourse=preparation:158->159:0
+34	,	,	PUNCT	,	_	35	punct	35:punct	_
+35	and	and	CCONJ	CC	_	43	cc	43:cc	Discourse=phatic:158->159:0
 36-37	it's	_	_	_	_	_	_	_	_
 36	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	38	nsubj	38:nsubj	Entity=(object-56-giv:act-1-ana)|XML=<sic>
 37	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	38	cop	38:cop	_
@@ -1457,8 +1457,8 @@
 # s_type = multiple
 # speaker = MaeLynne
 # text = See we did that too.
-1	See	see	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=preparation:161->162:0
-2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=preparation:162->164:0|Entity=(person-78-acc:com-1-ana)
+1	See	see	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=phatic:161->162:0
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=preparation:162->164:1|Entity=(person-78-acc:com-1-ana)
 3	did	do	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	1	parataxis	1:parataxis	_
 4	that	that	ADP	IN	_	3	obj	3:obj	Entity=(event-76-giv:act-1-coref)
 5	too	too	ADV	RB	Degree=Pos	3	advmod	3:advmod	SpaceAfter=No
@@ -1469,10 +1469,10 @@
 # s_type = decl
 # speaker = MaeLynne
 # text = We did — we did a lot of stuff.
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint_m:163->162:1|Entity=(person-78-giv:act-1-ana)|XML=<sic>
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=phatic:163->164:0|Entity=(person-78-giv:act-1-ana)|XML=<sic>
 2	did	do	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|Typo=Yes|VerbForm=Fin	5	reparandum	5:reparandum	_
 3	—	—	PUNCT	:	Typo=Yes	2	punct	2:punct	XML=</sic>
-4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	Discourse=preparation:164->165:0|Entity=(person-78-giv:act-1-ana)
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	Discourse=preparation:164->166:0|Entity=(person-78-giv:act-1-ana)
 5	did	do	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(abstract-79-new-2-coref
 7	lot	lot	NOUN	NN	Number=Sing	5	obj	5:obj	_
@@ -1485,7 +1485,7 @@
 # s_type = decl
 # speaker = MaeLynne
 # text = We did a lot of stuff with the — like we had the, um, the burners?
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=preparation:165->166:0|Entity=(person-78-giv:act-1-ana)
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=restatement-repetition_m:165->164:2|Entity=(person-78-giv:act-1-ana)
 2	did	do	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	12	reparandum	12:reparandum	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(abstract-79-giv:act-2-coref
 4	lot	lot	NOUN	NN	Number=Sing	2	obj	2:obj	_
@@ -1510,10 +1510,10 @@
 # s_type = decl
 # speaker = MaeLynne
 # text = You know, and you'd put the — you'd have — you started out with the straight iron?
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=preparation:167->168:0|Entity=(person-15-giv:inact-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=phatic:167->168:0|Entity=(person-15-giv:inact-1-ana)
 2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	parataxis	15:parataxis	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
-4	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=preparation:168->170:0
+4	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=phatic:168->170:0
 5-6	you'd	_	_	_	_	_	_	_	_
 5	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	7:nsubj	Entity=(person-13-giv:inact-1-ana)
 6	'd	will	AUX	MD	VerbForm=Fin	7	aux	7:aux	_
@@ -1539,7 +1539,7 @@
 # s_type = q
 # speaker = MaeLynne
 # text = You know?
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=evaluation:171->170:1|Entity=(person-15-giv:act-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=phatic:171->170:1|Entity=(person-15-giv:act-1-ana)
 2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 3	?	?	PUNCT	.	_	2	punct	2:punct	_
 
@@ -1560,7 +1560,7 @@
 9	into	into	ADP	IN	_	10	case	10:case	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	4	obl	4:obl:into	SpaceAfter=No
 11	,	,	PUNCT	,	_	13	punct	13:punct	_
-12	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	13:nsubj	Discourse=preparation:173->174:0|Entity=(person-15-giv:act-1-ana)
+12	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	13:nsubj	Discourse=phatic:173->174:0|Entity=(person-15-giv:act-1-ana)
 13	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	parataxis	10:parataxis	_
 14	like	like	INTJ	UH	_	17	discourse	17:discourse	Discourse=evaluation:174->172:1|SpaceAfter=No
 15	,	,	PUNCT	,	_	14	punct	14:punct	_
@@ -1584,7 +1584,7 @@
 8	hot	hot	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 9	coals	coal	NOUN	NNS	Number=Plur	4	obl	4:obl:into	Entity=83)|SpaceAfter=No
 10	,	,	PUNCT	,	_	12	punct	12:punct	_
-11	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	12:nsubj	Discourse=evaluation:176->175:0|Entity=(person-15-giv:act-1-ana)
+11	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	12:nsubj	Discourse=phatic:176->175:0|Entity=(person-15-giv:act-1-ana)
 12	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	parataxis	4:parataxis	SpaceAfter=No
 13	?	?	PUNCT	.	_	4	punct	4:punct	_
 
@@ -1593,13 +1593,13 @@
 # s_type = other
 # speaker = MaeLynne
 # text = And then, we'd — I I – straight bar.
-1	And	and	CCONJ	CC	_	5	cc	5:cc	Discourse=preparation:177->178:0
+1	And	and	CCONJ	CC	_	5	cc	5:cc	Discourse=phatic:177->178:0
 2	then	then	ADV	RB	PronType=Dem	5	advmod	5:advmod	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4-5	we'd	_	_	_	_	_	_	_	_
 4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-78-giv:inact-1-ana)
 5	'd	will	AUX	MD	VerbForm=Fin	0	root	0:root	_
-6	—	—	PUNCT	:	_	11	punct	11:punct	_
+6	—	—	PUNCT	:	_	7	punct	7:punct	_
 7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	reparandum	11:reparandum	Discourse=sequence_m:178->166:1|Entity=(person-1-giv:inact-1-ana)|XML=<sic>
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	reparandum	11:reparandum	Entity=(person-1-giv:act-1-ana)|XML=</sic>
 9	–	-	PUNCT	:	_	8	punct	8:punct	_
@@ -1626,7 +1626,7 @@
 11	of	of	ADP	IN	_	10	fixed	10:fixed	_
 12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	4:obl:out_of	Entity=(object-81-giv:act-1-ana)|SpaceAfter=No
 13	,	,	PUNCT	,	_	15	punct	15:punct	_
-14	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Discourse=evaluation:180->179:0|Entity=(person-15-giv:inact-1-ana)
+14	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Discourse=phatic:180->179:0|Entity=(person-15-giv:inact-1-ana)
 15	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	parataxis	4:parataxis	SpaceAfter=No
 16	?	?	PUNCT	.	_	4	punct	4:punct	_
 
@@ -1689,7 +1689,7 @@
 # s_type = decl
 # speaker = MaeLynne
 # text = I mean, if you would really get into it, well as a matter of fact, this is really funny.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=preparation:186->188:1|Entity=(person-1-giv:inact-1-ana)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=phatic:186->188:1|Entity=(person-1-giv:inact-1-ana)
 2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	parataxis	8:parataxis	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	if	if	SCONJ	IN	_	8	mark	8:mark	Discourse=preparation:187->188:0
@@ -1699,7 +1699,7 @@
 8	get	get	VERB	VB	VerbForm=Inf	0	root	0:root	_
 9	into	into	ADP	IN	_	10	case	10:case	_
 10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obl	8:obl:into	Entity=(event-82-giv:inact-1-ana)|SpaceAfter=No
-11	,	,	PUNCT	,	_	22	punct	22:punct	_
+11	,	,	PUNCT	,	_	12	punct	12:punct	_
 12	well	well	INTJ	UH	_	22	discourse	22:discourse	Discourse=evaluation:188->190:2
 13	as	as	ADP	IN	_	15	case	15:case	_
 14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	_
@@ -1718,15 +1718,15 @@
 # s_type = decl
 # speaker = MaeLynne
 # text = You know, there isn't really any girl farriers around anywhere.
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=preparation:189->190:1|Entity=(person-15-giv:inact-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=phatic:189->190:1|Entity=(person-15-giv:inact-1-ana)
 2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	parataxis	5:parataxis	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
-4	there	there	PRON	EX	_	5	expl	5:expl	Discourse=background:190->195:3|Entity=(abstract-90-giv:act-2-coref
+4	there	there	PRON	EX	PronType=Dem	5	expl	5:expl	Discourse=background:190->195:3|Entity=(abstract-90-giv:act-2-coref
 5-6	isn't	_	_	_	_	_	_	_	_
 5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 6	n't	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
 7	really	really	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
-8	any	any	DET	DT	_	10	det	10:det	Entity=(person-91-new-3-coref
+8	any	any	DET	DT	PronType=Ind	10	det	10:det	Entity=(person-91-new-3-coref
 9	girl	girl	NOUN	NN	Number=Sing	10	compound	10:compound	_
 10	farriers	farrier	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=91)
 11	around	around	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
@@ -1768,7 +1768,7 @@
 # s_type = decl
 # speaker = MaeLynne
 # text = Farrier is what they're called.
-1	Farrier	farrier	NOUN	NN	Number=Sing	0	root	0:root	Discourse=restatement_m:194->193:0|Entity=(person-92-giv:inact-1-pred)
+1	Farrier	farrier	NOUN	NN	Number=Sing	0	root	0:root	Discourse=restatement-repetition_m:194->193:0|Entity=(person-92-giv:inact-1-pred)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	1:cop	_
 3	what	what	PRON	WP	PronType=Rel	1	nsubj	1:nsubj	_
 4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj:pass	6:nsubj:pass	Entity=(person-91-giv:inact-1-ana)|SpaceAfter=No
@@ -1814,7 +1814,7 @@
 31	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	23	ccomp	23:ccomp	_
 32	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	obj	31:obj	Entity=(event-82-giv:act-1-ana)
 33	right	right	ADV	RB	Degree=Pos	31	advmod	31:advmod	SpaceAfter=No
-34	,	,	PUNCT	,	_	39	punct	39:punct	_
+34	,	,	PUNCT	,	_	35	punct	35:punct	_
 35	and	and	CCONJ	CC	_	39	cc	39:cc	Discourse=joint_m:200->199:1
 36	—	—	PUNCT	:	_	35	punct	35:punct	_
 37	plus	plus	CCONJ	CC	_	39	cc	39:cc	_
@@ -1841,7 +1841,7 @@
 5	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	5:obj	Entity=(abstract-98-giv:act-1-ana)
 7	in	in	ADP	IN	_	9	case	9:case	_
-8	another	another	DET	DT	_	9	det	9:det	Entity=(abstract-100-new-2-coref
+8	another	another	DET	DT	PronType=Art	9	det	9:det	Entity=(abstract-100-new-2-coref
 9	class	class	NOUN	NN	Number=Sing	5	obl	5:obl:in	Entity=100)
 10	too	too	ADV	RB	Degree=Pos	5	advmod	5:advmod	SpaceAfter=No
 11	.	.	PUNCT	.	_	5	punct	5:punct	_
@@ -1867,7 +1867,7 @@
 14	in	in	ADP	IN	Typo=Yes	18	reparandum	18:reparandum	XML=<sic>
 15	—	—	PUNCT	:	Typo=Yes	14	punct	14:punct	XML=</sic>
 16	in	in	ADP	IN	_	18	case	18:case	_
-17	another	another	DET	DT	_	18	det	18:det	Entity=(abstract-100-giv:act-2-coref
+17	another	another	DET	DT	PronType=Art	18	det	18:det	Entity=(abstract-100-giv:act-2-coref
 18	class	class	NOUN	NN	Number=Sing	13	obl	13:obl:in	Entity=100)98)|SpaceAfter=No
 19	,	,	PUNCT	,	_	24	punct	24:punct	_
 20	so	so	ADV	RB	_	24	advmod	24:advmod	Discourse=result:205->204:0
@@ -1890,7 +1890,7 @@
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(abstract-101-new-2-sgl
 5	review	review	NOUN	NN	Number=Sing	0	root	0:root	Entity=101)
 6	for	for	ADP	IN	_	8	case	8:case	_
-7	some	some	DET	DT	_	8	det	8:det	Entity=(person-102-new-2-sgl
+7	some	some	DET	DT	PronType=Ind	8	det	8:det	Entity=(person-102-new-2-sgl
 8	people	person	NOUN	NNS	Number=Plur	5	obl	5:obl:for	Entity=102)|SpaceAfter=No
 9	,	,	PUNCT	,	_	13	punct	13:punct	_
 10	depending	depend	VERB	VBG	VerbForm=Ger	13	case	13:case	Discourse=condition:207->206:0
@@ -1910,7 +1910,7 @@
 # s_type = decl
 # speaker = MaeLynne
 # text = You know.
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=preparation:208->209:1|Entity=(person-15-giv:act-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=phatic:208->209:1|Entity=(person-15-giv:act-1-ana)
 2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -1924,7 +1924,7 @@
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(abstract-98-giv:act-2-pred
 5	review	review	NOUN	NN	Number=Sing	0	root	0:root	Entity=98)
-6	or	or	CCONJ	CC	_	7	cc	7:cc	Discourse=contrast_m:210->209:0
+6	or	or	CCONJ	CC	_	7	cc	7:cc	Discourse=disjunction_m:210->209:0
 7	not	not	PART	RB	Polarity=Neg	5	conj	5:conj:or	SpaceAfter=No
 8	.	.	PUNCT	.	_	5	punct	5:punct	_
 
@@ -2019,7 +2019,7 @@
 13	's	's	PART	POS	_	12	case	12:case	Entity=46)
 14	hoof	hoof	NOUN	NN	Number=Sing	8	obl	8:obl:on	Entity=105)|SpaceAfter=No
 15	,	,	PUNCT	,	_	8	punct	8:punct	_
-16	all	all	DET	DT	_	23	dislocated	23:dislocated	Discourse=joint_m:218->10:4
+16	all	all	DET	DT	PronType=Tot	23	dislocated	23:dislocated	Discourse=joint_m:218->10:4
 17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	18:nsubj	Discourse=elaboration:219->218:0|Entity=(person-78-giv:act-1-ana)
 18	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	acl:relcl	16:acl:relcl	SpaceAfter=No
 19	,	,	PUNCT	,	_	16	punct	16:punct	_
@@ -2056,7 +2056,7 @@
 # s_type = sub
 # speaker = MaeLynne
 # text = You know we'd like look at the horse's hoof, and say, okay, this is a double-aught.
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=preparation:223->224:0|Entity=(person-15-giv:inact-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=phatic:223->224:0|Entity=(person-15-giv:inact-1-ana)
 2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	parataxis	6:parataxis	_
 3-4	we'd	_	_	_	_	_	_	_	_
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	6:nsubj|14:nsubj	Discourse=means:224->226:4|Entity=(person-78-giv:act-1-ana)
@@ -2072,7 +2072,7 @@
 12	,	,	PUNCT	,	_	14	punct	14:punct	_
 13	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=attribution:225->226:1
 14	say	say	VERB	VB	VerbForm=Inf	6	conj	6:conj:and	SpaceAfter=No
-15	,	,	PUNCT	,	_	23	punct	23:punct	_
+15	,	,	PUNCT	,	_	16	punct	16:punct	_
 16	okay	okay	INTJ	UH	_	23	discourse	23:discourse	Discourse=elaboration:226->222:0|SpaceAfter=No
 17	,	,	PUNCT	,	_	16	punct	16:punct	_
 18	this	this	PRON	DT	Number=Sing|PronType=Dem	23	nsubj	23:nsubj	Entity=(object-107-new-1-cata)
@@ -2102,7 +2102,7 @@
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	2:nsubj	Discourse=joint_m:228->226:0|Entity=(object-109-acc:com-1-sgl)
 2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	,	_	5	punct	5:punct	_
-4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Discourse=evaluation:229->228:0|Entity=(person-15-giv:inact-1-ana)
+4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Discourse=phatic:229->228:0|Entity=(person-15-giv:inact-1-ana)
 5	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -2146,7 +2146,7 @@
 # text = For, you know, the light horse.
 1	For	for	ADP	IN	_	8	case	8:case	Discourse=elaboration:233->231:1|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Discourse=preparation:234->235:0|Entity=(person-15-giv:inact-1-ana)
+3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Discourse=phatic:234->235:0|Entity=(person-15-giv:inact-1-ana)
 4	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	parataxis	8:parataxis	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Discourse=same-unit_m:235->233:0|Entity=(animal-114-new-3-coref
@@ -2159,19 +2159,19 @@
 # s_type = decl
 # speaker = MaeLynne
 # text = You know, I mean, you get into the big horses, the — like the Clydesdales, Shires, that's a d- — a whole different thing.
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=preparation:236->239:1|Entity=(person-15-giv:act-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=phatic:236->239:1|Entity=(person-15-giv:act-1-ana)
 2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	parataxis	8:parataxis	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Discourse=joint_m:237->236:0|Entity=(person-1-giv:inact-1-ana)
 5	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	parataxis	8:parataxis	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	5:punct	_
-7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	8:nsubj	Discourse=condition:238->239:0|Entity=(person-13-giv:inact-1-ana)
+7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	8:nsubj	Discourse=preparation:238->239:0|Entity=(person-13-giv:inact-1-ana)
 8	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 9	into	into	ADP	IN	_	12	case	12:case	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(animal-115-new-3,11-coref
 11	big	big	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
 12	horses	horse	NOUN	NNS	Number=Plur	8	obl	8:obl:into	SpaceAfter=No
-13	,	,	PUNCT	,	_	18	punct	18:punct	_
+13	,	,	PUNCT	,	_	14	punct	14:punct	_
 14	the	the	DET	DT	Definite=Def|PronType=Art|Typo=Yes	18	reparandum	18:reparandum	XML=<sic>
 15	—	—	PUNCT	:	_	14	punct	14:punct	XML=</sic>
 16	like	like	ADP	IN	_	18	case	18:case	_
@@ -2179,7 +2179,7 @@
 18	Clydesdales	Clydesdale	PROPN	NNPS	Number=Plur	12	nmod	12:nmod:like	Entity=116)|SpaceAfter=No
 19	,	,	PUNCT	,	_	20	punct	20:punct	_
 20	Shires	Shire	PROPN	NNPS	Number=Plur	18	conj	12:nmod:like|18:conj	Entity=(animal-117-new-1-sgl-Shire_horse)115)|SpaceAfter=No
-21	,	,	PUNCT	,	_	30	punct	30:punct	_
+21	,	,	PUNCT	,	_	22	punct	22:punct	_
 22-23	that's	_	_	_	_	_	_	_	_
 22	that	that	PRON	DT	Number=Sing|PronType=Dem	30	nsubj	30:nsubj	Discourse=concession:239->241:1|Entity=(animal-115-giv:act-1-ana)
 23	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	30:cop	_
@@ -2197,7 +2197,7 @@
 # s_type = decl
 # speaker = MaeLynne
 # text = Or ponies, that's a whole different thing.
-1	Or	or	CCONJ	CC	_	2	cc	2:cc	Discourse=contrast_m:240->239:2
+1	Or	or	CCONJ	CC	_	2	cc	2:cc	Discourse=disjunction_m:240->239:2
 2	ponies	pony	NOUN	NNS	Number=Plur	9	dislocated	9:dislocated	Entity=(animal-118-new-1-coref)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4-5	that's	_	_	_	_	_	_	_	_
@@ -2224,7 +2224,7 @@
 8	,	,	PUNCT	,	_	7	punct	7:punct	_
 9	light	light	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
 10	horses	horse	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=114)
-11	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	12:nsubj	Discourse=evaluation:242->241:0|Entity=(person-15-giv:inact-1-ana)
+11	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	12:nsubj	Discourse=phatic:242->241:0|Entity=(person-15-giv:inact-1-ana)
 12	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	parataxis	4:parataxis	SpaceAfter=No
 13	.	.	PUNCT	.	_	4	punct	4:punct	_
 

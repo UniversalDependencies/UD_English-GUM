@@ -126,7 +126,7 @@
 36	vessels	vessel	NOUN	NNS	Number=Plur	31	conj	27:nmod:with|31:conj:and	Entity=21)|SpaceAfter=No
 37	,	,	PUNCT	,	_	38	punct	38:punct	_
 38	bones	bone	NOUN	NNS	Number=Plur	31	conj	27:nmod:with|31:conj:and	Entity=(object-22-new-1-sgl)|SpaceAfter=No
-39	,	,	PUNCT	,	_	45	punct	45:punct	_
+39	,	,	PUNCT	,	_	40	punct	40:punct	_
 40	and	and	CCONJ	CC	_	45	cc	45:cc	SpaceAfter=No
 41	,	,	PUNCT	,	_	40	punct	40:punct	_
 42	of	of	ADV	IN	_	45	advmod	45:advmod	_
@@ -303,7 +303,7 @@
 # s_type = decl
 # text = We all had our own interests — drawing, electronics, collecting beer caps — that each appeared obscure to anyone else.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=background:30->35:2|Entity=(person-5-giv:act-1-ana
-2	all	all	DET	DT	_	1	det	1:det	Entity=5)
+2	all	all	DET	DT	PronType=Tot	1	det	1:det	Entity=5)
 3	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(abstract-43-new-3-coref(person-5-giv:act-1-ana)
 5	own	own	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
@@ -357,7 +357,7 @@
 8	as	as	ADP	IN	_	9	case	9:case	_
 9	weird	weird	ADJ	JJ	Degree=Pos	6	obl	6:obl:as	SpaceAfter=No
 10	,	,	PUNCT	,	_	13	punct	13:punct	_
-11	or	or	CCONJ	CC	_	13	cc	13:cc	Discourse=contrast_m:39->38:0
+11	or	or	CCONJ	CC	_	13	cc	13:cc	Discourse=disjunction_m:39->38:0
 12	no	no	ADV	RB	Degree=Pos|Polarity=Neg	13	advmod	13:advmod	_
 13	weirder	weird	ADJ	JJR	Degree=Cmp	9	conj	6:obl:as|9:conj:or	_
 14	than	than	SCONJ	IN	_	16	mark	16:mark	Discourse=antithesis:40->39:0
@@ -417,7 +417,7 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=background:44->45:1|Entity=(person-5-giv:act-2-disc
 2	bunch	bunch	NOUN	NN	Number=Sing	0	root	0:root|6:obj	_
 3	that	that	PRON	WDT	PronType=Rel	6	obj	2:ref	_
-4	no	no	DET	DT	Polarity=Neg	5	det	5:det	Entity=(abstract-60-new-3-disc(person-61-acc:com-2-coref
+4	no	no	DET	DT	Polarity=Neg|PronType=Art	5	det	5:det	Entity=(abstract-60-new-3-disc(person-61-acc:com-2-coref
 5	one	one	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	Entity=61)
 6	picked	pick	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_
 7	for	for	ADP	IN	_	9	case	9:case	_
@@ -446,7 +446,7 @@
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	Steven	Steven	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Entity=(person-3-giv:inact-1-coref)
 4	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-5	some	some	DET	DT	_	8	det	8:det	Entity=(object-65-new-4-coref
+5	some	some	DET	DT	PronType=Ind	8	det	8:det	Entity=(object-65-new-4-coref
 6	really	really	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
 7	good	good	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	stuff	stuff	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=65)|SpaceAfter=No
@@ -458,7 +458,7 @@
 14	teeth	tooth	NOUN	NNS	Number=Plur	12	obj	12:obj|16:nsubj:xsubj	Entity=67)
 15	bright	bright	ADJ	JJ	Degree=Pos	16	amod	16:amod	Entity=(abstract-69-new-2-coref
 16	red	red	ADJ	JJ	Degree=Pos	12	xcomp	12:xcomp	Entity=69)66)
-17	—	—	PUNCT	:	_	24	punct	24:punct	_
+17	—	—	PUNCT	:	_	18	punct	18:punct	_
 18	well	well	INTJ	UH	_	24	discourse	24:discourse	Discourse=antithesis:49->50:0|SpaceAfter=No
 19	,	,	PUNCT	,	_	18	punct	18:punct	_
 20	technically	technically	ADV	RB	Degree=Pos	24	advmod	24:advmod	SpaceAfter=No
@@ -574,7 +574,7 @@
 # text = Then there was the event that became the rite of passage into our group of misfits and outcasts: making a mould of your teeth.
 # newpar = p (1 s)
 1	Then	then	ADV	RB	PronType=Dem	3	advmod	3:advmod	Discourse=preparation:63->65:1
-2	there	there	PRON	EX	_	3	expl	3:expl	_
+2	there	there	PRON	EX	PronType=Dem	3	expl	3:expl	_
 3	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(event-85-new-2-coref
 5	event	event	NOUN	NN	Number=Sing	3	nsubj	3:nsubj|7:nsubj	_
@@ -704,9 +704,9 @@
 9	disturbing	disturbing	ADJ	JJ	Degree=Pos	7	xcomp	7:xcomp	_
 10	that	that	SCONJ	IN	_	13	mark	13:mark	Discourse=result:76->75:0
 11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	13:nsubj	Entity=(person-5-giv:inact-1-ana)
-12	all	all	DET	DT	_	13	det	13:det	_
+12	all	all	DET	DT	PronType=Tot	11	det	11:det	_
 13	volunteered	volunteer	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	9	ccomp	9:ccomp	_
-14	each	each	DET	DT	_	13	obj	13:obj	Entity=(person-5-giv:act-1-ana
+14	each	each	DET	DT	PronType=Rcp	13	obj	13:obj	Entity=(person-5-giv:act-1-ana
 15	other	other	ADJ	JJ	Degree=Pos	14	fixed	14:fixed	Entity=5)
 16	in	in	ADP	IN	_	17	case	17:case	_
 17	turn	turn	NOUN	NN	Number=Sing	13	obl	13:obl:in	_
@@ -934,7 +934,7 @@
 10	front	front	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
 11	teeth	tooth	NOUN	NNS	Number=Plur	6	obl	6:obl:beyond	Entity=124)
 12	like	like	ADP	IN	_	17	case	17:case	_
-13	some	some	DET	DT	_	15	det	15:det	Entity=(object-125-new-5-sgl
+13	some	some	DET	DT	PronType=Ind	15	det	15:det	Entity=(object-125-new-5-sgl
 14	metallic	metallic	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
 15-16	duck’s	_	_	_	_	_	_	_	_
 15	duck	duck	NOUN	NN	Number=Sing	17	nmod:poss	17:nmod:poss	Entity=(animal-126-new-1-sgl

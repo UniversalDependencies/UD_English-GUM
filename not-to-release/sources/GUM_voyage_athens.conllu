@@ -315,7 +315,7 @@
 17	Ottoman	Ottoman	ADJ	NNP	Degree=Pos	18	amod	18:amod	_
 18	Empire	Empire	PROPN	NNP	Number=Sing	13	obl	13:obl:under	Entity=42)|SpaceAfter=No
 19	,	,	PUNCT	,	_	22	punct	22:punct	_
-20	only	only	ADV	RB	_	22	advmod	22:advmod	Discourse=contrast_m:31->29:1
+20	only	only	ADV	RB	_	22	advmod	22:advmod	Discourse=joint_m:31->29:1
 21	to	to	PART	TO	_	22	mark	22:mark	_
 22	recover	recover	VERB	VB	VerbForm=Inf	13	xcomp	13:xcomp	_
 23	in	in	ADP	IN	_	26	case	26:case	_
@@ -468,7 +468,7 @@
 25	and	and	CCONJ	CC	_	26	cc	26:cc	_
 26	monuments	monument	NOUN	NNS	Number=Plur	24	conj	17:obj|24:conj:and	Entity=62)
 27	to	to	ADP	IN	_	28	case	28:case	_
-28	each	each	DET	DT	_	17	obl	17:obl:to	_
+28	each	each	DET	DT	PronType=Rcp	17	obl	17:obl:to	_
 29	other	other	ADJ	JJ	Degree=Pos	28	fixed	28:fixed	_
 30	through	through	ADP	IN	_	32	case	32:case	_
 31	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	32:det	Entity=(abstract-64-new-2-sgl
@@ -649,7 +649,7 @@
 35	and	and	CCONJ	CC	_	41	cc	41:cc	_
 36	public	public	ADJ	JJ	Degree=Pos	37	amod	37:amod	_
 37	buildings	building	NOUN	NNS	Number=Plur	34	conj	24:nmod:with|34:conj:and	SpaceAfter=No
-38	,	,	PUNCT	,	_	41	punct	41:punct	_
+38	,	,	PUNCT	,	_	37	punct	37:punct	_
 39	large	large	ADJ	JJ	Degree=Pos	41	amod	41:amod	_
 40	city	city	NOUN	NN	Number=Sing	41	compound	41:compound	_
 41	squares	square	NOUN	NNS	Number=Plur	34	conj	24:nmod:with|34:conj:and	SpaceAfter=No
@@ -917,7 +917,7 @@
 43	city	city	NOUN	NN	Number=Sing	41	obj	41:obj	Entity=1)
 44	and	and	CCONJ	CC	_	46	cc	46:cc	_
 45	undo	undo	VERB	VB	Polarity=Neg|VerbForm=Inf	46	case	46:case	_
-46	some	some	DET	DT	_	41	conj	38:xcomp|41:conj:and	Entity=(abstract-129-new-1-sgl
+46	some	some	DET	DT	PronType=Ind	41	conj	38:xcomp|41:conj:and	Entity=(abstract-129-new-1-sgl
 47	of	of	ADP	IN	_	49	case	49:case	_
 48	the	the	DET	DT	Definite=Def|PronType=Art	49	det	49:det	Bridge=100<130|Entity=(abstract-130-acc:inf-2-sgl
 49	damages	damage	NOUN	NNS	Number=Plur	46	nmod	46:nmod:of	_
@@ -1009,7 +1009,7 @@
 24	newer	new	ADJ	JJR	Degree=Cmp	25	amod	25:amod	Entity=(place-145-new-2-sgl
 25	districts	district	NOUN	NNS	Number=Plur	18	nmod	18:nmod:in	Entity=145)142)|SpaceAfter=No
 26	;	;	PUNCT	:	_	31	punct	31:punct	_
-27	both	both	DET	DT	_	31	nsubj	31:nsubj|33:nsubj:xsubj	Discourse=result:83->82:0|Entity=(event-142-giv:act-1-ana
+27	both	both	DET	DT	PronType=Art	31	nsubj	31:nsubj|33:nsubj:xsubj	Discourse=result:83->82:0|Entity=(event-142-giv:act-1-ana
 28	of	of	ADP	IN	_	29	case	29:case	_
 29	which	which	PRON	WDT	PronType=Int	27	nmod	27:nmod:of	Entity=142)
 30	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux	31:aux	_
@@ -1070,7 +1070,7 @@
 # sent_id = GUM_voyage_athens-37
 # s_type = decl
 # text = Summer can be extremely hot and dry during heatwaves, but this rarely happens.
-1	Summer	summer	NOUN	NN	Number=Sing	5	nsubj	5:nsubj|7:nsubj	Discourse=contrast_m:88->87:0|Entity=(event-154-new-5,7-disc(time-155-new-1-sgl)|XML=<date from:::"--06" to:::"--09"></date>
+1	Summer	summer	NOUN	NN	Number=Sing	5	nsubj	5:nsubj|7:nsubj	Discourse=joint_m:88->87:0|Entity=(event-154-new-5,7-disc(time-155-new-1-sgl)|XML=<date from:::"--06" to:::"--09"></date>
 2	can	can	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
 3	be	be	AUX	VB	VerbForm=Inf	5	cop	5:cop	_
 4	extremely	extremely	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
@@ -1103,7 +1103,7 @@
 12	snowy	snowy	ADJ	JJ	Degree=Pos	10	conj	10:conj:or|13:amod	_
 13	day	day	NOUN	NN	Number=Sing	5	nmod	5:nmod:with	Entity=158)|SpaceAfter=No
 14	,	,	PUNCT	,	_	19	punct	19:punct	_
-15	but	but	CCONJ	CC	_	19	cc	19:cc	Discourse=contrast_m:91->87:0
+15	but	but	CCONJ	CC	_	19	cc	19:cc	Discourse=joint_m:91->87:0
 16	also	also	ADV	RB	_	19	advmod	19:advmod	_
 17	an	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(time-157-giv:act-3-coref
 18	ideal	ideal	ADJ	JJ	Degree=Pos	19	amod	19:amod	_

@@ -106,7 +106,7 @@
 # text = Spouse(s) Jean-Louis Richard (m. 1949; div. 1964) William Friedkin (m. 1977; div. 1979)
 # newpar = row (1 s)
 1	Spouse(s)	Spouse(s)	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Discourse=joint_m:12->4:1|Entity=(person-22-new-1-coref)|XML=<cell><hi rend:::"bold"></hi></cell>
-2	Jean	Jean	PROPN	NNP	Number=Sing	0	root	0:root	Bridge=22<23|Entity=(person-23-acc:inf-1,3,4-sgl-Jean-Louis_Richard|SpaceAfter=No|XML=<cell><ref target:::"https://en.wikipedia.org/wiki/Jean-Louis_Richard"><w>
+2	Jean	Jean	PROPN	NNP	Number=Sing	0	root	0:root	Bridge=22<23|Entity=(person-23-acc:inf-1,3,4-sgl-Jean%2DLouis_Richard|SpaceAfter=No|XML=<cell><ref target:::"https://en.wikipedia.org/wiki/Jean-Louis_Richard"><w>
 3	-	-	PUNCT	HYPH	_	4	punct	4:punct	SpaceAfter=No
 4	Louis	Louis	PROPN	NNP	Number=Sing	2	flat	2:flat	XML=</w>
 5	Richard	Richard	PROPN	NNP	Number=Sing	2	flat	2:flat	Entity=23)|XML=</ref>
@@ -184,10 +184,10 @@
 9	Best	good	ADJ	JJS	Degree=Sup	10	compound	10:compound	Entity=(person-34-new-2-sgl
 10	Actress	actress	NOUN	NN	Number=Sing	7	nmod	7:nmod:for	Entity=34)31)|XML=</ref>
 11	for	for	ADP	IN	_	13	case	13:case	_
-12	Seven	Seven	NUM	NNP	Number=Sing	13	nummod	13:nummod	Entity=(abstract-35-new-1,2,4,5-sgl(time-36-new-1,2-sgl-Seven_Days..._Seven_Nights|XML=<hi rend:::"italic"><ref target:::"https://en.wikipedia.org/wiki/Seven_Days..._Seven_Nights">
+12	Seven	Seven	NUM	NNP	Number=Sing|NumType=Card	13	nummod	13:nummod	Entity=(abstract-35-new-1,2,4,5-sgl(time-36-new-1,2-sgl-Seven_Days..._Seven_Nights|XML=<hi rend:::"italic"><ref target:::"https://en.wikipedia.org/wiki/Seven_Days..._Seven_Nights">
 13	Days	Day	PROPN	NNPS	Number=Plur	2	obl	2:obl:for	Entity=36)
 14	...	…	PUNCT	:	_	16	punct	16:punct	_
-15	Seven	Seven	NUM	NNP	Number=Sing	16	nummod	16:nummod	Entity=(time-37-new-1,2-sgl-Seven_Days..._Seven_Nights
+15	Seven	Seven	NUM	NNP	Number=Sing|NumType=Card	16	nummod	16:nummod	Entity=(time-37-new-1,2-sgl-Seven_Days..._Seven_Nights
 16	Nights	Night	PROPN	NNPS	Number=Plur	13	parataxis	13:parataxis	Entity=37)|XML=</ref></hi>
 17	(	(	PUNCT	-LRB-	_	18	punct	18:punct	Discourse=elaboration:23->22:0|SpaceAfter=No
 18	1960	1960	NUM	CD	NumForm=Digit|NumType=Card	13	nmod:tmod	13:nmod:tmod	Entity=(time-38-new-1-sgl)|SpaceAfter=No|XML=<date when:::"1960"></date>
@@ -285,7 +285,7 @@
 16	leading	lead	VERB	VBG	VerbForm=Ger	17	amod	17:amod	_
 17	actresses	actress	NOUN	NNS	Number=Plur	13	nmod	13:nmod:of	_
 18	of	of	ADP	IN	_	20	case	20:case	_
-19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(organization-60-new-2,4-coref-Comédie-Française
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(organization-60-new-2,4-coref-Comédie%2DFrançaise
 20	Comédie	Comédie	NOUN	NN	Number=Sing	17	nmod	17:nmod:of	SpaceAfter=No|XML=<ref target:::"https://en.wikipedia.org/wiki/Com%C3%A9die-Fran%C3%A7aise"><w>
 21	-	-	PUNCT	HYPH	_	22	punct	22:punct	SpaceAfter=No
 22	Française	Française	PROPN	NNP	Number=Sing	20	flat	20:flat	Entity=60)1)|SpaceAfter=No|XML=</w></ref>
@@ -314,7 +314,7 @@
 18	Meurtres	Meurtres	PROPN	NNP	Number=Sing	17	appos	17:appos	Entity=(abstract-64-giv:act-1-appos-Meurtres_?|SpaceAfter=No|XML=<hi rend:::"italic"><ref target:::"https://fr.wikipedia.org/wiki/Meurtres_%3F">
 19	?	?	PUNCT	.	_	18	punct	18:punct	Entity=64)|XML=</ref></hi>
 20	(	(	PUNCT	-LRB-	_	22	punct	22:punct	Discourse=elaboration:34->33:0|SpaceAfter=No
-21	Three	Three	NUM	NNP	Number=Sing	22	nummod	22:nummod	Entity=(abstract-64-giv:act-1,2-appos-Meurtres_?(person-66-new-1,2-sgl
+21	Three	Three	NUM	NNP	Number=Sing|NumType=Card	22	nummod	22:nummod	Entity=(abstract-64-giv:act-1,2-appos-Meurtres_?(person-66-new-1,2-sgl
 22	Sinners	Sinners	PROPN	NNP	Number=Sing	18	appos	18:appos	Entity=66)|SpaceAfter=No
 23	,	,	PUNCT	,	_	24	punct	24:punct	_
 24	1950	1950	NUM	CD	NumForm=Digit|NumType=Card	22	nmod:tmod	22:nmod:tmod	Entity=(time-67-new-1-sgl)64)|SpaceAfter=No|XML=<date when:::"1950"></date>
@@ -368,7 +368,7 @@
 18	Louis	Louis	PROPN	NNP	Number=Sing	16	obl	16:obl:by	Entity=(person-77-new-1,2-coref-Louis_Malle|XML=<ref target:::"https://en.wikipedia.org/wiki/Louis_Malle">
 19	Malle	Malle	PROPN	NNP	Number=Sing	18	flat	18:flat	Entity=77)74)|SpaceAfter=No|XML=</ref>
 20	,	,	PUNCT	,	_	22	punct	22:punct	_
-21	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=joint_m:40->37:2
+21	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=same-unit_m:40->37:2
 22	Jules	Jules	PROPN	NNP	Number=Sing	8	conj	6:nmod:of|8:conj:and	Entity=(abstract-78-new-1,2,3,11-coref-Jules_and_Jim(person-79-new-1-coref)|XML=<hi rend:::"italic"><ref target:::"https://en.wikipedia.org/wiki/Jules_et_Jim">
 23	et	et	PROPN	NNP	Number=Sing	22	flat	22:flat	_
 24	Jim	Jim	PROPN	NNP	Number=Sing	22	flat	22:flat	Entity=(person-80-new-1-coref)|XML=</ref></hi>
@@ -589,7 +589,7 @@
 # s_type = decl
 # text = "Every tombstone in the cemetery was for a Moreau".
 1	"	''	PUNCT	``	_	10	punct	10:punct	Discourse=justify:70->68:1|SpaceAfter=No|XML=<quote>
-2	Every	every	DET	DT	_	3	det	3:det	Entity=(object-112-new-2-sgl
+2	Every	every	DET	DT	PronType=Tot	3	det	3:det	Entity=(object-112-new-2-sgl
 3	tombstone	tombstone	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	_
 4	in	in	ADP	IN	_	6	case	6:case	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Bridge=108<113|Entity=(place-113-acc:inf-2-sgl
@@ -608,7 +608,7 @@
 2	the	the	DET	DT	Definite=Def|PronType=Art|Typo=Yes	4	det	4:det	Entity=(event-115-new-2,3-sgl-World_War_II|XML=<sic></sic>
 3	World	World	PROPN	NNP	Number=Sing	4	compound	4:compound	XML=<ref target:::"https://en.wikipedia.org/wiki/World_War_II"><date from:::"1939-09-01" to:::"1945-09-02">
 4	War	War	PROPN	NNP	Number=Sing	10	obl	10:obl:during	_
-5	II	II	NUM	CD	NumForm=Roman|NumType=Card	4	amod	4:amod	Entity=115)|SpaceAfter=No|XML=</date></ref>
+5	II	II	NUM	CD	NumForm=Roman|NumType=Card	4	dep	4:dep	Entity=115)|SpaceAfter=No|XML=</date></ref>
 6	,	,	PUNCT	,	_	4	punct	4:punct	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(person-105-giv:inact-2-coref
 8	family	family	NOUN	NN	Number=Sing	10	nsubj:pass	10:nsubj:pass	Entity=105)
@@ -637,7 +637,7 @@
 7	at	at	ADP	IN	_	9	case	9:case	_
 8	age	age	NOUN	NN	Number=Sing	9	compound	9:compound	Entity=(time-117-new-2-sgl
 9	16	16	NUM	CD	NumForm=Digit|NumType=Card	3	obl	3:obl:at	Entity=117)|SpaceAfter=No
-10	,	,	PUNCT	,	_	22	punct	22:punct	_
+10	,	,	PUNCT	,	_	11	punct	11:punct	_
 11	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=circumstance:74->75:0
 12	after	after	SCONJ	IN	_	13	mark	13:mark	_
 13	attending	attend	VERB	VBG	VerbForm=Ger	22	advcl	22:advcl:after	_
@@ -745,7 +745,7 @@
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=sequence_m:85->84:0|Entity=(person-1-giv:act-1-ana-Jeanne_Moreau)
 2	debuted	debut	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	at	at	ADP	IN	_	5	case	5:case	_
-4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(organization-60-giv:inact-2,4-coref-Comédie-Française
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(organization-60-giv:inact-2,4-coref-Comédie%2DFrançaise
 5	Comédie	Comédie	NOUN	NN	Number=Sing	2	obl	2:obl:at	SpaceAfter=No|XML=<ref target:::"https://en.wikipedia.org/wiki/Com%C3%A9die-Fran%C3%A7aise"><w>
 6	-	-	PUNCT	HYPH	_	7	punct	7:punct	SpaceAfter=No
 7	Française	Française	PROPN	NNP	Number=Sing	5	flat	5:flat	Entity=60)|XML=</w></ref>
@@ -775,7 +775,7 @@
 30	leading	lead	VERB	VBG	Typo=Yes|VerbForm=Ger	31	amod	31:amod	Entity=(person-135-new-2-sgl
 31	actresses	actress	NOUN	NNS	Number=Plur	28	nmod	28:nmod:of	XML=</sic>
 32	in	in	ADP	IN	_	36	case	36:case	_
-33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	34:det	Entity=(organization-136-new-4-sgl(organization-60-giv:act-2-coref-Comédie-Française
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	34:det	Entity=(organization-136-new-4-sgl(organization-60-giv:act-2-coref-Comédie%2DFrançaise
 34-35	theatre's	_	_	_	_	_	_	_	_
 34	theatre	theatre	NOUN	NN	Number=Sing	36	nmod:poss	36:nmod:poss	_
 35	's	's	PART	POS	_	34	case	34:case	Entity=60)
@@ -853,7 +853,7 @@
 62	and	and	CCONJ	CC	_	63	cc	63:cc	_
 63	others	other	NOUN	NNS	Number=Plur	59	conj	24:conj|59:conj:and	Entity=(abstract-152-new-1-sgl)
 64	before	before	ADP	IN	_	69	case	69:case	_
-65	another	another	DET	DT	_	69	det	69:det	Entity=(time-153-new-5-coref
+65	another	another	DET	DT	PronType=Art	69	det	69:det	Entity=(time-153-new-5-coref
 66	two	two	NUM	CD	NumForm=Word|NumType=Card	68	compound	68:compound	SpaceAfter=No|XML=<w>
 67	-	-	PUNCT	HYPH	_	66	punct	66:punct	SpaceAfter=No
 68	year	year	NOUN	NN	Number=Sing	69	compound	69:compound	XML=</w>

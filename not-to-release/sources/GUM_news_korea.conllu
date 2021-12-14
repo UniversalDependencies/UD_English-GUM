@@ -117,7 +117,7 @@
 8	puppet	puppet	NOUN	NN	Number=Sing	9	compound	9:compound	_
 9	military	military	NOUN	NN	Number=Sing	3	nmod	3:nmod:of	Entity=14)13)
 10	made	make	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-11	another	another	DET	DT	_	13	det	13:det	Entity=(event-15-new-3-sgl
+11	another	another	DET	DT	PronType=Art	13	det	13:det	Entity=(event-15-new-3-sgl
 12	grave	grave	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
 13	provocation	provocation	NOUN	NN	Number=Sing	10	obj	10:obj	_
 14	to	to	ADP	IN	_	16	case	16:case	_
@@ -219,13 +219,13 @@
 8	,	,	PUNCT	,	_	4	punct	4:punct	_
 9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj	Discourse=attribution:19->18:0|Entity=(organization-7-giv:act-1-ana-Korean_Central_News_Agency)
 10	added	add	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
-11	;	;	PUNCT	:	_	21	punct	21:punct	_
+11	;	;	PUNCT	:	_	12	punct	12:punct	_
 12	and	and	CCONJ	CC	_	21	cc	21:cc	Discourse=joint_m:20->18:1|SpaceAfter=No
 13	,	,	PUNCT	,	_	12	punct	12:punct	_
 14	later	late	ADV	RBR	Degree=Cmp	21	advmod	21:advmod	SpaceAfter=No
 15	,	,	PUNCT	,	_	14	punct	14:punct	_
 16	"	''	PUNCT	``	_	21	punct	21:punct	SpaceAfter=No|XML=<quote>
-17	Kim	Kim	PROPN	NNP	Number=Sing	21	nsubj	21:nsubj	Entity=(person-31-new-1,2,4-sgl-Kim_Jong-un|XML=<ref>
+17	Kim	Kim	PROPN	NNP	Number=Sing	21	nsubj	21:nsubj	Entity=(person-31-new-1,2,4-sgl-Kim_Jong%2Dun|XML=<ref>
 18	Jong	Jong	PROPN	NNP	Number=Sing	17	flat	17:flat	SpaceAfter=No|XML=<w>
 19	-	-	PUNCT	HYPH	_	20	punct	20:punct	SpaceAfter=No
 20	un	un	PROPN	NNP	Number=Sing	18	flat	18:flat	Entity=31)|XML=</w></ref>
@@ -362,7 +362,7 @@
 # s_type = decl
 # text = No injuries or deaths were reported in the attacks from either side, but South Korea evacuated about 80 people in the town of Yeoncheon after at least one shell landed near the area.
 # newpar = p (2 s)
-1	No	no	DET	DT	Polarity=Neg	2	det	2:det	Discourse=elaboration:33->8:2
+1	No	no	DET	DT	Polarity=Neg|PronType=Art	2	det	2:det	Discourse=elaboration:33->8:2
 2	injuries	injury	NOUN	NNS	Number=Plur	6	nsubj:pass	6:nsubj:pass	Entity=(event-43-new-1-sgl)
 3	or	or	CCONJ	CC	_	4	cc	4:cc	_
 4	deaths	death	NOUN	NNS	Number=Plur	2	conj	2:conj:or|6:nsubj:pass	Entity=(event-44-new-1-sgl)
@@ -372,7 +372,7 @@
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(event-9-giv:inact-5-coref
 9	attacks	attack	NOUN	NNS	Number=Plur	6	obl	6:obl:in	_
 10	from	from	ADP	IN	_	12	case	12:case	_
-11	either	either	DET	DT	_	12	det	12:det	Entity=(abstract-45-acc:com-2-sgl
+11	either	either	DET	DT	PronType=Art	12	det	12:det	Entity=(abstract-45-acc:com-2-sgl
 12	side	side	NOUN	NN	Number=Sing	6	obl	6:obl:from	Entity=45)9)|SpaceAfter=No
 13	,	,	PUNCT	,	_	17	punct	17:punct	_
 14	but	but	CCONJ	CC	_	17	cc	17:cc	Discourse=contrast_m:34->33:0
@@ -472,7 +472,7 @@
 10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj|19:nsubj	Discourse=result:43->8:4|Entity=(organization-1-giv:act-1-ana-North_Korea)
 11	would	would	AUX	MD	VerbForm=Fin	12	aux	12:aux	_
 12	attack	attack	VERB	VB	VerbForm=Inf	9	ccomp	9:ccomp	_
-13	any	any	DET	DT	_	14	det	14:det	Entity=(object-54-acc:com-2-sgl
+13	any	any	DET	DT	PronType=Ind	14	det	14:det	Entity=(object-54-acc:com-2-sgl
 14	loudspeakers	loudspeaker	NOUN	NNS	Number=Plur	12	obj	12:obj	_
 15	broadcasting	broadcast	VERB	VBG	VerbForm=Ger	14	acl:relcl	14:acl:relcl	Discourse=elaboration:44->43:0
 16	propaganda	propaganda	NOUN	NN	Number=Sing	15	obj	15:obj	Entity=(abstract-38-giv:inact-1-coref)54)
@@ -497,7 +497,7 @@
 # s_type = decl
 # text = Both countries have put their militaries on high levels of alert.
 # newpar = p (1 s)
-1	Both	both	DET	DT	_	2	det	2:det	Discourse=restatement:47->6:3|Entity=(organization-56-acc:com-2-coref
+1	Both	both	DET	DT	PronType=Art	2	det	2:det	Discourse=restatement:47->6:3|Entity=(organization-56-acc:com-2-coref
 2	countries	country	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=56)
 3	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 4	put	put	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_

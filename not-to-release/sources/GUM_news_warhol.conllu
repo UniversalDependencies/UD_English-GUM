@@ -523,7 +523,7 @@
 21	of	of	ADP	IN	_	23	case	23:case	_
 22	Southern	Southern	ADJ	NNP	Degree=Pos	23	amod	23:amod	Entity=(place-21-giv:inact-1,2-coref-Southern_Indiana
 23	Indiana	Indiana	PROPN	NNP	Number=Sing	20	nmod	20:nmod:of	Entity=21)12)43)|SpaceAfter=No
-24	,	,	PUNCT	,	_	26	punct	26:punct	_
+24	,	,	PUNCT	,	_	20	punct	20:punct	_
 25	January	January	PROPN	NNP	Number=Sing	26	compound	26:compound	Entity=(time-64-new-2-sgl|XML=<date when:::"2014-01-23">
 26	23	23	NUM	CD	NumForm=Digit|NumType=Card	7	nmod:tmod	7:nmod:tmod	Entity=64)|XML=</date>
 27	-	-	SYM	SYM	_	29	case	29:case	_
@@ -671,7 +671,7 @@
 12	donated	donate	VERB	VBN	Tense=Past|VerbForm=Part	14	amod	14:amod	_
 13	Warhol	Warhol	PROPN	NNP	Number=Sing	14	compound	14:compound	Entity=(person-2-giv:act-1-coref-Andy_Warhol)
 14	photographs	photograph	NOUN	NNS	Number=Plur	10	obj	10:obj	Entity=78)
-15	every	every	DET	DT	_	17	det	17:det	Entity=(time-79-new-3-sgl
+15	every	every	DET	DT	PronType=Tot	17	det	17:det	Entity=(time-79-new-3-sgl
 16	ten	ten	NUM	CD	NumForm=Word|NumType=Card	17	nummod	17:nummod	_
 17	years	year	NOUN	NNS	Number=Plur	10	obl:tmod	10:obl:tmod	Entity=79)
 18	as	as	ADP	IN	_	20	case	20:case	_
@@ -690,7 +690,7 @@
 5	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(event-18-giv:inact-2-coref(organization-12-giv:act-1-ana-University_of_Southern_Indiana)
 6	exhibit	exhibit	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=18)|SpaceAfter=No
 7	,	,	PUNCT	,	_	4	punct	4:punct	_
-8	there	there	PRON	EX	_	9	expl	9:expl	Discourse=elaboration:51->45:3
+8	there	there	PRON	EX	PronType=Dem	9	expl	9:expl	Discourse=elaboration:51->45:3
 9	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 10	also	also	ADV	RB	_	9	advmod	9:advmod	_
 11	Warhol	Warhol	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=(event-81-new-3,6,7,10,11,13,14,16,17,19,20-sgl(person-2-giv:act-1-coref-Andy_Warhol)
@@ -742,7 +742,7 @@
 # sent_id = GUM_news_warhol-30
 # s_type = decl
 # text = All have received Polaroids from the foundation.
-1	All	all	DET	DT	_	3	nsubj	3:nsubj	Discourse=restatement:52->51:1|Entity=(organization-96-acc:aggr-1-sgl)|Split=12<96,82<96,89<96
+1	All	all	DET	DT	PronType=Tot	3	nsubj	3:nsubj	Discourse=restatement:52->51:1|Entity=(organization-96-acc:aggr-1-sgl)|Split=12<96,82<96,89<96
 2	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	received	receive	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 4	Polaroids	Polaroid	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=(object-78-giv:inact-1-coref)
@@ -865,7 +865,7 @@
 # s_type = decl
 # text = Each collection donated by the Andy Warhol Photographic Legacy Program holds Polaroids of well-known celebrities.
 # newpar = p (2 s)
-1	Each	each	DET	DT	_	2	det	2:det	Discourse=joint_m:62->11:9|Entity=(abstract-119-acc:com-2,6,7,8,9-sgl
+1	Each	each	DET	DT	PronType=Tot	2	det	2:det	Discourse=joint_m:62->11:9|Entity=(abstract-119-acc:com-2,6,7,8,9-sgl
 2	collection	collection	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	_
 3	donated	donate	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	2:acl	Discourse=elaboration:63->62:0
 4	by	by	ADP	IN	_	10	case	10:case	_
@@ -940,7 +940,7 @@
 # sent_id = GUM_news_warhol-38
 # s_type = decl
 # text = "People are still intrigued by how stars live, dress and socialize, since it is so different from most people's every day lives."
-1	"	''	PUNCT	``	_	5	punct	5:punct	Discourse=restatement_m:71->67:3|SpaceAfter=No
+1	"	''	PUNCT	``	_	5	punct	5:punct	Discourse=joint_m:71->67:3|SpaceAfter=No
 2	People	person	NOUN	NNS	Number=Plur	5	nsubj:pass	5:nsubj:pass	Entity=(person-127-new-1-sgl)
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	5:aux:pass	_
 4	still	still	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
@@ -964,7 +964,7 @@
 22-23	people's	_	_	_	_	_	_	_	_
 22	people	person	NOUN	NNS	Number=Plur	26	nmod:poss	26:nmod:poss	_
 23	's	's	PART	POS	_	22	case	22:case	Entity=130)
-24	every	every	DET	DT	_	25	det	25:det	_
+24	every	every	DET	DT	PronType=Tot	25	det	25:det	_
 25	day	day	NOUN	NN	Number=Sing	26	compound	26:compound	_
 26	lives	life	NOUN	NNS	Number=Plur	19	obl	19:obl:from	Entity=129)|SpaceAfter=No
 27	.	.	PUNCT	.	_	5	punct	5:punct	SpaceAfter=No
@@ -1199,7 +1199,7 @@
 26	people	person	NOUN	NNS	Number=Plur	24	nmod	24:nmod:of	Entity=(person-159-giv:act-1-coref
 27	in	in	ADP	IN	_	31	case	31:case	_
 28	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	31:nmod:poss	Entity=(abstract-162-acc:com-4,6-sgl(person-2-giv:inact-1-ana-Andy_Warhol)
-29	every	every	DET	DT	_	30	det	30:det	_
+29	every	every	DET	DT	PronType=Tot	30	det	30:det	_
 30	day	day	NOUN	NN	Number=Sing	31	compound	31:compound	_
 31	life	life	NOUN	NN	Number=Sing	26	nmod	26:nmod:in	_
 32	and	and	CCONJ	CC	_	33	cc	33:cc	_
@@ -1378,7 +1378,7 @@
 1	Which	which	PRON	WDT	PronType=Int	11	nsubj	11:nsubj	Discourse=elaboration:105->104:0
 2	as	as	SCONJ	IN	_	5	mark	5:mark	Discourse=evidence:106->107:0
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-185-giv:act-1-ana)
-4	all	all	DET	DT	_	3	det	3:det	_
+4	all	all	DET	DT	PronType=Tot	3	det	3:det	_
 5	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:as	_
 6	in	in	ADP	IN	_	7	case	7:case	_
 7	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	5	obl	5:obl:in	Entity=(time-5-new-1-coref)|SpaceAfter=No|XML=<date when:::"2014"></date>
@@ -1413,7 +1413,7 @@
 13	people	person	NOUN	NNS	Number=Plur	4	appos	4:appos	Entity=187)|SpaceAfter=No
 14	,	,	PUNCT	,	_	18	punct	18:punct	_
 15-16	that's	_	_	_	_	_	_	_	_
-15	that	that	PRON	DT	Number=Sing|PronType=Dem	18	nsubj	18:nsubj	Discourse=restatement_m:110->109:0|Entity=(abstract-186-giv:act-1-ana)
+15	that	that	PRON	DT	Number=Sing|PronType=Dem	18	nsubj	18:nsubj	Discourse=restatement-repetition_m:110->109:0|Entity=(abstract-186-giv:act-1-ana)
 16	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	_
 17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	Entity=(abstract-186-giv:act-2-coref
 18	name	name	NOUN	NN	Number=Sing	5	conj	3:ccomp|5:conj	_
@@ -1423,7 +1423,7 @@
 22	because	because	SCONJ	IN	_	27	mark	27:mark	Discourse=cause:112->110:1
 23	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	27:nsubj	Entity=(person-2-giv:act-1-ana-Andy_Warhol)
 24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	cop	27:cop	_
-25	such	such	DET	PDT	_	27	det:predet	27:det:predet	Entity=(person-2-giv:act-3-pred-Andy_Warhol
+25	such	such	DET	PDT	PronType=Dem	27	det:predet	27:det:predet	Entity=(person-2-giv:act-3-pred-Andy_Warhol
 26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	27:det	_
 27	personality	personality	NOUN	NN	Number=Sing	21	advcl	21:advcl:because	Entity=2)186)|SpaceAfter=No
 28	"	''	PUNCT	''	_	3	punct	3:punct	SpaceAfter=No
@@ -1447,7 +1447,7 @@
 9	history	history	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	Entity=189)188)|SpaceAfter=No
 10	,	,	PUNCT	,	_	1	punct	1:punct	_
 11	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
-12	,	,	PUNCT	,	_	15	punct	15:punct	_
+12	,	,	PUNCT	,	_	11	punct	11:punct	_
 13	"	''	PUNCT	``	_	15	punct	15:punct	Discourse=attribution:115->116:0|SpaceAfter=No
 14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	15:nsubj	Entity=(person-188-giv:act-1-ana)
 15	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	ccomp	11:ccomp	_
@@ -1518,7 +1518,7 @@
 7	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	6:acl:relcl	_
 8	Warhol	Warhol	PROPN	NNP	Number=Sing	7	obj	7:obj|9:nsubj:xsubj	Entity=(person-197-new-1-sgl-Andy_Warhol)
 9	famous	famous	ADJ	JJ	Degree=Pos	7	xcomp	7:xcomp	SpaceAfter=No
-10	,	,	PUNCT	,	_	17	punct	17:punct	_
+10	,	,	PUNCT	,	_	11	punct	11:punct	_
 11	however	however	ADV	RB	_	17	advmod	17:advmod	SpaceAfter=No
 12	,	,	PUNCT	,	_	11	punct	11:punct	_
 13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	17:nsubj	Discourse=concession:120->123:2|Entity=(person-2-giv:act-1-ana-Andy_Warhol)
@@ -1641,7 +1641,7 @@
 34	by	by	SCONJ	IN	_	35	mark	35:mark	Discourse=means:131->130:0
 35	applying	apply	VERB	VBG	VerbForm=Ger	26	advcl	26:advcl:by	Entity=(event-194-giv:inact-1-coref
 36	paint	paint	NOUN	NN	Number=Sing	35	obj	35:obj	Entity=194)
-37	or	or	CCONJ	CC	_	38	cc	38:cc	Discourse=contrast_m:132->131:0
+37	or	or	CCONJ	CC	_	38	cc	38:cc	Discourse=disjunction_m:132->131:0
 38	manipulating	manipulate	VERB	VBG	VerbForm=Ger	35	conj	26:advcl:by|35:conj:or	_
 39	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	38	obj	38:obj	Entity=(object-191-giv:act-1-ana)
 40	further	far	ADV	RBR	Degree=Cmp	38	advmod	38:advmod	Entity=212)|SpaceAfter=No
@@ -1898,7 +1898,7 @@
 # text = He said, "Andy Warhol was the center of the Zeitgeist for the 20th century and everything since.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:158->160:1|Entity=(person-234-giv:act-1-ana)
 2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
-3	,	,	PUNCT	,	_	9	punct	9:punct	_
+3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	"	''	PUNCT	``	_	9	punct	9:punct	Discourse=justify:159->160:0|SpaceAfter=No
 5	Andy	Andy	PROPN	NNP	Number=Sing	9	nsubj	9:nsubj	Entity=(person-2-giv:act-1,2-coref-Andy_Warhol
 6	Warhol	Warhol	PROPN	NNP	Number=Sing	5	flat	5:flat	Entity=2)
@@ -2048,8 +2048,8 @@
 14	attendees	attendee	NOUN	NNS	Number=Plur	9	obl	9:obl:to	Entity=(person-246-giv:act-1-coref)|SpaceAfter=No
 15	,	,	PUNCT	,	_	16	punct	16:punct	_
 16	noting	note	VERB	VBG	VerbForm=Ger	9	advcl	9:advcl	Discourse=manner:172->171:0
-17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(abstract-245-giv:act-2,5,17-coref
-18	touches	touch	NOUN	NNS	Number=Plur	16	obj	16:obj	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(abstract-245-giv:act-2,5-coref
+18	touches	touch	NOUN	NNS	Number=Plur	16	obj	16:obj|33:nsubj	_
 19	of	of	ADP	IN	_	22	case	22:case	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(place-247-new-2,3-coref-The_Factory
 21	Warhol	Warhol	PROPN	NNP	Number=Sing	22	compound	22:compound	Entity=(person-2-giv:inact-1-coref-Andy_Warhol)
@@ -2062,9 +2062,9 @@
 28	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	29:nsubj	Entity=(person-2-giv:act-1-ana-Andy_Warhol)
 29	worked	work	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	acl:relcl	26:acl:relcl	Entity=247)|SpaceAfter=No
 30	,	,	PUNCT	,	_	33	punct	33:punct	_
-31	that	that	PRON	WDT	_	33	nsubj	33:nsubj	Discourse=elaboration:174->172:1
+31	that	that	PRON	WDT	PronType=Rel	33	nsubj	18:ref	Discourse=elaboration:174->172:1
 32	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	33	cop	33:cop	_
-33	present	present	ADJ	JJ	Degree=Pos	18	conj	16:obj|18:conj	_
+33	present	present	ADJ	JJ	Degree=Pos	18	acl:relcl	18:acl:relcl	_
 34	around	around	ADP	IN	_	35	case	35:case	_
 35	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	33	obl	33:obl:around	Entity=(person-246-giv:act-1-ana)245)|SpaceAfter=No
 36	.	.	PUNCT	.	_	9	punct	9:punct	_

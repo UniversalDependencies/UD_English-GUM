@@ -218,7 +218,7 @@
 25	editorial	editorial	ADJ	JJ	Degree=Pos	26	amod	26:amod	_
 26	staff	staff	NOUN	NN	Number=Sing	21	obl	21:obl:with	Entity=28)|SpaceAfter=No
 27	;	;	PUNCT	:	_	29	punct	29:punct	_
-28	all	all	DET	DT	_	29	det	29:det	Discourse=restatement:23->22:0|Entity=(person-28-giv:act-2-appos
+28	all	all	DET	DT	PronType=Tot	29	det	29:det	Discourse=restatement:23->22:0|Entity=(person-28-giv:act-2-appos
 29	fifteen	fifteen	NUM	CD	NumForm=Word|NumType=Card	26	appos	26:appos	_
 30	of	of	ADP	IN	_	31	case	31:case	_
 31	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	29	nmod	29:nmod:of	Entity=28)|SpaceAfter=No
@@ -335,7 +335,7 @@
 15	but	but	CCONJ	CC	_	19	cc	19:cc	Discourse=question:34->39:3
 16	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	19:nsubj|30:nsubj	Entity=(person-45-giv:act-1-ana)
 17	will	will	AUX	MD	VerbForm=Fin	19	aux	19:aux|30:aux	_
-18	instead	instead	ADV	RB	Degree=Pos	19	advmod	19:advmod	_
+18	instead	instead	ADV	RB	_	19	advmod	19:advmod	_
 19	have	have	VERB	VB	VerbForm=Inf	5	conj	5:conj:but	_
 20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	Entity=(person-48-new-2-sgl
 21	team	team	NOUN	NN	Number=Sing	19	obj	19:obj	_
@@ -417,7 +417,7 @@
 # text = We have some people who are great at politics; some people we give all the war stuff to; someone who is in charge of the Britney Spears story of the week — the entertainment stories.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration:44->42:1|Entity=(person-14-giv:act-1-ana)
 2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	some	some	DET	DT	_	4	det	4:det	Bridge=46<58|Entity=(person-58-acc:inf-2-sgl
+3	some	some	DET	DT	PronType=Ind	4	det	4:det	Bridge=46<58|Entity=(person-58-acc:inf-2-sgl
 4	people	person	NOUN	NNS	Number=Plur	2	obj	2:obj|7:nsubj	_
 5	who	who	PRON	WP	PronType=Rel	7	nsubj	4:ref	Discourse=elaboration:45->44:0
 6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
@@ -425,11 +425,11 @@
 8	at	at	ADP	IN	_	9	case	9:case	_
 9	politics	politics	NOUN	NN	Number=Sing	7	obl	7:obl:at	Entity=(abstract-59-new-1-sgl)58)|SpaceAfter=No
 10	;	;	PUNCT	:	_	12	punct	12:punct	_
-11	some	some	DET	DT	_	12	det	12:det	Bridge=46<60|Discourse=same-unit_m:46->44:1|Entity=(person-60-acc:inf-2-sgl
+11	some	some	DET	DT	PronType=Ind	12	det	12:det	Bridge=46<60|Discourse=same-unit_m:46->44:1|Entity=(person-60-acc:inf-2-sgl
 12	people	person	NOUN	NNS	Number=Plur	4	conj	2:obj|4:conj	_
 13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	14:nsubj	Discourse=elaboration:47->46:0|Entity=(person-14-giv:act-1-ana)
 14	give	give	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	acl:relcl	12:acl:relcl	_
-15	all	all	DET	PDT	_	18	det:predet	18:det:predet	Entity=(abstract-61-new-4-sgl
+15	all	all	DET	PDT	PronType=Tot	18	det:predet	18:det:predet	Entity=(abstract-61-new-4-sgl
 16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	_
 17	war	war	NOUN	NN	Number=Sing	18	compound	18:compound	Entity=(event-62-new-1-sgl)
 18	stuff	stuff	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=61)
@@ -491,7 +491,7 @@
 1	It	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	2:expl	Discourse=background:55->56:1|Entity=(event-74-new-1-cata)
 2	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	like	like	SCONJ	IN	_	13	mark	13:mark	_
-4	some	some	DET	DT	_	5	det	5:det	Entity=(event-74-acc:com-5,7,10,13-coref(abstract-75-new-2,5,7-sgl
+4	some	some	DET	DT	PronType=Ind	5	det	5:det	Entity=(event-74-acc:com-5,7,10,13-coref(abstract-75-new-2,5,7-sgl
 5	publications	publication	NOUN	NNS	Number=Plur	13	nsubj	13:nsubj	SpaceAfter=No
 6	,	,	PUNCT	,	_	9	punct	9:punct	_
 7	like	like	ADP	IN	_	9	case	9:case	_
@@ -512,7 +512,7 @@
 # speaker = DavidShankbone
 # text = is there anything similar with The Onion where they continually revisit a topic or person?
 1	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=question:56->58:1
-2	there	there	PRON	EX	_	1	expl	1:expl	_
+2	there	there	PRON	EX	PronType=Dem	1	expl	1:expl	_
 3	anything	anything	NOUN	NN	Number=Sing	1	nsubj	1:nsubj	Entity=(abstract-77-new-1-sgl
 4	similar	similar	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=77)
 5	with	with	ADP	IN	_	7	case	7:case	_
@@ -674,7 +674,7 @@
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	5:nsubj:pass|9:nsubj:xsubj|12:nsubj:xsubj	Discourse=cause:67->65:1|Entity=(abstract-94-giv:act-1-ana)
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	5:aux:pass	_
 5	overdone	overdo	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	2:ccomp	SpaceAfter=No
-6	,	,	PUNCT	,	_	9	punct	9:punct	_
+6	,	,	PUNCT	,	_	7	punct	7:punct	_
 7	mean	mean	ADJ	JJ	Degree=Pos	9	amod	9:amod	SpaceAfter=No|XML=<w>
 8	-	-	PUNCT	HYPH	_	7	punct	7:punct	SpaceAfter=No
 9	spirited	spirit	VERB	VBN	Tense=Past|VerbForm=Part	5	xcomp	5:xcomp	XML=</w>
@@ -707,7 +707,7 @@
 2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	n’t	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	any	any	DET	DT	_	6	det	6:det	Entity=(abstract-98-new-2-sgl
+5	any	any	DET	DT	PronType=Ind	6	det	6:det	Entity=(abstract-98-new-2-sgl
 6	rules	rule	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=98)
 7	or	or	CCONJ	CC	_	9	cc	9:cc	_
 8	known	know	VERB	VBN	Tense=Past|VerbForm=Part	9	amod	9:amod	Entity=(abstract-99-new-2-sgl
@@ -757,7 +757,7 @@
 # s_type = decl
 # speaker = ChetClem
 # text = There is an understanding in the room.
-1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=restatement:75->71:1
+1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=restatement:75->71:1
 2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(abstract-100-giv:act-2-coref
 4	understanding	understanding	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	Entity=100)
@@ -806,7 +806,7 @@
 14	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl:relcl	9:acl:relcl	SpaceAfter=No
 15	,	,	PUNCT	,	_	21	punct	21:punct	_
 16	"	''	PUNCT	``	_	21	punct	21:punct	Entity=(abstract-107-new-6-coref|SpaceAfter=No|XML=<q>
-17	No	no	DET	DT	Polarity=Neg	21	det	21:det	_
+17	No	no	DET	DT	Polarity=Neg|PronType=Art	21	det	21:det	_
 18	Jennifer	Jennifer	PROPN	NNP	Number=Sing	21	compound	21:compound	Entity=(abstract-105-giv:act-3-coref(person-108-new-2-coref-Jennifer_Lopez|XML=<ref target:::"https://en.wikipedia.org/wiki/Jennifer_Lopez">
 19	Lopez	Lopez	PROPN	NNP	Number=Sing	21	compound	21:compound	Entity=108)|XML=</ref>
 20	News	news	NOUN	NN	Number=Sing	21	compound	21:compound	Entity=105)
@@ -823,7 +823,7 @@
 3	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(abstract-107-giv:act-2-coref(person-14-giv:act-1-ana)
 4	reaction	reaction	NOUN	NN	Number=Sing	0	root	0:root	_
 5	to	to	ADP	IN	_	6	case	6:case	_
-6	all	all	DET	DT	_	4	nmod	4:nmod:to	Entity=(abstract-110-acc:com-1,6-sgl
+6	all	all	DET	DT	PronType=Tot	4	nmod	4:nmod:to	Entity=(abstract-110-acc:com-1,6-sgl
 7	of	of	ADP	IN	_	12	case	12:case	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	_
 9	J	J	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=(person-108-giv:act-1,3-coref-Jennifer_Lopez|SpaceAfter=No|XML=<w>
@@ -948,7 +948,7 @@
 # speaker = SeanMills
 # text = There’s a 24 hour comedy news cycle that exists on all the late night talk shows.
 1-2	There’s	_	_	_	_	_	_	_	_
-1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=antithesis:89->91:1
+1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=antithesis:89->91:1
 2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(abstract-126-new-6-sgl
 4	24	24	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	5:nummod	Entity=(time-124-giv:act-2-coref
@@ -959,7 +959,7 @@
 9	that	that	PRON	WDT	PronType=Rel	10	nsubj	8:ref	Discourse=elaboration:90->89:0
 10	exists	exist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	8:acl:relcl	_
 11	on	on	ADP	IN	_	17	case	17:case	_
-12	all	all	DET	PDT	_	17	det:predet	17:det:predet	Entity=(abstract-128-new-6-sgl
+12	all	all	DET	PDT	PronType=Tot	17	det:predet	17:det:predet	Entity=(abstract-128-new-6-sgl
 13	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	_
 14	late	late	ADJ	JJ	Degree=Pos	15	amod	15:amod	Entity=(time-129-new-2-sgl
 15	night	night	NOUN	NN	Number=Sing	17	compound	17:compound	Entity=129)
@@ -1001,7 +1001,7 @@
 # s_type = decl
 # speaker = SeanMills
 # text = We want an original take.
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=restatement_m:93->85:2|Entity=(person-14-giv:act-1-ana)
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint_m:93->85:2|Entity=(person-14-giv:act-1-ana)
 2	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(abstract-121-giv:inact-3-coref
 4	original	original	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
@@ -1061,7 +1061,7 @@
 16	trying	try	VERB	VBG	VerbForm=Ger	14	advcl	14:advcl	Discourse=elaboration:98->97:0
 17	to	to	PART	TO	_	18	mark	18:mark	_
 18	crack	crack	VERB	VB	VerbForm=Inf	16	xcomp	16:xcomp	_
-19	each	each	DET	DT	_	18	obj	18:obj	Entity=(person-14-giv:act-1-ana
+19	each	each	DET	DT	PronType=Rcp	18	obj	18:obj	Entity=(person-14-giv:act-1-ana
 20	other	other	ADJ	JJ	Degree=Pos	19	fixed	19:fixed	Entity=14)
 21	up	up	ADP	RP	_	18	compound:prt	18:compound:prt	Entity=134)|SpaceAfter=No
 22	?	?	PUNCT	.	_	13	punct	13:punct	_
@@ -1177,7 +1177,7 @@
 11	,	,	PUNCT	,	_	13	punct	13:punct	_
 12	former	former	ADJ	JJ	Degree=Pos	13	amod	13:amod	Entity=(person-141-giv:act-2-appos-Rober_Siegel_%28filmmaker%29
 13	editor	editor	NOUN	NN	Number=Sing	9	appos	9:appos	SpaceAfter=No|XML=<ref target:::"https://en.wikipedia.org/wiki/Editor-in-chief"><w>
-14	-	-	PUNCT	HYPH	_	17	punct	17:punct	SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	15	punct	15:punct	SpaceAfter=No
 15	in	in	ADP	IN	_	17	case	17:case	SpaceAfter=No
 16	-	-	PUNCT	HYPH	_	15	punct	15:punct	SpaceAfter=No
 17	chief	chief	NOUN	NN	Number=Sing	13	nmod	13:nmod:in	Entity=141)|SpaceAfter=No|XML=</w></ref>
@@ -1251,7 +1251,7 @@
 12	hilarious	hilarious	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
 13	.	.	PUNCT	.	_	12	punct	12:punct	_
 14-15	That’s	_	_	_	_	_	_	_	_
-14	That	that	PRON	DT	Number=Sing|PronType=Dem	18	nsubj	18:nsubj	Discourse=restatement_m:115->114:0|Entity=(abstract-144-giv:act-1-ana)
+14	That	that	PRON	DT	Number=Sing|PronType=Dem	18	nsubj	18:nsubj	Discourse=restatement-repetition_m:115->114:0|Entity=(abstract-144-giv:act-1-ana)
 15	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	_
 16	really	really	ADV	RB	Degree=Pos	18	advmod	18:advmod	_
 17	really	really	ADV	RB	Degree=Pos	18	advmod	18:advmod	_
@@ -1305,7 +1305,7 @@
 # text = Not all the time, but it can’t be a laugh a minute.
 # newpar = sp who:::"#SeanMills" (1 s)
 1	Not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Discourse=concession:121->122:0
-2	all	all	DET	PDT	_	4	det:predet	4:det:predet	Entity=(time-151-new-3-sgl
+2	all	all	DET	PDT	PronType=Tot	4	det:predet	4:det:predet	Entity=(time-151-new-3-sgl
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_
 4	time	time	NOUN	NN	Number=Sing	12	parataxis	12:parataxis	Entity=151)|SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
@@ -1360,7 +1360,7 @@
 # speaker = ChetClem
 # text = There's a lot of unfunny jokes that are told in a back room, that's why they stay and die in that back room and don’t go out in The Onion.
 1-2	There's	_	_	_	_	_	_	_	_
-1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=cause:125->122:1|Entity=(abstract-158-new-2-disc
+1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=cause:125->122:1|Entity=(abstract-158-new-2-disc
 2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(abstract-159-new-2-coref|XML=<hi rend:::"italic">
 4	lot	lot	NOUN	NN	Number=Sing	2	obj	2:obj|10:nsubj:pass	XML=</hi>

@@ -118,7 +118,7 @@
 18	(	(	PUNCT	-LRB-	_	19	punct	19:punct	Discourse=antithesis:10->9:0|SpaceAfter=No
 19	2005	2005	NUM	CD	NumForm=Digit|NumType=Card	17	nmod:tmod	17:nmod:tmod	Entity=(time-21-new-1-coref)|SpaceAfter=No|XML=<date when:::"2005"></date>
 20	)	)	PUNCT	-RRB-	_	19	punct	19:punct	SpaceAfter=No
-21	,	,	PUNCT	,	_	27	punct	27:punct	_
+21	,	,	PUNCT	,	_	22	punct	22:punct	_
 22	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Discourse=same-unit_m:11->9:1|Entity=(abstract-22-new-6-coref
 23	German	German	ADJ	JJ	Degree=Pos	27	amod	27:amod	_
 24	-	-	PUNCT	:	_	23	punct	23:punct	_
@@ -175,7 +175,7 @@
 23	2008	2008	NUM	CD	NumForm=Digit|NumType=Card	20	nmod:tmod	20:nmod:tmod	Entity=(time-35-new-1-sgl)|SpaceAfter=No|XML=<date when:::"2008"></date>
 24	)	)	PUNCT	-RRB-	_	23	punct	23:punct	Entity=31)30)|SpaceAfter=No
 25	,	,	PUNCT	,	_	28	punct	28:punct	_
-26	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=joint_m:17->15:1
+26	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=same-unit_m:17->15:1
 27	as	as	ADP	IN	_	28	case	28:case	_
 28	Ozymandias	Ozymandias	PROPN	NNP	Number=Sing	9	conj	7:nmod:as|9:conj:and	Entity=(person-36-new-1-sgl-Ozymandias|XML=<ref target:::"https://en.wikipedia.org/wiki/Ozymandias_(comics)"></ref>
 29	in	in	ADP	IN	_	36	case	36:case	_
@@ -411,12 +411,12 @@
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	Goode	Goode	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(person-1-giv:act-1-coref-Matthew_Goode)
 5	portrayed	portray	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root|27:obl:for	_
-6	Antony	Antony	PROPN	NNP	Number=Sing	5	obj	5:obj	Entity=(person-82-new-1,2,4-coref-Antony_Armstrong-Jones%2C_1st_Earl_of_Snowdon|XML=<ref target:::"https://en.wikipedia.org/wiki/Antony_Armstrong-Jones,_1st_Earl_of_Snowdon">
+6	Antony	Antony	PROPN	NNP	Number=Sing	5	obj	5:obj	Entity=(person-82-new-1,2,4-coref-Antony_Armstrong%2DJones%2C_1st_Earl_of_Snowdon|XML=<ref target:::"https://en.wikipedia.org/wiki/Antony_Armstrong-Jones,_1st_Earl_of_Snowdon">
 7	Armstrong	Armstrong	PROPN	NNP	Number=Sing	6	flat	6:flat	SpaceAfter=No|XML=<w>
 8	-	-	PUNCT	HYPH	_	9	punct	9:punct	SpaceAfter=No
 9	Jones	Jones	PROPN	NNP	Number=Sing	7	flat	7:flat	Entity=82)|SpaceAfter=No|XML=</w>
 10	,	,	PUNCT	,	_	12	punct	12:punct	_
-11	1st	1st	ADJ	JJ	Degree=Pos|NumType=Ord	12	amod	12:amod	Entity=(person-82-giv:act-2,4-appos-Antony_Armstrong-Jones%2C_1st_Earl_of_Snowdon
+11	1st	1st	ADJ	JJ	Degree=Pos|NumType=Ord	12	amod	12:amod	Entity=(person-82-giv:act-2,4-appos-Antony_Armstrong%2DJones%2C_1st_Earl_of_Snowdon
 12	Earl	Earl	PROPN	NNP	Number=Sing	6	appos	6:appos	_
 13	of	of	ADP	IN	_	14	case	14:case	_
 14	Snowdon	Snowdon	PROPN	NNP	Number=Sing	12	nmod	12:nmod:of	Entity=(place-83-new-1-sgl-Snowdon)82)|XML=</ref>
@@ -554,7 +554,7 @@
 14	March	March	PROPN	NNP	Number=Sing	13	obl:tmod	13:obl:tmod	Entity=(time-106-new-1-sgl|XML=<date when:::"2009-03">
 15	2009	2009	NUM	CD	NumForm=Digit|NumType=Card	14	nmod:tmod	14:nmod:tmod	Entity=(time-38-giv:inact-1-coref)106)|SpaceAfter=No|XML=</date>
 16	)	)	PUNCT	-RRB-	_	13	punct	13:punct	Entity=104)
-17	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=joint_m:59->56:2
+17	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=same-unit_m:59->56:2
 18	Teddie	Teddie	PROPN	NNP	Number=Sing	6	conj	4:appos|6:conj:and	Entity=(person-107-acc:com-1,2,3,4-sgl
 19	Eleanor	Eleanor	PROPN	NNP	Number=Sing	18	flat	18:flat	_
 20	Rose	Rose	PROPN	NNP	Number=Sing	18	flat	18:flat	_
@@ -564,7 +564,7 @@
 24	September	September	PROPN	NNP	Number=Sing	23	obl:tmod	23:obl:tmod	Entity=(time-108-new-1-sgl|XML=<date when:::"2013-09">
 25	2013	2013	NUM	CD	NumForm=Digit|NumType=Card	24	nmod:tmod	24:nmod:tmod	Entity=(time-58-giv:inact-1-coref)108)|SpaceAfter=No|XML=</date>
 26	)	)	PUNCT	-RRB-	_	23	punct	23:punct	Entity=107)103)|SpaceAfter=No
-27	,	,	PUNCT	,	_	30	punct	30:punct	Discourse=joint_m:61->55:1
+27	,	,	PUNCT	,	_	30	punct	30:punct	Discourse=same-unit_m:61->55:1
 28	and	and	CCONJ	CC	_	30	cc	30:cc	_
 29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	30:det	Entity=(person-109-new-2-coref
 30	son	son	NOUN	NN	Number=Sing	4	conj	2:obj|4:conj:and	Entity=109)|SpaceAfter=No
@@ -721,12 +721,12 @@
 8	with	with	ADP	IN	_	10	case	10:case	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Bridge=130<131|Entity=(person-131-acc:inf-2-sgl
 10	brother	brother	NOUN	NN	Number=Sing	7	nmod	7:nmod:with	Entity=131)|SpaceAfter=No
-11	,	,	PUNCT	,	_	15	punct	15:punct	_
+11	,	,	PUNCT	,	_	12	punct	12:punct	_
 12	two	two	NUM	CD	NumForm=Word|NumType=Card	15	nummod	15:nummod	Bridge=130<132|Entity=(person-132-acc:inf-4-sgl
 13	half	half	NOUN	NN	Number=Sing|NumType=Frac	15	compound	15:compound	SpaceAfter=No|XML=<w>
 14	-	-	PUNCT	HYPH	_	13	punct	13:punct	SpaceAfter=No
 15	brothers	brother	NOUN	NNS	Number=Plur	10	conj	7:nmod:with|10:conj:and	Entity=132)|SpaceAfter=No|XML=</w>
-16	,	,	PUNCT	,	_	21	punct	21:punct	_
+16	,	,	PUNCT	,	_	17	punct	17:punct	_
 17	and	and	CCONJ	CC	_	21	cc	21:cc	_
 18	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	Bridge=130<133|Entity=(person-133-acc:inf-4,9-coref
 19	half	half	NOUN	NN	Number=Sing|NumType=Frac	21	compound	21:compound	SpaceAfter=No|XML=<w>

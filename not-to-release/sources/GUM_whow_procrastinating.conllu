@@ -91,7 +91,7 @@
 # text = Side note: If you have anything due right now, and you haven't finished it, leave this article and complete that work.
 1	Side	side	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=preparation:13->16:2|Entity=(abstract-13-new-2-sgl
 2	note	note	NOUN	NN	Number=Sing	0	root	0:root	Entity=13)|SpaceAfter=No
-3	:	:	PUNCT	:	_	19	punct	19:punct	_
+3	:	:	PUNCT	:	_	6	punct	6:punct	_
 4	If	if	SCONJ	IN	_	6	mark	6:mark	Discourse=condition:14->16:1
 5	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-1-giv:act-1-ana)
 6	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	advcl	19:advcl:if	_
@@ -200,7 +200,7 @@
 9	,	,	PUNCT	,	_	5	punct	5:punct	_
 10	check	check	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:28->26:0
 11	off	off	ADP	RP	_	10	compound:prt	10:compound:prt	_
-12	each	each	DET	DT	_	10	obj	10:obj	Entity=(abstract-24-new-1-sgl
+12	each	each	DET	DT	PronType=Tot	10	obj	10:obj	Entity=(abstract-24-new-1-sgl
 13	of	of	ADP	IN	_	15	case	15:case	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(abstract-20-giv:act-2-coref
 15	items	item	NOUN	NNS	Number=Plur	12	nmod	12:nmod:of	_
@@ -372,7 +372,7 @@
 # s_type = imp
 # text = Write every thought down that comes up during work.
 1	Write	write	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration:48->46:1
-2	every	every	DET	DT	_	3	det	3:det	Entity=(abstract-39-new-3-sgl
+2	every	every	DET	DT	PronType=Tot	3	det	3:det	Entity=(abstract-39-new-3-sgl
 3	thought	thought	NOUN	NN	Number=Sing	1	obj	1:obj|6:nsubj	_
 4	down	down	ADP	RP	_	1	compound:prt	1:compound:prt	_
 5	that	that	PRON	WDT	PronType=Rel	6	nsubj	3:ref	Discourse=elaboration:49->48:0
@@ -385,7 +385,7 @@
 # sent_id = GUM_whow_procrastinating-19
 # s_type = frag
 # text = Every single to do or things you want to do at that specific moment.
-1	Every	every	DET	DT	_	2	det	2:det	Discourse=preparation:50->53:2|Entity=(abstract-41-new-2,6-coref(abstract-42-new-2-sgl
+1	Every	every	DET	DT	PronType=Tot	2	det	2:det	Discourse=preparation:50->53:2|Entity=(abstract-41-new-2,6-coref(abstract-42-new-2-sgl
 2	single	single	ADJ	JJ	Degree=Pos	0	root	0:root	_
 3	to	to	PART	TO	_	4	mark	4:mark	_
 4	do	do	VERB	VB	VerbForm=Inf	2	acl	2:acl:to	Entity=42)
@@ -462,7 +462,7 @@
 9	bogging	bog	VERB	VBG	Tense=Pres|VerbForm=Part	6	acl:relcl	6:acl:relcl	_
 10	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	9	obj	9:obj	Entity=(person-1-giv:act-1-ana)
 11	down	down	ADP	RP	_	9	compound:prt	9:compound:prt	_
-12	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=restatement_m:59->58:0
+12	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=restatement-repetition_m:59->58:0
 13	making	make	VERB	VBG	VerbForm=Ger	9	conj	6:acl:relcl|9:conj:and	_
 14	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	13	obj	13:obj|15:nsubj:xsubj	Entity=(person-1-giv:act-1-ana)
 15	unproductive	unproductive	ADJ	JJ	Degree=Pos|Polarity=Neg	13	xcomp	13:xcomp	_
@@ -668,7 +668,7 @@
 4	presented	present	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	advcl	20:advcl:whenever	_
 5	with	with	ADP	IN	_	6	case	6:case	_
 6	something	something	NOUN	NN	Number=Sing	4	obl	4:obl:with	Entity=(abstract-60-new-1-coref)
-7	that	that	PRON	WDT	_	13	obj	13:obj	Discourse=elaboration:83->82:0
+7	that	that	PRON	WDT	PronType=Rel	13	obj	13:obj	Discourse=elaboration:83->82:0
 8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj|13:nsubj:xsubj	Entity=(person-1-giv:act-1-ana)
 9-10	don’t	_	_	_	_	_	_	_	_
 9	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
@@ -676,7 +676,7 @@
 11	want	want	VERB	VB	VerbForm=Inf	6	acl:relcl	6:acl:relcl	_
 12	to	to	PART	TO	_	13	mark	13:mark	_
 13	do	do	VERB	VB	VerbForm=Inf	11	xcomp	11:xcomp	_
-14	or	or	CCONJ	CC	_	16	cc	16:cc	Discourse=contrast_m:84->83:0
+14	or	or	CCONJ	CC	_	16	cc	16:cc	Discourse=disjunction_m:84->83:0
 15	would	would	AUX	MD	VerbForm=Fin	16	aux	16:aux	_
 16	consider	consider	VERB	VB	VerbForm=Inf	4	conj	4:conj:or|20:advcl:whenever	_
 17	putting	put	VERB	VBG	VerbForm=Ger	16	xcomp	16:xcomp	_
@@ -729,7 +729,7 @@
 25	simple	simple	ADJ	JJ	Degree=Pos	26	amod	26:amod	Bridge=59<66|Entity=(abstract-66-acc:inf-2-sgl
 26	tasks	task	NOUN	NNS	Number=Plur	24	obj	24:obj	Entity=66)
 27	in	in	ADP	IN	_	29	case	29:case	_
-28	all	all	DET	DT	_	29	det	29:det	Entity=(abstract-67-new-2-sgl
+28	all	all	DET	DT	PronType=Tot	29	det	29:det	Entity=(abstract-67-new-2-sgl
 29	areas	area	NOUN	NNS	Number=Plur	24	obl	24:obl:in	_
 30	of	of	ADP	IN	_	31	case	31:case	_
 31	life	life	NOUN	NN	Number=Sing	29	nmod	29:nmod:of	Entity=(abstract-68-new-1-sgl)67)|SpaceAfter=No
@@ -759,7 +759,7 @@
 # sent_id = GUM_whow_procrastinating-33
 # s_type = imp
 # text = Simply force yourself to use the next 120 seconds to be productive and do the duty you normally would push off for hours or days. [1].
-1	Simply	simply	ADV	RB	Degree=Pos	2	advmod	2:advmod	Discourse=restatement_m:94->89:2
+1	Simply	simply	ADV	RB	Degree=Pos	2	advmod	2:advmod	Discourse=restatement-repetition_m:94->89:2
 2	force	force	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
 3	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	2	obj	2:obj|5:nsubj:xsubj	Entity=(person-1-giv:act-1-ana)
 4	to	to	PART	TO	_	5	mark	5:mark	_
@@ -837,7 +837,7 @@
 3	minutes	minute	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=81)
 4	and	and	CCONJ	CC	_	5	cc	5:cc	Discourse=sequence_m:104->103:0
 5	remove	remove	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
-6	all	all	DET	DT	_	7	det	7:det	Entity=(abstract-82-new-2-coref
+6	all	all	DET	DT	PronType=Tot	7	det	7:det	Entity=(abstract-82-new-2-coref
 7	distractions	distraction	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=82)
 8	-	-	PUNCT	:	_	10	punct	10:punct	_
 9	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Bridge=82<83|Discourse=elaboration:105->104:0|Entity=(object-83-acc:inf-2-sgl(person-1-giv:act-1-ana)
@@ -975,7 +975,7 @@
 # sent_id = GUM_whow_procrastinating-41
 # s_type = decl
 # text = Each task is then assigned an exact amount of time to complete.
-1	Each	each	DET	DT	_	2	det	2:det	Bridge=100<101|Discourse=elaboration:121->117:3|Entity=(abstract-101-acc:inf-2-coref
+1	Each	each	DET	DT	PronType=Tot	2	det	2:det	Bridge=100<101|Discourse=elaboration:121->117:3|Entity=(abstract-101-acc:inf-2-coref
 2	task	task	NOUN	NN	Number=Sing	5	nsubj:pass	5:nsubj:pass	Entity=101)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	5:aux:pass	_
 4	then	then	ADV	RB	PronType=Dem	5	advmod	5:advmod	_
@@ -1038,7 +1038,7 @@
 17	afford	afford	VERB	VB	VerbForm=Inf	7	advcl	7:advcl:as	_
 18	to	to	PART	TO	_	19	mark	19:mark	_
 19	waste	waste	VERB	VB	VerbForm=Inf	17	xcomp	17:xcomp	_
-20	any	any	DET	DT	_	21	det	21:det	_
+20	any	any	DET	DT	PronType=Ind	21	det	21:det	_
 21	time	time	NOUN	NN	Number=Sing	19	obl:tmod	19:obl:tmod	SpaceAfter=No
 22	.	.	PUNCT	.	Typo=Yes	21	punct	21:punct	XML=<sic>
 23	[	[	PUNCT	-LRB-	Typo=Yes	24	punct	24:punct	Discourse=evidence:128->126:2|SpaceAfter=No|XML=<ref>
@@ -1067,7 +1067,7 @@
 5	seem	seem	VERB	VB	VerbForm=Inf	18	advcl	18:advcl:if	_
 6	to	to	PART	TO	_	7	mark	7:mark	_
 7	focus	focus	VERB	VB	VerbForm=Inf	5	xcomp	5:xcomp	_
-8	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=restatement_m:131->130:0
+8	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=restatement-repetition_m:131->130:0
 9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	10:aux	_
 10	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	5	conj	5:conj:and|18:advcl:if	_
 11	half	half	NOUN	NN	Number=Sing|NumType=Frac	10	obl:npmod	10:obl:npmod	SpaceAfter=No|XML=<w>
@@ -1099,11 +1099,11 @@
 10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(event-109-new-2-sgl
 11	nap	nap	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=109)|SpaceAfter=No
 12	,	,	PUNCT	,	_	13	punct	13:punct	_
-13	read	read	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:or	Discourse=contrast_m:135->134:0
+13	read	read	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:or	Discourse=disjunction_m:135->134:0
 14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	Entity=(object-110-new-2-sgl
 15	book	book	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=110)|SpaceAfter=No
 16	,	,	PUNCT	,	_	18	punct	18:punct	_
-17	or	or	CCONJ	CC	_	18	cc	18:cc	Discourse=contrast_m:136->134:0
+17	or	or	CCONJ	CC	_	18	cc	18:cc	Discourse=disjunction_m:136->134:0
 18	call	call	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:or	_
 19	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(person-111-new-2-sgl(person-1-giv:act-1-ana)
 20	friend	friend	NOUN	NN	Number=Sing	18	obj	18:obj	Entity=111)|SpaceAfter=No
@@ -1112,7 +1112,7 @@
 # sent_id = GUM_whow_procrastinating-47
 # s_type = imp
 # text = Do whatever it is you’ve been daydreaming about so that the temptation is removed once you get back to work.
-1	Do	do	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=contrast_m:137->134:0
+1	Do	do	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=disjunction_m:137->134:0
 2	whatever	whatever	PRON	WDT	PronType=Int	4	obj	4:obj	Entity=(event-112-new-3-disc
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(event-112-giv:act-1-coref)
 4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	_

@@ -87,12 +87,12 @@
 11	ease	ease	VERB	VB	VerbForm=Inf	9	acl	9:acl:to	_
 12	tension	tension	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=(abstract-15-new-1-sgl)|SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	14:punct	_
-14	make	make	VERB	VB	VerbForm=Inf	11	conj	9:acl:to|11:conj:or	Discourse=contrast_m:8->7:0
+14	make	make	VERB	VB	VerbForm=Inf	11	conj	9:acl:to|11:conj:or	Discourse=disjunction_m:8->7:0
 15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(person-16-new-3-sgl
 16	new	new	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
 17	friend	friend	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=16)|SpaceAfter=No
 18	,	,	PUNCT	,	_	20	punct	20:punct	_
-19	or	or	CCONJ	CC	_	20	cc	20:cc	Discourse=contrast_m:9->7:0
+19	or	or	CCONJ	CC	_	20	cc	20:cc	Discourse=disjunction_m:9->7:0
 20	light	light	VERB	VB	VerbForm=Inf	11	conj	9:acl:to|11:conj:or	_
 21	up	up	ADP	RP	_	20	compound:prt	20:compound:prt	_
 22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	23:det	Entity=(place-17-new-2-sgl
@@ -129,7 +129,7 @@
 8	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	6:acl:relcl	_
 9	naturally	naturally	ADV	RB	Degree=Pos	8	advmod	8:advmod	_
 10	to	to	ADP	IN	_	12	case	12:case	_
-11	some	some	DET	DT	_	12	det	12:det	Entity=(person-21-new-2-sgl
+11	some	some	DET	DT	PronType=Ind	12	det	12:det	Entity=(person-21-new-2-sgl
 12	people	person	NOUN	NNS	Number=Plur	8	obl	8:obl:to	Entity=21)19)|SpaceAfter=No
 13	,	,	PUNCT	,	_	18	punct	18:punct	_
 14	but	but	CCONJ	CC	_	18	cc	18:cc	Discourse=contrast_m:14->12:1
@@ -173,7 +173,7 @@
 # sent_id = GUM_whow_joke-12
 # s_type = decl
 # text = All aspects of the joke you tell, from the content to the length, need to be suited to your audience.
-1	All	all	DET	DT	_	2	det	2:det	Discourse=background:18->24:2|Entity=(abstract-27-new-2-sgl
+1	All	all	DET	DT	PronType=Tot	2	det	2:det	Discourse=background:18->24:2|Entity=(abstract-27-new-2-sgl
 2	aspects	aspect	NOUN	NNS	Number=Plur	16	nsubj	16:nsubj|19:nsubj:pass:xsubj	_
 3	of	of	ADP	IN	_	5	case	5:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(abstract-28-new-2-sgl
@@ -249,9 +249,9 @@
 4	individual	individual	NOUN	NN	Number=Sing	0	root	0:root	Entity=12)|SpaceAfter=No
 5	,	,	PUNCT	,	_	8	punct	8:punct	_
 6	so	so	ADV	RB	_	8	advmod	8:advmod	Discourse=ROOT:24:0
-7	there	there	PRON	EX	_	8	expl	8:expl	_
+7	there	there	PRON	EX	PronType=Dem	8	expl	8:expl	_
 8	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	4:parataxis	_
-9	no	no	DET	DT	Polarity=Neg	13	det	13:det	_
+9	no	no	DET	DT	Polarity=Neg|PronType=Art	13	det	13:det	_
 10	hard	hard	ADJ	JJ	Degree=Pos	13	amod	13:amod	Entity=(abstract-35-new-4-sgl
 11	and	and	CCONJ	CC	_	12	cc	12:cc	_
 12	fast	fast	ADJ	JJ	Degree=Pos	10	conj	10:conj:and|13:amod	_
@@ -275,7 +275,7 @@
 12	,	,	PUNCT	,	_	6	punct	6:punct	_
 13	here	here	ADV	RB	PronType=Dem	14	advmod	14:advmod	Discourse=same-unit_m:27->25:0
 14	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-15	some	some	DET	DT	_	17	det	17:det	Entity=(abstract-37-new-3-sgl
+15	some	some	DET	DT	PronType=Ind	17	det	17:det	Entity=(abstract-37-new-3-sgl
 16	good	good	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
 17	rules	rule	NOUN	NNS	Number=Plur	14	nsubj	14:nsubj	_
 18	of	of	ADP	IN	_	19	case	19:case	_
@@ -472,7 +472,7 @@
 11	keep	keep	VERB	VB	VerbForm=Inf	3	advcl	3:advcl:to	_
 12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obj	11:obj|13:nsubj:xsubj	Entity=(abstract-60-giv:act-1-ana)
 13	handy	handy	ADJ	JJ	Degree=Pos	11	xcomp	11:xcomp	_
-14	or	or	CCONJ	CC	_	15	cc	15:cc	Discourse=contrast_m:48->46:1
+14	or	or	CCONJ	CC	_	15	cc	15:cc	Discourse=disjunction_m:48->46:1
 15	use	use	VERB	VB	VerbForm=Inf	3	conj	3:conj:or	Entity=(event-62-new-1-disc
 16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	_
 17	document	document	NOUN	NN	Number=Sing	18	compound	18:compound	_
@@ -511,7 +511,7 @@
 # sent_id = GUM_whow_joke-27
 # s_type = decl
 # text = Every joke has a “target,” which is what the joke is about.
-1	Every	every	DET	DT	_	2	det	2:det	Discourse=background:52->54:3|Entity=(abstract-66-new-2-coref
+1	Every	every	DET	DT	PronType=Tot	2	det	2:det	Discourse=background:52->54:3|Entity=(abstract-66-new-2-coref
 2	joke	joke	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=66)
 3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(abstract-65-giv:act-3-coref
@@ -739,7 +739,7 @@
 18	to	to	ADP	IN	_	20	case	20:case	_
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(person-26-giv:inact-2-coref
 20	audience	audience	NOUN	NN	Number=Sing	16	obl	16:obl:to	Entity=26)
-21	or	or	CCONJ	CC	_	25	cc	25:cc	Discourse=contrast_m:76->75:0
+21	or	or	CCONJ	CC	_	25	cc	25:cc	Discourse=disjunction_m:76->75:0
 22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	25:nsubj	Entity=(person-26-giv:act-1-ana)
 23-24	won’t	_	_	_	_	_	_	_	_
 23	wo	will	AUX	MD	VerbForm=Fin	25	aux	25:aux	_
@@ -753,7 +753,7 @@
 # s_type = decl
 # text = Your setup needs to be both realistic and exaggerated in order to be funny —
 # newpar = item (2 s) | p (2 s)
-1	Your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=restatement_m:77->65:6|Entity=(abstract-77-giv:act-2-coref(person-9-giv:act-1-ana)
+1	Your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=restatement-repetition_m:77->65:6|Entity=(abstract-77-giv:act-2-coref(person-9-giv:act-1-ana)
 2	setup	setup	NOUN	NN	Number=Sing	3	nsubj	3:nsubj|7:nsubj:xsubj|9:nsubj:xsubj	Entity=77)
 3	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	to	to	PART	TO	_	7	mark	7:mark	_
@@ -783,7 +783,7 @@
 8	side	side	NOUN	NN	Number=Sing	3	obl:npmod	3:obl:npmod	_
 9	by	by	ADP	IN	_	10	case	10:case	_
 10	side	side	NOUN	NN	Number=Sing	8	nmod	8:nmod:by	_
-11	that	that	PRON	WDT	_	12	nsubj	12:nsubj	_
+11	that	that	PRON	WDT	PronType=Rel	12	nsubj	12:nsubj	_
 12	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(abstract-66-giv:inact-2-coref
 14	joke	joke	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=66)
@@ -885,7 +885,7 @@
 # s_type = decl
 # text = Some jokes also have what is called a tag or topper, which is an additional punchline.
 # newpar = list type:::"unordered" (2 s) | item (2 s) | p (2 s)
-1	Some	some	DET	DT	_	2	det	2:det	Discourse=joint_m:88->84:1|Entity=(abstract-92-new-2-sgl
+1	Some	some	DET	DT	PronType=Ind	2	det	2:det	Discourse=joint_m:88->84:1|Entity=(abstract-92-new-2-sgl
 2	jokes	joke	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=92)
 3	also	also	ADV	RB	_	4	advmod	4:advmod	_
 4	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -946,7 +946,7 @@
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(abstract-97-new-3-sgl
 6	same	same	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	ground	ground	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=97)
-8	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=restatement_m:93->92:0
+8	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=restatement-repetition_m:93->92:0
 9	sometimes	sometimes	ADV	RB	_	11	advmod	11:advmod	_
 10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	11:nsubj	Entity=(abstract-96-giv:act-1-ana)
 11	retell	retell	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj:and	_
@@ -976,7 +976,7 @@
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(person-26-giv:inact-2-coref
 13	audience	audience	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=26)
 14	in	in	ADP	IN	_	16	case	16:case	_
-15	some	some	DET	DT	_	16	det	16:det	Entity=(abstract-100-new-2-sgl
+15	some	some	DET	DT	PronType=Ind	16	det	16:det	Entity=(abstract-100-new-2-sgl
 16	way	way	NOUN	NN	Number=Sing	11	obl	11:obl:in	Entity=100)|SpaceAfter=No
 17	,	,	PUNCT	,	_	19	punct	19:punct	_
 18	which	which	PRON	WDT	PronType=Rel	19	nsubj	9:ref	Discourse=elaboration:97->96:0
@@ -1014,7 +1014,7 @@
 # s_type = decl
 # text = Another option is to dress the joke up as a story about your own life.
 # newpar = item (3 s) | p (3 s)
-1	Another	another	DET	DT	_	2	det	2:det	Discourse=contrast_m:102->98:3|Entity=(event-103-new-2-coref
+1	Another	another	DET	DT	PronType=Art	2	det	2:det	Discourse=joint_m:102->98:3|Entity=(event-103-new-2-coref
 2	option	option	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=103)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 4	to	to	PART	TO	_	5	mark	5:mark	Entity=(event-103-giv:act-2-disc
@@ -1096,7 +1096,7 @@
 7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	6:obj|9:nsubj:pass:xsubj	Entity=(abstract-66-giv:act-1-ana)
 8	completely	completely	ADV	RB	Degree=Pos	9	advmod	9:advmod	_
 9	memorized	memorize	VERB	VBN	Tense=Past|VerbForm=Part	6	xcomp	6:xcomp	_
-10	—	—	PUNCT	:	_	19	punct	19:punct	Discourse=antithesis:110->111:0
+10	—	—	PUNCT	:	_	12	punct	12:punct	Discourse=antithesis:110->111:0
 11	in	in	ADP	IN	_	12	case	12:case	_
 12	fact	fact	NOUN	NN	Number=Sing	19	obl	19:obl:in	SpaceAfter=No
 13	,	,	PUNCT	,	_	12	punct	12:punct	_
@@ -1168,7 +1168,7 @@
 11	off	off	ADP	IN	_	13	case	13:case	_
 12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Entity=(object-110-new-2-sgl
 13	script	script	NOUN	NN	Number=Sing	10	obl	10:obl:off	Entity=110)
-14	instead	instead	SCONJ	RB	Degree=Pos	16	mark	16:mark	Discourse=antithesis:119->118:0
+14	instead	instead	SCONJ	RB	_	16	mark	16:mark	Discourse=antithesis:119->118:0
 15	of	of	ADP	IN	_	14	fixed	14:fixed	_
 16	relayed	relay	VERB	VBN	Tense=Past|VerbForm=Part	10	advcl	10:advcl:instead_of	_
 17	by	by	ADP	IN	_	19	case	19:case	_

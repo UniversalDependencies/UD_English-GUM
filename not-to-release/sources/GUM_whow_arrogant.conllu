@@ -35,15 +35,15 @@
 13	on	on	ADP	IN	_	14	case	14:case	_
 14	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	12	obl	12:obl:on	Entity=(person-1-giv:act-1-ana)|SpaceAfter=No
 15	,	,	PUNCT	,	_	16	punct	16:punct	_
-16	intolerant	intolerant	ADJ	JJ	Degree=Pos	12	conj	9:acl:relcl|12:conj:or	Discourse=contrast_m:4->3:0
+16	intolerant	intolerant	ADJ	JJ	Degree=Pos	12	conj	9:acl:relcl|12:conj:or	Discourse=disjunction_m:4->3:0
 17	of	of	ADP	IN	_	18	case	18:case	_
 18	people	person	NOUN	NNS	Number=Plur	16	obl	16:obl:of	Entity=(person-3-new-1-sgl
 19	different	different	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
 20	from	from	ADP	IN	_	21	case	21:case	_
 21	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	obl	19:obl:from	Entity=(person-1-giv:act-1-ana)3)|SpaceAfter=No
 22	,	,	PUNCT	,	_	23	punct	23:punct	_
-23	rude	rude	ADJ	JJ	Degree=Pos	12	conj	9:acl:relcl|12:conj:or	Discourse=contrast_m:5->3:0
-24	or	or	CCONJ	CC	_	26	cc	26:cc	Discourse=contrast_m:6->3:0
+23	rude	rude	ADJ	JJ	Degree=Pos	12	conj	9:acl:relcl|12:conj:or	Discourse=disjunction_m:5->3:0
+24	or	or	CCONJ	CC	_	26	cc	26:cc	Discourse=disjunction_m:6->3:0
 25	downright	downright	ADV	RB	Degree=Pos	26	advmod	26:advmod	_
 26	arrogant	arrogant	ADJ	JJ	Degree=Pos	12	conj	9:acl:relcl|12:conj:or	Entity=1)|SpaceAfter=No
 27	?	?	PUNCT	.	_	4	punct	4:punct	_
@@ -106,7 +106,7 @@
 1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux|18:aux	Discourse=antithesis:12->13:2
 2	n't	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	_
 3	eavesdrop	eavesdrop	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	SpaceAfter=No
-4	,	,	PUNCT	,	_	18	punct	18:punct	_
+4	,	,	PUNCT	,	_	5	punct	5:punct	_
 5	but	but	CCONJ	CC	_	18	cc	18:cc	Discourse=elaboration:13->11:0
 6	when	when	SCONJ	WRB	PronType=Int	9	mark	9:mark	Discourse=circumstance:14->15:0
 7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	9:nsubj	Entity=(person-1-giv:act-1-ana)|SpaceAfter=No
@@ -138,7 +138,7 @@
 # sent_id = GUM_whow_arrogant-8
 # s_type = q
 # text = Do they get mad or irritated if the centre of attention moves to someone else?
-1	Do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	3:aux	Discourse=contrast_m:17->16:0|Entity=(event-12-new-3-coref
+1	Do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	3:aux	Discourse=joint_m:17->16:0|Entity=(event-12-new-3-coref
 2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj|4:nsubj:xsubj|6:nsubj:xsubj	Entity=(person-1-giv:act-1-ana)
 3	get	get	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	mad	mad	ADJ	JJ	Degree=Pos	3	xcomp	3:xcomp	_
@@ -262,7 +262,7 @@
 7	lifestyle	lifestyle	NOUN	NN	Number=Sing	4	conj	1:nmod:of|4:conj:or	Entity=28)27)
 8	can	can	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	9	aux	9:aux	_
 9	cause	cause	VERB	VB	VerbForm=Inf	0	root	0:root	_
-10	another	another	DET	DT	_	11	det	11:det	Entity=(person-29-new-2-coref
+10	another	another	DET	DT	PronType=Art	11	det	11:det	Entity=(person-29-new-2-coref
 11	person	person	NOUN	NN	Number=Sing	9	obj	9:obj|13:nsubj:xsubj	Entity=29)
 12	to	to	PART	TO	_	13	mark	13:mark	_
 13	feel	feel	VERB	VB	VerbForm=Inf	9	xcomp	9:xcomp	_
@@ -278,13 +278,13 @@
 23	better	well	ADV	RBR	Degree=Cmp	22	advmod	22:advmod	_
 24	than	than	ADP	IN	_	25	case	25:case	_
 25	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	23	obl	23:obl:than	Entity=(person-2-giv:act-1-ana)
-26	or	or	CCONJ	CC	_	27	cc	26.1:cc	Discourse=contrast_m:28->27:1
+26	or	or	CCONJ	CC	_	27	cc	26.1:cc	Discourse=disjunction_m:28->27:1
 26.1	something	something	NOUN	NN	Number=Sing	_	_	18:conj:or	CopyOf=18
 26.2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	27:nsubj|29:nsubj	CopyOf=19
 27	own	own	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	conj	26.1:acl:relcl	_
 28	/	/	SYM	SYM	_	29	cc	29:cc	_
 29	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	conj	20:conj|27:conj:slash	_
-30	that	that	PRON	WDT	_	32	obj	26.1:ref	Discourse=elaboration:29->28:0
+30	that	that	PRON	WDT	PronType=Rel	32	obj	26.1:ref	Discourse=elaboration:29->28:0
 31	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	32	nsubj	32:nsubj	Entity=(person-2-giv:act-1-ana)
 32-33	don't	_	_	_	_	_	_	_	SpaceAfter=No
 32	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	27	orphan	26.1:acl:relcl	_
@@ -470,11 +470,11 @@
 # s_type = decl
 # text = At some point or another, most people realize that the world doesn't revolve around them.
 # newpar = list type:::"unordered" (6 s) | item (2 s)
-1	At	at	ADP	IN	_	3	case	3:case	Discourse=antithesis:51->52:2
-2	some	some	DET	DT	_	3	det	3:det	_
+1	At	at	ADP	IN	_	3	case	3:case	Discourse=background:51->52:2
+2	some	some	DET	DT	PronType=Ind	3	det	3:det	_
 3	point	point	NOUN	NN	Number=Sing	9	obl	9:obl:at	_
 4	or	or	CCONJ	CC	_	5	cc	5:cc	_
-5	another	another	DET	DT	_	3	conj	3:conj:or|9:obl:at	SpaceAfter=No
+5	another	another	DET	DT	PronType=Art	3	conj	3:conj:or|9:obl:at	SpaceAfter=No
 6	,	,	PUNCT	,	_	3	punct	3:punct	_
 7	most	most	ADJ	JJS	Degree=Sup	8	amod	8:amod	Entity=(person-45-new-2-coref
 8	people	person	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj	Entity=45)
@@ -541,7 +541,7 @@
 15	(	(	PUNCT	-LRB-	_	16	punct	16:punct	Discourse=evaluation:59->58:0|SpaceAfter=No
 16	realities	reality	NOUN	NNS	Number=Plur	8	appos	8:appos	Entity=(abstract-50-giv:act-1-appos
 17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	20:nsubj	Discourse=elaboration:60->59:0|Entity=(person-55-acc:com-1-ana
-18	all	all	DET	DT	_	17	det	17:det	Entity=55)
+18	all	all	DET	DT	PronType=Tot	17	det	17:det	Entity=55)
 19	must	must	AUX	MD	VerbForm=Fin	20	aux	20:aux	_
 20	contend	contend	VERB	VB	VerbForm=Inf	16	acl:relcl	16:acl:relcl	_
 21	with	with	ADP	IN	_	20	obl	20:obl	_
@@ -559,7 +559,7 @@
 1	As	as	ADP	IN	_	2	case	2:case	Discourse=joint_m:62->11:1
 2	such	such	ADJ	JJ	Degree=Pos	25	obl	25:obl:as	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
-4	instead	instead	SCONJ	RB	Degree=Pos	6	mark	6:mark	Discourse=antithesis:63->64:0
+4	instead	instead	SCONJ	RB	_	6	mark	6:mark	Discourse=antithesis:63->64:0
 5	of	of	ADP	IN	_	4	fixed	4:fixed	_
 6	accepting	accept	VERB	VBG	VerbForm=Ger	25	advcl	25:advcl:instead_of	_
 7	that	that	SCONJ	IN	_	10	mark	10:mark	_
@@ -574,7 +574,7 @@
 16	averse	averse	ADJ	JJ	Degree=Pos	11	conj	10:advmod|11:conj:and	_
 17	to	to	ADP	IN	_	20	case	20:case	_
 18-19	one's	_	_	_	_	_	_	_	_
-18	one	one	PRON	PRP	_	20	nmod:poss	20:nmod:poss	Entity=(abstract-56-new-3-sgl(person-57-acc:com-1-sgl
+18	one	one	PRON	PRP	PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(abstract-56-new-3-sgl(person-57-acc:com-1-sgl
 19	's	's	PART	POS	_	18	case	18:case	Entity=57)
 20	preferences	preference	NOUN	NNS	Number=Plur	16	obl	16:obl:to	Entity=56)|SpaceAfter=No
 21	,	,	PUNCT	,	_	6	punct	6:punct	_
@@ -587,7 +587,7 @@
 28	everything	everything	NOUN	NN	Number=Sing	27	obj	27:obj	Entity=(abstract-58-new-1-sgl)
 29	and	and	CCONJ	CC	_	30	cc	30:cc	_
 30	everyone	everyone	NOUN	NN	Number=Sing	28	conj	27:obj|28:conj:and	Entity=(person-59-new-1-sgl)|SpaceAfter=No
-31	,	,	PUNCT	,	_	39	punct	39:punct	_
+31	,	,	PUNCT	,	_	32	punct	32:punct	_
 32	which	which	PRON	WDT	PronType=Rel	39	nsubj	27:ref	Discourse=evaluation:65->62:1
 33	of	of	ADV	IN	_	39	advmod	39:advmod	_
 34	course	course	NOUN	NN	Number=Sing	33	fixed	33:fixed	SpaceAfter=No
@@ -607,7 +607,7 @@
 3	when	when	SCONJ	WRB	PronType=Int	5	mark	5:mark	Discourse=circumstance:67->66:0
 4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(abstract-61-giv:act-1-ana)
 5	intrudes	intrude	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	2:advcl:when	SpaceAfter=No
-6	;	;	PUNCT	:	_	15	punct	15:punct	_
+6	;	;	PUNCT	:	_	8	punct	8:punct	_
 7	as	as	ADP	IN	_	8	case	8:case	Discourse=joint_m:68->62:3
 8	such	such	ADJ	JJ	Degree=Pos	15	obl	15:obl:as	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	8:punct	_
@@ -649,7 +649,7 @@
 8	for	for	ADP	IN	_	10	case	10:case	_
 9	positive	positive	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(event-65-new-2-sgl
 10	achievements	achievement	NOUN	NNS	Number=Plur	7	nmod	7:nmod:for	Entity=65)64)
-11	instead	instead	SCONJ	RB	Degree=Pos	13	mark	13:mark	Discourse=antithesis:71->70:0
+11	instead	instead	SCONJ	RB	_	13	mark	13:mark	Discourse=antithesis:71->70:0
 12	of	of	ADP	IN	_	11	fixed	11:fixed	_
 13	acknowledging	acknowledge	VERB	VBG	VerbForm=Ger	4	advcl	4:advcl:instead_of	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(abstract-66-new-2-sgl
@@ -683,7 +683,7 @@
 4	nosy	nosy	ADJ	JJ	Degree=Pos	0	root	0:root	_
 5	or	or	CCONJ	CC	_	6	cc	6:cc	_
 6	gossipy	gossipy	ADJ	JJ	Degree=Pos	4	conj	4:conj:or	SpaceAfter=No
-7	,	,	PUNCT	,	_	27	punct	27:punct	_
+7	,	,	PUNCT	,	_	8	punct	8:punct	_
 8	but	but	CCONJ	CC	_	27	cc	27:cc	Discourse=joint_m:74->11:1
 9	if	if	SCONJ	IN	_	12	mark	12:mark	Discourse=condition:75->76:0
 10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	12:nsubj|18:nsubj	Entity=(person-1-giv:act-1-ana)
@@ -760,7 +760,7 @@
 7	to	to	PART	TO	_	8	mark	8:mark	Discourse=elaboration:81->80:0|Entity=(event-80-new-2-disc
 8	look	look	VERB	VB	VerbForm=Inf	6	acl	6:acl:to	_
 9	good	good	ADJ	JJ	Degree=Pos	8	xcomp	8:xcomp	Entity=80)|SpaceAfter=No
-10	,	,	PUNCT	,	_	19	punct	19:punct	_
+10	,	,	PUNCT	,	_	11	punct	11:punct	_
 11	and	and	CCONJ	CC	_	19	cc	19:cc	Discourse=background:82->84:3
 12	being	be	AUX	VBG	VerbForm=Ger	15	cop	15:cop	Entity=(event-81-new-4-disc
 13	self	self	NOUN	NN	Number=Sing	15	compound	15:compound	SpaceAfter=No|XML=<w>
@@ -823,7 +823,7 @@
 11	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	13:aux	_
 12	n't	not	PART	RB	Polarity=Neg	13	advmod	13:advmod	_
 13	have	have	VERB	VB	VerbForm=Inf	9	acl:relcl	9:acl:relcl	_
-14	any	any	DET	DT	_	18	det	18:det	Entity=(person-85-new-5-sgl
+14	any	any	DET	DT	PronType=Ind	18	det	18:det	Entity=(person-85-new-5-sgl
 15	reliable	reliable	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
 16	and	and	CCONJ	CC	_	17	cc	17:cc	_
 17	supportive	supportive	ADJ	JJ	Degree=Pos	15	conj	15:conj:and|18:amod	_
@@ -847,7 +847,7 @@
 # sent_id = GUM_whow_arrogant-35
 # s_type = wh
 # text = In other words, how do they treat those with different beliefs, cultural backgrounds and ways of seeing the world?
-1	In	in	ADP	IN	_	3	case	3:case	Discourse=restatement_m:88->87:0
+1	In	in	ADP	IN	_	3	case	3:case	Discourse=restatement-repetition_m:88->87:0
 2	other	other	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	words	word	NOUN	NNS	Number=Plur	8	obl	8:obl:in	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -888,11 +888,11 @@
 12	-	-	PUNCT	HYPH	_	11	punct	11:punct	SpaceAfter=No
 13	zealous	zealous	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No|XML=</w>
 14	,	,	PUNCT	,	_	15	punct	15:punct	_
-15	ignorant	ignorant	ADJ	JJ	Degree=Pos	13	conj	13:conj:or	Discourse=contrast_m:91->90:0
+15	ignorant	ignorant	ADJ	JJ	Degree=Pos	13	conj	13:conj:or	Discourse=disjunction_m:91->90:0
 16	of	of	ADP	IN	_	18	case	18:case	_
 17	other	other	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(person-89-new-2-sgl
 18	people	person	NOUN	NNS	Number=Plur	15	obl	15:obl:of	Entity=89)
-19	or	or	CCONJ	CC	_	20	cc	20:cc	Discourse=contrast_m:92->90:0
+19	or	or	CCONJ	CC	_	20	cc	20:cc	Discourse=disjunction_m:92->90:0
 20	what	what	PRON	WP	PronType=Int	13	conj	13:conj:or	_
 21	to	to	PART	TO	_	22	mark	22:mark	_
 22	avoid	avoid	VERB	VB	VerbForm=Inf	20	acl	20:acl:to	_
@@ -1033,7 +1033,7 @@
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(place-101-acc:com-2-sgl
 8	place	place	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=101)|SpaceAfter=No
 9	,	,	PUNCT	,	_	11	punct	11:punct	_
-10	or	or	CCONJ	CC	_	11	cc	11:cc	Discourse=restatement_m:105->103:1
+10	or	or	CCONJ	CC	_	11	cc	11:cc	Discourse=disjunction_m:105->103:1
 11	act	act	VERB	VB	VerbForm=Inf	3	conj	3:conj:or	_
 12	like	like	ADP	IN	_	16	case	16:case	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(person-102-new-4-sgl
@@ -1068,8 +1068,8 @@
 5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(abstract-104-new-3-sgl
 6	false	false	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	charm	charm	NOUN	NN	Number=Sing	4	obj	4:obj	_
-8	that	that	PRON	WDT	_	13	obl	13:obl:through	Discourse=elaboration:108->107:0
-9	no	no	DET	DT	Polarity=Neg	10	det	10:det	Entity=(person-105-new-2-sgl
+8	that	that	PRON	WDT	PronType=Rel	13	obl	13:obl:through	Discourse=elaboration:108->107:0
+9	no	no	DET	DT	Polarity=Neg|PronType=Art	10	det	10:det	Entity=(person-105-new-2-sgl
 10	one	one	NOUN	NN	Number=Sing	11	nsubj	11:nsubj|13:nsubj:xsubj	Entity=105)
 11	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	7:acl:relcl	_
 12	to	to	PART	TO	_	13	mark	13:mark	_
@@ -1120,7 +1120,7 @@
 9	usually	usually	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
 10	ignore	ignore	VERB	VB	VerbForm=Inf	0	root	0:root	_
 11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	10:obj	Entity=(event-108-giv:act-1-coref)
-12	or	or	CCONJ	CC	_	14	cc	14:cc	Discourse=contrast_m:113->112:0
+12	or	or	CCONJ	CC	_	14	cc	14:cc	Discourse=disjunction_m:113->112:0
 13	not	not	PART	RB	Polarity=Neg	14	advmod	14:advmod	_
 14	do	do	VERB	VB	VerbForm=Inf	10	conj	10:conj:or	_
 15	anything	anything	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=(abstract-110-new-3-sgl
@@ -1375,7 +1375,7 @@
 8	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	10:aux	Entity=(event-126-new-3-disc
 9	n't	not	PART	RB	Polarity=Neg	10	advmod	10:advmod	_
 10	have	have	VERB	VB	VerbForm=Inf	5	ccomp	5:ccomp	_
-11	any	any	DET	DT	_	13	det	13:det	Entity=(person-127-new-3-sgl
+11	any	any	DET	DT	PronType=Ind	13	det	13:det	Entity=(person-127-new-3-sgl
 12	good	good	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
 13	friends	friend	NOUN	NNS	Number=Plur	10	obj	10:obj	Entity=127)126)|SpaceAfter=No
 14	.	.	PUNCT	.	_	5	punct	5:punct	_

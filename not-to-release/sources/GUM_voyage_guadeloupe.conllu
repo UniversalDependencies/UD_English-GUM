@@ -91,7 +91,7 @@
 # s_type = frag
 # text = Basse Terre: green and lush vegetation, mountainous with a sulphuric volcano.
 # newpar = list type:::"unordered" (6 s) | item (1 s) | p (1 s)
-1	Basse	Basse	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=ROOT:12:0|Entity=(place-9-new-1,2-coref-Basse-Terre_Island|XML=<hi rend:::"bold">
+1	Basse	Basse	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=ROOT:12:0|Entity=(place-9-new-1,2-coref-Basse%2DTerre_Island|XML=<hi rend:::"bold">
 2	Terre	Terre	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=9)|SpaceAfter=No|XML=</hi>
 3	:	:	PUNCT	:	_	7	punct	7:punct	_
 4	green	green	ADJ	JJ	Degree=Pos	7	amod	7:amod	Discourse=elaboration:13->12:0|Entity=(plant-10-new-4-sgl
@@ -110,7 +110,7 @@
 # s_type = frag
 # text = Grande Terre: flat and dry with a lot of beaches, some of them very touristic.
 # newpar = item (1 s) | p (1 s)
-1	Grande	Grande	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint_m:14->12:1|Entity=(place-12-new-1,2-coref-Grande-Terre|XML=<hi rend:::"bold">
+1	Grande	Grande	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint_m:14->12:1|Entity=(place-12-new-1,2-coref-Grande%2DTerre|XML=<hi rend:::"bold">
 2	Terre	Terre	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=12)|SpaceAfter=No|XML=</hi>
 3	:	:	PUNCT	:	_	4	punct	4:punct	_
 4	flat	flat	ADJ	JJ	Degree=Pos	1	parataxis	1:parataxis	Discourse=elaboration:15->14:0
@@ -122,7 +122,7 @@
 10	of	of	ADP	IN	_	11	case	11:case	_
 11	beaches	beach	NOUN	NNS	Number=Plur	9	nmod	9:nmod:of	Entity=13)|SpaceAfter=No
 12	,	,	PUNCT	,	_	17	punct	17:punct	_
-13	some	some	DET	DT	_	17	nsubj	17:nsubj	Entity=(place-14-new-1-sgl
+13	some	some	DET	DT	PronType=Ind	17	nsubj	17:nsubj	Entity=(place-14-new-1-sgl
 14	of	of	ADP	IN	_	15	case	15:case	_
 15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	nmod	13:nmod:of	Entity=(place-13-giv:act-1-ana)14)
 16	very	very	ADV	RB	_	17	advmod	17:advmod	_
@@ -133,15 +133,15 @@
 # s_type = frag
 # text = Marie Galante: the biggest island out of mainland Guadeloupe.
 # newpar = item (1 s) | p (1 s)
-1	Marie	Marie	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint_m:16->12:1|Entity=(place-15-new-1,2-coref-Marie-Galante|XML=<hi rend:::"bold">
+1	Marie	Marie	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint_m:16->12:1|Entity=(place-15-new-1,2-coref-Marie%2DGalante|XML=<hi rend:::"bold">
 2	Galante	Galante	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=15)|SpaceAfter=No|XML=</hi>
 3	:	:	PUNCT	:	_	6	punct	6:punct	_
-4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Discourse=elaboration:17->16:0|Entity=(place-15-giv:act-3-coref-Marie-Galante
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Discourse=elaboration:17->16:0|Entity=(place-15-giv:act-3-coref-Marie%2DGalante
 5	biggest	big	ADJ	JJS	Degree=Sup	6	amod	6:amod	_
 6	island	island	NOUN	NN	Number=Sing	1	parataxis	1:parataxis	_
 7	out	out	ADP	IN	_	10	case	10:case	_
 8	of	of	ADP	IN	_	7	fixed	7:fixed	_
-9	mainland	mainland	NOUN	NN	Number=Sing	10	compound	10:compound	Bridge=1<16|Entity=(place-16-acc:inf-2-coref-Grande-Terre
+9	mainland	mainland	NOUN	NN	Number=Sing	10	compound	10:compound	Bridge=1<16|Entity=(place-16-acc:inf-2-coref-Grande%2DTerre
 10	Guadeloupe	Guadeloupe	PROPN	NNP	Number=Sing	6	nmod	6:nmod:out_of	Entity=16)15)|SpaceAfter=No
 11	.	.	PUNCT	.	_	1	punct	1:punct	_
 
@@ -151,18 +151,18 @@
 # newpar = item (1 s) | p (1 s)
 1	Les	Les	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint_m:18->12:1|Entity=(place-17-new-1,2-coref-Îles_des_Saintes|XML=<ref target:::"https://en.wikivoyage.org/wiki/Les_Saintes"><hi rend:::"bold">
 2	Saintes	Saintes	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=17)|SpaceAfter=No|XML=</hi></ref>
-3	:	:	PUNCT	:	_	14	punct	14:punct	_
+3	:	:	PUNCT	:	_	4	punct	4:punct	_
 4	composed	compose	VERB	VBN	Tense=Past|VerbForm=Part	14	acl	14:acl	Discourse=elaboration:19->18:0
 5	of	of	ADP	IN	_	8	case	8:case	_
-6	Terre	Terre	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=(place-18-new-1,2,3-sgl-Terre-de-Haut|XML=<hi rend:::"italic">
+6	Terre	Terre	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=(place-18-new-1,2,3-sgl-Terre%2Dde%2DHaut|XML=<hi rend:::"italic">
 7	de	de	PROPN	NNP	Number=Sing	8	compound	8:compound	_
 8	Haut	Haut	PROPN	NNP	Number=Sing	4	obl	4:obl:of	Entity=18)|XML=</hi>
 9	and	and	CCONJ	CC	_	12	cc	12:cc	_
-10	Terre	Terre	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=(place-19-new-1,2,3-coref-Terre-de-Bas|XML=<hi rend:::"italic">
+10	Terre	Terre	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=(place-19-new-1,2,3-coref-Terre%2Dde%2DBas|XML=<hi rend:::"italic">
 11	de	de	PROPN	NNP	Number=Sing	12	compound	12:compound	_
 12	Bas	Bas	PROPN	NNP	Number=Sing	8	conj	4:obl:of|8:conj:and	Entity=19)|SpaceAfter=No|XML=</hi>
 13	,	,	PUNCT	,	_	4	punct	4:punct	_
-14	one	one	NUM	CD	NumForm=Word|NumType=Card	1	parataxis	1:parataxis	Entity=(place-19-giv:act-1-coref-Terre-de-Bas
+14	one	one	NUM	CD	NumForm=Word|NumType=Card	1	parataxis	1:parataxis	Entity=(place-19-giv:act-1-coref-Terre%2Dde%2DBas
 15	of	of	ADP	IN	_	19	case	19:case	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	_
 17	most	most	ADV	RBS	Degree=Sup	18	advmod	18:advmod	_
@@ -204,7 +204,7 @@
 # s_type = frag
 # text = Grande Terre
 # newpar = head rend:::"bold" (1 s)
-1	Grande	Grande	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:25->27:3|Entity=(place-12-giv:inact-1,2-coref-Grande-Terre
+1	Grande	Grande	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:25->27:3|Entity=(place-12-giv:inact-1,2-coref-Grande%2DTerre
 2	Terre	Terre	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=12)
 
 # sent_id = GUM_voyage_guadeloupe-13
@@ -219,19 +219,19 @@
 # s_type = decl
 # text = Pointe-à-Pitre: with its suburbs, it is the economic capital of Guadeloupe
 # newpar = list type:::"unordered" (20 s) | item (1 s) | p (1 s)
-1	Pointe	Pointe	PROPN	NNP	Number=Sing	0	root	0:root	Bridge=22<24|Discourse=joint_m:27->12:3|Entity=(place-24-acc:inf-1,3,5-coref-Pointe-à-Pitre|SpaceAfter=No|XML=<ref target:::"https://en.wikivoyage.org/wiki/Pointe-%C3%A0-Pitre"><w>
+1	Pointe	Pointe	PROPN	NNP	Number=Sing	0	root	0:root	Bridge=22<24|Discourse=joint_m:27->12:3|Entity=(place-24-acc:inf-1,3,5-coref-Pointe%2Dà%2DPitre|SpaceAfter=No|XML=<ref target:::"https://en.wikivoyage.org/wiki/Pointe-%C3%A0-Pitre"><w>
 2	-	-	PUNCT	HYPH	_	3	punct	3:punct	SpaceAfter=No
 3	à	à	PROPN	NNP	Number=Sing	1	dep	1:dep	SpaceAfter=No
 4	-	-	PUNCT	HYPH	_	5	punct	5:punct	SpaceAfter=No
 5	Pitre	Pitre	PROPN	NNP	Number=Sing	1	dep	1:dep	Entity=24)|SpaceAfter=No|XML=</w></ref>
-6	:	:	PUNCT	:	_	15	punct	15:punct	_
+6	:	:	PUNCT	:	_	9	punct	9:punct	_
 7	with	with	ADP	IN	_	9	case	9:case	Discourse=elaboration:28->27:0
-8	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(place-25-new-2-sgl(place-24-giv:act-1-ana-Pointe-à-Pitre)
+8	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(place-25-new-2-sgl(place-24-giv:act-1-ana-Pointe%2Dà%2DPitre)
 9	suburbs	suburb	NOUN	NNS	Number=Plur	15	nmod	15:nmod:with	Entity=25)|SpaceAfter=No
 10	,	,	PUNCT	,	_	9	punct	9:punct	_
-11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj	Entity=(place-24-giv:act-1-ana-Pointe-à-Pitre)
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj	Entity=(place-24-giv:act-1-ana-Pointe%2Dà%2DPitre)
 12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	_
-13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(place-24-giv:act-3-coref-Pointe-à-Pitre
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(place-24-giv:act-3-coref-Pointe%2Dà%2DPitre
 14	economic	economic	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
 15	capital	capital	NOUN	NN	Number=Sing	1	parataxis	1:parataxis	_
 16	of	of	ADP	IN	_	17	case	17:case	_
@@ -269,14 +269,14 @@
 7	with	with	ADP	IN	_	9	case	9:case	_
 8	proper	proper	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(object-31-new-2-sgl
 9	clothes	clothes	NOUN	NNS	Number=Plur	6	nmod	6:nmod:with	Entity=31)|SpaceAfter=No
-10	,	,	PUNCT	,	_	15	punct	15:punct	_
+10	,	,	PUNCT	,	_	11	punct	11:punct	_
 11	that	that	PRON	DT	Number=Sing|PronType=Dem	15	obl:npmod	15:obl:npmod	Discourse=restatement:33->32:0
 12	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	fixed	11:fixed	SpaceAfter=No
 13	,	,	PUNCT	,	_	11	punct	11:punct	_
-14	no	no	DET	DT	Polarity=Neg	15	det	15:det	_
+14	no	no	DET	DT	Polarity=Neg|PronType=Art	15	det	15:det	_
 15	sneakers	sneaker	NOUN	NNS	Number=Plur	4	parataxis	4:parataxis	Entity=(object-32-new-1-sgl)|SpaceAfter=No
 16	,	,	PUNCT	,	_	18	punct	18:punct	_
-17	no	no	DET	DT	Polarity=Neg	18	det	18:det	_
+17	no	no	DET	DT	Polarity=Neg|PronType=Art	18	det	18:det	_
 18	shorts	short	NOUN	NNS	Number=Plur	15	conj	15:conj	Entity=(object-33-new-1-sgl)|SpaceAfter=No
 19	)	)	PUNCT	-RRB-	_	4	punct	4:punct	_
 
@@ -284,7 +284,7 @@
 # s_type = decl
 # text = St François if you go at the eastern point of Guadeloupe, you will reach La Pointe des Chateaux, a scenery made of sand and rocks which have vaguely the shape of a castle.
 # newpar = item (2 s) | p (2 s)
-1	St	St	PROPN	NNP	Number=Sing	0	root	0:root	Bridge=22<34|Discourse=joint_m:34->27:1|Entity=(place-34-acc:inf-1,2-sgl-Saint-François%2C_Guadeloupe|XML=<ref target:::"https://en.wikivoyage.org/w/index.php?title:::St_Fran%C3%A7ois">
+1	St	St	PROPN	NNP	Number=Sing	0	root	0:root	Bridge=22<34|Discourse=joint_m:34->27:1|Entity=(place-34-acc:inf-1,2-sgl-Saint%2DFrançois%2C_Guadeloupe|XML=<ref target:::"https://en.wikivoyage.org/w/index.php?title:::St_Fran%C3%A7ois">
 2	François	François	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=34)|XML=</ref>
 3	if	if	SCONJ	IN	_	5	mark	5:mark	Discourse=condition:35->36:1
 4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-29-giv:act-1-ana)
@@ -295,16 +295,16 @@
 9	point	point	NOUN	NN	Number=Sing	5	obl	5:obl:at	_
 10	of	of	ADP	IN	_	11	case	11:case	_
 11	Guadeloupe	Guadeloupe	PROPN	NNP	Number=Sing	9	nmod	9:nmod:of	Entity=(place-1-giv:inact-1-coref-Guadeloupe)35)|SpaceAfter=No
-12	,	,	PUNCT	,	_	5	punct	5:punct	Discourse=background:36->38:1
-13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Entity=(person-29-giv:act-1-ana)
+12	,	,	PUNCT	,	_	5	punct	5:punct	_
+13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Discourse=background:36->38:1|Entity=(person-29-giv:act-1-ana)
 14	will	will	AUX	MD	VerbForm=Fin	15	aux	15:aux	_
 15	reach	reach	VERB	VB	VerbForm=Inf	1	parataxis	1:parataxis	_
-16	La	La	PROPN	NNP	Number=Sing	19	compound	19:compound	Entity=(place-36-new-1,2,3,4-coref-Saint-François%2C_Guadeloupe|XML=<hi rend:::"italic">
+16	La	La	PROPN	NNP	Number=Sing	19	compound	19:compound	Entity=(place-36-new-1,2,3,4-coref-Saint%2DFrançois%2C_Guadeloupe|XML=<hi rend:::"italic">
 17	Pointe	Pointe	PROPN	NNP	Number=Sing	19	compound	19:compound	_
 18	des	des	PROPN	NNP	Number=Sing	19	compound	19:compound	_
 19	Chateaux	Chateaux	PROPN	NNP	Number=Sing	15	obj	15:obj	Entity=36)|SpaceAfter=No|XML=</hi>
 20	,	,	PUNCT	,	_	22	punct	22:punct	_
-21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(place-36-giv:act-2-appos-Saint-François%2C_Guadeloupe
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(place-36-giv:act-2-appos-Saint%2DFrançois%2C_Guadeloupe
 22	scenery	scenery	NOUN	NN	Number=Sing	19	appos	19:appos	Entity=36)
 23	made	make	VERB	VBN	Tense=Past|VerbForm=Part	22	acl	22:acl	_
 24	of	of	ADP	IN	_	25	case	25:case	_
@@ -325,7 +325,7 @@
 # s_type = sub
 # text = From there, you can look up at the islands La Désirade, Petite Terre, Marie Galante, Les Saintes, La Dominique but also have a perfect view of the islands Grande Terre and far away Basse Terre.
 1	From	from	ADP	IN	_	2	case	2:case	Discourse=elaboration:38->34:0
-2	there	there	ADV	RB	PronType=Dem	6	obl	6:obl:from	Entity=(place-36-giv:act-1-coref-Saint-François%2C_Guadeloupe)|SpaceAfter=No
+2	there	there	ADV	RB	PronType=Dem	6	obl	6:obl:from	Entity=(place-36-giv:act-1-coref-Saint%2DFrançois%2C_Guadeloupe)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj|27:nsubj	Entity=(person-29-giv:act-1-ana)
 5	can	can	AUX	MD	VerbForm=Fin	6	aux	6:aux|27:aux	_
@@ -340,7 +340,7 @@
 14	Petite	Petite	PROPN	NNP	Number=Sing	11	conj	10:appos|11:conj	Entity=(place-21-giv:inact-1,2-coref-Petite_Terre_Islands|XML=<hi rend:::"italic">
 15	Terre	Terre	PROPN	NNP	Number=Sing	14	flat	14:flat	Entity=21)|SpaceAfter=No|XML=</hi>
 16	,	,	PUNCT	,	_	17	punct	17:punct	_
-17	Marie	Marie	PROPN	NNP	Number=Sing	11	conj	10:appos|11:conj	Entity=(place-15-giv:inact-1,2-coref-Marie-Galante|XML=<hi rend:::"italic">
+17	Marie	Marie	PROPN	NNP	Number=Sing	11	conj	10:appos|11:conj	Entity=(place-15-giv:inact-1,2-coref-Marie%2DGalante|XML=<hi rend:::"italic">
 18	Galante	Galante	PROPN	NNP	Number=Sing	17	flat	17:flat	Entity=15)|SpaceAfter=No|XML=</hi>
 19	,	,	PUNCT	,	_	20	punct	20:punct	_
 20	Les	Les	PROPN	NNP	Number=Sing	11	conj	10:appos|11:conj	Entity=(place-17-giv:inact-1,2-coref-Îles_des_Saintes|XML=<hi rend:::"italic">
@@ -351,18 +351,18 @@
 25	but	but	CCONJ	CC	_	27	cc	27:cc	Discourse=joint_m:39->38:0
 26	also	also	ADV	RB	_	27	advmod	27:advmod	_
 27	have	have	VERB	VB	VerbForm=Inf	6	conj	6:conj:but	_
-28	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	30:det	Entity=(abstract-43-new-8,11,12,13-sgl
+28	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	30:det	Entity=(abstract-43-new-3,8,12,13-sgl
 29	perfect	perfect	ADJ	JJ	Degree=Pos	30	amod	30:amod	_
 30	view	view	NOUN	NN	Number=Sing	27	obj	27:obj	_
 31	of	of	ADP	IN	_	33	case	33:case	_
 32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	33:det	Bridge=1<44|Entity=(place-44-acc:inf-2-coref
 33	islands	island	NOUN	NNS	Number=Plur	30	nmod	30:nmod:of	Entity=44)
-34	Grande	Grande	PROPN	NNP	Number=Sing	33	appos	33:appos	Entity=(place-44-giv:act-2,5,6,7-coref(place-12-giv:inact-1,2-coref-Grande-Terre|XML=<hi rend:::"italic">
+34	Grande	Grande	PROPN	NNP	Number=Sing	33	appos	33:appos	Entity=(place-44-giv:act-1,2,6,7-appos(place-12-giv:inact-1,2-coref-Grande%2DTerre|XML=<hi rend:::"italic">
 35	Terre	Terre	PROPN	NNP	Number=Sing	34	flat	34:flat	Entity=12)|XML=</hi>
 36	and	and	CCONJ	CC	_	39	cc	39:cc	_
 37	far	far	ADV	RB	Degree=Pos	38	advmod	38:advmod	_
-38	away	away	ADV	RB	Degree=Pos	27	advmod	27:advmod	_
-39	Basse	Basse	PROPN	NNP	Number=Sing	34	conj	33:appos|34:conj:and	Entity=(place-9-giv:inact-1,2-coref-Basse-Terre_Island|XML=<hi rend:::"italic">
+38	away	away	ADV	RB	Degree=Pos	39	advmod	39:advmod	_
+39	Basse	Basse	PROPN	NNP	Number=Sing	34	conj	33:appos|34:conj:and	Entity=(place-9-giv:inact-1,2-coref-Basse%2DTerre_Island|XML=<hi rend:::"italic">
 40	Terre	Terre	PROPN	NNP	Number=Sing	39	flat	39:flat	Entity=9)44)43)|SpaceAfter=No|XML=</hi>
 41	.	.	PUNCT	.	_	6	punct	6:punct	_
 
@@ -370,9 +370,9 @@
 # s_type = frag
 # text = St Anne a very nice but also very touristy city and beach (maybe the tourists primary area of Guadeloupe).
 # newpar = item (4 s) | p (4 s)
-1	St	St	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint_m:40->27:1|Entity=(place-45-new-1,2-coref-Sainte-Anne%2C_Guadeloupe|XML=<ref target:::"https://en.wikivoyage.org/w/index.php?title:::Sainte-Anne,_Guadeloupe">
+1	St	St	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint_m:40->27:1|Entity=(place-45-new-1,2-coref-Sainte%2DAnne%2C_Guadeloupe|XML=<ref target:::"https://en.wikivoyage.org/w/index.php?title:::Sainte-Anne,_Guadeloupe">
 2	Anne	Anne	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=45)|XML=</ref>
-3	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(place-45-giv:act-8,10-appos-Sainte-Anne%2C_Guadeloupe
+3	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(place-45-giv:act-8,10-appos-Sainte%2DAnne%2C_Guadeloupe
 4	very	very	ADV	RB	_	5	advmod	5:advmod	_
 5	nice	nice	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
 6	but	but	CCONJ	CC	_	9	cc	9:cc	Discourse=joint_m:41->40:0
@@ -384,7 +384,7 @@
 12	beach	beach	NOUN	NN	Number=Sing	10	conj	1:appos|10:conj:and	Entity=(place-47-new-1-sgl)45)
 13	(	(	PUNCT	-LRB-	_	18	punct	18:punct	Discourse=evaluation:42->40:1|SpaceAfter=No
 14	maybe	maybe	ADV	RB	_	18	advmod	18:advmod	_
-15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(abstract-48-new-4-sgl-Sainte-Anne%2C_Guadeloupe(person-49-new-2-sgl
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(abstract-48-new-4-sgl-Sainte%2DAnne%2C_Guadeloupe(person-49-new-2-sgl
 16	tourists	tourist	NOUN	NNS	Number=Plur	18	nmod:poss	18:nmod:poss	Entity=49)
 17	primary	primary	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
 18	area	area	NOUN	NN	Number=Sing	12	dep	12:dep	_
@@ -416,7 +416,7 @@
 18	and	and	CCONJ	CC	_	20	cc	20:cc	_
 19	live	live	ADJ	JJ	Degree=Pos	20	amod	20:amod	Entity=(event-58-new-2-sgl
 20	performances	performance	NOUN	NNS	Number=Plur	15	conj	12:obj|15:conj:and	Entity=58)
-21	some	some	DET	DT	_	22	det	22:det	Entity=(time-59-new-2-sgl
+21	some	some	DET	DT	PronType=Ind	22	det	22:det	Entity=(time-59-new-2-sgl
 22	days	day	NOUN	NNS	Number=Plur	12	obl:tmod	12:obl:tmod	Entity=59)|SpaceAfter=No
 23	.	.	PUNCT	.	_	12	punct	12:punct	_
 
@@ -426,7 +426,7 @@
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=motivation:45->40:2|Entity=(person-29-giv:inact-1-ana)
 2	will	will	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	find	find	VERB	VB	VerbForm=Inf	0	root	0:root	_
-4	all	all	DET	DT	_	5	det	5:det	Entity=(place-60-new-2-sgl
+4	all	all	DET	DT	PronType=Tot	5	det	5:det	Entity=(place-60-new-2-sgl
 5	kind	kind	NOUN	NN	Number=Sing	3	obj	3:obj	_
 6	of	of	ADP	IN	_	7	case	7:case	_
 7	bars	bar	NOUN	NNS	Number=Plur	5	nmod	5:nmod:of	Entity=60)|SpaceAfter=No
@@ -514,13 +514,13 @@
 # s_type = frag
 # text = Morne à l'eau, renowned for its amazing cemetery composed of burial places made of black and white tiles.
 # newpar = item (1 s) | p (1 s)
-1	Morne	Morne	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint_m:54->27:1|Entity=(place-81-new-1,2,3-coref-Morne-à-l'Eau|XML=<ref target:::"https://en.wikivoyage.org/w/index.php?title:::Morne_%C3%A0_l%27eau">
+1	Morne	Morne	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint_m:54->27:1|Entity=(place-81-new-1,2,3-coref-Morne%2Dà%2Dl'Eau|XML=<ref target:::"https://en.wikivoyage.org/w/index.php?title:::Morne_%C3%A0_l%27eau">
 2	à	à	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	l'eau	l'eau	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=81)|SpaceAfter=No|XML=</ref>
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
 5	renowned	renown	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	1:acl	_
 6	for	for	ADP	IN	_	9	case	9:case	_
-7	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(place-82-new-3-sgl(place-81-giv:act-1-ana-Morne-à-l'Eau)
+7	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(place-82-new-3-sgl(place-81-giv:act-1-ana-Morne%2Dà%2Dl'Eau)
 8	amazing	amazing	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 9	cemetery	cemetery	NOUN	NN	Number=Sing	5	obl	5:obl:for	_
 10	composed	compose	VERB	VBN	Tense=Past|VerbForm=Part	9	acl	9:acl	Discourse=elaboration:55->54:0
@@ -539,13 +539,13 @@
 # s_type = frag
 # text = Anse Bertrand, not far from there, you can visit La pointe de la Grande Vigie, northern point of mainland Guadeloupe.
 # newpar = item (3 s) | p (3 s)
-1	Anse	Anse	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint_m:57->27:1|Entity=(place-85-new-1,2-coref-Anse-Bertrand|XML=<ref target:::"https://en.wikivoyage.org/w/index.php?title:::Anse_Bertrand">
+1	Anse	Anse	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint_m:57->27:1|Entity=(place-85-new-1,2-coref-Anse%2DBertrand|XML=<ref target:::"https://en.wikivoyage.org/w/index.php?title:::Anse_Bertrand">
 2	Bertrand	Bertrand	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=85)|SpaceAfter=No|XML=</ref>
-3	,	,	PUNCT	,	_	11	punct	11:punct	_
+3	,	,	PUNCT	,	_	5	punct	5:punct	_
 4	not	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
 5	far	far	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
 6	from	from	ADP	IN	_	7	case	7:case	_
-7	there	there	ADV	RB	PronType=Dem	5	obl	5:obl:from	Entity=(place-85-giv:act-1-coref-Anse-Bertrand)|SpaceAfter=No
+7	there	there	ADV	RB	PronType=Dem	5	obl	5:obl:from	Entity=(place-85-giv:act-1-coref-Anse%2DBertrand)|SpaceAfter=No
 8	,	,	PUNCT	,	_	5	punct	5:punct	_
 9	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj	Entity=(person-29-giv:inact-1-ana)
 10	can	can	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
@@ -560,7 +560,7 @@
 19	northern	northern	ADJ	JJ	Degree=Pos	20	amod	20:amod	Entity=(place-86-giv:act-2-appos-Pointe_de_la_Grande_Vigie
 20	point	point	NOUN	NN	Number=Sing	12	appos	12:appos	_
 21	of	of	ADP	IN	_	23	case	23:case	_
-22	mainland	mainland	ADJ	JJ	Degree=Pos	23	amod	23:amod	Entity=(place-16-giv:inact-2-coref-Grande-Terre
+22	mainland	mainland	ADJ	JJ	Degree=Pos	23	amod	23:amod	Entity=(place-16-giv:inact-2-coref-Grande%2DTerre
 23	Guadeloupe	Guadeloupe	PROPN	NNP	Number=Sing	20	nmod	20:nmod:of	Entity=16)86)|SpaceAfter=No
 24	.	.	PUNCT	.	_	1	punct	1:punct	_
 
@@ -629,12 +629,12 @@
 3	special	special	ADJ	JJ	Degree=Pos	2	amod	2:amod	_
 4	to	to	PART	TO	_	5	mark	5:mark	Discourse=purpose:63->62:0
 5	see	see	VERB	VB	VerbForm=Inf	2	acl	2:acl:to	SpaceAfter=No
-6	,	,	PUNCT	,	_	12	punct	12:punct	_
+6	,	,	PUNCT	,	_	7	punct	7:punct	_
 7	but	but	CCONJ	CC	_	12	cc	12:cc	Discourse=contrast_m:64->62:1
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(time-96-new-2-sgl
 9	weekend	weekend	NOUN	NN	Number=Sing	12	obl:tmod	12:obl:tmod	Entity=96)|SpaceAfter=No
 10	,	,	PUNCT	,	_	9	punct	9:punct	_
-11	there	there	PRON	EX	_	12	expl	12:expl	_
+11	there	there	PRON	EX	PronType=Dem	12	expl	12:expl	_
 12	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	2:conj:but	_
 13	3	3	NUM	CD	NumForm=Digit|NumType=Card	15	nummod	15:nummod	Entity=(place-97-new-3-coref
 14	local	local	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
@@ -664,11 +664,11 @@
 # s_type = frag
 # text = Baie-Mahault: the industrial and commercial zone of Guadeloupe, nothing special to do or see.
 # newpar = item (5 s) | p (5 s)
-1	Baie	Baie	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint_m:67->27:1|Entity=(place-102-new-1,3-coref-Baie-Mahault|SpaceAfter=No|XML=<ref target:::"https://en.wikivoyage.org/w/index.php?title:::Baie-Mahault"><w>
+1	Baie	Baie	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint_m:67->27:1|Entity=(place-102-new-1,3-coref-Baie%2DMahault|SpaceAfter=No|XML=<ref target:::"https://en.wikivoyage.org/w/index.php?title:::Baie-Mahault"><w>
 2	-	-	PUNCT	HYPH	_	3	punct	3:punct	SpaceAfter=No
 3	Mahault	Mahault	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=102)|SpaceAfter=No|XML=</w></ref>
 4	:	:	PUNCT	:	_	9	punct	9:punct	_
-5	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Discourse=elaboration:68->67:0|Entity=(place-102-giv:act-5-coref-Baie-Mahault
+5	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Discourse=elaboration:68->67:0|Entity=(place-102-giv:act-5-coref-Baie%2DMahault
 6	industrial	industrial	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 7	and	and	CCONJ	CC	_	8	cc	8:cc	_
 8	commercial	commercial	ADJ	JJ	Degree=Pos	6	conj	6:conj:and|9:amod	_
@@ -680,7 +680,7 @@
 14	special	special	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
 15	to	to	PART	TO	_	16	mark	16:mark	Discourse=purpose:70->69:0
 16	do	do	VERB	VB	VerbForm=Inf	13	acl	13:acl:to	_
-17	or	or	CCONJ	CC	_	18	cc	18:cc	Discourse=joint_m:71->70:0
+17	or	or	CCONJ	CC	_	18	cc	18:cc	Discourse=disjunction_m:71->70:0
 18	see	see	VERB	VB	VerbForm=Inf	16	conj	13:acl:to|16:conj:or	SpaceAfter=No
 19	.	.	PUNCT	.	_	1	punct	1:punct	_
 
@@ -694,7 +694,7 @@
 5	shopping	shopping	NOUN	NN	Number=Sing	6	compound	6:compound	_
 6	mall	mall	NOUN	NN	Number=Sing	2	obj	2:obj	_
 7	of	of	ADP	IN	_	9	case	9:case	_
-8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(place-16-giv:inact-2-coref-Grande-Terre
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(place-16-giv:inact-2-coref-Grande%2DTerre
 9	island	island	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	Entity=16)103)|SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -791,7 +791,7 @@
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(place-121-new-2,6-sgl
 9	jungle	jungle	NOUN	NN	Number=Sing	6	nmod	6:nmod:in	_
 10	of	of	ADP	IN	_	11	case	11:case	_
-11	Basse	Basse	PROPN	NNP	Number=Sing	9	nmod	9:nmod:of	Entity=(place-9-giv:inact-1,3-coref-Basse-Terre_Island|SpaceAfter=No|XML=<w>
+11	Basse	Basse	PROPN	NNP	Number=Sing	9	nmod	9:nmod:of	Entity=(place-9-giv:inact-1,3-coref-Basse%2DTerre_Island|SpaceAfter=No|XML=<w>
 12	-	-	PUNCT	HYPH	_	13	punct	13:punct	SpaceAfter=No
 13	Terre	Terre	PROPN	NNP	Number=Sing	11	flat	11:flat	Entity=9)121)120)|XML=</w>
 14	(	(	PUNCT	-LRB-	_	15	punct	15:punct	Discourse=elaboration:81->80:0|SpaceAfter=No
@@ -803,7 +803,7 @@
 # sent_id = GUM_voyage_guadeloupe-36
 # s_type = decl
 # text = Some are within 5 – 10 minutes walking distance from the nearest parking lot, some require at least 3 – 4 hours of hiking (those are, of course less frequented by other tourists and you might find yourself alone at a spectacular waterfall in the middle of nowhere - an amazing experience!).
-1	Some	some	DET	DT	_	9	nsubj	9:nsubj	Bridge=120<122|Discourse=elaboration:82->80:1|Entity=(object-122-acc:inf-1-sgl)
+1	Some	some	DET	DT	PronType=Ind	9	nsubj	9:nsubj	Bridge=120<122|Discourse=elaboration:82->80:1|Entity=(object-122-acc:inf-1-sgl)
 2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
 3	within	within	ADP	IN	_	9	case	9:case	_
 4	5	5	NUM	CD	NumForm=Digit|NumType=Card	7	nummod	7:nummod	Entity=(abstract-123-new-6-sgl(time-124-new-4-sgl
@@ -818,7 +818,7 @@
 13	parking	parking	NOUN	NN	Number=Sing	14	compound	14:compound	_
 14	lot	lot	NOUN	NN	Number=Sing	9	nmod	9:nmod:from	Entity=125)123)|SpaceAfter=No
 15	,	,	PUNCT	,	_	17	punct	17:punct	_
-16	some	some	DET	DT	_	17	nsubj	17:nsubj	Bridge=120<126|Discourse=contrast_m:83->82:0|Entity=(object-126-acc:inf-1-coref)
+16	some	some	DET	DT	PronType=Ind	17	nsubj	17:nsubj	Bridge=120<126|Discourse=contrast_m:83->82:0|Entity=(object-126-acc:inf-1-coref)
 17	require	require	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	9:parataxis	_
 18	at	at	ADP	IN	_	19	case	19:case	Entity=(time-127-new-6-sgl
 19	least	least	ADJ	JJS	Degree=Sup	20	nmod	20:nmod:at	_
@@ -938,7 +938,7 @@
 10	to	to	PART	TO	_	11	mark	11:mark	_
 11	get	get	VERB	VB	VerbForm=Inf	9	acl	9:acl:to	_
 12	around	around	ADP	IN	_	14	case	14:case	_
-13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(place-16-giv:inact-2-coref-Grande-Terre
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(place-16-giv:inact-2-coref-Grande%2DTerre
 14	island	island	NOUN	NN	Number=Sing	11	obl	11:obl:around	Entity=16)141)|SpaceAfter=No
 15	,	,	PUNCT	,	_	9	punct	9:punct	Discourse=joint_m:94->80:2
 16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(event-140-acc:com-2-coref
@@ -989,7 +989,7 @@
 # sent_id = GUM_voyage_guadeloupe-41
 # s_type = decl
 # text = Some routes are not good for passengers with weak stomachs.
-1	Some	some	DET	DT	_	2	det	2:det	Bridge=142<147|Discourse=concession:98->94:3|Entity=(place-147-acc:inf-2-sgl
+1	Some	some	DET	DT	PronType=Ind	2	det	2:det	Bridge=142<147|Discourse=concession:98->94:3|Entity=(place-147-acc:inf-2-sgl
 2	routes	route	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=147)
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 4	not	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_

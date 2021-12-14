@@ -28,7 +28,7 @@
 5	welcome	welcome	VERB	VB	VerbForm=Inf	1	conj	1:conj:and	_
 6	back	back	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 7	to	to	ADP	IN	_	9	case	9:case	_
-8	another	another	DET	DT	_	9	det	9:det	Entity=(event-3-new-2-coref
+8	another	another	DET	DT	PronType=Art	9	det	9:det	Entity=(event-3-new-2-coref
 9	dose	dose	NOUN	NN	Number=Sing	5	obl	5:obl:to	Entity=3)|SpaceAfter=No
 10	.	.	PUNCT	.	_	1	punct	1:punct	_
 
@@ -76,7 +76,7 @@
 13	very	very	ADV	RB	_	14	advmod	14:advmod	_
 14	long	long	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
 15	time	time	NOUN	NN	Number=Sing	10	obl	10:obl:for	Entity=7)5)|SpaceAfter=No
-16	,	,	PUNCT	,	_	30	punct	30:punct	_
+16	,	,	PUNCT	,	_	17	punct	17:punct	_
 17	and	and	CCONJ	CC	_	30	cc	30:cc	Discourse=background:8->23:5|XML=<incident who:::"#KharmaMedic" type:::"camera cut"></incident>
 18	after	after	ADP	IN	_	23	case	23:case	_
 19	two	two	NUM	CD	NumForm=Word|NumType=Card	23	nummod	23:nummod	Entity=(time-8-new-5-sgl
@@ -166,7 +166,7 @@
 22	in	in	ADP	IN	_	24	case	24:case	_
 23	this	this	DET	DT	Number=Sing|PronType=Dem	24	det	24:det	Entity=(place-6-giv:act-2-coref
 24	room	room	NOUN	NN	Number=Sing	18	obl	18:obl:in	Entity=6)|SpaceAfter=No
-25	,	,	PUNCT	,	_	50	punct	50:punct	_
+25	,	,	PUNCT	,	_	26	punct	26:punct	_
 26	but	but	CCONJ	CC	_	50	cc	50:cc	Discourse=background:19->23:1|SpaceAfter=No
 27	,	,	PUNCT	,	_	26	punct	26:punct	_
 28	unfortunately	unfortunately	ADV	RB	Degree=Pos|Polarity=Neg	50	advmod	50:advmod	SpaceAfter=No
@@ -220,7 +220,7 @@
 3	recently	recently	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
 4	changed	change	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	4:obj	Entity=(object-11-giv:act-1-ana)|SpaceAfter=No
-6	,	,	PUNCT	,	_	23	punct	23:punct	_
+6	,	,	PUNCT	,	_	7	punct	7:punct	_
 7	and	and	CCONJ	CC	_	23	cc	23:cc	Discourse=elaboration:25->23:0
 8	if	if	SCONJ	IN	_	12	mark	12:mark	Discourse=condition:26->27:0
 9-10	you've	_	_	_	_	_	_	_	_
@@ -256,7 +256,7 @@
 36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	37:det	Entity=(object-20-acc:com-2-coref
 37	wall	wall	NOUN	NN	Number=Sing	34	nmod	34:nmod:on	_
 38	over	over	ADP	IN	_	39	case	39:case	_
-39	here	here	ADV	RB	PronType=Dem	37	advmod	37:advmod	Entity=20)19)
+39	here	here	ADV	RB	PronType=Dem	37	nmod	37:nmod:over	Entity=20)19)
 40	with	with	ADP	IN	_	47	case	47:case	_
 41	sort	sort	NOUN	NN	Number=Sing	47	obl:npmod	47:obl:npmod	_
 42	of	of	ADP	IN	_	41	fixed	41:fixed	_
@@ -290,7 +290,7 @@
 11	people	person	NOUN	NNS	Number=Plur	9	obj	9:obj	Entity=23)
 12	quite	quite	ADV	RB	_	13	advmod	13:advmod	_
 13	comfortably	comfortably	ADV	RB	Degree=Pos	9	advmod	9:advmod	SpaceAfter=No
-14	,	,	PUNCT	,	_	26	punct	26:punct	_
+14	,	,	PUNCT	,	_	15	punct	15:punct	_
 15	and	and	CCONJ	CC	_	26	cc	26:cc	Discourse=joint_m:31->30:0
 16	if	if	SCONJ	IN	_	18	mark	18:mark	Discourse=condition:32->33:0
 17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	18:nsubj	Entity=(person-2-giv:act-1-ana)
@@ -354,8 +354,8 @@
 35	on	on	ADP	IN	_	37	case	37:case	_
 36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	37:det	Entity=(object-26-giv:act-2-coref
 37	table	table	NOUN	NN	Number=Sing	34	obl	34:obl:on	Entity=26)30)|SpaceAfter=No
-38	,	,	PUNCT	,	_	49	punct	49:punct	_
-39	or	or	CCONJ	CC	_	49	cc	49:cc	Discourse=contrast_m:40->36:1
+38	,	,	PUNCT	,	_	39	punct	39:punct	_
+39	or	or	CCONJ	CC	_	49	cc	49:cc	Discourse=joint_m:40->36:1
 40	if	if	SCONJ	IN	_	43	mark	43:mark	Discourse=condition:41->42:0
 41	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	43	nsubj	43:nsubj	Entity=(person-29-giv:act-1-ana)|SpaceAfter=No
 42	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	43	aux	43:aux	_
@@ -390,7 +390,7 @@
 # text = So there's nothing too special about the bed itself, but it does have a very important function, which, it has a lot of storage.
 1	So	so	INTJ	UH	_	3	discourse	3:discourse	Discourse=concession:45->46:1
 2-3	there's	_	_	_	_	_	_	_	_
-2	there	there	PRON	EX	_	3	expl	3:expl	_
+2	there	there	PRON	EX	PronType=Dem	3	expl	3:expl	_
 3	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	nothing	nothing	NOUN	NN	Number=Sing|Polarity=Neg	3	nsubj	3:nsubj	Entity=(abstract-34-new-1-sgl
 5	too	too	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
@@ -398,7 +398,7 @@
 7	about	about	ADP	IN	_	9	case	9:case	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(object-9-giv:inact-2-coref
 9	bed	bed	NOUN	NN	Number=Sing	6	obl	6:obl:about	_
-10	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nmod:npmod	9:nmod:npmod	Entity=9)|SpaceAfter=No
+10	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Emp	9	nmod:npmod	9:nmod:npmod	Entity=9)|SpaceAfter=No
 11	,	,	PUNCT	,	_	15	punct	15:punct	_
 12	but	but	CCONJ	CC	_	15	cc	15:cc	Discourse=joint_m:46->23:2
 13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj	Entity=(object-9-giv:act-1-ana)
@@ -408,7 +408,7 @@
 17	very	very	ADV	RB	_	18	advmod	18:advmod	_
 18	important	important	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
 19	function	function	NOUN	NN	Number=Sing	15	obj	15:obj|24:nsubj	SpaceAfter=No
-20	,	,	PUNCT	,	_	24	punct	24:punct	_
+20	,	,	PUNCT	,	_	21	punct	21:punct	_
 21	which	which	PRON	WDT	PronType=Rel|Typo=Yes	24	nsubj	19:ref	Discourse=elaboration:47->46:0|SpaceAfter=No|XML=<sic>
 22	,	,	PUNCT	,	_	21	punct	21:punct	XML=</sic>
 23	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	24:nsubj	Entity=(object-9-giv:act-1-ana)
@@ -445,7 +445,7 @@
 19	,	,	PUNCT	,	_	22	punct	22:punct	_
 20	because	because	SCONJ	IN	_	22	mark	22:mark	Discourse=cause:50->49:0
 21-22	there's	_	_	_	_	_	_	_	_
-21	there	there	PRON	EX	_	22	expl	22:expl	_
+21	there	there	PRON	EX	PronType=Dem	22	expl	22:expl	_
 22	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	15:advcl:because	_
 23	not	not	PART	RB	Polarity=Neg	24	advmod	24:advmod	_
 24	enough	enough	ADJ	JJ	Degree=Pos	25	amod	25:amod	Entity=(place-37-new-2-sgl
@@ -464,7 +464,7 @@
 5	ironing	ironing	NOUN	NN	Number=Sing	6	compound	6:compound	_
 6	board	board	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=38)|SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	8:punct	_
-8	all	all	DET	DT	_	6	conj	3:obj|6:conj	Entity=(object-39-new-1-ana
+8	all	all	DET	DT	PronType=Tot	6	conj	3:obj|6:conj	Entity=(object-39-new-1-ana
 9	of	of	ADP	IN	_	11	case	11:case	_
 10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(person-2-giv:act-1-ana)
 11	suitcases	suitcase	NOUN	NNS	Number=Plur	8	nmod	8:nmod:of	Entity=39)|SpaceAfter=No
@@ -496,7 +496,7 @@
 36	,	,	PUNCT	,	_	37	punct	37:punct	_
 37	nails	nail	NOUN	NNS	Number=Plur	33	conj	24:nmod:like|33:conj	Entity=(object-46-new-1-sgl)|SpaceAfter=No
 38	,	,	PUNCT	,	_	41	punct	41:punct	Entity=42)
-39	all	all	DET	PDT	_	41	det:predet	41:det:predet	Entity=(object-47-acc:aggr-3-sgl|Split=38<47,39<47,40<47,41<47,42<47
+39	all	all	DET	PDT	PronType=Tot	41	det:predet	41:det:predet	Entity=(object-47-acc:aggr-3-sgl|Split=38<47,39<47,40<47,41<47,42<47
 40	these	this	DET	DT	Number=Plur|PronType=Dem	41	det	41:det	_
 41	things	thing	NOUN	NNS	Number=Plur	33	conj	24:nmod:like|33:conj|47:obj	_
 42	that	that	PRON	WDT	PronType=Rel	47	obj	41:ref	Discourse=elaboration:57->56:0
@@ -535,7 +535,7 @@
 5	room	room	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=6)
 6	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp	_
 7	floor	floor	NOUN	NN	Number=Sing	12	compound	12:compound	Entity=(object-49-new-6-coref|SpaceAfter=No|XML=<w>
-8	-	-	PUNCT	HYPH	_	11	punct	11:punct	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	9:punct	SpaceAfter=No
 9	to	to	ADP	IN	_	11	case	11:case	SpaceAfter=No
 10	-	-	PUNCT	HYPH	_	9	punct	9:punct	SpaceAfter=No
 11	ceiling	ceiling	NOUN	NN	Number=Sing	7	nmod	7:nmod:to	XML=</w>
@@ -586,7 +586,7 @@
 20	,	,	PUNCT	,	_	23	punct	23:punct	_
 21	and	and	CCONJ	CC	_	23	cc	23:cc	Discourse=joint_m:65->63:2
 22-23	there's	_	_	_	_	_	_	_	_
-22	there	there	PRON	EX	_	23	expl	23:expl	_
+22	there	there	PRON	EX	PronType=Dem	23	expl	23:expl	_
 23	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	2:conj:and|34:nsubj	_
 24	also	also	ADV	RB	_	23	advmod	23:advmod	_
 25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	27:det	Entity=(place-54-new-3-sgl
@@ -616,7 +616,7 @@
 7	can	can	AUX	MD	VerbForm=Fin	8	aux	8:aux|13:aux	_
 8	sit	sit	VERB	VB	VerbForm=Inf	4	acl:relcl	4:acl:relcl	_
 9	down	down	ADP	RP	_	8	compound:prt	8:compound:prt	_
-10	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=joint_m:69->68:0
+10	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=sequence_m:69->68:0
 11	sort	sort	NOUN	NN	Number=Sing	13	obl:npmod	13:obl:npmod	_
 12	of	of	ADP	IN	_	11	fixed	11:fixed	_
 13	enjoy	enjoy	VERB	VB	VerbForm=Inf	8	conj	4:acl:relcl|8:conj:and	_
@@ -630,7 +630,7 @@
 21	bit	bit	NOUN	NN	Number=Sing	22	obl:npmod	22:obl:npmod	_
 22	better	good	ADJ	JJR	Degree=Cmp	13	advcl	13:advcl:when	SpaceAfter=No
 23	,	,	PUNCT	,	_	30	punct	30:punct	_
-24	um	um	INTJ	UH	Typo=Yes	30	discourse	30:discourse	Discourse=contrast_m:71->67:1|XML=<sic></sic>
+24	um	um	INTJ	UH	Typo=Yes	30	discourse	30:discourse	Discourse=contrast_m:71->68:1|XML=<sic></sic>
 25	but	but	CCONJ	CC	_	30	cc	30:cc	_
 26	now	now	ADV	RB	_	30	advmod	30:advmod	_
 27-28	it's	_	_	_	_	_	_	_	_
@@ -674,7 +674,7 @@
 21	here	here	ADV	RB	PronType=Dem	23	obl	23:obl:down	_
 22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	23:nsubj	Entity=(person-2-giv:inact-1-ana)
 23	keep	keep	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-24	all	all	DET	DT	_	23	obj	23:obj	Entity=(object-60-new-1-ana
+24	all	all	DET	DT	PronType=Tot	23	obj	23:obj	Entity=(object-60-new-1-ana
 25	of	of	ADP	IN	_	28	case	28:case	_
 26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	_
 27	filming	film	VERB	VBG	VerbForm=Ger	28	amod	28:amod	_
@@ -798,12 +798,12 @@
 20	radio	radio	NOUN	NN	Number=Sing	21	compound	21:compound	_
 21	station	station	NOUN	NN	Number=Sing	13	appos	13:appos	Entity=73)|SpaceAfter=No
 22	,	,	PUNCT	,	_	24	punct	24:punct	_
-23	some	some	DET	DT	_	24	det	24:det	Bridge=71<74|Entity=(abstract-74-acc:inf-2-sgl
+23	some	some	DET	DT	PronType=Ind	24	det	24:det	Bridge=71<74|Entity=(abstract-74-acc:inf-2-sgl
 24	music	music	NOUN	NN	Number=Sing	21	conj	13:appos|21:conj	Entity=74)|SpaceAfter=No
 25	,	,	PUNCT	,	_	26	punct	26:punct	_
 26	whatever	whatever	PRON	WDT	PronType=Int	21	conj	13:appos|21:conj	SpaceAfter=No
 27	,	,	PUNCT	,	_	33	punct	33:punct	_
-28	instead	instead	ADV	RB	Degree=Pos	33	case	33:case	Discourse=antithesis:88->87:0
+28	instead	instead	ADV	RB	_	33	case	33:case	Discourse=antithesis:88->87:0
 29	of	of	ADP	IN	_	28	fixed	28:fixed	_
 30	that	that	DET	DT	Number=Sing|PronType=Dem	33	det	33:det	Entity=(abstract-75-new-4-sgl
 31	classic	classic	ADJ	JJ	Degree=Pos	33	amod	33:amod	_
@@ -873,7 +873,7 @@
 3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 4	really	really	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 5	proud	proud	ADJ	JJ	Degree=Pos	0	root	0:root	_
-6	that	that	SCONJ	IN	_	8	mark	8:mark	Discourse=joint_m:94->89:2
+6	that	that	SCONJ	IN	_	8	mark	8:mark	Discourse=joint_m:94->91:1
 7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	8:nsubj|10:nsubj:xsubj	Entity=(person-2-giv:act-1-ana)
 8	managed	manage	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	ccomp	5:ccomp	_
 9	to	to	PART	TO	_	10	mark	10:mark	_

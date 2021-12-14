@@ -295,7 +295,7 @@
 18	salon	salon	NOUN	NN	Number=Sing	14	obl	14:obl:at	Entity=56)55)|SpaceAfter=No
 19	,	,	PUNCT	,	_	20	punct	20:punct	_
 20	blogging	blog	VERB	VBG	VerbForm=Ger	12	conj	9:acl:like|12:conj:and	Bridge=53<57|Entity=(abstract-57-acc:inf-1-sgl)|SpaceAfter=No
-21	,	,	PUNCT	,	_	26	punct	26:punct	_
+21	,	,	PUNCT	,	_	22	punct	22:punct	_
 22	and	and	CCONJ	CC	_	26	cc	26:cc	_
 23	go	go	NOUN	NN	Number=Sing	26	compound	26:compound	Bridge=53<58|Entity=(abstract-58-acc:inf-4-sgl|SpaceAfter=No|XML=<ref target:::"https://en.wikipedia.org/wiki/Go-go_dancing"><w>
 24	-	-	PUNCT	HYPH	_	25	punct	25:punct	SpaceAfter=No
@@ -311,7 +311,7 @@
 # sent_id = GUM_bio_marbles-13
 # s_type = decl
 # text = That year, Marbles started her career with Barstool Sports, where she wrote for their female-oriented site StoolLaLa.
-1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=sequence_m:35->19:4|Entity=(time-48-giv:inact-2-coref|XML=<date when:::"2010">
+1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=joint_m:35->19:4|Entity=(time-48-giv:inact-2-coref|XML=<date when:::"2010">
 2	year	year	NOUN	NN	Number=Sing	5	obl:tmod	5:obl:tmod	Entity=48)|SpaceAfter=No|XML=</date>
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	Marbles	Marbles	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(person-1-giv:act-1-coref-Jenna_Marbles)
@@ -358,7 +358,7 @@
 # s_type = decl
 # text = Marbles uploads a new video to her YouTube channel every Wednesday/Thursday.
 # newpar = p (4 s)
-1	Marbles	Marbles	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=sequence_m:40->19:4|Entity=(person-1-giv:inact-1-coref-Jenna_Marbles)
+1	Marbles	Marbles	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint_m:40->19:4|Entity=(person-1-giv:inact-1-coref-Jenna_Marbles)
 2	uploads	upload	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(abstract-65-new-3-coref
 4	new	new	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
@@ -367,7 +367,7 @@
 7	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(abstract-66-new-3-coref(person-1-giv:act-1-ana-Jenna_Marbles)
 8	YouTube	YouTube	PROPN	NNP	Number=Sing	9	compound	9:compound	Entity=(organization-7-giv:act-1-coref-YouTube)
 9	channel	channel	NOUN	NN	Number=Sing	2	obl	2:obl:to	Entity=66)
-10	every	every	DET	DT	_	11	det	11:det	Entity=(time-67-new-2,4-sgl
+10	every	every	DET	DT	PronType=Tot	11	det	11:det	Entity=(time-67-new-2,4-sgl
 11	Wednesday	Wednesday	PROPN	NNP	Number=Sing	2	obl:tmod	2:obl:tmod	SpaceAfter=No|XML=<w>
 12	/	/	SYM	SYM	_	13	cc	13:cc	SpaceAfter=No
 13	Thursday	Thursday	PROPN	NNP	Number=Sing	11	conj	2:obl:tmod|11:conj:slash	Entity=67)|SpaceAfter=No|XML=</w>
@@ -943,7 +943,7 @@
 # s_type = decl
 # text = Marbles released a brand of dog toys called Kermie Worm & Mr. Marbles.
 # newpar = p (3 s)
-1	Marbles	Marbles	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=sequence_m:104->19:4|Entity=(person-1-giv:inact-1-coref-Jenna_Marbles)
+1	Marbles	Marbles	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint_m:104->19:4|Entity=(person-1-giv:inact-1-coref-Jenna_Marbles)
 2	released	release	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(abstract-153-new-2,8,11-sgl
 4	brand	brand	NOUN	NN	Number=Sing	2	obj	2:obj	_
@@ -986,7 +986,7 @@
 4	created	create	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 5	items	item	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=(object-159-new-3-ana
 6	with	with	ADP	IN	_	7	case	7:case	_
-7	some	some	DET	DT	_	4	obl	4:obl:with	Entity=(abstract-160-new-1-ana
+7	some	some	DET	DT	PronType=Ind	4	obl	4:obl:with	Entity=(abstract-160-new-1-ana
 8	of	of	ADP	IN	_	12	case	12:case	_
 9	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(abstract-161-new-4-sgl(person-1-giv:act-1-ana-Jenna_Marbles)
 10	most	most	ADV	RBS	Degree=Sup	11	advmod	11:advmod	_
@@ -1080,7 +1080,7 @@
 # s_type = decl
 # text = In 2015, Marbles became a full-time vegan. [24] [25]
 # newpar = p (1 s)
-1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence_m:119->19:4
+1	In	in	ADP	IN	_	2	case	2:case	Discourse=joint_m:119->19:4
 2	2015	2015	NUM	CD	NumForm=Digit|NumType=Card	5	obl	5:obl:in	Entity=(time-131-giv:inact-1-coref)|SpaceAfter=No|XML=<date when:::"2015"></date>
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	Marbles	Marbles	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj|10:nsubj:xsubj	Entity=(person-1-giv:inact-1-coref-Jenna_Marbles)

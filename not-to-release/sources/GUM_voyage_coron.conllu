@@ -99,7 +99,7 @@
 6	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(event-11-new-2,6-coref(place-10-giv:act-1-ana)
 7	World	World	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=(event-12-new-1,2-coref-World_War_II|XML=<date from:::"1939-09-01" to:::"1945-09-02">
 8	War	War	PROPN	NNP	Number=Sing	10	compound	10:compound	_
-9	II	II	NUM	CD	NumForm=Roman|NumType=Card	8	amod	8:amod	Entity=12)|XML=</date>
+9	II	II	NUM	CD	NumForm=Roman|NumType=Card	8	dep	8:dep	Entity=12)|XML=</date>
 10	wreck	wreck	NOUN	NN	Number=Sing	11	compound	11:compound	_
 11	diving	diving	NOUN	NN	Number=Sing	4	obl	4:obl:for	Entity=11)|SpaceAfter=No
 12	,	,	PUNCT	,	_	18	punct	18:punct	_
@@ -171,20 +171,20 @@
 # s_type = decl
 # text = There are also attractions on Coron Island itself.
 # newpar = p (3 s)
-1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=joint_m:14->7:2
+1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=joint_m:14->7:2
 2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	also	also	ADV	RB	_	2	advmod	2:advmod	_
 4	attractions	attraction	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Entity=(abstract-26-new-1,4-sgl
 5	on	on	ADP	IN	_	6	case	6:case	_
 6	Coron	Coron	PROPN	NNP	Number=Sing	4	nmod	4:nmod:on	Entity=(place-9-giv:inact-1,2-coref-Coron_Island
 7	Island	Island	PROPN	NNP	Number=Sing	6	flat	6:flat	_
-8	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nmod:npmod	6:nmod:npmod	Entity=9)26)|SpaceAfter=No
+8	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Emp	6	nmod:npmod	6:nmod:npmod	Entity=9)26)|SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_voyage_coron-10
 # s_type = decl
 # text = There are many beautiful white sand beaches, mostly tiny and surrounded by large limestone cliffs and wildlife.
-1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=elaboration:15->14:0
+1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=elaboration:15->14:0
 2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	many	many	ADJ	JJ	Degree=Pos	7	amod	7:amod	Entity=(place-27-new-5-sgl
 4	beautiful	beautiful	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
@@ -402,7 +402,7 @@
 6	of	of	ADP	IN	_	8	case	8:case	_
 7	World	World	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=(event-12-giv:inact-1,2-coref-World_War_II|XML=<date from:::"1939-09-01" to:::"1945-09-02">
 8	War	War	PROPN	NNP	Number=Sing	5	nmod	5:nmod:of	_
-9	II	II	NUM	CD	NumForm=Roman|NumType=Card	8	amod	8:amod	Entity=12)56)|SpaceAfter=No|XML=</date>
+9	II	II	NUM	CD	NumForm=Roman|NumType=Card	8	dep	8:dep	Entity=12)56)|SpaceAfter=No|XML=</date>
 10	,	,	PUNCT	,	_	2	punct	2:punct	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(place-1-giv:act-2-coref-Coron%2C_Palawan
 12	municipality	municipality	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	Entity=1)
@@ -490,7 +490,7 @@
 10	these	this	DET	DT	Number=Plur|PronType=Dem	15	det	15:det	Entity=(object-19-giv:act-2,6-coref
 11	World	World	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=(event-12-giv:inact-1,2-coref-World_War_II
 12	War	War	PROPN	NNP	Number=Sing	15	compound	15:compound	_
-13	II	II	NUM	CD	NumForm=Roman|NumType=Card	12	amod	12:amod	Entity=12)
+13	II	II	NUM	CD	NumForm=Roman|NumType=Card	12	dep	12:dep	Entity=12)
 14	Japanese	Japanese	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
 15	shipwrecks	shipwreck	NOUN	NNS	Number=Plur	6	nmod	6:nmod:of	Entity=19)74)
 16	comprise	comprise	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -529,7 +529,7 @@
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(place-1-giv:act-2-coref-Coron%2C_Palawan
 16	town	town	NOUN	NN	Number=Sing	17	nsubj	17:nsubj	Entity=1)
 17	experienced	experience	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	10:conj:and	_
-18	another	another	DET	DT	_	19	det	19:det	Entity=(person-78-new-2-coref
+18	another	another	DET	DT	PronType=Art	19	det	19:det	Entity=(person-78-new-2-coref
 19	boom	boom	NOUN	NN	Number=Sing	17	obj	17:obj	Entity=78)|SpaceAfter=No
 20	,	,	PUNCT	,	_	23	punct	23:punct	_
 21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	23:det	Entity=(person-78-giv:act-3-appos
@@ -694,7 +694,7 @@
 3	past	past	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	decade	decade	NOUN	NN	Number=Sing	8	obl	8:obl:in	Entity=102)|SpaceAfter=No|XML=</date>
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
-6	there	there	PRON	EX	_	8	expl	8:expl	_
+6	there	there	PRON	EX	PronType=Dem	8	expl	8:expl	_
 7	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
 8	been	be	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	_
