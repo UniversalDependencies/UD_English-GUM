@@ -183,7 +183,7 @@ As a scholarly citation for the corpus in articles, please use this paper:
 
 # Changelog
 
-* 2021-01-09
+* 2022-01-09
   * Added GUM V8 documents
 
 * 2021-12-14
