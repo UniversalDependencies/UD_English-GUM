@@ -1,5 +1,5 @@
 # newdoc id = GUM_news_taxes
-# global.Entity = entity-GRP-infstat-MIN-coref_type-identity
+# global.Entity = etype-eid-infstat-minspan-link-identity
 # meta::dateCollected = 2015-09-21
 # meta::dateCreated = 2015-08-02
 # meta::dateModified = 2015-08-13
@@ -10,7 +10,7 @@
 # s_type = decl
 # text = Local municipalities in Italy ask taxes from religious schools
 # newpar = head rend:::"bold" (1 s)
-1	Local	local	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=preparation:1->3:4|Entity=(organization-1-new-2-coref
+1	Local	local	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=organization-heading:1->3:4|Entity=(organization-1-new-2-coref
 2	municipalities	municipality	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=1)
 3	in	in	ADP	IN	_	4	case	4:case	_
 4	Italy	Italy	PROPN	NNP	Number=Sing	2	nmod	2:nmod:in	Entity=(place-2-new-1-coref-Italy)
@@ -23,7 +23,7 @@
 # sent_id = GUM_news_taxes-2
 # s_type = frag
 # text = Sunday, August 2, 2015
-1	Sunday	Sunday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=circumstance:2->3:3|Entity=(time-5-acc:com-1-coref)|SpaceAfter=No|XML=<date when:::"2015-08-02" rend:::"bold">
+1	Sunday	Sunday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-circumstance:2->3:3|Entity=(time-5-acc:com-1-coref)|SpaceAfter=No|XML=<date when:::"2015-08-02" rend:::"bold">
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	August	August	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(time-5-giv:act-2-appos
 4	2	2	NUM	CD	NumForm=Digit|NumType=Card	1	appos	1:appos	SpaceAfter=No
@@ -58,7 +58,7 @@
 22	local	local	ADJ	JJ	Degree=Pos	23	amod	23:amod	Entity=(abstract-9-new-2-sgl
 23	services	service	NOUN	NNS	Number=Plur	20	conj	18:nmod:for|20:conj:and	Entity=9)3)|SpaceAfter=No
 24	,	,	PUNCT	,	_	27	punct	27:punct	_
-25	despite	despite	ADP	IN	_	27	case	27:case	Discourse=concession:4->3:0
+25	despite	despite	ADP	IN	_	27	case	27:case	Discourse=adversative-concession:4->3:0
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(abstract-10-new-2,5-sgl
 27	resistance	resistance	NOUN	NN	Number=Sing	17	obl	17:obl:despite	_
 28	of	of	ADP	IN	_	31	case	31:case	_
@@ -71,7 +71,7 @@
 # s_type = other
 # text = Instituto Gonzaga, a catholic school in Milan. Image: Friedrichstrasse.
 # newpar = figure rend:::"photo Instituto Gonzaga" (1 s) | caption (1 s)
-1	Instituto	Instituto	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=background:5->3:1|Entity=(organization-12-new-1,2-coref-Gonzaga_Institute%2C_Palermo|XML=<hi rend:::"italic">
+1	Instituto	Instituto	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-background:5->3:1|Entity=(organization-12-new-1,2-coref-Gonzaga_Institute%2C_Palermo|XML=<hi rend:::"italic">
 2	Gonzaga	Gonzaga	PROPN	NNP	Number=Sing	1	compound	1:compound	Entity=(person-13-new-1-sgl-Aloysius_Gonzaga)12)|SpaceAfter=No|XML=</hi>
 3	,	,	PUNCT	,	_	6	punct	6:punct	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(organization-12-giv:act-3-appos-Gonzaga_Institute%2C_Palermo
@@ -80,16 +80,16 @@
 7	in	in	ADP	IN	_	8	case	8:case	_
 8	Milan	Milan	PROPN	NNP	Number=Sing	6	nmod	6:nmod:in	Entity=(place-14-new-1-sgl-Milan)|SpaceAfter=No|XML=<ref></ref>
 9	.	.	PUNCT	.	_	1	punct	1:punct	_
-10	Image	image	NOUN	NN	Number=Sing	1	parataxis	1:parataxis	Discourse=preparation:6->7:0|Entity=(abstract-15-acc:com-1-sgl)|SpaceAfter=No
+10	Image	image	NOUN	NN	Number=Sing	1	parataxis	1:parataxis	Discourse=organization-preparation:6->7:0|Entity=(abstract-15-acc:com-1-sgl)|SpaceAfter=No
 11	:	:	PUNCT	:	_	12	punct	12:punct	_
-12	Friedrichstrasse	Friedrichstrasse	PROPN	NNP	Number=Sing	10	dep	10:dep	Discourse=attribution:7->5:0|Entity=(organization-16-new-1-sgl)|SpaceAfter=No
+12	Friedrichstrasse	Friedrichstrasse	PROPN	NNP	Number=Sing	10	dep	10:dep	Discourse=attribution-positive:7->5:0|Entity=(organization-16-new-1-sgl)|SpaceAfter=No
 13	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_news_taxes-5
 # s_type = decl
 # text = The request of the municipalities results from the sentence of the Italian Supreme Court of Cassation on July 8, recognising as legitimate the request of the Municipality of Livorno asking religious schools to pay property taxes.
 # newpar = p (1 s)
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=cause:8->3:2|Entity=(event-17-new-2-coref
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=causal-cause:8->3:2|Entity=(event-17-new-2-coref
 2	request	request	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	_
 3	of	of	ADP	IN	_	5	case	5:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(organization-1-giv:inact-2-coref
@@ -109,7 +109,7 @@
 18	July	July	PROPN	NNP	Number=Sing	9	nmod	9:nmod:on	Entity=(time-20-new-1-sgl(time-21-acc:com-1-sgl)|XML=<date when:::"2015-07-08">
 19	8	8	NUM	CD	NumForm=Digit|NumType=Card	18	nummod	18:nummod	Entity=20)18)|SpaceAfter=No|XML=</date>
 20	,	,	PUNCT	,	_	21	punct	21:punct	_
-21	recognising	recognise	VERB	VBG	VerbForm=Ger	9	acl	9:acl	Discourse=elaboration:9->8:0
+21	recognising	recognise	VERB	VBG	VerbForm=Ger	9	acl	9:acl	Discourse=elaboration-attribute:9->8:0
 22	as	as	ADV	RB	_	23	case	23:case	_
 23	legitimate	legitimate	ADJ	JJ	Degree=Pos	21	obl	21:obl:as	_
 24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(event-22-new-2,7-coref
@@ -119,7 +119,7 @@
 28	Municipality	Municipality	PROPN	NNP	Number=Sing	25	nmod	25:nmod:of	_
 29	of	of	ADP	IN	_	30	case	30:case	_
 30	Livorno	Livorno	PROPN	NNP	Number=Sing	28	nmod	28:nmod:of	Entity=(place-24-new-1-coref-Livorno)23)22)|XML=<ref></ref>
-31	asking	ask	VERB	VBG	VerbForm=Ger	21	advcl	21:advcl	Discourse=elaboration:10->8:1
+31	asking	ask	VERB	VBG	VerbForm=Ger	21	advcl	21:advcl	Discourse=elaboration-additional:10->8:1
 32	religious	religious	ADJ	JJ	Degree=Pos	33	amod	33:amod	Entity=(organization-4-giv:inact-2-coref
 33	schools	school	NOUN	NNS	Number=Plur	31	iobj	31:iobj	Entity=4)
 34	to	to	PART	TO	_	35	mark	35:mark	_
@@ -132,7 +132,7 @@
 # s_type = decl
 # text = Requests have come from the Municipality of Bogliasco, next to Genova, and from the deputies of Movimento 5 Stelle (M5S) of the regional counsel of Lombardy.
 # newpar = p (3 s)
-1	Requests	request	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Discourse=elaboration:11->8:2|Entity=(event-17-giv:act-1-coref)
+1	Requests	request	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Discourse=elaboration-additional:11->8:2|Entity=(event-17-giv:act-1-coref)
 2	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	come	come	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 4	from	from	ADP	IN	_	6	case	6:case	_
@@ -148,13 +148,13 @@
 14	and	and	CCONJ	CC	_	17	cc	17:cc	_
 15	from	from	ADP	IN	_	17	case	17:case	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(person-28-new-2,6,8-sgl
-17	deputies	deputy	NOUN	NNS	Number=Plur	4	conj	4:conj:and|6:case	_
+17	deputies	deputy	NOUN	NNS	Number=Plur	6	conj	3:obl:from|6:conj:and	_
 18	of	of	ADP	IN	_	19	case	19:case	_
-19	Movimento	Movimento	PROPN	NNP	Number=Sing	17	nmod	17:nmod:of	Bridge=1<29|Entity=(organization-29-acc:inf-1,3-coref-Five_Star_Movement|XML=<ref>
-20	5	5	NUM	CD	NumForm=Digit|NumType=Card	21	nummod	21:nummod	_
-21	Stelle	Stelle	PROPN	NNP	Number=Sing	19	compound	19:compound	Entity=29)|XML=</ref>
-22	(	(	PUNCT	-LRB-	_	23	punct	23:punct	Discourse=restatement:12->11:0|Entity=(organization-29-giv:act-2-coref-Five_Star_Movement|SpaceAfter=No
-23	M5S	M5S	PROPN	NNP	Number=Sing	21	appos	21:appos	SpaceAfter=No
+19	Movimento	Movimento	PROPN	NNP	Number=Sing	17	nmod	17:nmod:of	Bridge=1<29|Entity=(organization-29-acc:inf-1,2,3-coref-Five_Star_Movement|XML=<ref>
+20	5	5	NUM	CD	NumForm=Digit|NumType=Card	19	flat	19:flat	_
+21	Stelle	Stelle	PROPN	NNP	Number=Sing	19	flat	19:flat	Entity=29)|XML=</ref>
+22	(	(	PUNCT	-LRB-	_	23	punct	23:punct	Discourse=restatement-partial:12->11:0|Entity=(organization-29-giv:act-2-appos-Five_Star_Movement|SpaceAfter=No
+23	M5S	M5S	PROPN	NNP	Number=Sing	19	appos	19:appos	SpaceAfter=No
 24	)	)	PUNCT	-RRB-	_	23	punct	23:punct	Entity=29)
 25	of	of	ADP	IN	_	28	case	28:case	Discourse=same-unit_m:13->11:1
 26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Entity=(organization-30-new-3-sgl
@@ -167,7 +167,7 @@
 # sent_id = GUM_news_taxes-7
 # s_type = decl
 # text = The first case is of the mayor Luca Pastorino that in last years received several refusals of his requests for payment because of the religious nursery school and retirement home.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=17<32|Discourse=elaboration:14->11:2|Entity=(abstract-32-acc:inf-3-sgl
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=17<32|Discourse=elaboration-additional:14->11:2|Entity=(abstract-32-acc:inf-3-sgl
 2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	3:amod	_
 3	case	case	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=32)
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
@@ -176,7 +176,7 @@
 7	mayor	mayor	NOUN	NN	Number=Sing	0	root	0:root	_
 8	Luca	Luca	PROPN	NNP	Number=Sing	7	appos	7:appos|14:nsubj	Entity=(person-33-giv:act-1,2-appos-Luca_Pastorino
 9	Pastorino	Pastorino	PROPN	NNP	Number=Sing	8	flat	8:flat	Entity=33)
-10	that	that	PRON	WDT	PronType=Rel	14	nsubj	8:ref	Discourse=elaboration:15->14:0
+10	that	that	PRON	WDT	PronType=Rel	14	nsubj	8:ref	Discourse=elaboration-attribute:15->14:0
 11	in	in	ADP	IN	_	13	case	13:case	_
 12	last	last	ADJ	JJ	Degree=Pos	13	amod	13:amod	Entity=(time-34-acc:com-2-sgl
 13	years	year	NOUN	NNS	Number=Plur	14	obl	14:obl:in	Entity=34)
@@ -188,7 +188,7 @@
 19	requests	request	NOUN	NNS	Number=Plur	16	nmod	16:nmod:of	_
 20	for	for	ADP	IN	_	21	case	21:case	_
 21	payment	payment	NOUN	NN	Number=Sing	19	nmod	19:nmod:for	Entity=(abstract-3-giv:inact-1-coref)36)35)
-22	because	because	ADP	IN	_	27	case	27:case	Discourse=cause:16->15:0
+22	because	because	ADP	IN	_	27	case	27:case	Discourse=causal-cause:16->15:0
 23	of	of	ADP	IN	_	22	fixed	22:fixed	_
 24	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(organization-37-new-4-sgl
 25	religious	religious	ADJ	JJ	Degree=Pos	27	amod	27:amod	_
@@ -202,7 +202,7 @@
 # sent_id = GUM_news_taxes-8
 # s_type = decl
 # text = In the second case, the M5S party asks to the regional government to assure the local administrations of the region regularly apply the sentence of the Supreme Court.
-1	In	in	ADP	IN	_	4	case	4:case	Discourse=sequence_m:17->14:1
+1	In	in	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:17->14:1
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=17<39|Entity=(abstract-39-acc:inf-3-sgl
 3	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	4:amod	_
 4	case	case	NOUN	NN	Number=Sing	9	obl	9:obl:in	Entity=39)|SpaceAfter=No
@@ -237,9 +237,9 @@
 # s_type = decl
 # text = The case on which the Court has ruled was of the religious schools Santo Spirito and Immacolata in Livorno, Tuscany, to pay over 422,000 euros in arrears for the period from 2004 to 2009.
 # newpar = p (2 s)
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=17<42|Discourse=background:18->8:3|Entity=(abstract-42-acc:inf-2-sgl
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=17<42|Discourse=context-background:18->8:3|Entity=(abstract-42-acc:inf-2-sgl
 2	case	case	NOUN	NN	Number=Sing	13	nsubj	8:obl:on|13:nsubj	_
-3	on	on	ADP	IN	_	4	case	4:case	Discourse=elaboration:19->18:0
+3	on	on	ADP	IN	_	4	case	4:case	Discourse=elaboration-attribute:19->18:0
 4	which	which	PRON	WDT	PronType=Rel	8	obl	2:ref	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(organization-19-giv:act-2-coref-Supreme_Court_of_Cassation_%28Italy%29
 6	Court	Court	PROPN	NNP	Number=Sing	8	nsubj	8:nsubj	Entity=19)
@@ -278,7 +278,7 @@
 # sent_id = GUM_news_taxes-10
 # s_type = decl
 # text = The request was advanced by the Municipality of Livorno in 2010.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration:21->18:2|Entity=(event-22-giv:inact-2-coref
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:21->18:2|Entity=(event-22-giv:inact-2-coref
 2	request	request	NOUN	NN	Number=Sing	4	nsubj:pass	4:nsubj:pass	Entity=22)
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 4	advanced	advance	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -295,11 +295,11 @@
 # s_type = decl
 # text = The city reasoned, "because the users of the private schools pay a frequency fee, this kind of activity is considered as a commercial one" ((it)).
 # newpar = p (1 s)
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=preparation:22->24:1|Entity=(place-24-giv:act-2-coref-Livorno
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=organization-preparation:22->24:1|Entity=(place-24-giv:act-2-coref-Livorno
 2	city	city	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=24)
 3	reasoned	reason	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
-5	"	''	PUNCT	``	_	23	punct	23:punct	Discourse=cause:23->24:0|SpaceAfter=No|XML=<quote>
+5	"	''	PUNCT	``	_	23	punct	23:punct	Discourse=causal-cause:23->24:0|SpaceAfter=No|XML=<quote>
 6	because	because	SCONJ	IN	_	13	mark	13:mark	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(person-52-new-2-sgl
 8	users	user	NOUN	NNS	Number=Plur	13	nsubj	13:nsubj	_
@@ -312,14 +312,14 @@
 15	frequency	frequency	NOUN	NN	Number=Sing	16	compound	16:compound	_
 16	fee	fee	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=53)|SpaceAfter=No
 17	,	,	PUNCT	,	_	13	punct	13:punct	_
-18	this	this	DET	DT	Number=Sing|PronType=Dem	19	det	19:det	Discourse=cause:24->21:0|Entity=(event-54-new-2-coref
+18	this	this	DET	DT	Number=Sing|PronType=Dem	19	det	19:det	Discourse=causal-cause:24->21:0|Entity=(event-54-new-2-coref
 19	kind	kind	NOUN	NN	Number=Sing	23	nsubj:pass	23:nsubj:pass	_
 20	of	of	ADP	IN	_	21	case	21:case	_
 21	activity	activity	NOUN	NN	Number=Sing	19	nmod	19:nmod:of	Entity=54)
 22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	23:aux:pass	_
 23	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	3:ccomp	_
 24	as	as	ADP	IN	_	27	case	27:case	_
-25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	27:det	Entity=(event-54-giv:act-3-coref
+25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	27:det	Entity=(event-54-giv:act-3-pred
 26	commercial	commercial	ADJ	JJ	Degree=Pos	27	amod	27:amod	_
 27	one	one	NOUN	NN	Number=Sing	23	obl	23:obl:as	Entity=54)|SpaceAfter=No
 28	"	''	PUNCT	''	_	23	punct	23:punct	_
@@ -334,7 +334,7 @@
 # s_type = decl
 # text = In 2014 the Italian municipal tax discipline has changed from the ICI system to the IMU system by the Monti government.
 # newpar = p (3 s)
-1	In	in	ADP	IN	_	2	case	2:case	Discourse=sequence_m:25->18:3
+1	In	in	ADP	IN	_	2	case	2:case	Discourse=joint-sequence_m:25->18:3
 2	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	9	obl	9:obl:in	Entity=(time-56-new-1-sgl)|XML=<date when:::"2014"></date>
 3	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(abstract-57-new-5-coref
 4	Italian	Italian	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
@@ -360,7 +360,7 @@
 # sent_id = GUM_news_taxes-13
 # s_type = decl
 # text = A mean cost per student criterion is used to tax only the schools that receive a fee higher than the mean cost per student fixed by the State.
-1	A	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Discourse=elaboration:26->25:0|Entity=(abstract-64-new-6-sgl
+1	A	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Discourse=elaboration-additional:26->25:0|Entity=(abstract-64-new-6-sgl
 2	mean	mean	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(abstract-65-new-2-coref|XML=<hi rend:::"italic">
 3	cost	cost	NOUN	NN	Number=Sing	6	compound	6:compound	_
 4	per	per	ADP	IN	_	5	case	5:case	_
@@ -373,7 +373,7 @@
 11	only	only	ADV	RB	_	13	advmod	13:advmod	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(organization-67-new-2-sgl
 13	schools	school	NOUN	NNS	Number=Plur	10	obj	10:obj|15:nsubj	_
-14	that	that	PRON	WDT	PronType=Rel	15	nsubj	13:ref	Discourse=elaboration:27->26:0
+14	that	that	PRON	WDT	PronType=Rel	15	nsubj	13:ref	Discourse=elaboration-attribute:27->26:0
 15	receive	receive	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	13:acl:relcl	_
 16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(abstract-68-new-2-sgl
 17	fee	fee	NOUN	NN	Number=Sing	15	obj	15:obj	_
@@ -384,7 +384,7 @@
 22	cost	cost	NOUN	NN	Number=Sing	18	obl	18:obl:than	_
 23	per	per	ADP	IN	_	24	case	24:case	_
 24	student	student	NOUN	NN	Number=Sing	22	nmod	22:nmod:per	Entity=(person-66-giv:act-1-coref)65)68)
-25	fixed	fix	VERB	VBN	Tense=Past|VerbForm=Part	22	acl	22:acl	Discourse=elaboration:28->27:0
+25	fixed	fix	VERB	VBN	Tense=Past|VerbForm=Part	22	acl	22:acl	Discourse=elaboration-attribute:28->27:0
 26	by	by	ADP	IN	_	28	case	28:case	_
 27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Entity=(place-31-giv:inact-2-coref-Lombardy
 28	State	State	PROPN	NNP	Number=Sing	25	obl	25:obl:by	Entity=31)67)|SpaceAfter=No
@@ -393,17 +393,17 @@
 # sent_id = GUM_news_taxes-14
 # s_type = decl
 # text = The new law is not retroactive, so the taxes requested in arrears from 2006 to 2009 are under the ICI system.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=elaboration:29->25:1|Entity=(abstract-57-giv:inact-3-coref
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=elaboration-additional:29->25:1|Entity=(abstract-57-giv:inact-3-coref
 2	new	new	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	law	law	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=57)
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 5	not	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	_
 6	retroactive	retroactive	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
 7	,	,	PUNCT	,	_	22	punct	22:punct	_
-8	so	so	ADV	RB	_	22	advmod	22:advmod	Discourse=result:30->29:0
+8	so	so	ADV	RB	_	22	advmod	22:advmod	Discourse=causal-result:30->29:0
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(abstract-3-giv:inact-2-coref
 10	taxes	taxis	NOUN	NNS	Number=Plur	22	nsubj	22:nsubj	_
-11	requested	request	VERB	VBN	Tense=Past|VerbForm=Part	10	acl	10:acl	Discourse=elaboration:31->30:0
+11	requested	request	VERB	VBN	Tense=Past|VerbForm=Part	10	acl	10:acl	Discourse=elaboration-additional:31->30:0
 12	in	in	ADP	IN	_	13	case	13:case	_
 13	arrears	arrears	NOUN	NNS	Number=Plur	11	obl	11:obl:in	_
 14	from	from	ADP	IN	_	15	case	15:case	_
@@ -421,13 +421,13 @@
 # s_type = decl
 # text = Minister of Education Stefania Giannini said a "more general reflection" ((it)) is needed.
 # newpar = p (2 s)
-1	Minister	Minister	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Discourse=attribution:33->34:0|Entity=(person-71-new-1,3-coref-Stefania_Giannini
+1	Minister	Minister	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Discourse=attribution-positive:33->34:0|Entity=(person-71-new-1,3-coref-Stefania_Giannini
 2	of	of	ADP	IN	_	3	case	3:case	_
 3	Education	Education	PROPN	NNP	Number=Sing	1	nmod	1:nmod:of	Entity=71)
 4	Stefania	Stefania	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=(person-71-giv:act-2-coref-Stefania_Giannini|XML=<ref>
 5	Giannini	Giannini	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=71)|XML=</ref>
 6	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-7	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Discourse=elaboration:34->8:4|Entity=(event-72-new-5-sgl
+7	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Discourse=elaboration-additional:34->8:4|Entity=(event-72-new-5-sgl
 8	"	''	PUNCT	``	_	11	punct	11:punct	SpaceAfter=No|XML=<quote>
 9	more	more	ADV	RBR	Degree=Cmp	10	advmod	10:advmod	_
 10	general	general	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
@@ -445,7 +445,7 @@
 # sent_id = GUM_news_taxes-16
 # s_type = decl
 # text = Claudio De Vincenti, undersecretary to the prime minister, said "a discussion table will be opened with the non-profit associations, religious association included" ((it)).
-1	Claudio	Claudio	PROPN	NNP	Number=Sing	11	nsubj	11:nsubj	Discourse=attribution:35->36:1|Entity=(person-73-new-1,2,3-coref-Claudio_De_Vincenti
+1	Claudio	Claudio	PROPN	NNP	Number=Sing	11	nsubj	11:nsubj	Discourse=attribution-positive:35->36:1|Entity=(person-73-new-1,2,3-coref-Claudio_De_Vincenti
 2	De	De	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	Vincenti	Vincenti	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=73)|SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
@@ -456,7 +456,7 @@
 9	minister	minister	NOUN	NN	Number=Sing	5	nmod	5:nmod:to	Entity=63)73)|SpaceAfter=No
 10	,	,	PUNCT	,	_	1	punct	1:punct	_
 11	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-12	"	''	PUNCT	``	_	18	punct	18:punct	Discourse=joint_m:36->34:1|SpaceAfter=No|XML=<quote>
+12	"	''	PUNCT	``	_	18	punct	18:punct	Discourse=joint-other_m:36->34:1|SpaceAfter=No|XML=<quote>
 13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	Entity=(abstract-74-new-3-sgl
 14	discussion	discussion	NOUN	NN	Number=Sing	15	compound	15:compound	Entity=(abstract-75-new-1-sgl)
 15	table	table	NOUN	NN	Number=Sing	18	nsubj:pass	18:nsubj:pass	Entity=74)
@@ -468,7 +468,7 @@
 21	non-profit	non-profit	ADJ	JJ	Degree=Pos|Polarity=Neg	22	amod	22:amod	_
 22	associations	association	NOUN	NNS	Number=Plur	18	obl	18:obl:with	Entity=76)|SpaceAfter=No
 23	,	,	PUNCT	,	_	26	punct	26:punct	_
-24	religious	religious	ADJ	JJ	Degree=Pos	25	amod	25:amod	Bridge=76<77|Discourse=elaboration:37->36:0|Entity=(abstract-77-acc:inf-2-sgl
+24	religious	religious	ADJ	JJ	Degree=Pos	25	amod	25:amod	Bridge=76<77|Discourse=elaboration-additional:37->36:0|Entity=(abstract-77-acc:inf-2-sgl
 25	association	association	NOUN	NN	Number=Sing	26	nsubj:pass	26:nsubj:pass	Entity=77)|XML=<sic></sic>
 26	included	include	VERB	VBN	Tense=Past|VerbForm=Part	22	acl	22:acl	SpaceAfter=No
 27	"	''	PUNCT	''	_	18	punct	18:punct	_
@@ -483,25 +483,25 @@
 # s_type = decl
 # text = Undersecretary for Education Mr. Toccafondi says "many schools will increase their fees or they will quit. Then the State will have to find new resources to build new structures and manage them" ((it)).
 # newpar = p (1 s)
-1	Undersecretary	Undersecretary	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Discourse=attribution:38->41:2|Entity=(person-78-new-1,3-coref
+1	Undersecretary	Undersecretary	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Discourse=attribution-positive:38->41:2|Entity=(person-78-new-1,3-coref
 2	for	for	ADP	IN	_	3	case	3:case	_
 3	Education	Education	PROPN	NNP	Number=Sing	1	nmod	1:nmod:for	Entity=78)
 4	Mr.	Mr.	PROPN	NNP	Abbr=Yes|Number=Sing	1	appos	1:appos	Entity=(person-78-giv:act-1,2-appos
 5	Toccafondi	Toccafondi	PROPN	NNP	Number=Sing	4	flat	4:flat	Entity=78)
 6	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-7	"	''	PUNCT	``	_	11	punct	11:punct	Discourse=cause:39->41:1|SpaceAfter=No|XML=<quote>
+7	"	''	PUNCT	``	_	11	punct	11:punct	Discourse=causal-cause:39->41:1|SpaceAfter=No|XML=<quote>
 8	many	many	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(organization-79-new-2-coref
 9	schools	school	NOUN	NNS	Number=Plur	11	nsubj	11:nsubj	Entity=79)
 10	will	will	AUX	MD	Number=Plur|Person=3|VerbForm=Fin	11	aux	11:aux	_
 11	increase	increase	VERB	VB	VerbForm=Inf	6	ccomp	6:ccomp	_
 12	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(abstract-80-new-2-sgl(organization-79-giv:act-1-ana)
 13	fees	fee	NOUN	NNS	Number=Plur	11	obj	11:obj	Entity=80)
-14	or	or	CCONJ	CC	_	17	cc	17:cc	Discourse=antithesis:40->39:0
+14	or	or	CCONJ	CC	_	17	cc	17:cc	Discourse=adversative-antithesis:40->39:0
 15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	17:nsubj	Entity=(organization-79-giv:act-1-ana)
 16	will	will	AUX	MD	VerbForm=Fin	17	aux	17:aux	_
 17	quit	quit	VERB	VB	VerbForm=Inf	11	conj	6:ccomp|11:conj:or	SpaceAfter=No
 18	.	.	PUNCT	.	_	6	punct	6:punct	_
-19	Then	then	ADV	RB	PronType=Dem	23	advmod	23:advmod	Discourse=joint_m:41->34:1
+19	Then	then	ADV	RB	PronType=Dem	23	advmod	23:advmod	Discourse=joint-other_m:41->34:1
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(place-31-giv:inact-2-coref-Lombardy
 21	State	State	PROPN	NNP	Number=Sing	23	nsubj	23:nsubj|25:nsubj:xsubj	Entity=31)
 22	will	will	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	23	aux	23:aux	_
@@ -510,11 +510,11 @@
 25	find	find	VERB	VB	VerbForm=Inf	23	xcomp	23:xcomp	_
 26	new	new	ADJ	JJ	Degree=Pos	27	amod	27:amod	Entity=(abstract-81-new-2-sgl
 27	resources	resource	NOUN	NNS	Number=Plur	25	obj	25:obj	Entity=81)
-28	to	to	PART	TO	_	29	mark	29:mark	Discourse=purpose:42->41:0
+28	to	to	PART	TO	_	29	mark	29:mark	Discourse=purpose-goal:42->41:0
 29	build	build	VERB	VB	VerbForm=Inf	25	advcl	25:advcl:to	_
 30	new	new	ADJ	JJ	Degree=Pos	31	amod	31:amod	Entity=(abstract-82-new-2-sgl
 31	structures	structure	NOUN	NNS	Number=Plur	29	obj	29:obj	Entity=82)
-32	and	and	CCONJ	CC	_	33	cc	33:cc	Discourse=joint_m:43->42:0
+32	and	and	CCONJ	CC	_	33	cc	33:cc	Discourse=joint-list_m:43->42:0
 33	manage	manage	VERB	VB	VerbForm=Inf	29	conj	25:advcl:to|29:conj:and	_
 34	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	33	obj	33:obj	Entity=(organization-79-giv:act-1-ana)|SpaceAfter=No
 35	"	''	PUNCT	''	_	23	punct	23:punct	_
@@ -529,7 +529,7 @@
 # s_type = decl
 # text = Also the president of the Lombardy region, Roberto Maroni, has reacted by proposing some regional counter-measures to finance private schools.
 # newpar = p (1 s)
-1	Also	also	ADV	RB	_	13	advmod	13:advmod	Discourse=joint_m:44->34:1
+1	Also	also	ADV	RB	_	13	advmod	13:advmod	Discourse=joint-other_m:44->34:1
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(person-83-new-2-coref
 3	president	president	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	_
 4	of	of	ADP	IN	_	7	case	7:case	_
@@ -542,7 +542,7 @@
 11	,	,	PUNCT	,	_	3	punct	3:punct	_
 12	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	13:aux	_
 13	reacted	react	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
-14	by	by	SCONJ	IN	_	15	mark	15:mark	Discourse=means:45->44:0
+14	by	by	SCONJ	IN	_	15	mark	15:mark	Discourse=mode-means:45->44:0
 15	proposing	propose	VERB	VBG	VerbForm=Ger	13	advcl	13:advcl:by	_
 16	some	some	DET	DT	PronType=Ind	18	det	18:det	Entity=(object-85-new-3-sgl
 17	regional	regional	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
@@ -557,12 +557,12 @@
 # s_type = decl
 # text = The secretary general of CEI (Italian Episcopal Conference), Nunzio Galantino, has called the sentence "dangerous" ((it)) and "ideological" ((it)):
 # newpar = p (5 s)
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint_m:46->34:1|Entity=(person-86-new-3,7,8,9-coref
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint-other_m:46->34:1|Entity=(person-86-new-3,7,8,9-coref
 2	secretary	secretary	NOUN	NN	Number=Sing	3	compound	3:compound	_
 3	general	general	NOUN	NN	Number=Sing	16	nsubj	16:nsubj|29:nsubj:xsubj	_
 4	of	of	ADP	IN	_	5	case	5:case	_
 5	CEI	CEI	PROPN	NNP	Abbr=Yes|Number=Sing	3	nmod	3:nmod:of	Entity=(organization-87-new-1-coref-Episcopal_Conference_of_Italy)
-6	(	(	PUNCT	-LRB-	_	9	punct	9:punct	Discourse=restatement:47->46:0|SpaceAfter=No
+6	(	(	PUNCT	-LRB-	_	9	punct	9:punct	Discourse=restatement-partial:47->46:0|SpaceAfter=No
 7	Italian	Italian	PROPN	NNP	Number=Sing	9	compound	9:compound	Entity=(organization-87-giv:act-1,2,3-appos-Episcopal_Conference_of_Italy|XML=<ref>
 8	Episcopal	Episcopal	PROPN	NNP	Number=Sing	9	compound	9:compound	_
 9	Conference	Conference	PROPN	NNP	Number=Sing	5	appos	5:appos	Entity=87)|SpaceAfter=No|XML=</ref>
@@ -598,7 +598,7 @@
 # s_type = decl
 # text = "We face a dangerous sentence.
 # newpar = quote (4 s)
-1	"	''	PUNCT	``	_	3	punct	3:punct	Discourse=elaboration:49->46:2|SpaceAfter=No
+1	"	''	PUNCT	``	_	3	punct	3:punct	Discourse=elaboration-additional:49->46:2|SpaceAfter=No
 2	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-88-acc:com-1-sgl)
 3	face	face	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(abstract-18-giv:act-3-coref
@@ -609,7 +609,7 @@
 # sent_id = GUM_news_taxes-21
 # s_type = decl
 # text = Who takes the decisions, do it with less ideology.
-1	Who	who	PRON	WP	PronType=Int	2	nsubj	2:nsubj	Discourse=justify:50->49:0|Entity=(person-89-new-1-coref)
+1	Who	who	PRON	WP	PronType=Int	2	nsubj	2:nsubj	Discourse=explanation-justify:50->49:0|Entity=(person-89-new-1-coref)
 2	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Entity=(event-90-new-1-disc
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(abstract-91-new-2-sgl
 4	decisions	decision	NOUN	NNS	Number=Plur	2	obj	2:obj|6:nsubj:xsubj	Entity=91)90)|SpaceAfter=No
@@ -624,20 +624,20 @@
 # sent_id = GUM_news_taxes-22
 # s_type = decl
 # text = Because I have the clear sensation that with this way of thinking, they wait the praise of some ideologized supporters.
-1	Because	because	SCONJ	IN	_	3	mark	3:mark	Discourse=attribution:51->53:1
+1	Because	because	SCONJ	IN	_	3	mark	3:mark	Discourse=attribution-positive:51->53:1
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-86-acc:com-1-ana-Nunzio_Galantino)
 3	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	advcl	15:advcl:because	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(abstract-93-new-12-sgl
 5	clear	clear	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
 6	sensation	sensation	NOUN	NN	Number=Sing	3	obj	3:obj	_
-7	that	that	ADV	IN	_	3	advmod	3:advmod	Discourse=circumstance:52->53:0
+7	that	that	ADV	IN	_	3	advmod	3:advmod	Discourse=context-circumstance:52->53:0
 8	with	with	ADP	IN	_	10	case	10:case	_
 9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	10:det	Entity=(abstract-94-new-2-sgl
 10	way	way	NOUN	NN	Number=Sing	3	obl	3:obl:with	_
 11	of	of	SCONJ	IN	_	12	mark	12:mark	_
 12	thinking	think	VERB	VBG	VerbForm=Ger	10	acl	10:acl:of	Entity=94)|SpaceAfter=No
 13	,	,	PUNCT	,	_	3	punct	3:punct	_
-14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	15:nsubj	Discourse=justify:53->50:0|Entity=(person-89-giv:act-1-ana)
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	15:nsubj	Discourse=explanation-justify:53->50:0|Entity=(person-89-giv:act-1-ana)
 15	wait	wait	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	XML=<sic></sic>
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(abstract-95-new-2-sgl
 17	praise	praise	NOUN	NN	Number=Sing	15	obj	15:obj	_
@@ -650,7 +650,7 @@
 # sent_id = GUM_news_taxes-23
 # s_type = decl
 # text = Indeed, they don't understand what kind of good service private schools held" ((it)).
-1	Indeed	indeed	ADV	RB	Degree=Pos	6	advmod	6:advmod	Discourse=justify:54->50:1|SpaceAfter=No
+1	Indeed	indeed	ADV	RB	Degree=Pos	6	advmod	6:advmod	Discourse=explanation-justify:54->50:1|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-89-giv:act-1-ana)
 4-5	don't	_	_	_	_	_	_	_	_
@@ -662,7 +662,7 @@
 9	of	of	ADP	IN	_	11	case	11:case	_
 10	good	good	ADJ	JJ	Degree=Pos	11	amod	11:amod	Entity=(abstract-98-new-5-sgl
 11	service	service	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	_
-12	private	private	ADJ	JJ	Degree=Pos	13	amod	13:amod	Discourse=elaboration:55->54:0|Entity=(organization-79-giv:inact-2-coref
+12	private	private	ADJ	JJ	Degree=Pos	13	amod	13:amod	Discourse=elaboration-additional:55->54:0|Entity=(organization-79-giv:inact-2-coref
 13	schools	school	NOUN	NNS	Number=Plur	14	nsubj	14:nsubj	Entity=79)
 14	held	hold	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	6:ccomp	Entity=98)97)|SpaceAfter=No
 15	"	''	PUNCT	''	_	18	punct	18:punct	_
@@ -677,18 +677,18 @@
 # s_type = decl
 # text = Italian secularist associations are concerned the Government will modify the law in order to maintain an exception for religious schools.
 # newpar = p (2 s)
-1	Italian	Italian	ADJ	JJ	Degree=Pos	3	amod	3:amod	Discourse=attribution:56->57:0|Entity=(abstract-99-new-3-sgl
+1	Italian	Italian	ADJ	JJ	Degree=Pos	3	amod	3:amod	Discourse=attribution-positive:56->57:0|Entity=(abstract-99-new-3-sgl
 2	secularist	secularist	NOUN	NN	Number=Sing	3	compound	3:compound	_
 3	associations	association	NOUN	NNS	Number=Plur	5	nsubj:pass	5:nsubj:pass	Entity=99)
 4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	5:aux:pass	_
 5	concerned	concern	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Discourse=contrast_m:57->34:2|Entity=(organization-62-giv:inact-2-coref
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Discourse=adversative-contrast_m:57->34:2|Entity=(organization-62-giv:inact-2-coref
 7	Government	government	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	Entity=62)
 8	will	will	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	9	aux	9:aux	_
 9	modify	modify	VERB	VB	VerbForm=Inf	5	ccomp	5:ccomp	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(abstract-57-giv:inact-2-coref
 11	law	law	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=57)
-12	in	in	SCONJ	IN	_	15	mark	15:mark	Discourse=purpose:58->57:1
+12	in	in	SCONJ	IN	_	15	mark	15:mark	Discourse=purpose-goal:58->57:1
 13	order	order	NOUN	NN	Number=Sing	12	fixed	12:fixed	_
 14	to	to	PART	TO	_	15	mark	15:mark	_
 15	maintain	maintain	VERB	VB	VerbForm=Inf	9	advcl	9:advcl:in_order_to	_
@@ -702,7 +702,7 @@
 # sent_id = GUM_news_taxes-25
 # s_type = decl
 # text = The secularist magazine MicroMega describe the court's judgement as historic.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=evaluation:59->57:2|Entity=(organization-101-new-3-coref
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=evaluation-comment:59->57:2|Entity=(organization-101-new-3-coref
 2	secularist	secularist	NOUN	NN	Number=Sing	3	compound	3:compound	_
 3	magazine	magazine	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=101)
 4	MicroMega	MicroMega	PROPN	NNP	Number=Sing	3	appos	3:appos	Entity=(organization-101-giv:act-1-appos-MicroMega)|XML=<ref></ref>
@@ -720,21 +720,21 @@
 # s_type = decl
 # text = The Union of Rationalist Atheists and Agnostics (UAAR) has launched a petition which now has more than 11,000 signatures, asking the government to respect and execute the sentence of the Supreme Court.
 # newpar = p (2 s)
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration:60->57:3|Entity=(organization-102-new-2,4,5,7-coref-Union_of_Rationalist_Atheists_and_Agnostics
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:60->57:3|Entity=(organization-102-new-2,4,5,7-coref-Union_of_Rationalist_Atheists_and_Agnostics
 2	Union	Union	PROPN	NNP	Number=Sing	12	nsubj	12:nsubj	XML=<ref>
 3	of	of	ADP	IN	_	4	case	4:case	_
 4	Rationalist	Rationalist	PROPN	NNP	Number=Sing	2	nmod	2:nmod:of	Entity=(person-103-new-1,2-sgl
 5	Atheists	Atheist	PROPN	NNPS	Number=Plur	4	flat	4:flat	Entity=103)
 6	and	and	CCONJ	CC	_	7	cc	7:cc	_
 7	Agnostics	Agnostic	PROPN	NNPS	Number=Plur	4	conj	2:nmod:of|4:conj:and	Entity=(person-104-new-1-sgl)102)|XML=</ref>
-8	(	(	PUNCT	-LRB-	_	9	punct	9:punct	Discourse=restatement:61->60:0|SpaceAfter=No
+8	(	(	PUNCT	-LRB-	_	9	punct	9:punct	Discourse=restatement-partial:61->60:0|SpaceAfter=No
 9	UAAR	UAAR	PROPN	NNP	Abbr=Yes|Number=Sing	2	appos	2:appos	Entity=(organization-102-giv:act-1-appos-Union_of_Rationalist_Atheists_and_Agnostics)|SpaceAfter=No
 10	)	)	PUNCT	-RRB-	_	9	punct	9:punct	_
 11	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	12:aux	Discourse=same-unit_m:62->60:1
 12	launched	launch	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(abstract-105-new-2,22-sgl
 14	petition	petition	NOUN	NN	Number=Sing	12	obj	12:obj|17:nsubj	_
-15	which	which	PRON	WDT	PronType=Rel	17	nsubj	14:ref	Discourse=elaboration:63->62:0
+15	which	which	PRON	WDT	PronType=Rel	17	nsubj	14:ref	Discourse=elaboration-attribute:63->62:0
 16	now	now	ADV	RB	_	17	advmod	17:advmod	_
 17	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_
 18	more	more	ADV	RBR	Degree=Cmp	20	advmod	20:advmod	Entity=(abstract-106-new-4-sgl
@@ -742,7 +742,7 @@
 20	11,000	11000	NUM	CD	NumForm=Digit|NumType=Card	21	nummod	21:nummod	_
 21	signatures	signature	NOUN	NNS	Number=Plur	17	obj	17:obj	Entity=106)|SpaceAfter=No
 22	,	,	PUNCT	,	_	23	punct	23:punct	_
-23	asking	ask	VERB	VBG	VerbForm=Ger	14	acl	14:acl	Discourse=elaboration:64->62:1
+23	asking	ask	VERB	VBG	VerbForm=Ger	14	acl	14:acl	Discourse=elaboration-attribute:64->62:1
 24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(organization-62-giv:inact-2-coref
 25	government	government	NOUN	NN	Number=Sing	23	iobj	23:iobj	Entity=62)
 26	to	to	PART	TO	_	27	mark	27:mark	_
@@ -760,7 +760,7 @@
 # sent_id = GUM_news_taxes-27
 # s_type = decl
 # text = It is also encouraging citizens to ask for application of the law in their local municipalities.
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=elaboration:65->60:2|Entity=(organization-102-giv:act-1-ana-Union_of_Rationalist_Atheists_and_Agnostics)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=elaboration-additional:65->60:2|Entity=(organization-102-giv:act-1-ana-Union_of_Rationalist_Atheists_and_Agnostics)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	also	also	ADV	RB	_	4	advmod	4:advmod	_
 4	encouraging	encourage	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
