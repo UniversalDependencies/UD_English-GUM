@@ -14,41 +14,41 @@ The MISC column contains **entity, coreference, information status, Wikification
 
 ## Entity
 
-The `Entity` annotation uses the CoNLL 2012 shared task bracketing format, which identifies potentially coreferring entities using round opening and closing brackets as well as a unique ID per entity, repeated across mentions. In the following example, actor Jared Padalecki appears in a single token mention, labeled `(1-person-giv:act-1-coref-Jared_Padalecki)` indicating the entity type (`person`) combined with the unique ID of all mentions of Padalecki in the text (`person-1`). Because Padalecki is a named entity with a corresponding Wikipedia page, the Wikification identifier corresponding to his Wikipedia page is given after the last hyphen (`person-1-Jared_Padalecki`). We can also see an information status annotation (`giv:act`, indicating an aforementioned or 'given' entity, actively mentioned last no farther than the previous sentences; see Dipper et al. 2007), as well as minimum token ID information indicating the head tokens for fuzzy matching (in this case `1`, the first and only token  in this span) and the coreference type `coref`, indicating lexical subsequent mention. The labels for each part of the hyphen-separated annotation is given at the top of each document in a comment `# global.Entity = GRP-etype-infstat-minspan-link-identity`, indicating that these annotations consist of the entity group id (i.e the coreference group), entity type, information status, minimal span of tokens for head matching, the coreference link type, and named entity identity (if available). 
+The `Entity` annotation uses the CoNLL 2012 shared task bracketing format, which identifies potentially coreferring entities using round opening and closing brackets as well as a unique ID per entity, repeated across mentions. In the following example, actor Jared Padalecki appears in a single token mention, labeled `(1-person-giv:act-cf2*-1-coref-Jared_Padalecki)` indicating the entity type (`person`) combined with the unique ID of all mentions of Padalecki in the text (`1-person`). Because Padalecki is a named entity with a corresponding Wikipedia page, the Wikification identifier corresponding to his Wikipedia page is given after the last hyphen (`1-person-Jared_Padalecki`). We can also see an information status annotation (`giv:act`, indicating an aforementioned or 'given' entity, actively mentioned last no farther than the previous sentences; see Dipper et al. 2007), a Centering Theory annotation (`cf2*`, indicating he is the second most central salient entity in the sentence moving forward, and that he was mentioned in the previous sentence, indicated by the `*`), as well as minimum token ID information indicating the head tokens for fuzzy matching (in this case `1`, the first and only token  in this span) and the coreference type `coref`, indicating lexical subsequent mention. The labels for each part of the hyphen-separated annotation are given at the top of each document in a comment `# global.Entity = GRP-etype-infstat-centering-minspan-link-identity`, indicating that these annotations consist of the entity group id (i.e the coreference group), entity type, information status, centering theory annotation, minimal span of tokens for head matching, the coreference link type, and named entity identity (if available). 
 
-Multi-token mentions receive opening brackets on the line in which they open, such as `(97-person-giv:inact-1,3-coref-Jensen_Ackles`, and a closing annotation `97)` at the token on which they end. Multiple annotations are possible for one token, corresponding to nested entities, e.g. `(175-time-giv:inact-1-coref)189)` below corresponds to the single token and last token of the time entities "2015" and "April 2015" respectively. 
+Multi-token mentions receive opening brackets on the line in which they open, such as `(97-person-giv:inact-cf4-1,3-coref-Jensen_Ackles`, and a closing annotation `97)` at the token on which they end. Multiple annotations are possible for one token, corresponding to nested entities, e.g. `(175-time-giv:inact-cf5-1-coref)189)` below corresponds to the single token and last token of the time entities "2015" and "April 2015" respectively. 
 
 ```CoNLL-U
-# global.Entity = GRP-etype-infstat-minspan-link-identity
+# global.Entity = GRP-etype-infstat-centering-minspan-link-identity
 ...
 1	For	for	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:104->98:2
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=173<188|Entity=(188-event-acc:inf-3,6,8-sgl
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=173<188|Entity=(188-event-acc:inf-cf6-3,6,8-sgl
 3	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	4:amod	_
 4	campaign	campaign	NOUN	NN	Number=Sing	16	obl	16:obl:for	_
 5	in	in	ADP	IN	_	10	case	10:case	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(173-abstract-giv:inact-2,4,5-coref
+6	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(173-abstract-giv:inact-cf3-2,4,5-coref
 7	Always	Always	ADV	NNP	Number=Sing	8	advmod	8:advmod	XML=<hi rend:::"italic">
 8	Keep	Keep	PROPN	NNP	Number=Sing	10	compound	10:compound	_
 9	Fighting	Fighting	PROPN	NNP	Number=Sing	8	xcomp	8:xcomp	XML=</hi>
 10	series	series	NOUN	NN	Number=Sing	4	nmod	4:nmod:in	Entity=173)
 11	in	in	ADP	IN	_	12	case	12:case	_
-12	April	April	PROPN	NNP	Number=Sing	4	nmod	4:nmod:in	Entity=(189-time-new-1-sgl|XML=<date when:::"2015-04">
-13	2015	2015	NUM	CD	NumForm=Digit|NumType=Card	12	nmod:tmod	12:nmod:tmod	Entity=(175-time-giv:inact-1-coref)189)188)|SpaceAfter=No|XML=</date>
+12	April	April	PROPN	NNP	Number=Sing	4	nmod	4:nmod:in	Entity=(189-time-new-cf10-1-sgl|XML=<date when:::"2015-04">
+13	2015	2015	NUM	CD	NumForm=Digit|NumType=Card	12	nmod:tmod	12:nmod:tmod	Entity=(175-time-giv:inact-cf5-1-coref)189)188)|SpaceAfter=No|XML=</date>
 14	,	,	PUNCT	,	_	4	punct	4:punct	_
-15	Padalecki	Padalecki	PROPN	NNP	Number=Sing	16	nsubj	16:nsubj	Entity=(1-person-giv:act-1-coref-Jared_Padalecki)
+15	Padalecki	Padalecki	PROPN	NNP	Number=Sing	16	nsubj	16:nsubj	Entity=(1-person-giv:act-cf2*-1-coref-Jared_Padalecki)
 16	partnered	partner	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 17	with	with	ADP	IN	_	18	case	18:case	_
-18	co-star	co-star	NOUN	NN	Number=Sing	16	obl	16:obl:with	Entity=(97-person-giv:inact-1,3-coref-Jensen_Ackles
+18	co-star	co-star	NOUN	NN	Number=Sing	16	obl	16:obl:with	Entity=(97-person-giv:inact-cf4-1,3-coref-Jensen_Ackles
 19	Jensen	Jensen	PROPN	NNP	Number=Sing	18	appos	18:appos	XML=<ref target:::"https://en.wikipedia.org/wiki/Jensen_Ackles">
 20	Ackles	Ackles	PROPN	NNP	Number=Sing	19	flat	19:flat	Entity=97)|XML=</ref>
 21	to	to	PART	TO	_	22	mark	22:mark	Discourse=purpose-goal:105->104:0
 22	release	release	VERB	VB	VerbForm=Inf	16	advcl	16:advcl:to	_
-23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(190-object-new-2-coref
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(190-object-new-cf7-2-coref
 24	shirt	shirt	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=190)
 25	featuring	feature	VERB	VBG	VerbForm=Ger	24	acl	24:acl	Discourse=elaboration-attribute:106->105:0
-26	both	both	DET	DT	PronType=Art	25	obj	25:obj	Entity=(191-object-new-1-sgl
+26	both	both	DET	DT	PronType=Art	25	obj	25:obj	Entity=(191-object-new-cf9-1-sgl
 27	of	of	ADP	IN	_	29	case	29:case	_
-28	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	Entity=(192-person-acc:aggr-1-coref)|SplitAnte=1<192,97<192
+28	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	Entity=(192-person-acc:aggr-cf1-1-coref)|SplitAnte=1<192,97<192
 29	faces	face	NOUN	NNS	Number=Plur	26	nmod	26:nmod:of	Entity=191)|SpaceAfter=No
 ```
 
@@ -62,6 +62,9 @@ Possible values for the annotations mentioned above are:
     * acc:inf - accessible, inferable from some previous mention (e.g. the house... [the door]) 
     * acc:aggr - accessible, aggregate, i.e. split antecedent mediated by a set of previous mentions
     * acc:com - accessible, common ground, i.e. generic ([the world]) or situationally accessible ("pass [the salt]", first mention of "you" or "I")
+  * centering: 
+    * rank in the forward looking center (Cf), and a '*' for the top entity also mentioned in the previous sentence (Cb). The preferred forward looking center (Cp) is simply expressed as cf1. 
+    * centering transition types are computed from these annotations in the sentence level `# transition` annotations
   * link: 
     * ana - pronominal anaphora (the dancers ... [they])
     * appos - apposition (Kim, [the lawyer])
@@ -77,7 +80,7 @@ For equivalent Wikidata identifiers for each Wikipedia article title, see [this 
 
 ## Split antecedent and bridging
 
-The annotations `SplitAnte` and `Bridge` mark non-strict identity anaphora (see the [Universal Anaphora](http://universalanaphora.org/) project for more details). For example, at token 28 in the example, the pronoun "their" refers back to two non-adjacent entities, requiring a split antecedent annotation. The value `SplitAnte=1<192,97<192` indicates that `192-person` (the pronoun "their") refers back to two previous Entity annotations, with pointers separatated by a comma: `1` (`1-person-Jared_Padalecki`) and `97` (`97-person-Jensen_Ackles`). 
+The annotations `SplitAnte` and `Bridge` mark non-strict identity anaphora (see the [Universal Anaphora](http://universalanaphora.org/) project for more details). For example, at token 28 in the example, the pronoun "their" refers back to two non-adjacent entities, requiring a split antecedent annotation. The value `SplitAnte=1<192,97<192` indicates that `192-person` (the pronoun "their") refers back to two previous Entity annotations, with pointers separatated by a comma: `1` (`1-person-...Jared_Padalecki`) and `97` (`97-person-...Jensen_Ackles`). 
 
 Bridging anaphora is annotated when an entity has not been mentioned before, but is resolvable in context by way of a different entity: for example, token 2 has the annotation `Bridge=173<188`, which indicates that although `188-event` ("the second campaign...") has not been mentioned before, its identity is mediated by the previous mention of another entity, `173-abstract` (the project "Always Keep Fighting", mentioned earlier in the document, to which the campaign event belongs). In other words, readers can infer that "the second campaign" is part of the already introduced larger project, which also had a first campaign. This inference also leads to the information status label `acc:inf`, accessible-inferable.
 
@@ -161,7 +164,7 @@ Document metadata is given at the beginning of each new document in key-value pa
 
 ```
 # newdoc id = GUM_bio_padalecki
-# global.Entity = GRP-eid-infstat-minspan-link-identity
+# global.Entity = GRP-etype-infstat-centering-minspan-link-identity
 # meta::dateCollected = 2019-09-10
 # meta::dateCreated = 2004-08-14
 # meta::dateModified = 2019-09-11
@@ -205,6 +208,9 @@ As a scholarly citation for the corpus in articles, please use this paper:
 ```
 
 # Changelog
+
+* 2022-04-29
+  * Added Centering Theory annotations
 
 * 2022-01-31
   * Revised RST discourse relations (now 32 labels + ROOT)
