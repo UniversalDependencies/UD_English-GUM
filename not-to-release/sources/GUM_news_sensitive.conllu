@@ -144,7 +144,7 @@
 # text = If someone were able to shut the system down, or hack inside and delete or corrupt the information, it could affect the prosecution of the lawbreakers.
 1	If	if	SCONJ	IN	_	4	mark	4:mark	Discourse=contingency-condition:12->13:0
 2	someone	someone	NOUN	NN	Number=Sing	4	nsubj	4:nsubj|6:nsubj:xsubj|12:nsubj:xsubj	Entity=(21-event-new-cf1-3-disc(22-person-new-cf5-1-sgl)
-3	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
 4	able	able	ADJ	JJ	Degree=Pos	23	advcl	23:advcl:if	_
 5	to	to	PART	TO	_	6	mark	6:mark	_
 6	shut	shut	VERB	VB	VerbForm=Inf	4	xcomp	4:xcomp	_
@@ -186,8 +186,8 @@
 6	1999	1999	NUM	CD	NumForm=Digit|NumType=Card	4	obl	4:obl:in	Entity=(25-time-new-cf2-1-sgl)|XML=<date when:::"1999"></date>
 7	as	as	ADP	IN	_	13	case	13:case	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(18-abstract-giv:act-cf1*-2,3,4,5,6,8,9-coref
-9	National	National	PROPN	NNP	Number=Sing	13	compound	13:compound	_
-10	Enforcement	Enforcement	PROPN	NNP	Number=Sing	13	compound	13:compound	_
+9	National	National	ADJ	NNP	Degree=Pos|Number=Sing	13	amod	13:amod	_
+10	Enforcement	Enforcement	PROPN	NNP	Number=Sing	11	compound	11:compound	_
 11	Management	Management	PROPN	NNP	Number=Sing	13	compound	13:compound	_
 12	Information	Information	PROPN	NNP	Number=Sing	13	compound	13:compound	_
 13	System	System	PROPN	NNP	Number=Sing	4	obl	4:obl:as	_
@@ -212,10 +212,10 @@
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(18-abstract-giv:act-cf1*-2-coref
 11	database	database	NOUN	NN	Number=Sing	8	obl	8:obl:to	Entity=18)
 12	as	as	ADP	IN	_	14	case	14:case	_
-13	National	National	PROPN	NNP	Number=Sing	14	compound	14:compound	Entity=(18-abstract-giv:act-cf1*-1,2,4,5,6,7,9,10-coref
+13	National	National	ADJ	NNP	Degree=Pos|Number=Sing	14	amod	14:amod	Entity=(18-abstract-giv:act-cf1*-1,2,4,5,6,7,9,10-coref
 14	Enforcement	Enforcement	PROPN	NNP	Number=Sing	8	obl	8:obl:as	_
 15	and	and	CCONJ	CC	_	19	cc	19:cc	_
-16	Emergency	Emergency	PROPN	NNP	Number=Sing	19	compound	19:compound	_
+16	Emergency	Emergency	PROPN	NNP	Number=Sing	17	compound	17:compound	_
 17	Management	Management	PROPN	NNP	Number=Sing	19	compound	19:compound	_
 18	Information	Information	PROPN	NNP	Number=Sing	19	compound	19:compound	_
 19	System	System	PROPN	NNP	Number=Sing	14	conj	8:obl:as|14:conj:and	_
@@ -241,12 +241,12 @@
 # text = Protection B documents are the second lowest grade of classified government documents.
 # newpar
 # newpar_block = p (2 s)
-1	Protection	Protection	PROPN	NNP	Number=Sing	3	compound	3:compound	Bridge=2<28|Discourse=context-background:17->3:3|Entity=(28-object-acc:inf-cf1-3-coref(14-abstract-giv:inact-cf2-2-coref
-2	B	B	PROPN	NNP	Number=Sing	3	compound	3:compound	Entity=14)
+1	Protection	Protection	PROPN	NNP	Number=Sing	3	compound	3:compound	Bridge=2<28|Discourse=context-background:17->3:3|Entity=(28-object-acc:inf-cf1-2,3-coref(14-abstract-giv:inact-cf2-1,2-coref
+2	B	B	PROPN	NNP	Number=Sing	1	dep	1:dep	Entity=14)
 3	documents	document	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj	Entity=28)
 4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(28-object-giv:act-cf1-4-coref
-6	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	7	amod	7:amod	_
+6	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	7	advmod	7:advmod	_
 7	lowest	low	ADJ	JJS	Degree=Sup	8	amod	8:amod	_
 8	grade	grade	NOUN	NN	Number=Sing	0	root	0:root	_
 9	of	of	ADP	IN	_	12	case	12:case	_
@@ -259,11 +259,11 @@
 # s_type = decl
 # transition = establishment
 # text = Environment Canada spokesperson Julie Hahn said they apply to letters of complaint, criticism or injury, research or scientific notes and findings that don`t have any conclusion, and Treasury Board letters, agendas and minutes that don`t deal with subjects of national interest.
-1	Environment	Environment	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Discourse=attribution-positive:18->19:2|Entity=(29-person-new-cf3-1,2,4,5-sgl(6-organization-giv:inact-cf2-1,2-coref-Environment_and_Climate_Change_Canada
+1	Environment	Environment	PROPN	NNP	Number=Sing	3	compound	3:compound	Discourse=attribution-positive:18->19:2|Entity=(29-person-new-cf3-2,3,4,5-sgl(6-organization-giv:inact-cf2-1,2-coref-Environment_and_Climate_Change_Canada
 2	Canada	Canada	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=6)
-3	spokesperson	spokesperson	NOUN	NN	Number=Sing	1	compound	1:compound	_
-4	Julie	Julie	PROPN	NNP	Number=Sing	1	flat	1:flat	_
-5	Hahn	Hahn	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=29)
+3	spokesperson	spokesperson	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	_
+4	Julie	Julie	PROPN	NNP	Number=Sing	3	flat	3:flat	_
+5	Hahn	Hahn	PROPN	NNP	Number=Sing	4	flat	4:flat	Entity=29)
 6	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	8:nsubj	Discourse=elaboration-additional:19->17:0|Entity=(28-object-giv:act-cf1*-1-ana)
 8	apply	apply	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	6:ccomp	_
@@ -291,18 +291,18 @@
 29	conclusion	conclusion	NOUN	NN	Number=Sing	27	obj	27:obj	Entity=32)31)|SpaceAfter=No
 30	,	,	PUNCT	,	_	34	punct	34:punct	_
 31	and	and	CCONJ	CC	_	34	cc	34:cc	Discourse=same-unit_m:21->19:1
-32	Treasury	Treasury	PROPN	NNP	Number=Sing	34	compound	34:compound	Entity=(33-object-new-cf7-3,5,7-sgl(34-organization-new-cf10-2-sgl-Treasury_Board_of_Canada
+32	Treasury	Treasury	PROPN	NNP	Number=Sing	33	compound	33:compound	Entity=(33-object-new-cf7-1,3,5,7-sgl(34-organization-new-cf10-1,2-sgl-Treasury_Board_of_Canada
 33	Board	Board	PROPN	NNP	Number=Sing	34	compound	34:compound	Entity=34)
-34	letters	letter	NOUN	NNS	Number=Plur	10	conj	8:obl:to|10:conj:and	SpaceAfter=No
+34	letters	letter	NOUN	NNS	Number=Plur	10	conj	8:obl:to|10:conj:and|42:nsubj	SpaceAfter=No
 35	,	,	PUNCT	,	_	36	punct	36:punct	_
-36	agendas	agenda	NOUN	NNS	Number=Plur	34	conj	10:conj|34:conj|42:nsubj	_
+36	agendas	agenda	NOUN	NNS	Number=Plur	34	conj	10:conj|34:conj	_
 37	and	and	CCONJ	CC	_	38	cc	38:cc	_
 38	minutes	minute	NOUN	NNS	Number=Plur	36	conj	34:conj|36:conj:and	_
-39	that	that	PRON	WDT	PronType=Rel	42	nsubj	36:ref	Discourse=elaboration-attribute:22->21:0
+39	that	that	PRON	WDT	PronType=Rel	42	nsubj	34:ref	Discourse=elaboration-attribute:22->21:0
 40-41	don`t	_	_	_	_	_	_	_	_
 40	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	aux	42:aux	_
 41	n`t	not	PART	RB	Polarity=Neg	42	advmod	42:advmod	_
-42	deal	deal	VERB	VB	VerbForm=Inf	36	acl:relcl	36:acl:relcl	_
+42	deal	deal	VERB	VB	VerbForm=Inf	34	acl:relcl	34:acl:relcl	_
 43	with	with	ADP	IN	_	44	case	44:case	_
 44	subjects	subject	NOUN	NNS	Number=Plur	42	obl	42:obl:with	Entity=(35-abstract-new-cf8-1-sgl
 45	of	of	ADP	IN	_	47	case	47:case	_
@@ -319,7 +319,7 @@
 1	Environment	Environment	PROPN	NNP	Number=Sing	2	compound	2:compound	Discourse=attribution-positive:23->24:2|Entity=(37-person-new-cf6-1,2,3,4-coref-John_Baird_%28Canadian_politician%29(6-organization-giv:act-cf1*-1-coref-Environment_and_Climate_Change_Canada)
 2	Minister	Minister	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	_
 3	John	John	PROPN	NNP	Number=Sing	2	flat	2:flat	XML=<ref>
-4	Baird	Baird	PROPN	NNP	Number=Sing	2	flat	2:flat	Entity=37)|XML=</ref>
+4	Baird	Baird	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=37)|XML=</ref>
 5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 6	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 7	government	government	NOUN	NN	Number=Sing	8	compound	8:compound	Entity=(38-person-new-cf7-2-sgl
@@ -381,7 +381,7 @@
 24	under	under	ADP	IN	_	25	case	25:case	_
 25	access	access	NOUN	NN	Number=Sing	23	obl	23:obl:under	_
 26	to	to	ADP	IN	_	27	case	27:case	_
-27	information	information	NOUN	NN	Number=Sing	23	obl	23:obl:to	Entity=(43-abstract-new-cf6-1-sgl)2)42)|SpaceAfter=No
+27	information	information	NOUN	NN	Number=Sing	25	nmod	25:nmod:to	Entity=(43-abstract-new-cf6-1-sgl)2)42)|SpaceAfter=No
 28	,	,	PUNCT	,	_	4	punct	4:punct	SpaceAfter=No
 29	"	''	PUNCT	''	_	4	punct	4:punct	Discourse=attribution-positive:31->28:2|XML=</quote>
 30	Baird	Baird	PROPN	NNP	Number=Sing	31	nsubj	31:nsubj	Entity=(37-person-giv:act-cf1*-1-coref-John_Baird_%28Canadian_politician%29)
@@ -394,11 +394,11 @@
 # text = Environment Canada spokeswoman Sujata Raisinghani told CBC News the department will look into the incident.
 # newpar
 # newpar_block = p (1 s)
-1	Environment	Environment	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Discourse=attribution-positive:32->33:0|Entity=(44-person-new-cf4-1,2,4,5-coref(6-organization-giv:inact-cf1-1,2-coref-Environment_and_Climate_Change_Canada
+1	Environment	Environment	PROPN	NNP	Number=Sing	3	compound	3:compound	Discourse=attribution-positive:32->33:0|Entity=(44-person-new-cf4-2,3,4,5-coref(6-organization-giv:inact-cf1-1,2-coref-Environment_and_Climate_Change_Canada
 2	Canada	Canada	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=6)
-3	spokeswoman	spokeswoman	NOUN	NN	Number=Sing	1	compound	1:compound	_
-4	Sujata	Sujata	PROPN	NNP	Number=Sing	1	flat	1:flat	_
-5	Raisinghani	Raisinghani	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=44)
+3	spokeswoman	spokeswoman	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	_
+4	Sujata	Sujata	PROPN	NNP	Number=Sing	3	flat	3:flat	_
+5	Raisinghani	Raisinghani	PROPN	NNP	Number=Sing	4	flat	4:flat	Entity=44)
 6	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 7	CBC	CBC	PROPN	NNP	Abbr=Yes|Number=Sing	8	compound	8:compound	Entity=(9-organization-giv:inact-cf3-1,2-coref-Canadian_Broadcasting_Corporation
 8	News	News	PROPN	NNP	Number=Sing	6	iobj	6:iobj	Entity=9)
@@ -458,7 +458,7 @@
 3	,	,	PUNCT	,	_	8	punct	8:punct	_
 4	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(46-person-giv:act-cf1-2,3,4,5-appos-Paul_Dewar
 5	Ottawa	Ottawa	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=(7-place-giv:inact-cf3-1-coref-Ottawa)|XML=<ref>
-6	New	New	PROPN	NNP	Number=Sing	8	compound	8:compound	_
+6	New	New	ADJ	NNP	Degree=Pos|Number=Sing	7	amod	7:amod	_
 7	Democrat	Democrat	PROPN	NNP	Number=Sing	8	compound	8:compound	_
 8	MP	MP	PROPN	NNP	Number=Sing	1	appos	1:appos	Entity=46)|SpaceAfter=No|XML=</ref>
 9	,	,	PUNCT	,	_	1	punct	1:punct	_
@@ -468,14 +468,14 @@
 13	security	security	NOUN	NN	Number=Sing	14	compound	14:compound	Entity=(17-abstract-giv:act-cf2*-1-coref)
 14	lapses	lapse	NOUN	NNS	Number=Plur	15	nsubj	15:nsubj	Entity=47)
 15	raise	raise	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	10:ccomp	_
-16	serious	serious	ADJ	JJ	Degree=Pos	17	amod	17:amod	Entity=(48-abstract-new-cf7-7-sgl
+16	serious	serious	ADJ	JJ	Degree=Pos	17	amod	17:amod	Entity=(48-abstract-new-cf7-2-sgl
 17	questions	question	NOUN	NNS	Number=Plur	15	obj	15:obj	_
 18	about	about	ADP	IN	_	22	case	22:case	_
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(49-organization-acc:com-cf6-2-coref
 20-21	government's	_	_	_	_	_	_	_	_
 20	government	government	NOUN	NN	Number=Sing	22	nmod:poss	22:nmod:poss	_
 21	's	's	PART	POS	_	20	case	20:case	Entity=49)
-22	ability	ability	NOUN	NN	Number=Sing	15	obl	15:obl:about	Entity=(50-abstract-new-cf8-1-sgl
+22	ability	ability	NOUN	NN	Number=Sing	17	nmod	17:nmod:about	Entity=(50-abstract-new-cf8-1-sgl
 23	to	to	PART	TO	_	24	mark	24:mark	Discourse=purpose-attribute:40->39:0
 24	secure	secure	VERB	VB	VerbForm=Inf	22	acl	22:acl:to	_
 25	sensitive	sensitive	ADJ	JJ	Degree=Pos	26	amod	26:amod	Entity=(51-object-acc:com-cf5-2-coref
@@ -596,7 +596,7 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=organization-preparation:51->52:1|Entity=(1-event-giv:inact-cf1-2-coref
 2	incident	incident	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=1)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
-4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	reparandum	5:reparandum	_
 5	reminiscent	reminiscent	ADJ	JJ	Degree=Pos	0	root	0:root	_
 6	of	of	ADP	IN	_	9	case	9:case	_
 7	two	two	NUM	CD	NumForm=Word|NumType=Card	9	nummod	9:nummod	Entity=(58-event-new-cf2-3-coref
@@ -628,16 +628,16 @@
 15	's	's	PART	POS	_	14	case	14:case	_
 16	counterterrorism	counterterrorism	NOUN	NN	Number=Sing	17	compound	17:compound	_
 17	unit	unit	NOUN	NN	Number=Sing	11	nmod	11:nmod:for	Entity=61)
-18	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	19:aux:pass	_
+18	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	19:aux:pass	_
 19	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 20	stuffed	stuff	VERB	VBN	Tense=Past|VerbForm=Part	19	xcomp	19:xcomp	_
 21	in	in	ADP	IN	_	23	case	23:case	_
-22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(62-place-new-cf4-2-sgl
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(62-place-new-cf4-6-sgl
 23	trash	trash	NOUN	NN	Number=Sing	20	obl	20:obl:in	_
 24	on	on	ADP	IN	_	27	case	27:case	_
 25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	27:det	Entity=(63-place-new-cf5-3-sgl
 26	downtown	downtown	NOUN	NN	Number=Sing	27	compound	27:compound	_
-27	street	street	NOUN	NN	Number=Sing	23	nmod	23:nmod:on	Entity=63)62)60)|SpaceAfter=No
+27	street	street	NOUN	NN	Number=Sing	19	obl	19:obl:on	Entity=63)62)60)|SpaceAfter=No
 28	.	.	PUNCT	.	_	19	punct	19:punct	_
 
 # sent_id = GUM_news_sensitive-21
@@ -661,7 +661,7 @@
 13	minister	minister	NOUN	NN	Number=Sing	9	obl	9:obl:as	Entity=66)
 14	after	after	SCONJ	IN	_	16	mark	16:mark	Discourse=context-circumstance:54->53:0
 15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	expl	16:expl	Entity=(67-event-new-cf2-1-cata)
-16	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	advcl	9:advcl:after	_
+16	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	7:advcl:after	_
 17	known	know	VERB	VBN	Tense=Past|VerbForm=Part	16	xcomp	16:xcomp	_
 18	that	that	SCONJ	IN	_	20	mark	20:mark	Bridge=58<67|Entity=(67-event-acc:inf-cf2-3,15,22-coref
 19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	20:nsubj	Entity=(68-event-new-cf5-2,14,21-sgl(65-person-giv:act-cf1-1-ana-Maxime_Bernier)
@@ -717,7 +717,7 @@
 12	CBC.ca	CBC.ca	PROPN	NNP	Abbr=Yes|Number=Sing	5	dep	5:dep	Entity=(9-organization-giv:inact-cf2-1-coref-Canadian_Broadcasting_Corporation)|SpaceAfter=No|XML=<ref></ref>
 13	,	,	PUNCT	,	_	15	punct	15:punct	_
 14	August	August	PROPN	NNP	Number=Sing	15	compound	15:compound	Entity=(4-time-giv:inact-cf5-2-coref|XML=<date when:::"2008-08-15">
-15	15	15	NUM	CD	NumForm=Digit|NumType=Card	12	nmod:tmod	12:nmod:tmod	SpaceAfter=No
+15	15	15	NUM	CD	NumForm=Digit|NumType=Card	12	parataxis	12:parataxis	SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	17:punct	_
 17	2008	2008	NUM	CD	NumForm=Digit|NumType=Card	15	nmod:tmod	15:nmod:tmod	Entity=(5-time-giv:inact-cf6-1-coref)4)|XML=</date>
 
@@ -744,7 +744,7 @@
 15	Press	Press	PROPN	NNP	Number=Sing	9	dep	9:dep	Entity=73)|SpaceAfter=No|XML=</ref>
 16	,	,	PUNCT	,	_	18	punct	18:punct	_
 17	August	August	PROPN	NNP	Number=Sing	18	compound	18:compound	Entity=(4-time-giv:act-cf3-2-coref|XML=<date when:::"2008-08-15">
-18	15	15	NUM	CD	NumForm=Digit|NumType=Card	15	nmod:tmod	15:nmod:tmod	SpaceAfter=No
+18	15	15	NUM	CD	NumForm=Digit|NumType=Card	15	parataxis	15:parataxis	SpaceAfter=No
 19	,	,	PUNCT	,	_	20	punct	20:punct	_
 20	2008	2008	NUM	CD	NumForm=Digit|NumType=Card	18	nmod:tmod	18:nmod:tmod	Entity=(5-time-giv:act-cf4-1-coref)4)|XML=</date>
 
@@ -768,7 +768,7 @@
 12	Star	Star	PROPN	NNP	Number=Sing	11	flat	11:flat	Entity=74)|SpaceAfter=No|XML=</ref>
 13	,	,	PUNCT	,	_	15	punct	15:punct	_
 14	August	August	PROPN	NNP	Number=Sing	15	compound	15:compound	Entity=(4-time-giv:act-cf3-2-coref|XML=<date when:::"2008-08-15">
-15	15	15	NUM	CD	NumForm=Digit|NumType=Card	11	nmod:tmod	11:nmod:tmod	SpaceAfter=No
+15	15	15	NUM	CD	NumForm=Digit|NumType=Card	11	parataxis	11:parataxis	SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	17:punct	_
 17	2008	2008	NUM	CD	NumForm=Digit|NumType=Card	15	nmod:tmod	15:nmod:tmod	Entity=(5-time-giv:act-cf4-1-coref)4)|XML=</date>
 
@@ -800,7 +800,7 @@
 12	Sun	Sun	PROPN	NNP	Number=Sing	11	flat	11:flat	Entity=78)|SpaceAfter=No
 13	,	,	PUNCT	,	_	15	punct	15:punct	_
 14	August	August	PROPN	NNP	Number=Sing	15	compound	15:compound	Entity=(79-time-new-cf6-2-sgl|XML=<date when:::"2008-08-16">
-15	16	16	NUM	CD	NumForm=Digit|NumType=Card	11	nmod:tmod	11:nmod:tmod	SpaceAfter=No
+15	16	16	NUM	CD	NumForm=Digit|NumType=Card	11	parataxis	11:parataxis	SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	17:punct	_
 17	2008	2008	NUM	CD	NumForm=Digit|NumType=Card	15	nmod:tmod	15:nmod:tmod	Entity=(5-time-giv:inact-cf3-1-coref)79)|XML=</date>
 
@@ -838,8 +838,8 @@
 # s_type = frag
 # transition = null
 # text = North America
-1	North	North	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint-other_m:73->70:0|Entity=(83-place-new-cf1-1,2-sgl-North_America|XML=<ref>
-2	America	America	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=83)|XML=</ref>
+1	North	North	PROPN	NNP	Number=Sing	2	compound	2:compound	Discourse=joint-other_m:73->70:0|Entity=(83-place-new-cf1-1,2-sgl-North_America|XML=<ref>
+2	America	America	PROPN	NNP	Number=Sing	0	root	0:root	Entity=83)|XML=</ref>
 
 # sent_id = GUM_news_sensitive-33
 # s_type = frag

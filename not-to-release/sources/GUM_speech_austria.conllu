@@ -203,7 +203,7 @@
 4	of	of	ADP	IN	_	6	case	6:case	_
 5	young	young	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
 6	people	person	NOUN	NNS	Number=Plur	3	nmod	3:nmod:of	Entity=42)
-7	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	10:cop	_
+7	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	cop	10:cop	_
 8	at	at	ADP	IN	_	10	case	10:case	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(43-abstract-new-cf3-2-sgl
 10	forefront	forefront	NOUN	NN	Number=Sing	0	root	0:root	_
@@ -1114,14 +1114,14 @@
 # s_type = decl
 # transition = continue
 # text = We owe it to future generations to make safety concerns come first when using nuclear power.
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=explanation-motivation:80->79:0|Entity=(27-person-giv:act-cf1*-1-ana)
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj|8:nsubj:xsubj	Discourse=explanation-motivation:80->79:0|Entity=(27-person-giv:act-cf1*-1-ana)
 2	owe	owe	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	2:expl	Entity=(190-abstract-acc:com-cf2-1-ana)
 4	to	to	ADP	IN	_	6	case	6:case	_
 5	future	future	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(191-person-new-cf5-2-sgl
 6	generations	generation	NOUN	NNS	Number=Plur	2	obl	2:obl:to	Entity=191)
 7	to	to	PART	TO	_	8	mark	8:mark	Entity=(190-abstract-giv:act-cf2-2-coref
-8	make	make	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	2	ccomp	2:ccomp	_
+8	make	make	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
 9	safety	safety	NOUN	NN	Number=Sing	10	compound	10:compound	Entity=(192-abstract-new-cf3-2-sgl
 10	concerns	concern	NOUN	NNS	Number=Plur	8	obj	8:obj|11:nsubj:xsubj	Entity=192)
 11	come	come	VERB	VB	VerbForm=Inf	8	xcomp	8:xcomp	_
