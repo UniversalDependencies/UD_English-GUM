@@ -7,6 +7,7 @@
 # meta::speakerCount = 0
 # meta::title = How to Make Vegan Cupcakes
 # sent_id = GUM_whow_cupcakes-1
+# s_prominence = 2
 # s_type = inf
 # transition = establishment
 # text = How to Make Vegan Cupcakes
@@ -19,6 +20,7 @@
 5	Cupcakes	cupcake	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=1)
 
 # sent_id = GUM_whow_cupcakes-2
+# s_prominence = 3
 # s_type = frag
 # transition = null
 # text = Two Methods:
@@ -27,6 +29,7 @@
 3	:	:	PUNCT	:	_	2	punct	2:punct	XML=</hi>
 
 # sent_id = GUM_whow_cupcakes-3
+# s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Basic Vanilla Vegan Cupcakes
@@ -38,6 +41,7 @@
 4	Cupcakes	cupcake	NOUN	NNS	Number=Plur	0	root	0:root	Entity=3)
 
 # sent_id = GUM_whow_cupcakes-4
+# s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Basic Chocolate Vegan Cupcakes
@@ -49,6 +53,7 @@
 4	Cupcakes	cupcake	NOUN	NNS	Number=Plur	0	root	0:root	Entity=4)
 
 # sent_id = GUM_whow_cupcakes-5
+# s_prominence = 4
 # s_type = frag
 # transition = null
 # text = No need to give up wicked cakes when you toss the eggs, butter, and milk!
@@ -74,17 +79,18 @@
 18	!	!	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_whow_cupcakes-6
+# s_prominence = 3
 # s_type = decl
 # transition = establishment
 # text = Here's a great vegan cupcake recipe to use as a base for whatever flavored icing you want to add to it.
 1-2	Here's	_	_	_	_	_	_	_	_
-1	Here	here	ADV	RB	PronType=Dem	2	advmod	2:advmod	Discourse=evaluation-comment:8->3:2
-2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+1	Here	here	ADV	RB	PronType=Dem	0	root	0:root	Discourse=evaluation-comment:8->3:2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	1:aux	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(9-abstract-new-cf2-5-coref
-4	great	great	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
+4	great	great	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 5	vegan	vegan	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(10-object-new-cf5-2-sgl
 6	cupcake	cupcake	NOUN	NN	Number=Sing	7	compound	7:compound	Entity=10)
-7	recipe	recipe	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	Entity=9)
+7	recipe	recipe	NOUN	NN	Number=Sing	1	nsubj	1:nsubj	Entity=9)
 8	to	to	PART	TO	_	9	mark	9:mark	Discourse=purpose-attribute:9->8:0
 9	use	use	VERB	VB	VerbForm=Inf	7	acl	7:acl:to	_
 10	as	as	ADP	IN	_	12	case	12:case	_
@@ -100,9 +106,10 @@
 20	add	add	VERB	VB	VerbForm=Inf	18	xcomp	18:xcomp	_
 21	to	to	ADP	IN	_	22	case	22:case	_
 22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obl	20:obl:to	Entity=(9-abstract-giv:act-cf2-1-ana)12)11)|SpaceAfter=No
-23	.	.	PUNCT	.	_	2	punct	2:punct	_
+23	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_cupcakes-7
+# s_prominence = 4
 # s_type = decl
 # transition = zero
 # text = They're guaranteed to be light and fluffy and perfect for any occasion.
@@ -122,6 +129,7 @@
 14	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_whow_cupcakes-8
+# s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Ingredients
@@ -130,6 +138,7 @@
 1	Ingredients	ingredient	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:12->19:6|Entity=(14-substance-new-cf1-1-coref)
 
 # sent_id = GUM_whow_cupcakes-9
+# s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Method 1: Basic Vanilla Vegan Cupcakes:
@@ -145,6 +154,7 @@
 8	:	:	PUNCT	:	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_cupcakes-10
+# s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Servings: 18 - 24 (fewer if you opt for larger-sized cupcakes)
@@ -166,6 +176,7 @@
 16	)	)	PUNCT	-RRB-	_	7	punct	7:punct	_
 
 # sent_id = GUM_whow_cupcakes-11
+# s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 1 tablespoon (15 ml) apple cider vinegar
@@ -182,6 +193,7 @@
 9	vinegar	vinegar	NOUN	NN	Number=Sing	0	root	0:root	Entity=19)
 
 # sent_id = GUM_whow_cupcakes-12
+# s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 1 1/2 cups (350 ml) plain soy milk
@@ -199,6 +211,7 @@
 10	milk	milk	NOUN	NN	Number=Sing	0	root	0:root	Entity=22)
 
 # sent_id = GUM_whow_cupcakes-13
+# s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 2 3/4 cups (345 g) self raising flour
@@ -216,6 +229,7 @@
 10	flour	flour	NOUN	NN	Number=Sing	0	root	0:root	Entity=24)
 
 # sent_id = GUM_whow_cupcakes-14
+# s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 2 teaspoons (10 g) baking powder
@@ -231,6 +245,7 @@
 8	powder	powder	NOUN	NN	Number=Sing	0	root	0:root	Entity=25)
 
 # sent_id = GUM_whow_cupcakes-15
+# s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 1/2 teaspoon baking soda
@@ -242,6 +257,7 @@
 4	soda	soda	NOUN	NN	Number=Sing	0	root	0:root	Entity=26)
 
 # sent_id = GUM_whow_cupcakes-16
+# s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 1/2 teaspoon salt
@@ -252,6 +268,7 @@
 3	salt	salt	NOUN	NN	Number=Sing	0	root	0:root	Entity=27)
 
 # sent_id = GUM_whow_cupcakes-17
+# s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 1 cup (200 g) sugar
@@ -266,6 +283,7 @@
 7	sugar	sugar	NOUN	NN	Number=Sing	0	root	0:root	Discourse=same-unit_m:35->33:1|Entity=28)
 
 # sent_id = GUM_whow_cupcakes-18
+# s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 1/2 cup (120 ml) vegetable oil
@@ -281,6 +299,7 @@
 8	oil	oil	NOUN	NN	Number=Sing	0	root	0:root	Entity=29)
 
 # sent_id = GUM_whow_cupcakes-19
+# s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 1 teaspoon vanilla extract
@@ -292,6 +311,7 @@
 4	extract	extract	NOUN	NN	Number=Sing	0	root	0:root	Entity=30)
 
 # sent_id = GUM_whow_cupcakes-20
+# s_prominence = 1
 # s_type = frag
 # transition = null
 # text = Vegan icing of your choice
@@ -304,6 +324,7 @@
 5	choice	choice	NOUN	NN	Number=Sing	2	nmod	2:nmod:of	Entity=32)31)
 
 # sent_id = GUM_whow_cupcakes-21
+# s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Method 2: Basic Chocolate Vegan Cupcakes:
@@ -319,6 +340,7 @@
 8	:	:	PUNCT	:	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_cupcakes-22
+# s_prominence = 2
 # s_type = other
 # transition = null
 # text = Makes approx: 20 - 24 cupcakes:
@@ -332,6 +354,7 @@
 8	:	:	PUNCT	:	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_cupcakes-23
+# s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 275 g (2 cups) plain or all-purpose flour (sifted)
@@ -354,6 +377,7 @@
 15	)	)	PUNCT	-RRB-	_	14	punct	14:punct	Entity=35)
 
 # sent_id = GUM_whow_cupcakes-24
+# s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 100 g (3/4 cup) quality cocoa powder (sifted)
@@ -373,6 +397,7 @@
 12	)	)	PUNCT	-RRB-	_	11	punct	11:punct	Entity=36)
 
 # sent_id = GUM_whow_cupcakes-25
+# s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 2 teaspoons baking soda
@@ -384,6 +409,7 @@
 4	soda	soda	NOUN	NN	Number=Sing	0	root	0:root	Entity=37)
 
 # sent_id = GUM_whow_cupcakes-26
+# s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 1 teaspoon baking powder
@@ -395,6 +421,7 @@
 4	powder	powder	NOUN	NN	Number=Sing	0	root	0:root	Entity=38)
 
 # sent_id = GUM_whow_cupcakes-27
+# s_prominence = 1
 # s_type = frag
 # transition = null
 # text = Pinch of salt
@@ -405,6 +432,7 @@
 3	salt	salt	NOUN	NN	Number=Sing	1	nmod	1:nmod:of	Entity=39)
 
 # sent_id = GUM_whow_cupcakes-28
+# s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 450 ml (1 - 3/4 cup) unsweetened soy milk
@@ -423,6 +451,7 @@
 11	milk	milk	NOUN	NN	Number=Sing	0	root	0:root	Entity=40)
 
 # sent_id = GUM_whow_cupcakes-29
+# s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 2 teaspoons red wine or apple cider vinegar
@@ -438,6 +467,7 @@
 8	vinegar	vinegar	NOUN	NN	Number=Sing	4	conj	4:conj:or	Entity=43)
 
 # sent_id = GUM_whow_cupcakes-30
+# s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 320 g (1-2/3 cups) caster/superfine sugar
@@ -457,6 +487,7 @@
 12	sugar	sugar	NOUN	NN	Number=Sing	0	root	0:root	Entity=44)
 
 # sent_id = GUM_whow_cupcakes-31
+# s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 320 ml (1 - 1/4 cups) sunflower oil (or coconut oil)
@@ -479,6 +510,7 @@
 15	)	)	PUNCT	-RRB-	_	14	punct	14:punct	_
 
 # sent_id = GUM_whow_cupcakes-32
+# s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 2 tablespoons vanilla extract/essence
@@ -492,6 +524,7 @@
 6	essence	essence	NOUN	NN	Number=Sing	4	conj	4:conj:slash	Entity=47)|XML=</w>
 
 # sent_id = GUM_whow_cupcakes-33
+# s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Method 1 of 2: Basic Vanilla Vegan Cupcakes.
@@ -509,6 +542,7 @@
 10	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_cupcakes-34
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Preheat the oven to 180oC/350oF.
@@ -528,6 +562,7 @@
 12	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GUM_whow_cupcakes-35
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Prepare the muffin tray by adding cupcake holders/cases.
@@ -544,6 +579,7 @@
 11	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_cupcakes-36
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Put to one side.
@@ -554,6 +590,7 @@
 5	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_cupcakes-37
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Alternatively, use a silicone cupcake baking sheet with molded holes.
@@ -573,6 +610,7 @@
 12	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_whow_cupcakes-38
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Put the cider vinegar into a small bowl and add the soy milk.
@@ -594,6 +632,7 @@
 14	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GUM_whow_cupcakes-39
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Stir this well and then put to one side.
@@ -609,6 +648,7 @@
 10	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_cupcakes-40
+# s_prominence = 1
 # s_type = decl
 # transition = establishment
 # text = The mixture will now curdle and this is what should be happening.
@@ -627,6 +667,7 @@
 13	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_whow_cupcakes-41
+# s_prominence = 1
 # s_type = imp
 # transition = zero
 # text = Stir together the flour, sugar, baking powder, baking soda and salt.
@@ -649,6 +690,7 @@
 15	.	.	PUNCT	.	_	1	punct	1:punct	Entity=62)|XML=</hi>
 
 # sent_id = GUM_whow_cupcakes-42
+# s_prominence = 1
 # s_type = imp
 # transition = establishment
 # text = If you want chocolate cupcakes, add cocoa (about 1/2 cup) to this stage.
@@ -671,6 +713,7 @@
 17	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_whow_cupcakes-43
+# s_prominence = 1
 # s_type = imp
 # transition = zero
 # text = Stir the oil and vanilla extract into the bowl containing the soy milk and vinegar.
@@ -694,6 +737,7 @@
 16	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GUM_whow_cupcakes-44
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Mix together.
@@ -702,6 +746,7 @@
 3	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_cupcakes-45
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Add the wet ingredients to the dry ingredients and beat together (by hand or with an electric hand-held mixer).
@@ -733,6 +778,7 @@
 24	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GUM_whow_cupcakes-46
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Fill the muffin pan.
@@ -745,6 +791,7 @@
 5	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GUM_whow_cupcakes-47
+# s_prominence = 2
 # s_type = imp
 # transition = null
 # text = Usually fill each paper cupcake holder with about 1/4 cup of batter.
@@ -763,6 +810,7 @@
 13	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_whow_cupcakes-48
+# s_prominence = 2
 # s_type = imp
 # transition = establishment
 # text = If you prefer larger cupcakes, then add a half a cup but make sure the muffin pan is larger and the cupcake holders are bigger.
@@ -795,6 +843,7 @@
 27	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_whow_cupcakes-49
+# s_prominence = 1
 # s_type = imp
 # transition = zero
 # text = Bake for 18 - 20 minutes.
@@ -809,6 +858,7 @@
 7	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GUM_whow_cupcakes-50
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = If you can smell the cupcakes earlier, check to make sure they aren't browning earlier (this means they're more than ready).
@@ -842,6 +892,7 @@
 27	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_whow_cupcakes-51
+# s_prominence = 2
 # s_type = imp
 # transition = establishment
 # text = If you aren't certain, turn off the oven earlier and let them sit for a few more minutes rather than bake them into rocks.
@@ -875,6 +926,7 @@
 27	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_whow_cupcakes-52
+# s_prominence = 1
 # s_type = imp
 # transition = zero
 # text = Wait for the pan to cool down.
@@ -890,6 +942,7 @@
 8	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GUM_whow_cupcakes-53
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Place cupcakes onto a wire rack to cool.
@@ -904,6 +957,7 @@
 9	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_cupcakes-54
+# s_prominence = 1
 # s_type = imp
 # transition = establishment
 # text = Ice the cupcakes.
@@ -915,6 +969,7 @@
 4	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GUM_whow_cupcakes-55
+# s_prominence = 2
 # s_type = sub
 # transition = zero
 # text = The flavor of icing or frosting can be improved by adding a little of your favorite juice to it instead of soy milk or water.
@@ -946,6 +1001,7 @@
 26	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_whow_cupcakes-56
+# s_prominence = 1
 # s_type = other
 # transition = null
 # text = Finished.
@@ -955,6 +1011,7 @@
 2	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GUM_whow_cupcakes-57
+# s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Method 2 of 2: Basic Chocolate Vegan Cupcakes
@@ -971,6 +1028,7 @@
 9	Cupcakes	cupcake	NOUN	NNS	Number=Plur	1	appos	1:appos	Entity=4)
 
 # sent_id = GUM_whow_cupcakes-58
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Preheat the oven to 160oC/315oF.
@@ -990,6 +1048,7 @@
 12	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GUM_whow_cupcakes-59
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = If using cupcake cases, arrange on a baking sheet now.
@@ -1007,6 +1066,7 @@
 12	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_whow_cupcakes-60
+# s_prominence = 1
 # s_type = imp
 # transition = establishment
 # text = If using a silicone cupcake sheet, simply have it ready.
@@ -1024,6 +1084,7 @@
 12	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_whow_cupcakes-61
+# s_prominence = 1
 # s_type = imp
 # transition = zero
 # text = Add the flour, cocoa powder, baking soda and pinch of salt to the mixing bowl.
@@ -1049,6 +1110,7 @@
 18	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GUM_whow_cupcakes-62
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Mix to combine.
@@ -1058,6 +1120,7 @@
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_cupcakes-63
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Pour the soy milk, vinegar, sugar, oil and vanilla into another bowl.
@@ -1081,6 +1144,7 @@
 16	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GUM_whow_cupcakes-64
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Whisk together well.
@@ -1090,6 +1154,7 @@
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_cupcakes-65
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Pour the liquid mixture into the flour mixture.
@@ -1106,6 +1171,7 @@
 9	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GUM_whow_cupcakes-66
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Stir to combine thoroughly.
@@ -1116,6 +1182,7 @@
 5	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_cupcakes-67
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Pour into the cupcake cases or cupcake holes.
@@ -1132,6 +1199,7 @@
 9	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GUM_whow_cupcakes-68
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Place into the oven.
@@ -1144,6 +1212,7 @@
 5	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GUM_whow_cupcakes-69
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Bake for 20 to 25 minutes.
@@ -1156,6 +1225,7 @@
 7	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_cupcakes-70
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = If they smell strongly earlier, test with a wooden skewer; if it returns clean after sticking into a cupcake, they're ready.
@@ -1187,6 +1257,7 @@
 26	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_whow_cupcakes-71
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Remove from the oven.
@@ -1199,6 +1270,7 @@
 5	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GUM_whow_cupcakes-72
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Transfer the cupcakes to a wire cooling rack as quickly as possible when cool enough to handle.
@@ -1222,6 +1294,7 @@
 18	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_cupcakes-73
+# s_prominence = 1
 # s_type = imp
 # transition = establishment
 # text = Let cool completely on the rack.
@@ -1234,6 +1307,7 @@
 7	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_cupcakes-74
+# s_prominence = 1
 # s_type = imp
 # transition = zero
 # text = Frost as desired.
@@ -1245,6 +1319,7 @@
 4	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GUM_whow_cupcakes-75
+# s_prominence = 2
 # s_type = imp
 # transition = zero
 # text = Add standard frosting or make vegan butter cream.
@@ -1259,6 +1334,7 @@
 9	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_cupcakes-76
+# s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Tips
@@ -1267,6 +1343,7 @@
 1	Tips	tip	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:145->146:4
 
 # sent_id = GUM_whow_cupcakes-77
+# s_prominence = 1
 # s_type = sub
 # transition = null
 # text = You can add pureed fruit for delicious flavor changes.
@@ -1284,6 +1361,7 @@
 10	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_whow_cupcakes-78
+# s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = One small container of pureed fruit is sufficient for flavoring (the little containers that children take to school in their lunchboxes.)
@@ -1313,6 +1391,7 @@
 24	)	)	PUNCT	-RRB-	_	14	punct	14:punct	_
 
 # sent_id = GUM_whow_cupcakes-79
+# s_prominence = 2
 # s_type = imp
 # transition = zero
 # text = Try strawberry, apple, banana, apricot, peach etc.
@@ -1329,6 +1408,7 @@
 11	etc.	etc.	X	FW	Abbr=Yes	2	conj	1:obj|2:conj	_
 
 # sent_id = GUM_whow_cupcakes-80
+# s_prominence = 2
 # s_type = sub
 # transition = null
 # text = The cupcakes will not be as light and fluffy, however, so be prepared for a heavier cupcake if you add fruit but the added moisture content is a definite plus.
@@ -1367,6 +1447,7 @@
 33	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_whow_cupcakes-81
+# s_prominence = 1
 # s_type = sub
 # transition = establishment
 # text = Instead of using vegan sugar, you can replace it with equal parts maple sugar or rice syrup
@@ -1392,6 +1473,7 @@
 18	syrup	syrup	NOUN	NN	Number=Sing	15	conj	9:obl:with|15:conj:or	Entity=113)
 
 # sent_id = GUM_whow_cupcakes-82
+# s_prominence = 1
 # s_type = imp
 # transition = retain
 # text = Instead of using vegetable oil, try substituting it for walnut or macadamia nut oils if they are available to you.
@@ -1421,6 +1503,7 @@
 22	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_whow_cupcakes-83
+# s_prominence = 1
 # s_type = decl
 # transition = zero
 # text = Coconut oil also produces good results.
@@ -1433,6 +1516,7 @@
 7	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_whow_cupcakes-84
+# s_prominence = 1
 # s_type = decl
 # transition = null
 # text = And olive oil works fine if it's all that's left in the pantry.
@@ -1456,6 +1540,7 @@
 16	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_whow_cupcakes-85
+# s_prominence = 1
 # s_type = sub
 # transition = null
 # text = You can replace the plain soy milk with other flavors like chocolate or vanilla if you want to experiment with changing the flavor of the cupcakes.
@@ -1490,6 +1575,7 @@
 27	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_whow_cupcakes-86
+# s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Experiment with the flavors of either recipe by replacing the vanilla extract with fragrant ingredients like neroli orange oil, rosewater, orange blossom water or coconut extract.
