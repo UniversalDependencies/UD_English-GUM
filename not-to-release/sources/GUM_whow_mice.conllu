@@ -613,7 +613,7 @@
 # text = Be sure to keep the feces out of the reach of children and pets.
 # newpar
 # newpar_block = list type:::"unordered" (1 s) | item (1 s) | p (1 s)
-1	Be	be	AUX	VB	VerbForm=Inf	2	cop	2:cop	Discourse=elaboration-additional:53->46:4
+1	Be	be	AUX	VB	Mood=Imp|Person=2|VerbForm=Fin	2	cop	2:cop	Discourse=elaboration-additional:53->46:4
 2	sure	sure	ADJ	JJ	Degree=Pos	0	root	0:root	_
 3	to	to	PART	TO	_	4	mark	4:mark	_
 4	keep	keep	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	_
@@ -948,7 +948,7 @@
 # transition = null
 # text = Just be aware, not all cats have enough energy, interest or training to hunt mice.
 1	Just	just	ADV	RB	_	3	advmod	3:advmod	Discourse=organization-preparation:86->87:1
-2	be	be	AUX	VB	VerbForm=Inf	3	cop	3:cop	_
+2	be	be	AUX	VB	Mood=Imp|Person=2|VerbForm=Fin	3	cop	3:cop	_
 3	aware	aware	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
 4	,	,	PUNCT	,	_	8	punct	8:punct	_
 5	not	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	Discourse=adversative-concession:87->80:1
@@ -1028,7 +1028,7 @@
 # newpar_block = list type:::"unordered" (9 s) | item (2 s) | p (2 s)
 1	Shelters	shelter	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj|22:nsubj	Discourse=attribution-negative:94->95:0|Entity=(107-organization-new-cf2-1-sgl)
 2	and	and	CCONJ	CC	_	4	cc	4:cc	_
-3	adoption	adoption	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(108-organization-new-cf4-2-sgl
+3	adoption	adoption	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(108-organization-new-cf5-2-sgl
 4	agencies	agency	NOUN	NNS	Number=Plur	1	conj	1:conj:and|8:nsubj	Entity=108)
 5	often	often	ADV	RB	Degree=Pos	8	advmod	8:advmod	_
 6	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
@@ -1038,10 +1038,10 @@
 10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(110-animal-new-cf3-2-sgl
 11	cat	cat	NOUN	NN	Number=Sing	16	nsubj	16:nsubj	Entity=110)
 12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	16:cop	_
-13	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(111-animal-new-cf5-4-sgl
+13	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(111-animal-new-cf4-4-sgl
 14	good	good	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
 15	mouse	mouse	NOUN	NN	Number=Sing	16	compound	16:compound	_
-16	hunter	hunter	NOUN	NN	Number=Sing	8	advcl	8:advcl:if	Entity=111)109)|SpaceAfter=No
+16	hunter	hunter	NOUN	NN	Number=Sing	8	ccomp	8:ccomp	Entity=111)109)|SpaceAfter=No
 17	,	,	PUNCT	,	_	22	punct	22:punct	_
 18	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=joint-list_m:96->95:1
 19	generally	generally	ADV	RB	Degree=Pos	22	advmod	22:advmod	_

@@ -818,7 +818,7 @@
 16	years	year	NOUN	NNS	Number=Plur	14	nmod	14:nmod:for	SpaceAfter=No
 17	,	,	PUNCT	,	_	20	punct	20:punct	_
 18	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=joint-list_m:73->72:0
-19	those	this	DET	DT	Number=Plur|PronType=Dem	20	det	20:det	Entity=(46-person-giv:act-cf2-2-coref
+19	those	that	DET	DT	Number=Plur|PronType=Dem	20	det	20:det	Entity=(46-person-giv:act-cf2-2-coref
 20	writers	writer	NOUN	NNS	Number=Plur	4	conj	2:obj|4:conj:and	Entity=46)
 21	training	train	VERB	VBG	VerbForm=Ger	20	acl	20:acl	_
 22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(46-person-giv:act-cf2-3-coref
@@ -874,28 +874,28 @@
 # transition = zero
 # text = One example is we ran an article a couple of years back that was, "No Jennifer Lopez News Today".
 1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=elaboration-additional:78->77:1|Entity=(104-abstract-new-cf3-2-sgl
-2	example	example	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=104)
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+2	example	example	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=104)
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(14-person-giv:inact-cf2-1-ana)
-5	ran	run	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	ccomp	3:ccomp	_
-6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(105-abstract-new-cf1-4-coref
-7	article	article	NOUN	NN	Number=Sing	5	obj	5:obj	_
+5	ran	run	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(105-abstract-new-cf1-2,14-coref
+7	article	article	NOUN	NN	Number=Sing	5	obj	5:obj|20:nsubj	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(106-time-new-cf4-2-sgl|XML=<date notAfter:::"2007-11-25">
-9	couple	couple	NOUN	NN	Number=Sing	5	obl:npmod	5:obl:npmod|14:nsubj	_
+9	couple	couple	NOUN	NN	Number=Sing	12	obl:npmod	12:obl:npmod	_
 10	of	of	ADP	IN	_	11	case	11:case	_
 11	years	year	NOUN	NNS	Number=Plur	9	nmod	9:nmod:of	Entity=106)
-12	back	back	ADV	RB	Degree=Pos	11	advmod	11:advmod	XML=</date>
-13	that	that	PRON	WDT	PronType=Rel	14	nsubj	9:ref	Discourse=elaboration-attribute:79->78:0
-14	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl:relcl	9:acl:relcl	SpaceAfter=No
-15	,	,	PUNCT	,	_	21	punct	21:punct	_
-16	"	''	PUNCT	``	_	21	punct	21:punct	Entity=(107-abstract-new-cf5-6-coref|SpaceAfter=No|XML=<q>
-17	No	no	DET	DT	Polarity=Neg|PronType=Art	21	det	21:det	_
-18	Jennifer	Jennifer	PROPN	NNP	Number=Sing	21	compound	21:compound	Entity=(105-abstract-giv:act-cf1-3-coref(108-person-new-cf7-2-coref-Jennifer_Lopez|XML=<ref target:::"https://en.wikipedia.org/wiki/Jennifer_Lopez">
-19	Lopez	Lopez	PROPN	NNP	Number=Sing	21	compound	21:compound	Entity=108)|XML=</ref>
-20	News	news	NOUN	NN	Number=Sing	21	compound	21:compound	Entity=105)
-21	Today	today	NOUN	NN	Number=Sing	14	parataxis	14:parataxis	Entity=(109-time-new-cf6-1-sgl)|SpaceAfter=No
-22	"	''	PUNCT	''	_	21	punct	21:punct	Entity=107)105)|SpaceAfter=No|XML=</q>
-23	.	.	PUNCT	.	_	3	punct	3:punct	_
+12	back	back	ADV	RB	Degree=Pos	7	advmod	7:advmod	XML=</date>
+13	that	that	PRON	WDT	PronType=Rel	20	nsubj	7:ref	Discourse=elaboration-attribute:79->78:0
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	20:cop	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	14:punct	_
+16	"	''	PUNCT	``	_	20	punct	20:punct	Entity=(107-abstract-new-cf5-4,5-coref|SpaceAfter=No|XML=<q>
+17	No	no	DET	DT	Polarity=Neg|PronType=Art	20	det	20:det	_
+18	Jennifer	Jennifer	PROPN	NNP	Number=Sing	20	compound	20:compound	Entity=(105-abstract-giv:act-cf1-2,3-coref(108-person-new-cf7-1,2-coref-Jennifer_Lopez|XML=<ref target:::"https://en.wikipedia.org/wiki/Jennifer_Lopez">
+19	Lopez	Lopez	PROPN	NNP	Number=Sing	18	flat	18:flat	Entity=108)|XML=</ref>
+20	News	news	NOUN	NN	Number=Sing	7	acl:relcl	7:acl:relcl	Entity=105)
+21	Today	today	NOUN	NN	Number=Sing	20	obl:tmod	20:obl:tmod	Entity=(109-time-new-cf6-1-sgl)|SpaceAfter=No
+22	"	''	PUNCT	''	_	20	punct	20:punct	Entity=107)105)|SpaceAfter=No|XML=</q>
+23	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_interview_onion-36
 # s_prominence = 4
@@ -951,7 +951,7 @@
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(114-abstract-new-cf3-2-sgl
 3	fact	fact	NOUN	NN	Number=Sing	0	root	0:root	_
 4	that	that	SCONJ	IN	_	9	mark	9:mark	Discourse=elaboration-attribute:83->82:0
-5	those	this	PRON	DT	Number=Plur|PronType=Dem	9	nsubj	9:nsubj	Entity=(111-abstract-giv:act-cf1*-1-ana)
+5	those	that	PRON	DT	Number=Plur|PronType=Dem	9	nsubj	9:nsubj	Entity=(111-abstract-giv:act-cf1*-1-ana)
 6	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	cop	9:cop	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(111-abstract-giv:act-cf1*-3-coref
 8	lead	lead	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
@@ -991,7 +991,7 @@
 9	original	original	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
 10	take	take	NOUN	NN	Number=Sing	7	obj	7:obj	_
 11	on	on	ADP	IN	_	13	case	13:case	_
-12	those	this	DET	DT	Number=Plur|PronType=Dem	13	det	13:det	Entity=(111-abstract-giv:act-cf1*-2-coref
+12	those	that	DET	DT	Number=Plur|PronType=Dem	13	det	13:det	Entity=(111-abstract-giv:act-cf1*-2-coref
 13	things	thing	NOUN	NNS	Number=Plur	10	nmod	10:nmod:on	Entity=111)121)120)|SpaceAfter=No
 14	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -1472,7 +1472,7 @@
 10	30	30	PROPN	NNP	Number=Sing	7	conj	5:obl:on|7:conj:and	Entity=(156-abstract-new-cf4-1,2-sgl-30_Rock|XML=<ref target:::"https://en.wikipedia.org/wiki/30_Rock"><hi rend:::"italic">
 11	Rock	Rock	PROPN	NNP	Number=Sing	10	flat	10:flat	Entity=156)154)|SpaceAfter=No|XML=</hi></ref>
 12	,	,	PUNCT	,	_	3	punct	3:punct	_
-13	those	this	PRON	DT	Number=Plur|PronType=Dem	17	nsubj	17:nsubj	Entity=(154-place-giv:act-cf1-1-ana)
+13	those	that	PRON	DT	Number=Plur|PronType=Dem	17	nsubj	17:nsubj	Entity=(154-place-giv:act-cf1-1-ana)
 14	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	17:cop	_
 15	scripted	script	VERB	VBN	Tense=Past|VerbForm=Part	17	amod	17:amod	Entity=(154-place-giv:act-cf1-3-coref
 16	writers	writer	NOUN	NNS	Number=Plur	17	compound	17:compound	_

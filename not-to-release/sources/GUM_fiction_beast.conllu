@@ -52,7 +52,7 @@
 17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	20:nsubj	_
 18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	20:cop	_
 19	really	really	ADV	RB	Degree=Pos	20	advmod	20:advmod	_
-20	warmer	warm	ADJ	JJR	Degree=Cmp	15	advcl	15:advcl:if	SpaceAfter=No
+20	warmer	warm	ADJ	JJR	Degree=Cmp	15	ccomp	15:ccomp	SpaceAfter=No
 21	,	,	PUNCT	,	_	26	punct	26:punct	_
 22	but	but	CCONJ	CC	_	26	cc	26:cc	Discourse=causal-cause:6->7:0
 23	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	26	nsubj	26:nsubj	Entity=(6-person-giv:act-cf1-1-ana)
@@ -1001,7 +1001,7 @@
 3	if	if	SCONJ	IN	_	6	mark	6:mark	Discourse=joint-sequence_m:94->24:3
 4	anyone	anyone	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=(123-person-new-cf4-1-sgl)
 5	ever	ever	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
-6	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	2:advcl:if	_
+6	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	2:ccomp	_
 7	back	back	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
 8	under	under	ADP	IN	_	10	case	10:case	Entity=(94-place-giv:inact-cf1-3-coref
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(81-object-giv:inact-cf3-2-coref
@@ -1009,7 +1009,7 @@
 11	,	,	PUNCT	,	_	14	punct	14:punct	_
 12	if	if	SCONJ	IN	_	14	mark	14:mark	Discourse=joint-list_m:95->94:0
 13	there	there	PRON	EX	PronType=Dem	14	expl	14:expl	_
-14	were	be	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	conj	2:advcl:if|6:conj	_
+14	were	be	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	conj	2:ccomp|6:conj	_
 15	crickets	cricket	NOUN	NNS	Number=Plur	14	nsubj	14:nsubj	Entity=(124-animal-new-cf5-1-sgl)
 16	or	or	CCONJ	CC	_	17	cc	17:cc	_
 17	mice	mouse	NOUN	NNS	Number=Plur	15	conj	14:nsubj|15:conj:or	Entity=(125-animal-new-cf6-1-coref)
@@ -1365,7 +1365,7 @@
 # s_type = decl
 # transition = null
 # text = Once in a fever I heard thousands of birds outside my window and I was terrified that they would fling themselves through the glass and attack me, but it was only the rain on the eaves.
-1	Once	once	ADV	RB	NumType=Mult	6	advmod	6:advmod	Discourse=context-circumstance:126->127:2
+1	Once	once	ADV	RB	NumForm=Word|NumType=Mult	6	advmod	6:advmod	Discourse=context-circumstance:126->127:2
 2	in	in	ADP	IN	_	4	case	4:case	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(150-event-new-cf7-2-sgl
 4	fever	fever	NOUN	NN	Number=Sing	1	nmod	1:nmod:in	Entity=150)
