@@ -1,8 +1,10 @@
 # newdoc id = GUM_speech_inauguration
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Ronald Reagan
 # meta::dateCollected = 2020-09-05
 # meta::dateCreated = 1981-01-20
 # meta::dateModified = 1981-01-20
+# meta::genre = speech
 # meta::sourceURL = https://www.presidency.ucsb.edu
 # meta::speakerCount = 1
 # meta::title = Inaugural Adress Ronald Reagan
@@ -42,7 +44,7 @@
 26	Moomaw	Moomaw	PROPN	NNP	Number=Sing	25	flat	25:flat	Entity=8)|SpaceAfter=No
 27	,	,	PUNCT	,	_	31	punct	31:punct	_
 28	and	and	CCONJ	CC	_	31	cc	31:cc	_
-29	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	31	nmod:poss	31:nmod:poss	Entity=(9-person-new-cf10-3-coref-Americans(10-person-acc:com-cf1-1-ana)
+29	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	31	nmod:poss	31:nmod:poss	Entity=(9-person-new-cf10-3-coref-Americans(10-person-acc:com-cf1-1-ana)
 30	fellow	fellow	ADJ	JJ	Degree=Pos	31	amod	31:amod	_
 31	citizens	citizen	NOUN	NNS	Number=Plur	1	conj	1:conj:and	Entity=9)|SpaceAfter=No
 32	:	:	PUNCT	:	_	1	punct	1:punct	_
@@ -77,7 +79,7 @@
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(15-abstract-new-cf5-2-sgl
 21	history	history	NOUN	NN	Number=Sing	29	nmod	29:nmod:in	_
 22	of	of	ADP	IN	_	24	case	24:case	_
-23	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	24:nmod:poss	Entity=(16-place-new-cf6-2-coref-United_States(9-person-giv:act-cf2*-1-ana-Americans)
+23	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	24:nmod:poss	Entity=(16-place-new-cf6-2-coref-United_States(9-person-giv:act-cf2*-1-ana-Americans)
 24	nation	nation	NOUN	NN	Number=Sing	21	nmod	21:nmod:of	Entity=16)15)
 25	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	nsubj	29:nsubj	Entity=(14-event-giv:act-cf1-1-ana)
 26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	29:cop	_
@@ -122,8 +124,8 @@
 28	stop	stop	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	conj	13:conj:and	_
 29	to	to	PART	TO	_	30	mark	30:mark	_
 30	think	think	VERB	VB	VerbForm=Inf	28	advcl	28:advcl:to	_
-31	how	how	ADV	WRB	PronType=Rel	32	advmod	32:advmod	Discourse=adversative-contrast_m:9->4:3
-32	unique	unique	ADJ	JJ	Degree=Pos	30	acl:relcl	30:acl:relcl	_
+31	how	how	ADV	WRB	PronType=Int	32	advmod	32:advmod	Discourse=adversative-contrast_m:9->4:3
+32	unique	unique	ADJ	JJ	Degree=Pos	30	ccomp	30:ccomp	_
 33	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	32	nsubj	32:nsubj	Entity=(9-person-giv:act-cf1*-1-ana-Americans)
 34	really	really	ADV	RB	Degree=Pos	32	advmod	32:advmod	_
 35	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	32	cop	32:cop	SpaceAfter=No
@@ -155,7 +157,7 @@
 18	as	as	ADP	IN	_	19	case	19:case	_
 19	normal	normal	ADJ	JJ	Degree=Pos	17	obl	17:obl:as	Entity=14)
 20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	21:cop	Discourse=same-unit_m:12->10:1
-21	nothing	nothing	NOUN	NN	Number=Sing|Polarity=Neg	0	root	0:root	Entity=(14-event-giv:act-cf2-1-pred
+21	nothing	nothing	PRON	NN	Number=Sing|Polarity=Neg|PronType=Neg	0	root	0:root	Entity=(14-event-giv:act-cf2-1-pred
 22	less	less	ADJ	JJR	Degree=Cmp	21	amod	21:amod	_
 23	than	than	ADP	IN	_	25	case	25:case	_
 24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	25:det	Entity=(24-event-new-cf5-2-sgl
@@ -175,7 +177,7 @@
 3	,	,	PUNCT	,	_	1	punct	1:punct	_
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(10-person-giv:inact-cf4-1-ana)
 5	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-6	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(9-person-giv:act-cf3-3-coref-Americans(25-person-acc:aggr-cf5-1-sgl)|SplitAnte=3<25,10<25
+6	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(9-person-giv:act-cf3-3-coref-Americans(25-person-acc:aggr-cf5-1-sgl)|SplitAnte=3<25,10<25
 7	fellow	fellow	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	citizens	citizen	NOUN	NNS	Number=Plur	5	obj	5:obj|10:nsubj:xsubj	Entity=9)
 9	to	to	PART	TO	_	10	mark	10:mark	_
@@ -198,7 +200,7 @@
 # transition = smooth-shift
 # text = By your gracious cooperation in the transition process, you have shown a watching world that we are a united people pledged to maintaining a political system which guarantees individual liberty to a greater degree than any other, and I thank you and your people for all your help in maintaining the continuity which is the bulwark of our Republic.
 1	By	by	ADP	IN	_	4	case	4:case	Discourse=attribution-positive:15->16:1
-2	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(26-abstract-new-cf11-3-sgl(3-person-giv:act-cf1*-1-ana-Jimmy_Carter)
+2	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(26-abstract-new-cf11-3-sgl(3-person-giv:act-cf1*-1-ana-Jimmy_Carter)
 3	gracious	gracious	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	cooperation	cooperation	NOUN	NN	Number=Sing	12	obl	12:obl:by	_
 5	in	in	ADP	IN	_	8	case	8:case	_
@@ -241,11 +243,11 @@
 42	thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	conj	12:conj:and	_
 43	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	42	obj	42:obj	Entity=(3-person-giv:act-cf1*-1-ana-Jimmy_Carter)
 44	and	and	CCONJ	CC	_	46	cc	46:cc	_
-45	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	46	nmod:poss	46:nmod:poss	Entity=(34-person-new-cf10-2-sgl(3-person-giv:act-cf1*-1-ana-Jimmy_Carter)
+45	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	46	nmod:poss	46:nmod:poss	Entity=(34-person-new-cf10-2-sgl(3-person-giv:act-cf1*-1-ana-Jimmy_Carter)
 46	people	person	NOUN	NNS	Number=Plur	43	conj	42:obj|43:conj:and	Entity=34)
 47	for	for	ADP	IN	_	50	case	50:case	_
 48	all	all	DET	PDT	PronType=Tot	50	det:predet	50:det:predet	Entity=(35-event-new-cf9-3-sgl
-49	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	50	nmod:poss	50:nmod:poss	Entity=(3-person-giv:act-cf1*-1-ana-Jimmy_Carter)
+49	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	50	nmod:poss	50:nmod:poss	Entity=(3-person-giv:act-cf1*-1-ana-Jimmy_Carter)
 50	help	help	NOUN	NN	Number=Sing	42	obl	42:obl:for	_
 51	in	in	SCONJ	IN	_	52	mark	52:mark	Discourse=elaboration-attribute:20->19:0
 52	maintaining	maintain	VERB	VBG	VerbForm=Ger	50	acl	50:acl:in	_
@@ -256,7 +258,7 @@
 57	the	the	DET	DT	Definite=Def|PronType=Art	58	det	58:det	Entity=(36-abstract-giv:act-cf4-2-coref
 58	bulwark	bulwark	NOUN	NN	Number=Sing	54	acl:relcl	54:acl:relcl	_
 59	of	of	ADP	IN	_	61	case	61:case	_
-60	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	61	nmod:poss	61:nmod:poss	Entity=(16-place-giv:inact-cf5-2-coref-United_States(9-person-giv:act-cf2-1-ana-Americans)
+60	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	61	nmod:poss	61:nmod:poss	Entity=(16-place-giv:inact-cf5-2-coref-United_States(9-person-giv:act-cf2-1-ana-Americans)
 61	Republic	Republic	PROPN	NNP	Number=Sing	58	nmod	58:nmod:of	Entity=16)36)36)35)|SpaceAfter=No
 62	.	.	PUNCT	.	_	12	punct	12:punct	_
 
@@ -271,7 +273,7 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=organization-preparation:22->23:1|Entity=(37-abstract-new-cf3-2-sgl
 2	business	business	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	_
 3	of	of	ADP	IN	_	5	case	5:case	_
-4	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(16-place-giv:act-cf2-2-coref-United_States(9-person-giv:act-cf1*-1-ana-Americans)
+4	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(16-place-giv:act-cf2-2-coref-United_States(9-person-giv:act-cf1*-1-ana-Americans)
 5	nation	nation	NOUN	NN	Number=Sing	2	nmod	2:nmod:of	Entity=16)37)
 6	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 7	forward	forward	ADV	RB	Degree=Pos	6	advmod	6:advmod	SpaceAfter=No
@@ -316,7 +318,7 @@
 11	sustained	sustain	VERB	VBN	Tense=Past|VerbForm=Part	12	amod	12:amod	_
 12	inflations	inflation	NOUN	NNS	Number=Plur	2	obl	2:obl:from	_
 13	in	in	ADP	IN	_	16	case	16:case	_
-14	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(41-abstract-new-cf3-3-sgl(9-person-giv:act-cf1-1-ana-Americans)
+14	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(41-abstract-new-cf3-3-sgl(9-person-giv:act-cf1-1-ana-Americans)
 15	national	national	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
 16	history	history	NOUN	NN	Number=Sing	12	nmod	12:nmod:in	Entity=41)40)|SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -329,7 +331,7 @@
 # text = It distorts our economic decisions, penalizes thrift, and crushes the struggling young and the fixed-income elderly alike.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|7:nsubj|11:nsubj	Discourse=elaboration-additional:25->24:0|Entity=(40-abstract-giv:act-cf1*-1-ana)
 2	distorts	distort	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(42-abstract-new-cf3-3-sgl(9-person-giv:act-cf2-1-ana-Americans)
+3	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(42-abstract-new-cf3-3-sgl(9-person-giv:act-cf2-1-ana-Americans)
 4	economic	economic	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
 5	decisions	decision	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=42)|SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	7:punct	_
@@ -365,7 +367,7 @@
 7	of	of	ADP	IN	_	8	case	8:case	_
 8	millions	million	NOUN	NNS	Number=Plur	6	nmod	6:nmod:of	Entity=(47-person-new-cf4-1-sgl
 9	of	of	ADP	IN	_	11	case	11:case	_
-10	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(9-person-giv:act-cf2-1-ana-Americans)
+10	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(9-person-giv:act-cf2-1-ana-Americans)
 11	people	person	NOUN	NNS	Number=Plur	8	nmod	8:nmod:of	Entity=47)46)|SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -409,7 +411,7 @@
 8	fair	fair	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 9	return	return	NOUN	NN	Number=Sing	6	obj	6:obj	_
 10	for	for	ADP	IN	_	12	case	12:case	_
-11	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(55-abstract-new-cf6-2-sgl(53-person-giv:act-cf1-1-ana)
+11	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(55-abstract-new-cf6-2-sgl(53-person-giv:act-cf1-1-ana)
 12	labor	labor	NOUN	NN	Number=Sing	9	nmod	9:nmod:for	Entity=55)54)
 13	by	by	ADP	IN	_	16	case	16:case	_
 14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(56-abstract-new-cf7-3-sgl
@@ -439,7 +441,7 @@
 1	But	but	CCONJ	CC	_	12	cc	12:cc	Discourse=organization-preparation:35->38:1
 2	great	great	ADJ	JJ	Degree=Pos	12	advcl	12:advcl	Discourse=adversative-concession:36->37:0
 3	as	as	SCONJ	IN	_	7	mark	7:mark	_
-4	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(60-abstract-new-cf1-3-coref(9-person-giv:act-cf2*-1-ana-Americans)
+4	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(60-abstract-new-cf1-3-coref(9-person-giv:act-cf2*-1-ana-Americans)
 5	tax	tax	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=(57-abstract-giv:act-cf3-1-coref)
 6	burden	burden	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=60)
 7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	2:advcl:as	SpaceAfter=No
@@ -470,10 +472,10 @@
 8	deficit	deficit	NOUN	NN	Number=Sing	5	obl	5:obl:upon	Entity=(64-abstract-new-cf8-1-sgl)|SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	10:punct	_
 10	mortgaging	mortgage	VERB	VBG	VerbForm=Ger	5	advcl	5:advcl	Discourse=elaboration-additional:39->38:0
-11	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(65-abstract-new-cf3-2-sgl(9-person-giv:act-cf1*-1-ana-Americans)
+11	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(65-abstract-new-cf3-2-sgl(9-person-giv:act-cf1*-1-ana-Americans)
 12	future	future	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=65)
 13	and	and	CCONJ	CC	_	17	cc	17:cc	_
-14	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	15:nmod:poss	Entity=(66-abstract-new-cf9-4-sgl(67-person-new-cf6-2-sgl(9-person-giv:act-cf1*-1-ana-Americans)
+14	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	15:nmod:poss	Entity=(66-abstract-new-cf9-4-sgl(67-person-new-cf6-2-sgl(9-person-giv:act-cf1*-1-ana-Americans)
 15-16	children's	_	_	_	_	_	_	_	_
 15	children	child	NOUN	NNS	Number=Plur	17	nmod:poss	17:nmod:poss	_
 16	's	's	PART	POS	_	15	case	15:case	Entity=67)
@@ -494,7 +496,7 @@
 # transition = zero
 # text = To continue this long trend is to guarantee tremendous social, cultural, political, and economic upheavals.
 1	To	to	PART	TO	_	2	mark	2:mark	Discourse=evaluation-comment:40->38:2
-2	continue	continue	VERB	VB	VerbForm=Inf	8	csubj	8:csubj	_
+2	continue	continue	VERB	VB	VerbForm=Inf	8	csubj:outer	8:csubj:outer	_
 3	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	5:det	Entity=(70-abstract-new-cf1-3-sgl
 4	long	long	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
 5	trend	trend	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=70)
@@ -535,7 +537,7 @@
 12	,	,	PUNCT	,	_	11	punct	11:punct	_
 13	live	live	VERB	VB	VerbForm=Inf	0	root	0:root	Discourse=same-unit_m:43->41:1
 14	beyond	beyond	ADP	IN	_	16	case	16:case	_
-15	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(75-abstract-new-cf4-2-sgl(72-person-giv:act-cf1-1-ana)
+15	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(75-abstract-new-cf4-2-sgl(72-person-giv:act-cf1-1-ana)
 16	means	means	NOUN	NNS	Number=Plur	13	obl	13:obl:beyond	Entity=75)|SpaceAfter=No
 17	,	,	PUNCT	,	_	23	punct	23:punct	_
 18	but	but	CCONJ	CC	_	23	cc	23:cc	Discourse=explanation-justify:44->46:1
@@ -733,7 +735,7 @@
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(89-abstract-new-cf4-2-sgl
 10	solution	solution	NOUN	NN	Number=Sing	0	root	0:root	_
 11	to	to	ADP	IN	_	13	case	13:case	_
-12	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(90-abstract-new-cf5-2-sgl(9-person-giv:act-cf1*-1-ana-Americans)
+12	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(90-abstract-new-cf5-2-sgl(9-person-giv:act-cf1*-1-ana-Americans)
 13	problem	problem	NOUN	NN	Number=Sing	10	nmod	10:nmod:to	Entity=90)89)|SpaceAfter=No
 14	;	;	PUNCT	:	_	18	punct	18:punct	_
 15	government	government	NOUN	NN	Number=Sing	18	nsubj	18:nsubj	Discourse=explanation-motivation:63->72:3|Entity=(88-organization-giv:act-cf2-1-coref)
@@ -803,7 +805,7 @@
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	if	if	SCONJ	IN	_	9	mark	9:mark	Discourse=contingency-condition:68->70:1
 4	no	no	DET	DT	Polarity=Neg|PronType=Art	5	det	5:det	Entity=(99-person-new-cf1-2-coref
-5	one	one	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	_
+5	one	one	PRON	NN	Number=Sing|PronType=Neg	9	nsubj	9:nsubj	_
 6	among	among	ADP	IN	_	7	case	7:case	_
 7	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	nmod	5:nmod:among	Entity=(9-person-giv:act-cf2*-1-ana-Americans)99)
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
@@ -821,7 +823,7 @@
 20	capacity	capacity	NOUN	NN	Number=Sing	18	obj	18:obj	_
 21	to	to	PART	TO	_	22	mark	22:mark	Discourse=purpose-attribute:71->70:0
 22	govern	govern	VERB	VB	VerbForm=Inf	20	acl	20:acl:to	_
-23	someone	someone	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=(101-person-new-cf4-1-sgl
+23	someone	someone	PRON	NN	Number=Sing|PronType=Ind	22	obj	22:obj	Entity=(101-person-new-cf4-1-sgl
 24	else	else	ADV	RB	Degree=Pos	23	advmod	23:advmod	Entity=101)100)|SpaceAfter=No
 25	?	?	PUNCT	.	_	18	punct	18:punct	_
 
@@ -900,7 +902,7 @@
 # text = Well, our concern must be for a special interest group that has been too long neglected.
 1	Well	well	INTJ	UH	_	11	discourse	11:discourse	Discourse=elaboration-additional:79->72:2|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(108-abstract-new-cf3-2-sgl(9-person-giv:act-cf1*-1-ana-Americans)
+3	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(108-abstract-new-cf3-2-sgl(9-person-giv:act-cf1*-1-ana-Americans)
 4	concern	concern	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	Entity=108)
 5	must	must	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
 6	be	be	AUX	VB	VerbForm=Inf	11	cop	11:cop	_
@@ -958,31 +960,31 @@
 8	women	woman	NOUN	NNS	Number=Plur	6	conj	3:obl:of|6:conj:and	_
 9	who	who	PRON	WP	PronType=Rel	10	nsubj	6:ref	Discourse=elaboration-attribute:84->83:0
 10	raise	raise	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	6:acl:relcl	_
-11	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(113-substance-new-cf4-2-sgl(9-person-giv:inact-cf2-1-ana-Americans)
+11	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(113-substance-new-cf4-2-sgl(9-person-giv:inact-cf2-1-ana-Americans)
 12	food	food	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=113)|SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	14:punct	_
 14	patrol	patrol	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	6:acl:relcl|10:conj:and	Discourse=joint-list_m:85->84:0
-15	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(114-place-new-cf5-2-sgl(9-person-giv:act-cf2-1-ana-Americans)
+15	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(114-place-new-cf5-2-sgl(9-person-giv:act-cf2-1-ana-Americans)
 16	streets	street	NOUN	NNS	Number=Plur	14	obj	14:obj	Entity=114)|SpaceAfter=No
 17	,	,	PUNCT	,	_	18	punct	18:punct	_
 18	man	man	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	6:acl:relcl|10:conj:and	Discourse=joint-list_m:86->84:0
-19	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(115-place-new-cf6-2,4-sgl(9-person-giv:act-cf2-1-ana-Americans)
+19	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(115-place-new-cf6-2,4-sgl(9-person-giv:act-cf2-1-ana-Americans)
 20	mines	mine	NOUN	NNS	Number=Plur	18	obj	18:obj	_
 21	and	and	CCONJ	CC	_	22	cc	22:cc	_
 22	factories	factory	NOUN	NNS	Number=Plur	20	conj	18:obj|20:conj:and	Entity=115)|SpaceAfter=No
 23	,	,	PUNCT	,	_	24	punct	24:punct	_
 24	teach	teach	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	6:acl:relcl|10:conj:and	Discourse=joint-list_m:87->84:0
-25	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(116-person-new-cf3-2-sgl(9-person-giv:act-cf2-1-ana-Americans)
+25	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(116-person-new-cf3-2-sgl(9-person-giv:act-cf2-1-ana-Americans)
 26	children	child	NOUN	NNS	Number=Plur	24	obj	24:obj	Entity=116)|SpaceAfter=No
 27	,	,	PUNCT	,	_	28	punct	28:punct	_
 28	keep	keep	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	6:acl:relcl|10:conj:and	Discourse=joint-list_m:88->84:0
-29	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	30	nmod:poss	30:nmod:poss	Entity=(117-place-new-cf7-2-sgl(9-person-giv:act-cf2-1-ana-Americans)
+29	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	30	nmod:poss	30:nmod:poss	Entity=(117-place-new-cf7-2-sgl(9-person-giv:act-cf2-1-ana-Americans)
 30	homes	home	NOUN	NNS	Number=Plur	28	obj	28:obj	Entity=117)|SpaceAfter=No
 31	,	,	PUNCT	,	_	33	punct	33:punct	_
 32	and	and	CCONJ	CC	_	33	cc	33:cc	Discourse=joint-list_m:89->84:0
 33	heal	heal	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	6:acl:relcl|10:conj:and	_
 34	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	33	obj	33:obj	Entity=(9-person-giv:act-cf2-1-ana-Americans)
-35	when	when	SCONJ	WRB	PronType=Int	38	mark	38:mark	Discourse=context-circumstance:90->89:0
+35	when	when	ADV	WRB	PronType=Int	38	advmod	38:advmod	Discourse=context-circumstance:90->89:0
 36	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	38	nsubj	38:nsubj	Entity=(9-person-giv:act-cf2-1-ana-Americans)|SpaceAfter=No
 37	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	38	cop	38:cop	_
 38	sick	sick	ADJ	JJ	Degree=Pos	33	advcl	33:advcl:when	Entity=109)
@@ -1159,10 +1161,10 @@
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(138-abstract-giv:act-cf3-2-coref(139-abstract-new-cf5-2-sgl
 10	core	core	NOUN	NN	Number=Sing	3	acl:relcl	3:acl:relcl	_
 11	of	of	ADP	IN	_	13	case	13:case	_
-12	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(140-abstract-new-cf6-2-sgl(9-person-giv:act-cf1*-1-ana-Americans)
+12	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(140-abstract-new-cf6-2-sgl(9-person-giv:act-cf1*-1-ana-Americans)
 13	system	system	NOUN	NN	Number=Sing	10	nmod	10:nmod:of	Entity=140)139)
 14	and	and	CCONJ	CC	_	16	cc	16:cc	_
-15	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(141-abstract-new-cf7-2-sgl(9-person-giv:act-cf1*-1-ana-Americans)
+15	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(141-abstract-new-cf7-2-sgl(9-person-giv:act-cf1*-1-ana-Americans)
 16	strength	strength	NOUN	NN	Number=Sing	13	conj	10:nmod:of|13:conj:and	Entity=141)138)138)|SpaceAfter=No
 17	,	,	PUNCT	,	_	3	punct	3:punct	_
 18	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	20:nsubj	Discourse=same-unit_m:104->102:1|Entity=(9-person-giv:act-cf1*-1-ana-Americans)

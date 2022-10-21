@@ -1,8 +1,10 @@
 # newdoc id = GUM_speech_impeachment
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Steny Hoyer
 # meta::dateCollected = 2020-09-04
 # meta::dateCreated = 2020-02-05
 # meta::dateModified = 2020-02-05
+# meta::genre = speech
 # meta::sourceURL = https://www.congress.gov/congressional-record/2020/02/05/house-section/article/H776-2
 # meta::speakerCount = 1
 # meta::title = AMERICANS WILL JUDGE
@@ -92,7 +94,7 @@
 5	created	create	VERB	VBN	Tense=Past|VerbForm=Part	4	acl	4:acl	Discourse=elaboration-attribute:11->10:0
 6	by	by	ADP	IN	_	7	case	7:case	_
 7	Senators	senator	NOUN	NNS	Number=Plur	5	obl:agent	5:obl:agent	Entity=(16-person-new-cf1-1-coref)2)
-8	when	when	SCONJ	WRB	PronType=Int	10	mark	10:mark	Discourse=context-circumstance:12->11:0
+8	when	when	ADV	WRB	PronType=Int	10	advmod	10:advmod	Discourse=context-circumstance:12->11:0
 9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	10:nsubj	Entity=(16-person-giv:act-cf1-1-ana)
 10	tried	try	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	advcl	5:advcl:when	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(17-event-new-cf3-3-sgl
@@ -121,7 +123,7 @@
 8	Revolution	Revolution	PROPN	NNP	Number=Sing	5	obl	5:obl:in	_
 9	fought	fight	VERB	VBN	Tense=Past|VerbForm=Part	8	acl	8:acl	Discourse=elaboration-attribute:15->14:0
 10	by	by	ADP	IN	_	12	case	12:case	_
-11	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(21-person-new-cf5-2-sgl(16-person-giv:act-cf2-1-ana)
+11	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(21-person-new-cf5-2-sgl(16-person-giv:act-cf2-1-ana)
 12	grandparents	grandparent	NOUN	NNS	Number=Plur	9	obl:agent	9:obl:agent	Entity=21)20)2)
 13	to	to	PART	TO	_	14	mark	14:mark	Discourse=purpose-goal:16->15:0
 14	create	create	VERB	VB	VerbForm=Inf	9	advcl	9:advcl:to	_
@@ -148,7 +150,7 @@
 6	power	power	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=24)
 7	derives	derive	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_
 8	from	from	ADP	IN	_	11	case	11:case	_
-9	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(25-abstract-new-cf2-3-coref(2-abstract-giv:act-cf1*-1-ana)
+9	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(25-abstract-new-cf2-3-coref(2-abstract-giv:act-cf1*-1-ana)
 10	common	common	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
 11	sense	sense	NOUN	NN	Number=Sing	7	obl	7:obl:from	Entity=25)2)|SpaceAfter=No
 12	:	:	PUNCT	:	_	19	punct	19:punct	_
@@ -199,7 +201,7 @@
 24	,	,	PUNCT	,	_	23	punct	23:punct	_
 25	impartial	impartial	ADJ	JJ	Degree=Pos	10	acl	10:acl:that	_
 26	in	in	ADP	IN	_	28	case	28:case	_
-27	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	28:nmod:poss	Entity=(32-abstract-new-cf6-2-sgl(30-person-giv:act-cf2-1-ana)
+27	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	28:nmod:poss	Entity=(32-abstract-new-cf6-2-sgl(30-person-giv:act-cf2-1-ana)
 28	work	work	NOUN	NN	Number=Sing	25	obl	25:obl:in	Entity=32)28)2)|SpaceAfter=No
 29	.	.	PUNCT	.	_	5	punct	5:punct	_
 
@@ -219,8 +221,8 @@
 6	oath	oath	NOUN	NN	Number=Sing	3	obl	3:obl:for	Entity=2)33)
 7	recognize	recognize	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:28->26:1
 8	that	that	SCONJ	IN	_	19	mark	19:mark	Discourse=explanation-justify:29->34:3
-9	when	when	SCONJ	WRB	PronType=Int	12	mark	12:mark	Discourse=context-circumstance:30->31:0
-10	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(11-abstract-giv:inact-cf1-2-coref-Constitution_of_the_United_States(34-person-acc:com-cf4-1-ana-Americans)
+9	when	when	ADV	WRB	PronType=Int	12	advmod	12:advmod	Discourse=context-circumstance:30->31:0
+10	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(11-abstract-giv:inact-cf1-2-coref-Constitution_of_the_United_States(34-person-acc:com-cf4-1-ana-Americans)
 11	Constitution	Constitution	PROPN	NNP	Number=Sing	12	nsubj	12:nsubj	Entity=11)
 12	calls	call	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	19:advcl:when	_
 13	Senators	senator	NOUN	NNS	Number=Plur	12	obj	12:obj|15:nsubj:xsubj	Entity=(29-person-giv:act-cf2*-1-coref)
@@ -233,7 +235,7 @@
 20	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	obj	19:obj	Entity=(29-person-giv:act-cf2*-1-ana)
 21	away	away	ADV	RB	Degree=Pos	19	advmod	19:advmod	_
 22	from	from	ADP	IN	_	24	case	24:case	_
-23	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	24:nmod:poss	Entity=(36-abstract-new-cf8-2-sgl(29-person-giv:act-cf2*-1-ana)
+23	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	24:nmod:poss	Entity=(36-abstract-new-cf8-2-sgl(29-person-giv:act-cf2*-1-ana)
 24	role	role	NOUN	NN	Number=Sing	19	obl	19:obl:from	_
 25	as	as	ADP	IN	_	26	case	26:case	_
 26	partisans	partisan	NOUN	NNS	Number=Plur	24	nmod	24:nmod:as	Entity=(37-person-new-cf7-1-sgl)36)|SpaceAfter=No
@@ -245,7 +247,7 @@
 # speaker = StenyHoyer
 # transition = smooth-shift
 # text = When that oath is taken, Senators are supposed to step back from the affiliation of party or political kinship with or opposition to the President on trial.
-1	When	when	SCONJ	WRB	PronType=Int	5	mark	5:mark	Discourse=context-circumstance:32->33:0
+1	When	when	ADV	WRB	PronType=Int	5	advmod	5:advmod	Discourse=context-circumstance:32->33:0
 2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Entity=(2-abstract-giv:act-cf1*-2-coref
 3	oath	oath	NOUN	NN	Number=Sing	5	nsubj:pass	5:nsubj:pass	Entity=2)
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	5:aux:pass	_
@@ -522,7 +524,7 @@
 5	,	,	PUNCT	,	_	2	punct	2:punct	_
 6	in	in	SCONJ	IN	_	7	mark	7:mark	Discourse=context-circumstance:57->56:0
 7	explaining	explain	VERB	VBG	VerbForm=Ger	18	advcl	18:advcl:in	_
-8	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(66-event-new-cf3-2-coref(64-person-giv:act-cf1-1-ana-Lisa_Murkowski)
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(66-event-new-cf3-2-coref(64-person-giv:act-cf1-1-ana-Lisa_Murkowski)
 9	decision	decision	NOUN	NN	Number=Sing	7	obj	7:obj	_
 10	to	to	PART	TO	_	11	mark	11:mark	Discourse=purpose-attribute:58->57:0
 11	vote	vote	VERB	VB	VerbForm=Inf	9	acl	9:acl:to	_
@@ -540,7 +542,7 @@
 23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(68-abstract-new-cf6-2-sgl
 24	consequences	consequence	NOUN	NNS	Number=Plur	20	obl	20:obl:from	_
 25	of	of	ADP	IN	_	27	case	27:case	_
-26	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Entity=(66-event-giv:act-cf3-2-coref(64-person-giv:act-cf1-1-ana-Lisa_Murkowski)
+26	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Entity=(66-event-giv:act-cf3-2-coref(64-person-giv:act-cf1-1-ana-Lisa_Murkowski)
 27	actions	action	NOUN	NNS	Number=Plur	24	nmod	24:nmod:of	Entity=66)68)|SpaceAfter=No
 28	,	,	PUNCT	,	_	29	punct	29:punct	_
 29	writing	write	VERB	VBG	VerbForm=Ger	18	advcl	18:advcl	Discourse=attribution-positive:60->61:1|SpaceAfter=No
@@ -636,7 +638,7 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=explanation-justify:68->67:0|Entity=(45-organization-giv:inact-cf2-2-coref-United_States_House_of_Representatives
 2	House	House	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Entity=45)
 3	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-4	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(75-abstract-new-cf3-2-coref(45-organization-giv:act-cf2-1-ana-United_States_House_of_Representatives)
+4	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(75-abstract-new-cf3-2-coref(45-organization-giv:act-cf2-1-ana-United_States_House_of_Representatives)
 5	job	job	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=75)|SpaceAfter=No
 6	,	,	PUNCT	,	_	9	punct	9:punct	_
 7	whether	whether	SCONJ	IN	_	9	mark	9:mark	Discourse=adversative-concession:69->68:0
@@ -673,7 +675,7 @@
 19	States	State	PROPN	NNPS	Number=Plur	15	nmod	15:nmod:of	Entity=8)7)
 20	based	base	VERB	VBN	Tense=Past|VerbForm=Part	13	advcl	13:advcl	Discourse=mode-manner:71->70:0
 21	upon	upon	ADP	IN	_	23	case	23:case	_
-22	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	23:nmod:poss	Entity=(78-abstract-new-cf8-2,11,12-coref(30-person-giv:act-cf1-1-ana)
+22	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	23:nmod:poss	Entity=(78-abstract-new-cf8-2,11,12-coref(30-person-giv:act-cf1-1-ana)
 23	oath	oath	NOUN	NN	Number=Sing	20	obl	20:obl:upon	_
 24	to	to	PART	TO	_	25	mark	25:mark	Discourse=purpose-attribute:72->71:0
 25	protect	protect	VERB	VB	VerbForm=Inf	23	acl	23:acl:to	_
@@ -698,7 +700,7 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=restatement-repetition_m:73->68:2|Entity=(45-organization-giv:act-cf2-2-coref-United_States_House_of_Representatives
 2	House	House	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj|7:nsubj	Entity=45)
 3	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-4	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(75-abstract-giv:inact-cf4-2-coref(45-organization-giv:act-cf2-1-ana-United_States_House_of_Representatives)
+4	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(75-abstract-giv:inact-cf4-2-coref(45-organization-giv:act-cf2-1-ana-United_States_House_of_Representatives)
 5	job	job	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=75)
 6	and	and	CCONJ	CC	_	7	cc	7:cc	Discourse=mode-manner:74->73:0
 7	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	3:conj:and	_
@@ -707,7 +709,7 @@
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(79-abstract-new-cf7-2-sgl
 11	solemnity	solemnity	NOUN	NN	Number=Sing	7	obl	7:obl:with	_
 12	required	require	VERB	VBN	Tense=Past|VerbForm=Part	11	acl	11:acl	Discourse=elaboration-attribute:75->74:0
-13	when	when	SCONJ	WRB	PronType=Int	14	mark	14:mark	Discourse=context-circumstance:76->75:0
+13	when	when	ADV	WRB	PronType=Int	14	advmod	14:advmod	Discourse=context-circumstance:76->75:0
 14	undertaking	undertake	VERB	VBG	VerbForm=Ger	12	advcl	12:advcl:when	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(80-abstract-new-cf6-2-sgl
 16	process	process	NOUN	NN	Number=Sing	14	obj	14:obj|24:obj	_
@@ -722,7 +724,7 @@
 25	but	but	CCONJ	CC	_	26	cc	26:cc	Discourse=adversative-contrast_m:78->77:0
 26	accepted	accept	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	conj	16:acl:relcl|24:conj:but	_
 27	as	as	ADP	IN	_	29	case	29:case	_
-28	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	Entity=(81-abstract-new-cf8-5-coref(30-person-giv:act-cf1*-1-ana)
+28	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	Entity=(81-abstract-new-cf8-5-coref(30-person-giv:act-cf1*-1-ana)
 29	responsibility	responsibility	NOUN	NN	Number=Sing	26	obl	26:obl:as	_
 30	under	under	ADP	IN	_	32	case	32:case	_
 31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	32:det	Entity=(11-abstract-giv:act-cf3-2-coref-Constitution_of_the_United_States
@@ -791,7 +793,7 @@
 10	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	12:aux	_
 11	not	not	PART	RB	Polarity=Neg	12	advmod	12:advmod	_
 12	uphold	uphold	VERB	VB	VerbForm=Inf	7	advcl	7:advcl:if	_
-13	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(2-abstract-giv:inact-cf2-2-coref(13-person-giv:act-cf1-1-ana)
+13	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(2-abstract-giv:inact-cf2-2-coref(13-person-giv:act-cf1-1-ana)
 14	oaths	oath	NOUN	NNS	Number=Plur	12	obj	12:obj	Entity=2)
 15	to	to	ADP	IN	_	17	case	17:case	_
 16	impartial	impartial	ADJ	JJ	Degree=Pos	17	amod	17:amod	Entity=(9-abstract-giv:inact-cf4-2-coref
@@ -837,10 +839,10 @@
 31	to	to	PART	TO	_	32	mark	32:mark	_
 32	interfere	interfere	VERB	VB	VerbForm=Inf	28	xcomp	28:xcomp	_
 33	in	in	ADP	IN	_	35	case	35:case	_
-34	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	35	nmod:poss	35:nmod:poss	Entity=(58-event-giv:inact-cf7-2-coref(34-person-giv:inact-cf3-1-ana-Americans)
+34	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	35	nmod:poss	35:nmod:poss	Entity=(58-event-giv:inact-cf7-2-coref(34-person-giv:inact-cf3-1-ana-Americans)
 35	election	election	NOUN	NN	Number=Sing	32	obl	32:obl:in	Entity=58)
 36	for	for	ADP	IN	_	40	case	40:case	_
-37	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	40	nmod:poss	40:nmod:poss	Entity=(86-abstract-new-cf9-4-sgl(7-person-giv:act-cf2-1-ana-Donald_Trump)
+37	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	40	nmod:poss	40:nmod:poss	Entity=(86-abstract-new-cf9-4-sgl(7-person-giv:act-cf2-1-ana-Donald_Trump)
 38	own	own	ADJ	JJ	Degree=Pos	40	amod	40:amod	_
 39	personal	personal	ADJ	JJ	Degree=Pos	40	amod	40:amod	_
 40	gain	gain	NOUN	NN	Number=Sing	32	obl	32:obl:for	Entity=86)|SpaceAfter=No
@@ -863,7 +865,7 @@
 7	choose	choose	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_
 8	fear	fear	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=(89-abstract-new-cf4-1-sgl
 9	of	of	ADP	IN	_	11	case	11:case	_
-10	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(90-organization-new-cf6-2-sgl(88-person-giv:act-cf1-1-ana)
+10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(90-organization-new-cf6-2-sgl(88-person-giv:act-cf1-1-ana)
 11	party	party	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	Entity=90)89)
 12	over	over	ADP	IN	_	14	case	14:case	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(91-abstract-new-cf5-2-sgl
@@ -885,7 +887,7 @@
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(1-person-giv:inact-cf4-2-coref-Nancy_Pelosi
 3	Speaker	Speaker	PROPN	NNP	Number=Sing	14	nsubj	14:nsubj	Entity=1)
 4	nor	nor	CCONJ	CC	_	5	cc	5:cc	_
-5	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|Poss=Yes|PronType=Prs|Reflex=Yes	3	conj	3:conj:nor|14:nsubj	Entity=(72-person-giv:inact-cf3-1-ana)|SpaceAfter=No
+5	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	conj	3:conj:nor|14:nsubj	Entity=(72-person-giv:inact-cf3-1-ana)|SpaceAfter=No
 6	,	,	PUNCT	,	_	9	punct	9:punct	_
 7	nor	nor	CCONJ	CC	_	9	cc	9:cc	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(94-person-new-cf2-2-coref-Jim_Clyburn
@@ -898,7 +900,7 @@
 15	any	any	DET	DT	PronType=Ind	16	det	16:det	Entity=(95-person-new-cf6-2-coref
 16	member	member	NOUN	NN	Number=Sing	14	obj	14:obj|21:nsubj:xsubj	_
 17	in	in	ADP	IN	_	19	case	19:case	_
-18	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(96-organization-new-cf7-2-sgl(93-person-giv:act-cf1-1-ana)
+18	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(96-organization-new-cf7-2-sgl(93-person-giv:act-cf1-1-ana)
 19	party	party	NOUN	NN	Number=Sing	16	nmod	16:nmod:in	Entity=96)95)
 20	to	to	PART	TO	_	21	mark	21:mark	_
 21	vote	vote	VERB	VB	VerbForm=Inf	14	xcomp	14:xcomp	_
@@ -938,12 +940,12 @@
 # speaker = StenyHoyer
 # transition = null
 # text = Our members voted consistent with their oath of office and the conviction that that vote was required by that oath to protect and defend the Constitution.
-1	Our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=context-background:95->89:1|Entity=(95-person-giv:inact-cf1-2-coref(93-person-giv:inact-cf3-1-ana)
+1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=context-background:95->89:1|Entity=(95-person-giv:inact-cf1-2-coref(93-person-giv:inact-cf3-1-ana)
 2	members	member	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=95)
 3	voted	vote	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	consistent	consistent	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
 5	with	with	ADP	IN	_	7	case	7:case	_
-6	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(78-abstract-giv:inact-cf2-2-coref(95-person-giv:act-cf1-1-ana)
+6	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(78-abstract-giv:inact-cf2-2-coref(95-person-giv:act-cf1-1-ana)
 7	oath	oath	NOUN	NN	Number=Sing	4	obl	4:obl:with	_
 8	of	of	ADP	IN	_	9	case	9:case	_
 9	office	office	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	Entity=78)
@@ -989,10 +991,10 @@
 2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 3	often	often	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
 4	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
-5	why	why	ADV	WRB	PronType=Rel	4	obj	4:obj	Discourse=topic-question:100->105:2|Entity=(101-abstract-new-cf8-1,7,16-coref
+5	why	why	SCONJ	WRB	PronType=Rel	4	obj	4:obj	Discourse=topic-question:100->105:2|Entity=(101-abstract-new-cf8-1,7,16-coref
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(45-organization-giv:inact-cf2-2-coref-United_States_House_of_Representatives
 7	House	House	PROPN	NNP	Number=Sing	8	nsubj	8:nsubj	Entity=45)
-8	passed	pass	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_
+8	passed	pass	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl:relcl	5:advcl:relcl	_
 9	Articles	Article	PROPN	NNPS	Number=Plur	8	obj	8:obj	Entity=(44-abstract-giv:inact-cf4-1,3-coref
 10	of	of	ADP	IN	_	11	case	11:case	_
 11	Impeachment	Impeachment	PROPN	NNP	Number=Sing	9	nmod	9:nmod:of	Entity=(6-event-giv:inact-cf5-1-coref-Impeachment_of_Donald_Trump)44)
@@ -1025,7 +1027,7 @@
 # speaker = StenyHoyer
 # transition = establishment
 # text = It is because I know future generations will look back on this chapter in our history and ask:
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=joint-other_m:105->89:3|Entity=(101-abstract-giv:act-cf2-1-ana)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj:outer	5:nsubj:outer	Discourse=joint-other_m:105->89:3|Entity=(101-abstract-giv:act-cf2-1-ana)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	because	because	SCONJ	IN	_	5	mark	5:mark	_
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Discourse=attribution-positive:106->107:0|Entity=(72-person-giv:act-cf1*-1-ana)
@@ -1039,7 +1041,7 @@
 12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	13:det	Entity=(107-abstract-acc:com-cf4-2-sgl
 13	chapter	chapter	NOUN	NN	Number=Sing	9	obl	9:obl:on	_
 14	in	in	ADP	IN	_	16	case	16:case	_
-15	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(108-abstract-new-cf6-2-sgl(34-person-giv:inact-cf3-1-ana-Americans)
+15	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(108-abstract-new-cf6-2-sgl(34-person-giv:inact-cf3-1-ana-Americans)
 16	history	history	NOUN	NN	Number=Sing	13	nmod	13:nmod:in	Entity=108)107)
 17	and	and	CCONJ	CC	_	18	cc	18:cc	_
 18	ask	ask	VERB	VB	VerbForm=Inf	9	conj	5:ccomp|9:conj:and	SpaceAfter=No
@@ -1074,7 +1076,7 @@
 4	for	for	ADP	IN	_	6	case	6:case	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(109-abstract-new-cf3-2-sgl
 6	values	value	NOUN	NNS	Number=Plur	2	obl	2:obl:for	_
-7	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Discourse=elaboration-attribute:110->109:0|Entity=(110-person-new-cf2-2-coref-Founding_Fathers_of_the_United_States(34-person-giv:inact-cf1-1-ana-Americans)
+7	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Discourse=elaboration-attribute:110->109:0|Entity=(110-person-new-cf2-2-coref-Founding_Fathers_of_the_United_States(34-person-giv:inact-cf1-1-ana-Americans)
 8	Founders	Founder	PROPN	NNPS	Number=Plur	9	nsubj	9:nsubj	Entity=110)
 9	charged	charge	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	6:acl:relcl	_
 10	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	obj	9:obj|12:nsubj:xsubj	Entity=(34-person-giv:act-cf1-1-ana-Americans)
@@ -1097,7 +1099,7 @@
 7	heavy	heavy	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	responsibilities	responsibility	NOUN	NNS	Number=Plur	4	obl	4:obl:from	_
 9	of	of	ADP	IN	_	11	case	11:case	_
-10	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(2-abstract-giv:inact-cf1-2-coref(112-person-new-cf2-1-sgl)
+10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(2-abstract-giv:inact-cf1-2-coref(112-person-new-cf2-1-sgl)
 11	oath	oath	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	Entity=2)111)|SpaceAfter=No
 12	?	?	PUNCT	.	_	2	punct	2:punct	_
 
@@ -1115,7 +1117,7 @@
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(45-organization-giv:inact-cf1-2-coref-United_States_House_of_Representatives
 7	House	House	PROPN	NNP	Number=Sing	8	nsubj	8:nsubj|12:nsubj|16:nsubj	Entity=45)
 8	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	4:ccomp	_
-9	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(75-abstract-giv:inact-cf6-2-coref(45-organization-giv:act-cf1-1-ana-United_States_House_of_Representatives)
+9	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(75-abstract-giv:inact-cf6-2-coref(45-organization-giv:act-cf1-1-ana-United_States_House_of_Representatives)
 10	job	job	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=75)|SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	12:punct	_
 12	followed	follow	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	4:ccomp|8:conj	Discourse=joint-list_m:114->113:0
@@ -1123,7 +1125,7 @@
 14	law	law	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=12)|SpaceAfter=No
 15	,	,	PUNCT	,	_	16	punct	16:punct	_
 16	defended	defend	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	4:ccomp|8:conj	Discourse=joint-list_m:115->113:0
-17	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	Entity=(11-abstract-giv:inact-cf5-2-coref-Constitution_of_the_United_States(34-person-giv:inact-cf3-1-ana-Americans)
+17	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	Entity=(11-abstract-giv:inact-cf5-2-coref-Constitution_of_the_United_States(34-person-giv:inact-cf3-1-ana-Americans)
 18	Constitution	Constitution	PROPN	NNP	Number=Sing	16	obj	16:obj	Entity=11)|SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -1143,7 +1145,7 @@
 6	that	that	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	10:nsubj	Discourse=causal-cause:117->116:0|Entity=(113-event-giv:act-cf2-1-coref)
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
 8	not	not	PART	RB	Polarity=Neg	10	advmod	10:advmod	_
-9	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(75-abstract-giv:act-cf3-2-coref(45-organization-giv:act-cf1*-1-ana-United_States_House_of_Representatives)
+9	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(75-abstract-giv:act-cf3-2-coref(45-organization-giv:act-cf1*-1-ana-United_States_House_of_Representatives)
 10	role	role	NOUN	NN	Number=Sing	4	parataxis	4:parataxis	Entity=75)|SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -1155,7 +1157,7 @@
 # text = Essentially, what we said was there was probable cause that powers had been abused and certainly cause to see that the President refused to cooperate with the constitutional responsibilities of the House of Representatives.
 1	Essentially	essentially	ADV	RB	Degree=Pos	8	advmod	8:advmod	Discourse=elaboration-additional:118->113:2|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	what	what	PRON	WP	PronType=Rel	8	nsubj	8:nsubj	_
+3	what	what	PRON	WP	PronType=Rel	8	nsubj:outer	8:nsubj:outer	_
 4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(45-organization-giv:act-cf1*-1-ana-United_States_House_of_Representatives)
 5	said	say	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	acl:relcl	3:acl:relcl	_
 6	was	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	cop	8:cop	_
@@ -1210,7 +1212,7 @@
 10	as	as	SCONJ	IN	_	23	mark	23:mark	Discourse=mode-manner:124->123:0
 11	all	all	DET	DT	PronType=Tot	23	nsubj	23:nsubj	Entity=(95-person-giv:inact-cf4-1-ana
 12	of	of	ADP	IN	_	14	case	14:case	_
-13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(72-person-giv:act-cf1-1-ana)
+13	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(72-person-giv:act-cf1-1-ana)
 14	colleagues	colleague	NOUN	NNS	Number=Plur	11	nmod	11:nmod:of	_
 15	on	on	ADP	IN	_	18	case	18:case	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(117-organization-new-cf6-3-sgl
@@ -1222,11 +1224,11 @@
 22	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	cop	23:cop	_
 23	proud	proud	ADJ	JJ	Degree=Pos	4	advcl	4:advcl:as	_
 24	of	of	ADP	IN	_	26	case	26:case	_
-25	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(116-person-giv:act-cf2-2-coref(45-organization-giv:act-cf3*-1-ana-United_States_House_of_Representatives)
+25	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(116-person-giv:act-cf2-2-coref(45-organization-giv:act-cf3*-1-ana-United_States_House_of_Representatives)
 26	managers	manager	NOUN	NNS	Number=Plur	23	obl	23:obl:of|28:nsubj	_
 27	who	who	PRON	WP	PronType=Rel	28	nsubj	26:ref	Discourse=elaboration-attribute:125->124:0
 28	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	acl:relcl	26:acl:relcl	_
-29	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	30:nmod:poss	Entity=(104-abstract-giv:inact-cf5-2-coref(116-person-giv:act-cf2-1-ana)
+29	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	30:nmod:poss	Entity=(104-abstract-giv:inact-cf5-2-coref(116-person-giv:act-cf2-1-ana)
 30	case	case	NOUN	NN	Number=Sing	28	obj	28:obj	Entity=104)116)|SpaceAfter=No
 31	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -1238,7 +1240,7 @@
 # text = They made their case with intellect.
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=explanation-justify:126->123:1|Entity=(116-person-giv:act-cf1*-1-ana)
 2	made	make	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-3	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(104-abstract-giv:act-cf2-2-coref(116-person-giv:act-cf1*-1-ana)
+3	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(104-abstract-giv:act-cf2-2-coref(116-person-giv:act-cf1*-1-ana)
 4	case	case	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=104)
 5	with	with	ADP	IN	_	6	case	6:case	_
 6	intellect	intellect	NOUN	NN	Number=Sing	2	obl	2:obl:with	Entity=(119-abstract-new-cf3-1-sgl)|SpaceAfter=No
@@ -1252,7 +1254,7 @@
 # text = They made their case with evidence that had been adduced here in the House.
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint-list_m:127->126:0|Entity=(116-person-giv:act-cf1*-1-ana)
 2	made	make	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-3	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(104-abstract-giv:act-cf2-2-coref(116-person-giv:act-cf1*-1-ana)
+3	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(104-abstract-giv:act-cf2-2-coref(116-person-giv:act-cf1*-1-ana)
 4	case	case	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=104)
 5	with	with	ADP	IN	_	6	case	6:case	_
 6	evidence	evidence	NOUN	NN	Number=Sing	2	obl	2:obl:with|10:nsubj:pass	Entity=(50-abstract-giv:inact-cf4-1-coref
@@ -1274,7 +1276,7 @@
 # text = They made their case and appealed to Senators to hold this President accountable, as our Founders intended.
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj|6:nsubj|10:nsubj:xsubj	Discourse=joint-list_m:129->126:0|Entity=(116-person-giv:act-cf1*-1-ana)
 2	made	make	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-3	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(104-abstract-giv:act-cf2-2-coref(116-person-giv:act-cf1*-1-ana)
+3	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(104-abstract-giv:act-cf2-2-coref(116-person-giv:act-cf1*-1-ana)
 4	case	case	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=104)
 5	and	and	CCONJ	CC	_	6	cc	6:cc	Discourse=joint-list_m:130->129:0
 6	appealed	appeal	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	2:conj:and	_
@@ -1287,7 +1289,7 @@
 13	accountable	accountable	ADJ	JJ	Degree=Pos	10	xcomp	10:xcomp	SpaceAfter=No
 14	,	,	PUNCT	,	_	18	punct	18:punct	_
 15	as	as	SCONJ	IN	_	18	mark	18:mark	Discourse=mode-manner:132->131:0
-16	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	Entity=(110-person-giv:inact-cf4-2-coref-Founding_Fathers_of_the_United_States(34-person-giv:inact-cf3-1-ana-Americans)
+16	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	Entity=(110-person-giv:inact-cf4-2-coref-Founding_Fathers_of_the_United_States(34-person-giv:inact-cf3-1-ana-Americans)
 17	Founders	Founder	PROPN	NNPS	Number=Plur	18	nsubj	18:nsubj	Entity=110)
 18	intended	intend	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	advcl	10:advcl:as	SpaceAfter=No
 19	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -1301,7 +1303,7 @@
 # newpar
 # newpar_block = p (4 s)
 1	Almost	almost	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=explanation-justify:133->134:0
-2	everybody	everybody	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=(120-person-new-cf1-1-sgl)
+2	everybody	everybody	PRON	NN	Number=Sing|PronType=Tot	4	nsubj	4:nsubj	Entity=(120-person-new-cf1-1-sgl)
 3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 4	watched	watch	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(121-event-new-cf2-2-sgl
@@ -1332,7 +1334,7 @@
 10	closing	close	VERB	VBG	VerbForm=Ger	11	amod	11:amod	_
 11	argument	argument	NOUN	NN	Number=Sing	7	conj	7:conj:and	Entity=127)125)
 12	with	with	ADP	IN	_	13	case	13:case	_
-13	nothing	nothing	NOUN	NN	Number=Sing|Polarity=Neg	7	nmod	7:nmod:with	Entity=(128-abstract-new-cf6-1-sgl
+13	nothing	nothing	PRON	NN	Number=Sing|Polarity=Neg|PronType=Neg	7	nmod	7:nmod:with	Entity=(128-abstract-new-cf6-1-sgl
 14	in	in	ADV	IN	_	13	advmod	13:advmod	_
 15	between	between	ADP	IN	_	14	fixed	14:fixed	Entity=128)123)|SpaceAfter=No
 16	.	.	PUNCT	.	_	7	punct	7:punct	_
@@ -1348,7 +1350,7 @@
 3	five	five	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	XML=</w>
 4	percent	percent	NOUN	NN	Number=Sing	8	nsubj	8:nsubj|10:nsubj:xsubj	_
 5	of	of	ADP	IN	_	7	case	7:case	_
-6	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(34-person-giv:inact-cf2-2-coref-Americans(34-person-giv:act-cf2-1-ana-Americans)
+6	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(34-person-giv:inact-cf2-2-coref-Americans(34-person-giv:act-cf2-1-ana-Americans)
 7	people	person	NOUN	NNS	Number=Plur	4	nmod	4:nmod:of	Entity=34)129)
 8	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 9	to	to	PART	TO	_	10	mark	10:mark	_
@@ -1357,7 +1359,7 @@
 12	because	because	SCONJ	IN	_	16	mark	16:mark	Discourse=causal-cause:136->135:0
 13	that	that	PRON	DT	Number=Sing|PronType=Dem	16	nsubj	16:nsubj	Entity=(123-abstract-giv:act-cf1*-1-coref)
 14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	16:cop	_
-15	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(123-abstract-giv:act-cf1*-2-coref(34-person-giv:act-cf2-1-ana-Americans)
+15	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(123-abstract-giv:act-cf1*-2-coref(34-person-giv:act-cf2-1-ana-Americans)
 16	understanding	understanding	NOUN	NN	Number=Sing	8	advcl	8:advcl:because	_
 17	of	of	ADP	IN	_	18	case	18:case	Discourse=elaboration-additional:137->136:0
 18	what	what	PRON	WP	PronType=Rel	16	nmod	16:nmod:of	_
@@ -1430,7 +1432,7 @@
 4	House	House	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=(45-organization-giv:inact-cf3-1-coref-United_States_House_of_Representatives)
 5	managers	manager	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=116)
 6	proved	prove	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-7	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(104-abstract-giv:inact-cf2-2-coref(116-person-giv:act-cf1-1-ana)
+7	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(104-abstract-giv:inact-cf2-2-coref(116-person-giv:act-cf1-1-ana)
 8	case	case	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=104)|SpaceAfter=No
 9	.	.	PUNCT	.	_	6	punct	6:punct	_
 
@@ -1493,7 +1495,7 @@
 16	truth	truth	NOUN	NN	Number=Sing	12	conj	9:obl:by|12:conj:and	Entity=137)|SpaceAfter=No
 17	,	,	PUNCT	,	_	19	punct	19:punct	_
 18	and	and	CCONJ	CC	_	19	cc	19:cc	_
-19	nothing	nothing	NOUN	NN	Number=Sing|Polarity=Neg	12	conj	9:obl:by|12:conj:and	Entity=(138-abstract-new-cf4-1-sgl
+19	nothing	nothing	PRON	NN	Number=Sing|Polarity=Neg|PronType=Neg	12	conj	9:obl:by|12:conj:and	Entity=(138-abstract-new-cf4-1-sgl
 20	but	but	ADP	IN	_	22	case	22:case	_
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(137-abstract-giv:act-cf2-2-coref
 22	truth	truth	NOUN	NN	Number=Sing	19	nmod	19:nmod:but	Entity=137)138)|SpaceAfter=No

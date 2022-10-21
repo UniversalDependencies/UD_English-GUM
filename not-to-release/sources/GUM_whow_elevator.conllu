@@ -1,8 +1,10 @@
 # newdoc id = GUM_whow_elevator
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Ethan Schoenhofen, Alex, Jeff and others (see URL)
 # meta::dateCollected = 2016-09-19
 # meta::dateCreated = 2009-06-26
 # meta::dateModified = 2016-08-27
+# meta::genre = whow
 # meta::sourceURL = https://www.wikihow.com/Annoy-People-in-Elevators
 # meta::speakerCount = 0
 # meta::title = How to Annoy People in Elevators
@@ -52,7 +54,7 @@
 4	to	to	PART	TO	_	5	mark	5:mark	Entity=(6-event-acc:com-cf3-2-coref
 5	annoy	annoy	VERB	VB	VerbForm=Inf	3	csubj	3:csubj	_
 6	people	person	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=(1-person-giv:inact-cf1-1-coref)6)
-7	when	when	SCONJ	WRB	PronType=Int	10	mark	10:mark	Discourse=context-circumstance:5->4:0
+7	when	when	ADV	WRB	PronType=Int	10	advmod	10:advmod	Discourse=context-circumstance:5->4:0
 8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	10:nsubj	Entity=(7-person-acc:com-cf2-1-ana)
 9	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
 10	cramped	cramped	ADJ	JJ	Degree=Pos	5	advcl	5:advcl:when	_
@@ -82,7 +84,7 @@
 10	,	,	PUNCT	,	_	5	punct	5:punct	_
 11	make	make	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:7->2:2
 12	sure	sure	ADJ	JJ	Degree=Pos	11	xcomp	11:xcomp	_
-13	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Bridge=5<12|Entity=(12-event-acc:inf-cf2-2-coref(7-person-giv:act-cf1*-1-ana)
+13	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Bridge=5<12|Entity=(12-event-acc:inf-cf2-2-coref(7-person-giv:act-cf1*-1-ana)
 14	pranks	prank	NOUN	NNS	Number=Plur	16	nsubj	16:nsubj|18:nsubj	Entity=12)
 15	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	16:cop	_
 16	quick	quick	ADJ	JJ	Degree=Pos	12	ccomp	12:ccomp	_
@@ -99,7 +101,7 @@
 # s_type = imp
 # transition = continue
 # text = When annoying people on an elevator, keep your pranks lighthearted and fun as opposed to mean-spirited so that everyone leaving the elevator will have a pleasant story to tell.
-1	When	when	SCONJ	WRB	PronType=Int	2	mark	2:mark	Discourse=context-circumstance:9->10:1
+1	When	when	ADV	WRB	PronType=Int	2	advmod	2:advmod	Discourse=context-circumstance:9->10:1
 2	annoying	annoy	VERB	VBG	VerbForm=Ger	8	advcl	8:advcl:when	_
 3	people	person	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=(1-person-giv:inact-cf3-1-coref)
 4	on	on	ADP	IN	_	6	case	6:case	_
@@ -107,7 +109,7 @@
 6	elevator	elevator	NOUN	NN	Number=Sing	2	obl	2:obl:on	Entity=14)|SpaceAfter=No
 7	,	,	PUNCT	,	_	2	punct	2:punct	_
 8	keep	keep	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:10->2:2
-9	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(12-event-giv:act-cf2-2-coref(7-person-giv:act-cf1*-1-ana)
+9	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(12-event-giv:act-cf2-2-coref(7-person-giv:act-cf1*-1-ana)
 10	pranks	prank	NOUN	NNS	Number=Plur	8	obj	8:obj	Entity=12)
 11	lighthearted	lighthearted	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
 12	and	and	CCONJ	CC	_	13	cc	13:cc	_
@@ -120,7 +122,7 @@
 19	spirited	spirit	VERB	VBN	Tense=Past|VerbForm=Part	10	nmod	10:nmod:as_opposed_to	XML=</w>
 20	so	so	SCONJ	IN	_	27	mark	27:mark	Discourse=purpose-goal:12->10:2
 21	that	that	ADP	IN	_	20	fixed	20:fixed	_
-22	everyone	everyone	NOUN	NN	Number=Sing	27	nsubj	27:nsubj	Entity=(15-person-new-cf4-1-coref
+22	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	27	nsubj	27:nsubj	Entity=(15-person-new-cf4-1-coref
 23	leaving	leave	VERB	VBG	VerbForm=Ger	22	acl	22:acl	Discourse=elaboration-attribute:13->12:0
 24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(16-place-new-cf5-2-coref
 25	elevator	elevator	NOUN	NN	Number=Sing	23	obj	23:obj	Entity=16)15)
@@ -167,7 +169,7 @@
 # s_type = imp
 # transition = establishment
 # text = When you get into the elevator, push the button for every floor.
-1	When	when	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=context-circumstance:20->21:0
+1	When	when	ADV	WRB	PronType=Int	3	advmod	3:advmod	Discourse=context-circumstance:20->21:0
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(7-person-giv:inact-cf3-1-ana)
 3	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	8:advcl:when	_
 4	into	into	ADP	IN	_	6	case	6:case	_
@@ -190,7 +192,7 @@
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	2:nsubj	Discourse=ROOT:22:0|Entity=(19-event-giv:act-cf1*-1-coref)
 2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3-4	everyone’s	_	_	_	_	_	_	_	_
-3	everyone	everyone	NOUN	NN	Number=Sing	5	nmod:poss	5:nmod:poss	Entity=(22-event-new-cf4-3-sgl(15-person-giv:inact-cf3-1-coref
+3	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	5	nmod:poss	5:nmod:poss	Entity=(22-event-new-cf4-3-sgl(15-person-giv:inact-cf3-1-coref
 4	’s	's	PART	POS	_	3	case	3:case	Entity=15)
 5	ride	ride	NOUN	NN	Number=Sing	2	obj	2:obj|9:nsubj:xsubj	_
 6	on	on	ADP	IN	_	8	case	8:case	_
@@ -225,13 +227,13 @@
 12	around	around	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
 13	questioningly	questioningly	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
 14	at	at	ADP	IN	_	15	case	15:case	_
-15	everyone	everyone	NOUN	NN	Number=Sing	11	obl	11:obl:at	Entity=(15-person-giv:act-cf3-1-coref
+15	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	11	obl	11:obl:at	Entity=(15-person-giv:act-cf3-1-coref
 16	in	in	ADP	IN	_	18	case	18:case	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(16-place-giv:act-cf2*-2-coref
 18	elevator	elevator	NOUN	NN	Number=Sing	15	nmod	15:nmod:in	Entity=16)15)
-19	when	when	SCONJ	WRB	PronType=Int	22	mark	22:mark	Discourse=context-circumstance:26->25:0
+19	when	when	ADV	WRB	PronType=Int	22	advmod	22:advmod	Discourse=context-circumstance:26->25:0
 20	no	no	DET	DT	Polarity=Neg|PronType=Art	21	det	21:det	Entity=(25-person-acc:com-cf6-2-sgl
-21	one	one	NOUN	NN	Number=Sing	22	nsubj	22:nsubj	Entity=25)
+21	one	one	PRON	NN	Number=Sing|PronType=Neg	22	nsubj	22:nsubj	Entity=25)
 22	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:when	_
 23	off	off	ADV	RB	Degree=Pos	22	advmod	22:advmod	_
 24	at	at	ADP	IN	_	26	case	26:case	_
@@ -251,8 +253,8 @@
 # text = When someone comes in, say, "I've got this," before you push all of the buttons.
 # newpar
 # newpar_block = list type:::"unordered" (3 s) | item (1 s) | p (1 s)
-1	When	when	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=context-circumstance:29->31:2
-2	someone	someone	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=(27-person-new-cf5-1-sgl)
+1	When	when	ADV	WRB	PronType=Int	3	advmod	3:advmod	Discourse=context-circumstance:29->31:2
+2	someone	someone	PRON	NN	Number=Sing|PronType=Ind	3	nsubj	3:nsubj	Entity=(27-person-new-cf5-1-sgl)
 3	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	6:advcl:when	_
 4	in	in	ADP	IN	_	3	obl	3:obl	SpaceAfter=No
 5	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -309,12 +311,12 @@
 # newpar
 # newpar_block = item (1 s) | p (1 s)
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=contingency-condition:36->40:1
-2	someone	someone	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=attribution-positive:37->38:0|Entity=(30-person-new-cf4-1-sgl)
+2	someone	someone	PRON	NN	Number=Sing|PronType=Ind	3	nsubj	3:nsubj	Discourse=attribution-positive:37->38:0|Entity=(30-person-new-cf4-1-sgl)
 3	asks	ask	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	15:advcl:if	_
 4	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	iobj	3:iobj	Entity=(7-person-giv:act-cf1*-1-ana)
-5	why	why	ADV	WRB	PronType=Rel	3	obj	3:obj	Discourse=same-unit_m:38->36:0
+5	why	why	SCONJ	WRB	PronType=Rel	3	obj	3:obj	Discourse=same-unit_m:38->36:0
 6	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	7:nsubj	Entity=(7-person-giv:act-cf1*-1-ana)
-7	pushed	push	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	5	acl:relcl	5:acl:relcl	Entity=(19-event-giv:act-cf2-1-disc
+7	pushed	push	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	5	advcl:relcl	5:advcl:relcl	Entity=(19-event-giv:act-cf2-1-disc
 8	all	all	DET	PDT	PronType=Tot	10	det:predet	10:det:predet	Entity=(20-object-giv:act-cf3-3-coref
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	_
 10	buttons	button	NOUN	NNS	Number=Plur	7	obj	7:obj	Entity=20)19)|SpaceAfter=No
@@ -450,7 +452,7 @@
 # newpar_block = figure rend:::"drawing of woman talking to mirror in elevator" (0 s) | item n:::"3" (7 s) | p (3 s)
 1	Talk	talk	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-preparation:54->56:4|XML=<hi rend:::"bold">
 2	to	to	ADP	IN	_	4	case	4:case	_
-3	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(44-abstract-new-cf3-2-sgl(7-person-giv:act-cf1*-1-ana)
+3	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(44-abstract-new-cf3-2-sgl(7-person-giv:act-cf1*-1-ana)
 4	reflection	reflection	NOUN	NN	Number=Sing	1	obl	1:obl:to	_
 5	in	in	ADP	IN	_	7	case	7:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(45-object-new-cf2-2-coref
@@ -478,7 +480,7 @@
 # text = A great way to be mischievous in an elevator is to carry on a running commentary while you look at yourself in the mirror.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Discourse=joint-list_m:56->22:6|Entity=(49-abstract-new-cf3-3-sgl
 2	great	great	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
-3	way	way	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	_
+3	way	way	NOUN	NN	Number=Sing	12	nsubj:outer	12:nsubj:outer	_
 4	to	to	PART	TO	_	6	mark	6:mark	Discourse=purpose-goal:57->56:0
 5	be	be	AUX	VB	VerbForm=Inf	6	cop	6:cop	_
 6	mischievous	mischievous	ADJ	JJ	Degree=Pos	3	acl	3:acl:to	_
@@ -551,10 +553,10 @@
 3	also	also	ADV	RB	_	4	advmod	4:advmod	_
 4	keep	keep	VERB	VB	VerbForm=Inf	0	root	0:root	_
 5	adjusting	adjust	VERB	VBG	VerbForm=Ger	4	xcomp	4:xcomp	_
-6	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(54-object-new-cf3-2-sgl(7-person-giv:act-cf1*-1-ana)
+6	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(54-object-new-cf3-2-sgl(7-person-giv:act-cf1*-1-ana)
 7	shirt	shirt	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=54)
 8	or	or	CCONJ	CC	_	10	cc	10:cc	_
-9	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(55-object-new-cf5-2-sgl(7-person-giv:act-cf1*-1-ana)
+9	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(55-object-new-cf5-2-sgl(7-person-giv:act-cf1*-1-ana)
 10	hair	hair	NOUN	NN	Number=Sing	7	conj	5:obj|7:conj:or	Entity=55)|SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	12:punct	_
 12	keeping	keep	VERB	VBG	VerbForm=Ger	4	advcl	4:advcl	Discourse=mode-manner:65->64:0
@@ -598,7 +600,7 @@
 1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=joint-other_m:68->66:1
 2	n't	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	_
 3	say	say	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
-4	anything	anything	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(60-abstract-new-cf1-1-sgl)
+4	anything	anything	PRON	NN	Number=Sing|PronType=Ind	3	obj	3:obj	Entity=(60-abstract-new-cf1-1-sgl)
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(61-event-new-cf2-3-sgl
 6	whole	whole	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	ride	ride	NOUN	NN	Number=Sing	3	obl:npmod	3:obl:npmod	Entity=61)|SpaceAfter=No
@@ -668,17 +670,17 @@
 1	Start	start	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:74->73:1
 2	just	just	ADV	RB	_	3	advmod	3:advmod	_
 3	bobbing	bob	VERB	VBG	VerbForm=Ger	1	xcomp	1:xcomp	_
-4	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(70-object-new-cf3-2-sgl(7-person-giv:act-cf1*-1-ana)
+4	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(70-object-new-cf3-2-sgl(7-person-giv:act-cf1*-1-ana)
 5	head	head	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=70)
 6	and	and	CCONJ	CC	_	7	cc	7:cc	_
 7	tapping	tap	VERB	VBG	VerbForm=Ger	3	conj	1:xcomp|3:conj:and	_
-8	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(71-object-new-cf4-2-sgl(7-person-giv:act-cf1*-1-ana)
+8	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(71-object-new-cf4-2-sgl(7-person-giv:act-cf1*-1-ana)
 9	feet	foot	NOUN	NNS	Number=Plur	7	obj	7:obj	Entity=71)|SpaceAfter=No
 10	,	,	PUNCT	,	_	13	punct	13:punct	_
 11	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=joint-sequence_m:75->74:0
 12	then	then	ADV	RB	PronType=Dem	13	advmod	13:advmod	_
 13	get	get	VERB	VB	VerbForm=Inf	3	conj	1:xcomp|3:conj:and	_
-14	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(72-object-new-cf5-3-sgl(7-person-giv:act-cf1*-1-ana)
+14	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(72-object-new-cf5-3-sgl(7-person-giv:act-cf1*-1-ana)
 15	whole	whole	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
 16	body	body	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=72)
 17	into	into	ADP	IN	_	18	case	18:case	_
@@ -701,7 +703,7 @@
 9	to	to	PART	TO	_	10	mark	10:mark	Discourse=purpose-goal:78->76:1
 10	dance	dance	VERB	VB	VerbForm=Inf	1	advcl	1:advcl:to	Entity=(69-event-giv:act-cf2-1-coref)
 11	until	until	SCONJ	IN	_	14	mark	14:mark	Discourse=causal-result:79->76:2
-12	everyone	everyone	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	Entity=(74-person-new-cf3-1-coref)
+12	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	14	nsubj	14:nsubj	Entity=(74-person-new-cf3-1-coref)
 13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	14:aux	_
 14	staring	stare	VERB	VBG	Tense=Pres|VerbForm=Part	10	advcl	10:advcl:until	_
 15	at	at	ADP	IN	_	16	case	16:case	_
@@ -737,7 +739,7 @@
 7	loud	loud	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	announcement	announcement	NOUN	NN	Number=Sing	5	obj	5:obj	_
 9	telling	tell	VERB	VBG	VerbForm=Ger	8	acl	8:acl	Discourse=elaboration-attribute:83->82:0
-10	everyone	everyone	NOUN	NN	Number=Sing	9	iobj	9:iobj	Entity=(74-person-giv:inact-cf2-1-coref)
+10	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	9	iobj	9:iobj	Entity=(74-person-giv:inact-cf2-1-coref)
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(77-abstract-new-cf3-3-sgl
 12	floor	floor	NOUN	NN	Number=Sing	13	compound	13:compound	Entity=(32-place-giv:act-cf1*-1-coref)
 13	number	number	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=77)76)|SpaceAfter=No
@@ -752,7 +754,7 @@
 2	something	something	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=(78-abstract-new-cf1-1-sgl)
 3	like	like	SCONJ	IN	_	11	mark	11:mark	_
 4	“	''	PUNCT	``	_	11	punct	11:punct	Discourse=elaboration-additional:85->82:1|SpaceAfter=No
-5	Everyone	everyone	NOUN	NN	Number=Sing	11	vocative	11:vocative	Entity=(79-person-new-cf2-1-sgl
+5	Everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	11	vocative	11:vocative	Entity=(79-person-new-cf2-1-sgl
 6	going	go	VERB	VBG	VerbForm=Ger	5	acl	5:acl	Discourse=elaboration-attribute:86->85:0
 7	to	to	ADP	IN	_	8	case	8:case	_
 8	floor	floor	NOUN	NN	Number=Sing	6	obl	6:obl:to	Entity=(80-place-new-cf3-1-sgl
@@ -823,7 +825,7 @@
 # s_type = imp
 # transition = continue
 # text = When the elevator is going from the bottom floor to the top, as soon as the doors close, exclaim that you lost your tarantula / snake / scorpion but confirm that it is somewhere in the elevator.
-1	When	when	SCONJ	WRB	PronType=Int	5	mark	5:mark	Discourse=context-circumstance:96->99:3|Entity=(86-event-new-cf8-21,32-disc
+1	When	when	ADV	WRB	PronType=Int	5	advmod	5:advmod	Discourse=context-circumstance:96->99:3|Entity=(86-event-new-cf8-21,32-disc
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(84-place-giv:inact-cf3-2-coref
 3	elevator	elevator	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=84)
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
@@ -847,7 +849,7 @@
 22	that	that	SCONJ	IN	_	24	mark	24:mark	Discourse=joint-list_m:99->22:6
 23	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	24	nsubj	24:nsubj	Entity=(7-person-giv:act-cf1*-1-ana)
 24	lost	lose	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	21	ccomp	21:ccomp	_
-25	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(90-animal-new-cf2-2,4,6-coref(7-person-giv:act-cf1*-1-ana)
+25	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(90-animal-new-cf2-2,4,6-coref(7-person-giv:act-cf1*-1-ana)
 26	tarantula	tarantula	NOUN	NN	Number=Sing	24	obj	24:obj	_
 27	/	/	SYM	SYM	_	28	cc	28:cc	_
 28	snake	snake	NOUN	NN	Number=Sing	26	conj	24:obj|26:conj:slash	_
@@ -891,7 +893,7 @@
 1	However	however	ADV	RB	_	14	advmod	14:advmod	Discourse=adversative-contrast_m:103->102:0|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	if	if	SCONJ	IN	_	5	mark	5:mark	Discourse=contingency-condition:104->107:1
-4	somebody	somebody	NOUN	NN	Number=Sing	5	nsubj	5:nsubj|7:nsubj:xsubj|10:nsubj|12:nsubj:xsubj	Entity=(93-person-new-cf1-1-coref)
+4	somebody	somebody	PRON	NN	Number=Sing|PronType=Ind	5	nsubj	5:nsubj|7:nsubj:xsubj|10:nsubj|12:nsubj:xsubj	Entity=(93-person-new-cf1-1-coref)
 5	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	14:advcl:if	_
 6	seriously	seriously	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
 7	alarmed	alarmed	ADJ	JJ	Degree=Pos	5	xcomp	5:xcomp	_
@@ -988,7 +990,7 @@
 # s_type = imp
 # transition = null
 # text = When there are a lot of people, say, "You're probably wondering why I've gathered you here today."
-1	When	when	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=context-circumstance:114->117:2
+1	When	when	ADV	WRB	PronType=Int	3	advmod	3:advmod	Discourse=context-circumstance:114->117:2
 2	there	there	PRON	EX	PronType=Dem	3	expl	3:expl	_
 3	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl:when	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(101-person-new-cf1-2-coref
@@ -1003,11 +1005,11 @@
 13	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
 14	probably	probably	ADV	RB	Degree=Pos	15	advmod	15:advmod	_
 15	wondering	wonder	VERB	VBG	Tense=Pres|VerbForm=Part	9	dep	9:dep	_
-16	why	why	ADV	WRB	PronType=Rel	15	obj	15:obj	Discourse=joint-list_m:117->22:6
+16	why	why	SCONJ	WRB	PronType=Rel	15	obj	15:obj	Discourse=joint-list_m:117->22:6
 17-18	I've	_	_	_	_	_	_	_	_
 17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	19:nsubj	Entity=(7-person-giv:inact-cf2-1-ana)
 18	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
-19	gathered	gather	VERB	VBN	Tense=Past|VerbForm=Part	16	acl:relcl	16:acl:relcl	_
+19	gathered	gather	VERB	VBN	Tense=Past|VerbForm=Part	16	advcl:relcl	16:advcl:relcl	_
 20	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	19	obj	19:obj	Entity=(101-person-giv:act-cf1-1-ana)
 21	here	here	ADV	RB	PronType=Dem	19	advmod	19:advmod	Entity=(84-place-giv:inact-cf3-1-coref)
 22	today	today	NOUN	NN	Number=Sing	19	obl:tmod	19:obl:tmod	Entity=(102-time-new-cf4-1-sgl)|SpaceAfter=No

@@ -1,8 +1,10 @@
 # newdoc id = GUM_news_sensitive
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Wikinews
 # meta::dateCollected = 2015-09-21
 # meta::dateCreated = 2008-08-15
 # meta::dateModified = 2014-05-11
+# meta::genre = news
 # meta::sourceURL = https://en.wikinews.org/wiki/Sensitive_Canadian_document_found_on_rainy_streets
 # meta::speakerCount = 0
 # meta::title = Sensitive Canadian document found on rainy streets
@@ -55,7 +57,7 @@
 11	Ottawa	Ottawa	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=(7-place-new-cf8-1-coref-Ottawa)|XML=<ref></ref>
 12	street	street	NOUN	NN	Number=Sing	7	obl	7:obl:on	Entity=3)
 13	by	by	ADP	IN	_	14	case	14:case	_
-14	someone	someone	NOUN	NN	Number=Sing	7	obl:agent	7:obl:agent|16:nsubj	Entity=(8-person-new-cf6-1-coref
+14	someone	someone	PRON	NN	Number=Sing|PronType=Ind	7	obl:agent	7:obl:agent|16:nsubj	Entity=(8-person-new-cf6-1-coref
 15	who	who	PRON	WP	PronType=Rel	16	nsubj	14:ref	Discourse=elaboration-attribute:4->3:0
 16	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_
 17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	16:obj	Entity=(2-object-giv:act-cf1-1-ana)
@@ -149,7 +151,7 @@
 # transition = rough-shift
 # text = If someone were able to shut the system down, or hack inside and delete or corrupt the information, it could affect the prosecution of the lawbreakers.
 1	If	if	SCONJ	IN	_	4	mark	4:mark	Discourse=contingency-condition:12->13:0
-2	someone	someone	NOUN	NN	Number=Sing	4	nsubj	4:nsubj|6:nsubj:xsubj|12:nsubj:xsubj	Entity=(21-event-new-cf1-3-disc(22-person-new-cf5-1-sgl)
+2	someone	someone	PRON	NN	Number=Sing|PronType=Ind	4	nsubj	4:nsubj|6:nsubj:xsubj|12:nsubj:xsubj	Entity=(21-event-new-cf1-3-disc(22-person-new-cf5-1-sgl)
 3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
 4	able	able	ADJ	JJ	Degree=Pos	23	advcl	23:advcl:if	_
 5	to	to	PART	TO	_	6	mark	6:mark	_
@@ -286,7 +288,7 @@
 15	or	or	CCONJ	CC	_	16	cc	16:cc	_
 16	injury	injury	NOUN	NN	Number=Sing	12	conj	10:nmod:of|12:conj:or	Entity=30)|SpaceAfter=No
 17	,	,	PUNCT	,	_	18	punct	18:punct	_
-18	research	research	NOUN	NN	Number=Sing	10	conj	8:obl:to|10:conj:and|27:nsubj	Entity=(31-abstract-new-cf6-1,4,6-sgl
+18	research	research	NOUN	NN	Number=Sing	10	conj	8:obl:to|10:conj:or|27:nsubj	Entity=(31-abstract-new-cf6-1,4,6-sgl
 19	or	or	CCONJ	CC	_	21	cc	21:cc	_
 20	scientific	scientific	ADJ	JJ	Degree=Pos	21	amod	21:amod	_
 21	notes	note	NOUN	NNS	Number=Plur	18	conj	10:conj|18:conj:or	_
@@ -335,7 +337,7 @@
 6	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 7	government	government	NOUN	NN	Number=Sing	8	compound	8:compound	Entity=(38-person-new-cf7-2-sgl
 8	officials	official	NOUN	NNS	Number=Plur	6	iobj	6:iobj	Entity=38)
-9	how	how	ADV	WRB	PronType=Rel	6	obj	6:obj	Discourse=evaluation-comment:24->3:4
+9	how	how	SCONJ	WRB	PronType=Rel	6	obj	6:obj	Discourse=evaluation-comment:24->3:4
 10	such	such	ADJ	JJ	Degree=Pos	11	amod	11:amod	Entity=(1-event-giv:inact-cf4-15-disc(2-object-giv:inact-cf2-2-coref
 11	documents	document	NOUN	NNS	Number=Plur	24	nsubj	24:nsubj	_
 12	that	that	PRON	WDT	PronType=Rel	17	nsubj:pass	17:nsubj:pass	Discourse=elaboration-attribute:25->24:0
@@ -350,7 +352,7 @@
 21	security	security	NOUN	NN	Number=Sing	22	compound	22:compound	Entity=(17-abstract-giv:inact-cf5-1-coref)
 22	cabinets	cabinet	NOUN	NNS	Number=Plur	17	obl	17:obl:in	Entity=39)|SpaceAfter=No
 23	"	''	PUNCT	''	_	22	punct	22:punct	Entity=2)|XML=</quote>
-24	wound	wind	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	acl:relcl	9:acl:relcl	Discourse=same-unit_m:26->24:1
+24	wound	wind	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	advcl:relcl	9:advcl:relcl	Discourse=same-unit_m:26->24:1
 25	up	up	ADP	RP	_	24	compound:prt	24:compound:prt	_
 26	on	on	ADP	IN	_	28	case	28:case	_
 27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Entity=(3-place-giv:inact-cf3-2-coref
@@ -374,7 +376,7 @@
 7	:	:	PUNCT	:	_	12	punct	12:punct	_
 8	that	that	SCONJ	IN	_	12	mark	12:mark	Discourse=elaboration-additional:28->24:3
 9-10	it's	_	_	_	_	_	_	_	_
-9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Bridge=40<41|Entity=(41-event-acc:inf-cf4-4,6-sgl(2-object-giv:act-cf2-1-ana)
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj:outer	12:nsubj:outer	Bridge=40<41|Entity=(41-event-acc:inf-cf4-4,6-sgl(2-object-giv:act-cf2-1-ana)
 10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
 11	neither	neither	CCONJ	CC	_	12	cc:preconj	12:cc:preconj	_
 12	classified	classify	VERB	VBN	Tense=Past|VerbForm=Part	4	parataxis	4:parataxis	_
@@ -450,10 +452,10 @@
 17	more	more	ADJ	JJR	Degree=Cmp	18	amod	18:amod	_
 18	details	detail	NOUN	NNS	Number=Plur	15	obj	15:obj	_
 19	about	about	ADP	IN	_	20	case	20:case	Discourse=elaboration-additional:37->36:0
-20	how	how	ADV	WRB	PronType=Rel	18	nmod	18:nmod:about	_
+20	how	how	SCONJ	WRB	PronType=Rel	18	nmod	18:nmod:about	_
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(1-event-giv:act-cf3-3-disc(2-object-giv:inact-cf4-2-coref
 22	papers	paper	NOUN	NNS	Number=Plur	23	nsubj	23:nsubj|28:nsubj:xsubj	Entity=2)
-23	came	come	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	acl:relcl	20:acl:relcl	_
+23	came	come	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	advcl:relcl	20:advcl:relcl	_
 24	to	to	PART	TO	_	28	mark	28:mark	_
 25	be	be	AUX	VB	VerbForm=Inf	28	cop	28:cop	_
 26	on	on	ADP	IN	_	28	case	28:case	_
@@ -531,7 +533,7 @@
 24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(54-abstract-new-cf5-2-sgl
 25	information	information	NOUN	NN	Number=Sing	23	obj	23:obj	Entity=54)
 26	with	with	ADP	IN	_	29	case	29:case	_
-27	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	Entity=(55-person-new-cf7-3-sgl
+27	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	Entity=(55-person-new-cf7-3-sgl
 28	own	own	ADJ	JJ	Degree=Pos	29	amod	29:amod	_
 29	colleagues	colleague	NOUN	NNS	Number=Plur	23	obl	23:obl:with	Entity=55)53)|SpaceAfter=No
 30	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -543,7 +545,7 @@
 # text = However, when a government document has been found on the streets, the government then says it wasn't particularly sensitive.
 1	However	however	ADV	RB	_	17	advmod	17:advmod	Discourse=adversative-contrast_m:44->42:2|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	when	when	SCONJ	WRB	PronType=Int	9	mark	9:mark	Discourse=context-circumstance:45->47:1
+3	when	when	ADV	WRB	PronType=Int	9	advmod	9:advmod	Discourse=context-circumstance:45->47:1
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(1-event-giv:inact-cf4-6-disc(51-object-giv:inact-cf1-3-coref
 5	government	government	NOUN	NN	Number=Sing	6	compound	6:compound	_
 6	document	document	NOUN	NN	Number=Sing	9	nsubj:pass	9:nsubj:pass	Entity=51)
@@ -693,7 +695,7 @@
 24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	_
 25	apartment	apartment	NOUN	NN	Number=Sing	20	obl	20:obl:at	_
 26	of	of	ADP	IN	_	30	case	30:case	_
-27	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	30:nmod:poss	Entity=(70-person-new-cf8-4,6,13-sgl
+27	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	30:nmod:poss	Entity=(70-person-new-cf8-4,6,13-sgl
 28	then	then	ADV	RB	PronType=Dem	30	advmod	30:advmod	SpaceAfter=No|XML=<w>
 29	-	-	PUNCT	HYPH	_	28	punct	28:punct	SpaceAfter=No
 30	girlfriend	girlfriend	NOUN	NN	Number=Sing	25	nmod	25:nmod:of|34:nsubj	XML=</w>

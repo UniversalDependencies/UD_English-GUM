@@ -1,8 +1,10 @@
 # newdoc id = GUM_interview_onion
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Wikinews
 # meta::dateCollected = 2016-09-19
 # meta::dateCreated = 2007-11-25
 # meta::dateModified = 2013-09-10
+# meta::genre = interview
 # meta::sourceURL = https://en.wikinews.org/wiki/The_Onion:_An_interview_with_%27America%27s_Finest_News_Source%27
 # meta::speakerCount = 3
 # meta::title = The Onion: An interview with 'America's Finest News Source'
@@ -50,7 +52,7 @@
 1	How	how	ADV	WRB	PronType=Rel	0	root	0:root	Discourse=organization-heading:4->8:3
 2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(1-organization-giv:inact-cf1-2-coref-The_Onion
 3	Onion	Onion	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Entity=1)
-4	writes	write	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	1:acl:relcl	_
+4	writes	write	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl:relcl	1:advcl:relcl	_
 5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(7-abstract-new-cf2-2-sgl
 6	issue	issue	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=7)
 
@@ -116,7 +118,7 @@
 # newpar_block = sp who:::"#ChetClem" (8 s)
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=ROOT:8:0|Entity=(14-person-giv:act-cf1*-1-ana)
 2	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	everything	everything	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=(16-abstract-new-cf3-1-sgl)
+3	everything	everything	PRON	NN	Number=Sing|PronType=Tot	2	obj	2:obj	Entity=(16-abstract-new-cf3-1-sgl)
 4	backwards	backwards	ADV	RB	Degree=Pos	2	advmod	2:advmod	_
 5	here	here	ADV	RB	PronType=Dem	2	advmod	2:advmod	Entity=(1-organization-giv:inact-cf2-1-coref-The_Onion)|SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -197,7 +199,7 @@
 13	Monday	Monday	PROPN	NNP	Number=Sing	2	obl	2:obl:on	Entity=26)
 14	coming	come	VERB	VBG	VerbForm=Ger	10	acl	10:acl	Discourse=elaboration-attribute:17->16:0
 15	from	from	ADP	IN	_	17	case	17:case	_
-16	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	Entity=(27-person-new-cf2-2,6-coref(28-person-new-cf6-2-coref(14-person-giv:act-cf1*-1-ana)
+16	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	Entity=(27-person-new-cf2-2,6-coref(28-person-new-cf6-2-coref(14-person-giv:act-cf1*-1-ana)
 17	staff	staff	NOUN	NN	Number=Sing	14	obl	14:obl:from	Entity=28)
 18	and	and	CCONJ	CC	_	21	cc	21:cc	_
 19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	Entity=(29-person-new-cf7-3-sgl
@@ -299,7 +301,7 @@
 21	of	of	ADP	IN	_	22	case	22:case	_
 22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nmod	20:nmod:of	Entity=(36-abstract-giv:act-cf2-1-ana)37)
 23	to	to	ADP	IN	_	27	case	27:case	_
-24	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Entity=(39-organization-new-cf7-4-sgl(14-person-giv:act-cf1*-1-ana)
+24	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Entity=(39-organization-new-cf7-4-sgl(14-person-giv:act-cf1*-1-ana)
 25	graphic	graphic	ADJ	JJ	Degree=Pos	27	amod	27:amod	Entity=(40-abstract-new-cf9-2-sgl
 26	design	design	NOUN	NN	Number=Sing	27	compound	27:compound	Entity=40)
 27	team	team	NOUN	NN	Number=Sing	17	obl	17:obl:to|30:nsubj	SpaceAfter=No
@@ -408,7 +410,7 @@
 2	will	will	AUX	MD	Number=Plur|Person=3|VerbForm=Fin	4	aux	4:aux	_
 3	occasionally	occasionally	ADV	RB	Degree=Pos	4	advmod	4:advmod	XML=<hi rend:::"italic"></hi>
 4	write	write	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(52-abstract-new-cf6-3-sgl(46-person-giv:act-cf3*-1-ana)
+5	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(52-abstract-new-cf6-3-sgl(46-person-giv:act-cf3*-1-ana)
 6	own	own	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	headlines	headline	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=52)|SpaceAfter=No
 8	,	,	PUNCT	,	_	11	punct	11:punct	_
@@ -476,7 +478,7 @@
 18	stuff	stuff	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=61)
 19	to	to	ADP	IN	_	14	obl	14:obl	Entity=60)|SpaceAfter=No
 20	;	;	PUNCT	:	_	21	punct	21:punct	_
-21	someone	someone	NOUN	NN	Number=Sing	4	conj	2:obj|4:conj|25:nsubj	Bridge=46<63|Discourse=same-unit_m:48->44:1|Entity=(63-person-acc:inf-cf6-1,9-sgl
+21	someone	someone	PRON	NN	Number=Sing|PronType=Ind	4	conj	2:obj|4:conj|25:nsubj	Bridge=46<63|Discourse=same-unit_m:48->44:1|Entity=(63-person-acc:inf-cf6-1,9-sgl
 22	who	who	PRON	WP	PronType=Rel	25	nsubj	21:ref	Discourse=contingency-condition:49->48:0
 23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	25:cop	_
 24	in	in	ADP	IN	_	25	case	25:case	_
@@ -567,7 +569,7 @@
 # text = is there anything similar with The Onion where they continually revisit a topic or person?
 1	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=topic-question:56->58:1
 2	there	there	PRON	EX	PronType=Dem	1	expl	1:expl	_
-3	anything	anything	NOUN	NN	Number=Sing	1	nsubj	1:nsubj	Entity=(77-abstract-new-cf2-1-sgl
+3	anything	anything	PRON	NN	Number=Sing|PronType=Ind	1	nsubj	1:nsubj	Entity=(77-abstract-new-cf2-1-sgl
 4	similar	similar	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=77)
 5	with	with	ADP	IN	_	7	case	7:case	_
 6	The	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(1-organization-giv:inact-cf1-2-coref-The_Onion
@@ -624,7 +626,7 @@
 6	zeitgeist	Zeitgeist	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=80)|XML=<ref target:::"https://en.wikipedia.org/wiki/Zeitgeist"></ref>
 7	more	more	ADV	RBR	Degree=Cmp	9	advmod	9:advmod	_
 8	than	than	ADP	IN	_	9	case	9:case	_
-9	anything	anything	NOUN	NN	Number=Sing	4	obl	4:obl:than	Entity=(81-abstract-new-cf3-1-sgl)|SpaceAfter=No
+9	anything	anything	PRON	NN	Number=Sing|PronType=Ind	4	obl	4:obl:than	Entity=(81-abstract-new-cf3-1-sgl)|SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_onion-26
@@ -703,7 +705,7 @@
 9	Colbert	Colbert	PROPN	NNP	Number=Sing	8	flat	8:flat	Entity=90)
 10	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 11	of	of	ADP	IN	_	13	case	13:case	_
-12	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(91-time-new-cf6-2,4-sgl(90-person-giv:act-cf2-1-ana-Stephen_Colbert)
+12	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(91-time-new-cf6-2,4-sgl(90-person-giv:act-cf2-1-ana-Stephen_Colbert)
 13	time	time	NOUN	NN	Number=Sing	10	obl	10:obl:of	_
 14	at	at	ADP	IN	_	16	case	16:case	_
 15	Second	Second	ADJ	NNP	Degree=Pos|Number=Sing|NumType=Ord	16	amod	16:amod	Entity=(92-organization-new-cf1-1,2-coref-The_Second_City|XML=<ref target:::" https://en.wikipedia.org/wiki/Second_City">
@@ -760,7 +762,7 @@
 # transition = zero
 # text = Do your writers have similar rules of thumb?
 1	Do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	Discourse=topic-question:68->71:5
-2	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(46-person-giv:inact-cf2-2-coref(14-person-giv:inact-cf1-1-ana)
+2	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(46-person-giv:inact-cf2-2-coref(14-person-giv:inact-cf1-1-ana)
 3	writers	writer	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=46)
 4	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	_
 5	similar	similar	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(97-abstract-new-cf3-2-sgl
@@ -874,7 +876,7 @@
 # transition = zero
 # text = One example is we ran an article a couple of years back that was, "No Jennifer Lopez News Today".
 1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=elaboration-additional:78->77:1|Entity=(104-abstract-new-cf3-2-sgl
-2	example	example	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=104)
+2	example	example	NOUN	NN	Number=Sing	5	nsubj:outer	5:nsubj:outer	Entity=104)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(14-person-giv:inact-cf2-1-ana)
 5	ran	run	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -905,7 +907,7 @@
 # text = That was our reaction to all of the J-Lo stuff.
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Discourse=context-background:80->78:1|Entity=(107-abstract-giv:act-cf1*-1-ana)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
-3	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(107-abstract-giv:act-cf1*-2-coref(14-person-giv:act-cf2-1-ana)
+3	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(107-abstract-giv:act-cf1*-2-coref(14-person-giv:act-cf2-1-ana)
 4	reaction	reaction	NOUN	NN	Number=Sing	0	root	0:root	_
 5	to	to	ADP	IN	_	6	case	6:case	_
 6	all	all	DET	DT	PronType=Tot	4	nmod	4:nmod:to	Entity=(110-abstract-acc:com-cf4-1,6-sgl
@@ -931,7 +933,7 @@
 5	to	to	PART	TO	_	6	mark	6:mark	_
 6	touch	touch	VERB	VB	VerbForm=Inf	4	xcomp	4:xcomp	_
 7	on	on	ADP	IN	_	9	case	9:case	_
-8	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(111-abstract-new-cf3-2,8-coref(112-object-new-cf4-2-sgl(108-person-giv:act-cf2-1-ana-Jennifer_Lopez)
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(111-abstract-new-cf3-2,8-coref(112-object-new-cf4-2-sgl(108-person-giv:act-cf2-1-ana-Jennifer_Lopez)
 9	dress	dress	NOUN	NN	Number=Sing	6	obl	6:obl:on	Entity=112)|SpaceAfter=No
 10	,	,	PUNCT	,	_	15	punct	15:punct	_
 11	or	or	CCONJ	CC	_	15	cc	15:cc	_
@@ -962,7 +964,7 @@
 13	days	day	NOUN	NNS	Number=Plur	9	nmod	9:nmod:for	Entity=115)|SpaceAfter=No
 14	,	,	PUNCT	,	_	16	punct	16:punct	_
 15	in	in	ADP	IN	_	16	case	16:case	_
-16	everything	everything	NOUN	NN	Number=Sing	9	nmod	9:nmod:in	Entity=(116-abstract-new-cf7-1,3,6,7-sgl
+16	everything	everything	PRON	NN	Number=Sing|PronType=Tot	9	nmod	9:nmod:in	Entity=(116-abstract-new-cf7-1,3,6,7-sgl
 17	from	from	ADP	IN	_	19	case	19:case	_
 18	US	US	PROPN	NNP	Abbr=Yes|Number=Sing	19	compound	19:compound	Entity=(117-organization-new-cf4-1,2-sgl-US_Weekly(3-place-giv:inact-cf2-1-coref-United_States)|XML=<ref target:::" https://en.wikipedia.org/wiki/Us_Weekly"><hi rend:::"italic">
 19	Weekly	Weekly	PROPN	NNP	Number=Sing	16	nmod	16:nmod:from	Entity=117)|XML=</hi></ref>
@@ -1078,14 +1080,14 @@
 5	different	different	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 6	creative	creative	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	process	process	NOUN	NN	Number=Sing	3	obj	3:obj	_
-8	where	where	SCONJ	WRB	PronType=Rel	12	mark	12:mark	Discourse=elaboration-attribute:92->91:0
+8	where	where	ADV	WRB	PronType=Rel	12	advmod	12:advmod	Discourse=elaboration-attribute:92->91:0
 9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	12:nsubj|14:nsubj:xsubj	Entity=(14-person-giv:inact-cf2-1-ana)
 10	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	12:aux	_
 11	not	not	PART	RB	Polarity=Neg	12	advmod	12:advmod	_
 12	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	7	acl:relcl	7:acl:relcl	_
 13	to	to	PART	TO	_	14	mark	14:mark	_
 14	hit	hit	VERB	VB	VerbForm=Inf	12	xcomp	12:xcomp	_
-15	everything	everything	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=(131-abstract-new-cf5-1-sgl)
+15	everything	everything	PRON	NN	Number=Sing|PronType=Tot	14	obj	14:obj	Entity=(131-abstract-new-cf5-1-sgl)
 16	in	in	ADP	IN	_	19	case	19:case	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(124-time-giv:act-cf1*-3-coref
 18	24	24	NUM	CD	NumForm=Digit|NumType=Card	19	nummod	19:nummod	_
@@ -1118,29 +1120,29 @@
 # text = If we choose to do something on J-Lo, it’s going to be something like that, something less obvious.
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=contingency-condition:94->95:0
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Entity=(14-person-giv:act-cf1*-1-ana)
-3	choose	choose	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	advcl	13:advcl:if	_
+3	choose	choose	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	advcl	14:advcl:if	_
 4	to	to	PART	TO	_	5	mark	5:mark	_
 5	do	do	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
-6	something	something	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=(133-abstract-new-cf2-3,5-coref
+6	something	something	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=(133-abstract-new-cf2-1,5-coref
 7	on	on	ADP	IN	_	8	case	8:case	_
-8	J	J	PROPN	NNP	Number=Sing	5	obl	5:obl:on	Entity=(108-person-giv:inact-cf4-1,3-coref-Jennifer_Lopez|SpaceAfter=No|XML=<w>
+8	J	J	PROPN	NNP	Number=Sing	6	nmod	6:nmod:on	Entity=(108-person-giv:inact-cf4-1,3-coref-Jennifer_Lopez|SpaceAfter=No|XML=<w>
 9	-	-	PUNCT	HYPH	_	10	punct	10:punct	SpaceAfter=No
 10	Lo	Lo	PROPN	NNP	Number=Sing	8	flat	8:flat	Entity=108)133)|SpaceAfter=No|XML=</w>
 11	,	,	PUNCT	,	_	3	punct	3:punct	_
 12-13	it’s	_	_	_	_	_	_	_	_
-12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	Discourse=elaboration-additional:95->93:1|Entity=(133-abstract-giv:act-cf2-1-ana)
-13	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-14	going	go	VERB	VBG	VerbForm=Ger	13	advcl	13:advcl	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj|17:nsubj:xsubj	Discourse=elaboration-additional:95->93:1|Entity=(133-abstract-giv:act-cf2-1-ana)
+13	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	14:aux	_
+14	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
 15	to	to	PART	TO	_	17	mark	17:mark	_
 16	be	be	AUX	VB	VerbForm=Inf	17	cop	17:cop	_
 17	something	something	NOUN	NN	Number=Sing	14	xcomp	14:xcomp	Entity=(133-abstract-giv:act-cf2-1-coref
 18	like	like	ADP	IN	_	19	case	19:case	_
 19	that	that	PRON	DT	Number=Sing|PronType=Dem	17	nmod	17:nmod:like	Entity=(107-abstract-giv:inact-cf3-1-ana)133)|SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	21:punct	_
-21	something	something	NOUN	NN	Number=Sing	19	appos	19:appos	Entity=(133-abstract-giv:act-cf2-1-coref
+21	something	something	NOUN	NN	Number=Sing	17	appos	17:appos	Entity=(133-abstract-giv:act-cf2-1-appos
 22	less	less	ADV	RBR	Degree=Cmp	23	advmod	23:advmod	_
 23	obvious	obvious	ADJ	JJ	Degree=Pos	21	amod	21:amod	Entity=133)|SpaceAfter=No
-24	.	.	PUNCT	.	_	13	punct	13:punct	_
+24	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # sent_id = GUM_interview_onion-46
 # s_prominence = 2
@@ -1153,7 +1155,7 @@
 1	When	when	ADV	WRB	PronType=Int	4	advmod	4:advmod	Discourse=context-circumstance:96->97:1|Entity=(134-event-new-cf2-4-disc
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(14-person-giv:act-cf1*-1-ana)
 3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
-4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	13	acl	13:acl	_
+4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	13	acl	13:acl:when	_
 5	through	through	ADP	IN	_	7	case	7:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(69-abstract-giv:inact-cf3-2-coref
 7	headlines	headline	NOUN	NNS	Number=Plur	4	obl	4:obl:through	Entity=69)134)|SpaceAfter=No
@@ -1221,7 +1223,7 @@
 6	than	than	SCONJ	IN	_	9	mark	9:mark	Discourse=adversative-antithesis:102->101:0
 7-8	you’d	_	_	_	_	_	_	_	_
 7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Entity=(45-person-giv:inact-cf1-1-ana)
-8	’d	will	AUX	MD	VerbForm=Fin	9	aux	9:aux	_
+8	’d	would	AUX	MD	VerbForm=Fin	9	aux	9:aux	_
 9	imagine	imagine	VERB	VB	VerbForm=Inf	5	advcl	5:advcl:than	SpaceAfter=No
 10	.	.	PUNCT	.	_	5	punct	5:punct	_
 
@@ -1232,7 +1234,7 @@
 # transition = establishment
 # text = It’s very much like you are trying to make the room laugh, but the room has been a sort of captive audience for many many years now, so it takes a lot to make the room laugh.
 1-2	It’s	_	_	_	_	_	_	_	_
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj|10:nsubj:xsubj|13:nsubj:xsubj	Discourse=elaboration-additional:103->101:1|Entity=(134-event-giv:act-cf2-1-ana)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj:outer	8:nsubj:outer|10:nsubj:xsubj|13:nsubj:xsubj	Discourse=elaboration-additional:103->101:1|Entity=(134-event-giv:act-cf2-1-ana)
 2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
 3	very	very	ADV	RB	_	4	advmod	4:advmod	_
 4	much	much	ADV	RB	Degree=Pos	8	advmod	8:advmod	_
@@ -1301,7 +1303,7 @@
 16	-	-	PUNCT	HYPH	_	15	punct	15:punct	SpaceAfter=No
 17	chief	chief	NOUN	NN	Number=Sing	13	nmod	13:nmod:in	Entity=141)|SpaceAfter=No|XML=</w></ref>
 18	,	,	PUNCT	,	_	9	punct	9:punct	_
-19	likened	liken	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	8:acl:relcl	_
+19	likened	liken	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	advcl:relcl	8:advcl:relcl	_
 20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	19:obj	Entity=(134-event-giv:act-cf1*-1-ana)
 21	to	to	ADP	IN	_	23	case	23:case	_
 22	wine	wine	NOUN	NN	Number=Sing	23	compound	23:compound	Entity=(142-event-new-cf5-2-sgl(143-substance-new-cf6-1-sgl)|XML=<ref target:::"https://en.wikipedia.org/wiki/Wine_tasting">
@@ -1320,7 +1322,7 @@
 3	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	5:det	Entity=(134-event-giv:act-cf1*-3-coref
 4	quiet	quiet	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
 5	experience	experience	NOUN	NN	Number=Sing	0	root	0:root	_
-6	where	where	SCONJ	WRB	PronType=Rel	9	mark	9:mark	Discourse=elaboration-attribute:110->109:0
+6	where	where	ADV	WRB	PronType=Rel	9	advmod	9:advmod	Discourse=elaboration-attribute:110->109:0
 7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj|11:nsubj:xsubj	Entity=(45-person-giv:inact-cf3-1-ana)
 8	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
 9	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	5	acl:relcl	5:acl:relcl	_
@@ -1335,7 +1337,7 @@
 18	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	aux	20:aux	Discourse=joint-list_m:111->110:0
 19	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	20:nsubj	Entity=(14-person-giv:inact-cf4-1-ana)
 20	done	do	VERB	VBN	Tense=Past|VerbForm=Part	13	conj	11:obj|13:conj	_
-21	anything	anything	NOUN	NN	Number=Sing	20	obj	20:obj	Entity=(145-abstract-new-cf7-3-sgl
+21	anything	anything	PRON	NN	Number=Sing|PronType=Ind	20	obj	20:obj	Entity=(145-abstract-new-cf7-3-sgl
 22	like	like	ADP	IN	_	23	case	23:case	_
 23	this	this	PRON	DT	Number=Sing|PronType=Dem	20	obl	20:obl:like	Entity=(144-abstract-giv:act-cf2-1-ana)145)|SpaceAfter=No
 24	,	,	PUNCT	,	_	29	punct	29:punct	_
@@ -1359,7 +1361,7 @@
 # transition = continue
 # text = It’s sort of like," Hmmm ... that’s hilarious. That’s really really funny" rather than people falling off their chairs.
 1-2	It’s	_	_	_	_	_	_	_	_
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Discourse=elaboration-additional:114->109:1|Entity=(134-event-giv:act-cf1*-1-ana)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj:outer	12:nsubj:outer	Discourse=elaboration-additional:114->109:1|Entity=(134-event-giv:act-cf1*-1-ana)
 2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
 3	sort	sort	NOUN	NN	Number=Sing	12	obl:npmod	12:obl:npmod	_
 4	of	of	ADP	IN	_	3	fixed	3:fixed	_
@@ -1385,7 +1387,7 @@
 22	people	person	NOUN	NNS	Number=Plur	23	nsubj	23:nsubj	Entity=(148-person-new-cf3-1-coref)
 23	falling	fall	VERB	VBG	VerbForm=Ger	12	conj	12:conj:rather_than	_
 24	off	off	ADP	IN	_	26	case	26:case	_
-25	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(149-object-new-cf4-2-sgl(148-person-giv:act-cf3-1-ana)
+25	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(149-object-new-cf4-2-sgl(148-person-giv:act-cf3-1-ana)
 26	chairs	chair	NOUN	NNS	Number=Plur	23	obl	23:obl:off	Entity=149)|SpaceAfter=No
 27	.	.	PUNCT	.	_	12	punct	12:punct	_
 
@@ -1485,7 +1487,7 @@
 # speaker = ChetClem
 # transition = establishment
 # text = Everything is funny there.
-1	Everything	everything	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=evaluation-comment:124->123:0|Entity=(157-abstract-new-cf2-1-sgl)
+1	Everything	everything	PRON	NN	Number=Sing|PronType=Tot	3	nsubj	3:nsubj	Discourse=evaluation-comment:124->123:0|Entity=(157-abstract-new-cf2-1-sgl)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	funny	funny	ADJ	JJ	Degree=Pos	0	root	0:root	_
 4	there	there	ADV	RB	PronType=Dem	3	advmod	3:advmod	Entity=(154-place-giv:act-cf1*-1-coref)|SpaceAfter=No
@@ -1518,9 +1520,9 @@
 17	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	_
 18	why	why	ADV	WRB	PronType=Rel	2	parataxis	2:parataxis	_
 19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	20:nsubj|22:nsubj	Entity=(159-abstract-giv:act-cf2-1-ana)
-20	stay	stay	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	18:acl:relcl	_
+20	stay	stay	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	advcl:relcl	18:advcl:relcl	_
 21	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=joint-list_m:128->127:0
-22	die	die	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	conj	18:acl:relcl|20:conj:and	_
+22	die	die	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	conj	18:advcl:relcl|20:conj:and	_
 23	in	in	ADP	IN	_	26	case	26:case	_
 24	that	that	DET	DT	Number=Sing|PronType=Dem	26	det	26:det	Entity=(160-place-giv:act-cf3-3-coref
 25	back	back	ADJ	JJ	Degree=Pos	26	amod	26:amod	_
@@ -1545,7 +1547,7 @@
 # newpar
 # newpar_block = sp who:::"#DavidShankbone" (1 s)
 1	If	if	SCONJ	IN	_	5	mark	5:mark	Discourse=contingency-condition:130->131:0
-2	someone	someone	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=(161-person-new-cf1-1-coref)
+2	someone	someone	PRON	NN	Number=Sing|PronType=Ind	5	nsubj	5:nsubj	Entity=(161-person-new-cf1-1-coref)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 4	continually	continually	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 5	telling	tell	VERB	VBG	Tense=Pres|VerbForm=Part	12	advcl	12:advcl:if	_
@@ -1576,13 +1578,13 @@
 6	on	on	ADP	IN	_	9	case	9:case	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(163-place-acc:com-cf4-3-sgl
 8	10th	10th	ADJ	JJ	Degree=Pos|NumType=Ord	9	amod	9:amod	_
-9	floor	floor	NOUN	NN	Number=Sing	3	acl:relcl	3:acl:relcl	Entity=163)162)
+9	floor	floor	NOUN	NN	Number=Sing	3	advcl:relcl	3:advcl:relcl	Entity=163)162)
 10	to	to	PART	TO	_	11	mark	11:mark	Discourse=attribution-positive:133->134:1|Entity=(162-abstract-giv:act-cf2-2-coref
 11	make	make	VERB	VB	Person=2|VerbForm=Inf	3	parataxis	3:parataxis	_
 12	sure	sure	ADJ	JJ	Degree=Pos	11	xcomp	11:xcomp	_
 13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	14:nsubj	Discourse=purpose-goal:134->132:0|Entity=(161-person-giv:act-cf1*-1-ana)
 14	die	die	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	12:ccomp	_
-15	when	when	SCONJ	WRB	PronType=Int	18	mark	18:mark	Discourse=context-circumstance:135->134:0
+15	when	when	ADV	WRB	PronType=Int	18	advmod	18:advmod	Discourse=context-circumstance:135->134:0
 16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj:pass	18:nsubj:pass	Entity=(161-person-giv:act-cf1*-1-ana)
 17	get	get	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	18:aux:pass	_
 18	kicked	kick	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	advcl	14:advcl:when	_
@@ -1629,7 +1631,7 @@
 14	though	though	ADV	RB	Degree=Pos	21	advmod	21:advmod	SpaceAfter=No
 15	,	,	PUNCT	,	_	14	punct	14:punct	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Discourse=joint-other_m:138->58:2|Entity=(169-abstract-new-cf5-2-sgl
-17	odds	odd	NOUN	NNS	Number=Plur	21	nsubj	21:nsubj|23:nsubj:xsubj	Entity=169)
+17	odds	odd	NOUN	NNS	Number=Plur	21	nsubj:outer	21:nsubj:outer|23:nsubj:xsubj	Entity=169)
 18	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	21	cop	21:cop	_
 19	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	21	nsubj	21:nsubj|23:nsubj:xsubj	Entity=(45-person-giv:act-cf1-1-ana)
 20	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	21	aux	21:aux	_
@@ -1700,7 +1702,7 @@
 # text = But if somebody wakes up one morning and suddenly no longer is funny, then yeah, head first, out the door as quickly as possible, and as sadistically as possible.
 1	But	but	CCONJ	CC	_	23	cc	23:cc	Discourse=adversative-concession:144->138:2
 2	if	if	SCONJ	IN	_	4	mark	4:mark	Discourse=contingency-condition:145->147:2
-3	somebody	somebody	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=(173-person-new-cf2-1-sgl)
+3	somebody	somebody	PRON	NN	Number=Sing|PronType=Ind	4	nsubj	4:nsubj	Entity=(173-person-new-cf2-1-sgl)
 4	wakes	wake	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	23:advcl:if	_
 5	up	up	ADP	RP	_	4	compound:prt	4:compound:prt	_
 6	one	one	NUM	CD	NumForm=Word|NumType=Card	7	nummod	7:nummod	Entity=(174-time-new-cf4-2-sgl

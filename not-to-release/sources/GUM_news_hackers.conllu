@@ -1,8 +1,10 @@
 # newdoc id = GUM_news_hackers
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Wikinews
 # meta::dateCollected = 2014-09-15
 # meta::dateCreated = 2008-01-20
 # meta::dateModified = 2012-12-03
+# meta::genre = news
 # meta::sourceURL = https://en.wikinews.org/wiki/Hackers_attack_Church_of_Scientology_website
 # meta::speakerCount = 0
 # meta::title = Hackers attack Church of Scientology website
@@ -25,6 +27,8 @@
 # s_type = frag
 # transition = null
 # text = Sunday, January 20, 2008
+# newpar
+# newpar_block = p (1 s)
 1	Sunday	Sunday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-circumstance:2->6:7|Entity=(5-time-acc:com-cf1-1-coref)|SpaceAfter=No|XML=<date when:::"2008-01-20" rend:::"bold">
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	January	January	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(5-time-giv:act-cf1-2-appos
@@ -368,7 +372,7 @@
 19	been	be	AUX	VBN	Tense=Past|VerbForm=Part	20	aux:pass	20:aux:pass|24:aux:pass	_
 20	raided	raid	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	4:conj	_
 21	and	and	CCONJ	CC	_	24	cc	24:cc	Discourse=joint-list_m:31->28:0
-22	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	23:nmod:poss	Entity=(39-object-new-cf6-2-sgl(38-person-giv:act-cf1-1-ana)
+22	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	23:nmod:poss	Entity=(39-object-new-cf6-2-sgl(38-person-giv:act-cf1-1-ana)
 23	computers	computer	NOUN	NNS	Number=Plur	24	nsubj:pass	24:nsubj:pass	Entity=39)
 24	seized	seize	VERB	VBN	Tense=Past|VerbForm=Part	20	conj	4:conj|20:conj:and	Entity=23)
 25	--	-	PUNCT	:	_	26	punct	26:punct	_
@@ -455,7 +459,7 @@
 17	"	''	PUNCT	``	_	18	punct	18:punct	Discourse=explanation-evidence:41->48:2|SpaceAfter=No
 18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	26:nsubj|30:nsubj|31:nsubj:xsubj	Entity=(24-person-giv:act-cf1*-1-ana)
 19	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	aux	26:aux|30:aux	_
-20	myself	myself	PRON	PRP	Number=Sing|Person=1|Poss=Yes|PronType=Prs	26	obl:npmod	26:obl:npmod	Entity=(24-person-giv:act-cf1*-1-ana)|SpaceAfter=No
+20	myself	myself	PRON	PRP	Number=Sing|Person=1|PronType=Prs	26	obl:npmod	26:obl:npmod	Entity=(24-person-giv:act-cf1*-1-ana)|SpaceAfter=No
 21	,	,	PUNCT	,	_	20	punct	20:punct	_
 22	as	as	SCONJ	IN	_	24	mark	24:mark	_
 23	per	per	ADP	IN	_	24	case	24:case	_
@@ -551,12 +555,12 @@
 # newpar
 # newpar_block = p (2 s)
 1	"	''	PUNCT	``	_	3	punct	3:punct	Discourse=attribution-positive:54->55:1|SpaceAfter=No
-2	Someone	someone	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=(49-person-new-cf7-1-sgl)
+2	Someone	someone	PRON	NN	Number=Sing|PronType=Ind	3	nsubj	3:nsubj	Entity=(49-person-new-cf7-1-sgl)
 3	emailed	email	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	iobj	3:iobj	Entity=(24-person-giv:act-cf1*-1-ana)
 5	earlier	early	ADV	RBR	Degree=Cmp	3	advmod	3:advmod	_
 6	today	today	NOUN	NN	Number=Sing	5	obl:tmod	5:obl:tmod	Entity=(50-time-acc:com-cf6-1-sgl)
-7	talking	talk	VERB	VBG	VerbForm=Ger	3	acl:relcl	3:acl:relcl	Discourse=joint-other_m:55->6:5
+7	talking	talk	VERB	VBG	VerbForm=Ger	3	advcl	3:advcl	Discourse=joint-other_m:55->6:5
 8	about	about	ADP	IN	_	10	case	10:case	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(45-abstract-giv:inact-cf4-2-coref
 10	tool	tool	NOUN	NN	Number=Sing	7	obl	7:obl:about	_
@@ -638,7 +642,7 @@
 2	individuals	individual	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=55)
 3	reported	report	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	that	that	SCONJ	IN	_	19	mark	19:mark	Discourse=elaboration-additional:65->63:0
-5	when	when	SCONJ	WRB	PronType=Int	8	mark	8:mark	Discourse=context-circumstance:66->68:1
+5	when	when	ADV	WRB	PronType=Int	8	advmod	8:advmod	Discourse=context-circumstance:66->68:1
 6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	8:nsubj|10:nsubj:xsubj	Entity=(55-person-giv:act-cf1-1-ana)
 7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
 8	able	able	ADJ	JJ	Degree=Pos	19	advcl	19:advcl:when	_
@@ -647,7 +651,7 @@
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(3-abstract-giv:act-cf2*-2-coref
 12	site	site	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=3)|SpaceAfter=No
 13	,	,	PUNCT	,	_	8	punct	8:punct	_
-14	all	all	ADV	RB	Degree=Pos	19	nsubj	19:nsubj	Discourse=attribution-positive:67->68:0|Entity=(56-abstract-new-cf3-1-coref
+14	all	all	DET	DT	PronType=Tot	19	nsubj	19:nsubj	Discourse=attribution-positive:67->68:0|Entity=(56-abstract-new-cf3-1-ana
 15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	16:nsubj	Entity=(55-person-giv:act-cf1-1-ana)
 16	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	14:acl:relcl	Entity=56)
 17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	19:cop	_
@@ -804,7 +808,7 @@
 34	one	one	NUM	CD	NumForm=Word|NumType=Card	35	nummod	35:nummod	Bridge=74<75|Entity=(75-abstract-acc:inf-cf7-2-sgl
 35	side	side	NOUN	NN	Number=Sing	37	nsubj	37:nsubj	Entity=75)
 36	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	37:cop	_
-37	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	29	advcl	29:advcl:if	SpaceAfter=No
+37	gone	gone	ADJ	JJ	Degree=Pos	29	advcl	29:advcl:if	SpaceAfter=No
 38	?	?	PUNCT	.	_	29	punct	29:punct	SpaceAfter=No
 39	"	''	PUNCT	''	_	29	punct	29:punct	_
 

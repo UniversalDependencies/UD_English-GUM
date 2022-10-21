@@ -1,8 +1,10 @@
 # newdoc id = GUM_interview_peres
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Wikinews
 # meta::dateCollected = 2015-09-21
 # meta::dateCreated = 2008-01-09
 # meta::dateModified = 2013-08-27
+# meta::genre = interview
 # meta::sourceURL = https://en.wikinews.org/wiki/Shimon_Peres_discusses_the_future_of_Israel#The_future_of_the_peace_process_in_Israel
 # meta::speakerCount = 2
 # meta::title = The future of the peace process in Israel
@@ -37,7 +39,7 @@
 6	peace	peace	NOUN	NN	Number=Sing	0	root	0:root	Entity=(3-abstract-giv:act-cf1*-1-pred-Peace)|SpaceAfter=No
 7	.	.	PUNCT	.	_	6	punct	6:punct	_
 8	The	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Discourse=adversative-concession:3->2:0|Entity=(6-abstract-new-cf3-2-coref
-9	problem	problem	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=6)
+9	problem	problem	NOUN	NN	Number=Sing	15	nsubj:outer	15:nsubj:outer	Entity=6)
 10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	_
 11	how	how	ADV	WRB	PronType=Int	12	advmod	12:advmod	_
 12	long	long	ADV	RB	Degree=Pos	15	obj	15:obj	_
@@ -136,7 +138,7 @@
 # transition = continue
 # text = The problem is how long will it take and how many victims will it call for.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=adversative-concession:9->8:0|Entity=(6-abstract-giv:inact-cf2-2-coref
-2	problem	problem	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=6)
+2	problem	problem	NOUN	NN	Number=Sing	8	nsubj:outer	8:nsubj:outer	Entity=6)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
 4	how	how	ADV	WRB	PronType=Int	5	advmod	5:advmod	_
 5	long	long	ADV	RB	Degree=Pos	8	obj	8:obj	_
@@ -173,7 +175,7 @@
 # transition = zero
 # text = Because when you look historically, at the development of humanity, most of our lives we are living on the land.
 1	Because	because	SCONJ	IN	_	19	mark	19:mark	Discourse=context-background:11->15:3
-2	when	when	SCONJ	WRB	PronType=Int	4	mark	4:mark	Discourse=context-circumstance:12->13:0
+2	when	when	ADV	WRB	PronType=Int	4	advmod	4:advmod	Discourse=context-circumstance:12->13:0
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(15-person-acc:com-cf2-1-ana)
 4	look	look	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	advcl	19:advcl:when	_
 5	historically	historically	ADV	RB	Degree=Pos	4	advmod	4:advmod	SpaceAfter=No
@@ -186,7 +188,7 @@
 12	,	,	PUNCT	,	_	4	punct	4:punct	_
 13	most	most	ADJ	JJS	Degree=Sup	19	obl:tmod	19:obl:tmod	Discourse=same-unit_m:13->11:0|Entity=(18-time-new-cf6-1-sgl
 14	of	of	ADP	IN	_	16	case	16:case	_
-15	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(19-abstract-new-cf5-2-sgl(17-person-giv:act-cf1-1-ana)
+15	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(19-abstract-new-cf5-2-sgl(17-person-giv:act-cf1-1-ana)
 16	lives	life	NOUN	NNS	Number=Plur	13	obl	13:obl:of	Entity=19)18)
 17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	19:nsubj	Entity=(17-person-giv:act-cf1-1-ana)
 18	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
@@ -218,7 +220,7 @@
 # transition = establishment
 # text = The reason for it is because people were fighting for our land, either defending it or extending it, because that was the main source.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=adversative-antithesis:15->21:1|Entity=(23-abstract-new-cf4-2-sgl
-2	reason	reason	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	Entity=23)
+2	reason	reason	NOUN	NN	Number=Sing	9	nsubj:outer	9:nsubj:outer	Entity=23)
 3	for	for	ADP	IN	_	4	case	4:case	_
 4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nmod	2:nmod:for	Entity=(21-abstract-giv:act-cf2*-1-coref)
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
@@ -227,7 +229,7 @@
 8	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	9:aux	_
 9	fighting	fight	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
 10	for	for	ADP	IN	_	12	case	12:case	_
-11	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(20-place-giv:inact-cf1-2-coref(17-person-giv:inact-cf3-1-ana)
+11	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(20-place-giv:inact-cf1-2-coref(17-person-giv:inact-cf3-1-ana)
 12	land	land	NOUN	NN	Number=Sing	9	obl	9:obl:for	Entity=20)|SpaceAfter=No
 13	,	,	PUNCT	,	_	15	punct	15:punct	_
 14	either	either	CCONJ	CC	_	15	cc:preconj	15:cc:preconj	Discourse=elaboration-additional:16->15:0
@@ -282,7 +284,7 @@
 7	by	by	ADP	IN	_	8	case	8:case	_
 8	science	science	NOUN	NN	Number=Sing	6	obl:agent	6:obl:agent	Entity=(29-abstract-new-cf3-1-coref)28)|SpaceAfter=No
 9	,	,	PUNCT	,	_	2	punct	2:punct	_
-10	what	what	PRON	WP	PronType=Int	11	nsubj	11:nsubj	Discourse=explanation-justify:21->8:1
+10	what	what	PRON	WP	PronType=Int	11	nsubj:outer	11:nsubj:outer	Discourse=explanation-justify:21->8:1
 11	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 12	there	there	PRON	EX	PronType=Dem	11	expl	11:expl	_
 13	to	to	PART	TO	_	14	mark	14:mark	_
@@ -320,7 +322,7 @@
 7	scientist	scientist	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=32)
 8	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_
 9	in	in	ADP	IN	_	11	case	11:case	_
-10	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(33-abstract-new-cf4-2-coref(32-person-giv:act-cf1-1-ana)
+10	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(33-abstract-new-cf4-2-coref(32-person-giv:act-cf1-1-ana)
 11	mind	mind	NOUN	NN	Number=Sing	8	obl	8:obl:in	Entity=33)|SpaceAfter=No
 12	,	,	PUNCT	,	_	15	punct	15:punct	_
 13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	15:nsubj	Discourse=attribution-positive:24->25:1|Entity=(31-organization-giv:act-cf2-1-ana)
@@ -330,7 +332,7 @@
 17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	18:nsubj	Entity=(32-person-giv:act-cf1-1-ana)
 18	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	16:acl:relcl	_
 19	in	in	ADP	IN	_	21	case	21:case	_
-20	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Entity=(34-object-new-cf7-2-sgl(32-person-giv:act-cf1-1-ana)
+20	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Entity=(34-object-new-cf7-2-sgl(32-person-giv:act-cf1-1-ana)
 21	pocket	pocket	NOUN	NN	Number=Sing	18	obl	18:obl:in	Entity=34)
 22	but	but	CCONJ	CC	_	24	cc	24:cc	Discourse=adversative-contrast_m:26->25:0
 23	not	not	PART	RB	Polarity=Neg	24	advmod	24:advmod	_
@@ -338,7 +340,7 @@
 25	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	26:nsubj	Entity=(32-person-giv:act-cf1-1-ana)
 26	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	24:acl:relcl	_
 27	in	in	ADP	IN	_	29	case	29:case	_
-28	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	Entity=(33-abstract-giv:act-cf4-2-coref(32-person-giv:act-cf1-1-ana)
+28	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	Entity=(33-abstract-giv:act-cf4-2-coref(32-person-giv:act-cf1-1-ana)
 29	mind	mind	NOUN	NN	Number=Sing	26	obl	26:obl:in	Entity=33)
 30	so	so	ADV	RB	_	33	advmod	33:advmod	Discourse=causal-result:27->25:2
 31-32	it’s	_	_	_	_	_	_	_	_
@@ -382,7 +384,7 @@
 10	to	to	ADP	IN	_	12	case	12:case	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(38-person-new-cf1-2-coref-Palestinians
 12	Palestinians	Palestinian	PROPN	NNPS	Number=Plur	9	obl	9:obl:to	Entity=38)37)
-13	when	when	SCONJ	WRB	PronType=Int	22	mark	22:mark	Discourse=context-circumstance:32->30:1|SpaceAfter=No
+13	when	when	ADV	WRB	PronType=Int	22	advmod	22:advmod	Discourse=context-circumstance:32->30:1|SpaceAfter=No
 14	,	,	PUNCT	,	_	13	punct	13:punct	_
 15	in	in	ADP	IN	_	17	case	17:case	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	_
@@ -499,7 +501,7 @@
 4	modernity	modernity	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=(48-abstract-giv:act-cf2-1-coref)
 5	may	may	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	6	aux	6:aux	_
 6	endanger	endanger	VERB	VB	VerbForm=Inf	2	ccomp	2:ccomp	_
-7	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(49-abstract-new-cf3-2-coref(47-person-giv:act-cf1*-1-ana)
+7	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(49-abstract-new-cf3-2-coref(47-person-giv:act-cf1*-1-ana)
 8	tradition	tradition	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=49)|SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -528,7 +530,7 @@
 2	consider	consider	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	modernity	modernity	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=(48-abstract-giv:act-cf2-1-coref)
 4	as	as	ADP	IN	_	6	case	6:case	_
-5	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(50-abstract-new-cf4-2-sgl(47-person-giv:act-cf1*-1-ana)
+5	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(50-abstract-new-cf4-2-sgl(47-person-giv:act-cf1*-1-ana)
 6	enemy	enemy	NOUN	NN	Number=Sing	2	obl	2:obl:as	Entity=50)|SpaceAfter=No
 7	,	,	PUNCT	,	_	11	punct	11:punct	_
 8	but	but	CCONJ	CC	_	11	cc	11:cc	Discourse=organization-preparation:46->48:2
@@ -756,7 +758,7 @@
 2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	1:iobj	Entity=(9-person-giv:inact-cf2-1-ana-Shimon_Peres)|SpaceAfter=No
 3	,	,	PUNCT	,	_	8	punct	8:punct	_
 4	what	what	DET	WDT	PronType=Int	5	det	5:det	Entity=(65-event-new-cf5-2-sgl
-5	events	event	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj	CorrectForm=event|Entity=65)|XML=<sic ana:::"event"></sic>
+5	events	event	NOUN	NNS	Number=Plur|Typo=Yes	8	nsubj	8:nsubj	CorrectForm=event|Entity=65)|XML=<sic ana:::"event"></sic>
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
 7	today	today	NOUN	NN	Number=Sing	8	obl:tmod	8:obl:tmod	Entity=(66-time-acc:com-cf3-1-sgl)
 8	important	important	ADJ	JJ	Degree=Pos	1	ccomp	1:ccomp	_
@@ -771,7 +773,7 @@
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(70-place-new-cf8-2-sgl-Alps
 18	Alps	Alp	PROPN	NNPS	Number=Plur	15	obl	15:obl:on	Entity=70)67)|SpaceAfter=No
 19	,	,	PUNCT	,	_	23	punct	23:punct	_
-20	when	when	SCONJ	WRB	PronType=Int	23	mark	23:mark	Discourse=context-circumstance:62->60:1
+20	when	when	ADV	WRB	PronType=Int	23	advmod	23:advmod	Discourse=context-circumstance:62->60:1
 21	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	23	nsubj	23:nsubj	Entity=(15-person-giv:inact-cf1-1-ana)
 22	can	can	AUX	MD	VerbForm=Fin	23	aux	23:aux	_
 23	have	have	VERB	VB	VerbForm=Inf	8	advcl	8:advcl:when	_
@@ -788,7 +790,7 @@
 2	should	should	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(9-person-giv:act-cf1*-1-ana-Shimon_Peres)
 4	bother	bother	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(72-person-new-cf3-2-sgl(9-person-giv:act-cf1*-1-ana-Shimon_Peres)
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(72-person-new-cf3-2-sgl(9-person-giv:act-cf1*-1-ana-Shimon_Peres)
 6	children	child	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=72)
 7	with	with	ADP	IN	_	10	case	10:case	_
 8	all	all	DET	PDT	PronType=Tot	10	det:predet	10:det:predet	Entity=(67-event-giv:act-cf2-3-coref
@@ -802,7 +804,7 @@
 # speaker = ShimonPeres
 # transition = zero
 # text = What sort of a nose did Cleopatra have?
-1	What	what	DET	WP	PronType=Int	2	det	2:det	Discourse=topic-question:64->65:0|Entity=(73-object-new-cf2-2-sgl
+1	What	what	DET	WDT	PronType=Int	2	det	2:det	Discourse=topic-question:64->65:0|Entity=(73-object-new-cf2-2-sgl
 2	sort	sort	NOUN	NN	Number=Sing	8	obj	8:obj	_
 3	of	of	ADP	IN	_	5	case	5:case	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	_
@@ -843,7 +845,7 @@
 8	noses	nose	NOUN	NNS	Number=Plur	3	obl	3:obl:over	Entity=(77-object-new-cf1-1-coref)|SpaceAfter=No
 9	,	,	PUNCT	,	_	13	punct	13:punct	_
 10	but	but	CCONJ	CC	_	13	cc	13:cc	Discourse=joint-list_m:67->60:3
-11	nobody	nobody	NOUN	NN	Number=Sing	13	nsubj	13:nsubj|15:nsubj:xsubj	Entity=(78-person-new-cf3-1-sgl)
+11	nobody	nobody	PRON	NN	Number=Sing|PronType=Neg	13	nsubj	13:nsubj|15:nsubj:xsubj	Entity=(78-person-new-cf3-1-sgl)
 12	will	will	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	13	aux	13:aux	_
 13	go	go	VERB	VB	VerbForm=Inf	3	conj	3:conj:but	_
 14	to	to	PART	TO	_	15	mark	15:mark	_
@@ -872,7 +874,7 @@
 10	that	that	PRON	WDT	PronType=Rel	12	nsubj	9:ref	Discourse=elaboration-attribute:69->68:0
 11	can	can	AUX	MD	VerbForm=Fin	12	aux	12:aux	_
 12	replace	replace	VERB	VB	VerbForm=Inf	9	acl:relcl	9:acl:relcl	_
-13	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(80-abstract-new-cf3-2-sgl(15-person-giv:act-cf1*-1-ana)
+13	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(80-abstract-new-cf3-2-sgl(15-person-giv:act-cf1*-1-ana)
 14	memory	memory	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=80)79)|SpaceAfter=No
 15	.	.	PUNCT	.	_	7	punct	7:punct	_
 
@@ -886,11 +888,11 @@
 2	should	should	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(9-person-giv:inact-cf3-1-ana-Shimon_Peres)
 4	bother	bother	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(82-person-new-cf1-2-coref(9-person-giv:act-cf3-1-ana-Shimon_Peres)
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(82-person-new-cf1-2-coref(9-person-giv:act-cf3-1-ana-Shimon_Peres)
 6	child	child	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=82)
 7	with	with	ADP	IN	_	8	case	8:case	_
 8	memory	memory	NOUN	NN	Number=Sing	4	obl	4:obl:with	Entity=(83-abstract-new-cf5-1-coref)
-9	when	when	SCONJ	WRB	PronType=Int	12	mark	12:mark	Discourse=context-circumstance:71->70:0
+9	when	when	ADV	WRB	PronType=Int	12	advmod	12:advmod	Discourse=context-circumstance:71->70:0
 10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Entity=(82-person-giv:act-cf1-1-ana)
 11	can	can	AUX	MD	VerbForm=Fin	12	aux	12:aux	_
 12	buy	buy	VERB	VB	VerbForm=Inf	4	advcl	4:advcl:when	_
@@ -899,7 +901,7 @@
 15	that	that	PRON	WDT	PronType=Rel	17	nsubj	14:ref	Discourse=elaboration-attribute:72->71:0
 16	will	will	AUX	MD	VerbForm=Fin	17	aux	17:aux	_
 17	remember	remember	VERB	VB	VerbForm=Inf	14	acl:relcl	14:acl:relcl	_
-18	everything	everything	NOUN	NN	Number=Sing	17	obj	17:obj	_
+18	everything	everything	PRON	NN	Number=Sing|PronType=Tot	17	obj	17:obj	_
 19	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	nsubj	20:nsubj	Discourse=elaboration-attribute:73->72:0|Entity=(15-person-giv:act-cf2*-1-ana)
 20	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	18	acl:relcl	18:acl:relcl	_
 21	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	20:obj|23:nsubj:xsubj	Entity=(82-person-giv:act-cf1-1-ana)
@@ -932,7 +934,7 @@
 1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	Discourse=topic-question:75->77:2
 2	n’t	not	PART	RB	Polarity=Neg	12	advmod	12:advmod	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(86-abstract-new-cf3-2-sgl
-4	answer	answer	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	_
+4	answer	answer	NOUN	NN	Number=Sing	12	nsubj:outer	12:nsubj:outer	_
 5	to	to	ADP	IN	_	7	case	7:case	_
 6	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	7:det	Entity=(81-abstract-giv:inact-cf1-2-coref
 7	question	question	NOUN	NN	Number=Sing	4	nmod	4:nmod:to	Entity=81)86)
@@ -1005,7 +1007,7 @@
 # speaker = ShimonPeres
 # transition = null
 # text = When something is unprecedented, it means it doesn’t have a past, doesn’t have a history.
-1	When	when	SCONJ	WRB	PronType=Int	4	mark	4:mark	Discourse=context-circumstance:81->82:1|Entity=(89-event-new-cf1-4-disc
+1	When	when	ADV	WRB	PronType=Int	4	advmod	4:advmod	Discourse=context-circumstance:81->82:1|Entity=(89-event-new-cf1-4-disc
 2	something	something	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=(90-abstract-new-cf2-1-coref)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 4	unprecedented	unprecedented	ADJ	JJ	Degree=Pos|Polarity=Neg	7	advcl	7:advcl:when	Entity=89)|SpaceAfter=No
@@ -1513,7 +1515,7 @@
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=organization-preparation:127->128:2|Entity=(9-person-giv:act-cf1*-1-ana-Shimon_Peres)
 2	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	answering	answer	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
-4	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(120-abstract-giv:inact-cf2-2-coref(9-person-giv:act-cf1*-1-ana-Shimon_Peres)
+4	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(120-abstract-giv:inact-cf2-2-coref(9-person-giv:act-cf1*-1-ana-Shimon_Peres)
 5	question	question	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=120)|SpaceAfter=No
 6	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -1524,7 +1526,7 @@
 # transition = zero
 # text = The problem is how to enable the whole world to enter the new future, including the Arabs.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-other_m:128->114:2|Entity=(135-abstract-new-cf1-2-coref
-2	problem	problem	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=135)
+2	problem	problem	NOUN	NN	Number=Sing	6	nsubj:outer	6:nsubj:outer	Entity=135)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 4	how	how	SCONJ	WRB	PronType=Int	6	mark	6:mark	Entity=(135-abstract-giv:act-cf1-3-disc
 5	to	to	PART	TO	_	6	mark	6:mark	_

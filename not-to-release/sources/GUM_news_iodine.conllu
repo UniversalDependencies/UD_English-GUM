@@ -1,8 +1,10 @@
 # newdoc id = GUM_news_iodine
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Wikinews
 # meta::dateCollected = 2016-09-19
 # meta::dateCreated = 2006-02-23
 # meta::dateModified = 2013-05-06
+# meta::genre = news
 # meta::sourceURL = https://en.wikinews.org/wiki/Australian_children_suffering_from_iodine_deficiency
 # meta::speakerCount = 0
 # meta::title = Australian children suffering from iodine deficiency
@@ -26,7 +28,7 @@
 # transition = null
 # text = Thursday, February 23, 2006
 # newpar
-# newpar_block = figure rend:::"Beautiful picture of a block of salt with a blue background" (0 s)
+# newpar_block = figure rend:::"Beautiful picture of a block of salt with a blue background" (0 s) | p (1 s)
 1	Thursday	Thursday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-circumstance:2->3:9|Entity=(4-time-acc:com-cf1-1-coref)|SpaceAfter=No|XML=<date when:::"2006-02-23">
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	February	February	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(4-time-giv:act-cf1-2-appos
@@ -81,13 +83,13 @@
 14	many	many	ADJ	JJ	Degree=Pos	17	nsubj	17:nsubj	Discourse=elaboration-additional:8->3:1|Entity=(11-event-new-cf6-4-sgl(12-person-new-cf4-1-sgl)
 15	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	17:aux	_
 16	not	not	PART	RB	Polarity=Neg	17	advmod	17:advmod	_
-17	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	13	ccomp	13:ccomp|23:nsubj	_
+17	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	13	ccomp	13:ccomp|23:csubj	_
 18	enough	enough	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
 19	iodine	iodine	NOUN	NN	Number=Sing	17	obj	17:obj	Entity=(3-substance-giv:act-cf1*-1-coref-Iodine)11)
 20	-	-	PUNCT	:	_	23	punct	23:punct	Discourse=causal-result:9->8:0
-21	which	which	PRON	WDT	PronType=Rel	23	nsubj	17:ref	_
+21	which	which	PRON	WDT	PronType=Rel	23	nsubj	17:ref|23:nsubj	_
 22	can	can	AUX	MD	VerbForm=Fin	23	aux	23:aux	_
-23	lead	lead	VERB	VB	VerbForm=Inf	17	acl:relcl	17:acl:relcl	_
+23	lead	lead	VERB	VB	VerbForm=Inf	17	advcl:relcl	17:advcl:relcl	_
 24	to	to	ADP	IN	_	28	case	28:case	_
 25	mental	mental	ADJ	JJ	Degree=Pos	28	amod	28:amod	Entity=(13-abstract-new-cf7-4-sgl
 26	and	and	CCONJ	CC	_	27	cc	27:cc	_
@@ -271,7 +273,7 @@
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(9-abstract-giv:act-cf1*-2-coref
 6	study	study	NOUN	NN	Number=Sing	3	obl	3:obl:from	Entity=9)
 7	-	-	PUNCT	:	_	8	punct	8:punct	Discourse=causal-cause:24->23:0
-8	where	where	SCONJ	WRB	PronType=Rel	21	mark	21:mark	_
+8	where	where	ADV	WRB	PronType=Rel	21	advmod	21:advmod	_
 9	an	a	DET	DT	Definite=Ind|PronType=Art|Typo=Yes	13	det	13:det	CorrectForm=a|Entity=(38-abstract-new-cf5-5-sgl|XML=<sic ana:::"a"></sic>
 10	voluntary	voluntary	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
 11	iodine	iodine	NOUN	NN	Number=Sing	12	compound	12:compound	Entity=(3-substance-giv:inact-cf2-1-coref-Iodine)
@@ -449,7 +451,7 @@
 12	iodised	iodise	VERB	VBN	Tense=Past|VerbForm=Part	13	amod	13:amod	Entity=(39-substance-giv:inact-cf4-2-coref
 13	salt	salt	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=39)
 14	in	in	ADP	IN	_	16	case	16:case	_
-15	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(63-object-new-cf7-2-sgl(61-organization-giv:act-cf1-1-ana)
+15	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(63-object-new-cf7-2-sgl(61-organization-giv:act-cf1-1-ana)
 16	products	product	NOUN	NNS	Number=Plur	11	obl	11:obl:in	Entity=63)
 17	in	in	ADP	IN	_	18	case	18:case	_
 18	line	line	NOUN	NN	Number=Sing	11	obl	11:obl:in	_
@@ -546,7 +548,7 @@
 17	dairy	dairy	NOUN	NN	Number=Sing	18	compound	18:compound	_
 18	industry	industry	NOUN	NN	Number=Sing	14	nmod	14:nmod:in	Entity=71)|SpaceAfter=No
 19	,	,	PUNCT	,	_	20	punct	20:punct	_
-20	where	where	SCONJ	WRB	PronType=Int	26	mark	26:mark	Discourse=elaboration-attribute:47->46:0
+20	where	where	ADV	WRB	PronType=Int	26	advmod	26:advmod	Discourse=elaboration-attribute:47->46:0
 21	chlorine	chlorine	NOUN	NN	Number=Sing	23	compound	23:compound	Entity=(72-substance-new-cf5-4-sgl(73-substance-new-cf9-1-sgl)|SpaceAfter=No|XML=<ref target:::"http://c3.org/chlorine_knowledge_center/white_paper_2002.html"><w>
 22	-	-	PUNCT	HYPH	_	21	punct	21:punct	SpaceAfter=No
 23	containing	contain	VERB	VBG	VerbForm=Ger	24	amod	24:amod	XML=</w>
@@ -688,7 +690,7 @@
 5	reacting	react	VERB	VBG	Tense=Pres|VerbForm=Part	2	ccomp	2:ccomp	_
 6	slowly	slowly	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 7	to	to	ADP	IN	_	10	case	10:case	_
-8	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(84-event-new-cf4-3-sgl(50-person-giv:act-cf1*-1-ana-Creswell_Eastman)
+8	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(84-event-new-cf4-3-sgl(50-person-giv:act-cf1*-1-ana-Creswell_Eastman)
 9	urgent	urgent	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
 10	calls	call	NOUN	NNS	Number=Plur	5	obl	5:obl:to	_
 11	for	for	ADP	IN	_	14	case	14:case	_
@@ -718,9 +720,9 @@
 12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	Entity=(2-abstract-giv:act-cf1-1-ana)
 13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	11:acl:relcl	_
 14	and	and	CCONJ	CC	_	15	cc	15:cc	_
-15	when	when	ADV	WRB	PronType=Rel	11	conj	8:obl:upon|11:conj:and	_
+15	when	when	SCONJ	WRB	PronType=Rel	11	conj	8:obl:upon|11:conj:and	_
 16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	17:nsubj	Entity=(2-abstract-giv:act-cf1-1-ana)
-17	occurs	occur	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	15:acl:relcl	SpaceAfter=No
+17	occurs	occur	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl:relcl	15:advcl:relcl	SpaceAfter=No
 18	.	.	PUNCT	.	_	8	punct	8:punct	XML=</quote>
 
 # sent_id = GUM_news_iodine-25
@@ -844,7 +846,7 @@
 27	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	36	advcl	36:advcl:as	_
 28	older	old	ADJ	JJR	Degree=Cmp	27	xcomp	27:xcomp	_
 29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Discourse=joint-sequence_m:74->71:1|Entity=(104-abstract-new-cf3-2-coref
-30	problem	problem	NOUN	NN	Number=Sing	36	nsubj	36:nsubj	Entity=104)
+30	problem	problem	NOUN	NN	Number=Sing	36	nsubj:outer	36:nsubj:outer	Entity=104)
 31	will	will	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	36	aux	36:aux	_
 32	be	be	AUX	VB	VerbForm=Inf	36	cop	36:cop	_
 33	that	that	SCONJ	IN	_	36	mark	36:mark	Entity=(104-abstract-giv:act-cf3-4,12-disc
@@ -854,7 +856,7 @@
 37	a	a	DET	DT	Definite=Ind|PronType=Art	38	det	38:det	Entity=(105-object-new-cf9-2-coref
 38	goiter	goiter	NOUN	NN	Number=Sing	36	obj	36:obj	Entity=105)
 39	and	and	CCONJ	CC	_	44	cc	44:cc	Discourse=joint-list_m:75->74:0
-40	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	41	nmod:poss	41:nmod:poss	Entity=(90-object-giv:act-cf2*-2-coref(102-person-giv:act-cf1-1-ana)
+40	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	41	nmod:poss	41:nmod:poss	Entity=(90-object-giv:act-cf2*-2-coref(102-person-giv:act-cf1-1-ana)
 41	thyroid	thyroid	NOUN	NN	Number=Sing	44	nsubj	44:nsubj	Entity=90)
 42-43	won't	_	_	_	_	_	_	_	_
 42	wo	will	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	44	aux	44:aux	_
@@ -1114,7 +1116,7 @@
 2	should	should	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	4	aux	4:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	be	be	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	anyone	anyone	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=(123-person-new-cf4-1-sgl)
+5	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	4	nsubj	4:nsubj	Entity=(123-person-new-cf4-1-sgl)
 6	suffering	suffer	VERB	VBG	VerbForm=Ger	5	acl	5:acl	Discourse=elaboration-additional:100->99:0
 7	from	from	ADP	IN	_	9	case	9:case	_
 8	iodine	iodine	NOUN	NN	Number=Sing	9	compound	9:compound	Entity=(2-abstract-giv:act-cf1*-2-coref(3-substance-giv:act-cf2-1-coref-Iodine)
@@ -1271,7 +1273,7 @@
 50	much	much	ADJ	JJ	Degree=Pos	48	obj	48:obj	_
 51	and	and	CCONJ	CC	_	52	cc	52:cc	Discourse=causal-result:115->109:3
 52	get	get	VERB	VB	VerbForm=Inf	48	conj	14:ccomp|48:conj:and	_
-53	overdose	overdose	NOUN	NN	Number=Sing	52	obj	52:obj	CorrectForm=an overdose|Entity=(138-abstract-new-cf9-1-sgl)|SpaceAfter=No|XML=<sic ana:::"an overdose"></sic>
+53	overdose	overdose	NOUN	NN	Number=Sing|Typo=Yes	52	obj	52:obj	CorrectForm=an overdose|Entity=(138-abstract-new-cf9-1-sgl)|SpaceAfter=No|XML=<sic ana:::"an overdose"></sic>
 54	,	,	PUNCT	,	_	11	punct	11:punct	SpaceAfter=No
 55	"	''	PUNCT	''	_	11	punct	11:punct	XML=</quote>
 56	Ms	Ms	PROPN	NNP	Number=Sing	58	nsubj	58:nsubj	Discourse=attribution-positive:116->106:3|Entity=(125-person-giv:inact-cf3-1,2-coref
@@ -1285,7 +1287,7 @@
 # transition = zero
 # text = "One of the reasons that iodine is going down is because people are taking that good healthy eating message and not adding salt during cooking."
 1	"	''	PUNCT	``	_	15	punct	15:punct	Discourse=causal-cause:117->120:0|SpaceAfter=No|XML=<quote>
-2	One	one	NUM	CD	NumForm=Word|NumType=Card	15	nsubj	15:nsubj|23:nsubj	Entity=(139-abstract-new-cf4-1-sgl
+2	One	one	NUM	CD	NumForm=Word|NumType=Card	15	nsubj:outer	15:nsubj:outer|23:nsubj:outer	Entity=(139-abstract-new-cf4-1-sgl
 3	of	of	ADP	IN	_	5	case	5:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	_
 5	reasons	reason	NOUN	NNS	Number=Plur	2	nmod	2:nmod:of	_

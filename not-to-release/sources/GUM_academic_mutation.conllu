@@ -1,8 +1,10 @@
 # newdoc id = GUM_academic_mutation
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Suilen H. Alvarado
 # meta::dateCollected = 2019-08-06
 # meta::dateCreated = 2019-08-06
 # meta::dateModified = 2019-08-06
+# meta::genre = academic
 # meta::sourceURL = https://www.mdpi.com/2504-3900/21/1/43
 # meta::speakerCount = 0
 # meta::title = Design of Mutation Operators for Testing Geographic Information Systems
@@ -139,7 +141,7 @@
 15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(26-abstract-new-cf7-3-sgl
 16	case	case	NOUN	NN	Number=Sing	17	compound	17:compound	_
 17	study	study	NOUN	NN	Number=Sing	14	obj	14:obj	_
-18	where	where	SCONJ	WRB	PronType=Rel	23	mark	23:mark	Discourse=elaboration-attribute:12->11:0
+18	where	where	ADV	WRB	PronType=Rel	23	advmod	23:advmod	Discourse=elaboration-attribute:12->11:0
 19	these	this	DET	DT	Number=Plur|PronType=Dem	21	det	21:det	Entity=(21-abstract-giv:act-cf2-3-coref
 20	mutation	mutation	NOUN	NN	Number=Sing	21	compound	21:compound	Entity=(22-abstract-giv:act-cf3-1-coref)
 21	operators	operator	NOUN	NNS	Number=Plur	23	nsubj:pass	23:nsubj:pass	Entity=21)
@@ -319,7 +321,7 @@
 5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 6	not	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	_
 7	adequate	adequate	ADJ	JJ	Degree=Pos	0	root	0:root	_
-8	when	when	SCONJ	WRB	PronType=Int	9	mark	9:mark	Discourse=contingency-condition:29->28:0
+8	when	when	ADV	WRB	PronType=Int	9	advmod	9:advmod	Discourse=contingency-condition:29->28:0
 9	trying	try	VERB	VBG	VerbForm=Ger	7	advcl	7:advcl:when	_
 10	to	to	PART	TO	_	11	mark	11:mark	_
 11	test	test	VERB	VB	VerbForm=Inf	9	xcomp	9:xcomp	_
@@ -617,12 +619,12 @@
 21	be	be	AUX	VB	VerbForm=Inf	22	cop	22:cop	_
 22	possible	possible	ADJ	JJ	Degree=Pos	16	acl:relcl	16:acl:relcl	_
 23	to	to	PART	TO	_	24	mark	24:mark	_
-24	interweave	interweave	VERB	VB	VerbForm=Inf	22	xcomp	22:xcomp|29:nsubj	_
+24	interweave	interweave	VERB	VB	VerbForm=Inf	22	xcomp	22:xcomp|29:csubj	_
 25	with	with	ADP	IN	_	27	case	27:case	_
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(62-abstract-giv:act-cf3-2-coref
 27	SUT	SUT	NOUN	NN	Number=Sing	24	obl	24:obl:with	Entity=62)
-28	which	which	PRON	WDT	PronType=Rel	29	nsubj	24:ref	Discourse=elaboration-additional:57->56:0
-29	generates	generate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	24:acl:relcl	_
+28	which	which	PRON	WDT	PronType=Rel	29	nsubj	24:ref|29:nsubj	Discourse=elaboration-additional:57->56:0
+29	generates	generate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl:relcl	24:advcl:relcl	_
 30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	31:det	Entity=(76-abstract-new-cf6-2-sgl
 31	mutant	mutant	NOUN	NN	Number=Sing	29	obj	29:obj	_
 32	of	of	ADP	IN	_	34	case	34:case	_
@@ -741,7 +743,7 @@
 10	system	system	NOUN	NN	Number=Sing	7	obj	7:obj	_
 11	of	of	ADP	IN	_	12	case	12:case	_
 12	geometry	geometry	NOUN	NN	Number=Sing	10	nmod	10:nmod:of	Entity=(85-abstract-giv:inact-cf3-1-coref)84)
-13	when	when	SCONJ	WRB	PronType=Int	14	mark	14:mark	Discourse=context-circumstance:68->67:0
+13	when	when	ADV	WRB	PronType=Int	14	advmod	14:advmod	Discourse=context-circumstance:68->67:0
 14	recovering	recover	VERB	VBG	VerbForm=Ger	4	advcl	4:advcl:when	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(89-abstract-new-cf4-2-sgl
 16	wrapping	wrapping	NOUN	NN	Number=Sing	14	obj	14:obj	_
@@ -862,7 +864,7 @@
 7	erroneous	erroneous	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	location	location	NOUN	NN	Number=Sing	4	nmod	4:nmod:with	Entity=103)102)
 9	from	from	ADP	IN	_	12	case	12:case	_
-10	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(104-place-new-cf5-3-sgl(105-object-new-cf1-1-cata)
+10	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(104-place-new-cf5-3-sgl(105-object-new-cf1-1-cata)
 11	central	central	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
 12	location	location	NOUN	NN	Number=Sing	2	obl	2:obl:from	Entity=104)|SpaceAfter=No
 13	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -1025,7 +1027,7 @@
 # transition = rough-shift
 # text = The objective of the land reparcelling is to reunify the lands of an owner to facilitate their exploitation.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:91->90:0|Entity=(130-abstract-new-cf4-2-sgl
-2	objective	objective	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	_
+2	objective	objective	NOUN	NN	Number=Sing	9	nsubj:outer	9:nsubj:outer	_
 3	of	of	ADP	IN	_	6	case	6:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(128-event-giv:act-cf2*-3-coref
 5	land	land	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=(129-place-giv:act-cf3-1-coref)
@@ -1040,7 +1042,7 @@
 14	owner	owner	NOUN	NN	Number=Sing	11	nmod	11:nmod:of	Entity=132)131)
 15	to	to	PART	TO	_	16	mark	16:mark	Discourse=purpose-goal:92->91:0
 16	facilitate	facilitate	VERB	VB	VerbForm=Inf	9	advcl	9:advcl:to	_
-17	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	Entity=(133-event-new-cf5-2-sgl(131-place-giv:act-cf1-1-ana)
+17	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	Entity=(133-event-new-cf5-2-sgl(131-place-giv:act-cf1-1-ana)
 18	exploitation	exploitation	NOUN	NN	Number=Sing	16	obj	16:obj	Entity=133)|SpaceAfter=No
 19	.	.	PUNCT	.	_	9	punct	9:punct	_
 

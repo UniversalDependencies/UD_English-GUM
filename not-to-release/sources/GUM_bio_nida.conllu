@@ -1,8 +1,10 @@
 # newdoc id = GUM_bio_nida
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Wikipedia, The Free Encyclopedia
 # meta::dateCollected = 2017-09-13
 # meta::dateCreated = 2013-04-26
 # meta::dateModified = 2017-05-19
+# meta::genre = bio
 # meta::sourceURL = https://en.wikipedia.org/wiki/Eugene_Nida
 # meta::speakerCount = 0
 # meta::title = Eugene Nida
@@ -109,7 +111,7 @@
 7	young	young	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	age	age	NOUN	NN	Number=Sing	2	obl	2:obl:at	Entity=16)|SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	12:punct	_
-10	when	when	SCONJ	WRB	PronType=Int	12	mark	12:mark	Discourse=context-circumstance:10->9:0
+10	when	when	ADV	WRB	PronType=Int	12	advmod	12:advmod	Discourse=context-circumstance:10->9:0
 11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Entity=(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
 12	responded	respond	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	2:advcl:when	_
 13	to	to	ADP	IN	_	16	case	16:case	_
@@ -117,14 +119,14 @@
 15	altar	altar	NOUN	NN	Number=Sing	16	compound	16:compound	_
 16	call	call	NOUN	NN	Number=Sing	12	obl	12:obl:to	_
 17	at	at	ADP	IN	_	19	case	19:case	_
-18	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
+18	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
 19	church	church	NOUN	NN	Number=Sing	12	obl	12:obl:at	_
 20	"	''	PUNCT	``	_	22	punct	22:punct	Discourse=elaboration-additional:11->10:0|SpaceAfter=No|XML=<quote>
 21	to	to	PART	TO	_	22	mark	22:mark	_
 22	accept	accept	VERB	VB	VerbForm=Inf	12	advcl	12:advcl:to	_
 23	Christ	Christ	PROPN	NNP	Number=Sing	22	obj	22:obj	Entity=(18-person-new-cf2-1-coref-Jesus)
 24	as	as	ADP	IN	_	26	case	26:case	_
-25	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(18-person-giv:act-cf2-2-coref-Jesus(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
+25	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(18-person-giv:act-cf2-2-coref-Jesus(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
 26	Saviour	saviour	NOUN	NN	Number=Sing	23	nmod	23:nmod:as	Entity=18)|SpaceAfter=No
 27	.	.	PUNCT	.	_	22	punct	22:punct	SpaceAfter=No
 28	"	''	PUNCT	''	_	22	punct	22:punct	Entity=17)|XML=</quote>
@@ -138,9 +140,9 @@
 # newpar_block = p (4 s)
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint-sequence_m:12->8:0|Entity=(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
 2	graduated	graduate	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-3	summa	summa	X	FW	_	5	compound	5:compound	XML=<hi rend:::"italic blue"><ref>
-4	cum	cum	X	FW	_	5	compound	5:compound	_
-5	laude	laude	X	FW	_	2	obj	2:obj	XML=</ref></hi>
+3	summa	summa	X	FW	Foreign=Yes	5	compound	5:compound	XML=<hi rend:::"italic blue"><foreign xml:lang:::"lat"><ref>
+4	cum	cum	X	FW	Foreign=Yes	5	compound	5:compound	_
+5	laude	laude	X	FW	Foreign=Yes	2	obj	2:obj	XML=</ref></foreign></hi>
 6	from	from	ADP	IN	_	8	case	8:case	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(19-organization-new-cf2-2,4-sgl-University_of_California
 8	University	University	PROPN	NNP	Number=Sing	2	obl	2:obl:from	XML=<ref>
@@ -162,7 +164,7 @@
 5	Camp	Camp	PROPN	NNP	Number=Sing	4	obj	4:obj	Entity=(22-organization-new-cf5-1,2-coref-Wycliffe_USA
 6	Wycliffe	Wycliffe	PROPN	NNP	Number=Sing	5	flat	5:flat	SpaceAfter=No
 7	,	,	PUNCT	,	_	13	punct	13:punct	_
-8	where	where	SCONJ	WRB	PronType=Rel	13	mark	13:mark	Discourse=elaboration-attribute:15->14:0
+8	where	where	ADV	WRB	PronType=Rel	13	advmod	13:advmod	Discourse=elaboration-attribute:15->14:0
 9	Bible	Bible	PROPN	NNP	Number=Sing	10	compound	10:compound	Entity=(23-abstract-new-cf4-3-sgl(7-abstract-giv:inact-cf3-2-coref(8-abstract-giv:inact-cf2-1-coref-Bible)
 10	translation	translation	NOUN	NN	Number=Sing	11	compound	11:compound	Entity=7)
 11	theory	theory	NOUN	NN	Number=Sing	13	nsubj:pass	13:nsubj:pass	Entity=23)
@@ -260,7 +262,7 @@
 11	Southern	Southern	ADJ	NNP	Degree=Pos|Number=Sing	12	amod	12:amod	Entity=(37-place-new-cf4-1,2-sgl-Southern_California
 12	California	California	PROPN	NNP	Number=Sing	9	nmod	9:nmod:of	Entity=37)|SpaceAfter=No|XML=</ref>
 13	,	,	PUNCT	,	_	16	punct	16:punct	_
-14	where	where	SCONJ	WRB	PronType=Int	16	mark	16:mark	Discourse=elaboration-additional:20->19:0
+14	where	where	ADV	WRB	PronType=Int	16	advmod	16:advmod	Discourse=elaboration-additional:20->19:0
 15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	16:nsubj	Entity=(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
 16	obtained	obtain	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	5:advcl:where	_
 17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	Entity=(38-abstract-new-cf3-4-sgl
@@ -301,7 +303,7 @@
 18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(44-event-new-cf5-2-sgl
 19	resignation	resignation	NOUN	NN	Number=Sing	17	obj	17:obj	_
 20	of	of	ADP	IN	_	23	case	23:case	_
-21	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	23:nmod:poss	Entity=(45-person-new-cf7-3-sgl(42-organization-giv:act-cf2-1-ana-Calvary_Church_of_Santa_Ana)
+21	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	23:nmod:poss	Entity=(45-person-new-cf7-3-sgl(42-organization-giv:act-cf2-1-ana-Calvary_Church_of_Santa_Ana)
 22	founding	found	VERB	VBG	VerbForm=Ger	23	amod	23:amod	_
 23	pastor	pastor	NOUN	NN	Number=Sing	19	nmod	19:nmod:of	Entity=45)44)|SpaceAfter=No
 24	.	.	PUNCT	.	_	6	punct	6:punct	_
@@ -312,7 +314,7 @@
 # transition = continue
 # text = Despite his conservative background, in later years Nida became increasingly ecumenical and New Evangelical (clarification needed) in his approach.
 1	Despite	despite	ADP	IN	_	4	case	4:case	Discourse=adversative-concession:23->24:2
-2	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(46-abstract-new-cf2-3-sgl(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
+2	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(46-abstract-new-cf2-3-sgl(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
 3	conservative	conservative	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	background	background	NOUN	NN	Number=Sing	10	obl	10:obl:despite	Entity=46)|SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
@@ -331,7 +333,7 @@
 18	needed	need	VERB	VBN	Tense=Past|VerbForm=Part	17	acl	17:acl	SpaceAfter=No
 19	)	)	PUNCT	-RRB-	_	17	punct	17:punct	_
 20	in	in	ADP	IN	_	22	case	22:case	Discourse=same-unit_m:26->24:1
-21	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	22:nmod:poss	Entity=(49-abstract-new-cf5-2-sgl(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
+21	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	22:nmod:poss	Entity=(49-abstract-new-cf5-2-sgl(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
 22	approach	approach	NOUN	NN	Number=Sing	12	obl	12:obl:in	Entity=49)|SpaceAfter=No
 23	.	.	PUNCT	.	_	10	punct	10:punct	_
 
@@ -347,7 +349,7 @@
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	Nida	Nida	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(1-person-giv:act-cf1*-1-coref-Eugene_Nida)
 5	received	receive	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-6	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(51-abstract-new-cf3-2,4-coref-Doctor_of_Philosophy(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
+6	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(51-abstract-new-cf3-2,4-coref-Doctor_of_Philosophy(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
 7	Ph.D.	Ph.D.	PROPN	NNP	Abbr=Yes|Number=Sing	5	obj	5:obj	_
 8	in	in	ADP	IN	_	9	case	9:case	_
 9	Linguistics	Linguistics	PROPN	NNP	Number=Sing	7	nmod	7:nmod:in	Entity=(33-abstract-giv:inact-cf2-1-coref-Linguistics)51)
@@ -513,7 +515,7 @@
 # text = His Ph.D. dissertation, A Synopsis of English Syntax, was the first full-scale analysis of a major language according to the "immediate-constituent" theory.
 # newpar
 # newpar_block = p (3 s)
-1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Discourse=elaboration-additional:38->37:0|Entity=(73-abstract-new-cf2-3-coref(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Discourse=elaboration-additional:38->37:0|Entity=(73-abstract-new-cf2-3-coref(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
 2	Ph.D.	Ph.D.	PROPN	NNP	Abbr=Yes|Number=Sing	3	compound	3:compound	Entity=(51-abstract-giv:inact-cf4-1-coref-Doctor_of_Philosophy)
 3	dissertation	dissertation	NOUN	NN	Number=Sing	17	nsubj	17:nsubj	Entity=73)|SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	6:punct	_
@@ -550,7 +552,7 @@
 # s_type = decl
 # transition = continue
 # text = His textbook Morphology: The Descriptive Analysis of Words was one of the major works of American Structuralism.
-1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=joint-list_m:40->38:1|Entity=(77-abstract-new-cf3-2-coref(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=joint-list_m:40->38:1|Entity=(77-abstract-new-cf3-2-coref(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
 2	textbook	textbook	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	Entity=77)
 3	Morphology	Morphology	PROPN	NNP	Number=Sing	2	appos	2:appos	Entity=(77-abstract-giv:act-cf3-1,4,5,7-appos(78-abstract-new-cf2-1-coref-Morphology_%28linguistics%29)|SpaceAfter=No|XML=<hi rend:::"italic">
 4	:	:	PUNCT	:	_	7	punct	7:punct	_
@@ -591,7 +593,7 @@
 14	still	still	ADV	RB	Degree=Pos	15	advmod	15:advmod	_
 15	valuable	valuable	ADJ	JJ	Degree=Pos	2	conj	2:conj:and	_
 16	for	for	ADP	IN	_	19	case	19:case	_
-17	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(82-abstract-new-cf4-3,5-sgl(77-abstract-giv:act-cf1*-1-ana)
+17	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(82-abstract-new-cf4-3,5-sgl(77-abstract-giv:act-cf1*-1-ana)
 18	many	many	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
 19	examples	example	NOUN	NNS	Number=Plur	15	obl	15:obl:for	_
 20	and	and	CCONJ	CC	_	21	cc	21:cc	_
@@ -605,7 +607,7 @@
 # text = His most notable contribution to translation theory is Dynamic Equivalence, also known as Functional Equivalence.
 # newpar
 # newpar_block = p (4 s)
-1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Discourse=joint-list_m:43->38:1|Entity=(6-abstract-giv:inact-cf1-4-coref(1-person-giv:inact-cf2-1-ana-Eugene_Nida)
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Discourse=joint-list_m:43->38:1|Entity=(6-abstract-giv:inact-cf1-4-coref(1-person-giv:inact-cf2-1-ana-Eugene_Nida)
 2	most	most	ADV	RBS	Degree=Sup	3	advmod	3:advmod	_
 3	notable	notable	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	contribution	contribution	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	_
@@ -658,7 +660,7 @@
 10	split	split	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	7:acl:relcl	_
 11	words	word	NOUN	NNS	Number=Plur	10	obj	10:obj	Entity=(79-abstract-giv:inact-cf1-1-coref)
 12	into	into	ADP	IN	_	14	case	14:case	_
-13	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(86-abstract-new-cf7-2-sgl(79-abstract-giv:act-cf1-1-ana)
+13	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(86-abstract-new-cf7-2-sgl(79-abstract-giv:act-cf1-1-ana)
 14	components	component	NOUN	NNS	Number=Plur	10	obl	10:obl:into	Entity=86)
 15	to	to	PART	TO	_	16	mark	16:mark	Discourse=purpose-goal:48->47:0
 16	help	help	VERB	VB	VerbForm=Inf	10	advcl	10:advcl:to	_
@@ -697,7 +699,7 @@
 12	technique	technique	NOUN	NN	Number=Sing	9	nmod	9:nmod:of	Entity=85)90)|SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	14:punct	_
 14	though	though	SCONJ	IN	_	21	mark	21:mark	Discourse=evaluation-comment:51->49:0
-15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	21:nsubj	Entity=(88-abstract-giv:act-cf1*-1-ana)
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj:outer	21:nsubj:outer	Entity=(88-abstract-giv:act-cf1*-1-ana)
 16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	21:cop	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	_
 18	most	most	ADV	RBS	Degree=Sup	21	advmod	21:advmod	_
@@ -799,13 +801,13 @@
 13	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	14:aux:pass	_
 14	elaborated	elaborate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 15	in	in	ADP	IN	_	17	case	17:case	_
-16	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	Entity=(103-abstract-new-cf3-2,5-coref(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
+16	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	Entity=(103-abstract-new-cf3-2,5-coref(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
 17	essay	essay	NOUN	NN	Number=Sing	14	obl	14:obl:in	_
 18	Principles	Principle	PROPN	NNPS	Number=Plur	17	appos	17:appos	Entity=(103-abstract-giv:act-cf3-1,3-appos|XML=<hi rend:::"italic"><ref>
 19	of	of	ADP	IN	_	20	case	20:case	_
 20	Correspondence	Correspondence	PROPN	NNP	Number=Sing	18	nmod	18:nmod:of	Entity=(102-abstract-giv:act-cf4-1-coref)103)|SpaceAfter=No|XML=</ref></hi>
 21	,	,	PUNCT	,	_	24	punct	24:punct	_
-22	where	where	SCONJ	WRB	PronType=Rel	24	mark	24:mark	Discourse=organization-preparation:61->63:2
+22	where	where	ADV	WRB	PronType=Rel	24	advmod	24:advmod	Discourse=organization-preparation:61->63:2
 23	Nida	Nida	PROPN	NNP	Number=Sing	24	nsubj	24:nsubj	Entity=(1-person-giv:act-cf1*-1-coref-Eugene_Nida)
 24	begins	begin	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	17:acl:relcl	_
 25	by	by	SCONJ	IN	_	26	mark	26:mark	Discourse=attribution-positive:62->63:1
@@ -1092,8 +1094,8 @@
 18	in	in	SCONJ	IN	_	19	mark	19:mark	_
 19	translating	translate	VERB	VBG	VerbForm=Ger	16	acl	16:acl:in	Entity=147)|SpaceAfter=No
 20	,	,	PUNCT	,	_	9	punct	9:punct	_
-21	what	what	PRON	WP	PronType=Rel	30	nsubj	30:nsubj	Discourse=same-unit_m:90->88:0
-22	one	one	PRON	PRP	PronType=Prs	26	nsubj	26:nsubj|28:nsubj:xsubj	Entity=(132-person-giv:inact-cf1-1-ana)
+21	what	what	PRON	WP	PronType=Rel	30	nsubj:outer	30:nsubj:outer	Discourse=same-unit_m:90->88:0
+22	one	one	PRON	PRP	Number=Sing|Person=3|PronType=Prs	26	nsubj	26:nsubj|28:nsubj:xsubj	Entity=(132-person-giv:inact-cf1-1-ana)
 23	must	must	AUX	MD	VerbForm=Fin	26	aux	26:aux	_
 24	in	in	SCONJ	IN	_	25	mark	25:mark	_
 25	translating	translate	VERB	VBG	VerbForm=Ger	28	advcl	28:advcl:in	_

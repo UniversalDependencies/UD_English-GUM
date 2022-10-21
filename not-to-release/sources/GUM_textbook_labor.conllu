@@ -1,8 +1,10 @@
 # newdoc id = GUM_textbook_labor
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Steven A. Greenlaw, David Shapiro, Timothy Taylor, Eric Dodge, Cynthia Gamez, Andres Jauregui, Diane Keenan, Craig Richardson, Ralph Sonenshine, Dan MacDonald, Amyaz Moledina
 # meta::dateCollected = 2020-09-08
 # meta::dateCreated = 2017-10-11
 # meta::dateModified = 2020-01-21
+# meta::genre = textbook
 # meta::sourceURL = https://openstax.org/books/principles-economics-2e/pages/1-1-what-is-economics-and-why-is-it-important
 # meta::speakerCount = 0
 # meta::title = Economics 2e
@@ -16,7 +18,7 @@
 3	Division	division	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	_
 4	of	of	ADP	IN	_	5	case	5:case	_
 5	Labor	labor	NOUN	NN	Number=Sing	3	nmod	3:nmod:of	Entity=(2-abstract-new-cf3-1-sgl)1)
-6	Increases	increase	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	1:acl:relcl	_
+6	Increases	increase	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl:relcl	1:advcl:relcl	_
 7	Production	production	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=(3-event-new-cf2-1-sgl)
 
 # sent_id = GUM_textbook_labor-2
@@ -26,7 +28,7 @@
 # text = When we divide and subdivide the tasks involved with producing a good or service, workers and businesses can produce a greater quantity of output.
 # newpar
 # newpar_block = p (4 s)
-1	When	when	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=context-circumstance:2->4:0
+1	When	when	ADV	WRB	PronType=Int	3	advmod	3:advmod	Discourse=context-circumstance:2->4:0
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj	Entity=(4-person-acc:com-cf1-1-ana)
 3	divide	divide	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	advcl	20:advcl:when	_
 4	and	and	CCONJ	CC	_	5	cc	5:cc	_
@@ -59,7 +61,7 @@
 # transition = null
 # text = In his observations of pin factories, Smith noticed that one worker alone might make 20 pins in a day, but that a small business of 10 workers (some of whom would need to complete two or three of the 18 tasks involved with pin-making), could make 48,000 pins in a day.
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=attribution-positive:5->6:1
-2	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(11-abstract-new-cf10-2-sgl(12-person-new-cf2-1-cata-Adam_Smith)
+2	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(11-abstract-new-cf10-2-sgl(12-person-new-cf2-1-cata-Adam_Smith)
 3	observations	observation	NOUN	NNS	Number=Plur	9	obl	9:obl:in	_
 4	of	of	ADP	IN	_	6	case	6:case	_
 5	pin	pin	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=(13-organization-new-cf11-2-sgl(14-object-new-cf13-1-sgl)
@@ -196,7 +198,7 @@
 17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(34-abstract-new-cf5-3-sgl
 18	production	production	NOUN	NN	Number=Sing	19	compound	19:compound	Entity=(35-event-new-cf8-1-sgl)
 19	process	process	NOUN	NN	Number=Sing	15	nmod	15:nmod:of	Entity=34)
-20	where	where	SCONJ	WRB	PronType=Rel	22	mark	22:mark	Discourse=elaboration-attribute:17->16:0
+20	where	where	ADV	WRB	PronType=Rel	22	advmod	22:advmod	Discourse=elaboration-attribute:17->16:0
 21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	22:nsubj	Entity=(32-person-giv:act-cf1-1-ana)
 22	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	15:acl:relcl	_
 23	an	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(36-abstract-new-cf3-2-sgl
@@ -520,7 +522,7 @@
 5	workers	worker	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	Entity=78)
 6	often	often	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
 7	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-8	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(91-abstract-new-cf2-2-sgl(78-person-giv:act-cf1-1-ana)
+8	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(91-abstract-new-cf2-2-sgl(78-person-giv:act-cf1-1-ana)
 9	jobs	job	NOUN	NNS	Number=Plur	7	obj	7:obj	Entity=91)
 10	well	well	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
 11	enough	enough	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
@@ -530,7 +532,7 @@
 15	ways	way	NOUN	NNS	Number=Plur	13	obj	13:obj	_
 16	to	to	PART	TO	_	17	mark	17:mark	Discourse=purpose-attribute:53->52:0
 17	do	do	VERB	VB	VerbForm=Inf	15	acl	15:acl:to	_
-18	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(93-abstract-new-cf4-2-sgl(78-person-giv:act-cf1-1-ana)
+18	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(93-abstract-new-cf4-2-sgl(78-person-giv:act-cf1-1-ana)
 19	work	work	NOUN	NN	Number=Sing	17	obj	17:obj	Entity=93)
 20	faster	fast	ADV	RBR	Degree=Cmp	17	advmod	17:advmod	_
 21	and	and	CCONJ	CC	_	22	cc	22:cc	_
@@ -576,7 +578,7 @@
 15	(	(	PUNCT	-LRB-	_	17	punct	17:punct	Discourse=elaboration-attribute:57->56:0|SpaceAfter=No
 16	sometimes	sometimes	ADV	RB	_	17	advmod	17:advmod	_
 17	called	call	VERB	VBN	Tense=Past|VerbForm=Part	14	acl	14:acl	_
-18	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Entity=(98-abstract-new-cf5-4-sgl(96-organization-giv:act-cf1-1-ana)
+18	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Entity=(98-abstract-new-cf5-4-sgl(96-organization-giv:act-cf1-1-ana)
 19	“	''	PUNCT	``	_	21	punct	21:punct	SpaceAfter=No|XML=<q>
 20	core	core	ADJ	JJ	Degree=Pos	21	amod	21:amod	_
 21	competency	competency	NOUN	NN	Number=Sing	17	xcomp	17:xcomp	SpaceAfter=No
@@ -726,14 +728,14 @@
 # text = The ultimate result of workers who can focus on their preferences and talents, learn to do their specialized jobs better, and work in larger organizations is that society as a whole can produce and consume far more than if each person tried to produce all of his or her own goods and services.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=restatement-partial:74->16:7|Entity=(122-abstract-new-cf3-3-coref
 2	ultimate	ultimate	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
-3	result	result	NOUN	NN	Number=Sing	35	nsubj	35:nsubj|37:nsubj	_
+3	result	result	NOUN	NN	Number=Sing	35	nsubj:outer	35:nsubj:outer|37:nsubj:outer	_
 4	of	of	ADP	IN	_	5	case	5:case	_
 5	workers	worker	NOUN	NNS	Number=Plur	3	nmod	3:nmod:of|8:nsubj	Entity=(123-person-new-cf1-1-coref
 6	who	who	PRON	WP	PronType=Rel	8	nsubj	5:ref	Discourse=elaboration-attribute:75->74:0
 7	can	can	AUX	MD	VerbForm=Fin	8	aux	8:aux|15:aux|24:aux	_
 8	focus	focus	VERB	VB	VerbForm=Inf	5	acl:relcl	5:acl:relcl	_
 9	on	on	ADP	IN	_	11	case	11:case	_
-10	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(124-abstract-new-cf7-2,4-sgl(123-person-giv:act-cf1-1-ana)
+10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(124-abstract-new-cf7-2,4-sgl(123-person-giv:act-cf1-1-ana)
 11	preferences	preference	NOUN	NNS	Number=Plur	8	obl	8:obl:on	_
 12	and	and	CCONJ	CC	_	13	cc	13:cc	_
 13	talents	talent	NOUN	NNS	Number=Plur	11	conj	8:obl:on|11:conj:and	Entity=124)|SpaceAfter=No
@@ -741,7 +743,7 @@
 15	learn	learn	VERB	VB	VerbForm=Inf	8	conj	5:acl:relcl|8:conj:and	Discourse=joint-list_m:76->75:0
 16	to	to	PART	TO	_	17	mark	17:mark	_
 17	do	do	VERB	VB	VerbForm=Inf	15	xcomp	15:xcomp	_
-18	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(125-abstract-new-cf5-3-sgl(123-person-giv:act-cf1-1-ana)
+18	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(125-abstract-new-cf5-3-sgl(123-person-giv:act-cf1-1-ana)
 19	specialized	specialized	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
 20	jobs	job	NOUN	NNS	Number=Plur	17	obj	17:obj	Entity=125)
 21	better	well	ADV	RBR	Degree=Cmp	17	advmod	17:advmod	SpaceAfter=No
@@ -772,9 +774,9 @@
 46	produce	produce	VERB	VB	VerbForm=Inf	44	xcomp	44:xcomp	_
 47	all	all	DET	DT	PronType=Tot	46	obj	46:obj	Entity=(129-abstract-new-cf6-1-sgl
 48	of	of	ADP	IN	_	53	case	53:case	_
-49	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	53	nmod:poss	53:nmod:poss	Entity=(130-abstract-new-cf9-5,7-sgl(128-person-giv:act-cf2-1,3-ana
+49	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	53	nmod:poss	53:nmod:poss	Entity=(130-abstract-new-cf9-5,7-sgl(128-person-giv:act-cf2-1,3-ana
 50	or	or	CCONJ	CC	_	51	cc	51:cc	_
-51	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	49	conj	49:conj:or|53:nmod:poss	Entity=128)
+51	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	49	conj	49:conj:or|53:nmod:poss	Entity=128)
 52	own	own	ADJ	JJ	Degree=Pos	53	amod	53:amod	_
 53	goods	good	NOUN	NNS	Number=Plur	47	nmod	47:nmod:of	_
 54	and	and	CCONJ	CC	_	55	cc	55:cc	_

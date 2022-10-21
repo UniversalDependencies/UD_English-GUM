@@ -1,8 +1,10 @@
 # newdoc id = GUM_news_asylum
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Wikinews
 # meta::dateCollected = 2015-09-21
 # meta::dateCreated = 2015-05-18
 # meta::dateModified = 2015-05-26
+# meta::genre = news
 # meta::sourceURL = https://en.wikinews.org/wiki/Over_900_asylum_seekers_rescued_off_Indonesian_coast
 # meta::speakerCount = 0
 # meta::title = Over 900 asylum seekers rescued off Indonesian coast
@@ -27,6 +29,8 @@
 # s_type = frag
 # transition = null
 # text = Monday, May 18, 2015
+# newpar
+# newpar_block = p (1 s)
 1	Monday	Monday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-circumstance:2->3:8|Entity=(4-time-acc:com-cf1-1-coref)|SpaceAfter=No|XML=<date when:::"2015-05-18" rend:::"bold">
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	May	May	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(4-time-giv:act-cf1-2-appos
@@ -95,7 +99,7 @@
 10	military	military	NOUN	NN	Number=Sing	6	nmod	6:nmod:for	Entity=15)14)|SpaceAfter=No
 11	,	,	PUNCT	,	_	2	punct	2:punct	_
 12	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-13	fisherman	fisherman	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	CorrectForm=fishermen|Discourse=elaboration-additional:8->3:3|Entity=(16-person-new-cf3-1-sgl)|XML=<sic ana:::"fishermen"></sic>
+13	fisherman	fisherman	NOUN	NN	Number=Sing|Typo=Yes	15	nsubj	15:nsubj	CorrectForm=fishermen|Discourse=elaboration-additional:8->3:3|Entity=(16-person-new-cf3-1-sgl)|XML=<sic ana:::"fishermen"></sic>
 14	first	first	ADV	RB	Degree=Pos|NumType=Ord	15	advmod	15:advmod	_
 15	noticed	notice	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	ccomp	12:ccomp	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(8-person-giv:act-cf1*-2-coref
@@ -225,7 +229,7 @@
 18	AFP	AFP	PROPN	NNP	Abbr=Yes|Number=Sing	28	obl	28:obl:according_to	Entity=(31-organization-new-cf6-1-sgl-Agence_France%2DPresse)|SpaceAfter=No|XML=<ref></ref>
 19	,	,	PUNCT	,	_	18	punct	18:punct	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Discourse=same-unit_m:25->23:0|Entity=(21-organization-giv:inact-cf2-2,3-coref-United_Nations
-21	Untied	Unite	VERB	NNP	Tense=Past|VerbForm=Part	22	amod	22:amod	CorrectForm=United|XML=<sic ana:::"United"></sic>
+21	Untied	Unite	VERB	NNP	Tense=Past|Typo=Yes|VerbForm=Part	22	amod	22:amod	CorrectForm=United|XML=<sic ana:::"United"></sic>
 22	Nations	Nation	PROPN	NNPS	Number=Plur	28	nsubj	28:nsubj	Entity=21)
 23	and	and	CCONJ	CC	_	25	cc	25:cc	_
 24	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	25	amod	25:amod	Entity=(32-place-new-cf7-1,2-coref-United_States|XML=<ref>
@@ -283,7 +287,7 @@
 # newpar
 # newpar_block = p (1 s)
 1	Discussing	discuss	VERB	VBG	VerbForm=Ger	16	advcl	16:advcl	Discourse=context-circumstance:30->32:2
-2	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(36-abstract-new-cf6-2-sgl(37-person-new-cf2-1-cata-Najib_Razak)
+2	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(36-abstract-new-cf6-2-sgl(37-person-new-cf2-1-cata-Najib_Razak)
 3	concern	concern	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=36)
 4	in	in	ADP	IN	_	7	case	7:case	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(38-abstract-new-cf10-3-sgl
@@ -336,15 +340,15 @@
 1	Thailand	Thailand	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Discourse=context-background:35->39:3|Entity=(44-place-new-cf1-1-coref-Thailand)|XML=<ref></ref>
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	recently	recently	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
-4	cracked	crack	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root|12:nsubj	_
+4	cracked	crack	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root|12:csubj	_
 5	down	down	ADP	RP	_	4	compound:prt	4:compound:prt	_
 6	on	on	ADP	IN	_	8	case	8:case	_
 7	human	human	ADJ	JJ	Degree=Pos	8	amod	8:amod	Entity=(45-abstract-new-cf5-6-sgl|XML=<ref>
 8	trafficking	trafficking	NOUN	NN	Number=Sing	4	obl	4:obl:on	SpaceAfter=No|XML=</ref>
 9	,	,	PUNCT	,	_	12	punct	12:punct	_
-10	which	which	PRON	WDT	PronType=Rel	12	nsubj	4:ref	Discourse=causal-result:36->35:0
+10	which	which	PRON	WDT	PronType=Rel	12	nsubj	4:ref|12:nsubj	Discourse=causal-result:36->35:0
 11	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	12:aux	_
-12	affected	affect	VERB	VBN	Tense=Past|VerbForm=Part	4	acl:relcl	4:acl:relcl	_
+12	affected	affect	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl:relcl	4:advcl:relcl	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(46-place-new-cf3-2-sgl
 14	routes	route	NOUN	NNS	Number=Plur	12	obj	12:obj|20:obl:by	_
 15	by	by	ADP	IN	_	16	case	16:case	Discourse=elaboration-attribute:37->36:0
