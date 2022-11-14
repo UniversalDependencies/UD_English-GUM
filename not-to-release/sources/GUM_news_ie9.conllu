@@ -1,12 +1,15 @@
 # newdoc id = GUM_news_ie9
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Wikinews
 # meta::dateCollected = 2014-09-15
 # meta::dateCreated = 2011-03-08
 # meta::dateModified = 2011-03-15
+# meta::genre = news
 # meta::sourceURL = https://en.wikinews.org/wiki/Microsoft_waits_for_death_of_Internet_Explorer_6
 # meta::speakerCount = 0
 # meta::title = Microsoft waits for death of Internet Explorer 6
 # sent_id = GUM_news_ie9-1
+# s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = Microsoft waits for death of Internet Explorer 6
@@ -22,9 +25,12 @@
 8	6	6	NUM	CD	NumForm=Digit|NumType=Card	7	dep	7:dep	Entity=3)2)
 
 # sent_id = GUM_news_ie9-2
+# s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Tuesday, March 8, 2011
+# newpar
+# newpar_block = p (1 s)
 1	Tuesday	Tuesday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-circumstance:2->7:7|Entity=(4-time-acc:com-cf1-1-coref)|SpaceAfter=No|XML=<date when:::"2011-03-08" rend:::"bold">
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	March	March	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(4-time-giv:act-cf1-2-appos
@@ -33,6 +39,7 @@
 6	2011	2011	NUM	CD	NumForm=Digit|NumType=Card	4	nmod:tmod	4:nmod:tmod	Entity=(5-time-new-cf2-1-coref)4)|XML=</date>
 
 # sent_id = GUM_news_ie9-3
+# s_prominence = 1
 # s_type = decl
 # transition = null
 # text = With development of Microsoft's Internet Explorer 9 (IE9) browser almost complete, Microsoft announced on Friday that it is time for IE6 users to move away from the antiquated 10-year-old browser.
@@ -80,6 +87,7 @@
 39	.	.	PUNCT	.	_	17	punct	17:punct	_
 
 # sent_id = GUM_news_ie9-4
+# s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = Microsoft has replaced it with three newer versions.
@@ -94,6 +102,7 @@
 9	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_ie9-5
+# s_prominence = 2
 # s_type = decl
 # transition = smooth-shift
 # text = On a new website, "The Internet Explorer 6 Countdown", Microsoft has launched an aggressive campaign to persuade users to stop using IE6 and update to a newer IE.
@@ -132,11 +141,12 @@
 33	.	.	PUNCT	.	_	16	punct	16:punct	_
 
 # sent_id = GUM_news_ie9-6
+# s_prominence = 3
 # s_type = decl
 # transition = smooth-shift
 # text = Its goal is to decrease IE6 users to less than one percent.
-1	Its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=elaboration-additional:13->10:2|Entity=(14-abstract-acc:com-cf4-2-sgl(12-abstract-giv:act-cf1*-1-ana)
-2	goal	goal	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=14)
+1	Its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=elaboration-additional:13->10:2|Entity=(14-abstract-acc:com-cf4-2-sgl(12-abstract-giv:act-cf1*-1-ana)
+2	goal	goal	NOUN	NN	Number=Sing	5	nsubj:outer	5:nsubj:outer	Entity=14)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 4	to	to	PART	TO	_	5	mark	5:mark	_
 5	decrease	decrease	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -150,6 +160,7 @@
 13	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_news_ie9-7
+# s_prominence = 3
 # s_type = decl
 # transition = smooth-shift
 # text = "[Ten] years ago, a browser was born.
@@ -169,10 +180,11 @@
 12	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_news_ie9-8
+# s_prominence = 2
 # s_type = decl
 # transition = continue
 # text = Its name was Internet Explorer 6.
-1	Its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=context-background:15->17:4|Entity=(17-abstract-acc:com-cf2-2-coref-Internet_Explorer_6(3-abstract-giv:act-cf1*-1-ana-Internet_Explorer_6)
+1	Its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=context-background:15->17:4|Entity=(17-abstract-acc:com-cf2-2-coref-Internet_Explorer_6(3-abstract-giv:act-cf1*-1-ana-Internet_Explorer_6)
 2	name	name	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=17)
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
 4	Internet	Internet	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=(17-abstract-giv:act-cf2-1,2-coref-Internet_Explorer_6
@@ -181,6 +193,7 @@
 7	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_news_ie9-9
+# s_prominence = 1
 # s_type = decl
 # transition = continue
 # text = Now that we’re in 2011, in an era of modern web standards, it’s time to say goodbye," Microsoft says on "The Internet Explorer 6 Countdown".
@@ -221,6 +234,7 @@
 34	.	.	PUNCT	.	_	25	punct	25:punct	_
 
 # sent_id = GUM_news_ie9-10
+# s_prominence = 2
 # s_type = decl
 # transition = zero
 # text = Internet Explorer's market share is slipping.
@@ -237,6 +251,7 @@
 8	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_news_ie9-11
+# s_prominence = 3
 # s_type = decl
 # transition = establishment
 # text = IE's various versions accounted for 70 percent of the market in 2009; this has dropped to approximately 56 percent today.
@@ -266,13 +281,14 @@
 23	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_news_ie9-12
+# s_prominence = 4
 # s_type = decl
 # transition = continue
 # text = Mozilla Firefox, its main rival, has been actively increasing its market share while the recently released Google Chrome is also quickly gaining users.
 1	Mozilla	Mozilla	PROPN	NNP	Number=Sing	11	nsubj	11:nsubj	Discourse=causal-cause:23->22:0|Entity=(30-abstract-new-cf2-1,2-coref-Firefox|XML=<ref>
 2	Firefox	Firefox	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=30)|SpaceAfter=No|XML=</ref>
 3	,	,	PUNCT	,	_	6	punct	6:punct	_
-4	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(30-abstract-giv:act-cf2-3-appos-Firefox(23-abstract-giv:act-cf1*-1-ana-Internet_Explorer)
+4	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(30-abstract-giv:act-cf2-3-appos-Firefox(23-abstract-giv:act-cf1*-1-ana-Internet_Explorer)
 5	main	main	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
 6	rival	rival	NOUN	NN	Number=Sing	1	appos	1:appos	Entity=30)|SpaceAfter=No
 7	,	,	PUNCT	,	_	1	punct	1:punct	_
@@ -280,7 +296,7 @@
 9	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	aux	11:aux	_
 10	actively	actively	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
 11	increasing	increase	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
-12	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(31-abstract-new-cf6-3-sgl(30-abstract-giv:act-cf2-1-ana-Firefox)
+12	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(31-abstract-new-cf6-3-sgl(30-abstract-giv:act-cf2-1-ana-Firefox)
 13	market	market	NOUN	NN	Number=Sing	14	compound	14:compound	_
 14	share	share	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=31)
 15	while	while	SCONJ	IN	_	24	mark	24:mark	Discourse=joint-list_m:24->23:0
@@ -297,6 +313,7 @@
 26	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_news_ie9-13
+# s_prominence = 4
 # s_type = decl
 # transition = continue
 # text = PC World's recent analysis of its own web traffic statistics concluded, "Usually, Internet Explorer is the #2 browser after Firefox, but over the past 30 days its been #3, a couple of points behind Safari - and nearly tied with Chrome.
@@ -307,7 +324,7 @@
 4	recent	recent	ADJ	JJ	Degree=Pos	5	amod	5:amod	Entity=(36-abstract-new-cf4-2-sgl
 5	analysis	analysis	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	_
 6	of	of	ADP	IN	_	11	case	11:case	_
-7	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	_
+7	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	_
 8	own	own	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
 9	web	web	NOUN	NN	Number=Sing	10	compound	10:compound	_
 10	traffic	traffic	NOUN	NN	Number=Sing	11	compound	11:compound	_
@@ -355,6 +372,7 @@
 51	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_news_ie9-14
+# s_prominence = 6
 # s_type = sub
 # transition = smooth-shift
 # text = It might be a statistical blip.
@@ -367,6 +385,7 @@
 7	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_news_ie9-15
+# s_prominence = 5
 # s_type = sub
 # transition = continue
 # text = But if it isn't, and Chrome continues to surge, IE could fall to fourth place."
@@ -393,6 +412,7 @@
 20	"	''	PUNCT	''	_	15	punct	15:punct	_
 
 # sent_id = GUM_news_ie9-16
+# s_prominence = 1
 # s_type = decl
 # transition = zero
 # text = Web developers face big problems with IE6.
@@ -408,13 +428,14 @@
 8	.	.	PUNCT	.	_	3	punct	3:punct	Entity=46)
 
 # sent_id = GUM_news_ie9-17
+# s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = As they design their web pages for the newer browsers with advanced web technology and geared to the newest web core markup language HTML 5, they are forced to accommodate older out-of-date technology to support IE6 users.
 1	As	as	SCONJ	IN	_	3	mark	3:mark	Discourse=context-circumstance:35->36:1
 2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(45-person-giv:act-cf1*-1-ana)
 3	design	design	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	29:advcl:as	_
-4	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(47-abstract-new-cf5-3-sgl(45-person-giv:act-cf1*-1-ana)
+4	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(47-abstract-new-cf5-3-sgl(45-person-giv:act-cf1*-1-ana)
 5	web	web	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=(21-abstract-giv:act-cf2-1-coref)
 6	pages	page	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=47)
 7	for	for	ADP	IN	_	10	case	10:case	_
@@ -456,6 +477,7 @@
 43	.	.	PUNCT	.	_	29	punct	29:punct	_
 
 # sent_id = GUM_news_ie9-18
+# s_prominence = 1
 # s_type = decl
 # transition = zero
 # text = Also, not mentioned on Microsoft's "The Internet Explorer 6 Countdown" site, are the numerous security vulnerabilities putting the browser at risk of being hacked.
@@ -492,6 +514,7 @@
 30	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_news_ie9-19
+# s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = The Internet security firm Secunia.com, has said that as of March 4, 2011, IE6 has 277 vulnerabilities; 39 percent of these are rated "highly critical".
@@ -529,6 +552,7 @@
 32	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_news_ie9-20
+# s_prominence = 1
 # s_type = decl
 # transition = continue
 # text = Microsoft says that the latest versions of Internet Explorer provide the user with enhanced protection from these attacks and threats.
@@ -555,6 +579,7 @@
 21	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_news_ie9-21
+# s_prominence = 1
 # s_type = decl
 # transition = zero
 # text = Microsoft's Internet Explorer 6 is one of the most successful software products ever as measured by its durability and the massive numbers of people who have used it.
@@ -578,7 +603,7 @@
 15	as	as	SCONJ	IN	_	16	mark	16:mark	Discourse=explanation-evidence:47->46:0
 16	measured	measure	VERB	VBN	Tense=Past|VerbForm=Part	11	advcl	11:advcl:as	_
 17	by	by	ADP	IN	_	19	case	19:case	_
-18	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(60-abstract-new-cf4-2-sgl(3-abstract-giv:act-cf1-1-ana-Internet_Explorer_6)
+18	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(60-abstract-new-cf4-2-sgl(3-abstract-giv:act-cf1-1-ana-Internet_Explorer_6)
 19	durability	durability	NOUN	NN	Number=Sing	16	obl:agent	16:obl:agent	Entity=60)
 20	and	and	CCONJ	CC	_	23	cc	23:cc	_
 21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(61-person-new-cf2-3-sgl
@@ -593,6 +618,7 @@
 30	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_news_ie9-22
+# s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = IE6 shipped with Windows XP, nearly a decade ago.
@@ -609,6 +635,7 @@
 11	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_news_ie9-23
+# s_prominence = 1
 # s_type = decl
 # transition = continue
 # text = But it has outlived its usefulness, and Microsoft no longer wants to support it.
@@ -616,7 +643,7 @@
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(3-abstract-giv:act-cf1*-1-ana-Internet_Explorer_6)
 3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 4	outlived	outlive	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
-5	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(64-abstract-new-cf3-2-sgl(3-abstract-giv:act-cf1*-1-ana-Internet_Explorer_6)
+5	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(64-abstract-new-cf3-2-sgl(3-abstract-giv:act-cf1*-1-ana-Internet_Explorer_6)
 6	usefulness	usefulness	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=64)|SpaceAfter=No
 7	,	,	PUNCT	,	_	12	punct	12:punct	_
 8	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=causal-result:51->50:0

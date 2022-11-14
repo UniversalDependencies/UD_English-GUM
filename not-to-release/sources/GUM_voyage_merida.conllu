@@ -1,12 +1,15 @@
 # newdoc id = GUM_voyage_merida
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Anyone150, AndreCarrotflower, StellarD and others (see URL)
 # meta::dateCollected = 2015-09-21
 # meta::dateCreated = 2005-09-05
 # meta::dateModified = 2015-08-05
+# meta::genre = voyage
 # meta::sourceURL = https://en.wikivoyage.org/wiki/M%C3%A9rida_(Mexico)
 # meta::speakerCount = 0
 # meta::title = Mérida
 # sent_id = GUM_voyage_merida-1
+# s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = Mérida
@@ -15,6 +18,7 @@
 1	Mérida	Mérida	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-heading:1->8:5|Entity=(1-place-new-cf1-1-coref-Mérida%2C_Yucatán)
 
 # sent_id = GUM_voyage_merida-2
+# s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = Mérida is the capital of the state of Yucatán in Mexico.
@@ -34,6 +38,7 @@
 12	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_voyage_merida-3
+# s_prominence = 2
 # s_type = decl
 # transition = continue
 # text = It has a population of about 750,000, and is the largest city in the Yucatán Peninsula.
@@ -57,17 +62,19 @@
 18	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_voyage_merida-4
+# s_prominence = 3
 # s_type = frag
 # transition = zero
 # text = Catedral de San Ildefonso
 # newpar
 # newpar_block = figure rend:::"Photo of Cathedral of San Ildefonso" (1 s) | caption (1 s)
-1	Catedral	Catedral	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-background:5->2:1|Entity=(6-place-new-cf1-1,2,3,4-coref
-2	de	de	PROPN	NNP	Number=Sing	1	flat	1:flat	_
-3	San	San	PROPN	NNP	Number=Sing	1	flat	1:flat	_
-4	Ildefonso	Ildefonso	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=6)
+1	Catedral	Catedral	PROPN	NNP	Foreign=Yes|Number=Sing	0	root	0:root	Discourse=context-background:5->2:1|Entity=(6-place-new-cf1-1,2,3,4-coref|XML=<foreign xml:lang:::"spa">
+2	de	de	PROPN	NNP	Foreign=Yes|Number=Sing	1	flat	1:flat	_
+3	San	San	PROPN	NNP	Foreign=Yes|Number=Sing	1	flat	1:flat	_
+4	Ildefonso	Ildefonso	PROPN	NNP	Foreign=Yes|Number=Sing	1	flat	1:flat	Entity=6)|XML=</foreign>
 
 # sent_id = GUM_voyage_merida-5
+# s_prominence = 3
 # s_type = frag
 # transition = establishment
 # text = Zócalo or Main Plaza, with the Cathedral in the distance
@@ -86,6 +93,7 @@
 11	distance	distance	NOUN	NN	Number=Sing	8	nmod	8:nmod:in	Entity=8)
 
 # sent_id = GUM_voyage_merida-6
+# s_prominence = 2
 # s_type = imp
 # transition = zero
 # text = Understand
@@ -94,6 +102,7 @@
 1	Understand	understand	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:7->8:3
 
 # sent_id = GUM_voyage_merida-7
+# s_prominence = 1
 # s_type = decl
 # transition = zero
 # text = Mérida is a city of contrasts.
@@ -108,6 +117,7 @@
 7	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_voyage_merida-8
+# s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = You will find elegant hotels, restaurants and malls in the northern part of the city.
@@ -130,6 +140,7 @@
 17	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_voyage_merida-9
+# s_prominence = 2
 # s_type = decl
 # transition = zero
 # text = Downtown, there are hotels and restaurants to suit every budget.
@@ -147,6 +158,7 @@
 12	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_voyage_merida-10
+# s_prominence = 2
 # s_type = decl
 # transition = null
 # text = A large central market and numerous small shops are found all around the main plaza.
@@ -168,6 +180,7 @@
 16	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_voyage_merida-11
+# s_prominence = 1
 # s_type = decl
 # transition = null
 # text = Mérida has a rich cultural life which also reflects its diversity.
@@ -180,11 +193,12 @@
 7	which	which	PRON	WDT	PronType=Rel	9	nsubj	6:ref	Discourse=evaluation-comment:14->13:0
 8	also	also	ADV	RB	_	9	advmod	9:advmod	_
 9	reflects	reflect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	6:acl:relcl	_
-10	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(21-abstract-new-cf3-2-sgl(1-place-giv:act-cf1-1-ana-Mérida%2C_Yucatán)
+10	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(21-abstract-new-cf3-2-sgl(1-place-giv:act-cf1-1-ana-Mérida%2C_Yucatán)
 11	diversity	diversity	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=21)20)|SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_voyage_merida-12
+# s_prominence = 2
 # s_type = decl
 # transition = null
 # text = Many free concerts, performances and other events are held daily.
@@ -202,6 +216,7 @@
 12	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_voyage_merida-13
+# s_prominence = 1
 # s_type = decl
 # transition = null
 # text = The city was founded by the Spanish conquistadors in the 1540s on top of a centuries-old Maya city called T'ho.
@@ -232,6 +247,7 @@
 23	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_voyage_merida-14
+# s_prominence = 2
 # s_type = decl
 # transition = null
 # text = The palatial home of the family of conquistador leader Montejo can still be seen on the south side of the Zócalo or main square.
@@ -262,6 +278,7 @@
 25	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # sent_id = GUM_voyage_merida-15
+# s_prominence = 2
 # s_type = decl
 # transition = null
 # text = Here and there bits of ancient Maya stonework can be seen reused in Spanish Colonial era buildings in the old part of town.
@@ -291,6 +308,7 @@
 24	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_voyage_merida-16
+# s_prominence = 1
 # s_type = decl
 # transition = establishment
 # text = From the later 1800s to the 1920s Mérida enjoyed prosperous boom times fueled by the henequen or sisal plant harvest, which made Yucatán the rope maker to the world.
@@ -329,6 +347,7 @@
 31	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_voyage_merida-17
+# s_prominence = 2
 # s_type = decl
 # transition = continue
 # text = Progressive Mérida had electric trams and street lights before Mexico City.
@@ -346,6 +365,7 @@
 12	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_voyage_merida-18
+# s_prominence = 2
 # s_type = decl
 # transition = zero
 # text = The wealthy constructed the grand Pasejo Montejo avenue north of the old town, inspired by the Champs-Élysées in Paris.
@@ -374,6 +394,7 @@
 23	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_voyage_merida-19
+# s_prominence = 1
 # s_type = decl
 # transition = establishment
 # text = With the development of artificial twines the sisal boom ended, and Mérida slowed to a more sleepy provincial capital until development picked back up in the late 20th century.
@@ -410,6 +431,7 @@
 31	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_voyage_merida-20
+# s_prominence = 1
 # s_type = decl
 # transition = continue
 # text = The city's ambiance is colonial and the climate is tropical.
@@ -430,6 +452,7 @@
 12	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_voyage_merida-21
+# s_prominence = 2
 # s_type = decl
 # transition = zero
 # text = The daytime temperature varies; in January, it is about 24 ° C (75 ° F) and in June, about 35 ° C (95 ° F).
@@ -468,6 +491,7 @@
 33	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_voyage_merida-22
+# s_prominence = 2
 # s_type = decl
 # transition = null
 # text = To beat the heat, most people are busiest in the mornings.
@@ -486,6 +510,7 @@
 13	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_voyage_merida-23
+# s_prominence = 3
 # s_type = decl
 # transition = establishment
 # text = They have lunch and siesta, then go back to work for a few hours in the late afternoon.
@@ -511,6 +536,7 @@
 20	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_voyage_merida-24
+# s_prominence = 3
 # s_type = decl
 # transition = zero
 # text = The cool breezes from the Gulf of Mexico drift into Mérida in the evenings and this is when many of the residents spend their time outdoors.
@@ -531,18 +557,19 @@
 15	and	and	CCONJ	CC	_	17	cc	17:cc	Discourse=causal-result:41->40:0
 16	this	this	PRON	DT	Number=Sing|PronType=Dem	17	nsubj	17:nsubj	Entity=(78-time-giv:act-cf1-1-ana)
 17	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	9:conj:and	_
-18	when	when	SCONJ	WRB	PronType=Int	23	mark	23:mark	_
+18	when	when	ADV	WRB	PronType=Int	23	advmod	23:advmod	_
 19	many	many	ADJ	JJ	Degree=Pos	23	nsubj	23:nsubj	Entity=(79-person-new-cf2-1-coref
 20	of	of	ADP	IN	_	22	case	22:case	_
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Bridge=52<80|Entity=(80-person-acc:inf-cf4-2-sgl
 22	residents	resident	NOUN	NNS	Number=Plur	19	obl	19:obl:of	Entity=80)79)
 23	spend	spend	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	17:advcl:when	_
-24	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	25:nmod:poss	Entity=(81-time-new-cf6-2-sgl(79-person-giv:act-cf2-1-ana)
+24	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	25:nmod:poss	Entity=(81-time-new-cf6-2-sgl(79-person-giv:act-cf2-1-ana)
 25	time	time	NOUN	NN	Number=Sing	23	obj	23:obj	Entity=81)
 26	outdoors	outdoors	ADV	RB	Degree=Pos	23	advmod	23:advmod	SpaceAfter=No
 27	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_voyage_merida-25
+# s_prominence = 4
 # s_type = decl
 # transition = establishment
 # text = You can see them visiting and talking as they stroll along the streets, sit in the plazas or dine in the many sidewalk restaurants.
@@ -574,6 +601,7 @@
 26	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_voyage_merida-26
+# s_prominence = 1
 # s_type = decl
 # transition = zero
 # text = From Mérida, it is easy to take day trips to a vast array of destinations: archaeological sites, ecological parks, typical villages, caves, beaches, colonial missions and more.
@@ -616,11 +644,12 @@
 35	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_voyage_merida-27
+# s_prominence = 2
 # s_type = imp
 # transition = establishment
 # text = Take your time and really explore the Maya sites, walk for miles along the Gulf of Mexico, attend a village festival, photograph the wildlife, crawl through a cave or swim in a cenote.
 1	Take	take	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=restatement-partial:49->47:1
-2	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(82-person-giv:inact-cf3-1-ana)
+2	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(82-person-giv:inact-cf3-1-ana)
 3	time	time	NOUN	NN	Number=Sing	1	obj	1:obj	_
 4	and	and	CCONJ	CC	_	6	cc	6:cc	_
 5	really	really	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
@@ -659,6 +688,7 @@
 38	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_voyage_merida-28
+# s_prominence = 1
 # s_type = frag
 # transition = zero
 # text = Tourist Information (Turismo Mérida), email: turismo@merida.gob.mx.
@@ -667,8 +697,8 @@
 1	Tourist	Tourist	PROPN	NNP	Number=Sing	2	compound	2:compound	Discourse=joint-other_m:55->8:2|Entity=(101-abstract-new-cf2-1,2-coref|XML=<ref target:::"http://www.merida.gob.mx/turismo/index_in.htm"><hi rend:::"bold">
 2	Information	Information	PROPN	NNP	Number=Sing	0	root	0:root	Entity=101)|XML=</hi></ref>
 3	(	(	PUNCT	-LRB-	_	4	punct	4:punct	Discourse=restatement-partial:56->55:0|SpaceAfter=No
-4	Turismo	Turismo	X	FW	_	2	appos	2:appos	Entity=(101-abstract-giv:act-cf2-1,2-appos|XML=<hi rend:::"italic">
-5	Mérida	Mérida	PROPN	NNP	Number=Sing	4	flat	4:flat	Entity=(52-place-giv:inact-cf3-1-coref-Mérida%2C_Yucatán)101)|SpaceAfter=No|XML=</hi>
+4	Turismo	Turismo	X	FW	Foreign=Yes	2	appos	2:appos	Entity=(101-abstract-giv:act-cf2-1,2-appos|XML=<hi rend:::"italic"><foreign xml:lang:::"spa">
+5	Mérida	Mérida	PROPN	NNP	Foreign=Yes|Number=Sing	4	flat	4:flat	Entity=(52-place-giv:inact-cf3-1-coref-Mérida%2C_Yucatán)101)|SpaceAfter=No|XML=</foreign></hi>
 6	)	)	PUNCT	-RRB-	_	4	punct	4:punct	SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	8:punct	_
 8	email	email	NOUN	NN	Number=Sing	2	parataxis	2:parataxis	Discourse=organization-preparation:57->58:0|Entity=(102-abstract-new-cf1-1-coref)|SpaceAfter=No
@@ -677,6 +707,7 @@
 11	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_voyage_merida-29
+# s_prominence = 1
 # s_type = decl
 # transition = establishment
 # text = The city maintains several tourist information offices, all of which can offer helpful information on accommodation, free maps, and bus connections.
@@ -707,6 +738,7 @@
 25	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_voyage_merida-30
+# s_prominence = 2
 # s_type = decl
 # transition = smooth-shift
 # text = All offices also have free copies of Yucatan Today, a helpful weekly Spanish-English publication listing all events in the city and the surrounding region.
@@ -740,6 +772,7 @@
 28	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_voyage_merida-31
+# s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = City Hall Information Center (Módulo de Información Turística Palacio Municipal) Calle 62 between 61 and 63 (inside the Palacio del Gobierno left of the main entrance), ☎ + 529999420000 x 80119.
@@ -750,12 +783,12 @@
 3	Information	Information	PROPN	NNP	Number=Sing	4	compound	4:compound	_
 4	Center	Center	PROPN	NNP	Number=Sing	0	root	0:root	Entity=114)|XML=</hi></ref>
 5	(	(	PUNCT	-LRB-	_	6	punct	6:punct	Discourse=restatement-partial:64->63:0|SpaceAfter=No
-6	Módulo	Módulo	PROPN	NNP	Number=Sing	4	appos	4:appos	Entity=(114-place-giv:act-cf1-1,2,3,4,5,6-appos|XML=<ref><hi rend:::"italic">
-7	de	de	PROPN	NNP	Number=Sing	6	flat	6:flat	_
-8	Información	Información	PROPN	NNP	Number=Sing	6	flat	6:flat	_
-9	Turística	Turística	PROPN	NNP	Number=Sing	6	flat	6:flat	_
-10	Palacio	Palacio	PROPN	NNP	Number=Sing	6	flat	6:flat	_
-11	Municipal	Municipal	PROPN	NNP	Number=Sing	6	flat	6:flat	Entity=114)|SpaceAfter=No|XML=</hi></ref>
+6	Módulo	Módulo	X	FW	Foreign=Yes	4	appos	4:appos	Entity=(114-place-giv:act-cf1-1,2,3,4,5,6-appos|XML=<ref><hi rend:::"italic"><foreign xml:lang:::"spa">
+7	de	de	X	FW	Foreign=Yes	6	flat	6:flat	_
+8	Información	Información	X	FW	Foreign=Yes	6	flat	6:flat	_
+9	Turística	Turística	X	FW	Foreign=Yes	6	flat	6:flat	_
+10	Palacio	Palacio	X	FW	Foreign=Yes	6	flat	6:flat	_
+11	Municipal	Municipal	X	FW	Foreign=Yes	6	flat	6:flat	Entity=114)|SpaceAfter=No|XML=</foreign></hi></ref>
 12	)	)	PUNCT	-RRB-	_	6	punct	6:punct	_
 13	Calle	Calle	X	FW	_	4	parataxis	4:parataxis	Discourse=elaboration-additional:65->63:1|Entity=(115-place-new-cf3-1-sgl|XML=<ref>
 14	62	62	NUM	CD	NumForm=Digit|NumType=Card	13	nummod	13:nummod	Entity=115)|XML=</ref>
@@ -766,9 +799,9 @@
 19	(	(	PUNCT	-LRB-	_	22	punct	22:punct	Discourse=elaboration-additional:66->65:0|SpaceAfter=No
 20	inside	inside	ADP	IN	_	22	case	22:case	XML=<hi rend:::"italic">
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(118-place-new-cf6-2,3,4-coref
-22	Palacio	Palacio	X	FW	_	4	nmod	4:nmod:inside	XML=<ref>
-23	del	del	X	FW	_	22	flat	22:flat	_
-24	Gobierno	Gobierno	X	FW	_	23	flat	23:flat	Entity=118)|XML=</ref>
+22	Palacio	Palacio	X	FW	Foreign=Yes	4	nmod	4:nmod:inside	XML=<foreign xml:lang:::"spa"><ref>
+23	del	del	X	FW	Foreign=Yes	22	flat	22:flat	_
+24	Gobierno	Gobierno	X	FW	Foreign=Yes	23	flat	23:flat	Entity=118)|XML=</ref></foreign>
 25	left	left	ADV	RB	Degree=Pos	22	advmod	22:advmod	_
 26	of	of	ADP	IN	_	29	case	29:case	_
 27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	29:det	Bridge=118<119|Entity=(119-place-acc:inf-cf2-3-sgl
@@ -784,6 +817,7 @@
 37	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_voyage_merida-32
+# s_prominence = 3
 # s_type = frag
 # transition = null
 # text = Daily 08:00 - 20:00, Su 08:00 - 14:00.
@@ -799,6 +833,7 @@
 10	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_voyage_merida-33
+# s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Paseo de Montejo Information Module (Módulo de Información Turística Paseo de Montejo) Ave Paseo de Montejo 56A x 33A ☎ + 529999204044 e-mail: turismo@merida.gob.mx.
@@ -810,21 +845,21 @@
 4	Information	Information	PROPN	NNP	Number=Sing	5	compound	5:compound	_
 5	Module	Module	PROPN	NNP	Number=Sing	0	root	0:root	Entity=126)|XML=</hi></ref>
 6	(	(	PUNCT	-LRB-	_	7	punct	7:punct	Discourse=restatement-partial:71->70:0|SpaceAfter=No
-7	Módulo	Módulo	X	FW	_	5	appos	5:appos	Entity=(126-place-giv:act-cf3-1,2,3,4,5,6,7-appos|XML=<ref><hi rend:::"italic">
-8	de	de	X	FW	_	7	flat	7:flat	_
-9	Información	Información	X	FW	_	7	flat	7:flat	_
-10	Turística	Turística	X	FW	_	7	flat	7:flat	_
-11	Paseo	paseo	X	FW	_	7	flat	7:flat	Entity=(51-place-giv:act-cf4-3-coref-Paseo_de_Montejo
-12	de	de	X	FW	_	7	flat	7:flat	_
-13	Montejo	Montejo	X	FW	_	7	flat	7:flat	Entity=(32-person-giv:act-cf2-1-coref-Francisco_de_Montejo_the_Younger)51)126)|SpaceAfter=No|XML=</hi></ref>
+7	Módulo	Módulo	X	FW	Foreign=Yes	5	appos	5:appos	Entity=(126-place-giv:act-cf3-1,2,3,4,5,6,7-appos|XML=<hi rend:::"italic"><foreign xml:lang:::"spa"><ref>
+8	de	de	X	FW	Foreign=Yes	7	flat	7:flat	_
+9	Información	Información	X	FW	Foreign=Yes	7	flat	7:flat	_
+10	Turística	Turística	X	FW	Foreign=Yes	7	flat	7:flat	_
+11	Paseo	paseo	X	FW	Foreign=Yes	7	flat	7:flat	Entity=(51-place-giv:act-cf4-3-coref-Paseo_de_Montejo
+12	de	de	X	FW	Foreign=Yes	7	flat	7:flat	_
+13	Montejo	Montejo	X	FW	Foreign=Yes	7	flat	7:flat	Entity=(32-person-giv:act-cf2-1-coref-Francisco_de_Montejo_the_Younger)51)126)|SpaceAfter=No|XML=</ref></foreign></hi>
 14	)	)	PUNCT	-RRB-	_	7	punct	7:punct	_
-15	Ave	Ave	X	FW	_	1	list	1:list	Discourse=elaboration-additional:72->70:1|Entity=(127-place-new-cf5-5-sgl(51-place-giv:act-cf4-1,2,3,4-coref-Paseo_de_Montejo|XML=<ref>
-16	Paseo	paseo	X	FW	_	15	flat	15:flat	_
-17	de	de	X	FW	_	15	flat	15:flat	_
-18	Montejo	Montejo	X	FW	_	15	flat	15:flat	Entity=(32-person-giv:act-cf2-1-coref-Francisco_de_Montejo_the_Younger)51)
-19	56A	56A	SYM	SYM	_	1	list	1:list	_
-20	x	x	ADP	IN	_	21	case	21:case	_
-21	33A	33A	SYM	SYM	_	19	nmod	19:nmod:by	Entity=127)|XML=</ref>
+15	Ave	Ave	X	FW	Foreign=Yes	1	list	1:list	Discourse=elaboration-additional:72->70:1|Entity=(127-place-new-cf5-5-sgl(51-place-giv:act-cf4-1,2,3,4-coref-Paseo_de_Montejo|XML=<foreign xml:lang:::"spa"><ref>
+16	Paseo	paseo	X	FW	Foreign=Yes	15	flat	15:flat	_
+17	de	de	X	FW	Foreign=Yes	15	flat	15:flat	_
+18	Montejo	Montejo	X	FW	Foreign=Yes	15	flat	15:flat	Entity=(32-person-giv:act-cf2-1-coref-Francisco_de_Montejo_the_Younger)51)
+19	56A	56A	SYM	SYM	Foreign=Yes	1	list	1:list	_
+20	x	x	ADP	IN	Foreign=Yes	21	case	21:case	_
+21	33A	33A	SYM	SYM	Foreign=Yes	19	nmod	19:nmod:by	Entity=127)|XML=</ref></foreign>
 22	☎	☎	SYM	SYM	_	24	nsubj	24:nsubj	Entity=(128-abstract-new-cf6-3-sgl
 23	+	+	SYM	SYM	_	24	dep	24:dep	XML=<ref>
 24	529999204044	529999204044	NUM	CD	NumForm=Digit|NumType=Card	1	list	1:list	Entity=128)|XML=</ref>
@@ -834,6 +869,7 @@
 28	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_voyage_merida-34
+# s_prominence = 3
 # s_type = frag
 # transition = null
 # text = 08:00 - 20:00.

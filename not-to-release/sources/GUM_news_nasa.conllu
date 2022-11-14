@@ -1,12 +1,15 @@
 # newdoc id = GUM_news_nasa
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Wikinews
 # meta::dateCollected = 2014-09-15
 # meta::dateCreated = 2011-04-13
 # meta::dateModified = 2013-05-05
+# meta::genre = news
 # meta::sourceURL = https://en.wikinews.org/wiki/NASA_celebrates_30th_anniversary_of_first_shuttle_launch;_announces_new_homes_for_retired_shuttles
 # meta::speakerCount = 0
 # meta::title = NASA celebrates 30th anniversary of first shuttle launch; announces new homes for retired shuttles
 # sent_id = GUM_news_nasa-1
+# s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = NASA celebrates 30th anniversary of first shuttle launch; announces new homes for retired shuttles
@@ -29,9 +32,12 @@
 15	shuttles	shuttle	NOUN	NNS	Number=Plur	12	nmod	12:nmod:for	Entity=(4-object-giv:act-cf1-1-coref)6)
 
 # sent_id = GUM_news_nasa-2
+# s_prominence = 3
 # s_type = frag
 # transition = null
 # text = Wednesday, April 13, 2011
+# newpar
+# newpar_block = p (1 s)
 1	Wednesday	Wednesday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-circumstance:3->1:1|Entity=(7-time-acc:com-cf1-1-sgl)|SpaceAfter=No|XML=<date when:::"2011-04-13" rend:::"bold">
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	April	April	PROPN	NNP	Number=Sing	4	nmod:tmod	4:nmod:tmod	Entity=(8-time-new-cf2-2-sgl
@@ -40,6 +46,7 @@
 6	2011	2011	NUM	CD	NumForm=Digit|NumType=Card	4	nmod:tmod	4:nmod:tmod	Entity=(9-time-new-cf3-1-sgl)8)|XML=</date>
 
 # sent_id = GUM_news_nasa-3
+# s_prominence = 2
 # s_type = decl
 # transition = null
 # text = NASA Administrator Charles Bolden announces where four space shuttle orbiters will be permanently displayed at the conclusion of the Space Shuttle Program during an event commemorating the 30th anniversay of the first shuttle launch on April 12, 2011.
@@ -50,7 +57,7 @@
 3	Charles	Charles	PROPN	NNP	Number=Sing	2	flat	2:flat	_
 4	Bolden	Bolden	PROPN	NNP	Number=Sing	2	flat	2:flat	Entity=10)
 5	announces	announce	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-6	where	where	ADV	WRB	PronType=Rel	5	obj	5:obj	Discourse=context-background:5->9:5|Entity=(5-place-giv:inact-cf2-1-coref
+6	where	where	SCONJ	WRB	PronType=Rel	5	obj	5:obj	Discourse=context-background:5->9:5|Entity=(5-place-giv:inact-cf2-1-coref
 7	four	four	NUM	CD	NumForm=Word|NumType=Card	10	nummod	10:nummod	Entity=(11-object-new-cf7-4-sgl
 8	space	space	NOUN	NN	Number=Sing	9	compound	9:compound	_
 9	shuttle	shuttle	NOUN	NN	Number=Sing	10	compound	10:compound	_
@@ -58,7 +65,7 @@
 11	will	will	AUX	MD	VerbForm=Fin	14	aux	14:aux	_
 12	be	be	AUX	VB	VerbForm=Inf	14	aux:pass	14:aux:pass	_
 13	permanently	permanently	ADV	RB	Degree=Pos	14	advmod	14:advmod	_
-14	displayed	display	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl:relcl	6:acl:relcl	Entity=5)
+14	displayed	display	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	advcl:relcl	6:advcl:relcl	Entity=5)
 15	at	at	ADP	IN	_	17	case	17:case	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(12-event-new-cf8-2,5,6-coref
 17	conclusion	conclusion	NOUN	NN	Number=Sing	14	obl	14:obl:at	_
@@ -87,6 +94,7 @@
 40	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_news_nasa-4
+# s_prominence = 3
 # s_type = frag
 # transition = establishment
 # text = Image: NASA Bill Ingalls.
@@ -98,6 +106,7 @@
 6	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_news_nasa-5
+# s_prominence = 1
 # s_type = decl
 # transition = continue
 # text = NASA celebrated the launch of the first space shuttle Tuesday at an event at the Kennedy Space Center (KSC) in Cape Canaveral, Florida.
@@ -132,6 +141,7 @@
 27	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_news_nasa-6
+# s_prominence = 2
 # s_type = decl
 # transition = smooth-shift
 # text = On April 12, 1981, Space Shuttle Columbia lifted off from the Kennedy Space Center on STS-1, the first space shuttle mission.
@@ -164,6 +174,7 @@
 27	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_news_nasa-7
+# s_prominence = 2
 # s_type = decl
 # transition = rough-shift
 # text = NASA held a ceremony commemorating the date outside the hangar, known as Orbiter Processing Facility-1, for Space Shuttle Atlantis, which is being prepped for its final mission which will be STS-135, which will be the last Space Shuttle mission.
@@ -198,7 +209,7 @@
 27	being	be	AUX	VBG	VerbForm=Ger	28	aux:pass	28:aux:pass	_
 28	prepped	prep	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	acl:relcl	23:acl:relcl	_
 29	for	for	ADP	IN	_	32	case	32:case	_
-30	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	32:nmod:poss	Entity=(29-event-new-cf3-3,16-coref-STS%2D135(28-object-giv:act-cf1-1-ana-Space_Shuttle_Atlantis)
+30	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	32:nmod:poss	Entity=(29-event-new-cf3-3,16-coref-STS%2D135(28-object-giv:act-cf1-1-ana-Space_Shuttle_Atlantis)
 31	final	final	ADJ	JJ	Degree=Pos	32	amod	32:amod	_
 32	mission	mission	NOUN	NN	Number=Sing	28	obl	28:obl:for|36:nsubj	_
 33	which	which	PRON	WDT	PronType=Rel	36	nsubj	32:ref	Discourse=elaboration-attribute:17->16:0
@@ -219,6 +230,7 @@
 48	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_news_nasa-8
+# s_prominence = 3
 # s_type = decl
 # transition = smooth-shift
 # text = At the ceremony, NASA Administrator Charles Bolden announced the locations that would be given the three remaining Space Shuttle orbiters following the end of the Space Shuttle program.
@@ -256,6 +268,7 @@
 30	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_news_nasa-9
+# s_prominence = 4
 # s_type = sub
 # transition = zero
 # text = The prototype orbiter, Space Shuttle Enterprise would be relocated from the Smithsonian's National Air and Space Museum Steven F. Udvar-Hazy Center at Washington Dulles International Airport to the Intrepid Sea-Air-Space Museum in New York City.
@@ -306,6 +319,7 @@
 44	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_news_nasa-10
+# s_prominence = 4
 # s_type = decl
 # transition = establishment
 # text = Space Shuttle Discovery will take the place of Enterprise at the Udvar-Hazy Center.
@@ -329,6 +343,7 @@
 16	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_news_nasa-11
+# s_prominence = 5
 # s_type = decl
 # transition = smooth-shift
 # text = Discovery has already been retired following the completion of STS-133 last month, its 39th mission.
@@ -347,12 +362,13 @@
 13	last	last	ADJ	JJ	Degree=Pos	14	amod	14:amod	Entity=(45-time-acc:com-cf3-2-sgl|XML=<date when:::"2011-03">
 14	month	month	NOUN	NN	Number=Sing	8	nmod:tmod	8:nmod:tmod	Entity=45)43)|SpaceAfter=No|XML=</date>
 15	,	,	PUNCT	,	_	14	punct	14:punct	_
-16	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	Entity=(44-event-giv:act-cf2-3-appos-STS%2D133(41-object-giv:act-cf1*-1-ana-Space_Shuttle_Discovery)
+16	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	Entity=(44-event-giv:act-cf2-3-appos-STS%2D133(41-object-giv:act-cf1*-1-ana-Space_Shuttle_Discovery)
 17	39th	39th	ADJ	JJ	Degree=Pos|NumType=Ord	18	amod	18:amod	_
 18	mission	mission	NOUN	NN	Number=Sing	10	appos	10:appos	Entity=44)|SpaceAfter=No
 19	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_news_nasa-12
+# s_prominence = 5
 # s_type = decl
 # transition = continue
 # text = Discovery is undergoing decommissioning and currently being prepped for display by removing toxic materials from the orbiter.
@@ -376,6 +392,7 @@
 18	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_nasa-13
+# s_prominence = 4
 # s_type = ger
 # transition = zero
 # text = Looking back: Space Shuttle Columbia lifts off on STS-1 from Launch Pad 39A at the Kennedy Space Center on April 12, 1981.
@@ -410,6 +427,7 @@
 27	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_news_nasa-14
+# s_prominence = 5
 # s_type = frag
 # transition = null
 # text = Image: NASA.
@@ -419,6 +437,7 @@
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_news_nasa-15
+# s_prominence = 4
 # s_type = decl
 # transition = null
 # text = Space Shuttle Endeavour, which will launch on STS-134 at the end of the month on April 29, will be sent to the California Science Center in Los Angeles, California following its retirement.
@@ -459,11 +478,12 @@
 33	,	,	PUNCT	,	_	34	punct	34:punct	_
 34	California	California	PROPN	NNP	Number=Sing	31	appos	31:appos	Entity=(58-place-new-cf7-1-sgl-California)57)56)|XML=</ref>
 35	following	follow	VERB	VBG	VerbForm=Ger	37	case	37:case	Discourse=context-circumstance:36->35:0
-36	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	37	nmod:poss	37:nmod:poss	Entity=(59-event-new-cf8-2-sgl(51-object-giv:act-cf1-1-ana-Space_Shuttle_Endeavour)
+36	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	37	nmod:poss	37:nmod:poss	Entity=(59-event-new-cf8-2-sgl(51-object-giv:act-cf1-1-ana-Space_Shuttle_Endeavour)
 37	retirement	retirement	NOUN	NN	Number=Sing	24	obl	24:obl:following	Entity=59)|SpaceAfter=No
 38	.	.	PUNCT	.	_	24	punct	24:punct	_
 
 # sent_id = GUM_news_nasa-16
+# s_prominence = 4
 # s_type = decl
 # transition = null
 # text = Finally, Atlantis will go on display at the Kennedy Space Center Visitor Complex following the orbiter's last flight which launches June 28.
@@ -495,6 +515,7 @@
 25	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_news_nasa-17
+# s_prominence = 1
 # s_type = decl
 # transition = null
 # text = Columbia was lost tragically back on February 1, 2003 when it disintegrated during re-entry killing all seven astronauts aboard.
@@ -510,7 +531,7 @@
 8	1	1	NUM	CD	NumForm=Digit|NumType=Card	3	obl	3:obl:on	SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	10:punct	_
 10	2003	2003	NUM	CD	NumForm=Digit|NumType=Card	8	nmod:tmod	8:nmod:tmod	Entity=(64-time-new-cf5-1-sgl)|XML=</date>
-11	when	when	SCONJ	WRB	PronType=Int	13	mark	13:mark	Discourse=context-circumstance:41->40:0
+11	when	when	ADV	WRB	PronType=Int	13	advmod	13:advmod	Discourse=context-circumstance:41->40:0
 12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	Entity=(18-object-giv:act-cf1-1-ana-Space_Shuttle_Columbia)
 13	disintegrated	disintegrate	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	3:advcl:when	_
 14	during	during	ADP	IN	_	15	case	15:case	_
@@ -523,6 +544,7 @@
 21	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_nasa-18
+# s_prominence = 1
 # s_type = decl
 # transition = null
 # text = Space Shuttle Challenger was lost when it exploded 73 seconds after liftoff back on January 28, 1986 killing all six aboard.
@@ -531,7 +553,7 @@
 3	Challenger	Challenger	PROPN	NNP	Number=Sing	5	nsubj:pass	5:nsubj:pass	Entity=67)|XML=<hi rend:::"italic"></hi></ref>
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	5:aux:pass	_
 5	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
-6	when	when	SCONJ	WRB	PronType=Int	8	mark	8:mark	Discourse=context-circumstance:44->43:0
+6	when	when	ADV	WRB	PronType=Int	8	advmod	8:advmod	Discourse=context-circumstance:44->43:0
 7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj	Entity=(67-object-giv:act-cf1-1-ana-Space_Shuttle_Challenger)
 8	exploded	explode	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	5:advcl:when	_
 9	73	73	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	10:nummod	Entity=(68-time-new-cf3-2-sgl
@@ -551,6 +573,7 @@
 23	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_news_nasa-19
+# s_prominence = 1
 # s_type = decl
 # transition = null
 # text = "We want to thank all of the locations that expressed an interest in one of these national treasures," said Bolden to the gathered crowd which contained many KSC employees.
@@ -591,6 +614,7 @@
 33	.	.	PUNCT	.	_	22	punct	22:punct	_
 
 # sent_id = GUM_news_nasa-20
+# s_prominence = 2
 # s_type = decl
 # transition = null
 # text = "This was a very difficult decision, but one that was made with the American public in mind.
@@ -616,6 +640,7 @@
 20	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_news_nasa-21
+# s_prominence = 3
 # s_type = decl
 # transition = establishment
 # text = In the end, these choices provide the greatest number of people with the best opportunity to share in the history and accomplishments of NASA's remarkable Space Shuttle Program.
@@ -653,6 +678,7 @@
 31	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_news_nasa-22
+# s_prominence = 4
 # s_type = decl
 # transition = smooth-shift
 # text = These facilities we've chosen have a noteworthy legacy of preserving space artifacts and providing outstanding access to U.S. and international visitors."
@@ -683,6 +709,7 @@
 24	"	''	PUNCT	''	_	6	punct	6:punct	_
 
 # sent_id = GUM_news_nasa-23
+# s_prominence = 3
 # s_type = decl
 # transition = zero
 # text = This was a very difficult decision, but one that was made with the American public in mind.
@@ -709,6 +736,7 @@
 19	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_news_nasa-24
+# s_prominence = 4
 # s_type = decl
 # transition = establishment
 # text = In the end, these choices provide the greatest number of people with the best opportunity to share in the history and accomplishments of NASA's remarkable Space Shuttle Program.
@@ -746,6 +774,7 @@
 31	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_news_nasa-25
+# s_prominence = 4
 # s_type = frag
 # transition = rough-shift
 # text = Charles Bolden, NASA Administrator
@@ -756,6 +785,7 @@
 5	Administrator	Administrator	PROPN	NNP	Number=Sing	4	flat	4:flat	Entity=10)|XML=</ref>
 
 # sent_id = GUM_news_nasa-26
+# s_prominence = 1
 # s_type = frag
 # transition = zero
 # text = File image of Space Shuttle Atlantis lifting off, which approaches its last mission before retirement.
@@ -772,7 +802,7 @@
 9	,	,	PUNCT	,	_	11	punct	11:punct	_
 10	which	which	PRON	WDT	PronType=Rel	11	nsubj	6:ref	Discourse=elaboration-attribute:68->66:1
 11	approaches	approach	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	6:acl:relcl	_
-12	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(61-event-giv:inact-cf2-3-coref(28-object-giv:act-cf1-1-ana-Space_Shuttle_Atlantis)
+12	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(61-event-giv:inact-cf2-3-coref(28-object-giv:act-cf1-1-ana-Space_Shuttle_Atlantis)
 13	last	last	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
 14	mission	mission	NOUN	NN	Number=Sing	11	obj	11:obj	_
 15	before	before	ADP	IN	_	16	case	16:case	_
@@ -780,6 +810,7 @@
 17	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_news_nasa-27
+# s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = Image: NASA.
@@ -789,6 +820,7 @@
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_news_nasa-28
+# s_prominence = 2
 # s_type = decl
 # transition = zero
 # text = Not all were pleased with the final choice of locations.
@@ -807,6 +839,7 @@
 11	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_news_nasa-29
+# s_prominence = 1
 # s_type = decl
 # transition = establishment
 # text = U.S. Senator John Cornyn, Republican from Texas, issued a statement regarding the rejection of Johnson Space Center (JSC) in Houston, Texas as a location.
@@ -842,6 +875,7 @@
 30	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_news_nasa-30
+# s_prominence = 2
 # s_type = decl
 # transition = smooth-shift
 # text = "Like many Texans, I am disappointed with NASA's decision to slight the Johnson Space Center as a permanent home for one of the Space Shuttle Orbiters.
@@ -878,6 +912,7 @@
 30	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_news_nasa-31
+# s_prominence = 3
 # s_type = decl
 # transition = smooth-shift
 # text = Houston has played a critical role throughout the life of the space shuttle, but it is clear political favors trumped common sense and fairness in the selection of the final locations for the orbiter fleet."
@@ -921,6 +956,7 @@
 38	"	''	PUNCT	''	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_nasa-32
+# s_prominence = 3
 # s_type = decl
 # transition = smooth-shift
 # text = Cornyn's statement added, "There is no question Houston should have been selected as a final home for one of the orbiters — even Administrator Bolden stated as much.
@@ -961,6 +997,7 @@
 32	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_news_nasa-33
+# s_prominence = 4
 # s_type = decl
 # transition = smooth-shift
 # text = Today's announcement is an affront to the thousands of dedicated men and women at Johnson Space Center, the greater Houston community and the State of Texas, and Im deeply disappointed with the Administration's misguided decision.“
@@ -1011,6 +1048,7 @@
 42	“	''	PUNCT	''	_	6	punct	6:punct	_
 
 # sent_id = GUM_news_nasa-34
+# s_prominence = 2
 # s_type = decl
 # transition = smooth-shift
 # text = However, the JSC will recieve pilot and commander seats from the flight deck.
@@ -1031,6 +1069,7 @@
 15	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_news_nasa-35
+# s_prominence = 1
 # s_type = decl
 # transition = zero
 # text = The Museum of Flight in Seattle, Washington was also proposed as another location for a shuttle, going so far as to build a new building to house an orbiter.
@@ -1070,6 +1109,7 @@
 32	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_news_nasa-36
+# s_prominence = 3
 # s_type = decl
 # transition = establishment
 # text = In a statement, Governor of Washington Chris Gregoire said, "The Museum of Flight put a tremendous amount of effort into landing a retired shuttle in the Pacific Northwest.
@@ -1107,6 +1147,7 @@
 32	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_news_nasa-37
+# s_prominence = 3
 # s_type = sub
 # transition = zero
 # text = As the home of modern day air travel and the 747, which has gracefully transported shuttles for the last 30 years, Seattle would have been a perfect fit.
@@ -1143,6 +1184,7 @@
 31	.	.	PUNCT	.	_	30	punct	30:punct	_
 
 # sent_id = GUM_news_nasa-38
+# s_prominence = 2
 # s_type = decl
 # transition = null
 # text = While the Museum of Flight was in the top running, Im disappointed that NASA did not choose them.
@@ -1170,6 +1212,7 @@
 21	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # sent_id = GUM_news_nasa-39
+# s_prominence = 4
 # s_type = decl
 # transition = null
 # text = In 2008, Endeavour and Atlantis await a journey on their respective launchpads.
@@ -1185,12 +1228,13 @@
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(134-event-new-cf4-2-sgl
 9	journey	journey	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=134)
 10	on	on	ADP	IN	_	13	case	13:case	_
-11	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(135-place-new-cf5-3-sgl(133-object-giv:act-cf1-1-ana)
+11	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(135-place-new-cf5-3-sgl(133-object-giv:act-cf1-1-ana)
 12	respective	respective	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
 13	launchpads	launchpad	NOUN	NNS	Number=Plur	7	obl	7:obl:on	Entity=135)|SpaceAfter=No
 14	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_news_nasa-40
+# s_prominence = 5
 # s_type = frag
 # transition = null
 # text = Image: NASA.
@@ -1200,6 +1244,7 @@
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_news_nasa-41
+# s_prominence = 3
 # s_type = decl
 # transition = null
 # text = "However, the full fuselage trainer, that every astronaut including [former Museum of Flight CEO] Bonnie Dunbar has been trained on, will soon call the Museum of Flight home.
@@ -1242,6 +1287,7 @@
 35	.	.	PUNCT	.	_	29	punct	29:punct	_
 
 # sent_id = GUM_news_nasa-42
+# s_prominence = 4
 # s_type = sub
 # transition = establishment
 # text = The largest of the trainers, this addition will allow visitors to actually climb aboard the trainer and experience the hands-on training that astronauts get.
@@ -1252,7 +1298,7 @@
 5	trainers	trainer	NOUN	NNS	Number=Plur	2	nmod	2:nmod:of	Entity=141)138)|SpaceAfter=No
 6	,	,	PUNCT	,	_	2	punct	2:punct	_
 7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	8:det	Discourse=elaboration-additional:107->101:2|Entity=(137-event-giv:act-cf1*-2-coref
-8	addition	addition	NOUN	NN	Number=Sing	10	nsubj	10:nsubj|19:nsubj:xsubj	Entity=137)
+8	addition	addition	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=137)
 9	will	will	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	10	aux	10:aux	_
 10	allow	allow	VERB	VB	VerbForm=Inf	0	root	0:root	_
 11	visitors	visitor	NOUN	NNS	Number=Plur	10	obj	10:obj|14:nsubj:xsubj|19:nsubj:xsubj	Entity=(142-person-new-cf5-1-sgl)
@@ -1275,6 +1321,7 @@
 28	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_news_nasa-43
+# s_prominence = 5
 # s_type = sub
 # transition = smooth-shift
 # text = Visitors will not be allowed in the other shuttles and this trainer is a true win for our dynamic museum.
@@ -1295,12 +1342,13 @@
 15	true	true	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
 16	win	win	NOUN	NN	Number=Sing	5	conj	5:conj:and	_
 17	for	for	ADP	IN	_	20	case	20:case	_
-18	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(121-place-giv:inact-cf2-3-coref-Museum_of_Flight(147-person-acc:com-cf3-1-sgl)
+18	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(121-place-giv:inact-cf2-3-coref-Museum_of_Flight(147-person-acc:com-cf3-1-sgl)
 19	dynamic	dynamic	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
 20	museum	museum	NOUN	NN	Number=Sing	16	nmod	16:nmod:for	Entity=121)146)|SpaceAfter=No
 21	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_news_nasa-44
+# s_prominence = 6
 # s_type = decl
 # transition = continue
 # text = It will help inspire young people to the adventure of space and to the excitement of a career in science, technology, engineering and math."
@@ -1334,6 +1382,7 @@
 28	"	''	PUNCT	''	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_nasa-45
+# s_prominence = 1
 # s_type = decl
 # transition = zero
 # text = Today's announcement is an affront to the thousands of dedicated men and women at Johnson Space Center, the greater Houston community and the State of Texas, and Im deeply disappointed with the Administration's misguided decision.
@@ -1385,6 +1434,7 @@
 41	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_news_nasa-46
+# s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = John Cornyn, U.S. Senator (R-Texas)
@@ -1400,6 +1450,7 @@
 10	)	)	PUNCT	-RRB-	_	9	punct	9:punct	Entity=88)|XML=</ref>
 
 # sent_id = GUM_news_nasa-47
+# s_prominence = 1
 # s_type = decl
 # transition = zero
 # text = Other items include various shuttle simulators which will be given to the Adler Planetarium in Chicago, Illinois, the Evergreen Aviation & Space Museum of McMinnville, Oregon, and Texas A&M's Aerospace Engineering Department.
@@ -1446,6 +1497,7 @@
 38	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_news_nasa-48
+# s_prominence = 1
 # s_type = frag
 # transition = null
 # text = The nose cap assembly and crew compartment trainer for the National Museum of the U.S. Air Force at Wright-Patterson Air Force Base in Ohio and orbital maneuvering system engines for the U.S. Space and Rocket Center in Huntsville, Alabama, the National Air and Space Museum, and the Evergreen Aviation & Space Museum.
@@ -1509,6 +1561,7 @@
 58	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_news_nasa-49
+# s_prominence = 1
 # s_type = decl
 # transition = null
 # text = NASA is also offering shuttle heat shield tiles to schools and universities that want to share technology and a piece of space history with their students.
@@ -1538,11 +1591,12 @@
 22	space	space	NOUN	NN	Number=Sing	23	compound	23:compound	_
 23	history	history	NOUN	NN	Number=Sing	20	nmod	20:nmod:of	Entity=188)
 24	with	with	ADP	IN	_	26	case	26:case	_
-25	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(189-person-new-cf6-2-sgl(190-organization-acc:aggr-cf2-1-sgl)|SplitAnte=185<190,186<190
+25	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(189-person-new-cf6-2-sgl(190-organization-acc:aggr-cf2-1-sgl)|SplitAnte=185<190,186<190
 26	students	student	NOUN	NNS	Number=Plur	16	obl	16:obl:with	Entity=189)186)185)|SpaceAfter=No
 27	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_news_nasa-50
+# s_prominence = 2
 # s_type = decl
 # transition = null
 # text = The 30th anniversary of the first shuttle mission coincided with the 50th anniversary of the first manned space flight when Yuri Gagarin lifted off aboard Vostok 1 into space.
@@ -1567,7 +1621,7 @@
 17	manned	man	VERB	VBN	Tense=Past|VerbForm=Part	19	amod	19:amod	_
 18	space	space	NOUN	NN	Number=Sing	19	compound	19:compound	_
 19	flight	flight	NOUN	NN	Number=Sing	13	nmod	13:nmod:of	_
-20	when	when	SCONJ	WRB	PronType=Rel	23	mark	23:mark	Discourse=context-circumstance:122->121:0
+20	when	when	ADV	WRB	PronType=Rel	23	advmod	23:advmod	Discourse=context-circumstance:122->121:0
 21	Yuri	Yuri	PROPN	NNP	Number=Sing	23	nsubj	23:nsubj	Entity=(194-person-new-cf4-1,2-sgl-Yuri_Gagarin|XML=<ref>
 22	Gagarin	Gagarin	PROPN	NNP	Number=Sing	21	flat	21:flat	Entity=194)|XML=</ref>
 23	lifted	lift	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	acl:relcl	19:acl:relcl	_

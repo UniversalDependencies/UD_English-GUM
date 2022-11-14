@@ -1,12 +1,15 @@
 # newdoc id = GUM_academic_exposure
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Kara Morgan-Short, Ingrid Finger, Sarah Grey, Michael T. Ullman
 # meta::dateCollected = 2018-09-11
 # meta::dateCreated = 2012-03-28
 # meta::dateModified = 2012-03-28
+# meta::genre = academic
 # meta::sourceURL = https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0032974
 # meta::speakerCount = 0
 # meta::title = Second Language Processing Shows Increased Native-Like Neural Responses after Months of No Exposure
 # sent_id = GUM_academic_exposure-1
+# s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = Introduction
@@ -15,6 +18,7 @@
 1	Introduction	introduction	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:1->29:3|Entity=(1-abstract-new-cf1-1-sgl)
 
 # sent_id = GUM_academic_exposure-2
+# s_prominence = 3
 # s_type = decl
 # transition = null
 # text = Research on adult-learned second language (L2) has provided considerable insight into the neurocognitive mechanisms underlying the learning and processing of L2 grammar [1]–[11].
@@ -56,6 +60,7 @@
 34	.	.	PUNCT	.	_	12	punct	12:punct	XML=</w>
 
 # sent_id = GUM_academic_exposure-3
+# s_prominence = 3
 # s_type = decl
 # transition = establishment
 # text = Of interest here, studies suggest that, despite the difficulties in acquiring L2 grammar, adult learners can approximate native-like levels of use and neurocognitive processing [12]–[15].
@@ -98,6 +103,7 @@
 37	.	.	PUNCT	.	_	6	punct	6:punct	XML=</w>
 
 # sent_id = GUM_academic_exposure-4
+# s_prominence = 4
 # s_type = decl
 # transition = smooth-shift
 # text = However, it is not enough to have attained such native-like levels.
@@ -118,6 +124,7 @@
 15	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_academic_exposure-5
+# s_prominence = 2
 # s_type = decl
 # transition = continue
 # text = Crucially, it is also desirable to retain them, even in the absence of continued practice or exposure to the L2.
@@ -146,6 +153,7 @@
 23	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_academic_exposure-6
+# s_prominence = 3
 # s_type = multiple
 # transition = rough-shift
 # text = In fact, substantial periods (months to years) of limited or no exposure following L2 training are not uncommon, and may even be the norm [16].
@@ -183,6 +191,7 @@
 32	.	.	PUNCT	.	_	21	punct	21:punct	_
 
 # sent_id = GUM_academic_exposure-7
+# s_prominence = 4
 # s_type = sub
 # transition = retain
 # text = Such a scenario may be found in different situations, including when one studies a language in a classroom and then stops taking classes [17], [18] and when one is immersed in a foreign language setting and then moves away [19].
@@ -197,9 +206,9 @@
 9	situations	situation	NOUN	NNS	Number=Plur	6	obl	6:obl:in	Entity=29)|SpaceAfter=No
 10	,	,	PUNCT	,	_	12	punct	12:punct	_
 11	including	include	VERB	VBG	VerbForm=Ger	12	case	12:case	Discourse=elaboration-additional:23->22:0
-12	when	when	ADV	WRB	PronType=Rel	9	nmod	9:nmod:including	_
-13	one	one	PRON	PRP	PronType=Prs	14	nsubj	14:nsubj|22:nsubj|23:nsubj:xsubj	Entity=(30-person-acc:com-cf1-1-ana)
-14	studies	study	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	12:acl:relcl	_
+12	when	when	SCONJ	WRB	PronType=Rel	9	nmod	9:nmod:including	_
+13	one	one	PRON	PRP	Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj|22:nsubj|23:nsubj:xsubj	Entity=(30-person-acc:com-cf1-1-ana)
+14	studies	study	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl:relcl	12:advcl:relcl	_
 15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(3-abstract-giv:act-cf2*-2-coref
 16	language	language	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=3)
 17	in	in	ADP	IN	_	19	case	19:case	_
@@ -207,7 +216,7 @@
 19	classroom	classroom	NOUN	NN	Number=Sing	14	obl	14:obl:in	Entity=31)
 20	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=joint-sequence_m:24->23:0
 21	then	then	ADV	RB	PronType=Dem	22	advmod	22:advmod	_
-22	stops	stop	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	12:acl:relcl|14:conj:and	_
+22	stops	stop	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	12:advcl:relcl|14:conj:and	_
 23	taking	take	VERB	VBG	VerbForm=Ger	22	xcomp	22:xcomp	_
 24	classes	class	NOUN	NNS	Number=Plur	23	obj	23:obj	Entity=(32-abstract-new-cf4-1-sgl)
 25	[	[	PUNCT	-LRB-	_	26	punct	26:punct	Discourse=explanation-evidence:25->23:1|SpaceAfter=No
@@ -218,10 +227,10 @@
 30	18	18	NUM	CD	NumForm=Digit|NumType=Card	26	conj	14:dep|26:conj	Entity=(34-abstract-new-cf9-1-coref)|SpaceAfter=No
 31	]	]	PUNCT	-RRB-	_	30	punct	30:punct	_
 32	and	and	CCONJ	CC	_	36	cc	36:cc	Discourse=joint-list_m:26->23:2
-33	when	when	SCONJ	WRB	PronType=Rel	36	mark	36:mark	_
-34	one	one	PRON	PRP	PronType=Prs	36	nsubj:pass	36:nsubj:pass|44:nsubj:pass	Entity=(30-person-giv:act-cf1-1-ana)
+33	when	when	ADV	WRB	PronType=Rel	36	advmod	36:advmod	_
+34	one	one	PRON	PRP	Number=Sing|Person=3|PronType=Prs	36	nsubj:pass	36:nsubj:pass|44:nsubj:pass	Entity=(30-person-giv:act-cf1-1-ana)
 35	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux:pass	36:aux:pass	_
-36	immersed	immerse	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	conj	12:acl:relcl|14:conj:and	_
+36	immersed	immerse	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	conj	12:advcl:relcl|14:conj:and	_
 37	in	in	ADP	IN	_	41	case	41:case	_
 38	a	a	DET	DT	Definite=Ind|PronType=Art	41	det	41:det	Entity=(35-abstract-new-cf7-4-sgl
 39	foreign	foreign	ADJ	JJ	Degree=Pos	40	amod	40:amod	Entity=(36-abstract-new-cf11-2-sgl
@@ -237,6 +246,7 @@
 49	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_academic_exposure-8
+# s_prominence = 1
 # s_type = decl
 # transition = continue
 # text = In the present study, we examine the outcomes of such a period of no exposure on the neurocognition of L2 grammar: that is, whether a substantial period of no exposure leads to decreased proficiency and/or less native-like neural processes (“use it or lose it” [20]), no such changes, or perhaps whether even higher proficiency and/or more native-like processing may be observed.
@@ -323,6 +333,7 @@
 81	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_academic_exposure-9
+# s_prominence = 1
 # s_type = decl
 # transition = smooth-shift
 # text = Additionally, we test whether any such outcomes might vary as a function of the type of L2 training, in particular between classroom-like and immersion-like contexts.
@@ -360,6 +371,7 @@
 32	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_academic_exposure-10
+# s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = Previous Research
@@ -369,6 +381,7 @@
 2	Research	research	NOUN	NN	Number=Sing	0	root	0:root	Entity=2)
 
 # sent_id = GUM_academic_exposure-11
+# s_prominence = 3
 # s_type = decl
 # transition = null
 # text = We are aware of six studies designed to investigate the effects of a substantial period of limited exposure following adult L2 training [17], [18], [21]–[24], all of which were restricted to the examination of behavioral (performance) outcomes.
@@ -429,6 +442,7 @@
 53	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_academic_exposure-12
+# s_prominence = 4
 # s_type = imp
 # transition = establishment
 # text = (Note that we do not consider case studies, purely observational data, or research on L2s acquired by children; for a comprehensive review, see [16]).
@@ -467,6 +481,7 @@
 33	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_academic_exposure-13
+# s_prominence = 2
 # s_type = decl
 # transition = zero
 # text = The six studies tested L2 learners after periods of 1 month to 50 years of limited L2 exposure, mainly on general language skills [17], [18], [21], [23], [24], though also on more specific paradigms meant to target aspects of grammatical abilities [17], [18] or lexical abilities [22], [23].
@@ -547,6 +562,7 @@
 75	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_academic_exposure-14
+# s_prominence = 3
 # s_type = decl
 # transition = establishment
 # text = These language measures were compared in most studies to the same measures in a different set of subjects who had not experienced a period of limited exposure [17], [18], [22], [23], or to retrospective ratings of the same subjects [21], with only one longitudinal study testing the same subjects before and after a period of limited exposure [24].
@@ -628,6 +644,7 @@
 76	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_academic_exposure-15
+# s_prominence = 3
 # s_type = decl
 # transition = continue
 # text = Across the studies, the periods of limited exposure followed either classroom training [17], [18], [22], [24] or mixed classroom and immersion training [21], [23], [24].
@@ -679,6 +696,7 @@
 46	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_academic_exposure-16
+# s_prominence = 4
 # s_type = decl
 # transition = smooth-shift
 # text = The training lasted varying lengths of time, apparently usually in the range of a few years, and resulted in seemingly varying proficiency levels (though not directly measured, except by [24]) prior to the period of limited exposure.
@@ -729,6 +747,7 @@
 45	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_academic_exposure-17
+# s_prominence = 2
 # s_type = decl
 # transition = zero
 # text = Overall, the results of the six studies have been taken to suggest the following.
@@ -752,6 +771,7 @@
 16	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_academic_exposure-18
+# s_prominence = 1
 # s_type = decl
 # transition = establishment
 # text = A period of limited exposure generally leads to attrition (loss) of L2 performance or knowledge [17], [18], [21], [23].
@@ -790,6 +810,7 @@
 33	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_academic_exposure-19
+# s_prominence = 2
 # s_type = decl
 # transition = rough-shift
 # text = Such loss has been observed after as little as a few months of limited exposure, e.g., after a 1-7 month [23] or 6 month delay [21], as well as after 2 years [18], though in one case it was observed only by 3-5 years, and not earlier [17].
@@ -861,6 +882,7 @@
 66	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_academic_exposure-20
+# s_prominence = 2
 # s_type = decl
 # transition = rough-shift
 # text = Although attrition may take place within the first few years, some studies suggest that it then appears to level off, with no further losses occurring [17], [18].
@@ -901,6 +923,7 @@
 35	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # sent_id = GUM_academic_exposure-21
+# s_prominence = 2
 # s_type = sub
 # transition = continue
 # text = Higher levels of proficiency (or exposure) may be associated with less attrition [17], [18], [21], [23] or even with no observed losses [21].
@@ -945,6 +968,7 @@
 39	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_academic_exposure-22
+# s_prominence = 1
 # s_type = decl
 # transition = zero
 # text = Moreover, one study found no changes at all in performance, across proficiency levels, after either 2 or 4 years of limited exposure [22].
@@ -979,6 +1003,7 @@
 29	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_academic_exposure-23
+# s_prominence = 1
 # s_type = decl
 # transition = establishment
 # text = Finally, in some cases a gain in performance has been observed: after 1.5 years of limited exposure in one study, particularly for L2 learners with immersion as well as classroom training [24], and in another study after 2 years, though only for some abilities, such as listening and reading comprehension [18].
@@ -1047,6 +1072,7 @@
 62	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_academic_exposure-24
+# s_prominence = 2
 # s_type = decl
 # transition = smooth-shift
 # text = It remains unclear what might explain such gains, which have been attributed to motivation and to L2 experience during the period of ostensibly limited exposure [24], or to factors related to general maturation, cognitive development, or continued academic training [18].

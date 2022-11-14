@@ -1,12 +1,15 @@
 # newdoc id = GUM_academic_librarians
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Michiel Cock, Lotte Wilms
 # meta::dateCollected = 2017-09-13
 # meta::dateCreated = 2017-08-08
 # meta::dateModified = 2017-08-08
+# meta::genre = academic
 # meta::sourceURL = https://dh2017.adho.org/abstracts/455/455.pdf
 # meta::speakerCount = 0
 # meta::title = Digital Humanities Clinics - Leading Dutch Librarians into DH
 # sent_id = GUM_academic_librarians-1
+# s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = Digital Humanities Clinics -
@@ -18,6 +21,7 @@
 4	-	-	PUNCT	:	_	3	punct	3:punct	_
 
 # sent_id = GUM_academic_librarians-2
+# s_prominence = 3
 # s_type = ger
 # transition = establishment
 # text = Leading Dutch Librarians into DH
@@ -28,6 +32,7 @@
 5	DH	DH	PROPN	NNP	Abbr=Yes|Number=Sing	1	obl	1:obl:into	Entity=(2-abstract-giv:act-cf1*-1-coref-Digital_humanities)
 
 # sent_id = GUM_academic_librarians-3
+# s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = Michiel Cock m.p.cock@vu.nl Vrije Universiteit Amsterdam, the Netherlands
@@ -44,6 +49,7 @@
 9	Netherlands	Netherlands	PROPN	NNPS	Number=Plur	1	list	1:list	Entity=8)7)6)
 
 # sent_id = GUM_academic_librarians-4
+# s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = Lotte Wilms lotte.wilms@kb.nl National Library of the Netherlands, the Netherlands
@@ -60,6 +66,7 @@
 11	Netherlands	Netherlands	PROPN	NNPS	Number=Plur	1	list	1:list	Entity=8)11)
 
 # sent_id = GUM_academic_librarians-5
+# s_prominence = 5
 # s_type = decl
 # transition = continue
 # text = In 2015, an initiative was started to set up a Dutch speaking DH+Lib community in the Netherlands and Belgium, based on the example of the American communal space of librarians, archivists, LIS graduate students, and information specialists to discuss topics ‘Where the Digital Humanities and Libraries meet’.
@@ -111,7 +118,7 @@
 44	discuss	discuss	VERB	VB	VerbForm=Inf	9	advcl	9:advcl:to	_
 45	topics	topic	NOUN	NNS	Number=Plur	44	obj	44:obj	Entity=(26-abstract-new-cf5-1,5,8-sgl
 46	‘	'	PUNCT	``	_	53	punct	53:punct	Discourse=elaboration-attribute:9->8:0|SpaceAfter=No|XML=<q>
-47	Where	where	SCONJ	WRB	PronType=Rel	53	mark	53:mark	_
+47	Where	where	ADV	WRB	PronType=Rel	53	advmod	53:advmod	_
 48	the	the	DET	DT	Definite=Def|PronType=Art	50	det	50:det	Entity=(2-abstract-giv:inact-cf2-2,3-coref-Digital_humanities
 49	Digital	Digital	ADJ	NNP	Degree=Pos|Number=Sing	50	amod	50:amod	_
 50	Humanities	Humanity	PROPN	NNPS	Number=Plur	53	nsubj	53:nsubj	Entity=2)
@@ -122,6 +129,7 @@
 55	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_academic_librarians-6
+# s_prominence = 4
 # s_type = decl
 # transition = rough-shift
 # text = At the initial meeting it became apparent that most participants were there to learn more about digital humanities and were not (yet) in the situation where they were able to offer expertise on the subject.
@@ -151,8 +159,8 @@
 24	)	)	PUNCT	-RRB-	_	23	punct	23:punct	_
 25	in	in	ADP	IN	_	27	case	27:case	Discourse=same-unit_m:14->12:1
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(31-abstract-new-cf6-2-sgl
-27	situation	situation	NOUN	NN	Number=Sing	12	conj	6:csubj:xsubj|7:csubj:xsubj|12:conj:and	_
-28	where	where	SCONJ	WRB	PronType=Rel	31	mark	31:mark	Discourse=elaboration-attribute:15->14:0
+27	situation	situation	NOUN	NN	Number=Sing	12	conj	6:csubj|7:csubj:xsubj|12:conj:and	_
+28	where	where	ADV	WRB	PronType=Rel	31	advmod	31:advmod	Discourse=elaboration-attribute:15->14:0
 29	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	31	nsubj	31:nsubj|33:nsubj:xsubj	Entity=(30-person-giv:act-cf1-1-ana)
 30	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	31	cop	31:cop	_
 31	able	able	ADJ	JJ	Degree=Pos	27	acl:relcl	27:acl:relcl	_
@@ -165,6 +173,7 @@
 38	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_academic_librarians-7
+# s_prominence = 4
 # s_type = decl
 # transition = retain
 # text = On the administrative level, the directors of the libraries participating in the consortium of Dutch academic libraries (UKB) also expressed the wish that librarians become more fluent in DH.
@@ -203,6 +212,7 @@
 33	.	.	PUNCT	.	_	23	punct	23:punct	_
 
 # sent_id = GUM_academic_librarians-8
+# s_prominence = 4
 # s_type = decl
 # transition = retain
 # text = A year later, the National Library of the Netherlands (Koninklijke Bibliotheek), and the University Library of the Vrije Universiteit Amsterdam again concluded that librarians at their institutes who wanted to get involved in DH needed more training to adequately support researchers and students in this field.
@@ -237,7 +247,7 @@
 27	that	that	SCONJ	IN	_	39	mark	39:mark	Discourse=joint-sequence_m:24->10:4
 28	librarians	librarian	NOUN	NNS	Number=Plur	39	nsubj	33:nsubj|39:nsubj	Entity=(44-person-new-cf7-1-sgl
 29	at	at	ADP	IN	_	31	case	31:case	_
-30	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	31:nmod:poss	Entity=(45-organization-new-cf14-2-coref(41-organization-giv:act-cf1-1-ana)
+30	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	31:nmod:poss	Entity=(45-organization-new-cf14-2-coref(41-organization-giv:act-cf1-1-ana)
 31	institutes	institute	NOUN	NNS	Number=Plur	28	nmod	28:nmod:at	Entity=45)
 32	who	who	PRON	WP	PronType=Rel	33	nsubj	28:ref	Discourse=elaboration-attribute:25->24:0
 33	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	acl:relcl	28:acl:relcl	_
@@ -261,6 +271,7 @@
 51	.	.	PUNCT	.	_	26	punct	26:punct	_
 
 # sent_id = GUM_academic_librarians-9
+# s_prominence = 3
 # s_type = decl
 # transition = smooth-shift
 # text = Therefore both institutes joined forces to develop a set of clinics on DH for librarians.
@@ -282,6 +293,7 @@
 16	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_academic_librarians-10
+# s_prominence = 3
 # s_type = decl
 # transition = continue
 # text = The two institutes were later joined by the Leiden University Libraries.
@@ -299,6 +311,7 @@
 12	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_academic_librarians-11
+# s_prominence = 4
 # s_type = decl
 # transition = zero
 # text = We see this as the ideal opportunity to provide these educative sessions not only to our own librarians, but also to the academic librarians of other Dutch research libraries.
@@ -317,7 +330,7 @@
 13	not	not	PART	RB	Polarity=Neg	18	advmod	18:advmod	_
 14	only	only	ADV	RB	_	18	advmod	18:advmod	_
 15	to	to	ADP	IN	_	18	case	18:case	_
-16	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	Entity=(57-person-new-cf6-3-sgl(54-person-giv:act-cf1-1-ana)
+16	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	Entity=(57-person-new-cf6-3-sgl(54-person-giv:act-cf1-1-ana)
 17	own	own	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
 18	librarians	librarian	NOUN	NNS	Number=Plur	9	obl	9:obl:to	Entity=57)|SpaceAfter=No
 19	,	,	PUNCT	,	_	25	punct	25:punct	_
@@ -335,6 +348,7 @@
 31	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_academic_librarians-12
+# s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = In essence, we want to teach our country’s librarians the ins and outs of DH in order for them to take up their natural role of facilitating and supporting research and ideally become the research partner needed in DH projects.
@@ -345,7 +359,7 @@
 5	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 6	to	to	PART	TO	_	7	mark	7:mark	_
 7	teach	teach	VERB	VB	VerbForm=Inf	5	xcomp	5:xcomp	_
-8	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(61-person-new-cf2-4-coref(8-place-giv:inact-cf5-2-coref-Netherlands(54-person-giv:act-cf1*-1-ana)
+8	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(61-person-new-cf2-4-coref(8-place-giv:inact-cf5-2-coref-Netherlands(54-person-giv:act-cf1*-1-ana)
 9-10	country’s	_	_	_	_	_	_	_	_
 9	country	country	NOUN	NN	Number=Sing	11	nmod:poss	11:nmod:poss	_
 10	’s	's	PART	POS	_	9	case	9:case	Entity=8)
@@ -363,7 +377,7 @@
 22	to	to	PART	TO	_	23	mark	23:mark	_
 23	take	take	VERB	VB	VerbForm=Inf	7	advcl	7:advcl:in_order_for	_
 24	up	up	ADP	RP	_	23	compound:prt	23:compound:prt	_
-25	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Entity=(63-abstract-new-cf7-3-sgl(61-person-giv:act-cf2-1-ana)
+25	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Entity=(63-abstract-new-cf7-3-sgl(61-person-giv:act-cf2-1-ana)
 26	natural	natural	ADJ	JJ	Degree=Pos	27	amod	27:amod	_
 27	role	role	NOUN	NN	Number=Sing	23	obj	23:obj	_
 28	of	of	SCONJ	IN	_	29	mark	29:mark	Discourse=elaboration-attribute:36->35:0
@@ -384,13 +398,14 @@
 43	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_academic_librarians-13
+# s_prominence = 3
 # s_type = decl
 # transition = smooth-shift
 # text = The aim of these clinics is to provide basic methodological competencies and technical skills in DH, for a diverse group of librarians, consisting of both subject and technical librarians with basic technical skills.
 # newpar
 # newpar_block = p (3 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:39->34:1|Entity=(66-abstract-new-cf4-2-sgl
-2	aim	aim	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	_
+2	aim	aim	NOUN	NN	Number=Sing	8	nsubj:outer	8:nsubj:outer	_
 3	of	of	ADP	IN	_	5	case	5:case	_
 4	these	this	DET	DT	Number=Plur|PronType=Dem	5	det	5:det	Entity=(1-place-giv:inact-cf3-2-coref
 5	clinics	clinic	NOUN	NNS	Number=Plur	2	nmod	2:nmod:of	Entity=1)66)
@@ -427,11 +442,12 @@
 36	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_academic_librarians-14
+# s_prominence = 4
 # s_type = sub
 # transition = rough-shift
 # text = The content of these sessions should enable them to provide services to researchers and students, identify remaining gaps in knowledge or skills that they could address by self-directed learning and (perhaps) to automate their daily library work.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=purpose-goal:41->39:1|Entity=(71-abstract-new-cf6-2-sgl
-2	content	content	NOUN	NN	Number=Sing	7	nsubj	7:nsubj|17:nsubj:xsubj|38:nsubj:xsubj	_
+2	content	content	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	_
 3	of	of	ADP	IN	_	5	case	5:case	_
 4	these	this	DET	DT	Number=Plur|PronType=Dem	5	det	5:det	Entity=(56-event-giv:inact-cf3-2-coref
 5	sessions	session	NOUN	NNS	Number=Plur	2	nmod	2:nmod:of	Entity=56)71)
@@ -446,7 +462,7 @@
 14	and	and	CCONJ	CC	_	15	cc	15:cc	_
 15	students	student	NOUN	NNS	Number=Plur	13	conj	10:obl:to|13:conj:and	Entity=(49-person-giv:inact-cf5-1-coref)47)|SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	17:punct	_
-17	identify	identify	VERB	VB	VerbForm=Inf	10	conj	7:xcomp|10:conj:and	_
+17	identify	identify	VERB	VB	VerbForm=Inf	10	conj	7:xcomp|10:conj:or	_
 18	remaining	remain	VERB	VBG	VerbForm=Ger	19	amod	19:amod	Entity=(73-abstract-new-cf8-2-sgl
 19	gaps	gap	NOUN	NNS	Number=Plur	17	obj	17:obj|27:obj	_
 20	in	in	ADP	IN	_	21	case	21:case	_
@@ -468,13 +484,14 @@
 36	)	)	PUNCT	-RRB-	_	35	punct	35:punct	_
 37	to	to	PART	TO	_	38	mark	38:mark	Discourse=same-unit_m:44->41:1
 38	automate	automate	VERB	VB	VerbForm=Inf	10	conj	7:xcomp|10:conj:and	_
-39	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	42	nmod:poss	42:nmod:poss	Entity=(78-abstract-new-cf9-4-sgl(47-person-giv:act-cf1-1-ana)
+39	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	42	nmod:poss	42:nmod:poss	Entity=(78-abstract-new-cf9-4-sgl(47-person-giv:act-cf1-1-ana)
 40	daily	daily	ADJ	JJ	Degree=Pos	42	amod	42:amod	_
 41	library	library	NOUN	NN	Number=Sing	42	compound	42:compound	Entity=(79-place-new-cf14-1-sgl)
 42	work	work	NOUN	NN	Number=Sing	38	obj	38:obj	Entity=78)|SpaceAfter=No
 43	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_academic_librarians-15
+# s_prominence = 3
 # s_type = decl
 # transition = smooth-shift
 # text = We are not setting out to turn them into programmers or data crunchers, but want to boost their knowledge level to where they feel comfortable providing information about DH projects, follow the literature and research, follow online tutorials and hopefully take up the challenge of finishing this professional development by engaging with the DH community.
@@ -496,13 +513,13 @@
 16	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj:but	_
 17	to	to	PART	TO	_	18	mark	18:mark	Entity=(83-abstract-new-cf16-2-disc
 18	boost	boost	VERB	VB	VerbForm=Inf	16	xcomp	16:xcomp	_
-19	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Entity=(84-abstract-new-cf9-3-sgl(47-person-giv:act-cf1*-1-ana)
+19	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Entity=(84-abstract-new-cf9-3-sgl(47-person-giv:act-cf1*-1-ana)
 20	knowledge	knowledge	NOUN	NN	Number=Sing	21	compound	21:compound	Entity=(75-abstract-giv:act-cf3-1-coref)
 21	level	level	NOUN	NN	Number=Sing	18	obj	18:obj	Entity=84)
 22	to	to	ADP	IN	_	23	case	23:case	Discourse=mode-manner:47->46:0
-23	where	where	ADV	WRB	PronType=Rel	18	obl	18:obl:to	_
+23	where	where	SCONJ	WRB	PronType=Rel	18	obl	18:obl:to	_
 24	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	25:nsubj|26:nsubj:xsubj|33:nsubj|39:nsubj|44:nsubj	Entity=(47-person-giv:act-cf1*-1-ana)
-25	feel	feel	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	23:acl:relcl	_
+25	feel	feel	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	advcl:relcl	23:advcl:relcl	_
 26	comfortable	comfortable	ADJ	JJ	Degree=Pos	25	xcomp	25:xcomp	_
 27	providing	provide	VERB	VBG	VerbForm=Ger	25	advcl	25:advcl	Discourse=context-circumstance:48->47:0
 28	information	information	NOUN	NN	Number=Sing	27	obj	27:obj	Entity=(85-abstract-new-cf10-1-sgl
@@ -510,18 +527,18 @@
 30	DH	DH	PROPN	NNP	Abbr=Yes|Number=Sing	31	compound	31:compound	Entity=(65-abstract-giv:inact-cf5-2-coref(2-abstract-giv:inact-cf2-1-coref-Digital_humanities)
 31	projects	project	NOUN	NNS	Number=Plur	28	nmod	28:nmod:about	Entity=65)85)|SpaceAfter=No
 32	,	,	PUNCT	,	_	33	punct	33:punct	_
-33	follow	follow	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	conj	23:acl:relcl|25:conj:and	Discourse=joint-list_m:49->46:1
+33	follow	follow	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	conj	23:advcl:relcl|25:conj:and	Discourse=joint-list_m:49->46:1
 34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	35:det	Entity=(86-abstract-new-cf6-2-sgl
 35	literature	literature	NOUN	NN	Number=Sing	33	obj	33:obj	Entity=86)
 36	and	and	CCONJ	CC	_	37	cc	37:cc	_
 37	research	research	NOUN	NN	Number=Sing	35	conj	33:obj|35:conj:and	Entity=(87-abstract-new-cf15-1-sgl)|SpaceAfter=No
 38	,	,	PUNCT	,	_	39	punct	39:punct	_
-39	follow	follow	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	conj	23:acl:relcl|25:conj:and	Discourse=joint-list_m:50->46:1
+39	follow	follow	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	conj	23:advcl:relcl|25:conj:and	Discourse=joint-list_m:50->46:1
 40	online	online	ADJ	JJ	Degree=Pos	41	amod	41:amod	Entity=(88-abstract-new-cf11-2-sgl
 41	tutorials	tutorial	NOUN	NNS	Number=Plur	39	obj	39:obj	Entity=88)
 42	and	and	CCONJ	CC	_	44	cc	44:cc	Discourse=joint-list_m:51->46:1
 43	hopefully	hopefully	ADV	RB	Degree=Pos	44	advmod	44:advmod	_
-44	take	take	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	conj	23:acl:relcl|25:conj:and	_
+44	take	take	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	conj	23:advcl:relcl|25:conj:and	_
 45	up	up	ADP	RP	_	44	compound:prt	44:compound:prt	_
 46	the	the	DET	DT	Definite=Def|PronType=Art	47	det	47:det	Entity=(89-abstract-new-cf7-2-sgl
 47	challenge	challenge	NOUN	NN	Number=Sing	44	obj	44:obj	_
@@ -539,6 +556,7 @@
 59	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_academic_librarians-16
+# s_prominence = 2
 # s_type = decl
 # transition = smooth-shift
 # text = In order to design this curriculum we follow a four step approach with a Working Out Loud-principle (Williams, 2010):
@@ -571,6 +589,7 @@
 25	:	:	PUNCT	:	_	8	punct	8:punct	_
 
 # sent_id = GUM_academic_librarians-17
+# s_prominence = 1
 # s_type = frag
 # transition = zero
 # text = Desk research about what being a DH librarian entails (e.g. Hartsell-Gundy et al., 2015; Mulligan, 2016; also see the Zotero library of the LIBER Digital Humanities working group);
@@ -615,6 +634,7 @@
 37	;	;	PUNCT	:	_	2	punct	2:punct	_
 
 # sent_id = GUM_academic_librarians-18
+# s_prominence = 1
 # s_type = inf
 # transition = establishment
 # text = Identify possible subjects, based on experience, a comparison of existing teaching material related to DH (e.g. The Programming Historian, the Digital Scholarship Training Programme at the British Library and Columbia University's Developing Librarian project) and the TaDiRAH taxonomy of research activities;
@@ -671,6 +691,7 @@
 48	;	;	PUNCT	:	_	1	punct	1:punct	_
 
 # sent_id = GUM_academic_librarians-19
+# s_prominence = 1
 # s_type = inf
 # transition = rough-shift
 # text = Get feedback from researchers on possible subjects, based on the knowledge and skills they feel librarians need;
@@ -697,6 +718,7 @@
 19	;	;	PUNCT	:	_	1	punct	1:punct	_
 
 # sent_id = GUM_academic_librarians-20
+# s_prominence = 1
 # s_type = inf
 # transition = smooth-shift
 # text = Get feedback from librarians on possible subjects, based on already known gaps in their knowledge and skills.
@@ -716,13 +738,14 @@
 12	known	know	VERB	VBN	Tense=Past|VerbForm=Part	13	amod	13:amod	Entity=(126-abstract-new-cf4-2-sgl
 13	gaps	gap	NOUN	NNS	Number=Plur	9	obl	9:obl:on	_
 14	in	in	ADP	IN	_	16	case	16:case	_
-15	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(127-abstract-new-cf5-2-sgl(124-person-giv:act-cf1*-1-ana)
+15	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(127-abstract-new-cf5-2-sgl(124-person-giv:act-cf1*-1-ana)
 16	knowledge	knowledge	NOUN	NN	Number=Sing	13	nmod	13:nmod:in	Entity=127)
 17	and	and	CCONJ	CC	_	18	cc	18:cc	_
 18	skills	skill	NOUN	NNS	Number=Plur	16	conj	13:nmod:in|16:conj:and	Entity=(128-abstract-new-cf6-1-sgl)126)|SpaceAfter=No
 19	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_academic_librarians-21
+# s_prominence = 2
 # s_type = decl
 # transition = zero
 # text = With these in hand, we will design the curriculum of clinics, based on the method of 'constructive alignment' (Biggs et al., 2011), to make sure that the intended learning objectives and the teaching/learning activities stay aligned.
@@ -771,19 +794,20 @@
 41	teaching	teaching	NOUN	NN	Number=Sing	44	compound	44:compound	Entity=(137-event-new-cf13-1-sgl)|SpaceAfter=No|XML=<w>
 42	/	/	SYM	SYM	_	43	cc	43:cc	SpaceAfter=No
 43	learning	learning	NOUN	NN	Number=Sing	41	conj	41:conj:slash|44:compound	Entity=(135-event-giv:act-cf1-1-coref)|XML=</w>
-44	activities	activity	NOUN	NNS	Number=Plur	38	conj	38:conj:and|45:nsubj:xsubj|46:nsubj:xsubj	Entity=136)
+44	activities	activity	NOUN	NNS	Number=Plur	38	conj	38:conj:and|45:nsubj|46:nsubj:xsubj	Entity=136)
 45	stay	stay	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	ccomp	33:ccomp	_
 46	aligned	align	VERB	VBN	Tense=Past|VerbForm=Part	45	xcomp	45:xcomp	SpaceAfter=No
 47	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_academic_librarians-22
+# s_prominence = 1
 # s_type = decl
 # transition = establishment
 # text = Our plan is to organize a maximum of 6 clinics, each one full day.
 # newpar
 # newpar_block = p (5 s)
-1	Our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=joint-other_m:77->57:4|Entity=(138-abstract-new-cf3-2-sgl(54-person-giv:act-cf1*-1-ana)
-2	plan	plan	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=138)
+1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=joint-other_m:77->57:4|Entity=(138-abstract-new-cf3-2-sgl(54-person-giv:act-cf1*-1-ana)
+2	plan	plan	NOUN	NN	Number=Sing	5	nsubj:outer	5:nsubj:outer	Entity=138)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 4	to	to	PART	TO	_	5	mark	5:mark	_
 5	organize	organize	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -800,6 +824,7 @@
 16	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_academic_librarians-23
+# s_prominence = 2
 # s_type = decl
 # transition = zero
 # text = Each day starts with one or more lectures by researchers, that address the conceptual knowledge needed.
@@ -823,6 +848,7 @@
 18	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_academic_librarians-24
+# s_prominence = 2
 # s_type = decl
 # transition = null
 # text = The afternoon sessions will be devoted to the hands-on training of skills, following the Library Carpentry model as closely as possible.
@@ -853,6 +879,7 @@
 25	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_academic_librarians-25
+# s_prominence = 3
 # s_type = decl
 # transition = null
 # text = By having researchers provide the lecture sessions, we hope to fuel the enthusiasm of the librarians with the inspiration of direct contact with researchers and to provide access to a network within and across universities.
@@ -895,6 +922,7 @@
 37	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_academic_librarians-26
+# s_prominence = 1
 # s_type = decl
 # transition = establishment
 # text = With these clinics, we hope to initiate a stream of DH activities in Dutch universities, making access to support easier for new digital scholars.
@@ -927,6 +955,7 @@
 27	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_academic_librarians-27
+# s_prominence = 1
 # s_type = decl
 # transition = rough-shift
 # text = The poster at DH2017 will present the curriculum, its position in the international context and offer the lessons learned from both the design process and the first clinics.
@@ -941,7 +970,7 @@
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(83-abstract-giv:inact-cf1-2-coref
 8	curriculum	curriculum	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=83)|SpaceAfter=No
 9	,	,	PUNCT	,	_	11	punct	11:punct	_
-10	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(165-abstract-new-cf8-2-sgl(83-abstract-giv:act-cf1-1-ana)
+10	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(165-abstract-new-cf8-2-sgl(83-abstract-giv:act-cf1-1-ana)
 11	position	position	NOUN	NN	Number=Sing	8	conj	6:obj|8:conj	_
 12	in	in	ADP	IN	_	15	case	15:case	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(166-abstract-new-cf5-3-sgl
@@ -964,6 +993,7 @@
 30	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_academic_librarians-28
+# s_prominence = 1
 # s_type = decl
 # transition = smooth-shift
 # text = We welcome discussion about our efforts and the possibilities of applying this in other contexts.
@@ -971,7 +1001,7 @@
 2	welcome	welcome	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	discussion	discussion	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=(170-abstract-new-cf3-1-sgl
 4	about	about	ADP	IN	_	6	case	6:case	_
-5	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(171-abstract-new-cf5-2-sgl(54-person-giv:act-cf2-1-ana)
+5	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(171-abstract-new-cf5-2-sgl(54-person-giv:act-cf2-1-ana)
 6	efforts	effort	NOUN	NNS	Number=Plur	3	nmod	3:nmod:about	Entity=171)
 7	and	and	CCONJ	CC	_	9	cc	9:cc	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(172-abstract-new-cf4-2-sgl

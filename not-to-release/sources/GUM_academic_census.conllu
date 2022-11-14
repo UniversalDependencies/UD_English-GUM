@@ -1,21 +1,25 @@
 # newdoc id = GUM_academic_census
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Allison C. Morgan , Samuel F. Way, Aaron Clauset
 # meta::dateCollected = 2018-09-10
 # meta::dateCreated = 2018-08-29
 # meta::dateModified = 2018-08-29
+# meta::genre = academic
 # meta::sourceURL = https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0202223
 # meta::speakerCount = 0
 # meta::title = Automatically assembling a full census of an academic field
 # sent_id = GUM_academic_census-1
+# s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = 1 Introduction
 # newpar
 # newpar_block = head (1 s)
-1	1	1	NUM	CD	NumForm=Digit|NumType=Card	2	dep	2:dep	Discourse=organization-heading:1->70:7|Entity=(1-abstract-new-cf1-2-sgl
-2	Introduction	introduction	NOUN	NN	Number=Sing	0	root	0:root	Entity=1)
+1	1	1	NUM	CD	NumForm=Digit|NumType=Card	2	dep	2:dep	Discourse=organization-heading:1->70:7
+2	Introduction	introduction	NOUN	NN	Number=Sing	0	root	0:root	Entity=(1-abstract-new-cf1-1-sgl)
 
 # sent_id = GUM_academic_census-2
+# s_prominence = 4
 # s_type = decl
 # transition = null
 # text = Tenured and tenure-track university faculty play a special role in determining the speed and direction of scientific progress, both directly through their research and indirectly through their training of new researchers.
@@ -45,12 +49,12 @@
 22	both	both	CCONJ	CC	_	26	cc:preconj	26:cc:preconj	_
 23	directly	directly	ADV	RB	Degree=Pos	26	advmod	26:advmod	_
 24	through	through	ADP	IN	_	26	case	26:case	_
-25	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(7-abstract-new-cf6-2-coref(2-person-giv:act-cf1-1-ana)
+25	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(7-abstract-new-cf6-2-coref(2-person-giv:act-cf1-1-ana)
 26	research	research	NOUN	NN	Number=Sing	13	obl	13:obl:through	Entity=7)
 27	and	and	CCONJ	CC	_	31	cc	31:cc	_
 28	indirectly	indirectly	ADV	RB	Degree=Pos	31	advmod	31:advmod	_
 29	through	through	ADP	IN	_	31	case	31:case	_
-30	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	31:nmod:poss	Entity=(8-abstract-new-cf7-2-coref(2-person-giv:act-cf1-1-ana)
+30	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	31:nmod:poss	Entity=(8-abstract-new-cf7-2-coref(2-person-giv:act-cf1-1-ana)
 31	training	training	NOUN	NN	Number=Sing	26	conj	13:obl:through|26:conj:and	_
 32	of	of	ADP	IN	_	34	case	34:case	_
 33	new	new	ADJ	JJ	Degree=Pos	34	amod	34:amod	Entity=(9-person-new-cf4-2-sgl
@@ -58,6 +62,7 @@
 35	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_academic_census-3
+# s_prominence = 3
 # s_type = decl
 # transition = null
 # text = Past studies establish that each of these efforts is strongly and positively influenced through various forms of faculty diversity, including ethnic, racial, and gender diversity.
@@ -92,6 +97,7 @@
 29	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_academic_census-4
+# s_prominence = 4
 # s_type = decl
 # transition = null
 # text = As an example, research shows that greater diversity within a community or group can lead to improved critical thinking [1] and more creative solutions to complex tasks [2, 3] by pairing together individuals with unique skillsets and perspectives that complement and often augment the abilities of their peers.
@@ -147,11 +153,12 @@
 50	the	the	DET	DT	Definite=Def|PronType=Art	51	det	51:det	Entity=(29-abstract-new-cf4-2-sgl
 51	abilities	ability	NOUN	NNS	Number=Plur	46	obj	46:obj|49:obj	_
 52	of	of	ADP	IN	_	54	case	54:case	_
-53	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	54	nmod:poss	54:nmod:poss	Entity=(30-person-new-cf5-2-sgl(26-person-giv:act-cf1-1-ana)
+53	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	54	nmod:poss	54:nmod:poss	Entity=(30-person-new-cf5-2-sgl(26-person-giv:act-cf1-1-ana)
 54	peers	peer	NOUN	NNS	Number=Plur	51	nmod	51:nmod:of	Entity=30)29)28)27)26)|SpaceAfter=No
 55	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_academic_census-5
+# s_prominence = 4
 # s_type = decl
 # transition = null
 # text = Additionally, diversity has been shown to produce more supportive social climates and effective learning environments [4], which can facilitate the mentoring of young scientists.
@@ -186,6 +193,7 @@
 29	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_academic_census-6
+# s_prominence = 4
 # s_type = decl
 # transition = establishment
 # text = Despite these positive effects, however, quantifying the impact of diversity in science remains exceedingly difficult, due in large part to a lack of comprehensive data about the scientific workforce.
@@ -224,6 +232,7 @@
 33	.	.	PUNCT	.	_	15	punct	15:punct	_
 
 # sent_id = GUM_academic_census-7
+# s_prominence = 2
 # s_type = decl
 # transition = zero
 # text = Measuring the composition and dynamics of a scientific workforce, particularly in a rapidly expanding field like computer science, is a crucial first step toward understanding how scholarly research is conducted and how it might be enhanced.
@@ -256,20 +265,21 @@
 25	step	step	NOUN	NN	Number=Sing	0	root	0:root	Entity=43)
 26	toward	toward	SCONJ	IN	_	27	mark	27:mark	_
 27	understanding	understand	VERB	VBG	VerbForm=Ger	25	acl	25:acl:toward	_
-28	how	how	ADV	WRB	PronType=Rel	27	obj	27:obj	_
+28	how	how	SCONJ	WRB	PronType=Rel	27	obj	27:obj	_
 29	scholarly	scholarly	ADJ	JJ	Degree=Pos	30	amod	30:amod	Entity=(48-abstract-new-cf1-2-coref
 30	research	research	NOUN	NN	Number=Sing	32	nsubj:pass	32:nsubj:pass	Entity=48)
 31	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux:pass	32:aux:pass	_
-32	conducted	conduct	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	28	acl:relcl	28:acl:relcl	_
+32	conducted	conduct	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	28	advcl:relcl	28:advcl:relcl	_
 33	and	and	CCONJ	CC	_	34	cc	34:cc	_
-34	how	how	ADV	WRB	PronType=Rel	28	conj	27:obj|28:conj:and	_
+34	how	how	SCONJ	WRB	PronType=Rel	28	conj	27:obj|28:conj:and	_
 35	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	38	nsubj:pass	38:nsubj:pass	Entity=(48-abstract-giv:act-cf1-1-ana)
 36	might	might	AUX	MD	VerbForm=Fin	38	aux	38:aux	_
 37	be	be	AUX	VB	VerbForm=Inf	38	aux:pass	38:aux:pass	_
-38	enhanced	enhance	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	34	acl:relcl	34:acl:relcl	SpaceAfter=No
+38	enhanced	enhance	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	34	advcl:relcl	34:advcl:relcl	SpaceAfter=No
 39	.	.	PUNCT	.	_	25	punct	25:punct	_
 
 # sent_id = GUM_academic_census-8
+# s_prominence = 3
 # s_type = decl
 # transition = null
 # text = For many scientific fields, however, there is no central listing of all tenure-track faculty, making it difficult to define a rigorous sample frame for analysis.
@@ -306,6 +316,7 @@
 31	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_academic_census-9
+# s_prominence = 3
 # s_type = decl
 # transition = null
 # text = Further, rates of adoption of services like GoogleScholar and ResearchGate vary within, and across disciplines.
@@ -329,6 +340,7 @@
 18	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_academic_census-10
+# s_prominence = 3
 # s_type = decl
 # transition = null
 # text = For instance, gender representation in computing is an important issue with broad implications [5], but without a full census of computing faculty, the degree of inequality and its possible sources are difficult to establish [6].
@@ -364,7 +376,7 @@
 30	of	of	ADP	IN	_	31	case	31:case	_
 31	inequality	inequality	NOUN	NN	Number=Sing	29	nmod	29:nmod:of	Entity=(69-abstract-new-cf1-1-coref)68)
 32	and	and	CCONJ	CC	_	35	cc	35:cc	_
-33	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	35:nmod:poss	Entity=(70-abstract-new-cf9-3-sgl(69-abstract-giv:act-cf1-1-ana)
+33	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	35:nmod:poss	Entity=(70-abstract-new-cf9-3-sgl(69-abstract-giv:act-cf1-1-ana)
 34	possible	possible	ADJ	JJ	Degree=Pos	35	amod	35:amod	_
 35	sources	source	NOUN	NNS	Number=Plur	31	conj	29:nmod:of|31:conj:and	Entity=70)
 36	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	cop	37:cop	_
@@ -377,6 +389,7 @@
 43	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_academic_census-11
+# s_prominence = 5
 # s_type = decl
 # transition = null
 # text = Some disciplines, like political science, are organized around a single professional society, whose membership roll approximates a full census [7].
@@ -408,6 +421,7 @@
 26	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_academic_census-12
+# s_prominence = 5
 # s_type = decl
 # transition = establishment
 # text = Most fields, on the other hand, including computer science, lack a single all-encompassing organization and membership information is instead distributed across many disjoint lists, such as web-based faculty directories for individual departments.
@@ -454,6 +468,7 @@
 41	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_academic_census-13
+# s_prominence = 4
 # s_type = decl
 # transition = zero
 # text = Because assembling such a full census is difficult, past studies have tended to avoid this task and have instead used samples of researchers [8 – 11], usually specific to a particular field [12 – 16], and often focused on the scientific elite [17, 18].
@@ -516,6 +531,7 @@
 55	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_academic_census-14
+# s_prominence = 5
 # s_type = decl
 # transition = establishment
 # text = Although useful, such samples are not representative of the scientific workforce as a whole and thus have limited generalizability.
@@ -542,6 +558,7 @@
 21	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_academic_census-15
+# s_prominence = 4
 # s_type = decl
 # transition = zero
 # text = One of the largest census efforts to date assembled, by hand, a nearly complete record of three academic fields: computer science, history, and business [19].
@@ -580,6 +597,7 @@
 33	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_academic_census-16
+# s_prominence = 5
 # s_type = decl
 # transition = establishment
 # text = This data set has shed considerable light on dramatic inequalities in faculty training, placement, and scholarly productivity [6, 19, 20].
@@ -612,6 +630,7 @@
 27	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_academic_census-17
+# s_prominence = 5
 # s_type = decl
 # transition = continue
 # text = But, this data set is only a single snapshot of an evolving and expanding system and hence offers few insights into the changing composition and diversity trends within these academic fields.
@@ -650,6 +669,7 @@
 33	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_academic_census-18
+# s_prominence = 4
 # s_type = decl
 # transition = zero
 # text = In some fields, yearly data on faculty numbers and composition are available in aggregate.
@@ -673,6 +693,7 @@
 16	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_academic_census-19
+# s_prominence = 5
 # s_type = decl
 # transition = null
 # text = In computer science, the Computing Research Association (CRA) documents trends in the employment of PhD recipients through the annual Taulbee survey of computing departments in North America (cra.org/resources/taulbee-survey).
@@ -712,6 +733,7 @@
 34	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_academic_census-20
+# s_prominence = 6
 # s_type = multiple
 # transition = null
 # text = Such surveys can provide valuable insight into trends and summary statistics on the scientific workforce but suffer from two key weaknesses.
@@ -739,6 +761,7 @@
 22	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_academic_census-21
+# s_prominence = 5
 # s_type = decl
 # transition = null
 # text = First, surveys are subject to variable response rates and the misinterpretation of questions or sample frames, which can inject bias into fine-grained analyses [21, 22].
@@ -777,6 +800,7 @@
 33	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_academic_census-22
+# s_prominence = 5
 # s_type = decl
 # transition = null
 # text = Second, aggregate information provides only a high-level view of a field, which can make it difficult to investigate causality [23].
@@ -784,7 +808,7 @@
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	aggregate	aggregate	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(146-abstract-new-cf3-2-sgl
 4	information	information	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=146)
-5	provides	provide	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root|18:nsubj	_
+5	provides	provide	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root|18:csubj	_
 6	only	only	ADV	RB	_	11	advmod	11:advmod	_
 7	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(147-abstract-new-cf4-5-sgl
 8	high	high	ADJ	JJ	Degree=Pos	10	amod	10:amod	SpaceAfter=No|XML=<w>
@@ -795,9 +819,9 @@
 13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Bridge=60<148|Entity=(148-object-acc:inf-cf1-2-sgl
 14	field	field	NOUN	NN	Number=Sing	11	nmod	11:nmod:of	Entity=148)147)|SpaceAfter=No
 15	,	,	PUNCT	,	_	18	punct	18:punct	_
-16	which	which	PRON	WDT	PronType=Rel	18	nsubj	5:ref	Discourse=elaboration-additional:65->64:0
+16	which	which	PRON	WDT	PronType=Rel	18	nsubj	5:ref|18:nsubj	Discourse=elaboration-additional:65->64:0
 17	can	can	AUX	MD	VerbForm=Fin	18	aux	18:aux	_
-18	make	make	VERB	VB	VerbForm=Inf	5	acl:relcl	5:acl:relcl	_
+18	make	make	VERB	VB	VerbForm=Inf	5	advcl:relcl	5:advcl:relcl	_
 19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obj	18:obj|20:nsubj:xsubj	Entity=(149-abstract-new-cf2-1-cata)
 20	difficult	difficult	ADJ	JJ	Degree=Pos	18	xcomp	18:xcomp	_
 21	to	to	PART	TO	_	22	mark	22:mark	Entity=(149-abstract-acc:com-cf2-2-coref
@@ -809,6 +833,7 @@
 27	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_academic_census-23
+# s_prominence = 6
 # s_type = decl
 # transition = null
 # text = For example, differences in recruitment and retention strategies across departments will be washed out by averaging, thereby masking any insights into the efficacy of individual strategies and policies.
@@ -845,6 +870,7 @@
 31	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # sent_id = GUM_academic_census-24
+# s_prominence = 1
 # s_type = decl
 # transition = null
 # text = Here, we present a novel system, based on a topical web crawler, that can quickly and automatically assemble a full census of an academic field using digital data available on the public World Wide Web.
@@ -891,6 +917,7 @@
 39	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_academic_census-25
+# s_prominence = 2
 # s_type = multiple
 # transition = establishment
 # text = This system is efficient and accurate, and it can be adapted to any academic discipline and used for continuous collection.
@@ -918,6 +945,7 @@
 22	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_academic_census-26
+# s_prominence = 2
 # s_type = decl
 # transition = continue
 # text = The system is capable of collecting census data for an entire academic field in just a few hours using off-the-shelf computing hardware, a vast improvement over the roughly 1600 hours required to do this task by hand [19].
@@ -969,6 +997,7 @@
 46	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_academic_census-27
+# s_prominence = 3
 # s_type = decl
 # transition = continue
 # text = By assembling an accurate census of an entire field from online information alone, this system will facilitate new research on the composition of academic fields by providing access to complete faculty listings, without having to rely on surveys or professional societies.
@@ -1018,6 +1047,7 @@
 44	.	.	PUNCT	.	_	18	punct	18:punct	_
 
 # sent_id = GUM_academic_census-28
+# s_prominence = 2
 # s_type = sub
 # transition = continue
 # text = This system can also be used longitudinally to study how the workforce’s composition changes over time, which is particularly valuable for evaluating the effectiveness of policies meant to broaden participation or improve retention of faculty.
@@ -1030,20 +1060,20 @@
 7	longitudinally	longitudinally	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
 8	to	to	PART	TO	_	9	mark	9:mark	Discourse=purpose-goal:89->88:0
 9	study	study	VERB	VB	VerbForm=Inf	6	advcl	6:advcl:to	_
-10	how	how	ADV	WRB	PronType=Rel	9	obj	9:obj	_
+10	how	how	SCONJ	WRB	PronType=Rel	9	obj	9:obj	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(178-abstract-giv:act-cf2-4-coref(42-person-giv:inact-cf4-2-coref
 12-13	workforce’s	_	_	_	_	_	_	_	_
 12	workforce	workforce	NOUN	NN	Number=Sing	14	nmod:poss	14:nmod:poss	_
 13	’s	's	PART	POS	_	12	case	12:case	Entity=42)
 14	composition	composition	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=178)
-15	changes	change	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	10:acl:relcl|22:nsubj	_
+15	changes	change	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl:relcl	10:advcl:relcl|22:csubj	_
 16	over	over	ADP	IN	_	17	case	17:case	_
 17	time	time	NOUN	NN	Number=Sing	15	obl	15:obl:over	Entity=(184-time-acc:com-cf6-1-sgl)|SpaceAfter=No
 18	,	,	PUNCT	,	_	22	punct	22:punct	_
-19	which	which	PRON	WDT	PronType=Rel	22	nsubj	15:ref	Discourse=evaluation-comment:90->88:1
+19	which	which	PRON	WDT	PronType=Rel	22	nsubj	15:ref|22:nsubj	Discourse=evaluation-comment:90->88:1
 20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	22:cop	_
 21	particularly	particularly	ADV	RB	Degree=Pos	22	advmod	22:advmod	_
-22	valuable	valuable	ADJ	JJ	Degree=Pos	15	acl:relcl	15:acl:relcl	_
+22	valuable	valuable	ADJ	JJ	Degree=Pos	15	advcl:relcl	15:advcl:relcl	_
 23	for	for	SCONJ	IN	_	24	mark	24:mark	Discourse=purpose-goal:91->90:0
 24	evaluating	evaluate	VERB	VBG	VerbForm=Ger	22	advcl	22:advcl:for	_
 25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(185-abstract-new-cf7-2-sgl
@@ -1062,6 +1092,7 @@
 38	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_academic_census-29
+# s_prominence = 2
 # s_type = sub
 # transition = continue
 # text = Finally, applied to many academic fields in parallel, the system can elucidate scientists’ movement between different disciplines and relate those labor flows to scientific advances.
@@ -1088,7 +1119,7 @@
 20	disciplines	discipline	NOUN	NNS	Number=Plur	17	nmod	17:nmod:between	Entity=191)189)
 21	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=joint-list_m:95->94:0
 22	relate	relate	VERB	VB	VerbForm=Inf	14	conj	14:conj:and	_
-23	those	this	DET	DT	Number=Plur|PronType=Dem	25	det	25:det	Entity=(189-abstract-giv:act-cf2-3-coref
+23	those	that	DET	DT	Number=Plur|PronType=Dem	25	det	25:det	Entity=(189-abstract-giv:act-cf2-3-coref
 24	labor	labor	NOUN	NN	Number=Sing	25	compound	25:compound	Entity=(192-person-new-cf7-1-sgl)
 25	flows	flow	NOUN	NNS	Number=Plur	22	obj	22:obj	Entity=189)
 26	to	to	ADP	IN	_	28	case	28:case	_
@@ -1097,6 +1128,7 @@
 29	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # sent_id = GUM_academic_census-30
+# s_prominence = 2
 # s_type = decl
 # transition = zero
 # text = In short, many important research questions will benefit from the availability of accurate and frequently-recollected census data.
@@ -1123,12 +1155,13 @@
 21	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_academic_census-31
+# s_prominence = 3
 # s_type = decl
 # transition = null
 # text = Our study is organized as follows.
 # newpar
 # newpar_block = p (5 s)
-1	Our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=organization-preparation:97->98:2|Entity=(198-abstract-new-cf2-2-sgl(162-person-giv:inact-cf1-1-ana)
+1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=organization-preparation:97->98:2|Entity=(198-abstract-new-cf2-2-sgl(162-person-giv:inact-cf1-1-ana)
 2	study	study	NOUN	NN	Number=Sing	4	nsubj:pass	4:nsubj:pass	Entity=198)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 4	organized	organize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -1137,6 +1170,7 @@
 7	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_academic_census-32
+# s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = We begin by detailing the design and implementation of our web crawler framework.
@@ -1149,13 +1183,14 @@
 7	and	and	CCONJ	CC	_	8	cc	8:cc	_
 8	implementation	implementation	NOUN	NN	Number=Sing	6	conj	4:obj|6:conj:and	_
 9	of	of	ADP	IN	_	13	case	13:case	_
-10	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(200-abstract-new-cf5-4-sgl(162-person-giv:act-cf1*-1-ana)
+10	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(200-abstract-new-cf5-4-sgl(162-person-giv:act-cf1*-1-ana)
 11	web	web	NOUN	NN	Number=Sing	12	compound	12:compound	Entity=(164-abstract-giv:inact-cf2-2-coref(165-abstract-giv:inact-cf3-1-coref-World_Wide_Web)
 12	crawler	crawler	NOUN	NN	Number=Sing	13	compound	13:compound	Entity=164)
 13	framework	framework	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	Entity=200)199)|SpaceAfter=No
 14	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_academic_census-33
+# s_prominence = 2
 # s_type = decl
 # transition = continue
 # text = Next, we present the results of our work in two sections.
@@ -1166,7 +1201,7 @@
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(201-abstract-new-cf2-2-sgl
 6	results	result	NOUN	NNS	Number=Plur	4	obj	4:obj	_
 7	of	of	ADP	IN	_	9	case	9:case	_
-8	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(202-abstract-new-cf3-2-sgl(162-person-giv:act-cf1*-1-ana)
+8	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(202-abstract-new-cf3-2-sgl(162-person-giv:act-cf1*-1-ana)
 9	work	work	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	Entity=202)201)
 10	in	in	ADP	IN	_	12	case	12:case	_
 11	two	two	NUM	CD	NumForm=Word|NumType=Card	12	nummod	12:nummod	Entity=(203-abstract-new-cf4-2-coref
@@ -1174,6 +1209,7 @@
 13	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_academic_census-34
+# s_prominence = 3
 # s_type = decl
 # transition = zero
 # text = The first demonstrates the validity and utility of the crawler by collecting census data for the field of computer science and comparing it to a hand-curated census, collected in 2011 [19].
@@ -1216,6 +1252,7 @@
 37	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_academic_census-35
+# s_prominence = 3
 # s_type = decl
 # transition = establishment
 # text = The second provides an example of the type of research enabled by our system and uses the 2011 and 2017 censuses to investigate the “leaky pipeline” problem in faculty retention.
@@ -1231,7 +1268,7 @@
 10	research	research	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	Entity=(212-abstract-new-cf11-1-sgl)
 11	enabled	enable	VERB	VBN	Tense=Past|VerbForm=Part	8	acl	8:acl	Discourse=elaboration-attribute:107->106:0
 12	by	by	ADP	IN	_	14	case	14:case	_
-13	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(163-abstract-giv:inact-cf3-2-coref(162-person-giv:inact-cf2-1-ana)
+13	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(163-abstract-giv:inact-cf3-2-coref(162-person-giv:inact-cf2-1-ana)
 14	system	system	NOUN	NN	Number=Sing	11	obl:agent	11:obl:agent	Entity=163)211)210)
 15	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=elaboration-additional:108->106:1
 16	uses	use	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	3:conj:and	_

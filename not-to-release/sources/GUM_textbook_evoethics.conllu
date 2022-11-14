@@ -1,12 +1,15 @@
 # newdoc id = GUM_textbook_evoethics
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Michael Klenk
 # meta::dateCollected = 2020-09-07
 # meta::dateCreated = 2019-12-09
 # meta::dateModified = 2019-12-09
+# meta::genre = textbook
 # meta::sourceURL = https://press.rebus.community/intro-to-phil-ethics/chapter/evolutionary-ethics/
 # meta::speakerCount = 0
 # meta::title = Evolutionary Ethics
 # sent_id = GUM_textbook_evoethics-1
+# s_prominence = 2
 # s_type = wh
 # transition = establishment
 # text = Are there Moral Facts?
@@ -19,6 +22,7 @@
 5	?	?	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GUM_textbook_evoethics-2
+# s_prominence = 3
 # s_type = decl
 # transition = null
 # text = So far, we have covered how evolutionary ethics relates to the question what we ought to do and why we are moral in the first place.
@@ -30,10 +34,10 @@
 4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(2-person-acc:com-cf1-1-ana)
 5	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 6	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
-7	how	how	ADV	WRB	PronType=Rel	6	obj	6:obj	_
+7	how	how	SCONJ	WRB	PronType=Rel	6	obj	6:obj	_
 8	evolutionary	evolutionary	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(3-abstract-new-cf2-2-coref
 9	ethics	ethics	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=3)
-10	relates	relate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	7:acl:relcl	_
+10	relates	relate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl:relcl	7:advcl:relcl	_
 11	to	to	ADP	IN	_	13	case	13:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(4-abstract-new-cf3-2-coref
 13	question	question	NOUN	NN	Number=Sing	10	obl	10:obl:to	_
@@ -43,7 +47,7 @@
 17	to	to	PART	TO	_	18	mark	18:mark	_
 18	do	do	VERB	VB	VerbForm=Inf	16	xcomp	16:xcomp	_
 19	and	and	CCONJ	CC	_	23	cc	23:cc	Discourse=joint-list_m:4->3:0
-20	why	why	SCONJ	WRB	PronType=Int	23	mark	23:mark	_
+20	why	why	ADV	WRB	PronType=Int	23	advmod	23:advmod	_
 21	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	23:nsubj	Entity=(2-person-giv:act-cf1-1-ana)
 22	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	cop	23:cop	_
 23	moral	moral	ADJ	JJ	Degree=Pos	16	conj	13:acl|16:conj:and	_
@@ -54,6 +58,7 @@
 28	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_textbook_evoethics-3
+# s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = A related set of questions about ethics are metaethical questions, which concern the meaning of moral terms, our ways of gaining knowledge of moral facts, and the nature of the moral facts.
@@ -76,7 +81,7 @@
 17	moral	moral	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(9-abstract-new-cf9-2-sgl
 18	terms	term	NOUN	NNS	Number=Plur	15	nmod	15:nmod:of	Entity=9)8)|SpaceAfter=No
 19	,	,	PUNCT	,	_	21	punct	21:punct	_
-20	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Entity=(10-abstract-new-cf10-2-sgl(2-person-giv:act-cf1*-1-ana)
+20	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Entity=(10-abstract-new-cf10-2-sgl(2-person-giv:act-cf1*-1-ana)
 21	ways	way	NOUN	NNS	Number=Plur	15	conj	13:obj|15:conj:and	_
 22	of	of	SCONJ	IN	_	23	mark	23:mark	Discourse=elaboration-attribute:7->6:0
 23	gaining	gain	VERB	VBG	VerbForm=Ger	21	acl	21:acl:of	_
@@ -95,6 +100,7 @@
 36	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_textbook_evoethics-4
+# s_prominence = 2
 # s_type = sub
 # transition = continue
 # text = In other words, apart from thinking about how we ought to live, and where our moral sense comes from, we can also ask what it means to affirm a particular answer to that question, how we could come to know the answer, and whether the answer would be a matter of fact or more like an opinion.
@@ -106,18 +112,18 @@
 6	from	from	SCONJ	IN	_	7	mark	7:mark	_
 7	thinking	think	VERB	VBG	VerbForm=Ger	26	advcl	26:advcl:from	_
 8	about	about	ADP	IN	_	9	case	9:case	_
-9	how	how	ADV	WRB	PronType=Rel	7	obl	7:obl:about	Entity=(13-abstract-new-cf3-1-coref
+9	how	how	SCONJ	WRB	PronType=Rel	7	obl	7:obl:about	Entity=(13-abstract-new-cf3-1-coref
 10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	11:nsubj	Entity=(2-person-giv:act-cf1*-1-ana)
-11	ought	ought	AUX	MD	VerbForm=Fin	9	acl:relcl	9:acl:relcl	_
+11	ought	ought	AUX	MD	VerbForm=Fin	9	advcl:relcl	9:advcl:relcl	_
 12	to	to	PART	TO	_	13	mark	13:mark	_
 13	live	live	VERB	VB	VerbForm=Inf	11	xcomp	11:xcomp	Entity=13)|SpaceAfter=No
 14	,	,	PUNCT	,	_	16	punct	16:punct	_
 15	and	and	CCONJ	CC	_	16	cc	16:cc	_
-16	where	where	ADV	WRB	PronType=Rel	9	conj	7:obl:about|9:conj:and	_
-17	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(14-abstract-new-cf5-3-coref(2-person-giv:act-cf1*-1-ana)
+16	where	where	SCONJ	WRB	PronType=Rel	9	conj	7:obl:about|9:conj:and	_
+17	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(14-abstract-new-cf5-3-coref(2-person-giv:act-cf1*-1-ana)
 18	moral	moral	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
 19	sense	sense	NOUN	NN	Number=Sing	20	nsubj	20:nsubj	Entity=14)
-20	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	16:acl:relcl	_
+20	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl:relcl	16:advcl:relcl	_
 21	from	from	ADP	IN	_	20	obl	20:obl	SpaceAfter=No
 22	,	,	PUNCT	,	_	7	punct	7:punct	_
 23	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	26	nsubj	26:nsubj	Discourse=same-unit_m:11->9:0|Entity=(2-person-giv:act-cf1*-1-ana)
@@ -136,10 +142,10 @@
 36	that	that	DET	DT	Number=Sing|PronType=Dem	37	det	37:det	Entity=(13-abstract-giv:act-cf3-2-coref
 37	question	question	NOUN	NN	Number=Sing	34	nmod	34:nmod:to	Entity=13)16)15)|SpaceAfter=No
 38	,	,	PUNCT	,	_	39	punct	39:punct	_
-39	how	how	ADV	WRB	PronType=Rel	27	conj	26:obj|27:conj:and	Discourse=joint-list_m:13->12:0
+39	how	how	SCONJ	WRB	PronType=Rel	27	conj	26:obj|27:conj:and	Discourse=joint-list_m:13->12:0
 40	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	42	nsubj	42:nsubj|44:nsubj:xsubj	Entity=(2-person-giv:act-cf1*-1-ana)
 41	could	could	AUX	MD	VerbForm=Fin	42	aux	42:aux	_
-42	come	come	VERB	VB	VerbForm=Inf	39	acl:relcl	39:acl:relcl	_
+42	come	come	VERB	VB	VerbForm=Inf	39	advcl:relcl	39:advcl:relcl	_
 43	to	to	PART	TO	_	44	mark	44:mark	_
 44	know	know	VERB	VB	VerbForm=Inf	42	xcomp	42:xcomp	_
 45	the	the	DET	DT	Definite=Def|PronType=Art	46	det	46:det	Entity=(16-abstract-giv:act-cf2-2-coref
@@ -163,6 +169,7 @@
 63	.	.	PUNCT	.	_	26	punct	26:punct	_
 
 # sent_id = GUM_textbook_evoethics-5
+# s_prominence = 1
 # s_type = decl
 # transition = zero
 # text = Many books and articles in moral philosophy start with the observation that moral judgments seem to be objectively true and the assumption that this is how non-philosophers also think about morality.
@@ -193,15 +200,16 @@
 23	that	that	SCONJ	IN	_	26	mark	26:mark	Discourse=elaboration-attribute:18->17:0
 24	this	this	PRON	DT	Number=Sing|PronType=Dem	26	nsubj	26:nsubj	Entity=(22-abstract-giv:act-cf1-1-coref)
 25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	26:cop	_
-26	how	how	ADV	WRB	PronType=Rel	22	acl	22:acl:that	_
+26	how	how	SCONJ	WRB	PronType=Rel	22	acl	22:acl:that	_
 27	non-philosophers	non-philosopher	NOUN	NNS	Number=Plur|Polarity=Neg	29	nsubj	29:nsubj	Entity=(25-person-new-cf2-1-sgl)
 28	also	also	ADV	RB	_	29	advmod	29:advmod	_
-29	think	think	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	26:acl:relcl	Entity=24)
+29	think	think	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	advcl:relcl	26:advcl:relcl	Entity=24)
 30	about	about	ADP	IN	_	31	case	31:case	_
 31	morality	morality	NOUN	NN	Number=Sing	29	obl	29:obl:about	Entity=(26-abstract-new-cf8-1-coref)|SpaceAfter=No
 32	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_textbook_evoethics-6
+# s_prominence = 3
 # s_type = decl
 # transition = null
 # text = For example, Michael Smith writes:
@@ -214,6 +222,7 @@
 7	:	:	PUNCT	:	_	6	punct	6:punct	_
 
 # sent_id = GUM_textbook_evoethics-7
+# s_prominence = 2
 # s_type = decl
 # transition = null
 # text = We seem to think moral questions have correct answers; that the correct answers are made correct by objective moral facts; that moral facts are wholly determined by circumstances; and that, by engaging in moral conversation and argument, we can discover what these objective facts are.
@@ -272,6 +281,7 @@
 51	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_textbook_evoethics-8
+# s_prominence = 3
 # s_type = frag
 # transition = null
 # text = (Smith 1994, 6)
@@ -283,6 +293,7 @@
 6	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
 
 # sent_id = GUM_textbook_evoethics-9
+# s_prominence = 1
 # s_type = decl
 # transition = null
 # text = But as we have seen above, evolutionary theory explains why we would think that moral judgments are objective.
@@ -298,10 +309,10 @@
 8	evolutionary	evolutionary	ADJ	JJ	Degree=Pos	9	amod	9:amod	Discourse=same-unit_m:30->28:0|Entity=(35-abstract-new-cf4-3-disc(36-abstract-new-cf3-2-coref
 9	theory	theory	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=36)
 10	explains	explain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-11	why	why	ADV	WRB	PronType=Rel	10	obj	10:obj	Discourse=attribution-positive:31->32:0
+11	why	why	SCONJ	WRB	PronType=Rel	10	obj	10:obj	Discourse=attribution-positive:31->32:0
 12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	14:nsubj	Entity=(2-person-giv:act-cf1-1-ana)
 13	would	would	AUX	MD	VerbForm=Fin	14	aux	14:aux	_
-14	think	think	VERB	VB	VerbForm=Inf	11	acl:relcl	11:acl:relcl	_
+14	think	think	VERB	VB	VerbForm=Inf	11	advcl:relcl	11:advcl:relcl	_
 15	that	that	SCONJ	IN	_	19	mark	19:mark	Discourse=adversative-contrast_m:32->15:3
 16	moral	moral	ADJ	JJ	Degree=Pos	17	amod	17:amod	Entity=(23-abstract-giv:inact-cf2-2-coref
 17	judgments	judgment	NOUN	NNS	Number=Plur	19	nsubj	19:nsubj	Entity=23)
@@ -310,6 +321,7 @@
 20	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_textbook_evoethics-10
+# s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = The philosopher Michael Ruse takes this to show that the apparent objectivity of morality is something like an “illusion” foisted on us by our genes (Ruse [1986] 1998, 253).
@@ -338,7 +350,7 @@
 23	on	on	ADP	IN	_	24	case	24:case	_
 24	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	22	obl	22:obl:on	Entity=(2-person-giv:act-cf2-1-ana)
 25	by	by	ADP	IN	_	27	case	27:case	_
-26	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Entity=(41-abstract-new-cf9-2-sgl(2-person-giv:act-cf2-1-ana)
+26	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Entity=(41-abstract-new-cf9-2-sgl(2-person-giv:act-cf2-1-ana)
 27	genes	gene	NOUN	NNS	Number=Plur	22	obl:agent	22:obl:agent	Entity=41)40)39)38)
 28	(	(	PUNCT	-LRB-	_	29	punct	29:punct	Discourse=explanation-evidence:36->34:2|SpaceAfter=No
 29	Ruse	Ruse	PROPN	NNP	Number=Sing	5	dep	5:dep	Entity=(42-abstract-new-cf7-1-sgl(37-person-giv:act-cf4-1-coref-Michael_Ruse)
@@ -352,6 +364,7 @@
 37	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_textbook_evoethics-11
+# s_prominence = 2
 # s_type = multiple
 # transition = smooth-shift
 # text = Of course, even if Ruse is correct, this does not show that moral judgments are not objective, but it can make us think whether the objectivity of morality really has to be explained, as many philosophers assume.
@@ -399,6 +412,7 @@
 42	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_textbook_evoethics-12
+# s_prominence = 1
 # s_type = decl
 # transition = smooth-shift
 # text = Ruse has also argued that an evolutionary account of morality suggests that there are no moral facts in the first place.
@@ -426,10 +440,11 @@
 22	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_textbook_evoethics-13
+# s_prominence = 2
 # s_type = multiple
 # transition = continue
 # text = Anything we want to explain about morality can be explained without mentioning moral facts, or so Ruse argues.
-1	Anything	anything	NOUN	NN	Number=Sing	10	nsubj:pass	10:nsubj:pass	Discourse=explanation-justify:46->45:2|Entity=(50-abstract-new-cf5-1-sgl
+1	Anything	anything	PRON	NN	Number=Sing|PronType=Ind	10	nsubj:pass	10:nsubj:pass	Discourse=explanation-justify:46->45:2|Entity=(50-abstract-new-cf5-1-sgl
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Discourse=elaboration-additional:47->46:0|Entity=(2-person-giv:inact-cf3-1-ana)
 3	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	1:acl:relcl	_
 4	to	to	PART	TO	_	5	mark	5:mark	_
@@ -451,6 +466,7 @@
 20	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_textbook_evoethics-14
+# s_prominence = 2
 # s_type = sub
 # transition = smooth-shift
 # text = If moral facts are explanatorily redundant, indeed, moral realists (those who believe there are mind-independent, objective facts about morality, as discussed in Chapter 1) need to say why we should still suppose that moral facts do exist.
@@ -466,7 +482,7 @@
 10	moral	moral	ADJ	JJ	Degree=Pos	11	amod	11:amod	Entity=(51-person-new-cf4-2-coref
 11	realists	realist	NOUN	NNS	Number=Plur	33	nsubj	33:nsubj|35:nsubj:xsubj	Entity=51)
 12	(	(	PUNCT	-LRB-	_	13	punct	13:punct	Discourse=context-background:53->52:0|SpaceAfter=No
-13	those	this	PRON	DT	Number=Plur|PronType=Dem	11	appos	11:appos|15:nsubj	Entity=(51-person-giv:act-cf4-1-ana
+13	those	that	PRON	DT	Number=Plur|PronType=Dem	11	appos	11:appos|15:nsubj	Entity=(51-person-giv:act-cf4-1-ana
 14	who	who	PRON	WP	PronType=Rel	15	nsubj	13:ref	Discourse=attribution-positive:54->55:1
 15	believe	believe	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	13:acl:relcl	_
 16	there	there	PRON	EX	PronType=Dem	17	expl	17:expl	Discourse=elaboration-additional:55->53:0
@@ -489,11 +505,11 @@
 33	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:57->52:1
 34	to	to	PART	TO	_	35	mark	35:mark	_
 35	say	say	VERB	VB	VerbForm=Inf	33	xcomp	33:xcomp	_
-36	why	why	ADV	WRB	PronType=Rel	35	obj	35:obj	Discourse=attribution-positive:58->59:0
+36	why	why	SCONJ	WRB	PronType=Rel	35	obj	35:obj	Discourse=attribution-positive:58->59:0
 37	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	40	nsubj	40:nsubj	Entity=(2-person-giv:act-cf1*-1-ana)
 38	should	should	AUX	MD	VerbForm=Fin	40	aux	40:aux	_
 39	still	still	ADV	RB	Degree=Pos	40	advmod	40:advmod	_
-40	suppose	suppose	VERB	VB	VerbForm=Inf	36	acl:relcl	36:acl:relcl	_
+40	suppose	suppose	VERB	VB	VerbForm=Inf	36	advcl:relcl	36:advcl:relcl	_
 41	that	that	SCONJ	IN	_	45	mark	45:mark	Discourse=adversative-antithesis:59->45:3
 42	moral	moral	ADJ	JJ	Degree=Pos	43	amod	43:amod	Entity=(1-abstract-giv:act-cf2-2-coref
 43	facts	fact	NOUN	NNS	Number=Plur	45	nsubj	45:nsubj	Entity=1)
@@ -502,6 +518,7 @@
 46	.	.	PUNCT	.	_	33	punct	33:punct	_
 
 # sent_id = GUM_textbook_evoethics-15
+# s_prominence = 2
 # s_type = decl
 # transition = rough-shift
 # text = Interestingly, Ruse’s methodological naturalism leads him to embrace a view that goes against the metaphysical naturalist position that moral facts exist.
@@ -532,6 +549,7 @@
 24	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_textbook_evoethics-16
+# s_prominence = 2
 # s_type = decl
 # transition = zero
 # text = Relatedly, Sharon Street, for example, argues that evolutionary explanations of morality show that moral realism is probably false.
@@ -561,6 +579,7 @@
 22	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_textbook_evoethics-17
+# s_prominence = 3
 # s_type = decl
 # transition = establishment
 # text = The kind of moral realism that Street has in mind is the view that moral properties exist as objective features of the world (to wit, whether stealing is wrong is independent of whether anyone thinks or feels that stealing is wrong).
@@ -599,7 +618,7 @@
 33	independent	independent	ADJ	JJ	Degree=Pos	13	parataxis	13:parataxis	_
 34	of	of	SCONJ	IN	_	37	mark	37:mark	_
 35	whether	whether	SCONJ	IN	_	37	mark	37:mark	Discourse=attribution-positive:71->72:0
-36	anyone	anyone	NOUN	NN	Number=Sing	37	nsubj	37:nsubj|39:nsubj	Entity=(64-person-new-cf6-1-sgl)
+36	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	37	nsubj	37:nsubj|39:nsubj	Entity=(64-person-new-cf6-1-sgl)
 37	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	advcl	33:advcl:of_whether	_
 38	or	or	CCONJ	CC	_	39	cc	39:cc	_
 39	feels	feel	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	conj	33:advcl:of_whether|37:conj:or	_
@@ -611,6 +630,7 @@
 45	.	.	PUNCT	.	_	13	punct	13:punct	_
 
 # sent_id = GUM_textbook_evoethics-18
+# s_prominence = 7
 # s_type = decl
 # transition = continue
 # text = Street starts with the premise that our moral judgments are influenced by evolutionary forces.
@@ -620,7 +640,7 @@
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(65-abstract-new-cf4-2-coref
 5	premise	premise	NOUN	NN	Number=Sing	2	obl	2:obl:with	_
 6	that	that	SCONJ	IN	_	11	mark	11:mark	Discourse=elaboration-attribute:74->73:0
-7	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(23-abstract-giv:inact-cf3-3-coref(2-person-giv:inact-cf2-1-ana)
+7	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(23-abstract-giv:inact-cf3-3-coref(2-person-giv:inact-cf2-1-ana)
 8	moral	moral	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 9	judgments	judgment	NOUN	NNS	Number=Plur	11	nsubj:pass	11:nsubj:pass	Entity=23)
 10	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	11:aux:pass	_
@@ -631,6 +651,7 @@
 15	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_textbook_evoethics-19
+# s_prominence = 6
 # s_type = decl
 # transition = smooth-shift
 # text = This fact, Street claims, gives rise to a dilemma for moral realists concerning the relation of the evolutionary forces that influenced our moral judgments and the moral facts claimed to exist by moral realists.
@@ -657,7 +678,7 @@
 21	forces	force	NOUN	NNS	Number=Plur	17	nmod	17:nmod:of|23:nsubj	_
 22	that	that	PRON	WDT	PronType=Rel	23	nsubj	21:ref	Discourse=elaboration-additional:79->78:0
 23	influenced	influence	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	acl:relcl	21:acl:relcl	_
-24	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(23-abstract-giv:act-cf4-3-coref(2-person-giv:act-cf1*-1-ana)
+24	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(23-abstract-giv:act-cf4-3-coref(2-person-giv:act-cf1*-1-ana)
 25	moral	moral	ADJ	JJ	Degree=Pos	26	amod	26:amod	_
 26	judgments	judgment	NOUN	NNS	Number=Plur	23	obj	23:obj	Entity=23)66)
 27	and	and	CCONJ	CC	_	30	cc	30:cc	_
@@ -673,6 +694,7 @@
 37	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_textbook_evoethics-20
+# s_prominence = 5
 # s_type = sub
 # transition = continue
 # text = If there is no relation between the evolutionary forces and the moral facts, then it would be an astonishing coincidence if many of our moral judgments were true.
@@ -700,7 +722,7 @@
 22	if	if	SCONJ	IN	_	29	mark	29:mark	Discourse=contingency-condition:83->82:0|Entity=(71-abstract-acc:com-cf5-8-disc
 23	many	many	ADJ	JJ	Degree=Pos	29	nsubj	29:nsubj	_
 24	of	of	ADP	IN	_	27	case	27:case	_
-25	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Entity=(23-abstract-giv:act-cf3-3-coref(2-person-giv:act-cf1*-1-ana)
+25	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Entity=(23-abstract-giv:act-cf3-3-coref(2-person-giv:act-cf1*-1-ana)
 26	moral	moral	ADJ	JJ	Degree=Pos	27	amod	27:amod	_
 27	judgments	judgment	NOUN	NNS	Number=Plur	23	obl	23:obl:of	Entity=23)
 28	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	29	cop	29:cop	_
@@ -708,6 +730,7 @@
 30	.	.	PUNCT	.	_	21	punct	21:punct	_
 
 # sent_id = GUM_textbook_evoethics-21
+# s_prominence = 4
 # s_type = decl
 # transition = continue
 # text = In light of the coincidence, we have no reason to assume that our moral judgments are true—an unpalatable conclusion for realists.
@@ -724,7 +747,7 @@
 11	to	to	PART	TO	_	12	mark	12:mark	Discourse=attribution-positive:85->86:0
 12	assume	assume	VERB	VB	VerbForm=Inf	10	acl	10:acl:to	_
 13	that	that	SCONJ	IN	_	18	mark	18:mark	Discourse=elaboration-additional:86->84:0
-14	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(23-abstract-giv:act-cf2-3-coref(2-person-giv:act-cf1*-1-ana)
+14	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(23-abstract-giv:act-cf2-3-coref(2-person-giv:act-cf1*-1-ana)
 15	moral	moral	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
 16	judgments	judgment	NOUN	NNS	Number=Plur	18	nsubj	18:nsubj	Entity=23)
 17	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	_
@@ -738,6 +761,7 @@
 25	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_textbook_evoethics-22
+# s_prominence = 5
 # s_type = decl
 # transition = zero
 # text = Claiming that there is a relation, however, is empirically dubious, according to Street.
@@ -760,6 +784,7 @@
 17	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_textbook_evoethics-23
+# s_prominence = 3
 # s_type = sub
 # transition = null
 # text = Mirroring Ruse’s claim, moral facts could be purged from what we assume to exist because they do not perform an important explanatory function.
@@ -792,6 +817,7 @@
 26	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_textbook_evoethics-24
+# s_prominence = 1
 # s_type = sub
 # transition = establishment
 # text = So, we should reject moral realism.
@@ -805,6 +831,7 @@
 8	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_textbook_evoethics-25
+# s_prominence = 2
 # s_type = decl
 # transition = continue
 # text = Street’s argument illustrates how evolutionary theory can be used to make a case about which metaethical theories we should adopt.
@@ -813,12 +840,12 @@
 2	’s	's	PART	POS	_	1	case	1:case	Entity=58)
 3	argument	argument	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=59)
 4	illustrates	illustrate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-5	how	how	ADV	WRB	PronType=Rel	4	obj	4:obj	_
+5	how	how	SCONJ	WRB	PronType=Rel	4	obj	4:obj	_
 6	evolutionary	evolutionary	ADJ	JJ	Degree=Pos	7	amod	7:amod	Entity=(36-abstract-giv:inact-cf2-2-coref
 7	theory	theory	NOUN	NN	Number=Sing	10	nsubj:pass	10:nsubj:pass	Entity=36)
 8	can	can	AUX	MD	VerbForm=Fin	10	aux	10:aux	_
 9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	10:aux:pass	_
-10	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	acl:relcl	5:acl:relcl	_
+10	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	advcl:relcl	5:advcl:relcl	_
 11	to	to	PART	TO	_	12	mark	12:mark	Discourse=purpose-goal:97->96:0
 12	make	make	VERB	VB	VerbForm=Inf	10	advcl	10:advcl:to	_
 13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(75-abstract-new-cf5-2-sgl
@@ -833,6 +860,7 @@
 22	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_textbook_evoethics-26
+# s_prominence = 2
 # s_type = decl
 # transition = continue
 # text = Both Ruse’s and Street’s arguments rely on the idea that we should only accept that something exists if it plays an indispensable explanatory role and there are means to resist these arguments. [12]
@@ -880,6 +908,7 @@
 38	]	]	PUNCT	-RRB-	_	37	punct	37:punct	_
 
 # sent_id = GUM_textbook_evoethics-27
+# s_prominence = 2
 # s_type = decl
 # transition = smooth-shift
 # text = Both arguments, as presented here, rely on the correctness of the evolutionary explanation of morality they convey.
@@ -905,6 +934,7 @@
 20	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_textbook_evoethics-28
+# s_prominence = 2
 # s_type = decl
 # transition = zero
 # text = In the next section, we turn to the relevance of evolutionary ethics for moral epistemology.
@@ -927,6 +957,7 @@
 17	.	.	PUNCT	.	_	7	punct	7:punct	_
 
 # sent_id = GUM_textbook_evoethics-29
+# s_prominence = 3
 # s_type = frag
 # transition = null
 # text = E.g. Enoch (2010)
@@ -939,6 +970,7 @@
 5	)	)	PUNCT	-RRB-	_	4	punct	4:punct	_
 
 # sent_id = GUM_textbook_evoethics-30
+# s_prominence = 2
 # s_type = q
 # transition = null
 # text = Can We have Justified Moral Beliefs?
@@ -953,6 +985,7 @@
 7	?	?	PUNCT	.	_	3	punct	3:punct	XML=</hi>
 
 # sent_id = GUM_textbook_evoethics-31
+# s_prominence = 2
 # s_type = sub
 # transition = null
 # text = The evolutionary argument by Sharon Street can also be interpreted as an argument about moral justification and moral knowledge.
@@ -980,6 +1013,7 @@
 20	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_textbook_evoethics-32
+# s_prominence = 3
 # s_type = imp
 # transition = null
 # text = Suppose that moral realists assume that there is no relation between our moral judgments and the moral facts.
@@ -994,7 +1028,7 @@
 9	no	no	DET	DT	Polarity=Neg|PronType=Art	10	det	10:det	Entity=(94-abstract-new-cf5-2-sgl
 10	relation	relation	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	_
 11	between	between	ADP	IN	_	14	case	14:case	_
-12	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(23-abstract-giv:inact-cf4-3-coref(2-person-giv:inact-cf1-1-ana)
+12	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(23-abstract-giv:inact-cf4-3-coref(2-person-giv:inact-cf1-1-ana)
 13	moral	moral	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
 14	judgments	judgment	NOUN	NNS	Number=Plur	10	nmod	10:nmod:between	Entity=23)
 15	and	and	CCONJ	CC	_	18	cc	18:cc	_
@@ -1004,6 +1038,7 @@
 19	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_textbook_evoethics-33
+# s_prominence = 2
 # s_type = sub
 # transition = establishment
 # text = It would seem like an incredible coincidence if the realists were right that our moral judgments are nonetheless true.
@@ -1020,7 +1055,7 @@
 11	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	cop	12:cop	_
 12	right	right	ADJ	JJ	Degree=Pos	3	advcl	3:advcl:if	_
 13	that	that	SCONJ	IN	_	19	mark	19:mark	Discourse=contingency-condition:118->116:0
-14	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(23-abstract-giv:act-cf3-3-coref(2-person-giv:act-cf1*-1-ana)
+14	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(23-abstract-giv:act-cf3-3-coref(2-person-giv:act-cf1*-1-ana)
 15	moral	moral	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
 16	judgments	judgment	NOUN	NNS	Number=Plur	19	nsubj	19:nsubj	Entity=23)
 17	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	19:cop	_
@@ -1029,6 +1064,7 @@
 20	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_textbook_evoethics-34
+# s_prominence = 3
 # s_type = decl
 # transition = continue
 # text = There are just too many possible moral truths and too many ways in which evolution could have “pushed” our moral beliefs.
@@ -1052,12 +1088,13 @@
 18	“	''	PUNCT	``	_	19	punct	19:punct	SpaceAfter=No|XML=<q>
 19	pushed	push	VERB	VBN	Tense=Past|VerbForm=Part	12	acl:relcl	12:acl:relcl	SpaceAfter=No
 20	”	''	PUNCT	''	_	19	punct	19:punct	XML=</q>
-21	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	23:nmod:poss	Entity=(100-abstract-new-cf4-3-coref(2-person-giv:act-cf1*-1-ana)
+21	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	23:nmod:poss	Entity=(100-abstract-new-cf4-3-coref(2-person-giv:act-cf1*-1-ana)
 22	moral	moral	ADJ	JJ	Degree=Pos	23	amod	23:amod	_
 23	beliefs	belief	NOUN	NNS	Number=Plur	19	obj	19:obj	Entity=100)98)|SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_textbook_evoethics-35
+# s_prominence = 3
 # s_type = decl
 # transition = zero
 # text = Street claims that such a coincidence would be too much to believe.
@@ -1076,6 +1113,7 @@
 13	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_textbook_evoethics-36
+# s_prominence = 2
 # s_type = wh
 # transition = null
 # text = But what is the problem, exactly, with having beliefs that are only coincidentally true?
@@ -1098,19 +1136,20 @@
 17	?	?	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_textbook_evoethics-37
+# s_prominence = 3
 # s_type = decl
 # transition = null
 # text = Depending on how we understand “coincidence,” my belief that there is a bird outside my window is coincidentally true because had I looked a little later, the bird would have flown away already.
 1	Depending	depend	VERB	VBG	VerbForm=Ger	3	case	3:case	Discourse=contingency-condition:125->126:3
 2	on	on	ADP	IN	_	1	fixed	1:fixed	_
-3	how	how	ADV	WRB	PronType=Rel	22	obl	22:obl:depending_on	_
+3	how	how	SCONJ	WRB	PronType=Rel	22	obl	22:obl:depending_on	_
 4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(2-person-giv:inact-cf3-1-ana)
-5	understand	understand	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	3:acl:relcl	_
+5	understand	understand	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	advcl:relcl	3:advcl:relcl	_
 6	“	''	PUNCT	``	_	7	punct	7:punct	SpaceAfter=No|XML=<q>
 7	coincidence	coincidence	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=(103-abstract-new-cf5-1-coref)|SpaceAfter=No
 8	,	,	PUNCT	,	_	7	punct	7:punct	SpaceAfter=No
 9	”	''	PUNCT	''	_	7	punct	7:punct	XML=</q>
-10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Discourse=explanation-evidence:126->132:0|Entity=(104-abstract-new-cf4-2-coref(105-person-acc:com-cf1-1-ana)
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Discourse=explanation-evidence:126->132:0|Entity=(104-abstract-new-cf4-2-coref(105-person-acc:com-cf1-1-ana)
 11	belief	belief	NOUN	NN	Number=Sing	22	nsubj	22:nsubj	_
 12	that	that	SCONJ	IN	_	14	mark	14:mark	Discourse=elaboration-attribute:127->126:0
 13	there	there	PRON	EX	PronType=Dem	14	expl	14:expl	_
@@ -1118,7 +1157,7 @@
 15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(106-animal-new-cf2-2-coref
 16	bird	bird	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	Entity=106)
 17	outside	outside	ADP	IN	_	19	case	19:case	_
-18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(107-object-new-cf6-2-sgl(105-person-giv:act-cf1-1-ana)
+18	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(107-object-new-cf6-2-sgl(105-person-giv:act-cf1-1-ana)
 19	window	window	NOUN	NN	Number=Sing	16	nmod	16:nmod:outside	Entity=107)104)
 20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	22:cop	Discourse=same-unit_m:128->126:1
 21	coincidentally	coincidentally	ADV	RB	Degree=Pos	22	advmod	22:advmod	_
@@ -1141,6 +1180,7 @@
 38	.	.	PUNCT	.	_	22	punct	22:punct	_
 
 # sent_id = GUM_textbook_evoethics-38
+# s_prominence = 2
 # s_type = decl
 # transition = null
 # text = Accidentally true beliefs do not seem problematic in every case.
@@ -1157,11 +1197,12 @@
 11	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_textbook_evoethics-39
+# s_prominence = 1
 # s_type = decl
 # transition = null
 # text = The question for proponents of Street’s argument is to show why the evolutionary influence on human moral beliefs makes for a particularly problematic case of coincidence.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-other_m:133->15:6|Entity=(110-abstract-new-cf5-2-sgl
-2	question	question	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	_
+2	question	question	NOUN	NN	Number=Sing	11	nsubj:outer	11:nsubj:outer	_
 3	for	for	ADP	IN	_	4	case	4:case	_
 4	proponents	proponent	NOUN	NNS	Number=Plur	2	nmod	2:nmod:for	Entity=(111-person-new-cf8-1-sgl
 5	of	of	ADP	IN	_	8	case	8:case	_
@@ -1172,7 +1213,7 @@
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	11:cop	_
 10	to	to	PART	TO	_	11	mark	11:mark	_
 11	show	show	VERB	VB	VerbForm=Inf	0	root	0:root	_
-12	why	why	ADV	WRB	PronType=Rel	11	obj	11:obj	Entity=(112-abstract-new-cf7-1-coref
+12	why	why	SCONJ	WRB	PronType=Rel	11	obj	11:obj	Entity=(112-abstract-new-cf7-1-coref
 13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(113-abstract-new-cf6-3-sgl
 14	evolutionary	evolutionary	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
 15	influence	influence	NOUN	NN	Number=Sing	20	nsubj	20:nsubj	_
@@ -1180,7 +1221,7 @@
 17	human	human	ADJ	JJ	Degree=Pos	19	amod	19:amod	Entity=(100-abstract-giv:inact-cf3-3-coref
 18	moral	moral	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
 19	beliefs	belief	NOUN	NNS	Number=Plur	15	nmod	15:nmod:on	Entity=100)113)
-20	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	12:acl:relcl	_
+20	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl:relcl	12:advcl:relcl	_
 21	for	for	ADP	IN	_	25	case	25:case	_
 22	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	25:det	Entity=(114-abstract-new-cf9-4-sgl
 23	particularly	particularly	ADV	RB	Degree=Pos	24	advmod	24:advmod	_
@@ -1191,6 +1232,7 @@
 28	.	.	PUNCT	.	_	11	punct	11:punct	_
 
 # sent_id = GUM_textbook_evoethics-40
+# s_prominence = 3
 # s_type = decl
 # transition = establishment
 # text = The philosopher Richard Joyce argues that the problem has to do with the sensitivity of our moral beliefs to the moral facts (Joyce 2006).
@@ -1211,7 +1253,7 @@
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(116-abstract-new-cf6-2-sgl
 14	sensitivity	sensitivity	NOUN	NN	Number=Sing	11	obl	11:obl:with	_
 15	of	of	ADP	IN	_	18	case	18:case	_
-16	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	Entity=(100-abstract-giv:act-cf3-3-coref(2-person-giv:inact-cf4-1-ana)
+16	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	Entity=(100-abstract-giv:act-cf3-3-coref(2-person-giv:inact-cf4-1-ana)
 17	moral	moral	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
 18	beliefs	belief	NOUN	NNS	Number=Plur	14	nmod	14:nmod:of	Entity=100)
 19	to	to	ADP	IN	_	22	case	22:case	_
@@ -1225,12 +1267,13 @@
 27	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_textbook_evoethics-41
+# s_prominence = 3
 # s_type = sub
 # transition = smooth-shift
 # text = Given that our moral beliefs are influenced by evolutionary forces, and not by the moral facts, our moral beliefs would be the same even if the moral facts would change.
 1	Given	give	VERB	VBN	Tense=Past|VerbForm=Part	25	advcl	25:advcl	Discourse=contingency-condition:137->139:1
 2	that	that	SCONJ	IN	_	7	mark	7:mark	_
-3	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(100-abstract-giv:act-cf3-3-coref(2-person-giv:act-cf1*-1-ana)
+3	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(100-abstract-giv:act-cf3-3-coref(2-person-giv:act-cf1*-1-ana)
 4	moral	moral	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
 5	beliefs	belief	NOUN	NNS	Number=Plur	7	nsubj:pass	7:nsubj:pass	Entity=100)
 6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	7:aux:pass	_
@@ -1246,7 +1289,7 @@
 16	moral	moral	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
 17	facts	fact	NOUN	NNS	Number=Plur	10	conj	7:obl:agent|10:conj:and	Entity=1)|SpaceAfter=No
 18	,	,	PUNCT	,	_	1	punct	1:punct	_
-19	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Discourse=adversative-concession:139->141:1|Entity=(100-abstract-giv:act-cf3-3-coref(2-person-giv:act-cf1*-1-ana)
+19	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Discourse=adversative-concession:139->141:1|Entity=(100-abstract-giv:act-cf3-3-coref(2-person-giv:act-cf1*-1-ana)
 20	moral	moral	ADJ	JJ	Degree=Pos	21	amod	21:amod	_
 21	beliefs	belief	NOUN	NNS	Number=Plur	25	nsubj	25:nsubj	Entity=100)
 22	would	would	AUX	MD	VerbForm=Fin	25	aux	25:aux	_
@@ -1263,6 +1306,7 @@
 33	.	.	PUNCT	.	_	25	punct	25:punct	_
 
 # sent_id = GUM_textbook_evoethics-42
+# s_prominence = 2
 # s_type = decl
 # transition = continue
 # text = But because we should not hold on to such insensitive beliefs, evolutionary explanations of morality show that our moral beliefs are unjustified (because they are not sensitive).
@@ -1284,7 +1328,7 @@
 16	morality	morality	NOUN	NN	Number=Sing	14	nmod	14:nmod:of	Entity=(26-abstract-giv:inact-cf4-1-coref)48)
 17	show	show	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 18	that	that	SCONJ	IN	_	23	mark	23:mark	Discourse=same-unit_m:144->141:0
-19	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Entity=(100-abstract-giv:act-cf2-3-coref(2-person-giv:act-cf1*-1-ana)
+19	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Entity=(100-abstract-giv:act-cf2-3-coref(2-person-giv:act-cf1*-1-ana)
 20	moral	moral	ADJ	JJ	Degree=Pos	21	amod	21:amod	_
 21	beliefs	belief	NOUN	NNS	Number=Plur	23	nsubj	23:nsubj	Entity=100)
 22	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	cop	23:cop	_
@@ -1299,6 +1343,7 @@
 31	.	.	PUNCT	.	_	17	punct	17:punct	_
 
 # sent_id = GUM_textbook_evoethics-43
+# s_prominence = 2
 # s_type = decl
 # transition = continue
 # text = It is not clear, however, whether and why evolutionary explanations of morality reveal something about our moral beliefs that is particularly troubling from an epistemological perspective.
@@ -1321,7 +1366,7 @@
 15	reveal	reveal	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	4:ccomp	_
 16	something	something	NOUN	NN	Number=Sing	15	obj	15:obj|24:nsubj	Entity=(121-abstract-new-cf7-1-sgl
 17	about	about	ADP	IN	_	20	case	20:case	_
-18	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(100-abstract-giv:act-cf4-3-coref(2-person-giv:act-cf1*-1-ana)
+18	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(100-abstract-giv:act-cf4-3-coref(2-person-giv:act-cf1*-1-ana)
 19	moral	moral	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
 20	beliefs	belief	NOUN	NNS	Number=Plur	16	nmod	16:nmod:about	Entity=100)
 21	that	that	PRON	WDT	PronType=Rel	24	nsubj	16:ref	Discourse=elaboration-attribute:147->146:0
@@ -1335,6 +1380,7 @@
 29	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_textbook_evoethics-44
+# s_prominence = 3
 # s_type = decl
 # transition = zero
 # text = The impact of evolutionary ethics on epistemological questions depends on these deeper questions about epistemology. [13]
@@ -1359,6 +1405,7 @@
 19	]	]	PUNCT	-RRB-	_	18	punct	18:punct	_
 
 # sent_id = GUM_textbook_evoethics-45
+# s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = Evolutionary explanations of morality, however, provide us with a useful starting point for thinking about these questions.
@@ -1384,6 +1431,7 @@
 20	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_textbook_evoethics-46
+# s_prominence = 3
 # s_type = imp
 # transition = zero
 # text = See Klenk (2019).
@@ -1397,6 +1445,7 @@
 6	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_textbook_evoethics-47
+# s_prominence = 3
 # s_type = frag
 # transition = null
 # text = CONCLUSION
@@ -1405,6 +1454,7 @@
 1	CONCLUSION	conclusion	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:153->154:3|Entity=(132-abstract-new-cf1-1-sgl)|XML=<hi rend:::"caps"></hi>
 
 # sent_id = GUM_textbook_evoethics-48
+# s_prominence = 2
 # s_type = decl
 # transition = null
 # text = Evolutionary ethics has helped us to get a much clearer sense of where the human moral sense is coming from.
@@ -1433,6 +1483,7 @@
 21	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_textbook_evoethics-49
+# s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = While this is a far cry from revealing to us what we ought to do, the research program seems full of promise nonetheless.
@@ -1463,6 +1514,7 @@
 25	.	.	PUNCT	.	_	20	punct	20:punct	_
 
 # sent_id = GUM_textbook_evoethics-50
+# s_prominence = 3
 # s_type = sub
 # transition = continue
 # text = Once we get into the details, we can see that it also raises deep theoretical questions about evolutionary explanations, the relation of descriptive and normative claims, the epistemology of justification and truth, and the general viability of naturalism in ethics.
@@ -1513,6 +1565,7 @@
 45	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_textbook_evoethics-51
+# s_prominence = 3
 # s_type = other
 # transition = continue
 # text = Much left to wonder, then, but with some ideas about where to get our answers.
@@ -1531,7 +1584,7 @@
 13	where	where	SCONJ	WRB	PronType=Int	15	obl	15:obl:about	_
 14	to	to	PART	TO	_	15	mark	15:mark	_
 15	get	get	VERB	VB	VerbForm=Inf	11	acl	11:acl:to	_
-16	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	Entity=(147-abstract-new-cf2-2-sgl(2-person-giv:act-cf1*-1-ana)
+16	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	Entity=(147-abstract-new-cf2-2-sgl(2-person-giv:act-cf1*-1-ana)
 17	answers	answer	NOUN	NNS	Number=Plur	15	obj	15:obj	Entity=147)146)|SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	2:punct	_
 
