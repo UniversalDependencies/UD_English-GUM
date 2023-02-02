@@ -5,8 +5,10 @@
 # meta::dateCreated = 2013-04-26
 # meta::dateModified = 2017-05-19
 # meta::genre = bio
+# meta::salientEntities = 1, 6, 7, 8, 10, 11, 12
 # meta::sourceURL = https://en.wikipedia.org/wiki/Eugene_Nida
 # meta::speakerCount = 0
+# meta::summary = Eugene Nida was a linguist who developed the dynamic-equivalence Bible-translation theory and one of the founders of the modern discipline of Translation Studies.
 # meta::title = Eugene Nida
 # sent_id = GUM_bio_nida-1
 # s_prominence = 2
@@ -28,7 +30,7 @@
 1	Eugene	Eugene	PROPN	NNP	Number=Sing	17	nsubj	17:nsubj	Discourse=ROOT:2:0|Entity=(1-person-giv:act-cf1*-1,2,3-coref-Eugene_Nida|XML=<hi rend:::"bold">
 2	A.	A.	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	Nida	Nida	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=1)|XML=</hi>
-4	(	(	PUNCT	-LRB-	_	6	punct	6:punct	Discourse=elaboration-additional:3->2:0|SpaceAfter=No
+4	(	(	PUNCT	-LRB-	_	6	punct	6:punct	Discourse=context-circumstance:3->2:0|SpaceAfter=No
 5	November	November	PROPN	NNP	Number=Sing	6	compound	6:compound	Entity=(2-time-new-cf6-2-coref|XML=<date when:::"1914-11-11">
 6	11	11	NUM	CD	NumForm=Digit|NumType=Card	1	nmod:tmod	1:nmod:tmod	SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	8:punct	_
@@ -671,12 +673,12 @@
 21	(	(	PUNCT	-LRB-	_	26	punct	26:punct	Discourse=elaboration-additional:49->47:1|SpaceAfter=No
 22	e.g.	e.g.	ADV	FW	Abbr=Yes	26	advmod	26:advmod	_
 23	"	''	PUNCT	``	_	24	punct	24:punct	Entity=(88-abstract-new-cf8-4-disc|SpaceAfter=No|XML=<q>
-24	bachelor	bachelor	NOUN	NN	Number=Sing	26	nsubj	26:nsubj|29:nsubj:xsubj	Entity=(89-person-new-cf4-1-sgl)|SpaceAfter=No|XML=<ref></ref>
+24	bachelor	bachelor	NOUN	NN	Number=Sing	26	nsubj	26:nsubj	Entity=(89-person-new-cf4-1-sgl)|SpaceAfter=No|XML=<ref></ref>
 25	"	''	PUNCT	''	_	24	punct	24:punct	XML=</q>
 26	=	=	SYM	SYM	_	18	appos	18:appos	_
-27	male	male	NOUN	NN	Number=Sing	26	xcomp	26:xcomp	_
+27	male	male	NOUN	NN	Number=Sing	26	obj	26:obj	_
 28	+	+	SYM	SYM	_	29	cc	29:cc	_
-29	unmarried	unmarried	ADJ	JJ	Degree=Pos|Polarity=Neg	27	conj	26:xcomp|27:conj:plus	Entity=88)|SpaceAfter=No
+29	unmarried	unmarried	ADJ	JJ	Degree=Pos|Polarity=Neg	27	conj	26:obj|27:conj:plus	Entity=88)|SpaceAfter=No
 30	)	)	PUNCT	-RRB-	_	26	punct	26:punct	Entity=85)|SpaceAfter=No
 31	.	.	PUNCT	.	_	3	punct	3:punct	_
 

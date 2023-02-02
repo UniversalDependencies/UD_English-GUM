@@ -5,8 +5,10 @@
 # meta::dateCreated = 2008-04-22
 # meta::dateModified = 2008-04-22
 # meta::genre = fiction
+# meta::salientEntities = 1, 2, 3, 4, 12, 16, 37, 55, 56
 # meta::sourceURL = http://smallbeerpress.com/wp-content/uploads/McHugh_Mothers.pdf
 # meta::speakerCount = 2
+# meta::summary = While gunfire can be heard outside, a protagonist on an extraterrestrial colony that had been forgotten by Earth spends a night with Veronique, the daughter of an anthropologist from Earth who is studying the rediscovered colony's people, before falling asleep and dreaming of being a hero on Earth.
 # meta::title = The Cost to Be Wise
 # sent_id = GUM_fiction_veronique-1
 # s_prominence = 2
@@ -389,7 +391,7 @@
 # transition = establishment
 # text = "No," I said.
 1	"	''	PUNCT	``	_	2	punct	2:punct	Discourse=organization-preparation:37->39:2|SpaceAfter=No|XML=<sp who:::"#Protagonist">
-2	No	no	INTJ	UH	Polarity=Neg	6	discourse	6:discourse	SpaceAfter=No
+2	No	no	INTJ	UH	Polarity=Neg	6	ccomp	6:ccomp	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	SpaceAfter=No
 4	"	''	PUNCT	''	_	2	punct	2:punct	XML=</sp>
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	Discourse=attribution-positive:38->37:0|Entity=(3-person-giv:act-cf1*-1-ana)
@@ -677,7 +679,7 @@
 # newpar
 # newpar_block = sp who:::"#Protagonist" (6 s)
 1	"	''	PUNCT	``	_	2	punct	2:punct	Discourse=elaboration-additional:66->49:3|SpaceAfter=No
-2	Yes	yes	INTJ	UH	_	6	discourse	6:discourse	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	6	ccomp	6:ccomp	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	SpaceAfter=No
 4	"	''	PUNCT	''	_	2	punct	2:punct	_
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	Discourse=attribution-positive:67->66:0|Entity=(3-person-giv:act-cf1*-1-ana)
@@ -915,7 +917,7 @@
 # transition = continue
 # text = "No," she said.
 1	"	''	PUNCT	``	_	2	punct	2:punct	Discourse=joint-sequence_m:90->3:2|SpaceAfter=No|XML=<sp who:::"#Veronique">
-2	No	no	INTJ	UH	Polarity=Neg	6	discourse	6:discourse	SpaceAfter=No
+2	No	no	INTJ	UH	Polarity=Neg	6	ccomp	6:ccomp	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	SpaceAfter=No
 4	"	''	PUNCT	''	_	2	punct	2:punct	XML=</sp>
 5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=attribution-positive:91->90:0|Entity=(2-person-giv:act-cf1*-1-ana)
@@ -1063,10 +1065,10 @@
 # s_type = decl
 # transition = zero
 # text = I fell asleep thinking about how I wished that the Scathalos outrunners were gone.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint-sequence_m:106->98:0|Entity=(3-person-giv:inact-cf1-1-ana)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj|3:nsubj:xsubj	Discourse=joint-sequence_m:106->98:0|Entity=(3-person-giv:inact-cf1-1-ana)
 2	fell	fall	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	asleep	asleep	ADV	RB	Degree=Pos	2	xcomp	2:xcomp	_
-4	thinking	think	VERB	VBG	VerbForm=Ger	2	ccomp	2:ccomp|3:csubj:xsubj	Discourse=attribution-positive:107->108:0
+4	thinking	think	VERB	VBG	VerbForm=Ger	2	advcl	2:advcl	Discourse=attribution-positive:107->108:0
 5	about	about	ADV	RB	_	6	case	6:case	Discourse=context-circumstance:108->106:0
 6	how	how	SCONJ	WRB	PronType=Rel	4	obl	4:obl:about	_
 7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	8:nsubj	Entity=(3-person-giv:act-cf1-1-ana)

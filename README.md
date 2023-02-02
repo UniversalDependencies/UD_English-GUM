@@ -209,6 +209,11 @@ As a scholarly citation for the corpus in articles, please use this paper:
 
 # Changelog
 
+* 2023-02-02
+  * Added GUM V9 documents (train only)
+  * Added document summaries to metadata
+  * Added salient entity metadata
+
 * 2022-10-21
   * Added new subtypes advcl:relcl and nsubj:outer
   * Many updates to UPOS and FEATS consistency with EWT

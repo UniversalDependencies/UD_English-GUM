@@ -5,8 +5,10 @@
 # meta::dateCreated = 2008-08-15
 # meta::dateModified = 2014-05-11
 # meta::genre = news
+# meta::salientEntities = 1, 2, 3, 4, 5, 6, 10, 11, 17, 18, 20
 # meta::sourceURL = https://en.wikinews.org/wiki/Sensitive_Canadian_document_found_on_rainy_streets
 # meta::speakerCount = 0
+# meta::summary = On August 15, 2008, a classified Environment Canada document detailing security vulnerabilities of the NEMESIS database used by Canadian law enforcement to prosecute environmental law-breakers was found on the street in Kanata, Ontario, leading to controversy about how it wound up there and how classified it actually is.
 # meta::title = Sensitive Canadian document found on rainy streets
 # sent_id = GUM_news_sensitive-1
 # s_prominence = 2
@@ -379,15 +381,15 @@
 9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj:outer	12:nsubj:outer	Bridge=40<41|Entity=(41-event-acc:inf-cf4-4,6-sgl(2-object-giv:act-cf2-1-ana)
 10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
 11	neither	neither	CCONJ	CC	_	12	cc:preconj	12:cc:preconj	_
-12	classified	classify	VERB	VBN	Tense=Past|VerbForm=Part	4	parataxis	4:parataxis	_
+12	classified	classify	VERB	VBN	Tense=Past|VerbForm=Part	4	appos	4:appos	_
 13	nor	nor	CCONJ	CC	_	14	cc	14:cc	_
-14	secret	secret	ADJ	JJ	Degree=Pos	12	conj	12:conj:nor	Entity=41)
+14	secret	secret	ADJ	JJ	Degree=Pos	12	conj	4:appos|12:conj:nor	Entity=41)
 15	and	and	CCONJ	CC	_	19	cc	19:cc	Discourse=joint-list_m:29->28:0
 16	that	that	SCONJ	IN	_	19	mark	19:mark	_
 17-18	it's	_	_	_	_	_	_	_	_
 17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	19:nsubj	Bridge=40<42|Entity=(42-event-acc:inf-cf3-3-sgl(2-object-giv:act-cf2-1-ana)
 18	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	19:cop	_
-19	stuff	stuff	NOUN	NN	Number=Sing	12	conj	12:conj:and|23:nsubj	Entity=(2-object-giv:act-cf2-1-coref
+19	stuff	stuff	NOUN	NN	Number=Sing	12	conj	4:appos|12:conj:and|23:nsubj	Entity=(2-object-giv:act-cf2-1-coref
 20	that	that	PRON	WDT	PronType=Rel	23	nsubj	19:ref	Discourse=elaboration-attribute:30->29:0
 21	could	could	AUX	MD	VerbForm=Fin	23	aux	23:aux	_
 22	be	be	AUX	VB	VerbForm=Inf	23	cop	23:cop	_
@@ -790,8 +792,8 @@
 7	on	on	ADP	IN	_	8	case	8:case	_
 8	street	street	NOUN	NN	Number=Sing	6	obl	6:obl:on	Entity=(3-place-giv:act-cf2-1-coref)1)|SpaceAfter=No|XML=</ref>
 9	"	''	PUNCT	''	_	6	punct	6:punct	XML=</q>
-10	—	—	PUNCT	:	_	11	punct	11:punct	_
-11	Toronto	Toronto	PROPN	NNP	Number=Sing	6	dep	6:dep	Discourse=attribution-positive:65->64:0|Entity=(74-organization-new-cf7-1,2-sgl-Toronto_Star(75-place-new-cf8-1-sgl-Toronto)|XML=<ref rend:::"italic">
+10	—	—	PUNCT	:	_	11	punct	11:punct	Discourse=attribution-positive:65->64:0
+11	Toronto	Toronto	PROPN	NNP	Number=Sing	6	dep	6:dep	Entity=(74-organization-new-cf7-1,2-sgl-Toronto_Star(75-place-new-cf8-1-sgl-Toronto)|XML=<ref rend:::"italic">
 12	Star	Star	PROPN	NNP	Number=Sing	11	flat	11:flat	Entity=74)|SpaceAfter=No|XML=</ref>
 13	,	,	PUNCT	,	_	15	punct	15:punct	_
 14	August	August	PROPN	NNP	Number=Sing	15	compound	15:compound	Entity=(4-time-giv:act-cf3-2-coref|XML=<date when:::"2008-08-15">
