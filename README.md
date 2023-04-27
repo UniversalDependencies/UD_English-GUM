@@ -52,7 +52,15 @@ Multi-token mentions receive opening brackets on the line in which they open, su
 29	faces	face	NOUN	NNS	Number=Plur	26	nmod	26:nmod:of	Entity=191)|SpaceAfter=No
 ```
 
-Possible values for the annotations mentioned above are:
+In addition, a list of the globally most salient entities in each document can be found in the metadata at the beginning of the document, for example:
+
+```CoNLL-U
+# meta::salientEntities = 1, 5, 6, 7, 8, 12, 98, 173, 180, 181, 182, 183, 184
+```
+
+Where the value `1` stands for Padalecki, as in the annotations above.
+
+Possible values for the other annotations mentioned above are:
 
   * entity type: abstract, animal, event, object, organization, person, place, plant, substance, time
   * information status 
@@ -165,14 +173,19 @@ Document metadata is given at the beginning of each new document in key-value pa
 ```
 # newdoc id = GUM_bio_padalecki
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Wikipedia, The Free Encyclopedia
 # meta::dateCollected = 2019-09-10
 # meta::dateCreated = 2004-08-14
 # meta::dateModified = 2019-09-11
-# meta::shortTitle = padalecki
+# meta::genre = bio
+# meta::salientEntities = 1, 5, 6, 7, 8, 12, 98, 173, 180, 181, 182, 183, 184
 # meta::sourceURL = https://en.wikipedia.org/wiki/Jared_Padalecki
 # meta::speakerCount = 0
+# meta::summary = Jared Padalecki is an award winning American actor who gained prominence in the series Gilmore Girls, best known for playing the role of Sam Winchester in the TV series Supernatural, and for his active role in campaigns to support people struggling with depression, addiction, suicide and self-harm.
 # meta::title = Jared Padalecki
 ```
+
+Document summaries are included in the metadata `summary` annotation and follow strict guidelines described [here](https://wiki.gucorpling.org/gum/summarization).
 
 # Documents and splits
 
