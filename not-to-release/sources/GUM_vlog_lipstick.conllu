@@ -332,7 +332,7 @@
 # text = Look at how beautiful this is.
 1	Look	look	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=evaluation-comment:25->22:1
 2	at	at	ADP	IN	_	4	case	4:case	_
-3	how	how	SCONJ	WRB	PronType=Int	4	mark	4:mark	_
+3	how	how	ADV	WRB	PronType=Int	4	advmod	4:advmod	_
 4	beautiful	beautiful	ADJ	JJ	Degree=Pos	1	obl	1:obl:at	_
 5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Entity=(16-object-giv:inact-cf1-1-ana)
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	SpaceAfter=No
@@ -377,7 +377,7 @@
 11	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	13:nsubj	Entity=(18-person-giv:inact-cf4-1-ana)
 12	can	can	AUX	MD	VerbForm=Fin	13	aux	13:aux	_
 13	see	see	VERB	VB	VerbForm=Inf	0	root	0:root	_
-14	where	where	SCONJ	WRB	PronType=Rel	13	obj	13:obj	_
+14	where	where	ADV	WRB	PronType=Rel	13	obj	13:obj	_
 15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	16:nsubj	Entity=(19-place-giv:act-cf1-1-ana)
 16	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl:relcl	14:advcl:relcl	_
 17	eighteen	eighteen	NUM	CD	NumForm=Word|NumType=Card	18	nummod	18:nummod	Entity=(20-time-new-cf2-2-coref
@@ -1745,7 +1745,7 @@
 2	ca	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	remember	remember	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	when	when	SCONJ	WRB	PronType=Rel	4	obj	4:obj	Discourse=causal-cause:140->137:1
+5	when	when	ADV	WRB	PronType=Rel	4	obj	4:obj	Discourse=causal-cause:140->137:1
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	Entity=(21-person-giv:act-cf1*-1-ana)
 7	bought	buy	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	advcl:relcl	5:advcl:relcl	_
 8	things	thing	NOUN	NNS	Number=Plur	7	obj	7:obj	Entity=(73-object-new-cf2-1-sgl)|SpaceAfter=No
@@ -1792,7 +1792,7 @@
 2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	like	like	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	how	how	SCONJ	WRB	PronType=Rel	4	obj	4:obj	_
+5	how	how	ADV	WRB	PronType=Rel	4	obj	4:obj	_
 6	that	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	7:nsubj	Entity=(69-object-giv:act-cf1*-1-ana)
 7	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl:relcl	5:advcl:relcl	SpaceAfter=No
 8	.	.	PUNCT	.	_	4	punct	4:punct	_
@@ -2270,8 +2270,8 @@
 22	Dose	Dose	PROPN	NNP	Number=Sing	25	compound	25:compound	Entity=(61-organization-giv:inact-cf4-1,3-coref
 23	of	of	ADP	IN	_	24	case	24:case	_
 24	Colors	Color	PROPN	NNPS	Number=Plur	22	nmod	22:nmod:of	Entity=61)
-25	lipsticks	lipstick	NOUN	NNS	Number=Plur	17	ccomp	17:ccomp	Entity=96)
-26	that	that	PRON	WDT	PronType=Rel	31	obj	31:obj	Discourse=attribution-positive:185->186:0
+25	lipsticks	lipstick	NOUN	NNS	Number=Plur	17	ccomp	17:ccomp|31:obj	Entity=96)
+26	that	that	PRON	WDT	PronType=Rel	31	obj	25:ref	Discourse=attribution-positive:185->186:0
 27	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	28:nsubj	Entity=(21-person-giv:act-cf1-1-ana)
 28	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	acl:relcl	25:acl:relcl	_
 29-30	I've	_	_	_	_	_	_	_	_

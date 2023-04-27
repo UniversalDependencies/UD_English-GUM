@@ -165,7 +165,7 @@
 # speaker = Phil
 # transition = zero
 # text = How are they all alike.
-1	How	how	SCONJ	WRB	PronType=Int	5	mark	5:mark	Discourse=topic-question:13->21:2
+1	How	how	ADV	WRB	PronType=Int	5	advmod	5:advmod	Discourse=topic-question:13->21:2
 2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(5-object-giv:inact-cf1-2-coref
 4	all	all	ADV	RB	Degree=Pos	5	advmod	5:advmod	Entity=5)
@@ -317,7 +317,7 @@
 6	to	to	PART	TO	_	7	mark	7:mark	_
 7	figure	figure	VERB	VB	VerbForm=Inf	5	xcomp	5:xcomp	_
 8	out	out	ADP	RP	_	7	compound:prt	7:compound:prt	_
-9	how	how	SCONJ	WRB	PronType=Rel	7	obj	7:obj	_
+9	how	how	ADV	WRB	PronType=Rel	7	obj	7:obj	_
 10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	12:nsubj	Entity=(5-object-giv:inact-cf2-1-ana)|SpaceAfter=No
 11	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
 12	different	different	ADJ	JJ	Degree=Pos	9	advcl:relcl	9:advcl:relcl	SpaceAfter=No
@@ -482,7 +482,7 @@
 10	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	12:aux	_
 11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	12:nsubj	Entity=(13-person-giv:inact-cf1-1-ana)
 12	call	call	VERB	VB	VerbForm=Inf	0	root	0:root	_
-13	something	something	NOUN	NN	Number=Sing	12	obj	9:nsubj:xsubj|12:obj|16:nsubj	Entity=(22-object-new-cf4-1-coref
+13	something	something	PRON	NN	Number=Sing|PronType=Ind	12	obj	9:nsubj:xsubj|12:obj|16:nsubj	Entity=(22-object-new-cf4-1-coref
 14-15	that's	_	_	_	_	_	_	_	_
 14	that	that	PRON	WDT	PronType=Rel	16	nsubj	13:ref	_
 15	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	16:cop	_
@@ -722,7 +722,7 @@
 3	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(13-person-giv:inact-cf2-1-ana)
 5	call	call	VERB	VB	VerbForm=Inf	0	root	0:root	_
-6	something	something	NOUN	NN	Number=Sing	5	obj	2:nsubj:xsubj|5:obj|14:obj	Entity=(31-substance-new-cf3-1-coref
+6	something	something	PRON	NN	Number=Sing|PronType=Ind	5	obj	2:nsubj:xsubj|5:obj|14:obj	Entity=(31-substance-new-cf3-1-coref
 7	that	that	PRON	WDT	PronType=Rel	8	orphan	8.1:obj	Discourse=elaboration-attribute:57->56:0
 8	you	you	PRON	PRP	Case=Acc|Number=Plur|Person=2|PronType=Prs	14	reparandum	8.1:nsubj	Entity=(1-person-giv:inact-cf1-1-ana)
 8.1	_	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	_	_	6:acl:relcl	CopyOf=-1
@@ -881,7 +881,7 @@
 5	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_
 6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	7:nsubj	Entity=(13-person-giv:inact-cf1-1-ana)
 7	call	call	VERB	VB	VerbForm=Inf	0	root	0:root	_
-8	something	something	NOUN	NN	Number=Sing	7	obj	4:nsubj:xsubj|7:obj|11:nsubj	Entity=(39-substance-new-cf3-1-coref
+8	something	something	PRON	NN	Number=Sing|PronType=Ind	7	obj	4:nsubj:xsubj|7:obj|11:nsubj	Entity=(39-substance-new-cf3-1-coref
 9-10	that's	_	_	_	_	_	_	_	_
 9	that	that	PRON	WDT	PronType=Rel	11	nsubj	8:ref	Discourse=elaboration-attribute:70->69:0
 10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	11:cop	_
@@ -1120,7 +1120,7 @@
 8	to	to	PART	TO	_	9	mark	9:mark	_
 9	show	show	VERB	VB	VerbForm=Inf	7	xcomp	7:xcomp	_
 10	you	you	PRON	PRP	Case=Acc|Number=Plur|Person=2|PronType=Prs	9	iobj	9:iobj	Entity=(1-person-giv:act-cf1-1-ana)
-11	something	something	NOUN	NN	Number=Sing	9	obj	9:obj|14:nsubj	Entity=(51-abstract-new-cf6-1-sgl
+11	something	something	PRON	NN	Number=Sing|PronType=Ind	9	obj	9:obj|14:nsubj	Entity=(51-abstract-new-cf6-1-sgl
 12	else	else	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
 13	that	that	PRON	WDT	PronType=Rel	14	nsubj	11:ref	Discourse=elaboration-attribute:91->90:0
 14	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	11:acl:relcl	_
@@ -1134,7 +1134,7 @@
 22-23	that's	_	_	_	_	_	_	_	_
 22	that	that	PRON	DT	Number=Sing|PronType=Dem	24	nsubj	24:nsubj	Entity=(50-abstract-giv:act-cf2-1-coref)
 23	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	24:cop	_
-24	where	where	SCONJ	WRB	PronType=Rel	9	conj	7:xcomp|9:conj:and	_
+24	where	where	ADV	WRB	PronType=Rel	9	conj	7:xcomp|9:conj:and	_
 25	these	this	DET	DT	Number=Plur|PronType=Dem	26	det	26:det	Entity=(52-object-new-cf5-2-coref
 26	balloons	balloon	NOUN	NNS	Number=Plur	27	nsubj	27:nsubj	Entity=52)
 27	come	come	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	advcl:relcl	24:advcl:relcl	_
@@ -1778,10 +1778,10 @@
 # transition = null
 # text = Boy you people didn't watch enough Sesame Street as a child.
 1	Boy	boy	INTJ	UH	_	6	discourse	6:discourse	Discourse=evaluation-comment:143->142:1
-2	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	6	nsubj	6:nsubj	Entity=(1-person-giv:inact-cf1-1-ana
-3	people	person	NOUN	NNS	Number=Plur	2	dep	2:dep	Entity=1)
+2	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	dep	3:dep	Entity=(1-person-giv:inact-cf1-2-coref
+3	people	person	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=1)
 4-5	didn't	_	_	_	_	_	_	_	_
-4	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin	6	aux	6:aux	_
+4	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux	6:aux	_
 5	n't	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	_
 6	watch	watch	VERB	VB	VerbForm=Inf	0	root	0:root	_
 7	enough	enough	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
@@ -2292,7 +2292,7 @@
 16	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	aux	17:aux	_
 17	wondering	wonder	VERB	VBG	Tense=Pres|VerbForm=Part	14	ccomp	14:ccomp	_
 18	r-	r-	INTJ	UH	_	19	reparandum	19:reparandum	XML=<sic></sic>
-19	how	how	SCONJ	WRB	PronType=Rel	17	obj	17:obj	Discourse=topic-solutionhood:189->199:3|Entity=(82-abstract-new-cf6-1-coref
+19	how	how	ADV	WRB	PronType=Rel	17	obj	17:obj	Discourse=topic-solutionhood:189->199:3|Entity=(82-abstract-new-cf6-1-coref
 20	that	that	PRON	DT	Number=Sing|PronType=Dem	21	nsubj	21:nsubj	Entity=(81-event-giv:act-cf2-1-coref)
 21	happened	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	advcl:relcl	19:advcl:relcl	Entity=82)|SpaceAfter=No
 22	.	.	PUNCT	.	_	10	punct	10:punct	_
@@ -2438,7 +2438,7 @@
 14	little	little	ADJ	JJ	Degree=Pos	15	obl:npmod	15:obl:npmod	_
 15	ahead	ahead	ADV	RB	Degree=Pos	12	advmod	12:advmod	_
 16	of	of	ADP	IN	_	17	case	17:case	_
-17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	nmod	15:nmod:of	Entity=(89-person-new-cf2-1-sgl)
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obl	15:obl:of	Entity=(89-person-new-cf2-1-sgl)
 18	son	son	NOUN	NN	Number=Sing	12	vocative	12:vocative	Entity=(88-person-giv:act-cf1-1-coref)|SpaceAfter=No
 19	.	.	PUNCT	.	_	12	punct	12:punct	_
 
