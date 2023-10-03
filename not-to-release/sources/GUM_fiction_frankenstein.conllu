@@ -164,7 +164,7 @@
 # newpar
 # newpar_block = sp who:::"#Robert" whom:::"#Cara" (1 s)
 1	“	''	PUNCT	``	_	3	punct	3:punct	Discourse=joint-sequence_m:13->8:3|SpaceAfter=No
-2	No	no	DET	DT	Polarity=Neg|PronType=Art	3	det	3:det	_
+2	No	no	DET	DT	Polarity=Neg|PronType=Neg	3	det	3:det	_
 3	hands	hand	NOUN	NNS	Number=Plur	0	root	0:root	Bridge=2<7|Entity=(7-object-acc:inf-cf1-1-coref)|SpaceAfter=No
 4	.	.	PUNCT	.	_	3	punct	3:punct	SpaceAfter=No
 5	”	''	PUNCT	''	_	3	punct	3:punct	_
@@ -304,7 +304,7 @@
 # speaker = Robert
 # transition = zero
 # text = No hands.”
-1	No	no	DET	DT	Polarity=Neg|PronType=Art	2	det	2:det	Discourse=restatement-repetition_m:26->25:0
+1	No	no	DET	DT	Polarity=Neg|PronType=Neg	2	det	2:det	Discourse=restatement-repetition_m:26->25:0
 2	hands	hand	NOUN	NNS	Number=Plur	0	root	0:root	Entity=(7-object-giv:inact-cf1-1-coref)|SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	2:punct	SpaceAfter=No
 4	”	''	PUNCT	''	_	2	punct	2:punct	_
@@ -562,7 +562,7 @@
 6	diet	diet	NOUN	NN	Number=Sing	2	obl	2:obl:on	Entity=19)|SpaceAfter=No
 7	,	,	PUNCT	,	_	12	punct	12:punct	_
 8	so	so	ADV	RB	_	12	advmod	12:advmod	Discourse=context-background:56->54:1
-9	of	of	ADV	IN	_	12	advmod	12:advmod	_
+9	of	of	ADP	IN	_	12	advmod	12:advmod	_
 10	course	course	NOUN	NN	Number=Sing	9	fixed	9:fixed	_
 11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Entity=(2-person-giv:act-cf1*-1-ana)
 12	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	_
@@ -653,7 +653,7 @@
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=context-background:67->63:2|Entity=(8-person-giv:inact-cf1-1-ana)
 2	’ve	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	got	get	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
-4	another	another	DET	DT	PronType=Art	6	det	6:det	Entity=(31-time-new-cf4-3-sgl
+4	another	another	DET	DT	PronType=Ind	6	det	6:det	Entity=(31-time-new-cf4-3-sgl
 5	fifteen	fifteen	NUM	CD	NumForm=Word|NumType=Card	6	nummod	6:nummod	_
 6	minutes	minute	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=31)
 7	before	before	SCONJ	IN	_	9	mark	9:mark	Discourse=context-circumstance:68->67:0
@@ -685,7 +685,8 @@
 11	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	acl:relcl	9:acl:relcl	_
 12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Entity=(34-abstract-new-cf2-2-coref
 13	match	match	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=34)
-14	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	16	nsubj:pass	16:nsubj:pass|18:nsubj:xsubj	Discourse=same-unit_m:72->70:0|Entity=(23-person-giv:act-cf1-1-ana)|SpaceAfter=No
+14-15	you’re	_	_	_	_	_	_	_	_
+14	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	16	nsubj:pass	16:nsubj:pass|18:nsubj:xsubj	Discourse=same-unit_m:72->70:0|Entity=(23-person-giv:act-cf1-1-ana)
 15	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	aux:pass	16:aux:pass	_
 16	supposed	suppose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	advcl	5:advcl:except	_
 17	to	to	PART	TO	_	18	mark	18:mark	_
@@ -722,7 +723,7 @@
 4	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	advcl:relcl	2:advcl:relcl	_
 5	and	and	CCONJ	CC	_	6	cc	6:cc	Discourse=joint-sequence_m:75->74:0
 6	see	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
-7	how	how	ADV	WRB	PronType=Int	8	advmod	8:advmod	_
+7	how	how	ADV	WRB	PronType=Rel	8	advmod	8:advmod	_
 8	long	long	ADV	RB	Degree=Pos	6	obj	6:obj	_
 9	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Bridge=36<23|Entity=(36-person-giv:act-cf1*-2-coref(23-person-acc:inf-cf2-1-ana)
 10	partner	partner	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=36)
@@ -1555,12 +1556,12 @@
 3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 4	n’t	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
 5	know	know	VERB	VB	VerbForm=Inf	0	root	0:root	_
-6	how	how	ADV	WRB	PronType=Int	7	advmod	7:advmod	_
+6	how	how	ADV	WRB	PronType=Rel	7	advmod	7:advmod	_
 7	long	long	ADV	RB	Degree=Pos	5	obj	5:obj	_
 8-9	we’ll	_	_	_	_	_	_	_	_
 8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	10:nsubj	Entity=(75-person-acc:aggr-cf2-1-coref)|SplitAnte=2<75,5<75
 9	’ll	will	AUX	MD	VerbForm=Fin	10	aux	10:aux	_
-10	be	be	VERB	VB	VerbForm=Inf	7	advcl:relcl	7:advcl:relcl	SpaceAfter=No
+10	be	be	AUX	VB	VerbForm=Inf	7	advcl:relcl	7:advcl:relcl	SpaceAfter=No
 11	.	.	PUNCT	.	_	5	punct	5:punct	SpaceAfter=No
 12	”	''	PUNCT	''	_	5	punct	5:punct	_
 
@@ -1791,7 +1792,7 @@
 # transition = null
 # text = But no roughhousing.
 1	But	but	CCONJ	CC	_	3	cc	3:cc	Discourse=adversative-antithesis:177->176:0
-2	no	no	DET	DT	Polarity=Neg|PronType=Art	3	det	3:det	_
+2	no	no	DET	DT	Polarity=Neg|PronType=Neg	3	det	3:det	_
 3	roughhousing	roughhousing	NOUN	NN	Number=Sing	0	root	0:root	Entity=(86-event-new-cf1-1-sgl)|SpaceAfter=No
 4	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -1925,7 +1926,8 @@
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=evaluation-comment:190->181:1|Entity=(6-person-giv:act-cf1*-1-ana)
 2	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	glad	glad	ADJ	JJ	Degree=Pos	0	root	0:root	_
-4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(75-person-giv:inact-cf2-1-ana)|SpaceAfter=No
+4-5	they’re	_	_	_	_	_	_	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(75-person-giv:inact-cf2-1-ana)
 5	’re	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 6	gone	gone	ADJ	JJ	Degree=Pos	3	ccomp	3:ccomp	SpaceAfter=No
 7	.	.	PUNCT	.	_	3	punct	3:punct	_

@@ -30,7 +30,7 @@
 1	Jared	Jared	PROPN	NNP	Number=Sing	17	nsubj	17:nsubj	Discourse=ROOT:2:0|Entity=(1-person-giv:act-cf1*-1,2,3-coref-Jared_Padalecki|XML=<hi rend:::"bold">
 2	Tristan	Tristan	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	Padalecki	Padalecki	PROPN	NNP	Number=Sing	1	flat	1:flat	XML=</hi>
-4	(	(	PUNCT	-LRB-	_	5	punct	5:punct	Discourse=adversative-antithesis:3->2:0|SpaceAfter=No
+4	(	(	PUNCT	-LRB-	_	5	punct	5:punct	Discourse=context-circumstance:3->2:0|SpaceAfter=No
 5	born	bear	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	1:acl	_
 6	July	July	PROPN	NNP	Number=Sing	7	compound	7:compound	Entity=(2-time-new-cf2-2-sgl|XML=<date when:::"1982-07-19">
 7	19	19	NUM	CD	NumForm=Digit|NumType=Card	5	obl:tmod	5:obl:tmod	SpaceAfter=No
@@ -640,7 +640,7 @@
 7	Cry	Cry	PROPN	NNP	Number=Sing	5	obl	5:obl:in	Entity=(92-abstract-new-cf2-1,2-coref-Cry_Wolf_%282005_film%29|XML=<hi rend:::"italic"><ref target:::"https://en.wikipedia.org/wiki/Cry_Wolf_(2005_film)">
 8	Wolf	Wolf	PROPN	NNP	Number=Sing	7	compound	7:compound	Entity=92)|SpaceAfter=No|XML=</ref></hi>
 9	,	,	PUNCT	,	_	12	punct	12:punct	_
-10	another	another	DET	DT	PronType=Art	12	det	12:det	Entity=(92-abstract-giv:act-cf2-3-appos-Cry_Wolf_%282005_film%29
+10	another	another	DET	DT	PronType=Ind	12	det	12:det	Entity=(92-abstract-giv:act-cf2-3-appos-Cry_Wolf_%282005_film%29
 11	horror	horror	NOUN	NN	Number=Sing	12	compound	12:compound	_
 12	film	film	NOUN	NN	Number=Sing	7	appos	7:appos	Entity=92)|SpaceAfter=No
 13	,	,	PUNCT	,	_	15	punct	15:punct	_
@@ -687,7 +687,7 @@
 4	brother	brother	NOUN	NN	Number=Sing	1	conj	1:conj:and|10:nsubj	Entity=96)
 5	Dean	Dean	PROPN	NNP	Number=Sing	4	appos	4:appos	Entity=(96-person-giv:act-cf2-1-appos-Jensen_Ackles)
 6	(	(	PUNCT	-LRB-	_	7	punct	7:punct	Discourse=elaboration-additional:59->58:0|SpaceAfter=No
-7	Jensen	Jensen	PROPN	NNP	Number=Sing	5	appos	5:appos	Entity=(97-person-new-cf7-1,2-coref-Jensen_Ackles|XML=<ref target:::"https://en.wikipedia.org/wiki/Jensen_Ackles">
+7	Jensen	Jensen	PROPN	NNP	Number=Sing	4	appos	4:appos	Entity=(97-person-new-cf7-1,2-coref-Jensen_Ackles|XML=<ref target:::"https://en.wikipedia.org/wiki/Jensen_Ackles">
 8	Ackles	Ackles	PROPN	NNP	Number=Sing	7	flat	7:flat	Entity=97)|SpaceAfter=No|XML=</ref>
 9	)	)	PUNCT	-RRB-	_	7	punct	7:punct	_
 10	drive	drive	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:60->58:1
@@ -709,13 +709,13 @@
 26	with	with	ADP	IN	_	28	case	28:case	_
 27	all	all	DET	DT	PronType=Tot	28	det	28:det	Entity=(102-abstract-new-cf6-2-sgl
 28	manner	manner	NOUN	NN	Number=Sing	25	obl	25:obl:with	_
-29	of	of	ADP	IN	_	30	case	30:case	_
+29	of	of	ADP	IN	_	35	case	35:case	_
 30	fantasy	fantasy	NOUN	NN	Number=Sing	35	compound	35:compound	Entity=(103-abstract-new-cf9-6-sgl(104-abstract-new-cf11-1-sgl)
 31	&	&	CCONJ	CC	_	34	cc	34:cc	_
 32	sci	sci	NOUN	NN	Number=Sing	34	compound	34:compound	Entity=(105-abstract-new-cf10-3-coref|SpaceAfter=No|XML=<w>
 33	-	-	PUNCT	HYPH	_	32	punct	32:punct	SpaceAfter=No
 34	fi	fi	NOUN	NN	Number=Sing	30	conj	30:conj:and|35:compound	Entity=105)|XML=</w>
-35	genre	genre	NOUN	NN	Number=Sing	28	nmod	28:nmod	Entity=103)102)|SpaceAfter=No
+35	genre	genre	NOUN	NN	Number=Sing	28	nmod	28:nmod:of	Entity=103)102)|SpaceAfter=No
 36	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_bio_padalecki-25
@@ -1294,7 +1294,7 @@
 23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(190-object-new-cf7-2-coref
 24	shirt	shirt	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=190)
 25	featuring	feature	VERB	VBG	VerbForm=Ger	24	acl	24:acl	Discourse=elaboration-attribute:106->105:0
-26	both	both	DET	DT	PronType=Art	25	obj	25:obj	Entity=(191-object-new-cf9-1-sgl
+26	both	both	DET	DT	PronType=Tot	25	obj	25:obj	Entity=(191-object-new-cf9-1-sgl
 27	of	of	ADP	IN	_	29	case	29:case	_
 28	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	Entity=(192-person-acc:aggr-cf1-1-coref)|SplitAnte=1<192,97<192
 29	faces	face	NOUN	NNS	Number=Plur	26	nmod	26:nmod:of	Entity=191)|SpaceAfter=No

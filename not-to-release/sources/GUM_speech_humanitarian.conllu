@@ -256,7 +256,7 @@
 62	of	of	ADP	IN	_	61	fixed	61:fixed	_
 63	who	who	PRON	WP	PronType=Rel	59	obl	52:ref	_
 64	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	65	nsubj	65:nsubj	Entity=(45-person-giv:act-cf2-1-ana)
-65	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	63	acl:relcl	63:acl:relcl	Entity=45)|SpaceAfter=No
+65	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	63	acl:relcl	63:acl:relcl	Entity=45)|SpaceAfter=No
 66	;	;	PUNCT	:	_	70	punct	70:punct	_
 67	and	and	CCONJ	CC	_	70	cc	70:cc	Discourse=same-unit_m:26->15:1
 68	so	so	ADV	RB	_	69	advmod	69:advmod	Entity=(47-person-new-cf14-3-sgl
@@ -724,11 +724,11 @@
 7	,	,	PUNCT	,	_	6	punct	6:punct	_
 8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	9:nsubj	Entity=(48-person-giv:inact-cf1-1-ana)
 9	see	see	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-10	conflicts	conflict	NOUN	NNS	Number=Plur	11	nsubj	11:nsubj	Discourse=adversative-contrast_m:58->46:2|Entity=(108-abstract-new-cf3-1-sgl)
-11	persisting	persist	VERB	VBG	VerbForm=Ger	9	ccomp	9:ccomp	SpaceAfter=No
+10	conflicts	conflict	NOUN	NNS	Number=Plur	9	obj	9:obj|11:nsubj:xsubj|14:nsubj:xsubj|23:nsubj:xsubj	Discourse=adversative-contrast_m:58->46:2|Entity=(108-abstract-new-cf4-1-sgl)
+11	persisting	persist	VERB	VBG	VerbForm=Ger	9	xcomp	9:xcomp	SpaceAfter=No
 12	,	,	PUNCT	,	_	14	punct	14:punct	_
-13	terrorism	terrorism	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	Discourse=joint-list_m:59->58:0|Entity=(109-abstract-new-cf4-1-sgl)
-14	spreading	spread	VERB	VBG	VerbForm=Ger	11	conj	9:ccomp|11:conj:and	_
+13	terrorism	terrorism	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	Discourse=joint-list_m:59->58:0|Entity=(109-abstract-new-cf3-1-sgl)
+14	spreading	spread	VERB	VBG	VerbForm=Ger	11	conj	9:xcomp|11:conj:and	_
 15	and	and	CCONJ	CC	_	23	cc	23:cc	Discourse=joint-list_m:60->58:0
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(110-abstract-new-cf2-2-sgl
 17	risk	risk	NOUN	NN	Number=Sing	23	nsubj	23:nsubj	_
@@ -737,7 +737,7 @@
 20	new	new	ADJ	JJ	Degree=Pos	22	amod	22:amod	_
 21	arms	arm	NOUN	NNS	Number=Plur	22	compound	22:compound	_
 22	race	race	NOUN	NN	Number=Sing	17	nmod	17:nmod:of	Entity=111)110)
-23	growing	grow	VERB	VBG	VerbForm=Ger	11	conj	9:ccomp|11:conj:and	SpaceAfter=No
+23	growing	grow	VERB	VBG	VerbForm=Ger	11	conj	9:xcomp|11:conj:and	SpaceAfter=No
 24	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_speech_humanitarian-27

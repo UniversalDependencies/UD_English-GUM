@@ -47,7 +47,7 @@
 # newpar_block = p (9 s)
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	4:expl	Discourse=attribution-positive:3->4:0|Entity=(7-event-new-cf2-1-cata)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
-3	no	no	DET	DT	Polarity=Neg|PronType=Art	4	det	4:det	_
+3	no	no	DET	DT	Polarity=Neg|PronType=Neg	4	det	4:det	_
 4	exaggeration	exaggeration	NOUN	NN	Number=Sing	0	root	0:root	Entity=(8-abstract-new-cf4-1-sgl)
 5	to	to	PART	TO	_	6	mark	6:mark	Entity=(7-event-acc:com-cf2-2,8-coref
 6	say	say	VERB	VB	VerbForm=Inf	4	csubj	4:csubj	_
@@ -218,7 +218,7 @@
 # text = Given the volume of content this represents, it is easy to forget that the television series itself is an adaptation of a book series with a pre-existing fandom.
 1	Given	give	VERB	VBN	Tense=Past|VerbForm=Part	3	case	3:case	Discourse=context-circumstance:14->15:0
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(47-abstract-new-cf5-2-sgl
-3	volume	volume	NOUN	NN	Number=Sing	11	acl	11:acl	_
+3	volume	volume	NOUN	NN	Number=Sing	11	advcl	11:advcl	_
 4	of	of	ADP	IN	_	5	case	5:case	_
 5	content	content	NOUN	NN	Number=Sing	3	nmod	3:nmod:of	Entity=(48-abstract-new-cf7-1-sgl)
 6	this	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	7:nsubj	Entity=(32-abstract-giv:act-cf1*-1-ana)
@@ -708,8 +708,8 @@
 # s_type = decl
 # transition = continue
 # text = What results are two completely separate reviews of “The Rains of Castamere” which in turn document the fans’ reactions to the episode in the form of user comment threads:
-1	What	what	PRON	WP	PronType=Int	2	obj	2:obj	Discourse=context-background:51->57:3|Entity=(108-abstract-giv:act-cf1*-2-coref
-2	results	result	NOUN	NNS	Number=Plur	7	csubj	7:csubj	Entity=108)
+1	What	what	PRON	WP	PronType=Rel	7	nsubj	7:nsubj	Discourse=context-background:51->57:3|Entity=(108-abstract-giv:act-cf1*-1-coref
+2	results	result	NOUN	NNS	Number=Plur	1	acl:relcl	1:acl:relcl	Entity=108)
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 4	two	two	NUM	CD	NumForm=Word|NumType=Card	7	nummod	7:nummod	Entity=(108-abstract-giv:act-cf1*-4-pred
 5	completely	completely	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
@@ -795,7 +795,7 @@
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(127-abstract-new-cf3-2-coref
 11	content	content	NOUN	NN	Number=Sing	9	obj	9:obj	_
 12	of	of	ADP	IN	_	15	case	15:case	_
-13	both	both	DET	DT	PronType=Art	15	det	15:det	Entity=(117-abstract-giv:inact-cf2-3-coref
+13	both	both	DET	DT	PronType=Tot	15	det	15:det	Entity=(117-abstract-giv:inact-cf2-3-coref
 14	comment	comment	NOUN	NN	Number=Sing	15	compound	15:compound	Entity=(128-abstract-new-cf11-1-sgl)
 15	threads	thread	NOUN	NNS	Number=Plur	11	nmod	11:nmod:of	Entity=117)127)
 16	—	—	PUNCT	:	_	18	punct	18:punct	Discourse=elaboration-additional:58->57:0
@@ -909,7 +909,7 @@
 5	and	and	CCONJ	CC	_	6	cc	6:cc	_
 6	sub-categories	sub-category	NOUN	NNS	Number=Plur	4	conj	2:nmod:of|4:conj:and	Entity=(146-abstract-new-cf7-1-sgl)
 7	between	between	ADP	IN	_	9	case	9:case	_
-8	both	both	DET	DT	PronType=Art	9	det	9:det	Entity=(140-person-giv:inact-cf3-2-coref
+8	both	both	DET	DT	PronType=Tot	9	det	9:det	Entity=(140-person-giv:inact-cf3-2-coref
 9	groups	group	NOUN	NNS	Number=Plur	2	nmod	2:nmod:between	Entity=140)144)
 10	provides	provide	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 11	preliminary	preliminary	ADJ	JJ	Degree=Pos	12	amod	12:amod	Entity=(80-abstract-giv:inact-cf1-2-coref

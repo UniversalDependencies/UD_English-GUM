@@ -30,7 +30,7 @@
 # newpar
 # newpar_block = p (7 s)
 1	Despite	despite	ADP	IN	_	3	case	3:case	Discourse=adversative-concession:2->3:0
-2	how	how	ADV	WRB	PronType=Int	3	advmod	3:advmod	_
+2	how	how	ADV	WRB	PronType=Rel	3	advmod	3:advmod	_
 3	much	much	ADJ	JJ	Degree=Pos	14	obl	14:obl:despite	_
 4	humans	human	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=(3-person-new-cf1-1-sgl)
 5	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	3:acl:relcl	_
@@ -338,7 +338,7 @@
 10	evaluating	evaluate	VERB	VBG	VerbForm=Ger	7	conj	5:nmod:of|7:conj:or	_
 11	and	and	CCONJ	CC	_	12	cc	12:cc	_
 12	judging	judge	VERB	VBG	VerbForm=Ger	10	conj	7:conj|10:conj:and	_
-13	another	another	DET	DT	PronType=Art	14	det	14:det	Entity=(62-abstract-new-cf1-2-coref
+13	another	another	DET	DT	PronType=Ind	14	det	14:det	Entity=(62-abstract-new-cf1-2-coref
 14	culture	culture	NOUN	NN	Number=Sing	10	obj	10:obj|12:obj	Entity=62)
 15	based	base	VERB	VBN	Tense=Past|VerbForm=Part	10	advcl	10:advcl	Discourse=mode-manner:34->33:0
 16	on	on	SCONJ	IN	_	17	mark	17:mark	_
@@ -654,7 +654,7 @@
 19	cultural	cultural	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
 20	values	value	NOUN	NNS	Number=Plur	14	nmod	14:nmod:of	Entity=108)
 21	on	on	ADP	IN	_	23	case	23:case	_
-22	another	another	DET	DT	PronType=Art	23	det	23:det	Entity=(109-abstract-new-cf6-2-sgl
+22	another	another	DET	DT	PronType=Ind	23	det	23:det	Entity=(109-abstract-new-cf6-2-sgl
 23	culture	culture	NOUN	NN	Number=Sing	14	nmod	14:nmod:on	Entity=109)107)|SpaceAfter=No
 24	.	.	PUNCT	.	_	7	punct	7:punct	_
 
@@ -1124,7 +1124,7 @@
 3	Inuit	Inuit	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	people	person	NOUN	NNS	Number=Plur	8	obl	8:obl:to	Entity=175)|SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
-6	winning	win	VERB	VBG	VerbForm=Ger	8	nsubj	8:nsubj	_
+6	winning	win	VERB	VBG	VerbForm=Ger	8	csubj	8:csubj	_
 7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	8:cop	_
 8	enjoyable	enjoyable	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
 9	,	,	PUNCT	,	_	13	punct	13:punct	_
@@ -1139,7 +1139,7 @@
 18	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(181-place-new-cf6-2-sgl(175-person-giv:act-cf1-1-ana)
 19	environment	environment	NOUN	NN	Number=Sing	16	obl	16:obl:to	Entity=181)180)|SpaceAfter=No
 20	:	:	PUNCT	:	_	26	punct	26:punct	_
-21	how	how	ADV	WRB	PronType=Int	22	advmod	22:advmod	Discourse=causal-cause:105->104:0
+21	how	how	ADV	WRB	PronType=Rel	22	advmod	22:advmod	Discourse=causal-cause:105->104:0
 22	hard	hard	ADV	RB	Degree=Pos	26	csubj	26:csubj	_
 23	someone	someone	PRON	NN	Number=Sing|PronType=Ind	24	nsubj	24:nsubj	Entity=(182-person-new-cf2-1-sgl)
 24	tried	try	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	advcl:relcl	22:advcl:relcl	_
@@ -1187,7 +1187,7 @@
 27	with	with	ADP	IN	_	31	case	31:case	_
 28	little	little	ADJ	JJ	Degree=Pos	31	amod	31:amod	Entity=(192-substance-new-cf8-4-sgl
 29	or	or	CCONJ	CC	_	30	cc	30:cc	_
-30	no	no	DET	DT	Polarity=Neg|PronType=Art	28	conj	28:conj:or|31:det	_
+30	no	no	DET	DT	Polarity=Neg|PronType=Neg	28	conj	28:conj:or|31:det	_
 31	food	food	NOUN	NN	Number=Sing	25	obl	25:obl:with	_
 32	to	to	PART	TO	_	33	mark	33:mark	Discourse=purpose-attribute:109->108:0
 33	share	share	VERB	VB	VerbForm=Inf	31	acl	31:acl:to	_
@@ -1440,7 +1440,7 @@
 13	relativism	relativism	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=2)|SpaceAfter=No
 14	,	,	PUNCT	,	_	4	punct	4:punct	_
 15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	16:nsubj	Discourse=same-unit_m:131->128:0|Entity=(225-person-giv:act-cf1-1-ana)
-16	swing	swe	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+16	swing	swing	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 17	too	too	ADV	RB	Degree=Pos	18	advmod	18:advmod	_
 18	far	far	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
 19	to	to	ADP	IN	_	22	case	22:case	_
@@ -1470,7 +1470,7 @@
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(230-abstract-giv:act-cf1-2-coref
 12	belief	belief	NOUN	NN	Number=Sing	9	obl	9:obl:to	_
 13	that	that	SCONJ	IN	_	17	mark	17:mark	Discourse=elaboration-attribute:134->133:0
-14	another	another	DET	DT	PronType=Art	15	det	15:det	Entity=(231-abstract-new-cf5-2-sgl
+14	another	another	DET	DT	PronType=Ind	15	det	15:det	Entity=(231-abstract-new-cf5-2-sgl
 15	culture	culture	NOUN	NN	Number=Sing	17	nsubj	17:nsubj	Entity=231)
 16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	17:cop	_
 17	superior	superior	ADJ	JJ	Degree=Pos	12	acl	12:acl:that	_

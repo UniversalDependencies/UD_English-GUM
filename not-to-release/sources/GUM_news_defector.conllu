@@ -141,7 +141,7 @@
 13	of	of	ADP	IN	_	14	case	14:case	_
 14	Scientology	Scientology	PROPN	NNP	Number=Sing	12	obl	12:obl:of	Entity=(2-organization-giv:act-cf3-1-coref-Church_of_Scientology)|SpaceAfter=No
 15	,	,	PUNCT	,	_	16	punct	16:punct	_
-16	written	write	VERB	VBN	Tense=Past|VerbForm=Part	8	acl	8:acl	Discourse=adversative-antithesis:14->13:0
+16	written	write	VERB	VBN	Tense=Past|VerbForm=Part	8	acl	8:acl	Discourse=elaboration-attribute:14->13:0
 17	by	by	ADP	IN	_	18	case	18:case	_
 18	Marc	Marc	PROPN	NNP	Number=Sing	16	obl:agent	16:obl:agent	Entity=(13-person-new-cf4-1,2-sgl|XML=<ref>
 19	Headley	Headley	PROPN	NNP	Number=Sing	18	flat	18:flat	Entity=13)12)|SpaceAfter=No|XML=</ref>
@@ -294,7 +294,7 @@
 15	small	small	ADJ	JJ	Degree=Pos	16	amod	16:amod	Entity=(28-abstract-new-cf5-2-sgl
 16	diet	diet	NOUN	NN	Number=Sing	13	conj	9:nmod:with|13:conj:and	Entity=28)
 17	provided	provide	VERB	VBN	Tense=Past|VerbForm=Part	16	acl	16:acl	Discourse=elaboration-attribute:28->27:0
-18	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=joint-list_m:29->27:1
+18	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=same-unit_m:29->27:1
 19	significant	significant	ADJ	JJ	Degree=Pos	20	amod	20:amod	Entity=(29-time-new-cf6-2-sgl
 20	time	time	NOUN	NN	Number=Sing	13	conj	9:nmod:with|13:conj:and	Entity=29)
 21	invested	invest	VERB	VBN	Tense=Past|VerbForm=Part	20	acl	20:acl	Discourse=elaboration-attribute:30->29:0
@@ -414,12 +414,12 @@
 7	,	,	PUNCT	,	_	9	punct	9:punct	_
 8	who	who	PRON	WP	PronType=Rel	9	nsubj	4:ref	Discourse=elaboration-attribute:43->42:0
 9	helped	help	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_
-10	him	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj|15:nsubj	Entity=(1-person-giv:act-cf1*-1-ana)
-11	leave	leave	VERB	VB	VerbForm=Inf	9	ccomp	9:ccomp	_
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	9:obj|11:nsubj:xsubj|15:nsubj:xsubj	Entity=(1-person-giv:act-cf1*-1-ana)
+11	leave	leave	VERB	VB	VerbForm=Inf	9	xcomp	9:xcomp	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(2-organization-giv:act-cf2-2-coref-Church_of_Scientology
 13	organization	organization	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=2)
 14	and	and	CCONJ	CC	_	15	cc	15:cc	_
-15	get	get	VERB	VB	VerbForm=Inf	11	conj	9:ccomp|11:conj:and	_
+15	get	get	VERB	VB	VerbForm=Inf	11	conj	9:xcomp|11:conj:and	_
 16	in	in	ADP	IN	_	17	case	17:case	_
 17	touch	touch	NOUN	NN	Number=Sing	15	obl	15:obl:in	_
 18	with	with	ADP	IN	_	19	case	19:case	_
@@ -603,7 +603,7 @@
 57	time	time	NOUN	NN	Number=Sing	49	obl	49:obl:for	Entity=58)54)|SpaceAfter=No
 58	,	,	PUNCT	,	_	59	punct	59:punct	_
 59	UNLESS	unless	SCONJ	IN	_	64	mark	64:mark	Discourse=contingency-condition:63->62:0|XML=<hi rend:::"caps"></hi>
-60	of	of	ADV	IN	_	64	advmod	64:advmod	_
+60	of	of	ADP	IN	_	64	advmod	64:advmod	_
 61	course	course	NOUN	NN	Number=Sing	60	fixed	60:fixed	SpaceAfter=No
 62	,	,	PUNCT	,	_	60	punct	60:punct	_
 63	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	64	nsubj	64:nsubj|66:nsubj|70:nsubj	Entity=(1-person-giv:act-cf1*-1-ana)
@@ -741,7 +741,7 @@
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(73-place-new-cf3-2-sgl
 7	hotel	hotel	NOUN	NN	Number=Sing	4	obl	4:obl:to	SpaceAfter=No
 8	,	,	PUNCT	,	_	12	punct	12:punct	_
-9	where	where	ADV	WRB	PronType=Rel	12	advmod	12:advmod	Discourse=purpose-attribute:77->76:0
+9	where	where	ADV	WRB	PronType=Rel	12	advmod	12:advmod	Discourse=elaboration-attribute:77->76:0
 10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Entity=(1-person-giv:act-cf1*-1-ana)
 11	could	could	AUX	MD	VerbForm=Fin	12	aux	12:aux	_
 12	route	route	VERB	VB	VerbForm=Inf	7	acl:relcl	7:acl:relcl	_
@@ -936,7 +936,7 @@
 16	where	where	ADV	WRB	PronType=Int	18	advmod	18:advmod	Discourse=attribution-positive:97->98:0
 17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	18:nsubj	Entity=(93-person-giv:act-cf1-1-ana)
 18	claimed	claim	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	advcl	7:advcl:where	_
-19	Montalvo	Montalvo	PROPN	NNP	Number=Sing	21	nsubj	21:nsubj	Discourse=elaboration-additional:98->96:0|Entity=(1-person-giv:act-cf2*-1-coref)
+19	Montalvo	Montalvo	PROPN	NNP	Number=Sing	21	nsubj	21:nsubj	Discourse=elaboration-attribute:98->96:0|Entity=(1-person-giv:act-cf2*-1-coref)
 20	allegedly	allegedly	ADV	RB	Degree=Pos	21	advmod	21:advmod	_
 21	left	leave	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	ccomp	18:ccomp	_
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(6-organization-giv:inact-cf5-2-coref-Sea_Org
@@ -989,7 +989,7 @@
 35	,	,	PUNCT	,	_	37	punct	37:punct	_
 36	"	''	PUNCT	``	_	37	punct	37:punct	SpaceAfter=No|XML=<quote>
 37	everything	everything	PRON	NN	Number=Sing|PronType=Tot	32	obj	32:obj	Entity=(102-abstract-new-cf10-1-sgl
-38	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	nsubj	39:nsubj	Entity=(1-person-giv:act-cf1*-1-ana)
+38	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	nsubj	39:nsubj	Discourse=elaboration-attribute:105->104:0|Entity=(1-person-giv:act-cf1*-1-ana)
 39	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	37	acl:relcl	37:acl:relcl	Entity=102)|SpaceAfter=No
 40	"	''	PUNCT	''	_	37	punct	37:punct	SpaceAfter=No|XML=</quote>
 41	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -999,12 +999,12 @@
 # s_type = decl
 # transition = smooth-shift
 # text = Whitmore stated to LA Weekly that the alleged crime involved five hard drives each of $ 200 in value.
-1	Whitmore	Whitmore	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=attribution-positive:105->106:0|Entity=(84-person-giv:act-cf1*-1-coref)
+1	Whitmore	Whitmore	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=attribution-positive:106->107:0|Entity=(84-person-giv:act-cf1*-1-coref)
 2	stated	state	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	to	to	ADP	IN	_	5	case	5:case	_
 4	LA	LA	PROPN	NNP	Abbr=Yes|Number=Sing	5	compound	5:compound	Entity=(85-organization-giv:act-cf2-1,2-coref-LA_Weekly(66-place-giv:act-cf3-1-coref-Los_Angeles)
 5	Weekly	Weekly	PROPN	NNP	Number=Sing	2	obl	2:obl:to	Entity=85)
-6	that	that	SCONJ	IN	_	10	mark	10:mark	Discourse=elaboration-additional:106->100:3
+6	that	that	SCONJ	IN	_	10	mark	10:mark	Discourse=elaboration-additional:107->100:3
 7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(103-event-new-cf6-3-sgl
 8	alleged	allege	VERB	VBN	Tense=Past|VerbForm=Part	9	amod	9:amod	_
 9	crime	crime	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=103)
@@ -1027,7 +1027,7 @@
 # text = Montalvo has been assisted by former members of Scientology, including musician Tiziano Lugli and actor Jason Beghe.
 # newpar
 # newpar_block = p (3 s)
-1	Montalvo	Montalvo	PROPN	NNP	Number=Sing	4	nsubj:pass	4:nsubj:pass	Discourse=elaboration-additional:107->5:10|Entity=(1-person-giv:inact-cf1-1-coref)
+1	Montalvo	Montalvo	PROPN	NNP	Number=Sing	4	nsubj:pass	4:nsubj:pass	Discourse=elaboration-additional:108->5:10|Entity=(1-person-giv:inact-cf1-1-coref)
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	aux:pass	4:aux:pass	_
 4	assisted	assist	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -1037,7 +1037,7 @@
 8	of	of	ADP	IN	_	9	case	9:case	_
 9	Scientology	Scientology	PROPN	NNP	Number=Sing	7	nmod	7:nmod:of	Entity=(2-organization-giv:inact-cf2-1-coref-Church_of_Scientology)105)|SpaceAfter=No
 10	,	,	PUNCT	,	_	12	punct	12:punct	_
-11	including	include	VERB	VBG	VerbForm=Ger	12	case	12:case	Discourse=elaboration-additional:108->107:0
+11	including	include	VERB	VBG	VerbForm=Ger	12	case	12:case	Discourse=elaboration-additional:109->108:0
 12	musician	musician	NOUN	NN	Number=Sing	7	nmod	7:nmod:including	Bridge=105<106|Entity=(106-person-acc:inf-cf3-1,2,3-sgl
 13	Tiziano	Tiziano	PROPN	NNP	Number=Sing	12	flat	12:flat	_
 14	Lugli	Lugli	PROPN	NNP	Number=Sing	12	flat	12:flat	Entity=106)
@@ -1052,18 +1052,18 @@
 # s_type = decl
 # transition = establishment
 # text = Rathbun requested donations via a statement made on his blog, in order to help Montalvo with his legal defense financing.
-1	Rathbun	Rathbun	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint-other_m:109->107:1|Entity=(15-person-giv:inact-cf1-1-coref-Mark_Rathbun)
+1	Rathbun	Rathbun	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint-other_m:110->108:1|Entity=(15-person-giv:inact-cf1-1-coref-Mark_Rathbun)
 2	requested	request	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	donations	donation	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=(108-abstract-new-cf4-1-sgl)
 4	via	via	ADP	IN	_	6	case	6:case	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(109-abstract-new-cf5-2-sgl
 6	statement	statement	NOUN	NN	Number=Sing	2	obl	2:obl:via	_
-7	made	make	VERB	VBN	Tense=Past|VerbForm=Part	6	acl	6:acl	Discourse=elaboration-attribute:110->109:0
+7	made	make	VERB	VBN	Tense=Past|VerbForm=Part	6	acl	6:acl	Discourse=elaboration-attribute:111->110:0
 8	on	on	ADP	IN	_	10	case	10:case	_
 9	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(42-place-giv:inact-cf3-2-coref(15-person-giv:act-cf1-1-ana-Mark_Rathbun)
 10	blog	blog	NOUN	NN	Number=Sing	7	obl	7:obl:on	Entity=42)109)|SpaceAfter=No
 11	,	,	PUNCT	,	_	15	punct	15:punct	_
-12	in	in	SCONJ	IN	_	15	mark	15:mark	Discourse=purpose-goal:111->109:1
+12	in	in	SCONJ	IN	_	15	mark	15:mark	Discourse=purpose-goal:112->110:1
 13	order	order	NOUN	NN	Number=Sing	12	fixed	12:fixed	_
 14	to	to	PART	TO	_	15	mark	15:mark	_
 15	help	help	VERB	VB	VerbForm=Inf	2	advcl	2:advcl:in_order_to	_
@@ -1080,14 +1080,14 @@
 # s_type = decl
 # transition = smooth-shift
 # text = He described Montalvo as an individual, "facing the penitentiary in thanks for the following sins: a) Leaving a lifehood of slavery to get a taste of freedom and the world. b) Refusing - despite every provocation and incentive and threat - to frame three guys who went out of their ways (and dipped into their pockets) to help the kid achieve that freedom."
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration-additional:112->109:2|Entity=(15-person-giv:act-cf1*-1-ana-Mark_Rathbun)
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration-additional:113->110:2|Entity=(15-person-giv:act-cf1*-1-ana-Mark_Rathbun)
 2	described	describe	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	Montalvo	Montalvo	PROPN	NNP	Number=Sing	2	obj	2:obj	Entity=(1-person-giv:act-cf2-1-coref)
 4	as	as	ADP	IN	_	6	case	6:case	_
 5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(112-person-new-cf14-2-sgl
 6	individual	individual	NOUN	NN	Number=Sing	2	obl	2:obl:as	SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	9:punct	_
-8	"	''	PUNCT	``	_	9	punct	9:punct	Discourse=elaboration-attribute:113->112:0|SpaceAfter=No|XML=<quote>
+8	"	''	PUNCT	``	_	9	punct	9:punct	Discourse=elaboration-attribute:114->113:0|SpaceAfter=No|XML=<quote>
 9	facing	face	VERB	VBG	VerbForm=Ger	6	acl	6:acl	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(113-place-new-cf7-2-sgl
 11	penitentiary	penitentiary	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=113)
@@ -1098,13 +1098,13 @@
 16	following	follow	VERB	VBG	VerbForm=Ger	17	amod	17:amod	_
 17	sins	sin	NOUN	NNS	Number=Plur	13	nmod	13:nmod:for	Entity=114)112)|SpaceAfter=No
 18	:	:	PUNCT	:	_	20	punct	20:punct	_
-19	a)	a)	X	LS	_	20	dep	20:dep	Discourse=elaboration-additional:114->113:0
+19	a)	a)	X	LS	_	20	dep	20:dep	Discourse=elaboration-additional:115->114:0
 20	Leaving	leave	VERB	VBG	VerbForm=Ger	17	appos	17:appos	Bridge=114<115|Entity=(115-event-acc:inf-cf5-1-sgl
 21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(116-abstract-new-cf9-2-sgl
 22	lifehood	lifehood	NOUN	NN	Number=Sing	20	obj	20:obj	_
 23	of	of	ADP	IN	_	24	case	24:case	_
 24	slavery	slavery	NOUN	NN	Number=Sing	22	nmod	22:nmod:of	Entity=(117-abstract-new-cf15-1-sgl)116)
-25	to	to	PART	TO	_	26	mark	26:mark	Discourse=purpose-goal:115->114:0
+25	to	to	PART	TO	_	26	mark	26:mark	Discourse=purpose-goal:116->115:0
 26	get	get	VERB	VB	VerbForm=Inf	20	advcl	20:advcl:to	_
 27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	28:det	Entity=(118-abstract-new-cf10-2-sgl
 28	taste	taste	NOUN	NN	Number=Sing	26	obj	26:obj	_
@@ -1114,9 +1114,9 @@
 32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	33:det	Entity=(120-place-new-cf12-2-sgl
 33	world	world	NOUN	NN	Number=Sing	30	conj	28:nmod:of|30:conj:and	Entity=120)118)115)|SpaceAfter=No
 34	.	.	PUNCT	.	_	20	punct	20:punct	_
-35	b)	b)	X	LS	_	36	dep	36:dep	Discourse=joint-list_m:116->114:1
+35	b)	b)	X	LS	_	36	dep	36:dep	Discourse=joint-list_m:117->115:1
 36	Refusing	refuse	VERB	VBG	VerbForm=Ger	20	conj	17:appos|20:conj	Bridge=114<121|Entity=(121-event-acc:inf-cf6-1-sgl
-37	-	-	PUNCT	:	_	40	punct	40:punct	Discourse=adversative-concession:117->116:0
+37	-	-	PUNCT	:	_	40	punct	40:punct	Discourse=adversative-concession:118->117:0
 38	despite	despite	ADP	IN	_	40	case	40:case	_
 39	every	every	DET	DT	PronType=Tot	40	det	40:det	Entity=(122-event-new-cf13-2,4,6-sgl
 40	provocation	provocation	NOUN	NN	Number=Sing	36	obl	36:obl:despite	_
@@ -1125,24 +1125,24 @@
 43	and	and	CCONJ	CC	_	44	cc	44:cc	_
 44	threat	threat	NOUN	NN	Number=Sing	40	conj	36:obl:despite|40:conj:and	Entity=122)
 45	-	-	PUNCT	:	_	47	punct	47:punct	_
-46	to	to	PART	TO	_	47	mark	47:mark	Discourse=same-unit_m:118->116:1
+46	to	to	PART	TO	_	47	mark	47:mark	Discourse=same-unit_m:119->117:1
 47	frame	frame	VERB	VB	VerbForm=Inf	36	xcomp	36:xcomp	_
 48	three	three	NUM	CD	NumForm=Word|NumType=Card	49	nummod	49:nummod	Entity=(123-person-new-cf8-2-sgl
 49	guys	guy	NOUN	NNS	Number=Plur	47	obj	47:obj|51:nsubj	_
-50	who	who	PRON	WP	PronType=Rel	51	nsubj	49:ref	Discourse=elaboration-attribute:119->118:0
+50	who	who	PRON	WP	PronType=Rel	51	nsubj	49:ref	Discourse=elaboration-attribute:120->119:0
 51	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	49	acl:relcl	49:acl:relcl	_
 52	out	out	ADP	IN	_	55	case	55:case	_
 53	of	of	ADP	IN	_	52	fixed	52:fixed	_
 54	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	55	nmod:poss	55:nmod:poss	Entity=(124-person-new-cf4-1-cata)
 55	ways	way	NOUN	NNS	Number=Plur	51	obl	51:obl:out_of	_
-56	(	(	PUNCT	-LRB-	_	58	punct	58:punct	Discourse=joint-list_m:120->119:0|SpaceAfter=No
+56	(	(	PUNCT	-LRB-	_	58	punct	58:punct	Discourse=joint-list_m:121->120:0|SpaceAfter=No
 57	and	and	CCONJ	CC	_	58	cc	58:cc	_
 58	dipped	dip	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	51	conj	49:acl:relcl|51:conj:and	_
 59	into	into	ADP	IN	_	61	case	61:case	_
 60	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	61	nmod:poss	61:nmod:poss	Entity=(125-abstract-new-cf16-2-sgl(124-person-acc:com-cf4-1-coref)
 61	pockets	pocket	NOUN	NNS	Number=Plur	58	obl	58:obl:into	Entity=125)|SpaceAfter=No
 62	)	)	PUNCT	-RRB-	_	58	punct	58:punct	_
-63	to	to	PART	TO	_	64	mark	64:mark	Discourse=purpose-goal:121->119:1
+63	to	to	PART	TO	_	64	mark	64:mark	Discourse=purpose-goal:122->120:1
 64	help	help	VERB	VB	VerbForm=Inf	51	advcl	51:advcl:to	_
 65	the	the	DET	DT	Definite=Def|PronType=Art	66	det	66:det	Entity=(1-person-giv:act-cf2-2-coref
 66	kid	kid	NOUN	NN	Number=Sing	64	obj	64:obj|67:nsubj:xsubj	Entity=1)

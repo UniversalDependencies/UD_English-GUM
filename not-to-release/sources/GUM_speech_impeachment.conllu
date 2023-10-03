@@ -163,12 +163,12 @@
 17	always	always	ADV	RB	_	19	advmod	19:advmod	_
 18	be	be	AUX	VB	VerbForm=Inf	19	cop	19:cop	_
 19	impartial	impartial	ADJ	JJ	Degree=Pos	11	appos	11:appos	_
-20	for	for	ADP	IN	_	22	case	22:case	Discourse=purpose-goal:20->19:0
+20	for	for	SCONJ	IN	_	25	mark	25:mark	Discourse=purpose-goal:20->19:0
 21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(27-event-new-cf5-2-sgl
 22	trial	trial	NOUN	NN	Number=Sing	25	nsubj	25:nsubj	Entity=27)
 23	to	to	PART	TO	_	25	mark	25:mark	_
 24	be	be	AUX	VB	VerbForm=Inf	25	cop	25:cop	_
-25	fair	fair	ADJ	JJ	Degree=Pos	19	advcl	19:advcl:to	Entity=25)|SpaceAfter=No
+25	fair	fair	ADJ	JJ	Degree=Pos	19	advcl	19:advcl:for_to	Entity=25)|SpaceAfter=No
 26	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_speech_impeachment-6
@@ -194,7 +194,7 @@
 15	,	,	PUNCT	,	_	14	punct	14:punct	_
 16	as	as	SCONJ	IN	_	18	mark	18:mark	Discourse=restatement-partial:24->23:0
 17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	18:nsubj	Entity=(30-person-acc:com-cf2-1-ana)
-18	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	25	advcl	25:advcl:as	_
+18	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	25	advcl	25:advcl:as	_
 19	not	not	PART	RB	Polarity=Neg	18	advmod	18:advmod	SpaceAfter=No
 20	,	,	PUNCT	,	_	18	punct	18:punct	_
 21	under	under	ADP	IN	_	23	case	23:case	Discourse=same-unit_m:25->23:1
@@ -486,7 +486,7 @@
 27	not	not	PART	RB	Polarity=Neg	31	advmod	27.1:advmod	XML=</w>
 27.1	deny	deny	VERB	VB	VerbForm=Inf	_	_	21:advcl:that	_
 28	and	and	CCONJ	CC	_	29	cc	31:cc	_
-29	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	conj	31:aux	_
+29	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	conj	31:aux	_
 30	not	not	PART	RB	Polarity=Neg	29	orphan	31:advmod	_
 31	denied	deny	VERB	VBN	Tense=Past|VerbForm=Part	21	advcl	27.1:conj:and	_
 32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	33:det	Entity=(62-abstract-acc:com-cf9-2-sgl
@@ -560,7 +560,7 @@
 39	there	there	PRON	EX	PronType=Dem	44	expl	44:expl	_
 40	will	will	AUX	MD	VerbForm=Fin	44	aux	44:aux	_
 41	be	be	AUX	VB	VerbForm=Inf	44	cop	44:cop	_
-42	no	no	DET	DT	Polarity=Neg|PronType=Art	44	det	44:det	Entity=(70-event-new-cf10-3-sgl
+42	no	no	DET	DT	Polarity=Neg|PronType=Neg	44	det	44:det	Entity=(70-event-new-cf10-3-sgl
 43	fair	fair	ADJ	JJ	Degree=Pos	44	amod	44:amod	_
 44	trial	trial	NOUN	NN	Number=Sing	37	acl	37:acl:that	Entity=70)
 45	in	in	ADP	IN	_	47	case	47:case	_
@@ -606,7 +606,7 @@
 17	an	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	Entity=(49-organization-giv:inact-cf2-2-pred-United_States_Congress
 18	institution	institution	NOUN	NN	Number=Sing	23	obl	23:obl:as	Entity=49)|SpaceAfter=No
 19	,	,	PUNCT	,	_	18	punct	18:punct	_
-20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Bridge=71<49|Entity=(49-organization-acc:inf-cf2-2-coref-United_States_Congress
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(49-organization-giv:act-cf2-2-coref-United_States_Congress
 21	Congress	Congress	PROPN	NNP	Number=Sing	23	nsubj	23:nsubj	Entity=49)
 22	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	23:aux	_
 23	failed	fail	VERB	VBN	Tense=Past|VerbForm=Part	13	ccomp	13:ccomp	Entity=73)|SpaceAfter=No
@@ -764,7 +764,7 @@
 5	and	and	CCONJ	CC	_	6	cc	6:cc	_
 6	documents	document	NOUN	NNS	Number=Plur	4	conj	1:nmod:of|4:conj:and	Entity=(83-object-giv:act-cf2-1-coref)|SpaceAfter=No
 7	,	,	PUNCT	,	_	1	punct	1:punct	_
-8	of	of	ADV	IN	_	12	advmod	12:advmod	_
+8	of	of	ADP	IN	_	12	advmod	12:advmod	_
 9	course	course	NOUN	NN	Number=Sing	8	fixed	8:fixed	SpaceAfter=No
 10	,	,	PUNCT	,	_	8	punct	8:punct	_
 11	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	12:aux:pass	_
@@ -920,7 +920,7 @@
 # text = There was no lobbying.
 1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=restatement-partial:93->92:0
 2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-3	no	no	DET	DT	Polarity=Neg|PronType=Art	4	det	4:det	Entity=(98-event-new-cf1-2-sgl
+3	no	no	DET	DT	Polarity=Neg|PronType=Neg	4	det	4:det	Entity=(98-event-new-cf1-2-sgl
 4	lobbying	lobbying	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	Entity=98)|SpaceAfter=No
 5	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -932,7 +932,7 @@
 # text = There was no pressure.
 1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=joint-list_m:94->93:0
 2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-3	no	no	DET	DT	Polarity=Neg|PronType=Art	4	det	4:det	Entity=(99-abstract-new-cf1-2-sgl
+3	no	no	DET	DT	Polarity=Neg|PronType=Neg	4	det	4:det	Entity=(99-abstract-new-cf1-2-sgl
 4	pressure	pressure	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	Entity=99)|SpaceAfter=No
 5	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -1337,7 +1337,7 @@
 11	argument	argument	NOUN	NN	Number=Sing	7	conj	7:conj:and	Entity=127)125)
 12	with	with	ADP	IN	_	13	case	13:case	_
 13	nothing	nothing	PRON	NN	Number=Sing|Polarity=Neg|PronType=Neg	7	nmod	7:nmod:with	Entity=(128-abstract-new-cf6-1-sgl
-14	in	in	ADV	IN	_	13	advmod	13:advmod	_
+14	in	in	ADP	IN	_	13	advmod	13:advmod	_
 15	between	between	ADP	IN	_	14	fixed	14:fixed	Entity=128)123)|SpaceAfter=No
 16	.	.	PUNCT	.	_	7	punct	7:punct	_
 
@@ -1367,7 +1367,7 @@
 18	what	what	PRON	WP	PronType=Rel	16	nmod	16:nmod:of	_
 19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(124-event-giv:act-cf3-2-coref
 20	trial	trial	NOUN	NN	Number=Sing	21	nsubj	21:nsubj	Entity=124)
-21	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	18:acl:relcl	Entity=123)|SpaceAfter=No
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	18:acl:relcl	Entity=123)|SpaceAfter=No
 22	,	,	PUNCT	,	_	25	punct	25:punct	_
 23	not	not	PART	RB	Polarity=Neg	25	advmod	25:advmod	Discourse=elaboration-additional:138->136:1|Entity=(123-abstract-giv:act-cf1*-3,8,14-coref
 24	just	just	ADV	RB	_	25	advmod	25:advmod	Entity=(125-abstract-giv:act-cf4-2,7-coref
@@ -1383,7 +1383,7 @@
 34	,	,	PUNCT	,	_	36	punct	36:punct	_
 35	but	but	CCONJ	CC	_	36	cc	36:cc	Discourse=adversative-contrast_m:139->138:0
 36	evidence	evidence	NOUN	NN	Number=Sing	25	conj	25:conj:but	Entity=(134-abstract-new-cf12-1-sgl
-37	for	for	SCONJ	IN	_	46	mark	46:mark	Discourse=elaboration-attribute:140->139:0
+37	for	for	SCONJ	IN	_	46	mark	46:mark	Discourse=purpose-attribute:140->139:0
 38	jurors	juror	NOUN	NNS	Number=Plur	46	nsubj	41:nsubj|46:nsubj	Entity=(135-person-new-cf9-1-sgl
 39	who	who	PRON	WP	PronType=Rel	41	nsubj	38:ref	Discourse=elaboration-attribute:141->140:0
 40	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	41	aux	41:aux	_
@@ -1463,7 +1463,7 @@
 5	what	what	PRON	WP	PronType=Rel	4	obj	4:obj	Discourse=joint-other_m:148->145:1
 6	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	7:det	Entity=(137-abstract-giv:act-cf1*-2-coref
 7	truth	truth	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=137)
-8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_
 9	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=attribution-positive:149->150:0
 10	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj:and	_
 11	what	what	PRON	WP	PronType=Rel	10	obj	10:obj	Discourse=joint-list_m:150->148:1

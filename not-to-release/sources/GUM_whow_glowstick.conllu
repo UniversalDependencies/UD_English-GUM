@@ -102,7 +102,8 @@
 # transition = establishment
 # text = If you're still curious, read on.
 1	If	if	SCONJ	IN	_	5	mark	5:mark	Discourse=contingency-condition:9->10:0
-2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(11-person-giv:act-cf1*-1-ana)|SpaceAfter=No
+2-3	you're	_	_	_	_	_	_	_	_
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(11-person-giv:act-cf1*-1-ana)
 3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 4	still	still	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 5	curious	curious	ADJ	JJ	Degree=Pos	7	advcl	7:advcl:if	SpaceAfter=No
@@ -253,7 +254,7 @@
 12	solution	solution	NOUN	NN	Number=Sing	9	obl	9:obl:with|14:nsubj	_
 13-14	that's	_	_	_	_	_	_	_	_
 13	that	that	PRON	WDT	PronType=Rel	14	nsubj	12:ref	Discourse=elaboration-attribute:24->23:0
-14	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	12:acl:relcl	_
+14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	12:acl:relcl	_
 15	near	near	ADP	IN	_	17	case	17:case	_
 16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(34-abstract-new-cf5-2-sgl
 17	12	12	NUM	CD	NumForm=Digit|NumType=Card	14	obl	14:obl:near	_
@@ -428,13 +429,13 @@
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5	all	all	DET	PDT	PronType=Tot	7	det:predet	7:det:predet	Discourse=causal-cause:39->43:1|Entity=(51-substance-acc:aggr-cf2-3-sgl|SplitAnte=39<51,4<51,18<51,50<51
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	_
-7	substances	substance	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj|12:nsubj	Entity=51)
+7	substances	substance	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj|12:nsubj|13:nsubj:xsubj	Entity=51)
 8	create	create	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(52-event-new-cf4-2-sgl
 10	rave	rave	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=52)
 11	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=joint-sequence_m:40->39:0
 12	start	start	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	8:conj:and	_
-13	partying	party	VERB	VBG	VerbForm=Ger	12	ccomp	12:ccomp	_
+13	partying	party	VERB	VBG	VerbForm=Ger	12	xcomp	12:xcomp	_
 14	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=joint-sequence_m:41->39:0
 15	electrons	electron	NOUN	NNS	Number=Plur	16	nsubj	16:nsubj	Entity=(53-substance-new-cf3-1-sgl)
 16	fly	fly	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	8:conj:and	_
@@ -563,7 +564,8 @@
 1	Yep	yep	INTJ	UH	_	20	discourse	20:discourse	Discourse=organization-preparation:52->59:4|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	unless	unless	SCONJ	IN	_	7	mark	7:mark	Discourse=contingency-condition:53->54:2
-4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	7:nsubj|10:nsubj	Entity=(11-person-giv:inact-cf1-1-ana)|SpaceAfter=No
+4-5	you're	_	_	_	_	_	_	_	_
+4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	7:nsubj|10:nsubj	Entity=(11-person-giv:inact-cf1-1-ana)
 5	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(69-person-new-cf4-2-sgl
 7	coroner	coroner	NOUN	NN	Number=Sing	20	parataxis	20:parataxis	Entity=69)
@@ -600,7 +602,8 @@
 # transition = smooth-shift
 # text = If you're dead set on starting your own glowstick business (worse ideas exist), try websites like Alfa Aesar [1] or Sigma Aldrich [2] for supplies.
 1	If	if	SCONJ	IN	_	5	mark	5:mark	Discourse=contingency-condition:57->59:2
-2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj:pass	5:nsubj:pass	Entity=(11-person-giv:act-cf1*-1-ana)|SpaceAfter=No
+2-3	you're	_	_	_	_	_	_	_	_
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj:pass	5:nsubj:pass	Entity=(11-person-giv:act-cf1*-1-ana)
 3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux:pass	5:aux:pass	_
 4	dead	dead	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 5	set	set	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	advcl	18:advcl:if	_
@@ -722,7 +725,8 @@
 10	with	with	ADP	IN	_	12	case	12:case	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(90-event-new-cf4-2-sgl
 12	reactions	reaction	NOUN	NNS	Number=Plur	9	obl	9:obl:with	_
-13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Discourse=elaboration-attribute:71->70:0|Entity=(11-person-giv:act-cf1*-1-ana)|SpaceAfter=No
+13-14	you're	_	_	_	_	_	_	_	_
+13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Discourse=elaboration-attribute:71->70:0|Entity=(11-person-giv:act-cf1*-1-ana)
 14	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
 15	depending	depend	VERB	VBG	Tense=Pres|VerbForm=Part	12	acl:relcl	12:acl:relcl	_
 16	on	on	ADP	IN	_	15	obl	15:obl	_
@@ -870,7 +874,7 @@
 # s_type = imp
 # transition = null
 # text = Do over!
-1	Do	do	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:86->14:3
+1	Do	do	AUX	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:86->14:3
 2	over	over	ADP	RP	_	1	compound:prt	1:compound:prt	SpaceAfter=No
 3	!	!	PUNCT	.	_	1	punct	1:punct	_
 
@@ -997,10 +1001,10 @@
 # transition = null
 # text = For something that lasts hours, go to the next method (which is a lot easier to facilitate if you have access to a laboratory, but it's still worth mentioning).
 1	For	for	ADP	IN	_	2	case	2:case	Discourse=adversative-contrast_m:99->95:3
-2	something	something	PRON	NN	Number=Sing|PronType=Ind	7	obl	4:nsubj|7:obl:for	Entity=(105-object-new-cf5-1-sgl
+2	something	something	PRON	NN	Number=Sing|PronType=Ind	7	obl	4:nsubj|7:obl:for	Entity=(105-object-new-cf4-1-sgl
 3	that	that	PRON	WDT	PronType=Rel	4	nsubj	2:ref	Discourse=elaboration-attribute:100->99:0
 4	lasts	last	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_
-5	hours	hour	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=(106-time-new-cf3-1-sgl)105)|SpaceAfter=No
+5	hours	hour	NOUN	NNS	Number=Plur	4	obl:tmod	4:obl:tmod	Entity=(106-time-new-cf5-1-sgl)105)|SpaceAfter=No
 6	,	,	PUNCT	,	_	2	punct	2:punct	_
 7	go	go	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:101->99:1
 8	to	to	ADP	IN	_	11	case	11:case	_
@@ -1018,7 +1022,7 @@
 20	if	if	SCONJ	IN	_	22	mark	22:mark	Discourse=contingency-condition:103->102:0
 21	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	22	nsubj	22:nsubj	Entity=(11-person-giv:inact-cf2-1-ana)
 22	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	advcl	19:advcl:if	_
-23	access	access	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=(107-abstract-new-cf4-1-sgl
+23	access	access	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=(107-abstract-new-cf3-1-sgl
 24	to	to	ADP	IN	_	26	case	26:case	_
 25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	26:det	Entity=(108-place-new-cf6-2-sgl
 26	laboratory	laboratory	NOUN	NN	Number=Sing	23	nmod	23:nmod:to	Entity=108)107)|SpaceAfter=No

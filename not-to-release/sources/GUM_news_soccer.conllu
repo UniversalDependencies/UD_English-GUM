@@ -240,7 +240,7 @@
 2	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(33-event-new-cf4-2-sgl(34-organization-acc:aggr-cf2-1-coref)|SplitAnte=6<34,12<34
 3	attempts	attempt	NOUN	NNS	Number=Plur	8	obl	8:obl:despite	Entity=33)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
-5	neither	neither	DET	DT	PronType=Art	6	det	6:det	Discourse=causal-cause:16->17:0|Entity=(34-organization-giv:act-cf2-2-coref
+5	neither	neither	DET	DT	PronType=Neg	6	det	6:det	Discourse=causal-cause:16->17:0|Entity=(34-organization-giv:act-cf2-2-coref
 6	side	side	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=34)
 7	could	could	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	8	aux	8:aux	_
 8	open	open	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -372,7 +372,7 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-sequence_m:27->11:2|Entity=(18-event-giv:inact-cf1-2-coref
 2	match	match	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=18)
 3	ended	end	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-4	with	with	SCONJ	IN	_	6	mark	6:mark	_
+4	with	with	SCONJ	IN	_	6	mark	6:mark	Discourse=context-circumstance:28->27:0
 5	Sweden	Sweden	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Entity=(6-organization-giv:inact-cf2-1-coref-Sweden_national_football_team)
 6	winning	win	VERB	VBG	VerbForm=Ger	3	advcl	3:advcl:with	_
 7	three	three	NUM	CD	NumForm=Word|NumType=Card	8	nummod	8:nummod	Bridge=9<52|Entity=(52-abstract-acc:inf-cf3-2-sgl
@@ -386,7 +386,7 @@
 # text = Swedish captain Andreas Granqvist won the Budweiser Man of the Match award.
 # newpar
 # newpar_block = p (2 s)
-1	Swedish	Swedish	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=joint-other_m:28->9:0|Entity=(45-person-giv:inact-cf2-2,3,4-coref-Andreas_Granqvist
+1	Swedish	Swedish	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=joint-other_m:29->9:0|Entity=(45-person-giv:inact-cf2-2,3,4-coref-Andreas_Granqvist
 2	captain	captain	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	_
 3	Andreas	Andreas	PROPN	NNP	Number=Sing	2	flat	2:flat	_
 4	Granqvist	Granqvist	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=45)
@@ -405,7 +405,7 @@
 # s_type = decl
 # transition = zero
 # text = This was Sweden's first victory in the opening match of the World Cup since 1958.
-1	This	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Discourse=context-background:29->9:1|Entity=(55-event-acc:com-cf1-1-ana)
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Discourse=context-background:30->9:1|Entity=(55-event-acc:com-cf1-1-ana)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
 3-4	Sweden's	_	_	_	_	_	_	_	_
 3	Sweden	Sweden	PROPN	NNP	Number=Sing	6	nmod:poss	6:nmod:poss	Entity=(55-event-giv:act-cf1-4-coref(6-organization-giv:inact-cf3-1-coref-Sweden_national_football_team
@@ -431,7 +431,7 @@
 # text = Group G — Belgium 3 – 0 Panama
 # newpar
 # newpar_block = head (1 s)
-1	Group	Group	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint-list_m:30->7:1|Entity=(58-organization-new-cf3-1,2-coref
+1	Group	Group	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint-list_m:31->7:1|Entity=(58-organization-new-cf3-1,2-coref
 2	G	G	PROPN	NNP	Number=Sing	1	dep	1:dep	Entity=58)
 3	—	—	PUNCT	:	_	5	punct	5:punct	_
 4	Belgium	Belgium	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(7-organization-giv:inact-cf1-1-coref-Belgium_national_football_team)
@@ -447,7 +447,7 @@
 # text = In the first game of Group G, Belgium faced Panama at the Fisht Stadium in Sochi.
 # newpar
 # newpar_block = p (5 s)
-1	In	in	ADP	IN	_	4	case	4:case	Discourse=elaboration-additional:31->30:0
+1	In	in	ADP	IN	_	4	case	4:case	Discourse=elaboration-additional:32->31:0
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(59-event-new-cf4-3,6-coref
 3	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	4:amod	_
 4	game	game	NOUN	NN	Number=Sing	10	obl	10:obl:in	_
@@ -471,7 +471,7 @@
 # s_type = decl
 # transition = continue
 # text = Belgium had greater ball possession in the match.
-1	Belgium	Belgium	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=elaboration-additional:32->31:0|Entity=(7-organization-giv:act-cf1*-1-coref-Belgium_national_football_team)
+1	Belgium	Belgium	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=elaboration-additional:33->32:0|Entity=(7-organization-giv:act-cf1*-1-coref-Belgium_national_football_team)
 2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	greater	great	ADJ	JJR	Degree=Cmp	5	amod	5:amod	Entity=(63-abstract-new-cf3-3-sgl
 4	ball	ball	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(64-object-new-cf4-1-sgl)
@@ -486,14 +486,14 @@
 # s_type = decl
 # transition = continue
 # text = Belgium started the game with attacking style with Romelu Lukaku, Yannick Carrasco, and Dries Mertens making early attempts to put Belgium into the lead against debutans Panama.
-1	Belgium	Belgium	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint-other_m:33->32:0|Entity=(7-organization-giv:act-cf1*-1-coref-Belgium_national_football_team)
+1	Belgium	Belgium	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint-other_m:34->33:0|Entity=(7-organization-giv:act-cf1*-1-coref-Belgium_national_football_team)
 2	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(59-event-giv:act-cf2-2-coref
 4	game	game	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=59)
 5	with	with	ADP	IN	_	7	case	7:case	_
 6	attacking	attack	VERB	VBG	VerbForm=Ger	7	amod	7:amod	Entity=(65-abstract-new-cf9-2-sgl
 7	style	style	NOUN	NN	Number=Sing	2	obl	2:obl:with	Entity=65)
-8	with	with	SCONJ	IN	_	18	mark	18:mark	Discourse=elaboration-additional:34->33:0
+8	with	with	SCONJ	IN	_	18	mark	18:mark	Discourse=elaboration-additional:35->34:0
 9	Romelu	Romelu	PROPN	NNP	Number=Sing	18	nsubj	18:nsubj	Entity=(66-person-new-cf5-1,2-coref-Romelu_Lukaku|XML=<ref target:::"https://en.wikinews.org/wiki/Romelu_Lukaku">
 10	Lukaku	Lukaku	PROPN	NNP	Number=Sing	9	flat	9:flat	Entity=66)|SpaceAfter=No|XML=</ref>
 11	,	,	PUNCT	,	_	12	punct	12:punct	_
@@ -506,7 +506,7 @@
 18	making	make	VERB	VBG	VerbForm=Ger	2	advcl	2:advcl:with	_
 19	early	early	ADJ	JJ	Degree=Pos	20	amod	20:amod	Entity=(69-event-new-cf6-2-sgl
 20	attempts	attempt	NOUN	NNS	Number=Plur	18	obj	18:obj	_
-21	to	to	PART	TO	_	22	mark	22:mark	Discourse=purpose-attribute:35->34:0
+21	to	to	PART	TO	_	22	mark	22:mark	Discourse=purpose-attribute:36->35:0
 22	put	put	VERB	VB	VerbForm=Inf	20	acl	20:acl:to	_
 23	Belgium	Belgium	PROPN	NNP	Number=Sing	22	obj	22:obj	Entity=(7-organization-giv:act-cf1*-1-coref-Belgium_national_football_team)
 24	into	into	ADP	IN	_	26	case	26:case	_
@@ -522,7 +522,7 @@
 # s_type = decl
 # transition = smooth-shift
 # text = Dries Mertens's attempt in the 18th minute failed.
-1	Dries	Dries	PROPN	NNP	Number=Sing	4	nmod:poss	4:nmod:poss	Discourse=joint-sequence_m:36->33:1|Entity=(71-event-new-cf3-2,4-sgl(68-person-giv:act-cf1*-1,2-coref-Dries_Mertens
+1	Dries	Dries	PROPN	NNP	Number=Sing	4	nmod:poss	4:nmod:poss	Discourse=joint-sequence_m:37->34:1|Entity=(71-event-new-cf3-2,4-sgl(68-person-giv:act-cf1*-1,2-coref-Dries_Mertens
 2-3	Mertens's	_	_	_	_	_	_	_	_
 2	Mertens	Mertens	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	's	's	PART	POS	_	1	case	1:case	Entity=68)
@@ -539,7 +539,7 @@
 # s_type = decl
 # transition = zero
 # text = The first half ended with 0 – 0 on the scoreboard.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=59<73|Discourse=joint-sequence_m:37->33:1|Entity=(73-time-acc:inf-cf1-3-sgl
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=59<73|Discourse=joint-sequence_m:38->34:1|Entity=(73-time-acc:inf-cf1-3-sgl
 2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	3:amod	_
 3	half	half	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	4	nsubj	4:nsubj	Entity=73)
 4	ended	end	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -559,7 +559,7 @@
 # text = Just two minutes in the second half, Dries Mertens scored a goal from a volley, putting the Belgians in the lead.
 # newpar
 # newpar_block = p (6 s)
-1	Just	just	ADV	RB	_	2	advmod	2:advmod	Discourse=joint-sequence_m:38->33:1|Entity=(76-time-new-cf6-3-sgl
+1	Just	just	ADV	RB	_	2	advmod	2:advmod	Discourse=joint-sequence_m:39->34:1|Entity=(76-time-new-cf6-3-sgl
 2	two	two	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	_
 3	minutes	minute	NOUN	NNS	Number=Plur	11	obl:tmod	11:obl:tmod	_
 4	in	in	ADP	IN	_	7	case	7:case	_
@@ -576,7 +576,7 @@
 15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(79-event-new-cf7-2-sgl
 16	volley	volley	NOUN	NN	Number=Sing	11	obl	11:obl:from	Entity=79)|SpaceAfter=No|XML=<ref target:::"https://en.wikipedia.org/wiki/volley%20(football)"></ref>
 17	,	,	PUNCT	,	_	18	punct	18:punct	_
-18	putting	put	VERB	VBG	VerbForm=Ger	11	advcl	11:advcl	Discourse=causal-result:39->38:0
+18	putting	put	VERB	VBG	VerbForm=Ger	11	advcl	11:advcl	Discourse=causal-result:40->39:0
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(7-organization-giv:inact-cf2-2-coref-Belgium_national_football_team
 20	Belgians	Belgian	PROPN	NNPS	Number=Plur	18	obj	18:obj	Entity=7)
 21	in	in	ADP	IN	_	23	case	23:case	_
@@ -590,7 +590,7 @@
 # transition = null
 # text = Panama's attempt in the 54th minute, by Michael Murillo, was saved by Thibaut Courtois.
 1-2	Panama's	_	_	_	_	_	_	_	_
-1	Panama	Panama	PROPN	NNP	Number=Sing	3	nmod:poss	3:nmod:poss	Discourse=joint-sequence_m:40->33:1|Entity=(80-event-new-cf3-3,11-sgl(13-organization-giv:inact-cf1-1-coref-Panama_national_football_team
+1	Panama	Panama	PROPN	NNP	Number=Sing	3	nmod:poss	3:nmod:poss	Discourse=joint-sequence_m:41->34:1|Entity=(80-event-new-cf3-3,11-sgl(13-organization-giv:inact-cf1-1-coref-Panama_national_football_team
 2	's	's	PART	POS	_	1	case	1:case	Entity=13)
 3	attempt	attempt	NOUN	NN	Number=Sing	14	nsubj:pass	14:nsubj:pass	_
 4	in	in	ADP	IN	_	7	case	7:case	_
@@ -614,7 +614,7 @@
 # s_type = decl
 # transition = null
 # text = In the 69th minute, Romelu Lukaku doubled the lead for Belgium, scoring a header from Kevin De Bruyne's assist.
-1	In	in	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:41->33:1
+1	In	in	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:42->34:1
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=59<84|Entity=(84-time-acc:inf-cf4-3-sgl
 3	69th	69th	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	4:amod	_
 4	minute	minute	NOUN	NN	Number=Sing	8	obl	8:obl:in	Entity=84)|SpaceAfter=No
@@ -627,7 +627,7 @@
 11	for	for	ADP	IN	_	12	case	12:case	_
 12	Belgium	Belgium	PROPN	NNP	Number=Sing	8	obl	8:obl:for	Entity=(7-organization-giv:inact-cf3-1-coref-Belgium_national_football_team)|SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	14:punct	_
-14	scoring	score	VERB	VBG	VerbForm=Ger	8	advcl	8:advcl	Discourse=mode-means:42->41:0
+14	scoring	score	VERB	VBG	VerbForm=Ger	8	advcl	8:advcl	Discourse=mode-means:43->42:0
 15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(85-event-new-cf5-2-sgl
 16	header	header	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=85)
 17	from	from	ADP	IN	_	22	case	22:case	_
@@ -644,7 +644,7 @@
 # s_type = decl
 # transition = establishment
 # text = Six minutes later, Lukaku scored a third goal for Belgium, this time from Eden Hazard's assist.
-1	Six	six	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=joint-sequence_m:43->33:1|Entity=(88-time-new-cf6-2-sgl
+1	Six	six	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=joint-sequence_m:44->34:1|Entity=(88-time-new-cf6-2-sgl
 2	minutes	minute	NOUN	NNS	Number=Plur	3	obl:tmod	3:obl:tmod	Entity=88)
 3	later	late	ADV	RBR	Degree=Cmp	6	advmod	6:advmod	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -656,7 +656,7 @@
 10	for	for	ADP	IN	_	11	case	11:case	_
 11	Belgium	Belgium	PROPN	NNP	Number=Sing	6	obl	6:obl:for	Entity=(7-organization-giv:act-cf2-1-coref-Belgium_national_football_team)|SpaceAfter=No
 12	,	,	PUNCT	,	_	19	punct	19:punct	_
-13	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	14:det	Discourse=mode-means:44->43:0|Entity=(90-event-new-cf4-2-sgl
+13	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	14:det	Discourse=mode-means:45->44:0|Entity=(90-event-new-cf4-2-sgl
 14	time	time	NOUN	NN	Number=Sing	19	obl:npmod	19:obl:npmod	Entity=90)
 15	from	from	ADP	IN	_	19	case	19:case	_
 16	Eden	Eden	PROPN	NNP	Number=Sing	19	nmod:poss	19:nmod:poss	Entity=(91-event-new-cf7-2,4-sgl(92-person-new-cf5-1,2-sgl-Eden_Hazard|XML=<ref target:::"https://en.wikinews.org/wiki/Eden_Hazard">
@@ -671,7 +671,7 @@
 # s_type = decl
 # transition = smooth-shift
 # text = In the 90th minute, Belgium made a change, as Nacer Chadli replaced Axel Witsel.
-1	In	in	ADP	IN	_	4	case	4:case	Discourse=organization-preparation:45->46:0
+1	In	in	ADP	IN	_	4	case	4:case	Discourse=organization-preparation:46->47:0
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=59<93|Entity=(93-time-acc:inf-cf2-3-sgl
 3	90th	90th	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	4:amod	_
 4	minute	minute	NOUN	NN	Number=Sing	7	obl	7:obl:in	Entity=93)|SpaceAfter=No
@@ -681,7 +681,7 @@
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(94-event-new-cf5-2-sgl
 9	change	change	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=94)|SpaceAfter=No
 10	,	,	PUNCT	,	_	14	punct	14:punct	_
-11	as	as	SCONJ	IN	_	14	mark	14:mark	Discourse=joint-sequence_m:46->33:1
+11	as	as	SCONJ	IN	_	14	mark	14:mark	Discourse=joint-sequence_m:47->34:1
 12	Nacer	Nacer	PROPN	NNP	Number=Sing	14	nsubj	14:nsubj	Entity=(95-person-new-cf3-1,2-sgl-Nacer_Chadli|XML=<ref target:::"https://en.wikipedia.org/wiki/Nacer%20Chadli">
 13	Chadli	Chadli	PROPN	NNP	Number=Sing	12	flat	12:flat	Entity=95)|XML=</ref>
 14	replaced	replace	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	7:advcl:as	_
@@ -694,11 +694,11 @@
 # s_type = decl
 # transition = continue
 # text = The second half ended with the Belgians winning three points.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=59<77|Discourse=joint-sequence_m:47->33:1|Entity=(77-time-acc:inf-cf2-3-coref
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=59<77|Discourse=joint-sequence_m:48->34:1|Entity=(77-time-acc:inf-cf2-3-coref
 2	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	3:amod	_
 3	half	half	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	4	nsubj	4:nsubj	Entity=77)
 4	ended	end	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-5	with	with	SCONJ	IN	_	8	mark	8:mark	_
+5	with	with	SCONJ	IN	_	8	mark	8:mark	Discourse=context-circumstance:49->48:0
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(7-organization-giv:act-cf1*-2-coref-Belgium_national_football_team
 7	Belgians	Belgian	PROPN	NNPS	Number=Plur	8	nsubj	8:nsubj	Entity=7)
 8	winning	win	VERB	VBG	VerbForm=Ger	4	advcl	4:advcl:with	_
@@ -713,7 +713,7 @@
 # text = Five Panamanian players were booked in the match.
 # newpar
 # newpar_block = p (6 s)
-1	Five	five	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	Bridge=13<98|Discourse=joint-other_m:48->32:0|Entity=(98-person-acc:inf-cf2-3-sgl
+1	Five	five	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	Bridge=13<98|Discourse=joint-other_m:50->33:0|Entity=(98-person-acc:inf-cf2-3-sgl
 2	Panamanian	Panamanian	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	players	player	NOUN	NNS	Number=Plur	5	nsubj:pass	5:nsubj:pass	Entity=98)
 4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	5:aux:pass	_
@@ -728,7 +728,7 @@
 # s_type = decl
 # transition = establishment
 # text = Lukaku won the Budweiser Man of the Match award.
-1	Lukaku	Lukaku	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint-other_m:49->32:0|Entity=(66-person-giv:inact-cf2-1-coref-Romelu_Lukaku)
+1	Lukaku	Lukaku	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint-other_m:51->33:0|Entity=(66-person-giv:inact-cf2-1-coref-Romelu_Lukaku)
 2	won	win	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(99-abstract-new-cf4-6,7-sgl
 4	Budweiser	Budweiser	PROPN	NNP	Number=Sing	9	compound	9:compound	Entity=(54-organization-giv:inact-cf3-1-coref-Budweiser)
@@ -744,7 +744,7 @@
 # s_type = decl
 # transition = retain
 # text = After the match, Hernan Dario Gomez, Panama coach, said, "I think we have learned a lot from today's game.
-1	After	after	ADP	IN	_	3	case	3:case	Discourse=attribution-positive:50->52:2
+1	After	after	ADP	IN	_	3	case	3:case	Discourse=attribution-positive:52->54:2
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(59-event-giv:act-cf3*-2-coref
 3	match	match	NOUN	NN	Number=Sing	12	obl	12:obl:after	Entity=59)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -757,10 +757,10 @@
 11	,	,	PUNCT	,	_	5	punct	5:punct	_
 12	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 13	,	,	PUNCT	,	_	12	punct	12:punct	_
-14	"	''	PUNCT	``	_	16	punct	16:punct	Discourse=attribution-positive:51->52:0|SpaceAfter=No|XML=<quote>
+14	"	''	PUNCT	``	_	16	punct	16:punct	Discourse=attribution-positive:53->54:0|SpaceAfter=No|XML=<quote>
 15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	16:nsubj	Entity=(100-person-giv:act-cf1-1-ana-Hernán_Darío_Gómez)
 16	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	ccomp	12:ccomp	_
-17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	19:nsubj	Discourse=evaluation-comment:52->31:1|Entity=(13-organization-giv:act-cf2-1-ana-Panama_national_football_team)
+17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	19:nsubj	Discourse=evaluation-comment:54->32:1|Entity=(13-organization-giv:act-cf2-1-ana-Panama_national_football_team)
 18	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
 19	learned	learn	VERB	VBN	Tense=Past|VerbForm=Part	16	ccomp	16:ccomp	_
 20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	_
@@ -779,7 +779,7 @@
 # text = It was a very emotional day.
 # newpar
 # newpar_block = quote (3 s)
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=joint-list_m:53->52:1|Entity=(1-time-giv:act-cf1*-1-ana)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=joint-list_m:55->54:1|Entity=(1-time-giv:act-cf1*-1-ana)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(1-time-giv:act-cf1*-4-pred
 4	very	very	ADV	RB	_	5	advmod	5:advmod	_
@@ -792,20 +792,20 @@
 # s_type = decl
 # transition = zero
 # text = This is the fifth time I've been at a World Cup but it felt like the first.
-1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Discourse=adversative-concession:54->56:0|Entity=(101-event-acc:com-cf1-1-ana)
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Discourse=adversative-concession:56->58:0|Entity=(101-event-acc:com-cf1-1-ana)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(101-event-giv:act-cf1-3-coref
 4	fifth	fifth	ADJ	JJ	Degree=Pos|NumType=Ord	5	amod	5:amod	_
 5	time	time	NOUN	NN	Number=Sing	0	root	0:root	_
 6-7	I've	_	_	_	_	_	_	_	_
-6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	8:nsubj	Discourse=elaboration-attribute:55->54:0|Entity=(100-person-giv:inact-cf2-1-ana-Hernán_Darío_Gómez)
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	8:nsubj	Discourse=elaboration-attribute:57->56:0|Entity=(100-person-giv:inact-cf2-1-ana-Hernán_Darío_Gómez)
 7	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
-8	been	be	VERB	VBN	Tense=Past|VerbForm=Part	5	acl:relcl	5:acl:relcl	_
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	acl:relcl	5:acl:relcl	_
 9	at	at	ADP	IN	_	12	case	12:case	_
 10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(102-event-new-cf5-2,3-sgl-FIFA_World_Cup
 11	World	World	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=(4-place-giv:inact-cf3-1-coref-World)
 12	Cup	Cup	PROPN	NNP	Number=Sing	8	obl	8:obl:at	Entity=102)101)
-13	but	but	CCONJ	CC	_	15	cc	15:cc	Discourse=elaboration-additional:56->53:0
+13	but	but	CCONJ	CC	_	15	cc	15:cc	Discourse=elaboration-additional:58->55:0
 14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj	Entity=(101-event-giv:act-cf1-1-ana)
 15	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	5:conj:but	_
 16	like	like	ADP	IN	_	18	case	18:case	_
@@ -818,7 +818,7 @@
 # s_type = decl
 # transition = null
 # text = The team was still very emotional at the start of the match but as time went by, they were able to focus better."
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:57->53:1|Entity=(13-organization-giv:inact-cf1-2-coref-Panama_national_football_team
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:59->55:1|Entity=(13-organization-giv:inact-cf1-2-coref-Panama_national_football_team
 2	team	team	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=13)
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
 4	still	still	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
@@ -830,13 +830,13 @@
 10	of	of	ADP	IN	_	12	case	12:case	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(59-event-giv:inact-cf2-2-coref
 12	match	match	NOUN	NN	Number=Sing	9	nmod	9:nmod:of	Entity=59)104)
-13	but	but	CCONJ	CC	_	21	cc	21:cc	Discourse=adversative-contrast_m:58->57:0
-14	as	as	SCONJ	IN	_	16	mark	16:mark	Discourse=context-circumstance:59->60:0
+13	but	but	CCONJ	CC	_	21	cc	21:cc	Discourse=adversative-contrast_m:60->59:0
+14	as	as	SCONJ	IN	_	16	mark	16:mark	Discourse=context-circumstance:61->62:0
 15	time	time	NOUN	NN	Number=Sing	16	nsubj	16:nsubj	Entity=(105-time-new-cf3-1-sgl)
 16	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	advcl	21:advcl:as	_
 17	by	by	ADP	RP	_	16	compound:prt	16:compound:prt	SpaceAfter=No
 18	,	,	PUNCT	,	_	16	punct	16:punct	_
-19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	21:nsubj|23:nsubj:xsubj	Discourse=same-unit_m:60->58:0|Entity=(13-organization-giv:act-cf1-1-ana-Panama_national_football_team)
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	21:nsubj|23:nsubj:xsubj	Discourse=same-unit_m:62->60:0|Entity=(13-organization-giv:act-cf1-1-ana-Panama_national_football_team)
 20	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	cop	21:cop	_
 21	able	able	ADJ	JJ	Degree=Pos	6	conj	6:conj:but	_
 22	to	to	PART	TO	_	23	mark	23:mark	_
@@ -852,7 +852,7 @@
 # text = Group G — Tunisia 1 – 2 England
 # newpar
 # newpar_block = head (1 s)
-1	Group	Group	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint-list_m:61->7:1|Entity=(58-organization-giv:inact-cf2-1,2-coref
+1	Group	Group	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint-list_m:63->7:1|Entity=(58-organization-giv:inact-cf2-1,2-coref
 2	G	G	PROPN	NNP	Number=Sing	1	dep	1:dep	Entity=58)
 3	—	—	PUNCT	:	_	5	punct	5:punct	_
 4	Tunisia	Tunisia	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(14-organization-giv:inact-cf1-1-coref-Tunisia_national_football_team)
@@ -868,7 +868,7 @@
 # text = In the last match of the day, Tunisia faced England at the Volgograd Arena.
 # newpar
 # newpar_block = p (8 s)
-1	In	in	ADP	IN	_	4	case	4:case	Discourse=elaboration-additional:62->61:0
+1	In	in	ADP	IN	_	4	case	4:case	Discourse=elaboration-additional:64->63:0
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(106-event-new-cf4-3-coref
 3	last	last	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	match	match	NOUN	NN	Number=Sing	10	obl	10:obl:in	_
@@ -890,7 +890,7 @@
 # s_type = decl
 # transition = smooth-shift
 # text = England had better ball possession in the game.
-1	England	England	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=elaboration-additional:63->62:0|Entity=(8-organization-giv:act-cf1*-1-coref-England_national_football_team)
+1	England	England	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=elaboration-additional:65->64:0|Entity=(8-organization-giv:act-cf1*-1-coref-England_national_football_team)
 2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	better	good	ADJ	JJR	Degree=Cmp	5	amod	5:amod	Entity=(109-abstract-new-cf3-3-sgl
 4	ball	ball	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(110-object-new-cf4-1-sgl)
@@ -905,7 +905,7 @@
 # s_type = decl
 # transition = continue
 # text = England started the match with attacking style, with attempts from Jesse Lingard, Harry Maguire, Harry Kane, and John Stones early in the game.
-1	England	England	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint-other_m:64->63:0|Entity=(8-organization-giv:act-cf1*-1-coref-England_national_football_team)
+1	England	England	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint-other_m:66->65:0|Entity=(8-organization-giv:act-cf1*-1-coref-England_national_football_team)
 2	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(106-event-giv:act-cf2-2-coref
 4	match	match	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=106)
@@ -939,13 +939,13 @@
 # s_type = decl
 # transition = smooth-shift
 # text = Then England opened the scoring, when Harry Kane scored a close-ranged shot.
-1	Then	then	ADV	RB	PronType=Dem	3	advmod	3:advmod	Discourse=organization-preparation:65->66:0
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	3:advmod	Discourse=joint-sequence_m:67->66:0
 2	England	England	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Entity=(8-organization-giv:act-cf2-1-coref-England_national_football_team)
 3	opened	open	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Bridge=106<117|Entity=(117-event-acc:inf-cf3-2-sgl
 5	scoring	scoring	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=117)|SpaceAfter=No
 6	,	,	PUNCT	,	_	10	punct	10:punct	_
-7	when	when	ADV	WRB	PronType=Int	10	advmod	10:advmod	Discourse=joint-sequence_m:66->64:0
+7	when	when	ADV	WRB	PronType=Int	10	advmod	10:advmod	Discourse=context-circumstance:68->67:0
 8	Harry	Harry	PROPN	NNP	Number=Sing	10	nsubj	10:nsubj	Entity=(115-person-giv:act-cf1*-1,2-coref-Harry_Kane
 9	Kane	Kane	PROPN	NNP	Number=Sing	8	flat	8:flat	Entity=115)
 10	scored	score	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	3:advcl:when	_
@@ -961,7 +961,7 @@
 # s_type = decl
 # transition = zero
 # text = Four minutes later, Tunisia's goalkeeper Mouez Hassen was substituted off due to injury and replaced by Farouk Ben Mustapha.
-1	Four	four	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=causal-cause:67->68:0|Entity=(119-time-new-cf4-2-sgl
+1	Four	four	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=causal-cause:69->70:0|Entity=(119-time-new-cf4-2-sgl
 2	minutes	minute	NOUN	NNS	Number=Plur	3	obl:tmod	3:obl:tmod	Entity=119)
 3	later	late	ADV	RBR	Degree=Cmp	11	advmod	11:advmod	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -977,7 +977,7 @@
 13	due	due	ADJ	JJ	Degree=Pos	15	case	15:case	_
 14	to	to	ADP	IN	_	13	fixed	13:fixed	_
 15	injury	injury	NOUN	NN	Number=Sing	11	obl	11:obl:due_to	Entity=(121-event-new-cf5-1-sgl)
-16	and	and	CCONJ	CC	_	17	cc	17:cc	Discourse=joint-sequence_m:68->64:0
+16	and	and	CCONJ	CC	_	17	cc	17:cc	Discourse=joint-sequence_m:70->66:0
 17	replaced	replace	VERB	VBN	Tense=Past|VerbForm=Part	11	conj	11:conj:and	_
 18	by	by	ADP	IN	_	19	case	19:case	_
 19	Farouk	Farouk	PROPN	NNP	Number=Sing	17	obl:agent	17:obl:agent	Entity=(122-person-new-cf3-1,2,3-sgl-Farouk_Ben_Mustapha|XML=<ref target:::"https://en.wikipedia.org/wiki/Farouk%20Ben%20Mustapha">
@@ -990,7 +990,7 @@
 # s_type = decl
 # transition = establishment
 # text = Tunisia won a penalty kick in the 33rd minute.
-1	Tunisia	Tunisia	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint-sequence_m:69->64:0|Entity=(14-organization-giv:act-cf1*-1-coref-Tunisia_national_football_team)
+1	Tunisia	Tunisia	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint-sequence_m:71->66:0|Entity=(14-organization-giv:act-cf1*-1-coref-Tunisia_national_football_team)
 2	won	win	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(123-event-new-cf3-3-sgl
 4	penalty	penalty	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(124-abstract-new-cf4-1-coref)
@@ -1006,7 +1006,7 @@
 # s_type = decl
 # transition = retain
 # text = English defender Kyle Walker was booked for his bad foul, and Ferjani Sassi scored from the penalty spot, equalising for the African side.
-1	English	English	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=causal-cause:70->71:0|Entity=(126-person-new-cf1-2,3,4-coref-Kyle_Walker
+1	English	English	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=causal-cause:72->73:0|Entity=(126-person-new-cf1-2,3,4-coref-Kyle_Walker
 2	defender	defender	NOUN	NN	Number=Sing	6	nsubj:pass	6:nsubj:pass	_
 3	Kyle	Kyle	PROPN	NNP	Number=Sing	2	flat	2:flat	XML=<ref target:::"https://en.wikipedia.org/wiki/Kyle%20Walker">
 4	Walker	Walker	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=126)|XML=</ref>
@@ -1017,7 +1017,7 @@
 9	bad	bad	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
 10	foul	foul	NOUN	NN	Number=Sing	6	obl	6:obl:for	Entity=127)|SpaceAfter=No
 11	,	,	PUNCT	,	_	15	punct	15:punct	_
-12	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=joint-sequence_m:71->64:0
+12	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=joint-sequence_m:73->66:0
 13	Ferjani	Ferjani	PROPN	NNP	Number=Sing	15	nsubj	15:nsubj	Entity=(128-person-new-cf4-1,2-sgl-Ferjani_Sassi|XML=<ref target:::"https://en.wikipedia.org/wiki/Ferjani%20Sassi">
 14	Sassi	Sassi	PROPN	NNP	Number=Sing	13	flat	13:flat	Entity=128)|XML=</ref>
 15	scored	score	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	6:conj:and	_
@@ -1026,7 +1026,7 @@
 18	penalty	penalty	NOUN	NN	Number=Sing	19	compound	19:compound	Entity=(124-abstract-giv:act-cf3-1-coref)
 19	spot	spot	NOUN	NN	Number=Sing	15	obl	15:obl:from	Entity=129)|SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	21:punct	_
-21	equalising	equalise	VERB	VBG	VerbForm=Ger	15	advcl	15:advcl	Discourse=causal-result:72->71:1
+21	equalising	equalise	VERB	VBG	VerbForm=Ger	15	advcl	15:advcl	Discourse=causal-result:74->73:1
 22	for	for	ADP	IN	_	25	case	25:case	_
 23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(14-organization-giv:act-cf2*-3-coref-Tunisia_national_football_team
 24	African	African	ADJ	JJ	Degree=Pos	25	amod	25:amod	_
@@ -1038,7 +1038,7 @@
 # s_type = decl
 # transition = zero
 # text = The first half ended 1 – 1 on the scoreboard.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=106<130|Discourse=joint-sequence_m:73->64:0|Entity=(130-time-acc:inf-cf1-3-coref
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=106<130|Discourse=joint-sequence_m:75->66:0|Entity=(130-time-acc:inf-cf1-3-coref
 2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	3:amod	_
 3	half	half	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	4	nsubj	4:nsubj	Entity=130)
 4	ended	end	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -1057,19 +1057,19 @@
 # text = In the second half, both sides had attempts for goals, but none crossing the goal line.
 # newpar
 # newpar_block = p (3 s)
-1	In	in	ADP	IN	_	4	case	4:case	Discourse=adversative-concession:74->75:0
+1	In	in	ADP	IN	_	4	case	4:case	Discourse=adversative-concession:76->77:0
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=106<132|Entity=(132-time-acc:inf-cf2-3-sgl
 3	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	4:amod	_
 4	half	half	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	8	obl	8:obl:in	Entity=132)|SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
-6	both	both	DET	DT	PronType=Art	7	det	7:det	Entity=(133-organization-acc:aggr-cf1-2-sgl|SplitAnte=8<133,14<133
+6	both	both	DET	DT	PronType=Tot	7	det	7:det	Entity=(133-organization-acc:aggr-cf1-2-sgl|SplitAnte=8<133,14<133
 7	sides	side	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj	Entity=133)
 8	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 9	attempts	attempt	NOUN	NNS	Number=Plur	8	obj	8:obj	Entity=(134-event-new-cf5-1-coref
 10	for	for	ADP	IN	_	11	case	11:case	_
 11	goals	goal	NOUN	NNS	Number=Plur	9	nmod	9:nmod:for	Entity=(135-event-new-cf6-1-sgl)134)|SpaceAfter=No
 12	,	,	PUNCT	,	_	14	punct	14:punct	_
-13	but	but	CCONJ	CC	_	14	cc	14:cc	Discourse=joint-sequence_m:75->64:1
+13	but	but	CCONJ	CC	_	14	cc	14:cc	Discourse=joint-sequence_m:77->66:1
 14	none	none	NOUN	NN	Number=Sing|Polarity=Neg	9	conj	8:obj|9:conj:but	Bridge=134<136|Entity=(136-event-acc:inf-cf3-1-sgl
 15	crossing	cross	VERB	VBG	VerbForm=Ger	14	acl	14:acl	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(137-place-new-cf4-3-sgl
@@ -1082,7 +1082,7 @@
 # s_type = decl
 # transition = null
 # text = In the injury time, English captain Harry Kane scored a second goal as England won a corner kick.
-1	In	in	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:76->64:1
+1	In	in	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:78->66:1
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=106<139|Entity=(139-event-acc:inf-cf3-3-sgl
 3	injury	injury	NOUN	NN	Number=Sing	4	compound	4:compound	_
 4	time	time	NOUN	NN	Number=Sing	10	obl	10:obl:in	Entity=139)|SpaceAfter=No
@@ -1095,7 +1095,7 @@
 11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Entity=(140-event-new-cf4-3-sgl
 12	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	13	amod	13:amod	_
 13	goal	goal	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=140)
-14	as	as	SCONJ	IN	_	16	mark	16:mark	Discourse=mode-manner:77->76:0
+14	as	as	SCONJ	IN	_	16	mark	16:mark	Discourse=mode-manner:79->78:0
 15	England	England	PROPN	NNP	Number=Sing	16	nsubj	16:nsubj	Entity=(8-organization-giv:inact-cf1-1-coref-England_national_football_team)
 16	won	win	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	advcl	10:advcl:as	_
 17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(141-event-new-cf5-3-sgl
@@ -1108,18 +1108,18 @@
 # s_type = decl
 # transition = establishment
 # text = The match came to end with England winning 2 – 1 and collecting three points.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-sequence_m:78->64:1|Entity=(106-event-giv:inact-cf2-2-coref
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-sequence_m:80->66:1|Entity=(106-event-giv:inact-cf2-2-coref
 2	match	match	NOUN	NN	Number=Sing	3	nsubj	3:nsubj|5:nsubj:xsubj	Entity=106)
 3	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	to	to	PART	TO	_	5	mark	5:mark	_
 5	end	end	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
-6	with	with	SCONJ	IN	_	8	mark	8:mark	_
+6	with	with	SCONJ	IN	_	8	mark	8:mark	Discourse=context-circumstance:81->80:0
 7	England	England	PROPN	NNP	Number=Sing	8	nsubj	8:nsubj|13:nsubj	Entity=(143-event-new-cf4-2-disc(8-organization-giv:act-cf1*-1-coref-England_national_football_team)
 8	winning	win	VERB	VBG	VerbForm=Ger	5	advcl	5:advcl:with	_
 9	2	2	NUM	CD	NumForm=Digit|NumType=Card	8	obl:npmod	8:obl:npmod	_
 10	–	-	SYM	SYM	_	11	case	11:case	_
 11	1	1	NUM	CD	NumForm=Digit|NumType=Card	9	nmod	9:nmod:to	Entity=143)
-12	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=causal-result:79->78:0
+12	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=joint-list_m:82->81:0
 13	collecting	collect	VERB	VBG	VerbForm=Ger	8	conj	5:advcl:with|8:conj:and	_
 14	three	three	NUM	CD	NumForm=Word|NumType=Card	15	nummod	15:nummod	Bridge=9<144|Entity=(144-abstract-acc:inf-cf3-2-sgl
 15	points	point	NOUN	NNS	Number=Plur	13	obj	13:obj	Entity=144)|SpaceAfter=No
@@ -1132,7 +1132,7 @@
 # text = Harry Kane won the Budweiser Man of the Match award.
 # newpar
 # newpar_block = p (6 s)
-1	Harry	Harry	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=joint-other_m:80->63:0|Entity=(115-person-giv:inact-cf2-1,2-coref-Harry_Kane
+1	Harry	Harry	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=joint-other_m:83->65:0|Entity=(115-person-giv:inact-cf2-1,2-coref-Harry_Kane
 2	Kane	Kane	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=115)
 3	won	win	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(145-abstract-new-cf4-6,7-sgl
@@ -1149,10 +1149,10 @@
 # s_type = decl
 # transition = smooth-shift
 # text = He said, "In the first half it felt good out there.
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:81->82:1|Entity=(115-person-giv:act-cf1*-1-ana-Harry_Kane)
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:84->85:1|Entity=(115-person-giv:act-cf1*-1-ana-Harry_Kane)
 2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
-4	"	''	PUNCT	``	_	10	punct	10:punct	Discourse=evaluation-comment:82->62:1|SpaceAfter=No|XML=<quote>
+4	"	''	PUNCT	``	_	10	punct	10:punct	Discourse=evaluation-comment:85->64:1|SpaceAfter=No|XML=<quote>
 5	In	in	ADP	IN	_	8	case	8:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(130-time-giv:inact-cf2-3-coref
 7	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	8	amod	8:amod	_
@@ -1171,7 +1171,7 @@
 # text = We could've scored two or three goals in the first half and put the game to bed early."
 # newpar
 # newpar_block = quote (1 s)
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj|14:nsubj	Discourse=joint-other_m:83->82:0|Entity=(8-organization-giv:inact-cf1-1-ana-England_national_football_team)
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj|14:nsubj	Discourse=joint-other_m:86->85:0|Entity=(8-organization-giv:inact-cf1-1-ana-England_national_football_team)
 2-3	could've	_	_	_	_	_	_	_	_
 2	could	could	AUX	MD	VerbForm=Fin	4	aux	4:aux|14:aux	_
 3	've	have	AUX	VB	VerbForm=Inf	4	aux	4:aux|14:aux	_
@@ -1184,7 +1184,7 @@
 10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Bridge=106<130|Entity=(130-time-acc:inf-cf3*-3-coref
 11	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	12	amod	12:amod	_
 12	half	half	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	4	obl	4:obl:in	Entity=130)
-13	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=causal-result:84->83:0
+13	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=causal-result:87->86:0
 14	put	put	VERB	VB	VerbForm=Inf	4	conj	4:conj:and	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(106-event-giv:inact-cf2-2-coref
 16	game	game	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=106)
@@ -1199,7 +1199,7 @@
 # s_type = decl
 # transition = rough-shift
 # text = After the match, Tunisia's coach Nabil Maaloul said, "We were playing against a highly-skilled and highly co-ordinated team in terms of their forward players.
-1	After	after	ADP	IN	_	3	case	3:case	Discourse=attribution-positive:85->89:1
+1	After	after	ADP	IN	_	3	case	3:case	Discourse=attribution-positive:88->92:1
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(106-event-giv:act-cf3-2-coref
 3	match	match	NOUN	NN	Number=Sing	10	obl	10:obl:after	Entity=106)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -1211,7 +1211,7 @@
 9	Maaloul	Maaloul	PROPN	NNP	Number=Sing	8	flat	8:flat	Entity=147)|XML=</ref>
 10	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 11	,	,	PUNCT	,	_	10	punct	10:punct	_
-12	"	''	PUNCT	``	_	15	punct	15:punct	Discourse=context-background:86->88:1|SpaceAfter=No|XML=<quote>
+12	"	''	PUNCT	``	_	15	punct	15:punct	Discourse=context-background:89->91:1|SpaceAfter=No|XML=<quote>
 13	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	15:nsubj	Entity=(14-organization-giv:act-cf1-1-ana-Tunisia_national_football_team)
 14	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	15	aux	15:aux	_
 15	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part	10	ccomp	10:ccomp	_
@@ -1239,14 +1239,14 @@
 # text = If we were to get a draw it would have been an excellent result for us.
 # newpar
 # newpar_block = quote (2 s)
-1	If	if	SCONJ	IN	_	5	mark	5:mark	Discourse=contingency-condition:87->88:0
+1	If	if	SCONJ	IN	_	5	mark	5:mark	Discourse=contingency-condition:90->91:0
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(14-organization-giv:act-cf1*-1-ana-Tunisia_national_football_team)
 3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	5	aux	5:aux	_
 4	to	to	PART	TO	_	5	mark	5:mark	_
 5	get	get	VERB	VB	VerbForm=Inf	14	advcl	14:advcl:if_to	_
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(149-event-new-cf2-2-coref
 7	draw	draw	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=149)
-8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj	Discourse=adversative-antithesis:88->89:0|Entity=(149-event-giv:act-cf2-1-ana)
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj	Discourse=adversative-antithesis:91->92:0|Entity=(149-event-giv:act-cf2-1-ana)
 9	would	would	AUX	MD	VerbForm=Fin	14	aux	14:aux	_
 10	have	have	AUX	VB	VerbForm=Inf	14	aux	14:aux	_
 11	been	be	AUX	VBN	Tense=Past|VerbForm=Part	14	cop	14:cop	_
@@ -1262,7 +1262,7 @@
 # s_type = decl
 # transition = zero
 # text = But hopefully this will lead to higher levels of concentration in the coming games."
-1	But	but	CCONJ	CC	_	5	cc	5:cc	Discourse=adversative-contrast_m:89->82:2
+1	But	but	CCONJ	CC	_	5	cc	5:cc	Discourse=adversative-contrast_m:92->85:2
 2	hopefully	hopefully	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 3	this	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Entity=(143-event-giv:inact-cf1-1-coref)
 4	will	will	AUX	MD	VerbForm=Fin	5	aux	5:aux	_

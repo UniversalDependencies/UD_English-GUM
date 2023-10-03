@@ -92,7 +92,7 @@
 17-18	don't	_	_	_	_	_	_	_	_
 17	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
 18	n't	not	PART	RB	Polarity=Neg	19	advmod	19:advmod	_
-19	know	know	VERB	VB	VerbForm=Inf	14	acl	14:acl:if	_
+19	know	know	VERB	VB	VerbForm=Inf	14	advcl	14:advcl:if	_
 20	what	what	PRON	WP	PronType=Rel	19	obj	19:obj	_
 21	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	23	nsubj	23:nsubj	Entity=(3-person-giv:act-cf1-1-ana)
 22	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	23	aux	23:aux	_
@@ -490,7 +490,7 @@
 # newpar
 # newpar_block = item (2 s) | p (2 s)
 1	Try	try	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:41->33:3
-2	growing	grow	VERB	VBG	VerbForm=Ger	1	ccomp	1:ccomp	_
+2	growing	grow	VERB	VBG	VerbForm=Ger	1	xcomp	1:xcomp	_
 3	peppermint	peppermint	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(48-plant-new-cf2-2-coref
 4	plants	plant	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=48)
 5	near	near	ADP	IN	_	7	case	7:case	_
@@ -1090,7 +1090,7 @@
 9	,	,	PUNCT	,	_	6	punct	6:punct	_
 10	not	not	PART	RB	Polarity=Neg	11	advmod	11:advmod	Discourse=joint-other_m:100->95:3
 11	all	all	DET	DT	PronType=Tot	12	nsubj	12:nsubj	Entity=(112-animal-giv:act-cf1-1-ana)
-12	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+12	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 13	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_whow_mice-50
@@ -1383,9 +1383,9 @@
 2	sure	sure	ADJ	JJ	Degree=Pos	1	xcomp	1:xcomp	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(134-object-giv:inact-cf1-3-coref
 4	shelter	shelter	NOUN	NN	Number=Sing	5	compound	5:compound	_
-5	box	box	NOUN	NN	Number=Sing	1	obj	1:obj|2:nsubj:xsubj	Entity=134)
+5	box	box	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=134)
 6	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp	_
-7	no	no	DET	DT	Polarity=Neg|PronType=Art	8	det	8:det	_
+7	no	no	DET	DT	Polarity=Neg|PronType=Neg	8	det	8:det	_
 8	nails	nail	NOUN	NNS	Number=Plur	6	obj	6:obj	Entity=(142-object-new-cf2-1-sgl)
 9	or	or	CCONJ	CC	_	11	cc	11:cc	_
 10	safety	safety	NOUN	NN	Number=Sing	11	compound	11:compound	Entity=(143-abstract-new-cf3-2-sgl

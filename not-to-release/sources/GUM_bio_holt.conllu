@@ -17,7 +17,7 @@
 # text = Brock Holt
 # newpar
 # newpar_block = table rend:::"boxed" rows:::"16" cols:::"2" (21 s) | row (1 s) | cell rend:::"bold, red background" (1 s)
-1	Brock	Brock	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-preparation:1->32:6|Entity=(1-person-new-cf1-1,2-coref-Brock_Holt
+1	Brock	Brock	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-heading:1->32:6|Entity=(1-person-new-cf1-1,2-coref-Brock_Holt
 2	Holt	Holt	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=1)
 
 # sent_id = GUM_bio_holt-2
@@ -58,7 +58,7 @@
 1	Second	second	ADJ	JJ	Degree=Pos|NumType=Ord	2	amod	2:amod	Discourse=joint-list_m:4->3:0|Entity=(1-person-giv:act-cf1*-2-coref-Brock_Holt
 2	baseman	baseman	NOUN	NN	Number=Sing	0	root	0:root	Entity=1)
 3	/	/	SYM	SYM	_	4	cc	4:cc	_
-4	Shortstop	dhortstop	NOUN	NN	Number=Sing	2	conj	2:conj:slash	Entity=(1-person-giv:act-cf1*-1-coref-Brock_Holt)|XML=<ref target:::"https://en.wikipedia.org/wiki/Shortstop"></ref>
+4	Shortstop	shortstop	NOUN	NN	Number=Sing	2	conj	2:conj:slash	Entity=(1-person-giv:act-cf1*-1-coref-Brock_Holt)|XML=<ref target:::"https://en.wikipedia.org/wiki/Shortstop"></ref>
 5	/	/	SYM	SYM	_	6	cc	6:cc	_
 6	Outfielder	outfielder	NOUN	NN	Number=Sing	2	conj	2:conj:slash	Entity=(1-person-giv:act-cf1*-1-coref-Brock_Holt)|XML=<ref target:::"https://en.wikipedia.org/wiki/Outfielder"></ref>
 
@@ -222,7 +222,7 @@
 1	Boston	Boston	PROPN	NNP	Number=Sing	3	compound	3:compound	Discourse=joint-sequence_m:23->21:1|Entity=(2-organization-giv:inact-cf1-1,2,3-coref-Boston_Red_Sox(3-place-giv:inact-cf2-1-coref-Boston)|XML=<ref target:::"https://en.wikipedia.org/wiki/Boston_Red_Sox">
 2	Red	Red	ADJ	NNP	Degree=Pos|Number=Sing	3	amod	3:amod	_
 3	Sox	Sox	PROPN	NNPS	Number=Plur	0	root	0:root	Entity=2)|XML=</ref>
-4	(	(	PUNCT	-LRB-	_	5	punct	5:punct	Discourse=elaboration-additional:24->23:0|SpaceAfter=No|XML=<ref target:::"https://en.wikipedia.org/wiki/2013_in_baseball">
+4	(	(	PUNCT	-LRB-	_	5	punct	5:punct	Discourse=context-circumstance:24->23:0|SpaceAfter=No|XML=<ref target:::"https://en.wikipedia.org/wiki/2013_in_baseball">
 5	2013	2013	NUM	CD	NumForm=Digit|NumType=Card	3	nmod:tmod	3:nmod:tmod	Entity=(26-time-new-cf4-1-coref)|XML=<date notBefore:::"2013"></date></ref>
 6	–	-	SYM	SYM	_	7	case	7:case	_
 7	present	present	NOUN	NN	Number=Sing	5	nmod	5:nmod:to	Entity=(27-time-acc:com-cf3-1-coref)|SpaceAfter=No
@@ -388,7 +388,7 @@
 11	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=same-unit_m:40->38:1
 12	180	180	NUM	CD	NumForm=Digit|NumType=Card	13	nummod	13:nummod	Entity=(42-abstract-new-cf3-2-coref
 13	pounds	pound	NOUN	NNS	Number=Plur	4	conj	1:obl:at|4:conj:and	Entity=42)
-14	(	(	PUNCT	-LRB-	_	16	punct	16:punct	Discourse=elaboration-additional:41->40:0|SpaceAfter=No
+14	(	(	PUNCT	-LRB-	_	16	punct	16:punct	Discourse=restatement-partial:41->40:0|SpaceAfter=No
 15	82	82	NUM	CD	NumForm=Digit|NumType=Card	16	nummod	16:nummod	Entity=(42-abstract-giv:act-cf3-2-appos
 16	kg	kilogram	NOUN	NNS	Number=Plur	13	appos	13:appos	Entity=42)|SpaceAfter=No
 17	)	)	PUNCT	-RRB-	_	16	punct	16:punct	SpaceAfter=No

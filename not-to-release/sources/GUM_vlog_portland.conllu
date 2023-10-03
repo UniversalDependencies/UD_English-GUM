@@ -196,9 +196,9 @@
 8	um	um	INTJ	UH	_	12	discourse	12:discourse	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	8:punct	_
 10	not	not	PART	RB	Polarity=Neg	12	advmod	12:advmod	_
-11	like	like	ADV	RB	Degree=Pos	12	case	12:case	_
+11	like	like	ADP	IN	_	12	case	12:case	_
 12	cute	cute	ADJ	JJ	Degree=Pos	2	conj	2:conj:but	_
-13	like	like	ADV	RB	Degree=Pos	16	case	16:case	_
+13	like	like	ADP	IN	_	16	case	16:case	_
 14	Instagram	Instagram	PROPN	NNP	Number=Sing	15	compound	15:compound	Entity=(18-abstract-new-cf5-3-sgl(19-person-new-cf8-2-sgl(20-organization-new-cf7-1-sgl-Instagram)
 15	girl	girl	NOUN	NN	Number=Sing	16	compound	16:compound	Entity=19)
 16	footage	footage	NOUN	NN	Number=Sing	12	obl	12:obl:like	Entity=18)|SpaceAfter=No
@@ -253,7 +253,7 @@
 1	So	so	ADV	RB	_	4	discourse	4:discourse	Discourse=attribution-positive:19->20:0
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(24-person-giv:act-cf1*-1-ana)
 3	might	might	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
-4	be	be	VERB	VB	VerbForm=Inf	0	root	0:root	_
+4	be	be	AUX	VB	VerbForm=Inf	0	root	0:root	_
 5	like	like	ADP	RP	_	4	compound:prt	4:compound:prt	_
 6	this	this	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	10:nsubj	Discourse=evaluation-comment:20->16:2|Entity=(25-abstract-new-cf2-1-cata)
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
@@ -487,7 +487,8 @@
 10	to	to	PART	TO	_	11	mark	11:mark	_
 11	do	do	VERB	VB	VerbForm=Inf	9	xcomp	9:xcomp	_
 12	if	if	SCONJ	IN	_	16	mark	16:mark	Discourse=contingency-condition:42->41:0
-13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	16	nsubj	16:nsubj	Entity=(24-person-giv:act-cf1*-1-ana)|SpaceAfter=No
+13-14	you're	_	_	_	_	_	_	_	_
+13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	16	nsubj	16:nsubj	Entity=(24-person-giv:act-cf1*-1-ana)
 14	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	aux	16:aux	_
 15	just	just	ADV	RB	_	16	advmod	16:advmod	_
 16	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	11	advcl	11:advcl:if	_
@@ -507,7 +508,8 @@
 29	to	to	PART	TO	_	30	mark	30:mark	Discourse=purpose-attribute:44->43:0
 30	consider	consider	VERB	VB	VerbForm=Inf	28	acl	28:acl:to	_
 31	if	if	SCONJ	IN	_	34	mark	34:mark	Discourse=contingency-condition:45->43:1
-32	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	34	nsubj	34:nsubj	Entity=(24-person-giv:act-cf1*-1-ana)|SpaceAfter=No
+32-33	you're	_	_	_	_	_	_	_	_
+32	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	34	nsubj	34:nsubj	Entity=(24-person-giv:act-cf1*-1-ana)
 33	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	34	aux	34:aux	_
 34	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	30	advcl	30:advcl:if	_
 35	out	out	ADV	RB	_	34	advmod	34:advmod	_
@@ -530,7 +532,7 @@
 # transition = zero
 # text = Number two is shopping.
 1	Number	number	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Discourse=joint-list_m:46->22:6|Entity=(49-event-new-cf1-1-coref
-2	two	two	NUM	CD	NumForm=Word|NumType=Card	1	nummod	1:nummod	Entity=49)
+2	two	two	NUM	CD	NumForm=Word|NumType=Card	1	dep	1:dep	Entity=49)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 4	shopping	shopping	NOUN	NN	Number=Sing	0	root	0:root	Entity=(49-event-giv:act-cf1-1-pred)|SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	4:punct	_
@@ -544,7 +546,7 @@
 1	These	this	PRON	DT	Number=Plur|PronType=Dem	6	nsubj	6:nsubj	Discourse=adversative-concession:47->48:1|Entity=(50-event-acc:aggr-cf1-1-coref)|SplitAnte=23<50,49<50
 2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 3	in	in	ADP	IN	_	6	case	6:case	_
-4	no	no	DET	DT	Polarity=Neg|PronType=Art	6	det	6:det	Entity=(51-abstract-new-cf2-3-sgl
+4	no	no	DET	DT	Polarity=Neg|PronType=Neg	6	det	6:det	Entity=(51-abstract-new-cf2-3-sgl
 5	particular	particular	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
 6	order	order	NOUN	NN	Number=Sing	0	root	0:root	Entity=51)
 7	by	by	ADP	IN	_	9	case	9:case	_
@@ -558,7 +560,8 @@
 # speaker = KatieBlake
 # transition = establishment
 # text = They're just sort of like what I thought of as I was making this video.
-1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	7:nsubj	Discourse=elaboration-additional:48->46:0|Entity=(50-event-giv:act-cf2*-1-ana)|SpaceAfter=No
+1-2	They're	_	_	_	_	_	_	_	_
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	7:nsubj	Discourse=elaboration-additional:48->46:0|Entity=(50-event-giv:act-cf2*-1-ana)
 2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 3	just	just	ADV	RB	_	7	advmod	7:advmod	_
 4	sort	sort	NOUN	NN	Number=Sing	7	advmod	7:advmod	_
@@ -639,7 +642,8 @@
 11	check	check	VERB	VB	VerbForm=Inf	7	acl:relcl	7:acl:relcl	Entity=58)57)
 12	out	out	ADP	RP	_	11	compound:prt	11:compound:prt	_
 13	while	while	SCONJ	IN	_	16	mark	16:mark	Discourse=context-circumstance:54->53:0
-14	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	16	nsubj	16:nsubj	Entity=(24-person-giv:act-cf1-1-ana)|SpaceAfter=No
+14-15	you're	_	_	_	_	_	_	_	_
+14	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	16	nsubj	16:nsubj	Entity=(24-person-giv:act-cf1-1-ana)
 15	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	cop	16:cop	_
 16	there	there	ADV	RB	PronType=Dem	11	advcl	11:advcl:while	Entity=(8-place-giv:inact-cf3-1-coref-Portland%2C_Oregon)
 17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	Discourse=same-unit_m:55->52:1
@@ -781,14 +785,16 @@
 # text = So if you're looking for a book and you're wondering like – oh I wonder if I could get this used, like it's usually right next to it, which I thought was just like so awesome.
 1	So	so	ADV	RB	_	30	advmod	30:advmod	Discourse=elaboration-additional:68->65:2
 2	if	if	SCONJ	IN	_	5	mark	5:mark	Discourse=contingency-condition:69->73:0
-3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(24-person-giv:inact-cf1-1-ana)|SpaceAfter=No
+3-4	you're	_	_	_	_	_	_	_	_
+3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(24-person-giv:inact-cf1-1-ana)
 4	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 5	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	30	advcl	30:advcl:if	_
 6	for	for	ADP	IN	_	8	case	8:case	_
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(67-object-new-cf4-2-coref
 8	book	book	NOUN	NN	Number=Sing	5	obl	5:obl:for	Entity=67)
 9	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=attribution-positive:70->72:1
-10	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	12:nsubj	Entity=(24-person-giv:act-cf1-1-ana)|SpaceAfter=No
+10-11	you're	_	_	_	_	_	_	_	_
+10	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	12:nsubj	Entity=(24-person-giv:act-cf1-1-ana)
 11	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	aux	12:aux	_
 12	wondering	wonder	VERB	VBG	Tense=Pres|VerbForm=Part	5	conj	5:conj:and|30:advcl:if	_
 13	like	like	INTJ	UH	_	12	discourse	12:discourse	_
@@ -957,11 +963,13 @@
 4	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	14:advcl:if	_
 5	slugs	slug	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=(78-animal-new-cf2-1-sgl)|SpaceAfter=No
 6	,	,	PUNCT	,	_	4	punct	4:punct	_
-7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Discourse=organization-phatic:89->90:0|Entity=(24-person-giv:act-cf1-1-ana)|SpaceAfter=No|XML=<sic>
+7-8	you're	_	_	_	_	_	_	_	_
+7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Discourse=organization-phatic:89->90:0|Entity=(24-person-giv:act-cf1-1-ana)|XML=<sic>
 8	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
 9	in	in	ADV	RB	Degree=Pos	14	reparandum	14:reparandum	_
 10	–	-	PUNCT	:	_	9	punct	9:punct	XML=</sic>
-11	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	14:nsubj	Discourse=same-unit_m:90->87:0|Entity=(24-person-giv:act-cf1-1-ana)|SpaceAfter=No
+11-12	you're	_	_	_	_	_	_	_	_
+11	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	14:nsubj	Discourse=same-unit_m:90->87:0|Entity=(24-person-giv:act-cf1-1-ana)
 12	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_
 13	in	in	ADP	IN	_	14	case	14:case	_
 14	luck	luck	NOUN	NN	Number=Sing	0	root	0:root	SpaceAfter=No
@@ -1031,7 +1039,7 @@
 20	so	so	ADV	RB	_	22	discourse	22:discourse	Discourse=organization-phatic:97->98:0
 21-22	it's	_	_	_	_	_	_	_	_
 21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	22:nsubj	Entity=(80-place-giv:act-cf2-1-ana-Forest_Park_%28Portland%2C_Oregon%29)|XML=<sic>
-22	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	reparandum	28:reparandum	_
+22	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	reparandum	28:reparandum	_
 23	–	-	PUNCT	:	_	22	punct	22:punct	XML=</sic>
 24-25	it's	_	_	_	_	_	_	_	_
 24	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	nsubj	28:nsubj	Discourse=elaboration-additional:98->91:2|Entity=(80-place-giv:act-cf2-1-ana-Forest_Park_%28Portland%2C_Oregon%29)
@@ -1135,7 +1143,7 @@
 # text = So number four are the Japanese gardens and the rose gardens in Forest Park.
 1	So	so	INTJ	UH	_	7	discourse	7:discourse	Discourse=joint-list_m:106->22:6
 2	number	number	NOUN	NN	Number=Sing	7	nsubj	7:nsubj|11:nsubj	Entity=(90-place-new-cf1-1-coref
-3	four	four	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Entity=90)
+3	four	four	NUM	CD	NumForm=Word|NumType=Card	2	dep	2:dep	Entity=90)
 4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(90-place-giv:act-cf1-3,7-coref(91-place-new-cf3-3-coref-Portland_Japanese_Garden
 6	Japanese	Japanese	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
@@ -1162,7 +1170,8 @@
 4	n't	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
 5	know	know	VERB	VB	VerbForm=Inf	0	root	0:root	_
 6	if	if	SCONJ	IN	_	13	mark	13:mark	Discourse=adversative-concession:108->109:0
-7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	13:nsubj	Entity=(90-place-giv:act-cf1*-1-ana)|SpaceAfter=No
+7-8	they're	_	_	_	_	_	_	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	13:nsubj	Entity=(90-place-giv:act-cf1*-1-ana)
 8	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_
 9	like	like	INTJ	UH	_	13	discourse	13:discourse	_
 10	technically	technically	ADV	RB	Degree=Pos	13	advmod	13:advmod	_
@@ -1170,7 +1179,8 @@
 12	Forest	Forest	PROPN	NNP	Number=Sing	13	compound	13:compound	Entity=(80-place-giv:act-cf2-1,2-coref-Forest_Park_%28Portland%2C_Oregon%29
 13	Park	Park	PROPN	NNP	Number=Sing	5	ccomp	5:ccomp	Entity=80)
 14	but	but	CCONJ	CC	_	21	cc	21:cc	Discourse=elaboration-additional:109->106:0
-15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	21:nsubj	Entity=(90-place-giv:act-cf1*-1-ana)|SpaceAfter=No
+15-16	they're	_	_	_	_	_	_	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	21:nsubj	Entity=(90-place-giv:act-cf1*-1-ana)
 16	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	21:cop	_
 17	right	right	ADV	RB	Degree=Pos	21	advmod	21:advmod	_
 18	in	in	ADP	IN	_	21	case	21:case	_
@@ -1234,7 +1244,7 @@
 4	tourists	tourist	NOUN	NNS	Number=Plur	2	nmod	2:nmod:of	Entity=96)
 5	but	but	CCONJ	CC	_	7	cc	7:cc	Discourse=organization-phatic:115->116:0
 6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	Entity=(92-place-giv:act-cf1*-1-ana)|XML=<sic>
-7	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	reparandum	13:reparandum	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	reparandum	13:reparandum	_
 8	–	-	PUNCT	:	_	7	punct	7:punct	XML=</sic>
 9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	Discourse=evaluation-comment:116->110:1|Entity=(92-place-giv:act-cf1*-1-ana)
 10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	13:cop	_
@@ -1321,17 +1331,17 @@
 7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	10:nsubj	Discourse=joint-list_m:123->110:2|Entity=(24-person-giv:act-cf1*-1-ana)
 8	can	can	AUX	MD	VerbForm=Fin	10	aux	10:aux	_
 9	actually	actually	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
-10	see	see	VERB	VB	VerbForm=Inf	0	root	0:root	_
+10	see	see	VERB	VB	VerbForm=Inf	0	root	0:root|20:csubj	_
 11	Mount	Mount	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=(100-place-new-cf4-1,2-sgl-Mount_Hood
 12	Hood	Hood	PROPN	NNP	Number=Sing	10	obj	10:obj	Entity=100)
 13	from	from	ADP	IN	_	16	case	16:case	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(91-place-giv:act-cf2-3-coref-Portland_Japanese_Garden
 15	Japanese	Japanese	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
-16	gardens	garden	NOUN	NNS	Number=Plur	10	obl	10:obl:from|20:nsubj	Entity=91)
-17	which	which	PRON	WDT	PronType=Rel	20	nsubj	16:ref	Discourse=evaluation-comment:124->123:0
+16	gardens	garden	NOUN	NNS	Number=Plur	10	obl	10:obl:from	Entity=91)
+17	which	which	PRON	WDT	PronType=Rel	20	nsubj	10:ref|20:nsubj	Discourse=evaluation-comment:124->123:0
 18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	20:cop	_
 19	really	really	ADV	RB	Degree=Pos	20	advmod	20:advmod	_
-20	wild	wild	ADJ	JJ	Degree=Pos	16	acl:relcl	16:acl:relcl	SpaceAfter=No
+20	wild	wild	ADJ	JJ	Degree=Pos	10	advcl:relcl	10:advcl:relcl	SpaceAfter=No
 21	,	,	PUNCT	,	_	28	punct	28:punct	_
 22	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=joint-list_m:125->123:2
 23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(91-place-giv:act-cf2-2-coref-Portland_Japanese_Garden

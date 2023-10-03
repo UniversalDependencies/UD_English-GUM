@@ -259,7 +259,7 @@
 14	down	down	ADV	RB	Degree=Pos	12	advmod	12:advmod	XML=</w>
 15	shirt	shirt	NOUN	NN	Number=Sing	8	conj	2:appos|8:conj:and	Entity=33)31)
 16	--	-	PUNCT	:	_	18	punct	18:punct	Discourse=elaboration-additional:26->25:0
-17	no	no	DET	DT	Polarity=Neg|PronType=Art	18	det	18:det	Entity=(34-object-new-cf6-2-sgl
+17	no	no	DET	DT	Polarity=Neg|PronType=Neg	18	det	18:det	Entity=(34-object-new-cf6-2-sgl
 18	tie	tie	NOUN	NN	Number=Sing	8	conj	2:appos|8:conj	Entity=34)
 19	--	-	PUNCT	:	_	2	punct	2:punct	_
 20	lay	lay	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:27->23:1
@@ -311,7 +311,7 @@
 2	No	no	INTJ	UH	Polarity=Neg	6	ccomp	6:ccomp	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	SpaceAfter=No
 4	"	''	PUNCT	''	_	2	punct	2:punct	XML=</sp>
-5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=context-background:32->31:0|Entity=(5-person-giv:act-cf1*-1-ana)
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=attribution-positive:32->31:0|Entity=(5-person-giv:act-cf1*-1-ana)
 6	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 7	.	.	PUNCT	.	_	6	punct	6:punct	_
 
@@ -327,7 +327,7 @@
 5	time	time	NOUN	NN	Number=Sing	0	root	0:root	_
 6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj	Discourse=elaboration-attribute:34->33:0|Entity=(5-person-giv:act-cf1*-1-ana)
 7	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	8:aux	_
-8	been	be	VERB	VBN	Tense=Past|VerbForm=Part	5	acl:relcl	5:acl:relcl	_
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	acl:relcl	5:acl:relcl	_
 9	to	to	ADP	IN	_	11	case	11:case	_
 10	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(40-place-new-cf7-2-sgl(7-person-giv:inact-cf2-1-ana)
 11	apartment	apartment	NOUN	NN	Number=Sing	8	obl	8:obl:to	Entity=40)39)|SpaceAfter=No
@@ -589,7 +589,8 @@
 # transition = continue
 # text = "You're ashamed of me," he guessed, and Rachel kissed him and smiled and didn't say anything.
 1	"	''	PUNCT	``	_	4	punct	4:punct	Discourse=evaluation-comment:57->53:1|SpaceAfter=No
-2	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(5-person-giv:act-cf1*-1-ana)|SpaceAfter=No
+2-3	You're	_	_	_	_	_	_	_	_
+2	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(5-person-giv:act-cf1*-1-ana)
 3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 4	ashamed	ashamed	ADJ	JJ	Degree=Pos	10	parataxis	10:parataxis	_
 5	of	of	ADP	IN	_	6	case	6:case	_
@@ -827,7 +828,7 @@
 # transition = establishment
 # text = Sunlight streaming in through a high window opposite her lit up the fine hairs on her arm, the embroidered flowers on the collar of her white shirt.
 1	Sunlight	sunlight	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Discourse=joint-list_m:82->79:2|Entity=(71-substance-new-cf2-1-coref
-2	streaming	stream	VERB	VBG	VerbForm=Ger	1	acl	1:acl	Discourse=adversative-antithesis:83->82:0
+2	streaming	stream	VERB	VBG	VerbForm=Ger	1	acl	1:acl	Discourse=elaboration-attribute:83->82:0
 3	in	in	ADV	RB	Degree=Pos	2	advmod	2:advmod	_
 4	through	through	ADP	IN	_	7	case	7:case	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(72-object-new-cf6-3-sgl
@@ -874,7 +875,7 @@
 11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	10:expl	Entity=(80-event-new-cf4-1-cata)
 12	difficult	difficult	ADJ	JJ	Degree=Pos	10	xcomp	10:xcomp	_
 13	to	to	PART	TO	_	14	mark	14:mark	Entity=(80-event-acc:com-cf4-2-coref
-14	look	look	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	10	ccomp	10:ccomp|12:csubj:xsubj	_
+14	look	look	VERB	VB	VerbForm=Inf	10	ccomp	10:ccomp|12:csubj:xsubj	_
 15	directly	directly	ADV	RB	Degree=Pos	14	advmod	14:advmod	_
 16	at	at	ADP	IN	_	17	case	17:case	_
 17	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obl	14:obl:at	Entity=(5-person-giv:act-cf1*-1-ana)80)|SpaceAfter=No

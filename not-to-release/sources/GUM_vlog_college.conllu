@@ -79,7 +79,7 @@
 # text = And I was like, I can't vlog tomorrow because I'm just not gonna have the mental energy or the physical energy to do anything productive.
 1	And	and	CCONJ	CC	_	9	cc	9:cc	Discourse=attribution-positive:5->6:1
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj:outer	9:nsubj:outer	Entity=(3-person-giv:act-cf1*-1-ana)
-3	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	parataxis	9:parataxis	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	parataxis	9:parataxis	_
 4	like	like	ADP	RP	_	3	compound:prt	3:compound:prt	SpaceAfter=No
 5	,	,	PUNCT	,	_	3	punct	3:punct	_
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	9:nsubj	Discourse=adversative-antithesis:6->12:1|Entity=(3-person-giv:act-cf1*-1-ana)
@@ -157,7 +157,7 @@
 # text = So I was kind of like, maybe I should vlog today and just see how my day turns around because we're getting off on a rough start right now.
 1	So	so	ADV	RB	_	3	discourse	3:discourse	Discourse=attribution-positive:13->14:2
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(3-person-giv:act-cf1*-1-ana)
-3	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	kind	kind	NOUN	NN	Number=Sing	3	obl:npmod	3:obl:npmod	_
 5	of	of	ADP	IN	_	4	case	4:case	_
 6	like	like	ADP	RP	_	3	compound:prt	3:compound:prt	SpaceAfter=No
@@ -176,7 +176,8 @@
 19	turns	turn	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	15:ccomp	_
 20	around	around	ADV	RB	Degree=Pos	19	advmod	19:advmod	_
 21	because	because	SCONJ	IN	_	24	mark	24:mark	Discourse=causal-cause:16->14:1
-22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	24:nsubj	Entity=(15-person-acc:com-cf3-1-ana)|SpaceAfter=No
+22-23	we're	_	_	_	_	_	_	_	_
+22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	24:nsubj	Entity=(15-person-acc:com-cf3-1-ana)
 23	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	aux	24:aux	_
 24	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	15	advcl	15:advcl:because	_
 25	off	off	ADP	RP	_	24	compound:prt	24:compound:prt	_
@@ -204,7 +205,7 @@
 8	you	you	PRON	PRP	Case=Acc|Number=Plur|Person=2|PronType=Prs	9	dep	9:dep	Entity=(2-person-giv:inact-cf3-2-coref
 9	guys	guy	NOUN	NNS	Number=Plur	7	obj	7:obj	Entity=2)
 10	through	through	ADP	IN	_	12	case	12:case	_
-11	another	another	DET	DT	PronType=Art	12	det	12:det	Entity=(4-time-giv:act-cf2-2-coref
+11	another	another	DET	DT	PronType=Ind	12	det	12:det	Entity=(4-time-giv:act-cf2-2-coref
 12	day	day	NOUN	NN	Number=Sing	7	obl	7:obl:through	_
 13	in	in	ADP	IN	_	15	case	15:case	_
 14	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	15:nmod:poss	Entity=(5-abstract-giv:inact-cf4-2-coref(3-person-giv:act-cf1*-1-ana)
@@ -218,7 +219,7 @@
 # transition = continue
 # text = I'll take you guys to yoga with me and we'll just see if things improve.
 1-2	I'll	_	_	_	_	_	_	_	_
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=adversative-antithesis:18->17:0|Entity=(3-person-giv:act-cf1*-1-ana)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=elaboration-additional:18->17:0|Entity=(3-person-giv:act-cf1*-1-ana)
 2	'll	will	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	take	take	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	you	you	PRON	PRP	Case=Acc|Number=Plur|Person=2|PronType=Prs	5	dep	5:dep	Entity=(2-person-giv:act-cf2-2-coref
@@ -659,9 +660,10 @@
 # text = We're done with yoga.
 # newpar
 # newpar_block = sp who:::"#AshleyClaire" (2 s)
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj:outer	3:nsubj:outer	Discourse=joint-sequence_m:55->47:4|Entity=(40-person-acc:com-cf2-1-ana)|SpaceAfter=No
+1-2	We're	_	_	_	_	_	_	_	_
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj:outer	3:nsubj:outer	Discourse=joint-sequence_m:55->47:4|Entity=(40-person-acc:com-cf2-1-ana)
 2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
-3	done	do	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
+3	done	do	AUX	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 4	with	with	ADP	IN	_	5	case	5:case	_
 5	yoga	yoga	NOUN	NN	Number=Sing	3	obl	3:obl:with	Entity=(12-event-giv:inact-cf1-1-coref)|SpaceAfter=No
 6	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -705,7 +707,7 @@
 1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=attribution-positive:58->59:0|Entity=(43-event-giv:act-cf2*-2-coref
 2	one	one	NOUN	NN	Number=Sing	4	obl:npmod	4:obl:npmod	Entity=43)
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(3-person-giv:inact-cf1-1-ana)
-4	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 5	kind	kind	NOUN	NN	Number=Sing	4	advmod	4:advmod	_
 6	of	of	ADP	IN	_	5	fixed	5:fixed	_
 7	like	like	INTJ	UH	_	4	discourse	4:discourse	SpaceAfter=No
@@ -777,7 +779,8 @@
 1	But	but	CCONJ	CC	_	6	cc	6:cc	Discourse=joint-other_m:64->55:2
 2	yeah	yeah	INTJ	UH	_	6	discourse	6:discourse	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
-4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(40-person-giv:inact-cf1-1-ana)|SpaceAfter=No
+4-5	we're	_	_	_	_	_	_	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(40-person-giv:inact-cf1-1-ana)
 5	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 6	heading	head	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
 7	to	to	ADP	IN	_	8	case	8:case	_
@@ -796,14 +799,14 @@
 # speaker = AshleyClaire
 # transition = null
 # text = I have a Starbucks bottle with me.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Discourse=context-background:66->67:1|Entity=(3-person-giv:inact-cf1-1-ana)
-2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=context-background:66->67:1|Entity=(3-person-giv:inact-cf1-1-ana)
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(47-object-new-cf2-3-sgl
 4	Starbucks	Starbucks	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=(48-organization-new-cf3-1-coref-Starbucks)
-5	bottle	bottle	NOUN	NN	Number=Sing	0	root	0:root	Entity=47)
+5	bottle	bottle	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=47)
 6	with	with	ADP	IN	_	7	case	7:case	_
-7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obl	5:obl:with	Entity=(3-person-giv:act-cf1-1-ana)|SpaceAfter=No
-8	.	.	PUNCT	.	_	5	punct	5:punct	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	2:obl:with	Entity=(3-person-giv:act-cf1-1-ana)|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_vlog_college-36
 # s_prominence = 2
@@ -824,7 +827,8 @@
 # speaker = AshleyClaire
 # transition = continue
 # text = They're probably looking at me and being like this bitch.
-1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	4:nsubj	Bridge=48<49|Discourse=elaboration-additional:68->67:0|Entity=(49-person-acc:inf-cf2-1-sgl)|SpaceAfter=No
+1-2	They're	_	_	_	_	_	_	_	_
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	4:nsubj	Bridge=48<49|Discourse=elaboration-additional:68->67:0|Entity=(49-person-acc:inf-cf2-1-sgl)
 2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	probably	probably	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
 4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
@@ -980,7 +984,7 @@
 7	mood	mood	NOUN	NN	Number=Sing	0	root	0:root	Entity=54)
 8	than	than	SCONJ	IN	_	10	mark	10:mark	Discourse=adversative-antithesis:81->80:0
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj	Entity=(3-person-giv:act-cf1-1-ana)
-10	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	advcl	7:advcl:than	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	advcl	7:advcl:than	_
 11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	12:det	Entity=(1-time-giv:inact-cf2-2-coref|XML=<date when:::"2021-08-11">
 12	morning	morning	NOUN	NN	Number=Sing	10	obl:tmod	10:obl:tmod	Entity=1)|SpaceAfter=No|XML=</date>
 13	.	.	PUNCT	.	_	7	punct	7:punct	_
@@ -998,7 +1002,7 @@
 5	vlog	vlog	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=55)
 6	and	and	CCONJ	CC	_	8	cc	8:cc	Discourse=attribution-positive:83->84:0
 7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	8:nsubj	Entity=(3-person-giv:act-cf1*-1-ana)
-8	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	conj	3:conj:and	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	conj	3:conj:and	_
 9	like	like	ADP	RP	_	8	compound:prt	8:compound:prt	SpaceAfter=No
 10	,	,	PUNCT	,	_	12	punct	12:punct	_
 11	"	''	PUNCT	``	_	12	punct	12:punct	Discourse=joint-sequence_m:84->82:0|SpaceAfter=No|XML=<quote>
@@ -1195,7 +1199,8 @@
 # speaker = AshleyClaire
 # transition = null
 # text = We're making dinner.
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint-other_m:100->96:1|Entity=(66-person-new-cf1-1-ana)|SpaceAfter=No
+1-2	We're	_	_	_	_	_	_	_	_
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint-other_m:100->96:1|Entity=(66-person-new-cf1-1-ana)
 2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
 4	dinner	dinner	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(67-substance-new-cf2-1-coref)|SpaceAfter=No
@@ -1212,9 +1217,11 @@
 3	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 4	see	see	VERB	VB	VerbForm=Inf	11	advcl	11:advcl:as	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
-6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	7:nsubj	Discourse=restatement-repetition_m:102->100:0|Entity=(66-person-giv:act-cf1*-1-ana)|SpaceAfter=No|XML=<sic>
-7	're	be	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	reparandum	11:reparandum	XML=</sic>
-8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	11:nsubj	Entity=(66-person-giv:act-cf1*-1-ana)|SpaceAfter=No
+6-7	we're	_	_	_	_	_	_	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	7:nsubj	Discourse=restatement-repetition_m:102->100:0|Entity=(66-person-giv:act-cf1*-1-ana)|XML=<sic>
+7	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	reparandum	11:reparandum	XML=</sic>
+8-9	we're	_	_	_	_	_	_	_	_
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	11:nsubj	Entity=(66-person-giv:act-cf1*-1-ana)
 9	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
 10	actively	actively	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
 11	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
@@ -1248,7 +1255,7 @@
 # speaker = AshleyClaire
 # transition = null
 # text = Both wearing sorority sweatshirts.
-1	Both	both	DET	DT	PronType=Art	2	nsubj	2:nsubj	Discourse=explanation-motivation:104->105:0
+1	Both	both	DET	DT	PronType=Tot	2	nsubj	2:nsubj	Discourse=explanation-motivation:104->105:0
 2	wearing	wear	VERB	VBG	VerbForm=Ger	0	root	0:root	_
 3	sorority	sorority	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(70-object-new-cf1-2-coref(71-organization-new-cf2-1-sgl)
 4	sweatshirts	sweatshirt	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=70)|SpaceAfter=No
@@ -1298,7 +1305,8 @@
 # text = We're making pesto pasta with penne, roasted peppers, onion, garlic, and avocado.
 # newpar
 # newpar_block = sp who:::"#AshleyClaire" (3 s)
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=elaboration-additional:108->100:3|Entity=(66-person-giv:inact-cf1-1-ana)|SpaceAfter=No
+1-2	We're	_	_	_	_	_	_	_	_
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=elaboration-additional:108->100:3|Entity=(66-person-giv:inact-cf1-1-ana)
 2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
 4	pesto	pesto	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(67-substance-giv:inact-cf2-2-coref(74-substance-new-cf8-1-sgl)
@@ -1323,7 +1331,7 @@
 # speaker = AshleyClaire
 # transition = establishment
 # text = AKA every vegetarian thing that Ash has in her fridge that will remotely go well together.
-1	AKA	AKA	INTJ	UH	_	4	discourse	4:discourse	Discourse=elaboration-attribute:109->108:0
+1	AKA	a.k.a.	ADV	RB	Degree=Pos	4	discourse	4:discourse	Discourse=elaboration-attribute:109->108:0
 2	every	every	DET	DT	PronType=Tot	4	det	4:det	Entity=(67-substance-giv:act-cf2*-3-coref
 3	vegetarian	vegetarian	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	thing	thing	NOUN	NN	Number=Sing	0	root	0:root|7:obj|14:mark	_
@@ -1439,7 +1447,8 @@
 # text = Alright friends we're back, but now on Harry's phone because my phone died.
 1	Alright	alright	INTJ	UH	_	5	discourse	5:discourse	Discourse=organization-preparation:120->144:4
 2	friends	friend	NOUN	NNS	Number=Plur	5	vocative	5:vocative	Entity=(2-person-giv:inact-cf4-1-coref)
-3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj|12:nsubj	Entity=(66-person-giv:inact-cf3-1-ana)|SpaceAfter=No
+3-4	we're	_	_	_	_	_	_	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj|12:nsubj	Entity=(66-person-giv:inact-cf3-1-ana)
 4	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 5	back	back	ADV	RB	Degree=Pos	0	root	0:root	SpaceAfter=No
 6	,	,	PUNCT	,	_	12	punct	12:punct	_
@@ -1647,7 +1656,8 @@
 3	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(91-abstract-giv:act-cf2-2-coref
 5	ones	one	NOUN	NNS	Number=Plur	3	obj	3:obj	_
-6	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj:pass	8:nsubj:pass	Discourse=elaboration-attribute:136->135:0|Entity=(69-person-giv:act-cf1*-1-ana)|SpaceAfter=No
+6-7	you're	_	_	_	_	_	_	_	_
+6	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj:pass	8:nsubj:pass	Discourse=elaboration-attribute:136->135:0|Entity=(69-person-giv:act-cf1*-1-ana)
 7	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	aux:pass	8:aux:pass	_
 8	featured	feature	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	acl:relcl	5:acl:relcl	_
 9	in	in	ADP	IN	_	8	case	8:case	Entity=91)92)|SpaceAfter=No
@@ -1723,7 +1733,8 @@
 # text = You're taking words out of my mouth.
 # newpar
 # newpar_block = sp who:::"#Harry" whom:::"#AshleyClaire" (2 s)
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=adversative-contrast_m:141->140:0|Entity=(94-event-new-cf5-3-disc(3-person-giv:inact-cf1-1-ana)|SpaceAfter=No
+1-2	You're	_	_	_	_	_	_	_	_
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=adversative-contrast_m:141->140:0|Entity=(94-event-new-cf5-3-disc(3-person-giv:inact-cf1-1-ana)
 2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
 4	words	word	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=(95-abstract-new-cf3-1-sgl)
@@ -1794,7 +1805,8 @@
 # transition = null
 # text = Anyways we're going to chop these bad boys up.
 1	Anyways	anyways	ADV	RB	_	4	discourse	4:discourse	Discourse=joint-sequence_m:144->47:4
-2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj|6:nsubj:xsubj	Entity=(66-person-giv:inact-cf1-1-ana)|SpaceAfter=No
+2-3	we're	_	_	_	_	_	_	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj|6:nsubj:xsubj	Entity=(66-person-giv:inact-cf1-1-ana)
 3	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
 5	to	to	PART	TO	_	6	mark	6:mark	_
@@ -1871,7 +1883,7 @@
 # text = Yeah, let's make it colorful.
 # newpar
 # newpar_block = sp who:::"#AshleyClaire" (1 s)
-1	Yeah	yeah	INTJ	UH	_	3	discourse	3:discourse	Discourse=adversative-antithesis:149->144:0|SpaceAfter=No
+1	Yeah	yeah	INTJ	UH	_	3	discourse	3:discourse	Discourse=explanation-motivation:149->144:0|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3-4	let's	_	_	_	_	_	_	_	_
 3	let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
@@ -1961,7 +1973,8 @@
 2	and	and	CCONJ	CC	_	3	cc	3:cc	_
 3	dad	dad	NOUN	NN	Number=Sing	1	conj	1:conj:and|12:vocative	Entity=(105-person-new-cf6-1-sgl)103)
 4	if	if	SCONJ	IN	_	7	mark	7:mark	Discourse=contingency-condition:157->158:0
-5	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	7:nsubj	Entity=(103-person-giv:act-cf1-1-ana)|SpaceAfter=No
+5-6	you're	_	_	_	_	_	_	_	_
+5	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	7:nsubj	Entity=(103-person-giv:act-cf1-1-ana)
 6	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_
 7	watching	watch	VERB	VBG	Tense=Pres|VerbForm=Part	12	advcl	12:advcl:if	_
 8	this	this	PRON	DT	Number=Sing|PronType=Dem	7	obj	7:obj	Entity=(97-abstract-acc:com-cf4-1-ana)|SpaceAfter=No

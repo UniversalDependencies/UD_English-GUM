@@ -25,7 +25,7 @@
 5	welcome	welcome	INTJ	UH	_	2	parataxis	2:parataxis	Discourse=organization-preparation:2->35:13
 6	back	back	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 7	to	to	ADP	IN	_	9	case	9:case	_
-8	another	another	DET	DT	PronType=Art	9	det	9:det	Entity=(3-abstract-new-cf3-2-coref
+8	another	another	DET	DT	PronType=Ind	9	det	9:det	Entity=(3-abstract-new-cf3-2-coref
 9	vlog	vlog	NOUN	NN	Number=Sing	5	obl	5:obl:to	Entity=3)|SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -115,7 +115,7 @@
 2	just	just	ADV	RB	_	3	advmod	3:advmod	_
 3	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	awkward	awkward	ADJ	JJ	Degree=Pos	3	xcomp	3:xcomp	_
-5	being	be	VERB	VBG	VerbForm=Ger	3	advcl	3:advcl	Discourse=attribution-positive:11->12:0
+5	being	be	AUX	VBG	VerbForm=Ger	3	advcl	3:advcl	Discourse=attribution-positive:11->12:0
 6	like	like	ADP	RP	_	5	compound:prt	5:compound:prt	_
 7	"	''	PUNCT	``	_	10	punct	10:punct	Discourse=elaboration-additional:12->9:0|SpaceAfter=No|XML=<q>
 8-9	what's	_	_	_	_	_	_	_	_
@@ -235,7 +235,7 @@
 6	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	4	obl	4:obl:to	Entity=(2-person-giv:inact-cf2-1-ana)
 7	as	as	SCONJ	IN	_	9	mark	9:mark	Discourse=mode-manner:21->20:0
 8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	9:nsubj	Entity=(17-object-giv:act-cf1*-1-ana)
-9	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	4:advcl:as	_
+9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	4:advcl:as	_
 10	for	for	ADP	IN	_	11	case	11:case	_
 11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obl	9:obl:for	Entity=(5-person-giv:inact-cf3-1-ana)|SpaceAfter=No
 12	?	?	PUNCT	.	_	4	punct	4:punct	_
@@ -438,7 +438,8 @@
 # text = I — we're just jumping right into it, aren't we?
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	reparandum	3:reparandum	Discourse=organization-phatic:37->35:2|Entity=(5-person-giv:act-cf2*-1-ana)
 2	—	—	PUNCT	:	_	1	punct	1:punct	_
-3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(29-person-acc:com-cf1-1-ana)|SpaceAfter=No
+3-4	we're	_	_	_	_	_	_	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(29-person-acc:com-cf1-1-ana)
 4	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 5	just	just	ADV	RB	_	6	advmod	6:advmod	_
 6	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
@@ -447,7 +448,7 @@
 9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obl	6:obl:into	Entity=(30-event-acc:com-cf3-1-sgl)|SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	11:punct	_
 11-12	aren't	_	_	_	_	_	_	_	_
-11	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	6:parataxis	Discourse=organization-phatic:38->37:0
+11	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	6:parataxis	Discourse=organization-phatic:38->37:0
 12	n't	not	PART	RB	Polarity=Neg	11	advmod	11:advmod	_
 13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	11:nsubj	Entity=(29-person-giv:act-cf1-1-ana)|SpaceAfter=No
 14	?	?	PUNCT	.	_	6	punct	6:punct	_
@@ -571,7 +572,7 @@
 7	,	,	PUNCT	,	_	10	punct	10:punct	_
 8	like	like	INTJ	UH	_	10	discourse	10:discourse	Discourse=restatement-partial:52->40:3
 9	just	just	ADV	RB	_	10	advmod	10:advmod	_
-10	grappling	grapple	VERB	VBG	VerbForm=Ger	6	acl	6:acl	Entity=(39-event-new-cf8-1-disc
+10	grappling	grapple	VERB	VBG	VerbForm=Ger	2	advcl	2:advcl	Entity=(39-event-new-cf8-1-disc
 11	with	with	ADP	IN	_	13	case	13:case	_
 12	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(28-abstract-giv:act-cf2-2-coref(5-person-giv:act-cf1*-1-ana)
 13	appearance	appearance	NOUN	NN	Number=Sing	10	obl	10:obl:with	Entity=28)39)
@@ -772,7 +773,7 @@
 1	So	so	ADV	RB	_	9	advmod	9:advmod	Discourse=organization-phatic:72->73:0
 2-3	it's	_	_	_	_	_	_	_	_
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(58-event-acc:com-cf1-1-ana)
-3	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	reparandum	9:reparandum	_
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	reparandum	9:reparandum	_
 4	just	just	ADV	RB	_	3	advmod	3:advmod	SpaceAfter=No
 5	,	,	PUNCT	,	_	3	punct	3:punct	_
 6-7	it's	_	_	_	_	_	_	_	_
@@ -997,7 +998,8 @@
 5	lot	lot	NOUN	NN	Number=Sing	3	obj	3:obj	_
 6	sometimes	sometimes	ADV	RB	_	3	advmod	3:advmod	_
 7	when	when	ADV	WRB	PronType=Int	11	advmod	11:advmod	Discourse=context-circumstance:99->98:0|Entity=(76-event-new-cf1-5-disc
-8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj	Entity=(2-person-giv:inact-cf3-1-ana)|SpaceAfter=No
+8-9	you're	_	_	_	_	_	_	_	_
+8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj	Entity=(2-person-giv:inact-cf3-1-ana)
 9	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	cop	11:cop	_
 10	in	in	ADP	IN	_	11	case	11:case	_
 11	therapy	therapy	NOUN	NN	Number=Sing	3	advcl	3:advcl:when	Entity=(68-abstract-giv:act-cf2*-1-pred)76)|SpaceAfter=No
@@ -1175,7 +1177,7 @@
 # text = And I was just like, wow, thanks.
 1	And	and	CCONJ	CC	_	3	cc	3:cc	Discourse=attribution-positive:121->122:0
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(5-person-giv:inact-cf1-1-ana)
-3	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	just	just	ADV	RB	_	3	advmod	3:advmod	_
 5	like	like	ADP	RP	_	3	compound:prt	3:compound:prt	SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	7:punct	_
@@ -1360,7 +1362,7 @@
 15	just	just	ADV	RB	_	19	advmod	19:advmod	Discourse=joint-list_m:142->140:0
 16	kind	kind	NOUN	NN	Number=Sing	19	advmod	19:advmod	_
 17	of	of	ADP	IN	_	16	fixed	16:fixed	_
-18	like	like	ADV	RB	Degree=Pos	19	discourse	19:discourse	_
+18	like	like	INTJ	UH	_	19	discourse	19:discourse	_
 19	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj	6:advcl:relcl|8:conj:and	_
 20	real	real	ADJ	JJ	Degree=Pos	19	xcomp	19:xcomp	_
 21	with	with	ADP	IN	_	22	case	22:case	_
@@ -1501,7 +1503,7 @@
 17	much	much	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
 18	work	work	NOUN	NN	Number=Sing	15	obj	15:obj	_
 19	as	as	SCONJ	IN	_	20	mark	20:mark	Discourse=mode-manner:157->156:0
-20	possible	possible	ADJ	JJ	Degree=Pos	18	advcl	18:advcl:as	Entity=107)|SpaceAfter=No
+20	possible	possible	ADJ	JJ	Degree=Pos	17	advcl	17:advcl:as	Entity=107)|SpaceAfter=No
 21	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_vlog_appearance-51
@@ -1523,12 +1525,12 @@
 10	vlog	vlog	NOUN	NN	Number=Sing	13	obl	13:obl:in	Entity=108)
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	13:nsubj	Entity=(5-person-giv:act-cf1*-1-ana)
 12	might	might	AUX	MD	VerbForm=Fin	13	aux	13:aux	_
-13	do	do	VERB	VB	VerbForm=Inf	4	ccomp	4:ccomp	_
+13	do	do	VERB	VB	VerbForm=Inf	4	parataxis	4:parataxis	_
 14	some	some	DET	DT	PronType=Ind	16	det	16:det	Entity=(109-abstract-new-cf2-3-sgl
 15	fall	fall	NOUN	NN	Number=Sing	16	compound	16:compound	_
 16	things	thing	NOUN	NNS	Number=Plur	13	obj	13:obj	Entity=109)|SpaceAfter=No
 17	,	,	PUNCT	,	_	18	punct	18:punct	_
-18	excuse	excuse	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	4	parataxis	4:parataxis	Discourse=organization-phatic:160->159:0|XML=<incident type:::"burp" who:::"#Carrie"></incident>
+18	excuse	excuse	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	13	parataxis	13:parataxis	Discourse=organization-phatic:160->159:0|XML=<incident type:::"burp" who:::"#Carrie"></incident>
 19	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	iobj	18:iobj	Entity=(5-person-giv:act-cf1*-1-ana)|SpaceAfter=No
 20	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -1576,7 +1578,7 @@
 1	So	so	ADV	RB	_	9	advmod	9:advmod	Discourse=organization-phatic:163->164:0
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(5-person-giv:act-cf1*-1-ana)
 3-4	don't	_	_	_	_	_	_	_	SpaceAfter=No
-3	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	reparandum	9:reparandum	_
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	reparandum	9:reparandum	_
 4	n't	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	_
 5	,	,	PUNCT	,	_	3	punct	3:punct	_
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	9:nsubj|11:nsubj:xsubj	Discourse=restatement-partial:164->150:3|Entity=(5-person-giv:act-cf1*-1-ana)
@@ -1652,13 +1654,13 @@
 3	just	just	ADV	RB	_	5	advmod	5:advmod	_
 4	being	be	AUX	VBG	VerbForm=Ger	5	cop	5:cop	_
 5	honest	honest	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
-6	,	,	PUNCT	,	_	12	punct	12:punct	_
-7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj:outer	12:nsubj:outer	Discourse=attribution-positive:170->171:0|Entity=(5-person-giv:act-cf1*-1-ana)
-8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	cop	12:cop	_
-9	just	just	ADV	RB	_	12	advmod	12:advmod	_
-10	about	about	ADV	RB	_	12	advmod	12:advmod	_
+6	,	,	PUNCT	,	_	10	punct	10:punct	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj|12:nsubj:xsubj	Discourse=attribution-positive:170->171:0|Entity=(5-person-giv:act-cf1*-1-ana)
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	cop	10:cop	_
+9	just	just	ADV	RB	_	10	advmod	10:advmod	_
+10	about	about	ADJ	JJ	Degree=Pos	5	parataxis	5:parataxis	_
 11	to	to	PART	TO	_	12	mark	12:mark	_
-12	say	say	VERB	VB	VerbForm=Inf	5	parataxis	5:parataxis	_
+12	say	say	VERB	VB	VerbForm=Inf	10	xcomp	10:xcomp	_
 13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	14:nsubj|16:nsubj:xsubj	Discourse=topic-solutionhood:171->174:1|Entity=(114-abstract-new-cf4-2-disc(115-person-acc:com-cf2-1-sgl)
 14	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	ccomp	12:ccomp	_
 15	to	to	PART	TO	_	16	mark	16:mark	Entity=(116-event-new-cf5-2-sgl

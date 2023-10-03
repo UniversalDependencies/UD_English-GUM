@@ -116,14 +116,14 @@
 # transition = establishment
 # text = Most versions in English are called The Chemical Wedding of Christian Rosencreutz, which suggests (and most people who’ve heard of it suppose) that the wedding is Christian’s.
 1	Most	most	ADJ	JJS	Degree=Sup	2	amod	2:amod	Discourse=context-background:9->10:2|Entity=(1-abstract-giv:act-cf3-2-coref-Chymical_Wedding_of_Christian_Rosenkreutz
-2	versions	version	NOUN	NNS	Number=Plur	6	nsubj:pass	6:nsubj:pass	_
+2	versions	version	NOUN	NNS	Number=Plur	6	nsubj:pass	6:nsubj:pass|9:nsubj:xsubj	_
 3	in	in	ADP	IN	_	4	case	4:case	_
 4	English	English	PROPN	NNP	Number=Sing	2	nmod	2:nmod:in	Entity=(18-abstract-new-cf6-1-sgl-English_language)1)
 5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	6:aux:pass	_
 6	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root|15:csubj	_
 7	The	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(19-abstract-new-cf1-2,3,5,6-coref(2-event-giv:act-cf2*-2,3-coref|XML=<hi rend:::"italic">
 8	Chemical	Chemical	ADJ	NNP	Degree=Pos|Number=Sing	9	amod	9:amod	_
-9	Wedding	Wedding	PROPN	NNP	Number=Sing	6	obj	6:obj	Entity=2)
+9	Wedding	Wedding	PROPN	NNP	Number=Sing	6	xcomp	6:xcomp	Entity=2)
 10	of	of	ADP	IN	_	11	case	11:case	_
 11	Christian	Christian	PROPN	NNP	Number=Sing	9	nmod	9:nmod:of	Entity=(3-person-giv:act-cf4-1,2-coref-Christian_Rosenkreuz
 12	Rosencreutz	Rosencreutz	PROPN	NNP	Number=Sing	11	flat	11:flat	Entity=3)19)|SpaceAfter=No|XML=</hi>
@@ -158,7 +158,7 @@
 # text = It’s not; Christian Rosencreutz is the purported author of a book called The Chemical Wedding.
 1-2	It’s	_	_	_	_	_	_	_	_
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration-additional:15->7:1|Entity=(2-event-giv:act-cf1*-1-ana)
-2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	not	not	PART	RB	Polarity=Neg	2	advmod	2:advmod	SpaceAfter=No
 4	;	;	PUNCT	:	_	10	punct	10:punct	_
 5	Christian	Christian	PROPN	NNP	Number=Sing	10	nsubj	10:nsubj	Discourse=elaboration-additional:16->15:1|Entity=(3-person-giv:act-cf2-1,2-coref-Christian_Rosenkreuz
@@ -221,7 +221,7 @@
 7	as	as	SCONJ	IN	_	10	mark	10:mark	_
 8	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	10	nsubj	10:nsubj	Entity=(23-person-new-cf3-1-sgl)
 9	mostly	mostly	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
-10	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl:as	SpaceAfter=No
+10	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl:as	SpaceAfter=No
 11	)	)	PUNCT	-RRB-	_	10	punct	10:punct	_
 12	simply	simply	ADV	RB	Degree=Pos	3	advmod	3:advmod	Discourse=same-unit_m:22->20:1
 13	The	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(1-abstract-giv:act-cf1*-2,3-coref-Chymical_Wedding_of_Christian_Rosenkreutz|XML=<hi rend:::"italic">
@@ -512,8 +512,8 @@
 31	’d	have	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	32	aux	32:aux	_
 32	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	8	conj	8:conj:but	_
 33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	34:det	Entity=(53-person-new-cf3-2-coref-Devil
-34	Devil	Devil	PROPN	NNP	Number=Sing	35	nsubj	35:nsubj	Entity=53)
-35	do	do	VERB	VB	VerbForm=Inf	32	ccomp	32:ccomp	_
+34	Devil	Devil	PROPN	NNP	Number=Sing	32	obj	32:obj|35:nsubj:xsubj	Entity=53)
+35	do	do	VERB	VB	VerbForm=Inf	32	xcomp	32:xcomp	_
 36	things	thing	NOUN	NNS	Number=Plur	35	obj	35:obj	Entity=(54-event-new-cf6-1-sgl
 37	as	as	ADV	RB	_	38	advmod	38:advmod	_
 38	bad	bad	ADJ	JJ	Degree=Pos	36	amod	36:amod	_
@@ -551,8 +551,8 @@
 1	Till	till	SCONJ	IN	_	3	mark	3:mark	Discourse=joint-sequence_m:57->48:3
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(55-event-new-cf4-2-disc(41-person-giv:act-cf1*-1-ana)
 3	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
-4	somebody	somebody	PRON	NN	Number=Sing|PronType=Ind	5	nsubj	5:nsubj	Entity=(56-person-new-cf3-1-sgl)
-5	touch	touch	VERB	VB	VerbForm=Inf	3	ccomp	3:ccomp	_
+4	somebody	somebody	PRON	NN	Number=Sing|PronType=Ind	3	obj	3:obj|5:nsubj:xsubj	Entity=(56-person-new-cf3-1-sgl)
+5	touch	touch	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
 6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	5:obj	Entity=(41-person-giv:act-cf1*-1-ana)
 7	on	on	ADP	IN	_	9	case	9:case	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Bridge=41<57|Entity=(57-object-acc:inf-cf2-2-sgl
@@ -835,7 +835,8 @@
 26	cried	cry	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	advcl	23:advcl:when	SpaceAfter=No
 27	,	,	PUNCT	,	_	26	punct	26:punct	_
 28	“	''	PUNCT	``	_	33	punct	33:punct	Discourse=joint-sequence_m:86->78:2|SpaceAfter=No|XML=<sp who:::"#Page">
-29	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	33	nsubj:pass	33:nsubj:pass	Entity=(84-person-new-cf4-1-ana)|SpaceAfter=No
+29-30	They're	_	_	_	_	_	_	_	_
+29	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	33	nsubj:pass	33:nsubj:pass	Entity=(84-person-new-cf4-1-ana)
 30	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	aux	33:aux	_
 31	already	already	ADV	RB	_	33	advmod	33:advmod	_
 32	being	be	AUX	VBG	VerbForm=Ger	33	aux:pass	33:aux:pass	_
@@ -882,7 +883,7 @@
 9	quicker	quick	ADJ	JJR	Degree=Cmp	3	conj	3:conj:but	_
 10	than	than	SCONJ	IN	_	12	mark	12:mark	Discourse=adversative-antithesis:91->90:0
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	12:nsubj	Entity=(41-person-giv:act-cf1*-1-ana)
-12	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	advcl	9:advcl:than	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	advcl	9:advcl:than	_
 13	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=joint-list_m:92->90:1
 14	ran	run	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	3:conj|9:conj:and	_
 15	out	out	ADP	IN	_	18	case	18:case	_
@@ -1099,7 +1100,7 @@
 15	here	here	ADV	RB	PronType=Dem	12	advmod	12:advmod	_
 16	as	as	SCONJ	IN	_	18	mark	18:mark	Discourse=mode-manner:119->118:0
 17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	18:nsubj	Entity=(103-object-giv:act-cf2-1-ana)
-18	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl	12:advcl:as	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl	12:advcl:as	_
 19	then	then	ADV	RB	PronType=Dem	18	advmod	18:advmod	SpaceAfter=No
 20	,	,	PUNCT	,	_	22	punct	22:punct	_
 21	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=joint-list_m:120->118:2

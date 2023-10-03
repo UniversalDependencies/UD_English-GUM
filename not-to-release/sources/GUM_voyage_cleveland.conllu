@@ -308,7 +308,7 @@
 4	comeback	comeback	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	SpaceAfter=No
 5	"	''	PUNCT	''	_	4	punct	4:punct	Entity=34)
 6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_
-7	continued	continue	VERB	VBN	Tense=Past|VerbForm=Part	17	acl	17:acl:as	SpaceAfter=No
+7	continued	continue	VERB	VBN	Tense=Past|VerbForm=Part	17	advcl	17:advcl:as	SpaceAfter=No
 8	,	,	PUNCT	,	_	7	punct	7:punct	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Discourse=joint-sequence_m:16->12:1|Entity=(37-abstract-new-cf3-3-coref-Cleveland
 10	official	official	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
@@ -323,7 +323,7 @@
 19	Cleveland	Cleveland	PROPN	NNP	Number=Sing	22	nsubj	22:nsubj	Entity=(1-place-giv:act-cf1*-1-coref-Cleveland)
 20	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	22:aux	_
 21	rightfully	rightfully	ADV	RB	Degree=Pos	22	advmod	22:advmod	_
-22	earned	earn	VERB	VBN	Tense=Past|VerbForm=Part	17	acl	17:acl:as	_
+22	earned	earn	VERB	VBN	Tense=Past|VerbForm=Part	17	advcl	17:advcl:as	_
 23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(38-abstract-new-cf4-2-sgl
 24	reputation	reputation	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=38)
 25	as	as	ADP	IN	_	27	case	27:case	_
@@ -435,7 +435,7 @@
 18	pains	pain	NOUN	NNS	Number=Plur	16	obj	16:obj	Entity=54)
 19	as	as	SCONJ	IN	_	21	mark	21:mark	Discourse=context-circumstance:25->24:0
 20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	21:nsubj	Entity=(1-place-giv:act-cf1*-1-ana-Cleveland)
-21	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl	18:acl:as	_
+21	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	16:advcl:as	_
 22	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	23:nmod:poss	Entity=(55-event-new-cf5-2-sgl(56-place-new-cf3-1-sgl)
 23	transition	transition	NOUN	NN	Number=Sing	21	obj	21:obj	_
 24	from	from	ADP	IN	_	29	case	29:case	_
@@ -517,7 +517,7 @@
 # text = Another thing non-locals don't often realize is that Cleveland's long history of industrial wealth has left it chock full of cultural riches as well as the beginnings of a "sustainable city" movement.
 # newpar
 # newpar_block = p (3 s)
-1	Another	another	DET	DT	PronType=Art	2	det	2:det	Discourse=joint-other_m:29->8:3|Entity=(69-abstract-new-cf2-2-coref
+1	Another	another	DET	DT	PronType=Ind	2	det	2:det	Discourse=joint-other_m:29->8:3|Entity=(69-abstract-new-cf2-2-coref
 2	thing	thing	NOUN	NN	Number=Sing	18	nsubj:outer	18:nsubj:outer	Entity=69)
 3	non-locals	non-local	NOUN	NNS	Number=Plur|Polarity=Neg	7	nsubj	7:nsubj	Discourse=elaboration-attribute:30->29:0|Entity=(49-person-acc:com-cf3-1-coref)
 4-5	don't	_	_	_	_	_	_	_	_
@@ -571,11 +571,11 @@
 7	urban	urban	ADJ	JJ	Degree=Pos	8	amod	8:amod	Entity=(74-event-new-cf6-2-sgl
 8	rebirth	rebirth	NOUN	NN	Number=Sing	5	nmod	5:nmod:for	Entity=74)73)|SpaceAfter=No
 9	,	,	PUNCT	,	_	1	punct	1:punct	_
-10	Cleveland	Cleveland	PROPN	NNP	Number=Sing	13	nsubj:pass	13:nsubj:pass	Discourse=explanation-evidence:33->29:2|Entity=(1-place-giv:act-cf1*-1-coref-Cleveland)
+10	Cleveland	Cleveland	PROPN	NNP	Number=Sing	13	nsubj:pass	13:nsubj:pass|14:nsubj:xsubj	Discourse=explanation-evidence:33->29:2|Entity=(1-place-giv:act-cf1*-1-coref-Cleveland)
 11	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	13:aux	_
 12	been	be	AUX	VBN	Tense=Past|VerbForm=Part	13	aux:pass	13:aux:pass	_
 13	named	name	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
-14	one	one	NUM	CD	NumForm=Word|NumType=Card	13	obj	13:obj	Entity=(75-place-acc:com-cf2-1-sgl
+14	one	one	NUM	CD	NumForm=Word|NumType=Card	13	xcomp	13:xcomp	Entity=(75-place-acc:com-cf2-1-sgl
 15	of	of	ADP	IN	_	21	case	21:case	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(76-place-new-cf4-6-sgl
 17	top	top	ADJ	JJ	Degree=Pos	21	amod	21:amod	_

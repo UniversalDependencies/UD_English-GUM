@@ -327,7 +327,7 @@
 3-4	didn’t	_	_	_	_	_	_	_	_
 3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	5	aux	5:aux	_
 4	n’t	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
-5	know	know	VERB	VB	VerbForm=Inf	14	acl	14:acl:if	_
+5	know	know	VERB	VB	VerbForm=Inf	14	advcl	14:advcl:if	_
 6	already	already	ADV	RB	_	5	advmod	5:advmod	SpaceAfter=No
 7	,	,	PUNCT	,	_	5	punct	5:punct	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Discourse=context-background:26->24:0|Entity=(37-object-giv:act-cf1*-2-coref
@@ -352,7 +352,7 @@
 2	ahead	ahead	ADV	RB	Degree=Pos	1	advmod	1:advmod	_
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
 4	fasten	fasten	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
-5	both	both	DET	DT	PronType=Art	6	det	6:det	Entity=(7-object-giv:inact-cf2-2-coref
+5	both	both	DET	DT	PronType=Tot	6	det	6:det	Entity=(7-object-giv:inact-cf2-2-coref
 6	straps	strap	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=7)
 7	before	before	SCONJ	IN	_	9	mark	9:mark	Discourse=context-circumstance:28->27:0
 8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Entity=(3-person-giv:act-cf1*-1-ana)
@@ -437,7 +437,7 @@
 5	to	to	PART	TO	_	6	mark	6:mark	Discourse=purpose-goal:35->34:0
 6	use	use	VERB	VB	VerbForm=Inf	1	advcl	1:advcl:to	_
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(40-object-giv:inact-cf2-4-coref
-8	couple	couple	NOUN	NN	Number=Sing	10	nummod	10:nummod	_
+8	couple	couple	NOUN	NN	Number=Sing	10	nmod:npmod	10:nmod:npmod	_
 9	twist	twist	NOUN	NN	Number=Sing	10	compound	10:compound	_
 10	ties	tie	NOUN	NNS	Number=Plur	6	obj	6:obj	Entity=40)
 11	on	on	ADP	IN	_	13	case	13:case	_
@@ -601,7 +601,7 @@
 10	so	so	ADV	RB	_	22	advmod	22:advmod	Discourse=joint-list_m:48->45:0
 11	when	when	ADV	WRB	PronType=Int	13	advmod	13:advmod	Discourse=context-circumstance:49->50:0
 12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	_
-13	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl	22:acl:when	_
+13	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	22:advcl:when	_
 14	to	to	ADP	IN	_	16	case	16:case	_
 15	bib	bib	NOUN	NN	Number=Sing	16	compound	16:compound	Entity=(52-object-giv:act-cf1*-2-coref
 16	pockets	pocket	NOUN	NNS	Number=Plur	13	obl	13:obl:to	Entity=52)|SpaceAfter=No
@@ -728,7 +728,7 @@
 18	(	(	PUNCT	-LRB-	_	21	punct	21:punct	Discourse=elaboration-additional:59->58:0|SpaceAfter=No
 19	not	not	PART	RB	Polarity=Neg	21	advmod	21:advmod	_
 20	to	to	PART	TO	_	21	mark	21:mark	_
-21	mention	mention	VERB	VB	Person=2|VerbForm=Inf	3	parataxis	3:parataxis	_
+21	mention	mention	VERB	VB	VerbForm=Inf	3	parataxis	3:parataxis	_
 22	being	be	AUX	VBG	VerbForm=Ger	23	cop	23:cop	_
 23	out	out	ADV	RB	_	21	ccomp	21:ccomp	_
 24	in	in	ADP	IN	_	26	case	26:case	_
@@ -775,7 +775,7 @@
 
 # sent_id = GUM_whow_overalls-36
 # s_prominence = 4
-# s_type = q
+# s_type = multiple
 # transition = rough-shift
 # text = You know about rotating your tires, don't you?
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:63->64:0|Entity=(3-person-giv:inact-cf1-1-ana)
@@ -786,7 +786,7 @@
 6	tires	tire	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=73)|SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	8:punct	_
 8-9	don't	_	_	_	_	_	_	_	_
-8	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	discourse	2:discourse	Discourse=restatement-partial:65->64:1
+8	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	discourse	2:discourse	Discourse=restatement-partial:65->64:1
 9	n't	not	PART	RB	Polarity=Neg	8	advmod	8:advmod	_
 10	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	8:nsubj	Entity=(3-person-giv:act-cf1-1-ana)|SpaceAfter=No
 11	?	?	PUNCT	.	_	2	punct	2:punct	_
@@ -874,7 +874,8 @@
 9	racket	racket	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	Entity=80)|SpaceAfter=No
 10	,	,	PUNCT	,	_	15	punct	15:punct	_
 11	but	but	CCONJ	CC	_	15	cc	15:cc	Discourse=adversative-concession:72->71:0
-12	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj|17:nsubj:xsubj	Entity=(3-person-giv:act-cf1*-1-ana)|SpaceAfter=No
+12-13	you're	_	_	_	_	_	_	_	_
+12	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj|17:nsubj:xsubj	Entity=(3-person-giv:act-cf1*-1-ana)
 13	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
 14	still	still	ADV	RB	Degree=Pos	15	advmod	15:advmod	_
 15	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	3	conj	3:conj:but	_

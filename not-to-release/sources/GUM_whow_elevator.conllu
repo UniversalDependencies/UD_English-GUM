@@ -113,15 +113,15 @@
 8	keep	keep	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:11->2:2
 9	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(12-event-giv:act-cf2-2-coref(7-person-giv:act-cf1*-1-ana)
 10	pranks	prank	NOUN	NNS	Number=Plur	8	obj	8:obj	Entity=12)
-11	lighthearted	lighthearted	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
+11	lighthearted	lighthearted	ADJ	JJ	Degree=Pos	10	xcomp	10:xcomp	_
 12	and	and	CCONJ	CC	_	13	cc	13:cc	_
-13	fun	fun	ADJ	JJ	Degree=Pos	11	conj	10:amod|11:conj:and	_
-14	as	as	ADV	RB	_	19	case	19:case	_
+13	fun	fun	ADJ	JJ	Degree=Pos	11	conj	10:xcomp|11:conj:and	_
+14	as	as	ADP	IN	_	19	case	19:case	_
 15	opposed	oppose	VERB	VBN	Tense=Past|VerbForm=Part	14	fixed	14:fixed	_
 16	to	to	ADP	IN	_	14	fixed	14:fixed	_
 17	mean	mean	ADJ	JJ	Degree=Pos	19	amod	19:amod	SpaceAfter=No|XML=<w>
 18	-	-	PUNCT	HYPH	_	17	punct	17:punct	SpaceAfter=No
-19	spirited	spirit	VERB	VBN	Tense=Past|VerbForm=Part	10	nmod	10:nmod:as_opposed_to	XML=</w>
+19	spirited	spirit	VERB	VBN	Tense=Past|VerbForm=Part	11	obl	11:obl:as_opposed_to	XML=</w>
 20	so	so	SCONJ	IN	_	27	mark	27:mark	Discourse=purpose-goal:12->11:1
 21	that	that	ADP	IN	_	20	fixed	20:fixed	_
 22	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	27	nsubj	27:nsubj	Entity=(15-person-new-cf4-1-coref
@@ -234,7 +234,7 @@
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(16-place-giv:act-cf2*-2-coref
 18	elevator	elevator	NOUN	NN	Number=Sing	15	nmod	15:nmod:in	Entity=16)15)
 19	when	when	ADV	WRB	PronType=Int	22	advmod	22:advmod	Discourse=context-circumstance:26->25:0
-20	no	no	DET	DT	Polarity=Neg|PronType=Art	21	det	21:det	Entity=(25-person-acc:com-cf6-2-sgl
+20	no	no	DET	DT	Polarity=Neg|PronType=Neg	21	det	21:det	Entity=(25-person-acc:com-cf6-2-sgl
 21	one	one	PRON	NN	Number=Sing|PronType=Neg	22	nsubj	22:nsubj	Entity=25)
 22	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:when	_
 23	off	off	ADV	RB	Degree=Pos	22	advmod	22:advmod	_
@@ -534,7 +534,8 @@
 19	right	_	X	RB	_	18	goeswith	18:goeswith	CorrectForm=_|SpaceAfter=No|XML=</sic>
 20	,	,	PUNCT	,	_	24	punct	24:punct	_
 21	now	now	ADV	RB	_	24	advmod	24:advmod	_
-22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	24:nsubj	Entity=(53-person-acc:com-cf2-1-sgl)|SpaceAfter=No
+22-23	we’re	_	_	_	_	_	_	_	_
+22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	24:nsubj	Entity=(53-person-acc:com-cf2-1-sgl)
 23	’re	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	aux	24:aux	_
 24	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	18	parataxis	18:parataxis	SpaceAfter=No
 25	,	,	PUNCT	,	_	15	punct	15:punct	SpaceAfter=No
@@ -588,7 +589,7 @@
 5	of	of	ADP	IN	_	7	case	7:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(50-place-giv:inact-cf1-2-coref
 7	elevator	elevator	NOUN	NN	Number=Sing	4	nmod	4:nmod:of	Entity=50)58)
-8	facing	face	VERB	VBG	VerbForm=Ger	7	acl	7:acl	Discourse=mode-manner:67->66:0
+8	facing	face	VERB	VBG	VerbForm=Ger	1	advcl	1:advcl	Discourse=mode-manner:67->66:0
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=50<59|Entity=(59-place-acc:inf-cf2-2-sgl
 10	wall	wall	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=59)|SpaceAfter=No
 11	.	.	PUNCT	.	_	1	punct	1:punct	_
@@ -649,7 +650,8 @@
 # transition = continue
 # text = If you’re in an elevator that is playing music, start to dance.
 1	If	if	SCONJ	IN	_	6	mark	6:mark	Discourse=contingency-condition:71->73:0
-2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	Entity=(7-person-giv:inact-cf2-1-ana)|SpaceAfter=No
+2-3	you’re	_	_	_	_	_	_	_	_
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	Entity=(7-person-giv:inact-cf2-1-ana)
 3	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 4	in	in	ADP	IN	_	6	case	6:case	_
 5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Bridge=64<68|Entity=(68-place-acc:inf-cf3-2-sgl
@@ -766,7 +768,7 @@
 12	off	off	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
 13	now	now	ADV	RB	_	11	advmod	11:advmod	SpaceAfter=No
 14	!	!	PUNCT	.	_	11	punct	11:punct	_
-15	No	no	DET	DT	Polarity=Neg|PronType=Art	16	det	16:det	Discourse=adversative-antithesis:88->85:2|Entity=(81-time-new-cf4-2-sgl
+15	No	no	DET	DT	Polarity=Neg|PronType=Neg	16	det	16:det	Discourse=adversative-antithesis:88->85:2|Entity=(81-time-new-cf4-2-sgl
 16	time	time	NOUN	NN	Number=Sing	11	parataxis	11:parataxis	Entity=81)
 17	to	to	PART	TO	_	19	mark	19:mark	Discourse=purpose-attribute:89->88:0
 18	dilly	dilly	VERB	VB	VerbForm=Inf	19	compound	19:compound	_
@@ -1003,7 +1005,8 @@
 9	say	say	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:116->118:1|SpaceAfter=No
 10	,	,	PUNCT	,	_	15	punct	15:punct	_
 11	"	''	PUNCT	``	_	15	punct	15:punct	Discourse=attribution-positive:117->118:0|SpaceAfter=No
-12	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Entity=(101-person-giv:act-cf1-1-ana)|SpaceAfter=No
+12-13	You're	_	_	_	_	_	_	_	_
+12	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Entity=(101-person-giv:act-cf1-1-ana)
 13	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
 14	probably	probably	ADV	RB	Degree=Pos	15	advmod	15:advmod	_
 15	wondering	wonder	VERB	VBG	Tense=Pres|VerbForm=Part	9	dep	9:dep	_

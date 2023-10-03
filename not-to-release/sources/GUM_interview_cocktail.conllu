@@ -67,7 +67,7 @@
 19	themed	themed	ADJ	JJ	Degree=Pos	21	amod	21:amod	XML=</w>
 20	cocktail	cocktail	NOUN	NN	Number=Sing	21	compound	21:compound	_
 21	drink	drink	NOUN	NN	Number=Sing	2	obl	2:obl:about	_
-22	called	call	VERB	VBN	Tense=Past|VerbForm=Part	21	acl	21:acl	Discourse=attribution-positive:4->3:0
+22	called	call	VERB	VBN	Tense=Past|VerbForm=Part	21	acl	21:acl	Discourse=elaboration-attribute:4->3:0
 23	Santorum	Santorum	PROPN	NNP	Number=Sing	22	xcomp	22:xcomp	Entity=(5-substance-giv:act-cf1-1-coref)5)|SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -285,7 +285,7 @@
 # transition = smooth-shift
 # text = Regarding how long the beverage will be made available, Stan remarked to The Brooklyn Paper, "We'll keep it around until he’s irrelevant. I hope he’s there the whole way".
 1	Regarding	regard	VERB	VBG	VerbForm=Ger	3	case	3:case	Discourse=organization-preparation:22->24:3
-2	how	how	ADV	WRB	PronType=Int	3	advmod	3:advmod	_
+2	how	how	ADV	WRB	PronType=Rel	3	advmod	3:advmod	_
 3	long	long	ADV	RB	Degree=Pos	12	obl	12:obl:regarding	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(5-substance-giv:act-cf3-2-coref
 5	beverage	beverage	NOUN	NN	Number=Sing	8	nsubj:pass	8:nsubj:pass|9:nsubj:xsubj	Entity=5)
@@ -1108,7 +1108,7 @@
 5	or	or	CCONJ	CC	_	6	cc	6:cc	_
 6	not	not	PART	RB	Polarity=Neg	4	conj	4:conj:or|9:csubj	_
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
-8	another	another	DET	DT	PronType=Art	9	det	9:det	Entity=(113-abstract-new-cf4-2-sgl
+8	another	another	DET	DT	PronType=Ind	9	det	9:det	Entity=(113-abstract-new-cf4-2-sgl
 9	thing	thing	NOUN	NN	Number=Sing	0	root	0:root	_
 10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	11:nsubj|16:nsubj:xsubj	Discourse=elaboration-attribute:92->91:0|Entity=(29-person-giv:act-cf1*-1-ana)
 11	leave	leave	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	acl:relcl	9:acl:relcl	_
@@ -1357,7 +1357,7 @@
 # text = What culinary dishes would you recommend that go well with the Santorum cocktail?
 # newpar
 # newpar_block = sp who:::"#Wikinews" (1 s) | p (1 s)
-1	What	what	DET	WDT	PronType=Int	3	det	3:det	Discourse=topic-question:110->112:1|Entity=(130-object-new-cf4-6-sgl
+1	What	what	DET	WDT	PronType=Rel	3	det	3:det	Discourse=topic-question:110->112:1|Entity=(130-object-new-cf4-6-sgl
 2	culinary	culinary	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	dishes	dish	NOUN	NNS	Number=Plur	6	obj	6:obj|8:nsubj	_
 4	would	would	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
@@ -1461,7 +1461,7 @@
 10	months	month	NOUN	NNS	Number=Plur	5	obl	5:obl:for	Entity=136)|SpaceAfter=No|XML=</date>
 11	,	,	PUNCT	,	_	16	punct	16:punct	_
 12	but	but	CCONJ	CC	_	16	cc	16:cc	Discourse=adversative-contrast_m:119->118:0
-13	of	of	ADV	IN	_	16	advmod	16:advmod	_
+13	of	of	ADP	IN	_	16	advmod	16:advmod	_
 14	course	course	NOUN	NN	Number=Sing	13	fixed	13:fixed	_
 15	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	16:aux	_
 16	become	become	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	5:conj:but	_
@@ -1485,7 +1485,7 @@
 # text = We have no way to estimate how many times we've served it overall, but we're now pouring around ten a night.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=adversative-concession:121->124:0|Entity=(29-person-giv:inact-cf1-1-ana)
 2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	no	no	DET	DT	Polarity=Neg|PronType=Art	4	det	4:det	_
+3	no	no	DET	DT	Polarity=Neg|PronType=Neg	4	det	4:det	_
 4	way	way	NOUN	NN	Number=Sing	2	obj	2:obj	_
 5	to	to	PART	TO	_	6	mark	6:mark	Discourse=attribution-positive:122->123:0
 6	estimate	estimate	VERB	VB	VerbForm=Inf	4	acl	4:acl:to	_
@@ -1500,7 +1500,8 @@
 14	overall	overall	ADV	RB	Degree=Pos	12	advmod	12:advmod	SpaceAfter=No
 15	,	,	PUNCT	,	_	20	punct	20:punct	_
 16	but	but	CCONJ	CC	_	20	cc	20:cc	Discourse=explanation-evidence:124->118:1
-17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	20:nsubj	Entity=(29-person-giv:act-cf1-1-ana)|SpaceAfter=No
+17-18	we're	_	_	_	_	_	_	_	_
+17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	20:nsubj	Entity=(29-person-giv:act-cf1-1-ana)
 18	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	aux	20:aux	_
 19	now	now	ADV	RB	_	20	advmod	20:advmod	_
 20	pouring	pour	VERB	VBG	Tense=Pres|VerbForm=Part	2	conj	2:conj:but	_

@@ -147,7 +147,7 @@
 # s_type = decl
 # transition = null
 # text = It is recommend that you use short words since they are commonly used.
-1	It	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=elaboration-additional:10->9:0|Entity=(18-event-new-cf3-1-cata)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=elaboration-additional:10->9:0|Entity=(18-event-new-cf3-1-cata)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	recommend	recommend	VERB	VBN	Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	0	root	0:root	CorrectForm=recommended|XML=<sic ana:::"recommended"></sic>
 4	that	that	SCONJ	IN	_	6	mark	6:mark	_
@@ -892,7 +892,8 @@
 # newpar
 # newpar_block = item (2 s)
 1	If	if	SCONJ	IN	_	5	mark	5:mark	Discourse=contingency-condition:66->67:1
-2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(5-person-giv:act-cf1*-1-ana)|SpaceAfter=No
+2-3	you're	_	_	_	_	_	_	_	_
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(5-person-giv:act-cf1*-1-ana)
 3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 4	really	really	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 5	ambitious	ambitious	ADJ	JJ	Degree=Pos	7	advcl	7:advcl:if	SpaceAfter=No
@@ -902,8 +903,8 @@
 9	goal	goal	NOUN	NN	Number=Sing	7	obj	7:obj	_
 10	of	of	SCONJ	IN	_	11	mark	11:mark	Discourse=elaboration-attribute:68->67:0
 11	helping	help	VERB	VBG	VerbForm=Ger	9	acl	9:acl:of	_
-12	others	other	NOUN	NNS	Number=Plur	13	nsubj	13:nsubj|14:nsubj:xsubj	_
-13	become	become	VERB	VB	VerbForm=Inf	11	ccomp	11:ccomp	_
+12	others	other	NOUN	NNS	Number=Plur	11	obj	11:obj|13:nsubj:xsubj	_
+13	become	become	VERB	VB	VerbForm=Inf	11	xcomp	11:xcomp	_
 14	fluent	fluent	ADJ	JJ	Degree=Pos	13	xcomp	13:xcomp	_
 15	in	in	ADP	IN	_	17	case	17:case	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(4-abstract-giv:act-cf2-2-coref
@@ -1013,7 +1014,7 @@
 17	left	left	NOUN	NN	Number=Sing	15	nmod	15:nmod:to	SpaceAfter=No
 18	,	,	PUNCT	,	_	20	punct	20:punct	_
 19	Chinese	Chinese	PROPN	NNP	Number=Sing	20	nsubj	20:nsubj	Discourse=joint-list_m:80->78:0|Entity=(75-abstract-giv:inact-cf2-1-coref-Standard_Chinese)
-20	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj:and	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj:and	_
 21	in	in	ADP	IN	_	22	case	22:case	_
 22	columns	column	NOUN	NNS	Number=Plur	20	obl	20:obl:in	SpaceAfter=No
 23	,	,	PUNCT	,	_	25	punct	25:punct	_
@@ -1151,7 +1152,7 @@
 16	English	English	ADJ	JJ	Degree=Pos	17	amod	17:amod	Discourse=organization-preparation:95->96:0|Entity=(115-abstract-new-cf4-2-sgl
 17	examples	example	NOUN	NNS	Number=Plur	1	parataxis	1:parataxis	Entity=115)|SpaceAfter=No
 18	:	:	PUNCT	:	_	19	punct	19:punct	_
-19	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	appos	17:appos	Discourse=elaboration-additional:96->94:1|Entity=(116-abstract-new-cf5-1-sgl)|SpaceAfter=No
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	appos	17:appos	Discourse=elaboration-additional:96->94:1|Entity=(116-abstract-new-cf5-1-sgl)|SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	21:punct	_
 21	who	who	PRON	WP	PronType=Int	19	conj	17:appos|19:conj	Entity=(117-abstract-new-cf6-1-sgl)|SpaceAfter=No
 22	,	,	PUNCT	,	_	23	punct	23:punct	_
@@ -1392,7 +1393,7 @@
 21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	23:det	Entity=(151-event-new-cf4-3-sgl
 22	good	good	ADJ	JJ	Degree=Pos	23	amod	23:amod	_
 23	guess	guess	NOUN	NN	Number=Sing	20	obj	20:obj	Entity=151)
-24	based	base	VERB	VBN	Tense=Past|VerbForm=Part	23	acl	23:acl	Discourse=mode-means:117->113:1
+24	based	base	VERB	VBN	Tense=Past|VerbForm=Part	20	advcl	20:advcl	Discourse=mode-means:117->113:1
 25	on	on	ADP	IN	_	27	case	27:case	_
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(152-abstract-new-cf6-2-sgl
 27	composition	composition	NOUN	NN	Number=Sing	24	obl	24:obl:on	_
@@ -1539,7 +1540,7 @@
 5	fun	fun	ADJ	JJ	Degree=Pos	0	root	0:root	_
 6	when	when	ADV	WRB	PronType=Int	8	advmod	8:advmod	Discourse=contingency-condition:130->129:0
 7	there	there	PRON	EX	PronType=Dem	8	expl	8:expl	_
-8	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl	5:acl:when	_
+8	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	5:advcl:when	_
 9	other	other	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(171-person-new-cf4-2-sgl
 10	people	person	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj|13:nsubj	_
 11	that	that	PRON	WDT	PronType=Rel	13	nsubj	10:ref	Discourse=elaboration-attribute:131->130:0

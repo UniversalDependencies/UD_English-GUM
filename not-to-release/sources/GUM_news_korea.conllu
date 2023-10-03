@@ -136,7 +136,7 @@
 8	puppet	puppet	NOUN	NN	Number=Sing	9	compound	9:compound	_
 9	military	military	NOUN	NN	Number=Sing	3	nmod	3:nmod:of	Entity=14)13)
 10	made	make	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-11	another	another	DET	DT	PronType=Art	13	det	13:det	Entity=(15-event-new-cf6-3-sgl
+11	another	another	DET	DT	PronType=Ind	13	det	13:det	Entity=(15-event-new-cf6-3-sgl
 12	grave	grave	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
 13	provocation	provocation	NOUN	NN	Number=Sing	10	obj	10:obj	_
 14	to	to	ADP	IN	_	16	case	16:case	_
@@ -271,7 +271,7 @@
 34	[	[	PUNCT	-LRB-	_	35	punct	35:punct	Discourse=restatement-partial:21->20:0|SpaceAfter=No|XML=<add>
 35	KPA	KPA	PROPN	NNP	Abbr=Yes|Number=Sing	33	appos	33:appos	Entity=(2-organization-giv:act-cf2-1-appos-Korean_People's_Army)|SpaceAfter=No
 36	]	]	PUNCT	-RRB-	_	35	punct	35:punct	XML=</add>
-37	that	that	SCONJ	IN	_	49	mark	49:mark	Discourse=elaboration-additional:22->20:1
+37	that	that	SCONJ	IN	_	49	mark	49:mark	Discourse=elaboration-attribute:22->20:1
 38	the	the	DET	DT	Definite=Def|PronType=Art	44	det	44:det	Entity=(34-organization-new-cf5-7-sgl
 39	front	front	ADJ	JJ	Degree=Pos	41	amod	41:amod	SpaceAfter=No|XML=<w>
 40	-	-	PUNCT	HYPH	_	39	punct	39:punct	SpaceAfter=No
@@ -395,7 +395,7 @@
 # text = No injuries or deaths were reported in the attacks from either side, but South Korea evacuated about 80 people in the town of Yeoncheon after at least one shell landed near the area.
 # newpar
 # newpar_block = p (2 s)
-1	No	no	DET	DT	Polarity=Neg|PronType=Art	2	det	2:det	Discourse=elaboration-additional:33->8:2
+1	No	no	DET	DT	Polarity=Neg|PronType=Neg	2	det	2:det	Discourse=elaboration-additional:33->8:2
 2	injuries	injury	NOUN	NNS	Number=Plur	6	nsubj:pass	6:nsubj:pass	Entity=(43-event-new-cf6-1-sgl)
 3	or	or	CCONJ	CC	_	4	cc	4:cc	_
 4	deaths	death	NOUN	NNS	Number=Plur	2	conj	2:conj:or|6:nsubj:pass	Entity=(44-event-new-cf9-1-sgl)
@@ -405,7 +405,7 @@
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(9-event-giv:inact-cf3-5-coref
 9	attacks	attack	NOUN	NNS	Number=Plur	6	obl	6:obl:in	_
 10	from	from	ADP	IN	_	12	case	12:case	_
-11	either	either	DET	DT	PronType=Art	12	det	12:det	Entity=(45-abstract-acc:com-cf5-2-sgl
+11	either	either	DET	DT	_	12	det	12:det	Entity=(45-abstract-acc:com-cf5-2-sgl
 12	side	side	NOUN	NN	Number=Sing	6	obl	6:obl:from	Entity=45)9)|SpaceAfter=No
 13	,	,	PUNCT	,	_	17	punct	17:punct	_
 14	but	but	CCONJ	CC	_	17	cc	17:cc	Discourse=adversative-contrast_m:34->33:0
@@ -421,7 +421,7 @@
 24	of	of	ADP	IN	_	25	case	25:case	_
 25	Yeoncheon	Yeoncheon	PROPN	NNP	Number=Sing	23	nmod	23:nmod:of	Entity=(48-place-new-cf8-1-sgl-Yeoncheon_County)47)|XML=<ref></ref>
 26	after	after	SCONJ	IN	_	31	mark	31:mark	Discourse=context-circumstance:35->34:0
-27	at	at	ADV	IN	_	29	advmod	29:advmod	Entity=(49-object-acc:com-cf4-4-sgl
+27	at	at	ADP	IN	_	29	advmod	29:advmod	Entity=(49-object-acc:com-cf4-4-sgl
 28	least	least	ADJ	JJS	Degree=Sup	27	fixed	27:fixed	_
 29	one	one	NUM	CD	NumForm=Word|NumType=Card	30	nummod	30:nummod	_
 30	shell	shell	NOUN	NN	Number=Sing	31	nsubj	31:nsubj	Entity=49)
@@ -542,7 +542,7 @@
 # text = Both countries have put their militaries on high levels of alert.
 # newpar
 # newpar_block = p (1 s)
-1	Both	both	DET	DT	PronType=Art	2	det	2:det	Discourse=restatement-partial:47->6:3|Entity=(56-organization-acc:com-cf1-2-coref
+1	Both	both	DET	DT	PronType=Tot	2	det	2:det	Discourse=restatement-partial:47->6:3|Entity=(56-organization-acc:com-cf1-2-coref
 2	countries	country	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=56)
 3	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 4	put	put	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_

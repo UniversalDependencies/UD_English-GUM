@@ -93,9 +93,9 @@
 # s_type = decl
 # transition = null
 # text = Joke-telling is one of the best ways to ease tension, make a new friend, or light up a room.
-1	Joke	joke	NOUN	NN	Number=Sing	3	compound	3:compound	Discourse=joint-other_m:6->5:0|Entity=(13-event-new-cf1-3-disc|SpaceAfter=No|XML=<w>
+1	Joke	joke	NOUN	NN	Number=Sing	3	compound	3:compound	Discourse=joint-other_m:6->5:0|Entity=(13-event-new-cf1-3-coref|SpaceAfter=No|XML=<w>
 2	-	-	PUNCT	HYPH	_	1	punct	1:punct	SpaceAfter=No
-3	telling	tell	VERB	VBG	VerbForm=Ger	5	nsubj	5:nsubj	Entity=13)|XML=</w>
+3	telling	telling	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=13)|XML=</w>
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 5	one	one	NUM	CD	NumForm=Word|NumType=Card	0	root	0:root	Entity=(13-event-giv:act-cf1-1-coref
 6	of	of	ADP	IN	_	9	case	9:case	_
@@ -126,7 +126,7 @@
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	10	nsubj:outer	10:nsubj:outer	Discourse=adversative-concession:10->6:1
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
-4	of	of	ADV	IN	_	10	advmod	10:advmod	_
+4	of	of	ADP	IN	_	10	advmod	10:advmod	_
 5	course	course	NOUN	NN	Number=Sing	4	fixed	4:fixed	SpaceAfter=No
 6	,	,	PUNCT	,	_	4	punct	4:punct	_
 7	if	if	SCONJ	IN	_	10	mark	10:mark	Discourse=contingency-condition:11->10:0
@@ -289,7 +289,7 @@
 6	so	so	ADV	RB	_	8	advmod	8:advmod	Discourse=ROOT:24:0
 7	there	there	PRON	EX	PronType=Dem	8	expl	8:expl	_
 8	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	4:parataxis	_
-9	no	no	DET	DT	Polarity=Neg|PronType=Art	13	det	13:det	_
+9	no	no	DET	DT	Polarity=Neg|PronType=Neg	13	det	13:det	_
 10	hard	hard	ADJ	JJ	Degree=Pos	13	amod	13:amod	Entity=(35-abstract-new-cf2-4-sgl
 11	and	and	CCONJ	CC	_	12	cc	12:cc	_
 12	fast	fast	ADJ	JJ	Degree=Pos	10	conj	10:conj:and|13:amod	_
@@ -592,7 +592,7 @@
 11	what	what	PRON	WP	PronType=Rel	6	acl:relcl	6:acl:relcl	Entity=(65-abstract-giv:act-cf2*-1-coref
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(66-abstract-giv:act-cf1-2-coref
 13	joke	joke	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	Entity=66)
-14	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	11:acl:relcl	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	11:acl:relcl	_
 15	about	about	ADP	IN	_	14	obl	14:obl	Entity=65)65)|SpaceAfter=No
 16	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -647,7 +647,8 @@
 12	in	in	ADP	IN	_	11	obl	11:obl	Entity=65)
 13	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=same-unit_m:61->59:1
 14	something	something	PRON	NN	Number=Sing|PronType=Ind	6	conj	2:ccomp|6:conj:and	Entity=(65-abstract-giv:act-cf2-1-coref
-15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	18:nsubj|20:nsubj:xsubj	Discourse=elaboration-attribute:62->61:0|Entity=(26-person-giv:act-cf1*-1-ana)|SpaceAfter=No
+15-16	they’re	_	_	_	_	_	_	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	18:nsubj|20:nsubj:xsubj	Discourse=elaboration-attribute:62->61:0|Entity=(26-person-giv:act-cf1*-1-ana)
 16	’re	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	_
 17	likely	likely	ADV	RB	Degree=Pos	18	advmod	18:advmod	_
 18	willing	willing	ADJ	JJ	Degree=Pos	14	acl:relcl	14:acl:relcl	_
@@ -1140,7 +1141,7 @@
 # text = Another option is to dress the joke up as a story about your own life.
 # newpar
 # newpar_block = item (3 s) | p (3 s)
-1	Another	another	DET	DT	PronType=Art	2	det	2:det	Bridge=101<103|Discourse=joint-other_m:104->100:3|Entity=(103-event-acc:inf-cf2-2-coref
+1	Another	another	DET	DT	PronType=Ind	2	det	2:det	Bridge=101<103|Discourse=joint-other_m:104->100:3|Entity=(103-event-acc:inf-cf2-2-coref
 2	option	option	NOUN	NN	Number=Sing	5	nsubj:outer	5:nsubj:outer	Entity=103)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 4	to	to	PART	TO	_	5	mark	5:mark	Entity=(103-event-giv:act-cf2-2-disc
@@ -1279,7 +1280,8 @@
 52	very	very	ADV	RB	_	53	advmod	53:advmod	_
 53	possible	possible	ADJ	JJ	Degree=Pos	45	advcl:relcl	45:advcl:relcl	_
 54	once	once	SCONJ	IN	_	58	mark	58:mark	Discourse=context-circumstance:118->117:0
-55	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	58	nsubj	58:nsubj	Entity=(9-person-giv:act-cf1*-1-ana)|SpaceAfter=No
+55-56	you’re	_	_	_	_	_	_	_	_
+55	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	58	nsubj	58:nsubj	Entity=(9-person-giv:act-cf1*-1-ana)
 56	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	58	cop	58:cop	_
 57	in	in	ADP	IN	_	58	case	58:case	_
 58	front	front	NOUN	NN	Number=Sing	53	advcl	53:advcl:once	_
@@ -1380,7 +1382,8 @@
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(66-abstract-giv:inact-cf1-2-coref
 5	joke	joke	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=66)
 6	until	until	SCONJ	IN	_	10	mark	10:mark	Discourse=contingency-condition:128->127:0
-7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	10:nsubj	Entity=(9-person-giv:inact-cf2-1-ana)|SpaceAfter=No
+7-8	you’re	_	_	_	_	_	_	_	_
+7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	10:nsubj	Entity=(9-person-giv:inact-cf2-1-ana)
 8	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
 9	completely	completely	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
 10	comfortable	comfortable	ADJ	JJ	Degree=Pos	3	advcl	3:advcl:until	_
@@ -1396,7 +1399,7 @@
 # newpar
 # newpar_block = item (3 s) | p (3 s)
 1	Try	try	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:129->110:1
-2	recording	record	VERB	VBG	VerbForm=Ger	1	ccomp	1:ccomp	_
+2	recording	record	VERB	VBG	VerbForm=Ger	1	xcomp	1:xcomp	_
 3	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(66-abstract-giv:act-cf1*-2-coref(9-person-giv:act-cf2-1-ana)
 4	joke	joke	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=66)
 5	on	on	ADP	IN	_	8	case	8:case	_
@@ -1404,7 +1407,7 @@
 7	tape	tape	NOUN	NN	Number=Sing	8	compound	8:compound	_
 8	player	player	NOUN	NN	Number=Sing	2	obl	2:obl:on	Entity=119)
 9	and	and	CCONJ	CC	_	10	cc	10:cc	_
-10	playing	play	VERB	VBG	VerbForm=Ger	2	conj	1:ccomp|2:conj:and	_
+10	playing	play	VERB	VBG	VerbForm=Ger	2	conj	1:xcomp|2:conj:and	_
 11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	10:obj	Entity=(66-abstract-giv:act-cf1*-1-ana)
 12	back	back	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
 13	to	to	ADP	IN	_	14	case	14:case	_
@@ -1451,11 +1454,11 @@
 # s_type = sub
 # transition = continue
 # text = You can also try practicing in front of a sympathetic friend or family member once you’re ready for a “real” audience.
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Discourse=joint-list_m:134->110:1|Entity=(9-person-giv:act-cf1*-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj|5:nsubj:xsubj	Discourse=joint-list_m:134->110:1|Entity=(9-person-giv:act-cf1*-1-ana)
 2	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	also	also	ADV	RB	_	4	advmod	4:advmod	_
 4	try	try	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	practicing	practice	VERB	VBG	VerbForm=Ger	4	ccomp	4:ccomp	_
+5	practicing	practice	VERB	VBG	VerbForm=Ger	4	xcomp	4:xcomp	_
 6	in	in	ADP	IN	_	7	case	7:case	_
 7	front	front	NOUN	NN	Number=Sing	5	obl	5:obl:in	_
 8	of	of	ADP	IN	_	11	case	11:case	_
@@ -1466,7 +1469,8 @@
 13	family	family	NOUN	NN	Number=Sing	14	compound	14:compound	Entity=(125-person-new-cf3-2-sgl
 14	member	member	NOUN	NN	Number=Sing	11	conj	7:nmod:of|11:conj:or	Entity=125)
 15	once	once	SCONJ	IN	_	18	mark	18:mark	Discourse=contingency-condition:135->134:0
-16	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	18	nsubj	18:nsubj	Entity=(9-person-giv:act-cf1*-1-ana)|SpaceAfter=No
+16-17	you’re	_	_	_	_	_	_	_	_
+16	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	18	nsubj	18:nsubj	Entity=(9-person-giv:act-cf1*-1-ana)
 17	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	cop	18:cop	_
 18	ready	ready	ADJ	JJ	Degree=Pos	5	advcl	5:advcl:once	_
 19	for	for	ADP	IN	_	24	case	24:case	_

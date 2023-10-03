@@ -432,7 +432,7 @@
 21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(3-organization-giv:act-cf1-2,3-coref-United_Nations
 22	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	23	amod	23:amod	_
 23	Nations	Nation	PROPN	NNPS	Number=Plur	24	nsubj	24:nsubj	Entity=3)
-24	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	10:advcl:as	_
+24	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	10:advcl:as	_
 25	now	now	ADV	RB	_	24	advmod	24:advmod	_
 26	in	in	ADP	IN	_	27	case	27:case	_
 27	Libya	Libya	PROPN	NNP	Number=Sing	24	obl	24:obl:in	Entity=(47-place-giv:act-cf2*-1-coref-Libya)|SpaceAfter=No
@@ -591,13 +591,13 @@
 13	Israelis	Israeli	PROPN	NNPS	Number=Plur	11	nmod	11:nmod:among	Entity=(95-person-new-cf5-1,3-coref(96-person-new-cf6-1-sgl-Israelis)
 14	and	and	CCONJ	CC	_	15	cc	15:cc	_
 15	Palestinians	Palestinian	PROPN	NNPS	Number=Plur	13	conj	11:nmod:among|13:conj:and	Entity=(97-person-new-cf7-1-sgl-Palestinians)95)
-16	that	that	ADP	IN	_	22	obj	22:obj	Discourse=elaboration-attribute:39->38:0
+16	that	that	SCONJ	IN	_	22	mark	22:mark	Discourse=elaboration-attribute:39->38:0
 17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(98-abstract-new-cf2-3-coref
 18	negotiated	negotiate	VERB	VBN	Tense=Past|VerbForm=Part	19	amod	19:amod	_
 19	settlement	settlement	NOUN	NN	Number=Sing	22	nsubj:pass	22:nsubj:pass	Entity=98)
 20	can	can	AUX	MD	VerbForm=Fin	22	aux	22:aux	_
 21	be	be	AUX	VB	VerbForm=Inf	22	aux:pass	22:aux:pass	_
-22	achieved	achieve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	acl	11:acl	_
+22	achieved	achieve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	acl	11:acl:that	_
 23	—	—	PUNCT	:	_	26	punct	26:punct	Discourse=elaboration-additional:40->39:0
 24	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	26:det	Entity=(98-abstract-giv:act-cf2-3-coref
 25	sustainable	sustainable	ADJ	JJ	Degree=Pos	26	amod	26:amod	_
@@ -629,7 +629,7 @@
 # text = We have no choice but to return to direct negotiations between the two parties.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=adversative-antithesis:43->44:0|Entity=(27-person-giv:act-cf1*-1-ana)
 2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	no	no	DET	DT	Polarity=Neg|PronType=Art	4	det	4:det	Entity=(102-abstract-new-cf3-2-sgl
+3	no	no	DET	DT	Polarity=Neg|PronType=Neg	4	det	4:det	Entity=(102-abstract-new-cf3-2-sgl
 4	choice	choice	NOUN	NN	Number=Sing	2	obj	2:obj	_
 5	but	but	SCONJ	IN	_	7	mark	7:mark	Discourse=explanation-motivation:44->38:1
 6	to	to	PART	TO	_	7	mark	7:mark	_
@@ -691,7 +691,7 @@
 # text = There is no time to lose.
 1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=explanation-justify:49->48:0
 2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	no	no	DET	DT	Polarity=Neg|PronType=Art	4	det	4:det	Entity=(109-time-new-cf1-2-sgl
+3	no	no	DET	DT	Polarity=Neg|PronType=Neg	4	det	4:det	Entity=(109-time-new-cf1-2-sgl
 4	time	time	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	_
 5	to	to	PART	TO	_	6	mark	6:mark	Discourse=purpose-attribute:50->49:0
 6	lose	lose	VERB	VB	VerbForm=Inf	4	acl	4:acl:to	Entity=109)|SpaceAfter=No
@@ -1167,7 +1167,7 @@
 5	future	future	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(190-person-new-cf5-2-sgl
 6	generations	generation	NOUN	NNS	Number=Plur	2	obl	2:obl:to	Entity=190)
 7	to	to	PART	TO	_	8	mark	8:mark	Entity=(189-abstract-giv:act-cf2-2-coref
-8	make	make	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	2	ccomp	2:ccomp	_
+8	make	make	VERB	VB	VerbForm=Inf	2	ccomp	2:ccomp	_
 9	safety	safety	NOUN	NN	Number=Sing	10	compound	10:compound	Entity=(191-abstract-new-cf3-2-sgl
 10	concerns	concern	NOUN	NNS	Number=Plur	8	obj	8:obj|11:nsubj:xsubj	Entity=191)
 11	come	come	VERB	VB	VerbForm=Inf	8	xcomp	8:xcomp	_

@@ -45,7 +45,7 @@
 # text = What qualifications do you have that will assist you in executing the duties of president?
 # newpar
 # newpar_block = sp who:::"#WilliamSSaturn" (1 s) | p (1 s)
-1	What	what	DET	WDT	PronType=Int	2	det	2:det	Discourse=topic-question:3->15:2|Entity=(6-abstract-new-cf4-5-disc
+1	What	what	DET	WDT	PronType=Rel	2	det	2:det	Discourse=topic-question:3->15:2|Entity=(6-abstract-new-cf4-5-disc
 2	qualifications	qualification	NOUN	NNS	Number=Plur	5	obj	5:obj|8:nsubj	_
 3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(3-person-acc:com-cf1-1-ana)
@@ -357,11 +357,11 @@
 17	material	material	NOUN	NN	Number=Sing	29	advcl	29:advcl:if	Entity=39)
 18	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	19:nsubj	Discourse=adversative-contrast_m:31->29:1|Entity=(37-person-giv:act-cf1-1-ana)
 19	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	17	parataxis	17:parataxis	_
-20	no	no	DET	DT	Polarity=Neg|PronType=Art	21	det	21:det	_
+20	no	no	DET	DT	Polarity=Neg|PronType=Neg	21	det	21:det	_
 21	response	response	NOUN	NN	Number=Sing	19	obj	19:obj	_
 22	to	to	PART	TO	_	23	mark	23:mark	Discourse=purpose-attribute:32->31:0
 23	fly	fly	VERB	VB	VerbForm=Inf	21	acl	21:acl:to	_
-24	another	another	DET	DT	PronType=Art	25	det	25:det	Entity=(40-object-new-cf4-2-sgl
+24	another	another	DET	DT	PronType=Ind	25	det	25:det	Entity=(40-object-new-cf4-2-sgl
 25	aircraft	aircraft	NOUN	NN	Number=Sing	23	obj	23:obj	Entity=40)|SpaceAfter=No
 26	,	,	PUNCT	,	_	17	punct	17:punct	_
 27	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	29	nsubj:pass	29:nsubj:pass	Discourse=joint-list_m:33->31:1|Entity=(37-person-giv:act-cf1-1-ana)
@@ -555,7 +555,7 @@
 4	party	party	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=57)
 5	candidates	candidate	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=56)
 6	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp	_
-7	no	no	DET	DT	Polarity=Neg|PronType=Art	8	det	8:det	Entity=(58-event-new-cf3-2-sgl
+7	no	no	DET	DT	Polarity=Neg|PronType=Neg	8	det	8:det	Entity=(58-event-new-cf3-2-sgl
 8	success	success	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=58)|SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -687,9 +687,9 @@
 8	nomination	nomination	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=69)|SpaceAfter=No
 9	,	,	PUNCT	,	_	5	punct	5:punct	_
 10	would	would	AUX	MD	VerbForm=Fin	12	aux	12:aux	Discourse=topic-question:56->57:1
-11	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	12:nsubj	Entity=(3-person-giv:act-cf1-1-ana)
+11	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	12:nsubj|13:nsubj:xsubj	Entity=(3-person-giv:act-cf1-1-ana)
 12	consider	consider	VERB	VB	VerbForm=Inf	0	root	0:root	_
-13	running	run	VERB	VBG	VerbForm=Ger	12	ccomp	12:ccomp	_
+13	running	run	VERB	VBG	VerbForm=Ger	12	xcomp	12:xcomp	_
 14	as	as	ADP	IN	_	18	case	18:case	_
 15	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	Entity=(56-person-giv:inact-cf2-4-pred
 16	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	17	amod	17:amod	Entity=(70-organization-new-cf4-2-sgl|XML=<ref>
@@ -758,7 +758,7 @@
 14	campaigns	campaign	NOUN	NNS	Number=Plur	9	obl	9:obl:in	Entity=74)|SpaceAfter=No
 15	?	?	PUNCT	.	_	9	punct	9:punct	_
 
-# sent_id = GUM_interview_hill-35
+# sent_id = GUM_interview_hill-36
 # s_prominence = 1
 # s_type = frag
 # speaker = ChristopherHill
@@ -766,45 +766,51 @@
 # text = Reagan in 80 and 84, [George H. W.] Bush in 88 and 92, [Phil] Gramm in 96, [George W.] Bush in 2000 and, Romney in 08.
 # newpar
 # newpar_block = sp who:::"#ChristopherHill" (1 s) | p (1 s)
-1	Reagan	Reagan	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint-other_m:60->15:3|Entity=(50-person-giv:inact-cf1-1-coref-Ronald_Reagan)
+0.1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	0.2:nsubj	_
+0.2	supported	supported	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	_	_	0:root	_
+1	Reagan	Reagan	PROPN	NNP	Number=Sing	0	root	0.2:obj	Discourse=joint-other_m:60->15:3|Entity=(50-person-giv:inact-cf1-1-coref-Ronald_Reagan)
 2	in	in	ADP	IN	_	3	case	3:case	_
-3	80	80	NUM	CD	NumForm=Digit|NumType=Card	1	nmod	1:nmod:in	Entity=(75-time-new-cf6-1-sgl)|XML=<date when:::"1980"></date>
+3	80	80	NUM	CD	NumForm=Digit|NumType=Card	1	orphan	0.2:obl:in	Entity=(75-time-new-cf6-1-sgl)|XML=<date when:::"1980"></date>
 4	and	and	CCONJ	CC	_	5	cc	5:cc	_
-5	84	84	NUM	CD	NumForm=Digit|NumType=Card	3	conj	1:nmod:in|3:conj:and	Entity=(76-time-new-cf7-1-sgl)|SpaceAfter=No|XML=<date when:::"1984"></date>
+5	84	84	NUM	CD	NumForm=Digit|NumType=Card	3	conj	0.2:obl:in|3:conj:and	Entity=(76-time-new-cf7-1-sgl)|SpaceAfter=No|XML=<date when:::"1984"></date>
 6	,	,	PUNCT	,	_	8	punct	8:punct	_
+6.1	supported	supported	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	_	_	0.2:conj	_
 7	[	[	PUNCT	-LRB-	_	8	punct	8:punct	Entity=(77-person-new-cf2-2,3,4,6-sgl-George_H._W._Bush|SpaceAfter=No|XML=<ref><add>
-8	George	George	PROPN	NNP	Number=Sing	1	conj	1:conj:and	_
+8	George	George	PROPN	NNP	Number=Sing	1	conj	6.1:obj	_
 9	H.	H.	PROPN	NNP	Number=Sing	8	flat	8:flat	_
 10	W.	W.	PROPN	NNP	Number=Sing	8	flat	8:flat	SpaceAfter=No
 11	]	]	PUNCT	-RRB-	_	8	punct	8:punct	XML=</add>
 12	Bush	Bush	PROPN	NNP	Number=Sing	8	flat	8:flat	Entity=77)|XML=</ref>
 13	in	in	ADP	IN	_	14	case	14:case	_
-14	88	88	NUM	CD	NumForm=Digit|NumType=Card	8	nmod	8:nmod:in	Entity=(78-time-new-cf8-1-sgl)|XML=<date when:::"1988"></date>
+14	88	88	NUM	CD	NumForm=Digit|NumType=Card	8	orphan	6.1:obl:in	Entity=(78-time-new-cf8-1-sgl)|XML=<date when:::"1988"></date>
 15	and	and	CCONJ	CC	_	16	cc	16:cc	_
-16	92	92	NUM	CD	NumForm=Digit|NumType=Card	14	conj	8:nmod:in|14:conj:and	Entity=(79-time-new-cf9-1-sgl)|SpaceAfter=No|XML=<date when:::"1992"></date>
+16	92	92	NUM	CD	NumForm=Digit|NumType=Card	14	conj	6.1:obl:in|14:conj:and	Entity=(79-time-new-cf9-1-sgl)|SpaceAfter=No|XML=<date when:::"1992"></date>
 17	,	,	PUNCT	,	_	19	punct	19:punct	_
+17.1	supported	supported	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	_	_	0.2:conj	_
 18	[	[	PUNCT	-LRB-	_	19	punct	19:punct	Entity=(80-person-new-cf3-2,4-sgl-Phil_Gramm|SpaceAfter=No|XML=<ref><add>
-19	Phil	Phil	PROPN	NNP	Number=Sing	1	conj	1:conj:and	SpaceAfter=No
+19	Phil	Phil	PROPN	NNP	Number=Sing	1	conj	17.1:obj	SpaceAfter=No
 20	]	]	PUNCT	-RRB-	_	19	punct	19:punct	XML=</add>
 21	Gramm	Gramm	PROPN	NNP	Number=Sing	19	flat	19:flat	Entity=80)|XML=</ref>
 22	in	in	ADP	IN	_	23	case	23:case	_
-23	96	96	NUM	CD	NumForm=Digit|NumType=Card	19	nmod	19:nmod:in	Entity=(81-time-new-cf10-1-sgl)|SpaceAfter=No|XML=<date when:::"1996"></date>
+23	96	96	NUM	CD	NumForm=Digit|NumType=Card	19	orphan	17.1:obl:in	Entity=(81-time-new-cf10-1-sgl)|SpaceAfter=No|XML=<date when:::"1996"></date>
 24	,	,	PUNCT	,	_	26	punct	26:punct	_
 25	[	[	PUNCT	-LRB-	_	26	punct	26:punct	Entity=(82-person-new-cf4-2,3,5-sgl-George_W._Bush|SpaceAfter=No|XML=<ref><add>
-26	George	George	PROPN	NNP	Number=Sing	1	conj	1:conj:and	_
+25.1	supported	supported	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	_	_	0.2:conj	_
+26	George	George	PROPN	NNP	Number=Sing	1	conj	25.1:obj	_
 27	W.	W.	PROPN	NNP	Number=Sing	26	flat	26:flat	SpaceAfter=No
 28	]	]	PUNCT	-RRB-	_	26	punct	26:punct	XML=</add>
 29	Bush	Bush	PROPN	NNP	Number=Sing	26	flat	26:flat	Entity=82)|XML=</ref>
 30	in	in	ADP	IN	_	31	case	31:case	_
-31	2000	2000	NUM	CD	NumForm=Digit|NumType=Card	26	nmod	26:nmod:in	Entity=(83-time-new-cf11-1-sgl)|XML=<date when:::"2000"></date>
+31	2000	2000	NUM	CD	NumForm=Digit|NumType=Card	26	orphan	25.1:obl:in	Entity=(83-time-new-cf11-1-sgl)|XML=<date when:::"2000"></date>
 32	and	and	CCONJ	CC	_	34	cc	34:cc	SpaceAfter=No
 33	,	,	PUNCT	,	_	32	punct	32:punct	_
-34	Romney	Romney	PROPN	NNP	Number=Sing	1	conj	1:conj:and	Entity=(84-person-new-cf5-1-sgl-Mitt_Romney)
+33.1	supported	supported	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	_	_	0.2:conj:and	_
+34	Romney	Romney	PROPN	NNP	Number=Sing	1	conj	33.1:obj	Entity=(84-person-new-cf5-1-sgl-Mitt_Romney)
 35	in	in	ADP	IN	_	36	case	36:case	_
-36	08	08	NUM	CD	NumForm=Digit|NumType=Card	34	nmod	34:nmod:in	Entity=(85-time-new-cf12-1-sgl)|SpaceAfter=No|XML=<date when:::"2008"></date>
+36	08	08	NUM	CD	NumForm=Digit|NumType=Card	34	orphan	33.1:obl:in	Entity=(85-time-new-cf12-1-sgl)|SpaceAfter=No|XML=<date when:::"2008"></date>
 37	.	.	PUNCT	.	_	1	punct	1:punct	_
 
-# sent_id = GUM_interview_hill-36
+# sent_id = GUM_interview_hill-37
 # s_prominence = 2
 # s_type = wh
 # speaker = WilliamSSaturn
@@ -827,7 +833,7 @@
 13	president	president	NOUN	NN	Number=Sing	11	obl	11:obl:as	Entity=(88-person-giv:act-cf1-1-pred-Barack_Obama)87)86)|SpaceAfter=No
 14	?	?	PUNCT	.	_	1	punct	1:punct	_
 
-# sent_id = GUM_interview_hill-37
+# sent_id = GUM_interview_hill-38
 # s_prominence = 3
 # s_type = wh
 # speaker = WilliamSSaturn
@@ -843,7 +849,7 @@
 8	differently	differently	ADV	RB	Degree=Pos	7	advmod	7:advmod	SpaceAfter=No
 9	?	?	PUNCT	.	_	7	punct	7:punct	_
 
-# sent_id = GUM_interview_hill-38
+# sent_id = GUM_interview_hill-39
 # s_prominence = 1
 # s_type = decl
 # speaker = ChristopherHill
@@ -867,7 +873,7 @@
 14	party	party	NOUN	NN	Number=Sing	11	nmod	11:nmod:of	Entity=91)90)89)|SpaceAfter=No
 15	.	.	PUNCT	.	_	3	punct	3:punct	_
 
-# sent_id = GUM_interview_hill-39
+# sent_id = GUM_interview_hill-40
 # s_prominence = 2
 # s_type = decl
 # speaker = ChristopherHill
@@ -890,7 +896,7 @@
 15	unconstitutional	unconstitutional	ADJ	JJ	Degree=Pos|Polarity=Neg	0	root	0:root	SpaceAfter=No
 16	.	.	PUNCT	.	_	15	punct	15:punct	_
 
-# sent_id = GUM_interview_hill-40
+# sent_id = GUM_interview_hill-41
 # s_prominence = 3
 # s_type = ger
 # speaker = ChristopherHill
@@ -911,7 +917,7 @@
 13	blocs	bloc	NOUN	NNS	Number=Plur	10	obj	10:obj	Entity=96)|SpaceAfter=No
 14	.	.	PUNCT	.	_	3	punct	3:punct	_
 
-# sent_id = GUM_interview_hill-41
+# sent_id = GUM_interview_hill-42
 # s_prominence = 3
 # s_type = decl
 # speaker = ChristopherHill
@@ -930,11 +936,11 @@
 11	not	not	PART	RB	Polarity=Neg	12	advmod	12:advmod	_
 12	others	other	NOUN	NNS	Number=Plur	9	conj	7:obj|9:conj:and	Entity=(100-abstract-new-cf5-1-sgl)97)
 13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	Discourse=same-unit_m:74->72:1
-14	another	another	DET	DT	PronType=Art	15	det	15:det	Entity=(97-event-giv:act-cf2-2-pred
+14	another	another	DET	DT	PronType=Ind	15	det	15:det	Entity=(97-event-giv:act-cf2-2-pred
 15	example	example	NOUN	NN	Number=Sing	0	root	0:root	Entity=97)|SpaceAfter=No
 16	.	.	PUNCT	.	_	15	punct	15:punct	_
 
-# sent_id = GUM_interview_hill-42
+# sent_id = GUM_interview_hill-43
 # s_prominence = 2
 # s_type = frag
 # transition = zero
@@ -952,7 +958,7 @@
 9	in	in	ADP	IN	_	10	case	10:case	_
 10	2011	2011	NUM	CD	NumForm=Digit|NumType=Card	8	nmod	8:nmod:in	Entity=(103-time-new-cf3-1-sgl)|XML=<date when:::"2011"></date>
 
-# sent_id = GUM_interview_hill-43
+# sent_id = GUM_interview_hill-44
 # s_prominence = 2
 # s_type = wh
 # speaker = WilliamSSaturn
@@ -973,7 +979,7 @@
 11	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	6	obl	6:obl:for	Entity=(3-person-giv:act-cf1*-1-ana)|SpaceAfter=No
 12	?	?	PUNCT	.	_	6	punct	6:punct	_
 
-# sent_id = GUM_interview_hill-44
+# sent_id = GUM_interview_hill-45
 # s_prominence = 2
 # s_type = decl
 # speaker = ChristopherHill
@@ -986,7 +992,7 @@
 3	goals	goal	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=105)|SpaceAfter=No
 4	:	:	PUNCT	:	_	1	punct	1:punct	_
 
-# sent_id = GUM_interview_hill-45
+# sent_id = GUM_interview_hill-46
 # s_prominence = 1
 # s_type = multiple
 # speaker = ChristopherHill
@@ -1006,7 +1012,7 @@
 12	People	person	NOUN	NNS	Number=Plur	8	obl	8:obl:to	Entity=14)106)|SpaceAfter=No
 13	.	.	PUNCT	.	_	2	punct	2:punct	_
 
-# sent_id = GUM_interview_hill-46
+# sent_id = GUM_interview_hill-47
 # s_prominence = 1
 # s_type = ger
 # speaker = ChristopherHill
@@ -1032,7 +1038,7 @@
 18	money	money	NOUN	NN	Number=Sing	15	nmod	15:nmod:of	Entity=116)112)111)|SpaceAfter=No
 19	.	.	PUNCT	.	_	1	punct	1:punct	_
 
-# sent_id = GUM_interview_hill-47
+# sent_id = GUM_interview_hill-48
 # s_prominence = 1
 # s_type = ger
 # speaker = ChristopherHill
@@ -1053,7 +1059,7 @@
 13	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	8:acl:relcl|11:conj:and	Entity=119)117)|SpaceAfter=No
 14	.	.	PUNCT	.	_	1	punct	1:punct	_
 
-# sent_id = GUM_interview_hill-48
+# sent_id = GUM_interview_hill-49
 # s_prominence = 1
 # s_type = ger
 # speaker = ChristopherHill
@@ -1071,7 +1077,7 @@
 10	poverty	poverty	NOUN	NN	Number=Sing	6	obl	6:obl:out_of	Entity=(124-abstract-new-cf4-1-sgl)121)120)|SpaceAfter=No
 11	.	.	PUNCT	.	_	1	punct	1:punct	_
 
-# sent_id = GUM_interview_hill-49
+# sent_id = GUM_interview_hill-50
 # s_prominence = 1
 # s_type = ger
 # speaker = ChristopherHill
@@ -1088,7 +1094,7 @@
 9	Security	security	NOUN	NN	Number=Sing	7	conj	5:nmod:of|7:conj:and	Entity=(128-abstract-new-cf5-1-sgl)126)125)|SpaceAfter=No
 10	.	.	PUNCT	.	_	1	punct	1:punct	_
 
-# sent_id = GUM_interview_hill-50
+# sent_id = GUM_interview_hill-51
 # s_prominence = 2
 # s_type = wh
 # speaker = WilliamSSaturn
@@ -1109,7 +1115,7 @@
 11	administration	administration	NOUN	NN	Number=Sing	7	obl	7:obl:in	Entity=130)|SpaceAfter=No
 12	?	?	PUNCT	.	_	5	punct	5:punct	_
 
-# sent_id = GUM_interview_hill-51
+# sent_id = GUM_interview_hill-52
 # s_prominence = 1
 # s_type = sub
 # speaker = ChristopherHill
@@ -1135,7 +1141,7 @@
 16	work	work	VERB	VB	VerbForm=Inf	13	xcomp	13:xcomp	Entity=129)|SpaceAfter=No
 17	.	.	PUNCT	.	_	3	punct	3:punct	_
 
-# sent_id = GUM_interview_hill-52
+# sent_id = GUM_interview_hill-53
 # s_prominence = 2
 # s_type = decl
 # speaker = ChristopherHill
@@ -1158,7 +1164,7 @@
 15	theory	theory	NOUN	NN	Number=Sing	13	obl	13:obl:in	Entity=(137-place-new-cf4-1-sgl)136)133)|SpaceAfter=No
 16	.	.	PUNCT	.	_	3	punct	3:punct	_
 
-# sent_id = GUM_interview_hill-53
+# sent_id = GUM_interview_hill-54
 # s_prominence = 3
 # s_type = frag
 # transition = null
@@ -1178,7 +1184,7 @@
 11	Roemer	Roemer	PROPN	NNP	Number=Sing	9	flat	9:flat	Entity=138)|SpaceAfter=No
 12	.	.	PUNCT	.	_	1	punct	1:punct	XML=</ref>
 
-# sent_id = GUM_interview_hill-54
+# sent_id = GUM_interview_hill-55
 # s_prominence = 2
 # s_type = q
 # speaker = WilliamSSaturn
@@ -1195,7 +1201,7 @@
 7	add	add	VERB	VB	VerbForm=Inf	5	xcomp	5:xcomp	Entity=140)|SpaceAfter=No
 8	?	?	PUNCT	.	_	5	punct	5:punct	_
 
-# sent_id = GUM_interview_hill-55
+# sent_id = GUM_interview_hill-56
 # s_prominence = 2
 # s_type = frag
 # speaker = ChristopherHill
@@ -1208,7 +1214,7 @@
 3	thought	thought	NOUN	NN	Number=Sing	0	root	0:root	Entity=140)|SpaceAfter=No
 4	.	.	PUNCT	.	_	3	punct	3:punct	_
 
-# sent_id = GUM_interview_hill-56
+# sent_id = GUM_interview_hill-57
 # s_prominence = 3
 # s_type = decl
 # speaker = ChristopherHill
@@ -1223,7 +1229,7 @@
 7	endure	endure	VERB	VB	VerbForm=Inf	4	acl:relcl	4:acl:relcl	Entity=5)|SpaceAfter=No
 8	.	.	PUNCT	.	_	4	punct	4:punct	_
 
-# sent_id = GUM_interview_hill-57
+# sent_id = GUM_interview_hill-58
 # s_prominence = 2
 # s_type = decl
 # speaker = ChristopherHill
@@ -1251,7 +1257,7 @@
 20	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	18	obl	18:obl:to	Entity=(132-person-giv:act-cf1-1-ana)142)141)|SpaceAfter=No
 21	.	.	PUNCT	.	_	2	punct	2:punct	_
 
-# sent_id = GUM_interview_hill-58
+# sent_id = GUM_interview_hill-59
 # s_prominence = 1
 # s_type = decl
 # speaker = ChristopherHill

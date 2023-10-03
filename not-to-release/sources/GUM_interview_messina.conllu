@@ -739,7 +739,7 @@
 # text = When I wrote my 9/11-related poems, that was true adversity.
 1	When	when	ADV	WRB	PronType=Int	3	advmod	3:advmod	Discourse=context-circumstance:70->71:0|Entity=(67-event-giv:inact-cf2-3-disc-September_11_attacks
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(1-person-giv:act-cf1*-1-ana-Frank_Messina)
-3	wrote	write	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	acl	13:acl:when	_
+3	wrote	write	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	advcl	13:advcl:when	_
 4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(74-abstract-new-cf3-5-sgl(1-person-giv:act-cf1*-1-ana-Frank_Messina)
 5	9/11	9/11	NUM	CD	NumForm=Word|NumType=Card	8	amod	8:amod	SpaceAfter=No|XML=<date when:::"2001-09-11"><w>
 6	-	-	PUNCT	HYPH	_	7	punct	7:punct	SpaceAfter=No
@@ -812,7 +812,7 @@
 13	but	but	CCONJ	CC	_	15	cc	15:cc	Discourse=context-background:79->85:4
 14-15	it's	_	_	_	_	_	_	_	_
 14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj	Entity=(77-abstract-giv:act-cf1-1-ana)
-15	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	4:acl:relcl|9:conj:but	_
+15	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	4:acl:relcl|9:conj:but	_
 16	about	about	ADP	IN	_	17	case	17:case	_
 17	preparation	preparation	NOUN	NN	Number=Sing	15	obl	15:obl:about	Entity=(80-event-new-cf4-1-sgl
 18	for	for	ADP	IN	_	20	case	20:case	_
@@ -873,12 +873,13 @@
 # speaker = FrankMessina
 # transition = establishment
 # text = Of course you do, you're a Mets fan caught in a do-or-die moment in late September at Shea
-1	Of	of	ADV	IN	_	4	advmod	4:advmod	Discourse=joint-other_m:85->11:6|XML=<l n:::"4">
+1	Of	of	ADP	IN	_	4	advmod	4:advmod	Discourse=joint-other_m:85->11:6|XML=<l n:::"4">
 2	course	course	NOUN	NN	Number=Sing	1	fixed	1:fixed	_
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(82-person-giv:act-cf1*-1-ana)
-4	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	parataxis	10:parataxis	SpaceAfter=No
+4	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	parataxis	10:parataxis	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
-6	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	10:nsubj	Discourse=causal-cause:86->85:0|Entity=(82-person-giv:act-cf1*-1-ana)|SpaceAfter=No
+6-7	you're	_	_	_	_	_	_	_	_
+6	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	10:nsubj	Discourse=causal-cause:86->85:0|Entity=(82-person-giv:act-cf1*-1-ana)
 7	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(82-person-giv:act-cf1*-3-pred
 9	Mets	Met	PROPN	NNPS	Number=Plur	10	compound	10:compound	Entity=(3-organization-giv:inact-cf2-1-coref-New_York_Mets)
@@ -886,7 +887,7 @@
 11	caught	catch	VERB	VBN	Tense=Past|VerbForm=Part	10	acl	10:acl	Discourse=context-circumstance:87->86:0|XML=<l n:::"5">
 12	in	in	ADP	IN	_	19	case	19:case	_
 13	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(88-time-new-cf5-7-sgl
-14	do	do	VERB	VB	VerbForm=Inf	19	compound	19:compound	SpaceAfter=No|XML=<w>
+14	do	do	AUX	VB	VerbForm=Inf	19	compound	19:compound	SpaceAfter=No|XML=<w>
 15	-	-	PUNCT	HYPH	_	16	punct	16:punct	SpaceAfter=No
 16	or	or	CCONJ	CC	_	18	cc	18:cc	SpaceAfter=No
 17	-	-	PUNCT	HYPH	_	16	punct	16:punct	SpaceAfter=No
@@ -950,10 +951,10 @@
 # transition = zero
 # text = Have no fear, no hesitation, for Winning shall be it's reward!
 1	Have	have	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:93->85:2|Entity=(94-event-new-cf1-1-disc|XML=<l n:::"11">
-2	no	no	DET	DT	Polarity=Neg|PronType=Art	3	det	3:det	Entity=(95-abstract-new-cf2-2-sgl
+2	no	no	DET	DT	Polarity=Neg|PronType=Neg	3	det	3:det	Entity=(95-abstract-new-cf2-2-sgl
 3	fear	fear	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=95)|SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	6:punct	_
-5	no	no	DET	DT	Polarity=Neg|PronType=Art	6	det	6:det	Entity=(96-abstract-new-cf3-2-sgl
+5	no	no	DET	DT	Polarity=Neg|PronType=Neg	6	det	6:det	Entity=(96-abstract-new-cf3-2-sgl
 6	hesitation	hesitation	NOUN	NN	Number=Sing	3	conj	1:obj|3:conj	Entity=96)94)|SpaceAfter=No
 7	,	,	PUNCT	,	_	13	punct	13:punct	XML=</l>
 8	for	for	SCONJ	IN	_	13	mark	13:mark	Discourse=explanation-motivation:94->93:0|XML=<l n:::"12">
@@ -1004,7 +1005,8 @@
 # speaker = FrankMessina
 # transition = continue
 # text = You're a Mets fan in late September and youll fight til the glorious end
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Discourse=context-circumstance:97->98:1|Entity=(82-person-giv:act-cf1*-1-ana)|SpaceAfter=No|XML=<l n:::"15">
+1-2	You're	_	_	_	_	_	_	_	_
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Discourse=context-circumstance:97->98:1|Entity=(82-person-giv:act-cf1*-1-ana)|XML=<l n:::"15">
 2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(82-person-giv:act-cf1*-3-pred
 4	Mets	Met	PROPN	NNPS	Number=Plur	5	compound	5:compound	Entity=(3-organization-giv:inact-cf3-1-coref-New_York_Mets)
@@ -1026,15 +1028,15 @@
 # s_prominence = 1
 # s_type = imp
 # speaker = FrankMessina
-# transition = continue
+# transition = smooth-shift
 # text = Cheer the team today; (your boys in orange and blue) Let them hear you shout as they fight for what's mightily due
 1	Cheer	cheer	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:100->85:2|XML=<l n:::"17">
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(3-organization-giv:act-cf2-2-coref-New_York_Mets
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(3-organization-giv:act-cf1*-2-coref-New_York_Mets
 3	team	team	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=3)
 4	today	today	NOUN	NN	Number=Sing	1	obl:tmod	1:obl:tmod	Entity=(101-time-acc:com-cf3-1-sgl)|SpaceAfter=No
 5	;	;	PUNCT	:	_	4	punct	4:punct	XML=</l>
 6	(	(	PUNCT	-LRB-	_	8	punct	8:punct	Discourse=elaboration-additional:101->100:0|SpaceAfter=No|XML=<l n:::"18">
-7	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(3-organization-giv:act-cf2-2-coref-New_York_Mets(82-person-giv:act-cf1*-1-ana)
+7	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(3-organization-giv:act-cf1*-2-coref-New_York_Mets(82-person-giv:act-cf2-1-ana)
 8	boys	boy	NOUN	NNS	Number=Plur	3	parataxis	3:parataxis	_
 9	in	in	ADP	IN	_	10	case	10:case	_
 10	orange	orange	ADJ	JJ	Degree=Pos	8	nmod	8:nmod:in	_
@@ -1042,12 +1044,12 @@
 12	blue	blue	ADJ	JJ	Degree=Pos	10	conj	8:nmod:in|10:conj:and	Entity=3)|SpaceAfter=No
 13	)	)	PUNCT	-RRB-	_	8	punct	8:punct	XML=</l>
 14	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	parataxis	1:parataxis	Discourse=attribution-positive:102->103:0|XML=<l n:::"19">
-15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obj	14:obj|16:nsubj:xsubj	Entity=(3-organization-giv:act-cf2-1-ana-New_York_Mets)
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obj	14:obj|16:nsubj:xsubj	Entity=(3-organization-giv:act-cf1*-1-ana-New_York_Mets)
 16	hear	hear	VERB	VB	VerbForm=Inf	14	xcomp	14:xcomp	_
-17	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	18	nsubj	18:nsubj	Discourse=joint-list_m:103->100:1|Entity=(82-person-giv:act-cf1*-1-ana)
-18	shout	shout	VERB	VB	VerbForm=Inf	16	ccomp	16:ccomp	XML=</l>
+17	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	16	obj	16:obj|18:nsubj:xsubj	Discourse=joint-list_m:103->100:1|Entity=(82-person-giv:act-cf2-1-ana)
+18	shout	shout	VERB	VB	VerbForm=Inf	16	xcomp	16:xcomp	XML=</l>
 19	as	as	SCONJ	IN	_	21	mark	21:mark	Discourse=context-circumstance:104->103:1|XML=<l n:::"20">
-20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	21:nsubj	Entity=(3-organization-giv:act-cf2-1-ana-New_York_Mets)
+20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	21:nsubj	Entity=(3-organization-giv:act-cf1*-1-ana-New_York_Mets)
 21	fight	fight	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	16:advcl:as	_
 22	for	for	ADP	IN	_	23	case	23:case	_
 23-24	what's	_	_	_	_	_	_	_	_
@@ -1541,7 +1543,7 @@
 5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	9:nsubj	Discourse=explanation-justify:153->152:0|Entity=(134-event-giv:act-cf1*-1-ana)
 6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
 7	like	like	ADP	IN	_	9	case	9:case	_
-8	another	another	DET	DT	PronType=Art	9	det	9:det	Entity=(135-organization-new-cf2-2-sgl
+8	another	another	DET	DT	PronType=Ind	9	det	9:det	Entity=(135-organization-new-cf2-2-sgl
 9	family	family	NOUN	NN	Number=Sing	3	parataxis	3:parataxis	Entity=135)|SpaceAfter=No
 10	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -1666,7 +1668,7 @@
 9	Poet	Poet	PROPN	NNP	Number=Sing	6	obj	6:obj	SpaceAfter=No
 10	'	'	PUNCT	''	_	17	punct	17:punct	Entity=144)
 11	because	because	SCONJ	IN	_	17	mark	17:mark	Discourse=causal-cause:163->162:0
-12	growing	grow	VERB	VBG	VerbForm=Ger	17	acl	17:acl	Discourse=context-circumstance:164->165:0
+12	growing	grow	VERB	VBG	VerbForm=Ger	17	advcl	17:advcl	Discourse=context-circumstance:164->165:0
 13	up	up	ADP	RP	_	12	compound:prt	12:compound:prt	_
 14	that	that	PRON	DT	Number=Sing|PronType=Dem	17	nsubj	17:nsubj	Discourse=same-unit_m:165->163:0|Entity=(144-abstract-giv:act-cf1-1-ana)
 15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	17:cop	_

@@ -692,12 +692,12 @@
 # text = When you see the first green tendrils push up through the soil, it's time to remove the plastic wrap.
 1	When	when	ADV	WRB	PronType=Int	3	advmod	3:advmod	Discourse=contingency-condition:68->69:1
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(11-person-giv:inact-cf3-1-ana)
-3	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	acl	16:acl:when	_
+3	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	advcl	16:advcl:when	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(73-plant-giv:act-cf1*-4-coref
 5	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	7	amod	7:amod	_
 6	green	green	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
-7	tendrils	tendril	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj	Entity=73)
-8	push	push	VERB	VB	VerbForm=Inf	3	ccomp	3:ccomp	_
+7	tendrils	tendril	NOUN	NNS	Number=Plur	3	obj	3:obj|8:nsubj:xsubj	Entity=73)
+8	push	push	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
 9	up	up	ADP	RP	_	8	compound:prt	8:compound:prt	_
 10	through	through	ADP	IN	_	12	case	12:case	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(67-substance-giv:inact-cf4-2-coref
@@ -742,7 +742,7 @@
 1	When	when	ADV	WRB	PronType=Int	4	advmod	4:advmod	Discourse=contingency-condition:73->75:1
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=43<74|Entity=(74-plant-acc:inf-cf1-2-coref
 3	plants	plant	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj|8:nsubj:xsubj	Entity=74)
-4	become	become	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl	16:acl:when	_
+4	become	become	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	16:advcl:when	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(75-abstract-new-cf3-3-sgl
 6	few	few	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	inches	inch	NOUN	NNS	Number=Plur	8	obl:npmod	8:obl:npmod	Entity=75)
@@ -750,7 +750,7 @@
 9	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=joint-list_m:74->73:0
 10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(76-plant-new-cf2-2-coref(74-plant-giv:act-cf1-1-ana)
 11	leaves	leave	NOUN	NNS	Number=Plur	12	nsubj	12:nsubj	Entity=76)
-12	mature	mature	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj:and|16:acl:when	SpaceAfter=No
+12	mature	mature	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj:and|16:advcl:when	SpaceAfter=No
 13	,	,	PUNCT	,	_	4	punct	4:punct	_
 14-15	it's	_	_	_	_	_	_	_	_
 14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	16:nsubj	Discourse=joint-sequence_m:75->69:2
@@ -961,7 +961,8 @@
 21	number	number	NOUN	NN	Number=Sing	19	obj	19:obj	_
 22	of	of	ADP	IN	_	23	case	23:case	_
 23	plants	plant	NOUN	NNS	Number=Plur	21	nmod	21:nmod:of	_
-24	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	26	nsubj	26:nsubj	Discourse=elaboration-attribute:97->96:0|SpaceAfter=No
+24-25	you're	_	_	_	_	_	_	_	_
+24	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	26	nsubj	26:nsubj	Discourse=elaboration-attribute:97->96:0
 25	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	26	aux	26:aux	_
 26	growing	grow	VERB	VBG	Tense=Pres|VerbForm=Part	23	acl	23:acl	Entity=93)|SpaceAfter=No
 27	;	;	PUNCT	:	_	12	punct	12:punct	_
@@ -1368,7 +1369,7 @@
 9	of	of	ADP	IN	_	11	case	11:case	_
 10	every	every	DET	DT	PronType=Tot	11	det	11:det	Entity=(108-plant-giv:inact-cf1-2-coref
 11	leaf	leaf	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	Entity=108)128)
-12	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+12	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 13	two	two	NUM	CD	NumForm=Word|NumType=Card	16	nummod	16:nummod	Entity=(129-plant-new-cf4-4-coref
 14	tiny	tiny	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
 15	little	little	ADJ	JJ	Degree=Pos	16	amod	16:amod	_

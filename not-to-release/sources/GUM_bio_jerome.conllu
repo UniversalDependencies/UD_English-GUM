@@ -465,7 +465,7 @@
 3	learned	learn	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	Latin	Latin	PROPN	NNP	Number=Sing	3	obj	3:obj	Entity=(2-abstract-giv:inact-cf2-1-coref-Latin)|XML=<ref></ref>
 5	and	and	CCONJ	CC	_	9	cc	9:cc	_
-6	at	at	ADV	IN	_	8	advmod	8:advmod	_
+6	at	at	ADP	IN	_	8	advmod	8:advmod	_
 7	least	least	ADJ	JJS	Degree=Sup	6	fixed	6:fixed	_
 8	some	some	DET	DT	PronType=Ind	9	det	9:det	Entity=(66-abstract-new-cf4-2-sgl-Greek_language
 9	Greek	Greek	PROPN	NNP	Number=Sing	4	conj	3:obj|4:conj:and	Entity=66)|SpaceAfter=No|XML=<ref></ref>
@@ -604,8 +604,8 @@
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(1-person-acc:com-cf1*-1-ana-Jerome)
 3	would	would	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 4	find	find	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	myself	myself	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	nsubj	6:nsubj	Entity=(1-person-giv:act-cf1*-1-ana-Jerome)
-6	entering	enter	VERB	VBG	VerbForm=Ger	4	ccomp	4:ccomp	_
+5	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	obj	4:obj|6:nsubj:xsubj	Entity=(1-person-giv:act-cf1*-1-ana-Jerome)
+6	entering	enter	VERB	VBG	VerbForm=Ger	4	xcomp	4:xcomp	_
 7	those	that	DET	DT	Number=Plur|PronType=Dem	8	det	8:det	Entity=(84-place-giv:inact-cf2-2-coref
 8	crypts	crypt	NOUN	NNS	Number=Plur	6	obj	6:obj	SpaceAfter=No
 9	,	,	PUNCT	,	_	11	punct	11:punct	_
@@ -619,7 +619,7 @@
 17	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	Entity=(88-object-new-cf8-2-sgl(84-place-giv:act-cf2-1-ana)
 18	walls	wall	NOUN	NNS	Number=Plur	8	nmod	8:nmod:with	_
 19	on	on	ADP	IN	_	21	case	21:case	_
-20	either	either	DET	DT	PronType=Art	21	det	21:det	Entity=(89-place-new-cf9-2-sgl
+20	either	either	DET	DT	_	21	det	21:det	Entity=(89-place-new-cf9-2-sgl
 21	side	side	NOUN	NN	Number=Sing	18	nmod	18:nmod:on	Entity=89)
 22	lined	line	VERB	VBN	Tense=Past|VerbForm=Part	18	acl	18:acl	Discourse=elaboration-attribute:65->64:0
 23	with	with	ADP	IN	_	25	case	25:case	_

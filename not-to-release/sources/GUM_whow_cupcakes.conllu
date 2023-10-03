@@ -63,7 +63,7 @@
 # text = No need to give up wicked cakes when you toss the eggs, butter, and milk!
 # newpar
 # newpar_block = p (3 s)
-1	No	no	DET	DT	Polarity=Neg|PronType=Art	2	det	2:det	Discourse=adversative-antithesis:5->8:2
+1	No	no	DET	DT	Polarity=Neg|PronType=Neg	2	det	2:det	Discourse=adversative-antithesis:5->8:2
 2	need	need	NOUN	NN	Number=Sing	0	root	0:root	_
 3	to	to	PART	TO	_	4	mark	4:mark	Discourse=purpose-attribute:6->5:0
 4	give	give	VERB	VB	VerbForm=Inf	2	acl	2:acl:to	_
@@ -101,7 +101,7 @@
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(11-abstract-new-cf3-2-sgl
 12	base	base	NOUN	NN	Number=Sing	9	obl	9:obl:as	_
 13	for	for	ADP	IN	_	16	case	16:case	_
-14	whatever	whatever	DET	WDT	PronType=Int	16	det	16:det	Entity=(12-substance-new-cf4-3-sgl
+14	whatever	whatever	DET	WDT	PronType=Rel	16	det	16:det	Entity=(12-substance-new-cf4-3-sgl
 15	flavored	flavor	VERB	VBN	Tense=Past|VerbForm=Part	16	amod	16:amod	_
 16	icing	icing	NOUN	NN	Number=Sing	12	nmod	12:nmod:for	_
 17	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	18	nsubj	18:nsubj|20:nsubj:xsubj	Discourse=elaboration-attribute:10->9:0|Entity=(7-person-giv:act-cf1*-1-ana)
@@ -117,7 +117,8 @@
 # s_type = decl
 # transition = zero
 # text = They're guaranteed to be light and fluffy and perfect for any occasion.
-1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj:pass	3:nsubj:pass|6:nsubj:xsubj|8:nsubj:xsubj|10:nsubj:xsubj	Discourse=explanation-justify:11->8:1|Entity=(1-object-giv:inact-cf1-1-ana)|SpaceAfter=No
+1-2	They're	_	_	_	_	_	_	_	_
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj:pass	3:nsubj:pass|6:nsubj:xsubj|8:nsubj:xsubj|10:nsubj:xsubj	Discourse=explanation-justify:11->8:1|Entity=(1-object-giv:inact-cf1-1-ana)
 2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	guaranteed	guarantee	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 4	to	to	PART	TO	_	6	mark	6:mark	_
@@ -887,7 +888,8 @@
 18	(	(	PUNCT	-LRB-	_	20	punct	20:punct	Discourse=explanation-motivation:103->100:2|SpaceAfter=No
 19	this	this	PRON	DT	Number=Sing|PronType=Dem	20	nsubj	20:nsubj	Entity=(72-event-giv:act-cf2-1-coref)
 20	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	parataxis	16:parataxis	_
-21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	23:nsubj	Entity=(3-object-giv:act-cf1-1-ana)|SpaceAfter=No
+21-22	they're	_	_	_	_	_	_	_	_
+21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	23:nsubj	Entity=(3-object-giv:act-cf1-1-ana)
 22	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	cop	23:cop	_
 23	more	more	ADV	RBR	Degree=Cmp	20	ccomp	20:ccomp	_
 24	than	than	ADP	IN	_	25	case	25:case	_
@@ -1143,7 +1145,7 @@
 11	and	and	CCONJ	CC	_	12	cc	12:cc	_
 12	vanilla	vanilla	NOUN	NN	Number=Sing	4	conj	1:obj|4:conj:and	Entity=(47-substance-giv:inact-cf5-1-coref)88)
 13	into	into	ADP	IN	_	15	case	15:case	_
-14	another	another	DET	DT	PronType=Art	15	det	15:det	Entity=(89-object-new-cf8-2-sgl
+14	another	another	DET	DT	PronType=Ind	15	det	15:det	Entity=(89-object-new-cf8-2-sgl
 15	bowl	bowl	NOUN	NN	Number=Sing	1	obl	1:obl:into	Entity=89)|SpaceAfter=No
 16	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
@@ -1235,7 +1237,7 @@
 # text = If they smell strongly earlier, test with a wooden skewer; if it returns clean after sticking into a cupcake, they're ready.
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=contingency-condition:134->135:1
 2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(4-object-giv:inact-cf2-1-ana)
-3	smell	smell	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl	7:acl:if	_
+3	smell	smell	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	7:advcl:if	_
 4	strongly	strongly	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
 5	earlier	early	ADV	RBR	Degree=Cmp	3	advmod	3:advmod	SpaceAfter=No
 6	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -1255,7 +1257,8 @@
 20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	Entity=(92-object-new-cf3-2-sgl
 21	cupcake	cupcake	NOUN	NN	Number=Sing	18	obl	18:obl:into	Entity=92)|SpaceAfter=No
 22	,	,	PUNCT	,	_	15	punct	15:punct	_
-23	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	25:nsubj	Discourse=elaboration-additional:138->135:0|Entity=(4-object-giv:act-cf2-1-ana)|SpaceAfter=No
+23-24	they're	_	_	_	_	_	_	_	_
+23	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	25:nsubj	Discourse=elaboration-additional:138->135:0|Entity=(4-object-giv:act-cf2-1-ana)
 24	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	25:cop	_
 25	ready	ready	ADJ	JJ	Degree=Pos	7	parataxis	7:parataxis	SpaceAfter=No
 26	.	.	PUNCT	.	_	7	punct	7:punct	_

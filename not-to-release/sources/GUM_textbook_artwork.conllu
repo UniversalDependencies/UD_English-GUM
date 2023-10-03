@@ -165,11 +165,11 @@
 7	’s	's	PART	POS	_	5	case	5:case	Entity=24)
 8	(	(	PUNCT	-LRB-	_	10	punct	10:punct	Discourse=elaboration-attribute:13->12:0|SpaceAfter=No
 9	c.	c.	ADV	FW	Abbr=Yes	10	advmod	10:advmod	_
-10	1580	1580	NUM	CD	NumForm=Digit|NumType=Card	5	dep	5:dep	Entity=(25-time-new-cf15-1-sgl(26-time-new-cf16-1-sgl)|SpaceAfter=No|XML=<w><date when:::"1580"></date>
+10	1580	1580	NUM	CD	NumForm=Digit|NumType=Card	5	parataxis	5:parataxis	Entity=(25-time-new-cf15-1-sgl(26-time-new-cf16-1-sgl)|SpaceAfter=No|XML=<w><date when:::"1580"></date>
 11	–	-	PUNCT	:	_	12	punct	12:punct	SpaceAfter=No
 12	1660	1660	NUM	CD	NumForm=Digit|NumType=Card	10	nmod	10:nmod	Entity=(27-time-new-cf17-1-sgl)25)|SpaceAfter=No|XML=<date when:::"1660"></date></w>
 13	)	)	PUNCT	-RRB-	_	10	punct	10:punct	_
-14	Xishan	Xishan	PROPN	NNP	Number=Sing	50	nsubj:outer	50:nsubj:outer	Discourse=same-unit_m:14->12:1|Entity=(28-object-new-cf1-1,2-coref|XML=<hi rend:::"italic">
+14	Xishan	Xishan	PROPN	NNP	Number=Sing	50	obl	50:obl:according_to	Discourse=same-unit_m:14->12:1|Entity=(28-object-new-cf1-1,2-coref|XML=<hi rend:::"italic">
 15	Qinkuang	Qinkuang	PROPN	NNP	Number=Sing	14	flat	14:flat	Entity=28)|XML=</hi>
 16	谿山	谿山	X	FW	_	14	appos	14:appos	Entity=(29-object-new-cf18-1,2-sgl|SpaceAfter=No|XML=<w>
 17	琴况	琴况	X	FW	_	16	flat	16:flat	Entity=29)|XML=</w>
@@ -473,7 +473,7 @@
 17	role	role	NOUN	NN	Number=Sing	14	obj	14:obj	_
 18	in	in	ADP	IN	_	20	case	20:case	_
 19	contemporary	contemporary	ADJ	JJ	Degree=Pos	20	amod	20:amod	Entity=(90-abstract-new-cf5-2,4-sgl(91-abstract-new-cf6-2-sgl
-20	aesthetics	aesthetics	NOUN	NN	Number=Sing	14	obl	14:obl:in	Entity=91)
+20	aesthetics	aesthetics	NOUN	NN	Number=Sing	14	obl	14:obl:in|35:nsubj	Entity=91)
 21	and	and	CCONJ	CC	_	22	cc	22:cc	_
 22	philosophy	philosophy	NOUN	NN	Number=Sing	20	conj	14:obl:in|20:conj:and	Entity=(92-abstract-new-cf7-3-sgl
 23	of	of	ADP	IN	_	24	case	24:case	_
@@ -485,10 +485,10 @@
 29	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	31:aux	_
 30	been	be	AUX	VBN	Tense=Past|VerbForm=Part	31	aux:pass	31:aux:pass	_
 31	updated	update	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	acl:relcl	20:acl:relcl	_
-32	to	to	ADP	IN	_	34	case	34:case	_
-33	“	''	PUNCT	``	_	34	punct	34:punct	SpaceAfter=No|XML=<q>
-34	what	what	PRON	WP	PronType=Int	35	nsubj	35:nsubj	Entity=(95-abstract-new-cf9-2-sgl
-35	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	obl	31:obl	_
+32	to	to	SCONJ	IN	_	35	mark	35:mark	_
+33	“	''	PUNCT	``	_	35	punct	35:punct	SpaceAfter=No|XML=<q>
+34	what	what	PRON	WP	PronType=Int	35	nsubj	20:ref	Entity=(95-abstract-new-cf9-2-sgl
+35	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	31:advcl:to	_
 36	an	a	DET	DT	Definite=Ind|PronType=Art	37	det	37:det	Entity=(65-abstract-giv:act-cf1-2-coref
 37	artwork	artwork	NOUN	NN	Number=Sing	35	obj	35:obj|38:nsubj:xsubj|40:nsubj:xsubj	Entity=65)
 38	meaningful	meaningful	ADJ	JJ	Degree=Pos	35	xcomp	35:xcomp	_
@@ -945,7 +945,7 @@
 4	“	''	PUNCT	``	_	8	punct	8:punct	SpaceAfter=No|XML=<quote>
 5	beauty	beauty	NOUN	NN	Number=Sing	8	nsubj	8:nsubj|17:nsubj	Entity=(6-abstract-giv:act-cf2*-1-coref)
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
-7	no	no	DET	DT	Polarity=Neg|PronType=Art	8	det	8:det	Entity=(167-abstract-new-cf5-2,11,31-sgl
+7	no	no	DET	DT	Polarity=Neg|PronType=Neg	8	det	8:det	Entity=(167-abstract-new-cf5-2,11,31-sgl
 8	quality	quality	NOUN	NN	Number=Sing	2	ccomp	2:ccomp	_
 9	in	in	ADP	IN	_	10	case	10:case	_
 10	things	thing	NOUN	NNS	Number=Plur	8	nmod	8:nmod:in	Entity=(168-abstract-new-cf1-1-coref
@@ -1205,7 +1205,7 @@
 2	“	''	PUNCT	``	_	1	punct	1:punct	SpaceAfter=No|XML=<quote>
 3	Beauty	beauty	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=(6-abstract-giv:inact-cf1-1-coref)
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
-5	no	no	DET	DT	Polarity=Neg|PronType=Art	6	det	6:det	Entity=(213-abstract-new-cf11-2-sgl
+5	no	no	DET	DT	Polarity=Neg|PronType=Neg	6	det	6:det	Entity=(213-abstract-new-cf11-2-sgl
 6	quality	quality	NOUN	NN	Number=Sing	0	root	0:root	Entity=213)
 7	in	in	ADP	IN	_	8	case	8:case	_
 8	things	thing	NOUN	NNS	Number=Plur	6	nmod	6:nmod:in	Entity=(168-abstract-giv:inact-cf2-1-coref
@@ -1271,7 +1271,7 @@
 16	,	,	PUNCT	,	_	19	punct	19:punct	_
 17	as	as	SCONJ	IN	_	19	mark	19:mark	Discourse=mode-manner:111->110:0
 18	to	to	PART	TO	_	19	mark	19:mark	_
-19	pretend	pretend	VERB	VB	VerbForm=Inf	15	advcl	15:advcl:as_to	_
+19	pretend	pretend	VERB	VB	VerbForm=Inf	13	advcl	13:advcl:as_to	_
 20	to	to	PART	TO	_	21	mark	21:mark	_
 21	ascertain	ascertain	VERB	VB	VerbForm=Inf	19	xcomp	19:xcomp	_
 22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(223-abstract-new-cf3-3,6-sgl

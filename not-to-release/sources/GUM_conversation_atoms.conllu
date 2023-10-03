@@ -63,7 +63,8 @@
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(2-person-new-cf1-1-ana)
 4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 5	sure	sure	ADJ	JJ	Degree=Pos	0	root	0:root	_
-6	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	8	nsubj	8:nsubj	Discourse=adversative-concession:5->7:0|Entity=(1-person-giv:inact-cf2-1-ana)|SpaceAfter=No
+6-7	you're	_	_	_	_	_	_	_	_
+6	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	8	nsubj	8:nsubj	Discourse=adversative-concession:5->7:0|Entity=(1-person-giv:inact-cf2-1-ana)
 7	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
 8	wondering	wonder	VERB	VBG	Tense=Pres|VerbForm=Part	5	ccomp	5:ccomp	_
 9	about	about	ADP	IN	_	12	case	12:case	_
@@ -268,7 +269,7 @@
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=explanation-evidence:22->21:1|Entity=(6-substance-giv:inact-cf4-2-coref
 2	ice	ice	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	_
 3	here	here	ADV	RB	PronType=Dem	2	advmod	2:advmod	Entity=6)
-4	of	of	ADV	IN	_	7	advmod	7:advmod	_
+4	of	of	ADP	IN	_	7	advmod	7:advmod	_
 5	course	course	NOUN	NN	Number=Sing	4	fixed	4:fixed	_
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 7	water	water	NOUN	NN	Number=Sing	0	root	0:root	Entity=(14-substance-giv:act-cf2*-1-pred)|SpaceAfter=No
@@ -288,8 +289,8 @@
 21	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	23	aux	23:aux	_
 22	all	all	ADV	RB	Degree=Pos	23	advmod	23:advmod	_
 23	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	10	conj	10:conj:and	_
-24	water	water	NOUN	NN	Number=Sing	25	nsubj	25:nsubj	Entity=(14-substance-giv:act-cf2*-1-coref)
-25	boil	boil	VERB	VB	VerbForm=Inf	23	ccomp	23:ccomp	_
+24	water	water	NOUN	NN	Number=Sing	23	obj	23:obj|25:nsubj:xsubj	Entity=(14-substance-giv:act-cf2*-1-coref)
+25	boil	boil	VERB	VB	VerbForm=Inf	23	xcomp	23:xcomp	_
 26	at	at	ADP	IN	_	27	case	27:case	_
 27	home	home	NOUN	NN	Number=Sing	23	obl	23:obl:at	SpaceAfter=No
 28	,	,	PUNCT	,	_	32	punct	32:punct	_
@@ -318,7 +319,8 @@
 7	figure	figure	VERB	VB	VerbForm=Inf	5	xcomp	5:xcomp	_
 8	out	out	ADP	RP	_	7	compound:prt	7:compound:prt	_
 9	how	how	ADV	WRB	PronType=Rel	7	obj	7:obj	_
-10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	12:nsubj	Entity=(5-object-giv:inact-cf2-1-ana)|SpaceAfter=No
+10-11	they're	_	_	_	_	_	_	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	12:nsubj	Entity=(5-object-giv:inact-cf2-1-ana)
 11	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
 12	different	different	ADJ	JJ	Degree=Pos	9	advcl:relcl	9:advcl:relcl	SpaceAfter=No
 13	,	,	PUNCT	,	_	16	punct	16:punct	_
@@ -401,7 +403,7 @@
 18	this	this	DET	DT	Number=Sing|PronType=Dem	19	det	19:det	Entity=(10-substance-giv:inact-cf5-2-coref
 19	steam	steam	NOUN	NN	Number=Sing	16	nmod	16:nmod:of	Entity=10)20)|SpaceAfter=No
 20	,	,	PUNCT	,	_	16	punct	16:punct	_
-21	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	reparandum	24:reparandum	SpaceAfter=No
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	reparandum	24:reparandum	SpaceAfter=No
 22	,	,	PUNCT	,	_	21	punct	21:punct	_
 23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	24:nsubj	Discourse=attribution-positive:33->34:0|Entity=(2-person-giv:inact-cf3-1-ana)
 24	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	parataxis	13:parataxis	_
@@ -589,7 +591,7 @@
 # newpar
 # newpar_block = sp who:::"#Aud" whom:::"#Phil" (1 s)
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration-additional:45->43:1|Entity=(27-person-acc:com-cf1-1-sgl)
-2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_conversation_atoms-30
@@ -659,7 +661,7 @@
 # speaker = Phil
 # transition = zero
 # text = Of course we call it a sholids.
-1	Of	of	ADV	IN	_	4	advmod	4:advmod	Discourse=restatement-repetition_m:51->41:1
+1	Of	of	ADP	IN	_	4	advmod	4:advmod	Discourse=restatement-repetition_m:51->41:1
 2	course	course	NOUN	NN	Number=Sing	1	fixed	1:fixed	_
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(13-person-giv:inact-cf2-1-ana)
 4	call	call	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -783,7 +785,8 @@
 # text = You're not gonna let me finish, are you?
 # newpar
 # newpar_block = sp who:::"#Phil" whom:::"#Aud,#Many" (2 s)
-1	You	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	4	nsubj	4:nsubj|6:nsubj:xsubj|8:nsubj:xsubj	Discourse=evaluation-comment:61->60:0|Entity=(1-person-giv:inact-cf1-1-ana)|SpaceAfter=No
+1-2	You're	_	_	_	_	_	_	_	_
+1	You	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	4	nsubj	4:nsubj|6:nsubj:xsubj|8:nsubj:xsubj	Discourse=evaluation-comment:61->60:0|Entity=(1-person-giv:inact-cf1-1-ana)
 2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4-5	gonna	_	_	_	_	_	_	_	_
@@ -793,7 +796,7 @@
 7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	6:obj|8:nsubj:xsubj	Entity=(2-person-giv:inact-cf2-1-ana)
 8	finish	finish	VERB	VB	VerbForm=Inf	6	xcomp	6:xcomp	SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	10:punct	_
-10	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	parataxis	4:parataxis	Discourse=organization-phatic:62->61:0
+10	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	parataxis	4:parataxis	Discourse=organization-phatic:62->61:0
 11	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	10	nsubj	10:nsubj	Entity=(1-person-giv:act-cf1-1-ana)|SpaceAfter=No
 12	?	?	PUNCT	.	_	4	punct	4:punct	_
 
@@ -859,7 +862,7 @@
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(37-place-new-cf3-2-sgl
 14	bottom	bottom	NOUN	NN	Number=Sing	12	obj	12:obj	_
 15	of	of	ADP	IN	_	17	case	17:case	_
-16	whatever	whatever	DET	WDT	PronType=Int	17	det	17:det	Entity=(38-object-new-cf5-2-sgl
+16	whatever	whatever	DET	WDT	PronType=Rel	17	det	17:det	Entity=(38-object-new-cf5-2-sgl
 17	container	container	NOUN	NN	Number=Sing	14	nmod	14:nmod:of	_
 18	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	19	nsubj	19:nsubj	Discourse=elaboration-attribute:68->67:0|Entity=(1-person-giv:inact-cf2-1-ana)
 19	put	put	VERB	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	acl:relcl	17:acl:relcl	_
@@ -1163,15 +1166,15 @@
 12	let	let	VERB	VB	VerbForm=Inf	2	conj	2:conj:but	_
 13	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	12	obj	12:obj|14:nsubj:xsubj	Entity=(13-person-giv:inact-cf3-1-ana)
 14	see	see	VERB	VB	VerbForm=Inf	12	xcomp	12:xcomp	_
-15	how	how	ADV	WRB	PronType=Int	16	advmod	16:advmod	Discourse=topic-solutionhood:96->97:0
-16	many	many	ADJ	JJ	Degree=Pos	23	obj	23:obj	_
+15	how	how	ADV	WRB	PronType=Rel	16	advmod	16:advmod	Discourse=topic-solutionhood:96->97:0
+16	many	many	ADJ	JJ	Degree=Pos	14	obj	14:obj	_
 17	of	of	ADP	IN	_	19	case	19:case	_
 18	these	this	DET	DT	Number=Plur|PronType=Dem	19	det	19:det	Entity=(52-object-giv:act-cf2-2-coref
 19	balloons	balloon	NOUN	NNS	Number=Plur	16	nmod	16:nmod:of	Entity=52)|SpaceAfter=No
-20	,	,	PUNCT	,	_	16	punct	16:punct	_
+20	,	,	PUNCT	,	_	23	punct	23:punct	_
 21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	23:nsubj	Entity=(2-person-giv:act-cf1*-1-ana)
 22	can	can	AUX	MD	VerbForm=Fin	23	aux	23:aux	_
-23	fit	fit	VERB	VB	VerbForm=Inf	14	ccomp	14:ccomp	SpaceAfter=No
+23	fit	fit	VERB	VB	VerbForm=Inf	16	acl:relcl	16:acl:relcl	SpaceAfter=No
 24	,	,	PUNCT	,	_	25	punct	25:punct	_
 25	into	into	ADP	IN	_	31	case	31:case	_
 26	this	this	DET	DT	Number=Sing|PronType=Dem	31	det	31:det	Entity=(53-object-acc:com-cf4-6-coref
@@ -1206,7 +1209,7 @@
 # text = This would be ...
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=organization-phatic:98->105:0|Entity=(55-abstract-acc:com-cf1-1-ana)
 2	would	would	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
-3	be	be	VERB	VB	VerbForm=Inf	0	root	0:root	_
+3	be	be	AUX	VB	VerbForm=Inf	0	root	0:root	_
 4	...	…	PUNCT	:	_	3	punct	3:punct	_
 
 # sent_id = GUM_conversation_atoms-64
@@ -1301,7 +1304,7 @@
 8	folks	folk	NOUN	NNS	Number=Plur	3	vocative	3:vocative	Entity=(1-person-giv:inact-cf2-1-coref)|SpaceAfter=No
 9	,	,	PUNCT	,	_	11	punct	11:punct	_
 10	that	that	PRON	DT	Number=Sing|PronType=Dem	11	nsubj	11:nsubj	Discourse=topic-question:106->107:3|Entity=(58-abstract-acc:com-cf4-1-sgl)
-11	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	3:parataxis	SpaceAfter=No
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	3:parataxis	SpaceAfter=No
 12	?	?	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_conversation_atoms-69
@@ -1368,7 +1371,7 @@
 1	And	and	CCONJ	CC	_	4	cc	4:cc	Discourse=topic-question:111->112:2
 2	this	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Entity=(60-abstract-acc:com-cf1-1-sgl)
 3	would	would	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
-4	be	be	VERB	VB	VerbForm=Inf	0	root	0:root	_
+4	be	be	AUX	VB	VerbForm=Inf	0	root	0:root	_
 5	...	…	PUNCT	:	_	4	punct	4:punct	_
 
 # sent_id = GUM_conversation_atoms-74
@@ -1454,7 +1457,8 @@
 # text = Ah, they're not fitting in so easily.
 1	Ah	ah	INTJ	UH	_	6	discourse	6:discourse	Discourse=adversative-concession:118->120:0|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(61-object-giv:act-cf1*-1-ana)|SpaceAfter=No
+3-4	they're	_	_	_	_	_	_	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(61-object-giv:act-cf1*-1-ana)
 4	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 5	not	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	_
 6	fitting	fit	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
@@ -1508,7 +1512,7 @@
 4	at	at	ADP	IN	_	5	case	5:case	_
 5	what	what	PRON	WP	PronType=Rel	3	obl	3:obl:at	_
 6	this	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	7:nsubj	Entity=(55-abstract-giv:inact-cf1-1-ana)
-7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	SpaceAfter=No
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_conversation_atoms-84
@@ -1558,7 +1562,7 @@
 1	And	and	CCONJ	CC	_	4	cc	4:cc	Discourse=topic-question:125->126:3
 2	this	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Entity=(55-abstract-giv:inact-cf1-1-ana)
 3	would	would	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
-4	be	be	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
+4	be	be	AUX	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 5	?	?	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_conversation_atoms-88
@@ -1653,7 +1657,7 @@
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	this	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Entity=(65-object-acc:com-cf1-1-ana)
 5	would	would	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
-6	be	be	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
+6	be	be	AUX	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 7	?	?	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_conversation_atoms-95
@@ -1736,11 +1740,11 @@
 3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	2:iobj	Entity=(67-person-giv:act-cf2-1-ana)
 4	what	what	PRON	WP	PronType=Rel	2	obj	2:obj	_
 5	this	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Entity=(65-object-giv:act-cf1*-1-ana)
-6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	4:acl:relcl	SpaceAfter=No
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	4:acl:relcl	SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	9:punct	_
 8-9	it's	_	_	_	_	_	_	_	_
 8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	9:nsubj	Discourse=organization-preparation:140->141:0|Entity=(65-object-giv:act-cf1*-1-ana)
-9	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	_
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	_
 10	...	…	PUNCT	:	_	2	punct	2:punct	_
 
 # sent_id = GUM_conversation_atoms-101
@@ -1801,7 +1805,7 @@
 # text = This would be?
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=topic-question:144->145:4|Entity=(70-object-acc:com-cf1-1-ana)
 2	would	would	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
-3	be	be	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
+3	be	be	AUX	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 4	?	?	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_conversation_atoms-105
@@ -1917,7 +1921,7 @@
 1	And	and	CCONJ	CC	_	4	cc	4:cc	Discourse=topic-question:154->155:3
 2	this	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Entity=(71-object-acc:com-cf1-1-ana)
 3	would	would	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
-4	be	be	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
+4	be	be	AUX	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 5	?	?	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_conversation_atoms-115
@@ -1977,7 +1981,7 @@
 19	do	do	VERB	VB	VerbForm=Inf	17	xcomp	17:xcomp	_
 20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	19:obj	Entity=(54-event-giv:act-cf2-1-ana)
 21	in	in	ADP	IN	_	23	case	23:case	_
-22	another	another	DET	DT	PronType=Art	23	det	23:det	Entity=(73-abstract-new-cf4-2-sgl
+22	another	another	DET	DT	PronType=Ind	23	det	23:det	Entity=(73-abstract-new-cf4-2-sgl
 23	language	language	NOUN	NN	Number=Sing	19	obl	19:obl:in	Entity=73)|SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -1992,7 +1996,7 @@
 2	Spanish	Spanish	PROPN	NNP	Number=Sing	5	obl	5:obl:in	Entity=(74-abstract-new-cf2-1-coref-Spanish_language)
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(71-object-giv:inact-cf1-1-ana)
 4	would	would	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
-5	be	be	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
+5	be	be	AUX	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 6	?	?	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_conversation_atoms-119
@@ -2085,7 +2089,7 @@
 5	and	and	CCONJ	CC	_	8	cc	8:cc	_
 6	this	this	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	8:nsubj	Entity=(77-object-acc:com-cf1-1-ana)
 7	would	would	AUX	MD	VerbForm=Fin	8	aux	8:aux	_
-8	be	be	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
+8	be	be	AUX	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 9	?	?	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_conversation_atoms-126
@@ -2165,7 +2169,7 @@
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	this	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Entity=(78-object-acc:com-cf1-1-ana)
 5	would	would	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
-6	be	be	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
+6	be	be	AUX	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 7	?	?	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_conversation_atoms-133
@@ -2288,7 +2292,8 @@
 12	,	,	PUNCT	,	_	14	punct	14:punct	_
 13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	14:nsubj	Discourse=attribution-positive:187->189:1|Entity=(2-person-giv:act-cf1-1-ana)
 14	bet	bet	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	parataxis	10:parataxis	_
-15	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	17	nsubj	17:nsubj	Discourse=attribution-positive:188->189:0|Entity=(1-person-giv:inact-cf3-1-ana)|SpaceAfter=No
+15-16	you're	_	_	_	_	_	_	_	_
+15	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	17	nsubj	17:nsubj	Discourse=attribution-positive:188->189:0|Entity=(1-person-giv:inact-cf3-1-ana)
 16	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	aux	17:aux	_
 17	wondering	wonder	VERB	VBG	Tense=Pres|VerbForm=Part	14	ccomp	14:ccomp	_
 18	r-	r-	INTJ	UH	_	19	reparandum	19:reparandum	XML=<sic></sic>
@@ -2349,7 +2354,8 @@
 8	no	no	INTJ	UH	Polarity=Neg	19	discourse	19:discourse	Discourse=context-background:193->199:2|SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	8:punct	_
 10	if	if	SCONJ	IN	_	13	mark	13:mark	Discourse=attribution-positive:194->195:0
-11	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	13	nsubj	13:nsubj	Entity=(1-person-giv:inact-cf2-1-ana)|SpaceAfter=No
+11-12	you're	_	_	_	_	_	_	_	_
+11	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	13	nsubj	13:nsubj	Entity=(1-person-giv:inact-cf2-1-ana)
 12	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	aux	13:aux	_
 13	thinking	think	VERB	VBG	Tense=Pres|VerbForm=Part	19	advcl	19:advcl:if	_
 14-15	there's	_	_	_	_	_	_	_	_
@@ -2374,7 +2380,7 @@
 3-4	there's	_	_	_	_	_	_	_	_
 3	there	there	PRON	EX	PronType=Dem	4	expl	4:expl	_
 4	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-5	no	no	DET	DT	Polarity=Neg|PronType=Art	6	det	6:det	Entity=(85-object-new-cf1-2-sgl
+5	no	no	DET	DT	Polarity=Neg|PronType=Neg	6	det	6:det	Entity=(85-object-new-cf1-2-sgl
 6	hole	hole	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=85)
 7	in	in	ADP	IN	_	9	case	9:case	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(86-object-new-cf2-2-sgl
@@ -2431,7 +2437,8 @@
 7	duh	duh	INTJ	UH	_	12	discourse	12:discourse	_
 8	duh	duh	INTJ	UH	_	12	discourse	12:discourse	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	8:punct	_
-10	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	12	nsubj	12:nsubj	Entity=(88-person-new-cf1-1-ana)|SpaceAfter=No
+10-11	you're	_	_	_	_	_	_	_	_
+10	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	12	nsubj	12:nsubj	Entity=(88-person-new-cf1-1-ana)
 11	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	aux	12:aux	_
 12	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
 13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	_
