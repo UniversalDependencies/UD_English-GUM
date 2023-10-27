@@ -28,7 +28,7 @@
 # newpar
 # newpar_block = p (3 s)
 1	Salinity	salinity	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=context-background:2->43:5:_|Entity=(2-abstract-new-cf1-1-coref)
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
 3	one	one	NUM	CD	NumForm=Word|NumType=Card	0	root	0:root|12:nsubj	Entity=(2-abstract-giv:act-cf1-1-coref
 4	of	of	ADP	IN	_	9	case	9:case	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(3-abstract-new-cf3-5-sgl
@@ -74,7 +74,7 @@
 7	with	with	ADP	IN	_	8	case	8:case	_
 8	cruises	cruise	NOUN	NNS	Number=Plur	6	obl	6:obl:with	Entity=(13-event-new-cf7-1-sgl)|SpaceAfter=No
 9	,	,	PUNCT	,	_	2	punct	2:punct	_
-10	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
+10	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	11:aux	_
 11	accumulated	accumulate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	27	advcl	27:advcl:although	_
 12	large	large	ADJ	JJ	Degree=Pos	13	amod	13:amod	Entity=(14-abstract-new-cf3-2-sgl
 13	amount	amount	NOUN	NN	Number=Sing|Typo=Yes	11	obj	11:obj	CorrectForm=amounts|XML=<sic ana:::"amounts"></sic>
@@ -89,7 +89,7 @@
 22	regions	region	NOUN	NNS	Number=Plur	11	obl	11:obl:in	Entity=18)|SpaceAfter=No
 23	,	,	PUNCT	,	_	11	punct	11:punct	_
 24	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	expl	27:expl	Discourse=context-background:6->43:4:_|Entity=(19-abstract-new-cf1-1-cata)
-25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	27:cop	_
+25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	cop	27:cop	_
 26	still	still	ADV	RB	Degree=Pos	27	advmod	27:advmod	_
 27	difficult	difficult	ADJ	JJ	Degree=Pos	0	root	0:root	_
 28	to	to	PART	TO	_	29	mark	29:mark	Entity=(19-abstract-acc:com-cf1-2-coref
@@ -192,15 +192,15 @@
 75	observations	observation	NOUN	NNS	Number=Plur	79	nsubj	79:nsubj|80:nsubj:xsubj	Discourse=same-unit_m:22->7:3:_
 76	from	from	ADP	IN	_	77	case	77:case	_
 77	space	space	NOUN	NN	Number=Sing	75	nmod	75:nmod:from	Entity=(42-abstract-new-cf17-1-coref)38)
-78	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	79	aux	79:aux	_
+78	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	79	aux	79:aux	_
 79	become	become	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 80	possible	possible	ADJ	JJ	Degree=Pos	79	xcomp	79:xcomp	_
 81	and	and	CCONJ	CC	_	87	cc	87:cc	Discourse=joint-list_m:23->7:4:dm-and-159
 82	a	a	DET	DT	Definite=Ind|PronType=Art	84	det	84:det	Entity=(43-abstract-new-cf13-3-sgl
 83	significant	significant	ADJ	JJ	Degree=Pos	84	amod	84:amod	_
 84	improvement	improvement	NOUN	NN	Number=Sing	87	nsubj:pass	87:nsubj:pass	Entity=43)
-85	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	87	aux	87:aux	_
-86	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Pass	87	aux:pass	87:aux:pass	_
+85	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	87	aux	87:aux	_
+86	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Act	87	aux:pass	87:aux:pass	_
 87	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	79	conj	79:conj:and	_
 88	to	to	PART	TO	_	89	mark	89:mark	Discourse=purpose-goal:24->23:0:syn-nfn-166
 89	understand	understand	VERB	VB	VerbForm=Inf|Voice=Act	87	advcl	87:advcl:to	_
@@ -227,8 +227,8 @@
 6	sensing	sensing	NOUN	NN	Number=Sing	3	nmod	3:nmod:of	_
 7	of	of	ADP	IN	_	8	case	8:case	_
 8	SSS	SSS	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	Entity=(39-abstract-giv:act-cf1*-1-coref)48)47)|XML=<hi rend:::"italic"></hi>
-9	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
-10	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	aux:pass	11:aux:pass	_
+9	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	11:aux	_
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Act	11	aux:pass	11:aux:pass	_
 11	demonstrated	demonstrate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 12	in	in	ADP	IN	_	15	case	15:case	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(49-time-new-cf3-3-sgl|XML=<date notBefore:::"1976" notAfter:::"1979">
@@ -330,7 +330,7 @@
 7	L	L	PROPN	NNP	Number=Sing	9	compound	9:compound	SpaceAfter=No|XML=<w>
 8	-	-	PUNCT	:	_	7	punct	7:punct	SpaceAfter=No
 9	band	band	NOUN	NN	Number=Sing	11	nsubj:pass	11:nsubj:pass	Entity=55)|XML=</w>
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	11:aux:pass	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux:pass	11:aux:pass	_
 11	evidenced	evidence	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 12	as	as	ADP	IN	_	15	case	15:case	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(71-abstract-new-cf7-3,17,19,21-sgl
@@ -343,8 +343,8 @@
 20	SSS	SSS	NOUN	NN	Number=Sing	18	nmod	18:nmod:of	Entity=(39-abstract-giv:act-cf1*-1-coref)48)|SpaceAfter=No|XML=<hi rend:::"italic"></hi>
 21	,	,	PUNCT	,	_	25	punct	25:punct	_
 22	which	which	PRON	WDT	PronType=Rel	25	nsubj:pass	15:ref	Discourse=elaboration-attribute:36->35:0:syn-mdf-279+syn-rlt-286,289
-23	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	25:aux	_
-24	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Pass	25	aux:pass	25:aux:pass	_
+23	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	25:aux	_
+24	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Act	25	aux:pass	25:aux:pass	_
 25	adopted	adopt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	acl:relcl	15:acl:relcl	_
 26	by	by	ADP	IN	_	27	case	27:case	_
 27	SMOS	SMOS	PROPN	NNP	Number=Sing	25	obl:agent	25:obl:agent	Entity=(26-object-giv:inact-cf3-1-coref-Soil_Moisture_and_Ocean_Salinity)|SpaceAfter=No
@@ -372,7 +372,7 @@
 9	temperature	temperature	NOUN	NN	Number=Sing	4	nmod	4:nmod:of	Entity=73)
 10	to	to	ADP	IN	_	11	case	11:case	_
 11	SSS	SSS	NOUN	NN	Number=Sing	4	nmod	4:nmod:to	Entity=(39-abstract-giv:act-cf1*-1-coref)72)|XML=<hi rend:::"italic"></hi>
-12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	14:cop	_
 13	quite	quite	ADV	RB	_	14	advmod	14:advmod	_
 14	low	low	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
 15	.	.	PUNCT	.	_	14	punct	14:punct	_
@@ -395,7 +395,7 @@
 11	to	to	ADP	IN	_	13	case	13:case	_
 12	SSS	SSS	NOUN	NN	Number=Sing	13	compound	13:compound	Entity=(78-abstract-new-cf10-2-sgl(39-abstract-giv:act-cf5-1-coref)|XML=<hi rend:::"italic"></hi>
 13	variation	variation	NOUN	NN	Number=Sing	5	nmod	5:nmod:to	Entity=78)76)
-14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	18:cop	_
 15	0.4	0.4	NUM	CD	NumForm=Digit|NumType=Frac	18	nummod	18:nummod	Entity=(76-abstract-giv:act-cf1-4-pred
 16	to	to	ADP	IN	_	17	case	17:case	_
 17	0.8	0.8	NUM	CD	NumForm=Digit|NumType=Frac	15	nmod	15:nmod:to	_
@@ -414,7 +414,7 @@
 30	,	,	PUNCT	,	_	38	punct	38:punct	_
 31	and	and	CCONJ	CC	_	38	cc	38:cc	Discourse=joint-list_m:40->38:1:dm-and-344
 32	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	38	nsubj	38:nsubj	Bridge=76<82|Entity=(82-abstract-acc:inf-cf3-1-coref)
-33	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	38:cop	_
+33	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	38	cop	38:cop	_
 34	only	only	ADV	RB	_	38	advmod	38:advmod	Entity=(82-abstract-giv:act-cf3-5-pred
 35	0.2	0.2	NUM	CD	NumForm=Digit|NumType=Frac	38	nummod	38:nummod	_
 36	to	to	ADP	IN	_	37	case	37:case	_
@@ -456,7 +456,7 @@
 # transition = rough-shift
 # text = It is widely accepted that the corrections of the sea surface and atmospheric effects are essential for remote sensing of SSS, since these effects could alter the value of sensor-measured brightness temperature and introduce errors into the SSS retrieval process.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	4:expl	Discourse=ROOT:43:0|Entity=(88-abstract-new-cf8-1-cata)
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	4:aux:pass	_
 3	widely	widely	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
 4	accepted	accept	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 5	that	that	SCONJ	IN	_	16	mark	16:mark	Entity=(88-abstract-acc:com-cf8-12-coref
@@ -469,7 +469,7 @@
 12	and	and	CCONJ	CC	_	13	cc	13:cc	_
 13	atmospheric	atmospheric	ADJ	JJ	Degree=Pos	11	conj	11:conj:and|14:amod	_
 14	effects	effect	NOUN	NNS	Number=Plur	7	nmod	7:nmod:of	Entity=90)89)
-15	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	16:cop	_
+15	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	16:cop	_
 16	essential	essential	ADJ	JJ	Degree=Pos	4	csubj:pass	4:csubj:pass	_
 17	for	for	ADP	IN	_	19	case	19:case	_
 18	remote	remote	ADJ	JJ	Degree=Pos	19	amod	19:amod	Entity=(48-abstract-giv:act-cf2*-2-coref
@@ -525,7 +525,7 @@
 18	and	and	CCONJ	CC	_	20	cc	20:cc	_
 19	foam	foam	NOUN	NN	Number=Sing	20	compound	20:compound	Entity=(100-abstract-new-cf10-2-sgl(101-substance-new-cf13-1-coref)
 20	effects	effect	NOUN	NNS	Number=Plur	17	conj	7:nmod:due_to|17:conj:and	Entity=100)97)
-21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	24:cop	_
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	cop	24:cop	_
 22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(97-abstract-giv:act-cf1-3-coref
 23	main	main	ADJ	JJ	Degree=Pos	24	amod	24:amod	_
 24	source	source	NOUN	NN	Number=Sing	0	root	0:root|31:nsubj	_
@@ -563,7 +563,7 @@
 10	surface	surface	NOUN	NN	Number=Sing	12	compound	12:compound	Entity=40)
 11	roughness	roughness	NOUN	NN	Number=Sing	12	compound	12:compound	Entity=99)
 12	effects	effect	NOUN	NNS	Number=Plur	7	nmod	7:nmod:for	Entity=107)106)
-13	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|Typo=Yes|VerbForm=Fin	14	aux:pass	14:aux:pass	CorrectForm=was|XML=<sic ana:::"was"></sic>
+13	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|Typo=Yes|VerbForm=Fin|Voice=Act	14	aux:pass	14:aux:pass	CorrectForm=was|XML=<sic ana:::"was"></sic>
 14	studied	study	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 15	based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	advcl	14:advcl	Discourse=mode-means:50->49:0:syn-pst_-473+lex-ltr-473-474
 16	on	on	ADP	IN	_	23	case	23:case	_
@@ -647,9 +647,9 @@
 3	surface	surface	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=130)
 4	emission	emission	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=129)
 5	models	model	NOUN	NNS	Number=Plur	9	nsubj:pass	9:nsubj:pass	Entity=128)
-6	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
+6	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
 7	also	also	ADV	RB	_	9	advmod	9:advmod	_
-8	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	aux:pass	9:aux:pass	_
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Act	9	aux:pass	9:aux:pass	_
 9	developed	develop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 10	based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	advcl	9:advcl	Discourse=mode-means:66->65:0:syn-pst_-553+lex-ltr-553-554
 11	on	on	ADP	IN	_	16	case	16:case	_
@@ -716,8 +716,8 @@
 49	,	,	PUNCT	,	_	50	punct	50:punct	SpaceAfter=No
 50	26	26	NUM	CD	NumForm=Digit|NumType=Card	48	conj	46:dep|48:conj	Entity=(147-abstract-new-cf17-1-sgl)|SpaceAfter=No|XML=<ref></ref>
 51	]	]	PUNCT	-RRB-	_	48	punct	48:punct	XML=</w>
-52	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	55	aux	55:aux|61:aux	Discourse=same-unit_m:75->67:2:_
-53	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Pass	55	aux:pass	55:aux:pass|61:aux:pass	_
+52	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	55	aux	55:aux|61:aux	Discourse=same-unit_m:75->67:2:_
+53	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Act	55	aux:pass	55:aux:pass|61:aux:pass	_
 54	widely	widely	ADV	RB	Degree=Pos	55	advmod	55:advmod	_
 55	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 56	by	by	ADP	IN	_	59	case	59:case	_
@@ -725,7 +725,7 @@
 58	research	research	NOUN	NN	Number=Sing	59	compound	59:compound	_
 59	community	community	NOUN	NN	Number=Sing	55	obl:agent	55:obl:agent	Entity=148)
 60	and	and	CCONJ	CC	_	61	cc	61:cc	Discourse=joint-list_m:76->67:3:dm-and-620
-61	implemented	implement	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	55	conj	55:conj:and	_
+61	implemented	implement	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	55	conj	55:conj:and	_
 62	in	in	ADP	IN	_	67	case	67:case	_
 63	different	different	ADJ	JJ	Degree=Pos	67	amod	67:amod	Entity=(149-abstract-new-cf8-5-sgl
 64	satellite	satellite	NOUN	NN	Number=Sing	65	compound	65:compound	Entity=(150-abstract-new-cf20-3-sgl(151-abstract-new-cf21-2-sgl(152-object-new-cf22-1-sgl)
@@ -743,7 +743,7 @@
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(153-abstract-new-cf1-3-coref
 3	foam	foam	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(101-substance-giv:inact-cf3-1-coref)
 4	effect	effect	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=153)
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 6	significant	significant	ADJ	JJ	Degree=Pos	31	advcl	31:advcl:as	_
 7	at	at	ADP	IN	_	11	case	11:case	_
 8	high	high	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(154-abstract-new-cf8-4-sgl(155-abstract-new-cf19-3-sgl
@@ -767,8 +767,8 @@
 26	breaking	breaking	NOUN	NN	Number=Sing	6	obl	6:obl:due_to	Entity=159)|SpaceAfter=No
 27	,	,	PUNCT	,	_	6	punct	6:punct	_
 28	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	nsubj:pass	31:nsubj:pass	Discourse=joint-other_m:80->43:2:grf-smc-663|Entity=(153-abstract-giv:act-cf1-1-ana)
-29	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	31:aux	_
-30	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Pass	31	aux:pass	31:aux:pass	_
+29	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	aux	31:aux	_
+30	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Act	31	aux:pass	31:aux:pass	_
 31	corrected	correct	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 32	by	by	ADP	IN	_	34	case	34:case	_
 33	numerous	numerous	ADJ	JJ	Degree=Pos	34	amod	34:amod	Entity=(161-abstract-new-cf13-2-sgl
@@ -801,7 +801,7 @@
 60	]	]	PUNCT	-RRB-	_	57	punct	57:punct	SpaceAfter=No|XML=</w>
 61	,	,	PUNCT	,	_	64	punct	64:punct	_
 62	which	which	PRON	WDT	PronType=Rel	64	nsubj:pass	55:ref	Discourse=elaboration-attribute:87->81:3:syn-mdf-683+syn-rlt-690,692
-63	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	64	aux:pass	64:aux:pass	_
+63	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	64	aux:pass	64:aux:pass	_
 64	developed	develop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	55	acl:relcl	55:acl:relcl	_
 65	to	to	PART	TO	_	66	mark	66:mark	Discourse=purpose-goal:88->87:0:syn-nfn-693
 66	estimate	estimate	VERB	VB	VerbForm=Inf|Voice=Act	64	advcl	64:advcl:to	_
@@ -824,13 +824,13 @@
 4	and	and	CCONJ	CC	_	5	cc	5:cc	_
 5	empirical	empirical	ADJ	JJ	Degree=Pos	3	conj	3:conj:and|6:amod	_
 6	models	model	NOUN	NNS	Number=Plur	9	nsubj:pass	9:nsubj:pass	Entity=172)
-7	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
-8	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	aux:pass	9:aux:pass	_
+7	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Act	9	aux:pass	9:aux:pass	_
 9	developed	develop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	advcl	15:advcl:although	SpaceAfter=No
 10	,	,	PUNCT	,	_	9	punct	9:punct	_
 11	some	some	DET	DT	PronType=Ind	12	det	12:det	Discourse=organization-preparation:90->96:3:_|Entity=(173-abstract-new-cf2-2-sgl
 12	problems	problem	NOUN	NNS	Number=Plur	15	nsubj	15:nsubj	Entity=173)
-13	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	_
+13	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	15:cop	_
 14	still	still	ADV	RB	Degree=Pos	15	advmod	15:advmod	_
 15	unsolved	unsolved	ADJ	JJ	Degree=Pos|Polarity=Neg	0	root	0:root	SpaceAfter=No
 16	.	.	PUNCT	.	_	15	punct	15:punct	_
@@ -880,13 +880,13 @@
 4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	5:det	Entity=(178-abstract-giv:act-cf1*-2-coref
 5	modification	modification	NOUN	NN	Number=Sing	8	nsubj:pass	8:nsubj:pass	Entity=178)
 6	can	can	AUX	MD	VerbForm=Fin	8	aux	8:aux	_
-7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	8:aux:pass	_
+7	be	be	AUX	VB	VerbForm=Inf|Voice=Act	8	aux:pass	8:aux:pass	_
 8	applied	apply	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	csubj	15:csubj	_
 9	to	to	ADP	IN	_	12	case	12:case	_
 10	L	L	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=(55-abstract-giv:inact-cf2-3-coref-L_band|SpaceAfter=No|XML=<w>
 11	-	-	PUNCT	HYPH	_	10	punct	10:punct	SpaceAfter=No
 12	band	band	NOUN	NN	Number=Sing	8	obl	8:obl:to	Entity=55)|XML=</w>
-13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	15:cop	_
 14	still	still	ADV	RB	Degree=Pos	15	advmod	15:advmod	_
 15	unclear	unclear	ADJ	JJ	Degree=Pos|Polarity=Neg	0	root	0:root	SpaceAfter=No
 16	,	,	PUNCT	,	_	24	punct	24:punct	_
@@ -896,12 +896,12 @@
 20	of	of	ADP	IN	_	22	case	22:case	_
 21	cutoff	cutoff	NOUN	NN	Number=Sing	22	compound	22:compound	Entity=(181-abstract-new-cf4-2-coref(182-abstract-new-cf5-1-coref)
 22	wavenumber	wavenumber	NOUN	NN	Number=Sing	19	nmod	19:nmod:of	Entity=181)180)
-23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	24:cop	_
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	cop	24:cop	_
 24	arbitrary	arbitrary	ADJ	JJ	Degree=Pos	15	conj	15:conj:and	_
 25	and	and	CCONJ	CC	_	26	cc	26:cc	Discourse=joint-list_m:98->97:0:dm-and-770
 26	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	conj	15:conj|24:conj:and	_
 27	to	to	PART	TO	_	29	mark	29:mark	_
-28	be	be	AUX	VB	VerbForm=Inf	29	aux:pass	29:aux:pass	_
+28	be	be	AUX	VB	VerbForm=Inf|Voice=Act	29	aux:pass	29:aux:pass	_
 29	clarified	clarify	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	26	xcomp	26:xcomp	_
 30	in	in	ADP	IN	_	34	case	34:case	_
 31	the	the	DET	DT	Definite=Def|PronType=Art	34	det	34:det	Entity=(55-abstract-giv:act-cf2-4-coref-L_band
@@ -925,7 +925,7 @@
 8	downwelling	downwell	VERB	VBG	VerbForm=Ger|Voice=Act	10	amod	10:amod	Entity=(184-abstract-new-cf9-3-sgl
 9	atmospheric	atmospheric	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
 10	emission	emission	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	Entity=184)183)
-11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	13:cop	_
 12	another	another	DET	DT	PronType=Ind	13	det	13:det	Entity=(183-abstract-giv:act-cf2-2-pred
 13	contribution	contribution	NOUN	NN	Number=Sing	0	root	0:root	_
 14	to	to	ADP	IN	_	19	case	19:case	_
@@ -945,7 +945,7 @@
 28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(181-abstract-giv:act-cf1*-3-coref
 29	cutoff	cutoff	NOUN	NN	Number=Sing	30	compound	30:compound	Entity=(182-abstract-giv:act-cf3-1-coref)
 30	wavenumber	wavenumber	NOUN	NN	Number=Sing	26	nmod	26:nmod:of	Entity=181)187)
-31	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux:pass	32:aux:pass	_
+31	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	aux:pass	32:aux:pass	_
 32	required	require	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	parataxis	13:parataxis	_
 33	not	not	PART	RB	Polarity=Neg	38	advmod	38:advmod	_
 34	only	only	ADV	RB	_	38	advmod	38:advmod	_
@@ -988,7 +988,7 @@
 22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(188-abstract-giv:act-cf1*-3-coref
 23	surface	surface	NOUN	NN	Number=Sing	24	compound	24:compound	Entity=(40-place-giv:act-cf2-1-coref)
 24	emission	emission	NOUN	NN	Number=Sing	32	nsubj	32:nsubj|39:nsubj	Entity=188)
-25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	32:cop	_
+25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	cop	32:cop	_
 26	due	due	ADJ	JJ	Degree=Pos	32	case	32:case	_
 27	to	to	ADP	IN	_	26	fixed	26:fixed	_
 28	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	32:det	Entity=(192-place-new-cf9-5-sgl
@@ -1016,7 +1016,7 @@
 4	roughened	roughen	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	amod	6:amod	XML=</w>
 5	sea	sea	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=(41-place-giv:act-cf3-1-coref)
 6	surface	surface	NOUN	NN	Number=Sing	8	nsubj:pass	8:nsubj:pass	Entity=193)
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	8:aux:pass	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux:pass	8:aux:pass	_
 8	associated	associate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 9	with	with	ADP	IN	_	13	case	13:case	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(194-abstract-new-cf8-4-sgl
@@ -1058,7 +1058,7 @@
 5	measurements	measurement	NOUN	NNS	Number=Plur	9	nsubj:pass	9:nsubj:pass	_
 6	of	of	ADP	IN	_	7	case	7:case	_
 7	SSS	SSS	NOUN	NN	Number=Sing	5	nmod	5:nmod:of	Entity=(39-abstract-giv:inact-cf3-1-coref)199)|XML=<hi rend:::"italic"></hi>
-8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	9:aux:pass	_
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	9:aux:pass	_
 9	hampered	hamper	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 10	by	by	ADP	IN	_	12	case	12:case	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(200-abstract-new-cf6-2-sgl
@@ -1097,7 +1097,7 @@
 44	of	of	ADP	IN	_	45	case	45:case	_
 45	data	datum	NOUN	NNS	Number=Plur	43	nmod	43:nmod:of	Entity=(209-abstract-new-cf12-1-sgl)208)
 46	to	to	PART	TO	_	48	mark	48:mark	_
-47	be	be	AUX	VB	VerbForm=Inf	48	aux:pass	48:aux:pass	_
+47	be	be	AUX	VB	VerbForm=Inf|Voice=Act	48	aux:pass	48:aux:pass	_
 48	discarded	discard	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	40	xcomp	40:xcomp	_
 49	[	[	PUNCT	-LRB-	_	50	punct	50:punct	Discourse=explanation-evidence:116->111:4:grf-prn-947,949|SpaceAfter=No
 50	33	33	NUM	CD	NumForm=Digit|NumType=Card	9	dep	9:dep	Entity=(210-abstract-new-cf13-1-sgl)|SpaceAfter=No|XML=<ref></ref>
@@ -1123,7 +1123,7 @@
 12	China	China	PROPN	NNP	Number=Sing	10	nmod	10:nmod:of	Entity=(204-place-giv:act-cf1*-1-coref-China)212)211)
 13	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 14	to	to	PART	TO	_	16	mark	16:mark	_
-15	be	be	AUX	VB	VerbForm=Inf	16	aux:pass	16:aux:pass|18:aux:pass	_
+15	be	be	AUX	VB	VerbForm=Inf|Voice=Act	16	aux:pass	16:aux:pass|18:aux:pass	_
 16	assessed	assess	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	xcomp	13:xcomp	_
 17	and	and	CCONJ	CC	_	18	cc	18:cc	_
 18	tested	test	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	conj	13:xcomp|16:conj:and	_

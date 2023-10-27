@@ -30,7 +30,7 @@
 1	Steven	Steven	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj|6:nsubj:xsubj	Discourse=ROOT:2:0|Entity=(2-abstract-new-cf3-2-disc(3-person-new-cf1-1-coref)
 2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	to	to	PART	TO	_	6	mark	6:mark	_
-4	be	be	AUX	VB	VerbForm=Inf	6	cop	6:cop	_
+4	be	be	AUX	VB	VerbForm=Inf|Voice=Act	6	cop	6:cop	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(4-person-new-cf2-2-sgl
 6	dentist	dentist	NOUN	NN	Number=Sing	2	xcomp	2:xcomp	Entity=4)2)|SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -41,7 +41,7 @@
 # transition = establishment
 # text = It was pretty much the first thing he told us when, as first years, we were all bunched together in the unfamiliar dusty classroom.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	Discourse=explanation-evidence:3->2:0:_|Entity=(2-abstract-giv:act-cf3-1-coref)
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
 3	pretty	pretty	ADV	RB	_	4	advmod	4:advmod	_
 4	much	much	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(2-abstract-giv:act-cf3-3-coref
@@ -57,7 +57,7 @@
 15	years	year	NOUN	NNS	Number=Plur	20	obl	20:obl:as	Entity=6)|SpaceAfter=No
 16	,	,	PUNCT	,	_	15	punct	15:punct	_
 17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj:pass	20:nsubj:pass	Entity=(5-person-giv:act-cf2-1-ana)
-18	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	20	aux:pass	20:aux:pass	_
+18	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	20	aux:pass	20:aux:pass	_
 19	all	all	ADV	RB	Degree=Pos	20	advmod	20:advmod	_
 20	bunched	bunch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	advcl	9:advcl:when	_
 21	together	together	ADV	RB	Degree=Pos	20	advmod	20:advmod	_
@@ -81,7 +81,7 @@
 6	weeks	week	NOUN	NNS	Number=Plur	4	nmod	4:nmod:of	_
 7	later	late	ADV	RBR	Degree=Cmp	10	advmod	10:advmod	Entity=8)
 8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj:pass	10:nsubj:pass	Entity=(5-person-giv:act-cf1*-1-ana)
-9	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	10	aux:pass	10:aux:pass	_
+9	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	10:aux:pass	_
 10	invited	invite	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	advcl	16:advcl:when	_
 11	over	over	ADP	RP	_	10	compound:prt	10:compound:prt	_
 12	to	to	ADP	IN	_	14	case	14:case	_
@@ -91,7 +91,7 @@
 16	saw	see	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 17	that	that	SCONJ	IN	_	23	mark	23:mark	Discourse=evaluation-comment:8->3:2:_
 18	this	this	PRON	DT	Number=Sing|PronType=Dem	23	nsubj	23:nsubj	Entity=(2-abstract-giv:act-cf2-1-ana)
-19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	23:cop	_
+19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	23	cop	23:cop	_
 20	not	not	PART	RB	Polarity=Neg	23	advmod	23:advmod	_
 21	an	a	DET	DT	Definite=Ind|PronType=Art	23	det	23:det	Entity=(2-abstract-giv:act-cf2-3-coref
 22	idle	idle	ADJ	JJ	Degree=Pos	23	amod	23:amod	_
@@ -109,7 +109,7 @@
 2	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(10-object-new-cf3-3-sgl(5-person-giv:act-cf1*-1-ana)
 3	bedroom	bedroom	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(11-place-new-cf16-1-sgl)
 4	walls	wall	NOUN	NNS	Number=Plur	6	nsubj:pass	6:nsubj:pass	Entity=10)
-5	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	6:aux:pass	_
+5	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	6:aux:pass	_
 6	decorated	decorate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	advcl	16:advcl:where	_
 7	with	with	ADP	IN	_	8	case	8:case	_
 8	posters	poster	NOUN	NNS	Number=Plur	6	obl	6:obl:with	Entity=(12-object-new-cf9-1-sgl
@@ -194,7 +194,7 @@
 # text = The instruments were locked away in glass cabinets and only his parents had the key.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-list_m:16->9:1:_|Entity=(35-object-new-cf3-2-coref
 2	instruments	instrument	NOUN	NNS	Number=Plur	4	nsubj:pass	4:nsubj:pass	Entity=35)
-3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	4:aux:pass	_
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	4:aux:pass	_
 4	locked	lock	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 5	away	away	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
 6	in	in	ADP	IN	_	8	case	8:case	_
@@ -220,7 +220,7 @@
 1	“	''	PUNCT	``	_	6	punct	6:punct	Discourse=context-background:18->16:1:ref-prs-146-147,153,158|SpaceAfter=No|XML=<sp who:::"#Steven">
 2	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(38-person-giv:act-cf1*-1-ana)
 3-4	don’t	_	_	_	_	_	_	_	_
-3	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
+3	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
 4	n’t	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	_
 5	exactly	exactly	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
 6	encourage	encourage	VERB	VB	VerbForm=Inf|Voice=Act	12	ccomp	12:ccomp	_
@@ -259,7 +259,7 @@
 3	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4-5	they’re	_	_	_	_	_	_	_	_
 4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	7:nsubj|13:nsubj	Discourse=causal-cause:22->16:2:_|Entity=(35-object-giv:inact-cf1-1-ana)
-5	’re	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
+5	’re	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(35-object-giv:act-cf1-2-pred
 7	sort	sort	NOUN	NN	Number=Sing	3	ccomp	3:ccomp	_
 8	of	of	ADP	IN	_	9	case	9:case	_
@@ -318,7 +318,7 @@
 # newpar_block = p (4 s)
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=evaluation-comment:28->2:1:lex-indwd-225|Entity=(5-person-giv:act-cf1*-1-ana)
 2-3	didn’t	_	_	_	_	_	_	_	_
-2	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	aux	4:aux	_
+2	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
 3	n’t	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	see	see	VERB	VB	VerbForm=Inf|Voice=Act	0	root	0:root	_
 5-6	Steven’s	_	_	_	_	_	_	_	_
@@ -371,11 +371,11 @@
 # text = DIY Dentistry was just something that had never crossed our horizon before.
 1	DIY	DIY	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=explanation-justify:35->28:1:_|Entity=(50-abstract-new-cf2-2-coref
 2	Dentistry	dentistry	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=50)
-3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 4	just	just	ADV	RB	_	5	advmod	5:advmod	_
 5	something	something	PRON	NN	Number=Sing|PronType=Ind	0	root	0:root|9:nsubj	Entity=(50-abstract-giv:act-cf2-1-pred
 6	that	that	PRON	WDT	PronType=Rel	9	nsubj	5:ref	Discourse=elaboration-attribute:36->35:0:syn-mdf-260+syn-rlt-261,264
-7	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	9:aux	_
+7	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
 8	never	never	ADV	RB	Polarity=Neg	9	advmod	9:advmod	_
 9	crossed	cross	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	5	acl:relcl	5:acl:relcl	_
 10	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(51-abstract-new-cf3-2-sgl(5-person-giv:act-cf1*-1-ana)
@@ -392,7 +392,7 @@
 2	if	if	SCONJ	IN	_	6	mark	6:mark	Discourse=explanation-justify:38->41:0:_;contingency-condition38->41:1:0:orp-if-270
 3	Steven	Steven	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Entity=(3-person-giv:inact-cf4-1-coref)
 4-5	didn’t	_	_	_	_	_	_	_	_
-4	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	6:aux	_
+4	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
 5	n’t	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	_
 6	see	see	VERB	VB	VerbForm=Inf|Voice=Act	41	advcl	41:advcl:if	_
 7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	6:obj	Entity=(50-abstract-giv:act-cf1*-1-ana)
@@ -450,7 +450,7 @@
 8	way	way	NOUN	NN	Number=Sing	14	obl	14:obl:in	Entity=59)|SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	8:punct	_
 10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	14:nsubj	Entity=(5-person-giv:act-cf1*-1-ana)
-11	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	14	cop	14:cop	_
+11	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	14:cop	_
 12	all	all	ADV	RB	Degree=Pos	14	advmod	14:advmod	_
 13	collectively	collectively	ADV	RB	Degree=Pos	14	advmod	14:advmod	_
 14	strange	strange	ADJ	JJ	Degree=Pos	2	ccomp	2:ccomp	SpaceAfter=No
@@ -477,7 +477,7 @@
 14	,	,	PUNCT	,	_	19	punct	19:punct	_
 15	and	and	CCONJ	CC	_	19	cc	19:cc	Discourse=elaboration-additional:45->43:1:sem-synym-317,327-339+syn-rlt-329
 16	that	that	PRON	DT	Number=Sing|PronType=Dem	19	nsubj	19:nsubj	Entity=(60-abstract-giv:act-cf1-1-coref)
-17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	19:cop	_
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	cop	19:cop	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(60-abstract-giv:act-cf1-2-coref
 19	glue	glue	NOUN	NN	Number=Sing	2	conj	2:conj:and|21:nsubj	_
 20	that	that	PRON	WDT	PronType=Rel	21	nsubj	19:ref	Discourse=elaboration-attribute:46->45:0:syn-mdf-345+syn-rlt-346-347
@@ -523,7 +523,7 @@
 30	but	but	CCONJ	CC	_	36	cc	36:cc	Discourse=restatement-partial:51->48:0:sem-rpt-363-364,373-374+ref-prs-363,373
 31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	32:det	Entity=(71-abstract-new-cf7-2-sgl
 32	result	result	NOUN	NN	Number=Sing	36	nsubj	36:nsubj	Entity=71)
-33	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	cop	36:cop	_
+33	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	36	cop	36:cop	_
 34	often	often	ADV	RB	Degree=Pos	36	advmod	36:advmod	_
 35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	36:det	Entity=(72-abstract-acc:com-cf6-2-sgl
 36	same	same	ADJ	JJ	Degree=Pos	24	conj	24:conj:but	Entity=72)|SpaceAfter=No
@@ -666,7 +666,7 @@
 # newpar
 # newpar_block = p (2 s)
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=attribution-positive:66->69:0:sem-atsrc-495-497+lex-indwd-499+lex-indwd-511|Entity=(91-event-new-cf5-1-cata)
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	3:cop	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
 3	inevitable	inevitable	ADJ	JJ	Degree=Pos	0	root	0:root	_
 4	that	that	SCONJ	IN	_	21	mark	21:mark	Entity=(91-event-acc:com-cf5-18-coref
 5	one	one	NUM	CD	NumForm=Word|NumType=Card	21	nsubj	21:nsubj	Entity=(92-person-new-cf6-1-sgl
@@ -689,7 +689,7 @@
 21	ask	ask	VERB	VB	VerbForm=Inf|Voice=Act	3	csubj	3:csubj	_
 22	how	how	ADV	WRB	PronType=Rel	21	obj	21:obj	Discourse=elaboration-additional:69->65:0:_
 23	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj:pass	25:nsubj:pass	Entity=(30-object-giv:act-cf1-1-ana)
-24	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	25	aux:pass	25:aux:pass	_
+24	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	25	aux:pass	25:aux:pass	_
 25	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	advcl:relcl	22:advcl:relcl	Entity=91)|SpaceAfter=No
 26	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -699,7 +699,7 @@
 # transition = rough-shift
 # text = It was just as inevitable that a few minutes later, Steven would be mixing up various powders and liquids, and pouring them into a horse-shoe shaped contraption.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	5:expl	Discourse=joint-sequence_m:70->69:1:dm-later-526|Entity=(95-event-new-cf3-1-cata)
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 3	just	just	ADV	RB	_	5	advmod	5:advmod	_
 4	as	as	ADV	RB	_	5	advmod	5:advmod	_
 5	inevitable	inevitable	ADJ	JJ	Degree=Pos	0	root	0:root	_
@@ -711,7 +711,7 @@
 11	,	,	PUNCT	,	_	10	punct	10:punct	_
 12	Steven	Steven	PROPN	NNP	Number=Sing	15	nsubj	15:nsubj|23:nsubj	Entity=(3-person-giv:act-cf2*-1-coref)
 13	would	would	AUX	MD	VerbForm=Fin	15	aux	15:aux|23:aux	_
-14	be	be	AUX	VB	VerbForm=Inf	15	aux	15:aux|23:aux	_
+14	be	be	AUX	VB	VerbForm=Inf|Voice=Act	15	aux	15:aux|23:aux	_
 15	mixing	mix	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	5	csubj	5:csubj	_
 16	up	up	ADP	RP	_	15	compound:prt	15:compound:prt	_
 17	various	various	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(97-substance-new-cf1-2,4-coref
@@ -740,7 +740,7 @@
 # newpar_block = p (4 s)
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=evaluation-comment:72->69:2:_|Entity=(86-event-giv:inact-cf1-1-coref)
 2-3	wasn’t	_	_	_	_	_	_	_	_
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
 3	n’t	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	dangerous	dangerous	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	4:punct	_
@@ -764,7 +764,7 @@
 # transition = null
 # text = It was vaguely uncomfortable, and appeared sufficiently disturbing that we all volunteered each other in turn until, at last, Andy said he was game.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj|7:nsubj|9:nsubj:xsubj	Discourse=joint-list_m:74->72:1:_|Entity=(86-event-giv:inact-cf3-1-ana)
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
 3	vaguely	vaguely	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
 4	uncomfortable	uncomfortable	ADJ	JJ	Degree=Pos|Polarity=Neg	0	root	0:root	SpaceAfter=No
 5	,	,	PUNCT	,	_	7	punct	7:punct	_
@@ -788,7 +788,7 @@
 23	Andy	Andy	PROPN	NNP	Number=Sing	24	nsubj	24:nsubj	Entity=(52-person-giv:inact-cf1-1-coref)
 24	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	advcl	13:advcl:until	_
 25	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	27:nsubj	Discourse=context-circumstance:78->76:0:dm-until-578|Entity=(52-person-giv:act-cf1-1-ana)
-26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	cop	27:cop	_
+26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	27	cop	27:cop	_
 27	game	game	ADJ	JJ	Degree=Pos	24	ccomp	24:ccomp	SpaceAfter=No
 28	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -799,7 +799,7 @@
 # text = And we were off.
 1	And	and	CCONJ	CC	_	4	cc	4:cc	Discourse=organization-preparation:79->80:3:_
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(5-person-giv:act-cf1*-1-ana)
-3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
 4	off	off	ADV	RB	Degree=Pos	0	root	0:root	SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -813,7 +813,7 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint-sequence_m:80->69:3:dm-and-589|Entity=(100-abstract-new-cf4-3-sgl
 2	hardest	hard	ADJ	JJS	Degree=Sup	3	amod	3:amod	_
 3	part	part	NOUN	NN	Number=Sing	7	nsubj:outer	7:nsubj:outer	Entity=100)
-4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
 5	probably	probably	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
 6	to	to	PART	TO	_	7	mark	7:mark	_
 7	overcome	overcome	VERB	VB	VerbForm=Inf|Voice=Act	0	root	0:root	_
@@ -861,7 +861,7 @@
 5	what	what	PRON	WP	PronType=Rel	3	obl	3:obl:with	_
 6	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	7:nsubj	Entity=(68-person-giv:act-cf1*-1-ana)
 7	imagined	imagine	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	5:acl:relcl	_
-8	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	cop	9:cop	_
+8	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
 9	fumes	fume	NOUN	NNS	Number=Plur	7	ccomp	7:ccomp	Entity=(107-substance-new-cf4-1-sgl
 10	from	from	ADP	IN	_	13	case	13:case	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(102-substance-giv:act-cf2-3-coref
@@ -878,7 +878,7 @@
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj|7:nsubj:pass:xsubj	Entity=(68-person-giv:act-cf1*-1-ana)
 3	seemed	seem	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	to	to	PART	TO	_	7	mark	7:mark	_
-5	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	7:aux:pass	_
+5	be	be	AUX	VB	VerbForm=Inf|Voice=Act	7	aux:pass	7:aux:pass	_
 6	suddenly	suddenly	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
 7	drowning	drown	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Pass	3	xcomp	3:xcomp	_
 8	in	in	ADP	IN	_	11	case	11:case	_
@@ -986,7 +986,7 @@
 6	gums	gum	NOUN	NNS	Number=Plur	3	nmod	3:nmod:around	Entity=120)
 7	and	and	CCONJ	CC	_	8	cc	8:cc	_
 8	teeth	tooth	NOUN	NNS	Number=Plur	6	conj	3:nmod:around|6:conj:and	Entity=(67-object-giv:inact-cf3-1-coref)119)118)
-9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	11:cop	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
 10	pretty	pretty	ADV	RB	_	11	advmod	11:advmod	_
 11	solid	solid	ADJ	JJ	Degree=Pos	14	advcl	14:advcl:as	SpaceAfter=No
 12	,	,	PUNCT	,	_	11	punct	11:punct	_
@@ -1141,7 +1141,7 @@
 4	of	of	ADP	IN	_	6	case	6:case	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(141-event-new-cf2-2-sgl
 6	proceedings	proceeding	NOUN	NNS	Number=Plur	3	nmod	3:nmod:of	Entity=141)140)
-7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	9:cop	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
 8	less	less	ADV	RBR	Degree=Cmp	9	advmod	9:advmod	_
 9	thrilling	thrilling	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
 10	.	.	PUNCT	.	_	9	punct	9:punct	_
@@ -1252,7 +1252,7 @@
 # transition = continue
 # text = We were all perfectly happy with the result, even wanting one as a trophy until Steven passed an expert eye over them, pointing out here a gap, here a filling, and there a completely misaligned incisor.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	Discourse=evaluation-comment:126->121:1:lex-indwd-937|Entity=(5-person-giv:act-cf1*-1-ana)
-2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 3	all	all	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 4	perfectly	perfectly	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 5	happy	happy	ADJ	JJ	Degree=Pos	0	root	0:root	_
@@ -1299,7 +1299,7 @@
 # transition = continue
 # text = We were, he told us, mediocre specimens for his collection.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	9:nsubj	Discourse=evaluation-comment:130->128:1:_|Entity=(158-abstract-new-cf5-9-disc(5-person-giv:act-cf1*-1-ana)
-2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	9	cop	9:cop	SpaceAfter=No
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	9:cop	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=attribution-positive:131->130:0:sem-atsrc-977+lex-indwd-978|Entity=(3-person-giv:act-cf2-1-ana)
 5	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	discourse	9:discourse	_
@@ -1321,7 +1321,7 @@
 # newpar_block = p (2 s)
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=evaluation-comment:133->130:2:lex-indwd-990|Entity=(158-abstract-giv:act-cf1*-1-coref)
 2-3	didn’t	_	_	_	_	_	_	_	_
-2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	4:aux	_
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
 3	n’t	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	matter	matter	VERB	VB	VerbForm=Inf|Voice=Act	0	root	0:root	SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	4:punct	_
@@ -1332,7 +1332,7 @@
 # transition = zero
 # text = We were all friends, a group bonded by the common experience of being able to see our teeth on Steven’s shelf.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=explanation-justify:134->133:0:_|Entity=(5-person-giv:inact-cf1-1-ana)
-2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
 3	all	all	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
 4	friends	friend	NOUN	NNS	Number=Plur	0	root	0:root	Entity=(5-person-giv:act-cf1-1-pred)|SpaceAfter=No
 5	,	,	PUNCT	,	_	7	punct	7:punct	_
@@ -1344,7 +1344,7 @@
 11	common	common	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
 12	experience	experience	NOUN	NN	Number=Sing	8	obl:agent	8:obl:agent	_
 13	of	of	SCONJ	IN	_	15	mark	15:mark	Discourse=elaboration-attribute:135->134:0:syn-mdf-1003+syn-nmn-1004,1006
-14	being	be	AUX	VBG	VerbForm=Ger	15	cop	15:cop	_
+14	being	be	AUX	VBG	VerbForm=Ger|Voice=Act	15	cop	15:cop	_
 15	able	able	ADJ	JJ	Degree=Pos	12	acl	12:acl:of	_
 16	to	to	PART	TO	_	17	mark	17:mark	_
 17	see	see	VERB	VB	VerbForm=Inf|Voice=Act	15	xcomp	15:xcomp	_

@@ -19,13 +19,13 @@
 # newpar_block = p (4 s)
 1	When	when	ADV	WRB	PronType=Int	5	advmod	5:advmod	Discourse=context-circumstance:1->2:0:dm-when-1
 2	Tyler	Tyler	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(1-person-new-cf3-1-coref)
-3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 4	very	very	ADV	RB	_	5	advmod	5:advmod	_
 5	young	young	ADJ	JJ	Degree=Pos	12	advcl	12:advcl:when	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	5:punct	_
 7	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Discourse=context-background:2->18:2:sem-rpt-2,146+ref-prs-7-8,141+lex-indwd-27;adversative-antithesis2->28:6:2:orp-however-213|Entity=(2-person-new-cf1-2-coref(1-person-giv:act-cf3-1-ana)
 8	grandmother	grandmother	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=2)
-9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	12:cop	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
 10	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(2-person-giv:act-cf1-3-coref(1-person-giv:act-cf3-1-ana)
 11	favorite	favorite	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
 12	person	person	NOUN	NN	Number=Sing	0	root	0:root	Entity=2)
@@ -44,7 +44,7 @@
 25	children	child	NOUN	NNS	Number=Plur	29	nsubj:pass	29:nsubj:pass	Entity=(5-person-new-cf8-1-sgl)
 26	should	should	AUX	MD	VerbForm=Fin	29	aux	29:aux	_
 27	always	always	ADV	RB	_	29	advmod	29:advmod	_
-28	be	be	AUX	VB	VerbForm=Inf	29	aux:pass	29:aux:pass	_
+28	be	be	AUX	VB	VerbForm=Inf|Voice=Act	29	aux:pass	29:aux:pass	_
 29	told	tell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	ccomp	23:ccomp	_
 30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	31:det	Entity=(6-abstract-new-cf2-2-coref
 31	truth	truth	NOUN	NN	Number=Sing	29	obj	29:obj	Entity=6)
@@ -80,7 +80,7 @@
 # text = His parents were always too busy and often a little too serious, but his grandmother had a sense of peace about her, a lightness that lifted his spirit.
 1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=elaboration-additional:8->2:2:ref-prs-2,56+sem-rpt-7-8,70-71+sem-rpt-19-35,56-57+lex-indwd-60+lex-indwd-66+syn-rlt-82|Entity=(4-person-giv:act-cf3-2-coref(1-person-giv:act-cf1*-1-ana)
 2	parents	parent	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj|12:nsubj	Entity=4)
-3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 4	always	always	ADV	RB	_	6	advmod	6:advmod	_
 5	too	too	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
 6	busy	busy	ADJ	JJ	Degree=Pos	0	root	0:root	_
@@ -124,7 +124,7 @@
 6	Tyler	Tyler	PROPN	NNP	Number=Sing	8	nmod:poss	8:nmod:poss	Entity=(4-person-giv:act-cf3-3-coref(1-person-giv:act-cf2-1-coref
 7	’s	's	PART	POS	_	6	case	6:case	Entity=1)
 8	parents	parent	NOUN	NNS	Number=Plur	10	nsubj	10:nsubj	Entity=4)
-9	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	cop	10:cop	_
+9	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
 10	away	away	ADV	RB	Degree=Pos	13	advcl	13:advcl:when	SpaceAfter=No
 11	,	,	PUNCT	,	_	10	punct	10:punct	_
 12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	Discourse=same-unit_m:12->10:0:_|Entity=(2-person-giv:act-cf1*-1-ana)
@@ -253,8 +253,8 @@
 23	young	young	ADJ	JJ	Degree=Pos	24	amod	24:amod	_
 24	child	child	NOUN	NN	Number=Sing	18	obl	18:obl:as	Entity=1)26)
 25	must	must	AUX	MD	VerbForm=Fin	28	aux	28:aux	Discourse=same-unit_m:27->25:1:_
-26	have	have	AUX	VB	VerbForm=Inf	28	aux	28:aux	_
-27	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Pass	28	aux	28:aux	_
+26	have	have	AUX	VB	VerbForm=Inf|Voice=Act	28	aux	28:aux	_
+27	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Act	28	aux	28:aux	_
 28	lacking	lack	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	13	ccomp	13:ccomp	_
 29	in	in	ADP	IN	_	30	case	30:case	_
 30	strength	strength	NOUN	NN	Number=Sing	28	obl	28:obl:in	Entity=(32-abstract-new-cf7-1-sgl)
@@ -279,7 +279,7 @@
 8	however	however	ADV	RB	_	12	advmod	12:advmod	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	8:punct	_
 10	Tyler	Tyler	PROPN	NNP	Number=Sing	12	nsubj:pass	12:nsubj:pass	Entity=(1-person-giv:act-cf2-1-coref)
-11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	12:aux:pass	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	12:aux:pass	_
 12	tortured	torture	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 13	by	by	ADP	IN	_	15	case	15:case	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(36-abstract-new-cf3-2-coref
@@ -298,14 +298,14 @@
 # transition = smooth-shift
 # text = He was five or so, and they were playing some board game at the kitchen table.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=context-background:29->30:0:_|Entity=(1-person-giv:act-cf1*-1-ana)
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	3:cop	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
 3	five	five	NUM	CD	NumForm=Word|NumType=Card	0	root	0:root	Entity=(38-abstract-new-cf5-1-sgl)
 4	or	or	CCONJ	CC	_	5	cc	5:cc	_
 5	so	so	ADV	RB	_	3	conj	3:conj:or	SpaceAfter=No
 6	,	,	PUNCT	,	_	10	punct	10:punct	_
 7	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=context-circumstance:30->32:1:_;joint-other30->29:0:0:orp-and-234
 8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	10:nsubj	Entity=(39-person-acc:aggr-cf2-1-sgl)|SplitAnte=2<39,1<39
-9	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux	10:aux	_
+9	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
 10	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	3	conj	3:conj:and	_
 11	some	some	DET	DT	PronType=Ind	13	det	13:det	Entity=(40-abstract-new-cf4-3-sgl
 12	board	board	NOUN	NN	Number=Sing	13	compound	13:compound	_
@@ -376,7 +376,7 @@
 12	if	if	SCONJ	IN	_	16	mark	16:mark	Discourse=contingency-condition:38->37:0:dm-if-286
 13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	16:nsubj	Entity=(1-person-giv:act-cf2-1-ana)
 14-15	didn’t	_	_	_	_	_	_	_	_
-14	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	16:aux	_
+14	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	aux	16:aux	_
 15	n’t	not	PART	RB	Polarity=Neg	16	advmod	16:advmod	_
 16	stop	stop	VERB	VB	VerbForm=Inf|Voice=Act	10	advcl	10:advcl:if	_
 17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	18:nsubj	Discourse=causal-cause:39->40:2:_|Entity=(1-person-giv:act-cf2-1-ana)
@@ -449,7 +449,7 @@
 # text = His parents did not have much use for religion and so for him Hell was a word without much mystery or power.
 1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=context-background:45->46:1:ref-prs-338,350;causal-cause45->45:0:1:orp-and-347+orp-so-348|Entity=(4-person-giv:inact-cf3-2-coref(1-person-giv:act-cf1*-1-ana)
 2	parents	parent	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=4)
-3	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	5:aux	_
+3	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
 4	not	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
 5	have	have	VERB	VB	VerbForm=Inf|Voice=Act	0	root	0:root	_
 6	much	much	ADJ	JJ	Degree=Pos	7	amod	7:amod	Entity=(52-abstract-new-cf4-2-sgl
@@ -461,7 +461,7 @@
 12	for	for	ADP	IN	_	13	case	13:case	_
 13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nmod	17:nmod:for	Entity=(1-person-giv:act-cf1*-1-ana)
 14	Hell	Hell	PROPN	NNP	Number=Sing	17	nsubj	17:nsubj	Entity=(54-abstract-new-cf2-1-coref)|XML=<hi rend:::"italic"></hi>
-15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	17:cop	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	17:cop	_
 16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(54-abstract-giv:act-cf2-2-pred
 17	word	word	NOUN	NN	Number=Sing	5	conj	5:conj:and	_
 18	without	without	ADP	IN	_	20	case	20:case	Discourse=elaboration-attribute:47->46:0:_
@@ -485,11 +485,11 @@
 7	vaguely	vaguely	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 8	that	that	SCONJ	IN	_	12	mark	12:mark	Discourse=elaboration-additional:49->46:2:ref-prs-338,364
 9	Hell	Hell	PROPN	NNP	Number=Sing	12	nsubj	12:nsubj	Entity=(46-place-giv:inact-cf2-1-coref-Hell)
-10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	12:cop	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(46-place-giv:act-cf2-2-coref-Hell
 12	place	place	NOUN	NN	Number=Sing	5	ccomp	5:ccomp	_
 13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	16	nsubj	16:nsubj|18:nsubj:xsubj	Discourse=elaboration-attribute:50->49:0:syn-mdf-372+syn-rlt-376|Entity=(58-person-acc:com-cf3-1-sgl)
-14	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	16	aux	16:aux	_
+14	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	16	aux	16:aux	_
 15	not	not	PART	RB	Polarity=Neg	16	advmod	16:advmod	_
 16	want	want	VERB	VB	VerbForm=Inf|Voice=Act	12	acl:relcl	12:acl:relcl	_
 17	to	to	PART	TO	_	18	mark	18:mark	_
@@ -517,11 +517,11 @@
 4	resentful	resentful	ADJ	JJ	Degree=Pos	3	xcomp	3:xcomp	_
 5	that	that	SCONJ	IN	_	8	mark	8:mark	_
 6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj	Entity=(2-person-giv:inact-cf2-1-ana)
-7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	8:aux	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
 8	crying	cry	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	4	ccomp	4:ccomp	_
 9	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=causal-cause:53->52:0:dm-and-398
 10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj	Entity=(1-person-giv:act-cf1*-1-ana)
-11	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	14:aux	_
+11	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
 12	not	not	PART	RB	Polarity=Neg	14	advmod	14:advmod	_
 13	even	even	ADV	RB	_	14	advmod	14:advmod	_
 14	understand	understand	VERB	VB	VerbForm=Inf|Voice=Act	8	conj	4:ccomp|8:conj:and	_
@@ -576,7 +576,7 @@
 20	possibility	possibility	NOUN	NN	Number=Sing	14	conj	8:nmod:about|14:conj:and	_
 21	that	that	SCONJ	IN	_	31	mark	31:mark	Discourse=elaboration-attribute:56->55:0:syn-mdf-438+syn-nmn-439,449
 22	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	31:nsubj	Entity=(1-person-giv:act-cf1*-1-ana)
-23	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	cop	31:cop	SpaceAfter=No
+23	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	31	cop	31:cop	SpaceAfter=No
 24	,	,	PUNCT	,	_	23	punct	23:punct	_
 25	in	in	ADP	IN	_	26	case	26:case	_
 26	reality	reality	NOUN	NN	Number=Sing	31	obl	31:obl:in	SpaceAfter=No
@@ -596,7 +596,7 @@
 2	fact	fact	NOUN	NN	Number=Sing	19	nsubj	19:nsubj	_
 3	that	that	SCONJ	IN	_	6	mark	6:mark	Discourse=elaboration-attribute:58->57:0:syn-mdf-452+syn-nmn-453,456
 4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(1-person-giv:act-cf1*-1-ana)
-5	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	6:aux	_
+5	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
 6	caused	cause	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	2	acl	2:acl:that	_
 7	someone	someone	PRON	NN	Number=Sing|PronType=Ind	6	iobj	6:iobj|9:nsubj	Entity=(2-person-giv:inact-cf2-1-coref
 8	who	who	PRON	WP	PronType=Rel	9	nsubj	7:ref	Discourse=elaboration-attribute:59->58:0:syn-mdf-457+syn-rlt-458-459
@@ -636,7 +636,7 @@
 12	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=context-circumstance:62->65:2:_
 13	in	in	ADP	IN	_	14	case	14:case	_
 14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	conj	4:conj:and	Entity=(71-object-giv:act-cf2-1-ana)
-15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	14:cop	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	14:cop	_
 16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(74-object-new-cf5-2-sgl
 17	picture	picture	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	_
 18	of	of	ADP	IN	_	20	case	20:case	_
@@ -658,7 +658,7 @@
 # transition = continue
 # text = He was surprised to discover that the small kitchen contained a central island, and had no space for the table in his memory at all.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	3:nsubj:pass|5:nsubj:xsubj	Discourse=causal-cause:64->65:1:dm-and-516|Entity=(1-person-giv:act-cf1*-1-ana)
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	3:aux:pass	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	3:aux:pass	_
 3	surprised	surprise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 4	to	to	PART	TO	_	5	mark	5:mark	Entity=(76-event-new-cf8-2-disc
 5	discover	discover	VERB	VB	VerbForm=Inf|Voice=Act	3	xcomp	3:xcomp	_
@@ -730,13 +730,13 @@
 13	and	and	CCONJ	CC	_	27	cc	27:cc	Discourse=adversative-contrast_m:68->67:0:dm-and-558
 14	when	when	ADV	WRB	PronType=Int	17	advmod	17:advmod	Discourse=contingency-condition:69->70:0:dm-when-559
 15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	17:nsubj	Entity=(72-person-giv:act-cf2-1-ana)
-16	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	aux	17:aux	_
+16	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	aux	17:aux	_
 17	play	play	VERB	VB	VerbForm=Inf|Voice=Act	27	advcl	27:advcl:when	Entity=(84-event-new-cf3-1-disc
 18	board	board	NOUN	NN	Number=Sing	19	compound	19:compound	Entity=(85-abstract-new-cf6-2-sgl
 19	games	game	NOUN	NNS	Number=Plur	17	obj	17:obj	Entity=85)84)|SpaceAfter=No
 20	,	,	PUNCT	,	_	17	punct	17:punct	_
 21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nsubj	27:nsubj	Discourse=same-unit_m:70->68:0:_|Entity=(84-event-giv:act-cf3-1-coref)
-22	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	cop	27:cop	_
+22	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	27	cop	27:cop	_
 23	always	always	ADV	RB	_	27	advmod	27:advmod	_
 24	on	on	ADP	IN	_	27	case	27:case	_
 25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(86-object-new-cf7-3-sgl
@@ -756,7 +756,7 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=explanation-justify:71->74:0:_|Entity=(36-abstract-giv:inact-cf2-2-coref
 2	memory	memory	NOUN	NN	Number=Sing	16	nsubj	5:nsubj|16:nsubj	_
 3	that	that	PRON	WDT	PronType=Rel	5	nsubj	2:ref	Discourse=elaboration-attribute:72->71:0:syn-mdf-579+syn-rlt-580,582
-4	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	5:aux	_
+4	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
 5	caused	cause	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	2	acl:relcl	2:acl:relcl	_
 6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	5:iobj	Entity=(1-person-giv:act-cf1*-1-ana)
 7	such	such	ADJ	JJ	Degree=Pos	8	amod	8:amod	Entity=(88-abstract-new-cf4-2-sgl
@@ -767,7 +767,7 @@
 12	could	could	AUX	MD	VerbForm=Fin	16	aux	16:aux	Discourse=same-unit_m:73->71:1:_
 13	not	not	PART	RB	Polarity=Neg	16	advmod	16:advmod	_
 14	possibly	possibly	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
-15	have	have	AUX	VB	VerbForm=Inf	16	aux	16:aux	_
+15	have	have	AUX	VB	VerbForm=Inf|Voice=Act	16	aux	16:aux	_
 16	occurred	occur	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
 17	.	.	PUNCT	.	_	16	punct	16:punct	_
 
@@ -780,7 +780,7 @@
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(1-person-giv:act-cf1*-1-ana)
 4	must	must	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
-5	have	have	AUX	VB	VerbForm=Inf	6	aux	6:aux	_
+5	have	have	AUX	VB	VerbForm=Inf|Voice=Act	6	aux	6:aux	_
 6	manufactured	manufacture	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(36-abstract-giv:act-cf2-3-coref
 8	whole	whole	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
@@ -798,7 +798,7 @@
 # newpar
 # newpar_block = p (5 s)
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	5:expl	Discourse=organization-preparation:75->78:4:ref-prs-619,639|Entity=(90-abstract-new-cf2-1-cata)
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 3	not	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
 4	very	very	ADV	RB	_	5	advmod	5:advmod	_
 5	hard	hard	ADJ	JJ	Degree=Pos	0	root	0:root	_
@@ -822,7 +822,7 @@
 3	of	of	ADP	IN	_	5	case	5:case	_
 4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(2-person-giv:inact-cf3-2-coref(1-person-giv:act-cf1*-1-ana)
 5	grandmother	grandmother	NOUN	NN	Number=Sing	2	nmod	2:nmod:of	Entity=2)35)
-6	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	8:aux	_
+6	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
 7	probably	probably	ADV	RB	Degree=Pos	8	advmod	8:advmod	_
 8	caused	cause	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 9	in	in	ADP	IN	_	10	case	10:case	_
@@ -843,13 +843,13 @@
 2	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(94-abstract-new-cf4-2-sgl(1-person-giv:act-cf1*-1-ana)
 3	confusion	confusion	NOUN	NN	Number=Sing	6	obl	6:obl:in	Entity=94)
 4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj|11:nsubj	Entity=(1-person-giv:act-cf1*-1-ana)
-5	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	6:aux|11:aux	_
+5	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	6:aux|11:aux	_
 6	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 7	elements	element	NOUN	NNS	Number=Plur	6	obj	6:obj	Entity=(95-abstract-new-cf3-1-sgl)
 8	from	from	ADP	IN	_	9	case	9:case	_
 9	storybooks	storybook	NOUN	NNS	Number=Plur	6	obl	6:obl:from	Entity=(96-abstract-new-cf5-1-sgl)
 10	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=joint-list_m:79->78:0:dm-and-647
-11	imagined	imagine	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	conj	6:conj:and	_
+11	imagined	imagine	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	6	conj	6:conj:and	_
 12	out	out	ADP	IN	_	14	case	14:case	_
 13	of	of	ADP	IN	_	12	fixed	12:fixed	_
 14	nothing	nothing	PRON	NN	Number=Sing|Polarity=Neg|PronType=Neg	11	obl	11:obl:out_of	_
@@ -866,14 +866,14 @@
 # transition = smooth-shift
 # text = This was the sort of fantasy that could have occurred to any young child who lost an important relative.
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Discourse=explanation-justify:81->78:3:_|Entity=(36-abstract-giv:act-cf1*-1-ana)
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(36-abstract-giv:act-cf1*-2-coref
 4	sort	sort	NOUN	NN	Number=Sing	0	root	0:root	_
 5	of	of	ADP	IN	_	6	case	6:case	_
 6	fantasy	fantasy	NOUN	NN	Number=Sing	4	nmod	4:nmod:of|10:nsubj	_
 7	that	that	PRON	WDT	PronType=Rel	10	nsubj	6:ref	Discourse=elaboration-attribute:82->81:0:syn-mdf-663+syn-rlt-664,667
 8	could	could	AUX	MD	VerbForm=Fin	10	aux	10:aux	_
-9	have	have	AUX	VB	VerbForm=Inf	10	aux	10:aux	_
+9	have	have	AUX	VB	VerbForm=Inf|Voice=Act	10	aux	10:aux	_
 10	occurred	occur	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	6	acl:relcl	6:acl:relcl	_
 11	to	to	ADP	IN	_	14	case	14:case	_
 12	any	any	DET	DT	PronType=Ind	14	det	14:det	Entity=(97-person-new-cf3-3-sgl
@@ -923,11 +923,11 @@
 1	Tyler	Tyler	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=attribution-positive:88->89:1:sem-atsrc-699+lex-indwd-700|Entity=(1-person-giv:act-cf1*-1-coref)
 2	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj|9:nsubj:xsubj	Discourse=evaluation-comment:89->74:3:lex-indwd-703+lex-indwd-704+lex-indwd-713|Entity=(1-person-giv:act-cf1*-1-ana)
-4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 5	very	very	ADV	RB	_	6	advmod	6:advmod	_
 6	lucky	lucky	ADJ	JJ	Degree=Pos	2	ccomp	2:ccomp	_
 7	to	to	PART	TO	_	9	mark	9:mark	Entity=(76-event-giv:act-cf3-3-disc
-8	have	have	AUX	VB	VerbForm=Inf	9	aux	9:aux	_
+8	have	have	AUX	VB	VerbForm=Inf|Voice=Act	9	aux	9:aux	_
 9	discovered	discover	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	6	xcomp	6:xcomp|19:csubj	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(77-abstract-giv:inact-cf4-3-coref
 11	single	single	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
@@ -961,7 +961,7 @@
 2	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	that	that	SCONJ	IN	_	12	mark	12:mark	Discourse=joint-list_m:92->89:2:_
 4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Entity=(76-event-giv:act-cf2-1-coref)
-5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	12:cop	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
 6	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(76-event-giv:act-cf2-7-coref
 7	coming	coming	NOUN	NN	Number=Sing	12	compound	12:compound	SpaceAfter=No|XML=<w>
 8	-	-	PUNCT	HYPH	_	9	punct	9:punct	SpaceAfter=No
@@ -986,7 +986,7 @@
 6	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obl	4:obl:to	Entity=(1-person-giv:act-cf1*-1-ana)
 7	that	that	SCONJ	IN	_	12	mark	12:mark	Discourse=same-unit_m:95->93:0:_
 8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Entity=(1-person-giv:act-cf1*-1-ana)
-9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	12:cop	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
 10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	_
 11	little	little	ADJ	JJ	Degree=Pos	12	obl:npmod	12:obl:npmod	_
 12	sad	sad	ADJ	JJ	Degree=Pos	4	ccomp	4:ccomp	_
@@ -1006,10 +1006,10 @@
 3	imaginary	imaginary	ADJ	JJ	Degree=Pos	12	advcl	12:advcl:for	_
 4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	5:det	Entity=(99-abstract-giv:inact-cf1-2-coref
 5	memory	memory	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=99)
-6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	3:cop	SpaceAfter=No
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	3:cop	SpaceAfter=No
 7	,	,	PUNCT	,	_	3	punct	3:punct	_
 8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Discourse=same-unit_m:98->96:0:_;joint-list98->97:0:0:orp-also-769|Entity=(99-abstract-giv:act-cf1-1-ana)
-9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	12:cop	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
 10	also	also	ADV	RB	_	12	advmod	12:advmod	_
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(99-abstract-giv:act-cf1-2-pred
 12	part	part	NOUN	NN	Number=Sing	0	root	0:root	_
@@ -1037,7 +1037,7 @@
 9	truth	truth	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	Entity=(103-abstract-new-cf4-1-sgl)102)|SpaceAfter=No
 10	,	,	PUNCT	,	_	4	punct	4:punct	_
 11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj:outer	18:nsubj:outer	Discourse=elaboration-additional:100->96:1:ref-dmn-763-764,780-781+ref-prs-776-777,795|Entity=(99-abstract-giv:act-cf1*-1-ana)
-12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	18:cop	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	18	cop	18:cop	_
 13	like	like	SCONJ	IN	_	18	mark	18:mark	_
 14	another	another	DET	DT	PronType=Ind	15	det	15:det	_
 15	part	part	NOUN	NN	Number=Sing	18	nsubj	18:nsubj	_

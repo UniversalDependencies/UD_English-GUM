@@ -48,7 +48,7 @@
 7	,	,	PUNCT	,	_	3	punct	3:punct	_
 8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj|12:nsubj:xsubj	Entity=(6-abstract-acc:com-cf1-1-sgl)
 9	will	will	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
-10	be	be	AUX	VB	VerbForm=Inf	11	cop	11:cop	_
+10	be	be	AUX	VB	VerbForm=Inf|Voice=Act	11	cop	11:cop	_
 11	able	able	ADJ	JJ	Degree=Pos	0	root	0:root	_
 12	to	to	PART	TO	_	11	xcomp	11:xcomp	SpaceAfter=No
 13	:	:	PUNCT	:	_	11	punct	11:punct	_
@@ -71,7 +71,7 @@
 9	Abraham	Abraham	PROPN	NNP	Number=Sing	13	nsubj:pass	13:nsubj:pass	Entity=(9-person-new-cf2-1,2-sgl-Abraham_Lincoln
 10	Lincoln	Lincoln	PROPN	NNP	Number=Sing	9	flat	9:flat	Entity=9)
 11	would	would	AUX	MD	VerbForm=Fin	13	aux	13:aux	_
-12	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	13:aux:pass	_
+12	be	be	AUX	VB	VerbForm=Inf|Voice=Act	13	aux:pass	13:aux:pass	_
 13	reelected	reelect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	ccomp	7:ccomp	Entity=7)
 
 # sent_id = GUM_textbook_union-5
@@ -132,7 +132,7 @@
 12	,	,	PUNCT	,	_	9	punct	9:punct	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(1-place-giv:inact-cf1-2-coref-Union_%28American_Civil_War%29
 14	Union	Union	PROPN	NNP	Number=Sing	16	nsubj	16:nsubj	Entity=1)
-15	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	16:aux	_
+15	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	aux	16:aux	_
 16	mobilized	mobilize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 17	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	Entity=(18-abstract-new-cf3-2-sgl(1-place-giv:act-cf1-1-ana-Union_%28American_Civil_War%29)
 18	resources	resource	NOUN	NNS	Number=Plur	16	obj	16:obj	Entity=18)
@@ -153,7 +153,7 @@
 # text = The government had overseen the construction of new railroad lines and for the first time used standardized rail tracks that allowed the North to move men and materials with greater ease.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=1<20|Discourse=elaboration-additional:12->11:0:sem-synym-66-67,102-103+sem-lxchn-67,103+sem-mrnym-70,81-82|Entity=(20-organization-acc:inf-cf3-2-sgl
 2	government	government	NOUN	NN	Number=Sing	4	nsubj	4:nsubj|16:nsubj	Entity=20)
-3	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	4:aux	_
+3	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
 4	overseen	oversee	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(21-event-new-cf4-2-sgl
 6	construction	construction	NOUN	NN	Number=Sing	4	obj	4:obj	_
@@ -194,7 +194,7 @@
 2	North	North	PROPN	NNP	Number=Sing	4	nmod:poss	4:nmod:poss	_
 3	’s	's	PART	POS	_	2	case	2:case	Entity=1)
 4	economy	economy	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=29)
-5	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	6:aux	_
+5	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
 6	shifted	shift	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 7	to	to	ADP	IN	_	10	case	10:case	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(30-abstract-new-cf3-3-sgl
@@ -346,7 +346,7 @@
 11	great	great	ADJ	JJ	Degree=Pos	12	amod	12:amod	Entity=(51-abstract-new-cf3-2-sgl
 12	hope	hope	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=51)
 13	in	in	SCONJ	IN	_	15	mark	15:mark	_
-14	being	be	AUX	VBG	VerbForm=Ger	15	aux:pass	15:aux:pass|17:aux:pass	_
+14	being	be	AUX	VBG	VerbForm=Ger|Voice=Act	15	aux:pass	15:aux:pass|17:aux:pass	_
 15	recognized	recognize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	10:advcl:in	_
 16	and	and	CCONJ	CC	_	17	cc	17:cc	_
 17	supported	support	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	conj	10:advcl:in|15:conj:and	_
@@ -375,11 +375,11 @@
 11	but	but	CCONJ	CC	_	22	cc	22:cc	Discourse=adversative-contrast_m:30->29:0:dm-but-243
 12	when	when	ADV	WRB	PronType=Int	15	advmod	15:advmod	Discourse=context-circumstance:31->32:1:dm-when-244
 13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj	Entity=(54-event-giv:act-cf1-1-ana)
-14	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	15:aux	_
+14	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	aux	15:aux	_
 15	occur	occur	VERB	VB	VerbForm=Inf|Voice=Act	22	advcl	22:advcl:when	SpaceAfter=No
 16	,	,	PUNCT	,	_	15	punct	15:punct	_
 17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	22:nsubj	Discourse=same-unit_m:32->30:0:_|Entity=(54-event-giv:act-cf1-1-ana)
-18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	22:cop	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	22	cop	22:cop	_
 19	not	not	PART	RB	Polarity=Neg	22	advmod	22:advmod	_
 20	in	in	ADP	IN	_	22	case	22:case	_
 21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(56-abstract-new-cf6-2,10-sgl
@@ -452,7 +452,7 @@
 1	Napoleon	Napoleon	PROPN	NNP	Number=Sing	3	nmod:poss	3:nmod:poss	Discourse=context-background:39->40:1:_|Entity=(64-place-new-cf1-3-coref-Mexico(57-person-giv:inact-cf2-1-coref-Napoleon_III
 2	’s	's	PART	POS	_	1	case	1:case	Entity=57)
 3	target	target	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=64)
-4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 5	Mexico	Mexico	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(64-place-giv:act-cf1-1-coref-Mexico)|SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	7:punct	_
 7	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=ROOT:40:0;causal-result40->39:0:0:orp-and-305
@@ -509,7 +509,7 @@
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5	France	France	PROPN	NNP	Number=Sing	8	nsubj	8:nsubj	Discourse=joint-sequence_m:46->40:0:lex-indwd-357|Entity=(53-place-giv:inact-cf3-1-coref-France)
 6	eventually	eventually	ADV	RB	Degree=Pos	8	advmod	8:advmod	_
-7	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	8:aux	_
+7	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
 8	conquer	conquer	VERB	VB	VerbForm=Inf|Voice=Act	0	root	0:root	_
 9	Mexico	Mexico	PROPN	NNP	Number=Sing	8	obj	8:obj	Entity=(64-place-giv:act-cf1*-1-coref-Mexico)|SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	11:punct	_
@@ -677,7 +677,7 @@
 # transition = smooth-shift
 # text = Both were destroyed during the war.
 1	Both	both	DET	DT	PronType=Tot	3	nsubj:pass	3:nsubj:pass	Discourse=elaboration-additional:63->62:0:sem-synym-460-465,475|Entity=(95-object-giv:act-cf1*-1-ana)
-2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	3:aux:pass	_
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	3:aux:pass	_
 3	destroyed	destroy	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 4	during	during	ADP	IN	_	6	case	6:case	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(14-event-giv:inact-cf2-2-coref-American_Civil_War
@@ -710,7 +710,7 @@
 16	since	since	SCONJ	IN	_	20	mark	20:mark	Discourse=causal-cause:65->64:0:dm-since-497
 17	Great	Great	ADJ	NNP	Degree=Pos|Number=Sing	18	amod	18:amod	Entity=(52-place-giv:inact-cf2-1,2-coref-United_Kingdom
 18	Britain	Britain	PROPN	NNP	Number=Sing	20	nsubj	20:nsubj	Entity=52)
-19	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux	20:aux	_
+19	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	aux	20:aux	_
 20	abolished	abolish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	9	advcl	9:advcl:since	_
 21	slavery	slavery	NOUN	NN	Number=Sing	20	obj	20:obj	Entity=(35-abstract-giv:act-cf1-1-coref)
 22	in	in	ADP	IN	_	23	case	23:case	_
@@ -796,7 +796,7 @@
 24	resourced	resourced	ADJ	JJ	Degree=Pos	20	conj	20:conj:and|25:amod	_
 25	states	state	NOUN	NNS	Number=Plur	18	obj	18:obj|28:nsubj|32:nsubj:xsubj	_
 26	that	that	PRON	WDT	PronType=Rel	28	nsubj	25:ref	Discourse=elaboration-attribute:72->71:0:syn-mdf-565+syn-rlt-566,568
-27	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	aux	28:aux	_
+27	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	28	aux	28:aux	_
 28	left	leave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	25	acl:relcl	25:acl:relcl	_
 29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(1-place-giv:act-cf3-2-coref-Union_%28American_Civil_War%29
 30	Union	Union	PROPN	NNP	Number=Sing	28	obj	28:obj	Entity=1)
@@ -838,7 +838,7 @@
 12	,	,	PUNCT	,	_	9	punct	9:punct	_
 13	Union	Union	PROPN	NNP	Number=Sing	14	compound	14:compound	Entity=(10-organization-giv:inact-cf2-2-coref(1-place-giv:inact-cf7-1-coref-Union_%28American_Civil_War%29)
 14	forces	force	NOUN	NNS	Number=Plur	16	nsubj	16:nsubj	Entity=10)
-15	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	aux	16:aux	_
+15	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	aux	16:aux	_
 16	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 17	contrabands	contraband	NOUN	NN	Number=Sing	16	obj	16:obj	Entity=(111-person-new-cf1-1-coref)|SpaceAfter=No
 18	,	,	PUNCT	,	_	22	punct	22:punct	_
@@ -909,7 +909,7 @@
 26	,	,	PUNCT	,	_	20	punct	20:punct	_
 27	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	28:nmod:poss	Entity=(115-abstract-giv:act-cf2-2-coref(13-person-giv:act-cf1*-1-ana)
 28	numbers	number	NOUN	NNS	Number=Plur	30	nsubj	30:nsubj	Entity=115)
-29	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	30	aux	30:aux	_
+29	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	30	aux	30:aux	_
 30	swelled	swell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	15	conj	15:conj:and	_
 31	to	to	ADP	IN	_	33	case	33:case	_
 32	over	over	ADV	RB	_	33	advmod	33:advmod	Entity=(115-abstract-giv:act-cf2-2-coref
@@ -942,7 +942,7 @@
 19	soldiers	soldier	NOUN	NNS	Number=Plur	23	nsubj	23:nsubj|25:nsubj	Entity=13)
 20	could	could	AUX	MD	VerbForm=Fin	23	aux	23:aux	_
 21	never	never	ADV	RB	Polarity=Neg	23	advmod	23:advmod	_
-22	be	be	AUX	VB	VerbForm=Inf	23	cop	23:cop	_
+22	be	be	AUX	VB	VerbForm=Inf|Voice=Act	23	cop	23:cop	_
 23	effective	effective	ADJ	JJ	Degree=Pos	16	acl	16:acl:that	_
 24	or	or	CCONJ	CC	_	25	cc	25:cc	_
 25	trustworthy	trustworthy	ADJ	JJ	Degree=Pos	23	conj	16:acl:that|23:conj:or	Entity=120)|SpaceAfter=No
@@ -999,7 +999,7 @@
 1	Many	many	ADJ	JJ	Degree=Pos	3	amod	3:amod	Discourse=elaboration-additional:86->84:2:grf-prn-744,747|Entity=(130-organization-new-cf2-3-sgl
 2	Black	Black	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	regiments	regiment	NOUN	NNS	Number=Plur	5	nsubj:pass	5:nsubj:pass	Entity=130)
-4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	5:aux:pass	_
+4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	5:aux:pass	_
 5	limited	limit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 6	to	to	SCONJ	IN	_	7	mark	7:mark	_
 7	hauling	haul	VERB	VBG	VerbForm=Ger|Voice=Act	5	advcl	5:advcl:to	_
@@ -1218,7 +1218,7 @@
 19	,	,	PUNCT	,	_	18	punct	18:punct	_
 20	Black	Black	ADJ	JJ	Degree=Pos	21	amod	21:amod	Entity=(13-person-giv:inact-cf2-2-coref
 21	soldiers	soldier	NOUN	NNS	Number=Plur	24	nsubj:pass	24:nsubj:pass|25:nsubj:xsubj|27:nsubj:pass	Entity=13)
-22	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	24	aux:pass	24:aux:pass|27:aux:pass	_
+22	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	24	aux:pass	24:aux:pass|27:aux:pass	_
 23	often	often	ADV	RB	Degree=Pos	24	advmod	24:advmod	_
 24	kept	keep	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	10:advcl:although	_
 25	separate	separate	ADJ	JJ	Degree=Pos	24	xcomp	24:xcomp	_
@@ -1259,12 +1259,12 @@
 1	Some	some	ADV	RB	Degree=Pos	2	advmod	2:advmod	Bridge=13<162|Discourse=context-background:111->109:1:sem-mrnym-910,912-914+lex-indwd-916|Entity=(162-person-acc:inf-cf1-3-coref
 2	85	85	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	3:nummod	_
 3	percent	percent	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=162)
-4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
+4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
 5	formerly	formerly	ADV	RB	Degree=Pos	6	advmod	6:advmod	Entity=(162-person-giv:act-cf1-3-pred
 6	enslaved	enslave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	amod	7:amod	_
 7	people	person	NOUN	NNS	Number=Plur	0	root	0:root|10:nsubj	_
 8	who	who	PRON	WP	PronType=Rel	10	nsubj	7:ref	Discourse=elaboration-attribute:112->111:0:syn-mdf-918+syn-rlt-919,921
-9	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux	10:aux	_
+9	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
 10	fighting	fight	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	7	acl:relcl	7:acl:relcl	_
 11	for	for	ADP	IN	_	13	case	13:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(163-event-new-cf3-2-sgl
@@ -1397,7 +1397,7 @@
 16	Union	Union	PROPN	NNP	Number=Sing	17	compound	17:compound	Entity=(1-place-giv:inact-cf4-1-coref-Union_%28American_Civil_War%29)
 17	forces	force	NOUN	NNS	Number=Plur	9	obl	9:obl:from|20:nsubj	_
 18	that	that	PRON	WDT	PronType=Rel	20	nsubj	17:ref	Discourse=elaboration-attribute:121->120:0:syn-mdf-1019+syn-rlt-1020,1022
-19	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux	20:aux	_
+19	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	aux	20:aux	_
 20	captured	capture	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	17	acl:relcl	17:acl:relcl	_
 21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obj	20:obj	Entity=(179-place-giv:act-cf1-1-ana-Fort_Pillow_State_Historic_Park)
 22	in	in	ADP	IN	_	23	case	23:case	_

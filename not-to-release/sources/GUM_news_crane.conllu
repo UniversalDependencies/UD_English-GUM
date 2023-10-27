@@ -129,13 +129,13 @@
 21	All	all	DET	PDT	PronType=Tot	22	det:predet	22:det:predet	Entity=(13-person-giv:act-cf1*-2-ana
 22	those	that	PRON	DT	Number=Plur|PronType=Dem	31	nsubj:pass	25:nsubj:pass|31:nsubj:pass	_
 23	who	who	PRON	WP	PronType=Rel	25	nsubj:pass	22:ref	Discourse=elaboration-attribute:9->8:0:syn-mdf-76+syn-rlt-77,79
-24	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	25	aux:pass	25:aux:pass	_
+24	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	25	aux:pass	25:aux:pass	_
 25	wounded	wound	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	acl:relcl	22:acl:relcl	Entity=13)
 26	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=same-unit_m:10->8:1:_
 27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Entity=(1-person-giv:act-cf3-2-coref
 28	dead	dead	ADJ	JJ	Degree=Pos	22	conj	22:conj:and|31:nsubj:pass	Entity=1)
-29	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux	31:aux	_
-30	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Pass	31	aux:pass	31:aux:pass	_
+29	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	aux	31:aux	_
+30	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Act	31	aux:pass	31:aux:pass	_
 31	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	ccomp	19:ccomp	_
 32	to	to	ADP	IN	_	33	case	33:case	_
 33	hospital	hospital	NOUN	NN	Number=Sing	31	obl	31:obl:to	Entity=(18-place-new-cf8-1-sgl)|SpaceAfter=No
@@ -166,7 +166,7 @@
 6	yesterday	yesterday	NOUN	NN	Number=Sing	7	compound	7:compound	Entity=(12-time-giv:inact-cf2-2-coref|XML=<date when:::"2015-09-11"></date>
 7	afternoon	afternoon	NOUN	NN	Number=Sing	5	obl:tmod	5:obl:tmod	Entity=12)20)|SpaceAfter=No
 8	,	,	PUNCT	,	_	2	punct	2:punct	_
-9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	10:aux:pass	Discourse=same-unit_m:14->12:1:_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	10:aux:pass	Discourse=same-unit_m:14->12:1:_
 10	caused	cause	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 11	by	by	ADP	IN	_	13	case	13:case	_
 12	strong	strong	ADJ	JJ	Degree=Pos	13	amod	13:amod	Bridge=11<22|Entity=(21-event-new-cf6-2,5-sgl(22-event-acc:inf-cf3-2-sgl
@@ -215,10 +215,10 @@
 4	at	at	ADP	IN	_	6	case	6:case	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(12-time-giv:inact-cf3-2-coref
 6	time	time	NOUN	NN	Number=Sing	3	obl	3:obl:at	_
-7	when	when	ADV	WRB	PronType=Int	12	advmod	12:advmod	Discourse=context-circumstance:18->17:0:dm-when-142;joint-sequence18->22:0:0:orp-earlier-185+orp-earlier-189;elaboration-attribute18->17:0:0:syn-mdf-141+syn-nmn-147
+7	when	when	ADV	WRB	PronType=Int	12	advmod	12:advmod	Discourse=context-circumstance:18->17:0:dm-when-142;elaboration-attribute18->17:0:0:syn-mdf-141+syn-nmn-147;joint-sequence18->22:0:0:orp-earlier-185+orp-earlier-189
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(8-place-giv:act-cf1*-2-coref-Masjid_al%2DHaram
 9	mosque	mosque	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=8)
-10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	12:cop	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
 11	relatively	relatively	ADV	RB	Degree=Pos	12	advmod	12:advmod	_
 12	uncrowded	uncrowded	ADJ	JJ	Degree=Pos|Polarity=Neg	6	acl	6:acl:when	Entity=12)|SpaceAfter=No
 13	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -229,7 +229,7 @@
 # transition = smooth-shift
 # text = "Had it happened an hour later it would have been much worse," Khaled Al-Maeena, editor at large at the Saudi Gazette, said.
 1	"	''	PUNCT	``	_	13	punct	13:punct	Discourse=contingency-condition:19->20:0:syn-sbinv-150+mrf-md-157;joint-sequence19->18:0:0:orp-later-155|SpaceAfter=No|XML=<quote>
-2	Had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	4:aux	_
+2	Had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(10-event-giv:act-cf1*-1-ana)
 4	happened	happen	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	13	advcl	13:advcl	_
 5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(27-time-acc:com-cf3-2-sgl
@@ -237,8 +237,8 @@
 7	later	late	ADV	RBR	Degree=Cmp	4	advmod	4:advmod	_
 8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	Discourse=elaboration-additional:20->17:1:ref-prs-136-137,151|Entity=(10-event-giv:act-cf1*-1-ana)
 9	would	would	AUX	MD	VerbForm=Fin	13	aux	13:aux	_
-10	have	have	AUX	VB	VerbForm=Inf	13	aux	13:aux	_
-11	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	cop	13:cop	_
+10	have	have	AUX	VB	VerbForm=Inf|Voice=Act	13	aux	13:aux	_
+11	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Act	13	cop	13:cop	_
 12	much	much	ADV	RB	Degree=Pos	13	advmod	13:advmod	_
 13	worse	bad	ADJ	JJR	Degree=Cmp	29	ccomp	29:ccomp	SpaceAfter=No
 14	,	,	PUNCT	,	_	13	punct	13:punct	SpaceAfter=No
@@ -265,7 +265,7 @@
 # transition = smooth-shift
 # text = "Had it happened five hours earlier or four hours earlier, I think the death toll would have been more than a thousand."
 1	"	''	PUNCT	``	_	14	punct	14:punct	Discourse=contingency-condition:22->24:1:syn-sbinv-180+mrf-md-196|SpaceAfter=No|XML=<quote>
-2	Had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	4:aux	_
+2	Had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(10-event-giv:act-cf2-1-ana)
 4	happened	happen	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	24	advcl	24:advcl	_
 5	five	five	NUM	CD	NumForm=Word|NumType=Card	6	nummod	6:nummod	Entity=(30-time-new-cf5-2-sgl
@@ -282,8 +282,8 @@
 16	death	death	NOUN	NN	Number=Sing	17	compound	17:compound	_
 17	toll	toll	NOUN	NN	Number=Sing	24	nsubj	24:nsubj	Entity=32)
 18	would	would	AUX	MD	VerbForm=Fin	24	aux	24:aux	_
-19	have	have	AUX	VB	VerbForm=Inf	24	aux	24:aux	_
-20	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	cop	24:cop	_
+19	have	have	AUX	VB	VerbForm=Inf|Voice=Act	24	aux	24:aux	_
+20	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Act	24	cop	24:cop	_
 21	more	more	ADV	RBR	Degree=Cmp	24	advmod	24:advmod	_
 22	than	than	ADP	IN	_	21	fixed	21:fixed	_
 23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(33-person-new-cf4-2-sgl
@@ -336,7 +336,7 @@
 4	pilgrimage	pilgrimage	NOUN	NN	Number=Sing	2	obj	2:obj	_
 5	to	to	ADP	IN	_	6	case	6:case	_
 6	Mecca	Mecca	PROPN	NNP	Number=Sing	4	nmod	4:nmod:to	Entity=(3-place-giv:act-cf2-1-coref-Mecca)36)
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	11:cop	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(38-abstract-new-cf5-4-sgl
 9	mandatory	mandatory	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
 10	religious	religious	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
@@ -369,7 +369,7 @@
 # transition = rough-shift
 # text = Construction was underway at the mosque in order to enlarge the mosque and improve crowd control, which has been a recurring problem during Mecca's pilgrimages.
 1	Construction	construction	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=context-background:29->4:6:sem-synym-33-36,266-267+sem-rpt-33-34,286-287|Entity=(42-event-new-cf5-1-sgl)
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	3:cop	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
 3	underway	underway	ADJ	JJ	Degree=Pos|Polarity=Neg	0	root	0:root	_
 4	at	at	ADP	IN	_	6	case	6:case	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(8-place-giv:inact-cf1-2-coref-Masjid_al%2DHaram
@@ -386,8 +386,8 @@
 16	control	control	NOUN	NN	Number=Sing	14	obj	14:obj|23:nsubj	SpaceAfter=No
 17	,	,	PUNCT	,	_	23	punct	23:punct	_
 18	which	which	PRON	WDT	PronType=Rel	23	nsubj	16:ref	Discourse=elaboration-attribute:32->31:0:syn-mdf-277+syn-rlt-279,284
-19	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	23:aux	_
-20	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	cop	23:cop	_
+19	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	23:aux	_
+20	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Act	23	cop	23:cop	_
 21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	23:det	Entity=(43-abstract-giv:act-cf3-3-pred
 22	recurring	recur	VERB	VBG	VerbForm=Ger|Voice=Act	23	amod	23:amod	_
 23	problem	problem	NOUN	NN	Number=Sing	16	acl:relcl	16:acl:relcl	_

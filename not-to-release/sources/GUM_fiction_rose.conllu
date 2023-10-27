@@ -83,7 +83,7 @@
 14	abandon	abandon	NOUN	NN	Number=Sing	9	obl	9:obl:with	Entity=5)|SpaceAfter=No
 15	,	,	PUNCT	,	_	4	punct	4:punct	_
 16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	21:nsubj	Discourse=same-unit_m:8->6:1:_|Entity=(5-person-giv:act-cf1*-1-ana)
-17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	cop	21:cop	_
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	21	cop	21:cop	_
 18	remarkably	remarkably	ADV	RB	Degree=Pos	21	advmod	21:advmod	_
 19	close	close	ADJ	JJ	Degree=Pos	21	amod	21:amod	SpaceAfter=No|XML=<w>
 20	-	-	PUNCT	HYPH	_	19	punct	19:punct	SpaceAfter=No
@@ -102,7 +102,7 @@
 2	two	two	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	Entity=(13-time-new-cf7-2-sgl
 3	months	month	NOUN	NNS	Number=Plur	6	obl	6:obl:in	Entity=13)
 4	Carroll	Carroll	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Entity=(7-person-giv:inact-cf3-1-coref)
-5	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	6:aux	_
+5	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
 6	learned	learn	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 7	that	that	SCONJ	IN	_	10	mark	10:mark	Discourse=context-background:10->3:2:ref-prs-12-13,62+sem-rpt-15,58+sem-synym-16,66-72+sem-rpt-19-20,62-63+mrf-tns-59
 8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(9-person-giv:inact-cf1-2-coref(5-person-giv:act-cf2*-1-ana)
@@ -173,7 +173,7 @@
 # text = Do you think your parents will like me?" he said.
 # newpar
 # newpar_block = p (5 s)
-1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=topic-question:16->31:3:syn-sbinv-114|XML=<sp who:::"#Carroll">
+1	Do	do	AUX	VB	VerbForm=Inf|Voice=Act	3	aux	3:aux	Discourse=topic-question:16->31:3:syn-sbinv-114|XML=<sp who:::"#Carroll">
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(5-person-giv:inact-cf2-1-ana)
 3	think	think	VERB	VB	VerbForm=Inf|Voice=Act	12	ccomp	12:ccomp	_
 4	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(9-person-giv:act-cf3-2-coref(5-person-giv:act-cf2-1-ana)
@@ -193,7 +193,7 @@
 # transition = continue
 # text = He had spent the afternoon preparing for this visit as carefully as if he were preparing for an exam.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=context-background:18->16:1:ref-prs-121,127+mrf-tns-128|Entity=(7-person-giv:act-cf1*-1-ana)
-2	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	3:aux	_
+2	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	3:aux	_
 3	spent	spend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(25-time-acc:com-cf3-2-sgl
 5	afternoon	afternoon	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=25)
@@ -206,7 +206,7 @@
 12	as	as	SCONJ	IN	_	16	mark	16:mark	Discourse=mode-manner:19->18:0:dm-as if-138-139
 13	if	if	ADP	IN	_	12	fixed	12:fixed	_
 14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	16:nsubj	Entity=(7-person-giv:act-cf1*-1-ana)
-15	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	aux	16:aux	_
+15	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	aux	16:aux	_
 16	preparing	prepare	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	11	advcl	11:advcl:as_if	_
 17	for	for	ADP	IN	_	19	case	19:case	_
 18	an	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(26-event-new-cf4-2-sgl
@@ -219,17 +219,17 @@
 # transition = continue
 # text = He had gotten his hair cut, trimmed his nails, washed his neck and behind his ears.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj|8:nsubj|12:nsubj	Discourse=elaboration-additional:20->18:1:ref-prs-127,147|Entity=(7-person-giv:act-cf1*-1-ana)
-2	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	3:aux|8:aux|12:aux	_
+2	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	3:aux|8:aux|12:aux	_
 3	gotten	get	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(27-object-new-cf2-2-sgl(7-person-giv:act-cf1*-1-ana)
 5	hair	hair	NOUN	NN	Number=Sing	3	obj	3:obj|6:nsubj:xsubj	Entity=27)
 6	cut	cut	NOUN	NN	Number=Sing	3	xcomp	3:xcomp	SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	8:punct	_
-8	trimmed	trim	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	conj	3:conj	Discourse=joint-list_m:21->20:0:sem-lxchn-151-152,154
+8	trimmed	trim	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	3	conj	3:conj	Discourse=joint-list_m:21->20:0:sem-lxchn-151-152,154
 9	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(28-object-new-cf3-2-sgl(7-person-giv:act-cf1*-1-ana)
 10	nails	nail	NOUN	NNS	Number=Plur	8	obj	8:obj	Entity=28)|SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	12:punct	_
-12	washed	wash	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	conj	3:conj	Discourse=joint-list_m:22->20:0:_
+12	washed	wash	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	3	conj	3:conj	Discourse=joint-list_m:22->20:0:_
 13	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(29-object-new-cf4-2-sgl(7-person-giv:act-cf1*-1-ana)
 14	neck	neck	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=29)
 15	and	and	CCONJ	CC	_	18	cc	18:cc	_
@@ -246,7 +246,7 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=context-circumstance:23->16:2:_|Entity=(31-object-new-cf2-2-coref
 2	outfit	outfit	NOUN	NN	Number=Sing	20	nsubj	20:nsubj	_
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=elaboration-attribute:24->23:0:syn-mdf-167+syn-rlt-170|Entity=(7-person-giv:act-cf1*-1-ana)
-4	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	5:aux	_
+4	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
 5	chosen	choose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	2	acl:relcl	2:acl:relcl	Entity=31)|SpaceAfter=No
 6	,	,	PUNCT	,	_	8	punct	8:punct	_
 7	khaki	khaki	ADJ	JJ	Degree=Pos	8	amod	8:amod	Discourse=same-unit_m:25->23:1:_|Entity=(31-object-giv:act-cf2-2,9-appos(32-object-new-cf4-2-coref
@@ -294,7 +294,7 @@
 17	as	as	SCONJ	IN	_	22	mark	22:mark	Discourse=mode-manner:30->29:0:dm-as if-208-209
 18	if	if	ADP	IN	_	17	fixed	17:fixed	_
 19	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	22:nsubj	Entity=(5-person-giv:act-cf2-1-ana)
-20	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	cop	22:cop	_
+20	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	22	cop	22:cop	_
 21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(38-object-new-cf5-2-sgl
 22	mirror	mirror	NOUN	NN	Number=Sing	14	advcl	14:advcl:as_if	Entity=38)|SpaceAfter=No
 23	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -321,12 +321,12 @@
 # transition = continue
 # text = It was the first time she had been to his apartment, and she stood square in the center of his bedroom, her arms folded against her body as if she was afraid to sit down, to touch something.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=context-background:33->35:1:ref-prs-227,231,235,242+mrf-tns-228;joint-other33->33:2:1:orp-and-234|Entity=(39-time-new-cf3-1-cata)
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(39-time-acc:com-cf3-3-coref
 4	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	5	amod	5:amod	_
 5	time	time	NOUN	NN	Number=Sing	0	root	0:root	_
 6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj	Discourse=elaboration-attribute:34->33:0:syn-mdf-226+syn-rlt-229|Entity=(5-person-giv:act-cf1*-1-ana)
-7	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	8:aux	_
+7	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
 8	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Act	5	acl:relcl	5:acl:relcl	_
 9	to	to	ADP	IN	_	11	case	11:case	_
 10	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(40-place-new-cf7-2-sgl(7-person-giv:inact-cf2-1-ana)
@@ -352,7 +352,7 @@
 30	as	as	SCONJ	IN	_	34	mark	34:mark	Discourse=evaluation-comment:37->36:0:_;mode-manner37->36:0:0:orp-as if-251-252
 31	if	if	ADP	IN	_	30	fixed	30:fixed	_
 32	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	nsubj	34:nsubj|36:nsubj:xsubj|40:nsubj:xsubj	Entity=(5-person-giv:act-cf1*-1-ana)
-33	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	cop	34:cop	_
+33	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	34	cop	34:cop	_
 34	afraid	afraid	ADJ	JJ	Degree=Pos	26	advcl	26:advcl:as_if	_
 35	to	to	PART	TO	_	36	mark	36:mark	_
 36	sit	sit	VERB	VB	VerbForm=Inf|Voice=Act	34	xcomp	34:xcomp	_
@@ -420,7 +420,7 @@
 1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=context-background:42->44:1:ref-prs-285-286,291|Entity=(48-person-new-cf2-2-coref(5-person-giv:inact-cf1-1-ana)
 2-3	mother's	_	_	_	_	_	_	_	_
 2	mother	mother	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=48)
-3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 4	more	more	ADV	RBR	Degree=Cmp	5	advmod	5:advmod	_
 5	particular	particular	ADJ	JJ	Degree=Pos	0	root	0:root	_
 6	--	-	PUNCT	:	_	5	punct	5:punct	_
@@ -472,7 +472,7 @@
 2	So	so	ADV	RB	_	5	advmod	5:advmod	_
 3-4	you've	_	_	_	_	_	_	_	_
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(5-person-giv:inact-cf2-1-ana)
-4	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
+4	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
 5	talked	talk	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 6	to	to	ADP	IN	_	7	case	7:case	_
 7	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obl	5:obl:to	Entity=(48-person-giv:inact-cf3-1-ana)
@@ -506,7 +506,7 @@
 2	But	but	CCONJ	CC	_	6	cc	6:cc	_
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	Entity=(5-person-giv:inact-cf1-1-ana)
 4-5	haven't	_	_	_	_	_	_	_	_
-4	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
+4	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
 5	n't	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	_
 6	talked	talk	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 7	about	about	ADP	IN	_	8	case	8:case	_
@@ -538,7 +538,7 @@
 # newpar
 # newpar_block = sp who:::"#Carroll" (1 s) | p (1 s)
 1	"	''	PUNCT	``	_	4	punct	4:punct	Discourse=topic-question:51->52:0:syn-sbinv-343|SpaceAfter=No
-2	Are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
+2	Are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(5-person-giv:inact-cf1-1-ana)
 4	ashamed	ashamed	ADJ	JJ	Degree=Pos	0	root	0:root	_
 5	of	of	ADP	IN	_	6	case	6:case	_
@@ -573,7 +573,7 @@
 9	to	to	PART	TO	_	10	mark	10:mark	_
 10	suggest	suggest	VERB	VB	VerbForm=Inf|Voice=Act	8	xcomp	8:xcomp	_
 11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	Discourse=evaluation-comment:55->53:0:lex-indwd-360+lex-indwd-365|Entity=(5-person-giv:act-cf1*-1-ana)
-12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	13:aux	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	13:aux	_
 13	regretting	regret	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	10	ccomp	10:ccomp	_
 14	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	15:nmod:poss	Entity=(52-event-new-cf4-2-sgl(5-person-giv:act-cf1*-1-ana)
 15	decision	decision	NOUN	NN	Number=Sing	13	obj	13:obj	_
@@ -591,7 +591,7 @@
 1	"	''	PUNCT	``	_	4	punct	4:punct	Discourse=evaluation-comment:57->53:1:_|SpaceAfter=No
 2-3	You're	_	_	_	_	_	_	_	_
 2	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(5-person-giv:act-cf1*-1-ana)
-3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
+3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
 4	ashamed	ashamed	ADJ	JJ	Degree=Pos	10	parataxis	10:parataxis	_
 5	of	of	ADP	IN	_	6	case	6:case	_
 6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	4:obl:of	Entity=(7-person-giv:act-cf2-1-ana)|SpaceAfter=No
@@ -608,7 +608,7 @@
 17	smiled	smile	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	conj	10:conj|14:conj:and	_
 18	and	and	CCONJ	CC	_	21	cc	21:cc	Discourse=joint-sequence_m:61->59:0:dm-and-390
 19-20	didn't	_	_	_	_	_	_	_	_
-19	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux	21:aux	_
+19	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	21	aux	21:aux	_
 20	n't	not	PART	RB	Polarity=Neg	21	advmod	21:advmod	_
 21	say	say	VERB	VB	VerbForm=Inf|Voice=Act	14	conj	10:conj|14:conj:and	_
 22	anything	anything	PRON	NN	Number=Sing|PronType=Ind	21	obj	21:obj	Entity=(53-abstract-new-cf3-1-sgl)|SpaceAfter=No
@@ -640,7 +640,7 @@
 16	remarkable	remarkable	ADJ	JJ	Degree=Pos	11	xcomp	11:xcomp	_
 17	that	that	SCONJ	IN	_	20	mark	20:mark	Entity=(54-event-acc:com-cf5-4-disc
 18	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	20:nsubj	Entity=(5-person-giv:act-cf1*-1-ana)
-19	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux	20:aux	_
+19	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	aux	20:aux	_
 20	kept	keep	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	16	ccomp	16:ccomp	_
 21	Carroll	Carroll	PROPN	NNP	Number=Sing	20	obj	20:obj	Entity=(7-person-giv:act-cf2-1-coref)
 22	and	and	CCONJ	CC	_	24	cc	24:cc	_
@@ -682,7 +682,7 @@
 # transition = rough-shift
 # text = She was nineteen, two years younger than Carroll; she was a student at Jellicoh College and every weekday she rose at seven and biked four miles into town, and then back again on her bike, four miles uphill to the farm.
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint-list_m:66->63:2:grf-smc-451|Entity=(5-person-giv:inact-cf1-1-ana)
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	3:cop	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
 3	nineteen	nineteen	NUM	CD	NumForm=Word|NumType=Card	0	root	0:root	Entity=(59-abstract-new-cf4-1-coref)|SpaceAfter=No
 4	,	,	PUNCT	,	_	7	punct	7:punct	_
 5	two	two	NUM	CD	NumForm=Word|NumType=Card	6	nummod	6:nummod	Entity=(59-abstract-giv:act-cf4-3-appos
@@ -692,7 +692,7 @@
 9	Carroll	Carroll	PROPN	NNP	Number=Sing	7	obl	7:obl:than	Entity=(7-person-giv:act-cf2*-1-coref)59)|SpaceAfter=No
 10	;	;	PUNCT	:	_	14	punct	14:punct	_
 11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj	Discourse=joint-list_m:67->63:2:_|Entity=(5-person-giv:act-cf1-1-ana)
-12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	14:cop	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	14:cop	_
 13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	_
 14	student	student	NOUN	NN	Number=Sing	3	parataxis	3:parataxis	_
 15	at	at	ADP	IN	_	17	case	17:case	_
@@ -778,7 +778,7 @@
 17	class	class	NOUN	NN	Number=Sing	11	obl	11:obl:for	Entity=70)|SpaceAfter=No
 18	;	;	PUNCT	:	_	22	punct	22:punct	_
 19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	22:nsubj	Discourse=context-circumstance:75->77:1:dm-when-528|Entity=(7-person-giv:act-cf1*-1-ana)
-20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	22:cop	_
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	22	cop	22:cop	_
 21	almost	almost	ADV	RB	Degree=Pos	22	advmod	22:advmod	_
 22	asleep	asleep	ADJ	JJ	Degree=Pos	2	parataxis	2:parataxis	_
 23	when	when	ADV	WRB	PronType=Int	25	advmod	25:advmod	Discourse=attribution-positive:76->77:0:sem-atsrc-529+lex-indwd-530+grf-qt-532,536
@@ -816,7 +816,7 @@
 6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(67-object-giv:inact-cf2-3-coref
 7	tall	tall	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	desk	desk	NOUN	NN	Number=Sing	4	obl	4:obl:before	Entity=67)5)
-9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	12:cop	Discourse=same-unit_m:81->79:1:_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	12:cop	Discourse=same-unit_m:81->79:1:_
 10	red	red	ADJ	JJ	Degree=Pos	12	amod	12:amod	SpaceAfter=No|XML=<w>
 11	-	-	PUNCT	HYPH	_	10	punct	10:punct	SpaceAfter=No
 12	headed	headed	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No|XML=</w>
@@ -953,8 +953,8 @@
 4	,	,	PUNCT	,	_	6	punct	6:punct	_
 5	and	and	CCONJ	CC	_	6	cc	6:cc	_
 6	covers	cover	NOUN	NNS	Number=Plur	1	conj	1:conj:and|9:nsubj:pass	Bridge=81<88|Entity=(88-object-acc:inf-cf3-1-sgl)
-7	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	9:aux	_
-8	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	aux:pass	9:aux:pass	_
+7	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Act	9	aux:pass	9:aux:pass	_
 9	gnawed	gnaw	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 10	away	away	ADV	RB	Degree=Pos	9	advmod	9:advmod	SpaceAfter=No
 11	.	.	PUNCT	.	_	9	punct	9:punct	_
@@ -992,7 +992,7 @@
 2	What	what	PRON	WP	PronType=Int	3	nsubj	3:nsubj	_
 3	happened	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	ccomp	13:ccomp	SpaceAfter=No
 4	?	?	PUNCT	.	_	3	punct	3:punct	_
-5	Did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	8:aux	Discourse=elaboration-additional:96->95:0:_
+5	Did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	8:aux	Discourse=elaboration-additional:96->95:0:_
 6	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(89-animal-new-cf4-2-sgl(5-person-giv:act-cf2-1-ana)
 7	dog	dog	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=89)
 8	eat	eat	VERB	VB	VerbForm=Inf|Voice=Act	3	parataxis	3:parataxis	_
@@ -1037,7 +1037,7 @@
 1	"	''	PUNCT	``	_	2	punct	2:punct	Discourse=joint-sequence_m:102->77:4:_|SpaceAfter=No|XML=<sp who:::"#Carroll">
 2-3	What's	_	_	_	_	_	_	_	_
 2	What	what	PRON	WP	PronType=Int	9	ccomp	9:ccomp	_
-3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	2:cop	_
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
 4	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(91-abstract-new-cf3-2-sgl(5-person-giv:act-cf1*-1-ana)
 5	name	name	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	Entity=91)|SpaceAfter=No
 6	?	?	PUNCT	.	_	2	punct	2:punct	SpaceAfter=No
@@ -1057,7 +1057,7 @@
 4	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	9:nsubj	Discourse=causal-result:105->77:6:_|Entity=(7-person-giv:act-cf1*-1-ana)
 6	might	might	AUX	MD	VerbForm=Fin	9	aux	9:aux	_
-7	be	be	AUX	VB	VerbForm=Inf	9	cop	9:cop	_
+7	be	be	AUX	VB	VerbForm=Inf|Voice=Act	9	cop	9:cop	_
 8	in	in	ADP	IN	_	9	case	9:case	_
 9	love	love	NOUN	NN	Number=Sing	4	ccomp	4:ccomp	Entity=(92-abstract-new-cf2-1-sgl)|SpaceAfter=No
 10	.	.	PUNCT	.	_	4	punct	4:punct	_

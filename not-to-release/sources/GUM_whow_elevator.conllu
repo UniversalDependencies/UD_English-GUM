@@ -33,13 +33,13 @@
 # newpar_block = p (4 s)
 1	An	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	Discourse=context-background:2->22:8:_|Entity=(3-place-new-cf1-2-sgl
 2	elevator	elevator	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=3)
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
 4	almost	almost	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(4-place-new-cf2-3-sgl
 6	perfect	perfect	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	environment	environment	NOUN	NN	Number=Sing	0	root	0:root	_
 8	to	to	PART	TO	_	11	mark	11:mark	Discourse=purpose-attribute:3->2:0:syn-mdf-13+syn-nfn-14
-9	be	be	AUX	VB	VerbForm=Inf	11	cop	11:cop	_
+9	be	be	AUX	VB	VerbForm=Inf|Voice=Act	11	cop	11:cop	_
 10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(5-person-new-cf3-2-coref
 11	prankster	prankster	NOUN	NN	Number=Sing	7	acl	7:acl:to	Entity=5)4)|SpaceAfter=No
 12	.	.	PUNCT	.	_	7	punct	7:punct	_
@@ -51,14 +51,14 @@
 # text = It’s easy to annoy people when you are cramped in such a small, tight space.
 1-2	It’s	_	_	_	_	_	_	_	_
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	Discourse=explanation-justify:4->2:1:_|Entity=(6-event-new-cf3-1-cata)
-2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
 3	easy	easy	ADJ	JJ	Degree=Pos	0	root	0:root	_
 4	to	to	PART	TO	_	5	mark	5:mark	Entity=(6-event-acc:com-cf3-2-coref
 5	annoy	annoy	VERB	VB	VerbForm=Inf|Voice=Act	3	csubj	3:csubj	_
 6	people	person	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=(1-person-giv:inact-cf1-1-coref)6)
 7	when	when	ADV	WRB	PronType=Int	10	advmod	10:advmod	Discourse=context-circumstance:5->4:0:dm-when-25
 8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	10:nsubj	Entity=(7-person-acc:com-cf2-1-ana)
-9	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
+9	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
 10	cramped	cramped	ADJ	JJ	Degree=Pos	5	advcl	5:advcl:when	_
 11	in	in	ADP	IN	_	17	case	17:case	_
 12	such	such	DET	PDT	PronType=Dem	17	det:predet	17:det:predet	Entity=(8-place-new-cf4-6-sgl
@@ -88,7 +88,7 @@
 12	sure	sure	ADJ	JJ	Degree=Pos	11	xcomp	11:xcomp	_
 13	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Bridge=5<12|Discourse=joint-other_m:8->2:2:_|Entity=(12-event-acc:inf-cf2-2-coref(7-person-giv:act-cf1*-1-ana)
 14	pranks	prank	NOUN	NNS	Number=Plur	16	nsubj	16:nsubj|18:nsubj	Entity=12)
-15	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	16:cop	_
+15	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	16:cop	_
 16	quick	quick	ADJ	JJ	Degree=Pos	12	ccomp	12:ccomp	_
 17	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=joint-list_m:9->8:0:dm-and-53
 18	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	12:ccomp|16:conj:and	_
@@ -265,7 +265,7 @@
 8	"	''	PUNCT	``	_	11	punct	11:punct	Discourse=elaboration-additional:31->22:4:sem-synym-120,185-189|SpaceAfter=No
 9-10	I've	_	_	_	_	_	_	_	_
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj	Entity=(7-person-giv:act-cf1*-1-ana)
-10	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
+10	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	11:aux	_
 11	got	get	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	6	dep	6:dep	_
 12	this	this	PRON	DT	Number=Sing|PronType=Dem	11	obj	11:obj	Entity=(28-abstract-acc:com-cf4-1-sgl)|SpaceAfter=No
 13	,	,	PUNCT	,	_	11	punct	11:punct	SpaceAfter=No
@@ -299,7 +299,7 @@
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(29-place-acc:com-cf4-2-sgl
 12	floor	floor	NOUN	NN	Number=Sing	10	obj	10:obj	_
 13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Discourse=elaboration-attribute:35->34:0:syn-mdf-202+syn-rlt-205|Entity=(7-person-giv:act-cf1*-1-ana)
-14	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
+14	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	15:aux	_
 15	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	12	acl:relcl	12:acl:relcl	_
 16	off	off	ADV	RB	Degree=Pos	15	advmod	15:advmod	_
 17	at	at	ADP	IN	_	15	obl	15:obl	Entity=29)|SpaceAfter=No
@@ -330,7 +330,7 @@
 16	,	,	PUNCT	,	_	22	punct	22:punct	_
 17	"	''	PUNCT	``	_	22	punct	22:punct	Discourse=elaboration-additional:40->31:4:ref-prs-177,212+ref-prp-185-189,215-218+sem-synym-186-189,216-218|SpaceAfter=No
 18	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	22:nsubj	Entity=(19-event-giv:act-cf2-1-coref)
-19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	22:cop	_
+19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	22	cop	22:cop	_
 20	just	just	ADV	RB	_	22	advmod	22:advmod	_
 21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(19-event-giv:act-cf2-2-pred
 22	joke	joke	NOUN	NN	Number=Sing	15	ccomp	15:ccomp	Entity=19)|SpaceAfter=No
@@ -441,7 +441,7 @@
 20	time	time	NOUN	NN	Number=Sing	3	obl:npmod	3:obl:npmod	_
 21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Bridge=20<43|Entity=(43-object-acc:inf-cf2-2-sgl
 22	button	button	NOUN	NN	Number=Sing	24	nsubj:pass	24:nsubj:pass	Entity=43)
-23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	24:aux:pass	_
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	aux:pass	24:aux:pass	_
 24	pushed	push	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	acl:relcl	20:acl:relcl	SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -484,12 +484,12 @@
 2	great	great	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	way	way	NOUN	NN	Number=Sing	12	nsubj:outer	12:nsubj:outer	_
 4	to	to	PART	TO	_	6	mark	6:mark	Discourse=purpose-attribute:57->56:0:syn-mdf-331+syn-nfn-332
-5	be	be	AUX	VB	VerbForm=Inf	6	cop	6:cop	_
+5	be	be	AUX	VB	VerbForm=Inf|Voice=Act	6	cop	6:cop	_
 6	mischievous	mischievous	ADJ	JJ	Degree=Pos	3	acl	3:acl:to	_
 7	in	in	ADP	IN	_	9	case	9:case	_
 8	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(50-place-new-cf4-2-coref
 9	elevator	elevator	NOUN	NN	Number=Sing	6	obl	6:obl:in	Entity=50)49)
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	Discourse=same-unit_m:58->56:1:_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	Discourse=same-unit_m:58->56:1:_
 11	to	to	PART	TO	_	12	mark	12:mark	_
 12	carry	carry	VERB	VB	VerbForm=Inf|Voice=Act	0	root	0:root	_
 13	on	on	ADP	IN	_	16	case	16:case	_
@@ -536,7 +536,7 @@
 21	now	now	ADV	RB	_	24	advmod	24:advmod	_
 22-23	we’re	_	_	_	_	_	_	_	_
 22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	24:nsubj	Entity=(53-person-acc:com-cf2-1-sgl)
-23	’re	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	aux	24:aux	_
+23	’re	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	24	aux	24:aux	_
 24	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	18	parataxis	18:parataxis	SpaceAfter=No
 25	,	,	PUNCT	,	_	15	punct	15:punct	SpaceAfter=No
 26	”	''	PUNCT	''	_	15	punct	15:punct	_
@@ -569,7 +569,7 @@
 16	about	about	SCONJ	IN	_	20	mark	20:mark	_
 17	what	what	DET	WDT	PronType=Int	18	det	18:det	Entity=(57-abstract-new-cf2-2-sgl
 18	look	look	NOUN	NN	Number=Sing	20	nsubj	20:nsubj	Entity=57)
-19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	20:cop	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	cop	20:cop	_
 20	best	good	ADJ	JJS	Degree=Sup	15	acl	15:acl:about	_
 21	for	for	ADP	IN	_	22	case	22:case	_
 22	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	20	obl	20:obl:for	Entity=(7-person-giv:act-cf1*-1-ana)56)|SpaceAfter=No
@@ -600,7 +600,7 @@
 # transition = null
 # text = Don't say anything the whole ride.
 1-2	Don't	_	_	_	_	_	_	_	_
-1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=joint-other_m:68->66:1:grf-tms-
+1	Do	do	AUX	VB	VerbForm=Inf|Voice=Act	3	aux	3:aux	Discourse=joint-other_m:68->66:1:grf-tms-
 2	n't	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	_
 3	say	say	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	anything	anything	PRON	NN	Number=Sing|PronType=Ind	3	obj	3:obj	Entity=(60-abstract-new-cf1-1-sgl)
@@ -652,12 +652,12 @@
 1	If	if	SCONJ	IN	_	6	mark	6:mark	Discourse=contingency-condition:71->73:0:dm-if-446
 2-3	you’re	_	_	_	_	_	_	_	_
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	Entity=(7-person-giv:inact-cf2-1-ana)
-3	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
+3	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 4	in	in	ADP	IN	_	6	case	6:case	_
 5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Bridge=64<68|Entity=(68-place-acc:inf-cf3-2-sgl
 6	elevator	elevator	NOUN	NN	Number=Sing	12	advcl	9:nsubj|12:advcl:if	_
 7	that	that	PRON	WDT	PronType=Rel	9	nsubj	6:ref	Discourse=elaboration-attribute:72->71:0:syn-mdf-451+syn-rlt-452,454
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
 9	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	6	acl:relcl	6:acl:relcl	_
 10	music	music	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=(62-abstract-giv:act-cf1*-1-coref)68)|SpaceAfter=No
 11	,	,	PUNCT	,	_	6	punct	6:punct	_
@@ -708,7 +708,7 @@
 10	dance	dance	VERB	VB	VerbForm=Inf|Voice=Act	1	advcl	1:advcl:to	Entity=(69-event-giv:act-cf2-1-coref)
 11	until	until	SCONJ	IN	_	14	mark	14:mark	Discourse=causal-result:79->76:2:dm-until-490
 12	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	14	nsubj	14:nsubj	Entity=(74-person-new-cf3-1-coref)
-13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	14:aux	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
 14	staring	stare	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	10	advcl	10:advcl:until	_
 15	at	at	ADP	IN	_	16	case	16:case	_
 16	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	14	obl	14:obl:at	Entity=(7-person-giv:act-cf1*-1-ana)|SpaceAfter=No
@@ -818,7 +818,7 @@
 2	that	that	SCONJ	IN	_	5	mark	5:mark	Discourse=organization-preparation:95->99:5:ref-prs-564,592+sem-lxchn-566,593
 3-4	you've	_	_	_	_	_	_	_	_
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(7-person-giv:act-cf1*-1-ana)
-4	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
+4	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
 5	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	1	ccomp	1:ccomp	_
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(85-animal-new-cf2-2-sgl
 7	beast	beast	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=85)|SpaceAfter=No
@@ -832,7 +832,7 @@
 1	When	when	ADV	WRB	PronType=Int	5	advmod	5:advmod	Discourse=context-circumstance:96->99:3:dm-when-570|Entity=(86-event-new-cf8-21,32-disc
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(84-place-giv:inact-cf3-2-coref
 3	elevator	elevator	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=84)
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
 5	going	go	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	21	advcl	21:advcl:when	_
 6	from	from	ADP	IN	_	9	case	9:case	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(87-place-new-cf6-3-sgl
@@ -863,7 +863,7 @@
 32	confirm	confirm	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin|Voice=Act	21	conj	21:conj:but	_
 33	that	that	SCONJ	IN	_	39	mark	39:mark	Discourse=adversative-contrast_m:101->99:1:dm-but-600
 34	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	39	nsubj	39:nsubj	Entity=(90-animal-giv:act-cf2-1-ana)
-35	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	39:cop	_
+35	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	39	cop	39:cop	_
 36	somewhere	somewhere	ADV	RB	_	39	advmod	39:advmod	Entity=(91-place-new-cf5-4-sgl
 37	in	in	ADP	IN	_	39	case	39:case	_
 38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	39:det	Entity=(84-place-giv:act-cf3-2-coref
@@ -884,7 +884,7 @@
 5	see	see	VERB	VB	VerbForm=Inf|Voice=Act	0	root	0:root	_
 6	that	that	SCONJ	IN	_	10	mark	10:mark	Discourse=elaboration-additional:103->99:4:ref-prp-570-609,616
 7	this	this	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	10:nsubj	Entity=(86-event-giv:act-cf1*-1-coref)
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(86-event-giv:act-cf1*-2-coref
 10	joke	joke	NOUN	NN	Number=Sing	5	ccomp	5:ccomp	Entity=86)|SpaceAfter=No
 11	.	.	PUNCT	.	_	5	punct	5:punct	_
@@ -902,7 +902,7 @@
 6	seriously	seriously	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
 7	alarmed	alarmed	ADJ	JJ	Degree=Pos	5	xcomp	5:xcomp	_
 8	or	or	CCONJ	CC	_	10	cc	10:cc	Discourse=joint-disjunction_m:106->105:0:dm-or-628
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	10:aux	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
 10	starting	start	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	5	conj	5:conj:or|14:advcl:if	_
 11	to	to	PART	TO	_	12	mark	12:mark	_
 12	panic	panic	VERB	VB	VerbForm=Inf|Voice=Act	10	xcomp	10:xcomp	SpaceAfter=No
@@ -912,9 +912,9 @@
 16	know	know	VERB	VB	VerbForm=Inf|Voice=Act	14	xcomp	14:xcomp	_
 17	that	that	SCONJ	IN	_	22	mark	22:mark	Discourse=same-unit_m:108->104:0:_
 18	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	22	nsubj	22:nsubj	Entity=(7-person-giv:inact-cf2-1-ana)
-19	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	22	aux	22:aux	_
+19	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	22	aux	22:aux	_
 20	not	not	PART	RB	Polarity=Neg	22	advmod	22:advmod	_
-21	being	be	AUX	VBG	VerbForm=Ger	22	cop	22:cop	_
+21	being	be	AUX	VBG	VerbForm=Ger|Voice=Act	22	cop	22:cop	_
 22	serious	serious	ADJ	JJ	Degree=Pos	16	ccomp	16:ccomp	SpaceAfter=No
 23	.	.	PUNCT	.	_	14	punct	14:punct	_
 
@@ -1007,13 +1007,13 @@
 11	"	''	PUNCT	``	_	15	punct	15:punct	Discourse=attribution-positive:117->118:0:sem-atsrc-698+lex-indwd-701|SpaceAfter=No
 12-13	You're	_	_	_	_	_	_	_	_
 12	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Entity=(101-person-giv:act-cf1-1-ana)
-13	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
+13	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	15:aux	_
 14	probably	probably	ADV	RB	Degree=Pos	15	advmod	15:advmod	_
 15	wondering	wonder	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	9	dep	9:dep	_
 16	why	why	ADV	WRB	PronType=Rel	15	obj	15:obj	Discourse=joint-list_m:118->22:6:_
 17-18	I've	_	_	_	_	_	_	_	_
 17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	19:nsubj	Entity=(7-person-giv:inact-cf2-1-ana)
-18	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
+18	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	19:aux	_
 19	gathered	gather	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	16	advcl:relcl	16:advcl:relcl	_
 20	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	19	obj	19:obj	Entity=(101-person-giv:act-cf1-1-ana)
 21	here	here	ADV	RB	PronType=Dem	19	advmod	19:advmod	Entity=(84-place-giv:inact-cf3-1-coref)

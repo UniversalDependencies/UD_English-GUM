@@ -71,8 +71,8 @@
 8	345	345	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	10:nummod	_
 9	Muslim	Muslim	PROPN	NNP	Number=Sing	10	compound	10:compound	XML=<ref></ref>
 10	pilgrims	pilgrim	NOUN	NNS	Number=Plur	13	nsubj:pass	13:nsubj:pass	Entity=9)
-11	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	13:aux	_
-12	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	aux:pass	13:aux:pass	_
+11	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	13:aux	_
+12	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Act	13	aux:pass	13:aux:pass	_
 13	killed	kill	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 14	in	in	ADP	IN	_	16	case	16:case	_
 15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(2-event-giv:inact-cf2-2-coref
@@ -115,7 +115,7 @@
 16	event	event	NOUN	NN	Number=Sing	9	obl	9:obl:during	_
 17	where	where	ADV	WRB	PronType=Rel	20	advmod	20:advmod	Discourse=elaboration-attribute:7->6:0:syn-mdf-63+syn-rlt-64,67
 18	pebbles	pebble	NOUN	NNS	Number=Plur	20	nsubj:pass	20:nsubj:pass	Entity=(16-object-new-cf4-1-sgl)
-19	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	20:aux:pass	_
+19	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux:pass	20:aux:pass	_
 20	thrown	throw	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	acl:relcl	16:acl:relcl	_
 21	at	at	ADP	IN	_	23	case	23:case	_
 22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	23:det	Entity=(17-object-new-cf11-2-sgl
@@ -172,9 +172,9 @@
 # text = Those who were tripped were then crushed by the wave of people behind them.
 1	Those	that	PRON	DT	Number=Plur|PronType=Dem	7	nsubj:pass	4:nsubj:pass|7:nsubj:pass	Discourse=joint-sequence_m:12->9:1:dm-then-114|Entity=(23-person-giv:act-cf1*-7-disc
 2	who	who	PRON	WP	PronType=Rel	4	nsubj:pass	1:ref	Discourse=elaboration-additional:13->12:0:syn-rlt-110,112
-3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	4:aux:pass	_
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	4:aux:pass	_
 4	tripped	trip	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	acl:relcl	1:acl:relcl	_
-5	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	7:aux:pass	Discourse=same-unit_m:14->12:1:_
+5	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	aux:pass	7:aux:pass	Discourse=same-unit_m:14->12:1:_
 6	then	then	ADV	RB	PronType=Dem	7	advmod	7:advmod	_
 7	crushed	crush	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 8	by	by	ADP	IN	_	10	case	10:case	_
@@ -194,7 +194,7 @@
 # newpar
 # newpar_block = p (2 s)
 1	Muslims	Muslim	PROPN	NNPS	Number=Plur	3	nsubj:pass	3:nsubj:pass|5:nsubj:xsubj	Discourse=context-background:15->5:4:sem-synym-38-46,128-132|Entity=(28-person-new-cf2-1-coref-Muslims)
-2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	3:aux:pass	_
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	3:aux:pass	_
 3	required	require	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 4	to	to	PART	TO	_	5	mark	5:mark	_
 5	make	make	VERB	VB	VerbForm=Inf|Voice=Act	3	xcomp	3:xcomp	Entity=(3-event-giv:inact-cf1-1-disc-Hajj
@@ -214,7 +214,7 @@
 19	,	,	PUNCT	,	_	18	punct	18:punct	_
 20	as	as	SCONJ	IN	_	23	mark	23:mark	Discourse=causal-cause:17->15:1:dm-as-143
 21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	23:nsubj	Entity=(3-event-giv:act-cf1-1-coref-Hajj)
-22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	23:cop	_
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	cop	23:cop	_
 23	one	one	NUM	CD	NumForm=Word|NumType=Card	5	advcl	5:advcl:as	Entity=(3-event-giv:act-cf1-1-coref-Hajj
 24	of	of	ADP	IN	_	27	case	27:case	_
 25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	_
@@ -233,7 +233,7 @@
 # text = Saudi officials had already provided safeguards by installing an oval wall with padded edges to protect pilgrams from a crush, installed security cameras and placed over 60,000 security personnel in the area.
 1	Saudi	Saudi	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=context-background:18->5:5:mrf-tns-158|Entity=(30-person-new-cf4-2-sgl
 2	officials	official	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj|22:nsubj|26:nsubj	Entity=30)
-3	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	5:aux|22:aux|26:aux	_
+3	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	5:aux|22:aux|26:aux	_
 4	already	already	ADV	RB	_	5	advmod	5:advmod	_
 5	provided	provide	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 6	safeguards	safeguard	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=(31-object-new-cf6-1-coref)
@@ -252,11 +252,11 @@
 19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(35-event-new-cf9-2-sgl
 20	crush	crush	NOUN	NN	Number=Sing	16	obl	16:obl:from	Entity=35)|SpaceAfter=No
 21	,	,	PUNCT	,	_	22	punct	22:punct	_
-22	installed	install	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	5:conj:and	Discourse=joint-list_m:21->18:1:_
+22	installed	install	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	5	conj	5:conj:and	Discourse=joint-list_m:21->18:1:_
 23	security	security	NOUN	NN	Number=Sing	24	compound	24:compound	Bridge=31<36|Entity=(36-object-acc:inf-cf3-2-sgl
 24	cameras	camera	NOUN	NNS	Number=Plur	22	obj	22:obj	Entity=36)
 25	and	and	CCONJ	CC	_	26	cc	26:cc	Discourse=joint-list_m:22->18:1:dm-and-180
-26	placed	place	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	5:conj:and	_
+26	placed	place	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	5	conj	5:conj:and	_
 27	over	over	ADV	RB	_	28	advmod	28:advmod	Bridge=31<37|Entity=(37-person-acc:inf-cf1-4-sgl
 28	60,000	60000	NUM	CD	NumForm=Digit|NumType=Card	30	nummod	30:nummod	_
 29	security	security	NOUN	NN	Number=Sing	30	compound	30:compound	_
@@ -274,14 +274,14 @@
 # newpar
 # newpar_block = p (1 s)
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Discourse=context-background:23->5:6:ref-dmn-35-36,190+sem-synym-38-46,202-203|Entity=(2-event-giv:inact-cf1-1-ana)
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 3	not	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(39-event-new-cf7-3-sgl
 5	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	6	amod	6:amod	_
 6	time	time	NOUN	NN	Number=Sing	0	root	0:root	_
 7	deadly	deadly	ADJ	JJ	Degree=Pos	8	amod	8:amod	Discourse=elaboration-attribute:24->23:0:syn-mdf-195+syn-rlt-199|Entity=(40-event-new-cf6-2-coref
 8	stampedes	stampede	NOUN	NNS	Number=Plur	10	nsubj	10:nsubj	Entity=40)
-9	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	10:aux	_
+9	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
 10	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	6	acl:relcl	6:acl:relcl	_
 11	place	place	NOUN	NN	Number=Sing	10	obj	10:obj	_
 12	during	during	ADP	IN	_	14	case	14:case	_
@@ -301,7 +301,7 @@
 26	which	which	PRON	WDT	PronType=Rel	30	obl	19:ref	_
 27	1,426	1426	NUM	CD	NumForm=Digit|NumType=Card	28	nummod	28:nummod	Entity=(44-person-new-cf5-2-sgl
 28	pilgrims	pilgrim	NOUN	NNS	Number=Plur	30	nsubj:pass	30:nsubj:pass	Entity=44)
-29	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	30	aux:pass	30:aux:pass	_
+29	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	30	aux:pass	30:aux:pass	_
 30	trampled	trample	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	acl:relcl	19:acl:relcl	Entity=41)|SpaceAfter=No
 31	.	.	PUNCT	.	_	6	punct	6:punct	_
 
@@ -319,7 +319,7 @@
 5	least	least	ADJ	JJS	Degree=Sup	4	fixed	4:fixed	_
 6	76	76	NUM	CD	NumForm=Digit|NumType=Card	7	nummod	7:nummod	_
 7	people	person	NOUN	NNS	Number=Plur	9	nsubj:pass	9:nsubj:pass	Entity=46)
-8	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	9:aux:pass	_
+8	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	9:aux:pass	_
 9	killed	kill	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 10	when	when	ADV	WRB	PronType=Rel	26	advmod	26:advmod	Discourse=context-circumstance:28->27:0:dm-when-230
 11	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(47-place-new-cf3-2,4,5,8,9,11,13,14-sgl
@@ -343,7 +343,7 @@
 29	cause	cause	NOUN	NN	Number=Sing	33	nsubj	33:nsubj	_
 30	of	of	ADP	IN	_	31	case	31:case	_
 31	which	which	PRON	WDT	PronType=Rel	29	nmod	29:nmod:of	Entity=49)
-32	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	33:cop	_
+32	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	cop	33:cop	_
 33	unknown	unknown	ADJ	JJ	Degree=Pos|Polarity=Neg	26	advcl:relcl	26:advcl:relcl	SpaceAfter=No
 34	.	.	PUNCT	.	_	9	punct	9:punct	_
 

@@ -38,7 +38,7 @@
 # newpar
 # newpar_block = p (2 s)
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=context-circumstance:3->4:1:_|Entity=(3-time-new-cf1-1-cata)
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	3:cop	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
 3	Sunday	Sunday	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(3-time-acc:com-cf1-1-coref)
 4	in	in	ADP	IN	_	6	case	6:case	_
 5	snowy	snowy	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(4-place-new-cf2-2-sgl-Manhattan
@@ -51,14 +51,14 @@
 # transition = null
 # text = Jenna was in the tub, and I was doing the Times crossword, listening to the clang of the radiators and the swish of the taxis on the slush outside, when my coffee-scented reverie was broken by a loud squawk from the bathroom, and a splash, and a flesh-upon-cold-tile sort of thump.
 1	Jenna	Jenna	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Discourse=context-circumstance:4->7:1:dm-when-44|Entity=(5-person-new-cf2-1-coref)
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 3	in	in	ADP	IN	_	5	case	5:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(6-object-new-cf5-2-coref
 5	tub	tub	NOUN	NN	Number=Sing	0	root	0:root	Entity=6)|SpaceAfter=No
 6	,	,	PUNCT	,	_	10	punct	10:punct	_
 7	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=joint-list_m:5->4:0:dm-and-18
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj	Entity=(7-person-acc:com-cf1-1-ana)
-9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	aux	10:aux	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
 10	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	5	conj	5:conj:and	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(8-abstract-new-cf4-3-sgl
 12	Times	Times	PROPN	NNP	Number=Sing	13	compound	13:compound	Entity=(9-organization-new-cf15-1-sgl-The_New_York_Times)
@@ -88,7 +88,7 @@
 36	-	-	PUNCT	HYPH	_	35	punct	35:punct	SpaceAfter=No
 37	scented	scented	ADJ	JJ	Degree=Pos	38	amod	38:amod	XML=</w>
 38	reverie	reverie	NOUN	NN	Number=Sing	40	nsubj:pass	40:nsubj:pass	Entity=15)
-39	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	40	aux:pass	40:aux:pass	_
+39	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	40	aux:pass	40:aux:pass	_
 40	broken	break	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	10:advcl:when	_
 41	by	by	ADP	IN	_	44	case	44:case	_
 42	a	a	DET	DT	Definite=Ind|PronType=Art	44	det	44:det	Entity=(16-event-new-cf11-3-sgl
@@ -177,7 +177,7 @@
 # transition = null
 # text = Jenna was picking herself up off the floor of the bathroom.
 1	Jenna	Jenna	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=context-circumstance:13->15:3:_|Entity=(5-person-giv:inact-cf1-1-coref)
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	3:aux	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	3:aux	_
 3	picking	pick	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	0	root	0:root	_
 4	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	3:obj	Entity=(5-person-giv:act-cf1-1-ana)
 5	up	up	ADP	RP	_	3	compound:prt	3:compound:prt	_
@@ -202,7 +202,7 @@
 6	bar	bar	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	_
 7	of	of	ADP	IN	_	8	case	8:case	_
 8	soap	soap	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	Entity=(24-substance-new-cf6-1-sgl)23)
-9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	11:aux	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	aux	11:aux	_
 10	gaily	gaily	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
 11	chasing	chase	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	0	root	0:root	_
 12	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	Entity=(25-object-new-cf3-4-coref
@@ -261,7 +261,7 @@
 # transition = zero
 # text = I am so tired of these things!”
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=evaluation-comment:19->15:2:lex-indwd-156|Entity=(5-person-giv:inact-cf1-1-ana)
-2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
 3	so	so	ADV	RB	_	4	advmod	4:advmod	_
 4	tired	tired	ADJ	JJ	Degree=Pos	0	root	0:root	XML=<hi rend:::"italic"></hi>
 5	of	of	ADP	IN	_	7	case	7:case	_
@@ -363,7 +363,7 @@
 # text = “Don’t humor them, dammit,” Jenna said, and stomped, still naked, still wet, toward the phone in the kitchen.
 1	“	''	PUNCT	``	_	4	punct	4:punct	Discourse=evaluation-comment:26->24:1:_|SpaceAfter=No|XML=<sp who:::"#Jenna" whom:::"#Robert">
 2-3	Don’t	_	_	_	_	_	_	_	_
-2	Do	do	AUX	VB	VerbForm=Inf	4	aux	4:aux	_
+2	Do	do	AUX	VB	VerbForm=Inf|Voice=Act	4	aux	4:aux	_
 3	n’t	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
 4	humor	humor	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin|Voice=Act	11	ccomp	11:ccomp	_
 5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	4:obj	Entity=(29-animal-giv:act-cf1*-1-ana)|SpaceAfter=No
@@ -399,7 +399,7 @@
 1-2	She’d	_	_	_	_	_	_	_	_
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	4:nsubj:pass	Discourse=adversative-concession:32->33:1:dm-but-271|Entity=(5-person-giv:act-cf1*-1-ana)
 2	’d	would	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
-3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	4:aux:pass	_
+3	be	be	AUX	VB	VerbForm=Inf|Voice=Act	4	aux:pass	4:aux:pass	_
 4	irritated	irritate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 5	by	by	ADP	IN	_	9	case	9:case	_
 6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(40-abstract-new-cf5-4-sgl(5-person-giv:act-cf1*-1-ana)
@@ -451,7 +451,7 @@
 # text = Whatever it is that the common Manhattan water-pixie uses for blood.
 1	Whatever	whatever	PRON	WP	PronType=Rel	0	root	0:root|11:obj	Discourse=joint-disjunction_m:36->33:0:_|Entity=(48-substance-new-cf1-1-coref)
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nsubj	1:nsubj	Entity=(48-substance-giv:act-cf1-1-ana)
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	1:cop	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
 4	that	that	PRON	WDT	PronType=Rel	11	obj	1:ref	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(49-animal-new-cf2-6-sgl
 6	common	common	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
@@ -503,12 +503,12 @@
 14	more	more	ADV	RBR	Degree=Cmp	2	advmod	2:advmod	_
 15	than	than	SCONJ	IN	_	17	mark	17:mark	Discourse=adversative-antithesis:40->39:0:dm-than-322
 16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	17:nsubj	Entity=(7-person-giv:act-cf2-1-ana)
-17	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	14	advcl	14:advcl:than	SpaceAfter=No
+17	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	14:advcl:than	SpaceAfter=No
 18	,	,	PUNCT	,	_	23	punct	23:punct	_
 19	because	because	SCONJ	IN	_	23	mark	23:mark	Discourse=causal-cause:41->39:1:dm-because-326
 20-21	she’s	_	_	_	_	_	_	_	_
 20	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	23:nsubj	Entity=(5-person-giv:act-cf1*-1-ana)
-21	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	23:cop	_
+21	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	cop	23:cop	_
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(5-person-giv:act-cf1*-2-coref
 23	one	one	NOUN	NN	Number=Sing	2	advcl	2:advcl:because|25:nsubj	_
 24	who	who	PRON	WP	PronType=Rel	25	nsubj	23:ref	Discourse=elaboration-attribute:42->41:0:syn-mdf-330+syn-rlt-331-332
@@ -579,7 +579,7 @@
 # text = It’s Jenna McMasters in 5C.
 1-2	It’s	_	_	_	_	_	_	_	_
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=context-background:50->52:5:_|Entity=(61-abstract-acc:com-cf2-1-sgl)
-2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
 3	Jenna	Jenna	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(5-person-giv:inact-cf1-1,2,4-coref
 4	McMasters	McMasters	PROPN	NNP	Number=Sing	3	flat	3:flat	_
 5	in	in	ADP	IN	_	6	case	6:case	_
@@ -597,7 +597,7 @@
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(53-animal-giv:inact-cf1-2-coref
 4	pixies	pixie	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=53)
-5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 6	out	out	ADV	RB	_	0	root	0:root	_
 7	of	of	ADP	IN	_	8	case	8:case	_
 8	control	control	NOUN	NN	Number=Sing	6	obl	6:obl:of	SpaceAfter=No
@@ -612,7 +612,7 @@
 # text = You’ve got to do something about —
 1-2	You’ve	_	_	_	_	_	_	_	_
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Discourse=joint-sequence_m:52->7:3:_|Entity=(60-person-giv:act-cf1*-1-ana)
-2	’ve	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
+2	’ve	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	3:aux	_
 3	got	get	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 4	to	to	PART	TO	_	5	mark	5:mark	_
 5	do	do	VERB	VB	VerbForm=Inf|Voice=Act	3	xcomp	3:xcomp	_
@@ -645,7 +645,7 @@
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(64-time-new-cf2-2-sgl
 4	equinox	equinox	NOUN	NN	Number=Sing	8	nsubj	8:nsubj|10:nsubj	Entity=64)
 5-6	isn’t	_	_	_	_	_	_	_	_
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
 6	n’t	not	PART	RB	Polarity=Neg	8	advmod	8:advmod	_
 7	for	for	ADP	IN	_	8	case	8:case	_
 8	weeks	week	NOUN	NNS	Number=Plur	0	root	0:root	Entity=(65-time-new-cf3-1-sgl)
@@ -682,7 +682,7 @@
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3-4	I’m	_	_	_	_	_	_	_	_
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj|9:nsubj:xsubj	Entity=(5-person-giv:inact-cf1-1-ana)
-4	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
+4	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
 5	just	just	ADV	RB	_	7	advmod	7:advmod	_
 6	not	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	_
 7	ready	ready	ADJ	JJ	Degree=Pos	0	root	0:root	_
@@ -733,8 +733,8 @@
 # text = You’ve been a huge goddamn help.”
 1-2	You’ve	_	_	_	_	_	_	_	_
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	7:nsubj	Discourse=evaluation-comment:59->52:4:lex-indwd-448|Entity=(60-person-giv:act-cf1*-1-ana)
-2	’ve	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_
-3	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	cop	7:cop	_
+2	’ve	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Act	7	cop	7:cop	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(70-abstract-new-cf2-4-sgl
 5	huge	huge	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 6	goddamn	goddamn	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
@@ -770,7 +770,7 @@
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4-5	he’s	_	_	_	_	_	_	_	_
 4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(60-person-giv:inact-cf2-1-ana)
-5	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
+5	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 6	useless	useless	ADJ	JJ	Degree=Pos	10	ccomp	10:ccomp	SpaceAfter=No
 7	,	,	PUNCT	,	_	6	punct	6:punct	SpaceAfter=No
 8	”	''	PUNCT	''	_	6	punct	6:punct	XML=</sp>
@@ -800,13 +800,13 @@
 11	“	''	PUNCT	``	_	16	punct	16:punct	Discourse=same-unit_m:65->63:1:_|SpaceAfter=No|XML=<sp who:::"#Robert" whom:::"#Jenna">
 12-13	he’s	_	_	_	_	_	_	_	_
 12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	16:nsubj	Entity=(60-person-giv:act-cf1*-1-ana)
-13	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	16:cop	_
+13	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	16:cop	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(60-person-giv:act-cf1*-3-coref
 15	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	16	amod	16:amod	_
 16	super	super	NOUN	NN	Number=Sing	0	root	0:root|21:nsubj	_
 17-18	we’ve	_	_	_	_	_	_	_	_
 17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	19:nsubj	Entity=(67-person-giv:inact-cf3-1-ana)
-18	’ve	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
+18	’ve	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	19:aux	_
 19	had	have	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	16	acl:relcl	16:acl:relcl	_
 20	who	who	PRON	WP	PronType=Rel	21	nsubj	16:ref	Discourse=elaboration-attribute:66->65:0:syn-mdf-484+syn-rlt-488-489
 21	keeps	keep	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	16:acl:relcl	_
@@ -839,7 +839,7 @@
 4	robe	robe	NOUN	NN	Number=Sing	2	obj	2:obj	_
 5-6	I’d	_	_	_	_	_	_	_	_
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	Discourse=context-background:68->67:0:ref-prs-507,511+mrf-tns-512;elaboration-attribute68->67:0:0:syn-mdf-510+syn-rlt-513|Entity=(7-person-giv:act-cf1*-1-ana)
-6	’d	have	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	aux	7:aux	_
+6	’d	have	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
 7	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	4	acl:relcl	4:acl:relcl	_
 8	from	from	ADP	IN	_	10	case	10:case	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(17-place-giv:inact-cf4-2-coref
@@ -863,7 +863,7 @@
 # newpar_block = sp who:::"#Robert" whom:::"#Jenna" (3 s)
 1	“	''	PUNCT	``	_	2	punct	2:punct	Discourse=organization-preparation:70->72:1:sem-synym-527,534-539|SpaceAfter=No
 2	What	what	PRON	WP	PronType=Rel	0	root	0:root	_
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	2:cop	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
 4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Entity=(78-abstract-new-cf2-1-ana)
 5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=attribution-positive:71->70:0:sem-atsrc-528+lex-indwd-529|Entity=(79-person-acc:com-cf1-1-sgl)
 6	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	2:acl:relcl	_
@@ -1006,7 +1006,7 @@
 7	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	iobj	6:iobj	Entity=(5-person-giv:act-cf1-1-ana)
 8	that	that	SCONJ	IN	_	11	mark	11:mark	Discourse=evaluation-comment:81->7:5:lex-indwd-606
 9	this	this	PRON	DT	Number=Sing|PronType=Dem	11	nsubj	11:nsubj	Entity=(91-abstract-acc:com-cf2-1-sgl)
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	11:cop	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
 11	cool	cool	ADJ	JJ	Degree=Pos	6	ccomp	6:ccomp	SpaceAfter=No
 12	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -1038,14 +1038,14 @@
 19	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=joint-list_m:84->83:0:dm-and-626
 20-21	I’m	_	_	_	_	_	_	_	_
 20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	22:nsubj|24:nsubj:xsubj	Entity=(5-person-giv:act-cf1*-1-ana)
-21	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	22:aux	_
+21	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	22	aux	22:aux	_
 22	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	14	conj	4:advcl:when|14:conj:and	_
 23	to	to	PART	TO	_	24	mark	24:mark	_
 24	relax	relax	VERB	VB	VerbForm=Inf|Voice=Act	22	xcomp	22:xcomp	_
 25	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=joint-list_m:85->83:0:dm-and-632
 26-27	I’m	_	_	_	_	_	_	_	_
 26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	28:nsubj	Entity=(5-person-giv:act-cf1*-1-ana)
-27	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	cop	28:cop	_
+27	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	28	cop	28:cop	_
 28	naked	naked	ADJ	JJ	Degree=Pos	14	conj	4:advcl:when|14:conj:and	SpaceAfter=No
 29	,	,	PUNCT	,	_	33	punct	33:punct	_
 30	and	and	CCONJ	CC	_	33	cc	33:cc	Discourse=causal-result:86->82:1:dm-and-637
@@ -1095,7 +1095,7 @@
 3	now	now	ADV	RB	_	6	advmod	6:advmod	_
 4-5	I’m	_	_	_	_	_	_	_	_
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj|8:nsubj:xsubj	Entity=(5-person-giv:act-cf1*-1-ana)
-5	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
+5	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
 6-7	gonna	_	_	_	_	_	_	_	_
 6	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	19	ccomp	19:ccomp	XML=<w>
 7	na	to	PART	TO	_	8	mark	8:mark	XML=</w>
@@ -1127,7 +1127,7 @@
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4-5	that’s	_	_	_	_	_	_	_	_
 4	that	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	_
-5	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
+5	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 6	karma	karma	NOUN	NN	Number=Sing	0	root	0:root	Entity=(97-abstract-new-cf2-1-sgl)
 7	for	for	ADP	IN	_	8	case	8:case	_
 8	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	6	obl	6:obl:for	Entity=(5-person-giv:act-cf1*-1-ana)|SpaceAfter=No
@@ -1194,7 +1194,7 @@
 11	coffee	coffee	NOUN	NN	Number=Sing	12	compound	12:compound	Entity=(103-substance-new-cf4-1-sgl)
 12	pot	pot	NOUN	NN	Number=Sing	6	obl	6:obl:in	Entity=102)|SpaceAfter=No
 13	,	,	PUNCT	,	_	3	punct	3:punct	_
-14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	15:cop	_
 15	all	all	DET	DT	PronType=Tot	0	root	0:root	_
 16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	17:nsubj	Entity=(5-person-giv:act-cf1*-1-ana)
 17	ask	ask	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	15:acl:relcl	SpaceAfter=No
@@ -1217,7 +1217,7 @@
 # transition = zero
 # text = That was our previous Sunday morning adventure: most unpleasant, and marked by the death of a new French-press pot.
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	7:nsubj	Discourse=context-background:98->97:0:lex-indwd-734|Entity=(104-event-acc:com-cf1-1-ana)
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
 3	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(104-event-giv:act-cf1-5-coref(67-person-giv:inact-cf2-1-ana)
 4	previous	previous	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 5	Sunday	Sunday	PROPN	NNP	Number=Sing	6	compound	6:compound	Entity=(105-time-new-cf6-2-sgl(106-time-new-cf5-1-sgl)

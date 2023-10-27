@@ -36,7 +36,7 @@
 7	,	,	PUNCT	,	_	3	punct	3:punct	_
 8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj|12:nsubj:xsubj	Entity=(4-person-acc:com-cf1-1-ana)
 9	will	will	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
-10	be	be	AUX	VB	VerbForm=Inf	11	cop	11:cop	_
+10	be	be	AUX	VB	VerbForm=Inf|Voice=Act	11	cop	11:cop	_
 11	able	able	ADJ	JJ	Degree=Pos	0	root	0:root	_
 12	to	to	PART	TO	_	11	xcomp	11:xcomp	SpaceAfter=No
 13	:	:	PUNCT	:	_	11	punct	11:punct	_
@@ -94,7 +94,7 @@
 6	as	as	SCONJ	IN	_	11	mark	11:mark	Discourse=mode-manner:7->6:0:dm-as if-35-36
 7	if	if	ADP	IN	_	6	fixed	6:fixed	_
 8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	11:nsubj	Entity=(9-abstract-giv:act-cf1-1-ana)
-9	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	cop	11:cop	_
+9	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
 10	physical	physical	ADJ	JJ	Degree=Pos	11	amod	11:amod	Entity=(9-abstract-giv:act-cf1-2-pred
 11	entities	entity	NOUN	NNS	Number=Plur	1	advcl	1:advcl:as_if	SpaceAfter=No
 12	,	,	PUNCT	,	_	13	punct	13:punct	_
@@ -111,13 +111,13 @@
 # transition = null
 # text = How is it possible that the brain is able to move from one thought to the next in an organized, orderly fashion?
 1	How	how	ADV	WRB	PronType=Int	4	advmod	4:advmod	Discourse=topic-question:9->10:3:lex-indwd-48+grf-qst-71
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	4:expl	Entity=(11-abstract-new-cf1-1-cata)
 4	possible	possible	ADJ	JJ	Degree=Pos	0	root	0:root	_
 5	that	that	SCONJ	IN	_	9	mark	9:mark	Entity=(11-abstract-acc:com-cf1-5-coref
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(12-object-new-cf3-2-coref
 7	brain	brain	NOUN	NN	Number=Sing	9	nsubj	9:nsubj|11:nsubj:xsubj	Entity=12)
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
 9	able	able	ADJ	JJ	Degree=Pos	4	csubj	4:csubj	_
 10	to	to	PART	TO	_	11	mark	11:mark	_
 11	move	move	VERB	VB	VerbForm=Inf|Voice=Act	9	xcomp	9:xcomp	_
@@ -142,7 +142,7 @@
 # text = The brain is endlessly perceiving, processing, planning, organizing, and remembering—it is always active.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=context-background:10->42:5:lex-indwd-89|Entity=(12-object-giv:act-cf1*-2-coref
 2	brain	brain	NOUN	NN	Number=Sing	5	nsubj	5:nsubj|7:nsubj|9:nsubj|11:nsubj|14:nsubj	Entity=12)
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux|7:aux|9:aux|11:aux|14:aux	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux|7:aux|9:aux|11:aux|14:aux	_
 4	endlessly	endlessly	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 5	perceiving	perceive	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	7:punct	_
@@ -156,7 +156,7 @@
 14	remembering	remember	VERB	VBG	VerbForm=Ger|Voice=Act	5	conj	5:conj:and	SpaceAfter=No|XML=<w>
 15	—	—	PUNCT	:	_	19	punct	19:punct	SpaceAfter=No
 16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	19:nsubj	Discourse=restatement-partial:15->10:1:ref-prs-72-73,87|Entity=(12-object-giv:act-cf1*-1-ana)|XML=</w>
-17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	19:cop	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	19:cop	_
 18	always	always	ADV	RB	_	19	advmod	19:advmod	_
 19	active	active	ADJ	JJ	Degree=Pos	5	parataxis	5:parataxis	SpaceAfter=No
 20	.	.	PUNCT	.	_	5	punct	5:punct	_
@@ -170,7 +170,7 @@
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	Entity=(16-abstract-new-cf5-4-disc(4-person-giv:inact-cf1-1-ana)
 4-5	don’t	_	_	_	_	_	_	_	_
-4	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
+4	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
 5	n’t	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	_
 6	notice	notice	VERB	VB	VerbForm=Inf|Voice=Act	0	root	0:root	_
 7	most	most	ADJ	JJS	Degree=Sup	6	obj	6:obj	_
@@ -195,7 +195,7 @@
 # transition = establishment
 # text = This is only one facet of the complex processes involved in cognition.
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Discourse=elaboration-additional:18->10:4:grf-dsh-86|Entity=(16-abstract-giv:act-cf1*-1-coref)
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 3	only	only	ADV	RB	_	4	advmod	4:advmod	Entity=(16-abstract-giv:act-cf1*-3-coref
 4	one	one	NUM	CD	NumForm=Word|NumType=Card	5	nummod	5:nummod	_
 5	facet	facet	NOUN	NN	Number=Sing	0	root	0:root	_
@@ -217,7 +217,7 @@
 2	put	put	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	6:advcl	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	cognition	cognition	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=(5-abstract-giv:act-cf1*-1-coref)|XML=<hi rend:::"bold"></hi>
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 6	thinking	thinking	NOUN	NN	Number=Sing	0	root	0:root	Entity=(21-event-new-cf3-1-sgl)|SpaceAfter=No
 7	,	,	PUNCT	,	_	10	punct	10:punct	_
 8	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=elaboration-additional:21->20:0:ref-prs-128,133+sem-lxchn-128,139+dm-and-132
@@ -251,7 +251,7 @@
 2	who	who	PRON	WP	PronType=Rel	3	nsubj	1:ref	Discourse=elaboration-attribute:24->23:0:syn-mdf-153+syn-rlt-154-155
 3	study	study	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	1:acl:relcl	_
 4	cognition	cognition	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(30-abstract-new-cf4-1-sgl)29)
-5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	Discourse=same-unit_m:25->23:1:_
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	Discourse=same-unit_m:25->23:1:_
 6	searching	search	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	0	root	0:root	_
 7	for	for	ADP	IN	_	8	case	8:case	_
 8	ways	way	NOUN	NNS	Number=Plur	6	obl	6:obl:for	Entity=(31-abstract-new-cf8-1-sgl
@@ -270,7 +270,7 @@
 21	cognitive	cognitive	ADJ	JJ	Degree=Pos	22	amod	22:amod	_
 22	experiences	experience	NOUN	NNS	Number=Plur	13	obj	13:obj|15:obj|18:obj	Entity=33)
 23	without	without	SCONJ	IN	_	25	mark	25:mark	Discourse=mode-manner:27->26:0:dm-without-175
-24	being	be	AUX	VBG	VerbForm=Ger	25	cop	25:cop	_
+24	being	be	AUX	VBG	VerbForm=Ger|Voice=Act	25	cop	25:cop	_
 25	aware	aware	ADJ	JJ	Degree=Pos	13	advcl	13:advcl:without	_
 26	of	of	ADP	IN	_	27	case	27:case	_
 27	all	all	DET	DT	PronType=Tot	25	obl	25:obl:of	Entity=(34-abstract-new-cf9-1-sgl
@@ -281,7 +281,7 @@
 32	that	that	PRON	WDT	PronType=Rel	36	obj	31:ref	Discourse=elaboration-attribute:28->27:0:syn-mdf-183+syn-rlt-184,188
 33	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	34	nmod:poss	34:nmod:poss	Entity=(35-object-new-cf3-2-sgl(32-person-giv:act-cf1-1-ana)
 34	brains	brain	NOUN	NNS	Number=Plur	36	nsubj	36:nsubj	Entity=35)
-35	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	aux	36:aux	_
+35	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	36	aux	36:aux	_
 36	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	31	acl:relcl	31:acl:relcl	Entity=34)31)
 37	(	(	PUNCT	-LRB-	_	41	punct	41:punct	Discourse=explanation-evidence:29->23:2:dm-for example-190-191|SpaceAfter=No
 38	for	for	ADP	IN	_	39	case	39:case	_
@@ -390,7 +390,7 @@
 17	wait	wait	VERB	VB	VerbForm=Inf|Voice=Act	15	xcomp	15:xcomp	_
 18	until	until	SCONJ	IN	_	21	mark	21:mark	Discourse=context-circumstance:40->39:0:dm-until-260
 19	school	school	NOUN	NN	Number=Sing	21	nsubj	21:nsubj	Entity=(51-event-new-cf3-1-sgl)
-20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	21:cop	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	21:cop	_
 21	done	done	ADJ	JJ	Degree=Pos	15	advcl	15:advcl:until	SpaceAfter=No
 22	?	?	PUNCT	.	_	3	punct	3:punct	Entity=49)
 
@@ -401,7 +401,7 @@
 # text = These thoughts are one example of cognition at work.
 1	These	this	DET	DT	Number=Plur|PronType=Dem	2	det	2:det	Discourse=elaboration-additional:41->32:2:_|Entity=(52-abstract-acc:aggr-cf1-2-coref|SplitAnte=44<52,49<52
 2	thoughts	thought	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=52)
-3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 4	one	one	NUM	CD	NumForm=Word|NumType=Card	5	nummod	5:nummod	Entity=(52-abstract-giv:act-cf1-2-pred
 5	example	example	NOUN	NN	Number=Sing	0	root	0:root	_
 6	of	of	ADP	IN	_	7	case	7:case	_
@@ -419,7 +419,7 @@
 2	complex	complex	ADJ	JJ	Degree=Pos	4	acl	4:acl	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	cognition	cognition	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=(5-abstract-giv:act-cf1*-1-coref)
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
 6	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(5-abstract-giv:act-cf1*-3-pred
 7	essential	essential	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	feature	feature	NOUN	NN	Number=Sing	0	root	0:root	_
@@ -433,7 +433,7 @@
 16	aspects	aspect	NOUN	NNS	Number=Plur	21	nsubj:pass	21:nsubj:pass	_
 17	of	of	ADP	IN	_	18	case	18:case	_
 18	cognition	cognition	NOUN	NN	Number=Sing	16	nmod	16:nmod:of	Entity=(5-abstract-giv:act-cf1*-1-coref)54)
-19	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	21:aux:pass	_
+19	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux:pass	21:aux:pass	_
 20	consciously	consciously	ADV	RB	Degree=Pos	21	advmod	21:advmod	_
 21	experienced	experience	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	conj	8:conj:yet	SpaceAfter=No
 22	.	.	PUNCT	.	_	8	punct	8:punct	_
@@ -447,7 +447,7 @@
 # newpar_block = p (4 s)
 1	Cognitive	cognitive	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=joint-other_m:44->42:2:_|Entity=(55-abstract-new-cf1-2-coref|XML=<hi rend:::"bold">
 2	psychology	psychology	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=55)|XML=</hi>
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(55-abstract-giv:act-cf1-2-coref
 5	field	field	NOUN	NN	Number=Sing	0	root	0:root	_
 6	of	of	ADP	IN	_	7	case	7:case	_
@@ -524,7 +524,7 @@
 13	why	why	ADV	WRB	PronType=Int	17	advmod	17:advmod	_
 14	some	some	DET	DT	PronType=Ind	15	det	15:det	Entity=(67-person-new-cf3-2-sgl
 15	people	person	NOUN	NNS	Number=Plur	17	nsubj	17:nsubj	Entity=67)
-16	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	17:cop	_
+16	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	17:cop	_
 17	better	good	ADJ	JJR	Degree=Cmp	9	conj	5:obj|9:conj:and	_
 18	at	at	ADP	IN	_	20	case	20:case	_
 19	problem	problem	NOUN	NN	Number=Sing	20	compound	20:compound	Entity=(25-event-giv:act-cf1*-2-coref
@@ -576,7 +576,7 @@
 21	,	,	PUNCT	,	_	25	punct	25:punct	_
 22	which	which	PRON	WDT	PronType=Rel	25	nsubj:pass	6:ref|25:nsubj:pass	Discourse=elaboration-attribute:53->50:2:syn-rlt-408,411
 23	will	will	AUX	MD	VerbForm=Fin	25	aux	25:aux	_
-24	be	be	AUX	VB	VerbForm=Inf	25	aux:pass	25:aux:pass	_
+24	be	be	AUX	VB	VerbForm=Inf|Voice=Act	25	aux:pass	25:aux:pass	_
 25	discussed	discuss	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	advcl:relcl	6:advcl:relcl	_
 26	later	late	ADV	RBR	Degree=Cmp	25	advmod	25:advmod	Entity=76)|SpaceAfter=No
 27	.	.	PUNCT	.	_	4	punct	4:punct	_
@@ -603,7 +603,7 @@
 2	human	human	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 3	nervous	nervous	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	system	system	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=78)
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 6	capable	capable	ADJ	JJ	Degree=Pos	0	root	0:root	_
 7	of	of	SCONJ	IN	_	8	mark	8:mark	Discourse=elaboration-additional:56->55:0:syn-prs-424
 8	handling	handle	VERB	VBG	VerbForm=Ger|Voice=Act	6	advcl	6:advcl:of	_
@@ -641,7 +641,7 @@
 21	nervous	nervous	ADJ	JJ	Degree=Pos	22	amod	22:amod	Entity=(86-abstract-new-cf7-2-coref
 22	impulses	impulse	NOUN	NNS	Number=Plur	18	obl	18:obl:into|25:nsubj:pass	_
 23	that	that	PRON	WDT	PronType=Rel	25	nsubj:pass	22:ref	Discourse=elaboration-attribute:60->59:0:syn-mdf-451+syn-rlt-452,454
-24	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	25:aux:pass	_
+24	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux:pass	25:aux:pass	_
 25	transmitted	transmitt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	acl:relcl	22:acl:relcl	_
 26	to	to	ADP	IN	_	28	case	28:case	_
 27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Entity=(12-object-giv:inact-cf2-2-coref
@@ -671,12 +671,12 @@
 16	which	which	PRON	WDT	PronType=Rel	20	nsubj:pass	14:ref	Discourse=elaboration-attribute:64->63:0:syn-mdf-472+syn-rlt-474,478;joint-sequence64->63:1:0:orp-then-476
 17	can	can	AUX	MD	VerbForm=Fin	20	aux	20:aux|24:aux	_
 18	then	then	ADV	RB	PronType=Dem	20	advmod	20:advmod	_
-19	be	be	AUX	VB	VerbForm=Inf	20	aux:pass	20:aux:pass|24:aux:pass	_
+19	be	be	AUX	VB	VerbForm=Inf|Voice=Act	20	aux:pass	20:aux:pass|24:aux:pass	_
 20	expressed	express	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	acl:relcl	14:acl:relcl	_
 21	through	through	ADP	IN	_	22	case	22:case	_
 22	language	language	NOUN	NN	Number=Sing	20	obl	20:obl:through	Entity=(27-abstract-giv:inact-cf3-1-coref)
 23	or	or	CCONJ	CC	_	24	cc	24:cc	Discourse=joint-disjunction_m:65->64:0:dm-or-481
-24	stored	store	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	conj	14:acl:relcl|20:conj:or	Entity=89)88)
+24	stored	store	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	20	conj	14:acl:relcl|20:conj:or	Entity=89)88)
 25	in	in	ADP	IN	_	26	case	26:case	_
 26	memory	memory	NOUN	NN	Number=Sing	24	obl	24:obl:in	Entity=(28-abstract-giv:inact-cf4-1-coref)
 27	for	for	ADP	IN	_	29	case	29:case	_
@@ -698,7 +698,7 @@
 7	,	,	PUNCT	,	_	2	punct	2:punct	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Discourse=elaboration-additional:67->57:2:sem-rpt-456-457,496-497|Entity=(12-object-giv:act-cf1*-2-coref
 9	brain	brain	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=12)
-10	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	12:aux	_
+10	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
 11	not	not	PART	RB	Polarity=Neg	12	advmod	12:advmod	_
 12	gather	gather	VERB	VB	VerbForm=Inf|Voice=Act	0	root	0:root	_
 13	information	information	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=(91-abstract-new-cf3-1-sgl)
@@ -715,7 +715,7 @@
 # text = When thoughts are formed, the brain also pulls information from emotions and memories (Figure 7.2).
 1	When	when	ADV	WRB	PronType=Int	4	advmod	4:advmod	Discourse=context-circumstance:68->69:0:dm-when-507
 2	thoughts	thought	NOUN	NNS	Number=Plur	4	nsubj:pass	4:nsubj:pass	Entity=(93-abstract-new-cf2-1-sgl)
-3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	4:aux:pass	_
 4	formed	form	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	advcl	9:advcl:when	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Discourse=elaboration-additional:69->67:1:sem-rpt-496-497,512-513+sem-lxchn-497,508+dm-also-514+grf-prn-521,524|Entity=(12-object-giv:act-cf1*-2-coref
@@ -741,7 +741,7 @@
 1	Emotion	emotion	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Discourse=elaboration-additional:71->69:2:sem-lxchn-513,535|Entity=(61-abstract-giv:inact-cf2-1-coref)
 2	and	and	CCONJ	CC	_	3	cc	3:cc	_
 3	memory	memory	NOUN	NN	Number=Sing	1	conj	1:conj:and|6:nsubj	Entity=(28-abstract-giv:inact-cf3-1-coref)
-4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 5	powerful	powerful	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(98-abstract-new-cf4-2-sgl
 6	influences	influence	NOUN	NNS	Number=Plur	0	root	0:root	_
 7	on	on	ADP	IN	_	10	case	10:case	_
@@ -770,7 +770,7 @@
 1	Sensations	sensation	NOUN	NNS	Number=Plur	5	nsubj:pass	5:nsubj:pass|10:nsubj:pass|17:nsubj:pass	Discourse=explanation-evidence:73->57:3:_|Entity=(101-abstract-new-cf2-1-sgl)
 2	and	and	CCONJ	CC	_	3	cc	3:cc	_
 3	information	information	NOUN	NN	Number=Sing	1	conj	1:conj:and|5:nsubj:pass	Entity=(102-abstract-new-cf3-1-sgl)
-4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	5:aux:pass|10:aux:pass|17:aux:pass	_
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	5:aux:pass|10:aux:pass|17:aux:pass	_
 5	received	receive	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 6	by	by	ADP	IN	_	8	case	8:case	_
 7	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(103-object-new-cf4-2-sgl(32-person-giv:inact-cf1-1-ana)
@@ -808,7 +808,7 @@
 10	,	,	PUNCT	,	_	4	punct	4:punct	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Discourse=context-background:78->82:1:_|Entity=(12-object-giv:inact-cf1-2-coref
 12	brain	brain	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	Entity=12)
-13	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	14:aux	_
+13	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
 14	developed	develop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(110-abstract-new-cf4-3-coref
 16	file	file	NOUN	NN	Number=Sing	17	compound	17:compound	_
@@ -833,7 +833,7 @@
 6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(110-abstract-giv:act-cf1*-3-coref
 7	file	file	NOUN	NN	Number=Sing	8	compound	8:compound	_
 8	cabinet	cabinet	NOUN	NN	Number=Sing	4	obl	4:obl:in	Entity=110)111)
-9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	10:aux:pass	Discourse=same-unit_m:81->79:1:_
+9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux:pass	10:aux:pass	Discourse=same-unit_m:81->79:1:_
 10	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 11	concepts	concept	NOUN	NNS	Number=Plur	10	xcomp	10:xcomp	Entity=(6-abstract-giv:inact-cf2-1-coref)|SpaceAfter=No
 12	.	.	PUNCT	.	_	10	punct	10:punct	_
@@ -844,7 +844,7 @@
 # transition = smooth-shift
 # text = Concepts are categories or groupings of linguistic information, images, ideas, or memories, such as life experiences.
 1	Concepts	concept	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj|5:nsubj	Discourse=joint-other_m:82->42:4:_|Entity=(6-abstract-giv:act-cf1*-1-coref)|XML=<hi rend:::"bold"></hi>
-2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
 3	categories	category	NOUN	NNS	Number=Plur	0	root	0:root	Entity=(6-abstract-giv:act-cf1*-1,3-pred(112-abstract-new-cf2-1-sgl)
 4	or	or	CCONJ	CC	_	5	cc	5:cc	_
 5	groupings	grouping	NOUN	NNS	Number=Plur	3	conj	3:conj:or	Entity=(113-abstract-new-cf3-16-sgl
@@ -871,7 +871,7 @@
 # transition = continue
 # text = Concepts are, in many ways, big ideas that are generated by observing details, and categorizing and combining these details into cognitive structures.
 1	Concepts	concept	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj	Discourse=elaboration-additional:83->82:0:sem-lxchn-597,606,611,626+sem-rpt-597,618+sem-lxchn-608,618|Entity=(6-abstract-giv:act-cf1*-1-coref)
-2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	SpaceAfter=No
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	in	in	ADP	IN	_	6	case	6:case	_
 5	many	many	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
@@ -880,7 +880,7 @@
 8	big	big	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(6-abstract-giv:act-cf1*-2-pred
 9	ideas	idea	NOUN	NNS	Number=Plur	0	root	0:root|12:nsubj:pass	_
 10	that	that	PRON	WDT	PronType=Rel	12	nsubj:pass	9:ref	Discourse=elaboration-attribute:84->83:0:syn-mdf-626+syn-rlt-627,629
-11	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	12:aux:pass	_
+11	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux:pass	12:aux:pass	_
 12	generated	generate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	acl:relcl	9:acl:relcl	_
 13	by	by	SCONJ	IN	_	14	mark	14:mark	Discourse=mode-means:85->84:0:dm-by-630+syn-prs-631
 14	observing	observe	VERB	VBG	VerbForm=Ger|Voice=Act	12	advcl	12:advcl:by	_
@@ -937,7 +937,7 @@
 # newpar
 # newpar_block = p (5 s)
 1	Concepts	concept	NOUN	NNS	Number=Plur	3	nsubj:pass	3:nsubj:pass	Discourse=adversative-concession:90->93:2:dm-however-700|Entity=(6-abstract-giv:act-cf2-1-coref)
-2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	3:aux:pass	_
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	3:aux:pass	_
 3	informed	inform	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 4	by	by	ADP	IN	_	7	case	7:case	_
 5	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(126-abstract-new-cf7-3-sgl(32-person-giv:inact-cf3-1-ana)
@@ -957,7 +957,7 @@
 19	chapter	chapter	NOUN	NN	Number=Sing	11	obl	11:obl:in	Entity=128)|SpaceAfter=No
 20	)	)	PUNCT	-RRB-	_	11	punct	11:punct	_
 21	and	and	CCONJ	CC	_	23	cc	23:cc	Discourse=joint-list_m:92->90:1:dm-and-690+grf-smc-699
-22	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	cop	23:cop	_
+22	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	cop	23:cop	_
 23	present	present	ADJ	JJ	Degree=Pos	3	conj	3:conj:and	_
 24	in	in	ADP	IN	_	26	case	26:case	_
 25	every	every	DET	DT	PronType=Ind	26	det	26:det	Entity=(129-abstract-new-cf5-2-sgl
@@ -976,14 +976,14 @@
 38	to	to	PART	TO	_	39	mark	39:mark	Discourse=purpose-attribute:94->93:0:syn-mdf-706+syn-nfn-707
 39	notice	notice	VERB	VB	VerbForm=Inf|Voice=Act	37	acl	37:acl:to	_
 40	concepts	concept	NOUN	NNS	Number=Plur	39	obj	39:obj	Entity=(6-abstract-giv:act-cf2-1-coref)132)131)
-41	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	cop	44:cop	Discourse=same-unit_m:95->93:1:_
+41	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	44	cop	44:cop	Discourse=same-unit_m:95->93:1:_
 42	inside	inside	ADP	IN	_	44	case	44:case	_
 43	a	a	DET	DT	Definite=Ind|PronType=Art	44	det	44:det	Entity=(133-place-new-cf11-2-sgl
 44	classroom	classroom	NOUN	NN	Number=Sing	3	parataxis	3:parataxis	SpaceAfter=No
 45	,	,	PUNCT	,	_	49	punct	49:punct	_
 46	where	where	ADV	WRB	PronType=Rel	49	advmod	49:advmod	Discourse=elaboration-attribute:96->95:0:syn-mdf-713+syn-rlt-715,718
 47	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	49	nsubj:pass	49:nsubj:pass	Entity=(6-abstract-giv:act-cf2-1-ana)
-48	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	49	aux:pass	49:aux:pass	_
+48	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	49	aux:pass	49:aux:pass	_
 49	discussed	discuss	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	44	acl:relcl	44:acl:relcl	_
 50	explicitly	explicitly	ADV	RB	Degree=Pos	49	advmod	49:advmod	Entity=133)|SpaceAfter=No
 51	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -1012,7 +1012,7 @@
 17	individual	individual	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
 18	events	event	NOUN	NNS	Number=Plur	14	obl	14:obl:than|21:nsubj	_
 19	that	that	PRON	WDT	PronType=Rel	21	nsubj	18:ref	Discourse=elaboration-attribute:99->98:0:syn-mdf-738+syn-rlt-739,741
-20	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	21:aux	_
+20	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	21:aux	_
 21	happened	happen	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	18	acl:relcl	18:acl:relcl	_
 22	in	in	ADP	IN	_	25	case	25:case	_
 23-24	America’s	_	_	_	_	_	_	_	_
@@ -1117,7 +1117,7 @@
 # newpar_block = p (5 s)
 1	Concepts	concept	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj|6:nsubj|13:nsubj	Discourse=elaboration-additional:108->93:4:sem-rpt-670,815|Entity=(6-abstract-giv:inact-cf1-1-coref)
 2	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
-3	be	be	AUX	VB	VerbForm=Inf	4	cop	4:cop	_
+3	be	be	AUX	VB	VerbForm=Inf|Voice=Act	4	cop	4:cop	_
 4	complex	complex	ADJ	JJ	Degree=Pos	0	root	0:root	_
 5	and	and	CCONJ	CC	_	6	cc	6:cc	_
 6	abstract	abstract	ADJ	JJ	Degree=Pos	4	conj	4:conj:and	SpaceAfter=No
@@ -1152,7 +1152,7 @@
 9	stages	stage	NOUN	NNS	Number=Plur	14	nsubj	14:nsubj	_
 10	of	of	ADP	IN	_	11	case	11:case	_
 11	development	development	NOUN	NN	Number=Sing	9	nmod	9:nmod:of	Entity=(158-abstract-new-cf4-1-sgl)156)
-12	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_
+12	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	14:cop	_
 13	abstract	abstract	ADJ	JJ	Degree=Pos	14	amod	14:amod	Entity=(156-abstract-giv:act-cf1-2-pred
 14	concepts	concept	NOUN	NNS	Number=Plur	0	root	0:root	Entity=156)|SpaceAfter=No
 15	.	.	PUNCT	.	_	14	punct	14:punct	_
@@ -1168,7 +1168,7 @@
 4	like	like	ADP	IN	_	5	case	5:case	_
 5	tolerance	tolerance	NOUN	NN	Number=Sing	2	nmod	2:nmod:like	Entity=(160-abstract-new-cf3-1-sgl)159)|SpaceAfter=No
 6	,	,	PUNCT	,	_	2	punct	2:punct	_
-7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	8:aux:pass	_
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux:pass	8:aux:pass	_
 8	agreed	agree	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 9	upon	upon	ADP	IN	_	8	obl	8:obl	_
 10	by	by	ADP	IN	_	12	case	12:case	_
@@ -1177,8 +1177,8 @@
 13	,	,	PUNCT	,	_	18	punct	18:punct	_
 14	because	because	SCONJ	IN	_	18	mark	18:mark	Discourse=causal-cause:111->110:0:dm-because-862
 15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj:pass	18:nsubj:pass	Entity=(159-abstract-giv:act-cf1-1-ana)
-16	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	18:aux	_
-17	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	aux:pass	18:aux:pass	_
+16	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	18:aux	_
+17	been	be	AUX	VBN	Tense=Past|VerbForm=Part|Voice=Act	18	aux:pass	18:aux:pass	_
 18	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	advcl	8:advcl:because	_
 19	in	in	ADP	IN	_	21	case	21:case	_
 20	various	various	ADJ	JJ	Degree=Pos	21	amod	21:amod	Entity=(162-abstract-new-cf4-2-sgl
@@ -1211,7 +1211,7 @@
 15	birthday	birthday	NOUN	NN	Number=Sing	16	compound	16:compound	Entity=(169-event-new-cf7-1-sgl)
 16	traditions	tradition	NOUN	NNS	Number=Plur	6	conj	2:nmod:like|6:conj:or	Entity=167)165)164)|SpaceAfter=No
 17	,	,	PUNCT	,	_	2	punct	2:punct	_
-18	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	19:cop	_
+18	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	19:cop	_
 19	personal	personal	ADJ	JJ	Degree=Pos	0	root	0:root	_
 20	and	and	CCONJ	CC	_	21	cc	21:cc	_
 21	individualized	individualized	ADJ	JJ	Degree=Pos	19	conj	19:conj:and	SpaceAfter=No
@@ -1266,7 +1266,7 @@
 7	to	to	PART	TO	_	8	mark	8:mark	Discourse=purpose-goal:117->116:0:syn-nfn-929
 8	organize	organize	VERB	VB	VerbForm=Inf|Voice=Act	3	advcl	3:advcl:to	_
 9	information	information	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=(178-abstract-new-cf5-1-sgl)177)
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	Discourse=same-unit_m:118->115:1:_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	Discourse=same-unit_m:118->115:1:_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(177-abstract-giv:act-cf2-2-coref
 12	identification	identification	NOUN	NN	Number=Sing	0	root	0:root	_
 13	of	of	ADP	IN	_	14	case	14:case	_
@@ -1275,7 +1275,7 @@
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(179-abstract-new-cf6-2-sgl
 17	concepts	concept	NOUN	NNS	Number=Plur	12	nmod	12:nmod:for	_
 18	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	nsubj	20:nsubj	Discourse=elaboration-attribute:119->118:0:syn-mdf-939+syn-rlt-942|Entity=(4-person-giv:act-cf1-1-ana)
-19	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	20	aux	20:aux	_
+19	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	20:aux	_
 20	developed	develop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	17	acl:relcl	17:acl:relcl	Entity=179)7)177)|SpaceAfter=No
 21	.	.	PUNCT	.	_	12	punct	12:punct	_
 
@@ -1286,7 +1286,7 @@
 # text = A prototype is the best example or representation of a concept.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	Discourse=joint-other_m:120->82:4:_|Entity=(180-abstract-new-cf1-2-coref
 2	prototype	prototype	NOUN	NN	Number=Sing	6	nsubj	6:nsubj|8:nsubj	Entity=180)|XML=<hi rend:::"bold"></hi>
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(180-abstract-giv:act-cf1-3,5-coref
 5	best	good	ADJ	JJS	Degree=Sup	6	amod	6:amod	_
 6	example	example	NOUN	NN	Number=Sing	0	root	0:root	_
@@ -1315,7 +1315,7 @@
 11	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(183-abstract-new-cf2-2-sgl(4-person-giv:inact-cf1-1-ana)
 12	prototype	prototype	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=183)
 13	could	could	AUX	MD	VerbForm=Fin	15	aux	15:aux	_
-14	be	be	AUX	VB	VerbForm=Inf	15	cop	15:cop	_
+14	be	be	AUX	VB	VerbForm=Inf|Voice=Act	15	cop	15:cop	_
 15	Rosa	Rosa	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(184-person-new-cf4-1,2-coref-Rosa_Parks
 16	Parks	Parks	PROPN	NNP	Number=Sing	15	flat	15:flat	Entity=184)|SpaceAfter=No
 17	.	.	PUNCT	.	_	15	punct	15:punct	_
@@ -1339,7 +1339,7 @@
 12	,	,	PUNCT	,	_	13	punct	13:punct	_
 13	Alabama	Alabama	PROPN	NNP	Number=Sing	11	appos	11:appos	Entity=(189-place-new-cf5-1-sgl-Alabama)188)187)186)185)|SpaceAfter=No
 14	,	,	PUNCT	,	_	3	punct	3:punct	_
-15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	18:cop	_
 16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	Entity=(185-event-giv:act-cf1-3-pred
 17	recognizable	recognizable	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
 18	example	example	NOUN	NN	Number=Sing	0	root	0:root	_
@@ -1357,7 +1357,7 @@
 2	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(190-abstract-new-cf4-2-sgl(4-person-giv:inact-cf3-1-ana)
 3	prototype	prototype	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=190)
 4	could	could	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
-5	be	be	AUX	VB	VerbForm=Inf	6	cop	6:cop	_
+5	be	be	AUX	VB	VerbForm=Inf|Voice=Act	6	cop	6:cop	_
 6	Mohandas	Mohandas	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(191-person-new-cf1-1,2-coref-Mahatma_Gandhi
 7	Gandhi	Gandhi	PROPN	NNP	Number=Sing	6	flat	6:flat	Entity=191)|SpaceAfter=No
 8	,	,	PUNCT	,	_	10	punct	10:punct	_
@@ -1369,7 +1369,7 @@
 14	“	''	PUNCT	``	_	15	punct	15:punct	SpaceAfter=No|XML=<q>
 15	Mahatma	Mahatma	PROPN	NNP	Number=Sing	20	nsubj	20:nsubj	Entity=(192-abstract-new-cf2-1-coref)|SpaceAfter=No
 16	”	''	PUNCT	''	_	15	punct	15:punct	XML=</q>
-17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	20:cop	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	cop	20:cop	_
 18	an	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(192-abstract-giv:act-cf2-3-pred
 19	honorific	honorific	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
 20	title	title	NOUN	NN	Number=Sing	6	parataxis	6:parataxis	Entity=192)|SpaceAfter=No
@@ -1464,7 +1464,7 @@
 # text = Although he was not always successful in preventing violence around him, his life provides a steadfast example of the civil disobedience prototype (Constitutional Rights Foundation, 2013).
 1	Although	although	SCONJ	IN	_	6	mark	6:mark	Discourse=adversative-concession:133->135:0:dm-although-1076
 2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(191-person-giv:act-cf1*-1-ana-Mahatma_Gandhi)
-3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 4	not	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	_
 5	always	always	ADV	RB	_	6	advmod	6:advmod	_
 6	successful	successful	ADJ	JJ	Degree=Pos	15	advcl	15:advcl:although	_
@@ -1503,7 +1503,7 @@
 2	as	as	SCONJ	IN	_	6	mark	6:mark	_
 3	concepts	concept	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj|8:nsubj	Entity=(6-abstract-giv:inact-cf3-1-coref)
 4	can	can	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
-5	be	be	AUX	VB	VerbForm=Inf	6	cop	6:cop	_
+5	be	be	AUX	VB	VerbForm=Inf|Voice=Act	6	cop	6:cop	_
 6	abstract	abstract	ADJ	JJ	Degree=Pos	12	advcl	12:advcl:as	_
 7	or	or	CCONJ	CC	_	8	cc	8:cc	_
 8	concrete	concrete	ADJ	JJ	Degree=Pos	6	conj	6:conj:or|12:advcl:as	SpaceAfter=No
@@ -1516,7 +1516,7 @@
 15	between	between	ADP	IN	_	16	case	16:case	_
 16	concepts	concept	NOUN	NNS	Number=Plur	14	nmod	14:nmod:between|19:nsubj	Entity=(211-abstract-new-cf2-1-coref
 17	that	that	PRON	WDT	PronType=Rel	19	nsubj	16:ref	Discourse=elaboration-attribute:139->138:0:syn-mdf-1122+syn-rlt-1123,1125
-18	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	19:cop	_
+18	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	19:cop	_
 19	functions	function	NOUN	NNS	Number=Plur	16	acl:relcl	16:acl:relcl	Entity=(211-abstract-giv:act-cf2-1-coref
 20	of	of	ADP	IN	_	23	case	23:case	_
 21	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	23:nmod:poss	Entity=(212-abstract-new-cf6-3-sgl(32-person-giv:act-cf1-1-ana)
@@ -1528,7 +1528,7 @@
 27	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=same-unit_m:140->138:1:_
 28	those	that	PRON	DT	Number=Plur|PronType=Dem	16	conj	14:nmod:between|16:conj:and|32:nsubj	Entity=(214-abstract-new-cf8-1-sgl
 29	that	that	PRON	WDT	PronType=Rel	32	nsubj	28:ref	Discourse=elaboration-attribute:141->140:0:syn-mdf-1134+syn-rlt-1135,1138
-30	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	cop	32:cop	_
+30	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	cop	32:cop	_
 31	more	more	ADV	RBR	Degree=Cmp	32	advmod	32:advmod	_
 32	artificial	artificial	ADJ	JJ	Degree=Pos	28	acl:relcl	28:acl:relcl	_
 33	in	in	ADP	IN	_	34	case	34:case	_
