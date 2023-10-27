@@ -17,7 +17,7 @@
 # text = The Chatham Islands
 # newpar
 # newpar_block = head (1 s)
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=organization-heading:1->14:6|Entity=(1-place-new-cf1-2,3-coref-Chatham_Islands
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=organization-heading:1->14:6:grf-ly-+sem-rpt-1-3,107-109|Entity=(1-place-new-cf1-2,3-coref-Chatham_Islands
 2	Chatham	Chatham	PROPN	NNP	Number=Sing	3	compound	3:compound	_
 3	Islands	Island	PROPN	NNPS	Number=Plur	0	root	0:root	Entity=1)
 
@@ -28,10 +28,10 @@
 # text = The Chatnam Islands (Rekohu in the indigenous Moriori language) are the eastern-most settled islands in New Zealand.
 # newpar
 # newpar_block = p (3 s)
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=context-background:2->14:5|Entity=(1-place-giv:act-cf1*-2,3-coref-Chatham_Islands
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=context-background:2->14:5:sem-rpt-4-6,107-109|Entity=(1-place-giv:act-cf1*-2,3-coref-Chatham_Islands
 2	Chatnam	Chatham	PROPN	NNP	Number=Sing|Typo=Yes	3	compound	3:compound	CorrectForm=Chatham|XML=<ref target:::"http://www.discoverthechathamislands.co.nz/index.cfm"><sic ana:::"Chatham"></sic>
 3	Islands	Island	PROPN	NNPS	Number=Plur	18	nsubj	18:nsubj	Entity=1)|XML=</ref>
-4	(	(	PUNCT	-LRB-	_	5	punct	5:punct	Discourse=elaboration-additional:3->2:0|SpaceAfter=No
+4	(	(	PUNCT	-LRB-	_	5	punct	5:punct	Discourse=elaboration-additional:3->2:0:sem-synym-4-6,8+grf-prn-7,14|SpaceAfter=No
 5	Rekohu	Rekohu	PROPN	NNP	Number=Sing	3	appos	3:appos	Entity=(1-place-giv:act-cf1*-1-appos-Chatham_Islands)|XML=<hi rend:::"italic"></hi>
 6	in	in	ADP	IN	_	10	case	10:case	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(2-abstract-new-cf2-4-sgl-Moriori_language
@@ -39,12 +39,12 @@
 9	Moriori	Moriori	PROPN	NNP	Number=Sing	10	compound	10:compound	_
 10	language	language	NOUN	NN	Number=Sing	5	nmod	5:nmod:in	Entity=2)|SpaceAfter=No
 11	)	)	PUNCT	-RRB-	_	5	punct	5:punct	_
-12	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	Discourse=same-unit_m:4->2:1
+12	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	Discourse=same-unit_m:4->2:1:_
 13	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(1-place-giv:act-cf1*-6-coref-Chatham_Islands
 14	eastern	eastern	ADJ	JJ	Degree=Pos	16	amod	16:amod	SpaceAfter=No|XML=<w>
 15	-	-	PUNCT	HYPH	_	14	punct	14:punct	SpaceAfter=No
-16	most	most	ADJ	JJS	Degree=Sup	17	amod	17:amod	XML=</w>
-17	settled	settle	VERB	VBN	Tense=Past|VerbForm=Part	18	amod	18:amod	_
+16	most	most	ADJ	JJS	Degree=Sup	18	amod	18:amod	XML=</w>
+17	settled	settle	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	amod	18:amod	_
 18	islands	island	NOUN	NNS	Number=Plur	0	root	0:root	_
 19	in	in	ADP	IN	_	20	case	20:case	_
 20	New	New	PROPN	NNP	Number=Sing	18	nmod	18:nmod:in	Entity=(3-place-new-cf3-1,2-coref-New_Zealand|XML=<ref target:::"https://en.wikivoyage.org/wiki/New_Zealand">
@@ -56,7 +56,7 @@
 # s_type = decl
 # transition = continue
 # text = The islands are in their own time zone, 45 minutes ahead of New Zealand time;
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:5->2:2|Entity=(1-place-giv:act-cf1*-2-coref-Chatham_Islands
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:5->2:2:sem-synym-4-6,26-27+sem-rpt-23-24,39-40|Entity=(1-place-giv:act-cf1*-2-coref-Chatham_Islands
 2	islands	island	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj	Entity=1)
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
 4	in	in	ADP	IN	_	8	case	8:case	_
@@ -79,14 +79,14 @@
 # s_type = decl
 # transition = continue
 # text = the International Date Line jogs eastward to keep them on the same calendar day as the rest of New Zealand.
-1	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Discourse=elaboration-additional:6->5:0|Entity=(7-abstract-new-cf5-2,3,4-sgl-International_Date_Line
+1	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Discourse=elaboration-additional:6->5:0:ref-prs-26-27,51+sem-mrnym-39-40,58-62+sem-rpt-39-40,61-62|Entity=(7-abstract-new-cf5-2,3,4-sgl-International_Date_Line
 2	International	International	ADJ	NNP	Degree=Pos|Number=Sing	4	amod	4:amod	_
 3	Date	Date	PROPN	NNP	Number=Sing	4	compound	4:compound	_
 4	Line	Line	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=7)
-5	jogs	jog	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	jogs	jog	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 6	eastward	eastward	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
-7	to	to	PART	TO	_	8	mark	8:mark	Discourse=purpose-goal:7->6:0
-8	keep	keep	VERB	VB	VerbForm=Inf	5	advcl	5:advcl:to	_
+7	to	to	PART	TO	_	8	mark	8:mark	Discourse=purpose-goal:7->6:0:syn-nfn-49
+8	keep	keep	VERB	VB	VerbForm=Inf|Voice=Act	5	advcl	5:advcl:to	_
 9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obj	8:obj	Entity=(1-place-giv:act-cf1*-1-ana-Chatham_Islands)
 10	on	on	ADP	IN	_	14	case	14:case	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(8-time-acc:com-cf3-4-sgl
@@ -108,9 +108,9 @@
 # text = The islands lie 860 km east of Christchurch, in the middle of the "Roaring Forties".
 # newpar
 # newpar_block = p (3 s)
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:8->2:3|Entity=(1-place-giv:act-cf1*-2-coref-Chatham_Islands
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:8->2:3:sem-synym-4-6,64-65|Entity=(1-place-giv:act-cf1*-2-coref-Chatham_Islands
 2	islands	island	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj|6:nsubj:xsubj	Entity=1)
-3	lie	lie	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	lie	lie	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	860	860	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	5:nummod	Entity=(10-abstract-new-cf5-2-sgl
 5	km	kilometer	NOUN	NNS	Number=Plur	6	obl:npmod	6:obl:npmod	Entity=10)
 6	east	east	ADJ	JJ	Degree=Pos	3	xcomp	3:xcomp	_
@@ -123,7 +123,7 @@
 13	of	of	ADP	IN	_	17	case	17:case	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(13-place-new-cf3-3,4-sgl-Roaring_Forties
 15	"	''	PUNCT	``	_	17	punct	17:punct	SpaceAfter=No|XML=<q>
-16	Roaring	Roar	VERB	NNP	VerbForm=Ger	17	amod	17:amod	_
+16	Roaring	Roar	VERB	NNP	VerbForm=Ger|Voice=Act	17	amod	17:amod	_
 17	Forties	Forties	PROPN	NNPS	Number=Plur	12	nmod	12:nmod:of	SpaceAfter=No
 18	"	''	PUNCT	''	_	17	punct	17:punct	Entity=13)12)|SpaceAfter=No|XML=</q>
 19	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -133,13 +133,13 @@
 # s_type = decl
 # transition = continue
 # text = Steeped in culture and history, these islands are on the very edge of civilisation.
-1	Steeped	steep	VERB	VBN	Tense=Past|VerbForm=Part	8	acl	8:acl	Discourse=evaluation-comment:9->10:0
+1	Steeped	steep	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	acl	8:acl	Discourse=evaluation-comment:9->10:0:_
 2	in	in	ADP	IN	_	3	case	3:case	_
 3	culture	culture	NOUN	NN	Number=Sing	1	obl	1:obl:in	Entity=(14-abstract-new-cf3-1-coref)
 4	and	and	CCONJ	CC	_	5	cc	5:cc	_
 5	history	history	NOUN	NN	Number=Sing	3	conj	1:obl:in|3:conj:and	Entity=(15-abstract-new-cf4-1-sgl)|SpaceAfter=No
 6	,	,	PUNCT	,	_	1	punct	1:punct	_
-7	these	this	DET	DT	Number=Plur|PronType=Dem	8	det	8:det	Discourse=joint-other_m:10->8:0|Entity=(1-place-giv:act-cf1*-2-coref-Chatham_Islands
+7	these	this	DET	DT	Number=Plur|PronType=Dem	8	det	8:det	Discourse=joint-other_m:10->8:0:_|Entity=(1-place-giv:act-cf1*-2-coref-Chatham_Islands
 8	islands	island	NOUN	NNS	Number=Plur	13	nsubj	13:nsubj	Entity=1)
 9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_
 10	on	on	ADP	IN	_	13	case	13:case	_
@@ -155,11 +155,11 @@
 # s_type = imp
 # transition = continue
 # text = Experience Moriori culture, experience Rekohu.
-1	Experience	experience	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=explanation-motivation:11->14:4
+1	Experience	experience	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	Discourse=explanation-motivation:11->14:4:_
 2	Moriori	Moriori	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(14-abstract-giv:act-cf2-2-coref
 3	culture	culture	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=14)|SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
-5	experience	experience	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	parataxis	1:parataxis	Discourse=joint-list_m:12->11:0
+5	experience	experience	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin|Voice=Act	1	parataxis	1:parataxis	Discourse=joint-list_m:12->11:0:_
 6	Rekohu	Rekohu	PROPN	NNP	Number=Sing	5	obj	5:obj	Entity=(1-place-giv:act-cf1*-1-coref-Chatham_Islands)|SpaceAfter=No
 7	.	.	PUNCT	.	_	1	punct	1:punct	_
 
@@ -170,7 +170,7 @@
 # text = Understand
 # newpar
 # newpar_block = head (1 s)
-1	Understand	understand	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:13->14:2
+1	Understand	understand	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	Discourse=organization-heading:13->14:2:grf-ly-
 
 # sent_id = GUM_voyage_chatham-9
 # s_prominence = 1
@@ -182,7 +182,7 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=ROOT:14:0|Entity=(1-place-giv:inact-cf2-2,3-coref-Chatham_Islands
 2	Chatham	Chatham	PROPN	NNP	Number=Sing	3	compound	3:compound	_
 3	Islands	Island	PROPN	NNPS	Number=Plur	4	nsubj	4:nsubj	Entity=1)
-4	consist	consist	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+4	consist	consist	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	of	of	ADP	IN	_	8	case	8:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Bridge=1<17|Entity=(17-place-acc:inf-cf1-3-coref-Chatham_Island
 7	main	main	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
@@ -219,21 +219,21 @@
 # s_type = decl
 # transition = establishment
 # text = The islands are volcanic in origin and have a unique and sensitive habitat that supports many rare and endangered species.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:15->14:0|Entity=(1-place-giv:act-cf1*-2-coref-Chatham_Islands
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:15->14:0:sem-synym-107-109,141-142+sem-mrnym-135-139,141-142|Entity=(1-place-giv:act-cf1*-2-coref-Chatham_Islands
 2	islands	island	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj|8:nsubj	Entity=1)
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 4	volcanic	volcanic	ADJ	JJ	Degree=Pos	0	root	0:root	_
 5	in	in	ADP	IN	_	6	case	6:case	_
 6	origin	origin	NOUN	NN	Number=Sing	4	obl	4:obl:in	_
-7	and	and	CCONJ	CC	_	8	cc	8:cc	Discourse=joint-list_m:16->15:0
-8	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj:and	_
+7	and	and	CCONJ	CC	_	8	cc	8:cc	Discourse=joint-list_m:16->15:0:dm-and-147
+8	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	4:conj:and	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Bridge=1<22|Entity=(22-place-acc:inf-cf2-5-sgl
 10	unique	unique	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
 11	and	and	CCONJ	CC	_	12	cc	12:cc	_
 12	sensitive	sensitive	ADJ	JJ	Degree=Pos	10	conj	10:conj:and|13:amod	_
 13	habitat	habitat	NOUN	NN	Number=Sing	8	obj	8:obj|15:nsubj	_
-14	that	that	PRON	WDT	PronType=Rel	15	nsubj	13:ref	Discourse=elaboration-attribute:17->16:0
-15	supports	support	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	13:acl:relcl	_
+14	that	that	PRON	WDT	PronType=Rel	15	nsubj	13:ref	Discourse=elaboration-attribute:17->16:0:syn-mdf-153+syn-rlt-154-155
+15	supports	support	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	13:acl:relcl	_
 16	many	many	ADJ	JJ	Degree=Pos	20	amod	20:amod	Entity=(23-animal-new-cf3-5-sgl
 17	rare	rare	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
 18	and	and	CCONJ	CC	_	19	cc	19:cc	_
@@ -248,7 +248,7 @@
 # text = The original people of the islands are the Moriori, who were descended from the Maori of mainland New Zealand, but who developed their own culture and variant of the language.
 # newpar
 # newpar_block = p (2 s)
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=context-background:18->21:1|Entity=(24-person-new-cf1-3-coref-Moriori
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=context-background:18->21:1:sem-synym-162-167,179-181,200-201,207-208+sem-mrnym-176-181,197-201|Entity=(24-person-new-cf1-3-coref-Moriori
 2	original	original	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	people	person	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj	_
 4	of	of	ADP	IN	_	6	case	6:case	_
@@ -258,7 +258,7 @@
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(24-person-giv:act-cf1-2-coref-Moriori
 9	Moriori	Moriori	PROPN	NNP	Number=Sing	0	root	0:root|13:nsubj:pass	SpaceAfter=No
 10	,	,	PUNCT	,	_	13	punct	13:punct	_
-11	who	who	PRON	WP	PronType=Rel	13	nsubj:pass	9:ref	Discourse=elaboration-attribute:19->18:0
+11	who	who	PRON	WP	PronType=Rel	13	nsubj:pass	9:ref	Discourse=elaboration-attribute:19->18:0:syn-mdf-170+syn-rlt-172,174,184
 12	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	13:aux:pass	_
 13	descended	descend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	acl:relcl	9:acl:relcl	_
 14	from	from	ADP	IN	_	16	case	16:case	_
@@ -269,9 +269,9 @@
 19	New	New	PROPN	NNP	Number=Sing	16	nmod	16:nmod:of	Entity=(3-place-giv:inact-cf4-1,2-coref-New_Zealand
 20	Zealand	Zealand	PROPN	NNP	Number=Sing	19	flat	19:flat	Entity=3)26)25)|SpaceAfter=No
 21	,	,	PUNCT	,	_	24	punct	24:punct	_
-22	but	but	CCONJ	CC	_	24	cc	24:cc	Discourse=adversative-contrast_m:20->19:0
+22	but	but	CCONJ	CC	_	24	cc	24:cc	Discourse=adversative-contrast_m:20->19:0:dm-but-183
 23	who	who	PRON	WP	PronType=Rel	24	nsubj	24:nsubj	_
-24	developed	develop	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	9:acl:relcl|13:conj:but	_
+24	developed	develop	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	9:acl:relcl|13:conj:but	_
 25	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Entity=(14-abstract-giv:inact-cf3-3-coref(24-person-giv:act-cf1-1-ana-Moriori)
 26	own	own	ADJ	JJ	Degree=Pos	27	amod	27:amod	_
 27	culture	culture	NOUN	NN	Number=Sing	24	obj	24:obj	Entity=14)
@@ -287,18 +287,18 @@
 # s_type = decl
 # transition = smooth-shift
 # text = In 1835 Maori settlers from the mainland arrived, massacred and enslaved the Moriori.
-1	In	in	ADP	IN	_	2	case	2:case	Discourse=joint-other_m:21->14:1
+1	In	in	ADP	IN	_	2	case	2:case	Discourse=joint-other_m:21->14:1:_
 2	1835	1835	NUM	CD	NumForm=Digit|NumType=Card	8	obl	8:obl:in	Entity=(29-time-new-cf4-1-sgl)|XML=<date when:::"1835"></date>
 3	Maori	Maori	ADJ	JJ	Degree=Pos	4	amod	4:amod	Bridge=25<30|Entity=(30-person-acc:inf-cf3-2-sgl
 4	settlers	settler	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj|10:nsubj|12:nsubj	_
 5	from	from	ADP	IN	_	7	case	7:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(26-place-giv:act-cf2-2-coref
 7	mainland	mainland	NOUN	NN	Number=Sing	4	nmod	4:nmod:from	Entity=26)30)
-8	arrived	arrive	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+8	arrived	arrive	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	10:punct	_
-10	massacred	massacre	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	conj	8:conj:and	Discourse=joint-sequence_m:22->21:0
-11	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=joint-sequence_m:23->21:0
-12	enslaved	enslave	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	conj	8:conj:and	_
+10	massacred	massacre	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	8:conj:and	Discourse=joint-sequence_m:22->21:0:lex-indwd-196
+11	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=joint-sequence_m:23->21:0:dm-and-205
+12	enslaved	enslave	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	8:conj:and	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(24-person-giv:act-cf1*-2-coref-Moriori
 14	Moriori	Moriori	PROPN	NNP	Number=Sing	12	obj	12:obj	Entity=24)|SpaceAfter=No
 15	.	.	PUNCT	.	_	8	punct	8:punct	_
@@ -310,7 +310,7 @@
 # text = Get in
 # newpar
 # newpar_block = head (1 s)
-1	Get	get	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:24->26:7
+1	Get	get	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	Discourse=organization-heading:24->26:7:grf-ly-
 2	in	in	ADV	RB	Degree=Pos	1	advmod	1:advmod	_
 
 # sent_id = GUM_voyage_chatham-14
@@ -320,7 +320,7 @@
 # text = By plane
 # newpar
 # newpar_block = head (1 s)
-1	By	by	ADP	IN	_	2	case	2:case	Discourse=organization-heading:25->26:5
+1	By	by	ADP	IN	_	2	case	2:case	Discourse=organization-heading:25->26:5:grf-ly-
 2	plane	plane	NOUN	NN	Number=Sing	0	root	0:root	Entity=(31-object-new-cf1-1-sgl)
 
 # sent_id = GUM_voyage_chatham-15
@@ -330,21 +330,21 @@
 # text = The only way for visitors to travel to the Chathams is via scheduled or chartered air service.
 # newpar
 # newpar_block = p (4 s)
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint-other_m:26->14:3|Entity=(32-abstract-new-cf3-3-coref
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint-other_m:26->14:3:_|Entity=(32-abstract-new-cf3-3-coref
 2	only	only	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	way	way	NOUN	NN	Number=Sing	17	nsubj	17:nsubj	Entity=32)
-4	for	for	ADP	IN	_	5	case	5:case	Discourse=purpose-attribute:27->26:0
+4	for	for	ADP	IN	_	5	case	5:case	Discourse=purpose-attribute:27->26:0:dm-for-217+syn-nfn-219
 5	visitors	visitor	NOUN	NNS	Number=Plur	3	nmod	3:nmod:for	Entity=(33-person-new-cf4-1-sgl)
 6	to	to	PART	TO	_	7	mark	7:mark	_
-7	travel	travel	VERB	VB	VerbForm=Inf	5	acl	5:acl:to	_
+7	travel	travel	VERB	VB	VerbForm=Inf|Voice=Act	5	acl	5:acl:to	_
 8	to	to	ADP	IN	_	10	case	10:case	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(1-place-giv:inact-cf1-2-coref-Chatham_Islands
 10	Chathams	Chatham	PROPN	NNPS	Number=Plur	7	obl	7:obl:to	Entity=1)
-11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	17:cop	Discourse=same-unit_m:28->26:1
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	17:cop	Discourse=same-unit_m:28->26:1:_
 12	via	via	ADP	IN	_	17	case	17:case	_
-13	scheduled	schedule	VERB	VBN	Tense=Past|VerbForm=Part	17	amod	17:amod	Bridge=32<34|Entity=(34-event-acc:inf-cf2-5-coref
+13	scheduled	schedule	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	amod	17:amod	Bridge=32<34|Entity=(34-event-acc:inf-cf2-5-coref
 14	or	or	CCONJ	CC	_	15	cc	15:cc	_
-15	chartered	charter	VERB	VBN	Tense=Past|VerbForm=Part	13	conj	13:conj:or|17:amod	_
+15	chartered	charter	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	conj	13:conj:or|17:amod	_
 16	air	air	NOUN	NN	Number=Sing	17	compound	17:compound	_
 17	service	service	NOUN	NN	Number=Sing	0	root	0:root	Entity=34)|SpaceAfter=No
 18	.	.	PUNCT	.	_	17	punct	17:punct	_
@@ -354,9 +354,9 @@
 # s_type = decl
 # transition = null
 # text = Air Chathams fly 5 days per week, from either Christchurch, Auckland or Wellington and, seasonally, from Napier.
-1	Air	Air	PROPN	NNP	Number=Sing	2	compound	2:compound	Discourse=elaboration-additional:29->26:2|Entity=(35-organization-new-cf2-1,2-coref-Air_Chathams|XML=<ref>
+1	Air	Air	PROPN	NNP	Number=Sing	2	compound	2:compound	Discourse=elaboration-additional:29->26:2:_|Entity=(35-organization-new-cf2-1,2-coref-Air_Chathams|XML=<ref>
 2	Chathams	Chatham	PROPN	NNPS	Number=Plur	3	nsubj	3:nsubj	Entity=35)|XML=</ref>
-3	fly	fly	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	fly	fly	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	5	5	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	5:nummod	Entity=(36-time-new-cf6-2-sgl
 5	days	day	NOUN	NNS	Number=Plur	3	obl:tmod	3:obl:tmod	Entity=36)
 6	per	per	ADP	IN	_	7	case	7:case	_
@@ -373,7 +373,7 @@
 17	,	,	PUNCT	,	_	16	punct	16:punct	_
 18	seasonally	seasonally	ADV	RB	Degree=Pos	21	orphan	19.1:advmod	SpaceAfter=No
 19	,	,	PUNCT	,	_	18	punct	18:punct	_
-19.1	fly	fly	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	_	_	3:conj:and	CopyOf=3
+19.1	fly	fly	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	3:conj:and	CopyOf=3
 20	from	from	ADP	IN	_	21	case	21:case	_
 21	Napier	Napier	PROPN	NNP	Number=Sing	11	conj	19.1:obl:from	Entity=(40-place-new-cf5-1-sgl-Napier%2C_New_Zealand)|SpaceAfter=No|XML=<ref></ref>
 22	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -383,15 +383,15 @@
 # s_type = decl
 # transition = null
 # text = The plane is based in the Chathams and flies to mainland New Zealand in the morning, then back to the Chathams in the afternoon.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=35<41|Discourse=elaboration-additional:30->29:0|Entity=(41-object-acc:inf-cf4-2-sgl
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=35<41|Discourse=elaboration-additional:30->29:0:sem-mrnym-232-233,254-255|Entity=(41-object-acc:inf-cf4-2-sgl
 2	plane	plane	NOUN	NN	Number=Sing	4	nsubj:pass	4:nsubj:pass|9:nsubj:pass	Entity=41)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 4	based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 5	in	in	ADP	IN	_	7	case	7:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(1-place-giv:inact-cf1-2-coref-Chatham_Islands
 7	Chathams	Chatham	PROPN	NNPS	Number=Plur	4	obl	4:obl:in	Entity=1)
-8	and	and	CCONJ	CC	_	9	cc	9:cc	Discourse=joint-list_m:31->30:0
-9	flies	fly	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj:and	_
+8	and	and	CCONJ	CC	_	9	cc	9:cc	Discourse=joint-list_m:31->30:0:dm-and-261
+9	flies	fly	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	4:conj:and	_
 10	to	to	ADP	IN	_	12	case	12:case	_
 11	mainland	mainland	ADJ	JJ	Degree=Pos	12	amod	12:amod	Entity=(26-place-giv:inact-cf2-2,3-coref
 12	New	New	PROPN	NNP	Number=Sing	9	obl	9:obl:to	Entity=(3-place-giv:inact-cf3-1,2-coref-New_Zealand
@@ -400,7 +400,7 @@
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(42-time-acc:com-cf5-2-sgl
 16	morning	morning	NOUN	NN	Number=Sing	9	obl	9:obl:in	Entity=42)|SpaceAfter=No
 17	,	,	PUNCT	,	_	22	punct	22:punct	_
-18	then	then	ADV	RB	PronType=Dem	22	advmod	22:advmod	Discourse=joint-sequence_m:32->31:0
+18	then	then	ADV	RB	PronType=Dem	22	advmod	22:advmod	Discourse=joint-sequence_m:32->31:0:dm-then-271
 19	back	back	ADV	RB	Degree=Pos	22	advmod	22:advmod	_
 20	to	to	ADP	IN	_	22	case	22:case	_
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(1-place-giv:act-cf1-2-coref-Chatham_Islands
@@ -415,14 +415,14 @@
 # s_type = decl
 # transition = establishment
 # text = As part of New Zealand, there are no passport or visa requirements and no border controls on arrival from the mainland.
-1	As	as	ADP	IN	_	2	case	2:case	Discourse=joint-other_m:33->26:3
+1	As	as	ADP	IN	_	2	case	2:case	Discourse=joint-other_m:33->26:3:_
 2	part	part	NOUN	NN	Number=Sing	8	obl	8:obl:as	_
 3	of	of	ADP	IN	_	4	case	4:case	_
 4	New	New	PROPN	NNP	Number=Sing	2	nmod	2:nmod:of	Entity=(3-place-giv:act-cf2-1,2-coref-New_Zealand
 5	Zealand	Zealand	PROPN	NNP	Number=Sing	4	flat	4:flat	Entity=3)|SpaceAfter=No
 6	,	,	PUNCT	,	_	2	punct	2:punct	_
 7	there	there	PRON	EX	PronType=Dem	8	expl	8:expl	_
-8	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+8	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 9	no	no	DET	DT	Polarity=Neg|PronType=Neg	10	det	10:det	_
 10	passport	passport	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=(44-abstract-new-cf3-1,4-sgl(45-abstract-new-cf4-1-sgl)
 11	or	or	CCONJ	CC	_	13	cc	13:cc	_
@@ -446,22 +446,22 @@
 # text = You should book or ensure accommodation before you board a flight for the Chathams, as during the popular months of the tourism season, between October and April, accommodation can be severely limited.
 # newpar
 # newpar_block = p (2 s)
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj|5:nsubj	Discourse=joint-other_m:34->26:3|Entity=(49-person-acc:com-cf1-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj|5:nsubj	Discourse=joint-other_m:34->26:3:_|Entity=(49-person-acc:com-cf1-1-ana)
 2	should	should	AUX	MD	VerbForm=Fin	3	aux	3:aux|5:aux	_
-3	book	book	VERB	VB	VerbForm=Inf	0	root	0:root	_
+3	book	book	VERB	VB	VerbForm=Inf|Voice=Act	0	root	0:root	_
 4	or	or	CCONJ	CC	_	5	cc	5:cc	_
-5	ensure	ensure	VERB	VB	VerbForm=Inf	3	conj	3:conj:or	_
+5	ensure	ensure	VERB	VB	VerbForm=Inf|Voice=Act	3	conj	3:conj:or	_
 6	accommodation	accommodation	NOUN	NN	Number=Sing	3	obj	3:obj|5:obj	Entity=(50-place-new-cf2-1-coref)
-7	before	before	SCONJ	IN	_	9	mark	9:mark	Discourse=context-circumstance:35->34:0|XML=<hi rend:::"italic"></hi>
+7	before	before	SCONJ	IN	_	9	mark	9:mark	Discourse=context-circumstance:35->34:0:dm-before-309|XML=<hi rend:::"italic"></hi>
 8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Entity=(49-person-giv:act-cf1-1-ana)
-9	board	board	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl:before	_
+9	board	board	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	3:advcl:before	_
 10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Bridge=32<51|Entity=(51-event-acc:inf-cf4-2-sgl
 11	flight	flight	NOUN	NN	Number=Sing	9	obj	9:obj	_
 12	for	for	ADP	IN	_	14	case	14:case	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(1-place-giv:inact-cf3-2-coref-Chatham_Islands
 14	Chathams	Chatham	PROPN	NNPS	Number=Plur	11	nmod	11:nmod:for	Entity=1)51)|SpaceAfter=No
 15	,	,	PUNCT	,	_	16	punct	16:punct	_
-16	as	as	SCONJ	IN	_	35	mark	35:mark	Discourse=explanation-motivation:36->34:1
+16	as	as	SCONJ	IN	_	35	mark	35:mark	Discourse=explanation-motivation:36->34:1:dm-as-318
 17	during	during	ADP	IN	_	20	case	20:case	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(52-time-new-cf8-3-sgl
 19	popular	popular	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
@@ -488,8 +488,8 @@
 # s_type = decl
 # transition = establishment
 # text = There are no same-day return flights, so once there you have to stay at least one night.
-1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=causal-cause:37->38:1
-2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=causal-cause:37->38:1:dm-so-348
+2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	no	no	DET	DT	Polarity=Neg|PronType=Neg	8	det	8:det	_
 4	same	same	ADJ	JJ	Degree=Pos	6	amod	6:amod	Bridge=32<57|Entity=(57-event-acc:inf-cf3-5-sgl|SpaceAfter=No|XML=<w>
 5	-	-	PUNCT	HYPH	_	4	punct	4:punct	SpaceAfter=No
@@ -497,13 +497,13 @@
 7	return	return	NOUN	NN	Number=Sing	8	compound	8:compound	_
 8	flights	flight	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Entity=57)|SpaceAfter=No
 9	,	,	PUNCT	,	_	14	punct	14:punct	_
-10	so	so	ADV	RB	_	14	advmod	14:advmod	Discourse=explanation-motivation:38->34:2
-11	once	once	ADV	RB	NumForm=Word|NumType=Mult	12	advmod	12:advmod	Discourse=context-circumstance:39->40:0
+10	so	so	ADV	RB	_	14	advmod	14:advmod	Discourse=explanation-motivation:38->34:2:_
+11	once	once	ADV	RB	NumForm=Word|NumType=Mult	12	advmod	12:advmod	Discourse=context-circumstance:39->40:0:dm-once-349
 12	there	there	ADV	RB	PronType=Dem	14	advmod	14:advmod	Entity=(1-place-giv:act-cf2-1-coref-Chatham_Islands)
-13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	14:nsubj|16:nsubj:xsubj	Discourse=same-unit_m:40->38:0|Entity=(49-person-giv:act-cf1*-1-ana)
-14	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	_
+13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	14:nsubj|16:nsubj:xsubj	Discourse=same-unit_m:40->38:0:_|Entity=(49-person-giv:act-cf1*-1-ana)
+14	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	2:parataxis	_
 15	to	to	PART	TO	_	16	mark	16:mark	_
-16	stay	stay	VERB	VB	VerbForm=Inf	14	xcomp	14:xcomp	_
+16	stay	stay	VERB	VB	VerbForm=Inf|Voice=Act	14	xcomp	14:xcomp	_
 17	at	at	ADP	IN	_	18	case	18:case	_
 18	least	least	ADJ	JJS	Degree=Sup	20	nmod	20:nmod:at	_
 19	one	one	NUM	CD	NumForm=Word|NumType=Card	20	nummod	20:nummod	Entity=(58-time-new-cf4-2-sgl
@@ -517,8 +517,8 @@
 # text = Although flying to the Chathams and back is not cheap, it is worth it.
 # newpar
 # newpar_block = p (3 s)
-1	Although	although	SCONJ	IN	_	2	mark	2:mark	Discourse=adversative-concession:41->42:0
-2	flying	fly	VERB	VBG	VerbForm=Ger	10	csubj	10:csubj	Entity=(59-event-new-cf1-1-disc
+1	Although	although	SCONJ	IN	_	2	mark	2:mark	Discourse=adversative-concession:41->42:0:dm-although-360
+2	flying	fly	VERB	VBG	VerbForm=Ger|Voice=Act	10	csubj	10:csubj	Entity=(59-event-new-cf1-1-disc
 3	to	to	ADP	IN	_	5	case	5:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(1-place-giv:act-cf2*-2-coref-Chatham_Islands
 5	Chathams	Chatham	PROPN	NNPS	Number=Plur	2	obl	2:obl:to	Entity=1)
@@ -528,7 +528,7 @@
 9	not	not	PART	RB	Polarity=Neg	10	advmod	10:advmod	_
 10	cheap	cheap	ADJ	JJ	Degree=Pos	14	advcl	14:advcl	SpaceAfter=No
 11	,	,	PUNCT	,	_	10	punct	10:punct	_
-12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj	Discourse=evaluation-comment:42->26:4|Entity=(59-event-giv:act-cf1-1-coref)
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj	Discourse=evaluation-comment:42->26:4:lex-indwd-373|Entity=(59-event-giv:act-cf1-1-coref)
 13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_
 14	worth	worth	ADJ	JJ	Degree=Pos	0	root	0:root	_
 15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	14:obj	Entity=(60-abstract-new-cf3-1-sgl)|SpaceAfter=No
@@ -539,34 +539,34 @@
 # s_type = decl
 # transition = continue
 # text = Even the mainland school groups that fly there for school camps, and choose to stay at Kopinga Marae [1] get value for money by chartering a flight one way.
-1	Even	even	ADV	RB	_	5	advmod	5:advmod	Discourse=elaboration-additional:43->42:1
+1	Even	even	ADV	RB	_	5	advmod	5:advmod	Discourse=elaboration-additional:43->42:1:sem-synym-363-364,383
 2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(61-person-new-cf5-4-sgl
 3	mainland	mainland	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(26-place-giv:inact-cf4-1-coref)
 4	school	school	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(62-organization-new-cf2-1-coref)
 5	groups	group	NOUN	NNS	Number=Plur	23	nsubj	7:nsubj|23:nsubj	Entity=61)
-6	that	that	PRON	WDT	PronType=Rel	7	nsubj	5:ref	Discourse=elaboration-attribute:44->43:0
-7	fly	fly	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_
+6	that	that	PRON	WDT	PronType=Rel	7	nsubj	5:ref	Discourse=elaboration-attribute:44->43:0:syn-mdf-380+syn-rlt-381-382
+7	fly	fly	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	5:acl:relcl	_
 8	there	there	ADV	RB	PronType=Dem	7	advmod	7:advmod	Entity=(1-place-giv:act-cf1*-1-coref-Chatham_Islands)
 9	for	for	ADP	IN	_	11	case	11:case	_
 10	school	school	NOUN	NN	Number=Sing	11	compound	11:compound	Entity=(63-event-new-cf8-2-sgl(62-organization-giv:act-cf2-1-coref)|XML=<ref>
 11	camps	camp	NOUN	NNS	Number=Plur	7	obl	7:obl:for	Entity=63)|SpaceAfter=No|XML=</ref>
 12	,	,	PUNCT	,	_	14	punct	14:punct	_
-13	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=joint-list_m:45->44:0
-14	choose	choose	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	5:acl:relcl|7:conj:and	_
+13	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=joint-list_m:45->44:0:dm-and-388
+14	choose	choose	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	5:acl:relcl|7:conj:and	_
 15	to	to	PART	TO	_	16	mark	16:mark	_
-16	stay	stay	VERB	VB	VerbForm=Inf	14	xcomp	14:xcomp	_
+16	stay	stay	VERB	VB	VerbForm=Inf|Voice=Act	14	xcomp	14:xcomp	_
 17	at	at	ADP	IN	_	18	case	18:case	_
 18	Kopinga	Kopinga	PROPN	NNP	Number=Sing	16	obl	16:obl:at	Entity=(64-place-new-cf7-1,2-coref-Waitangi%2C_Chatham_Islands
 19	Marae	Marae	PROPN	NNP	Number=Sing	18	flat	18:flat	Entity=64)
-20	[	[	PUNCT	-LRB-	_	21	punct	21:punct	Discourse=explanation-evidence:46->45:0|SpaceAfter=No|XML=<ref>
+20	[	[	PUNCT	-LRB-	_	21	punct	21:punct	Discourse=explanation-evidence:46->45:0:grf-prn-395,397|SpaceAfter=No|XML=<ref>
 21	1	1	NUM	CD	NumForm=Digit|NumType=Card	18	dep	18:dep	Entity=(65-abstract-new-cf10-1-sgl)|SpaceAfter=No
 22	]	]	PUNCT	-RRB-	_	21	punct	21:punct	XML=</ref>
-23	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:47->43:1
+23	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Discourse=same-unit_m:47->43:1:_
 24	value	value	NOUN	NN	Number=Sing	23	obj	23:obj	Entity=(66-abstract-new-cf6-1-sgl)
 25	for	for	ADP	IN	_	26	case	26:case	_
 26	money	money	NOUN	NN	Number=Sing	24	nmod	24:nmod:for	Entity=(67-abstract-new-cf9-1-sgl)
-27	by	by	SCONJ	IN	_	28	mark	28:mark	Discourse=mode-means:48->43:2
-28	chartering	charter	VERB	VBG	VerbForm=Ger	23	advcl	23:advcl:by	_
+27	by	by	SCONJ	IN	_	28	mark	28:mark	Discourse=mode-means:48->43:2:dm-by-402+syn-prs-403
+28	chartering	charter	VERB	VBG	VerbForm=Ger|Voice=Act	23	advcl	23:advcl:by	_
 29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	30:det	Entity=(34-event-giv:inact-cf3-2-coref
 30	flight	flight	NOUN	NN	Number=Sing	28	obj	28:obj	Entity=34)
 31	one	one	NUM	CD	NumForm=Word|NumType=Card	32	nummod	32:nummod	_
@@ -578,26 +578,26 @@
 # s_type = decl
 # transition = retain
 # text = Anyway, you don't have a choice on how you get there, unless you happen to own an aeroplane.
-1	Anyway	anyway	INTJ	UH	_	6	discourse	6:discourse	Discourse=adversative-concession:49->42:2|SpaceAfter=No
+1	Anyway	anyway	INTJ	UH	_	6	discourse	6:discourse	Discourse=adversative-concession:49->42:2:_|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	Entity=(49-person-giv:inact-cf1-1-ana)
 4-5	don't	_	_	_	_	_	_	_	_
 4	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 5	n't	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	_
-6	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	_
+6	have	have	VERB	VB	VerbForm=Inf|Voice=Act	0	root	0:root	_
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(68-abstract-new-cf3-2-sgl
 8	choice	choice	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=68)
 9	on	on	ADP	IN	_	10	case	10:case	_
 10	how	how	ADV	WRB	PronType=Rel	8	nmod	8:nmod:on	_
 11	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	12:nsubj	Entity=(49-person-giv:act-cf1-1-ana)
-12	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	advcl:relcl	10:advcl:relcl	_
+12	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl:relcl	10:advcl:relcl	_
 13	there	there	ADV	RB	PronType=Dem	12	advmod	12:advmod	Entity=(1-place-giv:act-cf2*-1-coref-Chatham_Islands)|SpaceAfter=No
 14	,	,	PUNCT	,	_	17	punct	17:punct	_
-15	unless	unless	SCONJ	IN	_	17	mark	17:mark	Discourse=contingency-condition:50->49:0
+15	unless	unless	SCONJ	IN	_	17	mark	17:mark	Discourse=contingency-condition:50->49:0:dm-unless-423
 16	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	17	nsubj	17:nsubj|19:nsubj:xsubj	Entity=(49-person-giv:act-cf1-1-ana)
-17	happen	happen	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	advcl	12:advcl:unless	_
+17	happen	happen	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	12:advcl:unless	_
 18	to	to	PART	TO	_	19	mark	19:mark	_
-19	own	own	VERB	VB	VerbForm=Inf	17	xcomp	17:xcomp	_
+19	own	own	VERB	VB	VerbForm=Inf|Voice=Act	17	xcomp	17:xcomp	_
 20	an	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	Entity=(69-object-new-cf4-2-coref
 21	aeroplane	aeroplane	NOUN	NN	Number=Sing	19	obj	19:obj	Entity=69)|SpaceAfter=No
 22	.	.	PUNCT	.	_	6	punct	6:punct	_
@@ -609,30 +609,30 @@
 # text = However, when you get off that aeroplane, if you haven't pre-organised transport, you will have to walk, and it is a long way into town.
 # newpar
 # newpar_block = p (1 s)
-1	However	however	ADV	RB	_	19	advmod	19:advmod	Discourse=adversative-concession:51->49:1|SpaceAfter=No
+1	However	however	ADV	RB	_	19	advmod	19:advmod	Discourse=adversative-concession:51->49:1:dm-however-431|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	when	when	ADV	WRB	PronType=Int	5	advmod	5:advmod	Discourse=context-circumstance:52->54:2
+3	when	when	ADV	WRB	PronType=Int	5	advmod	5:advmod	Discourse=context-circumstance:52->54:2:dm-when-433
 4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(49-person-giv:act-cf1*-1-ana)
-5	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	advcl	19:advcl:when	_
+5	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	19	advcl	19:advcl:when	_
 6	off	off	ADP	IN	_	8	case	8:case	_
 7	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	8:det	Entity=(69-object-giv:act-cf2-2-coref
 8	aeroplane	aeroplane	NOUN	NN	Number=Sing	5	obl	5:obl:off	Entity=69)|SpaceAfter=No
 9	,	,	PUNCT	,	_	5	punct	5:punct	_
-10	if	if	SCONJ	IN	_	14	mark	14:mark	Discourse=contingency-condition:53->54:0
+10	if	if	SCONJ	IN	_	14	mark	14:mark	Discourse=contingency-condition:53->54:0:dm-if-440
 11	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	14:nsubj	Entity=(49-person-giv:act-cf1*-1-ana)
 12-13	haven't	_	_	_	_	_	_	_	_
 12	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	aux	14:aux	_
 13	n't	not	PART	RB	Polarity=Neg	14	advmod	14:advmod	_
-14	pre-organised	pre-organise	VERB	VBN	Tense=Past|VerbForm=Part	19	advcl	19:advcl:if	_
+14	pre-organised	pre-organise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	19	advcl	19:advcl:if	_
 15	transport	transport	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=(70-event-new-cf5-1-sgl)|SpaceAfter=No
 16	,	,	PUNCT	,	_	14	punct	14:punct	_
-17	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	19:nsubj|21:nsubj:xsubj	Discourse=same-unit_m:54->51:0|Entity=(49-person-giv:act-cf1*-1-ana)
+17	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	19:nsubj|21:nsubj:xsubj	Discourse=same-unit_m:54->51:0:_|Entity=(49-person-giv:act-cf1*-1-ana)
 18	will	will	AUX	MD	VerbForm=Fin	19	aux	19:aux	_
-19	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	_
+19	have	have	VERB	VB	VerbForm=Inf|Voice=Act	0	root	0:root	_
 20	to	to	PART	TO	_	21	mark	21:mark	_
-21	walk	walk	VERB	VB	VerbForm=Inf	19	xcomp	19:xcomp	SpaceAfter=No
+21	walk	walk	VERB	VB	VerbForm=Inf|Voice=Act	19	xcomp	19:xcomp	SpaceAfter=No
 22	,	,	PUNCT	,	_	28	punct	28:punct	_
-23	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=context-background:55->54:1
+23	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=context-background:55->54:1:dm-and-453
 24	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	nsubj	28:nsubj	Entity=(71-place-new-cf4-1-cata)
 25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	28:cop	_
 26	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	28:det	Entity=(71-place-acc:com-cf4-3-coref
@@ -649,7 +649,7 @@
 # text = By boat
 # newpar
 # newpar_block = head (1 s)
-1	By	by	ADP	IN	_	2	case	2:case	Discourse=organization-heading:56->57:3
+1	By	by	ADP	IN	_	2	case	2:case	Discourse=organization-heading:56->57:3:grf-ly-
 2	boat	boat	NOUN	NN	Number=Sing	0	root	0:root	Entity=(72-object-new-cf1-1-sgl)
 
 # sent_id = GUM_voyage_chatham-26
@@ -659,16 +659,16 @@
 # text = The only scheduled shipping service to the Chatham Islands remains the Black Robin Freighters "Rangatira", an antiquated, slow and small coastal trading vessel.
 # newpar
 # newpar_block = p (3 s)
-1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Discourse=joint-list_m:57->26:6|Entity=(73-event-new-cf3-5,8-sgl
+1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Discourse=joint-list_m:57->26:6:_|Entity=(73-event-new-cf3-5,8-sgl
 2	only	only	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
-3	scheduled	schedule	VERB	VBN	Tense=Past|VerbForm=Part	5	amod	5:amod	_
+3	scheduled	schedule	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	amod	5:amod	_
 4	shipping	shipping	NOUN	NN	Number=Sing	5	compound	5:compound	_
 5	service	service	NOUN	NN	Number=Sing	10	nsubj	10:nsubj|16:nsubj:xsubj	_
 6	to	to	ADP	IN	_	9	case	9:case	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(1-place-giv:inact-cf2-2,3-coref-Chatham_Islands
 8	Chatham	Chatham	PROPN	NNP	Number=Sing	9	compound	9:compound	_
 9	Islands	Islands	PROPN	NNP	Number=Sing	5	nmod	5:nmod:to	Entity=1)73)
-10	remains	remain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+10	remains	remain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(74-object-new-cf1-2,3,6-coref(75-organization-new-cf4-2,3,4-sgl
 12	Black	Black	ADJ	NNP	Degree=Pos|Number=Sing	14	amod	14:amod	_
 13	Robin	Robin	PROPN	NNP	Number=Sing	14	compound	14:compound	_
@@ -693,20 +693,20 @@
 # s_type = decl
 # transition = establishment
 # text = This boat has serviced the islands for many years, but does not carry passengers.
-1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=elaboration-additional:58->57:0|Entity=(74-object-giv:act-cf1*-2-coref
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=elaboration-additional:58->57:0:sem-synym-470-472,496-497+ref-dmn-474-480,492-493+sem-lxchn-488,497|Entity=(74-object-giv:act-cf1*-2-coref
 2	boat	boat	NOUN	NN	Number=Sing	4	nsubj	4:nsubj|14:nsubj	Entity=74)
 3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
-4	serviced	service	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
+4	serviced	service	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(1-place-giv:act-cf2-2-coref-Chatham_Islands
 6	islands	island	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=1)
 7	for	for	ADP	IN	_	9	case	9:case	_
 8	many	many	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(76-time-new-cf4-2-sgl
 9	years	year	NOUN	NNS	Number=Plur	6	nmod	6:nmod:for	Entity=76)|SpaceAfter=No
 10	,	,	PUNCT	,	_	14	punct	14:punct	_
-11	but	but	CCONJ	CC	_	14	cc	14:cc	Discourse=adversative-contrast_m:59->58:0
+11	but	but	CCONJ	CC	_	14	cc	14:cc	Discourse=adversative-contrast_m:59->58:0:dm-but-502
 12	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	14:aux	_
 13	not	not	PART	RB	Polarity=Neg	14	advmod	14:advmod	_
-14	carry	carry	VERB	VB	VerbForm=Inf	4	conj	4:conj:but	_
+14	carry	carry	VERB	VB	VerbForm=Inf|Voice=Act	4	conj	4:conj:but	_
 15	passengers	passenger	NOUN	NNS	Number=Plur	14	obj	14:obj	Entity=(77-person-new-cf3-1-sgl)|SpaceAfter=No
 16	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -715,12 +715,12 @@
 # s_type = decl
 # transition = continue
 # text = Freight charges on the Rangatira appear to be flexible and subject to change.
-1	Freight	freight	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=elaboration-additional:60->57:1|Entity=(78-abstract-new-cf2-2-sgl
+1	Freight	freight	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=elaboration-additional:60->57:1:sem-synym-474-480,511-512|Entity=(78-abstract-new-cf2-2-sgl
 2	charges	charge	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj|9:nsubj:xsubj|11:nsubj:xsubj	_
 3	on	on	ADP	IN	_	5	case	5:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(74-object-giv:act-cf1*-2-coref
 5	Rangatira	Rangatira	PROPN	NNP	Number=Sing	2	nmod	2:nmod:on	Entity=74)78)
-6	appear	appear	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+6	appear	appear	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 7	to	to	PART	TO	_	9	mark	9:mark	_
 8	be	be	AUX	VB	VerbForm=Inf	9	cop	9:cop	_
 9	flexible	flexible	ADJ	JJ	Degree=Pos	6	xcomp	6:xcomp	_
@@ -737,15 +737,15 @@
 # text = Vessels can call at the Chathams and there are a number of "safe" harbours for shelter if the need arises.
 # newpar
 # newpar_block = p (3 s)
-1	Vessels	vessel	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Discourse=joint-other_m:61->57:2|Entity=(79-object-new-cf3-1-sgl)
+1	Vessels	vessel	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Discourse=joint-other_m:61->57:2:_|Entity=(79-object-new-cf3-1-sgl)
 2	can	can	AUX	MD	Number=Plur|Person=3|VerbForm=Fin	3	aux	3:aux	_
-3	call	call	VERB	VB	VerbForm=Inf	0	root	0:root	_
+3	call	call	VERB	VB	VerbForm=Inf|Voice=Act	0	root	0:root	_
 4	at	at	ADP	IN	_	6	case	6:case	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(1-place-giv:inact-cf1-2-coref-Chatham_Islands
 6	Chathams	Chatham	PROPN	NNPS	Number=Plur	3	obl	3:obl:at	Entity=1)
-7	and	and	CCONJ	CC	_	9	cc	9:cc	Discourse=joint-list_m:62->61:0
+7	and	and	CCONJ	CC	_	9	cc	9:cc	Discourse=joint-list_m:62->61:0:sem-lxchn-522,537+dm-and-528
 8	there	there	PRON	EX	PronType=Dem	9	expl	9:expl	_
-9	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	3:conj:and	_
+9	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	3:conj:and	_
 10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(80-place-new-cf4-2-coref
 11	number	number	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	_
 12	of	of	ADP	IN	_	16	case	16:case	_
@@ -755,10 +755,10 @@
 16	harbours	harbour	NOUN	NNS	Number=Plur	11	nmod	11:nmod:of	_
 17	for	for	ADP	IN	_	18	case	18:case	_
 18	shelter	shelter	NOUN	NN	Number=Sing	16	nmod	16:nmod:for	Entity=80)
-19	if	if	SCONJ	IN	_	22	mark	22:mark	Discourse=explanation-justify:63->62:0
+19	if	if	SCONJ	IN	_	22	mark	22:mark	Discourse=explanation-justify:63->62:0:dm-if-540
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(81-abstract-new-cf2-2-sgl
 21	need	need	NOUN	NN	Number=Sing	22	nsubj	22:nsubj	Entity=81)
-22	arises	arise	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl:if	SpaceAfter=No
+22	arises	arise	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	3:advcl:if	SpaceAfter=No
 23	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_voyage_chatham-30
@@ -766,9 +766,9 @@
 # s_type = imp
 # transition = establishment
 # text = Remember to notify the local policeman, or Ministry of Fisheries officer if you are entering New Zealand via the Chathams.
-1	Remember	remember	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:64->57:2
+1	Remember	remember	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	Discourse=joint-other_m:64->57:2:_
 2	to	to	PART	TO	_	3	mark	3:mark	_
-3	notify	notify	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
+3	notify	notify	VERB	VB	VerbForm=Inf|Voice=Act	1	xcomp	1:xcomp	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(82-person-new-cf4-3-sgl
 5	local	local	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
 6	policeman	policeman	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=82)|SpaceAfter=No
@@ -778,10 +778,10 @@
 10	of	of	ADP	IN	_	11	case	11:case	_
 11	Fisheries	Fishery	PROPN	NNPS	Number=Plur	9	nmod	9:nmod:of	Entity=84)
 12	officer	officer	NOUN	NN	Number=Sing	6	conj	3:obj|6:conj:or	Entity=83)
-13	if	if	SCONJ	IN	_	16	mark	16:mark	Discourse=contingency-condition:65->64:0
+13	if	if	SCONJ	IN	_	16	mark	16:mark	Discourse=contingency-condition:65->64:0:dm-if-557
 14	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	16	nsubj	16:nsubj	Entity=(49-person-giv:inact-cf2-1-ana)
 15	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	aux	16:aux	_
-16	entering	enter	VERB	VBG	Tense=Pres|VerbForm=Part	1	advcl	1:advcl:if	_
+16	entering	enter	VERB	VBG	Tense=Pres|VerbForm=Part|Voice=Act	1	advcl	1:advcl:if	_
 17	New	New	PROPN	NNP	Number=Sing	16	obj	16:obj	Entity=(3-place-giv:inact-cf3-1,2-coref-New_Zealand
 18	Zealand	Zealand	PROPN	NNP	Number=Sing	17	flat	17:flat	Entity=3)
 19	via	via	ADP	IN	_	21	case	21:case	_
@@ -794,27 +794,27 @@
 # s_type = decl
 # transition = smooth-shift
 # text = If you want a wharf berthage then call the local harbour master as you near the Chathams and he will sort you out.
-1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=contingency-condition:66->67:2
+1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=contingency-condition:66->67:2:dm-if then-567,573
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(49-person-giv:act-cf1*-1-ana)
-3	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	8:advcl:if	_
+3	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	8:advcl:if	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(85-place-new-cf5-3-sgl
 5	wharf	wharf	NOUN	NN	Number=Sing	6	compound	6:compound	_
 6	berthage	berthage	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=85)
-7	then	then	ADV	RB	PronType=Dem	3	advmod	3:advmod	Discourse=joint-other_m:67->57:2
-8	call	call	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	_
+7	then	then	ADV	RB	PronType=Dem	3	advmod	3:advmod	Discourse=joint-other_m:67->57:2:_
+8	call	call	VERB	VB	Person=2|VerbForm=Inf|Voice=Act	0	root	0:root	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(86-person-new-cf2-4-coref
 10	local	local	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
 11	harbour	harbour	NOUN	NN	Number=Sing	12	compound	12:compound	Bridge=80<87|Entity=(87-place-acc:inf-cf4-1-sgl)
 12	master	master	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=86)
-13	as	as	SCONJ	IN	_	15	mark	15:mark	Discourse=context-circumstance:68->67:0
+13	as	as	SCONJ	IN	_	15	mark	15:mark	Discourse=context-circumstance:68->67:0:dm-as-579
 14	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Entity=(49-person-giv:act-cf1*-1-ana)
-15	near	near	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	8:advcl:as	_
+15	near	near	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	8:advcl:as	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(1-place-giv:act-cf3-2-coref-Chatham_Islands
 17	Chathams	Chatham	PROPN	NNPS	Number=Plur	15	obj	15:obj	Entity=1)
-18	and	and	CCONJ	CC	_	21	cc	21:cc	Discourse=purpose-goal:69->67:1
+18	and	and	CCONJ	CC	_	21	cc	21:cc	Discourse=purpose-goal:69->67:1:_;causal-result69->67:0:1:orp-and-584
 19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	21:nsubj	Entity=(86-person-giv:act-cf2-1-ana)
 20	will	will	AUX	MD	VerbForm=Fin	21	aux	21:aux	_
-21	sort	sort	VERB	VB	VerbForm=Inf	15	conj	8:advcl:as|15:conj:and	_
+21	sort	sort	VERB	VB	VerbForm=Inf|Voice=Act	15	conj	8:advcl:as|15:conj:and	_
 22	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	21	obj	21:obj	Entity=(49-person-giv:act-cf1*-1-ana)
 23	out	out	ADP	RP	_	21	compound:prt	21:compound:prt	SpaceAfter=No
 24	.	.	PUNCT	.	_	8	punct	8:punct	_
@@ -826,7 +826,7 @@
 # text = Get around
 # newpar
 # newpar_block = head (1 s)
-1	Get	get	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:70->71:3
+1	Get	get	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	Discourse=organization-heading:70->71:3:grf-ly-
 2	around	around	ADV	RB	Degree=Pos	1	advmod	1:advmod	_
 
 # sent_id = GUM_voyage_chatham-33
@@ -836,16 +836,16 @@
 # text = There are several businesses on Chatham Island that will rent you a vehicle.
 # newpar
 # newpar_block = p (3 s)
-1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=joint-other_m:71->14:3
-2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=joint-other_m:71->14:3:_
+2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	several	several	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(88-object-new-cf3-2,5-sgl
 4	businesses	business	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	_
 5	on	on	ADP	IN	_	6	case	6:case	_
 6	Chatham	Chatham	PROPN	NNP	Number=Sing	4	nmod	4:nmod:on|10:nsubj	Entity=(17-place-giv:inact-cf2-1,2-coref-Chatham_Island
 7	Island	Island	PROPN	NNP	Number=Sing	6	flat	6:flat	Entity=17)88)
-8	that	that	PRON	WDT	PronType=Rel	10	nsubj	6:ref	Discourse=elaboration-attribute:72->71:0
+8	that	that	PRON	WDT	PronType=Rel	10	nsubj	6:ref	Discourse=elaboration-attribute:72->71:0:syn-mdf-598+syn-rlt-600,602
 9	will	will	AUX	MD	VerbForm=Fin	10	aux	10:aux	_
-10	rent	rent	VERB	VB	VerbForm=Inf	6	acl:relcl	6:acl:relcl	_
+10	rent	rent	VERB	VB	VerbForm=Inf|Voice=Act	6	acl:relcl	6:acl:relcl	_
 11	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	10	iobj	10:iobj	Entity=(49-person-giv:inact-cf1-1-ana)
 12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Entity=(89-object-new-cf4-2-coref
 13	vehicle	vehicle	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=89)|SpaceAfter=No
@@ -856,9 +856,9 @@
 # s_type = imp
 # transition = null
 # text = Do not expect the flashest and latest in rental cars though.
-1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=adversative-contrast_m:73->71:1
+1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=adversative-contrast_m:73->71:1:dm-though-617
 2	not	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	_
-3	expect	expect	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+3	expect	expect	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(90-object-new-cf1-2,4-sgl
 5	flashest	flashy	ADJ	JJS	Degree=Sup|Typo=Yes	3	obj	3:obj	CorrectForm=flashiest|XML=<sic ana:::"flashiest"></sic>
 6	and	and	CCONJ	CC	_	7	cc	7:cc	_
@@ -874,7 +874,7 @@
 # s_type = decl
 # transition = null
 # text = The cars "will" be warranted and safe, but they won't be exceptionally "flash".
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:74->73:0|Entity=(89-object-giv:inact-cf1-2-coref
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:74->73:0:sem-lxchn-616,620|Entity=(89-object-giv:inact-cf1-2-coref
 2	cars	car	NOUN	NNS	Number=Plur	7	nsubj:pass	7:nsubj:pass	Entity=89)
 3	"	''	PUNCT	``	_	4	punct	4:punct	SpaceAfter=No|XML=<q>
 4	will	will	AUX	MD	VerbForm=Fin	7	aux	7:aux	SpaceAfter=No
@@ -884,7 +884,7 @@
 8	and	and	CCONJ	CC	_	9	cc	9:cc	_
 9	safe	safe	ADJ	JJ	Degree=Pos	7	conj	7:conj:and	SpaceAfter=No
 10	,	,	PUNCT	,	_	18	punct	18:punct	_
-11	but	but	CCONJ	CC	_	18	cc	18:cc	Discourse=adversative-contrast_m:75->74:0
+11	but	but	CCONJ	CC	_	18	cc	18:cc	Discourse=adversative-contrast_m:75->74:0:dm-but-629
 12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	18:nsubj	Entity=(89-object-giv:act-cf1-1-ana)
 13-14	won't	_	_	_	_	_	_	_	_
 13	wo	will	AUX	MD	VerbForm=Fin	18	aux	18:aux	_
@@ -903,9 +903,9 @@
 # text = Chatham Motors have a range of nice rental vans available as well and they provide pretty good service for both visitors and locals.
 # newpar
 # newpar_block = p (1 s)
-1	Chatham	Chatham	PROPN	NNP	Number=Sing	2	compound	2:compound	Discourse=elaboration-additional:76->71:2|Entity=(92-organization-new-cf1-1,2-coref
+1	Chatham	Chatham	PROPN	NNP	Number=Sing	2	compound	2:compound	Discourse=elaboration-additional:76->71:2:_|Entity=(92-organization-new-cf1-1,2-coref
 2	Motors	Motor	PROPN	NNPS	Number=Plur	3	nsubj	3:nsubj	Entity=92)
-3	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	_
 5	range	range	NOUN	NN	Number=Sing	3	obj	3:obj	_
 6	of	of	ADP	IN	_	9	case	9:case	_
@@ -915,9 +915,9 @@
 10	available	available	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 11	as	as	ADV	RB	_	10	advmod	10:advmod	_
 12	well	well	ADV	RB	Degree=Pos	11	fixed	11:fixed	_
-13	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=evaluation-comment:77->76:0
+13	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=evaluation-comment:77->76:0:lex-indwd-655;joint-list77->76:0:0:orp-and-651
 14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	15:nsubj	Entity=(92-organization-giv:act-cf1-1-ana)
-15	provide	provide	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	3:conj:and	_
+15	provide	provide	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	3:conj:and	_
 16	pretty	pretty	ADV	RB	_	17	advmod	17:advmod	Entity=(94-abstract-new-cf3-3-sgl
 17	good	good	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
 18	service	service	NOUN	NN	Number=Sing	15	obj	15:obj	_
@@ -935,7 +935,7 @@
 # text = See
 # newpar
 # newpar_block = head (1 s)
-1	See	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:78->79:1
+1	See	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	Discourse=organization-heading:78->79:1:grf-ly-
 
 # sent_id = GUM_voyage_chatham-38
 # s_prominence = 1
@@ -944,7 +944,7 @@
 # text = Basalt columns
 # newpar
 # newpar_block = figure rend:::"Photo of Basalt columns" (1 s) | caption (1 s)
-1	Basalt	basalt	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=joint-other_m:79->14:3|Entity=(97-object-new-cf1-2-sgl
+1	Basalt	basalt	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=joint-other_m:79->14:3:_|Entity=(97-object-new-cf1-2-sgl
 2	columns	column	NOUN	NNS	Number=Plur	0	root	0:root	Entity=97)
 
 # sent_id = GUM_voyage_chatham-39
@@ -954,7 +954,7 @@
 # text = Some of the world's most rare and endangered birds, plants and insects.
 # newpar
 # newpar_block = list type:::"unordered" (25 s) | item (1 s) | p (1 s)
-1	Some	some	DET	DT	PronType=Ind	0	root	0:root	Discourse=joint-list_m:80->79:0|Entity=(98-animal-new-cf2-1-sgl
+1	Some	some	DET	DT	PronType=Ind	0	root	0:root	Discourse=joint-list_m:80->79:0:grf-tms-|Entity=(98-animal-new-cf2-1-sgl
 2	of	of	ADP	IN	_	10	case	10:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(99-abstract-acc:com-cf1-2-sgl
 4-5	world's	_	_	_	_	_	_	_	_
@@ -978,10 +978,10 @@
 # text = Unique tree carvings done by the peaceful Moriori people hundreds of years ago.
 # newpar
 # newpar_block = item (1 s) | p (1 s)
-1	Unique	unique	ADJ	JJ	Degree=Pos	3	amod	3:amod	Discourse=joint-list_m:81->79:0|Entity=(100-object-new-cf2-3-sgl
+1	Unique	unique	ADJ	JJ	Degree=Pos	3	amod	3:amod	Discourse=joint-list_m:81->79:0:grf-tms-|Entity=(100-object-new-cf2-3-sgl
 2	tree	tree	NOUN	NN	Number=Sing	3	compound	3:compound	_
 3	carvings	carving	NOUN	NNS	Number=Plur	0	root	0:root	Entity=100)
-4	done	do	VERB	VBN	Tense=Past|VerbForm=Part	3	acl:relcl	3:acl:relcl	Discourse=elaboration-attribute:82->81:0
+4	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	acl:relcl	3:acl:relcl	Discourse=elaboration-attribute:82->81:0:syn-mdf-683+syn-rlt-684
 5	by	by	ADP	IN	_	9	case	9:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(24-person-giv:inact-cf1-4-coref-Moriori
 7	peaceful	peaceful	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
@@ -1000,7 +1000,7 @@
 # text = Henga Scenic Reserve.
 # newpar
 # newpar_block = item (4 s) | p (4 s)
-1	Henga	Henga	PROPN	NNP	Number=Sing	3	compound	3:compound	Discourse=organization-preparation:83->84:1|Entity=(102-place-new-cf1-1,2,3-coref|XML=<hi rend:::"bold">
+1	Henga	Henga	PROPN	NNP	Number=Sing	3	compound	3:compound	Discourse=organization-preparation:83->84:1:sem-rpt-695-697,705-709|Entity=(102-place-new-cf1-1,2,3-coref|XML=<hi rend:::"bold">
 2	Scenic	Scenic	ADJ	NNP	Degree=Pos|Number=Sing	3	amod	3:amod	_
 3	Reserve	Reserve	PROPN	NNP	Number=Sing	0	root	0:root	Entity=102)|SpaceAfter=No|XML=</hi>
 4	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -1010,17 +1010,17 @@
 # s_type = decl
 # transition = establishment
 # text = Set adjacent to Henga Lodge is the magnificent Henga Scenic Reserve.
-1	Set	set	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	Discourse=joint-list_m:84->79:0
+1	Set	set	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	Discourse=joint-list_m:84->79:0:_
 2	adjacent	adjacent	ADJ	JJ	Degree=Pos	1	xcomp	1:xcomp	_
 3	to	to	ADP	IN	_	5	case	5:case	_
 4	Henga	Henga	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=(103-place-new-cf2-1,2-coref
 5	Lodge	Lodge	PROPN	NNP	Number=Sing	2	obl	2:obl:to	Entity=103)
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	1:cop	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	1:aux:pass	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(102-place-giv:act-cf1*-3,4,5-coref
 8	magnificent	magnificent	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
 9	Henga	Henga	PROPN	NNP	Number=Sing	11	compound	11:compound	_
 10	Scenic	Scenic	ADJ	NNP	Degree=Pos|Number=Sing	11	amod	11:amod	_
-11	Reserve	Reserve	PROPN	NNP	Number=Sing	1	nsubj	1:nsubj|2:nsubj:xsubj	Entity=102)|SpaceAfter=No
+11	Reserve	Reserve	PROPN	NNP	Number=Sing	1	nsubj:pass	1:nsubj:pass|2:nsubj:xsubj	Entity=102)|SpaceAfter=No
 12	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_voyage_chatham-43
@@ -1028,12 +1028,12 @@
 # s_type = decl
 # transition = smooth-shift
 # text = Guests of the lodge can meander around either a short easy walk, or take the longer 2 hr return walk out onto the spectacular beach.
-1	Guests	guest	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj|15:nsubj	Discourse=elaboration-additional:85->84:0|Entity=(104-person-new-cf2-1-coref
+1	Guests	guest	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj|15:nsubj	Discourse=elaboration-additional:85->84:0:sem-synym-702-703,713-714|Entity=(104-person-new-cf2-1-coref
 2	of	of	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(103-place-giv:act-cf1*-2-coref
 4	lodge	lodge	NOUN	NN	Number=Sing	1	nmod	1:nmod:of	Entity=103)104)
 5	can	can	AUX	MD	Number=Plur|Person=3|VerbForm=Fin	6	aux	6:aux	_
-6	meander	meander	VERB	VB	VerbForm=Inf	0	root	0:root	_
+6	meander	meander	VERB	VB	VerbForm=Inf|Voice=Act	0	root	0:root	_
 7	around	around	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
 8	either	either	CCONJ	CC	_	12	cc:preconj	12:cc:preconj	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(105-event-new-cf4-4-sgl
@@ -1042,7 +1042,7 @@
 12	walk	walk	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=105)|SpaceAfter=No
 13	,	,	PUNCT	,	_	15	punct	15:punct	_
 14	or	or	CCONJ	CC	_	15	cc	15:cc	_
-15	take	take	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	6:conj:or	_
+15	take	take	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	6:conj:or	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(106-event-new-cf3-6-sgl
 17	longer	long	ADJ	JJR	Degree=Cmp	21	amod	21:amod	_
 18	2	2	NUM	CD	NumForm=Digit|NumType=Card	19	nummod	19:nummod	Entity=(107-abstract-new-cf6-2-sgl
@@ -1061,7 +1061,7 @@
 # s_type = decl
 # transition = smooth-shift
 # text = Access is free to Lodge guests.
-1	Access	access	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=explanation-motivation:86->85:0|Entity=(109-event-new-cf3-1-sgl)
+1	Access	access	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=explanation-motivation:86->85:0:lex-indwd-740|Entity=(109-event-new-cf3-1-sgl)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	free	free	ADJ	JJ	Degree=Pos	0	root	0:root	_
 4	to	to	ADP	IN	_	6	case	6:case	_
@@ -1076,7 +1076,7 @@
 # text = Hapupu National Historic Scenic Reserve.
 # newpar
 # newpar_block = item (4 s) | p (4 s)
-1	Hapupu	Hapupu	PROPN	NNP	Number=Sing	5	compound	5:compound	Discourse=organization-preparation:87->90:3|Entity=(110-place-new-cf1-1,2,3,4,5-sgl-JM_Barker_%28Hapupu%29_Historic_Reserve(111-place-new-cf2-1-coref-JM_Barker_%28Hapupu%29_Historic_Reserve)|XML=<hi rend:::"bold">
+1	Hapupu	Hapupu	PROPN	NNP	Number=Sing	5	compound	5:compound	Discourse=organization-preparation:87->90:3:sem-synym-745,751-761+sem-lxchn-746,755+sem-lxchn-747,756|Entity=(110-place-new-cf1-1,2,3,4,5-sgl-JM_Barker_%28Hapupu%29_Historic_Reserve(111-place-new-cf2-1-coref-JM_Barker_%28Hapupu%29_Historic_Reserve)|XML=<hi rend:::"bold">
 2	National	National	ADJ	NNP	Degree=Pos|Number=Sing	5	amod	5:amod	_
 3	Historic	Historic	ADJ	NNP	Degree=Pos|Number=Sing	5	amod	5:amod	_
 4	Scenic	Scenic	ADJ	NNP	Degree=Pos|Number=Sing	5	amod	5:amod	_
@@ -1088,7 +1088,7 @@
 # s_type = decl
 # transition = establishment
 # text = One of only two National Historic Scenic Reserves in New Zealand (the other is the Waitangi Treaty Grounds), Hapupu is a special place, and somewhere that you will want to tell others about.
-1	One	one	NUM	CD	NumForm=Word|NumType=Card	26	dislocated	26:dislocated	Discourse=context-background:88->90:1|Entity=(111-place-giv:act-cf1*-1,5,6,7,10,11-coref-JM_Barker_%28Hapupu%29_Historic_Reserve
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	26	dislocated	26:dislocated	Discourse=context-background:88->90:1:sem-synym-751-761,772|Entity=(111-place-giv:act-cf1*-1,5,6,7,10,11-coref-JM_Barker_%28Hapupu%29_Historic_Reserve
 2	of	of	ADP	IN	_	8	case	8:case	_
 3	only	only	ADV	RB	_	4	advmod	4:advmod	_
 4	two	two	NUM	CD	NumForm=Word|NumType=Card	8	nummod	8:nummod	_
@@ -1099,7 +1099,7 @@
 9	in	in	ADP	IN	_	10	case	10:case	_
 10	New	New	PROPN	NNP	Number=Sing	8	nmod	8:nmod:in	Entity=(3-place-giv:inact-cf3-1,2-coref-New_Zealand
 11	Zealand	Zealand	PROPN	NNP	Number=Sing	10	flat	10:flat	Entity=3)111)
-12	(	(	PUNCT	-LRB-	_	19	punct	19:punct	Discourse=context-background:89->88:0|SpaceAfter=No
+12	(	(	PUNCT	-LRB-	_	19	punct	19:punct	Discourse=context-background:89->88:0:_|SpaceAfter=No
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	_
 14	other	other	ADJ	JJ	Degree=Pos	19	nsubj	19:nsubj	_
 15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	19:cop	_
@@ -1109,7 +1109,7 @@
 19	Grounds	Ground	PROPN	NNPS	Number=Plur	8	parataxis	8:parataxis	Entity=112)|SpaceAfter=No
 20	)	)	PUNCT	-RRB-	_	19	punct	19:punct	SpaceAfter=No
 21	,	,	PUNCT	,	_	1	punct	1:punct	_
-22	Hapupu	Hapupu	PROPN	NNP	Number=Sing	26	nsubj	26:nsubj|29:nsubj	Discourse=joint-list_m:90->79:0|Entity=(111-place-giv:act-cf1*-1-coref-JM_Barker_%28Hapupu%29_Historic_Reserve)
+22	Hapupu	Hapupu	PROPN	NNP	Number=Sing	26	nsubj	26:nsubj|29:nsubj	Discourse=joint-list_m:90->79:0:_|Entity=(111-place-giv:act-cf1*-1-coref-JM_Barker_%28Hapupu%29_Historic_Reserve)
 23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	26:cop	_
 24	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	26:det	Entity=(111-place-giv:act-cf1*-3-pred-JM_Barker_%28Hapupu%29_Historic_Reserve
 25	special	special	ADJ	JJ	Degree=Pos	26	amod	26:amod	_
@@ -1117,12 +1117,12 @@
 27	,	,	PUNCT	,	_	29	punct	29:punct	_
 28	and	and	CCONJ	CC	_	29	cc	29:cc	_
 29	somewhere	somewhere	ADV	RB	_	26	conj	26:conj:and	Entity=(111-place-giv:act-cf1*-1-coref-JM_Barker_%28Hapupu%29_Historic_Reserve
-30	that	that	ADP	IN	_	35	obl	35:obl:about	Discourse=elaboration-attribute:91->90:0
+30	that	that	ADP	IN	_	35	obl	35:obl:about	Discourse=elaboration-attribute:91->90:0:syn-rlt-783
 31	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	33	nsubj	33:nsubj|35:nsubj:xsubj	Entity=(49-person-giv:inact-cf2-1-ana)
 32	will	will	AUX	MD	VerbForm=Fin	33	aux	33:aux	_
-33	want	want	VERB	VB	VerbForm=Inf	29	advcl:relcl	29:advcl:relcl	_
+33	want	want	VERB	VB	VerbForm=Inf|Voice=Act	29	advcl:relcl	29:advcl:relcl	_
 34	to	to	PART	TO	_	35	mark	35:mark	_
-35	tell	tell	VERB	VB	VerbForm=Inf	33	xcomp	33:xcomp	_
+35	tell	tell	VERB	VB	VerbForm=Inf|Voice=Act	33	xcomp	33:xcomp	_
 36	others	other	NOUN	NNS	Number=Plur	35	iobj	35:iobj	Entity=(113-person-new-cf5-1-sgl)
 37	about	about	ADP	IN	_	30	case	30:case	Entity=111)|SpaceAfter=No
 38	.	.	PUNCT	.	_	26	punct	26:punct	_
@@ -1132,15 +1132,15 @@
 # s_type = decl
 # transition = continue
 # text = Spiritually and culturally important to Moriori, it holds the last known concentration of momori-rakau, or tree carvings done by the ancestors of today's Moriori.
-1	Spiritually	spiritually	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=evaluation-comment:92->93:2
+1	Spiritually	spiritually	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=evaluation-comment:92->93:2:lex-indwd-792
 2	and	and	CCONJ	CC	_	3	cc	3:cc	_
 3	culturally	culturally	ADV	RB	Degree=Pos	1	conj	1:conj:and|4:advmod	_
 4	important	important	ADJ	JJ	Degree=Pos	9	advcl	9:advcl	_
 5	to	to	ADP	IN	_	6	case	6:case	_
 6	Moriori	Moriori	PROPN	NNP	Number=Sing	4	obl	4:obl:to	Entity=(24-person-giv:inact-cf2-1-coref-Moriori)|SpaceAfter=No
 7	,	,	PUNCT	,	_	4	punct	4:punct	_
-8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	9:nsubj	Discourse=elaboration-additional:93->90:2|Entity=(111-place-giv:act-cf1*-1-ana-JM_Barker_%28Hapupu%29_Historic_Reserve)
-9	holds	hold	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	9:nsubj	Discourse=elaboration-additional:93->90:2:ref-prs-751-761,796|Entity=(111-place-giv:act-cf1*-1-ana-JM_Barker_%28Hapupu%29_Historic_Reserve)
+9	holds	hold	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(114-object-new-cf3-4-coref
 11	last	last	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
 12	known	known	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
@@ -1153,7 +1153,7 @@
 19	or	or	CCONJ	CC	_	21	cc	21:cc	_
 20	tree	tree	NOUN	NN	Number=Sing	21	compound	21:compound	Entity=(114-object-giv:act-cf3-2-coref
 21	carvings	carving	NOUN	NNS	Number=Plur	15	conj	13:nmod:of|15:conj:or	Entity=114)
-22	done	do	VERB	VBN	Tense=Past|VerbForm=Part	21	acl:relcl	21:acl:relcl	Discourse=elaboration-attribute:94->93:0
+22	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	21	acl:relcl	21:acl:relcl	Discourse=elaboration-attribute:94->93:0:syn-mdf-809+syn-rlt-810
 23	by	by	ADP	IN	_	25	case	25:case	_
 24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(115-person-new-cf4-2-coref
 25	ancestors	ancestor	NOUN	NNS	Number=Plur	22	obl:agent	22:obl:agent	_
@@ -1169,25 +1169,25 @@
 # s_type = decl
 # transition = smooth-shift
 # text = There are many views on why they did these carvings, but whatever the reason, you will find them a very special attraction.
-1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=context-background:95->96:0
-2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=context-background:95->96:0:_;adversative-concession95->96:0:0:orp-but-830
+2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	many	many	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(117-abstract-new-cf5-2-sgl
 4	views	view	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Entity=117)
 5	on	on	ADP	IN	_	6	case	6:case	_
 6	why	why	ADV	WRB	PronType=Rel	4	nmod	4:nmod:on	_
 7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	8:nsubj	Entity=(115-person-giv:act-cf1*-1-ana)
-8	did	do	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	advcl:relcl	6:advcl:relcl	_
+8	did	do	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl:relcl	6:advcl:relcl	_
 9	these	this	DET	DT	Number=Plur|PronType=Dem	10	det	10:det	Entity=(114-object-giv:act-cf2-2-coref
 10	carvings	carving	NOUN	NNS	Number=Plur	8	obj	8:obj	Entity=114)|SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	12:punct	_
-12	but	but	CCONJ	CC	_	19	cc	19:cc	Discourse=adversative-concession:96->97:0
+12	but	but	CCONJ	CC	_	19	cc	19:cc	Discourse=adversative-concession:96->97:0:_
 13	whatever	whatever	PRON	WP	PronType=Int	19	advcl	19:advcl	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(118-abstract-new-cf4-2-sgl
 15	reason	reason	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	Entity=118)|SpaceAfter=No
 16	,	,	PUNCT	,	_	13	punct	13:punct	_
-17	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	19:nsubj	Discourse=explanation-motivation:97->93:1|Entity=(49-person-giv:inact-cf3-1-ana)
+17	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	19:nsubj	Discourse=explanation-motivation:97->93:1:dm-but-830|Entity=(49-person-giv:inact-cf3-1-ana)
 18	will	will	AUX	MD	VerbForm=Fin	19	aux	19:aux	_
-19	find	find	VERB	VB	VerbForm=Inf	2	conj	2:conj:but	_
+19	find	find	VERB	VB	VerbForm=Inf|Voice=Act	2	conj	2:conj:but	_
 20	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	obj	19:obj|24:nsubj:xsubj	Entity=(114-object-giv:act-cf2-1-ana)
 21	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(114-object-giv:act-cf2-4-coref
 22	very	very	ADV	RB	_	23	advmod	23:advmod	_
@@ -1202,7 +1202,7 @@
 # text = Port Hutt.
 # newpar
 # newpar_block = item (3 s) | p (3 s)
-1	Port	Port	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-preparation:98->100:3|Entity=(119-place-new-cf1-1,2-coref-Port_Hutt|XML=<hi rend:::"bold">
+1	Port	Port	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-preparation:98->100:3:sem-synym-844-845,847-859|Entity=(119-place-new-cf1-1,2-coref-Port_Hutt|XML=<hi rend:::"bold">
 2	Hutt	Hutt	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=119)|SpaceAfter=No|XML=</hi>
 3	.	.	PUNCT	.	_	1	punct	1:punct	_
 
@@ -1211,7 +1211,7 @@
 # s_type = decl
 # transition = establishment
 # text = One of the most scenicly attractive ports in the whole of New Zealand, Port Hutt boasts an incredibly sheltered little harbour, with picturesque views and safe anchorage in all weather.
-1	One	one	NUM	CD	NumForm=Word|NumType=Card	17	dislocated	17:dislocated	Discourse=evaluation-comment:99->100:0|Entity=(119-place-giv:act-cf1*-1,13-coref-Port_Hutt
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	17	dislocated	17:dislocated	Discourse=evaluation-comment:99->100:0:lex-indwd-852|Entity=(119-place-giv:act-cf1*-1,13-coref-Port_Hutt
 2	of	of	ADP	IN	_	7	case	7:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	_
 4	most	most	ADV	RBS	Degree=Sup	6	advmod	6:advmod	_
@@ -1225,12 +1225,12 @@
 12	New	New	PROPN	NNP	Number=Sing	10	nmod	10:nmod:of	Entity=(3-place-giv:inact-cf2-1,2-coref-New_Zealand
 13	Zealand	Zealand	PROPN	NNP	Number=Sing	12	flat	12:flat	Entity=3)119)|SpaceAfter=No
 14	,	,	PUNCT	,	_	1	punct	1:punct	_
-15	Port	Port	PROPN	NNP	Number=Sing	17	nsubj	17:nsubj	Discourse=joint-list_m:100->79:0|Entity=(119-place-giv:act-cf1*-1,2-coref-Port_Hutt
+15	Port	Port	PROPN	NNP	Number=Sing	17	nsubj	17:nsubj	Discourse=joint-list_m:100->79:0:_|Entity=(119-place-giv:act-cf1*-1,2-coref-Port_Hutt
 16	Hutt	Hutt	PROPN	NNP	Number=Sing	15	flat	15:flat	Entity=119)
-17	boasts	boast	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+17	boasts	boast	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 18	an	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Bridge=119<120|Entity=(120-place-acc:inf-cf3-5-sgl
 19	incredibly	incredibly	ADV	RB	Degree=Pos	20	advmod	20:advmod	_
-20	sheltered	shelter	VERB	VBN	Tense=Past|VerbForm=Part	22	amod	22:amod	_
+20	sheltered	shelter	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	amod	22:amod	_
 21	little	little	ADJ	JJ	Degree=Pos	22	amod	22:amod	_
 22	harbour	harbour	NOUN	NN	Number=Sing	17	obj	17:obj	Entity=120)|SpaceAfter=No
 23	,	,	PUNCT	,	_	26	punct	26:punct	_
@@ -1241,7 +1241,7 @@
 28	safe	safe	ADJ	JJ	Degree=Pos	29	amod	29:amod	Bridge=119<122|Entity=(122-place-acc:inf-cf5-2-sgl
 29	anchorage	anchorage	NOUN	NN	Number=Sing	26	conj	1:nmod:with|26:conj:and	Entity=122)
 30	in	in	ADP	IN	_	32	case	32:case	_
-31	all	all	DET	DT	PronType=Tot	32	det	32:det	Entity=(123-abstract-new-cf6-2-sgl
+31	all	all	DET	DT	PronType=Ind	32	det	32:det	Entity=(123-abstract-new-cf6-2-sgl
 32	weather	weather	NOUN	NN	Number=Sing	29	nmod	29:nmod:in	Entity=123)|SpaceAfter=No
 33	.	.	PUNCT	.	_	17	punct	17:punct	_
 
@@ -1250,7 +1250,7 @@
 # s_type = decl
 # transition = continue
 # text = Historically important and economically crucial for these islands today, Port Hutt is the ideal location for a short browse around and a mecca for those photography buffs [2].
-1	Historically	historically	ADV	RB	Degree=Pos	2	advmod	2:advmod	Discourse=evaluation-comment:101->102:0
+1	Historically	historically	ADV	RB	Degree=Pos	2	advmod	2:advmod	Discourse=evaluation-comment:101->102:0:lex-indwd-881
 2	important	important	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
 3	and	and	CCONJ	CC	_	5	cc	5:cc	_
 4	economically	economically	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
@@ -1260,7 +1260,7 @@
 8	islands	island	NOUN	NNS	Number=Plur	5	obl	5:obl:for	Entity=1)
 9	today	today	NOUN	NN	Number=Sing	2	obl:tmod	2:obl:tmod	Entity=(116-time-giv:inact-cf3-1-coref)|SpaceAfter=No
 10	,	,	PUNCT	,	_	2	punct	2:punct	_
-11	Port	Port	PROPN	NNP	Number=Sing	16	nsubj	16:nsubj|24:nsubj	Discourse=joint-other_m:102->100:1|Entity=(119-place-giv:act-cf1*-1,2-coref-Port_Hutt
+11	Port	Port	PROPN	NNP	Number=Sing	16	nsubj	16:nsubj|24:nsubj	Discourse=joint-other_m:102->100:1:_|Entity=(119-place-giv:act-cf1*-1,2-coref-Port_Hutt
 12	Hutt	Hutt	PROPN	NNP	Number=Sing	11	flat	11:flat	Entity=119)
 13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	16:cop	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(119-place-giv:act-cf1*-3-coref-Port_Hutt
@@ -1278,7 +1278,7 @@
 26	those	that	DET	DT	Number=Plur|PronType=Dem	28	det	28:det	Entity=(125-person-new-cf4-3-sgl
 27	photography	photography	NOUN	NN	Number=Sing	28	compound	28:compound	_
 28	buffs	buff	NOUN	NNS	Number=Plur	24	nmod	24:nmod:for	Entity=125)119)
-29	[	[	PUNCT	-LRB-	_	30	punct	30:punct	Discourse=explanation-evidence:103->100:2|SpaceAfter=No|XML=<ref>
+29	[	[	PUNCT	-LRB-	_	30	punct	30:punct	Discourse=explanation-evidence:103->100:2:grf-prn-908,910|SpaceAfter=No|XML=<ref>
 30	2	2	NUM	CD	NumForm=Digit|NumType=Card	16	dep	16:dep	Entity=(126-abstract-new-cf6-1-sgl)|SpaceAfter=No
 31	]	]	PUNCT	-RRB-	_	30	punct	30:punct	SpaceAfter=No|XML=</ref>
 32	.	.	PUNCT	.	_	16	punct	16:punct	_
@@ -1290,7 +1290,7 @@
 # text = Kopinga Marae.
 # newpar
 # newpar_block = item (6 s) | p (6 s)
-1	Kopinga	Kopinga	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-preparation:104->113:2|Entity=(64-place-giv:inact-cf1-1,2-coref-Waitangi%2C_Chatham_Islands|XML=<hi rend:::"bold">
+1	Kopinga	Kopinga	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-preparation:104->113:2:ref-dmn-912-913,996-1000|Entity=(64-place-giv:inact-cf1-1,2-coref-Waitangi%2C_Chatham_Islands|XML=<hi rend:::"bold">
 2	Marae	Marae	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=64)|SpaceAfter=No|XML=</hi>
 3	.	.	PUNCT	.	_	1	punct	1:punct	_
 
@@ -1299,15 +1299,15 @@
 # s_type = decl
 # transition = establishment
 # text = If you could define a place that will remind you of your visit to the Chathams, then this very special place will be at the top of your list.
-1	If	if	SCONJ	IN	_	4	mark	4:mark	Discourse=contingency-condition:105->107:0
+1	If	if	SCONJ	IN	_	4	mark	4:mark	Discourse=contingency-condition:105->107:0:dm-if then-915,932
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(49-person-giv:inact-cf1-1-ana)
 3	could	could	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
-4	define	define	VERB	VB	VerbForm=Inf	27	advcl	27:advcl:if	_
+4	define	define	VERB	VB	VerbForm=Inf|Voice=Act	27	advcl	27:advcl:if	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(127-place-new-cf4-2-sgl
 6	place	place	NOUN	NN	Number=Sing	4	obj	4:obj|9:nsubj	Entity=127)
-7	that	that	PRON	WDT	PronType=Rel	9	nsubj	6:ref	Discourse=elaboration-attribute:106->105:0
+7	that	that	PRON	WDT	PronType=Rel	9	nsubj	6:ref	Discourse=elaboration-attribute:106->105:0:syn-mdf-920+syn-rlt-921,923
 8	will	will	AUX	MD	VerbForm=Fin	9	aux	9:aux	_
-9	remind	remind	VERB	VB	VerbForm=Inf	6	acl:relcl	6:acl:relcl	_
+9	remind	remind	VERB	VB	VerbForm=Inf|Voice=Act	6	acl:relcl	6:acl:relcl	_
 10	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	9	iobj	9:iobj	Entity=(49-person-giv:act-cf1-1-ana)
 11	of	of	ADP	IN	_	13	case	13:case	_
 12	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(128-event-new-cf5-2-sgl(49-person-giv:act-cf1-1-ana)
@@ -1316,7 +1316,7 @@
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(1-place-giv:inact-cf3-2-coref-Chatham_Islands
 16	Chathams	Chatham	PROPN	NNPS	Number=Plur	13	nmod	13:nmod:to	Entity=1)128)|SpaceAfter=No
 17	,	,	PUNCT	,	_	4	punct	4:punct	_
-18	then	then	ADV	RB	PronType=Dem	27	advmod	27:advmod	Discourse=evaluation-comment:107->109:1
+18	then	then	ADV	RB	PronType=Dem	27	advmod	27:advmod	Discourse=evaluation-comment:107->109:1:lex-indwd-934+lex-indwd-935+lex-indwd-941
 19	this	this	DET	DT	Number=Sing|PronType=Dem	22	det	22:det	Entity=(64-place-giv:act-cf2*-4-coref-Waitangi%2C_Chatham_Islands
 20	very	very	ADV	RB	_	21	advmod	21:advmod	_
 21	special	special	ADJ	JJ	Degree=Pos	22	amod	22:amod	_
@@ -1336,11 +1336,11 @@
 # s_type = decl
 # transition = continue
 # text = Opened in 2005, Kopinga is the official meeting place of Te Imi Moriori.
-1	Opened	open	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	5:acl	Discourse=context-background:108->109:0
+1	Opened	open	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	acl	5:acl	Discourse=context-background:108->109:0:_
 2	in	in	ADP	IN	_	3	case	3:case	_
 3	2005	2005	NUM	CD	NumForm=Digit|NumType=Card	1	obl	1:obl:in	Entity=(130-time-new-cf3-1-sgl)|SpaceAfter=No|XML=<date when:::"2005"></date>
 4	,	,	PUNCT	,	_	1	punct	1:punct	_
-5	Kopinga	Kopinga	PROPN	NNP	Number=Sing	10	nsubj	10:nsubj	Discourse=explanation-motivation:109->113:0|Entity=(64-place-giv:act-cf1*-1-coref-Waitangi%2C_Chatham_Islands)
+5	Kopinga	Kopinga	PROPN	NNP	Number=Sing	10	nsubj	10:nsubj	Discourse=explanation-motivation:109->113:0:_|Entity=(64-place-giv:act-cf1*-1-coref-Waitangi%2C_Chatham_Islands)
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(64-place-giv:act-cf1*-4-coref-Waitangi%2C_Chatham_Islands
 8	official	official	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
@@ -1357,7 +1357,7 @@
 # s_type = decl
 # transition = continue
 # text = Adorned with contemporary Moriori carvings and traditional taonga (treasures), the marae is a magnificent, tasteful and contemporary testament to the ancestors of Te Imi Moriori.
-1	Adorned	adorn	VERB	VBN	Tense=Past|VerbForm=Part	14	acl	14:acl	Discourse=context-background:110->112:0
+1	Adorned	adorn	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	acl	14:acl	Discourse=context-background:110->112:0:_
 2	with	with	ADP	IN	_	5	case	5:case	_
 3	contemporary	contemporary	ADJ	JJ	Degree=Pos	5	amod	5:amod	Entity=(132-object-new-cf5-3-sgl-Arborglyph
 4	Moriori	Moriori	PROPN	NNP	Number=Sing	5	compound	5:compound	_
@@ -1365,11 +1365,11 @@
 6	and	and	CCONJ	CC	_	8	cc	8:cc	_
 7	traditional	traditional	ADJ	JJ	Degree=Pos	8	amod	8:amod	Entity=(133-object-new-cf3-2-coref
 8	taonga	taonga	X	FW	_	5	conj	1:obl:with|5:conj:and	Entity=133)
-9	(	(	PUNCT	-LRB-	_	10	punct	10:punct	Discourse=restatement-partial:111->110:0|SpaceAfter=No
+9	(	(	PUNCT	-LRB-	_	10	punct	10:punct	Discourse=restatement-partial:111->110:0:sem-synym-967-968,970+grf-prn-969,971|SpaceAfter=No
 10	treasures	treasure	NOUN	NNS	Number=Plur	8	appos	8:appos	Entity=(133-object-giv:act-cf3-1-appos)|SpaceAfter=No
 11	)	)	PUNCT	-RRB-	_	10	punct	10:punct	SpaceAfter=No
 12	,	,	PUNCT	,	_	1	punct	1:punct	_
-13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Discourse=evaluation-comment:112->109:2|Entity=(64-place-giv:act-cf1*-2-coref-Waitangi%2C_Chatham_Islands
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Discourse=evaluation-comment:112->109:2:lex-indwd-977|Entity=(64-place-giv:act-cf1*-2-coref-Waitangi%2C_Chatham_Islands
 14	marae	marae	NOUN	NN	Number=Sing	22	nsubj	22:nsubj	Entity=64)
 15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	22:cop	_
 16	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(64-place-giv:act-cf1*-7-pred-Waitangi%2C_Chatham_Islands
@@ -1393,9 +1393,9 @@
 # s_type = imp
 # transition = continue
 # text = Enjoy a guided tour of this beautiful and peaceful building.
-1	Enjoy	enjoy	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:113->79:0
+1	Enjoy	enjoy	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	Discourse=joint-list_m:113->79:0:_
 2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(134-event-new-cf2-3-sgl
-3	guided	guide	VERB	VBN	Tense=Past|VerbForm=Part	4	amod	4:amod	_
+3	guided	guide	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	amod	4:amod	_
 4	tour	tour	NOUN	NN	Number=Sing	1	obj	1:obj	_
 5	of	of	ADP	IN	_	10	case	10:case	_
 6	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	10:det	Entity=(64-place-giv:act-cf1*-5-coref-Waitangi%2C_Chatham_Islands
@@ -1410,24 +1410,24 @@
 # s_type = decl
 # transition = continue
 # text = School-Camps At Kopinga Marae [3] also utilise this wonderful national treasure for hosting visiting school groups.
-1	School	school	NOUN	NN	Number=Sing	3	compound	3:compound	Discourse=joint-other_m:114->113:1|Entity=(135-organization-new-cf2-3,6-sgl|SpaceAfter=No|XML=<w>
+1	School	school	NOUN	NN	Number=Sing	3	compound	3:compound	Discourse=joint-other_m:114->113:1:dm-also-1011|Entity=(135-organization-new-cf2-3,6-sgl|SpaceAfter=No|XML=<w>
 2	-	-	PUNCT	HYPH	_	1	punct	1:punct	SpaceAfter=No
 3	Camps	camp	NOUN	NNS	Number=Plur	11	nsubj	11:nsubj	XML=</w>
 4	At	at	ADP	IN	_	5	case	5:case	_
 5	Kopinga	Kopinga	PROPN	NNP	Number=Sing	3	nmod	3:nmod:at	Entity=(64-place-giv:act-cf1*-1,2-coref-Waitangi%2C_Chatham_Islands
 6	Marae	Marae	PROPN	NNP	Number=Sing	5	flat	5:flat	Entity=64)135)
-7	[	[	PUNCT	-LRB-	_	8	punct	8:punct	Discourse=explanation-evidence:115->114:0|SpaceAfter=No|XML=<ref>
+7	[	[	PUNCT	-LRB-	_	8	punct	8:punct	Discourse=explanation-evidence:115->114:0:grf-prn-1008,1010|SpaceAfter=No|XML=<ref>
 8	3	3	NUM	CD	NumForm=Digit|NumType=Card	3	dep	3:dep	Entity=(136-abstract-new-cf4-1-sgl)|SpaceAfter=No
 9	]	]	PUNCT	-RRB-	_	8	punct	8:punct	XML=</ref>
-10	also	also	ADV	RB	_	11	advmod	11:advmod	Discourse=same-unit_m:116->114:1
-11	utilise	utilise	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+10	also	also	ADV	RB	_	11	advmod	11:advmod	Discourse=same-unit_m:116->114:1:_
+11	utilise	utilise	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 12	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	15:det	Entity=(64-place-giv:act-cf1*-4-coref-Waitangi%2C_Chatham_Islands
 13	wonderful	wonderful	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
 14	national	national	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
 15	treasure	treasure	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=64)
-16	for	for	SCONJ	IN	_	17	mark	17:mark	Discourse=purpose-goal:117->116:0
-17	hosting	host	VERB	VBG	VerbForm=Ger	11	advcl	11:advcl:for	_
-18	visiting	visit	VERB	VBG	VerbForm=Ger	20	amod	20:amod	Entity=(137-person-new-cf3-3-sgl
+16	for	for	SCONJ	IN	_	17	mark	17:mark	Discourse=purpose-goal:117->116:0:dm-for-1017
+17	hosting	host	VERB	VBG	VerbForm=Ger|Voice=Act	11	advcl	11:advcl:for	_
+18	visiting	visit	VERB	VBG	VerbForm=Ger|Voice=Act	20	amod	20:amod	Entity=(137-person-new-cf3-3-sgl
 19	school	school	NOUN	NN	Number=Sing	20	compound	20:compound	Entity=(138-organization-new-cf5-1-sgl)
 20	groups	group	NOUN	NNS	Number=Plur	17	obj	17:obj	Entity=137)|SpaceAfter=No
 21	.	.	PUNCT	.	_	11	punct	11:punct	_
@@ -1439,7 +1439,7 @@
 # text = Tommy Solomon Statue.
 # newpar
 # newpar_block = item (6 s) | p (6 s)
-1	Tommy	Tommy	PROPN	NNP	Number=Sing	3	compound	3:compound	Discourse=organization-preparation:118->123:3|Entity=(139-object-new-cf1-1,2,3-coref(140-person-new-cf2-1,2-sgl-Tommy_Solomon|XML=<hi rend:::"bold">
+1	Tommy	Tommy	PROPN	NNP	Number=Sing	3	compound	3:compound	Discourse=organization-preparation:118->123:3:ref-dmn-1023-1025,1073-1074|Entity=(139-object-new-cf1-1,2,3-coref(140-person-new-cf2-1,2-sgl-Tommy_Solomon|XML=<hi rend:::"bold">
 2	Solomon	Solomon	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=140)
 3	Statue	Statue	PROPN	NNP	Number=Sing	0	root	0:root	Entity=139)|SpaceAfter=No|XML=</hi>
 4	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -1449,20 +1449,20 @@
 # s_type = decl
 # transition = null
 # text = Tame Horomona Rehe was the last known full-blooded Moriori and he passed away in 1933.
-1	Tame	Tame	PROPN	NNP	Number=Sing	11	nsubj	11:nsubj	Discourse=context-background:119->123:2|Entity=(141-person-new-cf1-1,2,3-coref-Tommy_Solomon
+1	Tame	Tame	PROPN	NNP	Number=Sing	11	nsubj	11:nsubj	Discourse=context-background:119->123:2:ref-prs-1027-1029,1081+ref-prp-1039-1043,1081-1082|Entity=(141-person-new-cf1-1,2,3-coref-Tommy_Solomon
 2	Horomona	Horomona	PROPN	NNP	Number=Sing	1	flat	1:flat	_
 3	Rehe	Rehe	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=141)
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	11:cop	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(141-person-giv:act-cf1-7-coref-Tommy_Solomon
 6	last	last	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
-7	known	know	VERB	VBN	Tense=Past|VerbForm=Part	11	amod	11:amod	_
+7	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	amod	11:amod	_
 8	full	full	ADJ	JJ	Degree=Pos	10	amod	10:amod	SpaceAfter=No|XML=<w>
 9	-	-	PUNCT	HYPH	_	8	punct	8:punct	SpaceAfter=No
-10	blooded	blood	VERB	VBN	Tense=Past|VerbForm=Part	11	amod	11:amod	XML=</w>
+10	blooded	blood	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	amod	11:amod	XML=</w>
 11	Moriori	Moriori	PROPN	NNP	Number=Sing	0	root	0:root	Entity=141)
-12	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=elaboration-additional:120->119:0
+12	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=elaboration-additional:120->119:0:ref-prs-1027-1029,1039+dm-and-1038
 13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj	Entity=(142-event-new-cf2-2-disc(141-person-giv:act-cf1-1-ana-Tommy_Solomon)
-14	passed	pass	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	11:conj:and	_
+14	passed	pass	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	11:conj:and	_
 15	away	away	ADV	RB	Degree=Pos	14	advmod	14:advmod	_
 16	in	in	ADP	IN	_	17	case	17:case	_
 17	1933	1933	NUM	CD	NumForm=Digit|NumType=Card	14	obl	14:obl:in	Entity=(143-time-new-cf3-1-sgl)142)|SpaceAfter=No|XML=<date when:::"1933"></date>
@@ -1473,7 +1473,7 @@
 # s_type = decl
 # transition = establishment
 # text = He was however, not the last Moriori.
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj	Discourse=adversative-contrast_m:121->119:1|Entity=(141-person-giv:act-cf1*-1-ana-Tommy_Solomon)
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj	Discourse=adversative-contrast_m:121->119:1:sem-ngt-1037,1049,1052+dm-however-1047|Entity=(141-person-giv:act-cf1*-1-ana-Tommy_Solomon)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	8:cop	_
 3	however	however	ADV	RB	_	8	advmod	8:advmod	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -1488,7 +1488,7 @@
 # s_type = decl
 # transition = continue
 # text = His own descendants and the descendants of other Moriori live on today.
-1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Discourse=restatement-repetition_m:122->121:0|Entity=(145-person-new-cf4-3-coref(141-person-giv:act-cf1*-1-ana-Tommy_Solomon)
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Discourse=restatement-repetition_m:122->121:0:ref-prs-1045,1054|Entity=(145-person-new-cf4-3-coref(141-person-giv:act-cf1*-1-ana-Tommy_Solomon)
 2	own	own	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	descendants	descendant	NOUN	NNS	Number=Plur	10	nsubj	10:nsubj	Entity=145)
 4	and	and	CCONJ	CC	_	6	cc	6:cc	_
@@ -1497,7 +1497,7 @@
 7	of	of	ADP	IN	_	9	case	9:case	_
 8	other	other	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(24-person-giv:inact-cf2-2-coref-Moriori
 9	Moriori	Moriori	PROPN	NNP	Number=Sing	6	nmod	6:nmod:of	Entity=24)146)
-10	live	live	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+10	live	live	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 11	on	on	ADP	RP	_	10	compound:prt	10:compound:prt	_
 12	today	today	NOUN	NN	Number=Sing	10	obl:tmod	10:obl:tmod	Entity=(116-time-giv:inact-cf3-1-coref)|SpaceAfter=No
 13	.	.	PUNCT	.	_	10	punct	10:punct	_
@@ -1507,20 +1507,20 @@
 # s_type = imp
 # transition = continue
 # text = Come and have a look at this statue, erected in 1985 to commemorate his passing.
-1	Come	come	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:123->79:0
+1	Come	come	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	Discourse=joint-list_m:123->79:0:_
 2	and	and	CCONJ	CC	_	3	cc	3:cc	_
-3	have	have	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
+3	have	have	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin|Voice=Act	1	conj	1:conj:and	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	_
 5	look	look	NOUN	NN	Number=Sing	3	obj	3:obj	_
 6	at	at	ADP	IN	_	8	case	8:case	_
 7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	8:det	Entity=(139-object-giv:inact-cf3-2-coref
 8	statue	statue	NOUN	NN	Number=Sing	5	nmod	5:nmod:at	Entity=139)|SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	10:punct	_
-10	erected	erect	VERB	VBN	Tense=Past|VerbForm=Part	8	acl	8:acl	Discourse=elaboration-attribute:124->123:0
+10	erected	erect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	acl	8:acl	Discourse=elaboration-attribute:124->123:0:syn-mdf-1074+syn-nmn-1076+syn-nfn-1079
 11	in	in	ADP	IN	_	12	case	12:case	_
 12	1985	1985	NUM	CD	NumForm=Digit|NumType=Card	10	obl	10:obl:in	Entity=(147-time-new-cf4-1-sgl)|XML=<date when:::"1985"></date>
 13	to	to	PART	TO	_	14	mark	14:mark	_
-14	commemorate	commemorate	VERB	VB	VerbForm=Inf	10	advcl	10:advcl:to	_
+14	commemorate	commemorate	VERB	VB	VerbForm=Inf|Voice=Act	10	advcl	10:advcl:to	_
 15	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(142-event-giv:inact-cf2-2-coref(141-person-giv:act-cf1*-1-ana-Tommy_Solomon)
 16	passing	passing	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=142)|SpaceAfter=No
 17	.	.	PUNCT	.	_	1	punct	1:punct	_
@@ -1530,9 +1530,9 @@
 # s_type = imp
 # transition = retain
 # text = Come and see Manakau, the property of his descendants, located on the eastern corner of Rekohu and blessed with the sun's first rays as they rise above the sea each day.
-1	Come	come	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:125->123:1
+1	Come	come	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	Discourse=joint-other_m:125->123:1:_
 2	and	and	CCONJ	CC	_	3	cc	3:cc	_
-3	see	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
+3	see	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin|Voice=Act	1	conj	1:conj:and	_
 4	Manakau	Manakau	PROPN	NNP	Number=Sing	1	obj	1:obj|3:obj	Entity=(148-place-new-cf3-1-coref-Manakau)|SpaceAfter=No
 5	,	,	PUNCT	,	_	7	punct	7:punct	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(148-place-giv:act-cf3-2-appos-Manakau
@@ -1541,15 +1541,15 @@
 9	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(145-person-giv:inact-cf5-2-coref(141-person-giv:act-cf2*-1-ana-Tommy_Solomon)
 10	descendants	descendant	NOUN	NNS	Number=Plur	7	nmod	7:nmod:of	Entity=145)148)|SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	12:punct	_
-12	located	locate	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	7:acl	Discourse=elaboration-attribute:126->125:0
+12	located	locate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	acl	7:acl	Discourse=elaboration-attribute:126->125:0:syn-mdf-1090+syn-nmn-1095
 13	on	on	ADP	IN	_	16	case	16:case	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(149-place-new-cf8-3-sgl
 15	eastern	eastern	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
 16	corner	corner	NOUN	NN	Number=Sing	12	obl	12:obl:on	_
 17	of	of	ADP	IN	_	18	case	18:case	_
 18	Rekohu	Rekohu	PROPN	NNP	Number=Sing	16	nmod	16:nmod:of	Entity=(1-place-giv:inact-cf4-1-coref-Chatham_Islands)149)
-19	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=joint-list_m:127->126:0
-20	blessed	bless	VERB	VBN	Tense=Past|VerbForm=Part	12	conj	7:acl|12:conj:and	_
+19	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=joint-list_m:127->126:0:dm-and-1102
+20	blessed	bless	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	conj	7:acl|12:conj:and	_
 21	with	with	ADP	IN	_	26	case	26:case	_
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(150-abstract-new-cf1-5-coref(151-object-acc:com-cf6-2-sgl
 23-24	sun's	_	_	_	_	_	_	_	_
@@ -1557,13 +1557,13 @@
 24	's	's	PART	POS	_	23	case	23:case	Entity=151)
 25	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	26	amod	26:amod	_
 26	rays	ray	NOUN	NNS	Number=Plur	20	obl	20:obl:with	Entity=150)
-27	as	as	SCONJ	IN	_	29	mark	29:mark	Discourse=context-circumstance:128->127:0
+27	as	as	SCONJ	IN	_	29	mark	29:mark	Discourse=context-circumstance:128->127:0:dm-as-1110
 28	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	29	nsubj	29:nsubj	Entity=(150-abstract-giv:act-cf1-1-ana)
-29	rise	rise	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	20:advcl:as	_
+29	rise	rise	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	advcl	20:advcl:as	_
 30	above	above	ADP	IN	_	32	case	32:case	_
 31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	32:det	Entity=(152-place-acc:com-cf7-2-sgl
 32	sea	sea	NOUN	NN	Number=Sing	29	obl	29:obl:above	Entity=152)
-33	each	each	DET	DT	PronType=Tot	34	det	34:det	Entity=(153-time-new-cf9-2-sgl
+33	each	each	DET	DT	PronType=Ind	34	det	34:det	Entity=(153-time-new-cf9-2-sgl
 34	day	day	NOUN	NN	Number=Sing	29	obl:tmod	29:obl:tmod	Entity=153)|SpaceAfter=No
 35	.	.	PUNCT	.	_	1	punct	1:punct	_
 
