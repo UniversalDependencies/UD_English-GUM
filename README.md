@@ -65,34 +65,6 @@ Multi-token mentions receive opening brackets on the line in which they open, su
 27	of	of	ADP	IN	_	29	case	29:case	_
 28	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	Entity=(192-person-acc:aggr-cf1-1-coref)|SplitAnte=1<192,97<192
 29	faces	face	NOUN	NNS	Number=Plur	26	nmod	26:nmod:of	Entity=191)|SpaceAfter=No1	For	for	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:104->98:2:lex-indph-954-955
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=173<188|Entity=(188-event-acc:inf-cf6-3,6,8-sgl
-3	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	4:amod	_
-4	campaign	campaign	NOUN	NN	Number=Sing	16	obl	16:obl:for	_
-5	in	in	ADP	IN	_	10	case	10:case	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(173-abstract-giv:inact-cf3-2,4,5-coref
-7	Always	Always	ADV	NNP	Number=Sing	8	advmod	8:advmod	XML=<hi rend:::"italic">
-8	Keep	Keep	PROPN	NNP	Number=Sing	10	compound	10:compound	_
-9	Fighting	Fighting	PROPN	NNP	Number=Sing	8	xcomp	8:xcomp	MSeg=Fight-ing|XML=</hi>
-10	series	series	NOUN	NN	Number=Sing	4	nmod	4:nmod:in	Entity=173)
-11	in	in	ADP	IN	_	12	case	12:case	_
-12	April	April	PROPN	NNP	Number=Sing	4	nmod	4:nmod:in	Entity=(189-time-new-cf10-1-sgl|XML=<date when:::"2015-04">
-13	2015	2015	NUM	CD	NumForm=Digit|NumType=Card	12	nmod:tmod	12:nmod:tmod	Entity=(175-time-giv:inact-cf5-1-coref)189)188)|SpaceAfter=No|XML=</date>
-14	,	,	PUNCT	,	_	4	punct	4:punct	_
-15	Padalecki	Padalecki	PROPN	NNP	Number=Sing	16	nsubj	16:nsubj	Entity=(1-person-giv:act-cf2*-1-coref-Jared_Padalecki)
-16	partnered	partner	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	MSeg=partner-ed
-17	with	with	ADP	IN	_	18	case	18:case	_
-18	co-star	co-star	NOUN	NN	Number=Sing	16	obl	16:obl:with	Entity=(97-person-giv:inact-cf4-1,3-coref-Jensen_Ackles|MSeg=co-star
-19	Jensen	Jensen	PROPN	NNP	Number=Sing	18	appos	18:appos	XML=<ref target:::"https://en.wikipedia.org/wiki/Jensen_Ackles">
-20	Ackles	Ackles	PROPN	NNP	Number=Sing	19	flat	19:flat	Entity=97)|XML=</ref>
-21	to	to	PART	TO	_	22	mark	22:mark	Discourse=purpose-goal:105->104:0:syn-inf-963
-22	release	release	VERB	VB	VerbForm=Inf|Voice=Act	16	advcl	16:advcl:to	_
-23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(190-object-new-cf7-2-coref
-24	shirt	shirt	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=190)
-25	featuring	feature	VERB	VBG	VerbForm=Ger|Voice=Act	24	acl	24:acl	Discourse=elaboration-attribute:106->105:0:syn-mdf-966+syn-nmn-967|MSeg=featur-ing
-26	both	both	DET	DT	PronType=Tot	25	obj	25:obj	Entity=(191-object-new-cf9-1-sgl
-27	of	of	ADP	IN	_	29	case	29:case	_
-28	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	Entity=(192-person-acc:aggr-cf1-1-coref)|SplitAnte=1<192,97<192
-29	faces	face	NOUN	NNS	Number=Plur	26	nmod	26:nmod:of	Entity=191)|MSeg=face-s|SpaceAfter=No
 ```
 
 In addition, a list of the globally most salient entities in each document can be found in the metadata at the beginning of the document, for example:
