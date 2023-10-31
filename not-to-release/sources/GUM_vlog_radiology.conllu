@@ -66,7 +66,7 @@
 # speaker = DrCellini
 # transition = zero
 # text = I bounced around here and there, so I have to kind of show you guys around and show you what it's all about, and today I'm on general nuclear medicine, so let's start the day.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=context-background:5->6:1:ref-prs-26,34;causal-result5->5:1:0:orp-so-33|Entity=(4-person-giv:inact-cf1-1-ana)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=context-background:5->6:1:ref-prs-26,34;causal-result:5->5:1:0:orp-so-33|Entity=(4-person-giv:inact-cf1-1-ana)
 2	bounced	bounce	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=bounc-ed
 3	around	around	ADV	RB	Degree=Pos	2	advmod	2:advmod	MSeg=a-round
 4	here	here	ADV	RB	PronType=Dem	2	advmod	2:advmod	_
@@ -93,7 +93,7 @@
 24	all	all	ADV	RB	Degree=Pos	25	advmod	25:advmod	_
 25	about	about	ADP	IN	_	21	acl:relcl	21:acl:relcl	SpaceAfter=No
 26	,	,	PUNCT	,	_	34	punct	34:punct	_
-27	and	and	CCONJ	CC	_	34	cc	34:cc	Discourse=context-background:8->17:7:ref-prs-26,119+sem-rpt-57-59,137-139;elaboration-additional8->5:0:2:orp-and-52+ref-prs-26,54
+27	and	and	CCONJ	CC	_	34	cc	34:cc	Discourse=context-background:8->17:7:ref-prs-26,119+sem-rpt-57-59,137-139;elaboration-additional:8->5:0:2:orp-and-52+ref-prs-26,54
 28	today	today	NOUN	NN	Number=Sing	34	obl:tmod	34:obl:tmod	Entity=(7-time-new-cf3-1-coref)|MSeg=to-day|XML=<date when:::"2019-10-21"></date>
 29-30	I'm	_	_	_	_	_	_	_	_
 29	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj	34:nsubj	Entity=(4-person-giv:act-cf1-1-ana)
@@ -369,7 +369,7 @@
 43	that	that	PRON	WDT	PronType=Rel	45	obj	42:ref	Discourse=elaboration-attribute:35->34:0:syn-mdf-275+syn-relcl-276,278
 44	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	45	nsubj	45:nsubj	Entity=(23-person-giv:act-cf1*-1-ana)
 45	marked	mark	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	42	acl:relcl	42:acl:relcl	Entity=32)|MSeg=mark-ed
-46	and	and	CCONJ	CC	_	47	cc	47:cc	Discourse=joint-sequence_m:36->25:1:dm-and-279;joint-sequence36->34:1:1:orp-as well-284-285
+46	and	and	CCONJ	CC	_	47	cc	47:cc	Discourse=joint-sequence_m:36->25:1:dm-and-279;joint-sequence:36->34:1:1:orp-as well-284-285
 47	take	take	VERB	VB	VerbForm=Inf	39	conj	37:xcomp|39:conj:and	_
 48	that	that	DET	DT	Number=Sing|PronType=Dem	49	det	49:det	Entity=(32-object-giv:act-cf2-2-coref
 49	one	one	NOUN	NN	Number=Sing	47	obj	47:obj	Entity=32)
@@ -527,7 +527,7 @@
 22	and	and	CCONJ	CC	_	23	cc	23:cc	Discourse=joint-sequence_m:50->49:0:dm-and-379
 23	work	work	VERB	VB	VerbForm=Inf	18	conj	2:conj|18:conj:and	Entity=(47-event-new-cf3-1-disc
 24	out	out	ADP	RP	_	23	compound:prt	23:compound:prt	Entity=47)
-25	because	because	SCONJ	IN	_	29	mark	29:mark	Discourse=causal-cause:51->50:0:dm-because-382;adversative-antithesis51->55:1:0:orp-but-410
+25	because	because	SCONJ	IN	_	29	mark	29:mark	Discourse=causal-cause:51->50:0:dm-because-382;adversative-antithesis:51->55:1:0:orp-but-410
 26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	29:nsubj|31:nsubj:xsubj	Entity=(4-person-giv:act-cf2-1-ana)
 27	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	29	cop	29:cop	_
 28	too	too	ADV	RB	Degree=Pos	29	advmod	29:advmod	_
@@ -632,7 +632,7 @@
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=context-circumstance:62->63:0:lex-indwd-455|Entity=(53-time-giv:act-cf1*-1-ana)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	Tuesday	Tuesday	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(53-time-giv:act-cf1*-1-coref)|XML=<date when:::"2020-10-22"></date>
-4	and	and	CCONJ	CC	_	8	cc	8:cc	Discourse=joint-sequence_m:63->17:8:lex-indwd-457;elaboration-additional63->62:0:0:orp-and-456+sem-synym-453,457
+4	and	and	CCONJ	CC	_	8	cc	8:cc	Discourse=joint-sequence_m:63->17:8:lex-indwd-457;elaboration-additional:63->62:0:0:orp-and-456+sem-synym-453,457
 5	today	today	NOUN	NN	Number=Sing	8	obl:tmod	8:obl:tmod	Entity=(53-time-giv:act-cf1*-1-coref)|MSeg=to-day|XML=<date when:::"2020-10-22"></date>
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj:pass	8:nsubj:pass	Entity=(4-person-giv:inact-cf2-1-ana)
 7	got	get	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	aux:pass	8:aux:pass	_
@@ -819,7 +819,7 @@
 14	cough	cough	NOUN	NN	Number=Sing	15	compound	15:compound	Entity=(59-object-giv:act-cf3-2-pred
 15	drops	drop	NOUN	NNS	Number=Plur	11	ccomp	11:ccomp	Entity=59)|MSeg=drop-s|SpaceAfter=No
 16	,	,	PUNCT	,	_	24	punct	24:punct	_
-17	so	so	ADV	RB	_	24	advmod	24:advmod	Discourse=adversative-concession:84->83:2:_;adversative-concession84->88:1:2:orp-but-604
+17	so	so	ADV	RB	_	24	advmod	24:advmod	Discourse=adversative-concession:84->83:2:_;adversative-concession:84->88:1:2:orp-but-604
 18	if	if	SCONJ	IN	_	20	mark	20:mark	Discourse=contingency-condition:85->86:0:dm-if-594
 19	anybody	anybody	PRON	NN	Number=Sing|PronType=Ind	20	nsubj	20:nsubj	Entity=(64-person-new-cf4-1-coref)|MSeg=any-body
 20	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	24:advcl:if	Cxn=Condition-Realistic|MSeg=know-s
@@ -907,7 +907,7 @@
 # speaker = DrCellini
 # transition = continue
 # text = Oh and PS, I usually try to avoid taking medicines that I can't read the name of but I had someone help me at the pharmacy in the airport.
-1	Oh	oh	INTJ	UH	_	7	discourse	7:discourse	Discourse=adversative-concession:95->97:2:dm-but-670;elaboration-additional95->89:5:2:orp-and-652+ref-prs-625,636-638,691,710+sem-synym-629-630,711
+1	Oh	oh	INTJ	UH	_	7	discourse	7:discourse	Discourse=adversative-concession:95->97:2:dm-but-670;elaboration-additional:95->89:5:2:orp-and-652+ref-prs-625,636-638,691,710+sem-synym-629-630,711
 2	and	and	CCONJ	CC	_	7	cc	7:cc	_
 3	PS	PS	ADV	RB	Degree=Pos	7	advmod	7:advmod	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -927,7 +927,7 @@
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(70-abstract-new-cf6-3-sgl
 18	name	name	NOUN	NN	Number=Sing	16	obj	16:obj	_
 19	of	of	ADP	IN	_	12	case	12:case	Entity=70)69)
-20	but	but	CCONJ	CC	_	22	cc	22:cc	Discourse=causal-cause:97->101:1:dm-so-699;explanation-justify97->100:1:2:orp-and-690
+20	but	but	CCONJ	CC	_	22	cc	22:cc	Discourse=causal-cause:97->101:1:dm-so-699;explanation-justify:97->100:1:2:orp-and-690
 21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	22:nsubj	Entity=(71-abstract-new-cf7-2-disc(4-person-giv:act-cf1*-1-ana)
 22	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	conj	7:conj:but	_
 23	someone	someone	PRON	NN	Number=Sing|PronType=Ind	22	obj	22:obj|24:nsubj:xsubj	Entity=(72-person-new-cf2-1-coref)
@@ -1026,7 +1026,7 @@
 35	somewhere	somewhere	ADV	RB	_	34	advmod	34:advmod	_
 36	this	this	DET	DT	Number=Sing|PronType=Dem	37	det	37:det	Entity=(79-time-acc:com-cf6-2-sgl|XML=<date from:::"2020-10-26" to:::"2020-10-27">
 37	weekend	weekend	NOUN	NN	Number=Sing	34	obl:tmod	34:obl:tmod	Entity=79)78)|XML=</date>
-38	and	and	CCONJ	CC	_	41	cc	41:cc	Discourse=evaluation-comment:109->106:1:lex-indwd-756;causal-result109->108:0:0:orp-and-750
+38	and	and	CCONJ	CC	_	41	cc	41:cc	Discourse=evaluation-comment:109->106:1:lex-indwd-756;causal-result:109->108:0:0:orp-and-750
 39-40	it's	_	_	_	_	_	_	_	_
 39	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	41	nsubj	41:nsubj|44:nsubj:xsubj	Entity=(78-event-giv:act-cf3-1-coref)
 40	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux	41:aux	_
@@ -1150,7 +1150,7 @@
 # speaker = DrCellini
 # transition = continue
 # text = So I'm probably just gonna go home and rest and I have to get my hair cut today for my big trip coming up.
-1	So	so	ADV	RB	_	6	advmod	6:advmod	Discourse=restatement-partial:120->115:2:ref-prs-806,834+sem-rpt-818,841+sem-lxchn-823,843;causal-result120->115:0:2:orp-so-833
+1	So	so	ADV	RB	_	6	advmod	6:advmod	Discourse=restatement-partial:120->115:2:ref-prs-806,834+sem-rpt-818,841+sem-lxchn-823,843;causal-result:120->115:0:2:orp-so-833
 2-3	I'm	_	_	_	_	_	_	_	_
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj|8:nsubj:xsubj|11:nsubj:xsubj	Entity=(4-person-giv:act-cf1*-1-ana)
 3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
@@ -1206,7 +1206,7 @@
 # speaker = DrCellini
 # transition = continue
 # text = But yeah that's pretty much it, hope you guys don't mind this kind of like random vlog that I'm doing, but I just wanted to show you guys kind of loosely like how a week is and the life of a radiology resident.
-1	But	but	CCONJ	CC	_	7	cc	7:cc	Discourse=evaluation-comment:125->17:9:_;adversative-concession125->2:0:7:orp-but-871
+1	But	but	CCONJ	CC	_	7	cc	7:cc	Discourse=evaluation-comment:125->17:9:_;adversative-concession:125->2:0:7:orp-but-871
 2	yeah	yeah	INTJ	UH	_	7	discourse	7:discourse	_
 3-4	that's	_	_	_	_	_	_	_	_
 3	that	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	7:nsubj	Entity=(83-abstract-acc:com-cf2-1-ana)
@@ -1215,7 +1215,7 @@
 6	much	much	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
 7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	0:root	Entity=(83-abstract-giv:act-cf2-1-ana)|SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	9:punct	_
-9	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	parataxis	7:parataxis	Discourse=evaluation-comment:126->125:0:lex-indwd-879;adversative-antithesis126->128:1:0:orp-but-896
+9	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	parataxis	7:parataxis	Discourse=evaluation-comment:126->125:0:lex-indwd-879;adversative-antithesis:126->128:1:0:orp-but-896
 10	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	11	dep	11:dep	Entity=(5-person-giv:act-cf3-2-coref
 11	guys	guy	NOUN	NNS	Number=Plur	14	nsubj	14:nsubj	Entity=5)|MSeg=guy-s
 12-13	don't	_	_	_	_	_	_	_	_
