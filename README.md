@@ -190,7 +190,7 @@ Discourse relations in GUM are defined based on the effect that W (a writer/spea
     * topic-solutionhood (SN/NS) - S steers the discourse topic by posing a problem, to which N presents a solution
   * Same-unit (NN) - connects parts of a discontinuous discourse unit (this is not a discourse relation)
 
-Relation signals fall into major classes with several subtypes each and include:
+Relation signals fall into nine major classes, most with several subtypes each, and include:
 
   * dm: discourse markers of primary relations ('but', 'additionally', 'on the other hand'...)
   * orphan (orp): discourse markers of secondary relations
