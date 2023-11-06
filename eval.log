@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_English-GUM:
-commit 5138ec6045438aeb75dfdd5f93c666d7138c67ce
-Merge: 3b0ca92 3aa2095
+commit 1b7ff70990c3b738f07e5113eced58a7b4a16de8
+Merge: bc5b73d 2e61ab8
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 187416 of 187416 words (nodes).
-Size: min(0, log((N/1000)**2)) = 10.466661490057.
+Size: counted 187417 of 187417 words (nodes).
+Size: min(0, log((N/1000)**2)) = 10.466672161476.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,30 +15,32 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 126655 out of 187416 total words have one or more features.
+Features: 126661 out of 187417 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 36 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       2194
-Udapi: found 2194 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 187416 words.
+               TOTAL       2112
+Udapi: found 2112 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 187417 words.
 Genres: found 9 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-GUM/en_gum-ud-dev.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-GUM/en_gum-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-GUM/en_gum-ud-train.conllu
+[Line 1170 Sent GUM_academic_census-6 Node 19]: [L3 Warning fixed-gap] Gaps in fixed expression [19, 23] 'due * * * to'
+Warnings: 1
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.529411764705882) = 0.0407239819004525
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.757602221513501) = 0.194256979875257
+(weight=0.256410256410256) * (score{size}=0.757602993936566) = 0.194257177932453
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.882934221197763) = 0.27167206806085
+(weight=0.307692307692308) * (score{udapi}=0.887310115944658) = 0.273018497213741
 (weight=0.0769230769230769) * (score{udeprels}=0.972972972972973) = 0.0748440748440748
-(TOTAL score=0.832779155962686) * (availability=1) * (validity=1) = 0.832779155962686
+(TOTAL score=0.834125783172772) * (availability=1) * (validity=1) = 0.834125783172772
 STARS = 4
-UD_English-GUM	0.832779155962686	4
+UD_English-GUM	0.834125783172772	4
