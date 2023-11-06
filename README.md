@@ -4,24 +4,39 @@ Universal Dependencies syntax annotations from the GUM corpus (https://gucorplin
 
 # Introduction
 
-GUM, the Georgetown University Multilayer corpus, is an open source collection of richly annotated texts from multiple text types. The corpus is collected and expanded by students as part of the curriculum in the course LING-367 "Computational Corpus Linguistics" at Georgetown University. The selection of text types is meant to represent different communicative purposes, while coming from sources that are readily and openly available (usually Creative Commons licenses), so that new texts can be annotated and published with ease.
+GUM, the Georgetown University Multilayer corpus, is an open source collection of richly annotated texts from multiple text types. The corpus is collected and expanded by students as part of the curriculum in the course LING-4427 "Computational Corpus Linguistics" at Georgetown University. The selection of text types is meant to represent different communicative purposes, while coming from sources that are readily and openly available (usually Creative Commons licenses), so that new texts can be annotated and published with ease.
 
 The dependencies in the corpus up to GUM version 5 were originally annotated using Stanford Typed Depenencies (de Marneffe & Manning 2013) and converted automatically to UD using DepEdit (https://gucorpling.org/depedit/). The rule-based conversion took into account gold entity annotations found in other annotation layers of the GUM corpus (e.g. entity annotations), and has since been corrected manually in native UD. The original conversion script used can found in the GUM build bot code from version 5, available from the (non-UD) GUM repository. Documents from version 6 of GUM onwards were annotated directly in UD, and subsequent manual error correction to all GUM data has also been done directly using the UD guidelines. Enhanced dependencies were added semi-automatically from version 7.1 of the corpus. For more details see the [corpus website](https://gucorpling.org/gum/).
 
 # Additional annotations in MISC
 
-The MISC column contains **entity, coreference, information status, Wikification and discourse** annotations from the full GUM corpus, encoded using the annotations `Entity`, `SplitAnte`, `Bridge` and `Discourse`. 
+The MISC column contains **morphological segmentation, Construction Grammar, entity, coreference, information status, Wikification and discourse** annotations from the full GUM corpus, encoded using the annotations `MSeg`, `Cxn`, `Entity`, `SplitAnte`, `Bridge` and `Discourse`. 
+
+## MSeg
+
+Morphological segmentation in GUM is annotated in the MISC field `MSeg` attribute semi-automatically using the [Unimorph](https://unimorph.github.io/) lexical resource (Kirov et al. 2018), specifically using scripts based on the lexicon data [here](https://github.com/unimorph/eng). Analyses are concatenative, using hyphens as separators, and are guaranteed to sum up to the string of each token with only hyphens added. Existing hyphens in a word form are retained and assumed to be meaningful. Analyses cover inflection, derivation and compounding. For example:
+
+  * books -> book-s
+  * explanation -> explan-ation
+  * baseball -> base-ball
+  * e-mail -> e-mail (hyphen is retained, presumably meaningful)
+  
+Note that stems are retained in their orthographic forms (explanation does not become explain+ation), and 'etymological affixation' in loanwords is not necessarily analyzed (e.g. "ex" is not split off since the corresponding affixation process is no longer interpretable in English). For more information and updates to the segmentation guidelines see the [GUM wiki](https://wiki.gucorpling.org/gum/tokenization_segmentation#morphological-segmentation-mseg).
+
+## Cxn
+
+GUM uses the MISC field `Cxn` annotation to distinguish some complex constructions in a Construction Grammar (CxG) framework developed by collaborators from [Dagstuhl Seminar 23191](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23191) for the integration of CxG analyses into UD trees. Construction labels are always attached to the highest token belonging to the necessary or defining elements of the construction, and carry hierarchical designations, such as a prefix `Cxn=Condition` for all conditional constructions, but a more specific `Cxn=Condition-Reduced` for reduced conditionals (the type seen in "if possible"). Currently covered constructions are listed in the [GUM wiki](https://wiki.gucorpling.org/gum/cxn).
 
 ## Entity
 
 The `Entity` annotation uses the CoNLL 2012 shared task bracketing format, which identifies potentially coreferring entities using round opening and closing brackets as well as a unique ID per entity, repeated across mentions. In the following example, actor Jared Padalecki appears in a single token mention, labeled `(1-person-giv:act-cf2*-1-coref-Jared_Padalecki)` indicating the entity type (`person`) combined with the unique ID of all mentions of Padalecki in the text (`1-person`). Because Padalecki is a named entity with a corresponding Wikipedia page, the Wikification identifier corresponding to his Wikipedia page is given after the last hyphen (`1-person-Jared_Padalecki`). We can also see an information status annotation (`giv:act`, indicating an aforementioned or 'given' entity, actively mentioned last no farther than the previous sentences; see Dipper et al. 2007), a Centering Theory annotation (`cf2*`, indicating he is the second most central salient entity in the sentence moving forward, and that he was mentioned in the previous sentence, indicated by the `*`), as well as minimum token ID information indicating the head tokens for fuzzy matching (in this case `1`, the first and only token  in this span) and the coreference type `coref`, indicating lexical subsequent mention. The labels for each part of the hyphen-separated annotation are given at the top of each document in a comment `# global.Entity = GRP-etype-infstat-centering-minspan-link-identity`, indicating that these annotations consist of the entity group id (i.e the coreference group), entity type, information status, centering theory annotation, minimal span of tokens for head matching, the coreference link type, and named entity identity (if available). 
 
-Multi-token mentions receive opening brackets on the line in which they open, such as `(97-person-giv:inact-cf4-1,3-coref-Jensen_Ackles`, and a closing annotation `97)` at the token on which they end. Multiple annotations are possible for one token, corresponding to nested entities, e.g. `(175-time-giv:inact-cf5-1-coref)189)` below corresponds to the single token and last token of the time entities "2015" and "April 2015" respectively. 
+Multi-token mentions receive opening brackets on the line in which they open, such as `(97-person-giv:inact-cf4-1,3-coref-Jensen_Ackles`, and a closing annotation `97)` at the token on which they end. Multiple annotations are possible for one token, corresponding to nested entities, e.g. `(175-time-giv:inact-cf5-1-coref)189)188)` below corresponds to the single token and last token of the time entities "2015" and "April 2015" respectively, as well as the last token of the larger "the second campaign in the Always Keep Fighting series in April 2015". 
 
 ```CoNLL-U
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
 ...
-1	For	for	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:104->98:2
+1	For	for	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:104->98:2:lex-indph-954-955
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=173<188|Entity=(188-event-acc:inf-cf6-3,6,8-sgl
 3	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	4:amod	_
 4	campaign	campaign	NOUN	NN	Number=Sing	16	obl	16:obl:for	_
@@ -36,17 +51,17 @@ Multi-token mentions receive opening brackets on the line in which they open, su
 13	2015	2015	NUM	CD	NumForm=Digit|NumType=Card	12	nmod:tmod	12:nmod:tmod	Entity=(175-time-giv:inact-cf5-1-coref)189)188)|SpaceAfter=No|XML=</date>
 14	,	,	PUNCT	,	_	4	punct	4:punct	_
 15	Padalecki	Padalecki	PROPN	NNP	Number=Sing	16	nsubj	16:nsubj	Entity=(1-person-giv:act-cf2*-1-coref-Jared_Padalecki)
-16	partnered	partner	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+16	partnered	partner	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 17	with	with	ADP	IN	_	18	case	18:case	_
 18	co-star	co-star	NOUN	NN	Number=Sing	16	obl	16:obl:with	Entity=(97-person-giv:inact-cf4-1,3-coref-Jensen_Ackles
 19	Jensen	Jensen	PROPN	NNP	Number=Sing	18	appos	18:appos	XML=<ref target:::"https://en.wikipedia.org/wiki/Jensen_Ackles">
 20	Ackles	Ackles	PROPN	NNP	Number=Sing	19	flat	19:flat	Entity=97)|XML=</ref>
-21	to	to	PART	TO	_	22	mark	22:mark	Discourse=purpose-goal:105->104:0
-22	release	release	VERB	VB	VerbForm=Inf	16	advcl	16:advcl:to	_
+21	to	to	PART	TO	_	22	mark	22:mark	Discourse=purpose-goal:105->104:0:syn-nfn-963
+22	release	release	VERB	VB	VerbForm=Inf|Voice=Act	16	advcl	16:advcl:to	_
 23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(190-object-new-cf7-2-coref
 24	shirt	shirt	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=190)
-25	featuring	feature	VERB	VBG	VerbForm=Ger	24	acl	24:acl	Discourse=elaboration-attribute:106->105:0
-26	both	both	DET	DT	PronType=Art	25	obj	25:obj	Entity=(191-object-new-cf9-1-sgl
+25	featuring	feature	VERB	VBG	VerbForm=Ger|Voice=Act	24	acl	24:acl	Discourse=elaboration-attribute:106->105:0:syn-mdf-966+syn-nmn-967
+26	both	both	DET	DT	PronType=Tot	25	obj	25:obj	Entity=(191-object-new-cf9-1-sgl
 27	of	of	ADP	IN	_	29	case	29:case	_
 28	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	Entity=(192-person-acc:aggr-cf1-1-coref)|SplitAnte=1<192,97<192
 29	faces	face	NOUN	NNS	Number=Plur	26	nmod	26:nmod:of	Entity=191)|SpaceAfter=No
@@ -92,9 +107,11 @@ The annotations `SplitAnte` and `Bridge` mark non-strict identity anaphora (see 
 
 Bridging anaphora is annotated when an entity has not been mentioned before, but is resolvable in context by way of a different entity: for example, token 2 has the annotation `Bridge=173<188`, which indicates that although `188-event` ("the second campaign...") has not been mentioned before, its identity is mediated by the previous mention of another entity, `173-abstract` (the project "Always Keep Fighting", mentioned earlier in the document, to which the campaign event belongs). In other words, readers can infer that "the second campaign" is part of the already introduced larger project, which also had a first campaign. This inference also leads to the information status label `acc:inf`, accessible-inferable.
 
-## RST discourse trees
+## RST++ discourse trees and signals
 
-Discourse annotations are given in RST dependencies following the conversion from RST constituent trees as suggested by Li et al. (2014) - for the original RST constituent parses of GUM see the [source repo](https://github.com/amir-zeldes/gum/). At the beginning of each Elementary Discourse Unit (EDU), an annotation `Discourse` gives the discourse function of the unit beginning with that token, followed by a colon, the ID of the current unit, and an arrow pointing to the ID of the parent unit in the discourse parse. For instance, `Discourse=purpose-goal:105->104:0` at token 21 in the example below means that this token begins discourse unit 105, which functions as a `purpose-goal` to unit 104, which begins at token 1 in this sentence ("Padalecki partnered with co-star Jensen Ackles --purpose-goal-> to release a shirt..."). The final `:0` indicates that the attachment has a depth of 0, without an intervening span in the original RST constituent tree (this information allows deterministic reconstruction of the RST constituent discourse tree from the conllu file). The unique `ROOT` node of the discourse tree has no arrow notation, e.g. `Discourse=ROOT:2:0` means that this token begins unit 2, which is the Central Discourse Unit (or discourse root) of the current document. Although it is easiest to recover RST constituent trees from the source repo, it is also possible to generate them automatically from the dependencies with depth information, using the scripts in the [rst2dep repo](https://github.com/amir-zeldes/rst2dep/).
+Discourse annotations are given in [RST++](https://wiki.gucorpling.org/en/gum/rst) dependencies following the conversion from RST constituent trees as suggested by Li et al. (2014) - for the original RST constituent parses of GUM see the [source repo](https://github.com/amir-zeldes/gum/). At the beginning of each Elementary Discourse Unit (EDU), an annotation `Discourse` gives the discourse function of the unit beginning with that token, followed by a colon, the ID of the current unit, and an arrow pointing to the ID of the parent unit in the discourse parse. For instance, `Discourse=purpose-goal:105->104:0:syn-inf-963` at token 21 in the example below means that this token begins discourse unit 105, which functions as a `purpose-goal` to unit 104, which begins at token 1 in this sentence ("Padalecki partnered with co-star Jensen Ackles --purpose-goal-> to release a shirt..."). The third number `:0` indicates that the attachment has a depth of 0, without an intervening span in the original RST constituent tree (this information allows deterministic reconstruction of the RST constituent discourse tree from the conllu file). The final part of the `Discourse` annotation indicates categorized signals which correspond to the discourse relation in question, as defined by RST++ - in this case, `syn-inf-963` indicates a syntactic signal (`syn`) of the subtype "infinitival_clause" (`inf`), since the purpose relation is signaled by the use of an infinitive, a typical strategy in English. The index `963` refers to the position of the signal, in this case token number 963 in the document (excluding empty nodes), the infinitive 'to' (token 21 in the sentence). Multiple signals are separated by `+`. See below for the inventory of signal types.
+
+Additionally, note that multiple discourse relations can sometimes occur on the same line, since RST++ allows multiple concurrent and tree-breaking relations to be identified. In such cases the multiple relation entries will be separated by `;` and ordered such that the primary relation (which indicates RST nuclearity and is guaranteed to be projective in the discourse tree) will be serialized first, and non-projective secondary relations are guaranteed to be serialized subsequently. The unique `ROOT` node of the discourse tree has no arrow notation, e.g. `Discourse=ROOT:2:0` means that this token begins unit 2, which is the Central Discourse Unit (or discourse root) of the current document. Although it is easiest to recover RST constituent trees from the source repo, it is also possible to generate them automatically from the dependencies with depth information, using the scripts in the [rst2dep repo](https://github.com/amir-zeldes/rst2dep/).
 
 Discourse relations in GUM are defined based on the effect that W (a writer/speaker) has on R (a reader/hearer) by modifying a Nucleus discourse unit (N) with another discourse unit (a Satellite, S, or another N). Discourse relation units can precede their nuclei (satellite-nucleus, or SN relation), follow them (NS), or be coordinated with each other (NN or multinuclear relations). Relations are classified hierarchically into 15 major classes and include:
 
@@ -145,6 +162,18 @@ Discourse relations in GUM are defined based on the effect that W (a writer/spea
     * topic-solutionhood (SN/NS) - S steers the discourse topic by posing a problem, to which N presents a solution
   * Same-unit (NN) - connects parts of a discontinuous discourse unit (this is not a discourse relation)
 
+Relation signals fall into nine major classes, most with several subtypes each, and include:
+
+  * dm: discourse markers of primary relations ('but', 'additionally', 'on the other hand'...)
+  * orphan (orp): discourse markers of secondary relations
+  * graphical (grf): colon (col), dash (dsh), items_in_sequence (seq), layout (ly), parentheses (prn), quotation_marks (qt), question_mark (qst), semicolon (semcol)
+  * lexical (lex): alternate_expression (altlex), indicative_phrase (indph), indicative_word (indwd)
+  * morphological (mrf): mood (md), tense (tns)
+  * numerical (num): same_count (count)
+  * reference (ref): comparative_reference (cmp), demonstrative_reference (dem), general_word (gnrl), personal_reference (prs), propositional_reference (prop)
+  * semantic (sem): antonymy (antnm), attribution_source (atsrc), lexical_chain (lxchn), meronymy (mrnym), negation (ngt), repetition (rpt), synonymy (synym)
+  * syntactic (syn): subject_auxiliary_inversion (sbinv), infinitival_clause (inf), interrupted_matrix_clause (intrp), modified_head (mdf), nominal_modifier (nmn), parallel_syntactic_construction (prl), past_participial_clause (pst), present_participial_clause (pres), relative_clause (relcl), reported_speech (rpr)
+
 ## XML
 
 Markup from the original XML annotations using TEI tags is available in the XML MISC annotation, which indicates which XML tags, if any, were opened or closed before or after the current token, and in what order. In tokens 7-9 in the example above, the XML annotations indicate the words "Always Keep Fighting" were originally italicized using the tag pair `<hi rend="italic">...</hi>`, which opens at token 7 and closes after token 9. To avoid confusion with the `=` sign in MISC annotations, XML `=` signs are escaped and represented as `:::`.
@@ -170,7 +199,7 @@ More information and additional annotation layers can also be found in the GUM [
 
 Document metadata is given at the beginning of each new document in key-value pair comments beginning with the prefix `meta::`, as in:
 
-```
+```CoNLL-U
 # newdoc id = GUM_bio_padalecki
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
 # meta::author = Wikipedia, The Free Encyclopedia
@@ -185,7 +214,18 @@ Document metadata is given at the beginning of each new document in key-value pa
 # meta::title = Jared Padalecki
 ```
 
-Document summaries are included in the metadata `summary` annotation and follow strict guidelines described [here](https://wiki.gucorpling.org/gum/summarization).
+Document summaries are included in the metadata `summary` annotation and follow strict guidelines described [here](https://wiki.gucorpling.org/gum/summarization). For the test set, a second human written summary is available called `summary2`.
+
+Additionally, sentences carry some sentence-level annotations in CoNLL-U comment annotations, such as [sentence types](https://wiki.gucorpling.org/gum/tokenization_segmentation#sentence-annotation) in `s_type` (declarative, imperative, wh-question, fragment, etc.), as well as sentence transition types based on Centering Theory and sentence prominence levels based on graph proximity to the discourse parse root. For example, this fragment sentence (`frag`) establishes a new backwards looking Center (`establishment`) and is a level-2 sentence (`s_prominence = 2`, i.e. its discourse nesting level is one further than a sentence containing the level-1 Central Discourse Unit of the entire text.
+
+```CoNLL-U
+# s_prominence = 2
+# s_type = frag
+# transition = establishment
+# text = Jared Padalecki
+1	Jared	Jared	PROPN	NNP	Number=Sing	0	root	0:root	MSeg=Jared
+2	Padalecki	Padalecki	PROPN	NNP	Number=Sing	1	flat	1:flat	_
+```
 
 # Documents and splits
 
@@ -221,6 +261,12 @@ As a scholarly citation for the corpus in articles, please use this paper:
 ```
 
 # Changelog
+
+* 2023-10-31
+  * Added RST++ annotations in MISC Discourse, incl. multiple concurrent discourse relations and discourse relation signals
+  * Added morphological segmentation in MISC MSeg
+  * Added Construction Grammar annotations in MISC Cxn
+  * Added second human written document summaries as summary2 in metadata for the test set
 
 * 2023-02-02
   * Added GUM V9 documents (train only)
