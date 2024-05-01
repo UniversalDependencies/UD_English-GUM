@@ -25,7 +25,7 @@ Note that stems are retained in their orthographic forms (explanation does not b
 
 ## Cxn
 
-GUM uses the MISC field `Cxn` annotation to distinguish some complex constructions in a Construction Grammar (CxG) framework developed by collaborators from [Dagstuhl Seminar 23191](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23191) for the integration of CxG analyses into UD trees. Construction labels are always attached to the highest token belonging to the necessary or defining elements of the construction, and carry hierarchical designations, such as a prefix `Cxn=Condition` for all conditional constructions, but a more specific `Cxn=Condition-Reduced` for reduced conditionals (the type seen in "if possible"). Currently covered constructions are listed in the [GUM wiki](https://wiki.gucorpling.org/gum/cxn).
+GUM uses the MISC field `Cxn` annotation to distinguish some complex constructions in a Construction Grammar (CxG) framework developed by collaborators from [Dagstuhl Seminar 23191](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23191) for the integration of CxG analyses into UD trees. Construction labels are always attached to the highest token belonging to the necessary or defining elements of the construction, and carry hierarchical designations, such as a prefix `Cxn=Conditional` for all conditional constructions, but a more specific `Cxn=UnspecifiedEpistemic-Reduced` for reduced conditionals (the type seen in "if possible"). Currently covered constructions are listed in the [GUM wiki](https://wiki.gucorpling.org/gum/cxn).
 
 ## Entity
 
@@ -243,9 +243,9 @@ Adrienne Isaac, Akitaka Yamada, Alex Giorgioni, Alexandra Berends, Alexandra Slo
 
 ## References
 
-As a scholarly citation for the corpus in articles, please use this paper:
+The best paper to cite depends on the data you are using. To cite the corpus in general, please refer to the following article (but note that the corpus has changed and grown a lot in the time since); otherwise see different citations for specific aspects below:
 
-* Zeldes, Amir (2017) "The GUM Corpus: Creating Multilayer Resources in the Classroom". Language Resources and Evaluation 51(3), 581–612.
+Zeldes, Amir (2017) "The GUM Corpus: Creating Multilayer Resources in the Classroom". Language Resources and Evaluation 51(3), 581–612. 
 
 ```
 @Article{Zeldes2017,
@@ -257,6 +257,61 @@ As a scholarly citation for the corpus in articles, please use this paper:
   number    = {3},
   pages     = {581--612},
   doi       = {http://dx.doi.org/10.1007/s10579-016-9343-x}
+}
+```
+
+If you are using the **Reddit** subset of GUM in particular, please use this citation instead:
+
+* Behzad, Shabnam and Zeldes, Amir (2020) "A Cross-Genre Ensemble Approach to Robust Reddit Part of Speech Tagging". In: Proceedings of the 12th Web as Corpus Workshop (WAC-XII).
+
+```
+@InProceedings{BehzadZeldes2020,
+  author    = {Shabnam Behzad and Amir Zeldes},
+  title     = {A Cross-Genre Ensemble Approach to Robust {R}eddit Part of Speech Tagging},
+  booktitle = {Proceedings of the 12th Web as Corpus Workshop (WAC-XII)},
+  pages     = {50--56},
+  year      = {2020},
+}
+```
+
+For papers focusing on the discourse relations, discourse markers or other discourse signal annotations, please cite [the eRST paper](https://arxiv.org/abs/2403.13560):
+
+```
+@misc{ZeldesEtAl2024,
+      title={{eRST}: A Signaled Graph Theory of Discourse Relations and Organization}, 
+      author={Amir Zeldes and Tatsuya Aoyama and Yang Janet Liu and Siyao Peng and Debopam Das and Luke Gessler},
+      year={2024},
+      eprint={2403.13560},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2403.13560}
+}
+```
+
+If you are using the OntoNotes schema version of the coreference annotations (a.k.a. OntoGUM data in `coref/ontogum/`), please cite this paper instead:
+
+```
+@InProceedings{ZhuEtAl2021,
+  author    = {Yilun Zhu and Sameer Pradhan and Amir Zeldes},
+  booktitle = {Proceedings of ACL-IJCNLP 2021},
+  title     = {{OntoGUM}: Evaluating Contextualized {SOTA} Coreference Resolution on 12 More Genres},
+  year      = {2021},
+  pages     = {461--467},
+  address   = {Bangkok, Thailand}
+```
+
+For papers focusing on named entities or entity linking (Wikification), please cite this paper instead:
+
+```
+@inproceedings{lin-zeldes-2021-wikigum,
+    title = {{W}iki{GUM}: Exhaustive Entity Linking for Wikification in 12 Genres},
+    author = {Jessica Lin and Amir Zeldes},
+    booktitle = {Proceedings of The Joint 15th Linguistic Annotation Workshop (LAW) and 
+                 3rd Designing Meaning Representations (DMR) Workshop (LAW-DMR 2021)},
+    year = {2021},
+    address = {Punta Cana, Dominican Republic},
+    url = {https://aclanthology.org/2021.law-1.18},
+    pages = {170--175},
 }
 ```
 
@@ -357,7 +412,7 @@ As a scholarly citation for the corpus in articles, please use this paper:
 Data available since: UD v2.2
 License: CC BY-NC-SA 4.0
 Includes text: yes
-Genre: academic blog fiction government news nonfiction social spoken web wiki
+Genre: academic blog email fiction government legal news nonfiction social spoken web wiki
 Lemmas: manual native
 UPOS: converted from manual
 XPOS: manual native
