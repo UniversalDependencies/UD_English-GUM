@@ -130,20 +130,20 @@
 3	records	record	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=record-s
 4	days	day	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=(15-time-new-cf5-1-sgl)|MSeg=day-s|SpaceAfter=No
 5	,	,	PUNCT	,	_	7	punct	7:punct	_
-6	and	and	CCONJ	CC	_	7	cc	7:cc	Discourse=joint-list_m:13->12:0:dm-and-88
+6	and	and	CCONJ	CC	_	7	cc	7:cc	Discourse=joint-list_m:13->12:0:ref-cmp-83-84,89+dm-and-88
 7	another	another	DET	DT	PronType=Ind	3	conj	7.1:nsubj	Bridge=14<16|Entity=(16-object-acc:inf-cf1-1-coref)|MSeg=an-other
 7.1	records	record	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	3:conj:and	CopyOf=3
 8	thousands	thousand	NOUN	NNS	Number=Plur	7	orphan	7.1:obj	Entity=(17-time-new-cf6-1-sgl|MSeg=thousand-s
 9	of	of	ADP	IN	_	10	case	10:case	_
 10	days	day	NOUN	NNS	Number=Plur	8	nmod	8:nmod:of	Entity=17)|MSeg=day-s|SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	12:punct	_
-12	another	another	DET	DT	PronType=Ind	7	conj	12.1:nsubj	Bridge=14<18|Discourse=joint-list_m:14->12:0:_|Entity=(18-object-acc:inf-cf2-1-sgl)|MSeg=an-other
+12	another	another	DET	DT	PronType=Ind	7	conj	12.1:nsubj	Bridge=14<18|Discourse=joint-list_m:14->12:0:ref-cmp-89,94|Entity=(18-object-acc:inf-cf2-1-sgl)|MSeg=an-other
 12.1	records	record	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	3:conj:and	CopyOf=3
 13	millions	million	NOUN	NNS	Number=Plur	12	orphan	12.1:obj	Entity=(19-time-new-cf7-1-sgl|MSeg=million-s
 14	of	of	ADP	IN	_	15	case	15:case	_
 15	days	day	NOUN	NNS	Number=Plur	13	nmod	13:nmod:of	Entity=19)|MSeg=day-s|SpaceAfter=No
 16	,	,	PUNCT	,	_	18	punct	18:punct	_
-17	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=joint-list_m:15->12:0:dm-and-99
+17	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=joint-list_m:15->12:0:ref-cmp-94,100+dm-and-99
 18	another	another	DET	DT	PronType=Ind	7	conj	18.1:nsubj	Bridge=14<20|Entity=(20-object-acc:inf-cf3-1-sgl)|MSeg=an-other
 18.1	records	record	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	3:conj:and	CopyOf=3
 19	thousands	thousand	NOUN	NNS	Number=Plur	18	orphan	18.1:obj	Entity=(21-time-new-cf8-1-sgl|MSeg=thousand-s
@@ -160,7 +160,7 @@
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	instead	instead	ADV	RB	_	5	mark	5:mark	Discourse=adversative-antithesis:17->18:0:dm-instead of-107-108|MSeg=in-stead
 4	of	of	ADP	IN	_	3	fixed	3:fixed	_
-5	reversing	reverse	VERB	VBG	VerbForm=Ger	11	advcl	11:advcl:instead_of	MSeg=revers-ing
+5	reversing	reverse	VERB	VBG	Tense=Pres|VerbForm=Part	11	advcl	11:advcl:instead_of	MSeg=revers-ing
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Bridge=13<22|Entity=(22-object-acc:inf-cf2-2-coref
 7	levers	lever	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=22)|MSeg=lever-s|SpaceAfter=No
 8	,	,	PUNCT	,	_	5	punct	5:punct	_
@@ -272,7 +272,7 @@
 32	slower	slow	ADJ	JJR	Degree=Cmp	33	amod	33:amod	MSeg=slow-er
 33	pace	pace	NOUN	NN	Number=Sing	29	obl	29:obl:of	Entity=36)33)|SpaceAfter=No
 34	,	,	PUNCT	,	_	20	punct	20:punct	_
-35	returned	return	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	parataxis	4:parataxis	Discourse=same-unit_m:32->28:0:_|MSeg=re-turn-ed|SpaceAfter=No
+35	returned	return	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	parataxis	4:parataxis	Discourse=same-unit_m:32->28:0:_|MSeg=return-ed|SpaceAfter=No
 36	,	,	PUNCT	,	_	38	punct	38:punct	_
 37	and	and	CCONJ	CC	_	38	cc	38:cc	Discourse=joint-sequence_m:33->28:1:dm-and-209
 38	grew	grow	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	35	conj	35:conj:and	_
@@ -532,7 +532,7 @@
 # s_type = decl
 # transition = continue
 # text = I perceived by this slowing down of its rising and setting that the work of the tidal drag was done.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:59->60:0:sem-atsrc-5+syn-rpr-424|Entity=(2-person-giv:inact-cf2-1-ana)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:59->60:0:sem-atsrc-413+lex-indwd-414+syn-rpr-424|Entity=(2-person-giv:inact-cf2-1-ana)
 2	perceived	perceive	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=perceiv-ed
 3	by	by	ADP	IN	_	5	case	5:case	_
 4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	5:det	Entity=(64-event-new-cf5-2-sgl
@@ -681,7 +681,7 @@
 10	Time	Time	PROPN	NNP	Number=Sing	11	compound	11:compound	_
 11	Machine	Machine	PROPN	NNP	Number=Sing	7	obl	7:obl:upon	Entity=12)|SpaceAfter=No
 12	,	,	PUNCT	,	_	13	punct	13:punct	_
-13	looking	look	VERB	VBG	VerbForm=Ger	7	advcl	7:advcl	Discourse=elaboration-additional:74->73:0:syn-pres-530|MSeg=look-ing
+13	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	7	advcl	7:advcl	Discourse=elaboration-additional:74->73:0:syn-pres-530|MSeg=look-ing
 14	round	round	ADV	RB	Degree=Pos	13	advmod	13:advmod	SpaceAfter=No
 15	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -905,7 +905,7 @@
 # transition = null
 # text = There were no breakers and no waves, for not a breath of wind was stirring.
 1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=elaboration-additional:95->93:1:_
-2	were	be	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Cxn=Existential-There
+2	were	be	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 3	no	no	DET	DT	Polarity=Neg|PronType=Neg	4	det	4:det	Entity=(98-object-new-cf1-2-sgl
 4	breakers	breaker	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Entity=98)|MSeg=break-er-s
 5	and	and	CCONJ	CC	_	7	cc	7:cc	_
@@ -950,7 +950,7 @@
 21	still	still	ADV	RB	Degree=Pos	22	advmod	22:advmod	_
 22	moving	move	VERB	VBG	Tense=Pres|VerbForm=Part	15	ccomp	15:ccomp	MSeg=mov-ing
 23	and	and	CCONJ	CC	_	24	cc	24:cc	Discourse=joint-list_m:101->100:0:dm-and-742
-24	living	live	VERB	VBG	VerbForm=Ger	22	conj	15:ccomp|22:conj:and	MSeg=liv-ing|SpaceAfter=No
+24	living	live	VERB	VBG	Tense=Pres|VerbForm=Part	22	conj	15:ccomp|22:conj:and	MSeg=liv-ing|SpaceAfter=No
 25	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_fiction_time-32
@@ -958,7 +958,7 @@
 # s_type = decl
 # transition = null
 # text = And along the margin where the water sometimes broke was a thick incrustation of salt—pink under the lurid sky.
-1	And	and	CCONJ	CC	_	4	cc	4:cc	Discourse=joint-list_m:102->92:0:dm-and-745
+1	And	and	CCONJ	CC	_	4	cc	4:cc	Discourse=joint-list_m:102->92:0:sem-mrnym-736-738,747-748+dm-and-745
 2	along	along	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=95<104|Entity=(104-place-acc:inf-cf3-2-sgl
 4	margin	margin	NOUN	NN	Number=Sing	0	root	0:root	Entity=104)
@@ -987,7 +987,7 @@
 # transition = null
 # text = There was a sense of oppression in my head, and I noticed that I was breathing very fast.
 1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=joint-list_m:106->92:0:_
-2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Cxn=Existential-There
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(108-abstract-new-cf2-2-sgl
 4	sense	sense	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	_
 5	of	of	ADP	IN	_	6	case	6:case	_
@@ -1014,7 +1014,7 @@
 # text = The sensation reminded me of my only experience of mountaineering, and from that I judged the air to be more rarefied than it is now.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=explanation-evidence:109->110:1:_;elaboration-additional:109->109:1:0:orp-and-798+ref-prs-790,801|Entity=(111-abstract-new-cf3-2-sgl
 2	sensation	sensation	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=111)|MSeg=sens-ation
-3	reminded	remind	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=remind-ed
+3	reminded	remind	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=re-mind-ed
 4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	iobj	3:iobj	Entity=(2-person-giv:act-cf1*-1-ana)
 5	of	of	ADP	IN	_	8	case	8:case	_
 6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(112-event-new-cf4-3-sgl(2-person-giv:act-cf1*-1-ana)
@@ -1079,7 +1079,7 @@
 30	sky	sky	NOUN	NN	Number=Sing	26	obl	26:obl:into	Entity=41)
 31	and	and	CCONJ	CC	_	35	cc	35:cc	Discourse=joint-sequence_m:114->113:0:dm-and-844|SpaceAfter=No
 32	,	,	PUNCT	,	_	31	punct	31:punct	_
-33	circling	circle	VERB	VBG	VerbForm=Ger	35	advcl	35:advcl	Discourse=mode-manner:115->116:0:syn-pres-846|MSeg=circl-ing|SpaceAfter=No
+33	circling	circle	VERB	VBG	Tense=Pres|VerbForm=Part	35	advcl	35:advcl	Discourse=mode-manner:115->116:0:syn-pres-846|MSeg=circl-ing|SpaceAfter=No
 34	,	,	PUNCT	,	_	33	punct	33:punct	_
 35	disappear	disappear	VERB	VB	VerbForm=Inf	23	conj	15:xcomp|23:conj:and	Discourse=same-unit_m:116->114:0:_|MSeg=dis-appear
 36	over	over	ADP	IN	_	39	case	39:case	_
@@ -1101,7 +1101,7 @@
 5	voice	voice	NOUN	NN	Number=Sing	2	nmod	2:nmod:of	Entity=120)119)
 6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	8:cop	_
 7	so	so	ADV	RB	_	8	advmod	8:advmod	_
-8	dismal	dismal	ADJ	JJ	Degree=Pos	0	root	0:root	Cxn=Causal-Excess
+8	dismal	dismal	ADJ	JJ	Degree=Pos	0	root	0:root	Cxn=CausalExcess
 9	that	that	SCONJ	IN	_	11	mark	11:mark	Discourse=causal-result:118->117:0:_
 10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj|13:nsubj	Entity=(2-person-giv:act-cf1*-1-ana)
 11	shivered	shiver	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	advcl	8:advcl:that	MSeg=shiver-ed
@@ -1120,7 +1120,7 @@
 # s_type = decl
 # transition = continue
 # text = Looking round me again, I saw that, quite near, what I had taken to be a reddish mass of rock was moving slowly towards me.
-1	Looking	look	VERB	VBG	VerbForm=Ger	7	advcl	7:advcl	Discourse=context-circumstance:120->121:0:syn-pres-875|MSeg=Look-ing
+1	Looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	7	advcl	7:advcl	Discourse=context-circumstance:120->121:0:syn-pres-875|MSeg=Look-ing
 2	round	round	ADP	IN	_	3	case	3:case	_
 3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obl	1:obl:round	Entity=(2-person-giv:act-cf1*-1-ana)
 4	again	again	ADV	RB	Degree=Pos	1	advmod	1:advmod	SpaceAfter=No
@@ -1177,7 +1177,7 @@
 # text = Can you imagine a crab as large as yonder table, with its many legs moving slowly and uncertainly, its big claws swaying, its long antennæ, like carters’ whips, waving and feeling, and its stalked eyes gleaming at you on either side of its metallic front?
 1	Can	can	AUX	MD	VerbForm=Fin	3	aux	3:aux	Discourse=elaboration-additional:125->122:2:sem-synym-887-897,921-969+sem-lxchn-913,932
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(125-person-acc:com-cf1-1-ana)
-3	imagine	imagine	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar
+3	imagine	imagine	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar-Direct
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(121-animal-giv:act-cf2*-2-coref
 5	crab	crab	NOUN	NN	Number=Sing	3	obj	3:obj	_
 6	as	as	ADV	RB	_	7	advmod	7:advmod	_

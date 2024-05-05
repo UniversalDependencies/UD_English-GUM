@@ -25,7 +25,7 @@ Note that stems are retained in their orthographic forms (explanation does not b
 
 ## Cxn
 
-GUM uses the MISC field `Cxn` annotation to distinguish some complex constructions in a Construction Grammar (CxG) framework developed by collaborators from [Dagstuhl Seminar 23191](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23191) for the integration of CxG analyses into UD trees. Construction labels are always attached to the highest token belonging to the necessary or defining elements of the construction, and carry hierarchical designations, such as a prefix `Cxn=Condition` for all conditional constructions, but a more specific `Cxn=Condition-Reduced` for reduced conditionals (the type seen in "if possible"). Currently covered constructions are listed in the [GUM wiki](https://wiki.gucorpling.org/gum/cxn).
+GUM uses the MISC field `Cxn` annotation to distinguish some complex constructions in a Construction Grammar (CxG) framework developed by collaborators from [Dagstuhl Seminar 23191](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23191) for the integration of CxG analyses into UD trees. Construction labels are always attached to the highest token belonging to the necessary or defining elements of the construction, and carry hierarchical designations, such as a prefix `Cxn=Conditional` for all conditional constructions, but a more specific `Cxn=UnspecifiedEpistemic-Reduced` for reduced conditionals (the type seen in "if possible"). Currently covered constructions are listed in the [GUM wiki](https://wiki.gucorpling.org/gum/cxn).
 
 ## Entity
 
@@ -107,11 +107,11 @@ The annotations `SplitAnte` and `Bridge` mark non-strict identity anaphora (see 
 
 Bridging anaphora is annotated when an entity has not been mentioned before, but is resolvable in context by way of a different entity: for example, token 2 has the annotation `Bridge=173<188`, which indicates that although `188-event` ("the second campaign...") has not been mentioned before, its identity is mediated by the previous mention of another entity, `173-abstract` (the project "Always Keep Fighting", mentioned earlier in the document, to which the campaign event belongs). In other words, readers can infer that "the second campaign" is part of the already introduced larger project, which also had a first campaign. This inference also leads to the information status label `acc:inf`, accessible-inferable.
 
-## RST++ discourse trees and signals
+## Enhanced RST discourse trees and signals
 
-Discourse annotations are given in [RST++](https://wiki.gucorpling.org/en/gum/rst) dependencies following the conversion from RST constituent trees as suggested by Li et al. (2014) - for the original RST constituent parses of GUM see the [source repo](https://github.com/amir-zeldes/gum/). At the beginning of each Elementary Discourse Unit (EDU), an annotation `Discourse` gives the discourse function of the unit beginning with that token, followed by a colon, the ID of the current unit, and an arrow pointing to the ID of the parent unit in the discourse parse. For instance, `Discourse=purpose-goal:105->104:0:syn-inf-963` at token 21 in the example below means that this token begins discourse unit 105, which functions as a `purpose-goal` to unit 104, which begins at token 1 in this sentence ("Padalecki partnered with co-star Jensen Ackles --purpose-goal-> to release a shirt..."). The third number `:0` indicates that the attachment has a depth of 0, without an intervening span in the original RST constituent tree (this information allows deterministic reconstruction of the RST constituent discourse tree from the conllu file). The final part of the `Discourse` annotation indicates categorized signals which correspond to the discourse relation in question, as defined by RST++ - in this case, `syn-inf-963` indicates a syntactic signal (`syn`) of the subtype "infinitival_clause" (`inf`), since the purpose relation is signaled by the use of an infinitive, a typical strategy in English. The index `963` refers to the position of the signal, in this case token number 963 in the document (excluding empty nodes), the infinitive 'to' (token 21 in the sentence). Multiple signals are separated by `+`. See below for the inventory of signal types.
+Discourse annotations are given in [eRST](https://wiki.gucorpling.org/en/gum/rst) dependencies following the conversion from RST constituent trees as suggested by Li et al. (2014) - for the original RST constituent parses of GUM see the [source repo](https://github.com/amir-zeldes/gum/). At the beginning of each Elementary Discourse Unit (EDU), an annotation `Discourse` gives the discourse function of the unit beginning with that token, followed by a colon, the ID of the current unit, and an arrow pointing to the ID of the parent unit in the discourse parse. For instance, `Discourse=purpose-goal:105->104:0:syn-inf-963` at token 21 in the example below means that this token begins discourse unit 105, which functions as a `purpose-goal` to unit 104, which begins at token 1 in this sentence ("Padalecki partnered with co-star Jensen Ackles --purpose-goal-> to release a shirt..."). The third number `:0` indicates that the attachment has a depth of 0, without an intervening span in the original RST constituent tree (this information allows deterministic reconstruction of the RST constituent discourse tree from the conllu file). The final part of the `Discourse` annotation indicates categorized signals which correspond to the discourse relation in question, as defined by eRST - in this case, `syn-inf-963` indicates a syntactic signal (`syn`) of the subtype "infinitival_clause" (`inf`), since the purpose relation is signaled by the use of an infinitive, a typical strategy in English. The index `963` refers to the position of the signal, in this case token number 963 in the document (excluding empty nodes), the infinitive 'to' (token 21 in the sentence). Multiple signals are separated by `+`. See below for the inventory of signal types.
 
-Additionally, note that multiple discourse relations can sometimes occur on the same line, since RST++ allows multiple concurrent and tree-breaking relations to be identified. In such cases the multiple relation entries will be separated by `;` and ordered such that the primary relation (which indicates RST nuclearity and is guaranteed to be projective in the discourse tree) will be serialized first, and non-projective secondary relations are guaranteed to be serialized subsequently. The unique `ROOT` node of the discourse tree has no arrow notation, e.g. `Discourse=ROOT:2:0` means that this token begins unit 2, which is the Central Discourse Unit (or discourse root) of the current document. Although it is easiest to recover RST constituent trees from the source repo, it is also possible to generate them automatically from the dependencies with depth information, using the scripts in the [rst2dep repo](https://github.com/amir-zeldes/rst2dep/).
+Additionally, note that multiple discourse relations can sometimes occur on the same line, since eRST allows multiple concurrent and tree-breaking relations to be identified. In such cases the multiple relation entries will be separated by `;` and ordered such that the primary relation (which indicates RST nuclearity and is guaranteed to be projective in the discourse tree) will be serialized first, and non-projective secondary relations are guaranteed to be serialized subsequently. The unique `ROOT` node of the discourse tree has no arrow notation, e.g. `Discourse=ROOT:2:0` means that this token begins unit 2, which is the Central Discourse Unit (or discourse root) of the current document. Although it is easiest to recover RST constituent trees from the source repo, it is also possible to generate them automatically from the dependencies with depth information, using the scripts in the [rst2dep repo](https://github.com/amir-zeldes/rst2dep/).
 
 Discourse relations in GUM are defined based on the effect that W (a writer/speaker) has on R (a reader/hearer) by modifying a Nucleus discourse unit (N) with another discourse unit (a Satellite, S, or another N). Discourse relation units can precede their nuclei (satellite-nucleus, or SN relation), follow them (NS), or be coordinated with each other (NN or multinuclear relations). Relations are classified hierarchically into 15 major classes and include:
 
@@ -237,15 +237,15 @@ https://github.com/UniversalDependencies/UD_English-GUM/tree/master/not-to-relea
 
 GUM annotation team (so far - thanks for participating!)
 
-Adrienne Isaac, Akitaka Yamada, Alex Giorgioni, Alexandra Berends, Alexandra Slome, Amani Aloufi, Amber Hall, Amelia Becker, Andrea Price, Andrew O'Brien, Anna Runova, Anne Butler, Arianna Janoff, Aryaman Arora, Ayan Mandal, Aysenur Sagdic, Bertille Baron, Bradford Salen, Brandon Tullock, Brent Laing, Candice Penelton, Charlie Dees, Chenyue Guo, Colleen Diamond, Connor O'Dwyer, Cristina Lopez, Dan Simonson, Derek Reagan, Didem Ikizoglu, Edwin Ko, Emile Zahr, Emily Pace, Emma Manning, Ethan Beaman, Felipe De Jesus, Han Bu, Hana Altalhi, Hang Jiang, Hannah Wingett, Hanwool Choe, Hassan Munshi, Helen Dominic, Ho Fai Cheng, Hortensia Gutierrez, Jakob Prange, James Maguire, Janine Karo, Jehan al-Mahmoud, Jemm Excelle Dela Cruz, Jessica Cusi, Jessica Kotfila, Joaquin Gris Roca, John Chi, Jongbong Lee, Juliet May, Jungyoon Koh, Katarina Starcevic, Katelyn MacDougald, Katherine Vadella, Khalid Alharbi, Lara Bryfonski, Lauren Levine, Leah Northington, Lindley Winchester, Linxi Zhang, Siyao Peng, Lucia Donatelli, Luke Gessler, Mackenzie Gong, Margaret Anne Rowe, Margaret Borowczyk, Maria Stoianova, Mariko Uno, Mary Henderson, Maya Barzilai, Md. Jahurul Islam, Michael Kranzlein, Michaela Harrington, Minnie Annan, Mitchell Abrams, Mohammad Ali Yektaie, Naomee-Minh Nguyen, Negar Siyari, Nicholas Mararac, Nicholas Workman, Nicole Steinberg, Nitin Venkateswaran, Phoebe Fisher, Rachel Thorson, Rebecca Childress, Rebecca Farkas, Riley Breslin Amalfitano, Rima Elabdali, Robert Maloney, Ruizhong Li, Ryan Mannion, Ryan Murphy, Sakol Suethanapornkul, Sarah Bellavance, Sasha Slone, Sean Macavaney, Sean Simpson, Seyma Toker, Shane Quinn, Shannon Mooney, Shelby Lake, Shira Wein, Sichang Tu, Siddharth Singh, Siyu Liang, Stephanie Kramer, Sylvia Sierra, Talal Alharbi, Tatsuya Aoyama, Timothy Ingrassia, Trevor Adriaanse, Ulie Xu, Wai Ching Leung, Wenxi Yang, Xiaopei Wu, Yang Liu, Yi-Ju Lin, Yifu Mu, Yilun Zhu, Yingzhu Chen, Yiran Xu, Young-A Son, Yu-Tzu Chang, Yuhang Hu, Yunjung Ku, Yushi Zhao, Zhuosi Luo, Zhuxin Wang, Amir Zeldes
+Adrienne Isaac, Akitaka Yamada, Alex Giorgioni, Alexandra Berends, Alexandra Slome, Amani Aloufi, Amber Hall, Amelia Becker, Andrea Price, Andrew O'Brien, Ángeles Ortega Luque, Aniya Harris, Anna Prince, Anna Runova, Anne Butler, Arianna Janoff, Aryaman Arora, Ayan Mandal, Aysenur Sagdic, Bertille Baron, Bradford Salen, Brandon Tullock, Brent Laing, Caitlyn Pineault, Calvin Engstrom, Candice Penelton, Carlotta Hübener, Caroline Gish, Charlie Dees, Chenyue Guo, Chloe Evered, Cindy Luo, Colleen Diamond, Connor O'Dwyer, Cristina Lopez, Cynthia Li, Dan DeGenaro, Dan Simonson, Derek Reagan, Devika Tiwari, Didem Ikizoglu, Edwin Ko, Eliza Rice, Emile Zahr, Emily Pace, Emma Manning, Emma Rafkin, Ethan Beaman, Felipe De Jesus, Han Bu, Hana Altalhi, Hang Jiang, Hannah Wingett, Hanwool Choe, Hassan Munshi, Helen Dominic, Ho Fai Cheng, Hortensia Gutierrez, Jakob Prange, James Maguire, Janine Karo, Jehan al-Mahmoud, Jemm Excelle Dela Cruz, Jess Godes, Jessica Cusi, Jessica Kotfila, Jingni Wu, Joaquin Gris Roca, John Chi, Jongbong Lee, Juliet May, Jungyoon Koh, Katarina Starcevic, Katelyn Carroll, Katelyn MacDougald, Katherine Vadella, Khalid Alharbi, Kristen Cook, Lara Bryfonski, Lauren Levine, Leah Northington, Lindley Winchester, Linxi Zhang, Lucia Donatelli, Luke Gessler, Mackenzie Gong, Margaret Anne Rowe, Margaret Borowczyk, Maria Laura Zalazar, Maria Stoianova, Mariko Uno, Mary Henderson, Maya Barzilai, Md. Jahurul Islam, Michael Kranzlein, Michaela Harrington, Mingyeong Choi, Minnie Annan, Mitchell Abrams, Mohammad Ali Yektaie, Naomee-Minh Nguyen, Negar Siyari, Nicholas Mararac, Nicholas Workman, Nicole Steinberg, Nitin Venkateswaran, Parker DiPaolo, Phoebe Fisher, Rachel Kerr, Rachel Thorson, Rebecca Childress, Rebecca Farkas, Riley Breslin Amalfitano, Rima Elabdali, Robert Maloney, Ruizhong Li, Ryan Mannion, Ryan Murphy, Sakol Suethanapornkul, Sarah Bellavance, Sarah Carlson, Sasha Slone, Saurav Goswami, Sean Macavaney, Sean Simpson, Seyma Toker, Shane Quinn, Shannon Mooney, Shelby Lake, Shira Wein, Sichang Tu, Siddharth Singh, Siona Ely, Siyao Peng, Siyu Liang, Stephanie Kramer, Sylvia Sierra, Talal Alharbi, Tatsuya Aoyama, Tess Feyen, Timothy Ingrassia, Trevor Adriaanse, Ulie Xu, Wai Ching Leung, Wenxi Yang, Wesley Scivetti, Xiaopei Wu, Xiulin Yang, Yang Liu, Yi-Ju Lin, Yifu Mu, Yilun Zhu, Yingzhu Chen, Yiran Xu, Young-A Son, Yu-Tzu Chang, Yuhang Hu, Yunjung Ku, Yushi Zhao, Zhijie Song, Zhuosi Luo, Zhuxin Wang, Amir Zeldes
 
 ... and other annotators who wish to remain anonymous!
 
 ## References
 
-As a scholarly citation for the corpus in articles, please use this paper:
+The best paper to cite depends on the data you are using. To cite the corpus in general, please refer to the following article (but note that the corpus has changed and grown a lot in the time since); otherwise see different citations for specific aspects below:
 
-* Zeldes, Amir (2017) "The GUM Corpus: Creating Multilayer Resources in the Classroom". Language Resources and Evaluation 51(3), 581–612.
+Zeldes, Amir (2017) "The GUM Corpus: Creating Multilayer Resources in the Classroom". Language Resources and Evaluation 51(3), 581–612. 
 
 ```
 @Article{Zeldes2017,
@@ -260,10 +260,68 @@ As a scholarly citation for the corpus in articles, please use this paper:
 }
 ```
 
+If you are using the **Reddit** subset of GUM in particular, please use this citation instead:
+
+* Behzad, Shabnam and Zeldes, Amir (2020) "A Cross-Genre Ensemble Approach to Robust Reddit Part of Speech Tagging". In: Proceedings of the 12th Web as Corpus Workshop (WAC-XII).
+
+```
+@InProceedings{BehzadZeldes2020,
+  author    = {Shabnam Behzad and Amir Zeldes},
+  title     = {A Cross-Genre Ensemble Approach to Robust {R}eddit Part of Speech Tagging},
+  booktitle = {Proceedings of the 12th Web as Corpus Workshop (WAC-XII)},
+  pages     = {50--56},
+  year      = {2020},
+}
+```
+
+For papers focusing on the discourse relations, discourse markers or other discourse signal annotations, please cite [the eRST paper](https://arxiv.org/abs/2403.13560):
+
+```
+@misc{ZeldesEtAl2024,
+      title={{eRST}: A Signaled Graph Theory of Discourse Relations and Organization}, 
+      author={Amir Zeldes and Tatsuya Aoyama and Yang Janet Liu and Siyao Peng and Debopam Das and Luke Gessler},
+      year={2024},
+      eprint={2403.13560},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2403.13560}
+}
+```
+
+If you are using the OntoNotes schema version of the coreference annotations (a.k.a. OntoGUM data in `coref/ontogum/`), please cite this paper instead:
+
+```
+@InProceedings{ZhuEtAl2021,
+  author    = {Yilun Zhu and Sameer Pradhan and Amir Zeldes},
+  booktitle = {Proceedings of ACL-IJCNLP 2021},
+  title     = {{OntoGUM}: Evaluating Contextualized {SOTA} Coreference Resolution on 12 More Genres},
+  year      = {2021},
+  pages     = {461--467},
+  address   = {Bangkok, Thailand}
+```
+
+For papers focusing on named entities or entity linking (Wikification), please cite this paper instead:
+
+```
+@inproceedings{lin-zeldes-2021-wikigum,
+    title = {{W}iki{GUM}: Exhaustive Entity Linking for Wikification in 12 Genres},
+    author = {Jessica Lin and Amir Zeldes},
+    booktitle = {Proceedings of The Joint 15th Linguistic Annotation Workshop (LAW) and 
+                 3rd Designing Meaning Representations (DMR) Workshop (LAW-DMR 2021)},
+    year = {2021},
+    address = {Punta Cana, Dominican Republic},
+    url = {https://aclanthology.org/2021.law-1.18},
+    pages = {170--175},
+}
+```
+
 # Changelog
 
+* 2024-02-15
+  * Added GUM V10 documents (four new genres: court, essay, letter and podcast)
+
 * 2023-10-31
-  * Added RST++ annotations in MISC Discourse, incl. multiple concurrent discourse relations and discourse relation signals
+  * Added eRST annotations in MISC Discourse, incl. multiple concurrent discourse relations and discourse relation signals
   * Added morphological segmentation in MISC MSeg
   * Added Construction Grammar annotations in MISC Cxn
   * Added second human written document summaries as summary2 in metadata for the test set
@@ -354,7 +412,7 @@ As a scholarly citation for the corpus in articles, please use this paper:
 Data available since: UD v2.2
 License: CC BY-NC-SA 4.0
 Includes text: yes
-Genre: academic blog fiction government news nonfiction social spoken web wiki
+Genre: academic blog email fiction government legal news nonfiction social spoken web wiki
 Lemmas: manual native
 UPOS: converted from manual
 XPOS: manual native

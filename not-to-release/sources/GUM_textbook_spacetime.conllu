@@ -17,7 +17,7 @@
 # text = 24.2 Spacetime and Gravity
 # newpar
 # newpar_block = head (1 s)
-1	24.2	24.2	X	LS	_	2	dep	2:dep	Discourse=organization-heading:1->57:10:grf-ly-+grf-seq-1+sem-rpt-2,505
+1	24.2	24.2	X	LS	_	2	discourse	2:discourse	Discourse=organization-heading:1->57:10:grf-ly-+grf-seq-1+sem-rpt-2,505
 2	Spacetime	spacetime	NOUN	NN	Number=Sing	0	root	0:root	Entity=(1-abstract-new-cf1-1-coref)
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
 4	Gravity	gravity	NOUN	NN	Number=Sing	2	conj	2:conj:and	Entity=(2-abstract-new-cf2-1-coref)|MSeg=Grav-ity
@@ -138,7 +138,7 @@
 1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	Discourse=topic-question:7->12:3:grf-qst-91
 2	light	light	NOUN	NN	Number=Sing	4	nsubj:pass	4:nsubj:pass	Entity=(22-abstract-new-cf1-1-coref)
 3	actually	actually	ADV	RB	Degree=Pos	4	advmod	4:advmod	MSeg=act-ual-ly
-4	bent	bend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	Cxn=Interrogative-Polar|MSeg=be-n-t
+4	bent	bend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	Cxn=Interrogative-Polar-Direct|MSeg=be-n-t
 5	from	from	ADP	IN	_	10	case	10:case	_
 6	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(23-abstract-new-cf4-5-sgl(22-abstract-giv:act-cf1-1-ana)|MSeg=it-s
 7	straight	straight	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(24-abstract-new-cf5-3-sgl|SpaceAfter=No|XML=<w>
@@ -167,7 +167,7 @@
 8	mass	mass	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=28)27)|SpaceAfter=No
 9	,	,	PUNCT	,	_	3	punct	3:punct	_
 10	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	11:aux:pass	Discourse=same-unit_m:10->8:1:_
-11	affected	affect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	Cxn=Interrogative-Wh|MSeg=affect-ed
+11	affected	affect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|MSeg=affect-ed
 12	by	by	ADP	IN	_	13	case	13:case	_
 13	gravity	gravity	NOUN	NN	Number=Sing	11	obl:agent	11:obl:agent	Entity=(2-abstract-giv:inact-cf1-1-coref)|MSeg=grav-ity|SpaceAfter=No
 14	?	?	PUNCT	.	_	11	punct	11:punct	_
@@ -260,7 +260,7 @@
 13	planet	planet	NOUN	NN	Number=Sing	14	compound	14:compound	Entity=(26-place-giv:inact-cf2-2-coref-Earth
 14	Earth	Earth	PROPN	NNP	Number=Sing	11	nmod	11:nmod:of	Entity=26)42)41)|SpaceAfter=No
 15	,	,	PUNCT	,	_	16	punct	16:punct	_
-16	as	as	ADV	RB	_	4	advmod	4:advmod	_
+16	as	as	ADV	RB	_	4	advmod	4:advmod	ExtPos=ADV
 17	well	well	ADV	RB	Degree=Pos	16	fixed	16:fixed	SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -289,7 +289,7 @@
 2	an	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Entity=(45-object-new-cf3-2-sgl
 3	airplane	airplane	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=45)
 4-5	can’t	_	_	_	_	_	_	_	_
-4	ca	can	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	6	aux	6:aux	_
+4	ca	can	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
 5	n’t	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	_
 6	go	go	VERB	VB	VerbForm=Inf	22	advcl	22:advcl:since	_
 7	through	through	ADP	IN	_	10	case	10:case	_
@@ -436,14 +436,14 @@
 26	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Entity=(66-place-new-cf11-2-sgl(6-person-giv:act-cf1*-1-ana)
 27	town	town	NOUN	NN	Number=Sing	24	nmod	24:nmod:of	Entity=66)65)63)|SpaceAfter=No
 28	;	;	PUNCT	:	_	34	punct	34:punct	_
-29	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	34	nsubj	34:nsubj	Discourse=joint-list_m:35->33:1:grf-semcol-309,328|Entity=(6-person-giv:act-cf1*-1-ana)
+29	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	34	nsubj	34:nsubj	Discourse=joint-list_m:35->33:1:sem-mrnym-285-286,313-315+grf-semcol-309,328|Entity=(6-person-giv:act-cf1*-1-ana)
 30	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	34	cop	34:cop	_
 31	on	on	ADP	IN	_	34	case	34:case	_
 32	the	the	DET	DT	Definite=Def|PronType=Art	34	det	34:det	Bridge=62<67|Entity=(67-place-acc:inf-cf3-3-coref
 33	fifth	fifth	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	34	amod	34:amod	MSeg=fif-th
 34	floor	floor	NOUN	NN	Number=Sing	10	conj	2:ccomp|10:conj:and|37:obl	Entity=67)|SpaceAfter=No
 35	,	,	PUNCT	,	_	37	punct	37:punct	_
-36	which	which	PRON	WDT	PronType=Rel	37	nsubj	34:ref	Discourse=attribution-positive:36->37:0:sem-atsrc-313-315,317+lex-indwd-318
+36	which	which	PRON	WDT	PronType=Rel	37	nsubj	34:ref	Discourse=attribution-positive:36->37:0:sem-atsrc-317+lex-indwd-318
 37	tells	tell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	34:acl:relcl	MSeg=tell-s
 38	where	where	ADV	WRB	PronType=Rel	37	obj	34:ref|37:obj	Discourse=elaboration-attribute:37->35:0:syn-mdf-315+syn-relcl-317
 39	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	40	nsubj	40:nsubj	Entity=(6-person-giv:act-cf1*-1-ana)
@@ -455,7 +455,7 @@
 45	down	down	ADV	RB	Degree=Pos	43	conj	43:conj|46:compound	XML=</w>
 46	direction	direction	NOUN	NN	Number=Sing	40	obl	40:obl:in	Entity=68)|MSeg=direct-ion|SpaceAfter=No
 47	;	;	PUNCT	:	_	53	punct	53:punct	_
-48	and	and	CCONJ	CC	_	53	cc	53:cc	Discourse=joint-list_m:38->33:1:dm-and-329
+48	and	and	CCONJ	CC	_	53	cc	53:cc	Discourse=joint-list_m:38->33:1:sem-mrnym-313-315,332-338+dm-and-329
 49	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	53	nsubj	53:nsubj	Entity=(6-person-giv:act-cf1*-1-ana)
 50	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	53	cop	53:cop	_
 51	the	the	DET	DT	Definite=Def|PronType=Art	53	det	53:det	Bridge=67<69|Entity=(69-place-acc:inf-cf4-3-coref
@@ -532,7 +532,7 @@
 13	can	can	AUX	MD	VerbForm=Fin	15	aux	15:aux	Discourse=same-unit_m:46->44:1:_
 14	be	be	AUX	VB	VerbForm=Inf	15	aux:pass	15:aux:pass	_
 15	pinpointed	pinpoint	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=pinpoint-ed
-16	using	use	VERB	VBG	VerbForm=Ger	15	advcl	15:advcl	Discourse=mode-means:47->46:0:lex-indwd-394+syn-pres-394|MSeg=us-ing
+16	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	15	advcl	15:advcl	Discourse=mode-means:47->46:0:syn-pres-394+lex-indwd-394|MSeg=us-ing
 17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(75-abstract-new-cf5-3-sgl
 18	three	three	NUM	CD	NumForm=Word|NumType=Card	19	nummod	19:nummod	_
 19	dimensions	dimension	NOUN	NNS	Number=Plur	16	obj	16:obj	MSeg=dimension-s
@@ -590,7 +590,7 @@
 3	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=show-ed
 4	that	that	SCONJ	IN	_	6	mark	6:mark	Discourse=adversative-contrast_m:51->48:1:dm-but-433
 5	there	there	PRON	EX	PronType=Dem	6	expl	6:expl	_
-6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	Cxn=Existential-There
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	Cxn=Existential-CopPred-ThereExpl
 7	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(81-abstract-new-cf8-3-sgl
 8	intimate	intimate	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 9	connection	connection	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	MSeg=connect-ion
@@ -603,7 +603,7 @@
 16	that	that	SCONJ	IN	_	32	mark	32:mark	_
 17	only	only	ADV	RB	_	19	advmod	19:advmod	Discourse=mode-means:53->55:0:dm-by-450+syn-pres-451
 18	by	by	SCONJ	IN	_	19	mark	19:mark	_
-19	considering	consider	VERB	VBG	VerbForm=Ger	32	advcl	32:advcl:by	MSeg=consider-ing
+19	considering	consider	VERB	VBG	Tense=Pres|VerbForm=Part	32	advcl	32:advcl:by	MSeg=consider-ing
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(31-abstract-giv:act-cf2*-2-coref
 21	two	two	NUM	CD	NumForm=Word|NumType=Card	19	obj	19:obj	Entity=31)
 22	together	together	ADV	RB	Degree=Pos	19	advmod	19:advmod	SpaceAfter=No|XML=<w>
@@ -658,7 +658,7 @@
 4-5	Einstein’s	_	_	_	_	_	_	_	_
 4	Einstein	Einstein	PROPN	NNP	Number=Sing	7	nmod:poss	7:nmod:poss	Entity=(30-abstract-giv:inact-cf4-4-coref(8-person-giv:inact-cf3-1-coref-Albert_Einstein
 5	’s	's	PART	POS	_	4	case	4:case	Entity=8)
-6	general	general	ADJ	JJ	Degree=Pos	7	amod	7:amod	MSeg=general
+6	general	general	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	theory	theory	NOUN	NN	Number=Sing	2	nmod	2:nmod:of	Entity=30)85)
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_
 9	that	that	SCONJ	IN	_	14	mark	14:mark	Entity=(85-abstract-giv:act-cf2-6,8-coref
@@ -806,10 +806,10 @@
 # s_type = decl
 # transition = zero
 # text = Terrestrial objects, such as the book you are reading, have far too little mass to introduce any significant distortion.
-1	Terrestrial	terrestrial	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=causal-cause:69->73:1:_|Entity=(100-object-new-cf3-2-sgl|MSeg=Terrestrial
+1	Terrestrial	terrestrial	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=causal-cause:69->73:1:_|Entity=(100-object-new-cf3-2-sgl
 2	objects	object	NOUN	NNS	Number=Plur	12	nsubj	12:nsubj	MSeg=object-s|SpaceAfter=No
 3	,	,	PUNCT	,	_	7	punct	7:punct	_
-4	such	such	ADJ	JJ	Degree=Pos	7	case	7:case	_
+4	such	such	ADJ	JJ	Degree=Pos	7	case	7:case	ExtPos=ADP
 5	as	as	ADP	IN	_	4	fixed	4:fixed	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(101-object-acc:com-cf2-2-sgl
 7	book	book	NOUN	NN	Number=Sing	2	nmod	2:nmod:such_as	_
@@ -844,7 +844,7 @@
 7	just	just	ADV	RB	_	8	advmod	8:advmod	_
 8	fine	fine	ADJ	JJ	Degree=Pos	0	root	0:root	_
 9	for	for	SCONJ	IN	_	10	mark	10:mark	Discourse=purpose-goal:74->73:0:dm-for-637
-10	building	build	VERB	VBG	VerbForm=Ger	8	advcl	8:advcl:for	MSeg=build-ing
+10	building	build	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	8:advcl:for	MSeg=build-ing
 11	bridges	bridge	NOUN	NNS	Number=Plur	10	obj	10:obj	Entity=(104-object-new-cf4-1-sgl)|MSeg=bridge-s|SpaceAfter=No
 12	,	,	PUNCT	,	_	13	punct	13:punct	_
 13	skyscrapers	skyscraper	NOUN	NNS	Number=Plur	11	conj	10:obj|11:conj:or	Entity=(105-object-new-cf5-1-sgl)|MSeg=skyscraper-s|SpaceAfter=No
@@ -861,7 +861,7 @@
 # transition = null
 # text = General relativity does, however, have some practical applications.
 1	General	general	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=elaboration-additional:75->57:3:sem-synym-489-492,648-649|Entity=(30-abstract-giv:inact-cf1-2-coref
-2	relativity	relativity	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=30)|MSeg=relativ-ity
+2	relativity	relativity	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=30)|MSeg=relat-iv-ity
 3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	7:aux	MSeg=doe-s|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5	however	however	ADV	RB	_	7	advmod	7:advmod	MSeg=how-ever|SpaceAfter=No
@@ -880,14 +880,14 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=explanation-evidence:76->75:0:_|Entity=(109-abstract-new-cf2-2-coref-Global_Positioning_System
 2	GPS	GPS	PROPN	NNP	Number=Sing	12	nsubj	12:nsubj	Entity=109)
 3	(	(	PUNCT	-LRB-	_	6	punct	6:punct	Discourse=restatement-partial:77->76:0:sem-synym-659-660,662-664+grf-prn-661,665|SpaceAfter=No
-4	Global	Global	ADJ	NNP	Degree=Pos|Number=Sing	6	amod	6:amod	Entity=(109-abstract-giv:act-cf2-1,2,3-appos-Global_Positioning_System|MSeg=Glob-al
+4	Global	Global	ADJ	NNP	Degree=Pos	6	amod	6:amod	Entity=(109-abstract-giv:act-cf2-1,2,3-appos-Global_Positioning_System|MSeg=Glob-al
 5	Positioning	Positioning	PROPN	NNP	Number=Sing	6	compound	6:compound	MSeg=Position-ing
 6	System	System	PROPN	NNP	Number=Sing	2	appos	2:appos	Entity=109)|SpaceAfter=No
 7	)	)	PUNCT	-RRB-	_	6	punct	6:punct	_
 8	in	in	ADP	IN	_	10	case	10:case	Discourse=same-unit_m:78->76:1:_
 9	every	every	DET	DT	PronType=Ind	10	det	10:det	Entity=(110-object-new-cf5-2-sgl
 10	smartphone	smartphone	NOUN	NN	Number=Sing	2	nmod	2:nmod:in	Entity=110)
-11	can	can	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	12	aux	12:aux	_
+11	can	can	AUX	MD	VerbForm=Fin	12	aux	12:aux	_
 12	tell	tell	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Ditransitive
 13	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	12	iobj	12:iobj	Entity=(6-person-giv:inact-cf1-1-ana)
 14	where	where	ADV	WRB	PronType=Rel	12	obj	12:obj	_
@@ -903,10 +903,10 @@
 24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(112-abstract-new-cf4-2-sgl
 25	effects	effect	NOUN	NNS	Number=Plur	41	nsubj:pass	41:nsubj:pass	MSeg=effect-s
 26	of	of	ADP	IN	_	30	case	30:case	_
-27	general	general	ADJ	JJ	Degree=Pos	30	amod	30:amod	Entity=(113-abstract-new-cf8-4-sgl|MSeg=general
+27	general	general	ADJ	JJ	Degree=Pos	30	amod	30:amod	Entity=(113-abstract-new-cf8-4-sgl
 28	and	and	CCONJ	CC	_	29	cc	29:cc	_
 29	special	special	ADJ	JJ	Degree=Pos	27	conj	27:conj:and|30:amod	_
-30	relativity	relativity	NOUN	NN	Number=Sing	25	nmod	25:nmod:of	Entity=113)|MSeg=relativ-ity
+30	relativity	relativity	NOUN	NN	Number=Sing	25	nmod	25:nmod:of	Entity=113)|MSeg=relat-iv-ity
 31	on	on	ADP	IN	_	34	case	34:case	_
 32	the	the	DET	DT	Definite=Def|PronType=Art	34	det	34:det	Entity=(114-object-new-cf6-3-sgl
 33	GPS	GPS	NOUN	NN	Number=Sing	34	compound	34:compound	Entity=(109-abstract-giv:act-cf2-1-coref-Global_Positioning_System)
@@ -966,7 +966,7 @@
 15	above	above	ADP	IN	_	17	case	17:case	_
 16	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	Entity=(121-place-giv:act-cf2-2-coref(119-object-giv:act-cf1-1-ana)|MSeg=it-s
 17	surface	surface	NOUN	NN	Number=Sing	11	obl	11:obl:above	Entity=121)
-18	than	than	SCONJ	IN	_	19	mark	19:mark	Discourse=adversative-antithesis:82->81:0:sem-antnm-718,737+dm-than-734
+18	than	than	SCONJ	IN	_	19	mark	19:mark	Discourse=adversative-antithesis:82->81:0:sem-antnm-718,737+sem-mrnym-732,740-742+dm-than-734
 19	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:than	MSeg=doe-s
 20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(123-object-new-cf5-3-sgl
 21	red	red	ADJ	JJ	Degree=Pos	22	amod	22:amod	_
@@ -1001,7 +1001,7 @@
 17	but	but	CCONJ	CC	_	20	cc	20:cc	Discourse=adversative-concession:86->83:1:dm-but-760;context-circumstance:86->83:2:1:orp-before-762
 18	not	not	PART	RB	Polarity=Neg	20	advmod	20:advmod	_
 19	before	before	SCONJ	IN	_	20	mark	20:mark	_
-20	discussing	discuss	VERB	VBG	VerbForm=Ger	9	conj	9:conj:but	MSeg=discuss-ing
+20	discussing	discuss	VERB	VBG	Tense=Pres|VerbForm=Part	9	conj	9:conj:but	MSeg=discuss-ing
 21-22	Einstein’s	_	_	_	_	_	_	_	_
 21	Einstein	Einstein	PROPN	NNP	Number=Sing	23	nmod:poss	23:nmod:poss	Entity=(126-abstract-new-cf1-3-coref(8-person-giv:inact-cf4-1-coref-Albert_Einstein
 22	’s	's	PART	POS	_	21	case	21:case	Entity=8)
@@ -1038,7 +1038,7 @@
 1	How	how	ADV	WRB	PronType=Int	4	advmod	4:advmod	Discourse=topic-solutionhood:90->112:4:_
 2	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(53-person-giv:inact-cf2-1-ana)
-4	understand	understand	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Wh|MSeg=under-stand
+4	understand	understand	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|MSeg=under-stand
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(129-abstract-new-cf4-2-sgl
 6	distortion	distortion	NOUN	NN	Number=Sing	4	obj	4:obj	MSeg=distort-ion
 7	of	of	ADP	IN	_	8	case	8:case	_
@@ -1081,7 +1081,7 @@
 4	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	MSeg=see-n
 5	maps	map	NOUN	NNS	Number=Plur	4	obj	4:obj|11:nsubj	Entity=(133-object-new-cf5-1,3,4-sgl|MSeg=map-s
 6	of	of	ADP	IN	_	9	case	9:case	_
-7	New	New	ADJ	NNP	Degree=Pos|Number=Sing	8	amod	8:amod	Entity=(134-place-new-cf1-1,2,3-coref-New_York_City
+7	New	New	ADJ	NNP	Degree=Pos	8	amod	8:amod	Entity=(134-place-new-cf1-1,2,3-coref-New_York_City
 8	York	York	PROPN	NNP	Number=Sing	9	compound	9:compound	_
 9	City	City	PROPN	NNP	Number=Sing	5	nmod	5:nmod:of	Entity=134)
 10	that	that	PRON	WDT	PronType=Rel	11	nsubj	5:ref	Discourse=elaboration-attribute:95->94:0:syn-mdf-811+syn-relcl-816-817
@@ -1250,7 +1250,7 @@
 7	at	at	ADP	IN	_	10	case	10:case	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(157-abstract-new-cf2-3-coref
 9	uniform	uniform	ADJ	JJ	Degree=Pos|Polarity=Neg	10	amod	10:amod	_
-10	speed	speed	NOUN	NN	Number=Sing	6	obl	6:obl:at	Entity=157)|MSeg=speed|SpaceAfter=No
+10	speed	speed	NOUN	NN	Number=Sing	6	obl	6:obl:at	Entity=157)|SpaceAfter=No
 11	;	;	PUNCT	:	_	12	punct	12:punct	_
 12	unfortunately	unfortunately	ADV	RB	Degree=Pos|Polarity=Neg	20	advmod	20:advmod	Discourse=mode-manner:113->112:0:_|MSeg=un-fortun-ate-ly|SpaceAfter=No
 13	,	,	PUNCT	,	_	12	punct	12:punct	_
@@ -1260,7 +1260,7 @@
 17	fast	fast	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
 18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	_
 19	uniform	uniform	ADJ	JJ	Degree=Pos|Polarity=Neg	20	amod	20:amod	_
-20	speed	speed	NOUN	NN	Number=Sing	6	parataxis	6:parataxis	Entity=157)|MSeg=speed
+20	speed	speed	NOUN	NN	Number=Sing	6	parataxis	6:parataxis	Entity=157)
 21	and	and	CCONJ	CC	_	25	cc	25:cc	Discourse=causal-result:114->113:0:dm-and-960
 22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(158-object-new-cf3-3-coref
 23	police	police	NOUN	NN	Number=Sing	24	compound	24:compound	_
@@ -1441,12 +1441,12 @@
 15	sheet	sheet	NOUN	NN	Number=Sing	12	obj	12:obj|18:nsubj	_
 16	that	that	PRON	WDT	PronType=Rel	18	nsubj	15:ref	Discourse=elaboration-attribute:136->135:0:syn-mdf-1078+syn-relcl-1079,1081
 17	can	can	AUX	MD	VerbForm=Fin	18	aux	18:aux|20:aux	_
-18	stretch	stretch	VERB	VB	VerbForm=Inf	15	acl:relcl	15:acl:relcl	_
+18	stretch	stretch	VERB	VB	VerbForm=Inf	15	acl:relcl	15:acl:relcl	Cxn=Conditional-UnspecifiedEpistemic-NoInversion
 19	or	or	CCONJ	CC	_	20	cc	20:cc	Discourse=joint-disjunction_m:137->136:0:dm-or-1082
 20	warp	warp	VERB	VB	VerbForm=Inf	18	conj	15:acl:relcl|18:conj:or	_
 21	if	if	SCONJ	IN	_	23	mark	23:mark	Discourse=contingency-condition:138->136:1:dm-if-1084
 22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	23:nsubj	Entity=(53-person-giv:act-cf1*-1-ana)
-23	put	put	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	advcl	18:advcl:if	Cxn=Condition-Realistic
+23	put	put	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	advcl	18:advcl:if	_
 24	objects	object	NOUN	NNS	Number=Plur	23	obj	23:obj	Entity=(174-abstract-new-cf6-1-sgl)|MSeg=object-s
 25	on	on	ADP	IN	_	26	case	26:case	_
 26	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	obl	23:obl:on	Entity=(175-abstract-new-cf4-1-sgl)172)|SpaceAfter=No
@@ -1556,7 +1556,7 @@
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(183-animal-giv:act-cf3-2-coref
 10	ant	ant	NOUN	NN	Number=Sing	7	conj	2:obl:with|7:conj:and	Entity=183)|SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	12:punct	_
-12	simulating	simulate	VERB	VBG	VerbForm=Ger	2	advcl	2:advcl	Discourse=purpose-goal:150->149:0:_|MSeg=simulat-ing
+12	simulating	simulate	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	2:advcl	Discourse=purpose-goal:150->149:0:_|MSeg=simulat-ing
 13	empty	empty	ADJ	JJ	Degree=Pos	14	amod	14:amod	Entity=(186-place-new-cf2-2-coref
 14	space	space	NOUN	NN	Number=Sing	12	obj	12:obj	_
 15	with	with	SCONJ	IN	_	19	mark	19:mark	Discourse=elaboration-attribute:151->150:0:syn-mdf-1169+dm-with-1170+syn-nmn-1170,1174
@@ -1656,7 +1656,7 @@
 # text = If we send the ant so it goes close to, but not on top of, the sand grain, it has little trouble continuing to walk in a straight line.
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=contingency-condition:159->161:0:dm-if-1241
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(53-person-giv:act-cf1*-1-ana)
-3	send	send	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	advcl	23:advcl:if	Cxn=Condition-Realistic
+3	send	send	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	advcl	23:advcl:if	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(183-animal-giv:act-cf2-2-coref
 5	ant	ant	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=183)
 6	so	so	SCONJ	IN	_	8	mark	8:mark	Discourse=mode-manner:160->159:0:dm-so-1246
@@ -1676,10 +1676,10 @@
 20	grain	grain	NOUN	NN	Number=Sing	9	obl	9:obl:to	Entity=192)|SpaceAfter=No
 21	,	,	PUNCT	,	_	3	punct	3:punct	_
 22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	23:nsubj	Discourse=joint-other_m:161->156:1:_|Entity=(183-animal-giv:act-cf2-1-ana)
-23	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=ha-s
+23	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|MSeg=ha-s
 24	little	little	ADJ	JJ	Degree=Pos	25	amod	25:amod	_
 25	trouble	trouble	NOUN	NN	Number=Sing	23	obj	23:obj	_
-26	continuing	continue	VERB	VBG	VerbForm=Ger	23	advcl	23:advcl	MSeg=continu-ing
+26	continuing	continue	VERB	VBG	Tense=Pres|VerbForm=Part	23	advcl	23:advcl	MSeg=continu-ing
 27	to	to	PART	TO	_	28	mark	28:mark	_
 28	walk	walk	VERB	VB	VerbForm=Inf	26	xcomp	26:xcomp	_
 29	in	in	ADP	IN	_	32	case	32:case	_
@@ -1738,7 +1738,7 @@
 # text = If we send the ant into this region, it finds its path slightly altered by the distortion of the sheet.
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=contingency-condition:165->166:0:dm-if-1303
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(53-person-giv:inact-cf5-1-ana)
-3	send	send	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:if	Cxn=Condition-Realistic
+3	send	send	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:if	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(183-animal-giv:inact-cf1-2-coref
 5	ant	ant	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=183)
 6	into	into	ADP	IN	_	8	case	8:case	MSeg=in-to
@@ -1746,7 +1746,7 @@
 8	region	region	NOUN	NN	Number=Sing	3	obl	3:obl:into	Entity=199)|SpaceAfter=No
 9	,	,	PUNCT	,	_	3	punct	3:punct	_
 10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	Discourse=causal-result:166->164:0:_|Entity=(183-animal-giv:act-cf1-1-ana)
-11	finds	find	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=find-s
+11	finds	find	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|MSeg=find-s
 12	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(201-abstract-new-cf6-2-coref(183-animal-giv:act-cf1-1-ana)|MSeg=it-s
 13	path	path	NOUN	NN	Number=Sing	11	obj	11:obj|15:nsubj:pass:xsubj	Entity=201)
 14	slightly	slightly	ADV	RB	Degree=Pos	15	advmod	15:advmod	MSeg=slight-ly
@@ -1773,7 +1773,7 @@
 7	but	but	CCONJ	CC	_	18	cc	18:cc	Discourse=elaboration-additional:168->166:1:ref-prs-1304,1333+sem-rpt-1306-1307,1335-1337+sem-rpt-1314-1315,1335-1338+sem-rpt-1319-1323,1325-1326
 8	if	if	SCONJ	IN	_	10	mark	10:mark	Discourse=contingency-condition:169->171:1:dm-if-1332
 9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	10:nsubj	Entity=(53-person-giv:act-cf1*-1-ana)
-10	follow	follow	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	advcl	18:advcl:if	Cxn=Condition-Realistic
+10	follow	follow	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	advcl	18:advcl:if	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(201-abstract-giv:act-cf4-4-coref(183-animal-giv:act-cf2-2-coref
 12-13	ant’s	_	_	_	_	_	_	_	_
 12	ant	ant	NOUN	NN	Number=Sing	14	nmod:poss	14:nmod:poss	_
@@ -1782,7 +1782,7 @@
 15	carefully	carefully	ADV	RB	Degree=Pos	10	advmod	10:advmod	MSeg=care-ful-ly|SpaceAfter=No
 16	,	,	PUNCT	,	_	10	punct	10:punct	_
 17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	18:nsubj	Discourse=attribution-positive:170->171:0:sem-atsrc-1341+lex-indwd-1342|Entity=(53-person-giv:act-cf1*-1-ana)
-18	notice	notice	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	conj	5:conj:but	_
+18	notice	notice	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	conj	5:conj:but	Cxn=Conditional-UnspecifiedEpistemic-NoInversion
 19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obj	18:obj|20:nsubj:xsubj	Discourse=same-unit_m:171->168:0:_|Entity=(202-abstract-new-cf6-2-disc(183-animal-giv:act-cf2-1-ana)
 20	deviating	deviate	VERB	VBG	VerbForm=Ger	18	xcomp	18:xcomp	MSeg=deviat-ing
 21	slightly	slightly	ADV	RB	Degree=Pos	20	advmod	20:advmod	MSeg=slight-ly
@@ -1855,7 +1855,7 @@
 11	very	very	ADV	RB	_	12	advmod	12:advmod	_
 12	effectively	effectively	ADV	RB	Degree=Pos	5	advmod	5:advmod	MSeg=effect-ive-ly|SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	14:punct	_
-14	putting	put	VERB	VBG	VerbForm=Ger	5	advcl	5:advcl	Discourse=causal-result:178->177:0:syn-pres-1394|MSeg=putt-ing
+14	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part	5	advcl	5:advcl	Discourse=causal-result:178->177:0:syn-pres-1394|MSeg=putt-ing
 15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(206-abstract-new-cf4-3-sgl
 16	good	good	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
 17	sag	sag	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=206)
