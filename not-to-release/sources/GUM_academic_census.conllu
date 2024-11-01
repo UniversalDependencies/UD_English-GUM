@@ -10,23 +10,23 @@
 # meta::speakerCount = 0
 # meta::summary = This paper presents a Web crawler-based computer system for automatically generating census data for an academic field, which is applied to the compilation of a census of faculty in Computer Science.
 # meta::title = Automatically assembling a full census of an academic field
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GUM_academic_census-1
 # s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = 1 Introduction
-# newpar
-# newpar_block = head (1 s)
 1	1	1	X	LS	_	2	discourse	2:discourse	Discourse=organization-heading:1->71:7:grf-ly-+grf-seq-1|Entity=(1-abstract-new-cf1-2-sgl
 2	Introduction	introduction	NOUN	NN	Number=Sing	0	root	0:root	Entity=1)|MSeg=Introduc-tion
 
+# newpar
+# newpar_block = p (5 s)
 # sent_id = GUM_academic_census-2
 # s_prominence = 4
 # s_type = decl
 # transition = null
 # text = Tenured and tenure-track university faculty play a special role in determining the speed and direction of scientific progress, both directly through their research and indirectly through their training of new researchers.
-# newpar
-# newpar_block = p (5 s)
 1	Tenured	Tenured	ADJ	JJ	Degree=Pos	7	amod	7:amod	Discourse=context-background:2->5:4:_|Entity=(2-person-new-cf1-7-coref|MSeg=Tenur-ed
 2	and	and	CCONJ	CC	_	5	cc	5:cc	_
 3	tenure	tenure	NOUN	NN	Number=Sing	5	compound	5:compound	SpaceAfter=No|XML=<w>
@@ -233,13 +233,13 @@
 32	workforce	workforce	NOUN	NN	Number=Sing	28	nmod	28:nmod:about	Entity=42)41)40)|SpaceAfter=No
 33	.	.	PUNCT	.	_	15	punct	15:punct	_
 
+# newpar
+# newpar_block = p (6 s)
 # sent_id = GUM_academic_census-7
 # s_prominence = 2
 # s_type = decl
 # transition = zero
 # text = Measuring the composition and dynamics of a scientific workforce, particularly in a rapidly expanding field like computer science, is a crucial first step toward understanding how scholarly research is conducted and how it might be enhanced.
-# newpar
-# newpar_block = p (6 s)
 1	Measuring	measure	VERB	VBG	VerbForm=Ger	25	csubj	25:csubj	Discourse=context-background:19->71:6:_|Entity=(43-event-new-cf2-1-disc|MSeg=Measur-ing
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(44-abstract-new-cf3-2,4-sgl
 3	composition	composition	NOUN	NN	Number=Sing	1	obj	1:obj	MSeg=composit-ion
@@ -296,7 +296,7 @@
 9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 10	no	no	DET	DT	PronType=Neg	12	det	12:det	Negation=Yes
 11	central	central	ADJ	JJ	Degree=Pos	12	amod	12:amod	Entity=(50-abstract-new-cf2-2-sgl|MSeg=centr-al
-12	listing	listing	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	CxnElt=Pivot|MSeg=list-ing
+12	listing	listing	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	CxnElt=9:Existential-CopPred-ThereExpl.Pivot|MSeg=list-ing
 13	of	of	ADP	IN	_	18	case	18:case	_
 14	all	all	DET	DT	PronType=Ind	18	det	18:det	Entity=(51-person-new-cf3-5-coref
 15	tenure	tenure	NOUN	NN	Number=Sing	17	compound	17:compound	SpaceAfter=No|XML=<w>
@@ -304,9 +304,9 @@
 17	track	track	NOUN	NN	Number=Sing	18	compound	18:compound	XML=</w>
 18	faculty	faculty	NOUN	NN	Number=Sing	12	nmod	12:nmod:of	Entity=51)50)|SpaceAfter=No
 19	,	,	PUNCT	,	_	20	punct	20:punct	_
-20	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	9	advcl	9:advcl	Cxn=Resultative|CxnElt=ResPredicate|Discourse=causal-result:22->21:0:syn-pres-242|MSeg=mak-ing|PDTB=Implicit:Contingency.Cause.Result:thus:_:223-241:242-253
+20	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	9	advcl	9:advcl	Cxn=Resultative|CxnElt=20:Resultative.Predicate|Discourse=causal-result:22->21:0:syn-pres-242|MSeg=mak-ing|PDTB=Implicit:Contingency.Cause.Result:thus:_:223-241:242-253
 21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obj	20:obj|22:nsubj:xsubj	Entity=(52-event-new-cf1-1-cata)
-22	difficult	difficult	ADJ	JJ	Degree=Pos	20	xcomp	20:xcomp	CxnElt=ResResult
+22	difficult	difficult	ADJ	JJ	Degree=Pos	20	xcomp	20:xcomp	CxnElt=20:Resultative.Result
 23	to	to	PART	TO	_	24	mark	24:mark	Entity=(52-event-acc:com-cf1-2-coref
 24	define	define	VERB	VB	VerbForm=Inf	22	xcomp	22:xcomp	_
 25	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	28:det	Entity=(53-abstract-new-cf5-6-sgl
@@ -469,13 +469,13 @@
 40	departments	department	NOUN	NNS	Number=Plur	37	nmod	37:nmod:for	Entity=85)83)82)|MSeg=depart-ment-s|SpaceAfter=No
 41	.	.	PUNCT	.	_	13	punct	13:punct	_
 
+# newpar
+# newpar_block = p (5 s)
 # sent_id = GUM_academic_census-13
 # s_prominence = 4
 # s_type = decl
 # transition = zero
 # text = Because assembling such a full census is difficult, past studies have tended to avoid this task and have instead used samples of researchers [8 – 11], usually specific to a particular field [12 – 16], and often focused on the scientific elite [17, 18].
-# newpar
-# newpar_block = p (5 s)
 1	Because	because	SCONJ	IN	_	8	mark	8:mark	Discourse=causal-cause:37->38:4:dm-because-382|PDTB=Explicit:Contingency.Cause.Reason:because:382:391-436:383-390
 2	assembling	assemble	VERB	VBG	VerbForm=Ger	8	csubj	8:csubj	MSeg=assembl-ing
 3	such	such	DET	PDT	PronType=Dem	6	det:predet	6:det:predet	Entity=(77-event-giv:inact-cf1-4-coref
@@ -670,13 +670,13 @@
 32	fields	field	NOUN	NNS	Number=Plur	25	nmod	25:nmod:within	Entity=102)115)114)|MSeg=field-s|SpaceAfter=No
 33	.	.	PUNCT	.	_	10	punct	10:punct	_
 
+# newpar
+# newpar_block = p (6 s)
 # sent_id = GUM_academic_census-18
 # s_prominence = 4
 # s_type = decl
 # transition = zero
 # text = In some fields, yearly data on faculty numbers and composition are available in aggregate.
-# newpar
-# newpar_block = p (6 s)
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=joint-other_m:55->38:8:_
 2	some	some	DET	DT	PronType=Ind	3	det	3:det	Bridge=60<118|Entity=(118-abstract-acc:inf-cf1-2-sgl
 3	fields	field	NOUN	NNS	Number=Plur	13	obl	13:obl:in	Entity=118)|MSeg=field-s|SpaceAfter=No
@@ -823,9 +823,9 @@
 15	,	,	PUNCT	,	_	18	punct	18:punct	_
 16	which	which	PRON	WDT	PronType=Rel	18	nsubj	5:ref|18:nsubj	Discourse=elaboration-additional:66->65:0:syn-relcl-671,673
 17	can	can	AUX	MD	VerbForm=Fin	18	aux	18:aux	_
-18	make	make	VERB	VB	VerbForm=Inf	5	advcl:relcl	5:advcl:relcl	Cxn=Resultative|CxnElt=ResPredicate
+18	make	make	VERB	VB	VerbForm=Inf	5	advcl:relcl	5:advcl:relcl	Cxn=Resultative|CxnElt=18:Resultative.Predicate
 19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obj	18:obj|20:nsubj:xsubj	Entity=(149-abstract-new-cf2-1-cata)
-20	difficult	difficult	ADJ	JJ	Degree=Pos	18	xcomp	18:xcomp	CxnElt=ResResult
+20	difficult	difficult	ADJ	JJ	Degree=Pos	18	xcomp	18:xcomp	CxnElt=18:Resultative.Result
 21	to	to	PART	TO	_	22	mark	22:mark	Entity=(149-abstract-acc:com-cf2-2-coref
 22	investigate	investigate	VERB	VB	VerbForm=Inf	20	xcomp	20:xcomp	MSeg=in-vestigate
 23	causality	causality	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=(150-abstract-new-cf5-1-sgl)149)|MSeg=caus-al-ity
@@ -871,13 +871,13 @@
 30	policies	policy	NOUN	NNS	Number=Plur	28	conj	25:nmod:of|28:conj:and	Entity=(161-abstract-new-cf9-1-sgl)159)158)|MSeg=policie-s|SpaceAfter=No
 31	.	.	PUNCT	.	_	14	punct	14:punct	_
 
+# newpar
+# newpar_block = p (7 s)
 # sent_id = GUM_academic_census-24
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = Here, we present a novel system, based on a topical web crawler, that can quickly and automatically assemble a full census of an academic field using digital data available on the public World Wide Web.
-# newpar
-# newpar_block = p (7 s)
 1	Here	here	ADV	RB	PronType=Dem	4	advmod	4:advmod	Discourse=ROOT:71:0|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(162-person-acc:com-cf3-1-ana)
@@ -906,7 +906,7 @@
 26	an	a	DET	DT	Definite=Ind|PronType=Art	28	det	28:det	Entity=(166-abstract-new-cf7-3-coref
 27	academic	academic	ADJ	JJ	Degree=Pos	28	amod	28:amod	MSeg=academ-ic
 28	field	field	NOUN	NN	Number=Sing	24	nmod	24:nmod:of	Entity=166)77)
-29	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	21	advcl	21:advcl	Discourse=mode-means:74->73:0:syn-pres-742+lex-indwd-742|MSeg=us-ing|PDTB=Implicit:Expansion.Manner.Arg2-as-manner:by:_:729-741:742-752
+29	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	21	advcl	21:advcl	Discourse=mode-means:74->73:0:lex-indwd-742+syn-pres-742|MSeg=us-ing|PDTB=Implicit:Expansion.Manner.Arg2-as-manner:by:_:729-741:742-752
 30	digital	digital	ADJ	JJ	Degree=Pos	31	amod	31:amod	Entity=(167-abstract-new-cf5-2,7,8-coref|MSeg=digit-al
 31	data	datum	NOUN	NNS	Number=Plur	29	obj	29:obj	MSeg=dat-a
 32	available	available	ADJ	JJ	Degree=Pos	31	amod	31:amod	MSeg=avail-able
@@ -969,7 +969,7 @@
 16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	Entity=(174-time-new-cf10-3-sgl
 17	few	few	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
 18	hours	hour	NOUN	NNS	Number=Plur	6	obl	6:obl:in	Entity=174)|MSeg=hour-s
-19	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	6	advcl	6:advcl	Discourse=mode-means:79->78:0:syn-pres-793+lex-indwd-793|MSeg=us-ing|PDTB=Implicit:Expansion.Manner.Arg2-as-manner:by:_:775-792:793-801
+19	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	6	advcl	6:advcl	Discourse=mode-means:79->78:0:lex-indwd-793+syn-pres-793|MSeg=us-ing|PDTB=Implicit:Expansion.Manner.Arg2-as-manner:by:_:775-792:793-801
 20	off	off	ADP	IN	_	24	case	24:case	Entity=(175-object-new-cf6-7-sgl|SpaceAfter=No|XML=<w>
 21	-	-	PUNCT	HYPH	_	20	punct	20:punct	SpaceAfter=No
 22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	SpaceAfter=No
@@ -1156,13 +1156,13 @@
 20	data	datum	NOUN	NNS	Number=Plur	12	nmod	12:nmod:of	Entity=196)195)|MSeg=dat-a|SpaceAfter=No
 21	.	.	PUNCT	.	_	9	punct	9:punct	_
 
+# newpar
+# newpar_block = p (5 s)
 # sent_id = GUM_academic_census-31
 # s_prominence = 3
 # s_type = decl
 # transition = null
 # text = Our study is organized as follows.
-# newpar
-# newpar_block = p (5 s)
 1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=organization-preparation:98->99:2:ref-prs-953,960|Entity=(198-abstract-new-cf2-2-sgl(162-person-giv:inact-cf1-1-ana)
 2	study	study	NOUN	NN	Number=Sing	4	nsubj:pass	4:nsubj:pass	Entity=198)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_

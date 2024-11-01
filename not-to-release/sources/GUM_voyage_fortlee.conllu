@@ -10,23 +10,23 @@
 # meta::speakerCount = 0
 # meta::summary = This overview of Fort Lee, NJ, tells about its views of New York City, how to get to Fort Lee by car, bus, ferry or plane, and some of the attractions including Fort Lee Historic Park, a community center with dance, yoga and sports activities, some stores and international cuisine, such as pizzerias, delis, diners and Korean restaurants.
 # meta::title = Fort Lee
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GUM_voyage_fortlee-1
 # s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = Fort Lee
-# newpar
-# newpar_block = head (1 s)
 1	Fort	Fort	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-heading:1->7:5:grf-ly-+sem-rpt-1-2,35-36|Entity=(1-place-new-cf1-1,2-coref-Fort_Lee%2C_New_Jersey
 2	Lee	Lee	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=1)
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GUM_voyage_fortlee-2
 # s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = Fort Lee is a city in Bergen County.
-# newpar
-# newpar_block = p (1 s)
 1	Fort	Fort	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Discourse=context-background:2->7:4:sem-rpt-3-4,35-36|Entity=(1-place-giv:act-cf1*-1,2-coref-Fort_Lee%2C_New_Jersey|XML=<hi rend:::"bold">
 2	Lee	Lee	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=1)|XML=</hi>
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
@@ -37,13 +37,13 @@
 8	County	County	PROPN	NNP	Number=Sing	5	nmod	5:nmod:in	Entity=2)1)|MSeg=Count-y|SpaceAfter=No|XML=</ref>
 9	.	.	PUNCT	.	_	5	punct	5:punct	_
 
+# newpar
+# newpar_block = figure rend:::"It's a bridge." (1 s) | caption (1 s)
 # sent_id = GUM_voyage_fortlee-3
 # s_prominence = 3
 # s_type = frag
 # transition = continue
 # text = View of the George Washington Bridge's long span and Manhattan, as seen while looking east from Fort Lee Historic Park
-# newpar
-# newpar_block = figure rend:::"It's a bridge." (1 s) | caption (1 s)
 1	View	view	NOUN	NN	Number=Sing	0	root	0:root	Discourse=context-background:3->2:0:grf-ly-+sem-rpt-3-4,30-31|Entity=(3-abstract-new-cf6-1-sgl
 2	of	of	ADP	IN	_	9	case	9:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(4-abstract-new-cf2-2,3,7-sgl(5-place-new-cf3-2,3,4-coref-George_Washington_Bridge
@@ -68,22 +68,22 @@
 21	Historic	Historic	ADJ	NNP	Degree=Pos	22	amod	22:amod	MSeg=Histor-ic
 22	Park	Park	PROPN	NNP	Number=Sing	16	obl	16:obl:from	Entity=8)
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GUM_voyage_fortlee-4
 # s_prominence = 2
 # s_type = imp
 # transition = zero
 # text = Understand
-# newpar
-# newpar_block = head (1 s)
 1	Understand	understand	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:6->7:2:grf-ly-|MSeg=Under-stand
 
+# newpar
+# newpar_block = p (3 s)
 # sent_id = GUM_voyage_fortlee-5
 # s_prominence = 1
 # s_type = decl
 # transition = zero
 # text = Fort Lee is located between the Paramus, NJ retail corridor and Upper Manhattan.
-# newpar
-# newpar_block = p (3 s)
 1	Fort	Fort	PROPN	NNP	Number=Sing	4	nsubj:pass	4:nsubj:pass	Discourse=ROOT:7:0|Entity=(1-place-giv:inact-cf1-1,2-coref-Fort_Lee%2C_New_Jersey
 2	Lee	Lee	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=1)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
@@ -163,7 +163,7 @@
 23	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	26:det	Entity=(23-abstract-new-cf2-4-sgl
 24	strong	strong	ADJ	JJ	Degree=Pos	26	amod	26:amod	_
 25	Korean	Korean	ADJ	JJ	Degree=Pos	26	amod	26:amod	MSeg=Kore-an
-26	presence	presence	NOUN	NN	Number=Sing	22	nsubj	22:nsubj|30:nsubj:pass	CxnElt=Pivot|MSeg=pres-ence
+26	presence	presence	NOUN	NN	Number=Sing	22	nsubj	22:nsubj|30:nsubj:pass	CxnElt=22:Existential-CopPred-ThereExpl.Pivot|MSeg=pres-ence
 27	that	that	PRON	WDT	PronType=Rel	30	nsubj:pass	26:ref	Discourse=explanation-evidence:12->11:0:_;elaboration-attribute:12->11:0:0:syn-mdf-102+syn-relcl-103,106|PDTB=AltLex:Contingency.Cause.Result:that can be:103-105:93-102:106-112
 28	can	can	AUX	MD	VerbForm=Fin	30	aux	30:aux	_
 29	be	be	AUX	VB	VerbForm=Inf	30	aux:pass	30:aux:pass	_
@@ -175,13 +175,13 @@
 35	storefronts	storefront	NOUN	NNS	Number=Plur	30	obl	30:obl:in	Entity=24)23)|MSeg=store-front-s|SpaceAfter=No
 36	.	.	PUNCT	.	_	5	punct	5:punct	_
 
+# newpar
+# newpar_block = p (5 s)
 # sent_id = GUM_voyage_fortlee-8
 # s_prominence = 1
 # s_type = decl
 # transition = zero
 # text = Fort Lee is a small town but is piled high with apartment buildings.
-# newpar
-# newpar_block = p (5 s)
 1	Fort	Fort	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj|9:nsubj:pass|10:nsubj:xsubj	Discourse=joint-other_m:13->7:1:_|Entity=(1-place-giv:inact-cf1-1,2-coref-Fort_Lee%2C_New_Jersey
 2	Lee	Lee	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=1)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
@@ -218,7 +218,7 @@
 14	there	there	PRON	EX	PronType=Dem	15	expl	15:expl	Discourse=joint-other_m:16->7:1:_
 15	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 16	breathtaking	breathtaking	ADJ	JJ	Degree=Pos	17	amod	17:amod	Entity=(28-abstract-new-cf3-2-sgl|MSeg=breath-tak-ing
-17	views	view	NOUN	NNS	Number=Plur	15	nsubj	15:nsubj	CxnElt=Pivot|MSeg=view-s
+17	views	view	NOUN	NNS	Number=Plur	15	nsubj	15:nsubj	CxnElt=15:Existential-CopPred-ThereExpl.Pivot|MSeg=view-s
 18	from	from	ADP	IN	_	21	case	21:case	_
 19	almost	almost	ADV	RB	Degree=Pos	21	advmod	21:advmod	Entity=(29-object-new-cf5-3-sgl|MSeg=al-most
 20	any	any	DET	DT	PronType=Ind	21	det	21:det	_
@@ -292,7 +292,7 @@
 4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	advcl	37:advcl:although	Cxn=Existential-CopPred-ThereExpl
 5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(36-abstract-new-cf7-3-sgl
 6	great	great	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
-7	deal	deal	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	CxnElt=Pivot
+7	deal	deal	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	CxnElt=4:Existential-CopPred-ThereExpl.Pivot
 8	of	of	ADP	IN	_	10	case	10:case	_
 9	vehicle	vehicle	NOUN	NN	Number=Sing	10	compound	10:compound	_
 10	traffic	traffic	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	Entity=36)
@@ -354,23 +354,23 @@
 66	streets	street	NOUN	NNS	Number=Plur	60	conj	57:obl:across|60:conj	Entity=43)42)37)|MSeg=street-s|SpaceAfter=No
 67	.	.	PUNCT	.	_	37	punct	37:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GUM_voyage_fortlee-13
 # s_prominence = 2
 # s_type = imp
 # transition = zero
 # text = Get in
-# newpar
-# newpar_block = head (1 s)
 1	Get	get	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:25->30:6:grf-ly-
 2	in	in	ADV	RB	Degree=Pos	1	advmod	1:advmod	_
 
+# newpar
+# newpar_block = figure (1 s) | caption (1 s)
 # sent_id = GUM_voyage_fortlee-14
 # s_prominence = 2
 # s_type = decl
 # transition = zero
 # text = One of the more interesting of the many highrise residential buildings in Fort Lee
-# newpar
-# newpar_block = figure (1 s) | caption (1 s)
 1	One	one	NUM	CD	NumForm=Word|NumType=Card	0	root	0:root	Discourse=context-background:26->30:5:grf-ly-|Entity=(44-place-new-cf3-1-sgl
 2	of	of	ADP	IN	_	5	case	5:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	_
@@ -386,13 +386,13 @@
 13	Fort	Fort	PROPN	NNP	Number=Sing	1	nmod	1:nmod:in	Entity=(1-place-giv:inact-cf1-1,2-coref-Fort_Lee%2C_New_Jersey
 14	Lee	Lee	PROPN	NNP	Number=Sing	13	flat	13:flat	Entity=1)
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GUM_voyage_fortlee-15
 # s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = Fort Lee is bordered by Edgewater, Englewood Cliffs, Cliffside Park and Leonia.
-# newpar
-# newpar_block = p (1 s)
 1	Fort	Fort	PROPN	NNP	Number=Sing	4	nsubj:pass	4:nsubj:pass	Discourse=context-background:27->30:4:_|Entity=(1-place-giv:act-cf1*-1,2-coref-Fort_Lee%2C_New_Jersey
 2	Lee	Lee	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=1)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
@@ -409,31 +409,31 @@
 14	Leonia	Leonia	PROPN	NNP	Number=Sing	6	conj	4:obl:agent|6:conj:and	Entity=(49-place-new-cf5-1-sgl-Leonia)|SpaceAfter=No|XML=<ref></ref>
 15	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GUM_voyage_fortlee-16
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = By car
-# newpar
-# newpar_block = head (1 s)
 1	By	by	ADP	IN	_	2	case	2:case	Discourse=organization-heading:28->30:2:grf-ly-
 2	car	car	NOUN	NN	Number=Sing	0	root	0:root	Entity=(50-object-new-cf1-1-sgl)
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GUM_voyage_fortlee-17
 # s_prominence = 1
 # s_type = imp
 # transition = null
 # text = If coming from New York City, take the George Washington Bridge;
-# newpar
-# newpar_block = p (2 s)
 1	If	if	SCONJ	IN	_	2	mark	2:mark	Discourse=contingency-condition:29->30:0:dm-if-293|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:293:300-305:294-299
-2	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	8:advcl:if	CxnElt=Protasis|MSeg=com-ing
+2	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	8:advcl:if	CxnElt=8:Conditional-UnspecifiedEpistemic-NoInversion.Protasis,8:Conditional-UnspecifiedEpistemic-Reduced.Protasis|MSeg=com-ing
 3	from	from	ADP	IN	_	6	case	6:case	_
 4	New	New	PROPN	NNP	Number=Sing	6	compound	6:compound	Entity=(17-place-giv:inact-cf2-1,2,3-coref-New_York_City|XML=<ref>
 5	York	York	PROPN	NNP	Number=Sing	6	compound	6:compound	_
 6	City	City	PROPN	NNP	Number=Sing	2	obl	2:obl:from	Entity=17)|SpaceAfter=No|XML=</ref>
 7	,	,	PUNCT	,	_	2	punct	2:punct	_
-8	take	take	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=Apodosis|Discourse=joint-other_m:30->7:3:_
+8	take	take	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=8:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis,8:Conditional-UnspecifiedEpistemic-Reduced.Apodosis|Discourse=joint-other_m:30->7:3:_
 9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(5-place-giv:inact-cf1-2,3,4-coref-George_Washington_Bridge
 10	George	George	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=(51-person-new-cf3-2-coref-George_Washington
 11	Washington	Washington	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=51)
@@ -461,31 +461,31 @@
 14	bridge	bridge	NOUN	NN	Number=Sing	11	nmod	11:nmod:of	Entity=5)52)1)|SpaceAfter=No
 15	.	.	PUNCT	.	_	6	punct	6:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GUM_voyage_fortlee-19
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = By bus or jitney
-# newpar
-# newpar_block = head (1 s)
 1	By	by	ADP	IN	_	2	case	2:case	Discourse=organization-heading:32->33:2:grf-ly-+sem-lxchn-322,327+sem-lxchn-324,329
 2	bus	bus	NOUN	NN	Number=Sing	0	root	0:root	Entity=(53-object-new-cf1-1-sgl)
 3	or	or	CCONJ	CC	_	4	cc	4:cc	_
 4	jitney	jitney	NOUN	NN	Number=Sing	2	conj	2:conj:or	Entity=(54-object-new-cf2-1-sgl)
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GUM_voyage_fortlee-20
 # s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Ask any bus or jitney driver leaving from the Port Authority George Washington Bus Station on 177 St. whether s/he can let you off in Fort Lee.
-# newpar
-# newpar_block = p (1 s)
-1	Ask	ask	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Ditransitive|CxnElt=DitrV|Discourse=joint-list_m:33->30:3:grf-semcol-305
+1	Ask	ask	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Ditransitive|CxnElt=1:Ditransitive.V|Discourse=joint-list_m:33->30:3:grf-semcol-305
 2	any	any	DET	DT	PronType=Ind	6	det	6:det	Entity=(55-person-new-cf1-5,9,10,11,12,13-coref
 3	bus	bus	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=(56-object-new-cf7-1,3-sgl
 4	or	or	CCONJ	CC	_	5	cc	5:cc	_
 5	jitney	jitney	NOUN	NN	Number=Sing	3	conj	3:conj:or|6:compound	Entity=56)
-6	driver	driver	NOUN	NN	Number=Sing	1	iobj	1:iobj	CxnElt=DitrRec|MSeg=driv-er
+6	driver	driver	NOUN	NN	Number=Sing	1	iobj	1:iobj	CxnElt=1:Ditransitive.Rec|MSeg=driv-er
 7	leaving	leave	VERB	VBG	VerbForm=Ger	6	acl	6:acl	Discourse=elaboration-attribute:34->33:0:syn-mdf-330+syn-nmn-331|MSeg=leav-ing
 8	from	from	ADP	IN	_	15	case	15:case	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(57-place-new-cf5-2,3,4,5,6,7-sgl-George_Washington_Bridge_Bus_Terminal
@@ -501,7 +501,7 @@
 19	whether	whether	SCONJ	IN	_	22	mark	22:mark	Discourse=same-unit_m:35->33:1:_
 20	s/he	s/he	PRON	PRP	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	22:nsubj	Entity=(55-person-giv:act-cf1-1-ana)
 21	can	can	AUX	MD	VerbForm=Fin	22	aux	22:aux	_
-22	let	let	VERB	VB	VerbForm=Inf	1	ccomp	1:ccomp	Cxn=Interrogative-Polar-Indirect|CxnElt=Clause,DitrTheme
+22	let	let	VERB	VB	VerbForm=Inf	1	ccomp	1:ccomp	Cxn=Interrogative-Polar-Indirect|CxnElt=1:Ditransitive.Theme,22:Interrogative-Polar-Indirect.Clause
 23	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	22	obj	22:obj	Entity=(59-person-acc:com-cf4-1-ana)
 24	off	off	ADP	RP	_	22	compound:prt	22:compound:prt	_
 25	in	in	ADP	IN	_	26	case	26:case	_
@@ -509,23 +509,23 @@
 27	Lee	Lee	PROPN	NNP	Number=Sing	26	flat	26:flat	Entity=1)|SpaceAfter=No
 28	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GUM_voyage_fortlee-21
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = By ferry
-# newpar
-# newpar_block = head (1 s)
 1	By	by	ADP	IN	_	2	case	2:case	Discourse=organization-heading:36->37:0:grf-ly-+sem-rpt-354,364
 2	ferry	ferry	NOUN	NN	Number=Sing	0	root	0:root	Entity=(60-object-new-cf1-1-coref)
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GUM_voyage_fortlee-22
 # s_prominence = 1
 # s_type = sub
 # transition = establishment
 # text = Fort Lee can also be accessed by boat or ferry from New York City via Edgewater and Weehawken docks.
-# newpar
-# newpar_block = p (1 s)
 1	Fort	Fort	PROPN	NNP	Number=Sing	6	nsubj:pass	6:nsubj:pass	Discourse=joint-list_m:37->30:3:dm-also-358|Entity=(1-place-giv:inact-cf2-1,2-coref-Fort_Lee%2C_New_Jersey
 2	Lee	Lee	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=1)
 3	can	can	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
@@ -547,23 +547,23 @@
 19	docks	dock	NOUN	NNS	Number=Plur	6	obl	6:obl:via	Entity=62)|MSeg=dock-s|SpaceAfter=No
 20	.	.	PUNCT	.	_	6	punct	6:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GUM_voyage_fortlee-23
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = By plane
-# newpar
-# newpar_block = head (1 s)
 1	By	by	ADP	IN	_	2	case	2:case	Discourse=organization-heading:38->39:2:grf-ly-
 2	plane	plane	NOUN	NN	Number=Sing	0	root	0:root	Entity=(64-object-new-cf1-1-coref)
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GUM_voyage_fortlee-24
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = The nearest airports to Fort Lee are Newark Airport, LaGuardia Airport, Teterboro (general aviation only), JFK and Westchester County Airport.
-# newpar
-# newpar_block = p (1 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=64<65|Discourse=joint-list_m:39->30:3:_|Entity=(65-place-acc:inf-cf2-3-sgl
 2	nearest	near	ADJ	JJS	Degree=Sup	3	amod	3:amod	MSeg=near-est
 3	airports	airport	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj|12:nsubj|14:nsubj|21:nsubj|25:nsubj	Entity=65)|MSeg=airport-s
@@ -591,23 +591,23 @@
 25	Airport	Airport	PROPN	NNP	Number=Sing	9	conj	9:conj:and	Entity=73)|MSeg=Air-port|SpaceAfter=No
 26	.	.	PUNCT	.	_	9	punct	9:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GUM_voyage_fortlee-25
 # s_prominence = 2
 # s_type = imp
 # transition = null
 # text = Get around
-# newpar
-# newpar_block = head (1 s)
 1	Get	get	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:42->45:5:grf-ly-+sem-lxchn-404,462
 2	around	around	ADV	RB	Degree=Pos	1	advmod	1:advmod	MSeg=a-round
 
+# newpar
+# newpar_block = figure (1 s) | caption (1 s)
 # sent_id = GUM_voyage_fortlee-26
 # s_prominence = 2
 # s_type = decl
 # transition = null
 # text = Old and new meet in Fort Lee, as the Good Shepherd Episcopalian Church is dwarfed by a residential highrise immediately behind it
-# newpar
-# newpar_block = figure (1 s) | caption (1 s)
 1	Old	old	ADJ	JJ	Degree=Pos	4	nsubj	4:nsubj	Discourse=context-background:43->45:3:grf-ly-|Entity=(75-object-new-cf1-1-coref)
 2	and	and	CCONJ	CC	_	3	cc	3:cc	_
 3	new	new	ADJ	JJ	Degree=Pos	1	conj	1:conj:and|4:nsubj	Entity=(76-object-new-cf3-1-coref)
@@ -632,13 +632,13 @@
 22	behind	behind	ADP	IN	_	23	case	23:case	MSeg=be-hind
 23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obl	16:obl:behind	Entity=(75-object-giv:act-cf1-1-ana)
 
+# newpar
+# newpar_block = p (5 s)
 # sent_id = GUM_voyage_fortlee-27
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = Most people choose cars, but if headed to a central area, such as Main Street, it is best to drive there, park in a municipal parking lot, and walk around from there.
-# newpar
-# newpar_block = p (5 s)
 1	Most	most	ADJ	JJS	Degree=Sup	2	amod	2:amod	Discourse=joint-other_m:45->7:3:_|Entity=(77-person-new-cf4-2-sgl
 2	people	person	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=77)
 3	choose	choose	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -646,7 +646,7 @@
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
 6	but	but	CCONJ	CC	_	21	cc	21:cc	Discourse=adversative-contrast_m:46->45:0:dm-but-433|PDTB=Explicit:Comparison.Contrast:but:433:428-432:434-465
 7	if	if	SCONJ	IN	_	8	mark	8:mark	Discourse=contingency-condition:47->48:0:dm-if-434|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:434:433,446-452:435-445
-8	headed	headed	ADJ	JJ	Degree=Pos	21	advcl	21:advcl:if	CxnElt=Protasis|MSeg=head-ed
+8	headed	headed	ADJ	JJ	Degree=Pos	21	advcl	21:advcl:if	CxnElt=21:Conditional-UnspecifiedEpistemic-NoInversion.Protasis,21:Conditional-UnspecifiedEpistemic-Reduced.Protasis|MSeg=head-ed
 9	to	to	ADP	IN	_	12	case	12:case	_
 10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(79-place-new-cf1-3,7-coref
 11	central	central	ADJ	JJ	Degree=Pos	12	amod	12:amod	MSeg=centr-al
@@ -659,7 +659,7 @@
 18	,	,	PUNCT	,	_	8	punct	8:punct	_
 19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	expl	21:expl	Discourse=same-unit_m:48->46:0:_|Entity=(81-event-new-cf3-1-cata)
 20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	21:cop	_
-21	best	good	ADJ	JJS	Degree=Sup	3	conj	3:conj:but	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=Apodosis|MSeg=be-st
+21	best	good	ADJ	JJS	Degree=Sup	3	conj	3:conj:but	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=21:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis,21:Conditional-UnspecifiedEpistemic-Reduced.Apodosis|MSeg=be-st
 22	to	to	PART	TO	_	23	mark	23:mark	Entity=(81-event-acc:com-cf3-2,5,13-coref
 23	drive	drive	VERB	VB	VerbForm=Inf	21	csubj	21:csubj	_
 24	there	there	ADV	RB	PronType=Dem	23	obj	23:obj	Entity=(79-place-giv:act-cf1-1-coref)|SpaceAfter=No
@@ -728,15 +728,15 @@
 # transition = null
 # text = If walking use caution, and if parking, make sure to feed the meter with plenty of pocket change; the meter maids take their job very seriously.
 1	If	if	SCONJ	IN	_	2	mark	2:mark	Discourse=contingency-condition:55->56:0:dm-if-503|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:503:505-507:504
-2	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	3:advcl:if	CxnElt=Protasis|MSeg=walk-ing
-3	use	use	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=Apodosis|Discourse=elaboration-additional:56->45:2:_
+2	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	3:advcl:if	CxnElt=3:Conditional-UnspecifiedEpistemic-NoInversion.Protasis,3:Conditional-UnspecifiedEpistemic-Reduced.Protasis|MSeg=walk-ing
+3	use	use	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=3:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis,3:Conditional-UnspecifiedEpistemic-Reduced.Apodosis|Discourse=elaboration-additional:56->45:2:_
 4	caution	caution	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(87-abstract-new-cf3-1-sgl)|SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
 6	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=joint-list_m:57->56:1:dm-and-508+grf-semcol-523|PDTB=Explicit:Expansion.Conjunction:and:508:503-507:509-532
 7	if	if	SCONJ	IN	_	8	mark	8:mark	Discourse=contingency-condition:58->59:0:dm-if-509|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:509:508,512-523:510-511
-8	parking	park	VERB	VBG	Tense=Pres|VerbForm=Part	10	advcl	10:advcl:if	CxnElt=Protasis|MSeg=park-ing|SpaceAfter=No
+8	parking	park	VERB	VBG	Tense=Pres|VerbForm=Part	10	advcl	10:advcl:if	CxnElt=10:Conditional-UnspecifiedEpistemic-NoInversion.Protasis,10:Conditional-UnspecifiedEpistemic-Reduced.Protasis|MSeg=park-ing|SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	8:punct	_
-10	make	make	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	3	conj	3:conj:and	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=Apodosis|Discourse=same-unit_m:59->57:0:_
+10	make	make	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	3	conj	3:conj:and	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=10:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis,10:Conditional-UnspecifiedEpistemic-Reduced.Apodosis|Discourse=same-unit_m:59->57:0:_
 11	sure	sure	ADJ	JJ	Degree=Pos	10	xcomp	10:xcomp	_
 12	to	to	PART	TO	_	13	mark	13:mark	_
 13	feed	feed	VERB	VB	VerbForm=Inf	11	xcomp	11:xcomp	_
@@ -786,7 +786,7 @@
 21	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 22	often	often	ADV	RB	Degree=Pos	21	advmod	21:advmod	_
 23	high	high	ADJ	JJ	Degree=Pos	24	amod	24:amod	Entity=(94-abstract-new-cf3-2-sgl
-24	traffic	traffic	NOUN	NN	Number=Sing	21	nsubj	21:nsubj	CxnElt=Pivot|Entity=94)
+24	traffic	traffic	NOUN	NN	Number=Sing	21	nsubj	21:nsubj	CxnElt=21:Existential-CopPred-ThereExpl.Pivot|Entity=94)
 25	and	and	CCONJ	CC	_	26	cc	26:cc	_
 26	congestion	congestion	NOUN	NN	Number=Sing	24	conj	21:nsubj|24:conj:and	Entity=(95-abstract-new-cf6-1-sgl)|MSeg=conges-tion
 27	on	on	ADP	IN	_	29	case	29:case	_
@@ -802,7 +802,7 @@
 1	If	if	SCONJ	IN	_	4	mark	4:mark	Discourse=contingency-condition:63->64:1:dm-if-563+mrf-md-576|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:563:575-594:564-574;Implicit:Contingency.Cause.Result:so:_:533-562:563-594
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(59-person-giv:inact-cf1-1-ana)
 3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
-4	planning	plan	VERB	VBG	Tense=Pres|VerbForm=Part	15	advcl	15:advcl:if	CxnElt=Protasis|MSeg=plann-ing
+4	planning	plan	VERB	VBG	Tense=Pres|VerbForm=Part	15	advcl	15:advcl:if	CxnElt=15:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|MSeg=plann-ing
 5	on	on	SCONJ	IN	_	6	mark	6:mark	_
 6	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	4	advcl	4:advcl:on	MSeg=be-ing
 7	somewhere	somewhere	ADV	RB	_	6	advmod	6:advmod	Entity=(97-place-new-cf6-1-sgl)
@@ -813,7 +813,7 @@
 12	,	,	PUNCT	,	_	4	punct	4:punct	_
 13	one	one	PRON	PRP	Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj|16:nsubj:xsubj	Discourse=joint-other_m:64->45:4:_
 14	might	might	AUX	MD	VerbForm=Fin	15	aux	15:aux	_
-15	suggest	suggest	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis
+15	suggest	suggest	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=15:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
 16	leaving	leave	VERB	VBG	VerbForm=Ger	15	xcomp	15:xcomp	MSeg=leav-ing
 17	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(99-time-new-cf2-6-sgl
 18	good	good	ADJ	JJ	Degree=Pos	22	amod	22:amod	_
@@ -832,13 +832,13 @@
 31	roadways	roadway	NOUN	NNS	Number=Plur	28	obj	28:obj	Entity=101)|MSeg=roadway-s|SpaceAfter=No
 32	.	.	PUNCT	.	_	15	punct	15:punct	_
 
+# newpar
+# newpar_block = p (4 s)
 # sent_id = GUM_voyage_fortlee-32
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = For local transportation or air-port / train station services, there are several local taxi companies that are reliable.
-# newpar
-# newpar_block = p (4 s)
 1	For	for	ADP	IN	_	3	case	3:case	Discourse=joint-other_m:67->45:4:_
 2	local	local	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(102-abstract-new-cf2-2-sgl|MSeg=loc-al
 3	transportation	transportation	NOUN	NN	Number=Sing	14	obl	14:obl:for	Entity=102)|MSeg=transport-ation
@@ -856,19 +856,19 @@
 15	several	several	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(106-organization-new-cf1-4-coref
 16	local	local	ADJ	JJ	Degree=Pos	18	amod	18:amod	MSeg=loc-al
 17	taxi	taxi	NOUN	NN	Number=Sing	18	compound	18:compound	_
-18	companies	company	NOUN	NNS	Number=Plur	14	nsubj	14:nsubj|21:nsubj	CxnElt=Pivot|MSeg=companie-s
+18	companies	company	NOUN	NNS	Number=Plur	14	nsubj	14:nsubj|21:nsubj	CxnElt=14:Existential-CopPred-ThereExpl.Pivot|MSeg=companie-s
 19	that	that	PRON	WDT	PronType=Rel	21	nsubj	18:ref	Discourse=evaluation-comment:68->67:0:lex-indwd-615;elaboration-attribute:68->67:0:0:syn-mdf-612+syn-relcl-613,615
 20	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	21:cop	_
 21	reliable	reliable	ADJ	JJ	Degree=Pos	18	acl:relcl	18:acl:relcl	Entity=106)|MSeg=reli-able|SpaceAfter=No
 22	.	.	PUNCT	.	_	14	punct	14:punct	_
 
+# newpar
+# newpar_block = list type:::"unordered" (3 s) | item (1 s)
 # sent_id = GUM_voyage_fortlee-33
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = A-1 2470 Lemoine Avenue, tel: 1 201 944-3737.
-# newpar
-# newpar_block = list type:::"unordered" (3 s) | item (1 s)
 1	A	A	PROPN	NNP	Number=Sing	0	root	0:root	Bridge=106<107|Discourse=elaboration-additional:69->67:1:sem-mrnym-609-615,617-619|Entity=(107-organization-acc:inf-cf2-1-sgl|SpaceAfter=No|XML=<hi rend:::"bold"><ref><w>
 2	-	-	PUNCT	HYPH	_	3	punct	3:punct	SpaceAfter=No
 3	1	1	NUM	CD	NumForm=Digit|NumType=Card	1	dep	1:dep	Entity=107)|XML=</w></ref></hi>
@@ -883,13 +883,13 @@
 12	944-3737	944-3737	NUM	CD	NumForm=Digit|NumType=Card	10	flat	10:flat	Entity=109)|SpaceAfter=No
 13	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GUM_voyage_fortlee-34
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Babe's 185 Bridge Plaza North, tel: 1 201 944-6800.
-# newpar
-# newpar_block = item (1 s)
 1-2	Babe's	_	_	_	_	_	_	_	_
 1	Babe	Babe	PROPN	NNP	Number=Sing	0	root	0:root	Bridge=106<110|Discourse=joint-list_m:71->69:1:grf-seq-+sem-mrnym-617-619,630-631|Entity=(110-organization-acc:inf-cf2-1-sgl|XML=<hi rend:::"bold"><ref>
 2	's	's	PART	POS	_	1	case	1:case	Entity=110)|XML=</ref></hi>
@@ -905,13 +905,13 @@
 12	944-6800	944-6800	NUM	CD	NumForm=Digit|NumType=Card	10	flat	10:flat	Entity=112)|SpaceAfter=No
 13	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GUM_voyage_fortlee-35
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = G W Taxi 1696 Bergen Blvd, tel: 1 201 363-0555.
-# newpar
-# newpar_block = item (1 s)
 1	G	G	PROPN	NNP	Number=Sing	0	root	0:root	Bridge=106<113|Discourse=joint-list_m:73->69:1:grf-seq-+sem-mrnym-630-631,643-645|Entity=(113-organization-acc:inf-cf3-1,2,3-sgl(51-person-giv:inact-cf2-1,2-coref-George_Washington|XML=<hi rend:::"bold"><ref>
 2	W	W	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=51)
 3	Taxi	Taxi	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=113)|XML=</ref></hi>
@@ -926,22 +926,22 @@
 12	363-0555	363-0555	NUM	CD	NumForm=Digit|NumType=Card	10	flat	10:flat	Entity=115)|SpaceAfter=No
 13	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GUM_voyage_fortlee-36
 # s_prominence = 2
 # s_type = imp
 # transition = null
 # text = See
-# newpar
-# newpar_block = head (1 s)
 1	See	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:75->79:4:grf-ly-
 
+# newpar
+# newpar_block = figure (1 s) | caption (1 s)
 # sent_id = GUM_voyage_fortlee-37
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Fort Lee Historic Park, a reconstruction of a Revolutionary War encampment, with beautiful views and pleasant greenery
-# newpar
-# newpar_block = figure (1 s) | caption (1 s)
 1	Fort	Fort	PROPN	NNP	Number=Sing	4	compound	4:compound	Discourse=context-background:76->79:3:grf-ly-+sem-rpt-657-658,734-735+sem-mrnym-662-675,724-727+sem-synym-666-667,737-738|Entity=(116-place-new-cf1-1,2,3,4-coref-Fort_Lee_Historic_Park(1-place-giv:inact-cf2-1,2-coref-Fort_Lee%2C_New_Jersey
 2	Lee	Lee	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=1)
 3	Historic	Historic	ADJ	NNP	Degree=Pos	4	amod	4:amod	MSeg=Histor-ic
@@ -962,13 +962,13 @@
 18	pleasant	pleasant	ADJ	JJ	Degree=Pos	19	amod	19:amod	Entity=(118-plant-new-cf4-2-sgl|MSeg=pleas-ant
 19	greenery	greenery	NOUN	NN	Number=Sing	16	conj	4:nmod:with|16:conj:and	Entity=118)116)|MSeg=green-ery
 
+# newpar
+# newpar_block = p (6 s)
 # sent_id = GUM_voyage_fortlee-38
 # s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = Fort Lee is known and named for the story of how General George Washington was forced to evacuate the area in November of 1776 and begin his famous retreat through New Jersey during the winter of 1776-77 in the protection of "Fort Lee".
-# newpar
-# newpar_block = p (6 s)
 1	Fort	Fort	PROPN	NNP	Number=Sing	4	nsubj:pass	4:nsubj:pass|6:nsubj:pass	Discourse=context-background:77->79:2:sem-rpt-676-677,734-735|Entity=(1-place-giv:act-cf1*-1,2-coref-Fort_Lee%2C_New_Jersey
 2	Lee	Lee	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=1)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass|6:aux:pass	_
@@ -1054,10 +1054,10 @@
 6	detailed	detailed	ADJ	JJ	Degree=Pos	7	amod	7:amod	Bridge=128<131|Entity=(131-object-acc:inf-cf3-2-sgl|MSeg=detail-ed
 7	exhibits	exhibit	NOUN	NNS	Number=Plur	4	conj	4:conj|9:nsubj	Entity=131)|MSeg=exhibit-s|SpaceAfter=No
 8	,	,	PUNCT	,	_	4	punct	4:punct	_
-9	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Ditransitive|CxnElt=DitrV|MSeg=give-s
-10	visitors	visitor	NOUN	NNS	Number=Plur	9	iobj	9:iobj	CxnElt=DitrRec|Entity=(132-person-new-cf5-1-sgl)|MSeg=visit-or-s
+9	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Ditransitive|CxnElt=9:Ditransitive.V|MSeg=give-s
+10	visitors	visitor	NOUN	NNS	Number=Plur	9	iobj	9:iobj	CxnElt=9:Ditransitive.Rec|Entity=(132-person-new-cf5-1-sgl)|MSeg=visit-or-s
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(133-abstract-new-cf4-2-sgl
-12	sense	sense	NOUN	NN	Number=Sing	9	obj	9:obj	CxnElt=DitrTheme
+12	sense	sense	NOUN	NN	Number=Sing	9	obj	9:obj	CxnElt=9:Ditransitive.Theme
 13	of	of	ADP	IN	_	14	case	14:case	_
 14	what	what	PRON	WP	PronType=Rel	12	nmod	12:nmod:of	_
 15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	16:det	Entity=(1-place-giv:act-cf1*-2-coref-Fort_Lee%2C_New_Jersey
@@ -1068,13 +1068,13 @@
 20	ago	ago	ADV	RB	Degree=Pos	18	advmod	18:advmod	Entity=133)|MSeg=a-go|SpaceAfter=No
 21	.	.	PUNCT	.	_	9	punct	9:punct	_
 
+# newpar
+# newpar_block = list type:::"unordered" (3 s) | item (2 s)
 # sent_id = GUM_voyage_fortlee-41
 # s_prominence = 2
 # s_type = frag
 # transition = retain
 # text = Fort Lee Historic Park, Hudson Terrace, tel: 1 201 461-1776.
-# newpar
-# newpar_block = list type:::"unordered" (3 s) | item (2 s)
 1	Fort	Fort	PROPN	NNP	Number=Sing	4	compound	4:compound	Discourse=elaboration-additional:81->79:1:sem-rpt-734-735,761-762|Entity=(116-place-giv:inact-cf3-1,2,3,4-coref-Fort_Lee_Historic_Park(1-place-giv:act-cf2*-1,2-coref-Fort_Lee%2C_New_Jersey|XML=<ref>
 2	Lee	Lee	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=1)
 3	Historic	Historic	ADJ	NNP	Degree=Pos	4	amod	4:amod	MSeg=Histor-ic
@@ -1120,13 +1120,13 @@
 23	skyline	skyline	NOUN	NN	Number=Sing	10	conj	6:nmod:of|10:conj:and	Entity=138)|MSeg=skyl-ine|SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item (1 s)
 # sent_id = GUM_voyage_fortlee-43
 # s_prominence = 3
 # s_type = sub
 # transition = establishment
 # text = The George Washington Bridge can be crossed by bicycle or on foot as well as in a motorized vehicle.
-# newpar
-# newpar_block = item (1 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Discourse=elaboration-additional:84->83:0:sem-synym-782-784,799-802|Entity=(5-place-giv:act-cf1*-2,3,4-coref-George_Washington_Bridge
 2	George	George	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(51-person-giv:act-cf2-1,2-coref-George_Washington|XML=<ref>
 3	Washington	Washington	PROPN	NNP	Number=Sing	2	flat	2:flat	Entity=51)
@@ -1148,22 +1148,22 @@
 19	vehicle	vehicle	NOUN	NN	Number=Sing	9	conj	7:obl:agent|9:conj:as_well_as	Entity=142)|SpaceAfter=No
 20	.	.	PUNCT	.	_	7	punct	7:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GUM_voyage_fortlee-44
 # s_prominence = 2
 # s_type = imp
 # transition = zero
 # text = Do
-# newpar
-# newpar_block = head (1 s)
 1	Do	do	AUX	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:85->92:5:grf-ly-
 
+# newpar
+# newpar_block = figure (1 s) | caption (1 s)
 # sent_id = GUM_voyage_fortlee-45
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = Fort Lee's Public School 4, a daily activity for the elementary school set
-# newpar
-# newpar_block = figure (1 s) | caption (1 s)
 1	Fort	Fort	PROPN	NNP	Number=Sing	5	nmod:poss	5:nmod:poss	Discourse=context-background:86->92:4:grf-ly-+sem-rpt-820-822,861-862|Entity=(143-place-new-cf4-2,4,5-sgl(1-place-giv:inact-cf1-1,2-coref-Fort_Lee%2C_New_Jersey
 2-3	Lee's	_	_	_	_	_	_	_	_
 2	Lee	Lee	PROPN	NNP	Number=Sing	1	flat	1:flat	_
@@ -1181,13 +1181,13 @@
 14	school	school	NOUN	NN	Number=Sing	15	compound	15:compound	_
 15	set	set	NOUN	NN	Number=Sing	10	nmod	10:nmod:for	Entity=145)144)
 
+# newpar
+# newpar_block = p (5 s)
 # sent_id = GUM_voyage_fortlee-46
 # s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = Other than eating, or shopping, or shopping for food, there is not much else to do unless you work in Fort Lee.
-# newpar
-# newpar_block = p (5 s)
 1	Other	other	ADJ	JJ	Degree=Pos	16	amod	16:amod	Discourse=adversative-antithesis:87->90:1:lex-altlex-835-836
 2	than	than	SCONJ	IN	_	3	mark	3:mark	_
 3	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part	1	advcl	1:advcl:than	MSeg=eat-ing|SpaceAfter=No
@@ -1203,7 +1203,7 @@
 13	there	there	PRON	EX	PronType=Dem	14	expl	14:expl	Discourse=adversative-concession:90->92:3:_
 14	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 15	not	not	PART	RB	Polarity=Neg	14	advmod	14:advmod	Negation=Yes
-16	much	much	ADJ	JJ	Degree=Pos	14	nsubj	14:nsubj	CxnElt=Pivot
+16	much	much	ADJ	JJ	Degree=Pos	14	nsubj	14:nsubj	CxnElt=14:Existential-CopPred-ThereExpl.Pivot
 17	else	else	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
 18	to	to	PART	TO	_	19	mark	19:mark	_
 19	do	do	VERB	VB	VerbForm=Inf	16	acl	16:acl:to	_
@@ -1291,13 +1291,13 @@
 20	night	night	NOUN	NN	Number=Sing	13	nmod:unmarked	13:nmod:unmarked	Entity=158)|SpaceAfter=No
 21	.	.	PUNCT	.	_	8	punct	8:punct	_
 
+# newpar
+# newpar_block = list type:::"unordered" (1 s) | item (1 s)
 # sent_id = GUM_voyage_fortlee-50
 # s_prominence = 2
 # s_type = multiple
 # transition = continue
 # text = Jack Alter Fort Lee Community Center, 1355 Inwood Terrace, tel: 1 201-592-4699, contact for membership information, and upcoming events.
-# newpar
-# newpar_block = list type:::"unordered" (1 s) | item (1 s)
 1	Jack	Jack	PROPN	NNP	Number=Sing	6	compound	6:compound	Discourse=elaboration-additional:97->92:2:sem-rpt-861-862,921-922+sem-synym-865-873,919-924|Entity=(146-place-giv:act-cf1*-1,2,3,4,5,6-coref(160-person-new-cf7-1,2-sgl|XML=<hi rend:::"bold">
 2	Alter	Alter	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=160)
 3	Fort	Fort	PROPN	NNP	Number=Sing	6	compound	6:compound	Entity=(1-place-giv:inact-cf3-1,2-coref-Fort_Lee%2C_New_Jersey
@@ -1324,26 +1324,26 @@
 24	events	event	NOUN	NNS	Number=Plur	20	conj	17:obl:for|20:conj:and	Entity=164)|MSeg=event-s|SpaceAfter=No
 25	.	.	PUNCT	.	_	6	punct	6:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GUM_voyage_fortlee-51
 # s_prominence = 2
 # s_type = imp
 # transition = zero
 # text = Buy
-# newpar
-# newpar_block = head (1 s)
 1	Buy	buy	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:100->101:4:grf-ly-
 
+# newpar
+# newpar_block = p (7 s)
 # sent_id = GUM_voyage_fortlee-52
 # s_prominence = 1
 # s_type = decl
 # transition = zero
 # text = There is an abundance of supermarkets, one the most famous and unique being Caffasso’s Fairway Market.
-# newpar
-# newpar_block = p (7 s)
 1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=joint-other_m:101->7:3:_
 2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(165-place-new-cf2-2-sgl
-4	abundance	abundance	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	CxnElt=Pivot|MSeg=abundan-ce
+4	abundance	abundance	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	CxnElt=2:Existential-CopPred-ThereExpl.Pivot|MSeg=abundan-ce
 5	of	of	ADP	IN	_	6	case	6:case	_
 6	supermarkets	supermarket	NOUN	NNS	Number=Plur	4	nmod	4:nmod:of	Entity=165)|MSeg=super-market-s|SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	8:punct	_
@@ -1371,7 +1371,7 @@
 3	also	also	ADV	RB	_	2	advmod	2:advmod	PDTB=Explicit:Expansion.Conjunction:also:966:945-963:964-965,967-980
 4	many	many	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(167-place-new-cf1-3-sgl
 5	nail	nail	NOUN	NN	Number=Sing	6	compound	6:compound	_
-6	salons	salon	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	CxnElt=Pivot|Entity=167)|MSeg=salon-s|SpaceAfter=No
+6	salons	salon	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	CxnElt=2:Existential-CopPred-ThereExpl.Pivot|Entity=167)|MSeg=salon-s|SpaceAfter=No
 7	,	,	PUNCT	,	_	10	punct	10:punct	_
 8	frozen	freeze	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	amod	10:amod	Entity=(168-place-new-cf2-3-sgl|MSeg=froz-en
 9	yogurt	yogurt	NOUN	NN	Number=Sing	10	compound	10:compound	_
@@ -1384,13 +1384,13 @@
 16	stations	station	NOUN	NNS	Number=Plur	6	conj	2:nsubj|6:conj:and	Entity=170)|MSeg=station-s|SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = list type:::"unordered" (2 s) | item (2 s)
 # sent_id = GUM_voyage_fortlee-54
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Cafasso's Fairway Market 1214 Anderson Ave, 1 201-224-7900.
-# newpar
-# newpar_block = list type:::"unordered" (2 s) | item (2 s)
 1-2	Cafasso's	_	_	_	_	_	_	_	_
 1	Cafasso	Cafasso	PROPN	NNP	Number=Sing	4	nmod:poss	4:nmod:poss	Discourse=elaboration-additional:104->101:2:sem-synym-952-957,981-984|Entity=(166-place-giv:inact-cf1-3,4-coref|XML=<hi rend:::"bold">
 2	's	's	PART	POS	_	1	case	1:case	_
@@ -1482,7 +1482,7 @@
 # text = There are tons of specialty boutiques and gourmet caterers, as well as clothing and sporting good retailers.
 1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=elaboration-additional:112->109:1:_|PDTB=Implicit:Expansion.Conjunction:in addition:_:1017-1050:1051-1069
 2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
-3	tons	ton	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	CxnElt=Pivot|Entity=(190-place-new-cf1-1-sgl|MSeg=ton-s
+3	tons	ton	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	CxnElt=2:Existential-CopPred-ThereExpl.Pivot|Entity=(190-place-new-cf1-1-sgl|MSeg=ton-s
 4	of	of	ADP	IN	_	6	case	6:case	_
 5	specialty	specialty	NOUN	NN	Number=Sing	6	compound	6:compound	MSeg=specialt-y
 6	boutiques	boutique	NOUN	NNS	Number=Plur	3	nmod	3:nmod:of	Entity=190)|MSeg=boutique-s
@@ -1530,22 +1530,22 @@
 23	gardeners	gardener	NOUN	NNS	Number=Plur	21	nmod	21:nmod:for	Entity=(197-person-new-cf3-1-sgl)196)|MSeg=garden-er-s|SpaceAfter=No
 24	.	.	PUNCT	.	_	5	punct	5:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GUM_voyage_fortlee-59
 # s_prominence = 2
 # s_type = imp
 # transition = null
 # text = Eat
-# newpar
-# newpar_block = head (1 s)
 1	Eat	eat	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:114->116:2:grf-ly-
 
+# newpar
+# newpar_block = p (3 s)
 # sent_id = GUM_voyage_fortlee-60
 # s_prominence = 2
 # s_type = sub
 # transition = null
 # text = Within Fort Lee, the main attraction would be its collection of restaurants.
-# newpar
-# newpar_block = p (3 s)
 1	Within	within	ADP	IN	_	2	case	2:case	Discourse=context-background:115->116:1:sem-rpt-1096-1097,1109-1110|MSeg=With-in
 2	Fort	Fort	PROPN	NNP	Number=Sing	11	nmod	11:nmod:within	Entity=(1-place-giv:inact-cf1-1,2-coref-Fort_Lee%2C_New_Jersey
 3	Lee	Lee	PROPN	NNP	Number=Sing	2	flat	2:flat	Entity=1)|SpaceAfter=No

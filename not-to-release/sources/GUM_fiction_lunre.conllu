@@ -10,26 +10,26 @@
 # meta::speakerCount = 3
 # meta::summary = A protagonist recounts the day when his father, a patriotic islander, returned from a long journey and unexpectedly brought home a foreign Olondrian tutor from Bain named Master Lunre.
 # meta::title = A Stranger in Olondria, Chapter Two: Master Lunre
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GUM_fiction_lunre-1
 # s_prominence = 2
 # s_type = other
 # transition = establishment
 # text = Chapter Two: Master Lunre
-# newpar
-# newpar_block = head (1 s)
 1	Chapter	Chapter	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-preparation:1->2:0:grf-col-3|Entity=(1-abstract-new-cf2-1-sgl
 2	Two	two	NUM	CD	NumForm=Word|NumType=Card	1	dep	1:dep	Entity=1)|SpaceAfter=No
 3	:	:	PUNCT	:	_	4	punct	4:punct	_
 4	Master	Master	PROPN	NNP	Number=Sing	1	dep	1:dep	Discourse=organization-heading:2->16:4:grf-ly-|Entity=(2-person-new-cf1-1,2-coref
 5	Lunre	Lunre	PROPN	NNP	Number=Sing	4	flat	4:flat	Entity=2)
 
+# newpar
+# newpar_block = p (4 s)
 # sent_id = GUM_fiction_lunre-2
 # s_prominence = 3
 # s_type = decl
 # transition = null
 # text = My father’s actions were largely incomprehensible to me, guided by his own secret and labyrinthine calculations.
-# newpar
-# newpar_block = p (4 s)
 1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=context-background:3->8:1:ref-prs-6-8,81+ref-prs-6,89|Entity=(3-event-new-cf3-4-sgl(4-person-new-cf2-2-coref(5-person-acc:com-cf1-1-ana)
 2-3	father’s	_	_	_	_	_	_	_	_
 2	father	father	NOUN	NN	Number=Sing	4	nmod:poss	4:nmod:poss	_
@@ -131,10 +131,10 @@
 22	islander	islander	NOUN	NN	Number=Sing	18	appos	18:appos	Entity=4)|MSeg=island-er|SpaceAfter=No
 23	,	,	PUNCT	,	_	25	punct	25:punct	_
 24	to	to	PART	TO	_	25	mark	25:mark	_
-25	bring	bring	VERB	VB	VerbForm=Inf	17	xcomp	17:xcomp	Cxn=Ditransitive|CxnElt=DitrV
-26	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	25	iobj	25:iobj	CxnElt=DitrRec|Entity=(5-person-giv:inact-cf3-1-ana)
+25	bring	bring	VERB	VB	VerbForm=Inf	17	xcomp	17:xcomp	Cxn=Ditransitive|CxnElt=25:Ditransitive.V
+26	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	25	iobj	25:iobj	CxnElt=25:Ditransitive.Rec|Entity=(5-person-giv:inact-cf3-1-ana)
 27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	28:det	Entity=(2-person-giv:inact-cf2-2-coref
-28	tutor	tutor	NOUN	NN	Number=Sing	25	obj	25:obj	CxnElt=DitrTheme
+28	tutor	tutor	NOUN	NN	Number=Sing	25	obj	25:obj	CxnElt=25:Ditransitive.Theme
 29	from	from	ADP	IN	_	30	case	30:case	_
 30	Bain	Bain	PROPN	NNP	Number=Sing	28	nmod	28:nmod:from	Entity=(19-place-new-cf6-1-sgl)2)|SpaceAfter=No
 31	:	:	PUNCT	:	_	32	punct	32:punct	_
@@ -145,13 +145,13 @@
 36	Olondrian	Olondrian	PROPN	NNP	Number=Sing	32	appos	32:appos	Entity=2)18)|SpaceAfter=No
 37	.	.	PUNCT	.	_	7	punct	7:punct	_
 
+# newpar
+# newpar_block = p (4 s)
 # sent_id = GUM_fiction_lunre-6
 # s_prominence = 2
 # s_type = decl
 # transition = rough-shift
 # text = The day began as it usually did when my father was expected home from his travels, the house festooned with flowers and stocked with coconut liquor.
-# newpar
-# newpar_block = p (4 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=organization-preparation:11->14:1:sem-synym-113,118-119|Entity=(20-time-acc:com-cf1-2-coref
 2	day	day	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=20)
 3	began	begin	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -293,13 +293,13 @@
 30	!	!	PUNCT	.	_	29	punct	29:punct	SpaceAfter=No
 31	”	''	PUNCT	''	_	29	punct	29:punct	XML=</sp>
 
+# newpar
+# newpar_block = p (6 s)
 # sent_id = GUM_fiction_lunre-10
 # s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = A yellow man!
-# newpar
-# newpar_block = p (6 s)
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Discourse=evaluation-comment:32->28:2:_|Entity=(2-person-giv:act-cf1*-3-coref
 2	yellow	yellow	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	man	man	NOUN	NN	Number=Sing	0	root	0:root	Entity=2)|SpaceAfter=No
@@ -530,14 +530,14 @@
 55	cuttings	cutting	NOUN	NNS	Number=Plur	51	nmod	51:nmod:of	Entity=72)71)|MSeg=cutt-ing-s|SpaceAfter=No|XML=</w>
 56	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = p (9 s)
 # sent_id = GUM_fiction_lunre-16
 # s_prominence = 1
 # s_type = decl
-# speaker = Pavit
 # transition = zero
+# speaker = Pavit
 # text = “There they are,” said Pavit, the head house-servant, in a strained voice.
-# newpar
-# newpar_block = p (9 s)
 1	“	''	PUNCT	``	_	4	punct	4:punct	Discourse=joint-sequence_m:54->16:2:_|SpaceAfter=No|XML=<sp who:::"#Pavit">
 2	There	there	ADV	RB	PronType=Dem	4	advmod	4:advmod	_
 3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(41-person-giv:inact-cf2-1-ana)
@@ -842,13 +842,13 @@
 37	.	.	PUNCT	.	_	16	punct	16:punct	SpaceAfter=No
 38	”	''	PUNCT	''	_	16	punct	16:punct	XML=</sp>
 
+# newpar
+# newpar_block = p (4 s)
 # sent_id = GUM_fiction_lunre-25
 # s_prominence = 1
 # s_type = decl
 # transition = smooth-shift
 # text = My father dismounted from his mule and strutted toward us, grinning.
-# newpar
-# newpar_block = p (4 s)
 1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=joint-sequence_m:83->16:2:_|Entity=(4-person-giv:inact-cf2-2-coref(5-person-giv:act-cf1*-1-ana)
 2	father	father	NOUN	NN	Number=Sing	3	nsubj	3:nsubj|8:nsubj	Entity=4)
 3	dismounted	dismount	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=dis-mount-ed|Negation=Yes

@@ -10,25 +10,25 @@
 # meta::speakerCount = 0
 # meta::summary = Three recipes for quinoa suggest optionally toasting it in olive oil in a pan and then cooking it in broth or water and salt on a stove, washing and cooking it in a rice cooker after optionally toasting it, or baking it in the oven in a baking dish covered with foil together with sauteed onions, peppers, mushrooms or other vegetables in a broth.
 # meta::title = How to Prepare Quinoa
+# newpar
+# newpar_block = head rend:::"bold" (1 s)
 # sent_id = GUM_whow_quinoa-1
 # s_prominence = 2
 # s_type = inf
 # transition = establishment
 # text = How to Prepare Quinoa
-# newpar
-# newpar_block = head rend:::"bold" (1 s)
 1	How	how	ADV	WRB	PronType=Int	0	root	0:root	Discourse=organization-heading:1->12:4:grf-ly-+sem-lxchn-4,102
 2	to	to	PART	TO	_	3	mark	3:mark	_
 3	Prepare	prepare	VERB	VB	VerbForm=Inf	1	acl	1:acl:to	_
 4	Quinoa	quinoa	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(1-plant-new-cf1-1-coref)
 
+# newpar
+# newpar_block = p (5 s)
 # sent_id = GUM_whow_quinoa-2
 # s_prominence = 2
 # s_type = decl
 # transition = establishment
 # text = Quinoa is known as the little rice of Peru.
-# newpar
-# newpar_block = p (5 s)
 1	Quinoa	quinoa	NOUN	NN	Number=Sing	3	nsubj:pass	3:nsubj:pass	Discourse=context-background:2->12:3:lex-indph-7-8|Entity=(1-plant-giv:act-cf1*-1-coref)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=know-n
@@ -92,7 +92,7 @@
 12	of	of	ADP	IN	_	14	case	14:case	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(9-time-new-cf4-2-sgl
 14	season	season	NOUN	NN	Number=Sing	11	nmod	11:nmod:of	Entity=9)8)
-15	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	8:advcl	Discourse=mode-means:7->6:0:lex-indwd-56+syn-pres-56|MSeg=us-ing|PDTB=Implicit:Expansion.Manner.Arg2-as-manner:by:_:42-55:56-61
+15	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	8:advcl	Discourse=mode-means:7->6:0:syn-pres-56+lex-indwd-56|MSeg=us-ing|PDTB=Implicit:Expansion.Manner.Arg2-as-manner:by:_:42-55:56-61
 16	"	''	PUNCT	``	_	18	punct	18:punct	SpaceAfter=No|XML=<q>
 17	golden	golden	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(10-object-new-cf3-2-sgl|MSeg=gold-en
 18	implements	implement	NOUN	NNS	Number=Plur	15	obj	15:obj	Entity=10)|MSeg=implement-s|SpaceAfter=No
@@ -148,33 +148,33 @@
 24	levels	level	NOUN	NNS	Number=Plur	20	obj	20:obj	Entity=17)16)|MSeg=level-s|SpaceAfter=No
 25	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GUM_whow_quinoa-7
 # s_prominence = 2
 # s_type = frag
 # transition = zero
 # text = Ingredients
-# newpar
-# newpar_block = head (1 s)
 1	Ingredients	ingredient	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:11->12:1:grf-ly-|Entity=(18-substance-new-cf1-1-coref)|MSeg=Ingredient-s|XML=<hi rend:::"bold"></hi>
 
+# newpar
+# newpar_block = list type:::"unordered" (4 s) | item (1 s) | p (1 s)
 # sent_id = GUM_whow_quinoa-8
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 1 cup quinoa
-# newpar
-# newpar_block = list type:::"unordered" (4 s) | item (1 s) | p (1 s)
 1	1	1	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Bridge=18<19|Discourse=ROOT:12:0|Entity=(19-substance-acc:inf-cf1-3-coref
 2	cup	cup	NOUN	NN	Number=Sing	3	nmod:unmarked	3:nmod:unmarked	_
 3	quinoa	quinoa	NOUN	NN	Number=Sing	0	root	0:root	Entity=19)
 
+# newpar
+# newpar_block = item (1 s) | p (1 s)
 # sent_id = GUM_whow_quinoa-9
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 2 cups water (or broth)
-# newpar
-# newpar_block = item (1 s) | p (1 s)
 1	2	2	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Bridge=18<20|Discourse=joint-list_m:13->12:0:grf-seq-+sem-mrnym-100-105|Entity=(20-substance-acc:inf-cf1-3-coref
 2	cups	cup	NOUN	NNS	Number=Plur	3	nmod:unmarked	3:nmod:unmarked	MSeg=cup-s
 3	water	water	NOUN	NN	Number=Sing	0	root	0:root	Entity=20)
@@ -183,13 +183,13 @@
 6	broth	broth	NOUN	NN	Number=Sing	3	conj	3:conj:or	Bridge=18<21|Entity=(21-substance-acc:inf-cf2-1-coref)|SpaceAfter=No
 7	)	)	PUNCT	-RRB-	_	6	punct	6:punct	_
 
+# newpar
+# newpar_block = item (1 s) | p (1 s)
 # sent_id = GUM_whow_quinoa-10
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = Olive oil to taste (Optional)
-# newpar
-# newpar_block = item (1 s) | p (1 s)
 1	Olive	olive	NOUN	NN	Number=Sing	2	compound	2:compound	Bridge=18<22|Discourse=joint-list_m:15->12:0:grf-seq-+sem-mrnym-108,110-111|Entity=(22-substance-acc:inf-cf1-2-coref
 2	oil	oil	NOUN	NN	Number=Sing	0	root	0:root	Entity=22)
 3	to	to	ADP	IN	_	4	case	4:case	_
@@ -198,13 +198,13 @@
 6	Optional	optional	ADJ	JJ	Degree=Pos	2	parataxis	2:parataxis	MSeg=Opt-ion-al|SpaceAfter=No
 7	)	)	PUNCT	-RRB-	_	6	punct	6:punct	_
 
+# newpar
+# newpar_block = item (1 s) | p (1 s)
 # sent_id = GUM_whow_quinoa-11
 # s_prominence = 1
 # s_type = frag
 # transition = null
 # text = 1/2 teaspoon salt (Optional)
-# newpar
-# newpar_block = item (1 s) | p (1 s)
 1	1/2	1/2	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Bridge=18<23|Discourse=joint-list_m:17->12:0:grf-seq-+sem-lxchn-101,118+sem-mrnym-110-111,117-119|Entity=(23-substance-acc:inf-cf1-3-coref
 2	teaspoon	teaspoon	NOUN	NN	Number=Sing	3	nmod:unmarked	3:nmod:unmarked	MSeg=tea-spoon
 3	salt	salt	NOUN	NN	Number=Sing	0	root	0:root	Entity=23)
@@ -212,13 +212,13 @@
 5	Optional	optional	ADJ	JJ	Degree=Pos	3	parataxis	3:parataxis	MSeg=Opt-ion-al|SpaceAfter=No
 6	)	)	PUNCT	-RRB-	_	5	punct	5:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GUM_whow_quinoa-12
 # s_prominence = 2
 # s_type = ger
 # transition = null
 # text = Method 1 Cooking On A Stove Top
-# newpar
-# newpar_block = head (1 s)
 1	Method	method	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-preparation:19->20:0:_|Entity=(24-abstract-new-cf1-1-coref
 2	1	1	NUM	CD	NumForm=Digit|NumType=Card	1	dep	1:dep	Entity=24)
 3	Cooking	cook	VERB	VBG	VerbForm=Ger	1	appos	1:appos	Discourse=organization-heading:20->21:3:grf-ly-|MSeg=Cook-ing|XML=<hi rend:::"bold">
@@ -227,13 +227,13 @@
 6	Stove	stove	NOUN	NN	Number=Sing	7	compound	7:compound	_
 7	Top	top	NOUN	NN	Number=Sing	3	obl	3:obl:on	Entity=25)|XML=</hi>
 
+# newpar
+# newpar_block = figure rend:::"quinoa in the water" (0 s) | list type:::"ordered" (26 s) | item n:::"1" (4 s) | p (4 s)
 # sent_id = GUM_whow_quinoa-13
 # s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Rinse the grains of quinoa in water.
-# newpar
-# newpar_block = figure rend:::"quinoa in the water" (0 s) | list type:::"ordered" (26 s) | item n:::"1" (4 s) | p (4 s)
 1	Rinse	rinse	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:21->12:2:_|Entity=(26-event-new-cf3-1-disc|XML=<hi rend:::"bold">
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(19-substance-giv:inact-cf1-2-coref
 3	grains	grain	NOUN	NNS	Number=Plur	1	obj	1:obj	MSeg=grain-s
@@ -250,13 +250,13 @@
 # text = You can skip this step if you have purchased pre-rinsed quinoa in a box.
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=adversative-concession:22->21:0:_|Entity=(28-person-acc:com-cf1-1-ana)|PDTB=Implicit:Comparison.Concession.Arg2-as-denier:however:_:130-137:138-152
 2	can	can	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
-3	skip	skip	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis
+3	skip	skip	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=3:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
 4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	5:det	Entity=(26-event-giv:act-cf2*-2-coref
 5	step	step	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=26)
 6	if	if	SCONJ	IN	_	9	mark	9:mark	Discourse=contingency-condition:23->22:0:dm-if-143|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:143:138-142:144-152
 7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Entity=(28-person-giv:act-cf1-1-ana)
 8	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
-9	purchased	purchase	VERB	VBN	Tense=Past|VerbForm=Part	3	advcl	3:advcl:if	CxnElt=Protasis|MSeg=purchas-ed
+9	purchased	purchase	VERB	VBN	Tense=Past|VerbForm=Part	3	advcl	3:advcl:if	CxnElt=3:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|MSeg=purchas-ed
 10	pre-rinsed	pre-rinsed	ADJ	JJ	Degree=Pos	11	amod	11:amod	Entity=(29-substance-new-cf3-2-coref|MSeg=pre-rins-ed
 11	quinoa	quinoa	NOUN	NN	Number=Sing	9	obj	9:obj	_
 12	in	in	ADP	IN	_	14	case	14:case	_
@@ -308,7 +308,7 @@
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(19-substance-giv:act-cf1*-2-coref
 14	grains	grain	NOUN	NNS	Number=Plur	11	nmod	11:nmod:of	Entity=19)35)|MSeg=grain-s
 15	which	which	PRON	WDT	PronType=Rel	16	nsubj	8:ref	Discourse=elaboration-attribute:28->27:0:syn-mdf-178+syn-relcl-185-186+syn-pst_-194
-16	impart	impart	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	8:acl:relcl	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=Apodosis
+16	impart	impart	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	8:acl:relcl	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=16:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis,16:Conditional-UnspecifiedEpistemic-Reduced.Apodosis
 17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(36-abstract-new-cf5-3-sgl
 18	bitter	bitter	ADJ	JJ	Degree=Pos	19	amod	19:amod	MSeg=bitt-er
 19	flavor	flavor	NOUN	NN	Number=Sing	16	obj	16:obj	Entity=36)
@@ -316,16 +316,16 @@
 21	quinoa	quinoa	NOUN	NN	Number=Sing	16	obl	16:obl:to	Entity=(11-substance-giv:inact-cf2-1-coref)
 22	if	if	SCONJ	IN	_	24	mark	24:mark	Discourse=contingency-condition:29->28:0:dm-if-192|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:192:185-191:193-195
 23	not	not	PART	RB	Polarity=Neg	24	advmod	24:advmod	Negation=Yes
-24	removed	remove	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	advcl	16:advcl:if	CxnElt=Protasis|Entity=34)|MSeg=re-mov-ed|SpaceAfter=No
+24	removed	remove	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	advcl	16:advcl:if	CxnElt=16:Conditional-UnspecifiedEpistemic-NoInversion.Protasis,16:Conditional-UnspecifiedEpistemic-Reduced.Protasis|Entity=34)|MSeg=re-mov-ed|SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = figure rend:::"quinoa in a saucepan" (0 s) | item n:::"2" (4 s) | p (4 s)
 # sent_id = GUM_whow_quinoa-17
 # s_prominence = 1
 # s_type = imp
 # transition = continue
 # text = Toast quinoa in a saucepan (optional).
-# newpar
-# newpar_block = figure rend:::"quinoa in a saucepan" (0 s) | item n:::"2" (4 s) | p (4 s)
 1	Toast	toast	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:30->21:2:grf-seq-|Entity=(37-event-new-cf3-1-disc|XML=<hi rend:::"bold">
 2	quinoa	quinoa	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=(19-substance-giv:act-cf1*-1-coref)
 3	in	in	ADP	IN	_	5	case	5:case	_
@@ -388,13 +388,13 @@
 7	flavor	flavor	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=42)|SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = figure rend:::"simmering the quinoa" (0 s) | item n:::"3" (6 s) | p (4 s)
 # sent_id = GUM_whow_quinoa-21
 # s_prominence = 1
 # s_type = imp
 # transition = zero
 # text = Cook the quinoa.
-# newpar
-# newpar_block = figure rend:::"simmering the quinoa" (0 s) | item n:::"3" (6 s) | p (4 s)
 1	Cook	cook	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:36->21:2:grf-seq-|XML=<hi rend:::"bold">
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(19-substance-giv:inact-cf1-2-coref
 3	quinoa	quinoa	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=19)|SpaceAfter=No
@@ -479,13 +479,13 @@
 28	grain	grain	NOUN	NN	Number=Sing	24	nmod	24:nmod:of	Entity=19)49)48)|SpaceAfter=No
 29	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = list type:::"unordered" (2 s) | item (2 s) | p (2 s)
 # sent_id = GUM_whow_quinoa-25
 # s_prominence = 3
 # s_type = imp
 # transition = establishment
 # text = Try to ensure there is an al dente bite to the germ, in the same way as pasta.
-# newpar
-# newpar_block = list type:::"unordered" (2 s) | item (2 s) | p (2 s)
 1	Try	try	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:44->41:1:sem-rpt-288-290,313-314
 2	to	to	PART	TO	_	3	mark	3:mark	_
 3	ensure	ensure	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	MSeg=en-sure
@@ -494,7 +494,7 @@
 6	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(50-abstract-new-cf2-4-sgl
 7	al	al	X	FW	_	9	amod	9:amod	XML=<hi rend:::"italic">
 8	dente	dente	X	FW	_	7	flat	7:flat	XML=</hi>
-9	bite	bite	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	CxnElt=Pivot|Entity=50)
+9	bite	bite	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	CxnElt=5:Existential-CopPred-ThereExpl.Pivot|Entity=50)
 10	to	to	ADP	IN	_	12	case	12:case	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(47-object-giv:act-cf1*-2-coref
 12	germ	germ	NOUN	NN	Number=Sing	5	obl	5:obl:to	Entity=47)|SpaceAfter=No
@@ -529,13 +529,13 @@
 15	heat	heat	NOUN	NN	Number=Sing	11	obl	11:obl:off	Entity=44)|SpaceAfter=No
 16	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = figure rend:::"cooling off the quinoa" (0 s) | item n:::"4" (2 s) | p (2 s)
 # sent_id = GUM_whow_quinoa-27
 # s_prominence = 1
 # s_type = imp
 # transition = establishment
 # text = Take the quinoa off the heat and let stand, covered, for 5 minutes.
-# newpar
-# newpar_block = figure rend:::"cooling off the quinoa" (0 s) | item n:::"4" (2 s) | p (2 s)
 1	Take	take	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:47->21:2:_|XML=<hi rend:::"bold">
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(19-substance-giv:act-cf1*-2-coref
 3	quinoa	quinoa	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=19)
@@ -560,9 +560,9 @@
 # text = This will give it time to absorb any moisture that might still be in the pan.
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=explanation-motivation:51->48:2:mrf-md-346|Entity=(54-event-giv:act-cf1*-1-coref)|PDTB=Implicit:Contingency.Cause.Reason:because:_:339-354:355-371
 2	will	will	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
-3	give	give	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Ditransitive|CxnElt=DitrV
-4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	iobj	3:iobj	CxnElt=DitrRec|Entity=(19-substance-giv:act-cf2-1-ana)
-5	time	time	NOUN	NN	Number=Sing	3	obj	3:obj	CxnElt=DitrTheme|Entity=(56-time-new-cf4-1-sgl)
+3	give	give	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Ditransitive|CxnElt=3:Ditransitive.V
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	iobj	3:iobj	CxnElt=3:Ditransitive.Rec|Entity=(19-substance-giv:act-cf2-1-ana)
+5	time	time	NOUN	NN	Number=Sing	3	obj	3:obj	CxnElt=3:Ditransitive.Theme|Entity=(56-time-new-cf4-1-sgl)
 6	to	to	PART	TO	_	7	mark	7:mark	Discourse=purpose-attribute:52->51:0:syn-mdf-359+syn-inf-360
 7	absorb	absorb	VERB	VB	VerbForm=Inf	5	acl	5:acl:to	_
 8	any	any	DET	DT	PronType=Ind	9	det	9:det	Entity=(57-substance-new-cf5-2-sgl
@@ -576,13 +576,13 @@
 16	pan	pan	NOUN	NN	Number=Sing	13	obl	13:obl:in	Entity=43)57)|SpaceAfter=No
 17	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = figure rend:::"fluffing the quinoa with a fork" (0 s) | item n:::"5" (2 s) | p (2 s)
 # sent_id = GUM_whow_quinoa-29
 # s_prominence = 1
 # s_type = imp
 # transition = zero
 # text = Uncover and fluff with a fork.
-# newpar
-# newpar_block = figure rend:::"fluffing the quinoa with a fork" (0 s) | item n:::"5" (2 s) | p (2 s)
 1	Uncover	uncover	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:54->21:2:_|MSeg=Un-cover|Negation=Yes|XML=<hi rend:::"bold">
 2	and	and	CCONJ	CC	_	3	cc	3:cc	Discourse=joint-sequence_m:55->54:0:grf-seq-+dm-and-373|PDTB=Explicit:Expansion.Conjunction:and:373:372:374-378;Implicit:Temporal.Asynchronous.Precedence:then:_:372:373-378
 3	fluff	fluff	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
@@ -619,13 +619,13 @@
 21	seed	seed	NOUN	NN	Number=Sing	18	obl	18:obl:from	Entity=59)|MSeg=see-d|SpaceAfter=No
 22	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = figure rend:::"a forkful of quinoa" (0 s) | item n:::"6" (8 s) | p (3 s)
 # sent_id = GUM_whow_quinoa-31
 # s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Serve.
-# newpar
-# newpar_block = figure rend:::"a forkful of quinoa" (0 s) | item n:::"6" (8 s) | p (3 s)
 1	Serve	serve	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:59->21:2:grf-seq-|SpaceAfter=No|XML=<hi rend:::"bold">
 2	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
@@ -660,13 +660,13 @@
 2	with	with	ADP	IN	_	1	obl	1:obl	SpaceAfter=No
 3	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = list type:::"unordered" (5 s) | item (1 s) | p (1 s)
 # sent_id = GUM_whow_quinoa-34
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Stir-fry, using the quinoa as a substitute for rice.
-# newpar
-# newpar_block = list type:::"unordered" (5 s) | item (1 s) | p (1 s)
 1	Stir	stir	NOUN	NN	Number=Sing	3	compound	3:compound	Discourse=elaboration-additional:63->59:1:_|Entity=(63-substance-new-cf3-3-sgl|SpaceAfter=No|XML=<w>
 2	-	-	PUNCT	HYPH	_	1	punct	1:punct	SpaceAfter=No
 3	fry	fry	NOUN	NN	Number=Sing	0	root	0:root	Entity=63)|SpaceAfter=No|XML=</w>
@@ -681,46 +681,46 @@
 12	rice	rice	NOUN	NN	Number=Sing	10	nmod	10:nmod:for	Entity=(14-substance-giv:inact-cf2-1-coref)19)|SpaceAfter=No
 13	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = item (1 s) | p (1 s)
 # sent_id = GUM_whow_quinoa-35
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Curry.
-# newpar
-# newpar_block = item (1 s) | p (1 s)
 1	Curry	curry	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-list_m:65->63:1:grf-seq-|Entity=(64-substance-new-cf1-1-sgl)|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = item (1 s) | p (1 s)
 # sent_id = GUM_whow_quinoa-36
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Braised meat.
-# newpar
-# newpar_block = item (1 s) | p (1 s)
 1	Braised	braised	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=joint-list_m:66->63:1:grf-seq-|Entity=(65-substance-new-cf1-2-sgl|MSeg=Brais-ed
 2	meat	meat	NOUN	NN	Number=Sing	0	root	0:root	Entity=65)|SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = item (1 s) | p (1 s)
 # sent_id = GUM_whow_quinoa-37
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = In a salad.
-# newpar
-# newpar_block = item (1 s) | p (1 s)
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=joint-list_m:67->63:1:grf-seq-
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Entity=(66-substance-new-cf1-2-sgl
 3	salad	salad	NOUN	NN	Number=Sing	0	root	0:root	Entity=66)|SpaceAfter=No
 4	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = item (1 s) | p (1 s)
 # sent_id = GUM_whow_quinoa-38
 # s_prominence = 2
 # s_type = frag
 # transition = null
 # text = Virtually any other combination you can think of!
-# newpar
-# newpar_block = item (1 s) | p (1 s)
 1	Virtually	virtually	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=joint-list_m:68->63:1:grf-seq-|MSeg=Virtual-ly
 2	any	any	DET	DT	PronType=Ind	4	det	4:det	Entity=(67-abstract-new-cf2-3-sgl
 3	other	other	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -731,13 +731,13 @@
 8	of	of	ADP	IN	_	7	obl	7:obl	Entity=67)|SpaceAfter=No
 9	!	!	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GUM_whow_quinoa-39
 # s_prominence = 2
 # s_type = ger
 # transition = null
 # text = Method 2 Cooking In a Rice Cooker
-# newpar
-# newpar_block = head (1 s)
 1	Method	method	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-preparation:70->71:0:_|Entity=(68-abstract-new-cf2-1-sgl
 2	2	2	NUM	CD	NumForm=Digit|NumType=Card	1	dep	1:dep	Entity=68)
 3	Cooking	cook	VERB	VBG	VerbForm=Ger	1	appos	1:appos	Discourse=organization-heading:71->72:2:grf-ly-|MSeg=Cook-ing|XML=<hi rend:::"bold">
@@ -746,13 +746,13 @@
 6	Rice	rice	NOUN	NN	Number=Sing	7	compound	7:compound	Entity=(14-substance-giv:inact-cf1-1-coref)
 7	Cooker	cooker	NOUN	NN	Number=Sing	3	obl	3:obl:in	Entity=69)|MSeg=Cook-er|XML=</hi>
 
+# newpar
+# newpar_block = figure rend:::"rinsing quinoa in a bowl" (0 s) | list type:::"ordered" (12 s) | item n:::"1" (2 s) | p (2 s)
 # sent_id = GUM_whow_quinoa-40
 # s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Rinse 1 cup of quinoa in a fine mesh sieve under cold water.
-# newpar
-# newpar_block = figure rend:::"rinsing quinoa in a bowl" (0 s) | list type:::"ordered" (12 s) | item n:::"1" (2 s) | p (2 s)
 1	Rinse	rinse	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:72->21:4:_|Entity=(70-event-new-cf4-1-disc|XML=<hi rend:::"bold">
 2	1	1	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	3:nummod	Entity=(19-substance-giv:inact-cf1-2-coref
 3	cup	cup	NOUN	NN	Number=Sing	1	obj	1:obj	_
@@ -775,7 +775,7 @@
 # text = If you bought packaged quinoa, this step isn't always necessary, but it's better to be safe than sorry.
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=contingency-condition:73->74:0:dm-if-474|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:474:480-486:475-479;Implicit:Comparison.Concession.Arg2-as-denier:although:_:460-473:474-496
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(28-person-giv:inact-cf2-1-ana)
-3	bought	buy	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	12	advcl	12:advcl:if	CxnElt=Protasis
+3	bought	buy	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	12	advcl	12:advcl:if	CxnElt=12:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 4	packaged	packaged	ADJ	JJ	Degree=Pos	5	amod	5:amod	Entity=(29-substance-giv:inact-cf3-2-coref|MSeg=packag-ed
 5	quinoa	quinoa	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=29)|SpaceAfter=No
 6	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -785,7 +785,7 @@
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
 10	n't	not	PART	RB	Polarity=Neg	12	advmod	12:advmod	Negation=Yes
 11	always	always	ADV	RB	_	12	advmod	12:advmod	MSeg=al-way-s
-12	necessary	necessary	ADJ	JJ	Degree=Pos	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis|MSeg=necess-ary|SpaceAfter=No
+12	necessary	necessary	ADJ	JJ	Degree=Pos	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=12:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|MSeg=necess-ary|SpaceAfter=No
 13	,	,	PUNCT	,	_	17	punct	17:punct	_
 14	but	but	CCONJ	CC	_	17	cc	17:cc	Discourse=adversative-contrast_m:75->74:1:dm-but-487|PDTB=Explicit:Comparison.Contrast:but:487:474-486:488-496
 15-16	it's	_	_	_	_	_	_	_	_
@@ -799,13 +799,13 @@
 22	sorry	sorry	ADJ	JJ	Degree=Pos	17	obl	17:obl:than	MSeg=sorr-y|SpaceAfter=No
 23	.	.	PUNCT	.	_	12	punct	12:punct	_
 
+# newpar
+# newpar_block = figure rend:::"pouring the quinoa into a rice cooker" (0 s) | item n:::"2" (3 s) | p (3 s)
 # sent_id = GUM_whow_quinoa-42
 # s_prominence = 1
 # s_type = imp
 # transition = zero
 # text = Pour quinoa into rice cooker.
-# newpar
-# newpar_block = figure rend:::"pouring the quinoa into a rice cooker" (0 s) | item n:::"2" (3 s) | p (3 s)
 1	Pour	pour	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:77->72:1:grf-seq-|XML=<hi rend:::"bold">
 2	quinoa	quinoa	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=(19-substance-giv:inact-cf1-1-coref)
 3	into	into	ADP	IN	_	5	case	5:case	MSeg=in-to
@@ -850,13 +850,13 @@
 10	directions	direction	NOUN	NNS	Number=Plur	1	obl	1:obl:for	Entity=(75-abstract-new-cf3-1-sgl)|MSeg=direct-ion-s|SpaceAfter=No
 11	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = figure rend:::"a glass of water" (0 s) | item n:::"3" (2 s) | p (2 s)
 # sent_id = GUM_whow_quinoa-45
 # s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Add 2 cups of liquid and 1/2 teaspoon of salt into the rice cooker.
-# newpar
-# newpar_block = figure rend:::"a glass of water" (0 s) | item n:::"3" (2 s) | p (2 s)
 1	Add	add	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:81->72:1:grf-seq-|XML=<hi rend:::"bold">
 2	2	2	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	3:nummod	Entity=(76-substance-new-cf4-2-coref
 3	cups	cup	NOUN	NNS	Number=Plur	1	obj	1:obj	MSeg=cup-s
@@ -892,13 +892,13 @@
 12	work	work	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 13	.	.	PUNCT	.	_	12	punct	12:punct	_
 
+# newpar
+# newpar_block = figure rend:::"a rice cooker" (0 s) | item n:::"4" (3 s) | p (3 s)
 # sent_id = GUM_whow_quinoa-47
 # s_prominence = 1
 # s_type = imp
 # transition = null
 # text = Cook for approximately 15 minutes.
-# newpar
-# newpar_block = figure rend:::"a rice cooker" (0 s) | item n:::"4" (3 s) | p (3 s)
 1	Cook	cook	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:83->72:1:grf-seq-|XML=<hi rend:::"bold">
 2	for	for	ADP	IN	_	5	case	5:case	_
 3	approximately	approximately	ADV	RB	Degree=Pos	4	advmod	4:advmod	Entity=(81-time-new-cf1-3-sgl|MSeg=approximate-ly
@@ -933,7 +933,7 @@
 # s_type = imp
 # transition = establishment
 # text = Try the "white rice" option if your rice cooker gives you several options.
-1	Try	try	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis|Discourse=elaboration-additional:85->83:0:sem-lxchn-556,564|PDTB=Implicit:Expansion.Conjunction:in fact:_:562-577:578-593
+1	Try	try	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=1:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=elaboration-additional:85->83:0:sem-lxchn-556,564|PDTB=Implicit:Expansion.Conjunction:in fact:_:562-577:578-593
 2	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(85-abstract-new-cf5-6-coref
 3	"	''	PUNCT	``	_	5	punct	5:punct	SpaceAfter=No|XML=<q>
 4	white	white	ADJ	JJ	Degree=Pos	5	amod	5:amod	Entity=(86-substance-new-cf6-2-sgl
@@ -944,19 +944,19 @@
 9	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Bridge=69<87|Entity=(87-object-acc:inf-cf3-3-sgl(28-person-giv:inact-cf1-1-ana)
 10	rice	rice	NOUN	NN	Number=Sing	11	compound	11:compound	Entity=(14-substance-giv:act-cf2*-1-coref)
 11	cooker	cooker	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=87)|MSeg=cook-er
-12	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	1:advcl:if	Cxn=Ditransitive|CxnElt=DitrV,Protasis|MSeg=give-s
-13	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	12	iobj	12:iobj	CxnElt=DitrRec|Entity=(28-person-giv:act-cf1-1-ana)
+12	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	1:advcl:if	Cxn=Ditransitive|CxnElt=12:Ditransitive.V,1:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|MSeg=give-s
+13	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	12	iobj	12:iobj	CxnElt=12:Ditransitive.Rec|Entity=(28-person-giv:act-cf1-1-ana)
 14	several	several	ADJ	JJ	Degree=Pos	15	amod	15:amod	Bridge=85<88|Entity=(88-abstract-acc:inf-cf4-2-sgl
-15	options	option	NOUN	NNS	Number=Plur	12	obj	12:obj	CxnElt=DitrTheme|Entity=88)|MSeg=opt-ion-s|SpaceAfter=No
+15	options	option	NOUN	NNS	Number=Plur	12	obj	12:obj	CxnElt=12:Ditransitive.Theme|Entity=88)|MSeg=opt-ion-s|SpaceAfter=No
 16	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = figure rend:::"another forkful of quinoa" (0 s) | item n:::"5" (2 s) | p (2 s)
 # sent_id = GUM_whow_quinoa-50
 # s_prominence = 1
 # s_type = imp
 # transition = zero
 # text = Let stand for about 5 minutes.
-# newpar
-# newpar_block = figure rend:::"another forkful of quinoa" (0 s) | item n:::"5" (2 s) | p (2 s)
 1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:87->72:1:_|XML=<hi rend:::"bold">
 2	stand	stand	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
 3	for	for	ADP	IN	_	6	case	6:case	_
@@ -978,13 +978,13 @@
 6	serve	serve	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	SpaceAfter=No
 7	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GUM_whow_quinoa-52
 # s_prominence = 2
 # s_type = ger
 # transition = null
 # text = Method 3 Cooking In the Oven
-# newpar
-# newpar_block = head (1 s)
 1	Method	method	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-preparation:90->91:0:_|Entity=(91-abstract-new-cf2-1-sgl
 2	3	3	NUM	CD	NumForm=Digit|NumType=Card	1	dep	1:dep	Entity=91)
 3	Cooking	cook	VERB	VBG	VerbForm=Ger	1	appos	1:appos	Discourse=organization-heading:91->92:2:grf-ly-+sem-rpt-612-613,615|MSeg=Cook-ing|XML=<hi rend:::"bold">
@@ -992,13 +992,13 @@
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(92-object-new-cf1-2-coref
 6	Oven	oven	NOUN	NN	Number=Sing	3	obl	3:obl:in	Entity=92)|XML=</hi>
 
+# newpar
+# newpar_block = figure rend:::"oven temperature knob" (0 s) | list type:::"ordered" (16 s) | item n:::"1" (2 s) | p (2 s)
 # sent_id = GUM_whow_quinoa-53
 # s_prominence = 1
 # s_type = imp
 # transition = establishment
 # text = Preheat oven to 350 °F (177 °C).
-# newpar
-# newpar_block = figure rend:::"oven temperature knob" (0 s) | list type:::"ordered" (16 s) | item n:::"1" (2 s) | p (2 s)
 1	Preheat	preheat	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:92->21:4:_|MSeg=Pre-heat|XML=<hi rend:::"bold">
 2	oven	oven	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=(92-object-giv:act-cf1*-1-coref)
 3	to	to	ADP	IN	_	5	case	5:case	_
@@ -1027,13 +1027,13 @@
 8	oven	oven	NOUN	NN	Number=Sing	5	nmod	5:nmod:of	Entity=92)95)|SpaceAfter=No
 9	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = figure rend:::"rinsing the quinoa again" (0 s) | item n:::"2" (1 s) | p (1 s)
 # sent_id = GUM_whow_quinoa-55
 # s_prominence = 1
 # s_type = imp
 # transition = zero
 # text = Rinse quinoa thoroughly in a fine mesh seive under cold water.
-# newpar
-# newpar_block = figure rend:::"rinsing the quinoa again" (0 s) | item n:::"2" (1 s) | p (1 s)
 1	Rinse	rinse	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:95->92:1:grf-seq-|XML=<hi rend:::"bold">
 2	quinoa	quinoa	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=(19-substance-giv:inact-cf1-1-coref)
 3	thoroughly	thoroughly	ADV	RB	Degree=Pos	1	advmod	1:advmod	MSeg=thorough-ly
@@ -1047,13 +1047,13 @@
 11	water	water	NOUN	NN	Number=Sing	1	obl	1:obl:under	Entity=97)|SpaceAfter=No
 12	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
+# newpar
+# newpar_block = figure rend:::"the bottom of a saucepan" (0 s) | item n:::"3" (1 s) | p (1 s)
 # sent_id = GUM_whow_quinoa-56
 # s_prominence = 1
 # s_type = imp
 # transition = null
 # text = In a medium saucepan, heat up 2 tablespoons vegetable oil over medium-low heat.
-# newpar
-# newpar_block = figure rend:::"the bottom of a saucepan" (0 s) | item n:::"3" (1 s) | p (1 s)
 1	In	in	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:96->92:1:grf-seq-|XML=<hi rend:::"bold">
 2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(98-object-new-cf2-3-coref
 3	medium	medium	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
@@ -1072,13 +1072,13 @@
 16	heat	heat	NOUN	NN	Number=Sing	6	obl	6:obl:over	Entity=100)|SpaceAfter=No
 17	.	.	PUNCT	.	_	6	punct	6:punct	XML=</hi>
 
+# newpar
+# newpar_block = figure rend:::"vegetables in the saucepan" (0 s) | item n:::"4" (3 s) | p (3 s)
 # sent_id = GUM_whow_quinoa-57
 # s_prominence = 1
 # s_type = imp
 # transition = establishment
 # text = Add onions, peppers, mushrooms, or any other type of desired vegetable or herb into the saucepan (optional).
-# newpar
-# newpar_block = figure rend:::"vegetables in the saucepan" (0 s) | item n:::"4" (3 s) | p (3 s)
 1	Add	add	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:97->92:1:grf-seq-|XML=<hi rend:::"bold">
 2	onions	onion	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=(101-plant-new-cf2-1-coref)|MSeg=onion-s|SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
@@ -1136,13 +1136,13 @@
 9	onions	onion	NOUN	NNS	Number=Plur	1	obl	1:obl:with	Entity=101)|MSeg=onion-s|SpaceAfter=No
 10	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = figure rend:::"pouring the quinoa into the saucepan" (0 s) | item n:::"5" (2 s) | p (2 s)
 # sent_id = GUM_whow_quinoa-60
 # s_prominence = 1
 # s_type = imp
 # transition = zero
 # text = Add the quinoa and salt to the saucepan, stirring until completely incorporated.
-# newpar
-# newpar_block = figure rend:::"pouring the quinoa into the saucepan" (0 s) | item n:::"5" (2 s) | p (2 s)
 1	Add	add	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:103->92:1:grf-seq-|Entity=(106-event-new-cf4-1-disc|XML=<hi rend:::"bold">
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(19-substance-giv:inact-cf1-2-coref
 3	quinoa	quinoa	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=19)
@@ -1173,13 +1173,13 @@
 8	seconds	second	NOUN	NNS	Number=Plur	5	obl	5:obl:than	Entity=107)|MSeg=second-s|SpaceAfter=No
 9	.	.	PUNCT	.	_	3	punct	3:punct	_
 
+# newpar
+# newpar_block = figure rend:::"cooking the quinoa with vegetables" (0 s) | item n:::"6" (1 s) | p (1 s)
 # sent_id = GUM_whow_quinoa-62
 # s_prominence = 1
 # s_type = imp
 # transition = zero
 # text = Add one cup of broth and one cup of water to the saucepan and bring to a boil over medium high heat.
-# newpar
-# newpar_block = figure rend:::"cooking the quinoa with vegetables" (0 s) | item n:::"6" (1 s) | p (1 s)
 1	Add	add	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:107->92:1:grf-seq-|XML=<hi rend:::"bold">
 2	one	one	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	Bridge=76<108|Entity=(108-substance-acc:inf-cf2-2-sgl
 3	cup	cup	NOUN	NN	Number=Sing	1	obj	1:obj	_
@@ -1204,13 +1204,13 @@
 22	heat	heat	NOUN	NN	Number=Sing	15	obl	15:obl:over	Entity=111)|SpaceAfter=No
 23	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
+# newpar
+# newpar_block = figure rend:::"covering the saucepan with foil" (0 s) | item n:::"7" (2 s) | p (2 s)
 # sent_id = GUM_whow_quinoa-63
 # s_prominence = 1
 # s_type = imp
 # transition = establishment
 # text = Once a boil is reached, transfer quinoa to a 8-by-8-inch baking dish. [2]
-# newpar
-# newpar_block = figure rend:::"covering the saucepan with foil" (0 s) | item n:::"7" (2 s) | p (2 s)
 1	Once	once	ADV	RB	NumForm=Word|NumType=Mult	5	advmod	5:advmod	Discourse=context-circumstance:109->110:0:dm-once-754|PDTB=Explicit:Temporal.Asynchronous.Succession:once:754:760-773:755-759|XML=<hi rend:::"bold">
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Entity=(110-event-giv:act-cf1*-2-coref
 3	boil	boil	NOUN	NN	Number=Sing	5	nsubj:pass	5:nsubj:pass	Entity=110)
@@ -1254,13 +1254,13 @@
 12	foil	foil	NOUN	NN	Number=Sing	6	obl	6:obl:with	Entity=114)|SpaceAfter=No
 13	.	.	PUNCT	.	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = figure rend:::"countdown" (0 s) | item n:::"8" (1 s) | p (1 s)
 # sent_id = GUM_whow_quinoa-65
 # s_prominence = 1
 # s_type = imp
 # transition = continue
 # text = Cook the quinoa in the oven for roughly 20 minutes, or until most of the liquid is gone.
-# newpar
-# newpar_block = figure rend:::"countdown" (0 s) | item n:::"8" (1 s) | p (1 s)
 1	Cook	cook	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:114->92:1:_|XML=<hi rend:::"bold">
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(19-substance-giv:act-cf1*-2-coref
 3	quinoa	quinoa	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=19)
@@ -1282,13 +1282,13 @@
 19	gone	gone	ADJ	JJ	Degree=Pos	10	conj	1:obl:for|10:conj:or	SpaceAfter=No
 20	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
+# newpar
+# newpar_block = figure rend:::"seasoning the quinoa" (0 s) | item n:::"9" (2 s) | p (2 s)
 # sent_id = GUM_whow_quinoa-66
 # s_prominence = 1
 # s_type = imp
 # transition = zero
 # text = Remove the aluminum foil from the baking dish, add cheese or other seasonings, and bake for an additional 5 minutes.
-# newpar
-# newpar_block = figure rend:::"seasoning the quinoa" (0 s) | item n:::"9" (2 s) | p (2 s)
 1	Remove	remove	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:116->92:1:_|MSeg=Re-move|XML=<hi rend:::"bold">
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(114-object-giv:inact-cf1-3-coref
 3	aluminum	aluminum	NOUN	NN	Number=Sing	4	compound	4:compound	_
@@ -1330,13 +1330,13 @@
 10	cooked	cook	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=cook-ed|SpaceAfter=No
 11	.	.	PUNCT	.	_	10	punct	10:punct	_
 
+# newpar
+# newpar_block = figure rend:::"cooked quinoa" (0 s) | item n:::"10" (1 s) | p (1 s)
 # sent_id = GUM_whow_quinoa-68
 # s_prominence = 1
 # s_type = imp
 # transition = zero
 # text = Serve and enjoy!
-# newpar
-# newpar_block = figure rend:::"cooked quinoa" (0 s) | item n:::"10" (1 s) | p (1 s)
 1	Serve	serve	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:121->92:1:_|XML=<hi rend:::"bold">
 2	and	and	CCONJ	CC	_	3	cc	3:cc	Discourse=joint-sequence_m:122->121:0:grf-seq-+dm-and-845|PDTB=Explicit:Expansion.Conjunction:and:845:844:846-847;Implicit:Temporal.Asynchronous.Precedence:then:_:844:845-847
 3	enjoy	enjoy	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	MSeg=en-joy|SpaceAfter=No
