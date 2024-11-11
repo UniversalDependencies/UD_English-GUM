@@ -10,13 +10,13 @@
 # meta::speakerCount = 0
 # meta::summary = This section of a statistics textbook explains measures of location for data, such as the median, quartiles and percentiles, as well as the interquartile range (IQR), using examples and an exercise to compute measures for some salary data.
 # meta::title = Statistics: High School
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GUM_textbook_stats-1
 # s_prominence = 2
 # s_type = frag
 # transition = establishment
 # text = 2.3 Measures of the Location of the Data
-# newpar
-# newpar_block = head (1 s)
 1	2.3	2.3	X	LS	_	2	discourse	2:discourse	Discourse=organization-heading:1->2:4:grf-ly-+grf-seq-1+sem-rpt-2-13+sem-rpt-4-8,13
 2	Measures	measure	NOUN	NNS	Number=Plur	0	root	0:root	Entity=(1-abstract-new-cf3-1-coref|MSeg=Measure-s
 3	of	of	ADP	IN	_	5	case	5:case	_
@@ -26,13 +26,13 @@
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(3-abstract-new-cf2-2-coref
 8	Data	datum	NOUN	NNS	Number=Plur	5	nmod	5:nmod:of	Entity=3)2)1)|MSeg=Dat-a
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GUM_textbook_stats-2
 # s_prominence = 1
 # s_type = decl
 # transition = establishment
 # text = The common measures of location are quartiles and percentiles.
-# newpar
-# newpar_block = p (1 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=ROOT:2:0|Entity=(1-abstract-giv:act-cf1*-3-coref
 2	common	common	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	measures	measure	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj|9:nsubj	MSeg=measure-s
@@ -44,13 +44,13 @@
 9	percentiles	percentile	NOUN	NNS	Number=Plur	7	conj	7:conj:and	Entity=(5-abstract-new-cf4-1-coref)|MSeg=percent-ile-s|SpaceAfter=No|XML=<hi rend:::"bold"></hi>
 10	.	.	PUNCT	.	_	7	punct	7:punct	_
 
+# newpar
+# newpar_block = p (3 s)
 # sent_id = GUM_textbook_stats-3
 # s_prominence = 3
 # s_type = decl
 # transition = smooth-shift
 # text = Quartiles are special percentiles.
-# newpar
-# newpar_block = p (3 s)
 1	Quartiles	quartile	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Discourse=organization-preparation:3->4:1:sem-lxchn-19,26+sem-lxchn-22,37|Entity=(4-abstract-giv:act-cf1*-1-coref)|MSeg=Quartile-s|XML=<hi rend:::"bold"></hi>
 2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 3	special	special	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(4-abstract-giv:act-cf1*-2-pred
@@ -62,7 +62,7 @@
 # s_type = decl
 # transition = zero
 # text = The first quartile, Q1, is the same as the 25th percentile, and the third quartile, Q3, is the same as the 75th percentile.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=elaboration-additional:4->2:0:_|Entity=(6-abstract-new-cf1-3-coref
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=elaboration-additional:4->2:0:_|Entity=(6-abstract-new-cf1-3-coref|PDTB=NoRel:NoRel:_:_:19-23:24-54
 2	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	3	amod	3:amod	XML=<hi rend:::"bold">
 3	quartile	quartile	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=6)|SpaceAfter=No|XML=</hi>
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
@@ -77,7 +77,7 @@
 13	25th	25th	ADJ	JJ	Degree=Pos|NumForm=Combi|NumType=Ord	14	amod	14:amod	XML=<hi rend:::"superscript th"></hi>
 14	percentile	percentile	NOUN	NN	Number=Sing	10	obl	10:obl:as	Entity=6)|MSeg=percent-ile|SpaceAfter=No
 15	,	,	PUNCT	,	_	16	punct	16:punct	_
-16	and	and	CCONJ	CC	_	26	cc	26:cc	Discourse=joint-list_m:5->4:0:dm-and-39
+16	and	and	CCONJ	CC	_	26	cc	26:cc	Discourse=joint-list_m:5->4:0:dm-and-39|PDTB=Explicit:Expansion.Conjunction:and:39:24-38:40-54
 17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(7-abstract-undefined-cf2-3-coref
 18	third	third	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	19	amod	19:amod	_
 19	quartile	quartile	NOUN	NN	Number=Sing	26	nsubj	26:nsubj	Entity=7)|SpaceAfter=No
@@ -116,14 +116,14 @@
 15	percentile	percentile	NOUN	NN	Number=Sing	11	conj	7:xcomp|11:conj:and	Entity=8)|MSeg=percent-ile|SpaceAfter=No
 16	.	.	PUNCT	.	_	7	punct	7:punct	_
 
+# newpar
+# newpar_block = p (7 s)
 # sent_id = GUM_textbook_stats-6
 # s_prominence = 3
 # s_type = sub
 # transition = null
 # text = To calculate quartiles and percentiles, you must order the data from smallest to largest.
-# newpar
-# newpar_block = p (7 s)
-1	To	to	PART	TO	_	2	mark	2:mark	Discourse=purpose-goal:7->8:0:syn-inf-71
+1	To	to	PART	TO	_	2	mark	2:mark	Discourse=purpose-goal:7->8:0:syn-inf-71|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:77-86:71-76
 2	calculate	calculate	VERB	VB	VerbForm=Inf	9	advcl	9:advcl:to	MSeg=calcul-ate
 3	quartiles	quartile	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=(4-abstract-giv:inact-cf2-1-coref)|MSeg=quartile-s
 4	and	and	CCONJ	CC	_	5	cc	5:cc	_
@@ -171,8 +171,8 @@
 # s_type = imp
 # transition = zero
 # text = Recall that a percent means one-hundredth.
-1	Recall	recall	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:11->12:0:sem-atsrc-101+lex-indwd-101+syn-rpr-102,104,108
-2	that	that	SCONJ	IN	_	5	mark	5:mark	Discourse=context-background:12->14:1:_;explanation-justify:12->12:2:3:orp-so-110
+1	Recall	recall	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:11->12:0:sem-atsrc-101+lex-indwd-101+syn-rpr-102,104,108|PDTB=Implicit:Expansion.Equivalence:in other words:_:94-100:101-109
+2	that	that	SCONJ	IN	_	5	mark	5:mark	Discourse=context-background:12->14:1:_;explanation-justify:12->14:1:1:orp-so-110
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(15-abstract-new-cf1-2-coref
 4	percent	percent	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=15)
 5	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	MSeg=mean-s
@@ -186,7 +186,7 @@
 # s_type = decl
 # transition = null
 # text = So, percentiles mean the data is divided into 100 sections.
-1	So	so	ADV	RB	_	4	advmod	4:advmod	Discourse=attribution-positive:13->14:0:sem-atsrc-112+lex-indwd-113|SpaceAfter=No
+1	So	so	ADV	RB	_	4	advmod	4:advmod	Discourse=attribution-positive:13->14:0:sem-atsrc-112+lex-indwd-113|PDTB=Explicit:Contingency.Cause.Result:so:110:101-109:111-121|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	percentiles	percentile	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=(5-abstract-giv:inact-cf2-1-coref)|MSeg=percent-ile-s
 4	mean	mean	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -204,7 +204,7 @@
 # s_type = decl
 # transition = null
 # text = To score in the 90th percentile of an exam does not mean, necessarily, that you received 90 percent on a test.
-1	To	to	PART	TO	_	2	mark	2:mark	Discourse=attribution-negative:15->16:0:sem-atsrc-122-130+sem-ngt-132+lex-indwd-133+syn-rpr-137|Entity=(17-event-undefined-cf3-2-disc
+1	To	to	PART	TO	_	2	mark	2:mark	Discourse=attribution-negative:15->16:0:sem-atsrc-122-130+sem-ngt-132+sem-ngt-132+lex-indwd-133+syn-rpr-137|Entity=(17-event-undefined-cf3-2-disc
 2	score	score	VERB	VB	VerbForm=Inf	12	csubj	12:csubj	_
 3	in	in	ADP	IN	_	6	case	6:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(18-abstract-new-cf6-3-sgl
@@ -214,7 +214,7 @@
 8	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(19-abstract-new-cf1-2-coref
 9	exam	exam	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	Entity=19)18)17)
 10	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	12:aux	MSeg=doe-s
-11	not	not	PART	RB	Polarity=Neg	12	advmod	12:advmod	_
+11	not	not	PART	RB	Polarity=Neg	12	advmod	12:advmod	Negation=Yes
 12	mean	mean	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	14:punct	_
 14	necessarily	necessarily	ADV	RB	Degree=Pos	12	advmod	12:advmod	MSeg=necessari-ly|SpaceAfter=No
@@ -234,7 +234,7 @@
 # s_type = decl
 # transition = establishment
 # text = It means that 90 percent of test scores are the same as or less than your score and that 10 percent of the test scores are the same as or greater than your test score.
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration-additional:17->10:1:_|Entity=(17-event-giv:act-cf1*-1-coref)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration-additional:17->10:1:_|Entity=(17-event-giv:act-cf1*-1-coref)|PDTB=NoRel:NoRel:_:_:122-145:146-181
 2	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=mean-s
 3	that	that	SCONJ	IN	_	11	mark	11:mark	_
 4	90	90	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	5:nummod	Entity=(22-abstract-new-cf6-2-coref
@@ -251,7 +251,7 @@
 15	than	than	ADP	IN	_	17	case	17:case	_
 16	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	Entity=(24-abstract-new-cf4-2-coref(9-person-giv:act-cf2-1-ana)
 17	score	score	NOUN	NN	Number=Sing	14	obl	14:obl:than	Entity=24)
-18	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=joint-list_m:18->17:0:sem-lxchn-150,166+dm-and-163
+18	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=joint-list_m:18->17:0:sem-lxchn-150,166+dm-and-163|PDTB=Explicit:Expansion.Conjunction:and:163:146-162:164-181
 19	that	that	SCONJ	IN	_	28	mark	28:mark	_
 20	10	10	NUM	CD	NumForm=Digit|NumType=Card	21	nummod	21:nummod	Entity=(25-abstract-new-cf7-9,12-sgl
 21	percent	percent	NOUN	NN	Number=Sing	28	nsubj	28:nsubj|31:nsubj	_
@@ -271,17 +271,17 @@
 35	score	score	NOUN	NN	Number=Sing	31	obl	31:obl:than	Entity=24)25)|SpaceAfter=No
 36	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = p (5 s)
 # sent_id = GUM_textbook_stats-13
 # s_prominence = 4
 # s_type = decl
 # transition = zero
 # text = Percentiles are useful for comparing values.
-# newpar
-# newpar_block = p (5 s)
 1	Percentiles	percentile	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Discourse=evaluation-comment:19->10:2:lex-indwd-184|Entity=(26-abstract-undefined-cf2-3-disc(5-abstract-giv:inact-cf1-1-coref)|MSeg=Percent-ile-s
 2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	useful	useful	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=use-ful
-4	for	for	SCONJ	IN	_	5	mark	5:mark	Discourse=purpose-goal:20->19:0:dm-for-185
+4	for	for	SCONJ	IN	_	5	mark	5:mark	Discourse=purpose-goal:20->19:0:dm-for-185|PDTB=Explicit:Contingency.Purpose.Arg2-as-goal:for:185:182-184:186-188
 5	comparing	compare	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	3:advcl:for	MSeg=compar-ing
 6	values	value	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=(27-abstract-new-cf3-1-sgl)|MSeg=value-s|SpaceAfter=No
 7	.	.	PUNCT	.	_	3	punct	3:punct	Entity=26)
@@ -291,7 +291,7 @@
 # s_type = decl
 # transition = establishment
 # text = For this reason, universities and colleges use percentiles extensively.
-1	For	for	ADP	IN	_	3	case	3:case	Discourse=causal-result:21->19:1:_
+1	For	for	ADP	IN	_	3	case	3:case	Discourse=causal-result:21->19:1:_|PDTB=Implicit:Contingency.Cause.Result:so:_:182-188:189-199
 2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Entity=(26-abstract-giv:act-cf2-2-coref
 3	reason	reason	NOUN	NN	Number=Sing	8	obl	8:obl:for	Entity=26)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -308,8 +308,8 @@
 # s_type = decl
 # transition = smooth-shift
 # text = One instance in which colleges and universities use percentiles is when SAT results are used to determine a minimum testing score that will be used as an acceptance factor.
-1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=explanation-evidence:22->21:0:_|Entity=(30-event-new-cf4-2-sgl
-2	instance	instance	NOUN	NN	Number=Sing	11	nsubj	8:obl:in|11:nsubj	_
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=explanation-evidence:22->21:0:_|Entity=(30-event-new-cf4-2-sgl|PDTB=Implicit:Contingency.Cause.Reason:because:_:189-199:200-229
+2	instance	instance	NOUN	NN	Number=Sing	11	nsubj	8:obl:in|11:nsubj	MSeg=instan-ce
 3	in	in	ADP	IN	_	4	case	4:case	Discourse=elaboration-attribute:23->22:0:syn-mdf-201+syn-relcl-203,207
 4	which	which	PRON	WDT	PronType=Rel	8	obl	2:ref	_
 5	colleges	college	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj	Entity=(29-organization-giv:act-cf1*-1-coref)|MSeg=college-s
@@ -323,7 +323,7 @@
 13	results	result	NOUN	NNS	Number=Plur	15	nsubj:pass	15:nsubj:pass	Entity=31)|MSeg=result-s
 14	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	15:aux:pass	_
 15	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	advcl:relcl	11:advcl:relcl	MSeg=us-ed
-16	to	to	PART	TO	_	17	mark	17:mark	Discourse=purpose-goal:25->22:2:syn-inf-215
+16	to	to	PART	TO	_	17	mark	17:mark	Discourse=purpose-goal:25->22:2:syn-inf-215|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:200-214:215-229
 17	determine	determine	VERB	VB	VerbForm=Inf	15	advcl	15:advcl:to	_
 18	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	Entity=(33-abstract-new-cf6-4-sgl
 19	minimum	minimum	ADJ	JJ	Degree=Pos	21	amod	21:amod	_
@@ -344,7 +344,7 @@
 # s_type = imp
 # transition = smooth-shift
 # text = For example, suppose Duke accepts SAT scores at or above the 75th percentile.
-1	For	for	ADP	IN	_	2	case	2:case	Discourse=attribution-positive:27->28:0:lex-indwd-233+sem-atsrc-233+syn-rpr-234,237
+1	For	for	ADP	IN	_	2	case	2:case	Discourse=attribution-positive:27->28:0:lex-indwd-233+sem-atsrc-233+syn-rpr-234,237|PDTB=Explicit:Expansion.Instantiation.Arg2-as-instance:for example:230-231:200-229:232-244
 2	example	example	NOUN	NN	Number=Sing	4	obl	4:obl:for	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	suppose	suppose	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
@@ -365,7 +365,7 @@
 # s_type = decl
 # transition = smooth-shift
 # text = That translates into a score of at least 1220.
-1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	2:nsubj	Discourse=elaboration-additional:29->28:1:ref-dem-236-243,245|Entity=(37-abstract-giv:act-cf1*-1-ana)
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	2:nsubj	Discourse=elaboration-additional:29->28:1:ref-dem-236-243,245|Entity=(37-abstract-giv:act-cf1*-1-ana)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:230-244:245-254
 2	translates	translate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=translate-s
 3	into	into	ADP	IN	_	5	case	5:case	MSeg=in-to
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(37-abstract-giv:act-cf1*-2-coref
@@ -376,14 +376,14 @@
 9	1220	1220	NUM	CD	NumForm=Digit|NumType=Card	5	nmod	5:nmod:of	Entity=37)|SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	2:punct	_
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GUM_textbook_stats-18
 # s_prominence = 5
 # s_type = decl
 # transition = zero
 # text = Percentiles are mostly used with very large populations.
-# newpar
-# newpar_block = p (2 s)
-1	Percentiles	percentile	NOUN	NNS	Number=Plur	4	nsubj:pass	4:nsubj:pass	Discourse=context-background:30->31:2:_;explanation-justify:30->30:0:1:orp-therefore-264|Entity=(5-abstract-giv:inact-cf1-1-coref)|MSeg=Percent-ile-s
+1	Percentiles	percentile	NOUN	NNS	Number=Plur	4	nsubj:pass	4:nsubj:pass	Discourse=context-background:30->31:2:_;explanation-justify:30->31:0:2:orp-therefore-264|Entity=(5-abstract-giv:inact-cf1-1-coref)|MSeg=Percent-ile-s
 2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 3	mostly	mostly	ADV	RB	Degree=Pos	4	advmod	4:advmod	MSeg=most-ly
 4	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=us-ed
@@ -398,13 +398,13 @@
 # s_type = sub
 # transition = null
 # text = Therefore, if you were to say that 90 percent of the test scores are less, and not the same or less, than your score, it would be acceptable because removing one particular data value is not significant.
-1	Therefore	therefore	ADV	RB	Degree=Pos	32	advmod	32:advmod	Discourse=elaboration-additional:31->10:3:_|MSeg=There-fore|SpaceAfter=No
+1	Therefore	therefore	ADV	RB	Degree=Pos	32	advmod	32:advmod	Discourse=elaboration-additional:31->10:3:_|MSeg=There-fore|PDTB=Explicit:Contingency.Cause.Result:therefore:264:255-263:265-305|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	if	if	SCONJ	IN	_	7	mark	7:mark	Discourse=attribution-positive:32->33:0:sem-atsrc-267+lex-indwd-270+syn-rpr-271|Entity=(39-event-undefined-cf1-5-disc
-4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	7:nsubj	Entity=(9-person-giv:inact-cf2-1-ana)
-5	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	7	aux	7:aux	_
+3	if	if	SCONJ	IN	_	7	mark	7:mark	Discourse=attribution-positive:32->33:0:sem-atsrc-267+lex-indwd-270+syn-rpr-271|Entity=(39-event-undefined-cf1-5-disc|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:266:264-265,292-295:267-291
+4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj:outer	7:nsubj:outer	Entity=(9-person-giv:inact-cf2-1-ana)
+5	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
 6	to	to	PART	TO	_	7	mark	7:mark	_
-7	say	say	VERB	VB	VerbForm=Inf	32	advcl	32:advcl:if_to	_
+7	say	say	VERB	VB	VerbForm=Inf	32	advcl	32:advcl:if_to	CxnElt=32:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 8	that	that	SCONJ	IN	_	16	mark	16:mark	Discourse=contingency-condition:33->34:0:dm-if-266+mrf-md-293
 9	90	90	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	10:nummod	Entity=(22-abstract-giv:inact-cf3-2-coref
 10	percent	percent	NOUN	NN	Number=Sing	16	nsubj	16:nsubj|21:nsubj	_
@@ -416,7 +416,7 @@
 16	less	less	ADJ	JJR	Degree=Cmp	7	ccomp	7:ccomp	SpaceAfter=No
 17	,	,	PUNCT	,	_	21	punct	21:punct	_
 18	and	and	CCONJ	CC	_	21	cc	21:cc	_
-19	not	not	PART	RB	Polarity=Neg	21	advmod	21:advmod	_
+19	not	not	PART	RB	Polarity=Neg	21	advmod	21:advmod	Negation=Yes
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	_
 21	same	same	ADJ	JJ	Degree=Pos	16	conj	7:ccomp|16:conj:and	_
 22	or	or	CCONJ	CC	_	23	cc	23:cc	_
@@ -429,25 +429,25 @@
 29	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	nsubj	32:nsubj	Discourse=same-unit_m:34->31:0:_|Entity=(39-event-giv:act-cf1-1-coref)
 30	would	would	AUX	MD	VerbForm=Fin	32	aux	32:aux	_
 31	be	be	AUX	VB	VerbForm=Inf	32	cop	32:cop	_
-32	acceptable	acceptable	ADJ	JJ	Degree=Pos	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|MSeg=accept-able
-33	because	because	SCONJ	IN	_	41	mark	41:mark	Discourse=explanation-evidence:35->31:1:dm-because-296
+32	acceptable	acceptable	ADJ	JJ	Degree=Pos	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=32:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|MSeg=accept-able
+33	because	because	SCONJ	IN	_	41	mark	41:mark	Discourse=explanation-evidence:35->31:1:dm-because-296|MSeg=be-cause|PDTB=Explicit:Contingency.Cause.Reason:because:296:264-295:297-305
 34	removing	remove	VERB	VBG	VerbForm=Ger	41	csubj	41:csubj	MSeg=re-mov-ing
 35	one	one	NUM	CD	NumForm=Word|NumType=Card	38	nummod	38:nummod	Entity=(40-abstract-new-cf7-4-sgl
-36	particular	particular	ADJ	JJ	Degree=Pos	38	amod	38:amod	MSeg=particul-ar
+36	particular	particular	ADJ	JJ	Degree=Pos	38	amod	38:amod	MSeg=part-ic-ul-ar
 37	data	datum	NOUN	NNS	Number=Plur	38	compound	38:compound	MSeg=dat-a
 38	value	value	NOUN	NN	Number=Sing	34	obj	34:obj	Entity=40)
 39	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	41:cop	_
-40	not	not	PART	RB	Polarity=Neg	41	advmod	41:advmod	_
+40	not	not	PART	RB	Polarity=Neg	41	advmod	41:advmod	Negation=Yes
 41	significant	significant	ADJ	JJ	Degree=Pos	32	advcl	32:advcl:because	MSeg=signific-ant|SpaceAfter=No
 42	.	.	PUNCT	.	_	32	punct	32:punct	_
 
+# newpar
+# newpar_block = p (5 s)
 # sent_id = GUM_textbook_stats-20
 # s_prominence = 3
 # s_type = decl
 # transition = null
 # text = The median is a number that measures the center of the data.
-# newpar
-# newpar_block = p (5 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:36->4:5:_|Entity=(8-abstract-giv:inact-cf1-2-coref
 2	median	median	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=8)|XML=<hi rend:::"bold"></hi>
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
@@ -478,10 +478,10 @@
 9	middle	middle	ADJ	JJ	Degree=Pos	10	amod	10:amod	XML=<hi rend:::"italic">
 10	value	value	NOUN	NN	Number=Sing	3	obl	3:obl:as	Entity=42)|SpaceAfter=No|XML=</hi>
 11	,	,	PUNCT	,	_	17	punct	17:punct	_
-12	but	but	CCONJ	CC	_	17	cc	17:cc	Discourse=adversative-antithesis:39->40:1:_
+12	but	but	CCONJ	CC	_	17	cc	17:cc	Discourse=adversative-antithesis:39->40:1:_|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:330:319-329:331-343
 13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	17:nsubj|20:nsubj:xsubj	Entity=(8-abstract-giv:act-cf1*-1-ana)
 14	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	17:aux	MSeg=doe-s
-15	not	not	PART	RB	Polarity=Neg	17	advmod	17:advmod	_
+15	not	not	PART	RB	Polarity=Neg	17	advmod	17:advmod	Negation=Yes
 16	actually	actually	ADV	RB	Degree=Pos	17	advmod	17:advmod	MSeg=act-ual-ly
 17	have	have	VERB	VB	VerbForm=Inf	3	conj	3:conj:but	_
 18	to	to	PART	TO	_	20	mark	20:mark	_
@@ -498,7 +498,7 @@
 # s_type = decl
 # transition = continue
 # text = It is a number that separates ordered data into halves.
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=elaboration-additional:40->36:1:ref-prs-306-307,344+sem-rpt-316-317,350-351|Entity=(8-abstract-giv:act-cf1*-1-ana)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=elaboration-additional:40->36:1:ref-prs-306-307,344+sem-rpt-316-317,350-351|Entity=(8-abstract-giv:act-cf1*-1-ana)|PDTB=EntRel:EntRel:_:_:319-343:344-354
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(8-abstract-giv:act-cf1*-2-pred
 4	number	number	NOUN	NN	Number=Sing	0	root	0:root|6:nsubj	_
@@ -515,7 +515,7 @@
 # s_type = decl
 # transition = continue
 # text = Half the values are the same number or smaller than the median, and half the values are the same number or larger.
-1	Half	half	DET	PDT	NumForm=Word|NumType=Frac|PronType=Ind	3	det:predet	3:det:predet	Discourse=restatement-repetition_m:42->41:0:_|Entity=(46-abstract-new-cf2-3-sgl
+1	Half	half	DET	PDT	NumForm=Word|NumType=Frac|PronType=Ind	3	det:predet	3:det:predet	Discourse=restatement-repetition_m:42->41:0:_|Entity=(46-abstract-new-cf2-3-sgl|PDTB=Implicit:Expansion.Equivalence:in other words:_:344-354:355-378
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	_
 3	values	value	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj|9:nsubj	Entity=46)|MSeg=value-s
 4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
@@ -528,7 +528,7 @@
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(8-abstract-giv:act-cf1*-2-coref
 12	median	median	NOUN	NN	Number=Sing	9	obl	9:obl:than	Entity=8)|SpaceAfter=No
 13	,	,	PUNCT	,	_	21	punct	21:punct	_
-14	and	and	CCONJ	CC	_	21	cc	21:cc	Discourse=joint-list_m:43->42:0:sem-lxchn-357,375+sem-lxchn-361,371+sem-lxchn-361,375+sem-lxchn-363,377+dm-and-368
+14	and	and	CCONJ	CC	_	21	cc	21:cc	Discourse=joint-list_m:43->42:0:sem-lxchn-357,375+sem-lxchn-361,371+sem-lxchn-361,375+sem-lxchn-363,377+dm-and-368|PDTB=Explicit:Expansion.Conjunction:and:368:355-367:369-378
 15	half	half	DET	PDT	NumForm=Word|NumType=Frac|PronType=Ind	17	det:predet	17:det:predet	Entity=(47-abstract-new-cf3-3-sgl
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	_
 17	values	value	NOUN	NNS	Number=Plur	21	nsubj	21:nsubj|23:nsubj	Entity=47)|MSeg=value-s
@@ -545,7 +545,7 @@
 # s_type = imp
 # transition = zero
 # text = For example, consider the following data:
-1	For	for	ADP	IN	_	2	case	2:case	Discourse=organization-preparation:44->45:0:lex-indwd-382+lex-indph-383-384+sem-synym-383-385,387-413+grf-col-386
+1	For	for	ADP	IN	_	2	case	2:case	Discourse=organization-preparation:44->45:0:lex-indwd-382+lex-indph-383-384+sem-synym-383-385,387-413+grf-col-386|PDTB=Explicit:Expansion.Instantiation.Arg2-as-instance:for example:379-380:344-354:381-544
 2	example	example	NOUN	NN	Number=Sing	4	obl	4:obl:for	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	consider	consider	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
@@ -554,13 +554,13 @@
 7	data	datum	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=48)|MSeg=dat-a|SpaceAfter=No
 8	:	:	PUNCT	:	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GUM_textbook_stats-25
 # s_prominence = 6
 # s_type = frag
 # transition = establishment
 # text = 1, 11.5, 6, 7.2, 4, 8, 9, 10, 6.8, 8.3, 2, 2, 10, 1
-# newpar
-# newpar_block = p (1 s)
 1	1	1	NUM	CD	NumForm=Digit|NumType=Card	0	root	0:root	Discourse=organization-preparation:45->57:3:sem-synym-387-413,517-518,532-534,539-541|Entity=(48-abstract-undefined-cf1*-1,3,5,7,9,11,13,15,17,19,21,23,25,27-coref(49-abstract-new-cf4-1-coref)|SpaceAfter=No
 2	,	,	PUNCT	,	_	3	punct	3:punct	_
 3	11.5	11.5	NUM	CD	NumForm=Digit|NumType=Frac	1	conj	1:conj	Entity=(50-abstract-new-cf5-1-coref)|SpaceAfter=No
@@ -589,13 +589,13 @@
 26	,	,	PUNCT	,	_	27	punct	27:punct	_
 27	1	1	NUM	CD	NumForm=Digit|NumType=Card	1	conj	1:conj	Entity=(61-abstract-new-cf15-1-coref)48)
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GUM_textbook_stats-26
 # s_prominence = 7
 # s_type = other
 # transition = zero
 # text = Ordered from smallest to largest:
-# newpar
-# newpar_block = p (1 s)
 1	Ordered	order	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	Discourse=mode-manner:46->47:0:_|MSeg=Order-ed
 2	from	from	ADP	IN	_	3	case	3:case	_
 3	smallest	small	ADJ	JJS	Degree=Sup	1	obl	1:obl:from	MSeg=small-est
@@ -603,13 +603,13 @@
 5	largest	large	ADJ	JJS	Degree=Sup	1	obl	1:obl:to	MSeg=larg-est|SpaceAfter=No
 6	:	:	PUNCT	:	_	1	punct	1:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GUM_textbook_stats-27
 # s_prominence = 6
 # s_type = frag
 # transition = zero
 # text = 1, 1, 2, 2, 4, 6, 6.8, 7.2, 8, 8.3, 9, 10, 10, 11.5
-# newpar
-# newpar_block = p (1 s)
 1	1	1	NUM	CD	NumForm=Digit|NumType=Card	0	root	0:root	Discourse=restatement-repetition_m:47->45:1:sem-synym-387-413,420-446+sem-rpt-387,420+sem-rpt-389,446+sem-rpt-391,430+sem-rpt-393,434+sem-rpt-395,428+sem-rpt-397,436+sem-rpt-399,440+sem-rpt-401,442+sem-rpt-403,432+sem-rpt-405,438+sem-rpt-407,424+sem-rpt-409,426+sem-rpt-411,444+sem-rpt-413,422|Entity=(48-abstract-undefined-cf1-1,3,5,7,9,11,13,15,17,19,21,23,25,27-coref(49-abstract-giv:inact-cf2-1-coref)|SpaceAfter=No
 2	,	,	PUNCT	,	_	3	punct	3:punct	_
 3	1	1	NUM	CD	NumForm=Digit|NumType=Card	1	conj	1:conj	Entity=(61-abstract-giv:inact-cf3-1-coref)|SpaceAfter=No
@@ -638,14 +638,14 @@
 26	,	,	PUNCT	,	_	27	punct	27:punct	_
 27	11.5	11.5	NUM	CD	NumForm=Digit|NumType=Frac	1	conj	1:conj	Entity=(50-abstract-undefined-cf16-1-coref)48)
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GUM_textbook_stats-28
 # s_prominence = 6
 # s_type = decl
 # transition = null
 # text = When a data set has an even number of data values, the median is equal to the average of the two middle values when the data are arranged in ascending order (least to greatest).
-# newpar
-# newpar_block = p (2 s)
-1	When	when	ADV	WRB	PronType=Int	5	advmod	5:advmod	Discourse=contingency-condition:48->49:1:dm-when-447
+1	When	when	ADV	WRB	PronType=Int	5	advmod	5:advmod	Discourse=contingency-condition:48->49:1:dm-when-447|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:when:447:459-484:448-458
 2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(63-abstract-new-cf1-3-coref
 3	data	datum	NOUN	NNS	Number=Plur	4	compound	4:compound	MSeg=dat-a
 4	set	set	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=63)
@@ -669,7 +669,7 @@
 22	two	two	NUM	CD	NumForm=Word|NumType=Card	24	nummod	24:nummod	_
 23	middle	middle	ADJ	JJ	Degree=Pos	24	amod	24:amod	_
 24	values	value	NOUN	NNS	Number=Plur	19	nmod	19:nmod:of	Entity=67)66)|MSeg=value-s
-25	when	when	ADV	WRB	PronType=Int	29	advmod	29:advmod	Discourse=context-circumstance:50->49:0:dm-when-471;elaboration-attribute:50->49:1:0:syn-mdf-465+syn-nmn-475
+25	when	when	ADV	WRB	PronType=Int	29	advmod	29:advmod	Discourse=context-circumstance:50->49:0:dm-when-471;elaboration-attribute:50->49:1:0:syn-mdf-465+syn-nmn-475|PDTB=Explicit:Temporal.Synchronous:when:471:459-470:472-484
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(63-abstract-giv:act-cf1-2-coref
 27	data	datum	NOUN	NNS	Number=Plur	29	nsubj:pass	29:nsubj:pass	Entity=63)|MSeg=dat-a
 28	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux:pass	29:aux:pass	_
@@ -689,7 +689,7 @@
 # s_type = decl
 # transition = establishment
 # text = When a data set has an odd number of data values, the median is equal to the middle value when the data are arranged in ascending order.
-1	When	when	ADV	WRB	PronType=Int	5	advmod	5:advmod	Discourse=contingency-condition:52->53:1:dm-when-485
+1	When	when	ADV	WRB	PronType=Int	5	advmod	5:advmod	Discourse=contingency-condition:52->53:1:dm-when-485|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:when:485:497-513:486-496;Implicit:Comparison.Contrast:in contrast:_:447-484:485-513
 2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(69-abstract-new-cf2-3-coref
 3	data	datum	NOUN	NNS	Number=Plur	4	compound	4:compound	MSeg=dat-a
 4	set	set	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=69)
@@ -709,7 +709,7 @@
 18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Bridge=71<72|Entity=(72-abstract-acc:inf-cf4-3-sgl
 19	middle	middle	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
 20	value	value	NOUN	NN	Number=Sing	16	obl	16:obl:to	Entity=72)
-21	when	when	ADV	WRB	PronType=Int	25	advmod	25:advmod	Discourse=context-circumstance:54->53:0:dm-when-505;elaboration-attribute:54->53:0:0:syn-mdf-504+syn-nmn-509
+21	when	when	ADV	WRB	PronType=Int	25	advmod	25:advmod	Discourse=context-circumstance:54->53:0:dm-when-505;elaboration-attribute:54->53:0:0:syn-mdf-504+syn-nmn-509|PDTB=Explicit:Temporal.Synchronous:when:505:497-504:506-513
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(69-abstract-giv:act-cf2-2-coref
 23	data	datum	NOUN	NNS	Number=Plur	25	nsubj:pass	25:nsubj:pass	Entity=69)|MSeg=dat-a
 24	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	25:aux:pass	_
@@ -719,18 +719,18 @@
 28	order	order	NOUN	NN	Number=Sing	25	obl	25:obl:in	Entity=68)|SpaceAfter=No
 29	.	.	PUNCT	.	_	16	punct	16:punct	_
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GUM_textbook_stats-30
 # s_prominence = 5
 # s_type = decl
 # transition = zero
 # text = Since there are 14 observations (an even number of data values), the median is between the seventh value, 6.8, and the eighth value, 7.2.
-# newpar
-# newpar_block = p (2 s)
-1	Since	since	SCONJ	IN	_	3	mark	3:mark	Discourse=causal-cause:55->57:0:dm-since-514
+1	Since	since	SCONJ	IN	_	3	mark	3:mark	Discourse=causal-cause:55->57:0:dm-since-514|PDTB=Explicit:Contingency.Cause.Reason:since:514:528-544:515-527
 2	there	there	PRON	EX	PronType=Dem	3	expl	3:expl	_
 3	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	21:advcl:since	Cxn=Existential-CopPred-ThereExpl
 4	14	14	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	5:nummod	Entity=(48-abstract-giv:inact-cf1-2-coref
-5	observations	observation	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=48)|MSeg=observ-ation-s
+5	observations	observation	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	CxnElt=3:Existential-CopPred-ThereExpl.Pivot|Entity=48)|MSeg=observ-ation-s
 6	(	(	PUNCT	-LRB-	_	9	punct	9:punct	Discourse=elaboration-additional:56->55:0:sem-synym-517-518,524-525+grf-prn-519,526|SpaceAfter=No
 7	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(73-abstract-new-cf5-3-sgl
 8	even	even	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
@@ -763,7 +763,7 @@
 # s_type = imp
 # transition = establishment
 # text = To find the median, add the two values together and divide by two.
-1	To	to	PART	TO	_	2	mark	2:mark	Discourse=purpose-goal:58->59:1:syn-inf-545
+1	To	to	PART	TO	_	2	mark	2:mark	Discourse=purpose-goal:58->59:1:syn-inf-545|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:550-559:545-549
 2	find	find	VERB	VB	VerbForm=Inf	6	advcl	6:advcl:to	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(74-abstract-giv:act-cf1*-2-coref
 4	median	median	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=74)|SpaceAfter=No
@@ -773,36 +773,36 @@
 8	two	two	NUM	CD	NumForm=Word|NumType=Card	9	nummod	9:nummod	_
 9	values	value	NOUN	NNS	Number=Plur	6	obj	6:obj	Entity=62)|MSeg=value-s
 10	together	together	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
-11	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=joint-sequence_m:60->59:0:dm-and-555
+11	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=joint-sequence_m:60->59:0:dm-and-555|PDTB=Explicit:Expansion.Conjunction:and:555:550-554:556-559;Implicit:Temporal.Asynchronous.Precedence:then:_:550-554:555-559
 12	divide	divide	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	6	conj	6:conj:and	_
 13	by	by	ADP	IN	_	14	case	14:case	_
 14	two	two	NUM	CD	NumForm=Word|NumType=Card	12	obl	12:obl:by	Entity=(75-abstract-new-cf3-1-coref)|SpaceAfter=No
 15	.	.	PUNCT	.	_	6	punct	6:punct	_
 
+# newpar
+# newpar_block = p rend:::"centered" (1 s)
 # sent_id = GUM_textbook_stats-32
 # s_prominence = 5
 # s_type = other
 # transition = smooth-shift
 # text = (6.8+7.2)/2=7
-# newpar
-# newpar_block = p rend:::"centered" (1 s)
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=restatement-repetition_m:61->57:1:sem-synym-528-529,532-534,539-541,561,563,568+grf-prn-560,564|SpaceAfter=No|XML=<w>
 2	6.8	6.8	NUM	CD	NumForm=Digit|NumType=Frac	8	nsubj	8:nsubj	Entity=(56-abstract-giv:inact-cf3-1-coref)|SpaceAfter=No
 3	+	+	SYM	SYM	_	4	cc	4:cc	SpaceAfter=No
 4	7.2	7.2	NUM	CD	NumForm=Digit|NumType=Frac	2	conj	2:conj:plus|8:nsubj	Entity=(52-abstract-giv:inact-cf4-1-coref)|SpaceAfter=No
 5	)	)	PUNCT	-RRB-	_	2	punct	2:punct	SpaceAfter=No
 6	/	/	SYM	SYM	_	2	acl	2:acl	SpaceAfter=No
-7	2	2	NUM	CD	NumForm=Digit|NumType=Card	6	obl:npmod	6:obl:npmod	Entity=(75-abstract-giv:act-cf1*-1-coref)|SpaceAfter=No
+7	2	2	NUM	CD	NumForm=Digit|NumType=Card	6	obl:unmarked	6:obl:unmarked	Entity=(75-abstract-giv:act-cf1*-1-coref)|SpaceAfter=No
 8	=	=	SYM	SYM	_	0	root	0:root	SpaceAfter=No
 9	7	7	NUM	CD	NumForm=Digit|NumType=Card	8	xcomp	8:xcomp	Entity=(74-abstract-giv:act-cf2-1-coref)|XML=</w>
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GUM_textbook_stats-33
 # s_prominence = 6
 # s_type = decl
 # transition = smooth-shift
 # text = The median is seven.
-# newpar
-# newpar_block = p (2 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=restatement-partial:62->61:0:sem-synym-568-570|Entity=(74-abstract-giv:act-cf1*-2-coref
 2	median	median	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=74)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
@@ -814,7 +814,7 @@
 # s_type = decl
 # transition = continue
 # text = Half of the values are smaller than seven and half of the values are larger than seven.
-1	Half	half	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	6	nsubj	6:nsubj	Discourse=elaboration-additional:63->62:0:sem-synym-569-570,581|Entity=(76-abstract-new-cf3-1-sgl
+1	Half	half	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	6	nsubj	6:nsubj	Discourse=elaboration-additional:63->62:0:sem-synym-569-570,581|Entity=(76-abstract-new-cf3-1-sgl|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:569-573:574-591
 2	of	of	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(48-abstract-giv:inact-cf2-2-coref
 4	values	value	NOUN	NNS	Number=Plur	1	nmod	1:nmod:of	Entity=48)76)|MSeg=value-s
@@ -822,7 +822,7 @@
 6	smaller	small	ADJ	JJR	Degree=Cmp	0	root	0:root	MSeg=small-er
 7	than	than	ADP	IN	_	8	case	8:case	_
 8	seven	seven	NUM	CD	NumForm=Word|NumType=Card	6	obl	6:obl:than	Entity=(74-abstract-giv:act-cf1*-1-coref)
-9	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=joint-list_m:64->63:0:sem-lxchn-579,588+dm-and-582
+9	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=joint-list_m:64->63:0:sem-lxchn-579,588+dm-and-582|PDTB=Explicit:Expansion.Conjunction:and:582:574-581:583-591
 10	half	half	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	15	nsubj	15:nsubj	Entity=(77-abstract-new-cf4-1-sgl
 11	of	of	ADP	IN	_	13	case	13:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(48-abstract-undefined-cf2-2-coref
@@ -833,13 +833,13 @@
 17	seven	seven	NUM	CD	NumForm=Word|NumType=Card	15	obl	15:obl:than	Entity=(74-abstract-giv:act-cf1*-1-coref)|SpaceAfter=No
 18	.	.	PUNCT	.	_	6	punct	6:punct	_
 
+# newpar
+# newpar_block = p (5 s)
 # sent_id = GUM_textbook_stats-35
 # s_prominence = 3
 # s_type = decl
 # transition = zero
 # text = Quartiles are numbers that separate the data into quarters.
-# newpar
-# newpar_block = p (5 s)
 1	Quartiles	quartile	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Discourse=joint-list_m:65->36:2:_|Entity=(78-abstract-new-cf1-1-coref)|MSeg=Quartile-s
 2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	numbers	number	NOUN	NNS	Number=Plur	0	root	0:root|5:nsubj	Entity=(78-abstract-giv:act-cf1-1-pred|MSeg=number-s
@@ -856,11 +856,11 @@
 # s_type = sub
 # transition = establishment
 # text = Quartiles may or may not be part of the data.
-1	Quartiles	quartile	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Discourse=elaboration-additional:67->65:1:sem-rpt-592,602+sem-rpt-597-598,610-611|Entity=(78-abstract-giv:act-cf1*-1-coref)|MSeg=Quartile-s
+1	Quartiles	quartile	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Discourse=elaboration-additional:67->65:1:sem-rpt-592,602+sem-rpt-597-598,610-611|Entity=(78-abstract-giv:act-cf1*-1-coref)|MSeg=Quartile-s|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:592-601:602-612
 2	may	may	AUX	MD	VerbForm=Fin	0	root	0:root	_
 3	or	or	CCONJ	CC	_	7	cc	7:cc	_
 4	may	may	AUX	MD	VerbForm=Fin	7	aux	7:aux	_
-5	not	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	_
+5	not	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	Negation=Yes
 6	be	be	AUX	VB	VerbForm=Inf	7	cop	7:cop	_
 7	part	part	NOUN	NN	Number=Sing	2	conj	2:conj:or	_
 8	of	of	ADP	IN	_	10	case	10:case	_
@@ -873,7 +873,7 @@
 # s_type = imp
 # transition = continue
 # text = To find the quartiles, first find the median, or second, quartile.
-1	To	to	PART	TO	_	2	mark	2:mark	Discourse=purpose-goal:68->69:1:syn-inf-613
+1	To	to	PART	TO	_	2	mark	2:mark	Discourse=purpose-goal:68->69:1:syn-inf-613|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:618-627:613-617
 2	find	find	VERB	VB	VerbForm=Inf	7	advcl	7:advcl:to	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(78-abstract-giv:act-cf1*-2-coref
 4	quartiles	quartile	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=78)|MSeg=quartile-s|SpaceAfter=No
@@ -894,7 +894,7 @@
 # s_type = decl
 # transition = zero
 # text = The first quartile, Q1, is the middle value of the lower half of the data, and the third quartile, Q3, is the middle value, or median, of the upper half of the data.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint-sequence_m:70->69:0:_|Entity=(6-abstract-giv:inact-cf1-3-coref
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint-sequence_m:70->69:0:_|Entity=(6-abstract-giv:inact-cf1-3-coref|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:613-627:628-670
 2	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	3	amod	3:amod	_
 3	quartile	quartile	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	Entity=6)|SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
@@ -913,7 +913,7 @@
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(3-abstract-giv:inact-cf3-2-coref
 18	data	datum	NOUN	NNS	Number=Plur	15	nmod	15:nmod:of	Entity=3)79)6)|MSeg=dat-a|SpaceAfter=No
 19	,	,	PUNCT	,	_	20	punct	20:punct	_
-20	and	and	CCONJ	CC	_	31	cc	31:cc	Discourse=joint-list_m:71->70:0:sem-lxchn-637,661,666+dm-and-647
+20	and	and	CCONJ	CC	_	31	cc	31:cc	Discourse=joint-list_m:71->70:0:sem-lxchn-637,661,666+dm-and-647|PDTB=Explicit:Expansion.Conjunction:and:647:628-646:648-670
 21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(7-abstract-giv:inact-cf2-3-coref
 22	third	third	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	23	amod	23:amod	_
 23	quartile	quartile	NOUN	NN	Number=Sing	31	nsubj	31:nsubj|34:nsubj	Entity=7)|SpaceAfter=No
@@ -931,7 +931,7 @@
 35	,	,	PUNCT	,	_	39	punct	39:punct	_
 36	of	of	ADP	IN	_	39	case	39:case	_
 37	the	the	DET	DT	Definite=Def|PronType=Art	39	det	39:det	Entity=(80-abstract-new-cf5-3-sgl
-38	upper	upper	ADJ	JJ	Degree=Pos	39	amod	39:amod	_
+38	upper	upper	ADJ	JJ	Degree=Pos	39	amod	39:amod	MSeg=upp-er
 39	half	half	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	31	nmod	31:nmod:of	_
 40	of	of	ADP	IN	_	42	case	42:case	_
 41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	42:det	Entity=(3-abstract-giv:act-cf3-2-coref
@@ -943,7 +943,7 @@
 # s_type = imp
 # transition = null
 # text = To get the idea, consider the same data set:
-1	To	to	PART	TO	_	2	mark	2:mark	Discourse=purpose-goal:72->73:0:syn-inf-671
+1	To	to	PART	TO	_	2	mark	2:mark	Discourse=purpose-goal:72->73:0:syn-inf-671|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:676-681:671-675
 2	get	get	VERB	VB	VerbForm=Inf	6	advcl	6:advcl:to	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(81-abstract-new-cf2-2-sgl
 4	idea	idea	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=81)|SpaceAfter=No
@@ -955,13 +955,13 @@
 10	set	set	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=48)|SpaceAfter=No
 11	:	:	PUNCT	:	_	6	punct	6:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GUM_textbook_stats-40
 # s_prominence = 6
 # s_type = frag
 # transition = establishment
 # text = 1, 1, 2, 2, 4, 6, 6.8, 7.2, 8, 8.3, 9, 10, 10, 11.5
-# newpar
-# newpar_block = p (1 s)
 1	1	1	NUM	CD	NumForm=Digit|NumType=Card	0	root	0:root	Discourse=context-background:74->89:4:sem-synym-686,846-848|Entity=(48-abstract-undefined-cf1*-1,3,5,7,9,11,13,15,17,19,21,23,25,27-coref(49-abstract-giv:inact-cf2-1-coref)|SpaceAfter=No
 2	,	,	PUNCT	,	_	3	punct	3:punct	_
 3	1	1	NUM	CD	NumForm=Digit|NumType=Card	1	conj	1:conj	Entity=(61-abstract-giv:inact-cf3-1-coref)|SpaceAfter=No
@@ -990,13 +990,13 @@
 26	,	,	PUNCT	,	_	27	punct	27:punct	_
 27	11.5	11.5	NUM	CD	NumForm=Digit|NumType=Frac	1	conj	1:conj	Entity=(50-abstract-giv:inact-cf16-1-coref)48)
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GUM_textbook_stats-41
 # s_prominence = 7
 # s_type = decl
 # transition = continue
 # text = The data set has an even number of values (14 data values), so the median will be the average of the two middle values (the average of 6.8 and 7.2), which is calculated as (6.8+7.2)/2 and equals 7.
-# newpar
-# newpar_block = p (1 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=causal-cause:75->77:2:dm-so-724|Entity=(48-abstract-giv:act-cf1*-3-coref
 2	data	datum	NOUN	NNS	Number=Plur	3	compound	3:compound	MSeg=dat-a
 3	set	set	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=48)
@@ -1012,7 +1012,7 @@
 13	values	value	NOUN	NNS	Number=Plur	7	appos	7:appos	Entity=48)|MSeg=value-s|SpaceAfter=No
 14	)	)	PUNCT	-RRB-	_	13	punct	13:punct	SpaceAfter=No
 15	,	,	PUNCT	,	_	22	punct	22:punct	_
-16	so	so	ADV	RB	_	22	advmod	22:advmod	Discourse=elaboration-additional:77->74:1:sem-synym-682-711,732-735+sem-rpt-694,740+sem-rpt-696,742+grf-prn-718,722
+16	so	so	ADV	RB	_	22	advmod	22:advmod	Discourse=elaboration-additional:77->74:1:sem-synym-682-711,732-735+sem-rpt-694,740+sem-rpt-696,742+grf-prn-718,722|PDTB=Explicit:Contingency.Cause.Result:so:724:709-723:725-759
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(83-abstract-undefined-cf6-6-disc(74-abstract-giv:inact-cf2-2-coref
 18	median	median	NOUN	NN	Number=Sing	22	nsubj	22:nsubj	Entity=74)
 19	will	will	AUX	MD	VerbForm=Fin	22	aux	22:aux	_
@@ -1043,20 +1043,20 @@
 44	7.2	7.2	NUM	CD	NumForm=Digit|NumType=Frac	42	conj	39:obl:as|42:conj:plus	Entity=(52-abstract-undefined-cf5-1-coref)|SpaceAfter=No
 45	)	)	PUNCT	-RRB-	_	42	punct	42:punct	SpaceAfter=No
 46	/	/	SYM	SYM	_	42	acl	42:acl	SpaceAfter=No
-47	2	2	NUM	CD	NumForm=Digit|NumType=Card	46	obl:npmod	46:obl:npmod	Entity=(75-abstract-giv:inact-cf7-1-coref)|XML=</w>
-48	and	and	CCONJ	CC	_	49	cc	49:cc	Discourse=joint-list_m:80->79:0:dm-and-756
+47	2	2	NUM	CD	NumForm=Digit|NumType=Card	46	obl:unmarked	46:obl:unmarked	Entity=(75-abstract-giv:inact-cf7-1-coref)|XML=</w>
+48	and	and	CCONJ	CC	_	49	cc	49:cc	Discourse=joint-list_m:80->79:0:dm-and-756|PDTB=Explicit:Expansion.Conjunction:and:756:745-755:757-759
 49	equals	equal	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	conj	27:acl:relcl|39:conj:and	MSeg=equal-s
 50	7	7	NUM	CD	NumForm=Digit|NumType=Card	49	obj	49:obj	Entity=(74-abstract-giv:act-cf2-1-coref)|SpaceAfter=No
 51	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GUM_textbook_stats-42
 # s_prominence = 8
 # s_type = decl
 # transition = smooth-shift
 # text = So, the median, or second quartile (Q2), is 7.
-# newpar
-# newpar_block = p (1 s)
-1	So	so	ADV	RB	_	15	advmod	15:advmod	Discourse=causal-result:81->77:3:dm-so-760|SpaceAfter=No
+1	So	so	ADV	RB	_	15	advmod	15:advmod	Discourse=causal-result:81->77:3:dm-so-760|PDTB=Explicit:Contingency.Cause.Result:so:760:709-759:761-775|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(74-abstract-giv:act-cf1*-2-coref
 4	median	median	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=74)|SpaceAfter=No
@@ -1073,13 +1073,13 @@
 15	7	7	NUM	CD	NumForm=Digit|NumType=Card	0	root	0:root	Entity=(74-abstract-giv:act-cf1*-1-coref)|SpaceAfter=No
 16	.	.	PUNCT	.	_	15	punct	15:punct	_
 
+# newpar
+# newpar_block = p (3 s)
 # sent_id = GUM_textbook_stats-43
 # s_prominence = 6
 # s_type = decl
 # transition = zero
 # text = The first quartile is the median of the lower half of the data, so if we divide the data into seven values in the lower half and seven values in the upper half, we can see that we have an odd number of values in the lower half.
-# newpar
-# newpar_block = p (3 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=explanation-justify:84->89:2:dm-thus-827|Entity=(6-abstract-giv:inact-cf2-3-coref
 2	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	3	amod	3:amod	_
 3	quartile	quartile	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=6)
@@ -1094,10 +1094,10 @@
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(3-abstract-giv:inact-cf5-2-coref
 13	data	datum	NOUN	NNS	Number=Plur	10	nmod	10:nmod:of	Entity=3)84)6)|MSeg=dat-a|SpaceAfter=No
 14	,	,	PUNCT	,	_	15	punct	15:punct	_
-15	so	so	ADV	RB	_	38	advmod	38:advmod	Discourse=attribution-positive:85->88:0:sem-atsrc-811+lex-indwd-813+syn-rpr-814
-16	if	if	SCONJ	IN	_	18	mark	18:mark	Discourse=contingency-condition:86->87:0:dm-if-791
+15	so	so	ADV	RB	_	38	advmod	38:advmod	Discourse=attribution-positive:85->88:0:sem-atsrc-811+lex-indwd-813+syn-rpr-814|PDTB=Explicit:Contingency.Cause.Result:so:790:776-789:791-826
+16	if	if	SCONJ	IN	_	18	mark	18:mark	Discourse=contingency-condition:86->87:0:dm-if-791|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:791:790,811-813:792-810
 17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	18:nsubj	Entity=(85-person-acc:com-cf1-1-ana)
-18	divide	divide	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	38	advcl	38:advcl:if	_
+18	divide	divide	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	38	advcl	38:advcl:if	CxnElt=38:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(48-abstract-giv:inact-cf4-2-coref
 20	data	datum	NOUN	NNS	Number=Plur	18	obj	18:obj	Entity=48)|MSeg=dat-a
 21	into	into	ADP	IN	_	23	case	23:case	MSeg=in-to
@@ -1112,12 +1112,12 @@
 30	values	value	NOUN	NNS	Number=Plur	23	conj	18:obl:into|23:conj:and	MSeg=value-s
 31	in	in	ADP	IN	_	34	case	34:case	_
 32	the	the	DET	DT	Definite=Def|PronType=Art	34	det	34:det	Entity=(88-abstract-new-cf7-3-coref
-33	upper	upper	ADJ	JJ	Degree=Pos	34	amod	34:amod	_
+33	upper	upper	ADJ	JJ	Degree=Pos	34	amod	34:amod	MSeg=upp-er
 34	half	half	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	30	nmod	30:nmod:in	Entity=88)87)|SpaceAfter=No
 35	,	,	PUNCT	,	_	18	punct	18:punct	_
 36	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	38	nsubj	38:nsubj	Discourse=same-unit_m:87->85:0:_|Entity=(85-person-giv:act-cf1-1-ana)
 37	can	can	AUX	MD	VerbForm=Fin	38	aux	38:aux	_
-38	see	see	VERB	VB	VerbForm=Inf	6	parataxis	6:parataxis	Cxn=Conditional-UnspecifiedEpistemic-NoInversion
+38	see	see	VERB	VB	VerbForm=Inf	6	parataxis	6:parataxis	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=38:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
 39	that	that	SCONJ	IN	_	41	mark	41:mark	Discourse=causal-result:88->84:0:dm-so-790
 40	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	41	nsubj	41:nsubj	Entity=(85-person-giv:act-cf1-1-ana)
 41	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	38	ccomp	38:ccomp	_
@@ -1137,7 +1137,7 @@
 # s_type = decl
 # transition = establishment
 # text = Thus, the median of the lower half, or the first quartile (Q1) will be the middle value, or 2.
-1	Thus	thus	ADV	RB	_	22	advmod	22:advmod	Discourse=elaboration-additional:89->69:2:_|SpaceAfter=No
+1	Thus	thus	ADV	RB	_	22	advmod	22:advmod	Discourse=elaboration-additional:89->69:2:_|PDTB=Explicit:Contingency.Cause.Result:thus:827:776-826:828-852|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(6-abstract-giv:act-cf1*-2-coref
 4	median	median	NOUN	NN	Number=Sing	22	nsubj	22:nsubj	_
@@ -1169,7 +1169,7 @@
 # s_type = decl
 # transition = zero
 # text = Using the same procedure, we can see that the median of the upper half, or the third quartile (Q3) will be the middle value of the upper half, or 9.
-1	Using	use	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	8:advcl	Discourse=mode-means:92->93:0:lex-indwd-853+syn-pres-853|MSeg=Us-ing
+1	Using	use	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	8:advcl	Discourse=mode-means:92->93:0:lex-indwd-853+syn-pres-853|MSeg=Us-ing|PDTB=Implicit:Expansion.Manner.Arg2-as-manner:by:_:858-860:853-857
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(83-abstract-giv:inact-cf4-3-coref
 3	same	same	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	procedure	procedure	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=83)|MSeg=proced-ure|SpaceAfter=No
@@ -1182,7 +1182,7 @@
 11	median	median	NOUN	NN	Number=Sing	29	nsubj	29:nsubj	_
 12	of	of	ADP	IN	_	15	case	15:case	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(88-abstract-giv:inact-cf2-3-coref
-14	upper	upper	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
+14	upper	upper	ADJ	JJ	Degree=Pos	15	amod	15:amod	MSeg=upp-er
 15	half	half	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	11	nmod	11:nmod:of	Entity=88)7)|SpaceAfter=No
 16	,	,	PUNCT	,	_	20	punct	20:punct	_
 17	or	or	CCONJ	CC	_	20	cc	20:cc	_
@@ -1200,20 +1200,20 @@
 29	value	value	NOUN	NN	Number=Sing	8	ccomp	8:ccomp	_
 30	of	of	ADP	IN	_	33	case	33:case	_
 31	the	the	DET	DT	Definite=Def|PronType=Art	33	det	33:det	Entity=(88-abstract-giv:act-cf2-3-coref
-32	upper	upper	ADJ	JJ	Degree=Pos	33	amod	33:amod	_
+32	upper	upper	ADJ	JJ	Degree=Pos	33	amod	33:amod	MSeg=upp-er
 33	half	half	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	29	nmod	29:nmod:of	Entity=88)7)|SpaceAfter=No
 34	,	,	PUNCT	,	_	36	punct	36:punct	_
 35	or	or	CCONJ	CC	_	36	cc	36:cc	_
 36	9	9	NUM	CD	NumForm=Digit|NumType=Card	29	conj	8:ccomp|29:conj:or	Entity=(7-abstract-giv:act-cf1-1-coref)|SpaceAfter=No
 37	.	.	PUNCT	.	_	8	punct	8:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GUM_textbook_stats-46
 # s_prominence = 7
 # s_type = decl
 # transition = null
 # text = The quartiles are illustrated below:
-# newpar
-# newpar_block = p (1 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=organization-preparation:97->98:0:grf-col-895|Entity=(78-abstract-giv:inact-cf1-2-coref
 2	quartiles	quartile	NOUN	NNS	Number=Plur	4	nsubj:pass	4:nsubj:pass	Entity=78)|MSeg=quartile-s
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
@@ -1221,23 +1221,23 @@
 5	below	below	ADV	RB	Degree=Pos	4	advmod	4:advmod	MSeg=be-low|SpaceAfter=No
 6	:	:	PUNCT	:	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = figure rend:::"A series of numbers with circles indicating the positions of the quartiles and a vertical line at the median." (1 s) | caption (1 s)
 # sent_id = GUM_textbook_stats-47
 # s_prominence = 6
 # s_type = frag
 # transition = null
 # text = Figure 2.11
-# newpar
-# newpar_block = figure rend:::"A series of numbers with circles indicating the positions of the quartiles and a vertical line at the median." (1 s) | caption (1 s)
 1	Figure	Figure	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-background:98->89:5:grf-ly-|Entity=(90-abstract-new-cf1-1-sgl
 2	2.11	2.11	NUM	CD	NumForm=Digit|NumType=Frac	1	dep	1:dep	Entity=90)
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GUM_textbook_stats-48
 # s_prominence = 1
 # s_type = decl
 # transition = null
 # text = The interquartile range is a number that indicates the spread of the middle half, or the middle 50 percent of the data.
-# newpar
-# newpar_block = p (2 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint-list_m:99->2:1:_|Entity=(91-abstract-new-cf2-3-coref
 2	interquartile	interquartile	ADJ	JJ	Degree=Pos	3	amod	3:amod	MSeg=inter-quartile|XML=<hi rend:::"bold">
 3	range	range	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=91)|XML=</hi>
@@ -1268,7 +1268,7 @@
 # s_type = decl
 # transition = establishment
 # text = It is the difference between the third quartile (Q3) and the first quartile (Q1)
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=elaboration-additional:101->99:1:ref-prs-898-900,922+sem-lxchn-899,929|Entity=(91-abstract-giv:act-cf1*-1-ana)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=elaboration-additional:101->99:1:ref-prs-898-900,922+sem-lxchn-899,929|Entity=(91-abstract-giv:act-cf1*-1-ana)|PDTB=EntRel:EntRel:_:_:898-921:922-941
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(91-abstract-giv:act-cf1*-2-coref
 4	difference	difference	NOUN	NN	Number=Sing	0	root	0:root	MSeg=differ-ence
@@ -1289,13 +1289,13 @@
 19	1	1	NUM	CD	NumForm=Digit|NumType=Card	18	dep	18:dep	Entity=6)|SpaceAfter=No|XML=<hi rend:::"subscript"></hi></w>
 20	)	)	PUNCT	-RRB-	_	18	punct	18:punct	Entity=91)
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GUM_textbook_stats-50
 # s_prominence = 2
 # s_type = decl
 # transition = continue
 # text = IQR = Q3 – Q1.
-# newpar
-# newpar_block = p (2 s)
 1	IQR	IQR	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=restatement-repetition_m:105->101:2:sem-synym-922,928-929,935-937,942,944-945,947-948|Entity=(91-abstract-giv:act-cf1*-1-coref)|XML=<hi rend:::"italic"></hi>
 2	=	=	SYM	SYM	_	0	root	0:root	_
 3	Q	Q	PROPN	NNP	Number=Sing	2	obj	2:obj	Entity=(7-abstract-giv:act-cf2-1-coref|SpaceAfter=No|XML=<w><hi rend:::"italic"></hi>
@@ -1327,13 +1327,13 @@
 15	7	7	NUM	CD	NumForm=Digit|NumType=Card	10	conj	8:obl:as|10:conj:or	Entity=(93-abstract-undefined-cf4-1-coref)|SpaceAfter=No
 16	.	.	PUNCT	.	_	8	punct	8:punct	_
 
+# newpar
+# newpar_block = p (3 s)
 # sent_id = GUM_textbook_stats-52
 # s_prominence = 2
 # s_type = decl
 # transition = zero
 # text = The IQR can help to determine potential outliers.
-# newpar
-# newpar_block = p (3 s)
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:107->99:3:sem-synym-898-900,966-967|Entity=(91-abstract-giv:inact-cf1-2-coref
 2	IQR	IQR	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj|6:nsubj:xsubj	Entity=91)|XML=<hi rend:::"italic"></hi>
 3	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
@@ -1349,33 +1349,33 @@
 # s_type = decl
 # transition = establishment
 # text = A value is suspected to be a potential outlier if it is less than 1.5 × IQR below the first quartile or more than 1.5 × IQR above the third quartile.
-1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	Discourse=elaboration-additional:108->107:0:sem-rpt-966-967,991+sem-lxchn-973,983|Entity=(95-abstract-new-cf1-2-coref|XML=<hi rend:::"bold">
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	Discourse=elaboration-additional:108->107:0:sem-rpt-966-967,991+sem-lxchn-973,983|Entity=(95-abstract-new-cf1-2-coref|PDTB=EntRel:EntRel:_:_:966-974:975-1006|XML=<hi rend:::"bold">
 2	value	value	NOUN	NN	Number=Sing	4	nsubj:pass	4:nsubj:pass|9:nsubj:xsubj	Entity=95)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
-4	suspected	suspect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|MSeg=suspect-ed
+4	suspected	suspect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=4:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|MSeg=suspect-ed
 5	to	to	PART	TO	_	9	mark	9:mark	_
 6	be	be	AUX	VB	VerbForm=Inf	9	cop	9:cop	_
 7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(96-abstract-new-cf5-3-coref
 8	potential	potential	ADJ	JJ	Degree=Pos	9	amod	9:amod	MSeg=potent-ial
 9	outlier	outlier	NOUN	NN	Number=Sing	4	xcomp	4:xcomp	Entity=96)|MSeg=out-li-er
-10	if	if	SCONJ	IN	_	21	mark	21:mark	Discourse=contingency-condition:109->108:0:dm-if-984
+10	if	if	SCONJ	IN	_	21	mark	21:mark	Discourse=contingency-condition:109->108:0:dm-if-984|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:984:975-983:985-1006
 11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	21:nsubj|31:nsubj	Entity=(95-abstract-giv:act-cf1-1-ana)
 12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	21:cop	_
-13	less	less	ADJ	JJR	Degree=Cmp	15	advmod	15:advmod	ExtPos=ADV
+13	less	less	ADJ	JJR	Degree=Cmp|ExtPos=ADV	15	advmod	15:advmod	_
 14	than	than	ADP	IN	_	13	fixed	13:fixed	_
 15	1.5	1.5	NUM	CD	NumForm=Digit|NumType=Frac	16	nummod	16:nummod	_
-16	×	×	SYM	SYM	_	17	nmod:npmod	17:nmod:npmod	_
-17	IQR	IQR	PROPN	NNP	Number=Sing	21	obl:npmod	21:obl:npmod	Entity=(91-abstract-giv:act-cf2*-1-coref)
+16	×	×	SYM	SYM	_	17	nmod:unmarked	17:nmod:unmarked	_
+17	IQR	IQR	PROPN	NNP	Number=Sing	21	obl:unmarked	21:obl:unmarked	Entity=(91-abstract-giv:act-cf2*-1-coref)
 18	below	below	ADP	IN	_	21	case	21:case	MSeg=be-low
 19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(6-abstract-giv:inact-cf3-3-coref
 20	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	21	amod	21:amod	_
-21	quartile	quartile	NOUN	NN	Number=Sing	4	advcl	4:advcl:if	Entity=6)
+21	quartile	quartile	NOUN	NN	Number=Sing	4	advcl	4:advcl:if	CxnElt=4:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|Entity=6)
 22	or	or	CCONJ	CC	_	31	cc	31:cc	_
-23	more	more	ADJ	JJR	Degree=Cmp	25	advmod	25:advmod	ExtPos=ADV
+23	more	more	ADJ	JJR	Degree=Cmp|ExtPos=ADV	25	advmod	25:advmod	_
 24	than	than	ADP	IN	_	23	fixed	23:fixed	_
 25	1.5	1.5	NUM	CD	NumForm=Digit|NumType=Frac	26	nummod	26:nummod	Entity=(97-abstract-new-cf6-1-sgl)
-26	×	×	SYM	SYM	_	27	nmod:npmod	27:nmod:npmod	XML=</hi>
-27	IQR	IQR	PROPN	NNP	Number=Sing	31	obl:npmod	31:obl:npmod	Entity=(91-abstract-giv:act-cf2*-1-coref)|XML=<hi rend:::"bold italic"></hi>
+26	×	×	SYM	SYM	_	27	nmod:unmarked	27:nmod:unmarked	XML=</hi>
+27	IQR	IQR	PROPN	NNP	Number=Sing	31	obl:unmarked	31:obl:unmarked	Entity=(91-abstract-giv:act-cf2*-1-coref)|XML=<hi rend:::"bold italic"></hi>
 28	above	above	ADP	IN	_	31	case	31:case	XML=<hi rend:::"bold">
 29	the	the	DET	DT	Definite=Def|PronType=Art	31	det	31:det	Entity=(7-abstract-giv:inact-cf4-3-coref
 30	third	third	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	31	amod	31:amod	_
@@ -1389,28 +1389,28 @@
 # text = Potential outliers always require further investigation.
 1	Potential	potential	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=joint-list_m:110->108:1:_|Entity=(94-abstract-giv:inact-cf1-2-coref|MSeg=Potent-ial
 2	outliers	outlier	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=94)|MSeg=out-li-er-s
-3	always	always	ADV	RB	_	4	advmod	4:advmod	_
+3	always	always	ADV	RB	_	4	advmod	4:advmod	MSeg=al-way-s
 4	require	require	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-5	further	further	ADJ	JJR	Degree=Cmp	6	amod	6:amod	Entity=(98-event-new-cf2-2-sgl|MSeg=furth-er
+5	further	further	ADJ	JJR	Degree=Cmp	6	amod	6:amod	Entity=(98-event-new-cf2-2-sgl|MSeg=furth-er|PDTB=AltLex:Expansion.Conjunction:further:1011:975-1006:1007-1010,1012-1013
 6	investigation	investigation	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=98)|MSeg=investigat-ion|SpaceAfter=No
 7	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = head rend:::"caps" (1 s)
 # sent_id = GUM_textbook_stats-55
 # s_prominence = 5
 # s_type = frag
 # transition = null
 # text = NOTE
-# newpar
-# newpar_block = head rend:::"caps" (1 s)
 1	NOTE	note	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:111->114:2:grf-ly-|Entity=(99-abstract-new-cf1-1-sgl)
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GUM_textbook_stats-56
 # s_prominence = 5
 # s_type = decl
 # transition = null
 # text = A potential outlier is a data point that is significantly different from the other data points.
-# newpar
-# newpar_block = p (2 s)
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Discourse=context-background:112->114:1:_|Entity=(96-abstract-giv:inact-cf1-3-coref
 2	potential	potential	ADJ	JJ	Degree=Pos	3	amod	3:amod	MSeg=potent-ial
 3	outlier	outlier	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=96)|MSeg=out-li-er
@@ -1434,7 +1434,7 @@
 # s_type = sub
 # transition = null
 # text = These special data points may be errors or some kind of abnormality, or they may be a key to understanding the data.
-1	These	this	DET	DT	Number=Plur|PronType=Dem	4	det	4:det	Discourse=explanation-justify:114->110:0:_|Entity=(101-abstract-new-cf1-4-coref
+1	These	this	DET	DT	Number=Plur|PronType=Dem	4	det	4:det	Discourse=explanation-justify:114->110:0:_|Entity=(101-abstract-new-cf1-4-coref|PDTB=Implicit:Expansion.Conjunction:and:_:1015-1031:1032-1055
 2	special	special	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 3	data	datum	NOUN	NNS	Number=Plur	4	compound	4:compound	MSeg=dat-a
 4	points	point	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj|10:nsubj	Entity=101)|MSeg=point-s
@@ -1447,7 +1447,7 @@
 11	of	of	ADP	IN	_	12	case	12:case	_
 12	abnormality	abnormality	NOUN	NN	Number=Sing	10	nmod	10:nmod:of	Entity=103)|MSeg=ab-norm-al-ity|SpaceAfter=No
 13	,	,	PUNCT	,	_	19	punct	19:punct	_
-14	or	or	CCONJ	CC	_	19	cc	19:cc	Discourse=joint-disjunction_m:115->114:0:dm-or-1045
+14	or	or	CCONJ	CC	_	19	cc	19:cc	Discourse=joint-disjunction_m:115->114:0:dm-or-1045|PDTB=Explicit:Expansion.Disjunction:or:1045:1032-1044:1046-1055
 15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	19:nsubj	Entity=(101-abstract-giv:act-cf1-1-ana)
 16	may	may	AUX	MD	VerbForm=Fin	19	aux	19:aux	_
 17	be	be	AUX	VB	VerbForm=Inf	19	cop	19:cop	_
@@ -1459,23 +1459,23 @@
 23	data	datum	NOUN	NNS	Number=Plur	21	obj	21:obj	Entity=3)104)|MSeg=dat-a|SpaceAfter=No
 24	.	.	PUNCT	.	_	7	punct	7:punct	_
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GUM_textbook_stats-58
 # s_prominence = 3
 # s_type = frag
 # transition = null
 # text = Example 2.15
-# newpar
-# newpar_block = head (1 s)
 1	Example	Example	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-heading:117->118:3:grf-ly-|Entity=(105-abstract-new-cf1-1-coref
 2	2.15	2.15	NUM	CD	NumForm=Digit|NumType=Frac	1	dep	1:dep	Entity=105)
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GUM_textbook_stats-59
 # s_prominence = 2
 # s_type = imp
 # transition = null
 # text = For the following 13 real estate prices, calculate the IQR and determine if any prices are potential outliers.
-# newpar
-# newpar_block = p (2 s)
 1	For	for	ADP	IN	_	7	case	7:case	Discourse=elaboration-additional:118->2:2:_
 2	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(106-abstract-new-cf4-6-coref
 3	following	follow	VERB	VBG	VerbForm=Ger	7	amod	7:amod	MSeg=follow-ing
@@ -1487,14 +1487,14 @@
 9	calculate	calculate	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	MSeg=calcul-ate
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Bridge=106<108|Entity=(108-abstract-acc:inf-cf1-2-sgl
 11	IQR	IQR	PROPN	NNP	Number=Sing	9	obj	9:obj	Entity=108)|XML=<hi rend:::"italic"></hi>
-12	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=attribution-positive:119->120:0:lex-indwd-1070+sem-atsrc-1070+syn-rpr-1071
+12	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=attribution-positive:119->120:0:lex-indwd-1070+sem-atsrc-1070+syn-rpr-1071|PDTB=Explicit:Expansion.Conjunction:and:1069:1058-1068:1070-1077
 13	determine	determine	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	9	conj	9:conj:and	_
 14	if	if	SCONJ	IN	_	19	mark	19:mark	Discourse=joint-list_m:120->118:0:dm-and-1069
 15	any	any	DET	DT	PronType=Ind	16	det	16:det	Entity=(109-abstract-new-cf2-2-sgl
 16	prices	price	NOUN	NNS	Number=Plur	19	nsubj	19:nsubj	Entity=109)|MSeg=price-s
 17	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	19:cop	_
 18	potential	potential	ADJ	JJ	Degree=Pos	19	amod	19:amod	Entity=(110-abstract-new-cf3-2-sgl|MSeg=potent-ial
-19	outliers	outlier	NOUN	NNS	Number=Plur	13	ccomp	13:ccomp	Cxn=Interrogative-Polar-Indirect|Entity=110)|MSeg=out-li-er-s|SpaceAfter=No
+19	outliers	outlier	NOUN	NNS	Number=Plur	13	ccomp	13:ccomp	Cxn=Interrogative-Polar-Indirect|CxnElt=19:Interrogative-Polar-Indirect.Clause|Entity=110)|MSeg=out-li-er-s|SpaceAfter=No
 20	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_textbook_stats-60
@@ -1502,19 +1502,19 @@
 # s_type = decl
 # transition = establishment
 # text = Prices are in dollars.
-1	Prices	price	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Discourse=elaboration-additional:121->118:1:sem-rpt-1059-1064,1078+num-count-1061+sem-lxchn-1064,1081|Entity=(106-abstract-giv:act-cf1*-1-coref)|MSeg=Price-s
+1	Prices	price	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Discourse=elaboration-additional:121->118:1:sem-rpt-1059-1064,1078+num-count-1061+sem-lxchn-1064,1081|Entity=(106-abstract-giv:act-cf1*-1-coref)|MSeg=Price-s|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:1058-1077:1078-1082
 2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 3	in	in	ADP	IN	_	4	case	4:case	_
 4	dollars	dollar	NOUN	NNS	Number=Plur	0	root	0:root	Entity=(111-abstract-new-cf2-1-coref)|MSeg=dollar-s|SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	4:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GUM_textbook_stats-61
 # s_prominence = 3
 # s_type = frag
 # transition = zero
 # text = 389,950; 230,500; 158,000; 479,000; 639,000; 114,950; 5,500,000; 387,000; 659,000; 529,000; 575,000; 488,800; 1,095,000
-# newpar
-# newpar_block = p (1 s)
 1	389,950	389950	NUM	CD	NumForm=Digit|NumType=Card	0	root	0:root	Discourse=elaboration-additional:122->118:2:_|Entity=(112-abstract-new-cf1-1-sgl)|SpaceAfter=No
 2	;	;	PUNCT	:	_	3	punct	3:punct	_
 3	230,500	230500	NUM	CD	NumForm=Digit|NumType=Card	1	conj	1:conj	Entity=(113-abstract-new-cf2-1-sgl)|SpaceAfter=No
@@ -1541,24 +1541,24 @@
 24	;	;	PUNCT	:	_	25	punct	25:punct	_
 25	1,095,000	1095000	NUM	CD	NumForm=Digit|NumType=Card	1	conj	1:conj	Entity=(124-abstract-new-cf13-1-sgl)
 
+# newpar
+# newpar_block = head (1 s)
 # sent_id = GUM_textbook_stats-62
 # s_prominence = 3
 # s_type = imp
 # transition = null
 # text = Try It 2.15
-# newpar
-# newpar_block = head (1 s)
 1	Try	try	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:123->124:2:grf-ly-
 2	It	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obj	1:obj	Entity=(125-abstract-acc:com-cf1-1-sgl)
 3	2.15	2.15	NUM	CD	NumForm=Digit|NumType=Frac	1	dep	1:dep	_
 
+# newpar
+# newpar_block = p (2 s)
 # sent_id = GUM_textbook_stats-63
 # s_prominence = 2
 # s_type = imp
 # transition = null
 # text = For the 11 salaries, calculate the IQR and determine if any salaries are outliers.
-# newpar
-# newpar_block = p (2 s)
 1	For	for	ADP	IN	_	4	case	4:case	Discourse=joint-list_m:124->118:4:_
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(126-abstract-new-cf4-3-coref
 3	11	11	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
@@ -1567,13 +1567,13 @@
 6	calculate	calculate	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	MSeg=calcul-ate
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Bridge=126<127|Entity=(127-abstract-acc:inf-cf1-2-sgl
 8	IQR	IQR	PROPN	NNP	Number=Sing	6	obj	6:obj	Entity=127)|XML=<hi rend:::"italic"></hi>
-9	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=attribution-positive:125->126:0:lex-indwd-1120+sem-atsrc-1120+syn-rpr-1121
+9	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=attribution-positive:125->126:0:lex-indwd-1120+sem-atsrc-1120+syn-rpr-1121|PDTB=Explicit:Expansion.Conjunction:and:1119:1111-1118:1120-1126
 10	determine	determine	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	6	conj	6:conj:and	_
 11	if	if	SCONJ	IN	_	15	mark	15:mark	Discourse=joint-list_m:126->124:0:dm-and-1119
 12	any	any	DET	DT	PronType=Ind	13	det	13:det	Entity=(128-abstract-new-cf2-2-sgl
 13	salaries	salary	NOUN	NNS	Number=Plur	15	nsubj	15:nsubj	Entity=128)|MSeg=salarie-s
 14	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	_
-15	outliers	outlier	NOUN	NNS	Number=Plur	10	ccomp	10:ccomp	Cxn=Interrogative-Polar-Indirect|Entity=(129-abstract-new-cf3-1-sgl)|MSeg=out-li-er-s|SpaceAfter=No
+15	outliers	outlier	NOUN	NNS	Number=Plur	10	ccomp	10:ccomp	Cxn=Interrogative-Polar-Indirect|CxnElt=15:Interrogative-Polar-Indirect.Clause|Entity=(129-abstract-new-cf3-1-sgl)|MSeg=out-li-er-s|SpaceAfter=No
 16	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_textbook_stats-64
@@ -1589,13 +1589,13 @@
 6	dollars	dollar	NOUN	NNS	Number=Plur	0	root	0:root	Entity=(111-abstract-giv:inact-cf2-1-pred)|MSeg=dollar-s|SpaceAfter=No
 7	.	.	PUNCT	.	_	6	punct	6:punct	_
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GUM_textbook_stats-65
 # s_prominence = 3
 # s_type = frag
 # transition = zero
 # text = $33,000; $64,500; $28,000; $54,000; $72,000; $68,500; $69,000; $42,000; $54,000; $120,000; $40,500
-# newpar
-# newpar_block = p (1 s)
 1	$	$	SYM	$	_	0	root	0:root	Discourse=elaboration-additional:128->124:1:num-count-1113|Entity=(130-abstract-new-cf2-1-sgl|SpaceAfter=No|XML=<w>
 2	33,000	33000	NUM	CD	NumForm=Digit|NumType=Card	1	nummod	1:nummod	Entity=130)|SpaceAfter=No|XML=</w>
 3	;	;	PUNCT	:	_	4	punct	4:punct	_
@@ -1629,13 +1629,13 @@
 31	$	$	SYM	$	_	1	conj	1:conj	Entity=(140-abstract-new-cf11-1-sgl|SpaceAfter=No|XML=<w>
 32	40,500	40500	NUM	CD	NumForm=Digit|NumType=Card	31	nummod	31:nummod	Entity=140)|XML=</w>
 
+# newpar
+# newpar_block = p (4 s)
 # sent_id = GUM_textbook_stats-66
 # s_prominence = 3
 # s_type = decl
 # transition = null
 # text = In the example above, you just saw the calculation of the median, first quartile, and third quartile.
-# newpar
-# newpar_block = p (4 s)
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=context-background:129->130:0:ref-dem-1177-1185,1187-1189
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(105-abstract-giv:inact-cf2-2-coref
 3	example	example	NOUN	NN	Number=Sing	8	obl	8:obl:in	_
@@ -1663,7 +1663,7 @@
 # s_type = decl
 # transition = establishment
 # text = These three values are part of the five number summary.
-1	These	this	DET	DT	Number=Plur|PronType=Dem	3	det	3:det	Discourse=elaboration-additional:130->2:3:_|Entity=(142-abstract-giv:act-cf1*-3-coref
+1	These	this	DET	DT	Number=Plur|PronType=Dem	3	det	3:det	Discourse=elaboration-additional:130->2:3:_|Entity=(142-abstract-giv:act-cf1*-3-coref|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:and:_:1166-1186:1187-1197
 2	three	three	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	_
 3	values	value	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=142)|MSeg=value-s
 4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
@@ -1689,7 +1689,7 @@
 7	minimum	minimum	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	value	value	NOUN	NN	Number=Sing	0	root	0:root	Entity=146)
 9	(	(	PUNCT	-LRB-	_	11	punct	11:punct	Discourse=restatement-partial:132->131:0:sem-synym-1203-1205,1208+grf-prn-1206,1209+dm-or-1207|SpaceAfter=No
-10	or	or	CCONJ	CC	_	11	cc	11:cc	_
+10	or	or	CCONJ	CC	_	11	cc	11:cc	PDTB=Explicit:Expansion.Equivalence:or:1207:1198-1205,1210-1213:1206,1208-1209
 11	min	min	NOUN	NN	Number=Sing	8	conj	8:conj:or	Entity=(146-abstract-giv:act-cf1-1-coref)|SpaceAfter=No
 12	)	)	PUNCT	-RRB-	_	11	punct	11:punct	_
 13	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=same-unit_m:133->131:1:_
@@ -1697,7 +1697,7 @@
 15	maximum	maximum	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
 16	value	value	NOUN	NN	Number=Sing	8	conj	8:conj:and	Entity=147)
 17	(	(	PUNCT	-LRB-	_	19	punct	19:punct	Discourse=restatement-partial:134->133:0:sem-synym-1211-1213,1216+grf-prn-1214,1217+dm-or-1215|SpaceAfter=No
-18	or	or	CCONJ	CC	_	19	cc	19:cc	_
+18	or	or	CCONJ	CC	_	19	cc	19:cc	PDTB=Explicit:Expansion.Equivalence:or:1215:1198-1205,1210-1213:1214,1216-1218
 19	max	max	NOUN	NN	Number=Sing	16	conj	8:conj|16:conj:or	Entity=(147-abstract-giv:act-cf2-1-coref)|SpaceAfter=No
 20	)	)	PUNCT	-RRB-	_	19	punct	19:punct	SpaceAfter=No
 21	.	.	PUNCT	.	_	8	punct	8:punct	_
@@ -1707,13 +1707,13 @@
 # s_type = decl
 # transition = null
 # text = The five number summary is used to create a box plot.
-1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Discourse=elaboration-additional:135->130:2:sem-rpt-1193-1196,1219-1222+sem-rpt-1194-1195,1220-1221|Entity=(143-abstract-giv:inact-cf1-4-coref
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Discourse=elaboration-additional:135->130:2:sem-rpt-1193-1196,1219-1222+sem-rpt-1194-1195,1220-1221|Entity=(143-abstract-giv:inact-cf1-4-coref|PDTB=EntRel:EntRel:_:_:1198-1218:1219-1230
 2	five	five	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	Entity=(144-abstract-giv:inact-cf2-2-coref
 3	number	number	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=144)
 4	summary	summary	NOUN	NN	Number=Sing	6	nsubj:pass	6:nsubj:pass	Entity=143)
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	6:aux:pass	_
 6	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=us-ed
-7	to	to	PART	TO	_	8	mark	8:mark	Discourse=purpose-goal:136->135:0:syn-inf-1225
+7	to	to	PART	TO	_	8	mark	8:mark	Discourse=purpose-goal:136->135:0:syn-inf-1225|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:1219-1224:1225-1230
 8	create	create	VERB	VB	VerbForm=Inf	6	advcl	6:advcl:to	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(148-abstract-new-cf3-3-sgl
 10	box	box	NOUN	NN	Number=Sing	11	compound	11:compound	_
