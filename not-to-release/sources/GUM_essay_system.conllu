@@ -52,7 +52,7 @@
 # text = #systemanalysis, #proposal, #technology, #automotiveindustry, #logos, #research, #sharedvalues #cognitivebias
 1	#systemanalysis	#systemanalysis	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-background:4->107:6:_|Entity=(4-abstract-new-nnnnn-cf1-1-sgl-Systems_analysis)|MSeg=#-system-analys-is|SpaceAfter=No
 2	,	,	PUNCT	,	_	3	punct	3:punct	_
-3	#proposal	#proposal	PROPN	NNP	Number=Sing	1	list	1:list	Entity=(5-abstract-new-nnnnn-cf2-1-sgl)|SpaceAfter=No
+3	#proposal	#proposal	PROPN	NNP	Number=Sing	1	list	1:list	Entity=(5-abstract-new-nnnnn-cf2-1-sgl)|MSeg=#-propos-al|SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
 5	#technology	#technology	PROPN	NNP	Number=Sing	1	list	1:list	Entity=(6-abstract-new-nnnnn-cf3-1-sgl)|MSeg=#-techno-log-y|SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	7:punct	_
@@ -136,7 +136,7 @@
 9	head	head	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	_
 10	of	of	ADP	IN	_	12	case	12:case	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(23-organization-new-nnnnn-cf3-2-coref
-12	union	union	NOUN	NN	Number=Sing	9	nmod	9:nmod:of	Entity=23)22)
+12	union	union	NOUN	NN	Number=Sing	9	nmod	9:nmod:of	Entity=23)22)|MSeg=uni-on
 13	admits	admit	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 14	.	.	PUNCT	.	_	13	punct	13:punct	_
 
@@ -394,14 +394,14 @@
 27	places	place	NOUN	NNS	Number=Plur	19	obl	19:obl:in	Entity=62)|MSeg=place-s|SpaceAfter=No
 28	,	,	PUNCT	,	_	29	punct	29:punct	_
 29	filing	file	VERB	VBG	Tense=Pres|VerbForm=Part	16	conj	16:conj	Discourse=joint-list_m:36->34:0:syn-prl-253-254,263-265|MSeg=fil-ing|PDTB=Implicit:Expansion.Conjunction:and:_:253-262:263-266
-30	union	union	NOUN	NN	Number=Sing	31	compound	31:compound	Entity=(27-abstract-giv:inact-nnnnn-cf3-2-coref(23-organization-giv:inact-nnnnn-cf4-1-coref)
+30	union	union	NOUN	NN	Number=Sing	31	compound	31:compound	Entity=(27-abstract-giv:inact-nnnnn-cf3-2-coref(23-organization-giv:inact-nnnnn-cf4-1-coref)|MSeg=uni-on
 31	grievances	grievance	NOUN	NNS	Number=Plur	29	obj	29:obj	Entity=27)|MSeg=grievance-s|SpaceAfter=No
 32	,	,	PUNCT	,	_	35	punct	35:punct	_
 33	sometimes	sometimes	ADV	RB	_	35	advmod	35:advmod	Discourse=joint-list_m:37->34:0:syn-prl-263-265,269-270|MSeg=sometime-s|PDTB=Implicit:Expansion.Conjunction:and:_:263-266:267-272
 34	even	even	ADV	RB	_	35	advmod	35:advmod	_
 35	building	build	VERB	VBG	Tense=Pres|VerbForm=Part	16	conj	16:conj	MSeg=build-ing
 36	cars	car	NOUN	NNS	Number=Plur	35	obj	35:obj	Entity=(29-object-giv:act-nnnnn-cf2-1-coref)|MSeg=car-s
-37	unsafely	unsafely	ADV	RB	Degree=Pos	35	advmod	35:advmod	Entity=60)|Negation=Yes|SpaceAfter=No
+37	unsafely	unsafely	ADV	RB	Degree=Pos	35	advmod	35:advmod	Entity=60)|MSeg=un-safe-ly|Negation=Yes|SpaceAfter=No
 38	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_essay_system-17
@@ -462,7 +462,7 @@
 24	with	with	ADP	IN	_	25	case	25:case	_
 25	GM	GM	PROPN	NNP	Number=Sing	23	obl	23:obl:with	Entity=(18-organization-giv:act-sssss-cf3-1-coref-General_Motors)
 26	to	to	PART	TO	_	27	mark	27:mark	Discourse=purpose-goal:43->40:2:syn-inf-311|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:286-310:311-314
-27	reopen	reopen	VERB	VB	VerbForm=Inf	23	advcl	23:advcl:to	_
+27	reopen	reopen	VERB	VB	VerbForm=Inf	23	advcl	23:advcl:to	MSeg=re-open
 28	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	obj	27:obj	Entity=(17-place-giv:act-sssss-cf2*-1-ana)|SpaceAfter=No
 29	,	,	PUNCT	,	_	30	punct	30:punct	_
 30	hiring	hire	VERB	VBG	Tense=Pres|VerbForm=Part	23	advcl	23:advcl	Discourse=mode-manner:44->40:3:syn-pres-315|MSeg=hir-ing|PDTB=Implicit:Expansion.Manner.Arg2-as-manner:by:_:286-314:315-327
@@ -470,7 +470,7 @@
 32	the	the	DET	DT	Definite=Def|PronType=Art	36	det	36:det	Entity=(59-person-giv:inact-snnsn-cf4-5-coref
 33	same	same	ADJ	JJ	Degree=Pos	36	amod	36:amod	_
 34	old	old	ADJ	JJ	Degree=Pos	36	amod	36:amod	_
-35	disastrous	disastrous	ADJ	JJ	Degree=Pos	36	amod	36:amod	_
+35	disastrous	disastrous	ADJ	JJ	Degree=Pos	36	amod	36:amod	MSeg=disastr-ous
 36	workers	worker	NOUN	NNS	Number=Plur	30	obj	30:obj	Entity=59)|MSeg=work-er-s
 37	into	into	ADP	IN	_	41	case	41:case	MSeg=in-to
 38	the	the	DET	DT	Definite=Def|PronType=Art	41	det	41:det	Entity=(67-abstract-new-nnnnn-cf8-4-sgl
@@ -586,7 +586,7 @@
 1	“	"	PUNCT	``	_	3	punct	3:punct	Discourse=context-background:55->58:0:mrf-tns-410|SpaceAfter=No|XML=<quote>
 2	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(38-person-giv:inact-nnnnn-cf2-1-ana)
 3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	35	ccomp	35:ccomp	_
-4	union	union	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(59-person-giv:inact-snnsn-cf1-2-coref
+4	union	union	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(59-person-giv:inact-snnsn-cf1-2-coref|MSeg=uni-on
 5	workers	worker	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=59)|MSeg=work-er-s|SpaceAfter=No|XML=<w>
 6	—	—	PUNCT	:	_	9	punct	9:punct	SpaceAfter=No
 7	grizzled	grizzled	ADJ	JJ	Degree=Pos	9	amod	9:amod	Discourse=elaboration-additional:56->55:0:sem-synym-403-404,406-418|Entity=(59-person-giv:act-snnsn-cf1-3-appos|MSeg=grizzl-ed|XML=</w>
@@ -617,7 +617,7 @@
 32	tears	tear	NOUN	NNS	Number=Plur	24	obl	24:obl:in	MSeg=tear-s|SpaceAfter=No
 33	,	,	PUNCT	,	_	3	punct	3:punct	SpaceAfter=No
 34	”	"	PUNCT	''	_	3	punct	3:punct	XML=</quote>
-35	recalls	recall	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:59->58:1:grf-qt-400,433+lex-indwd-434+sem-atsrc-435-437
+35	recalls	recall	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:59->58:1:grf-qt-400,433+lex-indwd-434+sem-atsrc-435-437|MSeg=re-call-s
 36	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	38	nmod:poss	38:nmod:poss	Entity=(81-person-new-nnnnn-cf5-3-sgl(59-person-giv:act-snnsn-cf1-1-ana)
 37	Toyota	Toyota	PROPN	NNP	Number=Sing	38	compound	38:compound	Entity=(65-organization-giv:inact-sssns-cf3-1-coref-Toyota)
 38	trainer	trainer	NOUN	NN	Number=Sing	35	nsubj	35:nsubj	Entity=81)|MSeg=train-er|SpaceAfter=No
@@ -1414,7 +1414,7 @@
 21	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	22	nsubj	22:nsubj	Entity=(38-person-giv:act-nnnnn-cf1*-1-ana)
 22	set	set	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	conj	3:conj:or	_
 23	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	25:det	Entity=(141-time-new-nnnnn-cf4-3-sgl
-24	regular	regular	ADJ	JJ	Degree=Pos	25	amod	25:amod	_
+24	regular	regular	ADJ	JJ	Degree=Pos	25	amod	25:amod	MSeg=regul-ar
 25	time	time	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=141)
 26	to	to	PART	TO	_	28	mark	28:mark	Discourse=purpose-attribute:145->144:0:syn-mdf-1032+syn-inf-1033
 27	consistently	consistently	ADV	RB	Degree=Pos	28	advmod	28:advmod	MSeg=consist-ent-ly
@@ -1489,7 +1489,7 @@
 26	student	student	NOUN	NN	Number=Sing	30	nsubj	30:nsubj|33:nsubj	Entity=151)|MSeg=stud-ent
 27	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	cop	30:cop	_
 28	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	30:det	Entity=(151-person-giv:act-nnnnn-cf1-3-pred
-29	fictional	fictional	ADJ	JJ	Degree=Pos	30	amod	30:amod	_
+29	fictional	fictional	ADJ	JJ	Degree=Pos	30	amod	30:amod	MSeg=fiction-al
 30	character	character	NOUN	NN	Number=Sing	16	parataxis	16:parataxis	Entity=151)|SpaceAfter=No
 31	,	,	PUNCT	,	_	33	punct	33:punct	_
 32	but	but	CCONJ	CC	_	33	cc	33:cc	Discourse=elaboration-additional:151->149:0:sem-rpt-1080-1082,1085-1086+grf-prn-1084,1098|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:1092:1084-1091:1093-1099

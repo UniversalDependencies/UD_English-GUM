@@ -210,7 +210,7 @@
 12	most	most	ADV	RBS	Degree=Sup	13	advmod	13:advmod	_
 13	effective	effective	ADJ	JJ	Degree=Pos	10	conj	10:conj:and|14:amod	MSeg=effect-ive
 14	method	method	NOUN	NN	Number=Sing	2	ccomp	2:ccomp	_
-15	of	of	SCONJ	IN	_	16	mark	16:mark	Discourse=purpose-attribute:19->18:0:syn-mdf-140+lex-indwd-142+syn-nmn-142
+15	of	of	SCONJ	IN	_	16	mark	16:mark	Discourse=purpose-attribute:19->18:0:syn-mdf-140+syn-nmn-142+lex-indwd-142
 16	preventing	prevent	VERB	VBG	VerbForm=Ger	14	acl	14:acl:of	MSeg=prevent-ing
 17	iodine	iodine	NOUN	NN	Number=Sing	18	compound	18:compound	Entity=(23-abstract-new-nnnnn-cf6-3-coref-Iodine_deficiency(2-abstract-giv:inact-sssss-cf4-2-coref(3-substance-giv:act-sssss-cf2-1-coref-Iodine)|MSeg=iod-ine
 18	deficiency	deficiency	NOUN	NN	Number=Sing	19	compound	19:compound	Entity=2)|MSeg=deficien-cy
@@ -401,7 +401,7 @@
 30	that	that	SCONJ	IN	_	37	mark	37:mark	Entity=(52-event-acc:com-nnnnn-cf6-8-coref
 31	children	child	NOUN	NNS	Number=Plur	37	nsubj	37:nsubj	Entity=(53-person-new-ssnnn-cf7-1-sgl)|MSeg=child-ren
 32	and	and	CCONJ	CC	_	34	cc	34:cc	_
-33	pregnant	pregnant	ADJ	JJ	Degree=Pos	34	amod	34:amod	Entity=(54-person-new-ssnnn-cf10-2-coref
+33	pregnant	pregnant	ADJ	JJ	Degree=Pos	34	amod	34:amod	Entity=(54-person-new-ssnnn-cf10-2-coref|MSeg=pregn-ant
 34	women	woman	NOUN	NNS	Number=Plur	31	conj	31:conj:and|37:nsubj	Entity=54)
 35	in	in	ADP	IN	_	36	case	36:case	_
 36	particular	particular	ADJ	JJ	Degree=Pos	31	nmod	31:nmod:in	MSeg=part-ic-ul-ar
@@ -449,10 +449,10 @@
 4	manufacturers	manufacturer	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	Discourse=joint-other_m:36->3:8:_|Entity=(61-organization-new-nnnnn-cf1-1-coref)|MSeg=manufactur-er-s
 5	could	could	AUX	MD	VerbForm=Fin	7	aux	7:aux	_
 6	easily	easily	ADV	RB	Degree=Pos	7	advmod	7:advmod	MSeg=easi-ly
-7	remedy	remedy	VERB	VB	VerbForm=Inf	3	ccomp	3:ccomp	_
+7	remedy	remedy	VERB	VB	VerbForm=Inf	3	ccomp	3:ccomp	MSeg=remed-y
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(41-abstract-giv:inact-nnnnn-cf3-2-coref
 9	situation	situation	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=41)|MSeg=situat-ion
-10	by	by	SCONJ	IN	_	11	mark	11:mark	Discourse=mode-means:37->36:0:dm-by-327+syn-pres-328+lex-indwd-328|PDTB=Explicit:Contingency.Condition.Arg1-as-cond:by:327:321-326:328-344;Explicit:Expansion.Manner.Arg2-as-manner:by:327:321-326:328-344
+10	by	by	SCONJ	IN	_	11	mark	11:mark	Discourse=mode-means:37->36:0:dm-by-327+lex-indwd-328+syn-pres-328|PDTB=Explicit:Contingency.Condition.Arg1-as-cond:by:327:321-326:328-344;Explicit:Expansion.Manner.Arg2-as-manner:by:327:321-326:328-344
 11	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	7	advcl	7:advcl:by	Entity=(62-abstract-new-nnnnn-cf8-1,11-disc|MSeg=us-ing
 12	iodised	iodise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	amod	13:amod	Entity=(39-substance-giv:inact-snnns-cf4-2-coref|MSeg=iodis-ed
 13	salt	salt	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=39)
@@ -742,7 +742,7 @@
 4	go	go	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	advcl	13:advcl:if	CxnElt=13:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 5	to	to	ADP	IN	_	8	case	8:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(88-person-new-nnnnn-cf1-3-coref
-7	pregnant	pregnant	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
+7	pregnant	pregnant	ADJ	JJ	Degree=Pos	8	amod	8:amod	MSeg=pregn-ant
 8	woman	woman	NOUN	NN	Number=Sing	4	obl	4:obl:to	Entity=88)|SpaceAfter=No
 9	,	,	PUNCT	,	_	4	punct	4:punct	_
 10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	Discourse=contingency-condition:64->65:1:_|Entity=(88-person-giv:act-nnnnn-cf1-1-ana)
@@ -1205,7 +1205,7 @@
 8	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	6:ccomp	Cxn=Existential-CopPred-ThereExpl
 9	sufficient	sufficient	ADJ	JJ	Degree=Pos	10	amod	10:amod	MSeg=suffic-ient
 10	iodine	iodine	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	CxnElt=8:Existential-CopPred-ThereExpl.Pivot|Entity=(3-substance-giv:inact-sssss-cf2-1-coref-Iodine)|MSeg=iod-ine
-11	added	add	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	acl	10:acl	Discourse=elaboration-attribute:107->106:0:syn-mdf-915+syn-nmn-916+lex-indwd-916|MSeg=add-ed|PDTB=AltLex:Expansion.Conjunction:added:916:906-915:917-921
+11	added	add	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	acl	10:acl	Discourse=elaboration-attribute:107->106:0:syn-mdf-915+lex-indwd-916+syn-nmn-916|MSeg=add-ed|PDTB=AltLex:Expansion.Conjunction:added:916:906-915:917-921
 12	into	into	ADP	IN	_	15	case	15:case	MSeg=in-to
 13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(129-abstract-acc:com-n____-cf5-3-sgl
 14	food	food	NOUN	NN	Number=Sing	15	compound	15:compound	Entity=(47-substance-giv:inact-nsnnn-cf3-1-coref)
@@ -1353,7 +1353,7 @@
 22	to	to	PART	TO	_	23	mark	23:mark	Entity=(148-abstract-acc:com-nnnnn-cf9-2-coref
 23	assume	assume	VERB	VB	VerbForm=Inf	21	csubj	21:csubj	_
 24	that	that	SCONJ	IN	_	33	mark	33:mark	_
-25	pregnant	pregnant	ADJ	JJ	Degree=Pos	26	amod	26:amod	Entity=(54-person-giv:inact-ssnnn-cf2-2-coref
+25	pregnant	pregnant	ADJ	JJ	Degree=Pos	26	amod	26:amod	Entity=(54-person-giv:inact-ssnnn-cf2-2-coref|MSeg=pregn-ant
 26	women	woman	NOUN	NNS	Number=Plur	33	nsubj	33:nsubj	Entity=54)
 27	and	and	CCONJ	CC	_	29	cc	29:cc	_
 28	breastfeeding	breastfeed	VERB	VBG	VerbForm=Ger	29	amod	29:amod	Entity=(149-person-new-n____-cf13-2-sgl|MSeg=breastfeed-ing
