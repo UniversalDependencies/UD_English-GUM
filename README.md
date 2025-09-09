@@ -499,6 +499,7 @@ For papers focusing on the salience annotations, please cite this paper instead:
 Data available since: UD v2.2
 License: CC BY-NC-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: academic blog email fiction government legal news nonfiction social spoken web wiki
 Lemmas: manual native
 UPOS: converted from manual
