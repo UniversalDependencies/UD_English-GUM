@@ -391,6 +391,10 @@ For papers focusing on the salience annotations, please cite this paper instead:
 
 # Changelog
 
+* 2025-11-01
+  * Changed dep to parataxis for footnotes and citations
+  * Error corrections
+
 * 2025-03-13
   * Added GUM V11 documents
   * Added 5 summaries per document
