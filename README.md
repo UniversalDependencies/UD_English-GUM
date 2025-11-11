@@ -391,6 +391,10 @@ For papers focusing on the salience annotations, please cite this paper instead:
 
 # Changelog
 
+* 2025-11-01
+  * Changed dep to parataxis for footnotes and citations
+  * Error corrections
+
 * 2025-03-13
   * Added GUM V11 documents
   * Added 5 summaries per document
@@ -499,6 +503,7 @@ For papers focusing on the salience annotations, please cite this paper instead:
 Data available since: UD v2.2
 License: CC BY-NC-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: academic blog email fiction government legal news nonfiction social spoken web wiki
 Lemmas: manual native
 UPOS: converted from manual
