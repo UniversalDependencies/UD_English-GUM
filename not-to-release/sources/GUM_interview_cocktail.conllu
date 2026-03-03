@@ -85,7 +85,7 @@
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 4	inspired	inspire	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=inspir-ed
 5	by	by	ADP	IN	_	8	case	8:case	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(10-abstract-new-sssss-cf3-3,9,12,21,22,24-coref
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(10-abstract-new-sssss-cf3-3,9,12,21,24-coref
 7	santorum	santorum	NOUN	NN	Number=Sing	8	compound	8:compound	Entity=(6-person-giv:inact-sssss-cf2-1-coref-Rick_Santorum)|XML=<ref target:::"https://en.wikinews.org/wiki/Category:Campaign_for_%22santorum%22_neologism">
 8	neologism	neologism	NOUN	NN	Number=Sing	4	obl:agent	4:obl:agent	XML=</ref>
 9	coined	coin	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	acl	8:acl	Discourse=elaboration-attribute:6->5:0:syn-mdf-47-_+syn-nmn-48-_|MSeg=coin-ed
@@ -102,10 +102,10 @@
 19	in	in	ADP	IN	_	20	case	20:case	_
 20	response	response	NOUN	NN	Number=Sing	9	obl	9:obl:in	_
 21	to	to	ADP	IN	_	22	case	22:case	_
-22	comments	comment	NOUN	NNS	Number=Plur	20	nmod	20:nmod:to	Entity=(13-abstract-new-nnnnn-cf6-1,5,6,8-sgl|MSeg=comment-s
+22	comments	comment	NOUN	NNS	Number=Plur	20	nmod	20:nmod:to	Entity=(13-abstract-new-nnnnn-cf6-1,5,8-sgl|MSeg=comment-s
 23	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	acl	22:acl	Discourse=elaboration-attribute:7->6:0:syn-mdf-61-_+syn-nmn-62-_
 24	by	by	ADP	IN	_	28	case	28:case	_
-25	former	former	ADJ	JJ	Degree=Pos	27	amod	27:amod	Entity=(6-person-giv:act-sssss-cf2-2,3,4,5-coref-Rick_Santorum|MSeg=form-er
+25	former	former	ADJ	JJ	Degree=Pos	27	amod	27:amod	Entity=(6-person-giv:act-sssss-cf2-2,4,5-coref-Rick_Santorum|MSeg=form-er
 26	Pennsylvania	Pennsylvania	PROPN	NNP	Number=Sing	27	compound	27:compound	Entity=(14-place-new-snnnn-cf8-1-sgl-Pennsylvania)
 27	Senator	Senator	PROPN	NNP	Number=Sing	28	nmod:desc	28:nmod:desc	MSeg=Senat-or
 28	Rick	Rick	PROPN	NNP	Number=Sing	23	obl:agent	23:obl:agent	_
@@ -156,7 +156,7 @@
 # s_type = frag
 # transition = zero
 # text = Background
-1	Background	background	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:10->11:3:grf-ly-_-_|Entity=(21-abstract-new-nnnnn-cf1-1-sgl)|MSeg=Back-ground|XML=<hi rend:::"bold"></hi>
+1	Background	background	NOUN	NN	Number=Sing	0	root	0:root	Bridge=10<21:entity-associative|Discourse=organization-heading:10->11:3:grf-ly-_-_|Entity=(21-abstract-acc:inf-nnnnn-cf1-1-sgl)|MSeg=Back-ground|XML=<hi rend:::"bold"></hi>
 
 # newpar
 # newpar_block = figure rend:::"Political cartoon by Zach Weiner" (3 s) | caption (3 s)
@@ -180,11 +180,11 @@
 13	political	political	ADJ	JJ	Degree=Pos	14	amod	14:amod	MSeg=politic-al
 14	cartoon	cartoon	NOUN	NN	Number=Sing	7	nmod	7:nmod:including	_
 15	by	by	ADP	IN	_	22	case	22:case	_
-16	Saturday	Saturday	PROPN	NNP	Number=Sing	17	compound	17:compound	Entity=(25-person-new-nnnnn-cf5-1,3,7,8-coref-Zach_Weinersmith(26-abstract-new-nnnnn-cf7-1,3,5-sgl-Saturday_Morning_Breakfast_Cereal
+16	Saturday	Saturday	PROPN	NNP	Number=Sing	17	compound	17:compound	Entity=(25-person-new-nnnnn-cf5-1,3,7,8-coref-Zach_Weinersmith(26-abstract-new-nnnnn-cf7-1,3,5-sgl-Saturday_Morning_Breakfast_Cereal|MSeg=Satur-day
 17	Morning	Morning	PROPN	NNP	Number=Sing	21	compound	21:compound	MSeg=Morn-ing
 18	Breakfast	Breakfast	PROPN	NNP	Number=Sing	19	compound	19:compound	MSeg=Break-fast
 19	Cereal	Cereal	PROPN	NNP	Number=Sing	21	compound	21:compound	_
-20	webcomic	webcomic	NOUN	NN	Number=Sing	21	compound	21:compound	Entity=26)
+20	webcomic	webcomic	NOUN	NN	Number=Sing	21	compound	21:compound	Entity=26)|MSeg=web-comic
 21	artist	artist	NOUN	NN	Number=Sing	22	nmod:desc	22:nmod:desc	MSeg=art-ist
 22	Zach	Zach	PROPN	NNP	Number=Sing	14	nmod	14:nmod:by	_
 23	Weiner	Weiner	PROPN	NNP	Number=Sing	22	flat	22:flat	Entity=25)24)22)|SpaceAfter=No
@@ -248,7 +248,7 @@
 # s_type = decl
 # transition = establishment
 # text = Stan commented on the creation of the Santorum cocktail, "When he was winning in the polls, I thought, 'OK, I'll do a Santorum'."
-1	Stan	Stan	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=attribution-positive:18->21:2:sem-atsrc-158-_+lex-indwd-159-_+syn-rpr-168,172,177,179,185,189-190-_+grf-qt-168,180,188,190-_|Entity=(30-person-giv:act-snsnn-cf2*-1-coref)|PDTB=Implicit:Temporal.Asynchronous.Succession:previously:_:132-157:158-190
+1	Stan	Stan	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=attribution-positive:18->21:2:sem-atsrc-158-_+lex-indwd-159-_+syn-rpr-168,172,177,179,185,189-190-_+grf-qt-168,180,188,190-_|Entity=(30-person-giv:act-snsnn-cf2*-1-coref)|PDTB=EntRel:EntRel:_:_:132-157:158-190
 2	commented	comment	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=comment-ed
 3	on	on	ADP	IN	_	5	case	5:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(32-event-new-nnnnn-cf4-2-sgl
@@ -262,7 +262,7 @@
 12	When	when	ADV	WRB	PronType=Int	15	advmod	15:advmod	PDTB=Explicit:Temporal.Synchronous:when:169:177-190:168,170-176
 13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj	Entity=(6-person-giv:act-sssss-cf1-1-ana-Rick_Santorum)
 14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	15:aux	_
-15	winning	win	VERB	VBG	Tense=Pres|VerbForm=Part	21	advcl	21:advcl:when	MSeg=w-inn-ing
+15	winning	win	VERB	VBG	Tense=Pres|VerbForm=Part	21	advcl	21:advcl:when	MSeg=winn-ing
 16	in	in	ADP	IN	_	18	case	18:case	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(33-event-new-nnnnn-cf5-2-sgl
 18	polls	poll	NOUN	NNS	Number=Plur	15	obl	15:obl:in	Entity=33)|MSeg=poll-s|SpaceAfter=No
@@ -345,19 +345,19 @@
 6	Santorum	Santorum	PROPN	NNP	Number=Sing	7	compound	7:compound	Entity=(6-person-giv:act-sssss-cf2-1-coref-Rick_Santorum)
 7	drink	drink	NOUN	NN	Number=Sing	3	nmod	3:nmod:of	Entity=5)36)
 8	include	include	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=in-clude
-9	vodka	vodka	NOUN	NN	Number=Sing	8	obj	8:obj	Bridge=36<37|Entity=(37-substance-acc:inf-nsnns-cf3-1-sgl
+9	vodka	vodka	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=(37-substance-auto-nsnns-cf3-1-sgl
 10	of	of	ADP	IN	_	14	case	14:case	_
 11	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(38-substance-new-nnnnn-cf7-4-sgl
 12	orange	orange	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
 13	citrus	citrus	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
 14	variety	variety	NOUN	NN	Number=Sing	9	nmod	9:nmod:of	Entity=38)37)|MSeg=vari-ety|SpaceAfter=No
 15	,	,	PUNCT	,	_	18	punct	18:punct	_
-16	Baileys	Baileys	PROPN	NNP	Number=Sing	18	compound	18:compound	Bridge=36<39|Entity=(39-substance-acc:inf-nsnns-cf4-1,2,3-coref-Baileys_Irish_Cream
+16	Baileys	Baileys	PROPN	NNP	Number=Sing	18	compound	18:compound	Entity=(39-substance-auto-nsnns-cf4-1,2,3-coref-Baileys_Irish_Cream
 17	Irish	Irish	PROPN	NNP	Number=Sing	18	compound	18:compound	MSeg=Ir-ish
 18	Cream	Cream	PROPN	NNP	Number=Sing	14	conj	9:nmod:of|14:conj:and	Entity=39)|SpaceAfter=No
 19	,	,	PUNCT	,	_	22	punct	22:punct	_
 20	and	and	CCONJ	CC	_	22	cc	22:cc	_
-21	Angostura	Angostura	PROPN	NNP	Number=Sing	22	compound	22:compound	Bridge=36<40|Entity=(40-substance-acc:inf-nnnns-cf5-2-sgl
+21	Angostura	Angostura	PROPN	NNP	Number=Sing	22	compound	22:compound	Entity=(40-substance-auto-nnnns-cf5-2-sgl
 22	bitters	bitter	NOUN	NNS	Number=Plur	14	conj	9:nmod:of|14:conj:and	Entity=40)|MSeg=bitt-er-s|SpaceAfter=No
 23	.	.	PUNCT	.	_	8	punct	8:punct	_
 
@@ -386,7 +386,7 @@
 # s_type = decl
 # transition = continue
 # text = The beverage is priced at US $ 8.00, and upon an order for it, the bartender will recount for the customer the definition of the santorum neologism.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:31->28:1:sem-synym-233-235,266-267-_+sem-rpt-234,293-_|Entity=(5-substance-giv:act-sssss-cf1*-2-coref|PDTB=EntRel:EntRel:_:_:252-265:266-295
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:31->28:1:sem-synym-233-235,266-267-_+sem-rpt-234,293-_|Entity=(5-substance-giv:act-sssss-cf1*-2-coref|PDTB=Implicit:Expansion.Conjunction:further:_:252-265:266-295
 2	beverage	beverage	NOUN	NN	Number=Sing	4	nsubj:pass	4:nsubj:pass	Entity=5)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 4	priced	price	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=pric-ed
@@ -402,14 +402,14 @@
 14	for	for	ADP	IN	_	15	case	15:case	_
 15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nmod	13:nmod:for	Entity=(5-substance-giv:act-sssss-cf1*-1-ana)47)|SpaceAfter=No
 16	,	,	PUNCT	,	_	13	punct	13:punct	_
-17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(48-person-new-nnnnn-cf4-2-sgl
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Bridge=3<48:entity-associative|Entity=(48-person-acc:inf-nnnnn-cf4-2-sgl
 18	bartender	bartender	NOUN	NN	Number=Sing	20	nsubj	20:nsubj	Entity=48)|MSeg=bar-tend-er
 19	will	will	AUX	MD	VerbForm=Fin	20	aux	20:aux	_
 20	recount	recount	VERB	VB	VerbForm=Inf	4	conj	4:conj:and	_
 21	for	for	ADP	IN	_	23	case	23:case	_
-22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(49-person-new-nnnnn-cf6-2-sgl
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Bridge=3<49:entity-associative|Entity=(49-person-acc:inf-nnnnn-cf5-2-sgl
 23	customer	customer	NOUN	NN	Number=Sing	20	obl	20:obl:for	Entity=49)|MSeg=custom-er
-24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(50-abstract-new-nnnsn-cf5-2-coref
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(50-abstract-new-nnnsn-cf6-2-coref
 25	definition	definition	NOUN	NN	Number=Sing	20	obj	20:obj	MSeg=defini-tion
 26	of	of	ADP	IN	_	29	case	29:case	_
 27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	29:det	Entity=(10-abstract-giv:inact-sssss-cf2-3-coref
@@ -555,7 +555,7 @@
 # s_type = decl
 # transition = retain
 # text = Readers of the Savage Love advice column selected a new definition for the Senator’s last name, and Savage created a website SpreadingSantorum.com to promulgate the spread of the phenomenon.
-1	Readers	reader	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj	Discourse=joint-other_m:46->11:2:_|Entity=(16-person-giv:inact-nnnnn-cf4-1,4-coref|MSeg=Read-er-s|PDTB=Implicit:Temporal.Asynchronous.Precedence:later:_:374-398:399-430
+1	Readers	reader	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj	Discourse=joint-other_m:46->11:2:_|Entity=(16-person-giv:inact-nnnnn-cf4-1,4-coref|MSeg=Read-er-s|PDTB=NoRel:NoRel:_:_:374-398:399-430
 2	of	of	ADP	IN	_	7	case	7:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(11-abstract-giv:inact-nnnnn-cf6-2,5-coref-Savage_Love
 4	Savage	Savage	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=(12-person-giv:inact-ssssn-cf1-1-coref-Dan_Savage)
@@ -585,7 +585,7 @@
 27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Entity=(67-abstract-new-nnnnn-cf8-2-sgl
 28	spread	spread	NOUN	NN	Number=Sing	26	obj	26:obj	_
 29	of	of	ADP	IN	_	31	case	31:case	_
-30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	31:det	Entity=(68-abstract-acc:com-nnnnn-cf7-2-coref
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	31:det	Bridge=10<68:entity-associative|Entity=(68-abstract-acc:inf-nnnnn-cf7-2-coref
 31	phenomenon	phenomenon	NOUN	NN	Number=Sing	28	nmod	28:nmod:of	Entity=68)67)|SpaceAfter=No
 32	.	.	PUNCT	.	_	8	punct	8:punct	_
 
@@ -608,16 +608,16 @@
 12	gained	gain	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	3:conj:and	MSeg=gain-ed
 13	dominance	dominance	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=(71-abstract-new-nnnnn-cf5-1-sgl)|MSeg=domin-ance
 14	on	on	ADP	IN	_	17	case	17:case	_
-15	Web	Web	PROPN	NNP	Number=Sing	17	compound	17:compound	Entity=(72-abstract-new-nnnnn-cf8-3-coref(73-abstract-new-nnnnn-cf9-1-sgl-Internet)
+15	Web	Web	PROPN	NNP	Number=Sing	17	compound	17:compound	Entity=(72-abstract-new-nnnnn-cf8-3-sgl(73-abstract-new-nnnnn-cf9-1-sgl-Internet)
 16	search	search	NOUN	NN	Number=Sing	17	compound	17:compound	_
 17	engines	engine	NOUN	NNS	Number=Plur	12	obl	12:obl:on	Entity=72)|MSeg=engine-s
-18	including	include	VERB	VBG	Tense=Pres|VerbForm=Part	19	case	19:case	Discourse=elaboration-additional:51->50:0:sem-mrnym-445-447,449-_+lex-indwd-448-_|MSeg=includ-ing
-19	Google	Google	PROPN	NNP	Number=Sing	17	nmod	17:nmod:including	Bridge=72<74|Entity=(74-organization-acc:inf-nnnnn-cf2-1-coref-Google)|SpaceAfter=No
+18	including	include	VERB	VBG	Tense=Pres|VerbForm=Part	19	case	19:case	Discourse=elaboration-additional:51->50:0:lex-indwd-448-_|MSeg=includ-ing
+19	Google	Google	PROPN	NNP	Number=Sing	17	nmod	17:nmod:including	Entity=(74-organization-auto-nnnnn-cf2-1-coref-Google)|SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	21:punct	_
-21	Bing	Bing	PROPN	NNP	Number=Sing	19	conj	17:nmod:including|19:conj:and	Bridge=72<75|Entity=(75-organization-acc:inf-nnnnn-cf3-1-sgl-Microsoft_Bing)|SpaceAfter=No
+21	Bing	Bing	PROPN	NNP	Number=Sing	19	conj	17:nmod:including|19:conj:and	Entity=(75-organization-auto-nnnnn-cf3-1-sgl-Microsoft_Bing)|SpaceAfter=No
 22	,	,	PUNCT	,	_	24	punct	24:punct	_
 23	and	and	CCONJ	CC	_	24	cc	24:cc	_
-24	Yahoo!	Yahoo!	PROPN	NNP	Number=Sing	19	conj	17:nmod:including|19:conj:and	Bridge=72<76|Entity=(76-organization-acc:inf-nnnnn-cf4-1-sgl-Yahoo!_Search)|SpaceAfter=No
+24	Yahoo!	Yahoo!	PROPN	NNP	Number=Sing	19	conj	17:nmod:including|19:conj:and	Entity=(76-organization-auto-nnnnn-cf4-1-sgl-Yahoo!_Search)|SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # newpar
@@ -777,7 +777,7 @@
 # s_type = frag
 # transition = zero
 # text = Interview
-1	Interview	interview	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:66->67:2:grf-ly-_-_|Entity=(91-event-new-nnnnn-cf1-1-coref)|MSeg=Inter-view|XML=<hi rend:::"bold"></hi>
+1	Interview	interview	NOUN	NN	Number=Sing	0	root	0:root	Bridge=5<91:entity-associative|Discourse=organization-heading:66->67:2:grf-ly-_-_|Entity=(91-event-acc:inf-nnnnn-cf1-1-coref)|MSeg=Inter-view|XML=<hi rend:::"bold"></hi>
 
 # newpar
 # newpar_block = figure rend:::"Jonathan M. Stan displaying the Santorum cocktail" (2 s) | caption (2 s)
@@ -1024,7 +1024,7 @@
 5	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	0	root	0:root	Entity=(29-person-giv:act-nnnnn-cf1*-1-ana)
 6	to	to	PART	TO	_	7	mark	7:mark	Entity=(106-event-acc:com-nnnnn-cf2-2-disc
 7	take	take	VERB	VB	VerbForm=Inf	5	csubj	5:csubj	_
-8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(107-abstract-new-nnnnn-cf3-2-sgl
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(107-abstract-new-nnnnn-cf3-2-coref
 9	stand	stand	NOUN	NN	Number=Sing	7	obj	7:obj	_
 10	on	on	ADP	IN	_	13	case	13:case	_
 11	any	any	DET	DT	PronType=Ind	13	det	13:det	Entity=(108-abstract-new-nnnnn-cf4-3-sgl
@@ -1039,12 +1039,12 @@
 # speaker = JohnRauschenberg
 # text = We'll leave that to the professionals.
 1-2	We'll	_	_	_	_	_	_	_	_
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=elaboration-additional:85->84:0:ref-dem-720,737-_+ref-prs-724,734-_|Entity=(29-person-giv:act-nnnnn-cf1*-1-ana)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:720-733:734-741
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=elaboration-additional:85->84:0:ref-dem-720,737-_+ref-prs-724,734-_+sem-mrnym-727-732,739-740-_|Entity=(29-person-giv:act-nnnnn-cf1*-1-ana)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:720-733:734-741
 2	'll	will	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	leave	leave	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	obj	3:obj	Entity=(106-event-giv:act-nnnnn-cf2-1-coref)
 5	to	to	ADP	IN	_	7	case	7:case	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(109-person-new-nnnnn-cf3-2-coref
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Bridge=107<109:entity-associative|Entity=(109-person-acc:inf-nnnnn-cf3-2-coref
 7	professionals	professional	NOUN	NNS	Number=Plur	3	obl	3:obl:to	Entity=109)|MSeg=profession-al-s|SpaceAfter=No
 8	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -1112,7 +1112,7 @@
 5	or	or	CCONJ	CC	_	6	cc	6:cc	_
 6	not	not	PART	RB	Polarity=Neg	4	conj	4:conj:or|9:csubj	Negation=Yes
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
-8	another	another	DET	DT	PronType=Ind	9	det	9:det	Entity=(113-abstract-new-nnnnn-cf4-2-sgl|MSeg=an-other
+8	another	another	DET	DT	PronType=Ind	9	det	9:det	Bridge=107<113:comparison-relative|Entity=(113-abstract-acc:inf-nnnnn-cf4-2-sgl|MSeg=an-other
 9	thing	thing	NOUN	NN	Number=Sing	0	root	0:root	_
 10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	11:nsubj|16:nsubj:xsubj	Discourse=elaboration-attribute:92->91:0:syn-mdf-783-_+syn-relcl-785-_|Entity=(29-person-giv:act-nnnnn-cf1*-1-ana)
 11	leave	leave	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	acl:relcl	9:acl:relcl	_
@@ -1180,16 +1180,16 @@
 # speaker = JohnRauschenberg
 # text = Bailey's, orange vodka, bitters, and chocolate flakes.
 1-2	Bailey's	_	_	_	_	_	_	_	SpaceAfter=No
-1	Bailey	Bailey	PROPN	NNP	Number=Sing	0	root	0:root	Bridge=36<39|Discourse=joint-other_m:96->76:4:_|Entity=(39-substance-acc:inf-nsnns-cf1-1-coref-Baileys_Irish_Cream|PDTB=Hypophora:Hypophora:_:_:805-812:813-824
+1	Bailey	Bailey	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint-other_m:96->76:4:_|Entity=(39-substance-auto-nsnns-cf1-1-coref-Baileys_Irish_Cream|PDTB=Hypophora:Hypophora:_:_:805-812:813-824
 2	's	's	PART	POS	_	1	case	1:case	Entity=39)
 3	,	,	PUNCT	,	_	5	punct	5:punct	_
-4	orange	orange	ADJ	JJ	Degree=Pos	5	amod	5:amod	Bridge=36<115|Entity=(115-substance-acc:inf-nnnnn-cf2-2-sgl
+4	orange	orange	ADJ	JJ	Degree=Pos	5	amod	5:amod	Entity=(115-substance-auto-nnnnn-cf2-2-sgl
 5	vodka	vodka	NOUN	NN	Number=Sing	1	conj	1:conj:and	Entity=115)|SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	7:punct	_
-7	bitters	bitter	NOUN	NNS	Number=Plur	1	conj	1:conj:and	Bridge=36<116|Entity=(116-substance-acc:inf-nnnnn-cf3-1-sgl)|MSeg=bitt-er-s|SpaceAfter=No
+7	bitters	bitter	NOUN	NNS	Number=Plur	1	conj	1:conj:and	Entity=(116-substance-auto-nnnnn-cf3-1-sgl)|MSeg=bitt-er-s|SpaceAfter=No
 8	,	,	PUNCT	,	_	11	punct	11:punct	_
 9	and	and	CCONJ	CC	_	11	cc	11:cc	_
-10	chocolate	chocolate	NOUN	NN	Number=Sing	11	compound	11:compound	Bridge=36<117|Entity=(117-object-acc:inf-nnnnn-cf4-2-sgl
+10	chocolate	chocolate	NOUN	NN	Number=Sing	11	compound	11:compound	Entity=(117-object-auto-nnnnn-cf4-2-sgl
 11	flakes	flake	NOUN	NNS	Number=Plur	1	conj	1:conj:and	Entity=117)|MSeg=flake-s|SpaceAfter=No
 12	.	.	PUNCT	.	_	1	punct	1:punct	_
 
@@ -1237,7 +1237,7 @@
 # transition = null
 # speaker = JohnRauschenberg
 # text = See the pictures.
-1	See	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:99->98:0:_|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:832-844:845-848
+1	See	see	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:99->98:0:_|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:832-844:845-848
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(119-abstract-new-nnnnn-cf1-2-sgl
 3	pictures	picture	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=119)|MSeg=picture-s|SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
@@ -1251,38 +1251,38 @@
 # speaker = Wikinews
 # text = Your Santorum cocktail creation has already received media coverage from publications including; The Brooklyn Paper, The New York Times, Jezebel, Metro.us, EDGE on the Net, and Instinct Magazine.
 1	Your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Discourse=context-background:100->105:1:ref-prs-849-852,890-_+ref-prs-849,885-_+sem-rpt-850,893-_+ref-dem-856-857,897-899-_|Entity=(5-substance-giv:inact-sssss-cf2-4-coref(29-person-giv:inact-nnnnn-cf1-1-ana)
-2	Santorum	Santorum	PROPN	NNP	Number=Sing	3	compound	3:compound	Entity=(6-person-giv:inact-sssss-cf4-1-coref-Rick_Santorum)
+2	Santorum	Santorum	PROPN	NNP	Number=Sing	3	compound	3:compound	Entity=(6-person-giv:inact-sssss-cf9-1-coref-Rick_Santorum)
 3	cocktail	cocktail	NOUN	NN	Number=Sing	4	compound	4:compound	MSeg=cock-tail
 4	creation	creation	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=5)|MSeg=creat-ion
 5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	7:aux	MSeg=ha-s
 6	already	already	ADV	RB	_	7	advmod	7:advmod	MSeg=al-ready
 7	received	receive	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	MSeg=receiv-ed
-8	media	medium	NOUN	NNS	Number=Plur	9	compound	9:compound	Entity=(120-abstract-new-nnsnn-cf12-2-coref|MSeg=medi-a
+8	media	media	NOUN	NN	Number=Sing	9	compound	9:compound	Entity=(120-abstract-new-nnsnn-cf12-2-coref|MSeg=medi-a
 9	coverage	coverage	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=120)|MSeg=cover-age
 10	from	from	ADP	IN	_	11	case	11:case	_
-11	publications	publication	NOUN	NNS	Number=Plur	7	obl	7:obl:from	Entity=(121-organization-new-nnnnn-cf14-1,5,9,10,11,13,15,17,20,23,24-coref|MSeg=public-ation-s
+11	publications	publication	NOUN	NNS	Number=Plur	7	obl	7:obl:from	Entity=(121-organization-new-nnnnn-cf14-1,5,9,10,11,13,15,17,20,23,24-sgl|MSeg=public-ation-s
 12	including	include	VERB	VBG	Tense=Pres|VerbForm=Part	16	case	16:case	Discourse=organization-preparation:101->102:0:_|MSeg=includ-ing|SpaceAfter=No
 13	;	;	PUNCT	:	_	12	punct	12:punct	_
 14	The	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Discourse=elaboration-additional:102->100:0:lex-indwd-860-_|Entity=(34-organization-giv:inact-nnnnn-cf3-2,3-coref-The_Brooklyn_Paper
-15	Brooklyn	Brooklyn	PROPN	NNP	Number=Sing	16	compound	16:compound	Entity=(28-place-giv:inact-nsssn-cf5-1-coref-Brooklyn)
+15	Brooklyn	Brooklyn	PROPN	NNP	Number=Sing	16	compound	16:compound	Entity=(28-place-giv:inact-nsssn-cf10-1-coref-Brooklyn)
 16	Paper	Paper	PROPN	NNP	Number=Sing	11	nmod	11:nmod:including	Entity=34)|SpaceAfter=No
 17	,	,	PUNCT	,	_	21	punct	21:punct	_
-18	The	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Bridge=121<122|Entity=(122-organization-acc:inf-nnnnn-cf7-2,3,4-sgl-The_New_York_Times
-19	New	New	ADJ	NNP	Degree=Pos	20	amod	20:amod	Entity=(4-place-giv:inact-snnss-cf6-1,2-coref-New_York_City
+18	The	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(122-organization-auto-nnnnn-cf4-2,3,4-sgl-The_New_York_Times
+19	New	New	ADJ	NNP	Degree=Pos	20	amod	20:amod	Entity=(4-place-giv:inact-snnss-cf11-1,2-coref-New_York_City
 20	York	York	PROPN	NNP	Number=Sing	21	compound	21:compound	Entity=4)
 21	Times	Times	PROPN	NNP	Number=Sing	16	conj	11:nmod:including|16:conj:and	Entity=122)|MSeg=Time-s|SpaceAfter=No
 22	,	,	PUNCT	,	_	23	punct	23:punct	_
-23	Jezebel	Jezebel	PROPN	NNP	Number=Sing	16	conj	11:nmod:including|16:conj:and	Bridge=121<123|Entity=(123-organization-acc:inf-nnnnn-cf8-1-sgl-Jezebel_%28website%29)|SpaceAfter=No
+23	Jezebel	Jezebel	PROPN	NNP	Number=Sing	16	conj	11:nmod:including|16:conj:and	Entity=(123-organization-auto-nnnnn-cf5-1-sgl-Jezebel_%28website%29)|SpaceAfter=No
 24	,	,	PUNCT	,	_	25	punct	25:punct	_
-25	Metro.us	Metro.us	PROPN	NNP	Number=Sing	16	conj	11:nmod:including|16:conj:and	Bridge=121<124|Entity=(124-organization-acc:inf-nnnnn-cf9-1-sgl-Metro_New_York)|SpaceAfter=No
+25	Metro.us	Metro.us	PROPN	NNP	Number=Sing	16	conj	11:nmod:including|16:conj:and	Entity=(124-organization-auto-nnnnn-cf6-1-sgl-Metro_New_York)|SpaceAfter=No
 26	,	,	PUNCT	,	_	27	punct	27:punct	_
-27	EDGE	EDGE	PROPN	NNP	Number=Sing	16	conj	11:nmod:including|16:conj:and	Bridge=121<125|Entity=(125-organization-acc:inf-nnnnn-cf10-1,4-sgl
+27	EDGE	EDGE	PROPN	NNP	Number=Sing	16	conj	11:nmod:including|16:conj:and	Entity=(125-organization-auto-nnnnn-cf7-1,4-sgl
 28	on	on	ADP	IN	_	30	case	30:case	_
 29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(126-abstract-new-nnnnn-cf13-2-sgl-Internet
 30	Net	Net	PROPN	NNP	Number=Sing	27	nmod	27:nmod:on	Entity=126)125)|SpaceAfter=No
 31	,	,	PUNCT	,	_	34	punct	34:punct	_
 32	and	and	CCONJ	CC	_	34	cc	34:cc	_
-33	Instinct	Instinct	PROPN	NNP	Number=Sing	34	compound	34:compound	Bridge=121<127|Entity=(127-organization-acc:inf-nnnnn-cf11-1,2-sgl-Instinct_%28magazine%29
+33	Instinct	Instinct	PROPN	NNP	Number=Sing	34	compound	34:compound	Entity=(127-organization-auto-nnnnn-cf8-1,2-sgl-Instinct_%28magazine%29
 34	Magazine	Magazine	PROPN	NNP	Number=Sing	16	conj	11:nmod:including|16:conj:and	Entity=127)121)|SpaceAfter=No
 35	.	.	PUNCT	.	_	7	punct	7:punct	_
 
@@ -1459,7 +1459,7 @@
 4	mildly	mildly	ADV	RB	Degree=Pos	5	advmod	5:advmod	MSeg=mild-ly
 5	popular	popular	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=popul-ar
 6	for	for	ADP	IN	_	10	case	10:case	_
-7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(136-time-new-nnnnn-cf3-4-sgl|XML=<date notAfter:::"2012-03">
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=7<136:comparison-relative;comparison-time|Entity=(136-time-acc:inf-nnnnn-cf2-4-sgl|XML=<date notAfter:::"2012-03">
 8	last	last	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
 9	few	few	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
 10	months	month	NOUN	NNS	Number=Plur	5	obl	5:obl:for	Entity=136)|MSeg=mon-th-s|SpaceAfter=No|XML=</date>
@@ -1476,7 +1476,7 @@
 21	popular	popular	ADJ	JJ	Degree=Pos	16	xcomp	16:xcomp	MSeg=popul-ar
 22	since	since	SCONJ	IN	_	23	mark	23:mark	Discourse=context-circumstance:120->119:0:dm-since-1005-gold+syn-pres-1006-_|PDTB=Explicit:Temporal.Asynchronous.Succession:since:1005:995-1004:1006-1010
 23	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	16	advcl	16:advcl:since	MSeg=gett-ing
-24	all	all	DET	PDT	PronType=Tot	26	det:predet	26:det:predet	Entity=(137-abstract-new-nnnnn-cf2-3-sgl
+24	all	all	DET	PDT	PronType=Ind	26	det:predet	26:det:predet	Entity=(137-abstract-new-nnnnn-cf3-3-sgl
 25	this	this	DET	DT	Number=Sing|PronType=Dem	26	det	26:det	_
 26	publicity	publicity	NOUN	NN	Number=Sing	23	obj	23:obj	Entity=137)|MSeg=public-ity|SpaceAfter=No
 27	.	.	PUNCT	.	_	5	punct	5:punct	_
@@ -1510,7 +1510,7 @@
 19	now	now	ADV	RB	_	20	advmod	20:advmod	_
 20	pouring	pour	VERB	VBG	Tense=Pres|VerbForm=Part	2	conj	2:conj:but	MSeg=pour-ing
 21	around	around	ADV	RB	Degree=Pos	22	advmod	22:advmod	MSeg=a-round
-22	ten	ten	NUM	CD	NumForm=Word|NumType=Card	20	obj	20:obj	Bridge=5<138|Entity=(138-substance-acc:inf-nnnnn-cf4-1-sgl)
+22	ten	ten	NUM	CD	NumForm=Word|NumType=Card	20	obj	20:obj	Bridge=5<138:comparison-sense|Entity=(138-substance-acc:inf-nnnnn-cf4-1-sgl)
 23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(139-time-new-nnnnn-cf5-2-sgl
 24	night	night	NOUN	NN	Number=Sing	20	obl:unmarked	20:obl:unmarked	Entity=139)|SpaceAfter=No
 25	.	.	PUNCT	.	_	2	punct	2:punct	_

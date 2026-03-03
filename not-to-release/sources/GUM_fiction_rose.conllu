@@ -49,12 +49,12 @@
 # text = Rachel Rook took Carroll home to meet her parents two months after she first slept with him.
 1	Rachel	Rachel	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=ROOT:3:0|Entity=(5-person-new-sssss-cf1-1,2-coref
 2	Rook	Rook	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=5)
-3	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Entity=(6-event-new-nnnnn-cf4-1-disc
+3	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Entity=(6-event-new-nnnnn-cf5-1-disc
 4	Carroll	Carroll	PROPN	NNP	Number=Sing	3	obj	3:obj	Entity=(7-person-new-sssss-cf2-1-coref)
-5	home	home	ADV	RB	Degree=Pos	3	advmod	3:advmod	Entity=(8-place-new-sssnn-cf5-1-coref)
+5	home	home	ADV	RB	Degree=Pos	3	advmod	3:advmod	Bridge=5<8:entity-associative|Entity=(8-place-acc:inf-sssnn-cf3-1-coref)
 6	to	to	PART	TO	_	7	mark	7:mark	Discourse=purpose-goal:4->3:0:syn-inf-17-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:12-16:17-20
 7	meet	meet	VERB	VB	VerbForm=Inf	3	advcl	3:advcl:to	_
-8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(9-person-new-sssss-cf3-2-coref(5-person-giv:act-sssss-cf1-1-ana)
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(9-person-new-sssss-cf4-2-coref(5-person-giv:act-sssss-cf1-1-ana)
 9	parents	parent	NOUN	NNS	Number=Plur	7	obj	7:obj	Entity=9)6)|MSeg=parent-s
 10	two	two	NUM	CD	NumForm=Word|NumType=Card	11	nummod	11:nummod	Discourse=context-circumstance:5->3:1:dm-after-23-gold|Entity=(10-time-new-nnnnn-cf6-6-sgl
 11	months	month	NOUN	NNS	Number=Plur	15	obl:unmarked	15:obl:unmarked	MSeg=mon-th-s
@@ -102,7 +102,7 @@
 # s_type = decl
 # transition = retain
 # text = In two months Carroll had learned that her parents lived on a farm several miles outside of town; that they sold strawberries in summer, and Christmas trees in the winter.
-1	In	in	ADP	IN	_	3	case	3:case	Discourse=attribution-positive:9->10:1:sem-atsrc-58-_+lex-indwd-60-_+syn-rpr-61,74-_|PDTB=Implicit:Expansion.Conjunction:indeed:_:30-54:55-87
+1	In	in	ADP	IN	_	3	case	3:case	Discourse=attribution-positive:9->10:1:sem-atsrc-58-_+lex-indwd-60-_+syn-rpr-61,74-_|PDTB=EntRel:EntRel:_:_:30-54:55-87
 2	two	two	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	Entity=(13-time-new-nsnnn-cf7-2-sgl
 3	months	month	NOUN	NNS	Number=Plur	6	obl	6:obl:in	Entity=13)|MSeg=mon-th-s
 4	Carroll	Carroll	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Entity=(7-person-giv:inact-sssss-cf3-1-coref)
@@ -144,7 +144,7 @@
 # text = He knew that they never left the farm; instead, the world came to them in the shape of weekend picnickers and driveby tourists.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:13->14:0:sem-atsrc-88-_+lex-indwd-89-_+syn-rpr-90-_|Entity=(7-person-giv:act-sssss-cf1*-1-ana)|PDTB=Implicit:Expansion.Conjunction:and:_:55-87:88-113
 2	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-3	that	that	SCONJ	IN	_	6	mark	6:mark	Discourse=adversative-antithesis:14->15:0:dm-instead-97-gold
+3	that	that	SCONJ	IN	_	6	mark	6:mark	Discourse=adversative-antithesis:14->15:0:sem-mrnym-94-95,108-109-_+dm-instead-97-gold
 4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(9-person-giv:act-sssss-cf2-1-ana)
 5	never	never	ADV	RB	_	6	advmod	6:advmod	Negation=Yes
 6	left	leave	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	2:ccomp	_
@@ -159,13 +159,13 @@
 15	to	to	ADP	IN	_	16	case	16:case	_
 16	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obl	14:obl:to	Entity=(9-person-giv:act-sssss-cf2-1-ana)
 17	in	in	ADP	IN	_	19	case	19:case	_
-18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(21-abstract-new-nnnnn-cf5-2-sgl
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(21-abstract-new-nnnnn-cf7-2-sgl
 19	shape	shape	NOUN	NN	Number=Sing	14	obl	14:obl:in	_
 20	of	of	ADP	IN	_	22	case	22:case	_
-21	weekend	weekend	NOUN	NN	Number=Sing	22	compound	22:compound	Entity=(22-person-new-nnnnn-cf6-2-sgl(23-time-new-nnnnn-cf8-1-sgl)|MSeg=week-end
+21	weekend	weekend	NOUN	NN	Number=Sing	22	compound	22:compound	Bridge=8<22:entity-associative|Entity=(22-person-acc:inf-nnnnn-cf5-2-sgl(23-time-new-nnnnn-cf8-1-sgl)|MSeg=week-end
 22	picnickers	picnicker	NOUN	NNS	Number=Plur	19	nmod	19:nmod:of	Entity=22)|MSeg=picnick-er-s
 23	and	and	CCONJ	CC	_	25	cc	25:cc	_
-24	driveby	driveby	ADJ	JJ	Degree=Pos	25	amod	25:amod	Entity=(24-person-new-nnnnn-cf7-2-sgl
+24	driveby	driveby	ADJ	JJ	Degree=Pos	25	amod	25:amod	Bridge=8<24:entity-associative|Entity=(24-person-acc:inf-nnnnn-cf6-2-sgl|MSeg=drive-by
 25	tourists	tourist	NOUN	NNS	Number=Plur	22	conj	19:nmod:of|22:conj:and	Entity=24)21)|MSeg=tour-ist-s|SpaceAfter=No
 26	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -199,7 +199,7 @@
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=context-background:18->16:1:ref-prs-121,127-_+mrf-tns-128-_|Entity=(7-person-giv:act-sssss-cf1*-1-ana)|PDTB=Implicit:Expansion.Conjunction:in fact:_:114-126:127-146
 2	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	3:aux	_
 3	spent	spend	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
-4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(25-time-acc:com-nnnnn-cf3-2-sgl
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Bridge=6<25:comparison-time|Entity=(25-time-acc:inf-nnnnn-cf3-2-sgl
 5	afternoon	afternoon	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=25)|MSeg=after-noon
 6	preparing	prepare	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	3:advcl	MSeg=prepar-ing
 7	for	for	ADP	IN	_	9	case	9:case	_
@@ -247,7 +247,7 @@
 # s_type = decl
 # transition = continue
 # text = The outfit he had chosen, khaki pants and a blue button-down shirt -- no tie -- lay neatly folded on the bed.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=context-circumstance:23->16:2:_|Entity=(31-object-new-nnnnn-cf2-2-coref
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=context-circumstance:23->16:2:_|Entity=(31-object-new-nnnnn-cf2-2-coref|PDTB=NoRel:NoRel:_:_:147-165:166-191
 2	outfit	outfit	NOUN	NN	Number=Sing	20	nsubj	20:nsubj	MSeg=out-fit
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=elaboration-attribute:24->23:0:syn-mdf-167-_+syn-relcl-170-_|Entity=(7-person-giv:act-sssss-cf1*-1-ana)
 4	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	5:aux	_
@@ -270,7 +270,7 @@
 21	neatly	neatly	ADV	RB	Degree=Pos	22	advmod	22:advmod	MSeg=neat-ly
 22	folded	fold	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	advcl	20:advcl	MSeg=fold-ed
 23	on	on	ADP	IN	_	25	case	25:case	_
-24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(35-place-acc:com-nnnnn-cf3-2-sgl
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Bridge=7<35:entity-associative|Entity=(35-place-acc:inf-nnnnn-cf3-2-sgl
 25	bed	bed	NOUN	NN	Number=Sing	22	obl	22:obl:on	Entity=35)|SpaceAfter=No
 26	.	.	PUNCT	.	_	20	punct	20:punct	_
 
@@ -460,7 +460,7 @@
 5	pants	pants	NOUN	NNS	Number=Ptan	2	obl	2:obl:on	Entity=32)|MSeg=pant-s|SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	7:punct	_
 7	admiring	admire	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	2:advcl	Discourse=context-circumstance:46->45:0:syn-pres-307-_|MSeg=admir-ing|PDTB=Implicit:Temporal.Asynchronous.Succession:when:_:301-306:307-310
-8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Bridge=32<50|Entity=(50-object-acc:inf-nnnnn-cf3-2-sgl
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Bridge=32<50:entity-property|Entity=(50-object-acc:inf-nnnnn-cf3-2-sgl
 9	crease	crease	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=50)|SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -635,7 +635,7 @@
 7	'	's	PART	POS	_	6	case	6:case	Entity=9)
 8	farm	farm	NOUN	NN	Number=Sing	3	obl	3:obl:on|11:nsubj	Entity=8)|SpaceAfter=No
 9	,	,	PUNCT	,	_	11	punct	11:punct	_
-10	which	which	PRON	WDT	PronType=Rel	11	nsubj	8:ref	Discourse=context-background:63->3:4:sem-synym-12-13,16,396,400-403-_+sem-rpt-15,416-_+sem-rpt-19-20,400-402-_+mrf-tns-414-_;elaboration-additional:63->62:0:0:ref-prs-396,413-_+sem-rpt-400-402,418-419-_+syn-relcl-405-406-_
+10	which	which	PRON	WDT	PronType=Rel	11	nsubj	8:ref	Discourse=context-background:63->3:4:sem-synym-12-13,16,396,400-403-_+sem-rpt-15,416-_+sem-mrnym-16,418-_+sem-rpt-19-20,400-402-_+mrf-tns-414-_;elaboration-additional:63->62:0:0:ref-prs-396,413-_+sem-rpt-400-402,418-419-_+syn-relcl-405-406-_
 11	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	8:acl:relcl	Cxn=Resultative|CxnElt=11:Resultative.Predicate
 12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	11:obj|16:nsubj:xsubj	Entity=(54-event-new-nnnnn-cf5-1-cata)
 13	all	all	ADV	RB	_	15	advmod	15:advmod	_
@@ -661,9 +661,9 @@
 # s_type = decl
 # transition = smooth-shift
 # text = It suggested a talent for daily organization that filled Carroll's heart with admiration and lust.
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=evaluation-comment:64->63:1:_|Entity=(54-event-giv:act-nnnnn-cf1*-1-coref)|PDTB=Implicit:Expansion.Conjunction:in fact:_:396-424:425-441
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=evaluation-comment:64->63:1:_|Entity=(54-event-giv:act-nnnnn-cf1*-1-coref)|PDTB=Implicit:Contingency.Cause.Reason:indeed:_:396-424:425-441
 2	suggested	suggest	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=suggest-ed
-3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(55-abstract-new-nnnnn-cf3-2-sgl
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Bridge=5<55:entity-associative|Entity=(55-abstract-acc:inf-nnnnn-cf3-2-sgl
 4	talent	talent	NOUN	NN	Number=Sing	2	obj	2:obj|9:nsubj	_
 5	for	for	ADP	IN	_	7	case	7:case	_
 6	daily	daily	ADJ	JJ	Degree=Pos	7	amod	7:amod	MSeg=dai-ly
@@ -685,7 +685,7 @@
 # s_type = decl
 # transition = rough-shift
 # text = She was nineteen, two years younger than Carroll; she was a student at Jellicoh College and every weekday she rose at seven and biked four miles into town, and then back again on her bike, four miles uphill to the farm.
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint-list_m:66->63:2:grf-semcol-451-_|Entity=(5-person-giv:inact-sssss-cf1-1-ana)
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint-list_m:66->63:2:grf-semcol-451-_|Entity=(5-person-giv:inact-sssss-cf1-1-ana)|PDTB=Implicit:Expansion.Conjunction:in fact:_:425-441:442-487
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	3:cop	_
 3	nineteen	nineteen	NUM	CD	NumForm=Word|NumType=Card	0	root	0:root	Entity=(59-abstract-new-nnnnn-cf4-1-coref)|MSeg=nine-teen|SpaceAfter=No
 4	,	,	PUNCT	,	_	7	punct	7:punct	_
@@ -747,7 +747,7 @@
 5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(65-place-new-sssnn-cf5-8-coref
 6	Jellicoh	Jellicoh	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=(60-organization-giv:act-sssnn-cf3-2-coref
 7	College	College	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=60)
-8	library	library	NOUN	NN	Number=Sing	2	obl	2:obl:in	SpaceAfter=No
+8	library	library	NOUN	NN	Number=Sing	2	obl	2:obl:in	MSeg=libr-ary|SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	12:punct	_
 10	where	where	ADV	WRB	PronType=Int	12	advmod	12:advmod	Discourse=context-background:72->71:0:ref-prs-488,498-_
 11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Entity=(7-person-giv:act-sssss-cf1*-1-ana)
@@ -767,18 +767,18 @@
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=context-circumstance:73->77:5:_|Entity=(7-person-giv:act-sssss-cf1*-1-ana)
 2	sat	sit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	at	at	ADP	IN	_	6	case	6:case	_
-4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Bridge=65<67|Entity=(67-object-acc:inf-nsnnn-cf3-3-coref
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Bridge=65<67:entity-associative|Entity=(67-object-acc:inf-nsnnn-cf4-3-coref
 5	checkout	checkout	NOUN	NN	Number=Sing	6	compound	6:compound	_
 6	desk	desk	NOUN	NN	Number=Sing	2	obl	2:obl:at	Entity=67)|SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	8:punct	_
-8	stamping	stamp	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	2:advcl	Discourse=elaboration-additional:74->73:0:sem-lxchn-510-511,513-514-gold+syn-pres-513-_|MSeg=stamp-ing|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:506-512:513-523
-9	books	book	NOUN	NNS	Number=Plur	8	obj	8:obj	Entity=(68-object-new-nnnnn-cf5-1-sgl)|MSeg=book-s
+8	stamping	stamp	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	2:advcl	Discourse=elaboration-additional:74->73:0:sem-mrnym-509-511,514-_+sem-lxchn-510-511,513-514-gold+syn-pres-513-_|MSeg=stamp-ing|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:506-512:513-523
+9	books	book	NOUN	NNS	Number=Plur	8	obj	8:obj	Bridge=65<68:entity-associative|Entity=(68-object-acc:inf-nnnnn-cf3-1-sgl)|MSeg=book-s
 10	and	and	CCONJ	CC	_	11	cc	11:cc	_
 11	reading	read	VERB	VBG	Tense=Pres|VerbForm=Part	8	conj	2:advcl|8:conj:and	MSeg=read-ing
-12	Tristram	Tristram	PROPN	NNP	Number=Sing	11	obj	11:obj	Entity=(69-abstract-new-nnnnn-cf4-1,2-sgl-The_Life_and_Opinions_of_Tristram_Shandy%2C_Gentleman
+12	Tristram	Tristram	PROPN	NNP	Number=Sing	11	obj	11:obj	Entity=(69-abstract-new-nnnnn-cf6-1,2-sgl-The_Life_and_Opinions_of_Tristram_Shandy%2C_Gentleman
 13	Shandy	Shandy	PROPN	NNP	Number=Sing	12	flat	12:flat	Entity=69)|MSeg=Shand-y
 14	for	for	ADP	IN	_	17	case	17:case	_
-15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(70-abstract-new-nnnnn-cf6-3-sgl
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Bridge=60<70:entity-associative|Entity=(70-abstract-acc:inf-nnnnn-cf5-3-sgl
 16	graduate	graduate	NOUN	NN	Number=Sing	17	compound	17:compound	MSeg=gradu-ate
 17	class	class	NOUN	NN	Number=Sing	11	obl	11:obl:for	Entity=70)|SpaceAfter=No
 18	;	;	PUNCT	:	_	22	punct	22:punct	_
@@ -790,8 +790,8 @@
 24	someone	someone	PRON	NN	Number=Sing|PronType=Ind	25	nsubj	25:nsubj	Entity=(5-person-giv:act-sssss-cf2-1-coref)|MSeg=some-one
 25	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	advcl	22:advcl:when	MSeg=sai-d|SpaceAfter=No
 26	,	,	PUNCT	,	_	28	punct	28:punct	_
-27	"	"	PUNCT	``	_	28	punct	28:punct	Discourse=elaboration-additional:77->71:1:ref-prs-488,506-_+sem-synym-490,529-_+sem-mrnym-492-504,509-511-_|SpaceAfter=No|XML=<sp who:::"#Rachel">
-28	Excuse	excuse	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	25	ccomp	25:ccomp	_
+27	"	"	PUNCT	``	_	28	punct	28:punct	Discourse=elaboration-additional:77->71:1:ref-prs-488,506-_+sem-synym-490,529-_+sem-mrnym-492-504,509-511-_+sem-mrnym-493-494,520-522-_|SpaceAfter=No|XML=<sp who:::"#Rachel">
+28	Excuse	excuse	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	25	ccomp	25:ccomp	_
 29	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	28	iobj	28:iobj	Entity=(5-person-giv:act-sssss-cf2-1-ana)|SpaceAfter=No
 30	.	.	PUNCT	.	_	28	punct	28:punct	SpaceAfter=No
 31	"	"	PUNCT	''	_	28	punct	28:punct	XML=</sp>
@@ -832,29 +832,29 @@
 # s_type = decl
 # transition = establishment
 # text = Sunlight streaming in through a high window opposite her lit up the fine hairs on her arm, the embroidered flowers on the collar of her white shirt.
-1	Sunlight	sunlight	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Discourse=joint-list_m:82->79:2:_|Entity=(71-substance-new-nnnnn-cf2-1-coref|MSeg=Sun-light|PDTB=Implicit:Expansion.Conjunction:and:_:541-553:554-582
+1	Sunlight	sunlight	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Discourse=joint-list_m:82->79:2:_|Entity=(71-substance-new-nnnnn-cf3-1-coref|MSeg=Sun-light|PDTB=Implicit:Expansion.Conjunction:and:_:541-553:554-582
 2	streaming	stream	VERB	VBG	VerbForm=Ger	1	acl	1:acl	Discourse=elaboration-attribute:83->82:0:syn-mdf-554-_+syn-nmn-555-_|MSeg=stream-ing
 3	in	in	ADV	RB	Degree=Pos	2	advmod	2:advmod	_
 4	through	through	ADP	IN	_	7	case	7:case	_
-5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(72-object-new-nnnnn-cf6-3-sgl
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Bridge=65<72:entity-meronomy|Entity=(72-object-acc:inf-nnnnn-cf2-3-sgl
 6	high	high	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	window	window	NOUN	NN	Number=Sing	2	obl	2:obl:through	_
 8	opposite	opposite	ADP	IN	_	9	case	9:case	MSeg=oppos-ite
 9	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nmod	7:nmod:opposite	Entity=(5-person-giv:act-sssss-cf1*-1-ana)72)71)
 10	lit	light	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:84->82:1:_
 11	up	up	ADP	RP	_	10	compound:prt	10:compound:prt	_
-12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(73-object-new-nnnnn-cf3-3-sgl
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(73-object-new-nnnnn-cf4-3-sgl
 13	fine	fine	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
 14	hairs	hair	NOUN	NNS	Number=Plur	10	obj	10:obj	MSeg=hair-s
 15	on	on	ADP	IN	_	17	case	17:case	_
 16	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	Entity=(74-object-new-nnnnn-cf7-2-sgl(5-person-giv:act-sssss-cf1*-1-ana)
 17	arm	arm	NOUN	NN	Number=Sing	14	nmod	14:nmod:on	Entity=74)73)|SpaceAfter=No
 18	,	,	PUNCT	,	_	21	punct	21:punct	_
-19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(75-object-new-nnnnn-cf4-3-sgl
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(75-object-new-nnnnn-cf5-3-sgl
 20	embroidered	embroider	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	21	amod	21:amod	MSeg=embroider-ed
 21	flowers	flower	NOUN	NNS	Number=Plur	14	conj	10:obj|14:conj	MSeg=flow-er-s
 22	on	on	ADP	IN	_	24	case	24:case	_
-23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(76-object-new-nnnnn-cf5-2-sgl
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(76-object-new-nnnnn-cf6-2-sgl
 24	collar	collar	NOUN	NN	Number=Sing	21	nmod	21:nmod:on	_
 25	of	of	ADP	IN	_	28	case	28:case	_
 26	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	28:nmod:poss	Entity=(77-object-new-nnnnn-cf8-3-sgl(5-person-giv:act-sssss-cf1*-1-ana)
@@ -867,7 +867,7 @@
 # s_type = decl
 # transition = continue
 # text = The sunlight turned her hair to fire and Carroll found it difficult to look directly at her.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:85->79:3:ref-prs-541-548,586-_|Entity=(71-substance-giv:act-nnnnn-cf2-2-coref|PDTB=EntRel:EntRel:_:_:554-582:583-600
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:85->79:3:ref-prs-541-548,586-_|Entity=(71-substance-giv:act-nnnnn-cf2-2-coref|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:554-582:583-600
 2	sunlight	sunlight	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=71)|MSeg=sun-light
 3	turned	turn	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=turn-ed
 4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(78-object-new-nnnnn-cf5-2-sgl(5-person-giv:act-sssss-cf1*-1-ana)
@@ -936,12 +936,12 @@
 # s_type = decl
 # transition = zero
 # text = Pages hung in tatters from the sodden blue spine.
-1	Pages	page	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Bridge=81<83|Discourse=elaboration-additional:91->89:1:sem-mrnym-623,631-_|Entity=(83-object-acc:inf-nnnnn-cf1-1-sgl)|MSeg=Page-s|PDTB=Implicit:Expansion.Conjunction:in addition:_:611-630:631-640
+1	Pages	page	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Bridge=81<83:entity-associative|Discourse=elaboration-additional:91->89:1:sem-mrnym-623,631-_|Entity=(83-object-acc:inf-nnnnn-cf1-1-sgl)|MSeg=Page-s|PDTB=Implicit:Expansion.Conjunction:in addition:_:611-630:631-640
 2	hung	hang	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	in	in	ADP	IN	_	4	case	4:case	_
 4	tatters	tatter	NOUN	NNS	Number=Plur	2	obl	2:obl:in	Entity=(84-object-new-nnnnn-cf3-1-sgl)|MSeg=tatt-er-s
 5	from	from	ADP	IN	_	9	case	9:case	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Bridge=81<85|Entity=(85-object-acc:inf-nnnnn-cf2-4-sgl
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Bridge=81<85:entity-associative|Entity=(85-object-acc:inf-nnnnn-cf2-4-sgl
 7	sodden	sodden	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 8	blue	blue	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 9	spine	spine	NOUN	NN	Number=Sing	2	obl	2:obl:from	Entity=85)|SpaceAfter=No
@@ -952,12 +952,12 @@
 # s_type = decl
 # transition = null
 # text = Title, binding, and covers had been gnawed away.
-1	Title	Title	NOUN	NN	Number=Sing	9	nsubj:pass	9:nsubj:pass	Bridge=81<86|Discourse=joint-list_m:92->91:0:sem-lxchn-631,646-gold+sem-mrnym-636-639,641-_+sem-lxchn-639,643-gold|Entity=(86-object-acc:inf-nnnnn-cf1-1-sgl)|PDTB=Implicit:Expansion.Conjunction:and:_:631-640:641-651|SpaceAfter=No
+1	Title	title	NOUN	NN	Number=Sing	9	nsubj:pass	9:nsubj:pass	Bridge=81<86:entity-associative|Discourse=joint-list_m:92->91:0:sem-lxchn-631,646-gold+sem-mrnym-636-639,641-_+sem-lxchn-639,643-gold|Entity=(86-object-acc:inf-nnnnn-cf1-1-sgl)|PDTB=Implicit:Expansion.Conjunction:and:_:631-640:641-651|SpaceAfter=No
 2	,	,	PUNCT	,	_	3	punct	3:punct	_
-3	binding	binding	NOUN	NN	Number=Sing	1	conj	1:conj:and|9:nsubj:pass	Bridge=81<87|Entity=(87-object-acc:inf-nnnnn-cf2-1-sgl)|MSeg=bind-ing|SpaceAfter=No
+3	binding	binding	NOUN	NN	Number=Sing	1	conj	1:conj:and|9:nsubj:pass	Bridge=81<87:entity-associative|Entity=(87-object-acc:inf-nnnnn-cf2-1-sgl)|MSeg=bind-ing|SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	6:punct	_
 5	and	and	CCONJ	CC	_	6	cc	6:cc	_
-6	covers	cover	NOUN	NNS	Number=Plur	1	conj	1:conj:and|9:nsubj:pass	Bridge=81<88|Entity=(88-object-acc:inf-nnnnn-cf3-1-sgl)|MSeg=cover-s
+6	covers	cover	NOUN	NNS	Number=Plur	1	conj	1:conj:and|9:nsubj:pass	Bridge=81<88:entity-associative|Entity=(88-object-acc:inf-nnnnn-cf3-1-sgl)|MSeg=cover-s
 7	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	9:aux	_
 8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	aux:pass	9:aux:pass	_
 9	gnawed	gnaw	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=gnaw-ed

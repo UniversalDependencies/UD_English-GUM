@@ -64,12 +64,12 @@
 31	Sea	Sea	PROPN	NNP	Number=Sing	27	nmod	27:nmod:of	Entity=4)3)1)|SpaceAfter=No
 32	,	,	PUNCT	,	_	39	punct	39:punct	_
 33	with	with	ADP	IN	_	39	case	39:case	_
-34	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	35:det	Bridge=1<5|Entity=(5-person-acc:inf-snnnn-cf3-6-sgl
+34	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	35:det	Bridge=1<5:entity-associative|Entity=(5-person-acc:inf-snnnn-cf3-6-sgl
 35	bit	bit	NOUN	NN	Number=Sing	36	obl:unmarked	36:obl:unmarked	_
 36	more	more	ADV	RBR	Degree=Cmp|ExtPos=ADV	38	advmod	38:advmod	_
 37	than	than	ADP	IN	_	36	fixed	36:fixed	_
 38	20,000	20000	NUM	CD	NumForm=Digit|NumType=Card	39	nummod	39:nummod	_
-39	inhabitants	inhabitant	NOUN	NNS	Number=Plur	21	obl	21:obl:with	MSeg=inhabit-ant-s
+39	inhabitants	inhabitant	NOUN	NNS	Number=Plur	21	nmod	21:nmod:with	MSeg=inhabit-ant-s
 40	in	in	ADP	IN	_	41	case	41:case	_
 41	total	total	NOUN	NN	Number=Sing	39	nmod	39:nmod:in	Entity=5)|PDTB=AltLex:Expansion.Level-of-detail.Arg2-as-detail:total:43:3-20:21-42,44|SpaceAfter=No
 42	.	.	PUNCT	.	_	10	punct	10:punct	_
@@ -79,7 +79,7 @@
 # s_type = multiple
 # transition = continue
 # text = It is one of Denmark's most scenic areas, and should be a top destination of anyone taking the time to explore Denmark outside the capital.
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=explanation-motivation:4->5:0:mrf-md-56-_|Entity=(1-place-giv:act-sssss-cf1*-1-ana-South_Funen_Archipelago)|PDTB=Implicit:Contingency.Cause.Result:as a result:_:3-44:45-72
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=explanation-motivation:4->5:0:mrf-md-56-_|Entity=(1-place-giv:act-sssss-cf1*-1-ana-South_Funen_Archipelago)|PDTB=Implicit:Expansion.Conjunction:in fact:_:3-44:45-72
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	one	one	NUM	CD	NumForm=Word|NumType=Card	0	root	0:root	Entity=(1-place-giv:act-sssss-cf1*-1-coref-South_Funen_Archipelago
 4	of	of	ADP	IN	_	9	case	9:case	_
@@ -105,7 +105,7 @@
 23	explore	explore	VERB	VB	VerbForm=Inf	19	advcl	19:advcl:to	_
 24	Denmark	Denmark	PROPN	NNP	Number=Sing	23	obj	23:obj	Entity=(7-place-giv:act-nsssn-cf2-1-coref-Denmark)
 25	outside	outside	ADP	IN	_	27	case	27:case	MSeg=out-side
-26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Bridge=7<11|Entity=(11-place-acc:inf-nnnnn-cf3-2-sgl
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Bridge=7<11:entity-meronomy|Entity=(11-place-acc:inf-nnnnn-cf3-2-sgl
 27	capital	capital	NOUN	NN	Number=Sing	23	obl	23:obl:outside	Entity=11)10)9)8)|SpaceAfter=No
 28	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -116,7 +116,7 @@
 # s_type = imp
 # transition = zero
 # text = Understand
-1	Understand	understand	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:8->9:5:grf-ly-_-_|MSeg=Under-stand
+1	Understand	understand	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:8->9:5:grf-ly-_-_|MSeg=Under-stand
 
 # newpar
 # newpar_block = p (3 s)
@@ -130,7 +130,7 @@
 3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 4	formed	form	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=form-ed
 5	during	during	ADP	IN	_	9	case	9:case	MSeg=dur-ing
-6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(12-time-new-nssnn-cf4-4-sgl|XML=<date notBefore:::"-115000" notAfter:::"-11700">
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(12-time-new-nssnn-cf6-4-sgl|XML=<date notBefore:::"-115000" notAfter:::"-11700">
 7	last	last	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 8	ice	ice	NOUN	NN	Number=Sing	9	compound	9:compound	_
 9	age	age	NOUN	NN	Number=Sing	4	obl	4:obl:during	Entity=12)|SpaceAfter=No|XML=</date>
@@ -139,14 +139,14 @@
 12	ice	ice	NOUN	NN	Number=Sing	4	obl:agent	4:obl:agent	Entity=(13-substance-new-nnnnn-cf7-1-sgl
 13	sliding	slide	VERB	VBG	VerbForm=Ger	12	acl	12:acl	MSeg=slid-ing
 14	over	over	ADP	IN	_	16	case	16:case	_
-15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Bridge=1<14|Entity=(14-place-acc:inf-nnnsn-cf2-2-coref
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Bridge=1<14:entity-associative|Entity=(14-place-acc:inf-nnnsn-cf3-2-coref
 16	area	area	NOUN	NN	Number=Sing	13	obl	13:obl:over	Entity=14)
 17	from	from	ADP	IN	_	19	case	19:case	_
-18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(15-place-new-nnnnn-cf5-2-sgl
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Bridge=1<15:entity-associative|Entity=(15-place-acc:inf-nnnnn-cf4-2-sgl
 19	south	south	NOUN	NN	Number=Sing	13	obl	13:obl:from	Entity=15)13)|SpaceAfter=No
 20	,	,	PUNCT	,	_	26	punct	26:punct	_
-21	only	only	ADV	RB	_	26	advmod	26:advmod	Discourse=adversative-concession:11->9:1:lex-indwd-94-_
-22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(16-place-new-nnnnn-cf3-3-sgl
+21	only	only	ADV	RB	_	26	advmod	26:advmod	Discourse=adversative-concession:11->9:1:sem-mrnym-88-89,95-97-_+lex-indwd-94-_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Bridge=14<16:entity-meronomy|Entity=(16-place-acc:inf-nnnnn-cf2-3-sgl
 23	ancient	ancient	ADJ	JJ	Degree=Pos	24	amod	24:amod	_
 24	hilltops	hilltop	NOUN	NNS	Number=Plur	26	nsubj:pass	26:nsubj:pass	Entity=16)|MSeg=hilltop-s
 25	was	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	26	aux:pass	26:aux:pass	_
@@ -163,7 +163,7 @@
 36	islets	islet	NOUN	NNS	Number=Plur	34	conj	31:obj|34:conj:and	MSeg=is-let-s
 37	peaking	peak	VERB	VBG	VerbForm=Ger	34	acl	34:acl	Discourse=elaboration-attribute:13->12:0:syn-mdf-107-_+syn-nmn-110-_|MSeg=peak-ing
 38	above	above	ADP	IN	_	40	case	40:case	_
-39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	40:det	Entity=(18-place-new-nnnnn-cf6-2-coref
+39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	40:det	Bridge=1<18:entity-associative|Entity=(18-place-acc:inf-nnnnn-cf5-2-coref
 40	sea	sea	NOUN	NN	Number=Sing	37	obl	37:obl:above	Entity=18)
 41	everywhere	everywhere	ADV	RB	Degree=Pos	37	advmod	37:advmod	Entity=1)|MSeg=every-where|SpaceAfter=No
 42	.	.	PUNCT	.	_	4	punct	4:punct	_
@@ -232,9 +232,9 @@
 # s_type = frag
 # transition = zero
 # text = Flora & fauna
-1	Flora	flora	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:21->22:2:grf-ly-_-_|Entity=(26-plant-new-nnnnn-cf1-1-sgl)
+1	Flora	flora	NOUN	NN	Number=Sing	0	root	0:root	Bridge=14<26:entity-associative|Discourse=organization-heading:21->22:2:grf-ly-_-_|Entity=(26-plant-acc:inf-nnnnn-cf1-1-sgl)
 2	&	&	CCONJ	CC	_	3	cc	3:cc	_
-3	fauna	fauna	NOUN	NN	Number=Sing	1	conj	1:conj:and	Entity=(27-animal-new-nnsnn-cf2-1-sgl)
+3	fauna	fauna	NOUN	NN	Number=Sing	1	conj	1:conj:and	Bridge=14<27:entity-associative|Entity=(27-animal-acc:inf-nnsnn-cf2-1-sgl)
 
 # newpar
 # newpar_block = p (6 s)
@@ -288,7 +288,7 @@
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(32-person-acc:com-nnnnn-cf4-1-ana)
 3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 4	interested	interested	ADJ	JJ	Degree=Pos	17	advcl	17:advcl:if	CxnElt=17:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|MSeg=interest-ed
-5	ornithology	ornithology	NOUN	NN	Number=Sing|Typo=Yes	4	obl	4:obl	CorrectForm=in ornithology|Entity=(33-abstract-new-nnnnn-cf7-1-sgl)|MSeg=ornitho-logy|XML=<sic ana:::"in ornithology"></sic>
+5	ornithology	ornithology	NOUN	NN	Number=Sing|Typo=Yes	4	obl	4:obl	CorrectForm=in ornithology|Entity=(33-abstract-new-nnnnn-cf8-1-sgl)|MSeg=ornitho-log-y|XML=<sic ana:::"in ornithology"></sic>
 6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Discourse=elaboration-additional:26->22:1:_|Entity=(34-abstract-new-nnnnn-cf2-4-coref
 7	many	many	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 8	shallow	shallow	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
@@ -302,13 +302,13 @@
 16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(34-abstract-giv:act-nnnnn-cf2-2-pred
 17	treat	treat	NOUN	NN	Number=Sing	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=17:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Entity=34)
 18	with	with	ADP	IN	_	19	case	19:case	_
-19	thousands	thousand	NOUN	NNS	Number=Plur	17	nmod	17:nmod:with	Entity=(35-animal-new-nnnsn-cf8-1-coref|MSeg=thousand-s
+19	thousands	thousand	NOUN	NNS	Number=Plur	17	nmod	17:nmod:with	Entity=(35-animal-new-nnnsn-cf9-1-coref|MSeg=thousand-s
 20	of	of	ADP	IN	_	21	case	21:case	_
 21	birds	bird	NOUN	NNS	Number=Plur	19	nmod	19:nmod:of	Entity=35)|MSeg=bird-s
 22	and	and	CCONJ	CC	_	23	cc	23:cc	_
-23	colonies	colony	NOUN	NNS	Number=Plur	21	conj	19:nmod:of|21:conj:and	Entity=(36-animal-new-nnnnn-cf9-1-sgl)|MSeg=colonie-s|SpaceAfter=No
+23	colonies	colony	NOUN	NNS	Number=Plur	21	conj	19:nmod:of|21:conj:and	Bridge=35<36:entity-associative|Entity=(36-animal-acc:inf-nnnnn-cf5-1-coref)|MSeg=colonie-s|SpaceAfter=No
 24	,	,	PUNCT	,	_	33	punct	33:punct	_
-25	one	one	NUM	CD	NumForm=Word|NumType=Card	33	nsubj	33:nsubj	Bridge=35<37|Discourse=elaboration-additional:27->26:1:sem-mrnym-216-218,222-226-_|Entity=(37-animal-acc:inf-snnnn-cf1-1-coref-Arctic_tern
+25	one	one	NUM	CD	NumForm=Word|NumType=Card	33	nsubj	33:nsubj	Bridge=36<37:comparison-relative;comparison-sense;set-member|Discourse=elaboration-additional:27->26:1:sem-mrnym-220,222-226-_|Entity=(37-animal-acc:inf-snnnn-cf1-1-coref-Arctic_tern
 26	of	of	ADP	IN	_	29	case	29:case	_
 27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	29:det	PDTB=AltLex:Contingency.Condition.Arg2-as-cond:the more:224-225:198-221:222-223,226-245
 28	more	more	ADV	RBR	Degree=Cmp	29	advmod	29:advmod	_
@@ -321,7 +321,7 @@
 35	which	which	PRON	WDT	PronType=Rel	36	nsubj	33:ref	Discourse=elaboration-attribute:28->27:0:syn-mdf-230-_+syn-relcl-232-233-_
 36	migrates	migrate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	33:acl:relcl	Entity=(38-event-new-nnnnn-cf11-1-disc|MSeg=migrate-s
 37	to	to	ADP	IN	_	38	case	38:case	_
-38	Antarctica	Antarctica	PROPN	NNP	Number=Sing	36	obl	36:obl:to	Entity=(39-place-new-nnnnn-cf6-1-sgl-Antarctica)|MSeg=Ant-arct-ic-a
+38	Antarctica	Antarctica	PROPN	NNP	Number=Sing	36	obl	36:obl:to	Entity=(39-place-new-nnnnn-cf7-1-sgl-Antarctica)|MSeg=Ant-arct-ic-a
 39	and	and	CCONJ	CC	_	40	cc	40:cc	_
 40	back	back	ADV	RB	Degree=Pos	38	conj	36:obl:to|38:conj:and	_
 41	(	(	PUNCT	-LRB-	_	44	punct	44:punct	Discourse=elaboration-additional:29->28:0:grf-prn-238,242-_|SpaceAfter=No
@@ -329,7 +329,7 @@
 43	40,000	40000	NUM	CD	NumForm=Digit|NumType=Card	44	nummod	44:nummod	_
 44	kilometers	kilometer	NOUN	NNS	Number=Plur	38	parataxis	38:parataxis	Entity=40)|MSeg=kilo-meter-s|SpaceAfter=No
 45	)	)	PUNCT	-RRB-	_	44	punct	44:punct	_
-46	every	every	DET	DT	PronType=Ind	47	det	47:det	Discourse=same-unit_m:30->28:1:_|Entity=(41-time-new-nnnnn-cf5-2-sgl
+46	every	every	DET	DT	PronType=Ind	47	det	47:det	Discourse=same-unit_m:30->28:1:_|Entity=(41-time-new-nnnnn-cf6-2-sgl
 47	year	year	NOUN	NN	Number=Sing	36	obl:unmarked	36:obl:unmarked	Entity=41)38)37)|SpaceAfter=No
 48	.	.	PUNCT	.	_	17	punct	17:punct	_
 
@@ -355,13 +355,13 @@
 # s_type = decl
 # transition = zero
 # text = You also find Shore Crabs, Beach Otters and - rare for Denmark - Seals in the shallow waters and beaches.
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint-list_m:32->26:2:dm-also-258-gold|Entity=(32-person-giv:inact-nnnnn-cf1-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint-list_m:32->26:2:sem-mrnym-208-211,277-_+dm-also-258-gold|Entity=(32-person-giv:inact-nnnnn-cf1-1-ana)
 2	also	also	ADV	RB	_	3	advmod	3:advmod	PDTB=Explicit:Expansion.Conjunction:also:258:198-245:257,259-278
 3	find	find	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-4	Shore	Shore	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=(43-animal-new-snnnn-cf4-1,2-sgl-Hemigrapsus_takanoi(44-place-new-nnnnn-cf8-1-sgl)
+4	Shore	Shore	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=(43-animal-new-snnnn-cf5-1,2-sgl-Hemigrapsus_takanoi(44-place-new-nnnnn-cf8-1-sgl)
 5	Crabs	Crab	PROPN	NNPS	Number=Plur	3	obj	3:obj	Entity=43)|MSeg=Crab-s|SpaceAfter=No
 6	,	,	PUNCT	,	_	8	punct	8:punct	_
-7	Beach	Beach	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=(45-animal-new-snnnn-cf5-1,2-sgl-Sea_otter(46-place-new-nnnnn-cf9-1-sgl)
+7	Beach	Beach	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=(45-animal-new-snnnn-cf6-1,2-sgl-Sea_otter(46-place-new-nnnnn-cf9-1-sgl)
 8	Otters	Otter	PROPN	NNPS	Number=Plur	5	conj	3:obj|5:conj:and	Entity=45)|MSeg=Otter-s
 9	and	and	CCONJ	CC	_	15	cc	15:cc	_
 10	-	-	PUNCT	:	_	9	punct	9:punct	Discourse=evaluation-comment:33->34:0:lex-indwd-267-_
@@ -369,13 +369,13 @@
 12	for	for	ADP	IN	_	13	case	13:case	_
 13	Denmark	Denmark	PROPN	NNP	Number=Sing	11	obl	11:obl:for	Entity=(7-place-giv:inact-nsssn-cf3-1-coref-Denmark)
 14	-	-	PUNCT	:	_	11	punct	11:punct	_
-15	Seals	seal	NOUN	NNS	Number=Plur	5	conj	3:obj|5:conj:and	Discourse=same-unit_m:34->32:0:_|Entity=(47-animal-new-snnnn-cf6-1-sgl)|MSeg=Seal-s
+15	Seals	seal	NOUN	NNS	Number=Plur	5	conj	3:obj|5:conj:and	Discourse=same-unit_m:34->32:0:_|Entity=(47-animal-new-snnnn-cf7-1-sgl)|MSeg=Seal-s
 16	in	in	ADP	IN	_	19	case	19:case	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(34-abstract-giv:inact-nnnnn-cf2-3-coref
 18	shallow	shallow	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
 19	waters	water	NOUN	NNS	Number=Plur	3	obl	3:obl:in	Entity=34)|MSeg=water-s
 20	and	and	CCONJ	CC	_	21	cc	21:cc	_
-21	beaches	beach	NOUN	NNS	Number=Plur	19	conj	3:obl:in|19:conj:and	Entity=(48-place-new-nnnnn-cf7-1-sgl)|MSeg=beache-s|SpaceAfter=No
+21	beaches	beach	NOUN	NNS	Number=Plur	19	conj	3:obl:in|19:conj:and	Bridge=1<48:entity-associative|Entity=(48-place-acc:inf-nnnnn-cf4-1-sgl)|MSeg=beache-s|SpaceAfter=No
 22	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_voyage_sydfynske-13
@@ -383,19 +383,19 @@
 # s_type = sub
 # transition = establishment
 # text = On dry land, up on the many islands you can find badgers, stoats and several types of deer.
-1	On	on	ADP	IN	_	3	case	3:case	Discourse=joint-list_m:35->26:2:_|PDTB=Implicit:Expansion.Conjunction:and:_:257-278:279-299
+1	On	on	ADP	IN	_	3	case	3:case	Discourse=joint-list_m:35->26:2:sem-mrnym-277,285-287-_|PDTB=Implicit:Expansion.Conjunction:and:_:257-278:279-299
 2	dry	dry	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(49-place-new-nnnnn-cf4-2-sgl
 3	land	land	NOUN	NN	Number=Sing	12	obl	12:obl:on	Entity=49)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5	up	up	ADV	RB	Degree=Pos	9	advmod	9:advmod	_
 6	on	on	ADP	IN	_	9	case	9:case	_
-7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(50-place-new-nnnnn-cf3-3-coref
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Bridge=1<50:entity-associative|Entity=(50-place-acc:inf-nnnnn-cf2-3-coref
 8	many	many	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 9	islands	island	NOUN	NNS	Number=Plur	12	obl	12:obl:on	Entity=50)|MSeg=island-s
 10	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	12:nsubj	Entity=(32-person-giv:act-nnnnn-cf1*-1-ana)
 11	can	can	AUX	MD	VerbForm=Fin	12	aux	12:aux	_
 12	find	find	VERB	VB	VerbForm=Inf	0	root	0:root	_
-13	badgers	badger	NOUN	NNS	Number=Plur	12	obj	12:obj	Entity=(51-animal-new-nnnnn-cf2-1-sgl)|MSeg=badg-er-s|SpaceAfter=No
+13	badgers	badger	NOUN	NNS	Number=Plur	12	obj	12:obj	Entity=(51-animal-new-nnnnn-cf3-1-sgl)|MSeg=badg-er-s|SpaceAfter=No
 14	,	,	PUNCT	,	_	15	punct	15:punct	_
 15	stoats	stoat	NOUN	NNS	Number=Plur	13	conj	12:obj|13:conj:and	Entity=(52-animal-new-nnnnn-cf5-1-sgl)|MSeg=stoat-s
 16	and	and	CCONJ	CC	_	18	cc	18:cc	_
@@ -411,7 +411,7 @@
 # transition = zero
 # text = While possibly the most exciting animals are found beneath the water: the Harbour Porpoise, Denmark's only resident whale population.
 1	While	while	SCONJ	IN	_	8	mark	8:mark	Discourse=organization-preparation:36->37:0:sem-synym-301-305,312-314-_+grf-col-311-_|PDTB=Explicit:Comparison.Contrast:while:300:279-299:301-322
-2	possibly	possibly	ADV	RB	Degree=Pos	8	advmod	8:advmod	Entity=(55-animal-new-nnnnn-cf1-5-coref-Harbour_porpoise|MSeg=possib-ly
+2	possibly	possibly	ADV	RB	Degree=Pos	8	advmod	8:advmod	Bridge=50<55:entity-associative|Entity=(55-animal-acc:inf-nnnnn-cf1-5-coref-Harbour_porpoise|MSeg=possib-ly
 3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	_
 4	most	most	ADV	RBS	Degree=Sup	5	advmod	5:advmod	_
 5	exciting	exciting	ADJ	JJ	Degree=Pos	6	amod	6:amod	MSeg=excit-ing
@@ -419,10 +419,10 @@
 7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	8:aux:pass	_
 8	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 9	beneath	beneath	ADP	IN	_	11	case	11:case	MSeg=be-neath
-10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Bridge=34<56|Entity=(56-place-acc:inf-nnnnn-cf3-2-sgl
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Bridge=50<56:entity-associative|Entity=(56-place-acc:inf-nnnnn-cf3-2-sgl
 11	water	water	NOUN	NN	Number=Sing	8	obl	8:obl:beneath	Entity=56)|SpaceAfter=No
 12	:	:	PUNCT	:	_	15	punct	15:punct	_
-13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Discourse=joint-list_m:37->26:2:sem-mrnym-273-275,309-310-_;adversative-contrast:37->35:1:0:orp-while-300-gold|Entity=(55-animal-giv:act-nnnnn-cf1-2,3-coref-Harbour_porpoise
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Discourse=joint-list_m:37->26:2:sem-mrnym-285-287,301-305-_;adversative-contrast:37->35:1:0:orp-while-300-gold|Entity=(55-animal-giv:act-nnnnn-cf1-2,3-coref-Harbour_porpoise
 14	Harbour	Harbour	PROPN	NNP	Number=Sing	15	compound	15:compound	_
 15	Porpoise	Porpoise	PROPN	NNP	Number=Sing	8	parataxis	8:parataxis	Entity=55)|SpaceAfter=No
 16	,	,	PUNCT	,	_	22	punct	22:punct	_
@@ -442,7 +442,7 @@
 # s_type = imp
 # transition = null
 # text = Get in
-1	Get	get	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:38->39:2:grf-ly-_-_
+1	Get	get	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:38->39:2:grf-ly-_-_
 2	in	in	ADV	RB	Degree=Pos	1	advmod	1:advmod	_
 
 # newpar
@@ -459,7 +459,7 @@
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	_
 6	few	few	ADJ	JJ	Degree=Pos	1	conj	1:conj:and|12:nsubj:pass	_
 7	of	of	ADP	IN	_	10	case	10:case	_
-8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=1<60|Entity=(60-place-acc:inf-nnnnn-cf3-3-sgl
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=1<60:comparison-relative;set-subset|Entity=(60-place-acc:inf-nnnnn-cf3-3-sgl
 9	smaller	small	ADJ	JJR	Degree=Cmp	10	amod	10:amod	MSeg=small-er
 10	islands	island	NOUN	NNS	Number=Plur	6	nmod	6:nmod:of	Entity=60)|MSeg=island-s
 11	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	12:aux:pass	_
@@ -539,7 +539,7 @@
 4	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 5	ferries	ferry	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	CxnElt=4:Existential-CopPred-ThereExpl.Pivot|Entity=(77-object-new-nnnnn-cf3-1-sgl|MSeg=ferrie-s
 6	to	to	ADP	IN	_	9	case	9:case	_
-7	some	some	DET	DT	PronType=Ind	9	det	9:det	Bridge=59<78|Entity=(78-place-acc:inf-nnnnn-cf2-3-sgl
+7	some	some	DET	DT	PronType=Ind	9	det	9:det	Bridge=59<78:comparison-relative|Entity=(78-place-acc:inf-nnnnn-cf2-3-coref
 8	other	other	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 9	islands	island	NOUN	NNS	Number=Plur	5	nmod	5:nmod:to	Entity=78)77)|MSeg=island-s|SpaceAfter=No
 10	.	.	PUNCT	.	_	4	punct	4:punct	_
@@ -549,14 +549,14 @@
 # s_type = decl
 # transition = null
 # text = For easy reference ferries are listed under the individual islands.
-1	For	for	ADP	IN	_	3	case	3:case	Discourse=elaboration-additional:47->46:0:sem-lxchn-396,411-gold+sem-lxchn-400,405-gold|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:392-401:402-412
+1	For	for	ADP	IN	_	3	case	3:case	Discourse=elaboration-additional:47->46:0:sem-lxchn-396,411-gold+sem-mrnym-398-400,409-411-_+sem-lxchn-400,405-gold|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:392-401:402-412
 2	easy	easy	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(79-abstract-new-nnnnn-cf3-2-sgl|MSeg=eas-y
 3	reference	reference	NOUN	NN	Number=Sing	6	obl	6:obl:for	Entity=79)|MSeg=refer-ence
 4	ferries	ferry	NOUN	NNS	Number=Plur	6	nsubj:pass	6:nsubj:pass	Entity=(64-object-giv:inact-ssssn-cf1-1-coref)|MSeg=ferrie-s
 5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	6:aux:pass	_
 6	listed	list	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=list-ed
 7	under	under	ADP	IN	_	10	case	10:case	_
-8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=64<80|Entity=(80-place-acc:inf-nnnnn-cf2-3-sgl
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=78<80:entity-associative|Entity=(80-place-acc:inf-nnnnn-cf2-3-sgl
 9	individual	individual	ADJ	JJ	Degree=Pos	10	amod	10:amod	MSeg=individu-al
 10	islands	island	NOUN	NNS	Number=Plur	6	obl	6:obl:under	Entity=80)|MSeg=island-s|SpaceAfter=No
 11	.	.	PUNCT	.	_	6	punct	6:punct	_
@@ -566,7 +566,7 @@
 # s_type = decl
 # transition = null
 # text = From Spodsbjerg on Langeland there is a ferry connection across the great belt to Tårs on Lolland.
-1	From	from	ADP	IN	_	2	case	2:case	Discourse=elaboration-additional:48->46:1:sem-rpt-393,416-_|PDTB=EntRel:EntRel:_:_:402-412:413-430
+1	From	from	ADP	IN	_	2	case	2:case	Discourse=elaboration-additional:48->46:1:sem-rpt-393,416-_|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:402-412:413-430
 2	Spodsbjerg	Spodsbjerg	PROPN	NNP	Number=Sing	6	obl	6:obl:from	Entity=(81-place-new-nnnnn-cf4-1,3-sgl-Spodsbjerg|XML=<ref target:::"Spodsbjerg"></ref>
 3	on	on	ADP	IN	_	4	case	4:case	_
 4	Langeland	Langeland	PROPN	NNP	Number=Sing	2	nmod	2:nmod:on	Entity=(59-place-giv:inact-nnnnn-cf1-1-coref-Langeland)81)|XML=<ref target:::"Langeland"></ref>
@@ -592,7 +592,7 @@
 # s_type = imp
 # transition = null
 # text = Get around
-1	Get	get	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:49->53:6:grf-ly-_-_
+1	Get	get	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:49->53:6:grf-ly-_-_
 2	around	around	ADV	RB	Degree=Pos	1	advmod	1:advmod	MSeg=a-round
 
 # newpar
@@ -663,12 +663,12 @@
 # transition = establishment
 # text = While some islands are connected by the same ferry, you will generally have to go back to the mainland to pass between the islands, if you rely on public transportation.
 1	While	while	SCONJ	IN	_	5	mark	5:mark	Discourse=adversative-concession:57->58:2:dm-while-487-gold|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:while:487:497-519:488-496
-2	some	some	DET	DT	PronType=Ind	3	det	3:det	Entity=(92-place-new-nnsnn-cf4-2-sgl
+2	some	some	DET	DT	PronType=Ind	3	det	3:det	Entity=(92-place-new-nnsnn-cf6-2-coref
 3	islands	island	NOUN	NNS	Number=Plur	5	nsubj:pass	5:nsubj:pass	Entity=92)|MSeg=island-s
 4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	5:aux:pass	_
 5	connected	connect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	advcl	14:advcl:while	MSeg=connect-ed
 6	by	by	ADP	IN	_	9	case	9:case	_
-7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(93-object-new-nnnnn-cf5-3-sgl
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Bridge=92<93:comparison-relative|Entity=(93-object-acc:inf-nnnnn-cf3-3-sgl
 8	same	same	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 9	ferry	ferry	NOUN	NN	Number=Sing	5	obl:agent	5:obl:agent	Entity=93)|SpaceAfter=No
 10	,	,	PUNCT	,	_	5	punct	5:punct	_
@@ -680,7 +680,7 @@
 16	go	go	VERB	VB	VerbForm=Inf	14	xcomp	14:xcomp	_
 17	back	back	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
 18	to	to	ADP	IN	_	20	case	20:case	_
-19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Bridge=7<94|Entity=(94-place-acc:inf-nnnnn-cf3-2-sgl
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Bridge=7<94:entity-meronomy|Entity=(94-place-acc:inf-nnnnn-cf4-2-sgl
 20	mainland	mainland	NOUN	NN	Number=Sing	16	obl	16:obl:to	Entity=94)|MSeg=main-land
 21	to	to	PART	TO	_	22	mark	22:mark	Discourse=purpose-goal:59->58:0:syn-inf-507-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:497-506:507-512
 22	pass	pass	VERB	VB	VerbForm=Inf	16	advcl	16:advcl:to	_
@@ -692,7 +692,7 @@
 28	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	29	nsubj	29:nsubj	Entity=(32-person-giv:act-nnnnn-cf1*-1-ana)
 29	rely	rely	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	14:advcl:if	CxnElt=14:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 30	on	on	ADP	IN	_	32	case	32:case	_
-31	public	public	ADJ	JJ	Degree=Pos	32	amod	32:amod	Entity=(95-abstract-new-nnnnn-cf6-2-sgl|MSeg=publ-ic
+31	public	public	ADJ	JJ	Degree=Pos	32	amod	32:amod	Bridge=7<95:entity-associative|Entity=(95-abstract-acc:inf-nnnnn-cf5-2-sgl|MSeg=publ-ic
 32	transportation	transportation	NOUN	NN	Number=Sing	29	obl	29:obl:on	Entity=95)|MSeg=transport-ation|SpaceAfter=No
 33	.	.	PUNCT	.	_	14	punct	14:punct	_
 
@@ -704,7 +704,7 @@
 # transition = zero
 # text = However the best way to visit is really by boat, and there are plenty of options to do this.
 1	However	however	ADV	RB	_	10	advmod	10:advmod	Discourse=adversative-contrast_m:61->58:3:dm-however-520-gold|MSeg=How-ever|PDTB=Explicit:Comparison.Contrast:however:520:487-519:521-540
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(96-abstract-new-nnnnn-cf2-3-sgl
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=50<96:entity-associative|Entity=(96-abstract-acc:inf-nnnnn-cf2-3-sgl
 3	best	good	ADJ	JJS	Degree=Sup	4	amod	4:amod	MSeg=be-st
 4	way	way	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	_
 5	to	to	PART	TO	_	6	mark	6:mark	Discourse=purpose-attribute:62->61:0:syn-mdf-523-_+syn-inf-524-_
@@ -717,7 +717,7 @@
 12	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=organization-preparation:64->66:2:sem-lxchn-536,543-_|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:and:531:520-530,532-540:532-557
 13	there	there	PRON	EX	PronType=Dem	14	expl	14:expl	_
 14	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	10:conj:and	Cxn=Existential-CopPred-ThereExpl
-15	plenty	plenty	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	CxnElt=14:Existential-CopPred-ThereExpl.Pivot|Entity=(99-abstract-new-nnnnn-cf4-5-sgl
+15	plenty	plenty	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	CxnElt=14:Existential-CopPred-ThereExpl.Pivot|Entity=(99-abstract-new-nnnnn-cf4-5-coref
 16	of	of	ADP	IN	_	17	case	17:case	_
 17	options	option	NOUN	NNS	Number=Plur	15	nmod	15:nmod:of	MSeg=opt-ion-s
 18	to	to	PART	TO	_	19	mark	19:mark	Discourse=purpose-attribute:65->64:0:syn-inf-537-_
@@ -730,7 +730,7 @@
 # s_type = decl
 # transition = null
 # text = A popular option, and one good for your health too, is by sea kayak.
-1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Discourse=elaboration-additional:66->61:2:dm-and-531-gold+lex-indwd-551-_|Entity=(100-object-new-nnnsn-cf1-3-coref|PDTB=NoRel:NoRel:_:_:520-540:541-557
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Bridge=99<100:comparison-sense;set-member|Discourse=elaboration-additional:66->61:2:dm-and-531-gold+lex-indwd-551-_|Entity=(100-object-acc:inf-nnnsn-cf1-3-coref|PDTB=NoRel:NoRel:_:_:520-540:541-557
 2	popular	popular	ADJ	JJ	Degree=Pos	3	amod	3:amod	MSeg=popul-ar
 3	option	option	NOUN	NN	Number=Sing	16	nsubj	16:nsubj	Entity=100)|MSeg=opt-ion|SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	6:punct	_
@@ -791,7 +791,7 @@
 # s_type = decl
 # transition = continue
 # text = Several rental places also gives you the option of trained guide, which can both provide information about the sights you visit, and make sure you are safe.
-1	Several	several	ADJ	JJ	Degree=Pos	3	amod	3:amod	Discourse=joint-other_m:72->53:3:dm-also-593-gold|Entity=(107-organization-new-nnnnn-cf2-3-sgl
+1	Several	several	ADJ	JJ	Degree=Pos	3	amod	3:amod	Bridge=100<107:entity-associative|Discourse=joint-other_m:72->53:3:dm-also-593-gold|Entity=(107-organization-acc:inf-nnnnn-cf2-3-sgl
 2	rental	rental	NOUN	NN	Number=Sing	3	compound	3:compound	MSeg=rent-al
 3	places	place	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=107)|MSeg=place-s
 4	also	also	ADV	RB	_	5	advmod	5:advmod	PDTB=Explicit:Expansion.Conjunction:also:593:558-589:590-592,594-619
@@ -833,25 +833,25 @@
 4	possible	possible	ADJ	JJ	Degree=Pos	0	root	0:root	_
 5	to	to	PART	TO	_	6	mark	6:mark	Entity=(112-event-acc:com-nnnnn-cf3-2,3-coref
 6	rent	rent	VERB	VB	VerbForm=Inf	4	csubj	4:csubj	_
-7	Smack	Smack	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=(113-object-new-nnnnn-cf5-1,2-coref
+7	Smack	Smack	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=(113-object-new-nnnnn-cf6-1,2-coref
 8	Dinghies	Dinghy	PROPN	NNPS	Number=Plur	6	obj	6:obj	MSeg=Dinghie-s
 9	with	with	ADP	IN	_	10	case	10:case	_
-10	sails	sail	NOUN	NNS	Number=Plur	8	nmod	8:nmod:with	Entity=(114-object-new-nnnnn-cf8-1-sgl)113)|MSeg=sail-s
+10	sails	sail	NOUN	NNS	Number=Plur	8	nmod	8:nmod:with	Entity=(114-object-new-nnnnn-cf9-1-sgl)113)|MSeg=sail-s
 11	to	to	PART	TO	_	12	mark	12:mark	Discourse=purpose-goal:78->77:0:syn-inf-630-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:620-629,635-638:630-634
 12	ease	ease	VERB	VB	VerbForm=Inf	6	advcl	6:advcl:to	_
-13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(115-abstract-new-nnnnn-cf4-2-sgl
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Bridge=100<115:entity-associative|Entity=(115-abstract-acc:inf-nnnnn-cf4-2-sgl
 14	strain	strain	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=115)|SpaceAfter=No
 15	,	,	PUNCT	,	_	12	punct	12:punct	_
 16	or	or	CCONJ	CC	_	19	cc	16.1:cc	Discourse=same-unit_m:79->77:1:_
 16.1	rent	rent	VERB	VB	VerbForm=Inf	_	_	4:csubj|6:conj:or	CopyOf=6
-17	larger	large	ADJ	JJR	Degree=Cmp	19	amod	19:amod	Entity=(116-object-new-nnnnn-cf9-3-sgl|MSeg=larg-er
+17	larger	large	ADJ	JJR	Degree=Cmp	19	amod	19:amod	Bridge=113<116:comparison-relative|Entity=(116-object-acc:inf-nnnnn-cf5-3-sgl|MSeg=larg-er
 18	cattle	cattle	NOUN	NN	Number=Sing	19	compound	19:compound	Entity=(117-animal-new-nnnnn-cf11-1-sgl)
 19	barges	barge	NOUN	NNS	Number=Plur	8	conj	16.1:obj	Entity=116)|MSeg=barge-s
 20	if	if	SCONJ	IN	_	25	mark	25:mark	Discourse=contingency-condition:80->79:0:dm-if-639-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:639:620-629,635-638:640-651
 21	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	25	nsubj	25:nsubj	Entity=(32-person-giv:act-nnnnn-cf1*-1-ana)
 22	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	25	cop	25:cop	_
 23	in	in	ADP	IN	_	25	case	25:case	_
-24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	25:det	Entity=(118-person-new-nnnnn-cf7-2-sgl
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	25:det	Entity=(118-person-new-nnnnn-cf8-2-sgl
 25	group	group	NOUN	NN	Number=Sing	19	orphan	16.1:advcl:if	Entity=118)
 26	at	at	ADP	IN	_	29	case	29:case	_
 27-28	Øhavet's	_	_	_	_	_	_	_	_
@@ -859,7 +859,7 @@
 28	's	's	PART	POS	_	27	case	27:case	Entity=1)
 29	smakkecenter	smakkecenter	NOUN	NN	Number=Sing	19	orphan	16.1:obl:at	XML=</hi>
 30	on	on	ADP	IN	_	31	case	31:case	_
-31	Strynø	Strynø	PROPN	NNP	Number=Sing	29	nmod	29:nmod:on	Entity=(120-place-new-nnnnn-cf6-1-coref-Strynø)119)112)|SpaceAfter=No
+31	Strynø	Strynø	PROPN	NNP	Number=Sing	29	nmod	29:nmod:on	Entity=(120-place-new-nnnnn-cf7-1-coref-Strynø)119)112)|SpaceAfter=No
 32	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # newpar
@@ -932,7 +932,7 @@
 # s_type = imp
 # transition = null
 # text = Walk
-1	Walk	walk	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:91->92:3:grf-ly-_-_
+1	Walk	walk	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:91->92:3:grf-ly-_-_
 
 # newpar
 # newpar_block = p (8 s)
@@ -992,8 +992,8 @@
 # s_type = imp
 # transition = continue
 # text = Allow 4 - 7 days for the whole trail depending on experience and your desired pace, but it is also possible do to day trips along the route.
-1	Allow	allow	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:101->99:2:_|PDTB=Implicit:Expansion.Conjunction:and:_:725-740:741-770
-2	4	4	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	5:nummod	Entity=(144-time-new-nnnnn-cf5-4-sgl
+1	Allow	allow	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:101->99:2:_|PDTB=Implicit:Expansion.Conjunction:and:_:725-740:741-770
+2	4	4	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	5:nummod	Entity=(144-time-new-nnnnn-cf6-4-sgl
 3	-	-	SYM	SYM	ExtPos=ADP	4	case	4:case	_
 4	7	7	NUM	CD	NumForm=Digit|NumType=Card	2	nmod	2:nmod:to	_
 5	days	day	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=144)|MSeg=day-s
@@ -1003,20 +1003,20 @@
 9	trail	trail	NOUN	NN	Number=Sing	1	obl	1:obl:for	Entity=136)
 10	depending	depend	VERB	VBG	ExtPos=ADP|Tense=Pres|VerbForm=Part	12	case	12:case	Discourse=contingency-condition:102->101:0:dm-depending on-750-751-gold|MSeg=de-pend-ing
 11	on	on	ADP	IN	_	10	fixed	10:fixed	_
-12	experience	experience	NOUN	NN	Number=Sing	1	obl	1:obl:depending_on	Entity=(145-abstract-new-nnnnn-cf7-1-sgl)
+12	experience	experience	NOUN	NN	Number=Sing	1	obl	1:obl:depending_on	Bridge=32<145:entity-associative|Entity=(145-abstract-acc:inf-nnnnn-cf3-1-sgl)
 13	and	and	CCONJ	CC	_	16	cc	16:cc	_
 14	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(146-abstract-new-nnnnn-cf8-3-sgl(32-person-giv:inact-nnnnn-cf2-1-ana)
 15	desired	desire	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	amod	16:amod	MSeg=desir-ed
 16	pace	pace	NOUN	NN	Number=Sing	12	conj	1:obl:depending_on|12:conj:and	Entity=146)|SpaceAfter=No
 17	,	,	PUNCT	,	_	22	punct	22:punct	_
 18	but	but	CCONJ	CC	_	22	cc	22:cc	Discourse=adversative-contrast_m:103->101:1:dm-but-758-gold;joint-list:103->101:0:1:orp-also-761-gold|PDTB=Explicit:Comparison.Contrast:but:758:741-757:759-770
-19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	expl	22:expl	Entity=(147-event-new-nnnnn-cf3-1-sgl)
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	expl	22:expl	Entity=(147-event-new-nnnnn-cf4-1-sgl)
 20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	22:cop	_
 21	also	also	ADV	RB	_	22	advmod	22:advmod	PDTB=Explicit:Expansion.Conjunction:also:761:741-757:758-760,762-770
 22	possible	possible	ADJ	JJ	Degree=Pos	1	conj	1:conj:but	_
-23	do	to	PART	TO	Typo=Yes	24	mark	24:mark	CorrectForm=to|Entity=(148-event-new-nnnnn-cf4-2-sgl|XML=<sic ana:::"to"></sic>
+23	do	to	PART	TO	Typo=Yes	24	mark	24:mark	CorrectForm=to|Entity=(148-event-new-nnnnn-cf5-2-sgl|XML=<sic ana:::"to"></sic>
 24	to	do	VERB	VB	Typo=Yes|VerbForm=Inf	22	csubj	22:csubj	CorrectForm=do|XML=<sic ana:::"do"></sic>
-25	day	day	NOUN	NN	Number=Sing	26	compound	26:compound	Entity=(149-event-new-nnnnn-cf6-2-sgl
+25	day	day	NOUN	NN	Number=Sing	26	compound	26:compound	Entity=(149-event-new-nnnnn-cf7-2-sgl
 26	trips	trip	NOUN	NNS	Number=Plur	24	obj	24:obj	Entity=149)|MSeg=trip-s
 27	along	along	ADP	IN	_	29	case	29:case	MSeg=a-long
 28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	29:det	Entity=(136-place-giv:act-ssnsn-cf1*-2-coref
@@ -1028,9 +1028,9 @@
 # s_type = decl
 # transition = smooth-shift
 # text = The local tourist offices in Svendborg and Faaborg can arrange baggage forwarding between your chosen camps or accommodations during peak season.
-1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Discourse=joint-other_m:104->99:2:_|Entity=(150-organization-new-nnnnn-cf4-4,8-coref|PDTB=Implicit:Expansion.Conjunction:also:_:741-770:771-792
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Discourse=joint-other_m:104->99:2:_|Entity=(150-organization-new-nnnnn-cf5-4,8-coref|PDTB=Implicit:Expansion.Conjunction:also:_:741-770:771-792
 2	local	local	ADJ	JJ	Degree=Pos	4	amod	4:amod	MSeg=loc-al
-3	tourist	tourist	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(151-person-new-nnnnn-cf8-1-coref)|MSeg=tour-ist
+3	tourist	tourist	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(151-person-new-nnnnn-cf9-1-coref)|MSeg=tour-ist
 4	offices	office	NOUN	NNS	Number=Plur	10	nsubj	10:nsubj	MSeg=office-s
 5	in	in	ADP	IN	_	6	case	6:case	_
 6	Svendborg	Svendborg	PROPN	NNP	Number=Sing	4	nmod	4:nmod:in	Entity=(70-place-giv:inact-nnnnn-cf2-1-coref-Svendborg)|XML=<ref target:::"Svendborg"></ref>
@@ -1038,16 +1038,16 @@
 8	Faaborg	Faaborg	PROPN	NNP	Number=Sing	6	conj	4:nmod:in|6:conj:and	Entity=(74-place-giv:inact-nnnnn-cf3-1-coref-Faaborg)150)|XML=<ref target:::"Faaborg"></ref>
 9	can	can	AUX	MD	VerbForm=Fin	10	aux	10:aux	_
 10	arrange	arrange	VERB	VB	VerbForm=Inf	0	root	0:root	_
-11	baggage	baggage	NOUN	NN	Number=Sing	12	compound	12:compound	Entity=(152-event-new-nnnnn-cf5-2-sgl(153-object-new-nnnnn-cf9-1-sgl)|MSeg=bagg-age
+11	baggage	baggage	NOUN	NN	Number=Sing	12	compound	12:compound	Bridge=32<153:entity-associative|Entity=(152-event-new-nnnnn-cf6-2-sgl(153-object-acc:inf-nnnnn-cf4-1-sgl)|MSeg=bagg-age
 12	forwarding	forwarding	NOUN	NN	Number=Sing	10	obj	10:obj	MSeg=for-ward-ing
 13	between	between	ADP	IN	_	16	case	16:case	MSeg=be-tween
-14	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(154-place-new-nnnsn-cf6-3,5-sgl(32-person-giv:act-nnnnn-cf1*-1-ana)
+14	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(154-place-new-nnnsn-cf7-3,5-sgl(32-person-giv:act-nnnnn-cf1*-1-ana)
 15	chosen	choose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	amod	16:amod	MSeg=chos-en
 16	camps	camp	NOUN	NNS	Number=Plur	12	nmod	12:nmod:between	MSeg=camp-s
 17	or	or	CCONJ	CC	_	18	cc	18:cc	_
 18	accommodations	accommodation	NOUN	NNS	Number=Plur	16	conj	12:nmod:between|16:conj:or	Entity=154)152)|MSeg=accommodat-ion-s
 19	during	during	ADP	IN	_	21	case	21:case	MSeg=dur-ing
-20	peak	peak	NOUN	NN	Number=Sing	21	compound	21:compound	Entity=(155-time-new-nnnnn-cf7-2-sgl
+20	peak	peak	NOUN	NN	Number=Sing	21	compound	21:compound	Entity=(155-time-new-nnnnn-cf8-2-sgl
 21	season	season	NOUN	NN	Number=Sing	10	obl	10:obl:during	Entity=155)|SpaceAfter=No
 22	.	.	PUNCT	.	_	10	punct	10:punct	_
 
@@ -1093,13 +1093,13 @@
 3	choose	choose	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	advcl	10:advcl:if	CxnElt=10:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 4	to	to	PART	TO	_	5	mark	5:mark	_
 5	do	do	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(161-event-new-nnnnn-cf4-2-sgl
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Bridge=136<161:entity-associative|Entity=(161-event-acc:inf-nnnnn-cf3-2-sgl
 7	trek	trek	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=161)
 8	individually	individually	ADV	RB	Degree=Pos	5	advmod	5:advmod	MSeg=individual-ly
-9	be	be	AUX	VB	Mood=Imp|Person=2|VerbForm=Fin	10	cop	10:cop	Discourse=attribution-positive:107->108:0:lex-indwd-828-_+sem-atsrc-828-_+syn-rpr-829-_
+9	be	be	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	10	cop	10:cop	Discourse=attribution-positive:107->108:0:lex-indwd-828-_+sem-atsrc-828-_+syn-rpr-829-_
 10	mindful	mindful	ADJ	JJ	Degree=Pos	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=10:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|MSeg=mind-ful
 11	that	that	SCONJ	IN	_	17	mark	17:mark	Discourse=explanation-motivation:108->109:0:dm-so-839-gold+mrf-md-840-_
-12	substantial	substantial	ADJ	JJ	Degree=Pos|Typo=Yes	13	amod	13:amod	CorrectForm=a substantial|Entity=(162-place-new-nnnnn-cf3-2-sgl|MSeg=substant-ial|XML=<sic ana:::"a substantial"></sic>
+12	substantial	substantial	ADJ	JJ	Degree=Pos|Typo=Yes	13	amod	13:amod	CorrectForm=a substantial|Entity=(162-place-new-nnnnn-cf4-2-sgl|MSeg=substant-ial|XML=<sic ana:::"a substantial"></sic>
 13	part	part	NOUN	NN	Number=Sing	17	nsubj	17:nsubj	_
 14	of	of	ADP	IN	_	16	case	16:case	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(136-place-giv:inact-ssnsn-cf2-2-coref
@@ -1109,7 +1109,7 @@
 19	property	property	NOUN	NN	Number=Sing	17	obj	17:obj	Entity=163)|MSeg=proper-ty|SpaceAfter=No
 20	,	,	PUNCT	,	_	23	punct	23:punct	_
 21	so	so	ADV	RB	_	23	advmod	23:advmod	Discourse=joint-other_m:109->99:2:_|PDTB=Explicit:Contingency.Cause.Result:so:839:827-838:840-842
-22	be	be	AUX	VB	Mood=Imp|Person=2|VerbForm=Fin	23	cop	23:cop	_
+22	be	be	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	23	cop	23:cop	_
 23	considerate	considerate	ADJ	JJ	Degree=Pos	10	parataxis	10:parataxis	MSeg=consider-ate|SpaceAfter=No
 24	.	.	PUNCT	.	_	10	punct	10:punct	_
 
@@ -1296,7 +1296,7 @@
 # s_type = imp
 # transition = null
 # text = See
-1	See	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:127->159:7:grf-ly-_-_
+1	See	see	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:127->159:7:grf-ly-_-_
 
 # newpar
 # newpar_block = p (4 s)
@@ -1316,7 +1316,7 @@
 9	west	west	NOUN	NN	Number=Sing	7	nmod	7:nmod:to	Entity=(193-place-new-nnnnn-cf7-1-sgl)
 10	order	order	NOUN	NN	Number=Sing	5	obl	5:obl:in	Entity=191)190)|SpaceAfter=No
 11	;	;	PUNCT	:	_	12	punct	12:punct	_
-12	note	note	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	parataxis	1:parataxis	Discourse=attribution-positive:130->132:2:lex-indwd-990-_+sem-atsrc-990-_+syn-rpr-991-_
+12	note	note	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	parataxis	1:parataxis	Discourse=attribution-positive:130->132:2:lex-indwd-990-_+sem-atsrc-990-_+syn-rpr-991-_
 13	that	that	SCONJ	IN	_	15	mark	15:mark	Discourse=adversative-concession:131->132:1:dm-but-1003-gold
 14	there	there	PRON	EX	PronType=Dem	15	expl	15:expl	_
 15	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	12:ccomp	Cxn=Existential-CopPred-ThereExpl
@@ -1353,7 +1353,7 @@
 # s_type = decl
 # transition = null
 # text = Most other islands are closed during much of the year for the protection of local wildlife.
-1	Most	most	ADJ	JJS	Degree=Sup	3	amod	3:amod	Bridge=190<197|Discourse=adversative-contrast_m:135->132:3:sem-mrnym-1006-1019,1021-1023-_|Entity=(197-place-acc:inf-nnsnn-cf2-3-sgl|PDTB=Implicit:Comparison.Contrast:in contrast:_:979-1020:1021-1037
+1	Most	most	ADJ	JJS	Degree=Sup	3	amod	3:amod	Bridge=190<197:comparison-relative|Discourse=adversative-contrast_m:135->132:3:sem-mrnym-1006-1019,1021-1023-_|Entity=(197-place-acc:inf-nnsnn-cf2-3-coref|PDTB=Implicit:Comparison.Contrast:in contrast:_:979-1020:1021-1037
 2	other	other	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	islands	island	NOUN	NNS	Number=Plur	5	nsubj:pass	5:nsubj:pass	Entity=197)|MSeg=island-s
 4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	5:aux:pass	_
@@ -1364,10 +1364,10 @@
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(178-time-giv:inact-nnnnn-cf1-2-coref
 10	year	year	NOUN	NN	Number=Sing	7	obl	7:obl:of	Entity=178)
 11	for	for	ADP	IN	_	13	case	13:case	_
-12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(198-abstract-new-nnnsn-cf3-2-sgl
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(198-abstract-new-nnnsn-cf4-2-sgl
 13	protection	protection	NOUN	NN	Number=Sing	5	obl	5:obl:for	MSeg=protect-ion
 14	of	of	ADP	IN	_	16	case	16:case	_
-15	local	local	ADJ	JJ	Degree=Pos	16	amod	16:amod	Entity=(199-animal-new-nsnss-cf4-2-sgl|MSeg=loc-al
+15	local	local	ADJ	JJ	Degree=Pos	16	amod	16:amod	Bridge=197<199:entity-associative|Entity=(199-animal-acc:inf-nsnss-cf3-2-sgl|MSeg=loc-al
 16	wildlife	wildlife	NOUN	NN	Number=Sing	13	nmod	13:nmod:of	Entity=199)198)|MSeg=wild-life|SpaceAfter=No
 17	.	.	PUNCT	.	_	5	punct	5:punct	_
 
@@ -1377,7 +1377,7 @@
 # transition = establishment
 # text = For the remainder of the year, short stays are permitted, which is interpreted by the authorities as a day or a night.
 1	For	for	ADP	IN	_	3	case	3:case	Discourse=adversative-contrast_m:136->135:0:_|PDTB=Implicit:Comparison.Contrast:but:_:1021-1037:1038-1062
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(200-time-new-nnnnn-cf2-2-sgl
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(200-time-new-nnnnn-cf3-2-sgl
 3	remainder	remainder	NOUN	NN	Number=Sing	11	obl	11:obl:for|15:nsubj:pass	MSeg=remain-d-er
 4	of	of	ADP	IN	_	6	case	6:case	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(178-time-giv:act-nnnnn-cf1*-2-coref
@@ -1392,7 +1392,7 @@
 14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	15:aux:pass	_
 15	interpreted	interpret	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	acl:relcl	3:acl:relcl	MSeg=interpret-ed
 16	by	by	ADP	IN	_	18	case	18:case	_
-17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(202-organization-new-nnnnn-cf3-2-sgl
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Bridge=1<202:entity-associative|Entity=(202-organization-acc:inf-nnnnn-cf2-2-sgl
 18	authorities	authority	NOUN	NNS	Number=Plur	15	obl:agent	15:obl:agent	Entity=202)|MSeg=authoritie-s
 19	as	as	ADP	IN	_	21	case	21:case	_
 20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	Entity=(203-time-new-nnnnn-cf4-2-sgl
@@ -1407,7 +1407,7 @@
 # s_type = sub
 # transition = zero
 # text = While you are normally not allowed to set up a tent, you are permitted to sleep on the beach in a sleeping bag, if necessary under a primitive cover like a tarpaulin.
-1	While	while	SCONJ	IN	_	6	mark	6:mark	Discourse=adversative-concession:138->139:1:dm-while-1063-gold|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:while:1063:1075-1097:1064-1074
+1	While	while	SCONJ	IN	_	6	mark	6:mark	Discourse=adversative-concession:138->139:1:dm-while-1063-gold|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:while:1063:1075-1097:1064-1074;Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:1038-1062:1063-1097
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj:pass	6:nsubj:pass|8:nsubj:xsubj	Entity=(32-person-giv:inact-nnnnn-cf1-1-ana)
 3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux:pass	6:aux:pass	_
 4	normally	normally	ADV	RB	Degree=Pos	6	advmod	6:advmod	MSeg=norm-al-ly
@@ -1416,7 +1416,7 @@
 7	to	to	PART	TO	_	8	mark	8:mark	_
 8	set	set	VERB	VB	VerbForm=Inf	6	xcomp	6:xcomp	_
 9	up	up	ADP	RP	_	8	compound:prt	8:compound:prt	_
-10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(205-object-new-nnnnn-cf2-2-sgl
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(205-object-new-nnnnn-cf3-2-sgl
 11	tent	tent	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=205)|SpaceAfter=No
 12	,	,	PUNCT	,	_	6	punct	6:punct	_
 13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj:pass	15:nsubj:pass|17:nsubj:xsubj	Discourse=elaboration-additional:139->135:1:_|Entity=(32-person-giv:act-nnnnn-cf1-1-ana)
@@ -1425,7 +1425,7 @@
 16	to	to	PART	TO	_	17	mark	17:mark	_
 17	sleep	sleep	VERB	VB	VerbForm=Inf	15	xcomp	15:xcomp	_
 18	on	on	ADP	IN	_	20	case	20:case	_
-19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(206-place-new-snnnn-cf3-2-sgl
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Bridge=1<206:entity-meronomy|Entity=(206-place-acc:inf-snnnn-cf2-2-sgl
 20	beach	beach	NOUN	NN	Number=Sing	17	obl	17:obl:on	Entity=206)
 21	in	in	ADP	IN	_	24	case	24:case	_
 22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(207-object-new-nnnnn-cf4-3-sgl
@@ -1468,14 +1468,14 @@
 7	25	25	NUM	CD	NumForm=Digit|NumType=Card	8	nummod	8:nummod	Entity=(214-time-new-nnnnn-cf5-2-sgl
 8	minutes	minute	NOUN	NNS	Number=Plur	1	list	1:list	Entity=214)|MSeg=minute-s|SpaceAfter=No
 9	,	,	PUNCT	,	_	11	punct	11:punct	_
-10	1	1	NUM	CD	NumForm=Digit|NumType=Card	11	nummod	11:nummod	Entity=(215-event-new-nnnnn-cf6-2-sgl
+10	1	1	NUM	CD	NumForm=Digit|NumType=Card	11	nummod	11:nummod	Entity=(215-event-new-nnnnn-cf6-2-coref
 11	departure	departure	NOUN	NN	Number=Sing	1	list	1:list	MSeg=depart-ure|XML=<ref target:::"http://www.birkholm-beboerforening.dk/%3FFartplan%252FZeitplan%252FTimetable"></ref>
 12	per	per	ADP	IN	_	13	case	13:case	_
 13	day	day	NOUN	NN	Number=Sing	11	nmod	11:nmod:per	Entity=(216-time-new-nnnnn-cf7-1-sgl)215)
-14	(	(	PUNCT	-LRB-	_	20	punct	20:punct	Discourse=adversative-concession:144->143:0:dm-but-1113-gold|SpaceAfter=No
+14	(	(	PUNCT	-LRB-	_	20	punct	20:punct	Discourse=adversative-concession:144->143:0:sem-mrnym-1108-1111,1115-1116-_+dm-but-1113-gold|SpaceAfter=No
 15	but	but	CCONJ	CC	_	20	cc	20:cc	PDTB=Explicit:Comparison.Concession.Arg1-as-denier:but:1113:1099-1111,1121-1123:1112,1114-1120
 16	ordering	order	VERB	VBG	VerbForm=Ger	20	csubj	20:csubj	MSeg=order-ing
-17	additional	additional	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(217-event-new-nnnnn-cf1-2-sgl|MSeg=add-ition-al
+17	additional	additional	ADJ	JJ	Degree=Pos	18	amod	18:amod	Bridge=215<217:comparison-relative|Entity=(217-event-acc:inf-nnnnn-cf1-2-sgl|MSeg=add-ition-al
 18	departures	departure	NOUN	NNS	Number=Plur	16	obj	16:obj	Entity=217)|MSeg=depart-ure-s
 19	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	20	cop	20:cop	CorrectForm=is|XML=<sic ana:::"is"></sic>
 20	possible	possible	ADJ	JJ	Degree=Pos	11	conj	1:list|11:conj:but	SpaceAfter=No
@@ -1617,7 +1617,7 @@
 12	place	place	NOUN	NN	Number=Sing	0	root	0:root	Entity=210)|SpaceAfter=No
 13	,	,	PUNCT	,	_	18	punct	18:punct	_
 14	with	with	SCONJ	IN	_	18	mark	18:mark	Discourse=elaboration-additional:160->159:0:sem-mrnym-1224-1230,1233-1235-_+dm-with-1232-gold|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:with:1232:1219-1231:1233-1244
-15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Bridge=210<237|Entity=(237-place-acc:inf-nnnnn-cf3-3-sgl
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Bridge=210<237:comparison-relative;entity-associative|Entity=(237-place-acc:inf-nnnnn-cf3-3-sgl
 16	highest	high	ADJ	JJS	Degree=Sup	17	amod	17:amod	MSeg=high-est
 17	point	point	NOUN	NN	Number=Sing	18	nsubj	18:nsubj	Entity=237)
 18	towering	tower	VERB	VBG	Tense=Pres|VerbForm=Part	12	advcl	12:advcl:with	MSeg=tower-ing
@@ -1635,13 +1635,13 @@
 # s_type = frag
 # transition = zero
 # text = some fine old farm houses which the remaining population does a commendable job trying to maintain, since many of them are now empty and the rest used as vacation home for "Danish foreigners".
-1	some	some	DET	DT	PronType=Ind|Typo=Yes	5	det	5:det	CorrectForm=Some|Discourse=joint-list_m:161->159:2:_|Entity=(239-object-new-nnnnn-cf1-5-coref|XML=<sic ana:::"Some"></sic>
+1	some	some	DET	DT	PronType=Ind|Typo=Yes	5	det	5:det	CorrectForm=Some|Discourse=joint-list_m:161->159:2:sem-mrnym-1233-1235,1251-1253-_|Entity=(239-object-new-nnnnn-cf1-5-coref|XML=<sic ana:::"Some"></sic>
 2	fine	fine	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
 3	old	old	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
 4	farm	farm	NOUN	NN	Number=Sing	5	compound	5:compound	_
 5	houses	house	NOUN	NNS	Number=Plur	0	root	0:root	MSeg=house-s
 6	which	which	PRON	WDT	PronType=Int	16	obj	16:obj	Discourse=elaboration-attribute:162->161:0:syn-mdf-1249-_+syn-relcl-1254-_
-7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(240-person-new-nnnnn-cf3-3-sgl
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Bridge=210<240:entity-associative|Entity=(240-person-acc:inf-nnnnn-cf2-3-sgl
 8	remaining	remain	VERB	VBG	VerbForm=Ger	9	amod	9:amod	MSeg=remain-ing
 9	population	population	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=240)|MSeg=populat-ion
 10	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	MSeg=doe-s
@@ -1660,7 +1660,7 @@
 23	now	now	ADV	RB	_	24	advmod	24:advmod	_
 24	empty	empty	ADJ	JJ	Degree=Pos	10	advcl	10:advcl:since	_
 25	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=joint-list_m:165->164:0:sem-mrnym-1263-1265,1270-1271-_+dm-and-1269-gold|PDTB=Explicit:Expansion.Conjunction:and:1269:1262-1268:1270-1281
-26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Bridge=242<243|Entity=(243-object-acc:inf-nnnnn-cf2-2-sgl
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Bridge=242<243:comparison-relative;comparison-sense|Entity=(243-object-acc:inf-nnnnn-cf3-2-sgl
 27	rest	rest	NOUN	NN	Number=Sing	28	nsubj:pass	28:nsubj:pass	Entity=243)
 28	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	conj	10:advcl:since|24:conj:and	MSeg=us-ed
 29	as	as	ADP	IN	_	31	case	31:case	_

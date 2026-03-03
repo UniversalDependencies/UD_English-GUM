@@ -33,8 +33,8 @@
 10	Belgium	Belgium	PROPN	NNP	Number=Sing	8	conj	8:conj|13:nsubj	Entity=(7-organization-new-sssss-cf3-1-coref-Belgium_national_football_team)|SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	12:punct	_
 12	England	England	PROPN	NNP	Number=Sing	8	conj	8:conj|13:nsubj	Entity=(8-organization-new-sssss-cf4-1-coref-England_national_football_team)
-13	win	win	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	5:parataxis	MSeg=w-in
-14	three	three	NUM	CD	NumForm=Word|NumType=Card	15	nummod	15:nummod	Entity=(9-abstract-new-snsnn-cf2-2-coref
+13	win	win	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	5:parataxis	_
+14	three	three	NUM	CD	NumForm=Word|NumType=Card	15	nummod	15:nummod	Entity=(9-abstract-new-snsnn-cf2-2-sgl
 15	points	point	NOUN	NNS	Number=Plur	13	obj	13:obj	Entity=9)|MSeg=point-s
 
 # newpar
@@ -154,9 +154,9 @@
 # s_type = decl
 # transition = continue
 # text = Sweden had higher ball possession in the game.
-1	Sweden	Sweden	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=elaboration-additional:9->8:0:sem-rpt-79-84,102-103-_+sem-rpt-86,96-_|Entity=(6-organization-giv:act-sssss-cf1*-1-coref-Sweden_national_football_team)|MSeg=Swede-n|PDTB=EntRel:EntRel:_:_:78-95:96-104
+1	Sweden	Sweden	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=elaboration-additional:9->8:0:sem-rpt-79-84,102-103-_+sem-rpt-86,96-_+sem-mrnym-88-89,98-100-_|Entity=(6-organization-giv:act-sssss-cf1*-1-coref-Sweden_national_football_team)|MSeg=Swede-n|PDTB=EntRel:EntRel:_:_:78-95:96-104
 2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-3	higher	high	ADJ	JJR	Degree=Cmp	5	amod	5:amod	Entity=(21-abstract-new-nnnnn-cf3-3-sgl|MSeg=high-er
+3	higher	high	ADJ	JJR	Degree=Cmp	5	amod	5:amod	Bridge=12<21:comparison-relative|Entity=(21-abstract-acc:inf-nnnnn-cf3-3-sgl|MSeg=high-er
 4	ball	ball	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(22-object-new-nnnnn-cf4-1-sgl)
 5	possession	possession	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=21)|MSeg=possess-ion
 6	in	in	ADP	IN	_	8	case	8:case	_
@@ -191,7 +191,7 @@
 # transition = zero
 # text = In the 20th minute, Marcus Berg missed a chance to put Sweden in the lead.
 1	In	in	ADP	IN	_	4	case	4:case	Discourse=joint-other_m:11->9:0:_
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=18<25|Entity=(25-time-acc:inf-nnnnn-cf2-3-sgl
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=18<25:comparison-relative;set-span-interval|Entity=(25-time-acc:inf-nnnnn-cf2-3-sgl
 3	20th	20th	ADJ	JJ	Degree=Pos|NumForm=Combi|NumType=Ord	4	amod	4:amod	_
 4	minute	minute	NOUN	NN	Number=Sing	8	obl	8:obl:in	Entity=25)|SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
@@ -204,7 +204,7 @@
 12	put	put	VERB	VB	VerbForm=Inf	10	acl	10:acl:to	_
 13	Sweden	Sweden	PROPN	NNP	Number=Sing	12	obj	12:obj	Entity=(6-organization-giv:inact-sssss-cf1-1-coref-Sweden_national_football_team)|MSeg=Swede-n
 14	in	in	ADP	IN	_	16	case	16:case	_
-15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Bridge=18<28|Entity=(28-abstract-acc:inf-nnnnn-cf3-2-sgl
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Bridge=18<28:entity-associative|Entity=(28-abstract-acc:inf-nnnnn-cf3-2-sgl
 16	lead	lead	NOUN	NN	Number=Sing	12	obl	12:obl:in	Entity=28)27)|SpaceAfter=No
 17	.	.	PUNCT	.	_	8	punct	8:punct	_
 
@@ -248,10 +248,10 @@
 6	side	side	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=34)
 7	could	could	AUX	MD	VerbForm=Fin	8	aux	8:aux	_
 8	open	open	VERB	VB	VerbForm=Inf	0	root	0:root	_
-9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=18<35|Entity=(35-abstract-acc:inf-nnnnn-cf3-2-sgl
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=18<35:entity-associative|Entity=(35-abstract-acc:inf-nnnnn-cf3-2-sgl
 10	scoring	scoring	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=35)|MSeg=scor-ing
 11	in	in	ADP	IN	_	14	case	14:case	_
-12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Bridge=18<36|Entity=(36-time-acc:inf-nnnnn-cf1-3-coref
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Bridge=18<36:comparison-relative;set-span-interval|Entity=(36-time-acc:inf-nnnnn-cf1-3-coref
 13	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	14	amod	14:amod	_
 14	half	half	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	8	obl	8:obl:in	Entity=36)
 15	as	as	SCONJ	IN	_	17	mark	17:mark	Discourse=joint-sequence_m:17->11:1:_;explanation-evidence:17->16:0:0:orp-as-171-gold|PDTB=Explicit:Contingency.Cause.Reason:as:171:161-170:172-177
@@ -270,7 +270,7 @@
 # transition = null
 # text = In the second half, Hwang Hee-Chan was booked for a bad foul.
 1	In	in	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:18->11:2:_
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=18<37|Entity=(37-time-acc:inf-nnnnn-cf1-3-sgl
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=18<37:comparison-relative;set-span-interval|Entity=(37-time-acc:inf-nnnnn-cf1-3-sgl
 3	second	second	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	4	amod	4:amod	_
 4	half	half	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	9	obl	9:obl:in	Entity=37)|SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
@@ -290,13 +290,13 @@
 # transition = null
 # text = In the 62nd minute Kim Min-Woo conceded a penalty which the match referee Joel Aguilar awarded Sweden after confirming with the video assistant referee.
 1	In	in	ADP	IN	_	4	case	4:case	Discourse=causal-cause:19->22:0:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:178-191:192-216
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=18<40|Entity=(40-time-acc:inf-nnnnn-cf5-3-sgl
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=18<40:comparison-relative;set-span-interval|Entity=(40-time-acc:inf-nnnnn-cf6-3-sgl
 3	62nd	62nd	ADJ	JJ	Degree=Pos|NumForm=Combi|NumType=Ord	4	amod	4:amod	_
 4	minute	minute	NOUN	NN	Number=Sing	7	obl	7:obl:in	Entity=40)
 5	Kim	Kim	PROPN	NNP	Number=Sing	7	nsubj	7:nsubj	Entity=(32-person-giv:inact-nnnnn-cf2-1,2-coref-Kim_Min%2Dwoo_%28footballer%29
 6	Min-Woo	Min-Woo	PROPN	NNP	Number=Sing	5	flat	5:flat	Entity=32)
 7	conceded	concede	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=conced-ed
-8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(41-abstract-new-nnnnn-cf6-2,8-sgl
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(41-abstract-new-nnnnn-cf7-2,8-sgl
 9	penalty	penalty	NOUN	NN	Number=Sing	7	obj	7:obj|16:obj	MSeg=penal-ty
 10	which	which	PRON	WDT	PronType=Rel	16	obj	9:ref	CxnElt=16:Ditransitive.Theme|Discourse=elaboration-attribute:20->19:0:syn-mdf-200-_+syn-relcl-201,207-_
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(42-person-new-nnnnn-cf1-3-coref-Joel_Aguilar
@@ -309,7 +309,7 @@
 18	after	after	SCONJ	IN	_	19	mark	19:mark	Discourse=context-circumstance:21->20:0:dm-after-209-gold+syn-pres-210-_|PDTB=Explicit:Temporal.Asynchronous.Succession:after:209:201-208:210-216
 19	confirming	confirm	VERB	VBG	Tense=Pres|VerbForm=Part	16	advcl	16:advcl:after	MSeg=confirm-ing
 20	with	with	ADP	IN	_	24	case	24:case	_
-21	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(43-person-new-nnnnn-cf7-4-sgl
+21	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Bridge=18<43:entity-associative|Entity=(43-person-acc:inf-nnnnn-cf5-4-sgl
 22	video	video	NOUN	NN	Number=Sing	24	compound	24:compound	Entity=(44-abstract-new-nnnnn-cf8-1-sgl)
 23	assistant	assistant	NOUN	NN	Number=Sing	24	compound	24:compound	MSeg=assist-ant
 24	referee	referee	NOUN	NN	Number=Sing	19	obl	19:obl:with	Entity=43)41)|MSeg=refer-ee|SpaceAfter=No
@@ -343,12 +343,12 @@
 # s_type = decl
 # transition = zero
 # text = In the injury time, Hwang Hee-Chan's header went wide to the left, missing a chance to equalise for Korea.
-1	In	in	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:24->11:2:_
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(48-event-new-nnnnn-cf6-3-sgl
+1	In	in	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:24->11:2:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:217-233:234-256
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=18<48:entity-associative|Entity=(48-event-acc:inf-nnnnn-cf3-3-sgl
 3	injury	injury	NOUN	NN	Number=Sing	4	compound	4:compound	MSeg=injur-y
 4	time	time	NOUN	NN	Number=Sing	10	obl	10:obl:in	Entity=48)|SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
-6	Hwang	Hwang	PROPN	NNP	Number=Sing	9	nmod:poss	9:nmod:poss	Entity=(49-event-new-nnnnn-cf4-2,4-sgl(38-person-giv:inact-nnnnn-cf1-1,2-coref-Hwang_Hee%2Dchan
+6	Hwang	Hwang	PROPN	NNP	Number=Sing	9	nmod:poss	9:nmod:poss	Entity=(49-event-new-nnnnn-cf5-2,4-sgl(38-person-giv:inact-nnnnn-cf1-1,2-coref-Hwang_Hee%2Dchan
 7-8	Hee-Chan's	_	_	_	_	_	_	_	_
 7	Hee-Chan	Hee-Chan	PROPN	NNP	Number=Sing	6	flat	6:flat	_
 8	's	's	PART	POS	_	6	case	6:case	Entity=38)
@@ -356,11 +356,11 @@
 10	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 11	wide	wide	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
 12	to	to	ADP	IN	_	14	case	14:case	_
-13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(50-place-acc:com-nnnnn-cf3-2-sgl
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(50-place-acc:com-nnnnn-cf4-2-sgl
 14	left	left	NOUN	NN	Number=Sing	10	obl	10:obl:to	Entity=50)|SpaceAfter=No
 15	,	,	PUNCT	,	_	16	punct	16:punct	_
 16	missing	miss	VERB	VBG	Tense=Pres|VerbForm=Part	10	advcl	10:advcl	Discourse=causal-result:25->24:0:syn-pres-249-_|MSeg=miss-ing|PDTB=Implicit:Contingency.Cause.Result:thus:_:234-248:249-256
-17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	Entity=(51-abstract-new-nnnnn-cf5-2-sgl
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	Entity=(51-abstract-new-nnnnn-cf6-2-sgl
 18	chance	chance	NOUN	NN	Number=Sing	16	obj	16:obj	_
 19	to	to	PART	TO	_	20	mark	20:mark	Discourse=purpose-attribute:26->25:0:syn-mdf-251-_+syn-inf-252-_
 20	equalise	equalise	VERB	VB	VerbForm=Inf	18	acl	18:acl:to	MSeg=equal-ise
@@ -378,8 +378,8 @@
 3	ended	end	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=end-ed
 4	with	with	SCONJ	IN	_	6	mark	6:mark	Discourse=context-circumstance:28->27:0:dm-with-260-gold|PDTB=Explicit:Temporal.Synchronous:with:260:257-259:261-265
 5	Sweden	Sweden	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Entity=(6-organization-giv:inact-sssss-cf2-1-coref-Sweden_national_football_team)|MSeg=Swede-n
-6	winning	win	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	3:advcl:with	MSeg=w-inn-ing
-7	three	three	NUM	CD	NumForm=Word|NumType=Card	8	nummod	8:nummod	Bridge=9<52|Entity=(52-abstract-acc:inf-snsnn-cf3-2-sgl
+6	winning	win	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	3:advcl:with	MSeg=winn-ing
+7	three	three	NUM	CD	NumForm=Word|NumType=Card	8	nummod	8:nummod	Entity=(52-abstract-auto-snsnn-cf3-2-coref
 8	points	point	NOUN	NNS	Number=Plur	6	obj	6:obj	Entity=52)|MSeg=point-s|SpaceAfter=No
 9	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -409,7 +409,7 @@
 # s_type = decl
 # transition = zero
 # text = This was Sweden's first victory in the opening match of the World Cup since 1958.
-1	This	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Discourse=context-background:30->9:1:sem-rpt-96,281-282-_|Entity=(55-event-acc:com-nnnnn-cf1-1-ana)
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Bridge=52<55:entity-associative|Discourse=context-background:30->9:1:sem-rpt-96,281-282-_|Entity=(55-event-acc:inf-nnnnn-cf1-1-coref)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
 3-4	Sweden's	_	_	_	_	_	_	_	_
 3	Sweden	Sweden	PROPN	NNP	Number=Sing	6	nmod:poss	6:nmod:poss	Entity=(55-event-giv:act-nnnnn-cf1-4-coref(6-organization-giv:inact-sssss-cf3-1-coref-Sweden_national_football_team|MSeg=Swede-n
@@ -475,9 +475,9 @@
 # s_type = decl
 # transition = continue
 # text = Belgium had greater ball possession in the match.
-1	Belgium	Belgium	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=elaboration-additional:33->32:0:sem-synym-305-310,328-329-_+sem-lxchn-307,329-gold+sem-rpt-312,322-_|Entity=(7-organization-giv:act-sssss-cf1*-1-coref-Belgium_national_football_team)|PDTB=EntRel:EntRel:_:_:304-321:322-330
+1	Belgium	Belgium	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=elaboration-additional:33->32:0:sem-synym-305-310,328-329-_+sem-lxchn-307,329-gold+sem-rpt-312,322-_+sem-mrnym-314,324-326-_|Entity=(7-organization-giv:act-sssss-cf1*-1-coref-Belgium_national_football_team)|PDTB=EntRel:EntRel:_:_:304-321:322-330
 2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-3	greater	great	ADJ	JJR	Degree=Cmp	5	amod	5:amod	Entity=(63-abstract-new-nnnnn-cf3-3-sgl|MSeg=great-er
+3	greater	great	ADJ	JJR	Degree=Cmp	5	amod	5:amod	Bridge=13<63:comparison-relative|Entity=(63-abstract-acc:inf-nnnnn-cf3-3-sgl|MSeg=great-er
 4	ball	ball	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(64-object-new-nnnnn-cf4-1-sgl)
 5	possession	possession	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=63)|MSeg=possess-ion
 6	in	in	ADP	IN	_	8	case	8:case	_
@@ -514,7 +514,7 @@
 22	put	put	VERB	VB	VerbForm=Inf	20	acl	20:acl:to	_
 23	Belgium	Belgium	PROPN	NNP	Number=Sing	22	obj	22:obj	Entity=(7-organization-giv:act-sssss-cf1*-1-coref-Belgium_national_football_team)
 24	into	into	ADP	IN	_	26	case	26:case	MSeg=in-to
-25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Bridge=59<70|Entity=(70-abstract-acc:inf-nnnnn-cf4-2-coref
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Bridge=59<70:entity-associative|Entity=(70-abstract-acc:inf-nnnnn-cf4-2-coref
 26	lead	lead	NOUN	NN	Number=Sing	22	obl	22:obl:into	Entity=70)
 27	against	against	ADP	IN	_	29	case	29:case	MSeg=a-gainst
 28	debutans	debutant	NOUN	NNS	Number=Plur	29	nmod:desc	29:nmod:desc	Entity=(13-organization-giv:inact-sssss-cf3-2-coref-Panama_national_football_team
@@ -532,7 +532,7 @@
 3	's	's	PART	POS	_	1	case	1:case	Entity=68)
 4	attempt	attempt	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	_
 5	in	in	ADP	IN	_	8	case	8:case	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Bridge=59<72|Entity=(72-time-acc:inf-nnnnn-cf2-3-sgl
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Bridge=59<72:comparison-relative;set-span-interval|Entity=(72-time-acc:inf-nnnnn-cf2-3-sgl
 7	18th	18th	ADJ	JJ	Degree=Pos|NumForm=Combi|NumType=Ord	8	amod	8:amod	_
 8	minute	minute	NOUN	NN	Number=Sing	4	nmod	4:nmod:in	Entity=72)71)
 9	failed	fail	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=fail-ed|SpaceAfter=No
@@ -543,7 +543,7 @@
 # s_type = decl
 # transition = zero
 # text = The first half ended with 0 – 0 on the scoreboard.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=59<73|Discourse=joint-sequence_m:38->34:1:_|Entity=(73-time-acc:inf-nnnnn-cf1-3-sgl|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:361-370:371-382
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=59<73:comparison-relative;set-span-interval|Discourse=joint-sequence_m:38->34:1:_|Entity=(73-time-acc:inf-nnnnn-cf1-3-sgl|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:361-370:371-382
 2	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	3	amod	3:amod	_
 3	half	half	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	4	nsubj	4:nsubj	Entity=73)
 4	ended	end	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=end-ed
@@ -552,7 +552,7 @@
 7	–	-	SYM	SYM	ExtPos=ADP	8	case	8:case	_
 8	0	0	NUM	CD	NumForm=Digit|NumType=Card	6	nmod	6:nmod:to	Entity=74)
 9	on	on	ADP	IN	_	11	case	11:case	_
-10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Bridge=59<75|Entity=(75-abstract-acc:inf-nnnnn-cf2-2-sgl
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Bridge=59<75:entity-associative|Entity=(75-abstract-acc:inf-nnnnn-cf2-2-sgl
 11	scoreboard	scoreboard	NOUN	NN	Number=Sing	4	advcl	4:advcl:with	Entity=75)|MSeg=score-board|SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -567,7 +567,7 @@
 2	two	two	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	_
 3	minutes	minute	NOUN	NNS	Number=Plur	11	obl:unmarked	11:obl:unmarked	MSeg=minute-s
 4	in	in	ADP	IN	_	7	case	7:case	_
-5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Bridge=59<77|Entity=(77-time-acc:inf-nnnnn-cf4-3-coref
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Bridge=59<77:comparison-relative;set-span-interval|Entity=(77-time-acc:inf-nnnnn-cf4-3-coref
 6	second	second	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	7	amod	7:amod	_
 7	half	half	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	3	nmod	3:nmod:in	Entity=77)76)|SpaceAfter=No
 8	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -598,7 +598,7 @@
 2	's	's	PART	POS	_	1	case	1:case	Entity=13)
 3	attempt	attempt	NOUN	NN	Number=Sing	14	nsubj:pass	14:nsubj:pass	_
 4	in	in	ADP	IN	_	7	case	7:case	_
-5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Bridge=59<81|Entity=(81-time-acc:inf-nnnnn-cf2-3-sgl
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Bridge=59<81:comparison-relative;set-span-interval|Entity=(81-time-acc:inf-nnnnn-cf2-3-sgl
 6	54th	54th	ADJ	JJ	Degree=Pos|NumForm=Combi|NumType=Ord	7	amod	7:amod	_
 7	minute	minute	NOUN	NN	Number=Sing	3	nmod	3:nmod:in	Entity=81)|SpaceAfter=No
 8	,	,	PUNCT	,	_	10	punct	10:punct	_
@@ -619,7 +619,7 @@
 # transition = null
 # text = In the 69th minute, Romelu Lukaku doubled the lead for Belgium, scoring a header from Kevin De Bruyne's assist.
 1	In	in	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:42->34:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:407-424:425-447
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=59<84|Entity=(84-time-acc:inf-nnnnn-cf4-3-sgl
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=59<84:comparison-relative;set-span-interval|Entity=(84-time-acc:inf-nnnnn-cf4-3-sgl
 3	69th	69th	ADJ	JJ	Degree=Pos|NumForm=Combi|NumType=Ord	4	amod	4:amod	_
 4	minute	minute	NOUN	NN	Number=Sing	8	obl	8:obl:in	Entity=84)|SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
@@ -632,7 +632,7 @@
 12	Belgium	Belgium	PROPN	NNP	Number=Sing	8	obl	8:obl:for	Entity=(7-organization-giv:inact-sssss-cf3-1-coref-Belgium_national_football_team)|SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	14:punct	_
 14	scoring	score	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	8:advcl	Discourse=mode-means:43->42:0:syn-pres-438-_|MSeg=scor-ing|PDTB=Implicit:Expansion.Manner.Arg2-as-manner:by:_:425-437:438-447
-15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(85-event-new-nnnnn-cf5-2-sgl
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(85-event-new-nnnnn-cf5-2-coref
 16	header	header	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=85)|MSeg=head-er
 17	from	from	ADP	IN	_	22	case	22:case	_
 18	Kevin	Kevin	PROPN	NNP	Number=Sing	22	nmod:poss	22:nmod:poss	Entity=(86-event-new-nnnnn-cf7-2,3,5-sgl(87-person-new-nnnnn-cf6-1,2,3-sgl-Kevin_De_Bruyne|XML=<ref target:::"https://en.wikipedia.org/wiki/Kevin%20De%20Bruyne">
@@ -654,20 +654,22 @@
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5	Lukaku	Lukaku	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Entity=(66-person-giv:act-nssnn-cf1*-1-coref-Romelu_Lukaku)
 6	scored	score	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=scor-ed
-7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(89-event-new-nnnnn-cf3-3-sgl
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Bridge=85<89:comparison-relative|Entity=(89-event-acc:inf-nnnnn-cf3-3-coref
 8	third	third	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	9	amod	9:amod	_
 9	goal	goal	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=89)
 10	for	for	ADP	IN	_	11	case	11:case	_
 11	Belgium	Belgium	PROPN	NNP	Number=Sing	6	obl	6:obl:for	Entity=(7-organization-giv:act-sssss-cf2-1-coref-Belgium_national_football_team)|SpaceAfter=No
 12	,	,	PUNCT	,	_	19	punct	19:punct	_
-13	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	14:det	Discourse=mode-means:45->44:0:_|Entity=(90-event-new-nnnnn-cf4-2-sgl
-14	time	time	NOUN	NN	Number=Sing	19	obl:unmarked	19:obl:unmarked	Entity=90)
+13	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	14:det	Bridge=89<90:entity-associative|Discourse=mode-means:45->44:0:_|Entity=(90-event-acc:inf-nnnnn-cf4-2-sgl
+14	time	time	NOUN	NN	Number=Sing	19	orphan	14.1:obl:unmarked	Entity=90)
+14.1	Lukaku	Lukaku	PROPN	NNP	Number=Sing	_	_	14.2:nsubj	CopyOf=5
+14.2	scored	score	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	_	_	6:parataxis	CopyOf=6
 15	from	from	ADP	IN	_	19	case	19:case	_
 16	Eden	Eden	PROPN	NNP	Number=Sing	19	nmod:poss	19:nmod:poss	Entity=(91-event-new-nnnnn-cf7-2,4-sgl(92-person-new-nnnnn-cf5-1,2-sgl-Eden_Hazard|XML=<ref target:::"https://en.wikinews.org/wiki/Eden_Hazard">
 17-18	Hazard's	_	_	_	_	_	_	_	_
 17	Hazard	Hazard	PROPN	NNP	Number=Sing	16	flat	16:flat	XML=</ref>
 18	's	's	PART	POS	_	16	case	16:case	Entity=92)
-19	assist	assist	NOUN	NN	Number=Sing	6	obl	6:obl:from	Entity=91)|SpaceAfter=No
+19	assist	assist	NOUN	NN	Number=Sing	6	parataxis	14.2:obl:from	Entity=91)|SpaceAfter=No
 20	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_news_soccer-28
@@ -676,7 +678,7 @@
 # transition = smooth-shift
 # text = In the 90th minute, Belgium made a change, as Nacer Chadli replaced Axel Witsel.
 1	In	in	ADP	IN	_	4	case	4:case	Discourse=organization-preparation:46->47:0:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:448-467:468-484
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=59<93|Entity=(93-time-acc:inf-nnnnn-cf2-3-sgl
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=59<93:comparison-relative;set-span-interval|Entity=(93-time-acc:inf-nnnnn-cf2-3-sgl
 3	90th	90th	ADJ	JJ	Degree=Pos|NumForm=Combi|NumType=Ord	4	amod	4:amod	_
 4	minute	minute	NOUN	NN	Number=Sing	7	obl	7:obl:in	Entity=93)|SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
@@ -698,15 +700,15 @@
 # s_type = decl
 # transition = continue
 # text = The second half ended with the Belgians winning three points.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=59<77|Discourse=joint-sequence_m:48->34:1:_|Entity=(77-time-acc:inf-nnnnn-cf2-3-coref|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:468-484:485-495
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint-sequence_m:48->34:1:_|Entity=(77-time-auto-nnnnn-cf2-3-coref|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:468-484:485-495
 2	second	second	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	3	amod	3:amod	_
 3	half	half	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	4	nsubj	4:nsubj	Entity=77)
 4	ended	end	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=end-ed
 5	with	with	SCONJ	IN	_	8	mark	8:mark	Discourse=context-circumstance:49->48:0:dm-with-489-gold|PDTB=Explicit:Temporal.Synchronous:with:489:485-488:490-495
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(7-organization-giv:act-sssss-cf1*-2-coref-Belgium_national_football_team
 7	Belgians	Belgian	PROPN	NNPS	Number=Plur	8	nsubj	8:nsubj	Entity=7)|MSeg=Belg-ian-s
-8	winning	win	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	4:advcl:with	MSeg=w-inn-ing
-9	three	three	NUM	CD	NumForm=Word|NumType=Card	10	nummod	10:nummod	Bridge=9<97|Entity=(97-abstract-acc:inf-snsnn-cf3-2-sgl
+8	winning	win	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	4:advcl:with	MSeg=winn-ing
+9	three	three	NUM	CD	NumForm=Word|NumType=Card	10	nummod	10:nummod	Entity=(97-abstract-auto-snsnn-cf3-2-sgl
 10	points	point	NOUN	NNS	Number=Plur	8	obj	8:obj	Entity=97)|MSeg=point-s|SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -717,13 +719,13 @@
 # s_type = decl
 # transition = zero
 # text = Five Panamanian players were booked in the match.
-1	Five	five	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	Bridge=13<98|Discourse=joint-other_m:50->33:0:_|Entity=(98-person-acc:inf-nnnnn-cf2-3-sgl
+1	Five	five	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	Discourse=joint-other_m:50->33:0:_|Entity=(98-person-auto-nnnnn-cf1-3-sgl
 2	Panamanian	Panamanian	ADJ	JJ	Degree=Pos	3	amod	3:amod	MSeg=Panaman-ian
 3	players	player	NOUN	NNS	Number=Plur	5	nsubj:pass	5:nsubj:pass	Entity=98)|MSeg=play-er-s
 4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	5:aux:pass	_
 5	booked	book	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=book-ed
 6	in	in	ADP	IN	_	8	case	8:case	_
-7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(59-event-giv:inact-nnnnn-cf1-2-coref
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(59-event-giv:inact-nnnnn-cf2-2-coref
 8	match	match	NOUN	NN	Number=Sing	5	obl	5:obl:in	Entity=59)|SpaceAfter=No
 9	.	.	PUNCT	.	_	5	punct	5:punct	_
 
@@ -813,7 +815,7 @@
 14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj	Entity=(101-event-giv:act-nnnnn-cf1-1-ana)
 15	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	5:conj:but	MSeg=fel-t
 16	like	like	ADP	IN	_	18	case	18:case	_
-17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Bridge=101<103|Entity=(103-event-acc:inf-nnnnn-cf4-2-sgl
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Bridge=101<103:comparison-relative;comparison-sense;set-member|Entity=(103-event-acc:inf-nnnnn-cf4-2-sgl
 18	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	15	obl	15:obl:like	Entity=103)|SpaceAfter=No
 19	.	.	PUNCT	.	_	5	punct	5:punct	_
 
@@ -822,7 +824,7 @@
 # s_type = decl
 # transition = null
 # text = The team was still very emotional at the start of the match but as time went by, they were able to focus better."
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:59->55:1:_|Entity=(13-organization-giv:inact-sssss-cf1-2-coref-Panama_national_football_team
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:59->55:1:_|Entity=(13-organization-giv:inact-sssss-cf1-2-coref-Panama_national_football_team|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:548-566:567-592
 2	team	team	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=13)
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
 4	still	still	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
@@ -894,9 +896,9 @@
 # s_type = decl
 # transition = smooth-shift
 # text = England had better ball possession in the game.
-1	England	England	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=elaboration-additional:65->64:0:sem-synym-602-607,623-624-_+sem-lxchn-604,620-gold+sem-rpt-611,617-_|Entity=(8-organization-giv:act-sssss-cf1*-1-coref-England_national_football_team)|PDTB=EntRel:EntRel:_:_:601-616:617-625
+1	England	England	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=elaboration-additional:65->64:0:sem-synym-602-607,623-624-_+sem-lxchn-604,620-gold+sem-mrnym-609,619-621-_+sem-rpt-611,617-_|Entity=(8-organization-giv:act-sssss-cf1*-1-coref-England_national_football_team)|PDTB=EntRel:EntRel:_:_:601-616:617-625
 2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-3	better	good	ADJ	JJR	Degree=Cmp	5	amod	5:amod	Entity=(109-abstract-new-nnnnn-cf3-3-sgl|MSeg=bett-er
+3	better	good	ADJ	JJR	Degree=Cmp	5	amod	5:amod	Bridge=14<109:comparison-relative|Entity=(109-abstract-acc:inf-nnnnn-cf3-3-sgl|MSeg=bett-er
 4	ball	ball	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(110-object-new-nnnnn-cf4-1-sgl)
 5	possession	possession	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=109)|MSeg=possess-ion
 6	in	in	ADP	IN	_	8	case	8:case	_
@@ -946,14 +948,14 @@
 1	Then	then	ADV	RB	PronType=Dem	3	advmod	3:advmod	Discourse=joint-sequence_m:67->66:0:dm-then-654-gold|PDTB=Explicit:Temporal.Asynchronous.Precedence:then:654:626-653:655-669
 2	England	England	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Entity=(8-organization-giv:act-sssss-cf2-1-coref-England_national_football_team)
 3	opened	open	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=open-ed
-4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Bridge=106<117|Entity=(117-event-acc:inf-nnnnn-cf3-2-sgl
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Bridge=106<117:entity-associative|Entity=(117-event-acc:inf-nnnnn-cf3-2-sgl
 5	scoring	scoring	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=117)|MSeg=scor-ing|SpaceAfter=No
 6	,	,	PUNCT	,	_	10	punct	10:punct	_
 7	when	when	ADV	WRB	PronType=Int	10	advmod	10:advmod	Discourse=context-circumstance:68->67:0:dm-when-660-gold|PDTB=Explicit:Temporal.Synchronous:when:660:654-659:661-669
 8	Harry	Harry	PROPN	NNP	Number=Sing	10	nsubj	10:nsubj	Entity=(115-person-giv:act-nnnnn-cf1*-1,2-coref-Harry_Kane
 9	Kane	Kane	PROPN	NNP	Number=Sing	8	flat	8:flat	Entity=115)
 10	scored	score	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	3:advcl:when	MSeg=scor-ed
-11	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	Entity=(118-event-new-nnnnn-cf4-5-sgl
+11	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	Entity=(118-event-new-nnnnn-cf4-5-coref
 12	close	close	ADJ	JJ	Degree=Pos	14	amod	14:amod	SpaceAfter=No|XML=<w>
 13	-	-	PUNCT	HYPH	_	12	punct	12:punct	SpaceAfter=No
 14	ranged	ranged	ADJ	JJ	Degree=Pos	15	amod	15:amod	MSeg=rang-ed|XML=</w>
@@ -1000,7 +1002,7 @@
 4	penalty	penalty	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(124-abstract-new-nnnnn-cf4-1-coref)|MSeg=penal-ty
 5	kick	kick	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=123)
 6	in	in	ADP	IN	_	9	case	9:case	_
-7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Bridge=106<125|Entity=(125-time-acc:inf-nnnnn-cf2-3-sgl
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Bridge=106<125:comparison-relative;set-span-interval|Entity=(125-time-acc:inf-nnnnn-cf2-3-sgl
 8	33rd	33rd	ADJ	JJ	Degree=Pos|NumForm=Combi|NumType=Ord	9	amod	9:amod	_
 9	minute	minute	NOUN	NN	Number=Sing	2	obl	2:obl:in	Entity=125)|SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -1042,7 +1044,7 @@
 # s_type = decl
 # transition = zero
 # text = The first half ended 1 – 1 on the scoreboard.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=106<130|Discourse=joint-sequence_m:75->66:0:_|Entity=(130-time-acc:inf-nnnnn-cf1-3-coref|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:702-727:728-738
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=106<130:comparison-relative;set-span-interval|Discourse=joint-sequence_m:75->66:0:_|Entity=(130-time-acc:inf-nnnnn-cf1-3-coref|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:702-727:728-738
 2	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	3	amod	3:amod	_
 3	half	half	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	4	nsubj	4:nsubj	Entity=130)
 4	ended	end	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=end-ed
@@ -1050,7 +1052,7 @@
 6	–	-	SYM	SYM	ExtPos=ADP	7	case	7:case	_
 7	1	1	NUM	CD	NumForm=Digit|NumType=Card	5	nmod	5:nmod:to	_
 8	on	on	ADP	IN	_	10	case	10:case	_
-9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=106<131|Entity=(131-abstract-acc:inf-nnnnn-cf2-2-sgl
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=106<131:entity-associative|Entity=(131-abstract-acc:inf-nnnnn-cf2-2-sgl
 10	scoreboard	scoreboard	NOUN	NN	Number=Sing	4	obl	4:obl:on	Entity=131)|MSeg=score-board|SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -1062,7 +1064,7 @@
 # transition = null
 # text = In the second half, both sides had attempts for goals, but none crossing the goal line.
 1	In	in	ADP	IN	_	4	case	4:case	Discourse=adversative-concession:76->77:0:sem-mrnym-747-749,752-756-_+dm-but-751-gold
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=106<132|Entity=(132-time-acc:inf-nnnnn-cf2-3-sgl
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=106<132:comparison-relative;set-span-interval|Entity=(132-time-acc:inf-nnnnn-cf2-3-sgl
 3	second	second	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	4	amod	4:amod	_
 4	half	half	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	8	obl	8:obl:in	Entity=132)|SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
@@ -1074,7 +1076,7 @@
 11	goals	goal	NOUN	NNS	Number=Plur	9	nmod	9:nmod:for	Entity=(135-event-new-nnnnn-cf6-1-sgl)134)|MSeg=goal-s|SpaceAfter=No
 12	,	,	PUNCT	,	_	14	punct	14:punct	_
 13	but	but	CCONJ	CC	_	14	cc	14:cc	Discourse=joint-sequence_m:77->66:1:_|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:751:739-750:752-757
-14	none	none	NOUN	NN	Number=Sing	9	conj	8:obj|9:conj:but	Bridge=134<136|Entity=(136-event-acc:inf-nnnnn-cf3-1-sgl|Negation=Yes
+14	none	none	NOUN	NN	Number=Sing	9	conj	8:obj|9:conj:but	Bridge=134<136:comparison-sense|Entity=(136-event-acc:inf-nnnnn-cf3-1-sgl|Negation=Yes
 15	crossing	cross	VERB	VBG	VerbForm=Ger	14	acl	14:acl	MSeg=cross-ing
 16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(137-place-new-nnnnn-cf4-3-sgl
 17	goal	goal	NOUN	NN	Number=Sing	18	compound	18:compound	Entity=(138-place-new-nnnnn-cf7-1-sgl)
@@ -1087,7 +1089,7 @@
 # transition = null
 # text = In the injury time, English captain Harry Kane scored a second goal as England won a corner kick.
 1	In	in	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:78->66:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:739-757:758-777
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=106<139|Entity=(139-event-acc:inf-nnnnn-cf3-3-sgl
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=106<139:entity-associative|Entity=(139-event-acc:inf-nnnnn-cf4-3-sgl
 3	injury	injury	NOUN	NN	Number=Sing	4	compound	4:compound	MSeg=injur-y
 4	time	time	NOUN	NN	Number=Sing	10	obl	10:obl:in	Entity=139)|SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
@@ -1096,7 +1098,7 @@
 8	Harry	Harry	PROPN	NNP	Number=Sing	10	nsubj	10:nsubj	_
 9	Kane	Kane	PROPN	NNP	Number=Sing	8	flat	8:flat	Entity=115)
 10	scored	score	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=scor-ed
-11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Entity=(140-event-new-nnnnn-cf4-3-sgl
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Bridge=118<140:comparison-relative;set-member|Entity=(140-event-acc:inf-nnnnn-cf3-3-sgl
 12	second	second	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	13	amod	13:amod	_
 13	goal	goal	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=140)
 14	as	as	SCONJ	IN	_	16	mark	16:mark	Discourse=mode-manner:79->78:0:sem-lxchn-770,775-776-gold+dm-as-771-gold|PDTB=Explicit:Contingency.Cause.Reason:as:771:758-770:772-777
@@ -1119,13 +1121,13 @@
 5	end	end	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
 6	with	with	SCONJ	IN	_	8	mark	8:mark	Discourse=context-circumstance:81->80:0:dm-with-783-gold|PDTB=Explicit:Temporal.Synchronous:with:783:778-782:784-793
 7	England	England	PROPN	NNP	Number=Sing	8	nsubj	8:nsubj|13:nsubj	Entity=(143-event-new-nnnnn-cf4-2-disc(8-organization-giv:act-sssss-cf1*-1-coref-England_national_football_team)
-8	winning	win	VERB	VBG	Tense=Pres|VerbForm=Part	5	advcl	5:advcl:with	MSeg=w-inn-ing
+8	winning	win	VERB	VBG	Tense=Pres|VerbForm=Part	5	advcl	5:advcl:with	MSeg=winn-ing
 9	2	2	NUM	CD	NumForm=Digit|NumType=Card	8	obl:unmarked	8:obl:unmarked	_
 10	–	-	SYM	SYM	ExtPos=ADP	11	case	11:case	_
 11	1	1	NUM	CD	NumForm=Digit|NumType=Card	9	nmod	9:nmod:to	Entity=143)
 12	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=joint-list_m:82->81:0:dm-and-789-gold|PDTB=Explicit:Expansion.Conjunction:and:789:783-788:790-793
 13	collecting	collect	VERB	VBG	Tense=Pres|VerbForm=Part	8	conj	5:advcl:with|8:conj:and	MSeg=collect-ing
-14	three	three	NUM	CD	NumForm=Word|NumType=Card	15	nummod	15:nummod	Bridge=9<144|Entity=(144-abstract-acc:inf-snsnn-cf3-2-sgl
+14	three	three	NUM	CD	NumForm=Word|NumType=Card	15	nummod	15:nummod	Entity=(144-abstract-auto-snsnn-cf3-2-sgl
 15	points	point	NOUN	NNS	Number=Plur	13	obj	13:obj	Entity=144)|MSeg=point-s|SpaceAfter=No
 16	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -1185,7 +1187,7 @@
 7	three	three	NUM	CD	NumForm=Word|NumType=Card	5	conj	5:conj:or|8:nummod	_
 8	goals	goal	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=146)|MSeg=goal-s
 9	in	in	ADP	IN	_	12	case	12:case	_
-10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Bridge=106<130|Entity=(130-time-acc:inf-nnnnn-cf3*-3-coref
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(130-time-auto-nnnnn-cf3*-3-coref
 11	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	12	amod	12:amod	_
 12	half	half	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	4	obl	4:obl:in	Entity=130)
 13	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=causal-result:87->86:0:dm-and-831-gold|PDTB=Explicit:Contingency.Cause.Result:and:831:819-830:832-839
@@ -1277,7 +1279,7 @@
 9	of	of	ADP	IN	_	10	case	10:case	_
 10	concentration	concentration	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	Entity=(151-abstract-new-nnnnn-cf4-1-sgl)150)|MSeg=concentrat-ion
 11	in	in	ADP	IN	_	14	case	14:case	_
-12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(152-event-acc:com-nnnnn-cf2-3-sgl
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Bridge=106<152:comparison-relative|Entity=(152-event-acc:inf-nnnnn-cf2-3-sgl
 13	coming	come	VERB	VBG	VerbForm=Ger	14	amod	14:amod	MSeg=com-ing
 14	games	game	NOUN	NNS	Number=Plur	5	obl	5:obl:in	Entity=152)|MSeg=game-s|SpaceAfter=No
 15	.	.	PUNCT	.	_	5	punct	5:punct	SpaceAfter=No

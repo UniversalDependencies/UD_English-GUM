@@ -99,7 +99,7 @@
 24	Hey	hey	INTJ	UH	_	25	discourse	25:discourse	_
 25	Frank	Frank	PROPN	NNP	Number=Sing	30	vocative	30:vocative	Entity=(1-person-giv:act-sssss-cf1*-1-coref-Frank_Messina)|SpaceAfter=No
 26	,	,	PUNCT	,	_	25	punct	25:punct	_
-27	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	28:nmod:poss	Bridge=10<12|Entity=(11-abstract-new-nnnnn-cf4-2-sgl(12-person-acc:inf-nnnnn-cf2-1-coref)
+27	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	28:nmod:poss	Bridge=10<12:set-member|Entity=(11-abstract-new-nnnnn-cf4-2-sgl(12-person-acc:inf-nnnnn-cf2-1-coref)
 28	name	name	NOUN	NN	Number=Sing	30	nsubj	30:nsubj	Entity=11)
 29	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	30:cop	_
 30	John	John	PROPN	NNP	Number=Sing	21	ccomp	21:ccomp	Entity=(12-person-giv:act-nnnnn-cf2-1-coref)|SpaceAfter=No
@@ -129,7 +129,7 @@
 # speaker = FrankMessina
 # text = It's a funny phenomenon.
 1-2	It's	_	_	_	_	_	_	_	_
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=evaluation-comment:13->11:4:lex-indwd-79-_|Entity=(9-event-giv:act-nnnnn-cf1*-1-coref)|PDTB=NoRel:NoRel:_:_:28-75:76-81
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=evaluation-comment:13->11:4:lex-indwd-79-_|Entity=(9-event-giv:act-nnnnn-cf1*-1-coref)|PDTB=Implicit:Expansion.Conjunction:indeed:_:28-75:76-81
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(9-event-giv:act-nnnnn-cf1*-3-pred
 4	funny	funny	ADJ	JJ	Degree=Pos	5	amod	5:amod	MSeg=funn-y
@@ -204,7 +204,7 @@
 # transition = continue
 # speaker = FrankMessina
 # text = Over the years I have performed in 32 countries and 40 states.
-1	Over	over	ADP	IN	_	3	case	3:case	Discourse=context-background:19->35:1:ref-prs-114,215-_
+1	Over	over	ADP	IN	_	3	case	3:case	Discourse=context-background:19->35:1:ref-prs-114,215-_|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:103-110:111-123
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	_
 3	years	year	NOUN	NNS	Number=Plur	6	obl	6:obl:over	MSeg=year-s
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(1-person-giv:act-sssss-cf1*-1-ana-Frank_Messina)
@@ -316,7 +316,7 @@
 # transition = continue
 # speaker = FrankMessina
 # text = I remember signing my first autograph to a kid when I was 25 years old.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj|3:nsubj:xsubj	Discourse=attribution-positive:31->32:1:sem-atsrc-194-_+lex-indwd-195-_|Entity=(1-person-giv:act-sssss-cf1*-1-ana-Frank_Messina)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj|3:nsubj:xsubj	Discourse=attribution-positive:31->32:1:sem-atsrc-194-_+lex-indwd-195-_|Entity=(1-person-giv:act-sssss-cf1*-1-ana-Frank_Messina)|PDTB=Implicit:Expansion.Conjunction:indeed:_:182-193:194-209
 2	remember	remember	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	signing	sign	VERB	VBG	VerbForm=Ger	2	xcomp	2:xcomp	Discourse=joint-other_m:32->19:0:_|Entity=(34-event-new-nnnnn-cf5-1-disc|MSeg=sign-ing
 4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(35-object-new-nnnnn-cf3-6-sgl(1-person-giv:act-sssss-cf1*-1-ana-Frank_Messina)
@@ -445,7 +445,7 @@
 17	garnered	garner	VERB	VBN	Tense=Past|VerbForm=Part	14	acl:relcl	14:acl:relcl	Entity=46)|MSeg=garner-ed
 18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	24:cop	Discourse=same-unit_m:46->44:1:_
 19	for	for	ADP	IN	_	24	case	24:case	_
-20	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(47-abstract-acc:com-sssss-cf4-5-coref
+20	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Bridge=1<47:entity-associative|Entity=(47-abstract-acc:inf-sssss-cf4-5-coref
 21	Mets	Met	PROPN	NNPS	Number=Plur	23	compound	23:compound	Entity=(3-organization-giv:inact-sssss-cf3-1-coref-New_York_Mets)|MSeg=Met-s|SpaceAfter=No|XML=<w>
 22	-	-	PUNCT	HYPH	_	21	punct	21:punct	SpaceAfter=No
 23	inspired	inspire	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	amod	24:amod	MSeg=inspir-ed|XML=</w>
@@ -535,7 +535,7 @@
 9	,	,	PUNCT	,	_	1	punct	1:punct	_
 10	wrote	write	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 11	about	about	ADP	IN	_	14	case	14:case	_
-12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(56-event-acc:com-nnnnn-cf2-2,3-sgl-American_Civil_War
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(56-event-acc:com-nnnnn-cf2-2,3-coref-American_Civil_War
 13	Civil	Civil	ADJ	NNP	Degree=Pos	14	compound	14:compound	_
 14	War	War	PROPN	NNP	Number=Sing	10	obl	10:obl:about	Entity=56)|SpaceAfter=No
 15	.	.	PUNCT	.	_	10	punct	10:punct	_
@@ -546,7 +546,7 @@
 # transition = establishment
 # speaker = FrankMessina
 # text = He went looking for his brother, George Whitman, after he a telegram telling him his brother was injured in the South.
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|3:nsubj:xsubj	Discourse=elaboration-additional:52->51:0:ref-prs-341-342,356-_|Entity=(55-person-giv:act-nnsnn-cf1*-1-ana-Walt_Whitman)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:341-355:356-379
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|3:nsubj:xsubj	Discourse=elaboration-additional:52->51:0:ref-prs-341-342,356-_+sem-mrnym-352-354,377-378-_|Entity=(55-person-giv:act-nnsnn-cf1*-1-ana-Walt_Whitman)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:341-355:356-379
 2	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	looking	look	VERB	VBG	VerbForm=Ger	2	xcomp	2:xcomp	MSeg=look-ing
 4	for	for	ADP	IN	_	6	case	6:case	_
@@ -567,21 +567,21 @@
 19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux:pass	20:aux:pass	_
 20	injured	injure	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	ccomp	15:ccomp	CxnElt=15:Ditransitive.Theme|MSeg=injur-ed
 21	in	in	ADP	IN	_	23	case	23:case	_
-22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(59-place-new-nnnnn-cf3-2-sgl
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Bridge=56<59:entity-associative|Entity=(59-place-acc:inf-nnnnn-cf3-2-sgl
 23	South	South	PROPN	NNP	Number=Sing	20	obl	20:obl:in	Entity=59)58)|SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_messina-24
-# s_prominence = 4
+# s_prominence = 5
 # s_type = decl
 # transition = continue
 # speaker = FrankMessina
 # text = When he started out his poems were about beating drums, and blow, bugle, blow.
-1	When	when	ADV	WRB	PronType=Int	3	advmod	3:advmod	Discourse=context-circumstance:56->57:0:dm-when-380-gold|PDTB=Explicit:Temporal.Synchronous:when:380:384-397:381-383;Implicit:Temporal.Asynchronous.Succession:previously:_:356-379:380-397
+1	When	when	ADV	WRB	PronType=Int	3	advmod	3:advmod	Discourse=context-circumstance:56->57:0:dm-when-380-gold|PDTB=Explicit:Temporal.Synchronous:when:380:384-397:381-383;Implicit:Temporal.Asynchronous.Precedence:then:_:356-379:380-397
 2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(55-person-giv:act-nnsnn-cf1*-1-ana-Walt_Whitman)
 3	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	advcl	9:advcl:when	MSeg=start-ed
 4	out	out	ADP	RP	_	3	compound:prt	3:compound:prt	_
-5	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Discourse=joint-sequence_m:57->52:1:_|Entity=(60-abstract-new-nnnnn-cf2-2-sgl(55-person-giv:act-nnsnn-cf1*-1-ana-Walt_Whitman)
+5	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Discourse=adversative-antithesis:57->59:1:_|Entity=(60-abstract-new-nnnnn-cf2-2-sgl(55-person-giv:act-nnsnn-cf1*-1-ana-Walt_Whitman)
 6	poems	poem	NOUN	NNS	Number=Plur	9	nsubj:outer	9:nsubj:outer|13:nsubj:outer	Entity=60)|MSeg=poem-s
 7	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	cop	9:cop	_
 8	about	about	SCONJ	IN	_	9	mark	9:mark	_
@@ -597,7 +597,7 @@
 18	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = GUM_interview_messina-25
-# s_prominence = 5
+# s_prominence = 6
 # s_type = frag
 # transition = zero
 # speaker = FrankMessina
@@ -612,16 +612,16 @@
 # transition = zero
 # speaker = FrankMessina
 # text = Then he started to see the real horrors of war.
-1	Then	then	ADV	RB	PronType=Dem	3	advmod	3:advmod	Discourse=adversative-contrast_m:59->57:2:_;joint-sequence:59->57:1:2:orp-then-401-gold|PDTB=Explicit:Temporal.Asynchronous.Precedence:then:401:380-397:402-411
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	3:advmod	Discourse=joint-sequence_m:59->52:1:_;joint-sequence:59->57:1:2:orp-then-401-gold|PDTB=Explicit:Temporal.Asynchronous.Precedence:then:401:380-397:402-411
 2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Entity=(55-person-giv:inact-nnsnn-cf1-1-ana-Walt_Whitman)
 3	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=start-ed
 4	to	to	PART	TO	_	5	mark	5:mark	_
 5	see	see	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(61-abstract-new-nnnnn-cf2-3-coref
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(61-abstract-new-nnnnn-cf3-3-coref
 7	real	real	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	horrors	horror	NOUN	NNS	Number=Plur	5	obj	5:obj	MSeg=horror-s
 9	of	of	ADP	IN	_	10	case	10:case	_
-10	war	war	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	Entity=(62-event-new-nnnnn-cf3-1-sgl)61)|SpaceAfter=No
+10	war	war	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	Bridge=56<62:entity-associative|Entity=(62-event-acc:inf-nnnnn-cf2-1-sgl)61)|SpaceAfter=No
 11	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_messina-27
@@ -636,14 +636,14 @@
 4	to	to	PART	TO	_	5	mark	5:mark	_
 5	tap	tap	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
 6	into	into	ADP	IN	_	9	case	9:case	MSeg=in-to
-7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(63-abstract-new-nnnnn-cf2-3-sgl
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(63-abstract-new-nnnnn-cf3-3-sgl
 8	human	human	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 9	condition	condition	NOUN	NN	Number=Sing	5	obl	5:obl:into	Entity=63)
 10	and	and	CCONJ	CC	_	12	cc	12:cc	_
-11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(64-abstract-new-nnnnn-cf3-2-sgl
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(64-abstract-new-nnnnn-cf4-2-sgl
 12	situation	situation	NOUN	NN	Number=Sing	9	conj	5:obl:into|9:conj:and	MSeg=situat-ion
 13	at	at	ADP	IN	_	15	case	15:case	_
-14	that	that	DET	DT	Number=Sing|PronType=Dem	15	det	15:det	Entity=(65-time-new-nnnnn-cf4-2-sgl
+14	that	that	DET	DT	Number=Sing|PronType=Dem	15	det	15:det	Bridge=56<65:entity-associative|Entity=(65-time-acc:inf-nnnnn-cf2-2-sgl
 15	time	time	NOUN	NN	Number=Sing	12	nmod	12:nmod:at	Entity=65)64)|SpaceAfter=No
 16	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -653,7 +653,7 @@
 # transition = continue
 # speaker = FrankMessina
 # text = Eventually when he found his brother he had resolution.
-1	Eventually	eventually	ADV	RB	Degree=Pos	8	advmod	8:advmod	Discourse=joint-sequence_m:61->52:1:_|MSeg=Event-ual-ly
+1	Eventually	eventually	ADV	RB	Degree=Pos	8	advmod	8:advmod	Discourse=joint-sequence_m:61->52:1:_|MSeg=Event-ual-ly|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:412-427:428-437
 2	when	when	ADV	WRB	PronType=Int	4	advmod	4:advmod	Discourse=context-circumstance:62->63:0:dm-when-429-gold|PDTB=Explicit:Temporal.Synchronous:when:429:428,434-437:430-433
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(55-person-giv:act-nnsnn-cf1*-1-ana-Walt_Whitman)
 4	found	find	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	advcl	8:advcl:when	_
@@ -674,7 +674,7 @@
 # text = I experienced that kind of adversity during 9/11 being a civilian volunteer.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint-other_m:64->51:1:_|Entity=(1-person-giv:inact-sssss-cf1-1-ana-Frank_Messina)
 2	experienced	experience	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=experienc-ed
-3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Bridge=61<67|Entity=(67-abstract-acc:inf-nnnnn-cf2-2-sgl
+3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Bridge=61<67:comparison-relative;entity-associative|Entity=(67-abstract-acc:inf-nnnnn-cf2-2-sgl
 4	kind	kind	NOUN	NN	Number=Sing	2	obj	2:obj	_
 5	of	of	ADP	IN	_	6	case	6:case	_
 6	adversity	adversity	NOUN	NN	Number=Sing	4	nmod	4:nmod:of	Entity=67)|MSeg=advers-ity
@@ -692,21 +692,21 @@
 # transition = establishment
 # speaker = FrankMessina
 # text = I loaded ferry boats in Jersey City across the river to deliver goods to Ground Zero.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration-additional:66->64:1:ref-prs-438,451-_+sem-mrnym-445,465-466-_|Entity=(1-person-giv:act-sssss-cf1*-1-ana-Frank_Messina)|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:438-450:451-467
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration-additional:66->64:1:ref-prs-438,451-_|Entity=(1-person-giv:act-sssss-cf1*-1-ana-Frank_Messina)|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:438-450:451-467
 2	loaded	load	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=load-ed
 3	ferry	ferry	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(69-object-new-nnnnn-cf5-4,5-sgl
 4	boats	boat	NOUN	NNS	Number=Plur	2	obj	2:obj	MSeg=boat-s
 5	in	in	ADP	IN	_	6	case	6:case	_
-6	Jersey	Jersey	PROPN	NNP	Number=Sing	2	obl	2:obl:in	Entity=(70-place-new-nnnnn-cf6-1,2-sgl-Jersey_City%2C_New_Jersey
+6	Jersey	Jersey	PROPN	NNP	Number=Sing	2	obl	2:obl:in	Entity=(70-place-new-nnnnn-cf6-1,2-coref-Jersey_City%2C_New_Jersey
 7	City	City	PROPN	NNP	Number=Sing	6	flat	6:flat	Entity=70)69)
 8	across	across	ADP	IN	_	10	case	10:case	MSeg=a-cross
-9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(71-place-new-nnnnn-cf4-2-sgl
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=70<71:entity-associative|Entity=(71-place-acc:inf-nnnnn-cf3-2-sgl
 10	river	river	NOUN	NN	Number=Sing	6	nmod	6:nmod:across	Entity=71)
 11	to	to	PART	TO	_	12	mark	12:mark	Discourse=purpose-goal:67->66:0:syn-inf-461-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:451-460:461-467
 12	deliver	deliver	VERB	VB	VerbForm=Inf	2	advcl	2:advcl:to	_
-13	goods	good	NOUN	NNS	Number=Plur	12	obj	12:obj	Entity=(72-object-new-nnnnn-cf3-1-sgl)|MSeg=good-s
+13	goods	good	NOUN	NNS	Number=Plur	12	obj	12:obj	Entity=(72-object-new-nnnnn-cf4-1-sgl)|MSeg=good-s
 14	to	to	ADP	IN	_	15	case	15:case	_
-15	Ground	Ground	PROPN	NNP	Number=Sing	12	obl	12:obl:to	Bridge=68<73|Entity=(73-place-acc:inf-nnnnn-cf2-1,2-sgl-World_Trade_Center_site|XML=<ref><hi rend:::"italic">
+15	Ground	Ground	PROPN	NNP	Number=Sing	12	obl	12:obl:to	Entity=(73-place-auto-nnnnn-cf2-1,2-sgl-World_Trade_Center_site|XML=<ref><hi rend:::"italic">
 16	Zero	Zero	PROPN	NNP	Number=Sing	15	flat	15:flat	Entity=73)|SpaceAfter=No|XML=</hi></ref>
 17	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -716,7 +716,7 @@
 # transition = continue
 # speaker = FrankMessina
 # text = I turned to Whitman to find some understanding of what is happening in the world right now.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=causal-result:68->64:2:_|Entity=(1-person-giv:act-sssss-cf1*-1-ana-Frank_Messina)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=causal-result:68->64:2:_|Entity=(1-person-giv:act-sssss-cf1*-1-ana-Frank_Messina)|PDTB=Implicit:Contingency.Cause.Result:so:_:451-467:468-485
 2	turned	turn	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=turn-ed
 3	to	to	ADP	IN	_	4	case	4:case	_
 4	Whitman	Whitman	PROPN	NNP	Number=Sing	2	obl	2:obl:to	Entity=(55-person-giv:inact-nnsnn-cf3-1-coref-Walt_Whitman)
@@ -806,11 +806,11 @@
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(78-abstract-acc:com-nnnnn-cf1-2-coref
 4	piece	piece	NOUN	NN	Number=Sing	0	root	0:root|9:obl:unmarked	_
 5	that	that	PRON	WDT	PronType=Rel	9	obl:unmarked	4:ref	Discourse=elaboration-attribute:78->77:0:syn-mdf-524-_+syn-relcl-525,529-_
-6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(79-organization-new-nnnnn-cf2-2-sgl-The_New_York_Times
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(79-organization-new-nnnnn-cf3-2-sgl-The_New_York_Times
 7	Times	Times	PROPN	NNP	Number=Sing	9	nsubj	9:nsubj	Entity=79)|MSeg=Time-s
 8	only	only	ADV	RB	_	9	advmod	9:advmod	_
 9	quoted	quote	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	4:acl:relcl	MSeg=quot-ed
-10	one	one	NUM	CD	NumForm=Word|NumType=Card	11	nummod	11:nummod	Entity=(80-abstract-new-nnnnn-cf3-2-sgl
+10	one	one	NUM	CD	NumForm=Word|NumType=Card	11	nummod	11:nummod	Bridge=78<80:entity-meronomy|Entity=(80-abstract-acc:inf-nnnnn-cf2-2-sgl
 11	stanza	stanza	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=80)78)|SpaceAfter=No
 12	,	,	PUNCT	,	_	17	punct	17:punct	_
 13	but	but	CCONJ	CC	_	17	cc	17:cc	Discourse=context-background:79->85:4:_|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:533:521-532:534-555
@@ -923,7 +923,7 @@
 9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	_
 10	broken	break	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	amod	11:amod	MSeg=brok-en
 11	dream	dream	NOUN	NN	Number=Sing	5	obl	5:obl:through	Entity=93)92)|XML=</l>
-12	Let	let	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	Discourse=attribution-positive:90->92:1:lex-indwd-612-_+sem-atsrc-614-_+lex-indwd-615-_+grf-qt-617,635-_|XML=<l n:::"9">
+12	Let	let	VERB	VB	VerbForm=Inf	0	root	0:root	Discourse=attribution-positive:90->92:1:lex-indwd-612-_+sem-atsrc-614-_+lex-indwd-615-_+grf-qt-617,635-_|XML=<l n:::"9">
 13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	12:obj	Entity=(94-person-acc:com-nnnnn-cf2-1-sgl)
 14	say	say	VERB	VB	VerbForm=Inf	12	advcl	12:advcl	SpaceAfter=No
 15	,	,	PUNCT	,	_	27	punct	27:punct	_
@@ -954,7 +954,7 @@
 # transition = zero
 # speaker = FrankMessina
 # text = Have no fear, no hesitation, for Winning shall be it's reward!
-1	Have	have	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:93->85:2:_|Entity=(95-event-new-nnnnn-cf1-1-disc|PDTB=Implicit:Contingency.Cause.Result:so:_:602-636:637-650|XML=<l n:::"11">
+1	Have	have	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:93->85:2:_|Entity=(95-event-new-nnnnn-cf1-1-disc|PDTB=Implicit:Contingency.Cause.Result:so:_:602-636:637-650|XML=<l n:::"11">
 2	no	no	DET	DT	PronType=Neg	3	det	3:det	Entity=(96-abstract-new-nnnnn-cf2-2-sgl|Negation=Yes
 3	fear	fear	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=96)|SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	6:punct	_
@@ -962,7 +962,7 @@
 6	hesitation	hesitation	NOUN	NN	Number=Sing	3	conj	1:obj|3:conj	Entity=97)95)|MSeg=hesitat-ion|SpaceAfter=No
 7	,	,	PUNCT	,	_	13	punct	13:punct	XML=</l>
 8	for	for	SCONJ	IN	_	13	mark	13:mark	Discourse=explanation-motivation:94->93:0:mrf-md-637-_|XML=<l n:::"12">
-9	Winning	win	VERB	VBG	VerbForm=Ger	13	csubj	13:csubj	MSeg=W-inn-ing
+9	Winning	win	VERB	VBG	VerbForm=Ger	13	csubj	13:csubj	MSeg=Winn-ing
 10	shall	shall	AUX	MD	VerbForm=Fin	13	aux	13:aux	_
 11	be	be	AUX	VB	VerbForm=Inf	13	cop	13:cop	_
 12	it's	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Typo=Yes	13	nmod:poss	13:nmod:poss	CorrectForm=its|Entity=(98-abstract-new-nnnnn-cf4-2-sgl(95-event-giv:act-nnnnn-cf1-1-coref)|MSeg=it-'s|XML=<sic ana:::"its"></sic>
@@ -980,7 +980,7 @@
 1-2	Don't	_	_	_	_	_	_	_	_
 1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=joint-other_m:95->85:2:_|XML=<l n:::"13">
 2	n't	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	Negation=Yes
-3	let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+3	let	let	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
 4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	3:obj|5:nsubj:xsubj	Entity=(99-person-acc:com-nnnnn-cf2-1-sgl)
 5	get	get	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
 6	in	in	ADP	IN	_	8	case	8:case	_
@@ -1024,7 +1024,7 @@
 11	ll	will	AUX	MD	VerbForm=Fin	12	aux	12:aux	CorrectForm='ll|XML=<sic ana:::"'ll"></sic>
 12	fight	fight	VERB	VB	VerbForm=Inf	5	conj	5:conj:and	_
 13	til	till	ADP	IN	Typo=Yes	16	case	16:case	CorrectForm=till|Discourse=context-circumstance:99->98:0:_|XML=<sic ana:::"till"></sic>
-14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(101-event-new-nnnnn-cf4-3-sgl
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Bridge=3<101:entity-associative|Entity=(101-event-acc:inf-nnnnn-cf4-3-sgl
 15	glorious	glorious	ADJ	JJ	Degree=Pos	16	amod	16:amod	MSeg=glori-ous
 16	end	end	NOUN	NN	Number=Sing	12	obl	12:obl:till	Entity=101)|XML=</l>
 
@@ -1034,7 +1034,7 @@
 # transition = smooth-shift
 # speaker = FrankMessina
 # text = Cheer the team today; (your boys in orange and blue) Let them hear you shout as they fight for what's mightily due
-1	Cheer	cheer	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:100->85:2:_|PDTB=Implicit:Contingency.Cause.Result:so:_:667-682:683-708|XML=<l n:::"17">
+1	Cheer	cheer	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:100->85:2:_|PDTB=Implicit:Contingency.Cause.Result:so:_:667-682:683-708|XML=<l n:::"17">
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(3-organization-giv:act-sssss-cf1*-2-coref-New_York_Mets
 3	team	team	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=3)
 4	today	today	NOUN	NN	Number=Sing	1	obl:unmarked	1:obl:unmarked	Entity=(102-time-acc:com-nnnnn-cf3-1-sgl)|MSeg=to-day|SpaceAfter=No
@@ -1047,7 +1047,7 @@
 11	and	and	CCONJ	CC	_	12	cc	12:cc	_
 12	blue	blue	ADJ	JJ	Degree=Pos	10	conj	8:nmod:in|10:conj:and	Entity=3)|SpaceAfter=No
 13	)	)	PUNCT	-RRB-	_	8	punct	8:punct	XML=</l>
-14	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	parataxis	1:parataxis	Discourse=attribution-positive:102->103:0:sem-atsrc-697-_+lex-indwd-698-_|XML=<l n:::"19">
+14	Let	let	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	parataxis	1:parataxis	Discourse=attribution-positive:102->103:0:sem-atsrc-697-_+lex-indwd-698-_|XML=<l n:::"19">
 15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obj	14:obj|16:nsubj:xsubj	Entity=(3-organization-giv:act-sssss-cf1*-1-ana-New_York_Mets)
 16	hear	hear	VERB	VB	VerbForm=Inf	14	xcomp	14:xcomp	_
 17	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	16	obj	16:obj|18:nsubj:xsubj	Discourse=joint-list_m:103->100:1:grf-semcol-687-_|Entity=(83-person-giv:act-nnnnn-cf2-1-ana)
@@ -1112,7 +1112,7 @@
 3	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=3:Interrogative-Polar-Direct.Clause
 4	interaction	interaction	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(108-event-new-nnnns-cf5-10-sgl|MSeg=inter-act-ion
 5	with	with	ADP	IN	_	8	case	8:case	_
-6	"	"	PUNCT	``	_	5	punct	5:punct	Entity=(109-person-new-nnnnn-cf4-4-sgl|SpaceAfter=No
+6	"	"	PUNCT	``	_	5	punct	5:punct	Bridge=1<109:entity-associative|Entity=(109-person-acc:inf-nnnnn-cf4-4-coref|SpaceAfter=No
 7	new	new	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	readers	reader	NOUN	NNS	Number=Plur	3	obl	3:obl:with	MSeg=read-er-s|SpaceAfter=No
 9	'	'	PUNCT	''	_	13	punct	13:punct	Entity=109)
@@ -1130,7 +1130,7 @@
 # transition = establishment
 # speaker = FrankMessina
 # text = This one person who I never met took a picture of me and sent it to me in an e-mail.
-1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Discourse=joint-other_m:109->11:6:_|Entity=(110-person-new-nnnnn-cf3-3-coref|PDTB=Hypophora:Hypophora:_:_:719-742:743-1032
+1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Bridge=109<110:set-member|Discourse=joint-other_m:109->11:6:_|Entity=(110-person-acc:inf-nnnnn-cf3-3-coref|PDTB=Hypophora:Hypophora:_:_:719-742:743-1032
 2	one	one	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	_
 3	person	person	NOUN	NN	Number=Sing	8	nsubj	7:obj|8:nsubj|14:nsubj	_
 4	who	who	PRON	WP	PronType=Rel	7	obj	3:ref	Discourse=elaboration-attribute:110->109:0:syn-mdf-745-_+syn-relcl-746,749-_
@@ -1149,7 +1149,7 @@
 17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obl	14:obl:to	Entity=(1-person-giv:act-sssss-cf1*-1-ana-Frank_Messina)
 18	in	in	ADP	IN	_	20	case	20:case	_
 19	an	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(112-abstract-new-nnnnn-cf4-2-coref
-20	e-mail	E-mail	NOUN	NN	Number=Sing	14	obl	14:obl:in	Entity=112)|SpaceAfter=No
+20	e-mail	email	NOUN	NN	Number=Sing	14	obl	14:obl:in	Entity=112)|SpaceAfter=No
 21	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_interview_messina-48
@@ -1159,10 +1159,10 @@
 # speaker = FrankMessina
 # text = The e-mail said, 'Frank, I have never bothered you during the game, but I just wanted to say thank you for your work and thank you for making some sense of the successes and failures and I wish you much success with your work.'
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=attribution-positive:113->116:3:sem-atsrc-764-765-_+lex-indwd-766-_+grf-qt-768,813-_|Entity=(112-abstract-giv:act-nnnnn-cf3-2-coref|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:743-763:764-813
-2	e-mail	E-mail	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=112)
+2	e-mail	email	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=112)
 3	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=sai-d|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
-5	'	'	PUNCT	``	_	11	punct	11:punct	Discourse=adversative-antithesis:114->116:2:dm-but-780-gold|SpaceAfter=No
+5	'	'	PUNCT	``	_	11	punct	11:punct	Discourse=adversative-antithesis:114->116:2:sem-mrnym-777-778,799-802-_+dm-but-780-gold|SpaceAfter=No
 6	Frank	Frank	PROPN	NNP	Number=Sing	11	vocative	11:vocative	Entity=(1-person-giv:act-sssss-cf2-1-coref-Frank_Messina)|SpaceAfter=No
 7	,	,	PUNCT	,	_	6	punct	6:punct	_
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj	Entity=(110-person-giv:act-nnnnn-cf1*-1-ana)
@@ -1171,7 +1171,7 @@
 11	bothered	bother	VERB	VBN	Tense=Past|VerbForm=Part	3	ccomp	3:ccomp	MSeg=bother-ed
 12	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	11	obj	11:obj	Entity=(1-person-giv:act-sssss-cf2-1-ana-Frank_Messina)
 13	during	during	ADP	IN	_	15	case	15:case	MSeg=dur-ing
-14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(113-event-new-nnnnn-cf5-2-sgl
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Bridge=3<113:entity-associative|Entity=(113-event-acc:inf-nnnnn-cf5-2-sgl
 15	game	game	NOUN	NN	Number=Sing	11	obl	11:obl:during	Entity=113)|SpaceAfter=No
 16	,	,	PUNCT	,	_	20	punct	20:punct	_
 17	but	but	CCONJ	CC	_	20	cc	20:cc	Discourse=attribution-positive:115->116:1:sem-atsrc-781-_+lex-indwd-785-_|PDTB=Explicit:Comparison.Contrast:but:780:768-779:781-813
@@ -1193,7 +1193,7 @@
 33	some	some	DET	DT	PronType=Ind	34	det	34:det	_
 34	sense	sense	NOUN	NN	Number=Sing	32	obj	32:obj	_
 35	of	of	ADP	IN	_	37	case	37:case	_
-36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	37:det	Entity=(114-event-new-nnnnn-cf6-2,4-sgl
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	37:det	Bridge=3<114:entity-associative|Entity=(114-event-acc:inf-nnnnn-cf6-2,4-sgl
 37	successes	success	NOUN	NNS	Number=Plur	34	nmod	34:nmod:of	MSeg=successe-s
 38	and	and	CCONJ	CC	_	39	cc	39:cc	_
 39	failures	failure	NOUN	NNS	Number=Plur	37	conj	34:nmod:of|37:conj:and	Entity=114)|MSeg=fail-ure-s
@@ -1217,21 +1217,21 @@
 # transition = smooth-shift
 # speaker = FrankMessina
 # text = Last year in my section at the stadium I had a banner that read We Know'.
-1	Last	last	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=joint-other_m:120->109:4:_|Entity=(115-time-acc:com-nnnnn-cf3-2-coref|XML=<date when:::"2006">
+1	Last	last	ADJ	JJ	Degree=Pos	2	amod	2:amod	Bridge=5<115:comparison-relative;comparison-time|Discourse=joint-other_m:120->109:4:_|Entity=(115-time-acc:inf-nnnnn-cf4-2-coref|XML=<date when:::"2006">
 2	year	year	NOUN	NN	Number=Sing	10	obl:unmarked	10:obl:unmarked	Entity=115)|XML=</date>
 3	in	in	ADP	IN	_	5	case	5:case	_
 4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(116-place-new-nnnnn-cf7-2-sgl(1-person-giv:act-sssss-cf1*-1-ana-Frank_Messina)
 5	section	section	NOUN	NN	Number=Sing	2	nmod	2:nmod:in	MSeg=sect-ion
 6	at	at	ADP	IN	_	8	case	8:case	_
-7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(117-place-new-nnnnn-cf6-2-coref
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Bridge=3<117:entity-associative|Entity=(117-place-acc:inf-nnnnn-cf3-2-coref
 8	stadium	stadium	NOUN	NN	Number=Sing	5	nmod	5:nmod:at	Entity=117)116)
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj	Entity=(1-person-giv:act-sssss-cf1*-1-ana-Frank_Messina)
 10	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
-11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(118-object-new-nnnnn-cf4-2-coref
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(118-object-new-nnnnn-cf5-2-coref
 12	banner	banner	NOUN	NN	Number=Sing	10	obj	10:obj|14:nsubj	MSeg=bann-er
 13	that	that	PRON	WDT	PronType=Rel	14	nsubj	12:ref	Discourse=attribution-positive:121->122:0:sem-atsrc-824-826-gold+lex-indwd-827-_+syn-rpr-828-_
 14	read	read	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	12:acl:relcl	_
-15	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	16:nsubj	Discourse=elaboration-additional:122->120:0:syn-relcl-826-_|Entity=(119-abstract-new-nnnnn-cf5-2-disc(120-person-acc:com-nnnnn-cf2-1-ana)|XML=<hi rend:::"italic">
+15	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	16:nsubj	Discourse=elaboration-additional:122->120:0:syn-relcl-826-_|Entity=(119-abstract-new-nnnnn-cf6-2-disc(120-person-acc:com-nnnnn-cf2-1-ana)|XML=<hi rend:::"italic">
 16	Know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	ccomp	14:ccomp	Entity=119)118)|SpaceAfter=No
 17	'	'	PUNCT	''	_	10	punct	10:punct	SpaceAfter=No|XML=</hi>
 18	.	.	PUNCT	.	_	10	punct	10:punct	_
@@ -1270,7 +1270,7 @@
 12	said	say	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	6:acl:relcl	MSeg=sai-d|SpaceAfter=No
 13	,	,	PUNCT	,	_	16	punct	16:punct	_
 14	"	"	PUNCT	``	_	16	punct	16:punct	Discourse=attribution-positive:127->128:0:grf-qt-851,856-_+sem-atsrc-852-_+lex-indwd-853-_+syn-rpr-854-856-_|SpaceAfter=No
-15	Poet	Poet	NOUN	NN	Number=Sing	16	nsubj	16:nsubj	Entity=(1-person-giv:inact-sssss-cf2-1-coref-Frank_Messina)
+15	Poet	poet	NOUN	NN	Number=Sing	16	nsubj	16:nsubj	Entity=(1-person-giv:inact-sssss-cf2-1-coref-Frank_Messina)
 16	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	12:ccomp	MSeg=say-s
 17	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	18:nsubj	Discourse=elaboration-additional:128->125:0:syn-relcl-848-_|Entity=(120-person-giv:inact-nnnnn-cf1-1-ana)|XML=<hi rend:::"italic">
 18	Know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	ccomp	16:ccomp	SpaceAfter=No|XML=</hi>
@@ -1339,7 +1339,7 @@
 # transition = continue
 # speaker = FrankMessina
 # text = Last year we just knew we were going to the playoffs; we knew we were going post-season.
-1	Last	last	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=attribution-positive:134->135:0:sem-atsrc-892-_+lex-indwd-894-_|Entity=(115-time-giv:inact-nnnnn-cf2-2-coref|XML=<date when:::"2006">
+1	Last	last	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=attribution-positive:134->135:0:sem-atsrc-892-_+lex-indwd-894-_|Entity=(115-time-giv:inact-nnnnn-cf2-2-coref|PDTB=Implicit:Expansion.Equivalence:in other words:_:879-889:890-908|XML=<date when:::"2006">
 2	year	year	NOUN	NN	Number=Sing	5	obl:unmarked	5:obl:unmarked	Entity=115)|XML=</date>
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(120-person-giv:act-nnnnn-cf1*-1-ana)
 4	just	just	ADV	RB	_	5	advmod	5:advmod	_
@@ -1348,7 +1348,7 @@
 7	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	8	aux	8:aux	_
 8	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	5	ccomp	5:ccomp	MSeg=go-ing
 9	to	to	ADP	IN	_	11	case	11:case	_
-10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(123-event-acc:com-nnnnn-cf3-2-sgl
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Bridge=3<123:entity-associative|Entity=(123-event-acc:inf-nnnnn-cf3-2-sgl
 11	playoffs	playoff	NOUN	NNS	Number=Plur	8	obl	8:obl:to	Entity=123)|MSeg=play-off-s|SpaceAfter=No
 12	;	;	PUNCT	:	_	14	punct	14:punct	_
 13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	14:nsubj	Discourse=attribution-positive:136->137:0:sem-atsrc-902-_+lex-indwd-903-_|Entity=(120-person-giv:act-nnnnn-cf1*-1-ana)
@@ -1395,13 +1395,13 @@
 # transition = zero
 # speaker = FrankMessina
 # text = There was a woman, a season ticket holder and a die hard fan.
-1	There	there	PRON	EX	PronType=Dem	4	expl	4:expl	Discourse=context-background:140->142:2:ref-prs-924-925,951-_
+1	There	there	PRON	EX	PronType=Dem	4	expl	4:expl	Discourse=context-background:140->142:2:ref-prs-924-925,951-_+sem-mrnym-928,959-960-_
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(125-person-new-nnnnn-cf1-2-coref
 4	woman	woman	NOUN	NN	Number=Sing	0	root	0:root	Entity=125)|SpaceAfter=No
 5	,	,	PUNCT	,	_	9	punct	9:punct	_
 6	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(125-person-giv:act-nnnnn-cf1-4,9-appos
-7	season	season	NOUN	NN	Number=Sing	8	compound	8:compound	Entity=(126-abstract-new-nnnnn-cf2-2-sgl(127-time-new-nnnnn-cf3-1-sgl)
+7	season	season	NOUN	NN	Number=Sing	8	compound	8:compound	Bridge=3<127:entity-associative|Entity=(126-abstract-new-nnnnn-cf3-2-sgl(127-time-acc:inf-nnnnn-cf2-1-sgl)
 8	ticket	ticket	NOUN	NN	Number=Sing	9	compound	9:compound	Entity=126)
 9	holder	holder	NOUN	NN	Number=Sing	4	appos	4:appos	MSeg=hold-er
 10	and	and	CCONJ	CC	_	14	cc	14:cc	_
@@ -1421,7 +1421,7 @@
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	staggered	stagger	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=stagger-ed
 4	by	by	ADP	IN	_	6	case	6:case	_
-5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(128-event-new-nnnnn-cf3-2-sgl
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Bridge=3<128:entity-associative|Entity=(128-event-acc:inf-nnnnn-cf3-2-sgl
 6	loss	loss	NOUN	NN	Number=Sing	3	obl:agent	3:obl:agent	_
 7	last	last	ADJ	JJ	Degree=Pos	8	amod	8:amod	Entity=(115-time-giv:inact-nnnnn-cf2-2-coref|XML=<date when:::"2006">
 8	year	year	NOUN	NN	Number=Sing	6	nmod:unmarked	6:nmod:unmarked	Entity=115)|XML=</date>
@@ -1446,11 +1446,11 @@
 8	during	during	ADP	IN	_	9	case	9:case	MSeg=dur-ing
 9	one	one	NUM	CD	NumForm=Word|NumType=Card	4	obl	4:obl:during	Entity=(130-event-new-nnnnn-cf8-1-coref
 10	of	of	ADP	IN	_	12	case	12:case	_
-11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(131-event-new-nnnnn-cf6-2-sgl
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Bridge=3<131:entity-associative|Entity=(131-event-acc:inf-nnnnn-cf6-2-sgl
 12	games	game	NOUN	NNS	Number=Plur	9	nmod	9:nmod:of	Entity=131)|MSeg=game-s
 13	late	late	ADV	RB	Degree=Pos	12	advmod	12:advmod	_
 14	in	in	ADP	IN	_	16	case	16:case	_
-15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(132-time-new-nnnnn-cf7-2-sgl
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Bridge=3<132:entity-associative|Entity=(132-time-acc:inf-nnnnn-cf7-2-sgl
 16	season	season	NOUN	NN	Number=Sing	13	obl	13:obl:in	Entity=132)130)|SpaceAfter=No
 17	;	;	PUNCT	:	_	21	punct	21:punct	_
 18	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	21:nsubj	Discourse=elaboration-additional:143->142:0:ref-prs-951,966-_+sem-lxchn-964,976-gold;attribution-positive:143->144:0:0:lex-indwd-969-_+sem-atsrc-966-_|Entity=(125-person-giv:act-nnnnn-cf1*-1-ana)
@@ -1539,7 +1539,7 @@
 # speaker = FrankMessina
 # text = It's cool ... it's like another family.
 1-2	It's	_	_	_	_	_	_	_	_
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=evaluation-comment:152->146:3:lex-indwd-1025-_|Entity=(135-event-giv:act-nnnnn-cf1*-1-coref)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=evaluation-comment:152->146:3:lex-indwd-1025-_|Entity=(135-event-giv:act-nnnnn-cf1*-1-coref)|PDTB=NoRel:NoRel:_:_:1004-1022:1023-1032
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	cool	cool	ADJ	JJ	Degree=Pos	0	root	0:root	_
 4	...	…	PUNCT	:	_	9	punct	9:punct	_
@@ -1547,7 +1547,7 @@
 5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	9:nsubj	Discourse=explanation-justify:153->152:0:_|Entity=(135-event-giv:act-nnnnn-cf1*-1-ana)
 6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
 7	like	like	ADP	IN	_	9	case	9:case	_
-8	another	another	DET	DT	PronType=Ind	9	det	9:det	Entity=(136-organization-new-nnnnn-cf2-2-sgl|MSeg=an-other
+8	another	another	DET	DT	PronType=Ind	9	det	9:det	Bridge=1<136:comparison-relative;entity-associative|Entity=(136-organization-acc:inf-nnnnn-cf2-2-sgl|MSeg=an-other
 9	family	family	NOUN	NN	Number=Sing	3	parataxis	3:parataxis	Entity=136)|SpaceAfter=No
 10	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -1624,7 +1624,7 @@
 13	poems	poem	NOUN	NNS	Number=Plur	10	nmod	10:nmod:with	Entity=141)140)|MSeg=poem-s|SpaceAfter=No
 14	,	,	PUNCT	,	_	20	punct	20:punct	_
 15	so	so	ADV	RB	_	20	advmod	20:advmod	Discourse=elaboration-additional:160->157:1:sem-lxchn-1058-1059,1083-gold|PDTB=Explicit:Contingency.Cause.Result:so:1079:1065-1078:1080-1091
-16	quite	quite	DET	PDT	_	19	det:predet	19:det:predet	Bridge=3<142|Entity=(142-person-acc:inf-snnss-cf4-4-sgl
+16	quite	quite	DET	PDT	PronType=Ind	19	det:predet	19:det:predet	Bridge=3<142:entity-associative|Entity=(142-person-acc:inf-snnss-cf4-4-sgl
 17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	_
 18	few	few	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
 19	fans	fan	NOUN	NNS	Number=Plur	20	nsubj	20:nsubj	Entity=142)|MSeg=fan-s

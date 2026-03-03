@@ -21,7 +21,7 @@
 # s_type = imp
 # transition = null
 # text = Understand
-1	Understand	understand	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:1->10:4:grf-ly-_-_|MSeg=Under-stand
+1	Understand	understand	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:1->10:4:grf-ly-_-_|MSeg=Under-stand
 
 # newpar
 # newpar_block = p (2 s)
@@ -30,9 +30,9 @@
 # s_type = decl
 # transition = null
 # text = Due to its remarkable biodiversity, with over a third of the local plant species found nowhere else, Socotra has been designated a UNESCO World Heritage Site.
-1	Due	due	ADJ	JJ	Degree=Pos|ExtPos=ADP	5	case	5:case	Discourse=context-background:2->5:0:ref-prs-4,38-_;adversative-concession:2->5:2:0:orp-though-36-gold
+1	Due	due	ADJ	JJ	Degree=Pos|ExtPos=ADP	5	case	5:case	Discourse=context-background:2->5:0:ref-prs-4,38-_+sem-mrnym-21,32-34-_;adversative-concession:2->5:2:0:orp-though-36-gold
 2	to	to	ADP	IN	_	1	fixed	1:fixed	_
-3	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(1-abstract-new-sssss-cf4-3-sgl(2-place-new-sssss-cf1-1-cata-Socotra)|MSeg=it-s
+3	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(1-abstract-new-sssss-cf4-3-sgl(2-place-new-sssss-cf2-1-cata-Socotra)|MSeg=it-s
 4	remarkable	remarkable	ADJ	JJ	Degree=Pos	5	amod	5:amod	MSeg=remark-able
 5	biodiversity	biodiversity	NOUN	NN	Number=Sing	23	obl	23:obl:due_to	Entity=1)|MSeg=bio-divers-ity|SpaceAfter=No
 6	,	,	PUNCT	,	_	10	punct	10:punct	_
@@ -41,7 +41,7 @@
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	_
 10	third	third	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	5	nmod	5:nmod:with	_
 11	of	of	ADP	IN	_	15	case	15:case	_
-12	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(4-plant-new-snsss-cf2-4-coref
+12	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Bridge=2<4:entity-associative|Entity=(4-plant-acc:inf-snsss-cf1-4-coref
 13	local	local	ADJ	JJ	Degree=Pos	15	amod	15:amod	MSeg=loc-al
 14	plant	plant	NOUN	NN	Number=Sing	15	compound	15:compound	_
 15	species	species	NOUN	NNS	Number=Plur	10	nmod	10:nmod:of	Entity=4)3)
@@ -49,7 +49,7 @@
 17	nowhere	nowhere	ADV	RB	Degree=Pos	18	advmod	18:advmod	MSeg=no-where|Negation=Yes
 18	else	else	ADV	RB	Degree=Pos	16	advmod	16:advmod	SpaceAfter=No
 19	,	,	PUNCT	,	_	5	punct	5:punct	_
-20	Socotra	Socotra	PROPN	NNP	Number=Sing	23	nsubj:pass	23:nsubj:pass|28:nsubj:xsubj	Discourse=same-unit_m:4->2:1:_|Entity=(2-place-new-sssss-cf1-1-coref-Socotra)
+20	Socotra	Socotra	PROPN	NNP	Number=Sing	23	nsubj:pass	23:nsubj:pass|28:nsubj:xsubj	Discourse=same-unit_m:4->2:1:_|Entity=(2-place-new-sssss-cf2-1-coref-Socotra)
 21	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	23:aux	MSeg=ha-s
 22	been	be	AUX	VBN	Tense=Past|VerbForm=Part	23	aux:pass	23:aux:pass	_
 23	designated	designate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=design-at-ed
@@ -66,9 +66,9 @@
 # transition = establishment
 # text = With over 40,000 inhabitants, though, it's not just a nature reserve.
 1	With	with	ADP	IN	_	4	case	4:case	Discourse=organization-preparation:5->10:2:sem-synym-38,71-_+sem-rpt-43,80-_|PDTB=Implicit:Comparison.Concession.Arg2-as-denier:but:_:2-30:31-45
-2	over	over	ADV	RB	_	3	advmod	3:advmod	Entity=(7-person-new-sssns-cf2-3-sgl
+2	over	over	ADV	RB	_	3	advmod	3:advmod	Bridge=2<7:entity-associative|Entity=(7-person-acc:inf-sssns-cf2-3-sgl
 3	40,000	40000	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
-4	inhabitants	inhabitant	NOUN	NNS	Number=Plur	14	nmod	14:nmod:with	Entity=7)|MSeg=inhabit-ant-s|SpaceAfter=No
+4	inhabitants	inhabitant	NOUN	NNS	Number=Plur	14	obl	14:obl:with	Entity=7)|MSeg=inhabit-ant-s|SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
 6	though	though	ADV	RB	Degree=Pos	14	advmod	14:advmod	SpaceAfter=No
 7	,	,	PUNCT	,	_	6	punct	6:punct	_
@@ -102,13 +102,13 @@
 11	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	aux	12:aux	_
 12	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	22	advcl	22:advcl:if	CxnElt=22:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|MSeg=look-ing
 13	for	for	ADP	IN	_	16	case	16:case	_
-14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(12-event-new-nnnnn-cf5-3-sgl
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(12-event-new-nnnnn-cf5-3-coref
 15	luxurious	luxurious	ADJ	JJ	Degree=Pos	16	amod	16:amod	MSeg=luxuri-ous
 16	vacation	vacation	NOUN	NN	Number=Sing	12	obl	12:obl:for	Entity=12)|MSeg=vacat-ion
 17	this	this	PRON	DT	Number=Sing|PronType=Dem	22	nsubj	22:nsubj	Discourse=same-unit_m:9->7:0:_|Entity=(2-place-giv:act-sssss-cf1*-1-ana-Socotra)
 18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	22:cop	_
 19	not	not	PART	RB	Polarity=Neg	22	advmod	22:advmod	Negation=Yes
-20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(13-place-new-nnnnn-cf3-3-sgl
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Bridge=12<13:entity-associative|Entity=(13-place-acc:inf-nnnnn-cf3-3-sgl
 21	right	right	ADJ	JJ	Degree=Pos	22	amod	22:amod	_
 22	destination	destination	NOUN	NN	Number=Sing	4	parataxis	4:parataxis	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=22:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Entity=13)|MSeg=destin-ation|SpaceAfter=No
 23	.	.	PUNCT	.	_	4	punct	4:punct	_
@@ -139,7 +139,7 @@
 # s_type = decl
 # transition = continue
 # text = Socotra takes pride in their eco-tourism and values their spectacular plant and wildlife that may sometimes be only found on this island.
-1	Socotra	Socotra	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj|10:nsubj	Discourse=elaboration-additional:11->10:1:sem-rpt-71,84-_|Entity=(2-place-giv:act-sssss-cf1*-1-coref-Socotra)|PDTB=EntRel:EntRel:_:_:69-83:84-108
+1	Socotra	Socotra	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj|10:nsubj	Discourse=elaboration-additional:11->10:1:sem-rpt-71,84-_|Entity=(2-place-giv:act-sssss-cf1*-1-coref-Socotra)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:69-83:84-108
 2	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=take-s
 3	pride	pride	NOUN	NN	Number=Sing	2	obj	2:obj	_
 4	in	in	ADP	IN	_	8	case	8:case	_
@@ -170,18 +170,18 @@
 # s_type = decl
 # transition = continue
 # text = Although the lodging and facilities may not be the same as more modern and developed locations, Socotra is a beautiful and magnificent destination choice.
-1	Although	although	SCONJ	IN	_	10	mark	10:mark	Discourse=adversative-concession:14->15:0:dm-although-109-gold+lex-indwd-114-_|MSeg=Al-though|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:although:109:126-134:110-125
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(18-place-new-nsnns-cf2-2-coref
+1	Although	although	SCONJ	IN	_	10	mark	10:mark	Discourse=adversative-concession:14->15:0:dm-although-109-gold+lex-indwd-114-_+sem-mrnym-120-124,128-133-_|MSeg=Al-though|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:although:109:126-134:110-125
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=2<18:entity-associative|Entity=(18-place-acc:inf-nsnns-cf2-2-coref
 3	lodging	lodging	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=18)|MSeg=lodg-ing
 4	and	and	CCONJ	CC	_	5	cc	5:cc	_
-5	facilities	facility	NOUN	NNS	Number=Plur	3	conj	3:conj:and|10:nsubj	Entity=(19-place-new-nnnnn-cf3-1-sgl)|MSeg=facil-itie-s
+5	facilities	facility	NOUN	NNS	Number=Plur	3	conj	3:conj:and|10:nsubj	Bridge=2<19:entity-associative|Entity=(19-place-acc:inf-nnnnn-cf3-1-sgl)|MSeg=facil-itie-s
 6	may	may	AUX	MD	VerbForm=Fin	10	aux	10:aux	_
 7	not	not	PART	RB	Polarity=Neg	10	advmod	10:advmod	Negation=Yes
 8	be	be	AUX	VB	VerbForm=Inf	10	cop	10:cop	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	_
 10	same	same	ADJ	JJ	Degree=Pos	25	advcl	25:advcl:although	_
 11	as	as	ADP	IN	_	16	case	16:case	_
-12	more	more	ADV	RBR	Degree=Cmp	13	advmod	13:advmod	Entity=(20-place-new-nnnnn-cf4-5-sgl
+12	more	more	ADV	RBR	Degree=Cmp	13	advmod	13:advmod	Bridge=2<20:comparison-relative|Entity=(20-place-acc:inf-nnnnn-cf4-5-sgl
 13	modern	modern	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
 14	and	and	CCONJ	CC	_	15	cc	15:cc	_
 15	developed	developed	ADJ	JJ	Degree=Pos	13	conj	13:conj:and|16:amod	MSeg=develop-ed
@@ -202,15 +202,15 @@
 # s_type = decl
 # transition = zero
 # text = Great care is shown to both guests and the environment.
-1	Great	great	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=explanation-justify:16->15:1:_|Entity=(21-abstract-new-nnnnn-cf1-2-sgl|PDTB=Implicit:Contingency.Cause.Reason:because:_:109-134:135-145
+1	Great	great	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=explanation-justify:16->15:1:_|Entity=(21-abstract-new-nnnnn-cf3-2-sgl|PDTB=Implicit:Contingency.Cause.Reason:because:_:109-134:135-145
 2	care	care	NOUN	NN	Number=Sing	4	nsubj:pass	4:nsubj:pass	Entity=21)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 4	shown	show	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=show-n
 5	to	to	ADP	IN	_	7	case	7:case	_
 6	both	both	CCONJ	CC	_	7	cc:preconj	7:cc:preconj	_
-7	guests	guest	NOUN	NNS	Number=Plur	4	obl	4:obl:to	Entity=(22-person-new-nnnnn-cf3-1-sgl)|MSeg=guest-s
+7	guests	guest	NOUN	NNS	Number=Plur	4	obl	4:obl:to	Bridge=2<22:entity-associative|Entity=(22-person-acc:inf-nnnnn-cf2-1-sgl)|MSeg=guest-s
 8	and	and	CCONJ	CC	_	10	cc	10:cc	_
-9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(23-abstract-new-nnnnn-cf2-2-sgl
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=2<23:entity-associative|Entity=(23-abstract-acc:inf-nnnnn-cf1-2-sgl
 10	environment	environment	NOUN	NN	Number=Sing	7	conj	4:obl:to|7:conj:and	Entity=23)|MSeg=environ-ment|SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -229,12 +229,12 @@
 6	tourism	tourism	NOUN	NN	Number=Sing	7	compound	7:compound	Entity=24)|MSeg=tour-ism|XML=</w>
 7	system	system	NOUN	NN	Number=Sing	0	root	0:root	_
 8	with	with	ADP	IN	_	10	case	10:case	_
-9	limited	limited	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(25-abstract-new-nnsns-cf4-2-coref|MSeg=limit-ed
+9	limited	limited	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(25-abstract-new-nnsns-cf5-2-coref|MSeg=limit-ed
 10	infrastructure	infrastructure	NOUN	NN	Number=Sing	7	nmod	7:nmod:with	Entity=25)2)|MSeg=infra-structure
 11	and	and	CCONJ	CC	_	12	cc	12:cc	_
 12	new	new	ADJ	JJ	Degree=Pos	7	conj	7:conj:and	_
 13	to	to	ADP	IN	_	17	case	17:case	_
-14	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(26-abstract-new-nnnnn-cf3-4-sgl
+14	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(26-abstract-new-nnnnn-cf4-4-sgl
 15	international	international	ADJ	JJ	Degree=Pos	17	amod	17:amod	MSeg=inter-nation-al
 16	tourist	tourist	NOUN	NN	Number=Sing	17	compound	17:compound	Entity=(27-person-new-nnnnn-cf6-1-sgl)|MSeg=tour-ist
 17	market	market	NOUN	NN	Number=Sing	12	obl	12:obl:to	Entity=26)|SpaceAfter=No
@@ -248,7 +248,7 @@
 25	not	not	PART	RB	Polarity=Neg	23	advmod	23:advmod	Negation=Yes
 26	quite	quite	ADV	RB	_	23	advmod	23:advmod	_
 27	like	like	ADP	IN	_	29	case	29:case	_
-28	other	other	ADJ	JJ	Degree=Pos	29	amod	29:amod	Entity=(28-place-new-nnnnn-cf5-2-sgl
+28	other	other	ADJ	JJ	Degree=Pos	29	amod	29:amod	Bridge=2<28:comparison-relative|Entity=(28-place-acc:inf-nnnnn-cf3-2-sgl
 29	destinations	destination	NOUN	NNS	Number=Plur	26	obl	26:obl:like	Entity=28)|MSeg=destin-ation-s|SpaceAfter=No
 30	.	.	PUNCT	.	_	7	punct	7:punct	_
 
@@ -265,18 +265,18 @@
 6	in	in	ADP	IN	_	7	case	7:case	_
 7	Hadibo	Hadibo	PROPN	NNP	Number=Sing	5	nmod	5:nmod:in	Entity=(30-place-new-nnnnn-cf6-1-coref-Hadibu)29)|SpaceAfter=No
 8	:	:	PUNCT	:	_	11	punct	11:punct	_
-9	Taj	Taj	PROPN	NNP	Number=Sing	11	compound	11:compound	Bridge=29<31|Discourse=elaboration-additional:20->19:0:num-count-179-_+sem-mrnym-179-182,184-186-_+grf-col-183-_|Entity=(31-place-acc:inf-nnnnn-cf1-1,2,3-sgl|XML=<hi rend:::"bold">
+9	Taj	Taj	PROPN	NNP	Number=Sing	11	compound	11:compound	Discourse=elaboration-additional:20->19:0:num-count-179-_+grf-col-183-_|Entity=(31-place-auto-nnnnn-cf1-1,2,3-sgl|XML=<hi rend:::"bold">
 10	Socotra	Socotra	PROPN	NNP	Number=Sing	11	compound	11:compound	_
 11	Hotel	Hotel	PROPN	NNP	Number=Sing	5	parataxis	5:parataxis	Entity=31)|SpaceAfter=No
 12	,	,	PUNCT	,	_	14	punct	14:punct	_
-13	Hafijj	Hafijj	PROPN	NNP	Number=Sing	14	compound	14:compound	Bridge=29<32|Entity=(32-place-acc:inf-nnnnn-cf2-1,2-coref
+13	Hafijj	Hafijj	PROPN	NNP	Number=Sing	14	compound	14:compound	Entity=(32-place-auto-nnnnn-cf2-1,2-coref
 14	Hotel	Hotel	PROPN	NNP	Number=Sing	11	conj	11:conj:and	Entity=32)|SpaceAfter=No
 15	,	,	PUNCT	,	_	17	punct	17:punct	_
-16	Socotra	Socotra	PROPN	NNP	Number=Sing	17	compound	17:compound	Bridge=29<33|Entity=(33-place-acc:inf-nnnnn-cf3-1,2-coref
+16	Socotra	Socotra	PROPN	NNP	Number=Sing	17	compound	17:compound	Entity=(33-place-auto-nnnnn-cf3-1,2-coref
 17	Hotel	Hotel	PROPN	NNP	Number=Sing	11	conj	11:conj:and	Entity=33)|SpaceAfter=No
 18	,	,	PUNCT	,	_	22	punct	22:punct	_
 19	and	and	CCONJ	CC	_	22	cc	22:cc	_
-20	Summer	Summer	PROPN	NNP	Number=Sing	22	compound	22:compound	Bridge=29<34|Entity=(34-place-acc:inf-nnnnn-cf4-1,2,3-sgl
+20	Summer	Summer	PROPN	NNP	Number=Sing	22	compound	22:compound	Entity=(34-place-auto-nnnnn-cf4-1,2,3-sgl
 21	land	Land	PROPN	NNP	Number=Sing	22	compound	22:compound	_
 22	Hotel	Hotel	PROPN	NNP	Number=Sing	11	conj	11:conj:and	Entity=34)|SpaceAfter=No|XML=</hi>
 23	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -286,29 +286,29 @@
 # s_type = decl
 # transition = establishment
 # text = These hotels may not be the most luxerious, but they do provide air-conditionting, televisions, and refrigerators in all of the rooms.
-1	These	this	DET	DT	Number=Plur|PronType=Dem	2	det	2:det	Discourse=adversative-concession:21->22:0:lex-indwd-201-_+dm-but-208-gold|Entity=(29-place-giv:act-snsns-cf1*-2-coref
+1	These	this	DET	DT	Number=Plur|PronType=Dem	2	det	2:det	Discourse=adversative-concession:21->22:0:lex-indwd-201-_+sem-mrnym-204-206,209-_+dm-but-208-gold|Entity=(29-place-giv:act-snsns-cf1*-2-coref|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:176-198:199-225
 2	hotels	hotel	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj	Entity=29)|MSeg=hotel-s
 3	may	may	AUX	MD	VerbForm=Fin	8	aux	8:aux	_
 4	not	not	PART	RB	Polarity=Neg	8	advmod	8:advmod	Negation=Yes
 5	be	be	AUX	VB	VerbForm=Inf	8	cop	8:cop	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(35-place-new-nnnnn-cf6-3-sgl
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Bridge=29<35:comparison-sense|Entity=(35-place-acc:inf-nnnnn-cf2-3-sgl
 7	most	most	ADV	RBS	Degree=Sup	8	advmod	8:advmod	_
 8	luxerious	luxurious	ADJ	JJ	Degree=Pos|Typo=Yes	0	root	0:root	CorrectForm=luxurious|Entity=35)|SpaceAfter=No|XML=<sic ana:::"luxurious"></sic>
 9	,	,	PUNCT	,	_	13	punct	13:punct	_
-10	but	but	CCONJ	CC	_	13	cc	13:cc	Discourse=elaboration-additional:22->19:2:ref-dem-179-182,199-200-_+sem-mrnym-195-197,209-_|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:208:199-207:209-225
+10	but	but	CCONJ	CC	_	13	cc	13:cc	Discourse=elaboration-additional:22->19:2:ref-dem-179-182,199-200-_|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:208:199-207:209-225
 11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	13:nsubj	Entity=(29-place-giv:act-snsns-cf1*-1-ana)
 12	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	13:aux	_
 13	provide	provide	VERB	VB	VerbForm=Inf	8	conj	8:conj:but	_
-14	air	air	NOUN	NN	Number=Sing	16	compound	16:compound	Entity=(36-abstract-new-nnnnn-cf3-3-sgl|SpaceAfter=No|XML=<w>
+14	air	air	NOUN	NN	Number=Sing	16	compound	16:compound	Entity=(36-abstract-new-nnnnn-cf4-3-sgl|SpaceAfter=No|XML=<w>
 15	-	-	PUNCT	HYPH	_	14	punct	14:punct	SpaceAfter=No
 16	conditionting	conditioning	NOUN	NN	Number=Sing|Typo=Yes	13	obj	13:obj	CorrectForm=conditioning|Entity=36)|MSeg=conditiont-ing|SpaceAfter=No|XML=<sic ana:::"conditioning"></sic></w>
 17	,	,	PUNCT	,	_	18	punct	18:punct	_
-18	televisions	television	NOUN	NNS	Number=Plur	16	conj	13:obj|16:conj:and	Entity=(37-object-new-nnnnn-cf4-1-sgl)|MSeg=tele-vision-s|SpaceAfter=No
+18	televisions	television	NOUN	NNS	Number=Plur	16	conj	13:obj|16:conj:and	Entity=(37-object-new-nnnnn-cf5-1-sgl)|MSeg=tele-vision-s|SpaceAfter=No
 19	,	,	PUNCT	,	_	21	punct	21:punct	_
 20	and	and	CCONJ	CC	_	21	cc	21:cc	_
-21	refrigerators	refrigerator	NOUN	NNS	Number=Plur	16	conj	13:obj|16:conj:and	Entity=(38-object-new-nnnnn-cf5-1-sgl)|MSeg=refrigerat-or-s
+21	refrigerators	refrigerator	NOUN	NNS	Number=Plur	16	conj	13:obj|16:conj:and	Entity=(38-object-new-nnnnn-cf6-1-sgl)|MSeg=refrigerat-or-s
 22	in	in	ADP	IN	_	23	case	23:case	_
-23	all	all	DET	DT	PronType=Tot	13	obl	13:obl:in	Bridge=29<39|Entity=(39-place-acc:inf-nnnnn-cf2-1-sgl
+23	all	all	DET	DT	PronType=Tot	13	obl	13:obl:in	Bridge=29<39:entity-meronomy|Entity=(39-place-acc:inf-nnnnn-cf3-1-sgl
 24	of	of	ADP	IN	_	26	case	26:case	_
 25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	_
 26	rooms	room	NOUN	NNS	Number=Plur	23	nmod	23:nmod:of	Entity=39)|MSeg=room-s|SpaceAfter=No
@@ -319,7 +319,7 @@
 # s_type = decl
 # transition = retain
 # text = Most of the rooms at these hotels have their own bathroom, but there are a few rooms at the Hafijj Hotel and Socotra Hotel that must share bathrooms.
-1	Most	most	ADJ	JJS	Degree=Sup	8	nsubj	8:nsubj	Discourse=elaboration-additional:23->19:3:ref-dem-179-182,231-232-_+sem-rpt-188-189,245-247-_+sem-rpt-191-192,249-250-_|Entity=(40-place-new-nnnnn-cf1-1-coref|PDTB=EntRel:EntRel:_:_:199-225:226-255
+1	Most	most	ADJ	JJS	Degree=Sup	8	nsubj	8:nsubj	Discourse=elaboration-additional:23->19:3:ref-dem-179-182,231-232-_+sem-rpt-188-189,245-247-_+sem-rpt-191-192,249-250-_|Entity=(40-place-new-nnnnn-cf1-1-coref|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:199-225:226-255
 2	of	of	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_
 4	rooms	room	NOUN	NNS	Number=Plur	1	obl	1:obl:of	MSeg=room-s
@@ -355,7 +355,7 @@
 # s_type = decl
 # transition = continue
 # text = Fortunately, there is a restaurant in each of the hotels with simple yet delicious cuisine.
-1	Fortunately	fortunately	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=elaboration-additional:26->19:4:sem-synym-179-182,263-266-_|MSeg=Fortun-ate-ly|SpaceAfter=No
+1	Fortunately	fortunately	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=elaboration-additional:26->19:4:sem-synym-179-182,263-266-_|MSeg=Fortun-ate-ly|PDTB=Implicit:Expansion.Conjunction:furthermore:_:226-255:256-272|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	there	there	PRON	EX	PronType=Dem	4	expl	4:expl	_
 4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
@@ -378,7 +378,7 @@
 # s_type = decl
 # transition = zero
 # text = Considering Socotra is a fairly new eco-tourism destination, their facilities are decent.
-1	Considering	consider	VERB	VBG	Tense=Pres|VerbForm=Part	15	advcl	15:advcl	Discourse=adversative-concession:27->28:0:_|MSeg=Consider-ing
+1	Considering	consider	VERB	VBG	Tense=Pres|VerbForm=Part	15	advcl	15:advcl	Discourse=adversative-concession:27->28:0:_|MSeg=Consider-ing|PDTB=Implicit:Expansion.Conjunction:furthermore:_:256-272:273-288
 2	Socotra	Socotra	PROPN	NNP	Number=Sing	10	nsubj	10:nsubj	Entity=(2-place-giv:inact-sssss-cf1-1-coref-Socotra)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(2-place-giv:act-sssss-cf1-7-pred-Socotra
@@ -406,10 +406,10 @@
 4	there	there	PRON	EX	PronType=Dem	5	expl	5:expl	_
 5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 6	also	also	ADV	RB	_	5	advmod	5:advmod	PDTB=Explicit:Expansion.Conjunction:also:294:176-198:289-293,295-309
-7	another	another	DET	DT	PronType=Ind	8	det	8:det	Entity=(47-place-new-nnnnn-cf3-2-sgl|MSeg=an-other
+7	another	another	DET	DT	PronType=Ind	8	det	8:det	Bridge=29<47:comparison-relative|Entity=(47-place-acc:inf-nnnnn-cf2-2-sgl|MSeg=an-other
 8	hotel	hotel	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	CxnElt=5:Existential-CopPred-ThereExpl.Pivot|Entity=47)
 9	at	at	ADP	IN	_	11	case	11:case	_
-10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(48-place-acc:com-nnnnn-cf2-2-coref
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Bridge=2<48:entity-associative|Entity=(48-place-acc:inf-nnnnn-cf3-2-coref
 11	airport	airport	NOUN	NN	Number=Sing	8	nmod	8:nmod:at	Entity=48)|MSeg=air-port
 12	as	as	ADV	RB	ExtPos=CCONJ	17	cc	17:cc	_
 13	well	well	ADV	RB	Degree=Pos	12	fixed	12:fixed	_
@@ -429,7 +429,7 @@
 # s_type = decl
 # transition = zero
 # text = The most popular lodging is actually camping on the beaches.
-1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Discourse=joint-other_m:30->19:7:_|Entity=(50-place-new-snsnn-cf1-4-coref
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=2<50:entity-associative|Discourse=joint-other_m:30->19:7:_|Entity=(50-place-acc:inf-snsnn-cf1-4-coref
 2	most	most	ADV	RBS	Degree=Sup	3	advmod	3:advmod	_
 3	popular	popular	ADJ	JJ	Degree=Pos	4	amod	4:amod	MSeg=popul-ar
 4	lodging	lodging	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=50)|MSeg=lodg-ing
@@ -437,7 +437,7 @@
 6	actually	actually	ADV	RB	Degree=Pos	7	advmod	7:advmod	MSeg=act-ual-ly
 7	camping	camp	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	Entity=(50-place-giv:act-snsnn-cf1-1-coref|MSeg=camp-ing
 8	on	on	ADP	IN	_	10	case	10:case	_
-9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=2<51|Entity=(51-place-acc:inf-ssnnn-cf2-2-coref
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=2<51:entity-meronomy|Entity=(51-place-acc:inf-ssnnn-cf2-2-coref
 10	beaches	beach	NOUN	NNS	Number=Plur	7	obl	7:obl:on	Entity=51)50)|MSeg=beache-s|SpaceAfter=No
 11	.	.	PUNCT	.	_	7	punct	7:punct	_
 
@@ -446,24 +446,24 @@
 # s_type = decl
 # transition = null
 # text = There are several campsites that allow tourists to barbeque on the beach with beautiful mountain views in the background.
-1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=elaboration-additional:31->30:0:sem-lxchn-316,324-gold+sem-mrnym-318-319,331-332-_|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:310-320:321-340
+1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=elaboration-additional:31->30:0:sem-lxchn-316,324-gold+sem-mrnym-318-319,327-_|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:310-320:321-340
 2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
-3	several	several	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(52-place-new-nnnnn-cf3-2-sgl|XML=<hi rend:::"bold">
+3	several	several	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(52-place-new-nnnnn-cf4-2-coref|XML=<hi rend:::"bold">
 4	campsites	campsite	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj|6:nsubj	CxnElt=2:Existential-CopPred-ThereExpl.Pivot|MSeg=camps-ite-s|XML=</hi>
 5	that	that	PRON	WDT	PronType=Rel	6	nsubj	4:ref	Discourse=elaboration-attribute:32->31:0:syn-mdf-324-_+syn-relcl-325-326-_
 6	allow	allow	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_
-7	tourists	tourist	NOUN	NNS	Number=Plur	6	iobj	6:iobj|9:nsubj:xsubj	Entity=(53-person-new-nnnns-cf4-1-coref)|MSeg=tour-ist-s
+7	tourists	tourist	NOUN	NNS	Number=Plur	6	iobj	6:iobj|9:nsubj:xsubj	Bridge=2<53:entity-associative|Entity=(53-person-acc:inf-nnnns-cf3-1-coref)|MSeg=tour-ist-s
 8	to	to	PART	TO	_	9	mark	9:mark	_
 9	barbeque	barbeque	VERB	VB	VerbForm=Inf	6	xcomp	6:xcomp	_
 10	on	on	ADP	IN	_	12	case	12:case	_
-11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Bridge=2<54|Entity=(54-place-acc:inf-nnnnn-cf1-2-sgl
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Bridge=2<54:entity-meronomy|Entity=(54-place-acc:inf-nnnnn-cf1-2-sgl
 12	beach	beach	NOUN	NN	Number=Sing	9	obl	9:obl:on	Entity=54)
 13	with	with	ADP	IN	_	16	case	16:case	_
 14	beautiful	beautiful	ADJ	JJ	Degree=Pos	16	amod	16:amod	Entity=(55-abstract-new-nnnnn-cf5-3-sgl|MSeg=beauti-ful
 15	mountain	mountain	NOUN	NN	Number=Sing	16	compound	16:compound	Entity=(56-place-new-nnnnn-cf6-1-sgl)
 16	views	view	NOUN	NNS	Number=Plur	12	nmod	12:nmod:with	Entity=55)|MSeg=view-s
 17	in	in	ADP	IN	_	19	case	19:case	_
-18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(57-abstract-acc:com-nnnnn-cf2-2-sgl
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Bridge=52<57:entity-associative|Entity=(57-abstract-acc:inf-nnnnn-cf2-2-sgl
 19	background	background	NOUN	NN	Number=Sing	9	obl	9:obl:in	Entity=57)52)|MSeg=back-ground|SpaceAfter=No
 20	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -472,7 +472,7 @@
 # s_type = decl
 # transition = establishment
 # text = Tourists can choose to purchase camping tour packages which include a driver or guide that will show tourists around the beaches as well as provide meals during their stay.
-1	Tourists	tourist	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj|5:nsubj:xsubj	Discourse=elaboration-additional:33->30:1:sem-rpt-318-319,360-361-_|Entity=(53-person-giv:act-nnnns-cf1*-1-coref)|MSeg=Tour-ist-s|PDTB=EntRel:EntRel:_:_:321-340:341-370
+1	Tourists	tourist	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj|5:nsubj:xsubj	Discourse=elaboration-additional:33->30:1:sem-rpt-318-319,360-361-_|Entity=(53-person-giv:act-nnnns-cf1*-1-coref)|MSeg=Tour-ist-s|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:321-340:341-370
 2	can	can	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	choose	choose	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	to	to	PART	TO	_	5	mark	5:mark	_
@@ -552,18 +552,18 @@
 # transition = null
 # text = Like everything else, infrastructure and transportation has only just begun in recent years.
 1	Like	like	ADP	IN	_	2	case	2:case	Discourse=context-background:42->39:2:_|PDTB=Implicit:Expansion.Conjunction:and:_:386-399:400-414
-2	everything	everything	PRON	NN	Number=Sing|PronType=Tot	11	obl	11:obl:like	Entity=(67-abstract-new-nnnnn-cf3-1-sgl|MSeg=every-thing
+2	everything	everything	PRON	NN	Number=Sing|PronType=Tot	11	obl	11:obl:like	Entity=(67-abstract-new-nnnnn-cf4-1-sgl|MSeg=every-thing
 3	else	else	ADV	RB	Degree=Pos	2	advmod	2:advmod	Entity=67)|SpaceAfter=No
 4	,	,	PUNCT	,	_	2	punct	2:punct	_
 5	infrastructure	infrastructure	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	Entity=(25-abstract-giv:inact-nnsns-cf1-1-coref)|MSeg=infra-structure
 6	and	and	CCONJ	CC	_	7	cc	7:cc	_
-7	transportation	transportation	NOUN	NN	Number=Sing	5	conj	5:conj:and|11:nsubj	Entity=(68-abstract-new-nnnns-cf4-1-sgl)|MSeg=transport-ation
+7	transportation	transportation	NOUN	NN	Number=Sing	5	conj	5:conj:and|11:nsubj	Bridge=2<68:entity-associative|Entity=(68-abstract-acc:inf-nnnns-cf2-1-sgl)|MSeg=transport-ation
 8	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	11:aux	MSeg=ha-s
 9	only	only	ADV	RB	_	11	advmod	11:advmod	_
 10	just	just	ADV	RB	_	11	advmod	11:advmod	_
 11	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 12	in	in	ADP	IN	_	14	case	14:case	_
-13	recent	recent	ADJ	JJ	Degree=Pos	14	amod	14:amod	Entity=(69-time-acc:com-nnnnn-cf2-2-sgl|XML=<date notAfter:::"2006-07-04">
+13	recent	recent	ADJ	JJ	Degree=Pos	14	amod	14:amod	Entity=(69-time-acc:com-nnnnn-cf3-2-sgl|XML=<date notAfter:::"2006-07-04">
 14	years	year	NOUN	NNS	Number=Plur	11	obl	11:obl:in	Entity=69)|MSeg=year-s|SpaceAfter=No|XML=</date>
 15	.	.	PUNCT	.	_	11	punct	11:punct	_
 
@@ -575,15 +575,15 @@
 1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=joint-other_m:43->10:3:dm-also-417-gold
 2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 3	also	also	ADV	RB	_	2	advmod	2:advmod	PDTB=Explicit:Expansion.Conjunction:also:417:386-399:415-416,418-440
-4	plans	plan	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj|11:nsubj	CxnElt=2:Existential-CopPred-ThereExpl.Pivot|Entity=(70-abstract-new-nnnnn-cf1-1-sgl|MSeg=plan-s
+4	plans	plan	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj|11:nsubj	CxnElt=2:Existential-CopPred-ThereExpl.Pivot|Entity=(70-abstract-new-nnnnn-cf3-1-sgl|MSeg=plan-s
 5	for	for	ADP	IN	_	8	case	8:case	_
-6	new	new	ADJ	JJ	Degree=Pos	8	amod	8:amod	Entity=(71-place-new-nnnnn-cf4-3-sgl
+6	new	new	ADJ	JJ	Degree=Pos	8	amod	8:amod	Bridge=2<71:entity-associative|Entity=(71-place-acc:inf-nnnnn-cf2-3-sgl
 7	harbor	harbor	NOUN	NN	Number=Sing	8	compound	8:compound	Entity=(72-place-new-nnnnn-cf6-1-sgl)
 8	facilities	facility	NOUN	NNS	Number=Plur	4	nmod	4:nmod:for	Entity=71)|MSeg=facil-itie-s
 9	that	that	PRON	WDT	PronType=Rel	11	nsubj	4:ref	Discourse=elaboration-attribute:44->43:0:syn-mdf-418-_+syn-relcl-423,425-_
 10	will	will	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
 11	allow	allow	VERB	VB	VerbForm=Inf	4	acl:relcl	4:acl:relcl	_
-12	fisherman	fisherman	NOUN	NN	Number=Sing|Typo=Yes	11	iobj	11:iobj|14:nsubj:xsubj|16:nsubj:xsubj|20:nsubj:xsubj	CorrectForm=fishermen|Entity=(73-person-new-nnnnn-cf3-1-sgl)|MSeg=fish-er-man|XML=<sic ana:::"fishermen"></sic>
+12	fisherman	fisherman	NOUN	NN	Number=Sing|Typo=Yes	11	iobj	11:iobj|14:nsubj:xsubj|16:nsubj:xsubj|20:nsubj:xsubj	Bridge=2<73:entity-associative|CorrectForm=fishermen|Entity=(73-person-acc:inf-nnnnn-cf1-1-sgl)|MSeg=fish-er-man|XML=<sic ana:::"fishermen"></sic>
 13	to	to	PART	TO	_	14	mark	14:mark	_
 14	sell	sell	VERB	VB	VerbForm=Inf	11	xcomp	11:xcomp	_
 15	and	and	CCONJ	CC	_	16	cc	16:cc	_
@@ -593,7 +593,7 @@
 19	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=joint-list_m:45->44:0:dm-and-433-gold|PDTB=Explicit:Expansion.Conjunction:and:433:423-432:434-440
 20	make	make	VERB	VB	VerbForm=Inf	14	conj	11:xcomp|14:conj:and	_
 21	importing	import	VERB	VBG	VerbForm=Ger	20	xcomp	20:xcomp	MSeg=import-ing
-22	food	food	NOUN	NN	Number=Sing	21	obj	21:obj|25:nsubj:xsubj	Entity=(74-substance-new-nnnnn-cf2-1-sgl)
+22	food	food	NOUN	NN	Number=Sing	21	obj	21:obj|25:nsubj:xsubj	Entity=(74-substance-new-nnnnn-cf4-1-sgl)
 23	and	and	CCONJ	CC	_	24	cc	24:cc	_
 24	fuel	fuel	NOUN	NN	Number=Sing	22	conj	21:obj|22:conj:and|25:nsubj:xsubj	Entity=(75-substance-new-nnnnn-cf5-1-sgl)
 25	simpler	simple	ADJ	JJR	Degree=Cmp	21	xcomp	21:xcomp	Entity=70)|MSeg=simpl-er|SpaceAfter=No
@@ -634,7 +634,7 @@
 2	to	to	PART	TO	_	3	mark	3:mark	_
 3	go	go	VERB	VB	VerbForm=Inf	1	acl	1:acl:to	Entity=77)|SpaceAfter=No|XML=</hi>
 4	:	:	PUNCT	:	_	9	punct	9:punct	_
-5	Climate	climate	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	Discourse=organization-preparation:49->51:1:_|Entity=(78-abstract-new-nnnnn-cf1-1-coref)
+5	Climate	climate	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	Bridge=2<78:entity-associative|Discourse=organization-preparation:49->51:1:_|Entity=(78-abstract-acc:inf-nnnnn-cf1-1-coref)
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
 7	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(78-abstract-giv:act-nnnnn-cf1-3-pred
 8	important	important	ADJ	JJ	Degree=Pos	9	amod	9:amod	MSeg=import-ant
@@ -735,7 +735,7 @@
 # s_type = imp
 # transition = null
 # text = Get in
-1	Get	get	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:55->58:4:grf-ly-_-_
+1	Get	get	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:55->58:4:grf-ly-_-_
 2	in	in	ADV	RB	Degree=Pos	1	advmod	1:advmod	_
 
 # newpar
@@ -814,7 +814,7 @@
 9	Wednesday	Wednesday	PROPN	NNP	Number=Sing	10	compound	10:compound	Entity=(106-time-new-nnnnn-cf5-2-sgl(107-time-new-nnnnn-cf7-1-sgl)|MSeg=Wednes-day
 10	afternoon	afternoon	NOUN	NN	Number=Sing	7	nmod	7:nmod:on	Entity=106)|MSeg=after-noon
 11	and	and	CCONJ	CC	_	12	cc	12:cc	_
-12	Saturday	Saturday	PROPN	NNP	Number=Sing	10	conj	7:nmod:on|10:conj:and	Entity=(108-time-new-nnnnn-cf6-2-sgl(109-time-new-nnnnn-cf4-1-sgl)
+12	Saturday	Saturday	PROPN	NNP	Number=Sing	10	conj	7:nmod:on|10:conj:and	Entity=(108-time-new-nnnnn-cf6-2-sgl(109-time-new-nnnnn-cf4-1-sgl)|MSeg=Satur-day
 13	morning	morning	NOUN	NN	Number=Sing	3	obl:unmarked	3:obl:unmarked	Entity=108)|MSeg=morn-ing|SpaceAfter=No
 14	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -823,7 +823,7 @@
 # s_type = decl
 # transition = zero
 # text = Flight durations are almost three hours.
-1	Flight	flight	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=elaboration-additional:61->59:1:_|Entity=(110-time-new-nnnnn-cf2-2-sgl(96-event-giv:inact-nnnnn-cf1-1-coref)|MSeg=Fligh-t
+1	Flight	flight	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=elaboration-additional:61->59:1:_|Entity=(110-time-new-nnnnn-cf2-2-sgl(96-event-giv:inact-nnnnn-cf1-1-coref)|MSeg=Fligh-t|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:and:_:562-575:576-582
 2	durations	duration	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=110)|MSeg=duration-s
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 4	almost	almost	ADV	RB	Degree=Pos	5	advmod	5:advmod	Entity=(111-time-new-nnnnn-cf3-3-sgl|MSeg=al-most
@@ -856,7 +856,7 @@
 # s_type = imp
 # transition = null
 # text = Get around
-1	Get	get	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:63->64:1:grf-ly-_-_
+1	Get	get	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:63->64:1:grf-ly-_-_
 2	around	around	ADV	RB	Degree=Pos	1	advmod	1:advmod	MSeg=a-round
 
 # newpar
@@ -899,7 +899,7 @@
 6	there	there	PRON	EX	PronType=Dem	7	expl	7:expl	_
 7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 8	no	no	DET	DT	PronType=Neg	10	det	10:det	Negation=Yes
-9	public	public	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(116-abstract-new-nnnnn-cf2-2-sgl|MSeg=publ-ic
+9	public	public	ADJ	JJ	Degree=Pos	10	amod	10:amod	Bridge=2<116:entity-associative|Entity=(116-abstract-acc:inf-nnnnn-cf2-2-sgl|MSeg=publ-ic
 10	transport	transport	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	CxnElt=7:Existential-CopPred-ThereExpl.Pivot|Entity=116)|SpaceAfter=No
 11	,	,	PUNCT	,	_	14	punct	14:punct	_
 12	but	but	CCONJ	CC	_	14	cc	14:cc	Discourse=joint-list_m:66->64:0:_|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:622:611-621:623-629
@@ -939,7 +939,7 @@
 # s_type = imp
 # transition = null
 # text = See
-1	See	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:68->71:5:grf-ly-_-_
+1	See	see	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:68->71:5:grf-ly-_-_
 
 # newpar
 # newpar_block = p (2 s)
@@ -948,13 +948,13 @@
 # s_type = decl
 # transition = null
 # text = Socotra is considered the jewel of biodiversity in the Arabian Sea.
-1	Socotra	Socotra	PROPN	NNP	Number=Sing	3	nsubj:pass	3:nsubj:pass|5:nsubj:xsubj	Discourse=context-background:69->71:4:sem-mrnym-649-656,659-660-_+sem-mrnym-652,668-672-_|Entity=(2-place-giv:inact-sssss-cf1-1-coref-Socotra)
+1	Socotra	Socotra	PROPN	NNP	Number=Sing	3	nsubj:pass	3:nsubj:pass|5:nsubj:xsubj	Discourse=context-background:69->71:4:sem-mrnym-649-656,659-660-_|Entity=(2-place-giv:inact-sssss-cf1-1-coref-Socotra)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=consider-ed
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(2-place-giv:act-sssss-cf1-7,8-coref-Socotra
 5	jewel	jewel	NOUN	NN	Number=Sing	3	xcomp	3:xcomp	_
 6	of	of	ADP	IN	_	7	case	7:case	_
-7	biodiversity	biodiversity	NOUN	NN	Number=Sing	5	nmod	5:nmod:of	Entity=(124-abstract-new-nnnnn-cf3-1-coref)|MSeg=bio-divers-ity
+7	biodiversity	biodiversity	NOUN	NN	Number=Sing	5	nmod	5:nmod:of	Entity=(124-abstract-new-nnnnn-cf3-1-sgl)|MSeg=bio-divers-ity
 8	in	in	ADP	IN	_	11	case	11:case	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(125-place-new-snnnn-cf2-2,3-sgl-Arabian_Sea
 10	Arabian	Arabian	PROPN	NNP	Number=Sing	11	compound	11:compound	MSeg=Arab-ia-n
@@ -967,7 +967,7 @@
 # transition = null
 # text = Although the region is small, it is characterized by unique land and marine biodiversity.
 1	Although	although	SCONJ	IN	_	5	mark	5:mark	Discourse=adversative-concession:70->71:0:dm-although-658-gold|MSeg=Al-though|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:although:658:664-673:659-663;NoRel:NoRel:_:_:646-657:658-673
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=2<126|Entity=(126-place-acc:inf-nnnnn-cf1-2-coref
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=2<126:entity-associative|Entity=(126-place-acc:inf-nnnnn-cf1-2-coref
 3	region	region	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=126)
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 5	small	small	ADJ	JJ	Degree=Pos	9	advcl	9:advcl:although	SpaceAfter=No
@@ -976,7 +976,7 @@
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	9:aux:pass	_
 9	characterized	characterize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=character-iz-ed
 10	by	by	ADP	IN	_	12	case	12:case	_
-11	unique	unique	ADJ	JJ	Degree=Pos	12	amod	12:amod	Bridge=124<127|Entity=(127-abstract-acc:inf-nnnnn-cf2-2,5-sgl
+11	unique	unique	ADJ	JJ	Degree=Pos	12	amod	12:amod	Entity=(127-abstract-auto-nnnnn-cf2-2,5-sgl
 12	land	land	NOUN	NN	Number=Sing	9	obl:agent	9:obl:agent	_
 13	and	and	CCONJ	CC	_	15	cc	15:cc	_
 14	marine	marine	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
@@ -1016,7 +1016,7 @@
 # text = While on the outer coastline, breathtaking natural beaches have pure white sand dunes and palm trees.
 1	While	while	SCONJ	IN	_	5	mark	5:mark	Discourse=adversative-contrast_m:73->72:0:sem-mrnym-677-678,694-696-_+sem-antnm-685,703-_+dm-while-692-gold|PDTB=Explicit:Comparison.Contrast:while:692:674-691:693-709
 2	on	on	ADP	IN	_	5	case	5:case	_
-3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Bridge=2<132|Entity=(132-place-acc:inf-nnnnn-cf1-3-sgl
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Bridge=2<132:entity-meronomy|Entity=(132-place-acc:inf-nnnnn-cf1-3-sgl
 4	outer	outer	ADJ	JJ	Degree=Pos	5	amod	5:amod	MSeg=out-er
 5	coastline	coastline	NOUN	NN	Number=Sing	10	advcl	10:advcl:while	Entity=132)|MSeg=coastl-ine|SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	5:punct	_
@@ -1113,7 +1113,7 @@
 # s_type = decl
 # transition = retain
 # text = One of the most famous plants is the dragon's blood tree “dracaena cinnabara” which exists only on Socotra and nowhere else on the Earth.
-1	One	one	NUM	CD	NumForm=Word|NumType=Card	12	nsubj	12:nsubj	Bridge=144<146|Discourse=elaboration-additional:79->74:2:sem-synym-710-711,793-_|Entity=(146-plant-acc:inf-sssns-cf1-1-coref
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	12	nsubj	12:nsubj	Bridge=144<146:comparison-relative;set-member|Discourse=elaboration-additional:79->74:2:sem-synym-710-711,793-_|Entity=(146-plant-acc:inf-sssns-cf1-1-coref
 2	of	of	ADP	IN	_	6	case	6:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	_
 4	most	most	ADV	RBS	Degree=Sup	5	advmod	5:advmod	_
@@ -1155,15 +1155,15 @@
 5	name	name	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=148)
 6	because	because	SCONJ	IN	_	20	mark	20:mark	Discourse=causal-cause:82->81:0:dm-because-806-gold|MSeg=be-cause|PDTB=Explicit:Contingency.Cause.Reason:because:806:801-805:807-822
 7	if	if	SCONJ	IN	_	11	mark	11:mark	Discourse=contingency-condition:83->84:0:dm-if then-807,815-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if then:807,815:806,816-822:808-814
-8	any	any	DET	DT	PronType=Ind	9	det	9:det	Entity=(149-abstract-new-nnnnn-cf3-2-sgl
+8	any	any	DET	DT	PronType=Ind	9	det	9:det	Entity=(149-abstract-new-nnnnn-cf4-2-sgl
 9	damage	damage	NOUN	NN	Number=Sing	11	nsubj:pass	11:nsubj:pass	Entity=149)
 10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	11:aux:pass	_
 11	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	advcl	20:advcl:if	CxnElt=20:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 12	to	to	ADP	IN	_	14	case	14:case	_
-13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Bridge=146<150|Entity=(150-substance-acc:inf-nnnnn-cf2-2-sgl
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Bridge=146<150:entity-meronomy|Entity=(150-substance-acc:inf-nnnnn-cf3-2-sgl
 14	bark	bark	NOUN	NN	Number=Sing	11	obl	11:obl:to	Entity=150)
 15	then	then	ADV	RB	PronType=Dem	20	advmod	20:advmod	Discourse=same-unit_m:84->82:0:_
-16	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(151-substance-new-nnnnn-cf4-4-sgl
+16	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Bridge=146<151:entity-meronomy|Entity=(151-substance-acc:inf-nnnnn-cf2-4-sgl
 17	dark	dark	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
 18	red	red	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
 19	liquid	liquid	NOUN	NN	Number=Sing	20	nsubj	20:nsubj	Entity=151)|MSeg=liqu-id
@@ -1271,7 +1271,7 @@
 # text = There is so much beauty all around the island, it is difficult not the appreciate to magnificent scenery and wildlife.
 1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=explanation-justify:91->92:0:_
 2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
-3	so	so	ADV	RB	_	4	advmod	4:advmod	Entity=(161-abstract-new-nnnnn-cf4-3-sgl
+3	so	so	ADV	RB	_	4	advmod	4:advmod	Entity=(161-abstract-new-nnnnn-cf5-3-sgl
 4	much	much	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
 5	beauty	beauty	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	CxnElt=2:Existential-CopPred-ThereExpl.Pivot|Entity=161)
 6	all	all	ADV	RB	_	9	advmod	9:advmod	_
@@ -1285,7 +1285,7 @@
 14	not	not	PART	RB	Polarity=Neg	16	advmod	16:advmod	Entity=(162-event-acc:com-nnnnn-cf3-3-coref|Negation=Yes
 15	the	to	PART	TO	Typo=Yes	16	mark	16:mark	CorrectForm=to|XML=<sic ana:::"to"></sic>
 16	appreciate	appreciate	VERB	VB	VerbForm=Inf	13	csubj	13:csubj	_
-17	to	the	DET	DT	PronType=Ind|Typo=Yes	19	det	19:det	CorrectForm=the|Entity=(163-abstract-new-nnnnn-cf5-3,5-sgl(164-abstract-new-nnnnn-cf6-3-sgl|XML=<sic ana:::"the"></sic>
+17	to	the	DET	DT	PronType=Ind|Typo=Yes	19	det	19:det	Bridge=2<164:entity-associative|CorrectForm=the|Entity=(163-abstract-new-nnnnn-cf6-3,5-sgl(164-abstract-acc:inf-nnnnn-cf4-3-sgl|XML=<sic ana:::"the"></sic>
 18	magnificent	magnificent	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
 19	scenery	scenery	NOUN	NN	Number=Sing	16	obj	16:obj	Entity=164)|MSeg=scene-ry
 20	and	and	CCONJ	CC	_	21	cc	21:cc	_

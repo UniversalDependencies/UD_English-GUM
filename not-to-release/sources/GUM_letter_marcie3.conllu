@@ -21,7 +21,7 @@
 # s_type = frag
 # transition = establishment
 # text = Miss Marcie Rickenbacker
-1	Miss	Miss	PROPN	NNP	Number=Sing	2	nmod:desc	2:nmod:desc	Discourse=attribution-positive:1->8:6:sem-atsrc-1-3-gold|Entity=(1-person-new-sssss-cf1-1,2,3-coref
+1	Miss	Miss	PROPN	NNP	Number=Sing	2	nmod:desc	2:nmod:desc	Discourse=attribution-positive:1->8:6:sem-atsrc-1-3-gold|Entity=(1-person-new-sssss-cf1-2,3-coref
 2	Marcie	Marcie	PROPN	NNP	Number=Sing	0	root	0:root	_
 3	Rickenbacker	Rickenbacker	PROPN	NNP	Number=Sing	2	flat	2:flat	Entity=1)
 
@@ -33,7 +33,7 @@
 # transition = null
 # text = Abbot Academy
 1	Abbot	Abbot	PROPN	NNP	Number=Sing	2	compound	2:compound	Discourse=context-circumstance:2->8:5:_|Entity=(2-organization-new-ssnnn-cf1-1,2-sgl-Abbot_Academy(3-person-new-nnnnn-cf2-1-sgl)
-2	Academy	Academy	PROPN	NNP	Number=Sing	0	root	0:root	Entity=2)
+2	Academy	Academy	PROPN	NNP	Number=Sing	0	root	0:root	Entity=2)|MSeg=Academ-y
 
 # newpar
 # newpar_block = p rend:::"centered with printed blue ink" (1 s)
@@ -42,7 +42,7 @@
 # s_type = frag
 # transition = null
 # text = Andover, Massachusetts 01810
-1	Andover	Andover	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint-list_m:3->2:0:_|Entity=(4-place-new-nnnnn-cf1-1,3-sgl(5-place-new-nnnnn-cf2-1,3-sgl-Andover%2C_Massachusetts|SpaceAfter=No
+1	Andover	Andover	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint-list_m:3->2:0:_|Entity=(4-place-new-nnnnn-cf1-1,3-sgl(5-place-new-nnnnn-cf2-1,3-coref-Andover%2C_Massachusetts|SpaceAfter=No
 2	,	,	PUNCT	,	_	3	punct	3:punct	_
 3	Massachusetts	Massachusetts	PROPN	NNP	Number=Sing	1	nmod:unmarked	1:nmod:unmarked	Entity=(6-place-new-nnnnn-cf3-1-sgl-Massachusetts)5)
 4	01810	01810	NUM	CD	NumForm=Digit|NumType=Card	1	list	1:list	Entity=4)
@@ -64,7 +64,7 @@
 # s_type = intj
 # transition = null
 # text = Mum,
-1	Mum	mum	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-preparation:5->8:2:ref-prs-12,32-_|Entity=(9-person-new-sssss-cf1-1-coref)|SpaceAfter=No
+1	Mum	mum	NOUN	NN	Number=Sing	0	root	0:root	Bridge=1<9:entity-associative|Discourse=organization-preparation:5->8:2:ref-prs-12,32-_|Entity=(9-person-acc:inf-sssss-cf1-1-coref)|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 
 # newpar
@@ -109,7 +109,7 @@
 # s_type = wh
 # transition = zero
 # text = What am I going to do about that coed school in the north?
-1	What	what	PRON	WP	PronType=Int	6	obj	6:obj	Discourse=joint-other_m:9->8:1:_
+1	What	what	PRON	WP	PronType=Int	6	obj	6:obj	Discourse=joint-other_m:9->8:1:_|PDTB=Implicit:Expansion.Conjunction:and:_:30-36:37-50
 2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj|6:nsubj:xsubj	Entity=(1-person-giv:inact-sssss-cf1-1-ana)
 4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	MSeg=go-ing
@@ -120,7 +120,7 @@
 9	coed	coed	ADJ	JJ	Degree=Pos	10	amod	10:amod	MSeg=co-ed
 10	school	school	NOUN	NN	Number=Sing	6	obl	6:obl:about	_
 11	in	in	ADP	IN	_	13	case	13:case	_
-12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(15-place-acc:com-nnnnn-cf3-2-sgl
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Bridge=5<15:entity-associative|Entity=(15-place-acc:inf-nnnnn-cf3-2-sgl
 13	north	north	NOUN	NN	Number=Sing	10	nmod	10:nmod:in	Entity=15)14)|SpaceAfter=No
 14	?	?	PUNCT	.	_	4	punct	4:punct	_
 
@@ -133,7 +133,7 @@
 2-3	aren’t	_	_	_	_	_	_	_	_
 2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 3	n’t	not	PART	RB	Polarity=Neg	2	advmod	2:advmod	Negation=Yes
-4	very	very	ADV	RB	_	5	advmod	5:advmod	Bridge=14<16|Entity=(16-organization-acc:inf-nnnnn-cf2-5-sgl
+4	very	very	ADV	RB	_	5	advmod	5:advmod	Bridge=14<16:comparison-sense;set-member|Entity=(16-organization-acc:inf-nnnnn-cf2-5-sgl
 5	many	many	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 6	good	good	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	ones	one	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj|14:obl:into	CxnElt=2:Existential-CopPred-ThereExpl.Pivot|MSeg=one-s
@@ -195,7 +195,7 @@
 7	box	box	NOUN	NN	Number=Sing	5	obj	5:obj	_
 8	of	of	ADP	IN	_	9	case	9:case	_
 9	stuff	stuff	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	Entity=(24-object-new-nnnnn-cf5-1-sgl)23)
-10	home	home	ADV	RB	Degree=Pos	5	advmod	5:advmod	Entity=(25-place-acc:com-ssnsn-cf3-1-coref)
+10	home	home	ADV	RB	Degree=Pos	5	advmod	5:advmod	Bridge=1<25:entity-associative|Entity=(25-place-acc:inf-ssnsn-cf3-1-coref)
 11	regular	regular	ADJ	JJ	Degree=Pos	16	amod	16:amod	Entity=(26-abstract-new-nnsns-cf6-6-sgl|MSeg=regul-ar
 12	(	(	PUNCT	-LRB-	_	14	punct	14:punct	Discourse=restatement-partial:16->15:0:grf-prn-101,104-_|SpaceAfter=No
 13	parcel	parcel	NOUN	NN	Number=Sing	14	compound	14:compound	Entity=(27-abstract-new-nnnnn-cf7-2-sgl
@@ -209,10 +209,10 @@
 # s_type = decl
 # transition = establishment
 # text = Mrs. B put the postage on (80 ¢) but I just know it’s not going to be enough.
-1	Mrs.	Mrs.	PROPN	NNP	Abbr=Yes|Number=Sing	2	nmod:desc	2:nmod:desc	Discourse=adversative-concession:18->21:1:dm-but-117-gold|Entity=(28-person-new-nnnnn-cf3-1,2-sgl|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:90-106:107-128
+1	Mrs.	Mrs.	PROPN	NNP	Abbr=Yes|Number=Sing	2	nmod:desc	2:nmod:desc	Discourse=adversative-concession:18->21:1:dm-but-117-gold|Entity=(28-person-new-nnnnn-cf3-2-sgl|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:90-106:107-128
 2	B	B	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Entity=28)
 3	put	put	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Bridge=23<29|Entity=(29-object-acc:inf-nnnnn-cf2-2-coref
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Bridge=23<29:entity-associative|Entity=(29-object-acc:inf-nnnnn-cf2-2-coref
 5	postage	postage	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=29)|MSeg=post-age
 6	on	on	ADP	RP	_	3	compound:prt	3:compound:prt	_
 7	(	(	PUNCT	-LRB-	_	9	punct	9:punct	Discourse=elaboration-additional:19->18:0:sem-synym-110-111,114-115-_+grf-prn-113,116-_|SpaceAfter=No
@@ -244,7 +244,7 @@
 2	exams	exam	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=30)|MSeg=exam-s
 3	start	start	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	on	on	ADP	IN	_	5	case	5:case	_
-5	Monday	Monday	PROPN	NNP	Number=Sing	3	obl	3:obl:on	Bridge=7<31|Entity=(31-time-acc:inf-nnnnn-cf2-1-coref)|MSeg=Mon-day|SpaceAfter=No|XML=<date when:::"1969-06-02"></date>
+5	Monday	Monday	PROPN	NNP	Number=Sing	3	obl	3:obl:on	Bridge=7<31:comparison-time|Entity=(31-time-acc:inf-nnnnn-cf2-1-coref)|MSeg=Mon-day|SpaceAfter=No|XML=<date when:::"1969-06-02"></date>
 6	,	,	PUNCT	,	_	7	punct	7:punct	_
 7	Eng	English	PROPN	NNP	Abbr=Yes|Number=Sing	3	parataxis	3:parataxis	Entity=(32-abstract-new-nnnnn-cf5-1-sgl-English_language)|SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	9:punct	_
@@ -255,7 +255,7 @@
 13	(	(	PUNCT	-LRB-	_	14	punct	14:punct	Discourse=context-circumstance:23->22:0:lex-indph-141-145-_|SpaceAfter=No|XML=<date from:::"1969-06-2" to:::"1969-06-04">
 14	M.	Monday	PROPN	NNP	Abbr=Yes|Number=Sing	3	parataxis	3:parataxis	Entity=(31-time-giv:act-nnnnn-cf2-1-coref)|SpaceAfter=No|XML=<w>
 15	-	-	SYM	SYM	ExtPos=ADP	16	case	16:case	SpaceAfter=No
-16	Wed	Wednesday	VERB	NNP	Abbr=Yes|Tense=Past|VerbForm=Part	14	nmod	14:nmod:to	Bridge=31<35|Entity=(35-time-acc:inf-nnnnn-cf3-1-sgl)|SpaceAfter=No|XML=</w>
+16	Wed	Wednesday	VERB	NNP	Abbr=Yes|ExtPos=PROPN|Tense=Past|VerbForm=Part	14	nmod	14:nmod:to	Bridge=31<35:comparison-time|Entity=(35-time-acc:inf-nnnnn-cf3-1-sgl)|SpaceAfter=No|XML=</w>
 17	)	)	PUNCT	-RRB-	_	14	punct	14:punct	XML=</date>
 
 # sent_id = GUM_letter_marcie3-14
@@ -304,10 +304,10 @@
 15	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	parataxis	2:parataxis	MSeg=go-ing
 16	to	to	ADP	IN	_	17	case	17:case	_
 17	Antioch	Antioch	PROPN	NNP	Number=Sing	15	obl	15:obl:to	Entity=(41-organization-new-nssnn-cf1-1-coref-Antioch_College)
-18	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=elaboration-additional:30->27:2:ref-prs-172,174-_
+18	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=elaboration-additional:30->27:2:sem-mrnym-166-167,176-_+ref-prs-172,174-_+dm-and-173-gold|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:and:173:161-172:174-178
 19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	20:nsubj	Entity=(41-organization-giv:act-nssnn-cf1-1-ana-Antioch_College)
 20	start	start	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	15:conj:and	_
-21	June	June	PROPN	NNP	Number=Sing	22	nmod:unmarked	22:nmod:unmarked	Entity=(42-time-new-nnnnn-cf7-2-sgl(43-time-new-nnnnn-cf5-1-sgl)|XML=<date when:::"1969-06-30">
+21	June	June	PROPN	NNP	Number=Sing	22	nmod:unmarked	22:nmod:unmarked	Bridge=8<43:comparison-time|Entity=(42-time-new-nnnnn-cf7-2-sgl(43-time-acc:inf-nnnnn-cf5-1-coref)|XML=<date when:::"1969-06-30">
 22	30	30	NUM	CD	NumForm=Digit|NumType=Card	20	obl:unmarked	20:obl:unmarked	Entity=42)|SpaceAfter=No|XML=</date>
 23	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -322,23 +322,23 @@
 3	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	MSeg=try-ing
 4	to	to	PART	TO	_	5	mark	5:mark	_
 5	go	go	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Bridge=41<44|Entity=(44-time-acc:inf-nnnnn-cf2-3-coref
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Bridge=41<44:comparison-relative;entity-associative|Entity=(44-time-acc:inf-nnnnn-cf2-3-coref
 7	next	next	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	session	session	NOUN	NN	Number=Sing	5	obl:unmarked	5:obl:unmarked	Entity=44)|SpaceAfter=No
 9	;	;	PUNCT	:	_	11	punct	11:punct	_
-10	Sept	September	PROPN	NNP	Abbr=Yes|Number=Sing	11	nmod:unmarked	11:nmod:unmarked	Entity=(44-time-giv:act-nnnnn-cf2-2-appos(45-time-new-nnnnn-cf4-1-sgl)|XML=<date when:::"1969-09-29">
+10	Sept	September	PROPN	NNP	Abbr=Yes|Number=Sing	11	nmod:unmarked	11:nmod:unmarked	Bridge=43<45:comparison-time|Entity=(44-time-giv:act-nnnnn-cf2-2-appos(45-time-acc:inf-nnnnn-cf3-1-sgl)|XML=<date when:::"1969-09-29">
 11	29th	29th	ADJ	JJ	Degree=Pos|NumForm=Combi|NumType=Ord	8	appos	8:appos	Entity=44)|SpaceAfter=No|XML=</date>
 12	,	,	PUNCT	,	_	16	punct	16:punct	_
-13	but	but	CCONJ	CC	_	16	cc	16:cc	Discourse=joint-list_m:32->30:0:sem-mrnym-174,184-186-_|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:191:179-190:192-200
+13	but	but	CCONJ	CC	_	16	cc	16:cc	Discourse=joint-list_m:32->30:0:sem-mrnym-174,184-186-_+sem-mrnym-176,188-_|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:191:179-190:192-200
 14-15	won’t	_	_	_	_	_	_	_	_
 14	wo	will	AUX	MD	VerbForm=Fin	16	aux	16:aux	_
 15	n’t	not	PART	RB	Polarity=Neg	16	advmod	16:advmod	Negation=Yes
 16	hear	hear	VERB	VB	VerbForm=Inf	3	conj	3:conj:but	_
 17	for	for	ADP	IN	_	19	case	19:case	PDTB=AltLex:Expansion.Conjunction:for another:195-196:156-178:179-194,197-200
-18	another	another	DET	DT	PronType=Ind	19	det	19:det	Entity=(46-time-new-nnnnn-cf5-2-coref|MSeg=an-other|XML=<date notBefore:::"1969-06-06" notAfter:::"1969-06-13">
+18	another	another	DET	DT	PronType=Ind	19	det	19:det	Bridge=7<46:comparison-relative;comparison-time|Entity=(46-time-acc:inf-nnnnn-cf4-2-coref|MSeg=an-other|XML=<date notBefore:::"1969-06-06" notAfter:::"1969-06-13">
 19	week	week	NOUN	NN	Number=Sing	16	obl	16:obl:for	Entity=46)
 20	or	or	CCONJ	CC	_	21	cc	21:cc	_
-21	two	two	NUM	CD	NumForm=Word|NumType=Card	19	conj	16:obl:for|19:conj:or	Bridge=46<47|Entity=(47-time-acc:inf-nnnnn-cf3-1-sgl)|SpaceAfter=No
+21	two	two	NUM	CD	NumForm=Word|NumType=Card	19	conj	16:obl:for|19:conj:or	Bridge=46<47:comparison-sense|Entity=(47-time-acc:inf-nnnnn-cf5-1-sgl)|SpaceAfter=No
 22	.	.	PUNCT	.	_	3	punct	3:punct	XML=</date>
 
 # sent_id = GUM_letter_marcie3-18
@@ -347,7 +347,7 @@
 # transition = retain
 # text = I’m going to keep my fingers crossed, I was really planning on seeing him this summer.
 1-2	I’m	_	_	_	_	_	_	_	_
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj|8:nsubj:xsubj	Discourse=evaluation-comment:33->27:3:lex-indph-207-208-gold|Entity=(1-person-giv:inact-sssss-cf1-1-ana)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj|8:nsubj:xsubj	Discourse=evaluation-comment:33->27:3:lex-indph-207-208-gold|Entity=(1-person-giv:inact-sssss-cf1-1-ana)|PDTB=Implicit:Expansion.Conjunction:but:_:179-200:201-219
 2	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	MSeg=go-ing
 4	to	to	PART	TO	_	5	mark	5:mark	_
@@ -363,7 +363,7 @@
 14	on	on	SCONJ	IN	_	15	mark	15:mark	_
 15	seeing	see	VERB	VBG	Tense=Pres|VerbForm=Part	13	advcl	13:advcl:on	MSeg=see-ing
 16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	15:obj	Entity=(40-person-giv:act-sssss-cf2*-1-ana)
-17	this	this	DET	DT	Number=Sing|PronType=Dem	18	det	18:det	Entity=(49-time-acc:com-nnnsn-cf3-2-sgl|XML=<date notBefore:::"1969-06-20" notAfter:::"1969-09-21">
+17	this	this	DET	DT	Number=Sing|PronType=Dem	18	det	18:det	Bridge=8<49:comparison-time|Entity=(49-time-acc:inf-nnnsn-cf3-2-sgl|XML=<date notBefore:::"1969-06-20" notAfter:::"1969-09-21">
 18	summer	summer	NOUN	NN	Number=Sing	15	obl:unmarked	15:obl:unmarked	Entity=49)|SpaceAfter=No
 19	.	.	PUNCT	.	_	3	punct	3:punct	XML=</date>
 
@@ -408,7 +408,7 @@
 # transition = continue
 # text = At this point I have just barely enough to get home, but I want to get something for Mlle. Arosa and then as always there’ll be other petty expenses.
 1	At	at	ADP	IN	_	3	case	3:case	Discourse=adversative-concession:39->41:1:dm-but-259-gold|PDTB=NoRel:NoRel:_:_:220-246:247-278
-2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Entity=(52-time-acc:com-nnnnn-cf3-2-sgl
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Bridge=7<52:comparison-time|Entity=(52-time-acc:inf-nnnnn-cf4-2-sgl
 3	point	point	NOUN	NN	Number=Sing	5	obl	5:obl:at	Entity=52)
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(1-person-giv:act-sssss-cf1*-1-ana)
 5	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -424,11 +424,11 @@
 15	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	5:conj:but	_
 16	to	to	PART	TO	_	17	mark	17:mark	_
 17	get	get	VERB	VB	VerbForm=Inf	15	xcomp	15:xcomp	_
-18	something	something	PRON	NN	Number=Sing|PronType=Ind	17	obj	17:obj	Entity=(53-object-new-nnnns-cf5-1-sgl)|MSeg=some-thing|XML=<hi rend:::"author ran out of room and continued onto next line"></hi>
+18	something	something	PRON	NN	Number=Sing|PronType=Ind	17	obj	17:obj	Entity=(53-object-new-nnnns-cf5-1-coref)|MSeg=some-thing|XML=<hi rend:::"author ran out of room and continued onto next line"></hi>
 19	for	for	ADP	IN	_	21	case	21:case	_
-20	Mlle.	Mlle.	PROPN	NNP	Abbr=Yes|Number=Sing	21	nmod:desc	21:nmod:desc	Entity=(54-person-new-nnnnn-cf6-1,2-sgl
+20	Mlle.	Mlle.	PROPN	NNP	Abbr=Yes|Number=Sing	21	nmod:desc	21:nmod:desc	Entity=(54-person-new-nnnnn-cf6-2-sgl
 21	Arosa	Arosa	PROPN	NNP	Number=Sing	17	obl	17:obl:for	Entity=54)
-22	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=joint-list_m:42->41:0:dm-and-268-gold;joint-sequence:42->41:0:0:orp-then-269-gold|PDTB=Explicit:Expansion.Conjunction:and:268:259-267:269-278
+22	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=joint-list_m:42->41:0:ref-cmp-264,275-277-_+dm-and-268-gold;joint-sequence:42->41:0:0:orp-then-269-gold|PDTB=Explicit:Expansion.Conjunction:and:268:259-267:269-278
 23	then	then	ADV	RB	PronType=Dem	28	advmod	28:advmod	PDTB=Explicit:Temporal.Asynchronous.Precedence:then:269:259-267:268,270-278
 24	as	as	ADP	IN	_	25	case	25:case	_
 25	always	always	ADV	RB	_	28	obl	28:obl:as	MSeg=al-way-s
@@ -436,7 +436,7 @@
 26	there	there	PRON	EX	PronType=Dem	28	expl	28:expl	_
 27	’ll	will	AUX	MD	VerbForm=Fin	28	aux	28:aux	_
 28	be	be	VERB	VB	VerbForm=Inf	15	conj	5:conj|15:conj:and	Cxn=Existential-CopPred-ThereExpl
-29	other	other	ADJ	JJ	Degree=Pos	31	amod	31:amod	Entity=(55-abstract-new-snnns-cf4-3-sgl
+29	other	other	ADJ	JJ	Degree=Pos	31	amod	31:amod	Bridge=53<55:comparison-relative|Entity=(55-abstract-acc:inf-snnns-cf3-3-sgl
 30	petty	petty	ADJ	JJ	Degree=Pos	31	amod	31:amod	_
 31	expenses	expense	NOUN	NNS	Number=Plur	28	nsubj	28:nsubj	CxnElt=28:Existential-CopPred-ThereExpl.Pivot|Entity=55)|MSeg=expense-s|SpaceAfter=No
 32	.	.	PUNCT	.	_	5	punct	5:punct	_
@@ -456,7 +456,7 @@
 # transition = zero
 # text = Also tell Nance to cash the check if she hasn’t already, it’s fouling me up.
 1	Also	also	ADV	RB	_	2	advmod	2:advmod	Discourse=joint-list_m:44->36:4:dm-also-282-gold|PDTB=Explicit:Expansion.Conjunction:also:282:220-246:283-300
-2	tell	tell	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+2	tell	tell	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
 3	Nance	Nance	PROPN	NNP	Number=Sing	2	iobj	2:iobj|5:nsubj:xsubj	Entity=(56-person-new-nnnnn-cf1-1-coref)
 4	to	to	PART	TO	_	5	mark	5:mark	_
 5	cash	cash	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=5:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
@@ -494,7 +494,7 @@
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj	Entity=(1-person-giv:act-sssss-cf1*-1-ana)
 9	can	can	AUX	MD	VerbForm=Fin	10	aux	10:aux	_
 10	study	study	VERB	VB	VerbForm=Inf	2	advcl	2:advcl:so	_
-11	all	all	DET	DT	PronType=Ind	12	det	12:det	Bridge=7<59|Entity=(59-time-acc:inf-nnnnn-cf3-2-sgl
+11	all	all	DET	DT	PronType=Ind	12	det	12:det	Bridge=7<59:comparison-time;set-span-interval|Entity=(59-time-acc:inf-nnnnn-cf3-2-sgl
 12	morning	morning	NOUN	NN	Number=Sing	10	obl:unmarked	10:obl:unmarked	Entity=59)|MSeg=morn-ing
 13	outside	outside	ADV	RB	Degree=Pos	10	advmod	10:advmod	MSeg=out-side|SpaceAfter=No
 14	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -519,7 +519,7 @@
 # s_type = imp
 # transition = zero
 # text = Say “hello” to all for me.
-1	Say	say	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-preparation:51->53:0:sem-synym-329,334-_
+1	Say	say	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-preparation:51->53:0:sem-synym-329,334-_
 2	“	"	PUNCT	``	_	3	punct	3:punct	SpaceAfter=No|XML=<quote>
 3	hello	hello	INTJ	UH	_	1	ccomp	1:ccomp	SpaceAfter=No
 4	”	"	PUNCT	''	_	3	punct	3:punct	XML=</quote>
@@ -556,7 +556,7 @@
 # s_type = other
 # transition = null
 # text = See you soon!
-1	See	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:54->8:4:ref-prs-32,336-_
+1	See	see	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:54->8:4:ref-prs-32,336-_
 2	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	1	obj	1:obj	Entity=(9-person-giv:inact-sssss-cf1-1-ana)
 3	soon	soon	ADV	RB	Degree=Pos	1	advmod	1:advmod	SpaceAfter=No
 4	!	!	PUNCT	.	_	1	punct	1:punct	_

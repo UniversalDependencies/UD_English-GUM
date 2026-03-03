@@ -32,7 +32,7 @@
 # s_type = frag
 # transition = null
 # text = Two Methods:
-1	Two	two	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=organization-preparation:2->3:1:num-count-6-_+grf-col-8-_|Entity=(2-abstract-new-nssss-cf1-2-coref|PDTB=NoRel:NoRel:_:_:1-5:6-8|XML=<hi rend:::"bold">
+1	Two	two	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Bridge=1<2:entity-associative|Discourse=organization-preparation:2->3:1:num-count-6-_+grf-col-8-_|Entity=(2-abstract-acc:inf-nssss-cf1-2-coref|PDTB=NoRel:NoRel:_:_:1-5:6-8|XML=<hi rend:::"bold">
 2	Methods	method	NOUN	NNS	Number=Plur	0	root	0:root	Entity=2)|MSeg=Method-s|SpaceAfter=No
 3	:	:	PUNCT	:	_	2	punct	2:punct	XML=</hi>
 
@@ -77,7 +77,7 @@
 8	when	when	ADV	WRB	PronType=Int	10	advmod	10:advmod	Discourse=context-circumstance:7->5:1:dm-when-24-gold|PDTB=Explicit:Temporal.Synchronous:when:24:17-23:25-34
 9	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	10:nsubj	Entity=(7-person-acc:com-nnnnn-cf1-1-ana)
 10	toss	toss	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	4:advcl:when	_
-11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Bridge=6<8|Entity=(8-object-acc:inf-nnnnn-cf2-2,4,7-sgl
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Bridge=6<8:entity-resultative|Entity=(8-object-acc:inf-nnnnn-cf2-2,4,7-sgl
 12	eggs	egg	NOUN	NNS	Number=Plur	10	obj	10:obj	MSeg=egg-s|SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	14:punct	_
 14	butter	butter	NOUN	NN	Number=Sing	12	conj	10:obj|12:conj:and	MSeg=butt-er|SpaceAfter=No
@@ -144,7 +144,7 @@
 # s_type = frag
 # transition = zero
 # text = Ingredients
-1	Ingredients	ingredient	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:12->19:6:grf-ly-_-_|Entity=(13-substance-new-nsnns-cf1-1-coref)|MSeg=Ingredient-s
+1	Ingredients	ingredient	NOUN	NNS	Number=Plur	0	root	0:root	Bridge=1<13:entity-associative|Discourse=organization-heading:12->19:6:grf-ly-_-_|Entity=(13-substance-acc:inf-nsnns-cf1-1-sgl)|MSeg=Ingredient-s
 
 # newpar
 # newpar_block = head rend:::"bold" (1 s)
@@ -153,7 +153,7 @@
 # s_type = frag
 # transition = null
 # text = Method 1: Basic Vanilla Vegan Cupcakes:
-1	Method	method	NOUN	NN	Number=Sing	0	root	0:root	Bridge=2<14|Discourse=organization-preparation:13->14:0:grf-col-75-_|Entity=(14-abstract-acc:inf-nnnnn-cf2-1,2-coref
+1	Method	method	NOUN	NN	Number=Sing	0	root	0:root	Bridge=2<14:set-member|Discourse=organization-preparation:13->14:0:grf-col-75-_|Entity=(14-abstract-acc:inf-nnnnn-cf2-1,2-coref
 2	1	1	NUM	CD	NumForm=Digit|NumType=Card	1	flat	1:flat	Entity=14)|SpaceAfter=No
 3	:	:	PUNCT	:	_	7	punct	7:punct	_
 4	Basic	basic	ADJ	JJ	Degree=Pos	7	amod	7:amod	Discourse=organization-heading:14->19:4:grf-ly-_-_|Entity=(3-object-giv:inact-nsnss-cf1-4-coref|MSeg=Bas-ic
@@ -167,21 +167,21 @@
 # s_type = frag
 # transition = null
 # text = Servings: 18 - 24 (fewer if you opt for larger-sized cupcakes)
-1	Servings	serving	NOUN	NNS	Number=Plur	0	root	0:root	Bridge=3<15|Discourse=organization-preparation:15->16:1:sem-synym-81,83-85-_+grf-col-82-_|Entity=(15-object-acc:inf-snnnn-cf1-1-coref)|MSeg=Serv-ing-s|PDTB=NoRel:NoRel:_:_:73-80:81-96|SpaceAfter=No
+1	Servings	serving	NOUN	NNS	Number=Plur	0	root	0:root	Bridge=3<15:entity-associative|Discourse=organization-preparation:15->16:1:sem-synym-81,83-85-_+grf-col-82-_|Entity=(15-object-acc:inf-snnnn-cf1-1-coref)|MSeg=Serv-ing-s|PDTB=NoRel:NoRel:_:_:73-80:81-96|SpaceAfter=No
 2	:	:	PUNCT	:	_	3	punct	3:punct	_
 3	18	18	NUM	CD	NumForm=Digit|NumType=Card	1	dep	1:dep	Discourse=context-background:16->19:3:_|Entity=(15-object-giv:act-snnnn-cf1-1-coref
 4	-	-	SYM	SYM	ExtPos=ADP	5	case	5:case	_
 5	24	24	NUM	CD	NumForm=Digit|NumType=Card	3	nmod	3:nmod:to	Entity=15)
 6	(	(	PUNCT	-LRB-	_	7	punct	7:punct	Discourse=adversative-concession:17->16:0:sem-mrnym-83-85,87-_|SpaceAfter=No
-7	fewer	few	ADJ	JJR	Degree=Cmp	3	parataxis	3:parataxis	Bridge=15<16|Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=7:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Entity=(16-object-acc:inf-nnnnn-cf3-1-sgl)|MSeg=few-er
+7	fewer	few	ADJ	JJR	Degree=Cmp	3	parataxis	3:parataxis	Bridge=15<16:comparison-relative;comparison-sense|Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=7:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Entity=(16-object-acc:inf-nnnnn-cf4-1-sgl)|MSeg=few-er
 8	if	if	SCONJ	IN	_	10	mark	10:mark	Discourse=contingency-condition:18->17:0:dm-if-88-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:88:86-87:89-96
 9	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	10:nsubj	Entity=(7-person-giv:inact-nnnnn-cf2-1-ana)
 10	opt	opt	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	advcl	7:advcl:if	CxnElt=7:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 11	for	for	ADP	IN	_	15	case	15:case	_
-12	larger	large	ADJ	JJR	Degree=Cmp	14	amod	14:amod	Entity=(17-object-new-nnnnn-cf4-4-sgl|MSeg=larg-er|SpaceAfter=No|XML=<w>
+12	larger	large	ADJ	JJR	Degree=Cmp	14	amod	14:amod	Bridge=15<17:comparison-relative|Entity=(17-object-acc:inf-nnnnn-cf3-4-sgl|MSeg=larg-er|SpaceAfter=No|XML=<w>
 13	-	-	PUNCT	HYPH	_	12	punct	12:punct	SpaceAfter=No
 14	sized	sized	ADJ	JJ	Degree=Pos	15	amod	15:amod	MSeg=siz-ed|XML=</w>
-15	cupcakes	cupcake	NOUN	NNS	Number=Plur	10	obl	10:obl:for	Entity=17)|MSeg=cupcake-s|SpaceAfter=No
+15	cupcakes	cupcake	NOUN	NNS	Number=Plur	10	obl	10:obl:for	Entity=17)|MSeg=cup-cake-s|SpaceAfter=No
 16	)	)	PUNCT	-RRB-	_	7	punct	7:punct	_
 
 # newpar
@@ -191,7 +191,7 @@
 # s_type = frag
 # transition = null
 # text = 1 tablespoon (15 ml) apple cider vinegar
-1	1	1	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Bridge=13<18|Discourse=ROOT:19:0|Entity=(18-substance-acc:inf-nnnnn-cf1-9-coref
+1	1	1	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=ROOT:19:0|Entity=(18-substance-auto-nnnnn-cf1-9-coref
 2	tablespoon	tablespoon	NOUN	NN	Number=Sing	9	nmod:unmarked	9:nmod:unmarked	MSeg=table-spoon
 3	(	(	PUNCT	-LRB-	_	5	punct	5:punct	Discourse=restatement-partial:20->19:0:grf-prn-99,102-_|SpaceAfter=No
 4	15	15	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	5:nummod	Entity=(18-substance-giv:act-nnnnn-cf1-2-coref
@@ -208,7 +208,7 @@
 # s_type = frag
 # transition = null
 # text = 1 1/2 cups (350 ml) plain soy milk
-1	1	1	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	3:nummod	Bridge=13<21|Discourse=joint-list_m:22->19:2:grf-seq-_-_+sem-mrnym-100-101,110-111-_|Entity=(21-substance-acc:inf-ssnnn-cf1-10-coref
+1	1	1	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	3:nummod	Discourse=joint-list_m:22->19:2:grf-seq-_-_|Entity=(21-substance-auto-ssnnn-cf1-10-coref
 2	1/2	1/2	NUM	CD	NumForm=Digit|NumType=Card	1	compound	1:compound	_
 3	cups	cup	NOUN	NNS	Number=Plur	10	nmod:unmarked	10:nmod:unmarked	MSeg=cup-s
 4	(	(	PUNCT	-LRB-	_	6	punct	6:punct	Discourse=restatement-partial:23->22:0:grf-prn-109,112-_|SpaceAfter=No
@@ -226,7 +226,7 @@
 # s_type = frag
 # transition = null
 # text = 2 3/4 cups (345 g) self raising flour
-1	2	2	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	3:nummod	Bridge=13<23|Discourse=joint-list_m:25->19:2:grf-seq-_-_+sem-mrnym-110-111,120-121-_|Entity=(23-substance-acc:inf-nnnnn-cf1-10-coref
+1	2	2	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	3:nummod	Discourse=joint-list_m:25->19:2:grf-seq-_-_|Entity=(23-substance-auto-nnnnn-cf1-10-coref
 2	3/4	3/4	NUM	CD	NumForm=Digit|NumType=Card	1	compound	1:compound	_
 3	cups	cup	NOUN	NNS	Number=Plur	10	nmod:unmarked	10:nmod:unmarked	MSeg=cup-s
 4	(	(	PUNCT	-LRB-	_	6	punct	6:punct	Discourse=restatement-partial:26->25:0:grf-prn-119,122-_|SpaceAfter=No
@@ -244,7 +244,7 @@
 # s_type = frag
 # transition = null
 # text = 2 teaspoons (10 g) baking powder
-1	2	2	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Bridge=13<24|Discourse=joint-list_m:28->19:2:grf-seq-_-_+sem-lxchn-98,127-gold+sem-mrnym-120-121,129-130-_|Entity=(24-substance-acc:inf-snnnn-cf1-8-coref
+1	2	2	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=joint-list_m:28->19:2:grf-seq-_-_+sem-lxchn-98,127-gold|Entity=(24-substance-auto-snnnn-cf1-8-coref
 2	teaspoons	teaspoon	NOUN	NNS	Number=Plur	8	nmod:unmarked	8:nmod:unmarked	MSeg=teaspoon-s
 3	(	(	PUNCT	-LRB-	_	5	punct	5:punct	Discourse=restatement-partial:29->28:0:grf-prn-128,131-_|SpaceAfter=No
 4	10	10	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	5:nummod	Entity=(24-substance-giv:act-snnnn-cf1-2-coref
@@ -260,7 +260,7 @@
 # s_type = frag
 # transition = null
 # text = 1/2 teaspoon baking soda
-1	1/2	1/2	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Bridge=13<25|Discourse=joint-list_m:31->19:2:grf-seq-_-_+sem-mrnym-129-130,134-137-_|Entity=(25-substance-acc:inf-snnnn-cf1-4-coref
+1	1/2	1/2	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=joint-list_m:31->19:2:grf-seq-_-_|Entity=(25-substance-auto-snnnn-cf1-4-coref
 2	teaspoon	teaspoon	NOUN	NN	Number=Sing	4	nmod:unmarked	4:nmod:unmarked	MSeg=tea-spoon
 3	baking	baking	NOUN	NN	Number=Sing	4	compound	4:compound	MSeg=bak-ing
 4	soda	soda	NOUN	NN	Number=Sing	0	root	0:root	Entity=25)
@@ -272,7 +272,7 @@
 # s_type = frag
 # transition = null
 # text = 1/2 teaspoon salt
-1	1/2	1/2	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Bridge=13<26|Discourse=joint-list_m:32->19:2:grf-seq-_-_+sem-mrnym-134-140-_|Entity=(26-substance-acc:inf-snnnn-cf1-3-coref
+1	1/2	1/2	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=joint-list_m:32->19:2:grf-seq-_-_|Entity=(26-substance-auto-snnnn-cf1-3-coref
 2	teaspoon	teaspoon	NOUN	NN	Number=Sing	3	nmod:unmarked	3:nmod:unmarked	MSeg=tea-spoon
 3	salt	salt	NOUN	NN	Number=Sing	0	root	0:root	Entity=26)
 
@@ -283,7 +283,7 @@
 # s_type = frag
 # transition = null
 # text = 1 cup (200 g) sugar
-1	1	1	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Bridge=13<27|Discourse=joint-list_m:33->19:2:grf-seq-_-_+sem-mrnym-138-140,144-145-_|Entity=(27-substance-acc:inf-snsnn-cf1-7-coref
+1	1	1	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=joint-list_m:33->19:2:grf-seq-_-_|Entity=(27-substance-auto-snsnn-cf1-7-coref
 2	cup	cup	NOUN	NN	Number=Sing	7	nmod:unmarked	7:nmod:unmarked	_
 3	(	(	PUNCT	-LRB-	_	5	punct	5:punct	Discourse=restatement-partial:34->33:0:grf-prn-143,146-_|SpaceAfter=No
 4	200	200	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	5:nummod	Entity=(27-substance-giv:act-snsnn-cf1-2-coref
@@ -298,7 +298,7 @@
 # s_type = frag
 # transition = null
 # text = 1/2 cup (120 ml) vegetable oil
-1	1/2	1/2	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Bridge=13<28|Discourse=joint-list_m:36->19:2:grf-seq-_-_+sem-mrnym-144-145,151-152-_|Entity=(28-substance-acc:inf-ssnnn-cf1-8-coref
+1	1/2	1/2	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=joint-list_m:36->19:2:grf-seq-_-_|Entity=(28-substance-auto-ssnnn-cf1-8-coref
 2	cup	cup	NOUN	NN	Number=Sing	8	nmod:unmarked	8:nmod:unmarked	_
 3	(	(	PUNCT	-LRB-	_	5	punct	5:punct	Discourse=restatement-partial:37->36:0:grf-prn-150,153-_|SpaceAfter=No
 4	120	120	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	5:nummod	Entity=(28-substance-giv:act-ssnnn-cf1-2-coref
@@ -314,7 +314,7 @@
 # s_type = frag
 # transition = null
 # text = 1 teaspoon vanilla extract
-1	1	1	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Bridge=13<29|Discourse=joint-list_m:39->19:2:grf-seq-_-_+sem-mrnym-151-152,156-159-_|Entity=(29-substance-acc:inf-snnnn-cf1-4-coref
+1	1	1	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=joint-list_m:39->19:2:grf-seq-_-_|Entity=(29-substance-auto-snnnn-cf1-4-coref
 2	teaspoon	teaspoon	NOUN	NN	Number=Sing	4	nmod:unmarked	4:nmod:unmarked	MSeg=tea-spoon
 3	vanilla	vanilla	NOUN	NN	Number=Sing	4	compound	4:compound	_
 4	extract	extract	NOUN	NN	Number=Sing	0	root	0:root	Entity=29)
@@ -339,7 +339,7 @@
 # s_type = frag
 # transition = null
 # text = Method 2: Basic Chocolate Vegan Cupcakes:
-1	Method	method	NOUN	NN	Number=Sing	0	root	0:root	Bridge=2<31|Discourse=organization-preparation:41->42:0:grf-col-167-_|Entity=(31-abstract-acc:inf-nnnnn-cf3-1,2-coref
+1	Method	method	NOUN	NN	Number=Sing	0	root	0:root	Bridge=2<31:set-member|Discourse=organization-preparation:41->42:0:grf-col-167-_|Entity=(31-abstract-acc:inf-nnnnn-cf3-1,2-coref
 2	2	2	NUM	CD	NumForm=Digit|NumType=Card	1	flat	1:flat	Entity=31)|SpaceAfter=No
 3	:	:	PUNCT	:	_	7	punct	7:punct	_
 4	Basic	basic	ADJ	JJ	Degree=Pos	7	amod	7:amod	Discourse=organization-heading:42->45:5:grf-ly-_-_|Entity=(4-object-giv:inact-sssss-cf1-4-coref|MSeg=Bas-ic
@@ -354,12 +354,12 @@
 # transition = null
 # text = Makes approx: 20 - 24 cupcakes:
 1	Makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=organization-preparation:43->44:0:grf-col-175-_|MSeg=Make-s|PDTB=NoRel:NoRel:_:_:165-172:173-180
-2	approx	approx	ADV	RB	Degree=Pos	4	advmod	4:advmod	Bridge=4<32|Entity=(32-object-acc:inf-nnnnn-cf1-6-sgl|SpaceAfter=No
+2	approx	approx	ADV	RB	Degree=Pos	4	advmod	4:advmod	Entity=(32-object-auto-nnnnn-cf1-6-sgl|SpaceAfter=No
 3	:	:	PUNCT	:	_	2	punct	2:punct	_
 4	20	20	NUM	CD	NumForm=Digit|NumType=Card	7	nummod	7:nummod	Discourse=context-background:44->45:4:_
 5	-	-	SYM	SYM	ExtPos=ADP	6	case	6:case	_
 6	24	24	NUM	CD	NumForm=Digit|NumType=Card	4	nmod	4:nmod:to	_
-7	cupcakes	cupcake	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=32)|MSeg=cupcake-s|SpaceAfter=No
+7	cupcakes	cupcake	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=32)|MSeg=cup-cake-s|SpaceAfter=No
 8	:	:	PUNCT	:	_	1	punct	1:punct	_
 
 # newpar
@@ -398,7 +398,7 @@
 4	3/4	3/4	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	5:nummod	Entity=(34-substance-giv:act-snnnn-cf1-2-coref
 5	cup	cup	NOUN	NN	Number=Sing	2	appos	2:appos	Entity=34)|SpaceAfter=No
 6	)	)	PUNCT	-RRB-	_	5	punct	5:punct	_
-7	quality	quality	NOUN	NN	Number=Sing	8	compound	8:compound	Discourse=same-unit_m:51->49:1:_
+7	quality	quality	NOUN	NN	Number=Sing	8	compound	8:compound	Discourse=same-unit_m:51->49:1:_|MSeg=quali-ty
 8	cocoa	cocoa	NOUN	NN	Number=Sing	9	compound	9:compound	_
 9	powder	powder	NOUN	NN	Number=Sing	0	root	0:root	_
 10	(	(	PUNCT	-LRB-	_	11	punct	11:punct	Discourse=elaboration-attribute:52->49:2:syn-mdf-204-_+grf-prn-205,207-_+syn-nmn-206-_|SpaceAfter=No
@@ -436,7 +436,7 @@
 # s_type = frag
 # transition = null
 # text = Pinch of salt
-1	Pinch	Pinch	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-list_m:55->45:3:grf-seq-_-_|Entity=(37-substance-new-nnnnn-cf1-1-coref
+1	Pinch	pinch	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-list_m:55->45:3:grf-seq-_-_|Entity=(37-substance-new-nnnnn-cf1-1-coref
 2	of	of	ADP	IN	_	3	case	3:case	_
 3	salt	salt	NOUN	NN	Number=Sing	1	nmod	1:nmod:of	Entity=37)
 
@@ -557,8 +557,8 @@
 # s_type = imp
 # transition = null
 # text = Preheat the oven to 180oC/350oF.
-1	Preheat	preheat	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:70->19:7:_|MSeg=Pre-heat|XML=<hi rend:::"bold">
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(46-object-acc:com-snnnn-cf2-2-coref
+1	Preheat	preheat	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:70->19:7:sem-mrnym-163,282-283-_|MSeg=Pre-heat|XML=<hi rend:::"bold">
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=7<46:entity-associative|Entity=(46-object-acc:inf-snnnn-cf2-2-coref
 3	oven	oven	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=46)
 4	to	to	ADP	IN	_	6	case	6:case	_
 5	180	180	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	6:nummod	Entity=(47-abstract-new-nnnnn-cf1-2-coref|SpaceAfter=No|XML=<w>
@@ -575,8 +575,8 @@
 # s_type = imp
 # transition = null
 # text = Prepare the muffin tray by adding cupcake holders/cases.
-1	Prepare	prepare	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:72->70:1:_
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(48-object-acc:com-nnnnn-cf1-3-coref
+1	Prepare	prepare	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:72->70:1:_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=7<48:entity-associative|Entity=(48-object-acc:inf-nnnnn-cf1-3-coref
 3	muffin	muffin	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(49-object-new-nnnnn-cf3-1-coref)|MSeg=muff-in
 4	tray	tray	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=48)
 5	by	by	SCONJ	IN	_	6	mark	6:mark	Discourse=mode-means:73->72:0:dm-by-297-gold+syn-pres-298-_|PDTB=Explicit:Contingency.Purpose.Arg1-as-goal:by:297:293-296:298-303;Explicit:Expansion.Manner.Arg2-as-manner:by:297:293-296:298-303
@@ -592,7 +592,7 @@
 # s_type = imp
 # transition = null
 # text = Put to one side.
-1	Put	put	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:74->72:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:293-303:304-308
+1	Put	put	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:74->72:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:293-303:304-308
 2	to	to	ADP	IN	_	4	case	4:case	_
 3	one	one	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	Entity=(52-place-new-nnnnn-cf1-2-sgl
 4	side	side	NOUN	NN	Number=Sing	1	obl	1:obl:to	Entity=52)|SpaceAfter=No
@@ -607,7 +607,7 @@
 # text = Alternatively, use a silicone cupcake baking sheet with molded holes.
 1	Alternatively	alternatively	ADV	RB	Degree=Pos	3	advmod	3:advmod	Discourse=joint-disjunction_m:75->72:2:grf-seq-_-_+dm-alternatively-309-gold|MSeg=Alternat-ive-ly|PDTB=Explicit:Expansion.Disjunction:alternatively:309:304-308:310-320|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	use	use	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+3	use	use	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(53-object-new-nnnnn-cf1-5-sgl
 5	silicone	silicone	NOUN	NN	Number=Sing	8	compound	8:compound	MSeg=silic-one
 6	cupcake	cupcake	NOUN	NN	Number=Sing	8	compound	8:compound	Entity=(54-object-new-nnnnn-cf3-1-sgl)|MSeg=cup-cake
@@ -625,7 +625,7 @@
 # s_type = imp
 # transition = null
 # text = Put the cider vinegar into a small bowl and add the soy milk.
-1	Put	put	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:76->70:1:grf-seq-_-_|XML=<hi rend:::"bold">
+1	Put	put	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:76->70:1:grf-seq-_-_|XML=<hi rend:::"bold">
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(18-substance-giv:inact-nnnnn-cf1-3-coref
 3	cider	cider	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(19-substance-giv:inact-snnnn-cf3-1-coref)
 4	vinegar	vinegar	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=18)
@@ -634,7 +634,7 @@
 7	small	small	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	bowl	bowl	NOUN	NN	Number=Sing	1	obl	1:obl:into	Entity=56)
 9	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=joint-sequence_m:77->70:1:dm-and-329-gold|PDTB=Explicit:Expansion.Conjunction:and:329:321-328:330-334;Implicit:Temporal.Asynchronous.Precedence:then:_:321-328:329-334
-10	add	add	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
+10	add	add	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(21-substance-giv:inact-ssnnn-cf2-3-coref
 12	soy	soy	NOUN	NN	Number=Sing	13	compound	13:compound	Entity=(22-plant-giv:inact-ssnnn-cf4-1-coref)
 13	milk	milk	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=21)|SpaceAfter=No
@@ -645,12 +645,12 @@
 # s_type = imp
 # transition = null
 # text = Stir this well and then put to one side.
-1	Stir	stir	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:78->70:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:321-334:335-344
+1	Stir	stir	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:78->70:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:321-334:335-344
 2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	obj	1:obj	Entity=(57-substance-acc:aggr-nnnnn-cf1-1-coref)|SplitAnte=18<57,21<57
 3	well	well	ADV	RB	Degree=Pos	1	advmod	1:advmod	_
 4	and	and	CCONJ	CC	_	6	cc	6:cc	Discourse=joint-sequence_m:79->70:1:dm-and-338-gold+dm-then-339-gold|PDTB=Explicit:Expansion.Conjunction:and:338:335-337:339-344
 5	then	then	ADV	RB	PronType=Dem	6	advmod	6:advmod	PDTB=Explicit:Temporal.Asynchronous.Precedence:then:339:335-337:338,340-344
-6	put	put	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
+6	put	put	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
 7	to	to	ADP	IN	_	9	case	9:case	_
 8	one	one	NUM	CD	NumForm=Word|NumType=Card	9	nummod	9:nummod	Entity=(58-place-new-nnnnn-cf2-2-sgl
 9	side	side	NOUN	NN	Number=Sing	6	obl	6:obl:to	Entity=58)|SpaceAfter=No
@@ -682,7 +682,7 @@
 # s_type = imp
 # transition = zero
 # text = Stir together the flour, sugar, baking powder, baking soda and salt.
-1	Stir	stir	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:82->70:1:grf-seq-_-_|Entity=(60-event-new-nnnnn-cf7-1-disc|XML=<hi rend:::"bold">
+1	Stir	stir	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:82->70:1:grf-seq-_-_|Entity=(60-event-new-nnnnn-cf7-1-disc|XML=<hi rend:::"bold">
 2	together	together	ADP	RP	_	1	compound:prt	1:compound:prt	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(61-substance-new-nnnnn-cf6-2,4,7,10,12-coref(23-substance-giv:inact-nnnnn-cf1-2-coref
 4	flour	flour	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=23)|SpaceAfter=No
@@ -707,9 +707,9 @@
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(7-person-giv:inact-nnnnn-cf3-1-ana)
 3	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	advcl	7:advcl:if	CxnElt=7:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 4	chocolate	chocolate	NOUN	NN	Number=Sing	5	compound	5:compound	_
-5	cupcakes	cupcake	NOUN	NNS	Number=Plur	3	obj	3:obj	MSeg=cupcake-s|SpaceAfter=No
+5	cupcakes	cupcake	NOUN	NNS	Number=Plur	3	obj	3:obj	MSeg=cup-cake-s|SpaceAfter=No
 6	,	,	PUNCT	,	_	3	punct	3:punct	_
-7	add	add	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=7:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=joint-sequence_m:84->70:1:_
+7	add	add	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=7:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=joint-sequence_m:84->70:1:_
 8	cocoa	cocoa	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=(34-substance-giv:inact-snnnn-cf2-1-coref)
 9	(	(	PUNCT	-LRB-	_	12	punct	12:punct	Discourse=elaboration-additional:85->84:0:sem-synym-380,382-384-_+grf-prn-381,385-_|SpaceAfter=No
 10	about	about	ADV	RB	_	11	advmod	11:advmod	Entity=(34-substance-giv:act-snnnn-cf2-3-appos
@@ -728,7 +728,7 @@
 # s_type = imp
 # transition = zero
 # text = Stir the oil and vanilla extract into the bowl containing the soy milk and vinegar.
-1	Stir	stir	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:87->70:1:grf-seq-_-_|XML=<hi rend:::"bold">
+1	Stir	stir	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:87->70:1:grf-seq-_-_|XML=<hi rend:::"bold">
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(28-substance-giv:inact-ssnnn-cf1-2-coref
 3	oil	oil	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=28)
 4	and	and	CCONJ	CC	_	6	cc	6:cc	_
@@ -750,7 +750,7 @@
 # s_type = imp
 # transition = null
 # text = Mix together.
-1	Mix	mix	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:89->70:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:390-405:406-408
+1	Mix	mix	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:89->70:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:390-405:406-408
 2	together	together	ADV	RB	Degree=Pos	1	advmod	1:advmod	SpaceAfter=No
 3	.	.	PUNCT	.	_	1	punct	1:punct	_
 
@@ -761,7 +761,7 @@
 # s_type = imp
 # transition = null
 # text = Add the wet ingredients to the dry ingredients and beat together (by hand or with an electric hand-held mixer).
-1	Add	add	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:90->70:1:grf-seq-_-_|XML=<hi rend:::"bold">
+1	Add	add	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:90->70:1:grf-seq-_-_|XML=<hi rend:::"bold">
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(62-substance-acc:aggr-nnnnn-cf2-3-sgl|SplitAnte=28<62,29<62,57<62
 3	wet	wet	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	ingredients	ingredient	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=62)|MSeg=ingredient-s
@@ -770,7 +770,7 @@
 7	dry	dry	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	ingredients	ingredient	NOUN	NNS	Number=Plur	1	obl	1:obl:to	Entity=61)|MSeg=ingredient-s
 9	and	and	CCONJ	CC	_	10	cc	10:cc	_
-10	beat	beat	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
+10	beat	beat	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
 11	together	together	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
 12	(	(	PUNCT	-LRB-	_	14	punct	14:punct	Discourse=mode-means:91->90:0:_|SpaceAfter=No
 13	by	by	ADP	IN	_	14	case	14:case	_
@@ -778,7 +778,7 @@
 15	or	or	CCONJ	CC	_	22	cc	22:cc	_
 16	with	with	ADP	IN	_	22	case	22:case	_
 17	an	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(64-object-new-nnnnn-cf4-6-sgl
-18	electric	electric	ADJ	JJ	Degree=Pos	22	amod	22:amod	_
+18	electric	electric	ADJ	JJ	Degree=Pos	22	amod	22:amod	MSeg=electr-ic
 19	hand	hand	NOUN	NN	Number=Sing	21	compound	21:compound	SpaceAfter=No|XML=<w>
 20	-	-	PUNCT	HYPH	_	19	punct	19:punct	SpaceAfter=No
 21	held	hold	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	amod	22:amod	XML=</w>
@@ -793,7 +793,7 @@
 # s_type = imp
 # transition = null
 # text = Fill the muffin pan.
-1	Fill	fill	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:92->70:1:grf-seq-_-_|XML=<hi rend:::"bold">
+1	Fill	fill	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:92->70:1:grf-seq-_-_|XML=<hi rend:::"bold">
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(48-object-giv:inact-nnnnn-cf1-3-coref
 3	muffin	muffin	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(49-object-giv:inact-nnnnn-cf2-1-coref)|MSeg=muff-in
 4	pan	pan	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=48)|SpaceAfter=No
@@ -805,7 +805,7 @@
 # transition = null
 # text = Usually fill each paper cupcake holder with about 1/4 cup of batter.
 1	Usually	usually	ADV	RB	Degree=Pos	2	advmod	2:advmod	Discourse=elaboration-additional:93->92:0:_|MSeg=Usual-ly|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:433-437:438-450
-2	fill	fill	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+2	fill	fill	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
 3	each	each	DET	DT	PronType=Ind	6	det	6:det	Entity=(50-object-giv:inact-nnnnn-cf1-4-coref
 4	paper	paper	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=(65-substance-new-nnnnn-cf4-1-sgl)
 5	cupcake	cupcake	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=(51-object-giv:inact-nssnn-cf2-1-coref)|MSeg=cup-cake
@@ -827,16 +827,16 @@
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(7-person-giv:inact-nnnnn-cf3-1-ana)
 3	prefer	prefer	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	8:advcl:if	CxnElt=8:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 4	larger	large	ADJ	JJR	Degree=Cmp	5	amod	5:amod	Entity=(67-object-new-nnnnn-cf7-2-sgl|MSeg=larg-er
-5	cupcakes	cupcake	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=67)|MSeg=cupcake-s|SpaceAfter=No
+5	cupcakes	cupcake	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=67)|MSeg=cup-cake-s|SpaceAfter=No
 6	,	,	PUNCT	,	_	3	punct	3:punct	_
 7	then	then	ADV	RB	PronType=Dem	8	advmod	8:advmod	Discourse=joint-sequence_m:95->93:0:_
-8	add	add	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=8:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
-9	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Bridge=66<68|Entity=(68-substance-acc:inf-nnnnn-cf6-4-sgl
+8	add	add	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=8:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
+9	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Bridge=66<68:comparison-sense|Entity=(68-substance-acc:inf-nnnnn-cf6-4-sgl
 10	half	half	DET	PDT	NumForm=Word|NumType=Frac|PronType=Ind	12	det:predet	12:det:predet	_
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	_
 12	cup	cup	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=68)
 13	but	but	CCONJ	CC	_	14	cc	14:cc	Discourse=attribution-positive:96->97:0:sem-atsrc-452,464-gold+lex-indwd-464-_+lex-indwd-465-_|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:but:463:457-462:464-477
-14	make	make	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	8	conj	8:conj:but	_
+14	make	make	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	8	conj	8:conj:but	_
 15	sure	sure	ADJ	JJ	Degree=Pos	14	xcomp	14:xcomp	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Discourse=adversative-concession:97->95:0:dm-but-463-gold|Entity=(48-object-giv:inact-nnnnn-cf4-3-coref
 17	muffin	muffin	NOUN	NN	Number=Sing	18	compound	18:compound	Entity=(49-object-giv:inact-nnnnn-cf5-1-coref)|MSeg=muff-in
@@ -858,9 +858,9 @@
 # s_type = imp
 # transition = zero
 # text = Bake for 18 - 20 minutes.
-1	Bake	bake	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:98->70:1:grf-seq-_-_|XML=<hi rend:::"bold">
+1	Bake	bake	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:98->70:1:grf-seq-_-_|XML=<hi rend:::"bold">
 2	for	for	ADP	IN	_	6	case	6:case	_
-3	18	18	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	6:nummod	Entity=(69-time-new-snnnn-cf1-4-sgl
+3	18	18	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	6:nummod	Entity=(69-time-new-snnnn-cf1-4-coref
 4	-	-	SYM	SYM	ExtPos=ADP	5	case	5:case	_
 5	20	20	NUM	CD	NumForm=Digit|NumType=Card	3	nmod	3:nmod:to	_
 6	minutes	minute	NOUN	NNS	Number=Plur	1	obl	1:obl:for	Entity=69)|MSeg=minute-s|SpaceAfter=No
@@ -876,10 +876,10 @@
 3	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 4	smell	smell	VERB	VB	VerbForm=Inf	9	advcl	9:advcl:if	CxnElt=9:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(3-object-giv:inact-nsnss-cf1-2-coref
-6	cupcakes	cupcake	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=3)|MSeg=cupcake-s
+6	cupcakes	cupcake	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=3)|MSeg=cup-cake-s
 7	earlier	early	ADV	RBR	Degree=Cmp	4	advmod	4:advmod	MSeg=earli-er|SpaceAfter=No
 8	,	,	PUNCT	,	_	4	punct	4:punct	_
-9	check	check	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=9:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=joint-sequence_m:100->70:1:_
+9	check	check	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=9:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=joint-sequence_m:100->70:1:_
 10	to	to	PART	TO	_	11	mark	11:mark	Discourse=attribution-positive:101->102:0:sem-atsrc-486-gold+lex-indwd-495-_+lex-indwd-496-_
 11	make	make	VERB	VB	VerbForm=Inf	9	advcl	9:advcl:to	_
 12	sure	sure	ADJ	JJ	Degree=Pos	11	xcomp	11:xcomp	_
@@ -913,23 +913,23 @@
 4	n't	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	Negation=Yes
 5	certain	certain	ADJ	JJ	Degree=Pos	7	advcl	7:advcl:if	CxnElt=7:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	5:punct	_
-7	turn	turn	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=7:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=elaboration-additional:105->100:3:ref-prs-486,513-_+ref-prs-489-490,525-_
+7	turn	turn	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=7:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=elaboration-additional:105->100:3:ref-prs-486,513-_+ref-prs-489-490,525-_
 8	off	off	ADP	RP	_	7	compound:prt	7:compound:prt	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(46-object-giv:inact-snnnn-cf3-2-coref
 10	oven	oven	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=46)
 11	earlier	early	ADV	RBR	Degree=Cmp	7	advmod	7:advmod	MSeg=earli-er
 12	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=joint-sequence_m:106->105:0:dm-and-523-gold|PDTB=Explicit:Expansion.Conjunction:and:523:518-522:524-531;Implicit:Temporal.Asynchronous.Precedence:then:_:518-522:523-531
-13	let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	7	conj	7:conj:and	_
+13	let	let	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	7	conj	7:conj:and	_
 14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obj	13:obj|15:nsubj:xsubj	Entity=(3-object-giv:act-nsnss-cf2-1-ana)
 15	sit	sit	VERB	VB	VerbForm=Inf	13	xcomp	13:xcomp	_
 16	for	for	ADP	IN	_	20	case	20:case	_
-17	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(71-time-new-nnnnn-cf4-4-sgl
+17	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Bridge=69<71:comparison-relative;comparison-time|Entity=(71-time-acc:inf-nnnnn-cf4-4-sgl
 18	few	few	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
 19	more	more	ADJ	JJR	Degree=Cmp	20	amod	20:amod	_
 20	minutes	minute	NOUN	NNS	Number=Plur	15	obl	15:obl:for	Entity=71)|MSeg=minute-s
 21	rather	rather	ADV	RB	ExtPos=CCONJ	23	cc	23:cc	Discourse=adversative-antithesis:107->105:1:dm-rather than-532-533-gold|MSeg=rath-er|PDTB=Explicit:Expansion.Substitution.Arg2-as-subst:rather than:532-533:518-531:534-538
 22	than	than	ADP	IN	_	21	fixed	21:fixed	_
-23	bake	bake	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	13	conj	7:conj|13:conj:rather_than	_
+23	bake	bake	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	13	conj	7:conj|13:conj:rather_than	_
 24	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	23	obj	23:obj	Entity=(3-object-giv:act-nsnss-cf2-1-ana)
 25	into	into	ADP	IN	_	26	case	26:case	MSeg=in-to
 26	rocks	rock	NOUN	NNS	Number=Plur	23	obl	23:obl:into	Entity=(72-object-new-nnnnn-cf5-1-sgl)|MSeg=rock-s|SpaceAfter=No
@@ -942,7 +942,7 @@
 # s_type = imp
 # transition = zero
 # text = Wait for the pan to cool down.
-1	Wait	wait	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:108->70:1:grf-seq-_-_|XML=<hi rend:::"bold">
+1	Wait	wait	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:108->70:1:grf-seq-_-_|XML=<hi rend:::"bold">
 2	for	for	SCONJ	IN	_	6	mark	6:mark	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(48-object-giv:inact-nnnnn-cf1-2-coref
 4	pan	pan	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=48)
@@ -956,8 +956,8 @@
 # s_type = imp
 # transition = null
 # text = Place cupcakes onto a wire rack to cool.
-1	Place	place	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:109->70:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:539-546:547-555
-2	cupcakes	cupcake	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=(3-object-giv:inact-nsnss-cf1-1-coref)|MSeg=cupcake-s
+1	Place	place	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:109->70:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:539-546:547-555
+2	cupcakes	cupcake	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=(3-object-giv:inact-nsnss-cf1-1-coref)|MSeg=cup-cake-s
 3	onto	onto	ADP	IN	_	6	case	6:case	MSeg=on-to
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(73-object-acc:com-nnnnn-cf2-3-sgl
 5	wire	wire	NOUN	NN	Number=Sing	6	compound	6:compound	_
@@ -973,9 +973,9 @@
 # s_type = imp
 # transition = establishment
 # text = Ice the cupcakes.
-1	Ice	ice	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:111->70:1:grf-seq-_-_|XML=<hi rend:::"bold">
+1	Ice	ice	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:111->70:1:grf-seq-_-_|XML=<hi rend:::"bold">
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(3-object-giv:act-nsnss-cf1*-2-coref
-3	cupcakes	cupcake	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=3)|MSeg=cupcake-s|SpaceAfter=No
+3	cupcakes	cupcake	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=3)|MSeg=cup-cake-s|SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
 # sent_id = GUM_whow_cupcakes-55
@@ -1044,7 +1044,7 @@
 # s_type = imp
 # transition = null
 # text = Preheat the oven to 160oC/315oF.
-1	Preheat	preheat	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:117->19:7:_|MSeg=Pre-heat|XML=<hi rend:::"bold">
+1	Preheat	preheat	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:117->19:7:_|MSeg=Pre-heat|XML=<hi rend:::"bold">
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(46-object-giv:inact-snnnn-cf2-2-coref
 3	oven	oven	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=46)
 4	to	to	ADP	IN	_	6	case	6:case	_
@@ -1067,7 +1067,7 @@
 3	cupcake	cupcake	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(50-object-giv:inact-nnnnn-cf1-2-coref(51-object-giv:inact-nssnn-cf3-1-coref)|MSeg=cup-cake
 4	cases	case	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=50)|MSeg=case-s|SpaceAfter=No
 5	,	,	PUNCT	,	_	2	punct	2:punct	_
-6	arrange	arrange	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=6:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis,6:Conditional-UnspecifiedEpistemic-Reduced.Apodosis|Discourse=joint-sequence_m:120->117:1:lex-indwd-619-_
+6	arrange	arrange	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=6:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis,6:Conditional-UnspecifiedEpistemic-Reduced.Apodosis|Discourse=joint-sequence_m:120->117:1:lex-indwd-619-_
 7	on	on	ADP	IN	_	10	case	10:case	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(48-object-giv:inact-nnnnn-cf2-3-coref
 9	baking	bake	VERB	VBG	VerbForm=Ger	10	amod	10:amod	MSeg=bak-ing
@@ -1088,7 +1088,7 @@
 6	sheet	sheet	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=81)|SpaceAfter=No
 7	,	,	PUNCT	,	_	2	punct	2:punct	_
 8	simply	simply	ADV	RB	Degree=Pos	9	advmod	9:advmod	Discourse=joint-list_m:122->120:1:_|MSeg=simp-ly
-9	have	have	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=9:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis,9:Conditional-UnspecifiedEpistemic-Reduced.Apodosis
+9	have	have	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=9:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis,9:Conditional-UnspecifiedEpistemic-Reduced.Apodosis
 10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	9:obj|11:nsubj:xsubj	Entity=(81-object-giv:act-nnnnn-cf1-1-ana)
 11	ready	ready	ADJ	JJ	Degree=Pos	9	xcomp	9:xcomp	SpaceAfter=No
 12	.	.	PUNCT	.	_	9	punct	9:punct	_
@@ -1100,7 +1100,7 @@
 # s_type = imp
 # transition = zero
 # text = Add the flour, cocoa powder, baking soda and pinch of salt to the mixing bowl.
-1	Add	add	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:123->117:1:grf-seq-_-_|XML=<hi rend:::"bold">
+1	Add	add	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:123->117:1:grf-seq-_-_|XML=<hi rend:::"bold">
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(83-substance-new-nnnnn-cf5-2,5,8,10-coref
 3	flour	flour	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=(33-substance-giv:inact-nnnnn-cf1-1-coref)|SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	6:punct	_
@@ -1114,7 +1114,7 @@
 12	of	of	ADP	IN	_	13	case	13:case	_
 13	salt	salt	NOUN	NN	Number=Sing	11	nmod	11:nmod:of	Entity=37)83)
 14	to	to	ADP	IN	_	17	case	17:case	_
-15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(85-object-acc:com-nnnnn-cf4-3-sgl
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Bridge=7<85:entity-associative|Entity=(85-object-acc:inf-nnnnn-cf4-3-coref
 16	mixing	mix	VERB	VBG	VerbForm=Ger	17	amod	17:amod	MSeg=mix-ing
 17	bowl	bowl	NOUN	NN	Number=Sing	1	obl	1:obl:to	Entity=85)|SpaceAfter=No
 18	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
@@ -1124,7 +1124,7 @@
 # s_type = imp
 # transition = null
 # text = Mix to combine.
-1	Mix	mix	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:124->117:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:633-650:651-654
+1	Mix	mix	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:124->117:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:633-650:651-654
 2	to	to	PART	TO	_	3	mark	3:mark	Discourse=purpose-goal:125->124:0:syn-inf-652-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:651:652-654
 3	combine	combine	VERB	VB	VerbForm=Inf	1	advcl	1:advcl:to	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
@@ -1136,8 +1136,8 @@
 # s_type = imp
 # transition = null
 # text = Pour the soy milk, vinegar, sugar, oil and vanilla into another bowl.
-1	Pour	pour	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:126->117:1:grf-seq-_-_|XML=<hi rend:::"bold">
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(86-substance-new-nnnnn-cf7-3,5,7,9,11-coref(38-substance-giv:inact-ssnnn-cf1-3-coref
+1	Pour	pour	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:126->117:1:grf-seq-_-_|XML=<hi rend:::"bold">
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(86-substance-new-nnnnn-cf8-3,5,7,9,11-coref(38-substance-giv:inact-ssnnn-cf1-3-coref
 3	soy	soy	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(22-plant-giv:inact-ssnnn-cf6-1-coref)
 4	milk	milk	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=38)|SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
@@ -1149,7 +1149,7 @@
 11	and	and	CCONJ	CC	_	12	cc	12:cc	_
 12	vanilla	vanilla	NOUN	NN	Number=Sing	4	conj	1:obj|4:conj:and	Entity=(45-substance-giv:inact-nnnnn-cf5-1-coref)86)
 13	into	into	ADP	IN	_	15	case	15:case	MSeg=in-to
-14	another	another	DET	DT	PronType=Ind	15	det	15:det	Entity=(87-object-new-nnnnn-cf8-2-sgl|MSeg=an-other
+14	another	another	DET	DT	PronType=Ind	15	det	15:det	Bridge=85<87:comparison-relative|Entity=(87-object-acc:inf-nnnnn-cf7-2-sgl|MSeg=an-other
 15	bowl	bowl	NOUN	NN	Number=Sing	1	obl	1:obl:into	Entity=87)|SpaceAfter=No
 16	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
@@ -1158,7 +1158,7 @@
 # s_type = imp
 # transition = null
 # text = Whisk together well.
-1	Whisk	whisk	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:127->117:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:655-670:671-674
+1	Whisk	whisk	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:127->117:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:655-670:671-674
 2	together	together	ADV	RB	Degree=Pos	1	advmod	1:advmod	_
 3	well	well	ADV	RB	Degree=Pos	1	advmod	1:advmod	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
@@ -1170,7 +1170,7 @@
 # s_type = imp
 # transition = null
 # text = Pour the liquid mixture into the flour mixture.
-1	Pour	pour	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:128->117:1:grf-seq-_-_|XML=<hi rend:::"bold">
+1	Pour	pour	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:128->117:1:grf-seq-_-_|XML=<hi rend:::"bold">
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(86-substance-giv:inact-nnnnn-cf1-3-coref
 3	liquid	liquid	ADJ	JJ	Degree=Pos	4	amod	4:amod	MSeg=liqu-id
 4	mixture	mixture	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=86)|MSeg=mix-ture
@@ -1185,7 +1185,7 @@
 # s_type = imp
 # transition = null
 # text = Stir to combine thoroughly.
-1	Stir	stir	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:129->117:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:675-683:684-688
+1	Stir	stir	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:129->117:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:675-683:684-688
 2	to	to	PART	TO	_	3	mark	3:mark	Discourse=purpose-goal:130->129:0:syn-inf-685-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:684:685-688
 3	combine	combine	VERB	VB	VerbForm=Inf	1	advcl	1:advcl:to	_
 4	thoroughly	thoroughly	ADV	RB	Degree=Pos	3	advmod	3:advmod	MSeg=thorough-ly|SpaceAfter=No
@@ -1198,7 +1198,7 @@
 # s_type = imp
 # transition = null
 # text = Pour into the cupcake cases or cupcake holes.
-1	Pour	pour	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:131->117:1:grf-seq-_-_|XML=<hi rend:::"bold">
+1	Pour	pour	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:131->117:1:grf-seq-_-_|XML=<hi rend:::"bold">
 2	into	into	ADP	IN	_	5	case	5:case	MSeg=in-to
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(50-object-giv:inact-nnnnn-cf2-3,6-coref
 4	cupcake	cupcake	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(51-object-giv:inact-nssnn-cf1-1-coref)|MSeg=cup-cake
@@ -1215,7 +1215,7 @@
 # s_type = imp
 # transition = null
 # text = Place into the oven.
-1	Place	place	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:132->117:1:grf-seq-_-_|XML=<hi rend:::"bold">
+1	Place	place	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:132->117:1:grf-seq-_-_|XML=<hi rend:::"bold">
 2	into	into	ADP	IN	_	4	case	4:case	MSeg=in-to
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(46-object-giv:inact-snnnn-cf1-2-coref
 4	oven	oven	NOUN	NN	Number=Sing	1	obl	1:obl:into	Entity=46)|SpaceAfter=No
@@ -1226,7 +1226,7 @@
 # s_type = imp
 # transition = null
 # text = Bake for 20 to 25 minutes.
-1	Bake	bake	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:133->117:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:698-702:703-709
+1	Bake	bake	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:133->117:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:698-702:703-709
 2	for	for	ADP	IN	_	6	case	6:case	_
 3	20	20	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	6:nummod	Entity=(88-time-new-snnnn-cf1-4-sgl
 4	to	to	ADP	IN	_	5	case	5:case	_
@@ -1245,7 +1245,7 @@
 4	strongly	strongly	ADV	RB	Degree=Pos	3	advmod	3:advmod	MSeg=strong-ly
 5	earlier	early	ADV	RBR	Degree=Cmp	3	advmod	3:advmod	MSeg=earli-er|SpaceAfter=No
 6	,	,	PUNCT	,	_	3	punct	3:punct	_
-7	test	test	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=7:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=joint-sequence_m:135->117:1:grf-semcol-721-_
+7	test	test	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=7:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=joint-sequence_m:135->117:1:grf-semcol-721-_
 8	with	with	ADP	IN	_	11	case	11:case	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(89-object-new-nnnnn-cf1-3-coref
 10	wooden	wooden	ADJ	JJ	Degree=Pos	11	amod	11:amod	MSeg=wood-en
@@ -1258,7 +1258,7 @@
 17	after	after	SCONJ	IN	_	18	mark	18:mark	Discourse=context-circumstance:137->136:0:dm-after-726-gold+syn-pres-727-_|PDTB=Explicit:Temporal.Asynchronous.Succession:after:726:722-725:727-731
 18	sticking	stick	VERB	VBG	Tense=Pres|VerbForm=Part	15	advcl	15:advcl:after	MSeg=stick-ing
 19	into	into	ADP	IN	_	21	case	21:case	MSeg=in-to
-20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	Entity=(90-object-new-nnnnn-cf3-2-sgl
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	Bridge=4<90:set-member|Entity=(90-object-acc:inf-nnnnn-cf3-2-sgl
 21	cupcake	cupcake	NOUN	NN	Number=Sing	18	obl	18:obl:into	Entity=90)|MSeg=cup-cake|SpaceAfter=No
 22	,	,	PUNCT	,	_	15	punct	15:punct	_
 23-24	they're	_	_	_	_	_	_	_	_
@@ -1274,7 +1274,7 @@
 # s_type = imp
 # transition = null
 # text = Remove from the oven.
-1	Remove	remove	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:139->117:1:grf-seq-_-_|MSeg=Re-move|XML=<hi rend:::"bold">
+1	Remove	remove	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:139->117:1:grf-seq-_-_|MSeg=Re-move|XML=<hi rend:::"bold">
 2	from	from	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(46-object-giv:inact-snnnn-cf1-2-coref
 4	oven	oven	NOUN	NN	Number=Sing	1	obl	1:obl:from	Entity=46)|SpaceAfter=No
@@ -1285,9 +1285,9 @@
 # s_type = imp
 # transition = null
 # text = Transfer the cupcakes to a wire cooling rack as quickly as possible when cool enough to handle.
-1	Transfer	transfer	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:140->117:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:736-740:741-758
+1	Transfer	transfer	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:140->117:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:736-740:741-758
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(4-object-giv:inact-sssss-cf1-2-coref
-3	cupcakes	cupcake	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=4)|MSeg=cupcake-s
+3	cupcakes	cupcake	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=4)|MSeg=cup-cake-s
 4	to	to	ADP	IN	_	8	case	8:case	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(91-object-new-nnnnn-cf2-4-coref
 6	wire	wire	NOUN	NN	Number=Sing	8	compound	8:compound	_
@@ -1309,7 +1309,7 @@
 # s_type = imp
 # transition = establishment
 # text = Let cool completely on the rack.
-1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:143->117:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:741-758:759-765
+1	Let	let	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:143->117:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:741-758:759-765
 2	cool	cool	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
 3	completely	completely	ADV	RB	Degree=Pos	2	advmod	2:advmod	MSeg=complete-ly
 4	on	on	ADP	IN	_	6	case	6:case	_
@@ -1324,7 +1324,7 @@
 # s_type = imp
 # transition = zero
 # text = Frost as desired.
-1	Frost	frost	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:144->117:1:grf-seq-_-_|XML=<hi rend:::"bold">
+1	Frost	frost	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:144->117:1:grf-seq-_-_|XML=<hi rend:::"bold">
 2	as	as	SCONJ	IN	_	3	mark	3:mark	_
 3	desired	desire	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	advcl	1:advcl:as	MSeg=desir-ed|SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
@@ -1334,11 +1334,11 @@
 # s_type = imp
 # transition = zero
 # text = Add standard frosting or make vegan butter cream.
-1	Add	add	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:145->144:0:sem-lxchn-766,772-gold|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:766-769:770-778
+1	Add	add	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:145->144:0:sem-lxchn-766,772-gold|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:766-769:770-778
 2	standard	standard	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(92-substance-new-nnnnn-cf1-2-sgl|MSeg=stand-ard
 3	frosting	frosting	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=92)|MSeg=frost-ing
 4	or	or	CCONJ	CC	_	5	cc	5:cc	Discourse=joint-disjunction_m:146->145:0:dm-or-773-gold|PDTB=Explicit:Expansion.Disjunction:or:773:770-772:774-778
-5	make	make	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:or	_
+5	make	make	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	conj	1:conj:or	_
 6	vegan	vegan	ADJ	JJ	Degree=Pos	7	amod	7:amod	Entity=(93-substance-new-nnnnn-cf2-3-sgl
 7	butter	butter	NOUN	NN	Number=Sing	8	compound	8:compound	MSeg=butt-er
 8	cream	cream	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=93)|SpaceAfter=No
@@ -1351,7 +1351,7 @@
 # s_type = frag
 # transition = null
 # text = Tips
-1	Tips	tip	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:147->148:4:grf-ly-_-_|Entity=(94-abstract-new-nssns-cf1-1-sgl)|MSeg=Tip-s
+1	Tips	tip	NOUN	NNS	Number=Plur	0	root	0:root	Bridge=1<94:entity-associative|Discourse=organization-heading:147->148:4:grf-ly-_-_|Entity=(94-abstract-acc:inf-nssns-cf1-1-sgl)|MSeg=Tip-s
 
 # newpar
 # newpar_block = list type:::"unordered" (10 s) | item (4 s)
@@ -1394,7 +1394,7 @@
 16	children	child	NOUN	NNS	Number=Plur	17	nsubj	17:nsubj	Entity=(100-person-new-nnnnn-cf1-1-coref)|MSeg=child-ren
 17	take	take	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_
 18	to	to	ADP	IN	_	19	case	19:case	_
-19	school	school	NOUN	NN	Number=Sing	17	obl	17:obl:to	Entity=(101-organization-new-nnnnn-cf4-1-sgl)
+19	school	school	NOUN	NN	Number=Sing	17	obl	17:obl:to	Bridge=100<101:entity-associative|Entity=(101-organization-acc:inf-nnnnn-cf4-1-sgl)
 20	in	in	ADP	IN	_	22	case	22:case	_
 21	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	22:nmod:poss	Entity=(100-person-giv:act-nnnnn-cf1-1-ana)
 22	lunchboxes	lunchbox	NOUN	NNS	Number=Plur	17	obl	17:obl:in	Entity=98)|MSeg=lunchboxe-s|SpaceAfter=No
@@ -1406,7 +1406,7 @@
 # s_type = imp
 # transition = zero
 # text = Try strawberry, apple, banana, apricot, peach etc.
-1	Try	try	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:153->148:1:_
+1	Try	try	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:153->148:1:_|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:790-813:814-824
 2	strawberry	strawberry	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=(102-plant-acc:com-nnnnn-cf1-1-sgl)|MSeg=straw-berry|SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
 4	apple	apple	NOUN	NN	Number=Sing	2	conj	1:obj|2:conj	Entity=(103-plant-new-nnnnn-cf2-1-sgl)|SpaceAfter=No
@@ -1423,8 +1423,8 @@
 # s_type = sub
 # transition = null
 # text = The cupcakes will not be as light and fluffy, however, so be prepared for a heavier cupcake if you add fruit but the added moisture content is a definite plus.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:154->148:2:ref-prs-780,845-_+lex-indwd-850-_;adversative-concession:154->148:2:1:orp-however-835-gold|Entity=(4-object-giv:inact-sssss-cf3-2-coref|PDTB=EntRel:EntRel:_:_:814-824:825-857
-2	cupcakes	cupcake	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj|9:nsubj	Entity=4)|MSeg=cupcake-s
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:154->148:2:ref-prs-780,845-_+lex-indwd-850-_;adversative-concession:154->148:2:1:orp-however-835-gold|Entity=(4-object-giv:inact-sssss-cf3-2-coref|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:814-824:825-857
+2	cupcakes	cupcake	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj|9:nsubj	Entity=4)|MSeg=cup-cake-s
 3	will	will	AUX	MD	VerbForm=Fin	7	aux	7:aux	_
 4	not	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	Negation=Yes
 5	be	be	AUX	VB	VerbForm=Inf	7	cop	7:cop	_
@@ -1439,18 +1439,18 @@
 14	be	be	AUX	VB	VerbForm=Inf	15	aux:pass	15:aux:pass	_
 15	prepared	prepare	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	parataxis	7:parataxis	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=15:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|MSeg=prepar-ed
 16	for	for	ADP	IN	_	19	case	19:case	_
-17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(107-object-new-nnnnn-cf5-3-sgl
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Bridge=4<107:set-member|Entity=(107-object-acc:inf-nnnnn-cf4-3-coref
 18	heavier	heavy	ADJ	JJR	Degree=Cmp	19	amod	19:amod	MSeg=heav-i-er
 19	cupcake	cupcake	NOUN	NN	Number=Sing	15	obl	15:obl:for	Entity=107)|MSeg=cup-cake
 20	if	if	SCONJ	IN	_	22	mark	22:mark	Discourse=contingency-condition:156->154:1:dm-if-844-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:844:825-843:845-847
 21	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	22	nsubj	22:nsubj	Entity=(7-person-giv:inact-nnnnn-cf2-1-ana)
 22	add	add	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	advcl	15:advcl:if	CxnElt=15:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
-23	fruit	fruit	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=(108-substance-new-nnnnn-cf4-1-sgl)
-24	but	but	CCONJ	CC	_	32	cc	32:cc	Discourse=adversative-contrast_m:157->154:2:dm-but-848-gold|PDTB=Explicit:Comparison.Contrast:but:848:825-847:849-857
-25	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Entity=(109-abstract-acc:com-nnnnn-cf1-4-coref
+23	fruit	fruit	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=(108-substance-new-nnnnn-cf5-1-sgl)
+24	but	but	CCONJ	CC	_	32	cc	32:cc	Discourse=adversative-contrast_m:157->154:2:sem-mrnym-841-843,849-852-_+dm-but-848-gold|PDTB=Explicit:Comparison.Contrast:but:848:825-847:849-857
+25	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Bridge=107<109:entity-associative|Entity=(109-abstract-acc:inf-nnnnn-cf1-4-coref
 26	added	add	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	28	amod	28:amod	MSeg=add-ed
 27	moisture	moisture	NOUN	NN	Number=Sing	28	compound	28:compound	MSeg=moist-ure
-28	content	content	NOUN	NN	Number=Sing	32	nsubj	32:nsubj	Entity=109)
+28	content	content	NOUN	NN	Number=Sing	32	nsubj	32:nsubj	Entity=109)|MSeg=cont-ent
 29	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	32:cop	_
 30	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	32:det	Entity=(109-abstract-giv:act-nnnnn-cf1-3-pred
 31	definite	definite	ADJ	JJ	Degree=Pos	32	amod	32:amod	MSeg=defin-ite
@@ -1496,7 +1496,7 @@
 4	vegetable	vegetable	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(43-substance-giv:inact-nnnnn-cf2-2-coref
 5	oil	oil	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=43)|SpaceAfter=No
 6	,	,	PUNCT	,	_	3	punct	3:punct	_
-7	try	try	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=7:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=joint-other_m:161->148:3:grf-seq-_-_
+7	try	try	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=7:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=joint-other_m:161->148:3:grf-seq-_-_
 8	substituting	substitute	VERB	VBG	VerbForm=Ger	7	xcomp	7:xcomp	MSeg=substitut-ing
 9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	8:obj	Entity=(43-substance-giv:act-nnnnn-cf2-1-ana)
 10	for	for	ADP	IN	_	15	case	15:case	_
@@ -1531,7 +1531,7 @@
 # s_type = decl
 # transition = null
 # text = And olive oil works fine if it's all that's left in the pantry.
-1	And	and	CCONJ	CC	_	4	cc	4:cc	Discourse=joint-list_m:164->161:1:sem-lxchn-890,907-gold+dm-and-905-gold|PDTB=Explicit:Expansion.Conjunction:and:905:898-904:906-920
+1	And	and	CCONJ	CC	_	4	cc	4:cc	Discourse=joint-list_m:164->161:1:sem-lxchn-890,907-gold+sem-mrnym-896,918-919-_+dm-and-905-gold|PDTB=Explicit:Expansion.Conjunction:and:905:898-904:906-920
 2	olive	olive	NOUN	NN	Number=Sing	3	compound	3:compound	Entity=(119-substance-new-nnnnn-cf1-2-coref
 3	oil	oil	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=119)
 4	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=4:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|MSeg=work-s
@@ -1546,7 +1546,7 @@
 11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	12:aux:pass	_
 12	left	leave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	acl:relcl	9:acl:relcl	_
 13	in	in	ADP	IN	_	15	case	15:case	_
-14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(121-place-acc:com-nnnnn-cf2-2-sgl
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Bridge=7<121:entity-associative|Entity=(121-place-acc:inf-nnnnn-cf2-2-sgl
 15	pantry	pantry	NOUN	NN	Number=Sing	12	obl	12:obl:in	Entity=121)120)|SpaceAfter=No
 16	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -1565,7 +1565,7 @@
 6	soy	soy	NOUN	NN	Number=Sing	7	compound	7:compound	Entity=(22-plant-giv:inact-ssnnn-cf5-1-coref)
 7	milk	milk	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=38)
 8	with	with	ADP	IN	_	10	case	10:case	_
-9	other	other	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(122-abstract-new-nnnnn-cf7-2-sgl
+9	other	other	ADJ	JJ	Degree=Pos	10	amod	10:amod	Bridge=38<122:comparison-relative|Entity=(122-abstract-acc:inf-nnnnn-cf6-2-sgl
 10	flavors	flavor	NOUN	NNS	Number=Plur	3	obl	3:obl:with	MSeg=flavor-s
 11	like	like	ADP	IN	_	12	case	12:case	_
 12	chocolate	chocolate	NOUN	NN	Number=Sing	10	nmod	10:nmod:like	Entity=(5-substance-giv:inact-sssss-cf4-1-coref)
@@ -1578,11 +1578,11 @@
 19	experiment	experiment	VERB	VB	VerbForm=Inf	17	xcomp	17:xcomp	_
 20	with	with	SCONJ	IN	_	21	mark	21:mark	_
 21	changing	change	VERB	VBG	Tense=Pres|VerbForm=Part	19	advcl	19:advcl:with	MSeg=chang-ing
-22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(124-abstract-new-nnnnn-cf6-2-sgl
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(124-abstract-new-nnnnn-cf7-2-sgl
 23	flavor	flavor	NOUN	NN	Number=Sing	21	obj	21:obj	_
 24	of	of	ADP	IN	_	26	case	26:case	_
 25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(1-object-giv:inact-sssss-cf3-2-coref
-26	cupcakes	cupcake	NOUN	NNS	Number=Plur	23	nmod	23:nmod:of	Entity=1)124)|MSeg=cupcake-s|SpaceAfter=No
+26	cupcakes	cupcake	NOUN	NNS	Number=Plur	23	nmod	23:nmod:of	Entity=1)124)|MSeg=cup-cake-s|SpaceAfter=No
 27	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # newpar
@@ -1592,12 +1592,12 @@
 # s_type = imp
 # transition = null
 # text = Experiment with the flavors of either recipe by replacing the vanilla extract with fragrant ingredients like neroli orange oil, rosewater, orange blossom water or coconut extract.
-1	Experiment	experiment	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:168->148:3:grf-seq-_-_
+1	Experiment	experiment	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:168->148:3:grf-seq-_-_
 2	with	with	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(125-abstract-new-nnnnn-cf7-2-sgl
 4	flavors	flavor	NOUN	NNS	Number=Plur	1	obl	1:obl:with	MSeg=flavor-s
 5	of	of	ADP	IN	_	7	case	7:case	_
-6	either	either	CCONJ	CC	_	7	cc:preconj	7:cc:preconj	Entity=(126-abstract-acc:aggr-nnnnn-cf2-2-sgl|SplitAnte=14<126,31<126
+6	either	either	CCONJ	CC	_	7	cc:preconj	7:cc:preconj	Entity=(126-abstract-acc:aggr-nnnnn-cf6-2-sgl|SplitAnte=14<126,31<126
 7	recipe	recipe	NOUN	NN	Number=Sing	4	nmod	4:nmod:of	Entity=126)125)
 8	by	by	SCONJ	IN	_	9	mark	9:mark	Discourse=mode-means:169->168:0:dm-by-955-gold+syn-pres-956-_|PDTB=Explicit:Contingency.Purpose.Arg1-as-goal:by:955:948-954:956-976;Explicit:Expansion.Manner.Arg2-as-manner:by:955:948-954:956-976
 9	replacing	replace	VERB	VBG	Tense=Pres|VerbForm=Part	1	advcl	1:advcl:by	MSeg=re-plac-ing
@@ -1605,20 +1605,20 @@
 11	vanilla	vanilla	NOUN	NN	Number=Sing	12	compound	12:compound	_
 12	extract	extract	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=45)
 13	with	with	ADP	IN	_	15	case	15:case	_
-14	fragrant	fragrant	ADJ	JJ	Degree=Pos	15	amod	15:amod	Entity=(127-substance-new-nnnnn-cf8-2-coref
+14	fragrant	fragrant	ADJ	JJ	Degree=Pos	15	amod	15:amod	Entity=(127-substance-new-nnnnn-cf8-2-sgl
 15	ingredients	ingredient	NOUN	NNS	Number=Plur	9	obl	9:obl:with	MSeg=ingredient-s
 16	like	like	ADP	IN	_	19	case	19:case	_
-17	neroli	neroli	NOUN	NN	Number=Sing	19	compound	19:compound	Bridge=127<128|Entity=(128-substance-acc:inf-nnnnn-cf3-3-sgl
+17	neroli	neroli	NOUN	NN	Number=Sing	19	compound	19:compound	Entity=(128-substance-auto-nnnnn-cf2-3-sgl
 18	orange	orange	NOUN	NN	Number=Sing	19	compound	19:compound	_
 19	oil	oil	NOUN	NN	Number=Sing	15	nmod	15:nmod:like	Entity=128)|SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	21:punct	_
-21	rosewater	rosewater	NOUN	NN	Number=Sing	19	conj	15:nmod:like|19:conj:or	Bridge=127<129|Entity=(129-substance-acc:inf-nnnnn-cf4-1-sgl)|MSeg=rose-water|SpaceAfter=No
+21	rosewater	rosewater	NOUN	NN	Number=Sing	19	conj	15:nmod:like|19:conj:or	Entity=(129-substance-auto-nnnnn-cf3-1-sgl)|MSeg=rose-water|SpaceAfter=No
 22	,	,	PUNCT	,	_	25	punct	25:punct	_
-23	orange	orange	NOUN	NN	Number=Sing	24	compound	24:compound	Bridge=127<130|Entity=(130-substance-acc:inf-nnnnn-cf5-3-sgl
+23	orange	orange	NOUN	NN	Number=Sing	24	compound	24:compound	Entity=(130-substance-auto-nnnnn-cf4-3-sgl
 24	blossom	blossom	NOUN	NN	Number=Sing	25	compound	25:compound	_
 25	water	water	NOUN	NN	Number=Sing	19	conj	15:nmod:like|19:conj:or	Entity=130)
 26	or	or	CCONJ	CC	_	28	cc	28:cc	_
-27	coconut	coconut	NOUN	NN	Number=Sing	28	compound	28:compound	Bridge=127<131|Entity=(131-substance-acc:inf-nnnnn-cf6-2-sgl|MSeg=coco-nut
+27	coconut	coconut	NOUN	NN	Number=Sing	28	compound	28:compound	Entity=(131-substance-auto-nnnnn-cf5-2-sgl|MSeg=coco-nut
 28	extract	extract	NOUN	NN	Number=Sing	19	conj	15:nmod:like|19:conj:or	Entity=131)127)|SpaceAfter=No
 29	.	.	PUNCT	.	_	1	punct	1:punct	_
 

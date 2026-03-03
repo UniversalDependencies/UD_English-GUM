@@ -37,7 +37,7 @@
 # s_type = frag
 # transition = null
 # text = Saturday, September 12, 2015
-1	Saturday	Saturday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-circumstance:2->4:8:lex-indph-9-14-_|Entity=(5-time-acc:com-snssn-cf1-1-coref)|SpaceAfter=No|XML=<date when:::"2015-09-12" rend:::"bold">
+1	Saturday	Saturday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-circumstance:2->4:8:lex-indph-9-14-_|Entity=(5-time-acc:com-snssn-cf1-1-coref)|MSeg=Satur-day|SpaceAfter=No|XML=<date when:::"2015-09-12" rend:::"bold">
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	September	September	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(5-time-giv:act-snssn-cf1-2-appos
 4	12	12	NUM	CD	NumForm=Digit|NumType=Card	1	appos	1:appos	SpaceAfter=No
@@ -71,7 +71,7 @@
 # text = A storm yesterday caused a crane to fall into Mecca's Grand Mosque, killing 107 or more and wounding 238, according to Saudi Arabia's Civil Defense Authority.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	Discourse=ROOT:4:0|Entity=(10-event-new-snsns-cf10-4-disc(11-event-new-ssnns-cf6-2-coref
 2	storm	storm	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	_
-3	yesterday	yesterday	NOUN	NN	Number=Sing	2	nmod:unmarked	2:nmod:unmarked	Entity=(12-time-acc:com-nnnnn-cf5-1-coref)11)|MSeg=yester-day|XML=<date when:::"2015-09-11"></date>
+3	yesterday	yesterday	NOUN	NN	Number=Sing	2	nmod:unmarked	2:nmod:unmarked	Bridge=5<12:comparison-time|Entity=(12-time-acc:inf-nnnnn-cf5-1-coref)11)|MSeg=yester-day|XML=<date when:::"2015-09-11"></date>
 4	caused	cause	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=caus-ed
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(4-object-giv:inact-sssss-cf4-2-coref
 6	crane	crane	NOUN	NN	Number=Sing	4	iobj	4:iobj|8:nsubj:xsubj	Entity=4)
@@ -100,7 +100,7 @@
 27	's	's	PART	POS	_	26	case	26:case	Entity=15)
 28	Civil	Civil	ADJ	NNP	Degree=Pos	29	amod	29:amod	_
 29	Defense	Defense	PROPN	NNP	Number=Sing	30	compound	30:compound	_
-30	Authority	Authority	PROPN	NNP	Number=Sing	15	obl	15:obl:according_to	Entity=14)|SpaceAfter=No
+30	Authority	Authority	PROPN	NNP	Number=Sing	15	obl	15:obl:according_to	Entity=14)|MSeg=Author-ity|SpaceAfter=No
 31	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # newpar
@@ -110,9 +110,9 @@
 # s_type = decl
 # transition = smooth-shift
 # text = Civil Defense Authority director General Suleiman al-Amr, in remarks to al-Ikhbariya television, said "All those who were wounded and the dead have been taken to hospital. There are no casualties left at the location."
-1	Civil	Civil	ADJ	NNP	Degree=Pos	2	amod	2:amod	Discourse=attribution-positive:7->8:3:sem-atsrc-55-63-_+lex-indwd-66-_+lex-indwd-73-_+grf-qt-74,98-_|Entity=(16-person-new-nnnnn-cf5-1,2,5,6,7,9-sgl(14-organization-giv:act-nnsnn-cf4-1,2,3-coref
+1	Civil	Civil	ADJ	NNP	Degree=Pos	2	amod	2:amod	Discourse=attribution-positive:7->8:3:sem-atsrc-55-63-_+lex-indwd-66-_+lex-indwd-73-_+grf-qt-74,98-_|Entity=(16-person-new-nnnnn-cf5-1,2,6,7,9-sgl(14-organization-giv:act-nnsnn-cf4-1,2,3-coref
 2	Defense	Defense	PROPN	NNP	Number=Sing	3	compound	3:compound	_
-3	Authority	Authority	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=14)
+3	Authority	Authority	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=14)|MSeg=Author-ity
 4	director	director	NOUN	NN	Number=Sing	6	nmod:desc	6:nmod:desc	MSeg=direct-or
 5	General	General	PROPN	NNP	Number=Sing	6	nmod:desc	6:nmod:desc	_
 6	Suleiman	Suleiman	PROPN	NNP	Number=Sing	19	nsubj	19:nsubj	_
@@ -130,7 +130,7 @@
 18	,	,	PUNCT	,	_	12	punct	12:punct	_
 19	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=sai-d
 20	"	"	PUNCT	``	_	31	punct	31:punct	Discourse=elaboration-additional:8->4:2:sem-synym-33-36,39,44,48-53,55-57,75-79,81-82,95-96-_|SpaceAfter=No|XML=<quote>
-21	All	all	DET	PDT	PronType=Tot	22	det:predet	22:det:predet	Entity=(13-person-giv:act-sssss-cf1*-2-ana
+21	All	all	DET	PDT	PronType=Ind	22	det:predet	22:det:predet	Entity=(13-person-giv:act-sssss-cf1*-2-ana
 22	those	that	PRON	DT	Number=Plur|PronType=Dem	31	nsubj:pass	25:nsubj:pass|31:nsubj:pass	_
 23	who	who	PRON	WP	PronType=Rel	25	nsubj:pass	22:ref	Discourse=elaboration-attribute:9->8:0:syn-mdf-76-_+syn-relcl-77,79-_
 24	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	25	aux:pass	25:aux:pass	_
@@ -173,10 +173,10 @@
 9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	10:aux:pass	Discourse=same-unit_m:14->12:1:_
 10	caused	cause	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=caus-ed
 11	by	by	ADP	IN	_	13	case	13:case	_
-12	strong	strong	ADJ	JJ	Degree=Pos	13	amod	13:amod	Bridge=11<22|Entity=(21-event-new-nnnnn-cf6-2,5-sgl(22-event-acc:inf-nnnsn-cf3-2-sgl
+12	strong	strong	ADJ	JJ	Degree=Pos	13	amod	13:amod	Bridge=11<22:entity-associative|Entity=(21-event-new-nnnnn-cf6-2,5-sgl(22-event-acc:inf-nnnsn-cf3-2-sgl
 13	winds	wind	NOUN	NNS	Number=Plur	10	obl:agent	10:obl:agent|18:nsubj	Entity=22)|MSeg=wind-s
 14	and	and	CCONJ	CC	_	16	cc	16:cc	_
-15	heavy	heavy	ADJ	JJ	Degree=Pos	16	amod	16:amod	Bridge=11<23|Entity=(23-event-acc:inf-nnnsn-cf4-2-sgl|MSeg=heav-y
+15	heavy	heavy	ADJ	JJ	Degree=Pos	16	amod	16:amod	Bridge=11<23:entity-associative|Entity=(23-event-acc:inf-nnnsn-cf4-2-sgl|MSeg=heav-y
 16	rain	rain	NOUN	NN	Number=Sing	13	conj	10:obl:agent|13:conj:and	Entity=23)
 17	that	that	PRON	WDT	PronType=Rel	18	nsubj	13:ref	Discourse=elaboration-attribute:15->14:0:syn-mdf-111-_+syn-relcl-115-116-_
 18	led	lead	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	13:acl:relcl	MSeg=l-ed
@@ -191,7 +191,7 @@
 # s_type = decl
 # transition = null
 # text = Photos released of the scene showed numerous bloodied bodies and various scattered debris.
-1	Photos	photo	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Discourse=elaboration-additional:16->12:2:_|Entity=(24-abstract-new-nnnnn-cf2-1-sgl|MSeg=Photo-s|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:99-121:122-135
+1	Photos	photo	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Discourse=elaboration-additional:16->12:2:_|Entity=(24-abstract-new-nnnnn-cf2-1-sgl|MSeg=Photo-s|PDTB=Implicit:Expansion.Conjunction:further:_:99-121:122-135
 2	released	release	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	acl	1:acl	MSeg=releas-ed
 3	of	of	ADP	IN	_	5	case	5:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(8-place-giv:inact-sssss-cf1-2-coref-Masjid_al%2DHaram
@@ -236,9 +236,9 @@
 2	Had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	4:aux	_
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(10-event-giv:act-snsns-cf1*-1-ana)|PDTB=AltLexC:Contingency.Condition.Arg2-as-cond:had:151:156-163:149-150,152-155
 4	happened	happen	VERB	VBN	Tense=Past|VerbForm=Part	13	advcl	13:advcl	CxnElt=13:Conditional-NegativeEpistemic-SubjVerbInversion.Protasis|MSeg=happen-ed
-5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(27-time-acc:com-nnnnn-cf3-2-sgl
-6	hour	hour	NOUN	NN	Number=Sing	7	obl:unmarked	7:obl:unmarked	Entity=27)
-7	later	late	ADV	RBR	Degree=Cmp	4	advmod	4:advmod	MSeg=lat-er|PDTB=Explicit:Temporal.Asynchronous.Precedence:later:155:136-148:149-154,156-178
+5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Bridge=10<27:comparison-relative;comparison-time|Entity=(27-time-acc:inf-nnnnn-cf3-3-sgl
+6	hour	hour	NOUN	NN	Number=Sing	7	obl:unmarked	7:obl:unmarked	_
+7	later	late	ADV	RBR	Degree=Cmp	4	advmod	4:advmod	Entity=27)|MSeg=lat-er|PDTB=Explicit:Temporal.Asynchronous.Precedence:later:155:136-148:149-154,156-178
 8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	Discourse=elaboration-additional:20->17:1:ref-prs-136-137,151-_|Entity=(10-event-giv:act-snsns-cf1*-1-ana)
 9	would	would	AUX	MD	VerbForm=Fin	13	aux	13:aux	_
 10	have	have	AUX	VB	VerbForm=Inf	13	aux	13:aux	_
@@ -272,17 +272,17 @@
 2	Had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	4:aux	_
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(10-event-giv:act-snsns-cf2-1-ana)|PDTB=AltLexC:Contingency.Condition.Arg2-as-cond:had:181:191-204:179-180,182-190
 4	happened	happen	VERB	VBN	Tense=Past|VerbForm=Part	24	advcl	24:advcl	CxnElt=24:Conditional-NegativeEpistemic-SubjVerbInversion.Protasis|MSeg=happen-ed
-5	five	five	NUM	CD	NumForm=Word|NumType=Card	6	nummod	6:nummod	Entity=(30-time-new-nnnnn-cf5-2-sgl
-6	hours	hour	NOUN	NNS	Number=Plur	7	obl:unmarked	7:obl:unmarked	Entity=30)|MSeg=hour-s
-7	earlier	early	ADV	RBR	Degree=Cmp	4	advmod	4:advmod	MSeg=earli-er|PDTB=Explicit:Temporal.Asynchronous.Succession:earlier:185:136-148:179-184,186-204
+5	five	five	NUM	CD	NumForm=Word|NumType=Card	6	nummod	6:nummod	Bridge=10<30:comparison-relative;comparison-time|Entity=(30-time-acc:inf-nnnnn-cf4-3-sgl
+6	hours	hour	NOUN	NNS	Number=Plur	7	obl:unmarked	7:obl:unmarked	MSeg=hour-s
+7	earlier	early	ADV	RBR	Degree=Cmp	4	advmod	4:advmod	Entity=30)|MSeg=earli-er|PDTB=Explicit:Temporal.Asynchronous.Succession:earlier:185:136-148:179-184,186-204
 8	or	or	CCONJ	CC	_	11	cc	11:cc	_
-9	four	four	NUM	CD	NumForm=Word|NumType=Card	10	nummod	10:nummod	Entity=(31-time-new-nnnnn-cf6-2-sgl
-10	hours	hour	NOUN	NNS	Number=Plur	11	obl:unmarked	11:obl:unmarked	Entity=31)|MSeg=hour-s
-11	earlier	early	ADV	RBR	Degree=Cmp	7	conj	4:advmod|7:conj:or	MSeg=earli-er|PDTB=Explicit:Temporal.Asynchronous.Succession:earlier:189:136-148:179-188,190-204|SpaceAfter=No
+9	four	four	NUM	CD	NumForm=Word|NumType=Card	10	nummod	10:nummod	Bridge=10<31:comparison-relative;comparison-time|Entity=(31-time-acc:inf-nnnnn-cf5-3-sgl
+10	hours	hour	NOUN	NNS	Number=Plur	11	obl:unmarked	11:obl:unmarked	MSeg=hour-s
+11	earlier	early	ADV	RBR	Degree=Cmp	7	conj	4:advmod|7:conj:or	Entity=31)|MSeg=earli-er|PDTB=Explicit:Temporal.Asynchronous.Succession:earlier:189:136-148:179-188,190-204|SpaceAfter=No
 12	,	,	PUNCT	,	_	4	punct	4:punct	_
 13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	14:nsubj	Discourse=attribution-positive:23->24:0:sem-atsrc-191-_+lex-indwd-192-_|Entity=(28-person-giv:act-nnnnn-cf1*-1-ana-Khaled_Al_Maeena)
 14	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Bridge=1<32|Discourse=joint-list_m:24->20:2:_|Entity=(32-abstract-acc:inf-nnnnn-cf3-3-sgl
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Bridge=10<32:entity-associative|Discourse=joint-list_m:24->20:2:sem-mrnym-153-155,193-195-_|Entity=(32-abstract-acc:inf-nnnnn-cf3-3-sgl
 16	death	death	NOUN	NN	Number=Sing	17	compound	17:compound	MSeg=dea-th
 17	toll	toll	NOUN	NN	Number=Sing	24	nsubj	24:nsubj	Entity=32)
 18	would	would	AUX	MD	VerbForm=Fin	24	aux	24:aux	_
@@ -290,7 +290,7 @@
 20	been	be	AUX	VBN	Tense=Past|VerbForm=Part	24	cop	24:cop	_
 21	more	more	ADV	RBR	Degree=Cmp|ExtPos=ADV	24	advmod	24:advmod	_
 22	than	than	ADP	IN	_	21	fixed	21:fixed	_
-23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(33-person-new-nnnnn-cf4-2-sgl
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(33-person-new-nnnnn-cf6-2-sgl
 24	thousand	thousand	NUM	CD	NumForm=Word|NumType=Card	14	ccomp	14:ccomp	Cxn=Conditional-NegativeEpistemic-SubjVerbInversion|CxnElt=24:Conditional-NegativeEpistemic-SubjVerbInversion.Apodosis|Entity=33)|SpaceAfter=No
 25	.	.	PUNCT	.	_	14	punct	14:punct	SpaceAfter=No
 26	"	"	PUNCT	''	_	14	punct	14:punct	XML=</quote>
@@ -308,7 +308,7 @@
 4	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=come-s
 5	just	just	ADV	RB	_	6	advmod	6:advmod	_
 6	ten	ten	NUM	CD	NumForm=Word|NumType=Card	7	nummod	7:nummod	Entity=(34-time-new-ssssn-cf6-5-sgl
-7	days	day	NOUN	NNS	Number=Plur	10	obl:unmarked	10:obl:unmarked	MSeg=day-s
+7	days	day	NOUN	NNS	Number=Plur	10	nmod:unmarked	10:nmod:unmarked	MSeg=day-s
 8	before	before	ADP	IN	_	10	case	10:case	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(35-time-new-snnss-cf4-2-sgl
 10	beginning	beginning	NOUN	NN	Number=Sing	4	obl	4:obl:before	MSeg=beginn-ing

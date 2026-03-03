@@ -55,9 +55,9 @@
 19	been	be	AUX	VBN	Tense=Past|VerbForm=Part	20	aux	20:aux	_
 20	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	4	conj	4:conj:and	MSeg=gett-ing
 21	up	up	ADP	RP	_	20	compound:prt	20:compound:prt	_
-22	at	at	ADP	IN	_	24	case	24:case	_
-23	five	five	NUM	CD	NumForm=Word|NumType=Card	24	nummod	24:nummod	Entity=(5-time-new-nnnnn-cf5-2-sgl|XML=<time when:::"05:00:00">
-24	o'clock	o'clock	NOUN	NN	Number=Sing	20	obl	20:obl:at	Entity=5)|MSeg=o'-clock|XML=</time>
+22	at	at	ADP	IN	_	23	case	23:case	_
+23	five	five	NUM	CD	NumForm=Word|NumType=Card	20	obl	20:obl:at	Entity=(5-time-new-nnnnn-cf5-1-sgl|XML=<time when:::"05:00:00">
+24	o'clock	o'clock	ADV	RB	Degree=Pos	23	advmod	23:advmod	Entity=5)|MSeg=o'-clock|XML=</time>
 25	every	every	DET	DT	PronType=Ind	26	det	26:det	Entity=(6-time-new-nnnnn-cf4-2-sgl
 26	morning	morning	NOUN	NN	Number=Sing	20	obl:unmarked	20:obl:unmarked	Entity=6)|MSeg=morn-ing
 27	so	so	SCONJ	IN	ExtPos=SCONJ	31	mark	31:mark	Discourse=purpose-goal:5->4:0:dm-so that-30-31-gold|PDTB=Explicit:Contingency.Purpose.Arg2-as-goal:so that:30-31:19-29:32-42
@@ -118,7 +118,7 @@
 # transition = continue
 # speaker = JeanieMarie
 # text = Anyways I just wanted to show you guys this is what our shoes look like every day after we get done hiking in Glacier.
-1	Anyways	anyways	ADV	RB	_	4	discourse	4:discourse	Discourse=explanation-evidence:10->11:1:_|MSeg=Anyway-s
+1	Anyways	anyways	ADV	RB	_	4	discourse	4:discourse	Discourse=explanation-evidence:10->11:1:_|MSeg=Anyway-s|PDTB=Implicit:Expansion.Conjunction:and:_:58-65:66-90
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj|6:nsubj:xsubj	Entity=(9-person-new-sssnn-cf5-1-ana)
 3	just	just	ADV	RB	_	4	advmod	4:advmod	_
 4	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=want-ed
@@ -169,7 +169,7 @@
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=causal-cause:14->15:0:dm-so-105-gold|Entity=(14-abstract-new-nnnnn-cf6-3-disc(13-abstract-giv:act-nnnnn-cf1*-1-ana)|PDTB=EntRel:EntRel:_:_:91-97:98-116
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	how	how	ADV	WRB	PronType=Rel	0	root	0:root	Entity=(13-abstract-giv:act-nnnnn-cf1*-1-coref
-4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Bridge=4<15|Entity=(15-place-acc:inf-nnnnn-cf4-2-coref
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Bridge=4<15:entity-meronomy|Entity=(15-place-acc:inf-nnnnn-cf4-2-coref
 5	paths	path	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=15)|MSeg=path-s
 6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl:relcl	3:advcl:relcl	Entity=13)14)|SpaceAfter=No
 7	,	,	PUNCT	,	_	10	punct	10:punct	_
@@ -192,7 +192,7 @@
 # transition = smooth-shift
 # speaker = JeanieMarie
 # text = So that's fun just a heads up, hiking in Glacier, it's not muddy it's just the dusty dirt paths are very dusty.
-1	So	so	INTJ	UH	_	4	discourse	4:discourse	Discourse=organization-preparation:16->18:1:_
+1	So	so	INTJ	UH	_	4	discourse	4:discourse	Discourse=organization-preparation:16->18:1:_|PDTB=Implicit:Expansion.Conjunction:and:_:98-116:117-144
 2-3	that's	_	_	_	_	_	_	_	_
 2	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Entity=(14-abstract-giv:act-nnnnn-cf1*-1-coref)
 3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
@@ -243,7 +243,7 @@
 # transition = establishment
 # speaker = JeanieMarie
 # text = But hey I just wanted to give a shout out to these Adidas Terrex shoes, I literally bought these hiking shoes right before our trip.
-1	But	but	CCONJ	CC	_	5	cc	5:cc	Discourse=explanation-justify:20->27:2:dm-so-214-gold|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:151:117-144:152-177
+1	But	but	CCONJ	CC	_	5	cc	5:cc	Discourse=explanation-justify:20->27:2:dm-so-214-gold|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:151:117-144:152-177;Implicit:Expansion.Conjunction:and:_:145-150:151-177
 2	hey	hey	INTJ	UH	_	5	discourse	5:discourse	_
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj|7:nsubj:xsubj	Entity=(9-person-giv:inact-sssnn-cf1-1-ana)
 4	just	just	ADV	RB	_	5	advmod	5:advmod	_
@@ -365,11 +365,11 @@
 14	then	then	ADV	RB	PronType=Dem	16	advmod	16:advmod	Discourse=joint-list_m:31->30:0:sem-lxchn-243,250-251-gold+dm-then-246-gold|PDTB=Explicit:Expansion.Conjunction:then:246:233-245:247-266
 15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	16:nsubj	Entity=(12-object-giv:act-sssss-cf3-1-ana)
 16	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	13:parataxis	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=16:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
-17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Bridge=12<29|Entity=(29-object-acc:inf-nnnnn-cf4-3-sgl
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Bridge=12<29:entity-meronomy|Entity=(29-object-acc:inf-nnnnn-cf4-3-sgl
 18	rubber	rubber	NOUN	NN	Number=Sing	19	compound	19:compound	Entity=(30-substance-new-nnnnn-cf9-1-sgl)|MSeg=rubb-er
 19	soles	sole	NOUN	NNS	Number=Plur	16	obj	16:obj	Entity=29)|MSeg=so-le-s
 20	on	on	ADP	IN	_	22	case	22:case	_
-21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Bridge=12<31|Entity=(31-object-acc:inf-nnnnn-cf5-2-sgl
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Bridge=12<31:entity-meronomy|Entity=(31-object-acc:inf-nnnnn-cf5-2-sgl
 22	front	front	NOUN	NN	Number=Sing	16	obl	16:obl:on	Entity=31)
 23	for	for	SCONJ	IN	_	27	mark	27:mark	Discourse=purpose-goal:32->31:0:dm-for-255-gold|PDTB=Explicit:Contingency.Purpose.Arg2-as-goal:for:255:246-254:256-266
 24	if	if	SCONJ	IN	_	27	mark	27:mark	Discourse=contingency-condition:33->34:0:dm-if-256-gold|PDTB=Explicit:Contingency.Condition.Arg1-as-cond:if:256:257-261:255,262-266
@@ -413,7 +413,7 @@
 11	recommend	recommend	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	5:conj:and	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=11:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|MSeg=re-commend
 12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obj	11:obj	Entity=(12-object-giv:act-sssss-cf3-1-ana)|SpaceAfter=No
 13	,	,	PUNCT	,	_	18	punct	18:punct	_
-14	especially	especially	ADV	RB	Degree=Pos	18	advmod	18:advmod	Discourse=contingency-condition:38->37:0:dm-if-290-gold|MSeg=especial-ly
+14	especially	especially	ADV	RB	Degree=Pos	18	advmod	18:advmod	Discourse=contingency-condition:38->37:0:dm-if-290-gold|MSeg=e-special-ly
 15	if	if	SCONJ	IN	_	18	mark	18:mark	PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:290:283-288:289,291-308
 16-17	you're	_	_	_	_	_	_	_	_
 16	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	18	nsubj	18:nsubj	Entity=(10-person-giv:act-nnsnn-cf2-1-ana)
@@ -442,7 +442,7 @@
 # transition = smooth-shift
 # speaker = JeanieMarie
 # text = These have been great.
-1	These	this	PRON	DT	Number=Plur|PronType=Dem	4	nsubj	4:nsubj	Discourse=explanation-justify:40->37:2:_|Entity=(12-object-giv:act-sssss-cf1*-1-ana)
+1	These	this	PRON	DT	Number=Plur|PronType=Dem	4	nsubj	4:nsubj	Discourse=explanation-justify:40->37:2:_|Entity=(12-object-giv:act-sssss-cf1*-1-ana)|PDTB=Implicit:Contingency.Cause.Reason:because:_:276-308:309-313
 2	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	cop	4:cop	_
 4	great	great	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
@@ -459,7 +459,7 @@
 3	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	advcl	6:advcl:if	CxnElt=6:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 4	shoes	shoe	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=(39-object-new-nnnnn-cf3-1-sgl)|MSeg=shoe-s|SpaceAfter=No
 5	,	,	PUNCT	,	_	3	punct	3:punct	_
-6	get	get	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=6:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=joint-other_m:42->19:1:_
+6	get	get	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=6:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=joint-other_m:42->19:1:_
 7	these	this	PRON	DT	Number=Plur|PronType=Dem	6	obj	6:obj	Entity=(12-object-giv:act-sssss-cf1*-1-ana)|SpaceAfter=No
 8	.	.	PUNCT	.	_	6	punct	6:punct	_
 
@@ -469,7 +469,7 @@
 # transition = zero
 # speaker = JeanieMarie
 # text = So it's our last day and we are just driving the uh – Going to the Sun Road and we’re just gonna stop along wherever we want to go.
-1	So	so	INTJ	UH	_	6	discourse	6:discourse	Discourse=context-circumstance:43->44:1:lex-indph-325-327-_|XML=<incident who:::"#JeanieMarie" type:::"cut to hiking outdoors"></incident>
+1	So	so	INTJ	UH	_	6	discourse	6:discourse	Discourse=context-circumstance:43->44:1:lex-indph-325-327-_|PDTB=NoRel:NoRel:_:_:314-321:322-354|XML=<incident who:::"#JeanieMarie" type:::"cut to hiking outdoors"></incident>
 2-3	it's	_	_	_	_	_	_	_	_
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(3-time-giv:inact-nsssn-cf2-1-ana)
 3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
@@ -481,14 +481,14 @@
 9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
 10	just	just	ADV	RB	_	11	advmod	11:advmod	_
 11	driving	drive	VERB	VBG	Tense=Pres|VerbForm=Part	6	conj	6:conj:and	MSeg=driv-ing
-12	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(40-place-new-sssss-cf3-4,7,8-coref-Going%2Dto%2Dthe%2DSun_Road
-13	uh	uh	INTJ	UH	_	15	discourse	15:discourse	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(40-place-new-sssss-cf3-4,7,8-coref-Going%2Dto%2Dthe%2DSun_Road
+13	uh	uh	INTJ	UH	_	19	discourse	19:discourse	_
 14	–	-	PUNCT	:	_	13	punct	13:punct	_
-15	Going	Going	PROPN	NNP	Number=Sing	11	obj	11:obj	MSeg=Go-ing
-16	to	to	ADP	IN	_	19	case	19:case	_
-17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(41-place-new-snssn-cf5-2-coref-Sun
-18	Sun	Sun	PROPN	NNP	Number=Sing	19	compound	19:compound	Entity=41)
-19	Road	Road	PROPN	NNP	Number=Sing	15	obl	15:obl:to	Entity=40)
+15	Going	Go	VERB	NNP	VerbForm=Ger	19	compound	19:compound	MSeg=Go-ing
+16	to	to	ADP	IN	_	18	case	18:case	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(41-place-new-snssn-cf4-2-coref-Sun
+18	Sun	Sun	PROPN	NNP	Number=Sing	15	obl	15:obl:to	Entity=41)
+19	Road	Road	PROPN	NNP	Number=Sing	11	obj	11:obj	Entity=40)
 20	and	and	CCONJ	CC	_	24	cc	24:cc	Discourse=joint-list_m:45->44:0:dm-and-341-gold|PDTB=Explicit:Expansion.Conjunction:and:341:328-340:342-354
 21-22	we’re	_	_	_	_	_	_	_	_
 21	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	24:nsubj|26:nsubj:xsubj	Entity=(2-person-giv:act-nnnss-cf1-1-ana)
@@ -499,7 +499,7 @@
 25	na	to	PART	TO	_	26	mark	26:mark	XML=</w>
 26	stop	stop	VERB	VB	VerbForm=Inf	24	xcomp	24:xcomp	_
 27	along	along	ADV	RB	Degree=Pos	28	case	28:case	MSeg=a-long
-28	wherever	wherever	ADV	WRB	PronType=Rel	26	obl	26:obl:along	Discourse=context-circumstance:46->45:0:dm-wherever-349-gold|Entity=(42-place-new-nnnnn-cf4-1-sgl|MSeg=wher-ever
+28	wherever	wherever	ADV	WRB	PronType=Rel	26	obl	26:obl:along	Discourse=context-circumstance:46->45:0:dm-wherever-349-gold|Entity=(42-place-new-nnnnn-cf5-1-sgl|MSeg=wher-ever
 29	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	30	nsubj	30:nsubj|32:nsubj:xsubj	Entity=(2-person-giv:act-nnnss-cf1-1-ana)
 30	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	28	advcl:relcl	28:advcl:relcl	_
 31	to	to	PART	TO	_	32	mark	32:mark	_
@@ -551,11 +551,11 @@
 34	,	,	PUNCT	,	_	37	punct	37:punct	_
 35	so	so	ADV	RB	_	37	advmod	37:advmod	Discourse=elaboration-additional:50->49:0:ref-prs-376,396-_+sem-synym-387,396-403-_;causal-result:50->49:0:0:orp-so-389-gold|PDTB=Explicit:Contingency.Cause.Result:so:389:374-388:390-392
 36	just	just	ADV	RB	_	37	advmod	37:advmod	_
-37	chill	chill	VERB	VB	Person=2|VerbForm=Inf	25	parataxis	25:parataxis	MSeg=ch-ill|SpaceAfter=No
+37	chill	chill	VERB	VB	VerbForm=Inf	25	parataxis	25:parataxis	MSeg=ch-ill|SpaceAfter=No
 38	,	,	PUNCT	,	_	39	punct	39:punct	_
-39	relax	relax	VERB	VB	Person=2|VerbForm=Inf	37	conj	37:conj:and	Discourse=joint-list_m:51->50:0:sem-lxchn-391,393-gold|PDTB=Implicit:Expansion.Conjunction:and:_:389-392:393
+39	relax	relax	VERB	VB	VerbForm=Inf	37	conj	37:conj:and	Discourse=joint-list_m:51->50:0:sem-lxchn-391,393-gold|PDTB=Implicit:Expansion.Conjunction:and:_:389-392:393
 40	and	and	CCONJ	CC	_	41	cc	41:cc	Discourse=joint-list_m:52->50:0:dm-and-394-gold|PDTB=Explicit:Expansion.Conjunction:and:394:393:395-404
-41	enjoy	enjoy	VERB	VB	Person=2|VerbForm=Inf	37	conj	37:conj:and	MSeg=en-joy
+41	enjoy	enjoy	VERB	VB	VerbForm=Inf	37	conj	37:conj:and	MSeg=en-joy
 42	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	44	nmod:poss	44:nmod:poss	Entity=(3-time-giv:act-nsssn-cf2-3,6,7-coref(2-person-giv:act-nnnss-cf1*-1-ana)|XML=<date when:::"2020-08-05">
 43	last	last	ADJ	JJ	Degree=Pos	44	amod	44:amod	_
 44	day	day	NOUN	NN	Number=Sing	41	obj	41:obj	XML=</date>
@@ -609,7 +609,7 @@
 33	hiking	hike	VERB	VBG	Tense=Pres|VerbForm=Part	29	advcl	29:advcl:from	MSeg=hik-ing
 34	12	12	NUM	CD	NumForm=Digit|NumType=Card	35	nummod	35:nummod	Entity=(48-abstract-new-nnnnn-cf6-2-sgl
 35	miles	mile	NOUN	NNS	Number=Plur	33	obj	33:obj	Entity=48)|MSeg=mile-s
-36	yesterday	yesterday	NOUN	NN	Number=Sing	33	obl:unmarked	33:obl:unmarked	Entity=(49-time-acc:com-nnnnn-cf4-1-sgl)|MSeg=yester-day|SpaceAfter=No|XML=<date when:::"2020-08-04"></date>
+36	yesterday	yesterday	NOUN	NN	Number=Sing	33	obl:unmarked	33:obl:unmarked	Bridge=3<49:comparison-time|Entity=(49-time-acc:inf-nnnnn-cf4-1-sgl)|MSeg=yester-day|SpaceAfter=No|XML=<date when:::"2020-08-04"></date>
 37	,	,	PUNCT	,	_	42	punct	42:punct	_
 38	like	like	INTJ	UH	_	42	discourse	42:discourse	Discourse=elaboration-additional:59->57:1:ref-prs-432,443-_
 39-40	we're	_	_	_	_	_	_	_	_
@@ -653,12 +653,12 @@
 8	start	start	VERB	VB	VerbForm=Inf	6	xcomp	6:xcomp	_
 9	here	here	ADV	RB	PronType=Dem	8	advmod	8:advmod	_
 10	at	at	ADP	IN	_	13	case	13:case	_
-11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(51-place-new-nnnnn-cf3-3-coref
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(51-place-new-nnnnn-cf4-3-coref
 12	loop	loop	NOUN	NN	Number=Sing	13	compound	13:compound	Entity=(52-place-new-nnnnn-cf6-1-coref)
 13	trailhead	trailhead	NOUN	NN	Number=Sing	8	obl	8:obl:at|22:nsubj	_
 14	which	which	PRON	WDT	PronType=Rel	22	nsubj	13:ref	Discourse=elaboration-attribute:63->62:0:syn-mdf-468-_+syn-relcl-469,477-_
 15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	22:cop	_
-16	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(53-place-new-nnnnn-cf4-7-coref
+16	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(53-place-new-nnnnn-cf5-7-coref
 17	same	same	ADJ	JJ	Degree=Pos	22	amod	22:amod	_
 18	highline	highline	NOUN	NN	Number=Sing	22	reparandum	22:reparandum	_
 19	–	-	PUNCT	:	_	18	punct	18:punct	_
@@ -668,7 +668,7 @@
 23	that	that	PRON	WDT	PronType=Rel	25	obj	22:ref	Discourse=elaboration-attribute:64->63:0:syn-mdf-477-_+syn-relcl-478,480-_
 24	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	25:nsubj	Entity=(2-person-giv:act-nnnss-cf1-1-ana)
 25	did	do	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	22	acl:relcl	22:acl:relcl	_
-26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Entity=(54-time-new-nnnnn-cf5-3-sgl
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Bridge=3<54:comparison-relative;comparison-time|Entity=(54-time-acc:inf-nnnnn-cf3-3-sgl
 27	other	other	ADJ	JJ	Degree=Pos	28	amod	28:amod	_
 28	day	day	NOUN	NN	Number=Sing	25	obl:unmarked	25:obl:unmarked	Entity=54)53)51)|SpaceAfter=No
 29	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -680,7 +680,7 @@
 # speaker = JeanieMarie
 # text = It's just the other end of it, um, so we're just gonna hike a little bit on that.
 1-2	It's	_	_	_	_	_	_	_	_
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=elaboration-additional:65->62:2:ref-prs-466-483,485-_+ref-prs-471-483,492-_;causal-cause:65->66:0:0:orp-so-496-gold|Entity=(51-place-giv:act-nnnnn-cf2-1-ana)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:456-484:485-508
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=elaboration-additional:65->62:2:ref-prs-466-483,485-_+ref-prs-471-483,492-_;causal-cause:65->66:0:0:orp-so-496-gold|Entity=(51-place-giv:act-nnnnn-cf2-1-ana)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:456-484:485-508
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 3	just	just	ADV	RB	_	6	advmod	6:advmod	Entity=(51-place-giv:act-nnnnn-cf2-4-coref
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	_
@@ -713,7 +713,7 @@
 # transition = continue
 # speaker = JeanieMarie
 # text = It is overcast today and they said there could be some rain, so we're probably gonna go far and that's okay.
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=causal-cause:67->70:0:dm-so-522-gold|PDTB=Implicit:Expansion.Conjunction:furthermore:_:485-508:509-534;Implicit:Temporal.Asynchronous.Precedence:then:_:456-484:509-534
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=causal-cause:67->70:0:dm-so-522-gold|PDTB=Implicit:Expansion.Conjunction:furthermore:_:485-508:509-534;Implicit:Expansion.Conjunction:in fact:_:456-484:509-534
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	overcast	overcast	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=over-cast
 4	today	today	NOUN	NN	Number=Sing	3	obl:unmarked	3:obl:unmarked	Entity=(3-time-giv:inact-nsssn-cf3-1-coref)|MSeg=to-day|XML=<date when:::"2020-08-05"></date>
@@ -749,7 +749,7 @@
 # transition = continue
 # speaker = JeanieMarie
 # text = We really want to just chill out today so um we're just gonna hike and see what happens.
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj|6:nsubj:xsubj	Discourse=causal-cause:72->73:1:dm-so-543-gold|Entity=(2-person-giv:act-nnnss-cf1*-1-ana)
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj|6:nsubj:xsubj	Discourse=causal-cause:72->73:1:dm-so-543-gold|Entity=(2-person-giv:act-nnnss-cf1*-1-ana)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:509-534:535-555
 2	really	really	ADV	RB	Degree=Pos	3	advmod	3:advmod	MSeg=real-ly
 3	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	to	to	PART	TO	_	6	mark	6:mark	_
@@ -779,7 +779,7 @@
 # transition = zero
 # speaker = JeanieMarie
 # text = This is a pretty cool little thing that is posted here at the loop so this Going-To-The-Sun Road is actually considered a national landmark now, how cool.
-1	This	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	7:nsubj	Discourse=evaluation-comment:75->77:0:lex-indwd-560-_;explanation-evidence:75->77:1:0:orp-so-570-gold|Entity=(59-object-acc:com-nnnnn-cf1-1-ana)|XML=<incident who:::"#JeanieMarie" type:::"cut to plaque of Going-To-The-Sun Road"></incident>
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	7:nsubj	Discourse=evaluation-comment:75->77:0:lex-indwd-560-_;explanation-evidence:75->77:1:0:orp-so-570-gold|Entity=(59-object-acc:com-nnnnn-cf1-1-ana)|PDTB=Implicit:Expansion.Conjunction:in fact:_:535-555:556-590|XML=<incident who:::"#JeanieMarie" type:::"cut to plaque of Going-To-The-Sun Road"></incident>
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(59-object-giv:act-nnnnn-cf1-5-coref
 4	pretty	pretty	ADV	RB	_	5	advmod	5:advmod	_
@@ -794,15 +794,15 @@
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(52-place-giv:inact-nnnnn-cf3-2-coref
 14	loop	loop	NOUN	NN	Number=Sing	10	obl	10:obl:at	Entity=52)59)
 15	so	so	INTJ	UH	_	27	discourse	27:discourse	Discourse=context-background:77->62:5:sem-rpt-467,568-569-_|PDTB=Explicit:Contingency.Cause.Result:so:570:556-569:571-587
-16	this	this	DET	DT	Number=Sing|PronType=Dem	17	det	17:det	_
-17	Going	Going	PROPN	NNP	Number=Sing	27	nsubj:pass	27:nsubj:pass|30:nsubj:xsubj	Entity=(60-abstract-new-nnnnn-cf5-11-disc(40-place-giv:inact-sssss-cf2-1-coref-Going%2Dto%2Dthe%2DSun_Road|MSeg=Go-ing|SpaceAfter=No|XML=<w>
+16	this	this	DET	DT	Number=Sing|PronType=Dem	24	det	24:det	_
+17	Going	Go	VERB	NNP	VerbForm=Ger	24	compound	24:compound	Entity=(60-abstract-new-nnnnn-cf5-1,7,11-disc(40-place-giv:inact-sssss-cf2-1,7,8-coref-Going%2Dto%2Dthe%2DSun_Road|MSeg=Go-ing|SpaceAfter=No|XML=<w>
 18	-	-	PUNCT	HYPH	_	19	punct	19:punct	SpaceAfter=No
 19	To	to	ADP	IN	_	23	case	23:case	SpaceAfter=No
 20	-	-	PUNCT	:	_	19	punct	19:punct	SpaceAfter=No
 21	The	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(41-place-giv:inact-snssn-cf4-3-coref-Sun|SpaceAfter=No
 22	-	-	PUNCT	HYPH	_	21	punct	21:punct	SpaceAfter=No
-23	Sun	Sun	PROPN	NNP	Number=Sing	24	compound	24:compound	Entity=41)|XML=</w>
-24	Road	Road	NOUN	NN	Number=Sing	17	obl	17:obl	Entity=40)
+23	Sun	Sun	PROPN	NNP	Number=Sing	17	obl	17:obl:to	Entity=41)|XML=</w>
+24	Road	Road	PROPN	NNP	Number=Sing	27	nsubj:pass	27:nsubj:pass|30:nsubj:xsubj	Entity=40)
 25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	27:aux:pass	_
 26	actually	actually	ADV	RB	Degree=Pos	27	advmod	27:advmod	MSeg=act-ual-ly
 27	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	parataxis	7:parataxis	MSeg=consider-ed
@@ -834,7 +834,7 @@
 # speaker = JeanieMarie
 # text = That's so cool.
 1-2	That's	_	_	_	_	_	_	_	_
-1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Discourse=evaluation-comment:80->77:3:lex-indwd-599-_|Entity=(60-abstract-giv:act-nnnnn-cf1*-1-ana)
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Discourse=evaluation-comment:80->77:3:lex-indwd-599-_|Entity=(60-abstract-giv:act-nnnnn-cf1*-1-ana)|PDTB=Implicit:Expansion.Conjunction:indeed:_:591-595:596-600
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 3	so	so	ADV	RB	_	4	advmod	4:advmod	_
 4	cool	cool	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
@@ -847,7 +847,7 @@
 # speaker = JeanieMarie
 # text = It's one of the best roads in the US I feel, it's amazing.
 1-2	It's	_	_	_	_	_	_	_	_
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=evaluation-comment:81->77:4:lex-indwd-606-_+lex-indwd-612-_+lex-indwd-616-_|Entity=(40-place-giv:inact-sssss-cf1-1-ana-Going%2Dto%2Dthe%2DSun_Road)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=evaluation-comment:81->77:4:lex-indwd-606-_+lex-indwd-612-_+lex-indwd-616-_|Entity=(40-place-giv:inact-sssss-cf1-1-ana-Going%2Dto%2Dthe%2DSun_Road)|PDTB=Implicit:Expansion.Conjunction:in fact:_:596-600:601-617
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	one	one	NUM	CD	NumForm=Word|NumType=Card	0	root	0:root	Entity=(40-place-giv:act-sssss-cf1-1-coref-Going%2Dto%2Dthe%2DSun_Road
 4	of	of	ADP	IN	_	7	case	7:case	_
@@ -920,7 +920,7 @@
 # transition = null
 # speaker = JeanieMarie
 # text = Morning!
-1	Morning	Morning	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-phatic:88->92:3:_|Entity=(1-time-giv:inact-nnnnn-cf1-1-coref)|MSeg=Morn-ing|SpaceAfter=No
+1	Morning	morning	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-phatic:88->92:3:_|Entity=(1-time-giv:inact-nnnnn-cf1-1-coref)|MSeg=Morn-ing|SpaceAfter=No
 2	!	!	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_hiking-34
@@ -1079,7 +1079,7 @@
 # transition = establishment
 # speaker = JeanieMarie
 # text = Just driving on the Sun Road, probably go to Saint Mary's Lake again.
-1	Just	just	ADV	RB	_	2	advmod	2:advmod	Discourse=context-circumstance:105->106:0:_
+1	Just	just	ADV	RB	_	2	advmod	2:advmod	Discourse=context-circumstance:105->106:0:_|PDTB=NoRel:NoRel:_:_:719-737:738-753
 2	driving	drive	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	MSeg=driv-ing
 3	on	on	ADP	IN	_	6	case	6:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(40-place-giv:act-sssss-cf1*-2,3-coref-Going%2Dto%2Dthe%2DSun_Road
@@ -1087,9 +1087,9 @@
 6	Road	Road	PROPN	NNP	Number=Sing	2	obl	2:obl:on	Entity=40)|SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	9:punct	_
 8	probably	probably	ADV	RB	Degree=Pos	9	advmod	9:advmod	Discourse=joint-other_m:106->86:3:_|MSeg=probab-ly
-9	go	go	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	2	parataxis	2:parataxis	_
+9	go	go	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	2	parataxis	2:parataxis	_
 10	to	to	ADP	IN	_	14	case	14:case	_
-11	Saint	Saint	PROPN	NNP	Number=Sing	12	nmod:desc	12:nmod:desc	Entity=(73-place-new-nnnnn-cf4-1,4-sgl-Saint_Mary_Lake(74-person-new-nnnnn-cf3-1,2-sgl-Mary%2C_mother_of_Jesus
+11	Saint	Saint	PROPN	NNP	Number=Sing	12	nmod:desc	12:nmod:desc	Entity=(73-place-new-nnnnn-cf4-4-sgl-Saint_Mary_Lake(74-person-new-nnnnn-cf3-2-sgl-Mary%2C_mother_of_Jesus
 12-13	Mary's	_	_	_	_	_	_	_	_
 12	Mary	Mary	PROPN	NNP	Number=Sing	14	nmod:poss	14:nmod:poss	_
 13	's	's	PART	POS	_	12	case	12:case	Entity=74)
@@ -1181,7 +1181,7 @@
 # transition = establishment
 # speaker = JeanieMarie
 # text = I couldn't get it on my camera.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=adversative-concession:112->116:1:dm-but-828-gold;adversative-concession:112->117:0:0:orp-but-845-gold|Entity=(9-person-giv:inact-sssnn-cf2-1-ana)|PDTB=EntRel:EntRel:_:_:787-801:802-810
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=adversative-concession:112->116:1:dm-but-828-gold;adversative-concession:112->117:0:0:orp-but-845-gold+sem-mrnym-806,846-_|Entity=(9-person-giv:inact-sssnn-cf2-1-ana)|PDTB=EntRel:EntRel:_:_:787-801:802-810
 2-3	couldn't	_	_	_	_	_	_	_	_
 2	could	could	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes
@@ -1212,7 +1212,7 @@
 11	like	like	INTJ	UH	_	12	discourse	12:discourse	_
 12	go	go	VERB	VB	VerbForm=Inf	6	conj	6:conj:and	_
 13	into	into	ADP	IN	_	15	case	15:case	MSeg=in-to
-14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(81-place-new-nnnnn-cf6-2-sgl
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Bridge=40<81:entity-associative|Entity=(81-place-acc:inf-nnnnn-cf4-2-sgl
 15	bush	bush	NOUN	NN	Number=Sing	12	obl	12:obl:into	Entity=81)
 16	and	and	CCONJ	CC	_	17	cc	17:cc	_
 17	stuff	stuff	NOUN	NN	Number=Sing	12	conj	6:conj|12:conj:and	_
@@ -1220,7 +1220,7 @@
 19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	21:nsubj	Entity=(9-person-giv:act-sssnn-cf1*-1-ana)
 20	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux	21:aux	_
 21	have	have	VERB	VB	VerbForm=Inf	6	conj	6:conj:but	_
-22	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	24:nmod:poss	Entity=(82-object-new-nnnnn-cf4-3-sgl(9-person-giv:act-sssnn-cf1*-1-ana)
+22	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	24:nmod:poss	Entity=(82-object-new-nnnnn-cf5-3-sgl(9-person-giv:act-sssnn-cf1*-1-ana)
 23	big	big	ADJ	JJ	Degree=Pos	24	amod	24:amod	_
 24	Canon	Canon	PROPN	NNP	Number=Sing	21	obj	21:obj	Entity=82)
 25	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=joint-other_m:116->86:3:lex-indwd-814-_|PDTB=Explicit:Contingency.Cause.Result:and:835:828-834:836-844
@@ -1229,12 +1229,12 @@
 28	able	able	ADJ	JJ	Degree=Pos	6	conj	6:conj:and	_
 29	to	to	PART	TO	_	30	mark	30:mark	_
 30	get	get	VERB	VB	VerbForm=Inf	28	xcomp	28:xcomp	_
-31	some	some	DET	DT	PronType=Ind	32	det	32:det	Entity=(83-abstract-new-nnnnn-cf5-2-sgl
+31	some	some	DET	DT	PronType=Ind	32	det	32:det	Entity=(83-abstract-new-nnnnn-cf6-2-sgl
 32	photos	photo	NOUN	NNS	Number=Plur	30	obj	30:obj	MSeg=photo-s
 33	of	of	ADP	IN	_	34	case	34:case	_
 34	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	nmod	32:nmod:of	Entity=(78-animal-giv:act-ssssn-cf2-1-ana)83)
-35	but	but	CCONJ	CC	_	38	cc	38:cc	Discourse=evaluation-comment:117->116:3:lex-indwd-848-_|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:845:802-810:811-844,846-849
-36	that	that	PRON	DT	Number=Sing|PronType=Dem	38	nsubj	38:nsubj	Entity=(84-event-acc:com-nnnnn-cf3-1-sgl)
+35	but	but	CCONJ	CC	_	38	cc	38:cc	Discourse=evaluation-comment:117->116:3:lex-indwd-848-_|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:845:802-810:811-844,846-849;Implicit:Expansion.Level-of-detail.Arg2-as-detail:in short:_:811-844:845-849
+36	that	that	PRON	DT	Number=Sing|PronType=Dem	38	nsubj	38:nsubj	Bridge=77<84:entity-associative|Entity=(84-event-acc:inf-nnnnn-cf3-1-sgl)
 37	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	38	cop	38:cop	_
 38	cool	cool	ADJ	JJ	Degree=Pos	6	conj	6:conj:but	SpaceAfter=No
 39	!	!	PUNCT	.	_	6	punct	6:punct	_
@@ -1277,7 +1277,7 @@
 3	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 4	n't	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	Negation=Yes
 5	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	MSeg=see-n
-6	any	any	DET	DT	PronType=Ind	5	obj	5:obj	Bridge=86<87|Entity=(87-animal-acc:inf-nnnnn-cf3-1-sgl)
+6	any	any	DET	DT	PronType=Ind	5	obj	5:obj	Bridge=86<87:comparison-sense|Entity=(87-animal-acc:inf-nnnnn-cf3-1-sgl)
 7	yet	yet	ADV	RB	_	5	advmod	5:advmod	_
 8	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=joint-list_m:121->120:0:dm-and-865-gold|PDTB=Explicit:Expansion.Conjunction:and:865:858-864:866-870
 9-10	it's	_	_	_	_	_	_	_	_
@@ -1293,7 +1293,7 @@
 18	hoping	hope	VERB	VBG	Tense=Pres|VerbForm=Part	5	parataxis	5:parataxis	MSeg=hop-ing
 19	to	to	PART	TO	_	20	mark	20:mark	_
 20	see	see	VERB	VB	VerbForm=Inf	18	xcomp	18:xcomp	_
-21	some	some	DET	DT	PronType=Ind	20	obj	20:obj	Bridge=86<88|Entity=(88-animal-acc:inf-nnnnn-cf4-1-sgl)
+21	some	some	DET	DT	PronType=Ind	20	obj	20:obj	Bridge=86<88:comparison-sense|Entity=(88-animal-acc:inf-nnnnn-cf4-1-sgl)
 22	today	today	NOUN	NN	Number=Sing	20	obl:unmarked	20:obl:unmarked	Entity=(3-time-giv:act-nsssn-cf2-1-coref)|MSeg=to-day|XML=<date when:::"2020-08-05"></date>
 23	and	and	CCONJ	CC	_	25	cc	25:cc	Discourse=restatement-partial:123->118:2:ref-prs-850,881-_+dm-and-880-gold|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:and:880:850-855:858-879,881-883
 24	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	25:nsubj	Entity=(2-person-giv:act-nnnss-cf1-1-ana)
@@ -1316,7 +1316,7 @@
 # transition = null
 # speaker = JeanieMarie
 # text = Glad it was mama and babies, so cute, and far away.
-1	Glad	Glad	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=evaluation-comment:125->126:0:_;attribution-positive:125->126:0:0:lex-indwd-887-gold+sem-atsrc-836-gold
+1	Glad	glad	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=evaluation-comment:125->126:0:_;attribution-positive:125->126:0:0:lex-indwd-887-gold+sem-atsrc-836-gold
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj|6:nsubj	Discourse=joint-list_m:126->124:0:_
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
 4	mama	mama	NOUN	NN	Number=Sing	1	ccomp	1:ccomp	Entity=(78-animal-giv:inact-ssssn-cf1-1-pred)
@@ -1344,7 +1344,7 @@
 3	,	,	PUNCT	,	_	7	punct	7:punct	_
 4	not	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	Negation=Yes
 5	on	on	ADP	IN	_	7	case	7:case	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(89-place-new-nnnnn-cf1-2-sgl
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Bridge=52<89:entity-associative|Entity=(89-place-acc:inf-nnnnn-cf1-2-sgl
 7	trail	trail	NOUN	NN	Number=Sing	2	parataxis	2:parataxis	Entity=89)|SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -1450,7 +1450,7 @@
 # text = We got beers at Pizza Hut in Montana!
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration-additional:136->135:1:ref-prs-939,962-_|Entity=(2-person-giv:act-nnnss-cf1*-1-ana)
 2	got	get	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
-3	beers	beer	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=(92-object-new-snsns-cf2-1-coref)|MSeg=beer-s
+3	beers	beer	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=(92-object-new-snsns-cf2-1-sgl)|MSeg=beer-s
 4	at	at	ADP	IN	_	6	case	6:case	_
 5	Pizza	Pizza	PROPN	NNP	Number=Sing	6	compound	6:compound	Entity=(93-organization-new-ssnns-cf3-1,2-coref
 6	Hut	Hut	PROPN	NNP	Number=Sing	2	obl	2:obl:at	Entity=93)
@@ -1466,12 +1466,12 @@
 # transition = smooth-shift
 # speaker = JeanieMarie
 # text = Montana, you can get beer.
-1	Montana	Montana	PROPN	NNP	Number=Sing	5	dislocated	5:dislocated	Discourse=context-background:137->136:0:sem-mrnym-964,976-_+sem-rpt-969,971-_|Entity=(94-place-giv:act-snnnn-cf1*-1-coref-Montana)|SpaceAfter=No
+1	Montana	Montana	PROPN	NNP	Number=Sing	5	dislocated	5:dislocated	Discourse=context-background:137->136:0:sem-rpt-969,971-_|Entity=(94-place-giv:act-snnnn-cf1*-1-coref-Montana)|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(10-person-giv:inact-nnsnn-cf2-1-ana)
 4	can	can	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
 5	get	get	VERB	VB	VerbForm=Inf	0	root	0:root	_
-6	beer	beer	NOUN	NN	Number=Sing	5	obj	5:obj	Bridge=92<95|Entity=(95-substance-acc:inf-nnnnn-cf3-1-coref)|SpaceAfter=No
+6	beer	beer	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=(95-substance-auto-nnnnn-cf3-1-coref)|SpaceAfter=No
 7	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_vlog_hiking-59
@@ -1614,7 +1614,7 @@
 # text = I told him a small.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=adversative-concession:149->152:1:_|Entity=(10-person-giv:inact-nnsnn-cf1-1-ana)
 2	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	Cxn=Ditransitive|CxnElt=2:Ditransitive.V|MSeg=tol-d
-3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	2:iobj	Bridge=97<98|CxnElt=2:Ditransitive.Rec|Entity=(98-person-acc:inf-nnnnn-cf2-1-sgl)
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	2:iobj	CxnElt=2:Ditransitive.Rec|Entity=(98-person-auto-nnnnn-cf2-1-sgl)
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	_
 5	small	small	ADJ	JJ	Degree=Pos	2	obj	2:obj	CxnElt=2:Ditransitive.Theme|SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -1703,7 +1703,7 @@
 27	cream	cream	NOUN	NN	Number=Sing	24	obj	24:obj	Entity=97)
 28	and	and	CCONJ	CC	_	29	cc	29:cc	Discourse=joint-list_m:156->155:0:dm-and-1089-gold|PDTB=Explicit:Expansion.Conjunction:and:1089:1080-1088:1090-1095
 29	enjoy	enjoy	VERB	VB	VerbForm=Inf	24	conj	22:xcomp|24:conj:and	MSeg=en-joy
-30	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	32	nmod:poss	32:nmod:poss	Entity=(102-time-new-nnnnn-cf4-3-sgl(2-person-giv:act-nnnss-cf1-1-ana)
+30	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	32	nmod:poss	32:nmod:poss	Bridge=3<102:comparison-time;set-span-interval|Entity=(102-time-acc:inf-nnnnn-cf4-3-sgl(2-person-giv:act-nnnss-cf1-1-ana)
 31	last	last	ADJ	JJ	Degree=Pos	32	amod	32:amod	_
 32	evening	evening	NOUN	NN	Number=Sing	29	obj	29:obj	MSeg=even-ing
 33	here	here	ADV	RB	PronType=Dem	32	advmod	32:advmod	Entity=(94-place-giv:inact-snnnn-cf3-1-coref-Montana)102)|SpaceAfter=No
@@ -1817,7 +1817,7 @@
 # text = We had such a great time being back in Glacier and I hope this inspired you to come out here and see one of our most favorite national parks we've ever been to in the USA.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint-other_m:166->86:3:_|Entity=(2-person-giv:act-nnnss-cf1*-1-ana)|PDTB=EntRel:EntRel:_:_:1128-1141:1142-1179
 2	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
-3	such	such	DET	PDT	PronType=Dem	6	det:predet	6:det:predet	Entity=(104-time-new-nnnss-cf3-4-coref
+3	such	such	DET	PDT	PronType=Ind	6	det:predet	6:det:predet	Entity=(104-time-new-nnnss-cf3-4-coref
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	_
 5	great	great	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
 6	time	time	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=104)
@@ -1914,11 +1914,11 @@
 4	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	8:advcl:if	CxnElt=8:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 5	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes
 6	already	already	ADV	RB	_	4	advmod	4:advmod	MSeg=al-ready
-7	be	be	AUX	VB	Mood=Imp|Person=2|VerbForm=Fin	8	cop	8:cop	Discourse=same-unit_m:176->174:0:_
+7	be	be	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	8	cop	8:cop	Discourse=same-unit_m:176->174:0:_
 8	sure	sure	ADJ	JJ	Degree=Pos	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=8:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
 9	to	to	PART	TO	_	10	mark	10:mark	_
 10	give	give	VERB	VB	VerbForm=Inf	8	xcomp	8:xcomp	Cxn=Ditransitive|CxnElt=10:Ditransitive.V
-11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	12:det	Entity=(111-abstract-acc:com-nnnnn-cf2-2-sgl
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	12:det	Entity=(111-abstract-acc:com-nnnnn-cf2-2-coref
 12	video	video	NOUN	NN	Number=Sing	10	iobj	10:iobj	CxnElt=10:Ditransitive.Rec|Entity=111)
 13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(112-abstract-new-nnnnn-cf3-2-sgl
 14	thumbs	thumb	NOUN	NN	Number=Sing	10	obj	10:obj	CxnElt=10:Ditransitive.Theme
@@ -1934,21 +1934,21 @@
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=contingency-condition:177->178:0:dm-if-1228-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:1228:1233-1236:1229-1232;Implicit:Expansion.Conjunction:and:_:1212-1227:1228-1246
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(10-person-giv:act-nnsnn-cf1*-1-ana)
 3	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	8:advcl:if	CxnElt=8:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
-4	any	any	DET	DT	PronType=Ind	5	det	5:det	Entity=(113-abstract-new-nnnnn-cf2-2-sgl
+4	any	any	DET	DT	PronType=Ind	5	det	5:det	Entity=(113-abstract-new-nnnnn-cf3-2-sgl
 5	questions	question	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=113)|MSeg=question-s
 6	of	of	ADP	IN	ExtPos=ADV	8	advmod	8:advmod	Discourse=joint-other_m:178->174:1:_
 7	course	course	NOUN	NN	Number=Sing	6	fixed	6:fixed	_
-8	comment	comment	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=8:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
+8	comment	comment	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=8:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
 9	below	below	ADV	RB	Degree=Pos	8	advmod	8:advmod	MSeg=be-low
 10	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=joint-other_m:179->174:1:dm-and-1237-gold|PDTB=Explicit:Expansion.Conjunction:and:1237:1228-1236:1238-1246
 11-12	don't	_	_	_	_	_	_	_	_
 11	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	13:aux	_
 12	n't	not	PART	RB	Polarity=Neg	13	advmod	13:advmod	Negation=Yes
-13	forget	forget	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	8	conj	8:conj:and	MSeg=for-get
+13	forget	forget	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	8	conj	8:conj:and	MSeg=for-get
 14	to	to	PART	TO	_	15	mark	15:mark	_
 15	subscribe	subscribe	VERB	VB	VerbForm=Inf	13	xcomp	13:xcomp	_
 16	for	for	ADP	IN	_	18	case	18:case	_
-17	future	future	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(114-abstract-new-nnnnn-cf3-2-sgl
+17	future	future	ADJ	JJ	Degree=Pos	18	amod	18:amod	Bridge=111<114:comparison-relative|Entity=(114-abstract-acc:inf-nnnnn-cf2-2-sgl
 18	videos	video	NOUN	NNS	Number=Plur	15	obl	15:obl:for	Entity=114)|MSeg=video-s|SpaceAfter=No
 19	.	.	PUNCT	.	_	8	punct	8:punct	_
 

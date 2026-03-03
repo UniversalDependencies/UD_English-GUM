@@ -64,7 +64,7 @@
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(6-time-new-nnnnn-cf3-2-sgl
 3	end	end	NOUN	NN	Number=Sing	11	obl	11:obl:by	_
 4	of	of	ADP	IN	_	6	case	6:case	_
-5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	6:det	Entity=(7-abstract-acc:com-ssnnn-cf2-2-sgl
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	6:det	Bridge=1<7:entity-associative|Entity=(7-abstract-acc:inf-ssnnn-cf2-2-sgl
 6	section	section	NOUN	NN	Number=Sing	3	nmod	3:nmod:of	Entity=7)6)|MSeg=sect-ion|SpaceAfter=No
 7	,	,	PUNCT	,	_	3	punct	3:punct	_
 8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj|12:nsubj:xsubj	Entity=(8-person-acc:com-nnnnn-cf1-1-sgl)
@@ -81,7 +81,7 @@
 # s_type = inf
 # transition = null
 # text = Locate on a map the major American civilizations before the arrival of the Spanish
-1	Locate	locate	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	Discourse=organization-preparation:5->77:8:_|MSeg=Loc-ate
+1	Locate	locate	VERB	VB	VerbForm=Inf	0	root	0:root	Discourse=organization-preparation:5->77:8:_|MSeg=Loc-ate
 2	on	on	ADP	IN	_	4	case	4:case	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(9-object-new-nnnnn-cf4-2-sgl
 4	map	map	NOUN	NN	Number=Sing	1	obl	1:obl:on	Entity=9)
@@ -103,7 +103,7 @@
 # s_type = inf
 # transition = establishment
 # text = Discuss the cultural achievements of these civilizations
-1	Discuss	discuss	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	Discourse=joint-list_m:6->5:0:grf-seq-_-_
+1	Discuss	discuss	VERB	VB	VerbForm=Inf	0	root	0:root	Discourse=joint-list_m:6->5:0:grf-seq-_-_
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(13-abstract-new-nnnnn-cf2-3-sgl
 3	cultural	cultural	ADJ	JJ	Degree=Pos	4	amod	4:amod	MSeg=cultur-al
 4	achievements	achievement	NOUN	NNS	Number=Plur	1	obj	1:obj	MSeg=achieve-ment-s
@@ -118,7 +118,7 @@
 # s_type = inf
 # transition = zero
 # text = Discuss the differences and similarities between lifestyles, religious practices, and customs among the native peoples
-1	Discuss	discuss	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	Discourse=joint-list_m:7->5:0:grf-seq-_-_+sem-lxchn-36,66-gold
+1	Discuss	discuss	VERB	VB	VerbForm=Inf	0	root	0:root	Discourse=joint-list_m:7->5:0:grf-seq-_-_+sem-lxchn-36,66-gold+sem-mrnym-48-49,64-66-_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(14-abstract-new-nnnnn-cf2-2,4-sgl
 3	differences	difference	NOUN	NNS	Number=Plur	1	obj	1:obj	MSeg=differ-ence-s
 4	and	and	CCONJ	CC	_	5	cc	5:cc	_
@@ -132,7 +132,7 @@
 12	and	and	CCONJ	CC	_	13	cc	13:cc	_
 13	customs	custom	NOUN	NNS	Number=Plur	7	conj	3:nmod:between|7:conj:and	Entity=(17-abstract-new-nnnnn-cf5-1-sgl)|MSeg=custom-s
 14	among	among	ADP	IN	_	17	case	17:case	MSeg=a-mong
-15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Bridge=1<18|Entity=(18-person-acc:inf-nnnnn-cf1-3-sgl
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Bridge=10<18:entity-associative|Entity=(18-person-acc:inf-nnnnn-cf1-3-sgl
 16	native	native	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
 17	peoples	people	NOUN	NNS	Number=Plur	7	nmod	7:nmod:among	Entity=18)14)|MSeg=people-s
 
@@ -250,7 +250,7 @@
 # transition = smooth-shift
 # text = Later settlers came by boat across the narrow strait.
 1	Later	late	ADV	RBR	Degree=Cmp	3	advmod	3:advmod	Discourse=joint-sequence_m:18->17:1:dm-later-143-gold|MSeg=Lat-er|PDTB=Explicit:Temporal.Asynchronous.Precedence:later:143:127-142:144-152
-2	settlers	settler	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=(36-abstract-new-nnnnn-cf4-2-disc(37-person-new-nnnnn-cf2-1-coref)|MSeg=settl-er-s
+2	settlers	settler	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Bridge=1<37:entity-associative|Entity=(36-abstract-new-nnnnn-cf4-2-disc(37-person-acc:inf-nnnnn-cf2-1-coref)|MSeg=settl-er-s
 3	came	come	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	by	by	ADP	IN	_	5	case	5:case	_
 5	boat	boat	NOUN	NN	Number=Sing	3	obl	3:obl:by	Entity=(38-object-new-nnnnn-cf3-1-sgl)
@@ -265,7 +265,7 @@
 # s_type = decl
 # transition = smooth-shift
 # text = (The fact that Asians and American Indians share genetic markers on a Y chromosome lends credibility to this migration theory.)
-1	(	(	PUNCT	-LRB-	_	16	punct	16:punct	Discourse=explanation-evidence:19->14:1:_|SpaceAfter=No
+1	(	(	PUNCT	-LRB-	_	16	punct	16:punct	Discourse=explanation-evidence:19->14:1:_|PDTB=Implicit:Contingency.Cause.Result:so:_:143-152:153-175|SpaceAfter=No
 2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(39-abstract-new-nnnnn-cf2-2,7-sgl
 3	fact	fact	NOUN	NN	Number=Sing	16	nsubj	16:nsubj	_
 4	that	that	SCONJ	IN	_	9	mark	9:mark	Discourse=elaboration-attribute:20->19:0:syn-mdf-155-_+syn-nmn-156,161-_
@@ -294,7 +294,7 @@
 # s_type = decl
 # transition = zero
 # text = Continually moving southward, the settlers eventually populated both North and South America, creating unique cultures that ranged from the highly complex and urban Aztec civilization in what is now Mexico City to the woodland tribes of eastern North America.
-1	Continually	continually	ADV	RB	Degree=Pos	2	advmod	2:advmod	Discourse=mode-manner:22->23:1:syn-pres-177-_|MSeg=Continu-al-ly
+1	Continually	continually	ADV	RB	Degree=Pos	2	advmod	2:advmod	Discourse=mode-manner:22->23:1:syn-pres-177-_|MSeg=Continu-al-ly|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:153-175:176-217
 2	moving	move	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	8:advcl	MSeg=mov-ing
 3	southward	southward	ADV	RB	Degree=Pos	2	advmod	2:advmod	MSeg=south-ward|SpaceAfter=No
 4	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -342,7 +342,7 @@
 # s_type = decl
 # transition = establishment
 # text = Recent research along the west coast of South America suggests that migrant populations may have traveled down this coast by water as well as by land.
-1	Recent	Recent	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=attribution-positive:26->27:0:sem-atsrc-218-226-_+lex-indwd-227-_+syn-rpr-228-_|Entity=(54-abstract-new-nnnnn-cf4-2,8-sgl|PDTB=Implicit:Expansion.Conjunction:furthermore:_:176-217:218-244
+1	Recent	recent	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=attribution-positive:26->27:0:sem-atsrc-218-226-_+lex-indwd-227-_+syn-rpr-228-_|Entity=(54-abstract-new-nnnnn-cf4-2,8-sgl|PDTB=Implicit:Expansion.Conjunction:furthermore:_:176-217:218-244
 2	research	research	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	_
 3	along	along	ADP	IN	_	6	case	6:case	MSeg=a-long
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(55-place-new-nnnnn-cf1-3,5-coref
@@ -353,7 +353,7 @@
 9	America	America	PROPN	NNP	Number=Sing	6	nmod	6:nmod:of	Entity=46)55)54)
 10	suggests	suggest	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=suggest-s
 11	that	that	SCONJ	IN	_	16	mark	16:mark	Discourse=elaboration-additional:27->23:2:sem-synym-187-188,225-226-_
-12	migrant	migrant	ADJ	JJ	Degree=Pos	13	amod	13:amod	Entity=(56-person-new-nnnnn-cf3-2-sgl|MSeg=migr-ant
+12	migrant	migrant	ADJ	JJ	Degree=Pos	13	amod	13:amod	Entity=(56-person-new-nnnnn-cf3-2-coref|MSeg=migr-ant
 13	populations	population	NOUN	NNS	Number=Plur	16	nsubj	16:nsubj	Entity=56)|MSeg=populat-ion-s
 14	may	may	AUX	MD	VerbForm=Fin	16	aux	16:aux	_
 15	have	have	AUX	VB	VerbForm=Inf	16	aux	16:aux	_
@@ -375,24 +375,24 @@
 # s_type = decl
 # transition = zero
 # text = Researchers believe that about ten thousand years ago, humans also began the domestication of plants and animals, adding agriculture as a means of sustenance to hunting and gathering techniques.
-1	Researchers	researcher	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Discourse=attribution-positive:28->29:1:sem-atsrc-245-_+lex-indwd-246-_+syn-rpr-247-_|Entity=(59-person-new-nnnnn-cf2-1-sgl)|MSeg=Research-er-s|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:218-244:245-276
+1	Researchers	researcher	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Discourse=attribution-positive:28->29:1:sem-atsrc-245-_+lex-indwd-246-_+syn-rpr-247-_|Entity=(59-person-new-nnnnn-cf3-1-sgl)|MSeg=Research-er-s|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:218-244:245-276
 2	believe	believe	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	that	that	SCONJ	IN	_	12	mark	12:mark	Discourse=joint-sequence_m:29->14:3:lex-indph-249-252-_+dm-also-255-gold
-4	about	about	ADV	RB	_	6	advmod	6:advmod	Entity=(60-time-new-nnnnn-cf5-4-sgl
+4	about	about	ADV	RB	_	6	advmod	6:advmod	Entity=(60-time-new-nnnnn-cf6-4-sgl
 5	ten	ten	NUM	CD	NumForm=Word|NumType=Card	6	compound	6:compound	XML=<date when:::"-8000">
 6	thousand	thousand	NUM	CD	NumForm=Word|NumType=Card	7	nummod	7:nummod	_
 7	years	year	NOUN	NNS	Number=Plur	8	obl:unmarked	8:obl:unmarked	Entity=60)|MSeg=year-s
 8	ago	ago	ADV	RB	Degree=Pos	12	advmod	12:advmod	MSeg=a-go|SpaceAfter=No|XML=</date>
 9	,	,	PUNCT	,	_	8	punct	8:punct	_
-10	humans	human	NOUN	NNS	Number=Plur	12	nsubj	12:nsubj	Entity=(61-person-new-nnnnn-cf3-1-sgl)|MSeg=human-s
+10	humans	human	NOUN	NNS	Number=Plur	12	nsubj	12:nsubj	Entity=(61-person-new-nnnnn-cf4-1-coref)|MSeg=human-s
 11	also	also	ADV	RB	_	12	advmod	12:advmod	PDTB=Explicit:Expansion.Conjunction:also:255:176-217:245-254,256-276
 12	began	begin	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	2:ccomp	_
-13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(62-event-new-nnnnn-cf4-2-coref
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(62-event-new-nnnnn-cf5-2-coref
 14	domestication	domestication	NOUN	NN	Number=Sing	12	obj	12:obj	MSeg=domestic-at-ion
 15	of	of	ADP	IN	_	16	case	16:case	_
-16	plants	plant	NOUN	NNS	Number=Plur	14	nmod	14:nmod:of	Entity=(63-plant-new-nnnnn-cf6-1-sgl)|MSeg=plant-s
+16	plants	plant	NOUN	NNS	Number=Plur	14	nmod	14:nmod:of	Entity=(63-plant-new-nnnnn-cf7-1-sgl)|MSeg=plant-s
 17	and	and	CCONJ	CC	_	18	cc	18:cc	_
-18	animals	animal	NOUN	NNS	Number=Plur	16	conj	14:nmod:of|16:conj:and	Entity=(64-animal-new-nnnnn-cf7-1-sgl)62)|MSeg=animal-s|SpaceAfter=No
+18	animals	animal	NOUN	NNS	Number=Plur	16	conj	14:nmod:of|16:conj:and	Entity=(64-animal-new-nnnnn-cf8-1-sgl)62)|MSeg=animal-s|SpaceAfter=No
 19	,	,	PUNCT	,	_	20	punct	20:punct	_
 20	adding	add	VERB	VBG	Tense=Pres|VerbForm=Part	12	advcl	12:advcl	Discourse=causal-result:30->29:0:syn-pres-264-_|MSeg=add-ing|PDTB=Implicit:Contingency.Cause.Result:thus:_:247-263:264-276
 21	agriculture	agriculture	NOUN	NN	Number=Sing	20	obj	20:obj	Entity=(65-abstract-new-nnnnn-cf1-1-coref)
@@ -400,9 +400,9 @@
 23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(65-abstract-giv:act-nnnnn-cf1-2-pred
 24	means	means	NOUN	NN	Number=Sing	20	obl	20:obl:as	_
 25	of	of	ADP	IN	_	26	case	26:case	_
-26	sustenance	sustenance	NOUN	NN	Number=Sing	24	nmod	24:nmod:of	Entity=(66-abstract-new-nnnnn-cf8-1-sgl)65)|MSeg=susten-ance
+26	sustenance	sustenance	NOUN	NN	Number=Sing	24	nmod	24:nmod:of	Bridge=61<66:entity-associative|Entity=(66-abstract-acc:inf-nnnnn-cf2-1-sgl)65)|MSeg=susten-ance
 27	to	to	ADP	IN	_	31	case	31:case	_
-28	hunting	hunting	NOUN	NN	Number=Sing	31	compound	31:compound	Entity=(67-abstract-new-nnnnn-cf9-4-sgl(68-event-new-nnnnn-cf11-1-sgl)|MSeg=hunt-ing
+28	hunting	hunting	NOUN	NN	Number=Sing	31	compound	31:compound	Entity=(67-abstract-new-nnnnn-cf9-4-coref(68-event-new-nnnnn-cf11-1-sgl)|MSeg=hunt-ing
 29	and	and	CCONJ	CC	_	30	cc	30:cc	_
 30	gathering	gathering	NOUN	NN	Number=Sing	28	conj	28:conj:and|31:compound	Entity=(69-event-new-nnnnn-cf10-1-sgl)|MSeg=gather-ing
 31	techniques	technique	NOUN	NNS	Number=Plur	20	obl	20:obl:to	Entity=67)|MSeg=technique-s|SpaceAfter=No
@@ -419,25 +419,25 @@
 4	revolution	revolution	NOUN	NN	Number=Sing	18	obl	18:obl:with	Entity=62)|MSeg=revol-ution|SpaceAfter=No
 5	,	,	PUNCT	,	_	13	punct	13:punct	_
 6	and	and	CCONJ	CC	_	13	cc	13:cc	_
-7	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(70-object-new-nnnnn-cf6-7-sgl
+7	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Bridge=67<70:comparison-relative|Entity=(70-object-acc:inf-nnnnn-cf5-7-sgl
 8	more	more	ADV	RBR	Degree=Cmp	9	advmod	9:advmod	_
 9	abundant	abundant	ADJ	JJ	Degree=Pos	13	amod	13:amod	MSeg=abund-ant
 10	and	and	CCONJ	CC	_	11	cc	11:cc	_
 11	reliable	reliable	ADJ	JJ	Degree=Pos	9	conj	9:conj:and|13:amod	MSeg=reli-able
 12	food	food	NOUN	NN	Number=Sing	13	compound	13:compound	Entity=(71-substance-new-nnnnn-cf9-1-sgl)
-13	supplies	supply	NOUN	NNS	Number=Plur	4	conj	4:conj:and|18:obl:with	MSeg=supp-lie-s
+13	supplies	supply	NOUN	NNS	Number=Plur	4	conj	4:conj:and|18:obl:with	MSeg=supplie-s
 14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj	Discourse=elaboration-attribute:32->31:0:syn-mdf-289-_+syn-relcl-291-_|Entity=(62-event-giv:act-nnnnn-cf1*-1-ana)
 15	brought	bring	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	13:acl:relcl	Entity=70)|SpaceAfter=No
 16	,	,	PUNCT	,	_	4	punct	4:punct	_
-17	populations	population	NOUN	NNS	Number=Plur	18	nsubj	18:nsubj	Discourse=same-unit_m:33->31:1:_|Entity=(72-event-new-nnnnn-cf8-2,6-disc(73-person-new-nnnnn-cf2-1-sgl)|MSeg=populat-ion-s
+17	populations	population	NOUN	NNS	Number=Plur	18	nsubj	18:nsubj	Bridge=61<73:comparison-sense|Discourse=same-unit_m:33->31:1:_|Entity=(72-event-new-nnnnn-cf8-2,6-disc(73-person-acc:inf-nnnnn-cf2-1-coref)|MSeg=populat-ion-s
 18	grew	grow	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 19	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=joint-other_m:34->31:2:dm-and-295-gold|PDTB=Explicit:Expansion.Conjunction:and:295:277-294:296-311
-20	people	person	NOUN	NNS	Number=Plur	22	nsubj	22:nsubj|24:nsubj:xsubj	Entity=(74-person-new-nnnnn-cf3-1-sgl)
+20	people	person	NOUN	NNS	Number=Plur	22	nsubj	22:nsubj|24:nsubj:xsubj	Bridge=73<74:entity-associative|Entity=(74-person-acc:inf-nnnnn-cf3-1-sgl)
 21	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	cop	22:cop	_
 22	able	able	ADJ	JJ	Degree=Pos	18	conj	18:conj:and	_
 23	to	to	PART	TO	_	24	mark	24:mark	_
 24	develop	develop	VERB	VB	VerbForm=Inf	22	xcomp	22:xcomp	_
-25	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	28:det	Entity=(75-abstract-new-nnnnn-cf4-4-sgl
+25	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	28:det	Bridge=56<75:comparison-relative|Entity=(75-abstract-acc:inf-nnnnn-cf4-4-sgl
 26	more	more	ADV	RBR	Degree=Cmp	27	advmod	27:advmod	_
 27	settled	settle	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	28	amod	28:amod	MSeg=settl-ed
 28	way	way	NOUN	NN	Number=Sing	24	obj	24:obj	_
@@ -445,7 +445,7 @@
 30	life	life	NOUN	NN	Number=Sing	28	nmod	28:nmod:of	Entity=(76-abstract-new-nnnnn-cf7-1-sgl)75)|SpaceAfter=No
 31	,	,	PUNCT	,	_	32	punct	32:punct	_
 32	building	build	VERB	VBG	Tense=Pres|VerbForm=Part	24	advcl	24:advcl	Discourse=elaboration-additional:35->34:0:sem-lxchn-303,310-gold+syn-pres-308-_|MSeg=build-ing|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:295-307:308-311
-33	permanent	permanent	ADJ	JJ	Degree=Pos	34	amod	34:amod	Entity=(77-place-new-snnnn-cf5-2-sgl
+33	permanent	permanent	ADJ	JJ	Degree=Pos	34	amod	34:amod	Entity=(77-place-new-snnnn-cf6-2-sgl
 34	settlements	settlement	NOUN	NNS	Number=Plur	32	obj	32:obj	Entity=77)72)|MSeg=settle-ment-s|SpaceAfter=No
 35	.	.	PUNCT	.	_	18	punct	18:punct	_
 
@@ -486,7 +486,7 @@
 # s_type = decl
 # transition = zero
 # text = This map shows the extent of the major civilizations of the Western Hemisphere.
-1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=context-background:39->36:1:_|Entity=(81-object-acc:com-nnnnn-cf1-2-sgl|PDTB=NoRel:NoRel:_:_:328-329:330-343
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Bridge=80<81:entity-associative|Discourse=context-background:39->36:1:_|Entity=(81-object-acc:inf-nnnnn-cf1-2-sgl|PDTB=NoRel:NoRel:_:_:328-329:330-343
 2	map	map	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=81)
 3	shows	show	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=show-s
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(82-abstract-new-nnnnn-cf2-2,9-sgl
@@ -514,7 +514,7 @@
 6	civilizations	civilization	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	Entity=85)|MSeg=civiliz-ation-s
 7	developed	develop	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=develop-ed
 8	along	along	ADP	IN	_	10	case	10:case	MSeg=a-long
-9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=46<86|Entity=(86-place-acc:inf-nnnnn-cf2-2-sgl
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=46<86:entity-meronomy|Entity=(86-place-acc:inf-nnnnn-cf2-2-sgl
 10	coast	coast	NOUN	NN	Number=Sing	7	obl	7:obl:along	Entity=86)
 11	because	because	SCONJ	IN	_	20	mark	20:mark	Discourse=causal-cause:41->40:0:dm-because-354-gold|MSeg=be-cause|PDTB=Explicit:Contingency.Cause.Reason:because:354:344-353:355-373
 12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(87-place-new-nnnnn-cf3-3-sgl-Andes
@@ -585,7 +585,7 @@
 1	Although	although	SCONJ	IN	_	2	mark	2:mark	Discourse=adversative-concession:46->47:1:dm-although-398-gold|MSeg=Al-though|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:although:398:410-420:399-409
 2	marked	mark	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	advcl	15:advcl:although	MSeg=mark-ed
 3	by	by	ADP	IN	_	11	case	11:case	_
-4	great	great	ADJ	JJ	Degree=Pos	11	amod	11:amod	Entity=(97-abstract-new-nnnnn-cf3-8-sgl
+4	great	great	ADJ	JJ	Degree=Pos	11	amod	11:amod	Entity=(97-abstract-new-nnnnn-cf4-8-sgl
 5	topographic	topographic	ADJ	JJ	Degree=Pos	11	amod	11:amod	MSeg=topograph-ic|SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	5:punct	_
 7	linguistic	linguistic	ADJ	JJ	Degree=Pos	11	amod	11:amod	MSeg=linguist-ic|SpaceAfter=No
@@ -597,12 +597,12 @@
 13	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	14:det	Discourse=context-background:47->77:3:sem-synym-413-419,587-588-_|Entity=(79-place-giv:act-nnnns-cf1*-2-coref-Mesoamerica
 14	region	region	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=79)
 15	cradled	cradle	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=cradl-ed
-16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(98-abstract-new-nsnss-cf2-2-coref
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(98-abstract-new-nsnss-cf3-2-coref
 17	number	number	NOUN	NN	Number=Sing	15	obj	15:obj	_
 18	of	of	ADP	IN	_	19	case	19:case	_
 19	civilizations	civilization	NOUN	NNS	Number=Plur	17	nmod	17:nmod:of	MSeg=civiliz-ation-s
 20	with	with	ADP	IN	_	22	case	22:case	_
-21	similar	similar	ADJ	JJ	Degree=Pos	22	amod	22:amod	Entity=(99-abstract-new-nnnnn-cf4-2-sgl|PDTB=AltLex:Expansion.Conjunction:similar:418:380-397:398-417,419-420
+21	similar	similar	ADJ	JJ	Degree=Pos	22	amod	22:amod	Bridge=98<99:comparison-relative|Entity=(99-abstract-acc:inf-nnnnn-cf2-2-sgl|PDTB=AltLex:Expansion.Conjunction:similar:418:380-397:398-417,419-420
 22	characteristics	characteristic	NOUN	NNS	Number=Plur	19	nmod	19:nmod:with	Entity=99)98)|MSeg=character-istic-s|SpaceAfter=No
 23	.	.	PUNCT	.	_	15	punct	15:punct	_
 
@@ -771,38 +771,38 @@
 # s_type = decl
 # transition = null
 # text = Weapons made of obsidian, jewelry crafted from jade, feathers woven into clothing and ornaments, and cacao beans that were whipped into a chocolate drink formed the basis of commerce.
-1	Weapons	weapon	NOUN	NNS	Number=Plur	28	nsubj	28:nsubj	Discourse=elaboration-additional:68->67:1:_|Entity=(130-object-new-nnnnn-cf1-1-sgl|MSeg=Weapon-s|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:534-550:551-583
+1	Weapons	weapon	NOUN	NNS	Number=Plur	28	nsubj	28:nsubj	Discourse=elaboration-additional:68->67:1:sem-mrnym-535-536,582-_|Entity=(130-object-new-nnnnn-cf2-1-sgl|MSeg=Weapon-s|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:534-550:551-583
 2	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	acl	1:acl	Discourse=elaboration-attribute:69->68:0:syn-mdf-551-_+syn-nmn-552-_
 3	of	of	ADP	IN	_	4	case	4:case	_
-4	obsidian	obsidian	NOUN	NN	Number=Sing	2	obl	2:obl:of	Entity=(131-substance-new-nnnnn-cf3-1-sgl)130)|SpaceAfter=No
+4	obsidian	obsidian	NOUN	NN	Number=Sing	2	obl	2:obl:of	Entity=(131-substance-new-nnnnn-cf4-1-sgl)130)|SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
-6	jewelry	jewelry	NOUN	NN	Number=Sing	1	conj	1:conj:and|28:nsubj	Discourse=same-unit_m:70->68:1:_|Entity=(132-object-new-nnnnn-cf4-1-sgl|MSeg=jewel-ry
+6	jewelry	jewelry	NOUN	NN	Number=Sing	1	conj	1:conj:and|28:nsubj	Discourse=same-unit_m:70->68:1:_|Entity=(132-object-new-nnnnn-cf5-1-sgl|MSeg=jewel-ry
 7	crafted	craft	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl	6:acl	Discourse=elaboration-attribute:71->70:0:syn-mdf-556-_+syn-nmn-557-_|MSeg=craft-ed
 8	from	from	ADP	IN	_	9	case	9:case	_
-9	jade	jade	NOUN	NN	Number=Sing	7	obl	7:obl:from	Entity=(133-substance-new-nnnnn-cf5-1-sgl)132)|SpaceAfter=No
+9	jade	jade	NOUN	NN	Number=Sing	7	obl	7:obl:from	Entity=(133-substance-new-nnnnn-cf6-1-sgl)132)|SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	11:punct	_
-11	feathers	feather	NOUN	NNS	Number=Plur	1	conj	1:conj:and|28:nsubj	Discourse=same-unit_m:72->68:1:_|Entity=(134-object-new-nnnnn-cf6-1-sgl|MSeg=feather-s
+11	feathers	feather	NOUN	NNS	Number=Plur	1	conj	1:conj:and|28:nsubj	Discourse=same-unit_m:72->68:1:_|Entity=(134-object-new-nnnnn-cf7-1-sgl|MSeg=feather-s
 12	woven	wove	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	acl	11:acl	Discourse=elaboration-attribute:73->72:0:syn-mdf-561-_+syn-nmn-562-_|MSeg=wov-en
 13	into	into	ADP	IN	_	14	case	14:case	MSeg=in-to
-14	clothing	clothing	NOUN	NN	Number=Sing	12	obl	12:obl:into	Entity=(135-object-new-nnnnn-cf7-1-sgl)|MSeg=cloth-ing
+14	clothing	clothing	NOUN	NN	Number=Sing	12	obl	12:obl:into	Entity=(135-object-new-nnnnn-cf8-1-sgl)|MSeg=cloth-ing
 15	and	and	CCONJ	CC	_	16	cc	16:cc	_
-16	ornaments	ornament	NOUN	NNS	Number=Plur	14	conj	12:obl:into|14:conj:and	Entity=(136-object-new-nnnnn-cf8-1-sgl)134)|MSeg=ornament-s|SpaceAfter=No
+16	ornaments	ornament	NOUN	NNS	Number=Plur	14	conj	12:obl:into|14:conj:and	Entity=(136-object-new-nnnnn-cf9-1-sgl)134)|MSeg=ornament-s|SpaceAfter=No
 17	,	,	PUNCT	,	_	20	punct	20:punct	_
 18	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=same-unit_m:74->68:1:_
-19	cacao	cacao	NOUN	NN	Number=Sing	20	compound	20:compound	Entity=(137-plant-new-nnnnn-cf9-2-sgl
+19	cacao	cacao	NOUN	NN	Number=Sing	20	compound	20:compound	Entity=(137-plant-new-nnnnn-cf10-2-sgl
 20	beans	bean	NOUN	NNS	Number=Plur	1	conj	1:conj:and|23:nsubj:pass|28:nsubj	MSeg=bean-s
 21	that	that	PRON	WDT	PronType=Rel	23	nsubj:pass	20:ref	Discourse=elaboration-attribute:75->74:0:syn-mdf-570-_+syn-relcl-571,573-_
 22	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	23:aux:pass	_
 23	whipped	whip	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	acl:relcl	20:acl:relcl	MSeg=whipp-ed
 24	into	into	ADP	IN	_	27	case	27:case	MSeg=in-to
-25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	27:det	Entity=(138-substance-new-nnnnn-cf10-3-sgl
+25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	27:det	Entity=(138-substance-new-nnnnn-cf11-3-sgl
 26	chocolate	chocolate	NOUN	NN	Number=Sing	27	compound	27:compound	Entity=(139-substance-new-nnnnn-cf12-1-sgl)
 27	drink	drink	NOUN	NN	Number=Sing	23	obl	23:obl:into	Entity=138)137)
 28	formed	form	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:76->68:1:_|MSeg=form-ed
-29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(140-abstract-new-nnnnn-cf2-2-sgl
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(140-abstract-new-nnnnn-cf3-2-sgl
 30	basis	basis	NOUN	NN	Number=Sing	28	obj	28:obj	_
 31	of	of	ADP	IN	_	32	case	32:case	_
-32	commerce	commerce	NOUN	NN	Number=Sing	30	nmod	30:nmod:of	Entity=(141-abstract-new-nnnnn-cf11-1-sgl)140)|SpaceAfter=No
+32	commerce	commerce	NOUN	NN	Number=Sing	30	nmod	30:nmod:of	Bridge=79<141:entity-associative|Entity=(141-abstract-acc:inf-nnnnn-cf1-1-sgl)140)|SpaceAfter=No
 33	.	.	PUNCT	.	_	28	punct	28:punct	_
 
 # sent_id = GUM_textbook_history-32
@@ -892,7 +892,7 @@
 # s_type = decl
 # transition = continue
 # text = The Olmec built aqueducts to transport water into their cities and irrigate their fields.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-list_m:83->79:2:sem-lxchn-621,648-gold|Entity=(92-person-giv:act-sssss-cf1*-2-coref-Olmecs
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-list_m:83->79:2:sem-lxchn-621,648-gold|Entity=(92-person-giv:act-sssss-cf1*-2-coref-Olmecs|PDTB=Implicit:Expansion.Conjunction:also:_:628-645:646-660
 2	Olmec	Olmec	PROPN	NNPS	Number=Plur	3	nsubj	3:nsubj	Entity=92)
 3	built	build	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	aqueducts	aqueduct	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=(157-place-new-nnnnn-cf2-1-sgl)|MSeg=aqueduct-s
@@ -969,7 +969,7 @@
 15	in	in	ADP	IN	_	16	case	16:case	Discourse=causal-cause:91->90:1:dm-because-704-gold
 16	part	part	NOUN	NN	Number=Sing	20	obl	20:obl:in	_
 17	because	because	SCONJ	IN	_	20	mark	20:mark	MSeg=be-cause|PDTB=Explicit:Contingency.Cause.Reason:because:704:688-701:702-703,705-712
-18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(169-place-new-nnnnn-cf6-2-sgl
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Bridge=143<169:entity-meronomy|Entity=(169-place-acc:inf-nnnnn-cf5-2-sgl
 19	jungle	jungle	NOUN	NN	Number=Sing	20	nsubj	20:nsubj	Entity=169)
 20	reclaimed	reclaim	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	4:advcl:because	MSeg=reclaim-ed
 21	many	many	ADJ	JJ	Degree=Pos	20	obj	20:obj	_
@@ -984,7 +984,7 @@
 30	base	base	NOUN	NN	Number=Sing	0	root	0:root|38:obl:upon	_
 31	upon	upon	ADP	IN	_	32	case	32:case	Discourse=elaboration-attribute:93->92:0:syn-mdf-717-_+syn-relcl-719,725-_|MSeg=up-on
 32	which	which	PRON	WDT	PronType=Rel	38	obl	30:ref	_
-33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	34:det	Entity=(171-person-new-sssss-cf5-2-coref-Maya_peoples
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	34:det	Entity=(171-person-new-sssss-cf6-2-coref-Maya_peoples
 34	Maya	Maya	PROPN	NNPS	Number=Plur	38	nsubj	38:nsubj	Entity=171)
 35	and	and	CCONJ	CC	_	37	cc	37:cc	_
 36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	37:det	Entity=(172-person-new-nnsss-cf8-2-coref-Aztecs
@@ -1111,7 +1111,7 @@
 # s_type = decl
 # transition = establishment
 # text = All these figures have flat noses, slightly crossed eyes, and large lips.
-1	All	all	DET	PDT	PronType=Tot	3	det:predet	3:det:predet	Discourse=elaboration-additional:105->102:1:sem-synym-794,815-817-_+sem-lxchn-794,820,824-gold|Entity=(181-object-giv:act-nnnnn-cf1*-3-coref|PDTB=Implicit:Expansion.Conjunction:further:_:791-814:815-829
+1	All	all	DET	PDT	PronType=Ind	3	det:predet	3:det:predet	Discourse=elaboration-additional:105->102:1:sem-synym-794,815-817-_+sem-lxchn-794,820,824-gold|Entity=(181-object-giv:act-nnnnn-cf1*-3-coref|PDTB=Implicit:Expansion.Conjunction:further:_:791-814:815-829
 2	these	this	DET	DT	Number=Plur|PronType=Dem	3	det	3:det	_
 3	figures	figure	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=181)|MSeg=figure-s
 4	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -1234,7 +1234,7 @@
 # transition = continue
 # text = The ethnicity of this settlement’s inhabitants is debated; some scholars believe it was a multiethnic city.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=adversative-concession:111->113:1:_|Entity=(202-abstract-new-nnnnn-cf2-2-sgl|PDTB=Implicit:Expansion.Conjunction:and:_:867-902:903-921
-2	ethnicity	ethnicity	NOUN	NN	Number=Sing	9	nsubj:pass	9:nsubj:pass	MSeg=ethnic-ity
+2	ethnicity	ethnicity	NOUN	NN	Number=Sing	9	nsubj:pass	9:nsubj:pass	MSeg=ethn-ic-ity
 3	of	of	ADP	IN	_	7	case	7:case	_
 4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	5:det	Entity=(203-person-new-nnnnn-cf4-4-sgl(194-place-giv:act-nnnnn-cf1*-2-coref-Teotihuacan
 5-6	settlement’s	_	_	_	_	_	_	_	_
@@ -1259,23 +1259,23 @@
 # s_type = decl
 # transition = zero
 # text = Large-scale agriculture and the resultant abundance of food allowed time for people to develop special trades and skills other than farming.
-1	Large	large	ADJ	JJ	Degree=Pos	3	amod	3:amod	Discourse=joint-other_m:114->110:1:_|Entity=(205-abstract-new-nnnnn-cf2-4-sgl|PDTB=Implicit:Expansion.Conjunction:and:_:903-921:922-945|SpaceAfter=No|XML=<w>
+1	Large	large	ADJ	JJ	Degree=Pos	3	amod	3:amod	Discourse=joint-other_m:114->110:1:_|Entity=(205-abstract-new-nnnnn-cf3-4-coref|PDTB=Implicit:Expansion.Conjunction:and:_:903-921:922-945|SpaceAfter=No|XML=<w>
 2	-	-	PUNCT	HYPH	_	1	punct	1:punct	SpaceAfter=No
 3	scale	scale	NOUN	NN	Number=Sing	4	compound	4:compound	XML=</w>
 4	agriculture	agriculture	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	Entity=205)
 5	and	and	CCONJ	CC	_	8	cc	8:cc	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(206-abstract-new-nnnnn-cf5-3-sgl
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Bridge=205<206:entity-resultative|Entity=(206-abstract-acc:inf-nnnnn-cf2-3-sgl
 7	resultant	resultant	ADJ	JJ	Degree=Pos	8	amod	8:amod	MSeg=result-ant
 8	abundance	abundance	NOUN	NN	Number=Sing	4	conj	4:conj:and|11:nsubj	MSeg=abundan-ce
 9	of	of	ADP	IN	_	10	case	10:case	_
 10	food	food	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	Entity=(207-substance-new-nnnnn-cf6-1-sgl)206)
 11	allowed	allow	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=allow-ed
-12	time	time	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=(208-time-new-nnnnn-cf3-1-sgl
+12	time	time	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=(208-time-new-nnnnn-cf4-1-sgl
 13	for	for	SCONJ	IN	_	16	mark	16:mark	Discourse=purpose-attribute:115->114:0:syn-mdf-933-_+dm-for-934-gold+syn-inf-936-_
-14	people	person	NOUN	NNS	Number=Plur	16	nsubj	16:nsubj	Entity=(209-person-new-nnnnn-cf1-1-sgl)
+14	people	person	NOUN	NNS	Number=Plur	16	nsubj	16:nsubj	Bridge=194<209:entity-associative|Entity=(209-person-acc:inf-nnnnn-cf1-1-sgl)
 15	to	to	PART	TO	_	16	mark	16:mark	_
 16	develop	develop	VERB	VB	VerbForm=Inf	12	acl	12:acl:for_to	_
-17	special	special	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(210-abstract-new-nnnnn-cf4-2-sgl
+17	special	special	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(210-abstract-new-nnnnn-cf5-2-sgl
 18	trades	trade	NOUN	NNS	Number=Plur	16	obj	16:obj	Entity=210)|MSeg=trade-s
 19	and	and	CCONJ	CC	_	20	cc	20:cc	_
 20	skills	skill	NOUN	NNS	Number=Plur	18	conj	16:obj|18:conj:and	Entity=(211-abstract-new-nnnnn-cf8-2-sgl|MSeg=skill-s
@@ -1289,7 +1289,7 @@
 # s_type = decl
 # transition = null
 # text = Builders constructed over twenty-two hundred apartment compounds for multiple families, as well as more than a hundred temples.
-1	Builders	builder	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Discourse=joint-other_m:116->114:1:_|Entity=(213-person-new-nnnnn-cf1-1-sgl)|MSeg=Build-er-s|PDTB=NoRel:NoRel:_:_:922-945:946-967
+1	Builders	builder	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Bridge=194<213:entity-associative|Discourse=joint-other_m:116->114:1:_|Entity=(213-person-acc:inf-nnnnn-cf1-1-sgl)|MSeg=Build-er-s|PDTB=NoRel:NoRel:_:_:922-945:946-967
 2	constructed	construct	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=construct-ed
 3	over	over	ADV	RB	_	7	advmod	7:advmod	Entity=(214-place-new-nnnnn-cf2-7-sgl
 4	twenty	twenty	NUM	CD	NumForm=Word|NumType=Card	6	compound	6:compound	SpaceAfter=No|XML=<w>
@@ -1485,21 +1485,21 @@
 # s_type = decl
 # transition = continue
 # text = They devised a written mathematical system to record crop yields and the size of the population, and to assist in trade.
-1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration-additional:132->130:2:ref-prs-1083-1084,1096-_|Entity=(171-person-giv:act-sssss-cf1*-1-ana-Maya_peoples)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:1062-1095:1096-1118
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration-additional:132->130:2:ref-prs-1083-1084,1096-_|Entity=(171-person-giv:act-sssss-cf1*-1-ana-Maya_peoples)|PDTB=Implicit:Expansion.Conjunction:also:_:1062-1095:1096-1118
 2	devised	devise	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=devis-ed
-3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(239-abstract-new-nnnnn-cf3-4-sgl
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(239-abstract-new-nnnnn-cf4-4-sgl
 4	written	write	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	amod	6:amod	MSeg=writt-en
 5	mathematical	mathematical	ADJ	JJ	Degree=Pos	6	amod	6:amod	MSeg=mathematic-al
 6	system	system	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=239)
 7	to	to	PART	TO	_	8	mark	8:mark	Discourse=purpose-goal:133->132:0:syn-inf-1102-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:1096-1101:1102-1118
 8	record	record	VERB	VB	VerbForm=Inf	2	advcl	2:advcl:to	_
-9	crop	crop	NOUN	NN	Number=Sing	10	compound	10:compound	Entity=(240-abstract-new-nnnnn-cf4-2-sgl(241-plant-new-nnnnn-cf7-1-sgl)
+9	crop	crop	NOUN	NN	Number=Sing	10	compound	10:compound	Entity=(240-abstract-new-nnnnn-cf5-2-sgl(241-plant-new-nnnnn-cf7-1-sgl)
 10	yields	yield	NOUN	NNS	Number=Plur	8	obj	8:obj	Entity=240)|MSeg=yield-s
 11	and	and	CCONJ	CC	_	13	cc	13:cc	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(242-abstract-new-nnnnn-cf6-2-sgl
 13	size	size	NOUN	NN	Number=Sing	10	conj	8:obj|10:conj:and	_
 14	of	of	ADP	IN	_	16	case	16:case	_
-15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(243-person-new-nnnnn-cf5-2-sgl
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Bridge=171<243:entity-associative|Entity=(243-person-acc:inf-nnnnn-cf3-2-sgl
 16	population	population	NOUN	NN	Number=Sing	13	nmod	13:nmod:of	Entity=243)242)|MSeg=populat-ion|SpaceAfter=No
 17	,	,	PUNCT	,	_	20	punct	20:punct	_
 18	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=joint-list_m:134->133:0:dm-and-1113-gold|PDTB=Explicit:Expansion.Conjunction:and:1113:1102-1112:1114-1118
@@ -1514,7 +1514,7 @@
 # s_type = decl
 # transition = continue
 # text = Surrounded by farms relying on primitive agriculture, they built the city-states of Copan, Tikal, and Chichen Itza along their major trade routes, as well as temples, statues of gods, pyramids, and astronomical observatories (Figure 1.5).
-1	Surrounded	surround	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	10:advcl	Discourse=context-circumstance:135->137:0:syn-pst_-1119-_|MSeg=Surround-ed|PDTB=Implicit:Temporal.Asynchronous.Succession:when:_:1127-1160:1119-1126
+1	Surrounded	surround	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	10:advcl	Discourse=context-circumstance:135->137:0:syn-pst_-1119-_|MSeg=Surround-ed|PDTB=Implicit:Expansion.Conjunction:and:_:1096-1118:1119-1165;Implicit:Temporal.Asynchronous.Succession:when:_:1127-1160:1119-1126
 2	by	by	ADP	IN	_	3	case	3:case	_
 3	farms	farm	NOUN	NNS	Number=Plur	1	obl:agent	1:obl:agent	Entity=(244-place-new-nnnnn-cf9-1-sgl|MSeg=farm-s
 4	relying	rely	VERB	VBG	VerbForm=Ger	3	acl	3:acl	Discourse=elaboration-attribute:136->135:0:syn-mdf-1121-_+syn-nmn-1122-_|MSeg=rely-ing
@@ -1613,7 +1613,7 @@
 # s_type = decl
 # transition = null
 # text = El Castillo, located at Chichen Itza in the eastern Yucatán peninsula, served as a temple for the god Kukulkan.
-1	El	El	PROPN	NNP	Number=Sing	14	nsubj	14:nsubj	Discourse=context-background:145->128:2:_|Entity=(264-place-new-nnnnn-cf3-1,2,7-sgl-El_Castillo%2C_Chichen_Itza|PDTB=NoRel:NoRel:_:_:1196-1197:1198-1219
+1	El	El	PROPN	NNP	Number=Sing	14	nsubj	14:nsubj	Discourse=context-background:145->128:2:_|Entity=(264-place-new-nnnnn-cf3-1,2,7-coref-El_Castillo%2C_Chichen_Itza|PDTB=NoRel:NoRel:_:_:1196-1197:1198-1219
 2	Castillo	Castillo	PROPN	NNP	Number=Sing	1	flat	1:flat	SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
 4	located	locate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	acl	1:acl	Discourse=elaboration-attribute:146->145:0:syn-mdf-1198-_+syn-nmn-1201-_|MSeg=locat-ed
@@ -1641,15 +1641,15 @@
 # s_type = decl
 # transition = null
 # text = Each side contains ninety-one steps to the top.
-1	Each	each	DET	DT	PronType=Ind	2	det	2:det	Discourse=elaboration-additional:148->145:2:_|Entity=(268-place-new-nnnnn-cf1-2-sgl|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:1198-1219:1220-1230
+1	Each	each	DET	DT	PronType=Ind	2	det	2:det	Bridge=264<268:entity-meronomy|Discourse=elaboration-additional:148->145:2:sem-mrnym-1198-1209,1220-1221-_|Entity=(268-place-acc:inf-nnnnn-cf1-2-sgl|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:1198-1219:1220-1230
 2	side	side	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=268)
 3	contains	contain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=contain-s
-4	ninety	ninety	NUM	CD	NumForm=Word|NumType=Card	7	nummod	7:nummod	Entity=(269-object-new-nnnnn-cf2-4-sgl|MSeg=nine-ty|SpaceAfter=No|XML=<w>
+4	ninety	ninety	NUM	CD	NumForm=Word|NumType=Card	7	nummod	7:nummod	Entity=(269-object-new-nnnnn-cf3-4-sgl|MSeg=nine-ty|SpaceAfter=No|XML=<w>
 5	-	-	PUNCT	HYPH	_	6	punct	6:punct	SpaceAfter=No
 6	one	one	NUM	CD	NumForm=Word|NumType=Card	4	compound	4:compound	XML=</w>
 7	steps	step	NOUN	NNS	Number=Plur	3	obj	3:obj	MSeg=step-s
 8	to	to	ADP	IN	_	10	case	10:case	_
-9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(270-place-new-nnnnn-cf3-2-sgl
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=264<270:entity-meronomy|Entity=(270-place-acc:inf-nnnnn-cf2-2-sgl
 10	top	top	NOUN	NN	Number=Sing	7	nmod	7:nmod:to	Entity=270)269)|SpaceAfter=No
 11	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -1660,15 +1660,15 @@
 # text = When counting the top platform, the total number of stairs is three hundred and sixty-five, the number of days in a year.
 1	When	when	ADV	WRB	PronType=Int	2	advmod	2:advmod	Discourse=contingency-condition:149->150:0:dm-when-1231-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:when:1231:1237-1257:1232-1236
 2	counting	count	VERB	VBG	Tense=Pres|VerbForm=Part	14	advcl	14:advcl:when	Cxn=AdverbialWHClause-Reduced-Active|CxnElt=2:AdverbialWHClause-Reduced-Active.Clause|MSeg=count-ing
-3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(271-object-new-nnnnn-cf2-3-sgl
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Bridge=264<271:entity-meronomy|Entity=(271-object-acc:inf-nnnnn-cf2-3-sgl
 4	top	top	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
 5	platform	platform	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=271)|SpaceAfter=No
 6	,	,	PUNCT	,	_	2	punct	2:punct	_
-7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Discourse=elaboration-additional:150->148:0:sem-lxchn-1226,1241-gold|Entity=(272-abstract-new-nnnnn-cf1-3-coref
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Discourse=elaboration-additional:150->148:0:sem-lxchn-1226,1241-gold+sem-mrnym-1228-1229,1233-1235-_|Entity=(272-abstract-new-nnnnn-cf1-3-coref
 8	total	total	ADJ	JJ	Degree=Pos	9	amod	9:amod	PDTB=AltLex:Expansion.Level-of-detail.Arg2-as-detail:total:1238:1220-1230:1231-1237,1239-1257
 9	number	number	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	_
 10	of	of	ADP	IN	_	11	case	11:case	_
-11	stairs	stair	NOUN	NNS	Number=Plur	9	nmod	9:nmod:of	Entity=(273-object-new-nnnnn-cf3-1-sgl)272)|MSeg=stair-s
+11	stairs	stair	NOUN	NNS	Number=Plur	9	nmod	9:nmod:of	Bridge=264<273:entity-meronomy|Entity=(273-object-acc:inf-nnnnn-cf3-1-sgl)272)|MSeg=stair-s
 12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_
 13	three	three	NUM	CD	NumForm=Word|NumType=Card	14	compound	14:compound	Entity=(272-abstract-giv:act-nnnnn-cf1-2,6-coref
 14	hundred	hundred	NUM	CD	NumForm=Word|NumType=Card	0	root	0:root	_
@@ -1712,11 +1712,11 @@
 5	organized	organize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	amod	6:amod	MSeg=organiz-ed
 6	resistance	resistance	NOUN	NN	Number=Sing	3	obj	3:obj	MSeg=resist-ance
 7	among	among	ADP	IN	_	10	case	10:case	MSeg=a-mong
-8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=171<279|Entity=(279-person-acc:inf-nnnnn-cf3-3-sgl
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(279-person-auto-nnnnn-cf2-3-coref
 9	weakened	weaken	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	amod	10:amod	MSeg=weak-en-ed
 10	Maya	Maya	PROPN	NNPS	Number=Plur	6	nmod	6:nmod:among	Entity=279)278)
 11	upon	upon	ADP	IN	_	13	case	13:case	MSeg=up-on
-12	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(11-event-giv:inact-nnnns-cf2-2-coref(12-person-giv:act-nnsnn-cf1-1-ana-Spaniards)
+12	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(11-event-giv:inact-nnnns-cf3-2-coref(12-person-giv:act-nnsnn-cf1-1-ana-Spaniards)
 13	arrival	arrival	NOUN	NN	Number=Sing	3	obl	3:obl:upon	MSeg=arriv-al
 14	in	in	ADP	IN	_	16	case	16:case	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(280-time-acc:com-nnnnn-cf4-2-sgl|XML=<date from:::"1520-01-01" to:::"1529-12-31">
@@ -1754,7 +1754,7 @@
 24	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	acl	23:acl	Discourse=elaboration-attribute:157->156:0:syn-mdf-1303-_+syn-nmn-1304-_|MSeg=call-ed
 25	codices	codex	NOUN	NNS	Number=Plur	24	xcomp	24:xcomp	Entity=(285-object-giv:act-nnnnn-cf2-1-coref)285)283)281)
 26	(	(	PUNCT	-LRB-	_	30	punct	30:punct	Discourse=elaboration-additional:158->157:0:sem-mrnym-1305,1307-1308-_+grf-prn-1306,1311-_|SpaceAfter=No
-27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Bridge=285<286|Entity=(286-abstract-acc:inf-nnnnn-cf3-2-coref
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Bridge=285<286:entity-property|Entity=(286-abstract-acc:inf-nnnnn-cf3-2-coref
 28	singular	singular	NOUN	NN	Number=Sing	30	nsubj	30:nsubj	Entity=286)|MSeg=sing-ul-ar
 29	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	30:cop	_
 30	codex	codex	NOUN	NN	Number=Sing	25	parataxis	25:parataxis	Entity=(286-abstract-giv:act-nnnnn-cf3-1-pred)|SpaceAfter=No|XML=<hi rend:::"italic"></hi>
@@ -1769,14 +1769,14 @@
 1	In	in	ADP	IN	_	2	case	2:case	Discourse=elaboration-additional:159->154:2:_|PDTB=Implicit:Comparison.Contrast:however:_:1281-1312:1313-1342
 2	1562	1562	NUM	CD	NumForm=Digit|NumType=Card	22	obl	22:obl:in	Entity=(287-time-new-nnnnn-cf5-1-sgl)|SpaceAfter=No|XML=<date when:::"1562"></date>
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
-4	Bishop	Bishop	PROPN	NNP	Number=Sing	5	nmod:desc	5:nmod:desc	Entity=(288-person-new-nnnnn-cf1-1,2,3,4-coref-Diego_de_Landa
+4	Bishop	Bishop	PROPN	NNP	Number=Sing	5	nmod:desc	5:nmod:desc	Entity=(288-person-new-nnnnn-cf1-2,3,4-coref-Diego_de_Landa
 5	Diego	Diego	PROPN	NNP	Number=Sing	22	nsubj	10:nsubj|22:nsubj|24:nsubj	_
 6	de	de	PROPN	NNP	Number=Sing	5	flat	5:flat	_
 7	Landa	Landa	PROPN	NNP	Number=Sing	5	flat	5:flat	SpaceAfter=No
 8	,	,	PUNCT	,	_	10	punct	10:punct	_
 9	who	who	PRON	WP	PronType=Rel	10	nsubj	5:ref	Discourse=attribution-positive:160->161:0:sem-atsrc-1316-1319-gold
 10	feared	fear	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	5:acl:relcl	MSeg=fear-ed
-11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Discourse=elaboration-additional:161->159:0:syn-relcl-1321-_|Entity=(289-person-new-nnnnn-cf2-3-coref
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Bridge=279<289:set-subset|Discourse=elaboration-additional:161->159:0:syn-relcl-1321-_|Entity=(289-person-acc:inf-nnnnn-cf2-3-coref
 12	converted	convert	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	amod	13:amod	MSeg=convert-ed
 13	natives	native	NOUN	NNS	Number=Plur	15	nsubj	15:nsubj	Entity=289)|MSeg=native-s
 14	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	aux	15:aux	_
@@ -1804,7 +1804,7 @@
 # text = Today only a few survive.
 1	Today	today	NOUN	NN	Number=Sing	5	obl:unmarked	5:obl:unmarked	Discourse=causal-result:164->159:2:_|Entity=(190-time-giv:inact-nnnnn-cf1-1-coref)|MSeg=To-day|PDTB=Implicit:Contingency.Cause.Result:as a result:_:1313-1342:1343-1348
 2	only	only	ADV	RB	_	4	advmod	4:advmod	_
-3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Bridge=285<292|Entity=(292-object-acc:inf-nnnnn-cf2-2-sgl
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Bridge=285<292:comparison-sense;set-subset|Entity=(292-object-acc:inf-nnnnn-cf2-2-sgl
 4	few	few	ADJ	JJ	Degree=Pos	5	nsubj	5:nsubj	Entity=292)
 5	survive	survive	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 6	.	.	PUNCT	.	_	5	punct	5:punct	_
@@ -1863,14 +1863,14 @@
 # transition = null
 # text = 1. Which of the following Indian peoples built homes in cliff dwellings that still exist?
 1	1.	1.	X	LS	_	8	discourse	8:discourse	Discourse=topic-question:170->172:1:grf-qst-1378-_|XML=<ref></ref>
-2	Which	which	PRON	WDT	PronType=Int	8	nsubj	8:nsubj	Entity=(296-person-new-nnnnn-cf1-1-coref-Ancestral_Puebloans
+2	Which	which	PRON	WDT	PronType=Int	8	nsubj	8:nsubj	Entity=(296-person-new-nnnnn-cf2-1-coref-Ancestral_Puebloans
 3	of	of	ADP	IN	_	7	case	7:case	_
-4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(297-person-new-nnnnn-cf3-4-sgl
+4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(297-person-new-nnnnn-cf3-4-coref
 5	following	follow	VERB	VBG	VerbForm=Ger	7	amod	7:amod	MSeg=follow-ing
 6	Indian	Indian	ADJ	JJ	Degree=Pos	7	amod	7:amod	MSeg=Indi-an
 7	peoples	people	NOUN	NNS	Number=Plur	2	nmod	2:nmod:of	Entity=297)296)|MSeg=people-s
 8	built	build	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Cxn=Interrogative-Polar-DeclarativeDirect|CxnElt=8:Interrogative-Polar-DeclarativeDirect.Clause
-9	homes	home	NOUN	NNS	Number=Plur	8	obj	8:obj	Entity=(298-place-new-nnnnn-cf2-1-sgl)|MSeg=home-s
+9	homes	home	NOUN	NNS	Number=Plur	8	obj	8:obj	Bridge=297<298:entity-associative|Entity=(298-place-acc:inf-nnnnn-cf1-1-sgl)|MSeg=home-s
 10	in	in	ADP	IN	_	12	case	12:case	_
 11	cliff	cliff	NOUN	NN	Number=Sing	12	compound	12:compound	Entity=(299-place-new-nnnnn-cf4-2-sgl(300-place-new-nnnnn-cf5-1-sgl)
 12	dwellings	dwelling	NOUN	NNS	Number=Plur	8	obl	8:obl:in|15:nsubj	MSeg=dwell-ing-s

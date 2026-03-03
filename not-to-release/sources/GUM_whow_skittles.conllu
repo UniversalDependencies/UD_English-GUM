@@ -34,10 +34,10 @@
 # s_type = frag
 # transition = null
 # text = Three Methods: Single Serving (25 mL Shot)
-1	Three	three	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=organization-preparation:2->3:2:num-count-6-_+grf-col-8-_|Entity=(3-abstract-new-sssss-cf2-2-coref
+1	Three	three	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Bridge=1<3:entity-associative|Discourse=organization-preparation:2->3:2:num-count-6-_+grf-col-8-_|Entity=(3-abstract-acc:inf-sssss-cf2-2-coref
 2	Methods	method	NOUN	NNS	Number=Plur	0	root	0:root	Entity=3)|MSeg=Method-s|SpaceAfter=No
 3	:	:	PUNCT	:	_	5	punct	5:punct	_
-4	Single	single	ADJ	JJ	Degree=Pos	5	amod	5:amod	Discourse=organization-preparation:3->29:8:_|Entity=(4-substance-new-ssnsn-cf1-2-coref
+4	Single	single	ADJ	JJ	Degree=Pos	5	amod	5:amod	Bridge=1<4:comparison-sense|Discourse=organization-preparation:3->29:8:_|Entity=(4-substance-acc:inf-ssnsn-cf1-2-coref
 5	Serving	serving	NOUN	NN	Number=Sing	2	parataxis	2:parataxis	Entity=4)|MSeg=Serv-ing
 6	(	(	PUNCT	-LRB-	_	9	punct	9:punct	Discourse=restatement-repetition_m:4->3:0:sem-synym-9-10,12-14-_+grf-prn-11,15-_|SpaceAfter=No
 7	25	25	NUM	CD	NumForm=Digit|NumType=Card	8	nummod	8:nummod	Entity=(4-substance-giv:act-ssnsn-cf1-3-appos
@@ -65,7 +65,7 @@
 # s_type = frag
 # transition = null
 # text = Vodka Dishwasher Bottle Method
-1	Vodka	vodka	NOUN	NN	Number=Sing	3	compound	3:compound	Discourse=joint-list_m:6->3:1:grf-seq-_-_|Entity=(6-abstract-new-nsssn-cf1-4-coref(7-object-new-nnnsn-cf2-3-coref(8-substance-new-sssss-cf3-1-coref)
+1	Vodka	vodka	NOUN	NN	Number=Sing	3	compound	3:compound	Bridge=3<6:set-member|Discourse=joint-list_m:6->3:1:grf-seq-_-_|Entity=(6-abstract-acc:inf-nsssn-cf1-4-coref(7-object-new-nnnsn-cf2-3-coref(8-substance-new-sssss-cf3-1-coref)
 2	Dishwasher	dishwasher	NOUN	NN	Number=Sing	3	compound	3:compound	Entity=(9-object-new-sssss-cf4-1-coref)|MSeg=Dish-wash-er
 3	Bottle	bottle	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=7)
 4	Method	method	NOUN	NN	Number=Sing	0	root	0:root	Entity=6)
@@ -164,7 +164,7 @@
 # s_type = multiple
 # transition = continue
 # text = Find multiple methods for making Skittles vodka after the jump -- and soon you'll be tasting the rainbow!
-1	Find	find	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:16->3:4:sem-rpt-6-7,95-100-_|PDTB=EntRel:EntRel:_:_:72-93:94-113
+1	Find	find	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:16->3:4:sem-rpt-6-7,95-100-_+sem-mrnym-9-10,99-100-_|PDTB=EntRel:EntRel:_:_:72-93:94-113
 2	multiple	multiple	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(3-abstract-giv:inact-sssss-cf4-2-coref
 3	methods	method	NOUN	NNS	Number=Plur	1	obj	1:obj	MSeg=method-s
 4	for	for	SCONJ	IN	_	5	mark	5:mark	Discourse=purpose-attribute:17->16:0:syn-mdf-96-_+dm-for-97-gold+syn-nmn-98-_
@@ -172,7 +172,7 @@
 6	Skittles	Skittle	PROPN	NNPS	Number=Plur	7	compound	7:compound	Entity=(1-substance-giv:act-sssss-cf2-2-coref(2-object-giv:act-sssss-cf3-1-coref-Skittles_%28confectionery%29)|MSeg=Skittle-s
 7	vodka	vodka	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=1)3)
 8	after	after	ADP	IN	_	10	case	10:case	Discourse=same-unit_m:18->16:1:_
-9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(20-abstract-acc:com-nnnnn-cf5-2-sgl
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(20-abstract-acc:com-nnnnn-cf6-2-sgl
 10	jump	jump	NOUN	NN	Number=Sing	1	obl	1:obl:after	Entity=20)
 11	--	-	PUNCT	:	_	17	punct	17:punct	_
 12	and	and	CCONJ	CC	_	17	cc	17:cc	Discourse=causal-result:19->16:2:dm-and-105-gold|PDTB=Explicit:Contingency.Cause.Result:and:105:94-104:106-113
@@ -182,7 +182,7 @@
 15	'll	will	AUX	MD	VerbForm=Fin	17	aux	17:aux	_
 16	be	be	AUX	VB	VerbForm=Inf	17	aux	17:aux	_
 17	tasting	taste	VERB	VBG	Tense=Pres|VerbForm=Part	1	conj	1:conj:and	MSeg=tast-ing
-18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(21-abstract-new-nnnnn-cf6-2-sgl
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Bridge=2<21:entity-associative|Entity=(21-abstract-acc:inf-nnnnn-cf5-2-sgl
 19	rainbow	rainbow	NOUN	NN	Number=Sing	17	obj	17:obj	Entity=21)|MSeg=rain-bow|SpaceAfter=No
 20	!	!	PUNCT	.	_	1	punct	1:punct	_
 
@@ -193,7 +193,7 @@
 # s_type = frag
 # transition = zero
 # text = Ingredients
-1	Ingredients	ingredient	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:20->21:3:grf-ly-_-_|Entity=(22-object-new-nnnnn-cf1-1-sgl)|MSeg=Ingredient-s
+1	Ingredients	ingredient	NOUN	NNS	Number=Plur	0	root	0:root	Bridge=1<22:entity-associative|Discourse=organization-heading:20->21:3:grf-ly-_-_|Entity=(22-object-acc:inf-nnnnn-cf1-1-sgl)|MSeg=Ingredient-s
 
 # newpar
 # newpar_block = list type:::"unordered" (2 s) | item (1 s) | p (1 s)
@@ -269,7 +269,7 @@
 # s_type = imp
 # transition = null
 # text = Separate the colors of Skittles that you want to flavor the vodka with.
-1	Separate	separate	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=ROOT:29:0|Entity=(26-event-new-nnnnn-cf4-1-disc
+1	Separate	separate	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=ROOT:29:0|Entity=(26-event-new-nnnnn-cf4-1-disc
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(27-abstract-new-snnns-cf3-2-sgl
 3	colors	color	NOUN	NNS	Number=Plur	1	obj	1:obj|10:obl	MSeg=color-s
 4	of	of	ADP	IN	_	5	case	5:case	_
@@ -362,7 +362,7 @@
 # s_type = sub
 # transition = continue
 # text = If you don't mind mixed flavors, you can just skip this step altogether.
-1	If	if	SCONJ	IN	_	5	mark	5:mark	Discourse=contingency-condition:39->40:0:dm-if-232-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:232:240-247:233-239
+1	If	if	SCONJ	IN	_	5	mark	5:mark	Discourse=contingency-condition:39->40:0:dm-if-232-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:232:240-247:233-239;Implicit:Comparison.Concession.Arg2-as-denier:however:_:221-231:232-247
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(15-person-giv:act-nnnnn-cf1*-1-ana)
 3-4	don't	_	_	_	_	_	_	_	_
 3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
@@ -387,11 +387,11 @@
 # s_type = imp
 # transition = zero
 # text = Add six Skittles to 25 ml of vodka.
-1	Add	add	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:41->29:3:grf-seq-_-_|XML=<hi rend:::"bold">
+1	Add	add	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:41->29:3:grf-seq-_-_|XML=<hi rend:::"bold">
 2	six	six	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	Entity=(39-object-new-nnnnn-cf1-2-coref
 3	Skittles	Skittle	PROPN	NNPS	Number=Plur	1	obj	1:obj	Entity=39)|MSeg=Skittle-s
 4	to	to	ADP	IN	_	6	case	6:case	_
-5	25	25	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	6:nummod	Entity=(40-substance-new-nnnnn-cf2-2-sgl
+5	25	25	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	6:nummod	Entity=(40-substance-new-nnnnn-cf2-2-coref
 6	ml	millileter	NOUN	NNS	Number=Plur	1	obl	1:obl:to	_
 7	of	of	ADP	IN	_	8	case	8:case	_
 8	vodka	vodka	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	Entity=40)|SpaceAfter=No
@@ -402,9 +402,9 @@
 # s_type = imp
 # transition = establishment
 # text = Keep swirling the mixture until the Skittles are almost completely dissolved.
-1	Keep	keep	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:42->41:0:grf-seq-_-_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:248-256:257-268
+1	Keep	keep	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:42->41:0:grf-seq-_-_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:248-256:257-268
 2	swirling	swirl	VERB	VBG	VerbForm=Ger	1	xcomp	1:xcomp	MSeg=swirl-ing
-3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(41-substance-acc:com-nnnnn-cf2-2-sgl
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=40<41:entity-resultative|Entity=(41-substance-acc:inf-nnnnn-cf2-2-coref
 4	mixture	mixture	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=41)|MSeg=mix-ture
 5	until	until	SCONJ	IN	_	11	mark	11:mark	Discourse=purpose-goal:43->42:0:dm-until-261-gold|MSeg=un-til|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:until:261:257-260:262-268
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(39-object-giv:act-nnnnn-cf1*-2-coref
@@ -420,12 +420,12 @@
 # s_type = imp
 # transition = zero
 # text = Note that the ratio of Skittles to vodka varies from recipe to recipe.
-1	Note	note	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=explanation-motivation:44->45:2:mrf-md-284-_
+1	Note	note	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=explanation-motivation:44->45:2:mrf-md-284-_|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:257-268:269-282
 2	that	that	SCONJ	IN	_	9	mark	9:mark	_
-3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(42-abstract-new-nnsnn-cf1-2-sgl
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(42-abstract-new-nnsnn-cf1-2-coref
 4	ratio	ratio	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	_
 5	of	of	ADP	IN	_	6	case	6:case	_
-6	Skittles	Skittle	PROPN	NNPS	Number=Plur	4	nmod	4:nmod:of	Entity=(43-object-new-nnnnn-cf2-1-coref-Skittles_%28confectionery%29)|MSeg=Skittle-s
+6	Skittles	Skittle	PROPN	NNPS	Number=Plur	4	nmod	4:nmod:of	Entity=(43-object-new-nnnnn-cf2-1-sgl-Skittles_%28confectionery%29)|MSeg=Skittle-s
 7	to	to	ADP	IN	_	8	case	8:case	_
 8	vodka	vodka	NOUN	NN	Number=Sing	6	nmod	6:nmod:to	Entity=(44-substance-new-nnnnn-cf3-1-sgl)42)
 9	varies	vary	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	MSeg=varie-s
@@ -445,12 +445,12 @@
 3	experiment	experiment	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	to	to	PART	TO	_	5	mark	5:mark	Discourse=purpose-goal:46->45:0:syn-inf-286-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:283-285:286-290
 5	find	find	VERB	VB	VerbForm=Inf	3	advcl	3:advcl:to	_
-6	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(47-abstract-new-nnnnn-cf2-3-sgl(15-person-giv:act-nnnnn-cf1-1-ana)
+6	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Bridge=42<47:entity-associative|Entity=(47-abstract-acc:inf-nnnnn-cf2-3-sgl(15-person-giv:act-nnnnn-cf1-1-ana)
 7	preferred	prefer	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	amod	8:amod	MSeg=preferr-ed
 8	mix	mix	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=47)
 9	before	before	SCONJ	IN	_	10	mark	10:mark	Discourse=context-circumstance:47->45:1:dm-before-291-gold+syn-pres-292-_|PDTB=Explicit:Temporal.Asynchronous.Precedence:before:291:283-290:292-295
 10	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	3:advcl:before	MSeg=mak-ing
-11	larger	large	ADJ	JJR	Degree=Cmp	12	amod	12:amod	Entity=(48-object-new-nnnnn-cf3-2-sgl|MSeg=larg-er
+11	larger	large	ADJ	JJR	Degree=Cmp	12	amod	12:amod	Bridge=1<48:comparison-sense|Entity=(48-object-acc:inf-nnnnn-cf3-2-sgl|MSeg=larg-er
 12	bottles	bottle	NOUN	NNS	Number=Plur	10	obj	10:obj	Entity=48)|MSeg=bottle-s|SpaceAfter=No
 13	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -461,9 +461,9 @@
 # s_type = imp
 # transition = null
 # text = Filter out the remaining Skittle "insides".
-1	Filter	filter	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:48->29:3:grf-seq-_-_
+1	Filter	filter	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:48->29:3:grf-seq-_-_
 2	out	out	ADP	RP	_	1	compound:prt	1:compound:prt	_
-3	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Bridge=43<49|Entity=(49-substance-acc:inf-nnnnn-cf1-5-sgl
+3	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Bridge=41<49:entity-associative|Entity=(49-substance-acc:inf-nnnnn-cf1-5-sgl
 4	remaining	remain	VERB	VBG	VerbForm=Ger	7	amod	7:amod	MSeg=remain-ing
 5	Skittle	Skittle	PROPN	NNP	Number=Sing	7	compound	7:compound	_
 6	"	"	PUNCT	``	_	7	punct	7:punct	SpaceAfter=No
@@ -477,7 +477,7 @@
 # transition = null
 # text = With single servings like this, you can decide which flavor(s) you like best and proceed to making bottles, if you desire.
 1	With	with	ADP	IN	_	3	case	3:case	Discourse=explanation-motivation:49->48:0:mrf-md-296-_|PDTB=Implicit:Contingency.Cause.Result:so:_:296-304:305-328
-2	single	single	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(50-abstract-new-nnnnn-cf2-2-coref
+2	single	single	ADJ	JJ	Degree=Pos	3	amod	3:amod	Bridge=1<50:comparison-sense|Entity=(50-abstract-acc:inf-nnnnn-cf2-2-coref
 3	servings	serving	NOUN	NNS	Number=Plur	9	obl	9:obl:with	Entity=50)|MSeg=serv-ing-s
 4	like	like	ADP	IN	_	5	case	5:case	_
 5	this	this	PRON	DT	Number=Sing|PronType=Dem	3	nmod	3:nmod:like	Entity=(50-abstract-giv:act-nnnnn-cf2-1-ana)|SpaceAfter=No
@@ -494,7 +494,7 @@
 16	proceed	proceed	VERB	VB	VerbForm=Inf	9	conj	9:conj:and	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=16:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|MSeg=proce-ed
 17	to	to	SCONJ	IN	_	18	mark	18:mark	_
 18	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	16	advcl	16:advcl:to	MSeg=mak-ing
-19	bottles	bottle	NOUN	NNS	Number=Plur	18	obj	18:obj	Entity=(52-object-new-sssnn-cf4-1-coref)|MSeg=bottle-s|SpaceAfter=No
+19	bottles	bottle	NOUN	NNS	Number=Plur	18	obj	18:obj	Bridge=1<52:comparison-sense|Entity=(52-object-acc:inf-sssnn-cf4-1-coref)|MSeg=bottle-s|SpaceAfter=No
 20	,	,	PUNCT	,	_	23	punct	23:punct	_
 21	if	if	SCONJ	IN	_	23	mark	23:mark	Discourse=contingency-condition:51->50:0:dm-if-325-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:325:319-324:326-328
 22	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	23	nsubj	23:nsubj	Entity=(15-person-giv:act-nnnnn-cf1-1-ana)
@@ -527,12 +527,12 @@
 # s_type = imp
 # transition = zero
 # text = Pour out some vodka from a bottle to make room for Skittles.
-1	Pour	pour	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:54->29:5:_
+1	Pour	pour	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:54->29:5:_
 2	out	out	ADP	RP	_	1	compound:prt	1:compound:prt	_
 3	some	some	DET	DT	PronType=Ind	4	det	4:det	Entity=(54-substance-new-nnnnn-cf2-2-coref
 4	vodka	vodka	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=54)
 5	from	from	ADP	IN	_	7	case	7:case	_
-6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Bridge=54<55|Entity=(55-object-acc:inf-nnnnn-cf1-2-sgl
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(55-object-auto-nnnnn-cf1-2-sgl
 7	bottle	bottle	NOUN	NN	Number=Sing	1	obl	1:obl:from	Entity=55)
 8	to	to	PART	TO	_	9	mark	9:mark	Discourse=purpose-goal:55->54:0:syn-inf-347-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:340-346:347-352
 9	make	make	VERB	VB	VerbForm=Inf	1	advcl	1:advcl:to	_
@@ -548,11 +548,11 @@
 # s_type = imp
 # transition = establishment
 # text = Separate the Skittles by color.
-1	Separate	separate	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:56->54:1:grf-seq-_-_
+1	Separate	separate	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:56->54:1:grf-seq-_-_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(57-object-giv:act-nnnnn-cf1*-2-coref-Skittles_%28confectionery%29
 3	Skittles	Skittle	PROPN	NNPS	Number=Plur	1	obj	1:obj	Entity=57)|MSeg=Skittle-s
 4	by	by	ADP	IN	_	5	case	5:case	_
-5	color	color	NOUN	NN	Number=Sing	1	obl	1:obl:by	Bridge=57<58|Entity=(58-abstract-acc:inf-nsnnn-cf2-1-sgl)|SpaceAfter=No
+5	color	color	NOUN	NN	Number=Sing	1	obl	1:obl:by	Bridge=57<58:entity-property|Entity=(58-abstract-acc:inf-nsnnn-cf2-1-sgl)|SpaceAfter=No
 6	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # newpar
@@ -562,7 +562,7 @@
 # s_type = imp
 # transition = continue
 # text = Add the Skittles (20 - 25 per 350 ml / 11.8 fl oz).
-1	Add	add	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:57->54:1:grf-seq-_-_
+1	Add	add	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:57->54:1:grf-seq-_-_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(57-object-giv:act-nnnnn-cf1*-2-coref-Skittles_%28confectionery%29
 3	Skittles	Skittle	PROPN	NNPS	Number=Plur	1	obj	1:obj	Entity=57)|MSeg=Skittle-s
 4	(	(	PUNCT	-LRB-	_	5	punct	5:punct	Discourse=restatement-partial:58->57:0:sem-synym-360-361,363-365-_+grf-prn-362,373-_|SpaceAfter=No
@@ -586,15 +586,15 @@
 # s_type = imp
 # transition = zero
 # text = Let the mixture sit for a day or two.
-1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:59->54:1:grf-seq-_-_
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(59-substance-acc:com-nnnnn-cf1-2-sgl
+1	Let	let	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:59->54:1:grf-seq-_-_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=57<59:entity-resultative|Entity=(59-substance-acc:inf-nnnnn-cf1-2-sgl
 3	mixture	mixture	NOUN	NN	Number=Sing	1	obj	1:obj|4:nsubj:xsubj	Entity=59)|MSeg=mix-ture
 4	sit	sit	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
 5	for	for	ADP	IN	_	7	case	7:case	_
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(60-time-new-nnnnn-cf3-2-coref
 7	day	day	NOUN	NN	Number=Sing	4	obl	4:obl:for	Entity=60)
 8	or	or	CCONJ	CC	_	9	cc	9:cc	_
-9	two	two	NUM	CD	NumForm=Word|NumType=Card	7	conj	4:obl:for|7:conj:or	Bridge=60<61|Entity=(61-time-acc:inf-snnnn-cf2-1-sgl)|SpaceAfter=No
+9	two	two	NUM	CD	NumForm=Word|NumType=Card	7	conj	4:obl:for|7:conj:or	Bridge=60<61:comparison-sense|Entity=(61-time-acc:inf-snnnn-cf2-1-sgl)|SpaceAfter=No
 10	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_skittles-28
@@ -602,10 +602,10 @@
 # s_type = imp
 # transition = null
 # text = Shake occasionally so the flavour mixes well.
-1	Shake	shake	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:60->54:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:375-384:385-392
+1	Shake	shake	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:60->54:1:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:375-384:385-392
 2	occasionally	occasionally	ADV	RB	Degree=Pos	1	advmod	1:advmod	MSeg=occasion-al-ly
 3	so	so	SCONJ	IN	_	6	mark	6:mark	Discourse=purpose-goal:61->60:0:dm-so-387-gold|PDTB=Explicit:Contingency.Purpose.Arg2-as-goal:so:387:385-386:388-392
-4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(62-abstract-acc:com-nnnnn-cf1-2-sgl
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Bridge=57<62:entity-property|Entity=(62-abstract-acc:inf-nnnnn-cf1-2-sgl
 5	flavour	flavour	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=62)
 6	mixes	mix	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	1:advcl:so	MSeg=mixe-s
 7	well	well	ADV	RB	Degree=Pos	6	advmod	6:advmod	SpaceAfter=No
@@ -618,22 +618,22 @@
 # s_type = imp
 # transition = null
 # text = Strain out the Skittles using a filter, such as a paper coffee filter or a clean t-shirt.
-1	Strain	strain	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:62->54:1:grf-seq-_-_
+1	Strain	strain	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:62->54:1:grf-seq-_-_
 2	out	out	ADP	RP	_	1	compound:prt	1:compound:prt	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(57-object-giv:inact-nnnnn-cf1-2-coref-Skittles_%28confectionery%29
 4	Skittles	Skittle	PROPN	NNPS	Number=Plur	1	obj	1:obj	Entity=57)|MSeg=Skittle-s
-5	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	1	advcl	1:advcl	Discourse=mode-means:63->62:0:syn-pres-397-_+lex-indwd-397-_|MSeg=us-ing|PDTB=Implicit:Expansion.Manner.Arg2-as-manner:by:_:393-396:397-413
-6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(63-object-new-nnnnn-cf4-2-coref
+5	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	1	advcl	1:advcl	Discourse=mode-means:63->62:0:lex-indwd-397-_+syn-pres-397-_|MSeg=us-ing|PDTB=Implicit:Expansion.Manner.Arg2-as-manner:by:_:393-396:397-413
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(63-object-new-nnnnn-cf4-2-sgl
 7	filter	filter	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=63)|SpaceAfter=No
 8	,	,	PUNCT	,	_	14	punct	14:punct	_
 9	such	such	ADJ	JJ	ExtPos=ADP	14	case	14:case	_
 10	as	as	ADP	IN	_	9	fixed	9:fixed	_
-11	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Bridge=63<64|Entity=(64-object-acc:inf-nnsnn-cf2-4-coref
+11	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(64-object-auto-nnsnn-cf2-4-coref
 12	paper	paper	NOUN	NN	Number=Sing	14	compound	14:compound	_
 13	coffee	coffee	NOUN	NN	Number=Sing	14	compound	14:compound	_
 14	filter	filter	NOUN	NN	Number=Sing	7	nmod	7:nmod:such_as	Entity=64)
 15	or	or	CCONJ	CC	_	20	cc	20:cc	_
-16	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Bridge=63<65|Entity=(65-object-acc:inf-nnnnn-cf3-5-coref
+16	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(65-object-auto-nnnnn-cf3-5-coref
 17	clean	clean	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
 18	t	t	NOUN	NN	Number=Sing	20	compound	20:compound	SpaceAfter=No|XML=<w>
 19	-	-	PUNCT	HYPH	_	18	punct	18:punct	SpaceAfter=No
@@ -647,7 +647,7 @@
 # s_type = imp
 # transition = null
 # text = Refrigerate overnight.
-1	Refrigerate	refrigerate	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:64->54:1:grf-seq-_-_
+1	Refrigerate	refrigerate	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:64->54:1:grf-seq-_-_
 2	overnight	overnight	ADV	RB	Degree=Pos	1	advmod	1:advmod	MSeg=over-night|SpaceAfter=No
 3	.	.	PUNCT	.	_	1	punct	1:punct	_
 
@@ -674,7 +674,7 @@
 # s_type = imp
 # transition = null
 # text = Separate the colors from five bags of 200 g Skittles.
-1	Separate	separate	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:67->29:5:_
+1	Separate	separate	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:67->29:5:_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(66-abstract-new-nnnnn-cf1-5-sgl
 3	colors	color	NOUN	NNS	Number=Plur	1	obj	1:obj	MSeg=color-s
 4	from	from	ADP	IN	_	6	case	6:case	_
@@ -704,7 +704,7 @@
 9	oz	ounce	NOUN	NNS	Number=Plur	5	conj	5:conj:slash|10:compound	Entity=70)
 10	bottles	bottle	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=69)|MSeg=bottle-s|SpaceAfter=No
 11	,	,	PUNCT	,	_	1	punct	1:punct	_
-12	pour	pour	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:69->67:0:grf-seq-_-_
+12	pour	pour	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:69->67:0:grf-seq-_-_
 13	300	300	NUM	CD	NumForm=Digit|NumType=Card	14	nummod	14:nummod	Entity=(71-substance-new-nnnnn-cf3-2-coref
 14	ml	millileter	NOUN	NNS	Number=Plur	12	obj	12:obj	Entity=71)
 15	/	/	SYM	SYM	_	18	cc	18:cc	_
@@ -717,7 +717,7 @@
 22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	23:det	Entity=(72-object-new-nnnnn-cf5-2-sgl
 23	jug	jug	NOUN	NN	Number=Sing	12	obl	12:obl:into	Entity=72)
 24	and	and	CCONJ	CC	_	25	cc	25:cc	Discourse=joint-sequence_m:70->69:1:grf-seq-_-_+dm-and-459-gold|PDTB=Explicit:Expansion.Conjunction:and:459:436-458:460-465;Implicit:Temporal.Asynchronous.Precedence:then:_:436-458:459-465
-25	fill	fill	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	12	conj	12:conj:and	_
+25	fill	fill	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	12	conj	12:conj:and	_
 26	each	each	DET	DT	PronType=Ind	27	det	27:det	Entity=(69-object-giv:act-snnnn-cf1-2-coref
 27	bottle	bottle	NOUN	NN	Number=Sing	25	obj	25:obj	Entity=69)
 28	with	with	ADP	IN	_	29	case	29:case	_
@@ -731,14 +731,14 @@
 # s_type = imp
 # transition = establishment
 # text = Place the bottles in your dishwasher and put on an intensive cycle.
-1	Place	place	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:71->67:0:_
+1	Place	place	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:71->67:0:_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(69-object-giv:act-snnnn-cf1*-2-coref
 3	bottles	bottle	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=69)|MSeg=bottle-s
 4	in	in	ADP	IN	_	6	case	6:case	_
 5	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(74-object-new-nnnnn-cf4-2-sgl(15-person-giv:inact-nnnnn-cf2-1-ana)
 6	dishwasher	dishwasher	NOUN	NN	Number=Sing	1	obl	1:obl:in	Entity=74)|MSeg=dish-wash-er
 7	and	and	CCONJ	CC	_	8	cc	8:cc	Discourse=joint-sequence_m:72->71:0:grf-seq-_-_+dm-and-472-gold|PDTB=Explicit:Expansion.Conjunction:and:472:466-471:473-478;Implicit:Temporal.Asynchronous.Precedence:then:_:466-471:472-478
-8	put	put	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
+8	put	put	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
 9	on	on	ADP	RP	_	8	compound:prt	8:compound:prt	_
 10	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(75-event-new-nnnnn-cf3-3-coref
 11	intensive	intensive	ADJ	JJ	Degree=Pos	12	amod	12:amod	MSeg=intens-ive
@@ -762,7 +762,7 @@
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(75-event-giv:act-nnnnn-cf2-2-coref
 9	cycle	cycle	NOUN	NN	Number=Sing	6	nmod	6:nmod:through	Entity=75)76)|SpaceAfter=No
 10	,	,	PUNCT	,	_	2	punct	2:punct	_
-11	shake	shake	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+11	shake	shake	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
 12	all	all	DET	DT	PronType=Ind	13	det	13:det	Entity=(69-object-giv:act-snnnn-cf1*-2-coref
 13	bottles	bottle	NOUN	NNS	Number=Plur	11	obj	11:obj	Entity=69)|MSeg=bottle-s
 14	vigorously	vigorously	ADV	RB	Degree=Pos	11	advmod	11:advmod	MSeg=vigor-ous-ly|SpaceAfter=No
@@ -784,7 +784,7 @@
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(75-event-giv:act-nnnnn-cf2-2-coref
 8	cycle	cycle	NOUN	NN	Number=Sing	5	nmod	5:nmod:through	Entity=75)77)|SpaceAfter=No
 9	,	,	PUNCT	,	_	2	punct	2:punct	_
-10	shake	shake	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+10	shake	shake	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
 11	all	all	DET	DT	PronType=Ind	12	det	12:det	Entity=(69-object-giv:act-snnnn-cf1*-2-coref
 12	bottles	bottle	NOUN	NNS	Number=Plur	10	obj	10:obj	Entity=69)|MSeg=bottle-s
 13	vigorously	vigorously	ADV	RB	Degree=Pos	10	advmod	10:advmod	MSeg=vigor-ous-ly|SpaceAfter=No
@@ -803,7 +803,7 @@
 4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	MSeg=ha-s
 5	finished	finish	VERB	VBN	Tense=Past|VerbForm=Part	7	advcl	7:advcl:once	MSeg=finish-ed|SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	5:punct	_
-7	shake	shake	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:76->67:0:grf-seq-_-_+lex-indwd-518-_
+7	shake	shake	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:76->67:0:grf-seq-_-_+lex-indwd-518-_
 8	all	all	DET	DT	PronType=Ind	9	det	9:det	Entity=(69-object-giv:act-snnnn-cf2-2-coref
 9	bottles	bottle	NOUN	NNS	Number=Plur	7	obj	7:obj	Entity=69)|MSeg=bottle-s
 10	vigorously	vigorously	ADV	RB	Degree=Pos	7	advmod	7:advmod	MSeg=vigor-ous-ly
@@ -816,9 +816,9 @@
 # transition = zero
 # text = Then place in the freezer for 2 hours.
 1	Then	then	ADV	RB	PronType=Dem	2	advmod	2:advmod	Discourse=joint-sequence_m:77->67:0:dm-then-520-gold|PDTB=Explicit:Temporal.Asynchronous.Precedence:then:520:508-519:521-528
-2	place	place	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+2	place	place	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
 3	in	in	ADP	IN	_	5	case	5:case	_
-4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(78-place-acc:com-nnnnn-cf1-2-coref
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Bridge=15<78:entity-associative|Entity=(78-place-acc:inf-nnnnn-cf1-2-coref
 5	freezer	freezer	NOUN	NN	Number=Sing	2	obl	2:obl:in	Entity=78)|MSeg=freez-er
 6	for	for	ADP	IN	_	8	case	8:case	_
 7	2	2	NUM	CD	NumForm=Digit|NumType=Card	8	nummod	8:nummod	Entity=(79-time-new-nnnnn-cf2-2-sgl
@@ -849,11 +849,11 @@
 # s_type = imp
 # transition = establishment
 # text = Take a sieve, line it with a piece of cheesecloth (muslin) or a coffee filter, place above a large jug and pour the vodka through slowly.
-1	Take	take	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:80->67:0:_|Entity=(80-event-new-nnnnn-cf6-1,5,20,26-coref
+1	Take	take	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:80->67:0:_|Entity=(80-event-new-nnnnn-cf6-1,5,20,26-coref
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Entity=(81-object-new-nnnnn-cf1-2-coref
 3	sieve	sieve	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=81)|SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
-5	line	line	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	Discourse=joint-sequence_m:81->80:0:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:540-543:544-558
+5	line	line	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	conj	1:conj:and	Discourse=joint-sequence_m:81->80:0:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:540-543:544-558
 6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	5:obj	Entity=(81-object-giv:act-nnnnn-cf1-1-ana)
 7	with	with	ADP	IN	_	9	case	9:case	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(82-object-new-nnnnn-cf3-2-coref
@@ -868,13 +868,13 @@
 17	coffee	coffee	NOUN	NN	Number=Sing	18	compound	18:compound	_
 18	filter	filter	NOUN	NN	Number=Sing	9	conj	5:obl:with|9:conj:or	Entity=64)|SpaceAfter=No
 19	,	,	PUNCT	,	_	20	punct	20:punct	_
-20	place	place	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	Discourse=joint-sequence_m:84->80:0:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:544-558:559-563
+20	place	place	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	conj	1:conj:and	Discourse=joint-sequence_m:84->80:0:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:544-558:559-563
 21	above	above	ADP	IN	_	24	case	24:case	_
 22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(83-object-new-nnnnn-cf5-3-sgl
 23	large	large	ADJ	JJ	Degree=Pos	24	amod	24:amod	_
 24	jug	jug	NOUN	NN	Number=Sing	20	obl	20:obl:above	Entity=83)
 25	and	and	CCONJ	CC	_	26	cc	26:cc	Discourse=joint-sequence_m:85->80:0:dm-and-564-gold|PDTB=Explicit:Expansion.Conjunction:and:564:559-563:565-570;Implicit:Temporal.Asynchronous.Precedence:then:_:559-563:564-570
-26	pour	pour	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
+26	pour	pour	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
 27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Entity=(71-substance-giv:act-nnnnn-cf2*-2-coref
 28	vodka	vodka	NOUN	NN	Number=Sing	26	obj	26:obj	Entity=71)
 29	through	through	ADP	RP	_	26	compound:prt	26:compound:prt	_
@@ -889,19 +889,19 @@
 # transition = retain
 # text = Once the first bottle has been filtered, wash out the bottle and pour the Skittles vodka back in.
 1	Once	once	SCONJ	IN	_	7	mark	7:mark	Discourse=context-circumstance:86->87:1:dm-once-571-gold|PDTB=Explicit:Temporal.Asynchronous.Succession:once:571:579-590:572-578
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=69<84|Entity=(84-object-acc:inf-nnnnn-cf1-3-coref
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=69<84:comparison-relative;set-member|Entity=(84-object-acc:inf-nnnnn-cf1-3-coref
 3	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	4	amod	4:amod	_
 4	bottle	bottle	NOUN	NN	Number=Sing	7	nsubj:pass	7:nsubj:pass	Entity=84)
 5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	7:aux	MSeg=ha-s
 6	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	aux:pass	7:aux:pass	_
 7	filtered	filter	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	advcl	9:advcl:once	MSeg=filter-ed|SpaceAfter=No
 8	,	,	PUNCT	,	_	7	punct	7:punct	_
-9	wash	wash	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:87->67:0:grf-seq-_-_|Entity=(85-event-new-nnnnn-cf4-1,6-coref
+9	wash	wash	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:87->67:0:grf-seq-_-_|Entity=(85-event-new-nnnnn-cf4-1,6-coref
 10	out	out	ADP	RP	_	9	compound:prt	9:compound:prt	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(84-object-giv:act-nnnnn-cf1-2-coref
 12	bottle	bottle	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=84)
 13	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=joint-sequence_m:88->87:0:dm-and-583-gold|PDTB=Explicit:Expansion.Conjunction:and:583:579-582:584-590;Implicit:Temporal.Asynchronous.Precedence:then:_:579-582:583-590
-14	pour	pour	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	9	conj	9:conj:and	_
+14	pour	pour	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	9	conj	9:conj:and	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(71-substance-giv:act-nnnnn-cf2*-3-coref
 16	Skittles	Skittle	PROPN	NNPS	Number=Plur	17	compound	17:compound	Entity=(2-object-giv:inact-sssss-cf3-1-coref-Skittles_%28confectionery%29)|MSeg=Skittle-s
 17	vodka	vodka	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=71)
@@ -916,7 +916,7 @@
 # s_type = imp
 # transition = zero
 # text = Repeat the above two steps for all bottles, ensuring that everything is cleaned between uses to prevent color contamination.
-1	Repeat	repeat	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:89->67:0:grf-seq-_-_
+1	Repeat	repeat	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:89->67:0:grf-seq-_-_
 2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(86-event-acc:aggr-nnnnn-cf2-4-sgl|SplitAnte=80<86,85<86
 3	above	above	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
 4	two	two	NUM	CD	NumForm=Word|NumType=Card	5	nummod	5:nummod	_
@@ -945,7 +945,7 @@
 # s_type = imp
 # transition = establishment
 # text = Place all of the bottles in the freezer until you are ready to drink.
-1	Place	place	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:92->67:0:grf-seq-_-_
+1	Place	place	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:92->67:0:grf-seq-_-_
 2	all	all	DET	DT	PronType=Tot	1	obj	1:obj	Entity=(69-object-giv:act-snnnn-cf1*-1-ana
 3	of	of	ADP	IN	_	5	case	5:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	_
@@ -969,7 +969,7 @@
 1-2	Don't	_	_	_	_	_	_	_	_
 1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=organization-preparation:94->95:0:_|PDTB=Implicit:Contingency.Cause.Reason:because:_:612-626:627-636
 2	n't	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	Negation=Yes
-3	worry	worry	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+3	worry	worry	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 4	,	,	PUNCT	,	_	9	punct	9:punct	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Discourse=explanation-motivation:95->92:1:mrf-md-612-_|Entity=(71-substance-giv:inact-nnnnn-cf1-2-coref
 6	vodka	vodka	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	Entity=71)
@@ -996,7 +996,7 @@
 # s_type = imp
 # transition = establishment
 # text = Enjoy your tasty creation.
-1	Enjoy	enjoy	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:97->67:0:_|MSeg=En-joy|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:637-640:641-645
+1	Enjoy	enjoy	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:97->67:0:_|MSeg=En-joy|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:637-640:641-645
 2	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(71-substance-giv:inact-nnnnn-cf2-3-coref(15-person-giv:act-nnnnn-cf1*-1-ana)
 3	tasty	tasty	ADJ	JJ	Degree=Pos	4	amod	4:amod	MSeg=tast-y
 4	creation	creation	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=71)|MSeg=creat-ion|SpaceAfter=No
@@ -1009,7 +1009,7 @@
 # s_type = frag
 # transition = zero
 # text = Tips.
-1	Tips	tip	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:98->100:5:grf-ly-_-_|Entity=(91-abstract-new-nnssn-cf1-1-sgl)|MSeg=Tip-s|SpaceAfter=No
+1	Tips	tip	NOUN	NNS	Number=Plur	0	root	0:root	Bridge=1<91:entity-associative|Discourse=organization-heading:98->100:5:grf-ly-_-_|Entity=(91-abstract-acc:inf-nnssn-cf1-1-sgl)|MSeg=Tip-s|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # newpar
@@ -1028,8 +1028,8 @@
 7	more	more	ADV	RBR	Degree=Cmp	8	advmod	8:advmod	_
 8	quickly	quickly	ADV	RB	Degree=Pos	5	advmod	5:advmod	MSeg=quick-ly|SpaceAfter=No
 9	,	,	PUNCT	,	_	3	punct	3:punct	_
-10	cut	cut	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=10:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=joint-other_m:100->29:6:_
-11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(92-object-acc:com-nnnnn-cf1-2-coref
+10	cut	cut	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=10:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=joint-other_m:100->29:6:_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Bridge=2<92:set-subset|Entity=(92-object-acc:inf-nnnnn-cf1-2-coref
 12	skittles	Skittle	PROPN	NNPS	Number=Plur|Typo=Yes	10	obj	10:obj	CorrectForm=Skittles|Entity=92)|MSeg=skittle-s|XML=<sic ana:::"Skittles"></sic>
 13	in	in	ADP	IN	_	14	case	14:case	_
 14	half	half	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	10	obl	10:obl:in	_
@@ -1045,7 +1045,7 @@
 # s_type = imp
 # transition = null
 # text = Shake every 15 minutes.
-1	Shake	shake	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:102->100:2:grf-seq-_-_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:648-667:668-672
+1	Shake	shake	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:102->100:2:grf-seq-_-_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:648-667:668-672
 2	every	every	DET	DT	PronType=Ind	4	det	4:det	Entity=(93-time-new-nnnnn-cf1-3-sgl
 3	15	15	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
 4	minutes	minute	NOUN	NNS	Number=Plur	1	obl:unmarked	1:obl:unmarked	Entity=93)|MSeg=minute-s|SpaceAfter=No
@@ -1082,7 +1082,7 @@
 6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obj	5:obj	Entity=(96-object-new-nnnnn-cf3-1-ana)
 7	out	out	ADP	RP	_	5	compound:prt	5:compound:prt	_
 8	when	when	ADV	WRB	PronType=Int	11	advmod	11:advmod	Discourse=context-circumstance:105->104:0:dm-when-691-gold|PDTB=Explicit:Temporal.Synchronous:when:691:684-690:692-695
-9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=96<97|Entity=(97-abstract-acc:inf-nnnnn-cf2-2-sgl
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=96<97:entity-property|Entity=(97-abstract-acc:inf-nnnnn-cf2-2-sgl
 10	color	color	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	Entity=97)
 11	dissolves	dissolve	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	5:advcl:when	MSeg=dissolve-s|SpaceAfter=No
 12	.	.	PUNCT	.	_	5	punct	5:punct	_
@@ -1094,9 +1094,9 @@
 # s_type = imp
 # transition = establishment
 # text = Start with small amount of vodka and Skittles at first to experiment which combination of taste suits you best.
-1	Start	start	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:106->100:4:_|Entity=(98-event-new-nnnnn-cf7-1-disc
+1	Start	start	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:106->100:4:_|Entity=(98-event-new-nnnnn-cf7-1-disc
 2	with	with	ADP	IN	_	4	case	4:case	_
-3	small	small	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(99-abstract-new-nnnnn-cf5-2-sgl
+3	small	small	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(99-abstract-new-nnnnn-cf6-2-coref
 4	amount	amount	NOUN	NN	Number=Sing	1	obl	1:obl:with	_
 5	of	of	ADP	IN	_	6	case	6:case	_
 6	vodka	vodka	NOUN	NN	Number=Sing	4	nmod	4:nmod:of	Entity=(8-substance-giv:inact-sssss-cf3-1-coref)
@@ -1106,10 +1106,10 @@
 10	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	1	obl	1:obl:at	_
 11	to	to	PART	TO	_	12	mark	12:mark	Discourse=purpose-goal:107->106:0:syn-inf-706-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:696-705:706-715
 12	experiment	experiment	VERB	VB	VerbForm=Inf	1	advcl	1:advcl:to	_
-13	which	which	DET	WDT	PronType=Int	14	det	14:det	Entity=(100-abstract-new-nnnnn-cf4-2-sgl
+13	which	which	DET	WDT	PronType=Int	14	det	14:det	Entity=(100-abstract-new-nnnnn-cf5-2-sgl
 14	combination	combination	NOUN	NN	Number=Sing	17	nsubj	17:nsubj	MSeg=combin-ation
 15	of	of	ADP	IN	_	16	case	16:case	_
-16	taste	taste	NOUN	NN	Number=Sing	14	nmod	14:nmod:of	Entity=(101-abstract-new-nnnnn-cf6-1-coref)100)
+16	taste	taste	NOUN	NN	Number=Sing	14	nmod	14:nmod:of	Bridge=99<101:entity-property|Entity=(101-abstract-acc:inf-nnnnn-cf4-1-coref)100)
 17	suits	suit	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	12:ccomp	MSeg=suit-s
 18	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	17	obj	17:obj	Entity=(15-person-giv:act-nnnnn-cf1*-1-ana)
 19	best	well	ADV	RBS	Degree=Sup	17	advmod	17:advmod	Entity=98)|MSeg=be-st|SpaceAfter=No
@@ -1165,19 +1165,19 @@
 13	if	if	SCONJ	IN	_	15	mark	15:mark	Discourse=contingency-condition:112->114:1:dm-if-750-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:750:749,758-775:751-757
 14	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Entity=(15-person-giv:act-nnnnn-cf1*-1-ana)
 15	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	advcl	21:advcl:if	CxnElt=21:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
-16	one	one	NUM	CD	NumForm=Word|NumType=Card	15	obj	15:obj|19:nsubj	Bridge=1<104|Entity=(104-substance-acc:inf-nnnnn-cf4-1-sgl
+16	one	one	NUM	CD	NumForm=Word|NumType=Card	15	obj	15:obj|19:nsubj	Bridge=1<104:comparison-sense|Entity=(104-substance-acc:inf-nnnnn-cf4-1-sgl
 17-18	that's	_	_	_	_	_	_	_	_
 17	that	that	PRON	WDT	PronType=Rel	19	nsubj	16:ref	Discourse=elaboration-attribute:113->112:0:syn-mdf-753-_+syn-relcl-754,756-_
 18	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	19:cop	_
 19	sweet	sweet	ADJ	JJ	Degree=Pos	16	acl:relcl	16:acl:relcl	Entity=104)|SpaceAfter=No
 20	,	,	PUNCT	,	_	15	punct	15:punct	_
-21	leave	leave	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	5	parataxis	5:parataxis	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=21:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=same-unit_m:114->111:0:_
+21	leave	leave	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	5	parataxis	5:parataxis	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=21:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=same-unit_m:114->111:0:_
 22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(31-object-giv:act-ssnnn-cf2-3-coref
 23	green	green	ADJ	JJ	Degree=Pos	24	amod	24:amod	_
 24	ones	one	NOUN	NNS	Number=Plur	21	obj	21:obj	Entity=31)|MSeg=one-s
 25	out	out	ADP	RP	_	21	compound:prt	21:compound:prt	_
 26	and	and	CCONJ	CC	_	27	cc	27:cc	Discourse=joint-list_m:115->114:0:dm-and-763-gold|PDTB=Explicit:Expansion.Conjunction:and:763:749,758-762:764-775
-27	add	add	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	21	conj	21:conj:and	_
+27	add	add	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	21	conj	21:conj:and	_
 28	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	27	obj	27:obj	Entity=(31-object-giv:act-ssnnn-cf2-1-ana)
 29	to	to	ADP	IN	_	32	case	32:case	_
 30	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	32:nmod:poss	Entity=(105-object-new-nnnnn-cf6-3-sgl(31-object-giv:act-ssnnn-cf2-1-ana)
@@ -1197,7 +1197,7 @@
 # s_type = decl
 # transition = zero
 # text = Another approach is to buy five bottles of vodka and five bags of Skittles.
-1	Another	another	DET	DT	PronType=Ind	2	det	2:det	Discourse=joint-other_m:116->100:4:_|Entity=(107-abstract-new-nnnnn-cf3-2-sgl|MSeg=An-other
+1	Another	another	DET	DT	PronType=Ind	2	det	2:det	Bridge=98<107:comparison-relative|Discourse=joint-other_m:116->100:4:_|Entity=(107-abstract-acc:inf-nnnnn-cf3-2-sgl|MSeg=An-other
 2	approach	approach	NOUN	NN	Number=Sing	5	nsubj:outer	5:nsubj:outer	Entity=107)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 4	to	to	PART	TO	_	5	mark	5:mark	_
@@ -1219,12 +1219,12 @@
 # transition = establishment
 # text = Then separate the candy and use one flavor for each bottle.
 1	Then	then	ADV	RB	PronType=Dem	2	advmod	2:advmod	Discourse=joint-sequence_m:117->116:0:grf-seq-_-_+dm-then-791-gold|PDTB=Explicit:Temporal.Asynchronous.Precedence:then:791:776-790:792-802
-2	separate	separate	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+2	separate	separate	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(109-object-giv:act-nnnnn-cf1*-2-coref
 4	candy	candy	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=109)
 5	and	and	CCONJ	CC	_	6	cc	6:cc	Discourse=joint-sequence_m:118->117:0:dm-and-795-gold|PDTB=Explicit:Expansion.Conjunction:and:795:791-794:796-802;Implicit:Temporal.Asynchronous.Precedence:then:_:791-794:795-802
-6	use	use	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	2	conj	2:conj:and	_
-7	one	one	NUM	CD	NumForm=Word|NumType=Card	8	nummod	8:nummod	Bridge=109<110|Entity=(110-abstract-acc:inf-nnnnn-cf3-2-sgl
+6	use	use	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	2	conj	2:conj:and	_
+7	one	one	NUM	CD	NumForm=Word|NumType=Card	8	nummod	8:nummod	Bridge=109<110:comparison-sense;set-subset|Entity=(110-abstract-acc:inf-nnnnn-cf3-2-sgl
 8	flavor	flavor	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=110)
 9	for	for	ADP	IN	_	11	case	11:case	_
 10	each	each	DET	DT	PronType=Ind	11	det	11:det	Entity=(108-object-giv:act-nnnnn-cf2-2-coref
@@ -1238,11 +1238,11 @@
 # text = (Or get four bottles and an empty, to allow room for the skittles.)
 1	(	(	PUNCT	-LRB-	_	3	punct	3:punct	Discourse=joint-disjunction_m:119->116:1:dm-or-804-gold|SpaceAfter=No
 2	Or	or	CCONJ	CC	_	3	cc	3:cc	PDTB=Explicit:Expansion.Disjunction:or:804:791-802:803,805-819
-3	get	get	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+3	get	get	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
 4	four	four	NUM	CD	NumForm=Word|NumType=Card	5	nummod	5:nummod	Entity=(111-object-new-nnnnn-cf3-2-coref
 5	bottles	bottle	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=111)|MSeg=bottle-s
 6	and	and	CCONJ	CC	_	8	cc	8:cc	_
-7	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Bridge=111<112|Entity=(112-object-acc:inf-nnnnn-cf2-2-sgl
+7	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Bridge=111<112:comparison-sense|Entity=(112-object-acc:inf-nnnnn-cf2-2-sgl
 8	empty	empty	ADJ	JJ	Degree=Pos	5	conj	3:obj|5:conj:and	Entity=112)|SpaceAfter=No
 9	,	,	PUNCT	,	_	11	punct	11:punct	_
 10	to	to	PART	TO	_	11	mark	11:mark	Discourse=purpose-goal:120->119:0:syn-inf-812-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:803-811:812-819
@@ -1270,7 +1270,7 @@
 7	to	to	PART	TO	_	8	mark	8:mark	Discourse=purpose-goal:122->121:0:syn-inf-826-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:820-825:826-828
 8	strain	strain	VERB	VB	VerbForm=Inf	2	advcl	2:advcl:to	SpaceAfter=No
 9	,	,	PUNCT	,	_	2	punct	2:punct	_
-10	be	be	AUX	VB	Mood=Imp|Person=2|VerbForm=Fin	11	cop	11:cop	Discourse=joint-other_m:123->100:4:grf-seq-_-_
+10	be	be	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	11	cop	11:cop	Discourse=joint-other_m:123->100:4:grf-seq-_-_
 11	sure	sure	ADJ	JJ	Degree=Pos	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=11:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis,11:Conditional-UnspecifiedEpistemic-Reduced.Apodosis
 12	fabric	fabric	NOUN	NN	Number=Sing	13	compound	13:compound	Entity=(113-substance-new-nnnnn-cf2-2-sgl
 13	softener	softener	NOUN	NN	Number=Sing	21	nsubj:pass	21:nsubj:pass	Entity=113)|MSeg=soft-en-er
@@ -1309,7 +1309,7 @@
 # s_type = frag
 # transition = null
 # text = Warnings
-1	Warnings	warning	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:128->129:1:grf-ly-_-_|Entity=(117-abstract-new-nnnnn-cf1-1-sgl)|MSeg=Warn-ing-s
+1	Warnings	warning	NOUN	NNS	Number=Plur	0	root	0:root	Bridge=1<117:entity-associative|Discourse=organization-heading:128->129:1:grf-ly-_-_|Entity=(117-abstract-acc:inf-nnnnn-cf1-1-sgl)|MSeg=Warn-ing-s
 
 # newpar
 # newpar_block = list type:::"unordered" (4 s) | item (3 s) | p (3 s)
@@ -1318,7 +1318,7 @@
 # s_type = imp
 # transition = null
 # text = Drink responsibly.
-1	Drink	drink	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:129->29:6:_
+1	Drink	drink	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:129->29:6:_
 2	responsibly	responsibly	ADV	RB	Degree=Pos	1	advmod	1:advmod	MSeg=responsib-ly|SpaceAfter=No
 3	.	.	PUNCT	.	_	1	punct	1:punct	_
 
@@ -1328,9 +1328,9 @@
 # transition = null
 # text = Never drink and drive.
 1	Never	never	ADV	RB	_	2	advmod	2:advmod	Discourse=joint-list_m:130->129:0:grf-seq-_-_|Negation=Yes|PDTB=Implicit:Expansion.Conjunction:and:_:861-863:864-868
-2	drink	drink	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+2	drink	drink	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
 3	and	and	CCONJ	CC	_	4	cc	4:cc	Discourse=joint-sequence_m:131->130:0:dm-and-866-gold|PDTB=Explicit:Expansion.Conjunction:and:866:864-865:867-868;Implicit:Temporal.Asynchronous.Precedence:then:_:864-865:866-868
-4	drive	drive	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	2	conj	2:conj:and	SpaceAfter=No
+4	drive	drive	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	2	conj	2:conj:and	SpaceAfter=No
 5	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_whow_skittles-62
@@ -1338,19 +1338,19 @@
 # s_type = imp
 # transition = null
 # text = Know your limits, and do not drink to the extent of intoxication.
-1	Know	know	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:132->129:0:_|PDTB=Implicit:Expansion.Conjunction:and:_:864-868:869-882
+1	Know	know	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:132->129:0:_|PDTB=Implicit:Expansion.Conjunction:and:_:864-868:869-882
 2	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(118-abstract-new-nnnnn-cf2-2-sgl(15-person-giv:inact-nnnnn-cf1-1-ana)
 3	limits	limit	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=118)|MSeg=limit-s|SpaceAfter=No
 4	,	,	PUNCT	,	_	8	punct	8:punct	_
 5	and	and	CCONJ	CC	_	8	cc	8:cc	Discourse=restatement-repetition_m:133->132:0:dm-and-873-gold|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:and:873:869-872:874-882
 6	do	do	AUX	VB	VerbForm=Inf	8	aux	8:aux	_
 7	not	not	PART	RB	Polarity=Neg	8	advmod	8:advmod	Negation=Yes
-8	drink	drink	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
+8	drink	drink	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
 9	to	to	ADP	IN	_	11	case	11:case	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(119-abstract-new-nnnnn-cf3-2-sgl
 11	extent	extent	NOUN	NN	Number=Sing	8	obl	8:obl:to	MSeg=exten-t
 12	of	of	ADP	IN	_	13	case	13:case	_
-13	intoxication	intoxication	NOUN	NN	Number=Sing	11	nmod	11:nmod:of	Entity=(120-event-new-nnnnn-cf4-1-sgl)119)|MSeg=intoxicat-ion|SpaceAfter=No
+13	intoxication	intoxication	NOUN	NN	Number=Sing	11	nmod	11:nmod:of	Entity=(120-event-new-nnnnn-cf4-1-sgl)119)|MSeg=in-toxic-at-ion|SpaceAfter=No
 14	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # newpar
@@ -1362,7 +1362,7 @@
 # text = Do not drink if underage in your country.
 1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=joint-list_m:134->129:0:grf-seq-_-_
 2	not	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	Negation=Yes
-3	drink	drink	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=3:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis,3:Conditional-UnspecifiedEpistemic-Reduced.Apodosis
+3	drink	drink	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=3:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis,3:Conditional-UnspecifiedEpistemic-Reduced.Apodosis
 4	if	if	SCONJ	IN	_	5	mark	5:mark	Discourse=contingency-condition:135->134:0:dm-if-886-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:886:883-885:887-891
 5	underage	underage	ADJ	JJ	Degree=Pos	3	advcl	3:advcl:if	CxnElt=3:Conditional-UnspecifiedEpistemic-NoInversion.Protasis,3:Conditional-UnspecifiedEpistemic-Reduced.Protasis|MSeg=under-age
 6	in	in	ADP	IN	_	8	case	8:case	_
@@ -1404,7 +1404,7 @@
 12	gallon	gallon	NOUN	NN	Number=Sing	2	appos	2:appos	Entity=123)|SpaceAfter=No
 13	)	)	PUNCT	-RRB-	_	12	punct	12:punct	_
 14	requires	require	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:140->138:1:_|MSeg=require-s
-15	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	Entity=(124-object-new-nnnnn-cf5-4-sgl
+15	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	Entity=(124-object-new-nnnnn-cf6-4-sgl
 16	large	large	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
 17	bag	bag	NOUN	NN	Number=Sing|Typo=Yes	18	compound	18:compound	CorrectForm=bag's|XML=<sic ana:::"bag's"></sic>
 18	worth	worth	NOUN	NN	Number=Sing	14	obj	14:obj	_
@@ -1417,7 +1417,7 @@
 25	plan	plan	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	38	advcl	38:advcl:if	CxnElt=38:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 26	on	on	SCONJ	IN	_	27	mark	27:mark	_
 27	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	25	advcl	25:advcl:on	MSeg=do-ing
-28	only	only	ADV	RB	_	30	advmod	30:advmod	Entity=(125-abstract-new-nnnnn-cf6-3-sgl
+28	only	only	ADV	RB	_	30	advmod	30:advmod	Bridge=2<125:entity-property;set-member|Entity=(125-abstract-acc:inf-nnnnn-cf5-3-sgl
 29	one	one	NUM	CD	NumForm=Word|NumType=Card	30	nummod	30:nummod	_
 30	flavor	flavor	NOUN	NN	Number=Sing	27	obj	27:obj	Entity=125)
 31	for	for	ADP	IN	_	34	case	34:case	_

@@ -32,10 +32,10 @@
 # transition = null
 # speaker = FinnThormeier
 # text = So remember how yesterday when I showed you the thingy thing there were like very high waves in the lagoon?
-1	So	so	INTJ	UH	_	2	discourse	2:discourse	Discourse=adversative-antithesis:2->5:0:_|PDTB=NoRel:NoRel:_:_:1-3:4-24
-2	remember	remember	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=2:Interrogative-Polar-Direct.Clause
+1	So	so	INTJ	UH	_	2	discourse	2:discourse	Discourse=adversative-antithesis:2->5:0:sem-mrnym-7,27-_+sem-mrnym-18-20,30-32-_|PDTB=NoRel:NoRel:_:_:1-3:4-24
+2	remember	remember	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=2:Interrogative-Polar-Direct.Clause
 3	how	how	ADV	WRB	PronType=Rel	2	obj	2:obj	_
-4	yesterday	yesterday	NOUN	NN	Number=Sing	13	obl:unmarked	13:obl:unmarked	Entity=(2-time-acc:com-nnnnn-cf3-1-sgl)|MSeg=yester-day|XML=<date when:::"2018-10-15"></date>
+4	yesterday	yesterday	NOUN	NN	Number=Sing	13	obl:unmarked	13:obl:unmarked	Entity=(2-time-acc:com-nnnnn-cf3-1-coref)|MSeg=yester-day|XML=<date when:::"2018-10-15"></date>
 5	when	when	ADV	WRB	PronType=Int	7	advmod	7:advmod	Discourse=context-circumstance:3->4:0:dm-when-8-gold|PDTB=Explicit:Temporal.Synchronous:when:8:4-7,15-24:9-14
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	Entity=(3-person-acc:com-sssss-cf1-1-ana)
 7	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	advcl	13:advcl:when	Cxn=Ditransitive|CxnElt=7:Ditransitive.V|MSeg=show-ed
@@ -46,7 +46,7 @@
 12	there	there	PRON	EX	PronType=Dem	13	expl	13:expl	Discourse=same-unit_m:4->2:0:_
 13	were	be	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	advcl:relcl	3:advcl:relcl	Cxn=Existential-CopPred-ThereExpl
 14	like	like	INTJ	UH	_	17	discourse	17:discourse	_
-15	very	very	ADV	RB	_	16	advmod	16:advmod	Entity=(6-object-new-nnnnn-cf4-3-sgl
+15	very	very	ADV	RB	_	16	advmod	16:advmod	Entity=(6-object-new-nnnnn-cf4-3-coref
 16	high	high	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
 17	waves	wave	NOUN	NNS	Number=Plur	13	nsubj	13:nsubj	CxnElt=13:Existential-CopPred-ThereExpl.Pivot|Entity=6)|MSeg=wave-s
 18	in	in	ADP	IN	_	20	case	20:case	_
@@ -60,12 +60,12 @@
 # transition = null
 # speaker = FinnThormeier
 # text = Well, today is like the exact opposite.
-1	Well	well	INTJ	UH	_	8	discourse	8:discourse	Discourse=context-background:5->18:2:_|PDTB=Implicit:Comparison.Contrast:but:_:4-24:25-33|SpaceAfter=No
+1	Well	well	INTJ	UH	_	8	discourse	8:discourse	Discourse=context-background:5->18:2:sem-mrnym-27,107-108-_|PDTB=Implicit:Comparison.Contrast:but:_:4-24:25-33|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	today	today	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=(8-time-acc:com-nnnnn-cf1-1-sgl)|MSeg=to-day|XML=<date when:::"2018-10-16"></date>
+3	today	today	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Bridge=2<8:comparison-time|Entity=(8-time-acc:inf-nnnnn-cf1-1-coref)|MSeg=to-day|XML=<date when:::"2018-10-16"></date>
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
 5	like	like	INTJ	UH	_	8	discourse	8:discourse	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(9-substance-new-nnsnn-cf2-3-coref
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Bridge=6<9:comparison-sense|Entity=(9-substance-acc:inf-nnsnn-cf2-3-coref
 7	exact	exact	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	opposite	opposite	NOUN	NN	Number=Sing	0	root	0:root	Entity=9)|MSeg=oppos-ite|SpaceAfter=No
 9	.	.	PUNCT	.	_	8	punct	8:punct	_
@@ -76,7 +76,7 @@
 # transition = establishment
 # speaker = FinnThormeier
 # text = This is like the calmest water you might have seen.
-1	This	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Discourse=elaboration-additional:6->5:1:ref-dem-30-32,34-_|Entity=(9-substance-giv:act-nnsnn-cf1*-1-ana)|PDTB=EntRel:EntRel:_:_:25-33:34-44
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Discourse=elaboration-additional:6->5:1:ref-dem-30-32,34-_|Entity=(9-substance-giv:act-nnsnn-cf1*-1-ana)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:25-33:34-44
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 3	like	like	INTJ	UH	_	6	discourse	6:discourse	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(9-substance-giv:act-nnsnn-cf1*-3-coref
@@ -94,7 +94,7 @@
 # transition = continue
 # speaker = FinnThormeier
 # text = This is so beautiful.
-1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Discourse=evaluation-comment:8->5:2:lex-indwd-48-_|Entity=(9-substance-giv:act-nnsnn-cf1*-1-ana)
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Discourse=evaluation-comment:8->5:2:lex-indwd-48-_|Entity=(9-substance-giv:act-nnsnn-cf1*-1-ana)|PDTB=Implicit:Contingency.Cause.Reason:indeed:_:34-44:45-49
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 3	so	so	ADV	RB	_	4	advmod	4:advmod	_
 4	beautiful	beautiful	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=beauti-ful|SpaceAfter=No
@@ -195,7 +195,7 @@
 4	out	out	ADV	RB	_	3	advmod	3:advmod	_
 5	here	here	ADV	RB	PronType=Dem	3	advmod	3:advmod	Entity=(17-place-acc:com-nnnnn-cf5-1-coref)
 6	at	at	ADP	IN	_	7	case	7:case	_
-7	10:00	10:00	NUM	CD	NumForm=Digit|NumType=Card	3	obl	3:obl:at	Entity=(18-time-new-nnnnn-cf6-1-sgl|XML=<time when:::"10:00:00">
+7	10:00	10:00	NUM	CD	NumForm=Digit|NumType=Card	3	obl	3:obl:at	Bridge=8<18:comparison-time;set-span-interval|Entity=(18-time-acc:inf-nnnnn-cf6-1-sgl|XML=<time when:::"10:00:00">
 8	a.m.	a.m.	NOUN	NN	Abbr=Yes|Number=Sing	7	nmod:unmarked	7:nmod:unmarked	Entity=18)|XML=</time>
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj	Discourse=attribution-positive:19->18:0:sem-atsrc-109-_+lex-indwd-110-_|Entity=(3-person-giv:act-sssss-cf1*-1-ana)
 10	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	3:parataxis	SpaceAfter=No
@@ -203,7 +203,7 @@
 12	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=joint-sequence_m:20->18:1:lex-indph-107-108-_+dm-and-112-gold+dm-then-113-gold|PDTB=Explicit:Expansion.Conjunction:and:112:101-111:113-135
 13	then	then	ADV	RB	PronType=Dem	20	advmod	20:advmod	PDTB=Explicit:Temporal.Asynchronous.Precedence:then:113:101-111:112,114-135
 14	on	on	ADP	IN	_	16	case	16:case	_
-15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Bridge=17<19|Entity=(19-place-acc:inf-nnnnn-cf4-2-sgl
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Bridge=17<19:entity-associative|Entity=(19-place-acc:inf-nnnnn-cf4-2-sgl
 16	way	way	NOUN	NN	Number=Sing	20	obl	20:obl:on	_
 17	back	back	ADV	RB	Degree=Pos	16	advmod	16:advmod	Entity=19)
 18-19	we're	_	_	_	_	_	_	_	_
@@ -292,7 +292,7 @@
 20	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	21	nsubj	21:nsubj	Discourse=same-unit_m:29->27:0:_|Entity=(22-person-giv:act-nnnnn-cf1-1-ana)
 21	pick	pick	VERB	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	conj	12:conj:and	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=21:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
 22	up	up	ADP	RP	_	21	compound:prt	21:compound:prt	_
-23	grassy	grassy	ADJ	JJ	Degree=Pos	24	amod	24:amod	Entity=(23-abstract-new-nnnnn-cf3-2-sgl|MSeg=grass-y
+23	grassy	grassy	ADJ	JJ	Degree=Pos	24	amod	24:amod	Entity=(23-abstract-new-nnnnn-cf4-2-sgl|MSeg=grass-y
 24	aromas	aroma	NOUN	NNS	Number=Plur	21	obj	21:obj	Entity=23)|MSeg=aroma-s|SpaceAfter=No
 25	,	,	PUNCT	,	_	26	punct	26:punct	_
 26	lots	lot	NOUN	NNS	Number=Plur	24	conj	21:obj|24:conj	Entity=(24-plant-new-nnnnn-cf5-1-sgl|MSeg=lot-s
@@ -303,7 +303,7 @@
 31	gooseberry	gooseberry	NOUN	NN	Number=Sing	32	compound	32:compound	Entity=(25-abstract-new-nnnnn-cf6-2-sgl(26-plant-new-nnnnn-cf7-1-sgl)|MSeg=goose-berry
 32	flavors	flavor	NOUN	NNS	Number=Plur	24	conj	21:obj|24:conj	Entity=25)|MSeg=flavor-s
 33	in	in	ADP	IN	_	35	case	35:case	_
-34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	35:det	Entity=(27-abstract-new-nnnnn-cf4-2-sgl
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	35:det	Bridge=22<27:entity-meronomy|Entity=(27-abstract-acc:inf-nnnnn-cf3-2-sgl
 35	palate	palate	NOUN	NN	Number=Sing	32	nmod	32:nmod:in	Entity=27)|SpaceAfter=No
 36	.	.	PUNCT	.	_	12	punct	12:punct	_
 
@@ -413,7 +413,7 @@
 # addressee = FinnThormeier,X
 # text = It's very fresh and crisp.
 1-2	It's	_	_	_	_	_	_	_	_
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj|6:nsubj	Discourse=evaluation-comment:36->32:2:lex-indwd-277-_|Entity=(32-substance-giv:act-nsnns-cf1*-1-ana)|PDTB=Implicit:Contingency.Cause.Result:as a result:_:220-274:275-281
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj|6:nsubj	Discourse=evaluation-comment:36->32:2:lex-indwd-277-_|Entity=(32-substance-giv:act-nsnns-cf1*-1-ana)|PDTB=NoRel:NoRel:_:_:220-274:275-281
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 3	very	very	ADV	RB	_	4	advmod	4:advmod	_
 4	fresh	fresh	ADJ	JJ	Degree=Pos	0	root	0:root	_
@@ -428,7 +428,7 @@
 # speaker = Sommelier
 # addressee = FinnThormeier,X
 # text = Okay?
-1	Okay	okay	INTJ	UH	_	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=1:Interrogative-Polar-Direct.Clause|Discourse=organization-phatic:37->32:3:lex-indwd-282-_|SpaceAfter=No
+1	Okay	okay	INTJ	UH	_	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=1:Interrogative-Polar-Direct.Clause|Discourse=organization-phatic:37->32:3:lex-indwd-282-_|PDTB=NoRel:NoRel:_:_:275-281:282-283|SpaceAfter=No
 2	?	?	PUNCT	.	_	1	punct	1:punct	_
 
 # newpar
@@ -470,7 +470,7 @@
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	in	in	ADP	IN	_	5	case	5:case	_
 4	South	South	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=(13-place-giv:inact-sssns-cf3-1,2-coref-South_Africa
-5	Africa	Africa	PROPN	NNP	Number=Sing	15	nmod	15:nmod:in	Entity=13)
+5	Africa	Africa	PROPN	NNP	Number=Sing	15	obl	15:obl:in	Entity=13)
 6	Chardonnay	Chardonnay	PROPN	NNP	Number=Sing	15	dislocated	15:dislocated	Entity=(32-substance-giv:inact-nsnns-cf1-1,3,4-coref(42-substance-giv:act-nsnns-cf2*-1-coref)
 7	and	and	CCONJ	CC	_	8	cc	8:cc	_
 8	Pinot	Pinot	PROPN	NNP	Number=Sing	6	conj	6:conj:and|15:dislocated	Entity=(43-substance-new-nsnns-cf4-1,2-sgl
@@ -493,7 +493,7 @@
 # speaker = FinnThormeier
 # addressee = Sommelier
 # text = Interesting.
-1	Interesting	Interesting	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=evaluation-comment:41->40:2:_|MSeg=Interest-ing|SpaceAfter=No
+1	Interesting	interesting	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=evaluation-comment:41->40:2:_|MSeg=Interest-ing|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # newpar
@@ -524,14 +524,14 @@
 17	much	much	ADJ	JJ	Degree=Pos	18	obl:unmarked	18:obl:unmarked	_
 18	aromatic	aromatic	ADJ	JJ	Degree=Pos	12	conj	12:conj:but	MSeg=aromat-ic
 19	on	on	ADP	IN	_	21	case	21:case	_
-20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(45-abstract-new-nnnnn-cf4-2-sgl
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Bridge=22<45:entity-meronomy|Entity=(45-abstract-acc:inf-nnnnn-cf3-2-sgl
 21	nose	nose	NOUN	NN	Number=Sing	18	obl	18:obl:on	Entity=45)|SpaceAfter=No
 22	,	,	PUNCT	,	_	25	punct	25:punct	_
 23	so	so	ADV	RB	_	25	advmod	25:advmod	Discourse=causal-result:43->42:0:dm-so-332-gold|PDTB=Explicit:Contingency.Cause.Result:so:332:310-331:333-347
 24	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	25	nsubj	25:nsubj	Entity=(22-person-giv:inact-nnnnn-cf2-1-ana)
 25	pick	pick	VERB	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	parataxis	12:parataxis	_
 26	up	up	ADP	RP	_	25	compound:prt	25:compound:prt	_
-27	lots	lot	NOUN	NNS	Number=Plur	25	obj	25:obj	Entity=(46-plant-new-nnnnn-cf3-1-sgl|MSeg=lot-s
+27	lots	lot	NOUN	NNS	Number=Plur	25	obj	25:obj	Entity=(46-plant-new-nnnnn-cf5-1-sgl|MSeg=lot-s
 28	of	of	ADP	IN	_	30	case	30:case	_
 29	citrus	citrus	ADJ	JJ	Degree=Pos	30	amod	30:amod	_
 30	fruits	fruit	NOUN	NNS	Number=Plur	27	nmod	27:nmod:of	Entity=46)|MSeg=fruit-s|SpaceAfter=No
@@ -540,7 +540,7 @@
 33	,	,	PUNCT	,	_	34	punct	34:punct	_
 34	lemons	lemon	NOUN	NNS	Number=Plur	30	conj	27:nmod:of|30:conj	MSeg=lemon-s
 35	on	on	ADP	IN	_	37	case	37:case	_
-36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	37:det	Entity=(48-abstract-new-nnnnn-cf5-2-sgl
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	37:det	Bridge=22<48:entity-meronomy|Entity=(48-abstract-acc:inf-nnnnn-cf4-2-sgl
 37	palate	palate	NOUN	NN	Number=Sing	25	obl	25:obl:on	Entity=48)|SpaceAfter=No
 38	,	,	PUNCT	,	_	43	punct	43:punct	_
 39	and	and	CCONJ	CC	_	43	cc	43:cc	Discourse=elaboration-additional:44->42:1:dm-and-348-gold+dm-also-354-gold|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:and:348:310-347:349-356
@@ -561,7 +561,7 @@
 # addressee = FinnThormeier,X
 # text = So these are the type of wine that you can enjoy on their own and also with your light meals, because they are made to open now, drink now wines.
 1	So	so	INTJ	UH	_	5	discourse	5:discourse	Discourse=elaboration-additional:45->24:3:_
-2	these	this	PRON	DT	Number=Plur|PronType=Dem	5	nsubj	5:nsubj	Entity=(50-substance-new-nnnnn-cf2-1-cata)
+2	these	this	PRON	DT	Number=Plur|PronType=Dem	5	nsubj	5:nsubj	Bridge=44<50:entity-associative|Entity=(50-substance-acc:inf-nnnnn-cf2-1-coref)
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(51-substance-new-nnnnn-cf3-2-sgl
 5	type	type	NOUN	NN	Number=Sing|Typo=Yes	0	root	0:root	CorrectForm=types|XML=<sic ana:::"types"></sic>
@@ -572,7 +572,7 @@
 10	can	can	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
 11	enjoy	enjoy	VERB	VB	VerbForm=Inf	7	acl:relcl	7:acl:relcl	MSeg=en-joy
 12	on	on	ADP	IN	_	14	case	14:case	_
-13	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(50-substance-acc:com-nnnnn-cf2-1-coref)
+13	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(50-substance-giv:act-nnnnn-cf2-1-ana)
 14	own	own	ADJ	JJ	Degree=Pos	11	obl	11:obl:on	_
 15	and	and	CCONJ	CC	_	20	cc	20:cc	_
 16	also	also	ADV	RB	_	20	advmod	20:advmod	_
@@ -669,7 +669,7 @@
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 3	open	open	ADJ	JJ	Degree=Pos	7	compound	7:compound	Entity=(50-substance-giv:act-nnnnn-cf1-5-pred
 4	now	now	ADV	RB	_	3	advmod	3:advmod	_
-5	drink	drink	VERB	VB	Person=2|VerbForm=Inf	3	parataxis	3:parataxis	_
+5	drink	drink	VERB	VB	VerbForm=Inf	3	parataxis	3:parataxis	_
 6	now	now	ADV	RB	_	5	advmod	5:advmod	_
 7	wines	wine	NOUN	NNS	Number=Plur	0	root	0:root	Entity=50)|MSeg=wine-s|SpaceAfter=No
 8	,	,	PUNCT	,	_	15	punct	15:punct	_
@@ -712,7 +712,7 @@
 12	5	5	NUM	CD	NumForm=Digit|NumType=Card	13	nummod	13:nummod	Discourse=same-unit_m:61->58:0:_|Entity=(60-time-new-nnnnn-cf5-2-sgl
 13	years	year	NOUN	NNS	Number=Plur	11	ccomp	11.1:obl:unmarked	Entity=60)|MSeg=year-s
 14	in	in	ADP	IN	_	16	case	16:case	_
-15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Bridge=50<61|Entity=(61-place-acc:inf-nnnnn-cf4-2-coref
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Bridge=50<61:entity-associative|Entity=(61-place-acc:inf-nnnnn-cf4-2-coref
 16	cellar	cellar	NOUN	NN	Number=Sing	13	orphan	11.1:obl:in	Entity=61)|SpaceAfter=No
 17	.	.	PUNCT	.	_	11	punct	11:punct	_
 
@@ -790,7 +790,7 @@
 13	eight	eight	NUM	CD	NumForm=Word|NumType=Card	14	nummod	14:nummod	Entity=(67-time-new-nsnnn-cf2-2-coref
 14	months	month	NOUN	NNS	Number=Plur	12	obj	12:obj	Entity=67)|MSeg=mon-th-s
 15	in	in	ADP	IN	_	18	case	18:case	_
-16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(68-object-new-nnnnn-cf4-3-sgl
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(68-object-new-nnnnn-cf4-3-coref
 17	French	French	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
 18	oak	oak	NOUN	NN	Number=Sing	12	obl	12:obl:in	Entity=68)|SpaceAfter=No
 19	.	.	PUNCT	.	_	12	punct	12:punct	_
@@ -803,7 +803,7 @@
 # addressee = X
 # text = So the reason behind that shorter period of time is for you to get more of the original flavors from the grapes, not so much of the secondary flavor since they are more level entry wines.
 1	So	so	INTJ	UH	_	14	discourse	14:discourse	Discourse=causal-cause:67->66:0:_
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(69-abstract-new-nnnnn-cf4-2-sgl|PDTB=AltLex:Contingency.Cause.Reason:the reason:515-516:495-513:514,517-551
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(69-abstract-new-nnnnn-cf6-2-sgl|PDTB=AltLex:Contingency.Cause.Reason:the reason:515-516:495-513:514,517-551
 3	reason	reason	NOUN	NN	Number=Sing	14	nsubj:outer	14:nsubj:outer	_
 4	behind	behind	ADP	IN	_	7	case	7:case	MSeg=be-hind
 5	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	7:det	Entity=(67-time-giv:act-nsnnn-cf2-3-coref
@@ -818,18 +818,18 @@
 14	get	get	VERB	VB	VerbForm=Inf	0	root	0:root	_
 15	more	more	ADJ	JJR	Degree=Cmp	14	obj	14:obj	_
 16	of	of	ADP	IN	_	19	case	19:case	_
-17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(70-abstract-new-nnnnn-cf5-3-sgl
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(70-abstract-new-nnnnn-cf7-3-sgl
 18	original	original	ADJ	JJ	Degree=Pos	19	amod	19:amod	MSeg=origin-al
 19	flavors	flavor	NOUN	NNS	Number=Plur	15	obl	15:obl:of	Entity=70)|MSeg=flavor-s
 20	from	from	ADP	IN	_	22	case	22:case	_
-21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(71-plant-new-nnnnn-cf6-2-sgl
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Bridge=65<71:entity-resultative|Entity=(71-plant-acc:inf-nnnnn-cf4-2-sgl
 22	grapes	grape	NOUN	NNS	Number=Plur	19	nmod	19:nmod:from	Entity=71)|MSeg=grape-s|SpaceAfter=No
 23	,	,	PUNCT	,	_	26	punct	26:punct	_
 24	not	not	PART	RB	Polarity=Neg	26	advmod	26:advmod	Discourse=adversative-antithesis:68->67:0:_|Negation=Yes
 25	so	so	ADV	RB	_	26	advmod	26:advmod	_
 26	much	much	ADJ	JJ	Degree=Pos	15	conj	14:obj|15:conj	_
 27	of	of	ADP	IN	_	30	case	30:case	_
-28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(72-abstract-new-nnnnn-cf7-3-sgl
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Bridge=68<72:entity-associative|Entity=(72-abstract-acc:inf-nnnnn-cf5-3-sgl
 29	secondary	secondary	ADJ	JJ	Degree=Pos	30	amod	30:amod	MSeg=second-ary
 30	flavor	flavor	NOUN	NN	Number=Sing	26	obl	26:obl:of	Entity=72)
 31	since	since	SCONJ	IN	_	37	mark	37:mark	Discourse=causal-cause:69->67:1:dm-since-544-gold|PDTB=Explicit:Contingency.Cause.Reason:since:544:514-543:545-551
@@ -895,7 +895,7 @@
 # speaker = Sommelier
 # addressee = X
 # text = So it's a high grade grape that is made from Pinot Noir and the Hermitage.
-1	So	so	INTJ	UH	_	7	discourse	7:discourse	Discourse=joint-list_m:73->70:1:_
+1	So	so	INTJ	UH	_	7	discourse	7:discourse	Discourse=joint-list_m:73->70:1:_|PDTB=Implicit:Expansion.Conjunction:and:_:563-582:583-599
 2-3	it's	_	_	_	_	_	_	_	_
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	Entity=(73-plant-giv:act-nsnnn-cf1*-1-ana-Pinotage)
 3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
@@ -939,14 +939,14 @@
 # speaker = Sommelier
 # addressee = X
 # text = The Hermitage is known as the Cinsault today.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:77->74:1:sem-rpt-597-598,610-611-_|Entity=(80-plant-giv:inact-nnnnn-cf1-2-coref-Cinsaut|PDTB=EntRel:EntRel:_:_:600-609:610-618
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:77->74:1:sem-rpt-597-598,610-611-_|Entity=(80-plant-giv:inact-nnnnn-cf1-2-coref-Cinsaut|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:600-609:610-618
 2	Hermitage	Hermitage	PROPN	NNP	Number=Sing	4	nsubj:pass	4:nsubj:pass	Entity=80)|MSeg=Hermit-age
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 4	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=know-n
 5	as	as	ADP	IN	_	7	case	7:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(80-plant-giv:act-nnnnn-cf1-2-coref-Cinsaut
 7	Cinsault	Cinsault	PROPN	NNP	Number=Sing	4	obl	4:obl:as	Entity=80)
-8	today	today	NOUN	NN	Number=Sing	4	obl:unmarked	4:obl:unmarked	Entity=(82-time-acc:com-nnnnn-cf2-1-sgl)|MSeg=to-day|SpaceAfter=No|XML=<date when:::"2018-10-16"></date>
+8	today	today	NOUN	NN	Number=Sing	4	obl:unmarked	4:obl:unmarked	Bridge=8<82:comparison-time|Entity=(82-time-acc:inf-nnnnn-cf2-1-sgl)|MSeg=to-day|SpaceAfter=No|XML=<date when:::"2018-10-16"></date>
 9	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_vlog_wine-37
@@ -957,7 +957,7 @@
 # addressee = X
 # text = So the Pinotage is very aromatic, has lots of plum fruits, red fruit flavors.
 1	So	so	INTJ	UH	_	6	discourse	6:discourse	Discourse=joint-sequence_m:78->24:4:dm-and-495-gold+dm-then-496-gold|PDTB=NoRel:NoRel:_:_:610-618:619-635
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(83-substance-new-nssns-cf1-2-coref-Pinotage
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=73<83:entity-resultative|Entity=(83-substance-acc:inf-nssns-cf1-2-coref-Pinotage
 3	Pinotage	Pinotage	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Entity=83)
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 5	very	very	ADV	RB	_	6	advmod	6:advmod	_
@@ -981,7 +981,7 @@
 # speaker = Sommelier
 # addressee = X
 # text = The tanins are full of high tanins, but they are quite soft.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=adversative-concession:80->81:0:dm-but-644-gold|Entity=(87-substance-new-nnnnn-cf1-2-coref|PDTB=Implicit:Expansion.Conjunction:and:_:619-635:636-649
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=83<87:entity-associative|Discourse=adversative-concession:80->81:0:dm-but-644-gold|Entity=(87-substance-acc:inf-nnnnn-cf1-2-coref|PDTB=Implicit:Expansion.Conjunction:and:_:619-635:636-649
 2	tanins	tanin	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=87)|MSeg=tanin-s
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 4	full	full	ADJ	JJ	Degree=Pos	0	root	0:root	_
@@ -989,7 +989,7 @@
 6	high	high	ADJ	JJ	Degree=Pos	7	amod	7:amod	Entity=(88-substance-new-nnnnn-cf2-2-sgl
 7	tanins	tanin	NOUN	NNS	Number=Plur	4	obl	4:obl:of	Entity=88)|MSeg=tanin-s|SpaceAfter=No
 8	,	,	PUNCT	,	_	13	punct	13:punct	_
-9	but	but	CCONJ	CC	_	13	cc	13:cc	Discourse=joint-list_m:81->78:0:_|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:644:636-643:645-649
+9	but	but	CCONJ	CC	_	13	cc	13:cc	Discourse=joint-list_m:81->78:0:sem-mrnym-620-621,636-637-_|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:644:636-643:645-649
 10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	13:nsubj	Entity=(87-substance-giv:act-nnnnn-cf1-1-ana)
 11	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_
 12	quite	quite	ADV	RB	_	13	advmod	13:advmod	_
@@ -1028,10 +1028,10 @@
 22	pick	pick	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	20	acl:relcl	20:acl:relcl	_
 23	up	up	ADP	RP	_	22	compound:prt	22:compound:prt	_
 24	on	on	ADP	IN	_	26	case	26:case	_
-25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(92-abstract-new-nnnnn-cf2-2-coref
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Bridge=22<92:entity-meronomy|Entity=(92-abstract-acc:inf-nnnnn-cf2-2-coref
 26	palette	palette	NOUN	NN	Number=Sing	22	obl	22:obl:on	Entity=92)
 27	on	on	ADP	IN	_	29	case	29:case	_
-28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	29:det	Entity=(93-abstract-new-nnnnn-cf7-2-sgl
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	29:det	Bridge=22<93:entity-meronomy|Entity=(93-abstract-acc:inf-nnnnn-cf6-2-sgl
 29	nose	nose	NOUN	NN	Number=Sing	22	obl	22:obl:on	Entity=93)
 30	to	to	ADP	IN	_	32	case	32:case	_
 31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	32:det	Entity=(92-abstract-giv:act-nnnnn-cf2-2-coref
@@ -1042,7 +1042,7 @@
 36	flavor	flavor	NOUN	NN	Number=Sing	17	appos	17:appos	Entity=94)91)|SpaceAfter=No
 37	,	,	PUNCT	,	_	38	punct	38:punct	_
 38	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	5:conj|13:conj:and	Discourse=joint-list_m:85->84:0:sem-lxchn-685,691-gold|MSeg=ha-s|PDTB=Implicit:Expansion.Conjunction:and:_:668-686:687-691
-39	lots	lot	NOUN	NNS	Number=Plur	38	obj	38:obj	Entity=(95-plant-new-nnnnn-cf6-1-sgl|MSeg=lot-s
+39	lots	lot	NOUN	NNS	Number=Plur	38	obj	38:obj	Entity=(95-plant-new-nnnnn-cf7-1-sgl|MSeg=lot-s
 40	of	of	ADP	IN	_	42	case	42:case	_
 41	great	great	ADJ	JJ	Degree=Pos	42	amod	42:amod	_
 42	fruits	fruit	NOUN	NNS	Number=Plur	39	nmod	39:nmod:of	Entity=95)|MSeg=fruit-s
@@ -1060,7 +1060,7 @@
 # speaker = Sommelier
 # addressee = X
 # text = And then the Cab, the Cabernet is known for its thick uh skin and it's known for when it's blended, it always acts as a backbone to the wine.
-1	And	and	CCONJ	CC	_	9	cc	9:cc	Discourse=context-background:87->91:3:lex-indwd-723-_|PDTB=Explicit:Expansion.Conjunction:and:698:650-697:699-763
+1	And	and	CCONJ	CC	_	9	cc	9:cc	Discourse=context-background:87->91:3:lex-indwd-723-_+sem-mrnym-729-730,734-735-_|PDTB=Explicit:Expansion.Conjunction:and:698:650-697:699-763
 2	then	then	ADV	RB	PronType=Dem	9	advmod	9:advmod	PDTB=Explicit:Temporal.Asynchronous.Precedence:then:699:650-697:698,700-763
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(96-plant-new-nsnnn-cf1-2-coref-Cabernet_Sauvignon
 4	Cab	Cab	PROPN	NNP	Number=Sing	9	dislocated	9:dislocated	Entity=96)|SpaceAfter=No
@@ -1093,7 +1093,7 @@
 29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	30:det	Entity=(98-abstract-new-nnnnn-cf4-2-sgl
 30	backbone	backbone	NOUN	NN	Number=Sing	27	obl	27:obl:as	MSeg=back-bone
 31	to	to	ADP	IN	_	33	case	33:case	_
-32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	33:det	Bridge=96<99|Entity=(99-substance-acc:inf-nnnnn-cf2-2-sgl
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	33:det	Bridge=96<99:entity-associative|Entity=(99-substance-acc:inf-nnnnn-cf2-2-coref
 33	wine	wine	NOUN	NN	Number=Sing	30	nmod	30:nmod:to	Entity=99)98)|SpaceAfter=No
 34	.	.	PUNCT	.	_	9	punct	9:punct	_
 
@@ -1104,9 +1104,9 @@
 # speaker = Sommelier
 # addressee = X
 # text = So since this one had not much of the oak barrel you pick up the original black currant fruits, pencil shavings aromas, has lots of black cherries as well.
-1	So	so	ADV	RB	_	13	advmod	13:advmod	Discourse=joint-sequence_m:91->78:2:dm-and-698-gold+dm-then-699-gold|PDTB=Implicit:Expansion.Conjunction:and:_:698-731:732-763
+1	So	so	ADV	RB	_	13	advmod	13:advmod	Discourse=joint-sequence_m:91->78:2:dm-and-698-gold+dm-then-699-gold|PDTB=NoRel:NoRel:_:_:698-731:732-763
 2	since	since	SCONJ	IN	_	5	mark	5:mark	Discourse=causal-cause:92->93:0:dm-since-733-gold|PDTB=Explicit:Contingency.Cause.Reason:since:733:732,743-755:734-742
-3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Entity=(100-substance-acc:com-snsns-cf3-2-coref
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Bridge=99<100:comparison-sense|Entity=(100-substance-acc:inf-snsns-cf3-2-coref
 4	one	one	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=100)
 5	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	advcl	13:advcl:since	_
 6	not	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	Negation=Yes
@@ -1144,10 +1144,10 @@
 # speaker = Sommelier
 # addressee = X
 # text = This is the 2017 vintage.
-1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Discourse=elaboration-additional:95->91:2:_|Entity=(106-abstract-new-nnnnn-cf2-1-cata)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:732-763:764-769
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Bridge=100<106:entity-associative|Discourse=elaboration-additional:95->91:2:sem-mrnym-734-735,764-_|Entity=(106-abstract-acc:inf-nnnnn-cf1-1-coref)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:732-763:764-769
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
-3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(106-abstract-acc:com-nnnnn-cf2-3-coref
-4	2017	2017	NUM	CD	NumForm=Digit|NumType=Card	5	compound	5:compound	Entity=(49-time-giv:inact-nnnnn-cf1-1-coref)|XML=<date when:::"2017"></date>
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(106-abstract-giv:act-nnnnn-cf1-3-coref
+4	2017	2017	NUM	CD	NumForm=Digit|NumType=Card	5	compound	5:compound	Entity=(49-time-giv:inact-nnnnn-cf2-1-coref)|XML=<date when:::"2017"></date>
 5	vintage	vintage	NOUN	NN	Number=Sing	0	root	0:root	Entity=106)|SpaceAfter=No
 6	.	.	PUNCT	.	_	5	punct	5:punct	_
 
@@ -1249,14 +1249,14 @@
 # speaker = Sommelier
 # addressee = FinnThormeier,X
 # text = Remember, while it gets better with age, so, these also.
-1	Remember	remember	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:101->103:1:sem-atsrc-821-_+lex-indwd-821-_|SpaceAfter=No
+1	Remember	remember	VERB	VB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:101->103:1:lex-indwd-821-_+sem-atsrc-821-_|SpaceAfter=No
 2	,	,	PUNCT	,	_	5	punct	5:punct	_
 3	while	while	SCONJ	IN	_	5	mark	5:mark	Discourse=adversative-concession:102->103:0:dm-while-823-gold|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:while:823:830-834:824-829
-4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj|6:nsubj:xsubj	Entity=(111-substance-acc:com-nnnnn-cf2-1-sgl)
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj|6:nsubj:xsubj	Entity=(111-substance-acc:com-nnnnn-cf2-1-ana)
 5	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	12:advcl:while	MSeg=get-s
 6	better	good	ADJ	JJR	Degree=Cmp	5	xcomp	5:xcomp	MSeg=bett-er
 7	with	with	ADP	IN	_	8	case	8:case	_
-8	age	age	NOUN	NN	Number=Sing	5	obl	5:obl:with	Entity=(112-abstract-new-nnnnn-cf3-1-sgl)|SpaceAfter=No
+8	age	age	NOUN	NN	Number=Sing	5	obl	5:obl:with	Bridge=111<112:entity-property|Entity=(112-abstract-acc:inf-nnnnn-cf3-1-sgl)|SpaceAfter=No
 9	,	,	PUNCT	,	_	5	punct	5:punct	_
 10	so	so	ADV	RB	_	12	advmod	12:advmod	Discourse=explanation-justify:103->100:0:dm-so-830-gold;elaboration-additional:103->78:2:3:orp-also-833-gold|PDTB=Explicit:Contingency.Cause.Result:so:830:807-820:821-829,831-834|SpaceAfter=No
 11	,	,	PUNCT	,	_	10	punct	10:punct	_
@@ -1324,7 +1324,7 @@
 # speaker = Sommelier
 # addressee = FinnThormeier,X
 # text = Enjoy!
-1	Enjoy	enjoy	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-phatic:108->105:2:_|MSeg=En-joy|SpaceAfter=No
+1	Enjoy	enjoy	VERB	VB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-phatic:108->105:2:_|MSeg=En-joy|SpaceAfter=No
 2	!	!	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_vlog_wine-53
@@ -1414,7 +1414,7 @@
 # speaker = FinnThormeier
 # text = I'm just smelling the wine.
 1-2	I'm	_	_	_	_	_	_	_	_
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=joint-other_m:116->114:2:_|Entity=(3-person-giv:inact-sssss-cf1-1-ana)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=joint-other_m:116->114:2:_|Entity=(3-person-giv:inact-sssss-cf1-1-ana)|PDTB=Implicit:Expansion.Conjunction:and:_:886-889:890-896
 2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	just	just	ADV	RB	_	4	advmod	4:advmod	_
 4	smelling	smell	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	MSeg=smell-ing
@@ -1469,12 +1469,12 @@
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint-other_m:121->120:0:_|Entity=(3-person-giv:inact-sssss-cf1-1-ana)|PDTB=Implicit:Expansion.Conjunction:and:_:914-920:921-931
 2	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	like	like	SCONJ	IN	_	6	mark	6:mark	_
-4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(121-abstract-new-nnnnn-cf2-2-sgl(3-person-giv:act-sssss-cf1-1-ana)
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(121-abstract-new-nnnnn-cf3-2-sgl(3-person-giv:act-sssss-cf1-1-ana)
 5	sunburn	sunburn	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=121)|MSeg=sun-burn
 6	adds	add	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	2:advcl:like	MSeg=add-s
 7	nicely	nicely	ADV	RB	Degree=Pos	6	advmod	6:advmod	MSeg=nice-ly
 8	to	to	ADP	IN	_	10	case	10:case	_
-9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(122-abstract-new-nnnnn-cf3-2-sgl
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=118<122:entity-resultative|Entity=(122-abstract-acc:inf-nnnnn-cf2-2-sgl
 10	effect	effect	NOUN	NN	Number=Sing	6	obl	6:obl:to	Entity=122)|SpaceAfter=No
 11	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -1496,7 +1496,7 @@
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=adversative-antithesis:123->124:1:_|Entity=(3-person-giv:inact-sssss-cf2-1-ana)
 2	actually	actually	ADV	RB	Degree=Pos	3	advmod	3:advmod	MSeg=act-ual-ly
 3	spit	spit	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	0:root	CorrectForm=spat|XML=<sic ana:::"spat"></sic>
-4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	3:obj	Entity=(123-substance-acc:com-nnnnn-cf1-1-ana)|SpaceAfter=No
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	3:obj	Bridge=119<123:comparison-sense;entity-meronomy|Entity=(123-substance-acc:inf-nnnnn-cf1-1-coref)|SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
 6	all	all	DET	DT	PronType=Tot	4	appos	4:appos	Entity=(123-substance-giv:act-nnnnn-cf1-1-ana
 7	of	of	ADP	IN	_	8	case	8:case	_
@@ -1593,7 +1593,7 @@
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(3-person-giv:act-sssss-cf1*-1-ana)
 3	actually	actually	ADV	RB	Degree=Pos	4	advmod	4:advmod	MSeg=act-ual-ly
 4	drank	drink	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	0:root	_
-5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(127-substance-new-nnnnn-cf2-3-sgl
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Bridge=119<127:comparison-sense|Entity=(127-substance-acc:inf-nnnnn-cf2-3-sgl
 6	few	few	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	sips	sip	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=127)|MSeg=sip-s
 8	–	-	PUNCT	:	_	4	punct	4:punct	_
@@ -1723,7 +1723,7 @@
 # addressee = Y
 # text = Just say your favorite wine.
 1	Just	just	ADV	RB	_	2	advmod	2:advmod	Discourse=restatement-repetition_m:139->138:2:sem-synym-1026-1027,1035-1037-_+ref-prs-1029,1035-_+sem-lxchn-1030,1036-_+sem-lxchn-1031,1037-_
-2	say	say	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+2	say	say	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
 3	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(100-substance-giv:act-snsns-cf2-3-coref(128-person-giv:act-ssnnn-cf1*-1-ana)
 4	favorite	favorite	ADJ	JJ	Degree=Pos	5	amod	5:amod	MSeg=favor-ite
 5	wine	wine	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=100)|SpaceAfter=No
@@ -1866,7 +1866,7 @@
 # speaker = X
 # addressee = FinnThormeier
 # text = Crisp, fruity, fresh everyday wine, good to have with fish and maybe chicken.
-1	Crisp	Crisp	ADJ	JJ	Degree=Pos	7	amod	7:amod	Discourse=joint-list_m:147->146:0:_|Entity=(138-substance-giv:act-sssnn-cf1*-7-coref|SpaceAfter=No
+1	Crisp	crisp	ADJ	JJ	Degree=Pos	7	amod	7:amod	Discourse=joint-list_m:147->146:0:_|Entity=(138-substance-giv:act-sssnn-cf1*-7-coref|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	fruity	fruity	ADJ	JJ	Degree=Pos	7	amod	7:amod	MSeg=fruit-y|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -1981,7 +1981,7 @@
 # speaker = FinnThormeier
 # addressee = X,Y
 # text = Actually all of us didn't choose the most expensive one.
-1	Actually	actually	ADV	RB	Degree=Pos	7	advmod	7:advmod	Discourse=adversative-concession:155->158:1:lex-indwd-1165-_|MSeg=Act-ual-ly
+1	Actually	actually	ADV	RB	Degree=Pos	7	advmod	7:advmod	Discourse=adversative-concession:155->158:1:lex-indwd-1165-_+sem-mrnym-1172-1175,1187-1190-_|MSeg=Act-ual-ly
 2	all	all	DET	DT	PronType=Tot	7	nsubj	7:nsubj	Entity=(16-person-giv:inact-ssnss-cf1-1-ana
 3	of	of	ADP	IN	_	4	case	4:case	_
 4	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	nmod	2:nmod:of	Entity=16)
@@ -1989,7 +1989,7 @@
 5	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	7:aux	_
 6	n't	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	Negation=Yes
 7	choose	choose	VERB	VB	VerbForm=Inf	0	root	0:root	_
-8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(145-substance-new-nnnnn-cf2-4-sgl
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Bridge=130<145:comparison-sense|Entity=(145-substance-acc:inf-nnnnn-cf2-4-coref
 9	most	most	ADV	RBS	Degree=Sup	10	advmod	10:advmod	_
 10	expensive	expensive	ADJ	JJ	Degree=Pos	11	amod	11:amod	MSeg=expens-ive
 11	one	one	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=145)|SpaceAfter=No
@@ -2025,14 +2025,14 @@
 2	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	one	one	NUM	CD	NumForm=Word|NumType=Card	2	obj	2:obj	Entity=(100-substance-giv:inact-snsns-cf2-1-coref
 4	of	of	ADP	IN	_	8	case	8:case	_
-5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(146-substance-new-nnnnn-cf4-4-sgl
+5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Bridge=145<146:comparison-sense|Entity=(146-substance-acc:inf-nnnnn-cf3-4-sgl
 6	very	very	ADV	RB	_	7	advmod	7:advmod	_
 7	expensive	expensive	ADJ	JJ	Degree=Pos	8	amod	8:amod	MSeg=expens-ive
 8	ones	one	NOUN	NNS	Number=Plur	3	nmod	3:nmod:of	Entity=146)100)|MSeg=one-s|SpaceAfter=No
 9	,	,	PUNCT	,	_	15	punct	15:punct	_
 10	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=adversative-antithesis:158->159:0:_|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:and:1192:1183-1191:1193-1201
 11	actually	actually	ADV	RB	Degree=Pos	15	advmod	15:advmod	MSeg=act-ual-ly
-12	none	none	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=(147-person-new-nnnnn-cf3-1-sgl|Negation=Yes
+12	none	none	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=(147-person-new-nnnnn-cf4-1-sgl|Negation=Yes
 13	of	of	ADP	IN	_	14	case	14:case	_
 14	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	12	nmod	12:nmod:of	Entity=(16-person-giv:act-ssnss-cf1*-1-ana)147)
 15	liked	like	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	2:conj:and	MSeg=lik-ed

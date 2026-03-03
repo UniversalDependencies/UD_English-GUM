@@ -35,7 +35,7 @@
 # s_type = frag
 # transition = null
 # text = Saturday, January 31, 2009
-1	Saturday	Saturday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-circumstance:2->27:8:lex-indph-9-14-_|Entity=(5-time-acc:com-nnnnn-cf1-1-coref)|PDTB=EntRel:EntRel:_:_:1-8:9-14|SpaceAfter=No|XML=<date when:::"2009-01-31" rend:::"bold">
+1	Saturday	Saturday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-circumstance:2->27:8:lex-indph-9-14-_|Entity=(5-time-acc:com-nnnnn-cf1-1-coref)|MSeg=Satur-day|PDTB=EntRel:EntRel:_:_:1-8:9-14|SpaceAfter=No|XML=<date when:::"2009-01-31" rend:::"bold">
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	January	January	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(5-time-giv:act-nnnnn-cf1-2-appos
 4	31	31	NUM	CD	NumForm=Digit|NumType=Card	1	appos	1:appos	SpaceAfter=No
@@ -84,8 +84,8 @@
 16	largest	large	ADJ	JJS	Degree=Sup	23	amod	23:amod	MSeg=larg-est|SpaceAfter=No
 17	,	,	PUNCT	,	_	16	punct	16:punct	_
 18	highest	high	ADJ	JJS	Degree=Sup	19	amod	19:amod	MSeg=high-est
-19	quality	quality	ADJ	JJ	Degree=Pos	23	compound	23:compound	_
-20	how	how	NOUN	NN	Number=Sing	23	compound	23:compound	SpaceAfter=No|XML=<w>
+19	quality	quality	ADJ	JJ	Degree=Pos	23	compound	23:compound	MSeg=quali-ty
+20	how	how	ADV	WRB	PronType=Int	23	compound	23:compound	SpaceAfter=No|XML=<w>
 21	-	-	PUNCT	HYPH	_	22	punct	22:punct	SpaceAfter=No
 22	to	to	PART	TO	_	20	acl	20:acl	XML=</w>
 23	manual	manual	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=11)|SpaceAfter=No
@@ -182,7 +182,7 @@
 # s_type = imp
 # transition = smooth-shift
 # text = Read below for more of the interview in full.
-1	Read	read	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:20->14:2:sem-rpt-78-79,123-124-_|PDTB=Implicit:Expansion.Conjunction:further:_:77-117:118-127
+1	Read	read	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:20->14:2:sem-rpt-78-79,123-124-_|PDTB=Implicit:Expansion.Conjunction:further:_:77-117:118-127
 2	below	below	ADV	RB	Degree=Pos	1	advmod	1:advmod	MSeg=be-low
 3	for	for	ADP	IN	_	4	case	4:case	_
 4	more	more	ADJ	JJR	Degree=Cmp	1	obl	1:obl:for	_
@@ -260,8 +260,8 @@
 11	largest	large	ADJ	JJS	Degree=Sup	18	amod	18:amod	MSeg=larg-est|SpaceAfter=No
 12	,	,	PUNCT	,	_	11	punct	11:punct	_
 13	highest	high	ADJ	JJS	Degree=Sup	14	amod	14:amod	MSeg=high-est
-14	quality	quality	ADJ	JJ	Degree=Pos	18	compound	18:compound	_
-15	how	how	NOUN	NN	Number=Sing	18	compound	18:compound	SpaceAfter=No|XML=<w>
+14	quality	quality	ADJ	JJ	Degree=Pos	18	compound	18:compound	MSeg=quali-ty
+15	how	how	ADV	WRB	PronType=Int	18	compound	18:compound	SpaceAfter=No|XML=<w>
 16	-	-	PUNCT	HYPH	_	17	punct	17:punct	SpaceAfter=No
 17	to	to	PART	TO	_	15	acl	15:acl	XML=</w>
 18	manual	manual	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=11)20)3)|SpaceAfter=No
@@ -273,21 +273,21 @@
 # transition = null
 # speaker = JackHerrick
 # text = Our long term goal is to produce practical instructions on almost every topic in every language.
-1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Bridge=3<22|Discourse=elaboration-additional:29->27:1:sem-mrnym-151-166,168-_|Entity=(21-abstract-new-nnnsn-cf2-4-coref(22-organization-acc:inf-nnsnn-cf1-1-coref-wikiHow)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:149-167:168-184
+1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Bridge=3<22:other|Discourse=elaboration-additional:29->27:1:sem-mrnym-151-166,168-_+sem-mrnym-156-158,182-183-_|Entity=(21-abstract-new-nnnsn-cf3-4-coref(22-organization-acc:inf-nnsnn-cf1-1-coref-wikiHow)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:149-167:168-184
 2	long	long	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	term	term	NOUN	NN	Number=Sing	4	compound	4:compound	_
 4	goal	goal	NOUN	NN	Number=Sing	7	nsubj:outer	7:nsubj:outer	Entity=21)
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 6	to	to	PART	TO	_	7	mark	7:mark	_
 7	produce	produce	VERB	VB	VerbForm=Inf	0	root	0:root	_
-8	practical	practical	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(23-abstract-new-nnnnn-cf3-2-coref|MSeg=practic-al
+8	practical	practical	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(23-abstract-new-nnnnn-cf4-2-coref|MSeg=practic-al
 9	instructions	instruction	NOUN	NNS	Number=Plur	7	obj	7:obj	MSeg=instruct-ion-s
 10	on	on	ADP	IN	_	13	case	13:case	_
 11	almost	almost	ADV	RB	Degree=Pos	12	advmod	12:advmod	Entity=(24-abstract-new-nnnnn-cf5-3-sgl|MSeg=al-most
 12	every	every	DET	DT	PronType=Ind	13	det	13:det	_
 13	topic	topic	NOUN	NN	Number=Sing	9	nmod	9:nmod:on	Entity=24)
 14	in	in	ADP	IN	_	16	case	16:case	_
-15	every	every	DET	DT	PronType=Ind	16	det	16:det	Entity=(25-abstract-new-nnnnn-cf4-2-sgl
+15	every	every	DET	DT	PronType=Ind	16	det	16:det	Bridge=12<25:entity-associative|Entity=(25-abstract-acc:inf-nnnnn-cf2-2-sgl
 16	language	language	NOUN	NN	Number=Sing	9	nmod	9:nmod:in	Entity=25)23)|SpaceAfter=No
 17	.	.	PUNCT	.	_	7	punct	7:punct	_
 
@@ -307,7 +307,7 @@
 7	goals	goal	NOUN	NNS	Number=Plur	4	obl	4:obl:from	Entity=21)|MSeg=goal-s
 8	currently	currently	ADV	RB	Degree=Pos	4	advmod	4:advmod	MSeg=current-ly|SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	12:punct	_
-10	but	but	CCONJ	CC	_	12	cc	12:cc	Discourse=elaboration-additional:31->29:0:sem-rpt-168-171,190-191-_+ref-prs-168,185-_;adversative-concession:31->41:3:1:orp-however-261-gold|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:194:185-193:195-209
+10	but	but	CCONJ	CC	_	12	cc	12:cc	Discourse=elaboration-additional:31->29:0:sem-rpt-168-171,190-191-_+ref-prs-168,185-_+sem-mrnym-168,204-_;adversative-concession:31->41:3:1:orp-however-261-gold|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:194:185-193:195-209
 11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	12:nsubj	Entity=(22-organization-giv:act-nnsnn-cf1*-1-ana-wikiHow)
 12	take	take	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	conj	4:conj:but	_
 13	comfort	comfort	NOUN	NN	Number=Sing	12	obj	12:obj	_
@@ -350,7 +350,7 @@
 # transition = continue
 # speaker = JackHerrick
 # text = We hope that in time, we will have millions of articles with many of them having featured status.
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:34->35:1:sem-atsrc-223-_+lex-indwd-224-_+syn-rpr-225-_|Entity=(30-abstract-new-nnnnn-cf5-2-disc
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:34->35:1:sem-atsrc-223-_+lex-indwd-224-_+syn-rpr-225-_|Entity=(30-abstract-new-nnnnn-cf5-2-disc|PDTB=Implicit:Expansion.Conjunction:and:_:210-222:223-242
 2	hope	hope	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	that	that	SCONJ	IN	_	9	mark	9:mark	Discourse=joint-list_m:35->31:1:_
 4	in	in	ADP	IN	_	5	case	5:case	_
@@ -402,12 +402,12 @@
 # transition = smooth-shift
 # speaker = JackHerrick
 # text = However, in terms of readership, we are probably the most popular single subject wiki after Wikipedia.
-1	However	however	ADV	RB	_	16	advmod	16:advmod	Discourse=elaboration-additional:41->31:3:ref-prs-185,268-_+sem-synym-204,271-278-_|MSeg=How-ever|PDTB=EntRel:EntRel:_:_:243-260:261-279;Explicit:Comparison.Concession.Arg2-as-denier:however:261:185-209:262-279|SpaceAfter=No
+1	However	however	ADV	RB	_	16	advmod	16:advmod	Discourse=elaboration-additional:41->31:3:ref-prs-185,268-_+sem-mrnym-204,266-_+sem-synym-204,271-278-_|MSeg=How-ever|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:however:261:185-209:262-279;Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:243-260:261-279|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	in	in	ADP	IN	_	4	case	4:case	_
-4	terms	term	NOUN	NNS	Number=Plur	16	nmod	16:nmod:in	MSeg=term-s
+4	terms	term	NOUN	NNS	Number=Plur	16	obl	16:obl:in	MSeg=term-s
 5	of	of	ADP	IN	_	6	case	6:case	_
-6	readership	readership	NOUN	NN	Number=Sing	4	nmod	4:nmod:of	Entity=(35-person-new-nnnnn-cf4-1-sgl)|MSeg=read-er-ship|SpaceAfter=No
+6	readership	readership	NOUN	NN	Number=Sing	4	nmod	4:nmod:of	Bridge=3<35:entity-associative|Entity=(35-person-acc:inf-nnnnn-cf3-1-sgl)|MSeg=read-er-ship|SpaceAfter=No
 7	,	,	PUNCT	,	_	4	punct	4:punct	_
 8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	16:nsubj	Entity=(22-organization-giv:act-nnsnn-cf1*-1-ana-wikiHow)
 9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	cop	16:cop	_
@@ -419,7 +419,7 @@
 15	subject	subject	NOUN	NN	Number=Sing	16	compound	16:compound	_
 16	wiki	wiki	NOUN	NN	Number=Sing	0	root	0:root	_
 17	after	after	ADP	IN	_	18	case	18:case	_
-18	Wikipedia	Wikipedia	PROPN	NNP	Number=Sing	16	obl	16:obl:after	Entity=(36-organization-new-nnnnn-cf3-1-coref-Wikipedia)3)|SpaceAfter=No
+18	Wikipedia	Wikipedia	PROPN	NNP	Number=Sing	16	obl	16:obl:after	Entity=(36-organization-new-nnnnn-cf4-1-coref-Wikipedia)3)|SpaceAfter=No
 19	.	.	PUNCT	.	_	16	punct	16:punct	_
 
 # sent_id = GUM_interview_herrick-18
@@ -512,7 +512,7 @@
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 4	full	full	ADJ	JJ	Degree=Pos	0	root	0:root	_
 5	of	of	ADP	IN	_	6	case	6:case	_
-6	volunteers	volunteer	NOUN	NNS	Number=Plur	4	obl	4:obl:of	Bridge=46<47|Entity=(47-person-acc:inf-snnnn-cf3-1-coref|MSeg=volunt-eer-s
+6	volunteers	volunteer	NOUN	NNS	Number=Plur	4	obl	4:obl:of	Entity=(47-person-auto-snnnn-cf3-1-coref|MSeg=volunt-eer-s
 7	from	from	ADP	IN	_	11	case	11:case	_
 8	all	all	ADV	RB	_	11	advmod	11:advmod	_
 9	over	over	ADP	IN	_	11	case	11:case	_
@@ -560,21 +560,21 @@
 # transition = zero
 # speaker = JackHerrick
 # text = The English wikiHow has only 60 admins, compared to the 1000 + on English Wikipedia.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=3<49|Discourse=explanation-evidence:56->55:0:_|Entity=(49-abstract-acc:inf-nnnnn-cf2-2,3-sgl|PDTB=Implicit:Contingency.Cause.Reason:because:_:361-365:366-382
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=explanation-evidence:56->55:0:_|Entity=(49-abstract-auto-nnnnn-cf2-2,3-sgl|PDTB=Implicit:Contingency.Cause.Reason:because:_:361-365:366-382
 2	English	English	PROPN	NNP	Number=Sing	3	compound	3:compound	Entity=(50-abstract-new-nnnnn-cf1-1-coref-English_language)|MSeg=Engl-ish
 3	wikiHow	wikiHow	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Entity=49)
 4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=ha-s
-5	only	only	ADV	RB	_	6	advmod	6:advmod	Entity=(51-person-new-nnnnn-cf4-3-sgl
+5	only	only	ADV	RB	_	6	advmod	6:advmod	Entity=(51-person-new-nnnnn-cf5-3-coref
 6	60	60	NUM	CD	NumForm=Digit|NumType=Card	7	nummod	7:nummod	_
 7	admins	admin	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=51)|MSeg=admin-s|SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	9:punct	_
-9	compared	compare	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	4:advcl	Discourse=adversative-antithesis:57->56:0:lex-indph-374-375-_|MSeg=compar-ed|PDTB=Implicit:Expansion.Substitution.Arg2-as-subst:instead:_:366-373:374-382
+9	compared	compare	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	4:advcl	Discourse=adversative-antithesis:57->56:0:sem-mrnym-370-372,376-378-_+lex-indph-374-375-_|MSeg=compar-ed|PDTB=Implicit:Expansion.Substitution.Arg2-as-subst:instead:_:366-373:374-382
 10	to	to	ADP	IN	_	12	case	12:case	_
-11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(52-person-new-nnnnn-cf5-2-sgl
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Bridge=51<52:comparison-sense|Entity=(52-person-acc:inf-nnnnn-cf4-2-sgl
 12	1000	1000	NUM	CD	NumForm=Digit|NumType=Card	9	obl	9:obl:to	_
 13	+	+	SYM	SYM	_	12	advmod	12:advmod	Entity=52)
 14	on	on	ADP	IN	_	16	case	16:case	_
-15	English	English	PROPN	NNP	Number=Sing	16	compound	16:compound	Bridge=36<53|Entity=(53-abstract-acc:inf-nnnnn-cf3-1,2-sgl-English_Wikipedia(50-abstract-giv:act-nnnnn-cf1-1-coref-English_language)|MSeg=Engl-ish
+15	English	English	PROPN	NNP	Number=Sing	16	compound	16:compound	Entity=(53-abstract-auto-nnnnn-cf3-1,2-sgl-English_Wikipedia(50-abstract-giv:act-nnnnn-cf1-1-coref-English_language)|MSeg=Engl-ish
 16	Wikipedia	Wikipedia	PROPN	NNP	Number=Sing	12	nmod	12:nmod:on	Entity=53)|SpaceAfter=No
 17	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -586,7 +586,7 @@
 # text = As a result, wikiHow is still at the size that every editor eventually gets to know other editors.
 1	As	as	ADP	IN	_	3	case	3:case	Discourse=causal-result:58->55:1:dm-as a result-383-385-gold|PDTB=Explicit:Contingency.Cause.Result:as a result:383-385:361-365:386-402
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	_
-3	result	result	NOUN	NN	Number=Sing	10	nmod	10:nmod:as	SpaceAfter=No
+3	result	result	NOUN	NN	Number=Sing	10	obl	10:obl:as	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5	wikiHow	wikiHow	PROPN	NNP	Number=Sing	10	nsubj	10:nsubj	Entity=(3-abstract-giv:inact-sssss-cf1-1-coref-wikiHow)
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
@@ -595,13 +595,13 @@
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(54-abstract-new-nnnnn-cf4-2-sgl
 10	size	size	NOUN	NN	Number=Sing	0	root	0:root	_
 11	that	that	SCONJ	IN	_	15	mark	15:mark	Discourse=elaboration-attribute:59->58:0:syn-mdf-392-_+syn-nmn-393,397-_
-12	every	every	DET	DT	PronType=Ind	13	det	13:det	Entity=(55-person-new-nnnnn-cf2-2-sgl
+12	every	every	DET	DT	PronType=Ind	13	det	13:det	Bridge=3<55:entity-associative|Entity=(55-person-acc:inf-nnnnn-cf2-2-coref
 13	editor	editor	NOUN	NN	Number=Sing	15	nsubj	15:nsubj|17:nsubj:xsubj	Entity=55)|MSeg=edit-or
 14	eventually	eventually	ADV	RB	Degree=Pos	15	advmod	15:advmod	MSeg=event-ual-ly
 15	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl	10:acl:that	MSeg=get-s
 16	to	to	PART	TO	_	17	mark	17:mark	_
 17	know	know	VERB	VB	VerbForm=Inf	15	xcomp	15:xcomp	_
-18	other	other	ADJ	JJ	Degree=Pos	19	amod	19:amod	Entity=(56-person-new-nnnnn-cf3-2-sgl
+18	other	other	ADJ	JJ	Degree=Pos	19	amod	19:amod	Bridge=55<56:comparison-relative|Entity=(56-person-acc:inf-nnnnn-cf3-2-sgl
 19	editors	editor	NOUN	NNS	Number=Plur	17	obj	17:obj	Entity=56)54)|MSeg=edit-or-s|SpaceAfter=No
 20	.	.	PUNCT	.	_	10	punct	10:punct	_
 
@@ -619,7 +619,7 @@
 4	as	as	ADP	IN	_	7	case	7:case	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(22-organization-giv:act-nnsnn-cf1-3-pred-wikiHow
 6	Hybrid	hybrid	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
-7	Organization	Organization	NOUN	NN	Number=Sing	3	obl	3:obl:as	Entity=22)|MSeg=Organiz-ation
+7	Organization	organization	NOUN	NN	Number=Sing	3	obl	3:obl:as	Entity=22)|MSeg=Organiz-ation
 8	-	-	PUNCT	:	_	11	punct	11:punct	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Discourse=elaboration-additional:61->60:0:sem-synym-403,411-419-_+grf-dsh-410-_|Entity=(22-organization-giv:act-nnsnn-cf1-3-appos-wikiHow
 10	for-profit	for-profit	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
@@ -664,12 +664,12 @@
 # text = We show opt-out advertising to anonymous visitors rather than ask for donations.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj|12:nsubj	Discourse=elaboration-additional:65->60:2:ref-prs-403,438-_|Entity=(22-organization-giv:inact-nnsnn-cf1-1-ana-wikiHow)|PDTB=EntRel:EntRel:_:_:421-437:438-452
 2	show	show	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	opt	opt	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=(63-abstract-new-nnnnn-cf2-4-sgl|SpaceAfter=No|XML=<w>
+3	opt	opt	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=(63-abstract-new-nnnnn-cf3-4-sgl|SpaceAfter=No|XML=<w>
 4	-	-	PUNCT	HYPH	_	5	punct	5:punct	SpaceAfter=No
 5	out	out	ADP	RP	_	3	compound:prt	3:compound:prt	XML=</w>
 6	advertising	advertising	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=63)|MSeg=advertis-ing
 7	to	to	ADP	IN	_	9	case	9:case	_
-8	anonymous	anonymous	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(64-person-new-nnnnn-cf3-2-sgl|MSeg=anonym-ous
+8	anonymous	anonymous	ADJ	JJ	Degree=Pos	9	amod	9:amod	Bridge=3<64:entity-associative|Entity=(64-person-acc:inf-nnnnn-cf2-2-sgl|MSeg=anonym-ous
 9	visitors	visitor	NOUN	NNS	Number=Plur	2	obl	2:obl:to	Entity=64)|MSeg=visit-or-s
 10	rather	rather	ADV	RB	ExtPos=CCONJ	12	cc	12:cc	Discourse=adversative-antithesis:66->65:0:dm-rather than-447-448-gold|MSeg=rath-er|PDTB=Explicit:Expansion.Substitution.Arg2-as-subst:rather than:447-448:438-446:449-452
 11	than	than	ADP	IN	_	10	fixed	10:fixed	_
@@ -747,7 +747,7 @@
 15	to	to	PART	TO	_	16	mark	16:mark	Discourse=purpose-goal:72->71:0:syn-inf-498-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:494-497:498-502
 16	become	become	VERB	VB	VerbForm=Inf	12	advcl	12:advcl:to	MSeg=be-come
 17	carbon	carbon	NOUN	NN	Number=Sing	18	compound	18:compound	_
-18	neutral	neutral	ADJ	JJ	Degree=Pos	16	xcomp	16:xcomp	Entity=71)|SpaceAfter=No
+18	neutral	neutral	ADJ	JJ	Degree=Pos	16	xcomp	16:xcomp	Entity=71)|MSeg=neutr-al|SpaceAfter=No
 19	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_interview_herrick-32
@@ -788,12 +788,12 @@
 1	As	as	ADP	IN	_	3	case	3:case	Discourse=attribution-positive:75->76:2:sem-atsrc-519-520-_+lex-indwd-521-_|PDTB=Explicit:Contingency.Cause.Result:as a result:516-518:506-515:519-536
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	_
 3	result	result	NOUN	NN	Number=Sing	6	obl	6:obl:as	_
-4	some	some	DET	DT	PronType=Ind	5	det	5:det	Entity=(77-person-new-nnnnn-cf2-2-sgl
+4	some	some	DET	DT	PronType=Ind	5	det	5:det	Entity=(77-person-new-nnnnn-cf3-2-sgl
 5	folks	folk	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=77)|MSeg=folk-s
 6	believe	believe	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 7	wikiHow	wikiHow	PROPN	NNP	Number=Sing	14	nsubj	14:nsubj	Discourse=causal-result:76->74:0:dm-as a result-516-518-gold|Entity=(3-abstract-giv:inact-sssss-cf1-1-coref-wikiHow)
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_
-9	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(78-place-new-nnnnn-cf3-6-sgl
+9	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(78-place-new-nnnnn-cf4-6-sgl
 10	more	more	ADV	RBR	Degree=Cmp	11	advmod	11:advmod	_
 11	humane	humane	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
 12	and	and	CCONJ	CC	_	13	cc	13:cc	_
@@ -802,7 +802,7 @@
 15	to	to	PART	TO	_	16	mark	16:mark	Discourse=purpose-attribute:77->76:0:syn-mdf-529-_+syn-inf-530-_
 16	work	work	VERB	VB	VerbForm=Inf	14	acl	14:acl:to	_
 17	than	than	ADP	IN	_	19	case	19:case	Discourse=same-unit_m:78->76:1:_
-18	other	other	ADJ	JJ	Degree=Pos	19	amod	19:amod	Entity=(79-place-new-nnnnn-cf4-2-sgl
+18	other	other	ADJ	JJ	Degree=Pos	19	amod	19:amod	Bridge=3<79:comparison-relative|Entity=(79-place-acc:inf-nnnnn-cf2-2-sgl
 19	places	place	NOUN	NNS	Number=Plur	14	obl	14:obl:than	MSeg=place-s
 20	online	online	ADV	RB	Degree=Pos	19	advmod	19:advmod	Entity=79)78)|MSeg=on-line|SpaceAfter=No
 21	.	.	PUNCT	.	_	6	punct	6:punct	_
@@ -861,7 +861,7 @@
 # transition = smooth-shift
 # speaker = JackHarris
 # text = Imagine having detailed step-by-step instructions on how to do any activity you could imagine.
-1	Imagine	imagine	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-preparation:83->86:1:sem-rpt-580-584,599-600-_+ref-prs-582,590-_|PDTB=Implicit:Contingency.Cause.Reason:because:_:545-566:567-585
+1	Imagine	imagine	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-preparation:83->86:1:sem-rpt-580-584,599-600-_+ref-prs-582,590-_|PDTB=Implicit:Contingency.Cause.Reason:because:_:545-566:567-585
 2	having	have	VERB	VBG	VerbForm=Ger	1	xcomp	1:xcomp	MSeg=hav-ing
 3	detailed	detailed	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(23-abstract-giv:inact-nnnnn-cf2-7-coref|MSeg=detail-ed
 4	step	step	NOUN	NN	Number=Sing	9	compound	9:compound	SpaceAfter=No|XML=<w>
@@ -910,13 +910,13 @@
 # transition = zero
 # speaker = JackHarris
 # text = I think that building a universal how-to manual would be a tremendous gift for the world.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:88->89:0:sem-atsrc-602-_+lex-indwd-603-_+syn-rpr-604-_|Entity=(2-person-giv:inact-sssss-cf1-1-ana-Jack_Herrick)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:88->89:0:sem-atsrc-602-_+lex-indwd-603-_+syn-rpr-604-_|Entity=(2-person-giv:inact-sssss-cf1-1-ana-Jack_Herrick)|PDTB=Implicit:Expansion.Conjunction:in fact:_:586-601:602-620
 2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	that	that	SCONJ	IN	_	15	mark	15:mark	Discourse=evaluation-comment:89->81:3:lex-indwd-615-_
 4	building	build	VERB	VBG	VerbForm=Ger	15	csubj	15:csubj	MSeg=build-ing
 5	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(11-abstract-giv:inact-nssss-cf2-6-coref
 6	universal	universal	ADJ	JJ	Degree=Pos	10	amod	10:amod	MSeg=univers-al
-7	how	how	NOUN	NN	Number=Sing	10	compound	10:compound	SpaceAfter=No|XML=<w>
+7	how	how	ADV	WRB	PronType=Int	10	compound	10:compound	SpaceAfter=No|XML=<w>
 8	-	-	PUNCT	HYPH	_	9	punct	9:punct	SpaceAfter=No
 9	to	to	PART	TO	_	7	acl	7:acl	XML=</w>
 10	manual	manual	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=11)
@@ -936,13 +936,13 @@
 # transition = null
 # speaker = JackHarris
 # text = Knowledge is power and wikiHow has the potential to make all of us a bit more powerful.
-1	Knowledge	knowledge	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=explanation-justify:90->91:1:dm-and-624-gold|Entity=(87-abstract-new-nnnnn-cf3-1-sgl)
+1	Knowledge	knowledge	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=explanation-justify:90->91:1:dm-and-624-gold|Entity=(87-abstract-new-nnnnn-cf4-1-coref)|PDTB=Implicit:Contingency.Cause.Reason:because:_:602-620:621-638
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	power	power	NOUN	NN	Number=Sing	0	root	0:root	Entity=(88-abstract-new-nnnnn-cf5-1-sgl)
 4	and	and	CCONJ	CC	_	6	cc	6:cc	Discourse=explanation-justify:91->81:4:_|PDTB=Explicit:Contingency.Cause.Result:and:624:621-623:625-638
 5	wikiHow	wikiHow	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Entity=(3-abstract-giv:inact-sssss-cf1-1-coref-wikiHow)
 6	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	3:conj:and	MSeg=ha-s
-7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(89-abstract-new-nnnnn-cf4-2-sgl
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Bridge=87<89:comparison-relative;entity-associative|Entity=(89-abstract-acc:inf-nnnnn-cf3-2-sgl
 8	potential	potential	NOUN	NN	Number=Sing	6	obj	6:obj	MSeg=potent-ial
 9	to	to	PART	TO	_	10	mark	10:mark	Discourse=purpose-attribute:92->91:0:syn-mdf-628-_+syn-inf-629-_
 10	make	make	VERB	VB	VerbForm=Inf	8	acl	8:acl:to	Cxn=Resultative|CxnElt=10:Resultative.Predicate
@@ -972,7 +972,7 @@
 6	building	build	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	4:advcl:in	MSeg=build-ing
 7	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(11-abstract-giv:inact-nssss-cf3-6-coref
 8	comprehensive	comprehensive	ADJ	JJ	Degree=Pos	12	amod	12:amod	MSeg=comprehens-ive
-9	how	how	NOUN	NN	Number=Sing	12	compound	12:compound	SpaceAfter=No|XML=<w>
+9	how	how	ADV	WRB	PronType=Int	12	compound	12:compound	SpaceAfter=No|XML=<w>
 10	-	-	PUNCT	HYPH	_	11	punct	11:punct	SpaceAfter=No
 11	to	to	PART	TO	_	9	acl	9:acl	XML=</w>
 12	manual	manual	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=11)
@@ -998,14 +998,14 @@
 6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	7:det	Entity=(11-abstract-giv:act-nssss-cf2-2-coref
 7	resource	resource	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=11)90)
 8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	10:cop	Discourse=same-unit_m:97->95:1:_
-9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(91-abstract-new-nnnnn-cf5-2-coref
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(91-abstract-new-nnnnn-cf5-2-sgl
 10	website	website	NOUN	NN	Number=Sing	0	root	0:root	MSeg=web-site
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	12:nsubj|14:nsubj:xsubj	Discourse=elaboration-attribute:98->97:0:syn-mdf-667-_+syn-relcl-669-_|Entity=(2-person-giv:act-sssss-cf1*-1-ana-Jack_Herrick)
 12	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	acl:relcl	10:acl:relcl	MSeg=us-ed
 13	to	to	PART	TO	_	14	mark	14:mark	_
 14	run	run	VERB	VB	VerbForm=Inf	12	xcomp	12:xcomp	_
 15	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	acl	10:acl	Discourse=elaboration-attribute:99->97:1:syn-nmn-672-_|MSeg=call-ed
-16	eHow	eHow	PROPN	NNP	Number=Sing	15	xcomp	15:xcomp	Bridge=91<92|Entity=(92-abstract-acc:inf-snnnn-cf3-1-coref-eHow)91)|SpaceAfter=No
+16	eHow	eHow	PROPN	NNP	Number=Sing	15	xcomp	15:xcomp	Entity=(92-abstract-auto-snnnn-cf3-1-coref-eHow)91)|SpaceAfter=No
 17	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GUM_interview_herrick-43
@@ -1040,7 +1040,7 @@
 1	eHow	eHow	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint-list_m:101->100:0:_|Entity=(92-abstract-giv:act-snnnn-cf1*-1-coref-eHow)|PDTB=Implicit:Expansion.Conjunction:and:_:675-690:691-699
 2	contains	contain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=contain-s
 3	copyrighted	copyright	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	amod	4:amod	Entity=(93-abstract-new-nnnnn-cf2-2-coref|MSeg=copy-right-ed
-4	content	content	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=93)
+4	content	content	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=93)|MSeg=cont-ent
 5	run	run	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl	4:acl	Discourse=elaboration-attribute:102->101:0:syn-mdf-694-_+syn-nmn-695-_
 6	on	on	ADP	IN	_	8	case	8:case	_
 7	proprietary	proprietary	ADJ	JJ	Degree=Pos	8	amod	8:amod	Entity=(94-abstract-new-nnnnn-cf3-2-sgl|MSeg=propriet-ary
@@ -1059,7 +1059,7 @@
 4	eHow	eHow	PROPN	NNP	Number=Sing	3	obj	3:obj	Entity=(92-abstract-giv:act-snnnn-cf2-1-coref-eHow)|SpaceAfter=No
 5	,	,	PUNCT	,	_	3	punct	3:punct	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Discourse=elaboration-additional:104->101:1:sem-rpt-691,703-_+sem-rpt-693-694,705-706-_+sem-lxchn-694,706-gold|Entity=(95-abstract-new-snsss-cf4-5,7-disc(93-abstract-giv:act-nnnnn-cf1*-2-coref
-7	content	content	NOUN	NN	Number=Sing	10	nsubj:pass	10:nsubj:pass|12:nsubj:pass	Entity=93)
+7	content	content	NOUN	NN	Number=Sing	10	nsubj:pass	10:nsubj:pass|12:nsubj:pass	Entity=93)|MSeg=cont-ent
 8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	10:aux:pass|12:aux:pass	_
 9	professionally	professionally	ADV	RB	Degree=Pos	10	advmod	10:advmod	MSeg=profession-al-ly
 10	produced	produce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=produc-ed
@@ -1073,13 +1073,13 @@
 # transition = smooth-shift
 # speaker = JackHarris
 # text = This business model worked for producing content on topics that appeal to advertisers in languages like English that have large advertising markets.
-1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Discourse=evaluation-comment:105->104:1:lex-indwd-732-_|Entity=(95-abstract-giv:act-snsss-cf1*-3-coref|PDTB=Implicit:Expansion.Conjunction:in the end:_:700-712:713-735
+1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Discourse=evaluation-comment:105->104:1:lex-indwd-732-_|Entity=(95-abstract-giv:act-snsss-cf1*-3-coref|PDTB=Implicit:Expansion.Conjunction:in fact:_:700-712:713-735
 2	business	business	NOUN	NN	Number=Sing	3	compound	3:compound	MSeg=busi-ness
 3	model	model	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=95)
 4	worked	work	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=work-ed
 5	for	for	SCONJ	IN	_	6	mark	6:mark	Discourse=purpose-goal:106->105:0:dm-for-717-gold|PDTB=Explicit:Contingency.Purpose.Arg2-as-goal:for:717:713-716:718-721
 6	producing	produce	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	4:advcl:for	MSeg=produc-ing
-7	content	content	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=(96-abstract-new-nnnnn-cf3-1-sgl
+7	content	content	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=(96-abstract-new-nnnnn-cf3-1-sgl|MSeg=cont-ent
 8	on	on	ADP	IN	_	9	case	9:case	_
 9	topics	topic	NOUN	NNS	Number=Plur	7	nmod	7:nmod:on|11:nsubj	Entity=(97-abstract-new-nnnnn-cf6-7-sgl|MSeg=topic-s
 10	that	that	PRON	WDT	PronType=Rel	11	nsubj	9:ref	Discourse=elaboration-attribute:107->105:1:syn-mdf-721-_+syn-relcl-722-_
@@ -1156,10 +1156,10 @@
 21	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	22	nsubj	22:nsubj|26:nsubj	Entity=(103-person-giv:act-nnnnn-cf1*-1-ana)
 22	sacrifice	sacrifice	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	conj	4:conj:or	MSeg=sacr-ifi-ce
 23	on	on	ADP	IN	_	24	case	24:case	_
-24	quality	quality	NOUN	NN	Number=Sing	22	obl	22:obl:on	Entity=(109-abstract-new-nnnnn-cf6-1-sgl)
+24	quality	quality	NOUN	NN	Number=Sing	22	obl	22:obl:on	Entity=(109-abstract-new-nnnnn-cf6-1-sgl)|MSeg=quali-ty
 25	and	and	CCONJ	CC	_	26	cc	26:cc	Discourse=joint-list_m:116->115:0:grf-seq-776-_+dm-and-781-gold|PDTB=Explicit:Expansion.Conjunction:and:781:775-780:782-791
 26	produce	produce	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	22	conj	4:conj|22:conj:and	_
-27	content	content	NOUN	NN	Number=Sing	26	obj	26:obj|31:nsubj	Entity=(110-abstract-new-nnnnn-cf4-1-sgl
+27	content	content	NOUN	NN	Number=Sing	26	obj	26:obj|31:nsubj	Entity=(110-abstract-new-nnnnn-cf4-1-sgl|MSeg=cont-ent
 28	that	that	PRON	WDT	PronType=Rel	31	nsubj	27:ref	Discourse=elaboration-attribute:117->116:0:syn-mdf-783-_+syn-relcl-784,787-_+syn-inf-789-_
 29-30	doesn't	_	_	_	_	_	_	_	_
 29	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	31:aux	MSeg=doe-s
@@ -1183,7 +1183,7 @@
 4	interested	interested	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=interest-ed
 5	in	in	SCONJ	IN	_	6	mark	6:mark	_
 6	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	4:advcl:in	MSeg=mak-ing
-7	either	either	DET	DT	_	6	obj	6:obj	Entity=(105-abstract-giv:inact-nnnnn-cf3-1-ana
+7	either	either	DET	DT	PronType=Ind	6	obj	6:obj	Entity=(105-abstract-giv:inact-nnnnn-cf3-1-ana
 8	of	of	ADP	IN	_	10	case	10:case	_
 9	these	this	DET	DT	Number=Plur|PronType=Dem	10	det	10:det	_
 10	sacrifices	sacrifice	NOUN	NNS	Number=Plur	7	nmod	7:nmod:of	Entity=105)|MSeg=sacrifice-s|SpaceAfter=No
@@ -1202,7 +1202,7 @@
 22	to	to	PART	TO	_	25	mark	25:mark	_
 23	be	be	AUX	VB	VerbForm=Inf	25	cop	25:cop	_
 24	high	high	ADJ	JJ	Degree=Pos	25	amod	25:amod	_
-25	quality	quality	NOUN	NN	Number=Sing	21	xcomp	21:xcomp	_
+25	quality	quality	NOUN	NN	Number=Sing	21	xcomp	21:xcomp	MSeg=quali-ty
 26	AND	and	CCONJ	CC	_	27	cc	27:cc	_
 27	comprehensive	comprehensive	ADJ	JJ	Degree=Pos	25	conj	21:xcomp|25:conj:and	MSeg=comprehens-ive|SpaceAfter=No
 28	.	.	PUNCT	.	_	4	punct	4:punct	_
@@ -1237,15 +1237,15 @@
 # transition = continue
 # speaker = JackHarris
 # text = When I discovered Wikipedia, I recognized that the wiki model had the potential to build the how-to resource the world really needs.
-1	When	when	ADV	WRB	PronType=Int	3	advmod	3:advmod	Discourse=context-circumstance:124->126:2:dm-when-836-gold|PDTB=Explicit:Temporal.Synchronous:when:836:841-861:837-840
+1	When	when	ADV	WRB	PronType=Int	3	advmod	3:advmod	Discourse=context-circumstance:124->126:2:dm-when-836-gold|PDTB=Explicit:Temporal.Synchronous:when:836:841-861:837-840;Implicit:Expansion.Conjunction:but:_:820-835:836-861
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(2-person-giv:act-sssss-cf1*-1-ana-Jack_Herrick)
 3	discovered	discover	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	advcl	7:advcl:when	MSeg=dis-cover-ed
-4	Wikipedia	Wikipedia	PROPN	NNP	Number=Sing	3	obj	3:obj	Entity=(36-organization-giv:inact-nnnnn-cf4-1-coref-Wikipedia)|SpaceAfter=No
+4	Wikipedia	Wikipedia	PROPN	NNP	Number=Sing	3	obj	3:obj	Entity=(36-organization-giv:inact-nnnnn-cf5-1-coref-Wikipedia)|SpaceAfter=No
 5	,	,	PUNCT	,	_	3	punct	3:punct	_
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	Discourse=attribution-positive:125->126:1:sem-atsrc-841-_+lex-indwd-842-_+syn-rpr-843-_|Entity=(2-person-giv:act-sssss-cf1*-1-ana-Jack_Herrick)
 7	recognized	recognize	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=recogn-iz-ed
 8	that	that	SCONJ	IN	_	12	mark	12:mark	Discourse=elaboration-additional:126->95:3:ref-prs-658,837-_+sem-rpt-663-664,852-860-_
-9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Bridge=3<111|Entity=(111-abstract-acc:inf-nnnnn-cf5-3-sgl
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(111-abstract-auto-nnnnn-cf3-3-sgl
 10	wiki	wiki	NOUN	NN	Number=Sing	11	compound	11:compound	_
 11	model	model	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=111)
 12	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	ccomp	7:ccomp	_
@@ -1254,11 +1254,11 @@
 15	to	to	PART	TO	_	16	mark	16:mark	Discourse=purpose-attribute:127->126:0:syn-mdf-849-_+syn-inf-850-_+syn-nmn-855-_
 16	build	build	VERB	VB	VerbForm=Inf	14	acl	14:acl:to	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(11-abstract-giv:act-nssss-cf2-5-coref
-18	how	how	NOUN	NN	Number=Sing	21	compound	21:compound	SpaceAfter=No|XML=<w>
+18	how	how	ADV	WRB	PronType=Int	21	compound	21:compound	SpaceAfter=No|XML=<w>
 19	-	-	PUNCT	HYPH	_	20	punct	20:punct	SpaceAfter=No
 20	to	to	PART	TO	_	18	acl	18:acl	XML=</w>
 21	resource	resource	NOUN	NN	Number=Sing	16	obj	16:obj	_
-22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Discourse=elaboration-attribute:128->127:0:syn-mdf-856-_+syn-relcl-860-_|Entity=(12-place-giv:inact-nsnnn-cf3-2-coref
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Discourse=elaboration-attribute:128->127:0:syn-mdf-856-_+syn-relcl-860-_|Entity=(12-place-giv:inact-nsnnn-cf4-2-coref
 23	world	world	NOUN	NN	Number=Sing	25	nsubj	25:nsubj	Entity=12)
 24	really	really	ADV	RB	Degree=Pos	25	advmod	25:advmod	MSeg=real-ly
 25	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	21:acl:relcl	Entity=11)112)|MSeg=need-s|SpaceAfter=No
@@ -1278,7 +1278,7 @@
 6	eHow	eHow	PROPN	NNP	Number=Sing	5	obj	5:obj	Entity=(92-abstract-giv:inact-snnnn-cf2-1-coref-eHow)
 7	and	and	CCONJ	CC	_	8	cc	8:cc	_
 8	use	use	VERB	VB	VerbForm=Inf	5	conj	3:xcomp|5:conj:and	_
-9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(113-abstract-new-nnnnn-cf4-2-sgl
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=92<113:entity-associative;entity-resultative|Entity=(113-abstract-acc:inf-nnnnn-cf4-2-sgl
 10	proceeds	proceed	NOUN	NNS	Number=Plur	8	obj	8:obj	Entity=113)|MSeg=proceed-s
 11	to	to	PART	TO	_	12	mark	12:mark	Discourse=purpose-goal:130->129:0:syn-inf-872-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:862-871:872-875
 12	build	build	VERB	VB	VerbForm=Inf	8	advcl	8:advcl:to	_
@@ -1377,23 +1377,23 @@
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
 8	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	ccomp	4:ccomp	MSeg=go-ing
 9	in	in	ADP	IN	_	12	case	12:case	_
-10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(121-abstract-new-nnnnn-cf6-3-sgl
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(121-abstract-new-nnnnn-cf7-3-sgl
 11	wrong	wrong	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
 12	direction	direction	NOUN	NN	Number=Sing	8	obl	8:obl:in	Entity=121)|MSeg=direct-ion|SpaceAfter=No
 13	,	,	PUNCT	,	_	4	punct	4:punct	_
 14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	16:nsubj|25:nsubj	Discourse=explanation-justify:141->136:1:_|Entity=(47-person-giv:act-snnnn-cf1-1-ana)
 15	can	can	AUX	MD	VerbForm=Fin	16	aux	16:aux|25:aux	_
 16	take	take	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=16:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
-17	all	all	DET	PDT	PronType=Tot	19	det:predet	19:det:predet	Bridge=3<122|Entity=(122-abstract-acc:inf-nnnnn-cf4-3-coref
+17	all	all	DET	PDT	PronType=Ind	19	det:predet	19:det:predet	Bridge=3<122:entity-associative|Entity=(122-abstract-acc:inf-nnnnn-cf4-3-coref
 18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	_
-19	content	content	NOUN	NN	Number=Sing	16	obj	16:obj	Entity=122)
+19	content	content	NOUN	NN	Number=Sing	16	obj	16:obj	Entity=122)|MSeg=cont-ent
 20	and	and	CCONJ	CC	_	23	cc	23:cc	_
-21	all	all	DET	PDT	PronType=Tot	23	det:predet	23:det:predet	Entity=(123-abstract-new-nnnnn-cf7-3-coref
+21	all	all	DET	PDT	PronType=Ind	23	det:predet	23:det:predet	Bridge=3<123:entity-associative|Entity=(123-abstract-acc:inf-nnnnn-cf6-3-coref
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	_
 23	software	software	NOUN	NN	Number=Sing	19	conj	16:obj|19:conj:and	Entity=123)|MSeg=soft-ware
 24	and	and	CCONJ	CC	_	25	cc	25:cc	Discourse=joint-sequence_m:142->141:0:dm-and-951-gold|PDTB=Explicit:Expansion.Conjunction:and:951:941-950:952-956;Implicit:Temporal.Asynchronous.Precedence:then:_:941-950:951-956
 25	move	move	VERB	VB	VerbForm=Inf	16	conj	16:conj:and	_
-26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(124-abstract-new-nnnnn-cf5-2-sgl
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Bridge=3<124:entity-associative|Entity=(124-abstract-acc:inf-nnnnn-cf5-2-sgl
 27	project	project	NOUN	NN	Number=Sing	25	obj	25:obj|28:nsubj:xsubj	Entity=124)
 28	elsewhere	elsewhere	ADV	RB	Degree=Pos	25	xcomp	25:xcomp	Entity=120)|MSeg=else-where|SpaceAfter=No
 29	.	.	PUNCT	.	_	16	punct	16:punct	_
@@ -1423,7 +1423,7 @@
 17	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=joint-list_m:145->144:0:sem-lxchn-966,976-gold+dm-and-973-gold|PDTB=Explicit:Expansion.Conjunction:and:973:960-972:974-982
 18	release	release	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	conj	3:advcl:because|6:conj:and	_
 19	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(122-abstract-giv:act-nnnnn-cf3-2-coref(22-organization-giv:act-nnsnn-cf2-1-ana-wikiHow)
-20	content	content	NOUN	NN	Number=Sing	18	obj	18:obj	Entity=122)
+20	content	content	NOUN	NN	Number=Sing	18	obj	18:obj	Entity=122)|MSeg=cont-ent
 21	under	under	ADP	IN	_	25	case	25:case	_
 22	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	25:det	Entity=(16-abstract-giv:inact-ssssn-cf5-2,4-coref
 23	Creative	Creative	ADJ	NNP	Degree=Pos	24	amod	24:amod	Entity=(17-organization-giv:inact-ssssn-cf6-1,2-coref-Creative_Commons|MSeg=Creat-ive
@@ -1437,7 +1437,7 @@
 # transition = smooth-shift
 # speaker = JackHarris
 # text = This right to fork guarantees that wikiHow, the company, will always serve the goal of the mission and our volunteer community.
-1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=attribution-positive:146->149:0:sem-atsrc-983-986-gold+lex-indwd-987-_+syn-rpr-988-_|Entity=(114-abstract-giv:inact-snsss-cf2-2-coref
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=attribution-positive:146->149:0:sem-atsrc-983-986-gold+lex-indwd-987-_+syn-rpr-988-_|Entity=(114-abstract-giv:inact-snsss-cf2-2-coref|PDTB=Implicit:Contingency.Cause.Reason:because:_:957-982:983-1006
 2	right	right	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	_
 3	to	to	PART	TO	_	4	mark	4:mark	Discourse=purpose-attribute:147->146:0:syn-mdf-984-_+syn-inf-985-_
 4	fork	fork	VERB	VB	VerbForm=Inf	2	acl	2:acl:to	Entity=114)
@@ -1512,7 +1512,7 @@
 16	where	where	ADV	WRB	PronType=Int	18	advmod	18:advmod	Discourse=elaboration-attribute:155->154:0:syn-mdf-1040-_+syn-nmn-1043-_
 17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	18:nsubj	_
 18	invest	invest	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl	15:acl:where	_
-19	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(133-time-new-nnnnn-cf4-2-sgl(130-person-giv:act-nnnnn-cf3-1-ana)
+19	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(133-time-new-nnnnn-cf5-2-sgl(130-person-giv:act-nnnnn-cf3-1-ana)
 20	time	time	NOUN	NN	Number=Sing	18	obj	18:obj	Entity=133)132)
 21	in	in	ADP	IN	_	23	case	23:case	_
 22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	23:det	Entity=(134-abstract-new-nnnnn-cf7-2-sgl
@@ -1521,7 +1521,7 @@
 25	creates	create	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	23:acl:relcl	MSeg=create-s
 26	value	value	NOUN	NN	Number=Sing	25	obj	25:obj	Entity=(135-abstract-new-nnnnn-cf8-3-sgl
 27	for	for	ADP	IN	_	28	case	28:case	_
-28	others	other	NOUN	NNS	Number=Plur	25	obl	25:obl:for	Entity=(136-person-new-nnnnn-cf5-1-sgl)135)134)|MSeg=other-s|SpaceAfter=No
+28	others	other	NOUN	NNS	Number=Plur	25	obl	25:obl:for	Bridge=130<136:comparison-relative;comparison-sense|Entity=(136-person-acc:inf-nnnnn-cf4-1-sgl)135)134)|MSeg=other-s|SpaceAfter=No
 29	.	.	PUNCT	.	_	11	punct	11:punct	Entity=129)
 
 # sent_id = GUM_interview_herrick-61
@@ -1530,7 +1530,7 @@
 # transition = smooth-shift
 # speaker = JackHarris
 # text = That said, when we started out I didn't know the difference between the GNU Free Document License and my California Driver's license.
-1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	2:nsubj	Discourse=organization-preparation:157->159:1:_|Entity=(129-abstract-giv:act-nnnnn-cf2-1-coref)
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	2:nsubj	Discourse=organization-preparation:157->159:1:_|Entity=(129-abstract-giv:act-nnnnn-cf2-1-coref)|PDTB=Implicit:Comparison.Concession.Arg2-as-denier:but:_:1026-1054:1055-1080
 2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	advcl	11:advcl	MSeg=sai-d|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	when	when	ADV	WRB	PronType=Int	6	advmod	6:advmod	Discourse=context-circumstance:158->159:0:dm-when-1058-gold|PDTB=Explicit:Temporal.Synchronous:when:1058:1062-1080:1059-1061
@@ -1554,7 +1554,7 @@
 21	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	25	nmod:poss	25:nmod:poss	Entity=(139-object-new-nnnnn-cf6-5-sgl(2-person-giv:act-sssss-cf1*-1-ana-Jack_Herrick)
 22	California	California	PROPN	NNP	Number=Sing	25	compound	25:compound	Entity=(140-place-new-nnnnn-cf7-1-sgl-California)
 23-24	Driver's	_	_	_	_	_	_	_	_
-23	Driver	Driver	NOUN	NN	Number=Sing	25	nmod:poss	25:nmod:poss	MSeg=Driv-er
+23	Driver	driver	NOUN	NN	Number=Sing	25	nmod:poss	25:nmod:poss	MSeg=Driv-er
 24	's	's	PART	POS	_	23	case	23:case	_
 25	license	license	NOUN	NN	Number=Sing	19	conj	13:nmod:between|19:conj:and	Entity=139)137)|SpaceAfter=No
 26	.	.	PUNCT	.	_	11	punct	11:punct	_
@@ -1574,7 +1574,7 @@
 7	some	some	DET	DT	PronType=Ind	8	det	8:det	Entity=(141-abstract-new-nnnnn-cf3-5-sgl
 8	mistakes	mistake	NOUN	NNS	Number=Plur	6	obj	6:obj	MSeg=mis-take-s
 9	along	along	ADP	IN	_	11	case	11:case	MSeg=a-long
-10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(142-abstract-new-nnnnn-cf2-2-sgl
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Bridge=22<142:entity-associative|Entity=(142-abstract-acc:inf-nnnnn-cf2-2-sgl
 11	path	path	NOUN	NN	Number=Sing	6	obl	6:obl:along	Entity=142)141)|SpaceAfter=No
 12	.	.	PUNCT	.	_	6	punct	6:punct	_
 
@@ -1589,7 +1589,7 @@
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(2-person-giv:inact-sssss-cf2-1-ana-Jack_Herrick)
 5	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	10:nsubj	Discourse=elaboration-additional:162->160:0:ref-prs-1085,1098-_|Entity=(22-organization-giv:act-nnsnn-cf1*-1-ana-wikiHow)
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	10:nsubj	Discourse=elaboration-additional:162->160:0:ref-prs-1085,1098-_+sem-mrnym-1090-1091,1098-_|Entity=(22-organization-giv:act-nnsnn-cf1*-1-ana-wikiHow)
 7	probably	probably	ADV	RB	Degree=Pos	10	advmod	10:advmod	MSeg=probab-ly
 8	should	should	AUX	MD	VerbForm=Fin	10	aux	10:aux	_
 9	have	have	AUX	VB	VerbForm=Inf	10	aux	10:aux	_
@@ -1623,11 +1623,11 @@
 4	this	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Entity=(143-abstract-giv:act-nnnnn-cf1*-1-ana)
 5	would	would	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
 6	provide	provide	VERB	VB	VerbForm=Inf	0	root	0:root	_
-7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(145-abstract-new-nnnnn-cf2-3-sgl
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(145-abstract-new-nnnnn-cf3-3-sgl
 8	helpful	helpful	ADJ	JJ	Degree=Pos	9	amod	9:amod	MSeg=help-ful
 9	compatibility	compatibility	NOUN	NN	Number=Sing	6	obj	6:obj	MSeg=compatibil-ity
 10	with	with	ADP	IN	_	12	case	12:case	_
-11	other	other	ADJ	JJ	Degree=Pos	12	amod	12:amod	Entity=(146-abstract-new-nnnnn-cf3-2-sgl
+11	other	other	ADJ	JJ	Degree=Pos	12	amod	12:amod	Bridge=22<146:comparison-relative|Entity=(146-abstract-acc:inf-nnnnn-cf2-2-sgl
 12	wikis	wiki	NOUN	NNS	Number=Plur	9	nmod	9:nmod:with	Entity=146)|MSeg=wiki-s
 13	and	and	CCONJ	CC	_	16	cc	16:cc	_
 14	free	free	ADJ	JJ	Degree=Pos	15	amod	15:amod	Entity=(147-abstract-new-nnnnn-cf4-3-sgl
@@ -1670,7 +1670,7 @@
 9	size	size	NOUN	NN	Number=Sing	4	obl	4:obl:to	_
 10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	Discourse=elaboration-attribute:166->165:0:syn-mdf-1153-_+syn-relcl-1155-_|Entity=(3-abstract-giv:act-sssss-cf1*-1-ana-wikiHow)
 11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	9:acl:relcl	_
-12	today	today	NOUN	NN	Number=Sing	11	obl:unmarked	11:obl:unmarked	Entity=(151-time-acc:com-nnnnn-cf3-1-sgl)150)|MSeg=to-day|SpaceAfter=No
+12	today	today	NOUN	NN	Number=Sing	11	obl:unmarked	11:obl:unmarked	Bridge=5<151:comparison-time|Entity=(151-time-acc:inf-nnnnn-cf3-1-sgl)150)|MSeg=to-day|SpaceAfter=No
 13	?	?	PUNCT	.	_	4	punct	4:punct	_
 
 # newpar
@@ -1743,7 +1743,7 @@
 # text = wikiHow achieved this popularity for a few reasons.
 1	wikiHow	wikiHow	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=organization-preparation:173->174:2:_|Entity=(3-abstract-giv:inact-sssss-cf1-1-coref-wikiHow)|PDTB=NoRel:NoRel:_:_:1193-1196:1197-1205
 2	achieved	achieve	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=achiev-ed
-3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Bridge=3<157|Entity=(157-abstract-acc:inf-nnnnn-cf2-2-sgl
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Bridge=3<157:entity-associative|Entity=(157-abstract-acc:inf-nnnnn-cf2-2-sgl
 4	popularity	popularity	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=157)|MSeg=popul-ar-ity
 5	for	for	ADP	IN	_	8	case	8:case	_
 6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(158-abstract-new-nnnnn-cf3-3-sgl
@@ -1767,8 +1767,8 @@
 8	desperate	desperate	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=desper-ate
 9	for	for	ADP	IN	_	15	case	15:case	_
 10	high	high	ADJ	JJ	Degree=Pos	11	amod	11:amod	Entity=(160-abstract-new-nnnnn-cf3-6-coref
-11	quality	quality	NOUN	NN	Number=Sing	15	compound	15:compound	_
-12	how	how	NOUN	NN	Number=Sing	15	compound	15:compound	SpaceAfter=No|XML=<w>
+11	quality	quality	NOUN	NN	Number=Sing	15	compound	15:compound	MSeg=quali-ty
+12	how	how	ADV	WRB	PronType=Int	15	compound	15:compound	SpaceAfter=No|XML=<w>
 13	-	-	PUNCT	HYPH	_	14	punct	14:punct	SpaceAfter=No
 14	to	to	PART	TO	_	12	acl	12:acl	XML=</w>
 15	information	information	NOUN	NN	Number=Sing	8	obl	8:obl:for	Entity=160)|MSeg=in-form-ation|SpaceAfter=No
@@ -1800,7 +1800,7 @@
 17	n't	not	PART	RB	Polarity=Neg	18	advmod	18:advmod	Negation=Yes
 18	provide	provide	VERB	VB	VerbForm=Inf	2	conj	2:conj:and	_
 19	enough	enough	ADJ	JJ	Degree=Pos	21	amod	21:amod	Entity=(160-abstract-giv:act-nnnnn-cf2-3-coref
-20	quality	quality	NOUN	NN	Number=Sing	21	compound	21:compound	_
+20	quality	quality	NOUN	NN	Number=Sing	21	compound	21:compound	MSeg=quali-ty
 21	information	information	NOUN	NN	Number=Sing	18	obj	18:obj	Entity=160)|MSeg=in-form-ation
 22	yet	yet	ADV	RB	_	18	advmod	18:advmod	SpaceAfter=No
 23	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -1811,11 +1811,11 @@
 # transition = zero
 # speaker = JackHarris
 # text = Second, we attracted millions of readers via the virtuous circle of wiki editing: We had some articles of mixed quality, and editors joined to improve those articles, which in turn attracted more readers.
-1	Second	second	ADV	RB	Degree=Pos|NumForm=Word|NumType=Ord	4	advmod	4:advmod	Discourse=joint-list_m:177->174:1:sem-lxchn-1206,1245-gold|SpaceAfter=No
+1	Second	second	ADV	RB	Degree=Pos|NumForm=Word|NumType=Ord	4	advmod	4:advmod	Discourse=joint-list_m:177->174:1:sem-lxchn-1206,1245-gold|PDTB=Implicit:Expansion.Conjunction:and:_:1222-1244:1245-1282|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(22-organization-giv:inact-nnsnn-cf1-1-ana-wikiHow)
 4	attracted	attract	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=attract-ed
-5	millions	million	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=(162-person-new-nnnnn-cf4-1-sgl|MSeg=million-s
+5	millions	million	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=(162-person-new-nnnnn-cf5-1-coref|MSeg=million-s
 6	of	of	ADP	IN	_	7	case	7:case	_
 7	readers	reader	NOUN	NNS	Number=Plur	5	nmod	5:nmod:of	Entity=162)|MSeg=read-er-s
 8	via	via	ADP	IN	_	11	case	11:case	_
@@ -1832,10 +1832,10 @@
 19	articles	article	NOUN	NNS	Number=Plur	17	obj	17:obj	MSeg=article-s
 20	of	of	ADP	IN	_	22	case	22:case	_
 21	mixed	mix	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	amod	22:amod	Entity=(167-abstract-new-nnnnn-cf8-2-sgl|MSeg=mix-ed
-22	quality	quality	NOUN	NN	Number=Sing	19	nmod	19:nmod:of	Entity=167)166)|SpaceAfter=No
+22	quality	quality	NOUN	NN	Number=Sing	19	nmod	19:nmod:of	Entity=167)166)|MSeg=quali-ty|SpaceAfter=No
 23	,	,	PUNCT	,	_	26	punct	26:punct	_
-24	and	and	CCONJ	CC	_	26	cc	26:cc	Discourse=elaboration-additional:179->177:0:ref-prs-1247,1260-_+sem-lxchn-1258,1269-gold+grf-col-1259-_+syn-relcl-1276-_;causal-result:179->178:1:0:orp-and-1268-gold|PDTB=Explicit:Contingency.Cause.Result:and:1268:1260-1267:1269-1275
-25	editors	editor	NOUN	NNS	Number=Plur	26	nsubj	26:nsubj	Entity=(168-person-new-nnnnn-cf3-1-sgl)|MSeg=edit-or-s
+24	and	and	CCONJ	CC	_	26	cc	26:cc	Discourse=elaboration-additional:179->177:0:ref-prs-1247,1260-_+sem-mrnym-1249-1251,1280-1281-_+sem-lxchn-1258,1269-gold+grf-col-1259-_+syn-relcl-1276-_;causal-result:179->178:1:0:orp-and-1268-gold|PDTB=Explicit:Contingency.Cause.Result:and:1268:1260-1267:1269-1275
+25	editors	editor	NOUN	NNS	Number=Plur	26	nsubj	26:nsubj	Entity=(168-person-new-nnnnn-cf4-1-coref)|MSeg=edit-or-s
 26	joined	join	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	conj	17:conj:and	MSeg=join-ed
 27	to	to	PART	TO	_	28	mark	28:mark	Discourse=purpose-goal:180->179:0:syn-inf-1271-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:1268-1270:1271-1275
 28	improve	improve	VERB	VB	VerbForm=Inf	26	advcl	26:advcl:to|35:csubj	_
@@ -1846,7 +1846,7 @@
 33	in	in	ADP	IN	_	34	case	34:case	_
 34	turn	turn	NOUN	NN	Number=Sing	35	obl	35:obl:in	_
 35	attracted	attract	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	advcl:relcl	28:advcl:relcl	MSeg=attract-ed
-36	more	more	ADJ	JJR	Degree=Cmp	37	amod	37:amod	Entity=(169-person-new-nnnnn-cf5-2-sgl
+36	more	more	ADJ	JJR	Degree=Cmp	37	amod	37:amod	Bridge=162<169:comparison-relative|Entity=(169-person-acc:inf-nnnnn-cf3-2-sgl
 37	readers	reader	NOUN	NNS	Number=Plur	35	obj	35:obj	Entity=169)|MSeg=read-er-s|SpaceAfter=No
 38	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -1866,22 +1866,22 @@
 8	virtuous	virtuous	ADJ	JJ	Degree=Pos	9	amod	9:amod	MSeg=virtu-ous
 9	cycle	cycle	NOUN	NN	Number=Sing	4	obl	4:obl:on	Entity=163)|SpaceAfter=No
 10	:	:	PUNCT	:	_	12	punct	12:punct	_
-11	More	more	ADJ	JJR	Degree=Cmp	12	amod	12:amod	Discourse=causal-cause:183->184:0:_|Entity=(170-person-new-nnnnn-cf4-2-sgl
+11	More	more	ADJ	JJR	Degree=Cmp	12	amod	12:amod	Bridge=162<170:comparison-relative|Discourse=causal-cause:183->184:0:_|Entity=(170-person-acc:inf-nnnnn-cf3-2-coref
 12	readers	reader	NOUN	NNS	Number=Plur	14	nsubj	14:nsubj	Entity=170)|MSeg=read-er-s|SpaceAfter=No
 13	,	,	PUNCT	,	_	12	punct	12:punct	_
 14	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	MSeg=mean-s
-15	more	more	ADJ	JJR	Degree=Cmp	16	amod	16:amod	Entity=(171-person-new-nnnnn-cf5-2-sgl
+15	more	more	ADJ	JJR	Degree=Cmp	16	amod	16:amod	Bridge=168<171:comparison-relative|Entity=(171-person-acc:inf-nnnnn-cf4-2-sgl
 16	editors	editor	NOUN	NNS	Number=Plur	14	obj	14:obj|19:nsubj	Entity=171)|MSeg=edit-or-s|SpaceAfter=No
 17	,	,	PUNCT	,	_	19	punct	19:punct	_
 18	which	which	PRON	WDT	PronType=Rel	19	nsubj	16:ref	Discourse=causal-cause:184->185:0:_
 19	creates	create	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	16:acl:relcl	MSeg=create-s
-20	better	good	ADJ	JJR	Degree=Cmp	21	amod	21:amod	Bridge=160<172|Entity=(172-abstract-acc:inf-nnnnn-cf3-2-sgl|MSeg=bett-er
+20	better	good	ADJ	JJR	Degree=Cmp	21	amod	21:amod	Bridge=160<172:comparison-relative|Entity=(172-abstract-acc:inf-nnnnn-cf5-2-sgl|MSeg=bett-er
 21	instructions	instruction	NOUN	NNS	Number=Plur	19	obj	19:obj	Entity=172)|MSeg=instruct-ion-s|SpaceAfter=No
 22	,	,	PUNCT	,	_	23	punct	23:punct	_
-23	leading	lead	VERB	VBG	Tense=Pres|VerbForm=Part	19	advcl	19:advcl	Discourse=joint-list_m:185->174:1:sem-mrnym-1240-1242,1302-1303-_|MSeg=lead-ing
+23	leading	lead	VERB	VBG	Tense=Pres|VerbForm=Part	19	advcl	19:advcl	Discourse=joint-list_m:185->174:1:sem-mrnym-1240-1242,1302-1303-_+sem-mrnym-1249-1251,1293-1294-_|MSeg=lead-ing
 24	again	again	ADV	RB	Degree=Pos	23	advmod	23:advmod	PDTB=AltLex:Expansion.Conjunction:again:1306:1245-1282:1283-1305,1307-1310
 25	to	to	ADP	IN	_	27	case	27:case	_
-26	more	more	ADJ	JJR	Degree=Cmp	27	amod	27:amod	Entity=(173-person-new-nnnnn-cf6-2-sgl
+26	more	more	ADJ	JJR	Degree=Cmp	27	amod	27:amod	Bridge=170<173:comparison-relative|Entity=(173-person-acc:inf-nnnnn-cf6-2-sgl
 27	readers	reader	NOUN	NNS	Number=Plur	23	obl	23:obl:to	Entity=173)|MSeg=read-er-s|SpaceAfter=No
 28	.	.	PUNCT	.	_	2	punct	2:punct	_
 
