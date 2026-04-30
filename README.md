@@ -248,6 +248,8 @@ Document metadata is given at the beginning of each new document in key-value pa
 
 Document summaries are included in the metadata `summary` annotation and follow strict guidelines described [here](https://wiki.gucorpling.org/gum/summarization). For some documents, up to five human written summaries are available and notated with `(human<N>)`. For other documents, additional model generated summaries as added and the source model is noted. In cases where model summaries deviated from the guidelines, human corrections are made available, in which case the model name is suffixed with `; postedited`. For example above, a summary by a Claude model contained an error, and the postedited human corrected version is labeled as `(claude-3-5-sonnet-20241022; postedited)`.
 
+For a subset of documents, 1-3 additional closed-book summaries are also available, and can be found in the `meta::summaryClosed` comment lines. Unlike the regular summaries, which were composed with full access to the document, these summaries were created by annotators from memory after reading the document, but without further access to the original text. These summaries can be useful to compare open- vs. closed-book summarization and memorability of document contents, but may contain errors due to imperfect recollection.
+
 Additionally, sentences carry some sentence-level annotations in CoNLL-U comment annotations, such as [sentence types](https://wiki.gucorpling.org/gum/tokenization_segmentation#sentence-annotation) in `s_type` (declarative, imperative, wh-question, fragment, etc.), as well as sentence transition types based on Centering Theory and sentence prominence levels based on graph proximity to the discourse parse root. For example, this fragment sentence (`frag`) establishes a new backwards looking Center (`establishment`) and is a level-2 sentence (`s_prominence = 2`, i.e. its discourse nesting level is one further than a sentence containing the level-1 Central Discourse Unit of the entire text.
 
 ```CoNLL-U
@@ -418,6 +420,10 @@ For papers focusing on bridging anaphora, please cite this paper instead:
 
 
 # Changelog
+
+* 2026-04-30
+  * Added closed-book summaries to dev set documents
+  * Error corrections
 
 * 2026-03-03
   * Added GUM V12 documents
