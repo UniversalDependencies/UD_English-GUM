@@ -50,7 +50,7 @@
 # speaker = Lenore
 # addressee = MaeLynne
 # text = Do the hooves?
-1	Do	do	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=1:Interrogative-Polar-Direct.Clause|Discourse=elaboration-additional:3->2:0:ref-prop-14-17,19-21-_+sem-lxchn-17,21-gold|Entity=(4-event-giv:act-nnnnn-cf1*-1-disc|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:and:_:1-18:19-22
+1	Do	do	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=1:Interrogative-Polar-Direct.Clause|Discourse=elaboration-additional:3->2:0:ref-prop-14-17,19-21-_+sem-lxchn-17,21-gold|Entity=(4-event-giv:act-nnnnn-cf1*-1-disc|PDTB=Implicit:Expansion.Conjunction:or:_:1-18:19-22
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(6-object-acc:com-nssss-cf2-2-sgl
 3	hooves	hoof	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=6)4)|SpaceAfter=No
 4	?	?	PUNCT	.	_	1	punct	1:punct	_
@@ -134,7 +134,7 @@
 # addressee = Lenore
 # text = We're not gonna do the feet today, I'm gonna wait till like, early in the morning, to do those, cause y- I mean you get so tired.
 1-2	We're	_	_	_	_	_	_	_	_
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj|6:nsubj:xsubj	Discourse=adversative-antithesis:9->10:2:sem-ngt-50-51,60-gold+sem-ngt-50-51,60-_|Entity=(7-person-giv:inact-nnnnn-cf5-1-ana)
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj|6:nsubj:xsubj	Discourse=adversative-antithesis:9->10:2:sem-ngt-50-51,60-gold+sem-ngt-50-51,60-_+sem-mrnym-56,68-69-_|Entity=(7-person-giv:inact-nnnnn-cf5-1-ana)
 2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes|PDTB=AltLex:Expansion.Substitution.Arg1-as-subst:not:50:48-49,51-57:58-83
 4-5	gonna	_	_	_	_	_	_	_	_
@@ -143,7 +143,7 @@
 6	do	do	VERB	VB	VerbForm=Inf	4	xcomp	4:xcomp	Entity=(4-event-giv:inact-nnnnn-cf4-1-disc
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(5-object-giv:inact-nnnnn-cf3-2-coref
 8	feet	foot	NOUN	NNS	Number=Plur	6	obj	6:obj	Entity=5)4)
-9	today	today	NOUN	NN	Number=Sing	6	obl:unmarked	6:obl:unmarked	Entity=(10-time-acc:com-nnnnn-cf7-1-sgl)|MSeg=to-day|SpaceAfter=No|XML=<date when:::"2000-01-01"></date>
+9	today	today	NOUN	NN	Number=Sing	6	obl:unmarked	6:obl:unmarked	Entity=(10-time-acc:com-nnnnn-cf7-1-coref)|MSeg=to-day|SpaceAfter=No|XML=<date when:::"2000-01-01"></date>
 10	,	,	PUNCT	,	_	13	punct	13:punct	_
 11-12	I'm	_	_	_	_	_	_	_	_
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	13:nsubj|15:nsubj:xsubj	Discourse=ROOT:10:0|Entity=(1-person-giv:act-sssss-cf1*-1-ana)
@@ -157,7 +157,7 @@
 18	,	,	PUNCT	,	_	17	punct	17:punct	_
 19	early	early	ADJ	JJ	Degree=Pos	15	obl	15:obl:till	Entity=(11-time-new-nnnnn-cf8-1-sgl
 20	in	in	ADP	IN	_	22	case	22:case	_
-21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(12-time-acc:com-nnnnn-cf6-2-sgl|XML=<date when:::"2000-01-02">
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Bridge=10<12:comparison-time;set-span-interval|Entity=(12-time-acc:inf-nnnnn-cf6-2-sgl|XML=<date when:::"2000-01-02">
 22	morning	morning	NOUN	NN	Number=Sing	19	obl	19:obl:in	Entity=12)11)|MSeg=morn-ing|SpaceAfter=No|XML=</date>
 23	,	,	PUNCT	,	_	25	punct	25:punct	_
 24	to	to	PART	TO	_	25	mark	25:mark	Discourse=purpose-goal:11->10:0:syn-inf-71-_|Entity=(4-event-giv:act-nnnnn-cf4-2-disc|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:58-70:71-74
@@ -224,7 +224,7 @@
 39	would	would	AUX	MD	VerbForm=Fin	40	aux	40:aux	_
 40	do	do	VERB	VB	VerbForm=Inf	37	acl:relcl	37:acl:relcl	_
 41	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	40	obj	40:obj	Entity=(4-event-giv:act-nnnnn-cf2-1-ana)
-42	all	all	DET	PDT	PronType=Tot	44	det:predet	44:det:predet	_
+42	all	all	DET	PDT	PronType=Ind	44	det:predet	44:det:predet	_
 43	the	the	DET	DT	Definite=Def|PronType=Art	44	det	44:det	_
 44	time	time	NOUN	NN	Number=Sing	40	obl:unmarked	40:obl:unmarked	Entity=16)|SpaceAfter=No|XML=<hi rend:::"lengthened"></hi>
 45	.	.	PUNCT	.	_	6	punct	6:punct	_
@@ -324,7 +324,7 @@
 # speaker = MaeLynne
 # addressee = Lenore
 # text = You know, most people that you would get to trim your horse do it all the time.
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=organization-preparation:37->38:2:ref-prs-182,188-_|Entity=(15-person-giv:act-nnnnn-cf1*-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=organization-preparation:37->38:2:ref-prs-182,188-_|Entity=(15-person-giv:act-nnnnn-cf1*-1-ana)|PDTB=Implicit:Expansion.Equivalence:in other words:_:171-181:182-200
 2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	,	_	14	punct	14:punct	_
 4	most	most	ADJ	JJS	Degree=Sup	5	amod	5:amod	Discourse=restatement-repetition_m:38->19:3:_|Entity=(19-person-giv:act-nnnnn-cf3-2-coref
@@ -339,7 +339,7 @@
 13	horse	horse	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=21)19)
 14	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	Discourse=same-unit_m:40->38:1:_
 15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	14:obj	Entity=(4-event-giv:act-nnnnn-cf2-1-ana)
-16	all	all	DET	PDT	PronType=Tot	18	det:predet	18:det:predet	_
+16	all	all	DET	PDT	PronType=Ind	18	det:predet	18:det:predet	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	_
 18	time	time	NOUN	NN	Number=Sing	14	obl:unmarked	14:obl:unmarked	SpaceAfter=No|XML=<hi rend:::"lengthened"></hi>
 19	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -623,7 +623,7 @@
 13	,	,	PUNCT	,	_	12	punct	12:punct	_
 14	to	to	PART	TO	_	15	mark	15:mark	_
 15	get	get	VERB	VB	VerbForm=Inf	6	conj	6:conj:or|23:advcl:to	_
-16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(31-abstract-new-nnnnn-cf4-2-sgl
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(31-abstract-new-nnnnn-cf4-2-coref
 17	degree	degree	NOUN	NN	Number=Sing	15	obj	15:obj	Entity=31)|SpaceAfter=No
 18	,	,	PUNCT	,	_	20	punct	20:punct	_
 19	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	nsubj	20:nsubj	Discourse=organization-phatic:67->68:0:lex-indph-346-347-_|Entity=(15-person-giv:act-nnnnn-cf1-1-ana)
@@ -633,7 +633,7 @@
 23	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 24	to	to	PART	TO	_	25	mark	25:mark	_
 25	take	take	VERB	VB	VerbForm=Inf	23	xcomp	23:xcomp	_
-26	this	this	DET	DT	Number=Sing|PronType=Dem	27	det	27:det	Entity=(32-abstract-acc:com-nnnnn-cf3-2-coref
+26	this	this	DET	DT	Number=Sing|PronType=Dem	27	det	27:det	Bridge=31<32:entity-associative|Entity=(32-abstract-acc:inf-nnnnn-cf3-2-coref
 27	class	class	NOUN	NN	Number=Sing	25	obj	25:obj	Entity=32)|SpaceAfter=No
 28	.	.	PUNCT	.	_	23	punct	23:punct	_
 
@@ -774,7 +774,7 @@
 11	just	just	ADV	RB	_	12	advmod	12:advmod	_
 12	go	go	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 13	into	into	ADP	IN	_	15	case	15:case	MSeg=in-to
-14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Bridge=32<38|Entity=(38-place-acc:inf-nnnnn-cf5-2-coref
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Bridge=32<38:entity-associative|Entity=(38-place-acc:inf-nnnnn-cf5-2-coref
 15	classroom	classroom	NOUN	NN	Number=Sing	12	obl	12:obl:into	Entity=38)|MSeg=class-room|SpaceAfter=No
 16	,	,	PUNCT	,	_	18	punct	18:punct	_
 17	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=organization-phatic:82->83:0:_|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:and:448:432-447,449-451:449-465
@@ -868,7 +868,7 @@
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=organization-phatic:89->90:2:lex-indph-503-504-_|Entity=(1-person-giv:inact-sssss-cf3-1-ana)
 2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	parataxis	7:parataxis	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
-4	all	all	DET	PDT	PronType=Tot	7	det:predet	7:det:predet	Discourse=elaboration-additional:90->88:0:ref-prs-490,518-_+ref-prs-500-501,511-_|Entity=(47-object-new-snsnn-cf5-4-sgl
+4	all	all	DET	PDT	PronType=Ind	7	det:predet	7:det:predet	Discourse=elaboration-additional:90->88:0:ref-prs-490,518-_+ref-prs-500-501,511-_|Entity=(47-object-new-snsnn-cf5-4-sgl
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	_
 6	skeleton	skeleton	NOUN	NN	Number=Sing	7	compound	7:compound	_
 7	part	part	NOUN	NN	Number=Sing	0	root	0:root	_
@@ -918,7 +918,7 @@
 19	,	,	PUNCT	,	_	22	punct	22:punct	_
 20	well	well	INTJ	UH	_	22	discourse	22:discourse	Discourse=adversative-concession:97->98:0:lex-indwd-545-_+dm-but-549-gold
 21	not	not	PART	RB	Polarity=Neg	22	advmod	22:advmod	Negation=Yes
-22	millions	million	NOUN	NNS	Number=Plur	6	parataxis	6:parataxis	Bridge=50<51|Entity=(51-object-acc:inf-nnnnn-cf3-1-sgl)|MSeg=million-s|SpaceAfter=No
+22	millions	million	NOUN	NNS	Number=Plur	6	parataxis	6:parataxis	Bridge=50<51:comparison-sense|Entity=(51-object-acc:inf-nnnnn-cf3-1-sgl)|MSeg=million-s|SpaceAfter=No
 23	,	,	PUNCT	,	_	24	punct	24:punct	_
 24	but	but	CCONJ	CC	_	27	cc	27:cc	Discourse=adversative-concession:98->93:2:sem-mrnym-538-540,547-_|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:549:545-548:550|SpaceAfter=No
 25	,	,	PUNCT	,	_	24	punct	24:punct	_
@@ -967,7 +967,7 @@
 15	and	and	CCONJ	CC	_	20	cc	20:cc	_
 16	then	then	ADV	RB	PronType=Dem	20	advmod	20:advmod	SpaceAfter=No
 17	,	,	PUNCT	,	_	16	punct	16:punct	_
-18	all	all	DET	PDT	PronType=Tot	20	det:predet	20:det:predet	Bridge=46<53|Entity=(53-object-acc:inf-nnsnn-cf5-3-coref
+18	all	all	DET	PDT	PronType=Ind	20	det:predet	20:det:predet	Bridge=46<53:entity-meronomy|Entity=(53-object-acc:inf-nnsnn-cf5-3-coref
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	_
 20	bones	bone	NOUN	NNS	Number=Plur	10	conj	8:obj|10:conj:and	Entity=53)|MSeg=bone-s|SpaceAfter=No
 21	,	,	PUNCT	,	_	22	punct	22:punct	_
@@ -976,20 +976,20 @@
 24	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	25	nsubj	25:nsubj	Discourse=organization-phatic:102->103:0:lex-indph-582-583-_|Entity=(15-person-giv:act-nnnnn-cf1*-1-ana)
 25	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	30	parataxis	30:parataxis	SpaceAfter=No
 26	,	,	PUNCT	,	_	25	punct	25:punct	_
-27	all	all	DET	PDT	PronType=Tot	29	det:predet	29:det:predet	Discourse=same-unit_m:103->101:0:_
+27	all	all	DET	PDT	PronType=Ind	29	det:predet	29:det:predet	Discourse=same-unit_m:103->101:0:_
 28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	29:det	_
 29	way	way	NOUN	NN	Number=Sing	30	obl:unmarked	30:obl:unmarked	_
 30	up	up	ADV	RB	Degree=Pos	10	conj	8:obj|10:conj:and	_
 31	–	-	PUNCT	:	_	34	punct	34:punct	_
 32	from	from	ADP	IN	_	34	case	34:case	_
-33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	34:det	Bridge=46<54|Entity=(54-object-acc:inf-nnnnn-cf6-2-sgl
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	34:det	Bridge=46<54:entity-meronomy|Entity=(54-object-acc:inf-nnnnn-cf6-2-sgl
 34	shoulder	shoulder	NOUN	NN	Number=Sing	30	obl	30:obl:from	Entity=54)
 35	down	down	ADV	RB	Degree=Pos	34	advmod	34:advmod	SpaceAfter=No
 36	,	,	PUNCT	,	_	41	punct	41:punct	_
 37	and	and	CCONJ	CC	_	41	cc	41:cc	_
 38	then	then	ADV	RB	PronType=Dem	41	advmod	41:advmod	_
 39	from	from	ADP	IN	_	41	case	41:case	_
-40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	41:det	Bridge=46<55|Entity=(55-object-acc:inf-nnnnn-cf7-2-sgl
+40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	41:det	Bridge=46<55:entity-meronomy|Entity=(55-object-acc:inf-nnnnn-cf7-2-sgl
 41	hip	hip	NOUN	NN	Number=Sing	30	conj	10:conj|30:conj:and	Entity=55)
 42	down	down	ADV	RB	Degree=Pos	41	advmod	41:advmod	SpaceAfter=No
 43	.	.	PUNCT	.	_	6	punct	6:punct	_
@@ -1004,12 +1004,12 @@
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=organization-phatic:104->105:0:lex-indph-602-603-_|Entity=(15-person-giv:act-nnnnn-cf1*-1-ana)|PDTB=Implicit:Expansion.Conjunction:and:_:559-601:602-661
 2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	parataxis	7:parataxis	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
-4	all	all	DET	PDT	PronType=Tot	6	det:predet	6:det:predet	Discourse=joint-list_m:105->101:1:sem-mrnym-576-578,610-611-_+sem-mrnym-598-599,610-611-_
+4	all	all	DET	PDT	PronType=Ind	6	det:predet	6:det:predet	Discourse=joint-list_m:105->101:1:sem-mrnym-576-578,610-611-_+sem-mrnym-598-599,610-611-_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	_
 6	way	way	NOUN	NN	Number=Sing	7	obl:unmarked	7:obl:unmarked	_
 7	down	down	ADV	RB	Degree=Pos	0	root	0:root	_
 8	to	to	ADP	IN	_	10	case	10:case	_
-9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=46<56|Entity=(56-object-acc:inf-nnnnn-cf2-2-coref
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=46<56:entity-meronomy|Entity=(56-object-acc:inf-nnnnn-cf2-2-coref
 10	hoof	hoof	NOUN	NN	Number=Sing	7	obl	7:obl:to	Entity=56)|SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	12:punct	_
 12	and	and	CCONJ	CC	_	16	cc	16:cc	_
@@ -1024,7 +1024,7 @@
 21	and	and	CCONJ	CC	_	26	cc	26:cc	SpaceAfter=No
 22	,	,	PUNCT	,	_	21	punct	21:punct	_
 23	then	then	ADV	RB	PronType=Dem	26	advmod	26:advmod	_
-24	all	all	DET	PDT	PronType=Tot	26	det:predet	26:det:predet	Entity=(58-object-new-nnnnn-cf7-3-sgl
+24	all	all	DET	PDT	PronType=Ind	26	det:predet	26:det:predet	Entity=(58-object-new-nnnnn-cf7-3-sgl
 25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	_
 26	wall	wall	NOUN	NN	Number=Sing|Typo=Yes	7	conj	7:conj:and	CorrectForm=walls|SpaceAfter=No|XML=<sic ana:::"walls"></sic>
 27	,	,	PUNCT	,	_	28	punct	28:punct	_
@@ -1313,7 +1313,7 @@
 # addressee = Lenore
 # text = And make em, you know, and they're just a little bit, for f- the first couple of days, you know, I mean they're just sore.
 1	And	and	CCONJ	CC	_	2	cc	2:cc	Discourse=organization-preparation:131->133:1:ref-prs-807,813-_|PDTB=Explicit:Contingency.Cause.Result:and:805:797-804:806-837
-2	make	make	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+2	make	make	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
 3	em	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Style=Coll|Typo=Yes	2	obj	2:obj	CorrectForm=them|Entity=(65-animal-giv:act-nnnnn-cf2*-1-ana)|SpaceAfter=No|XML=<sic ana:::"them"></sic>
 4	,	,	PUNCT	,	_	6	punct	6:punct	_
 5	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	Discourse=organization-phatic:132->133:0:lex-indph-809-810-_|Entity=(15-person-giv:inact-nnnnn-cf1-1-ana)
@@ -1491,7 +1491,7 @@
 # speaker = MaeLynne
 # addressee = Lenore
 # text = You know, I get em really long.
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=organization-phatic:147->148:0:lex-indph-923-924-_|Entity=(15-person-giv:inact-nnnnn-cf2-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=organization-phatic:147->148:0:lex-indph-923-924-_|Entity=(15-person-giv:inact-nnnnn-cf2-1-ana)|PDTB=Implicit:Contingency.Cause.Reason:because:_:913-922:923-931
 2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	parataxis	5:parataxis	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Discourse=causal-result:148->146:1:_|Entity=(1-person-giv:act-sssss-cf1*-1-ana)
@@ -1650,7 +1650,7 @@
 # speaker = MaeLynne
 # addressee = Lenore
 # text = We did a lot of stuff with the — like we had the, um, the burners?
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=restatement-repetition_m:164->163:2:ref-prs-1016,1026-_+ref-prs-1019,1026-_+sem-rpt-1021-1024,1028-1031-_|Entity=(78-person-giv:act-nnnnn-cf1*-1-ana)
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=restatement-repetition_m:164->163:2:ref-prs-1016,1026-_+ref-prs-1019,1026-_+sem-rpt-1021-1024,1028-1031-_|Entity=(78-person-giv:act-nnnnn-cf1*-1-ana)|PDTB=Implicit:Expansion.Equivalence:in other words:_:1016-1025:1026-1044
 2	did	do	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	12	reparandum	12:reparandum	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(79-abstract-giv:act-nnnnn-cf2-2-coref
 4	lot	lot	NOUN	NN	Number=Sing	2	obj	2:obj	_
@@ -1731,7 +1731,7 @@
 9	into	into	ADP	IN	_	10	case	10:case	MSeg=in-to
 10	the	the	DET	DT	Definite=Def|PronType=Art	4	obl	4:obl:into	SpaceAfter=No
 11	,	,	PUNCT	,	_	13	punct	13:punct	_
-12	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	13:nsubj	Discourse=organization-phatic:172->173:0:lex-indph-1080-1081-_|Entity=(15-person-giv:act-nnnnn-cf1*-1-ana)
+12	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	13:nsubj	Discourse=organization-phatic:172->173:0:lex-indph-1080-1081-_|Entity=(15-person-giv:act-nnnnn-cf1*-1-ana)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:1069-1079:1080-1086
 13	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	parataxis	10:parataxis	_
 14	like	like	INTJ	UH	_	17	discourse	17:discourse	Discourse=evaluation-comment:173->171:1:_|SpaceAfter=No
 15	,	,	PUNCT	,	_	14	punct	14:punct	_
@@ -1816,7 +1816,7 @@
 # text = But, these shoes we never did put on a horse.
 1	But	but	CCONJ	CC	_	8	cc	8:cc	Discourse=adversative-antithesis:180->181:1:_|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:but:1128:1112-1127:1129-1153|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	these	this	DET	DT	Number=Plur|PronType=Dem	4	det	4:det	Bridge=84<85|Entity=(85-object-acc:inf-nnnnn-cf2-2-sgl
+3	these	this	DET	DT	Number=Plur|PronType=Dem	4	det	4:det	Bridge=84<85:set-member|Entity=(85-object-acc:inf-nnnnn-cf2-2-sgl
 4	shoes	shoe	NOUN	NNS	Number=Plur	8	obj	8:obj	Entity=85)|MSeg=shoe-s
 5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	8:nsubj	Entity=(78-person-giv:act-nnnnn-cf1*-1-ana)
 6	never	never	ADV	RB	_	8	advmod	8:advmod	Negation=Yes
@@ -1905,10 +1905,10 @@
 # speaker = MaeLynne
 # addressee = Lenore
 # text = You know, there isn't really any girl farriers around anywhere.
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=organization-phatic:188->189:1:lex-indph-1186-1187-_|Entity=(15-person-giv:inact-nnnnn-cf2-1-ana)|PDTB=Implicit:Contingency.Cause.Reason:because:_:1163-1185:1186-1198
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=organization-phatic:188->189:1:lex-indph-1186-1187-_|Entity=(15-person-giv:inact-nnnnn-cf2-1-ana)|PDTB=NoRel:NoRel:_:_:1163-1185:1186-1198
 2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	parataxis	5:parataxis	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
-4	there	there	PRON	EX	PronType=Dem	5	expl	5:expl	Discourse=context-background:189->194:3:dm-and-1216-gold|Entity=(90-abstract-giv:act-nnnnn-cf1*-2-coref
+4	there	there	PRON	EX	PronType=Dem	5	expl	5:expl	Discourse=context-background:189->194:3:_|Entity=(90-abstract-giv:act-nnnnn-cf1*-2-coref
 5-6	isn't	_	_	_	_	_	_	_	_
 5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 6	n't	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	Negation=Yes
@@ -1982,7 +1982,7 @@
 # speaker = MaeLynne
 # addressee = Lenore
 # text = And the m- — the reason they were showing us this at college, was just, to get us, to know if our trimmer, and shoer was doing it right, and — plus the knowledge of knowing the bones and ligaments.
-1	And	and	CCONJ	CC	_	19	cc	19:cc	Discourse=joint-other_m:194->10:4:_|PDTB=Explicit:Expansion.Conjunction:and:1216:1186-1198:1217-1261;NoRel:NoRel:_:_:1209-1215:1216-1261
+1	And	and	CCONJ	CC	_	19	cc	19:cc	Discourse=joint-other_m:194->10:4:_;joint-other:194->189:3:4:orp-and-1216-gold|PDTB=Explicit:Expansion.Conjunction:and:1216:1186-1198:1217-1261
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(93-abstract-new-nnnnn-cf6-5-sgl
 3	m-	m-	INTJ	UH	_	6	reparandum	6:reparandum	XML=<sic></sic>
 4	—	—	PUNCT	:	_	3	punct	3:punct	_
@@ -2044,7 +2044,7 @@
 5	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	5:obj	Entity=(96-abstract-giv:act-nnsss-cf2-1-ana)
 7	in	in	ADP	IN	_	9	case	9:case	_
-8	another	another	DET	DT	PronType=Ind	9	det	9:det	Entity=(98-abstract-new-nnnnn-cf3-2-coref|MSeg=an-other
+8	another	another	DET	DT	PronType=Ind	9	det	9:det	Bridge=32<98:comparison-relative|Entity=(98-abstract-acc:inf-nnnnn-cf3-2-coref|MSeg=an-other
 9	class	class	NOUN	NN	Number=Sing	5	obl	5:obl:in	Entity=98)
 10	too	too	ADV	RB	Degree=Pos	5	advmod	5:advmod	SpaceAfter=No
 11	.	.	PUNCT	.	_	5	punct	5:punct	_
@@ -2056,7 +2056,7 @@
 # speaker = MaeLynne
 # addressee = Lenore
 # text = We — that was kind of a double thing that, we had in — in another class, so it was kinda review for us.
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	reparandum	9:reparandum	Discourse=evaluation-comment:202->201:0:_|Entity=(78-person-giv:act-nnnnn-cf1*-1-ana)|PDTB=NoRel:NoRel:_:_:1262-1272:1273-1299|XML=<sic>
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	reparandum	9:reparandum	Discourse=evaluation-comment:202->201:0:_|Entity=(78-person-giv:act-nnnnn-cf1*-1-ana)|PDTB=Implicit:Expansion.Conjunction:in fact:_:1262-1272:1273-1299|XML=<sic>
 2	—	—	PUNCT	:	_	1	punct	1:punct	XML=</sic>
 3	that	that	PRON	DT	Number=Sing|PronType=Dem	9	nsubj	9:nsubj	Entity=(96-abstract-giv:act-nnsss-cf2-1-ana)
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	9:cop	_
@@ -2280,7 +2280,7 @@
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint-other_m:221->220:0:_|Entity=(78-person-giv:inact-nnnnn-cf1-1-ana)|PDTB=NoRel:NoRel:_:_:1389-1392:1393-1398
 2	pick	pick	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	out	out	ADP	RP	_	2	compound:prt	2:compound:prt	_
-4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(104-abstract-new-nnnnn-cf2-2-sgl
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Bridge=88<104:entity-property|Entity=(104-abstract-acc:inf-nnnnn-cf2-2-sgl
 5	size	size	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=104)|SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -2366,7 +2366,7 @@
 # speaker = MaeLynne
 # addressee = Lenore
 # text = And double-aught and aught, are the ones that are most popular.
-1	And	and	CCONJ	CC	_	10	cc	10:cc	Discourse=evaluation-comment:230->225:3:_;elaboration-additional:230->225:2:3:orp-and-1440-gold|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:and:1440:1428-1433:1441-1454
+1	And	and	CCONJ	CC	_	10	cc	10:cc	Discourse=evaluation-comment:230->225:3:_;elaboration-additional:230->225:2:3:orp-and-1440-gold|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:and:1440:1428-1433:1441-1454;Implicit:Expansion.Conjunction:in fact:_:1434-1439:1440-1454
 2	double	double	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(109-abstract-new-nnnnn-cf1-3,5-coref(110-abstract-new-nnnnn-cf2-3-sgl|SpaceAfter=No|XML=<w>
 3	-	-	PUNCT	HYPH	_	2	punct	2:punct	SpaceAfter=No
 4	aught	aught	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=110)|XML=</w>

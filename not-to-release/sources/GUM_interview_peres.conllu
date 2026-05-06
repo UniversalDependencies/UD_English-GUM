@@ -38,13 +38,13 @@
 # transition = establishment
 # text = "The future is only peace. The problem is how long will it take and how many victims will it call for."
 1	"	"	PUNCT	``	_	6	punct	6:punct	Discourse=organization-preparation:2->8:6:sem-rpt-10-11,78-79-_+sem-rpt-14,82-_|SpaceAfter=No|XML=<quote>
-2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(5-abstract-new-snsss-cf2-2-coref
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=4<5:entity-associative|Entity=(5-abstract-acc:inf-snsss-cf2-2-coref
 3	future	future	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=5)
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 5	only	only	ADV	RB	_	6	advmod	6:advmod	_
 6	peace	peace	NOUN	NN	Number=Sing	0	root	0:root	Entity=(3-abstract-giv:act-sssss-cf1*-1-pred-Peace)|SpaceAfter=No
 7	.	.	PUNCT	.	_	6	punct	6:punct	_
-8	The	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Discourse=adversative-concession:3->2:0:_|Entity=(6-abstract-new-nnnnn-cf3-2-coref
+8	The	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Discourse=adversative-concession:3->2:0:_|Entity=(6-abstract-new-nnnnn-cf4-2-coref
 9	problem	problem	NOUN	NN	Number=Sing	15	nsubj:outer	15:nsubj:outer	Entity=6)
 10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	_
 11	how	how	ADV	WRB	PronType=Int	12	advmod	12:advmod	_
@@ -53,7 +53,7 @@
 14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj	Entity=(3-abstract-giv:act-sssss-cf1*-1-ana-Peace)
 15	take	take	VERB	VB	VerbForm=Inf	6	parataxis	6:parataxis	_
 16	and	and	CCONJ	CC	_	22	cc	22:cc	_
-17	how	how	ADV	WRB	PronType=Int	18	advmod	18:advmod	Entity=(7-person-new-nnnnn-cf4-3-coref
+17	how	how	ADV	WRB	PronType=Int	18	advmod	18:advmod	Bridge=2<7:entity-associative|Entity=(7-person-acc:inf-nnnnn-cf3-3-coref
 18	many	many	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
 19	victims	victim	NOUN	NNS	Number=Plur	22	obl	22:obl:for	Entity=7)|MSeg=victim-s
 20	will	will	AUX	MD	VerbForm=Fin	22	aux	22:aux	_
@@ -84,7 +84,7 @@
 # transition = establishment
 # speaker = Wikinews
 # text = Mr. President, as a Nobel Peace Prize recipient and as one of the fathers of the modern peace process in Israel, do you still think that there is a future to the peace process?
-1	Mr.	Mr.	PROPN	NNP	Abbr=Yes|Number=Sing	2	nmod:desc	2:nmod:desc	Discourse=attribution-positive:6->7:0:sem-atsrc-65-_+lex-indwd-67-_+syn-rpr-68-_|Entity=(9-person-giv:act-sssss-cf1*-1,2-coref-Shimon_Peres
+1	Mr.	Mr.	PROPN	NNP	Abbr=Yes|Number=Sing	2	nmod:desc	2:nmod:desc	Discourse=attribution-positive:6->7:0:sem-atsrc-65-_+lex-indwd-67-_+syn-rpr-68-_|Entity=(9-person-giv:act-sssss-cf1*-2-coref-Shimon_Peres
 2	President	President	PROPN	NNP	Number=Sing	27	vocative	27:vocative	Entity=9)|MSeg=Presid-ent|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	as	as	ADP	IN	_	9	case	9:case	_
@@ -167,7 +167,7 @@
 # transition = continue
 # speaker = ShimonPeres
 # text = Why do I say peace?
-1	Why	why	ADV	WRB	PronType=Int	4	advmod	4:advmod	CxnElt=4:Interrogative-WHInfo-Direct.WHWord|Discourse=topic-question:10->11:2:lex-indwd-101-_+syn-sbinv-102-_+grf-qst-106-_
+1	Why	why	ADV	WRB	PronType=Int	4	advmod	4:advmod	CxnElt=4:Interrogative-WHInfo-Direct.WHWord|Discourse=topic-question:10->11:2:lex-indwd-101-_+syn-sbinv-102-_+grf-qst-106-_|PDTB=Implicit:Contingency.Cause.Reason:because:_:84-100:101-106
 2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(9-person-giv:inact-sssss-cf2-1-ana-Shimon_Peres)
 4	say	say	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=4:Interrogative-WHInfo-Direct.Clause
@@ -187,7 +187,7 @@
 5	historically	historically	ADV	RB	Degree=Pos	4	advmod	4:advmod	MSeg=histor-ic-al-ly|SpaceAfter=No
 6	,	,	PUNCT	,	_	9	punct	9:punct	_
 7	at	at	ADP	IN	_	9	case	9:case	_
-8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(16-event-new-nnnnn-cf3-2-sgl
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(16-event-new-nnnnn-cf3-2-coref
 9	development	development	NOUN	NN	Number=Sing	4	obl	4:obl:at	MSeg=develop-ment
 10	of	of	ADP	IN	_	11	case	11:case	_
 11	humanity	humanity	NOUN	NN	Number=Sing	9	nmod	9:nmod:of	Entity=(17-person-new-nnnnn-cf1-1-coref)16)|MSeg=human-ity|SpaceAfter=No
@@ -210,7 +210,7 @@
 # transition = null
 # speaker = ShimonPeres
 # text = The history is written with red ink.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:14->11:1:_|Entity=(21-abstract-new-nnnnn-cf2-4-disc(22-abstract-acc:com-nnnnn-cf1-2-sgl|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:107-129:130-137
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=16<22:entity-associative|Discourse=elaboration-additional:14->11:1:sem-mrnym-114-117,130-131-_|Entity=(21-abstract-new-nnnnn-cf2-4-disc(22-abstract-acc:inf-nnnnn-cf1-2-sgl|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:107-129:130-137
 2	history	history	NOUN	NN	Number=Sing	4	nsubj:pass	4:nsubj:pass	Entity=22)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 4	written	write	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=writt-en
@@ -259,17 +259,17 @@
 # transition = rough-shift
 # speaker = ShimonPeres
 # text = The land, the natural resources, the markets, all these go together.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:19->15:2:sem-rpt-148-149,165-166-_|Entity=(25-abstract-new-nnnnn-cf1-2,6,9-coref(20-place-giv:act-nsnns-cf2*-2-coref|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:138-164:165-179
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:19->15:2:sem-rpt-148-149,165-166-_|Entity=(25-abstract-new-nnnnn-cf1-2,6,9-coref(20-place-giv:act-nsnns-cf2*-2-coref|PDTB=EntRel:EntRel:_:_:138-164:165-179
 2	land	land	NOUN	NN	Number=Sing	13	dislocated	13:dislocated	Entity=20)|SpaceAfter=No
 3	,	,	PUNCT	,	_	6	punct	6:punct	_
-4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(26-substance-new-nnnns-cf3-3-sgl
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Bridge=20<26:entity-associative|Entity=(26-substance-acc:inf-nnnns-cf3-3-coref
 5	natural	natural	ADJ	JJ	Degree=Pos	6	amod	6:amod	MSeg=natur-al
 6	resources	resource	NOUN	NNS	Number=Plur	2	conj	2:conj|13:dislocated	Entity=26)|MSeg=resource-s|SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	9:punct	_
-8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(27-abstract-new-nnnnn-cf4-2-sgl
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Bridge=26<27:entity-associative|Entity=(27-abstract-acc:inf-nnnnn-cf4-2-sgl
 9	markets	market	NOUN	NNS	Number=Plur	2	conj	2:conj|13:dislocated	Entity=27)25)|MSeg=market-s|SpaceAfter=No
 10	,	,	PUNCT	,	_	2	punct	2:punct	_
-11	all	all	DET	PDT	PronType=Tot	12	det:predet	12:det:predet	Entity=(25-abstract-giv:act-nnnnn-cf1-2-ana
+11	all	all	DET	PDT	PronType=Ind	12	det:predet	12:det:predet	Entity=(25-abstract-giv:act-nnnnn-cf1-2-ana
 12	these	this	PRON	DT	Number=Plur|PronType=Dem	13	nsubj	13:nsubj	Entity=25)
 13	go	go	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 14	together	together	ADV	RB	Degree=Pos	13	advmod	13:advmod	SpaceAfter=No
@@ -304,7 +304,7 @@
 # transition = smooth-shift
 # speaker = ShimonPeres
 # text = Armies cannot conquer science.
-1	Armies	army	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Discourse=explanation-justify:22->21:2:_|Entity=(30-organization-new-nnnnn-cf2-1-sgl)|MSeg=Arm-ie-s
+1	Armies	army	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Discourse=explanation-justify:22->21:2:_|Entity=(30-organization-new-nnnnn-cf2-1-sgl)|MSeg=Arm-ie-s|PDTB=Implicit:Contingency.Cause.Reason:because:_:180-195:196-201
 2-3	cannot	_	_	_	_	_	_	_	_
 2	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	XML=<w>
 3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes|XML=</w>
@@ -324,7 +324,7 @@
 3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes|XML=</w>
 4	check	check	VERB	VB	VerbForm=Inf	0	root	0:root	_
 5	what	what	PRON	WP	PronType=Rel	4	obj	4:obj	_
-6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Bridge=29<32|Entity=(32-person-acc:inf-nnnnn-cf1-2-coref
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(32-person-auto-nnnnn-cf1-2-coref
 7	scientist	scientist	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=32)|MSeg=scient-ist
 8	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	MSeg=ha-s
 9	in	in	ADP	IN	_	11	case	11:case	_
@@ -417,7 +417,7 @@
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(15-person-giv:act-nnnnn-cf1*-1-ana)
 4	come	come	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=4:Interrogative-WHInfo-Direct.Clause
 5	to	to	ADP	IN	_	7	case	7:case	_
-6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(39-abstract-new-nnnnn-cf3-2-sgl
+6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(39-abstract-new-nnnnn-cf3-2-coref
 7	understanding	understanding	NOUN	NN	Number=Sing	4	obl	4:obl:to	Entity=39)|MSeg=under-stand-ing
 8	to	to	PART	TO	_	9	mark	9:mark	Discourse=purpose-goal:34->33:0:syn-inf-282-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:275-281:282-286
 9	make	make	VERB	VB	VerbForm=Inf	4	advcl	4:advcl:to	Cxn=Resultative|CxnElt=9:Resultative.Predicate
@@ -437,7 +437,7 @@
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	what	what	PRON	WP	PronType=Int	6	nsubj	6:nsubj	CxnElt=6:Interrogative-WHInfo-Direct.WHWord
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
-5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(40-abstract-new-nnnnn-cf1-2-coref
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Bridge=39<40:entity-associative|Entity=(40-abstract-acc:inf-nnnnn-cf1-2-coref
 6	problem	problem	NOUN	NN	Number=Sing	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=6:Interrogative-WHInfo-Direct.Clause|Entity=40)|SpaceAfter=No
 7	?	?	PUNCT	.	_	6	punct	6:punct	_
 
@@ -457,23 +457,23 @@
 8	,	,	PUNCT	,	_	9	punct	9:punct	_
 9	say	say	INTJ	UH	_	7	discourse	7:discourse	PDTB=AltLex:Expansion.Instantiation.Arg2-as-instance:say:302:287-293:294-301,303-323
 10	between	between	ADP	IN	_	11	case	11:case	MSeg=be-tween
-11	Jews	Jew	PROPN	NNPS	Number=Plur	7	obl	7:obl:between	Entity=(41-person-new-snnnn-cf3-1-sgl-Jews)|MSeg=Jew-s
+11	Jews	Jew	PROPN	NNPS	Number=Plur	7	obl	7:obl:between	Entity=(41-person-new-snnnn-cf5-1-sgl-Jews)|MSeg=Jew-s
 12	and	and	CCONJ	CC	_	13	cc	13:cc	_
-13	Arabs	Arab	PROPN	NNPS	Number=Plur	11	conj	7:obl:between|11:conj:and	Entity=(42-person-new-nnnnn-cf4-1-sgl-Arabs)|MSeg=Arab-s|SpaceAfter=No
+13	Arabs	Arab	PROPN	NNPS	Number=Plur	11	conj	7:obl:between|11:conj:and	Entity=(42-person-new-nnnnn-cf6-1-sgl-Arabs)|MSeg=Arab-s|SpaceAfter=No
 14	;	;	PUNCT	:	_	19	punct	19:punct	_
 15	or	or	CCONJ	CC	_	19	cc	19:cc	Discourse=joint-disjunction_m:38->37:0:grf-semcol-307-_+dm-or-308-gold|PDTB=Explicit:Expansion.Disjunction:or:308:297-307:309-323
 16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	19:cop	_
 17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	19:nsubj	Entity=(40-abstract-giv:act-nnnnn-cf1*-1-ana)
-18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(43-abstract-new-nnnnn-cf5-2-sgl
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(43-abstract-new-nnnnn-cf7-2-sgl
 19	matter	matter	NOUN	NN	Number=Sing	7	conj	2:ccomp|7:conj:or	_
 20	of	of	ADP	IN	_	21	case	21:case	_
-21	generations	generation	NOUN	NNS	Number=Plur	19	nmod	19:nmod:of	Entity=(44-abstract-new-nnnnn-cf6-1-sgl)|MSeg=generat-ion-s
+21	generations	generation	NOUN	NNS	Number=Plur	19	nmod	19:nmod:of	Entity=(44-abstract-new-nnnnn-cf8-1-coref)|MSeg=generat-ion-s
 22	between	between	ADP	IN	_	25	case	25:case	MSeg=be-tween
-23	an	a	DET	DT	Definite=Ind|PronType=Art	25	det	25:det	Entity=(45-time-new-nnnnn-cf7-3-coref
+23	an	a	DET	DT	Definite=Ind|PronType=Art	25	det	25:det	Bridge=44<45:comparison-relative;entity-associative|Entity=(45-time-acc:inf-nnnnn-cf3-3-coref
 24	old	old	ADJ	JJ	Degree=Pos	25	amod	25:amod	_
 25	age	age	NOUN	NN	Number=Sing	21	nmod	21:nmod:between	Entity=45)
 26	and	and	CCONJ	CC	_	29	cc	29:cc	_
-27	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	29:det	Entity=(46-time-new-sssss-cf8-3-coref
+27	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	29:det	Bridge=45<46:comparison-relative|Entity=(46-time-acc:inf-sssss-cf4-3-coref
 28	new	new	ADJ	JJ	Degree=Pos	29	amod	29:amod	_
 29	age	age	NOUN	NN	Number=Sing	25	conj	21:nmod:between|25:conj:and	Entity=46)43)|SpaceAfter=No
 30	?	?	PUNCT	.	_	2	punct	2:punct	_
@@ -601,7 +601,7 @@
 # transition = smooth-shift
 # speaker = ShimonPeres
 # text = All the talks about nationalities, etcetera, well, the new age has very little patience for history.
-1	All	all	DET	PDT	PronType=Tot	3	det:predet	3:det:predet	Discourse=causal-cause:50->49:0:_|PDTB=Implicit:Contingency.Cause.Reason:because:_:379-390:391-410
+1	All	all	DET	PDT	PronType=Ind	3	det:predet	3:det:predet	Discourse=causal-cause:50->49:0:_|PDTB=Implicit:Contingency.Cause.Reason:because:_:379-390:391-410
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	_
 3	talks	talk	NOUN	NNS	Number=Plur	14	dep	14:dep	MSeg=talk-s
 4	about	about	ADP	IN	_	5	case	5:case	_
@@ -669,11 +669,11 @@
 6	two	two	NUM	CD	NumForm=Word|NumType=Card	7	nummod	7:nummod	Entity=(56-abstract-new-nnnnn-cf4-2-coref
 7	histories	history	NOUN	NNS	Number=Plur	4	obl	4:obl:between	Entity=56)|MSeg=historie-s|SpaceAfter=No
 8	,	,	PUNCT	,	_	10	punct	10:punct	_
-9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=56<57|Entity=(57-abstract-acc:inf-nnnnn-cf2-2-coref
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=56<57:comparison-sense;set-member|Entity=(57-abstract-acc:inf-nnnnn-cf2-2-coref
 10	spiritual	spiritual	ADJ	JJ	Degree=Pos	7	appos	7:appos	Entity=57)|MSeg=spirit-ual
 11	and	and	CCONJ	CC	_	13	cc	13:cc	_
-12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Bridge=56<58|Entity=(58-abstract-acc:inf-nnnnn-cf3-2-coref
-13	material	material	ADJ	JJ	Degree=Pos	10	conj	7:appos|10:conj:and	Entity=58)|SpaceAfter=No
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Bridge=56<58:comparison-sense;set-member|Entity=(58-abstract-acc:inf-nnnnn-cf3-2-coref
+13	material	material	ADJ	JJ	Degree=Pos	10	conj	7:appos|10:conj:and	Entity=58)|MSeg=mater-ial|SpaceAfter=No
 14	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_interview_peres-30
@@ -719,7 +719,7 @@
 16	old	old	ADJ	JJ	Degree=Pos	15	xcomp	15:xcomp	SpaceAfter=No
 17	,	,	PUNCT	,	_	19	punct	19:punct	_
 18	like	like	ADP	IN	_	19	case	19:case	_
-19	material	material	NOUN	NN	Number=Sing	15	obl	15:obl:like	Entity=(62-substance-new-nnnnn-cf4-1-sgl)|SpaceAfter=No
+19	material	material	NOUN	NN	Number=Sing	15	obl	15:obl:like	Entity=(62-substance-new-nnnnn-cf4-1-sgl)|MSeg=mater-ial|SpaceAfter=No
 20	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # newpar
@@ -748,7 +748,7 @@
 # text = First, the event is unimportant.
 1	First	first	ADV	RB	Degree=Pos|NumForm=Word|NumType=Ord	6	advmod	6:advmod	Discourse=elaboration-additional:59->58:0:sem-mrnym-472,482-483-_+sem-lxchn-472,483-gold+num-count-477-_|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:471-479:480-486|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=59<64|Entity=(64-event-acc:inf-nnnnn-cf1-2-sgl
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=59<64:set-member|Entity=(64-event-acc:inf-nnnnn-cf1-2-sgl
 4	event	event	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=64)
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 6	unimportant	unimportant	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=un-import-ant|Negation=Yes|SpaceAfter=No
@@ -760,7 +760,7 @@
 # transition = null
 # speaker = ShimonPeres
 # text = Tell me, what events is today important such as how many elephants Hannibal had on the Alps, when you can have helicopters?
-1	Tell	tell	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Ditransitive|CxnElt=1:Ditransitive.V|Discourse=explanation-justify:60->59:0:_|PDTB=Implicit:Contingency.Cause.Result:so:_:480-486:487-511
+1	Tell	tell	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Ditransitive|CxnElt=1:Ditransitive.V|Discourse=explanation-justify:60->59:0:_|PDTB=Implicit:Contingency.Cause.Result:so:_:480-486:487-511
 2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	1:iobj	CxnElt=1:Ditransitive.Rec|Entity=(9-person-giv:inact-sssss-cf2-1-ana-Shimon_Peres)|SpaceAfter=No
 3	,	,	PUNCT	,	_	8	punct	8:punct	_
 4	what	what	DET	WDT	PronType=Int	5	det	5:det	Entity=(65-event-new-nnnnn-cf5-2-sgl
@@ -799,7 +799,7 @@
 5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(72-person-new-nnnnn-cf3-2-sgl(9-person-giv:act-sssss-cf1*-1-ana-Shimon_Peres)
 6	children	child	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=72)|MSeg=child-ren
 7	with	with	ADP	IN	_	10	case	10:case	_
-8	all	all	DET	PDT	PronType=Tot	10	det:predet	10:det:predet	Entity=(67-event-giv:act-nnnnn-cf2-3-coref
+8	all	all	DET	PDT	PronType=Ind	10	det:predet	10:det:predet	Entity=(67-event-giv:act-nnnnn-cf2-3-coref
 9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	10:det	_
 10	nonsense	nonsense	NOUN	NN	Number=Sing	4	obl	4:obl:with	Entity=67)|MSeg=non-sense|SpaceAfter=No
 11	?	?	PUNCT	.	_	4	punct	4:punct	_
@@ -810,7 +810,7 @@
 # transition = zero
 # speaker = ShimonPeres
 # text = What sort of a nose did Cleopatra have?
-1	What	what	DET	WDT	PronType=Int	2	det	2:det	Discourse=topic-question:64->65:0:lex-indwd-523-_+syn-sbinv-528-_+grf-qst-531-_|Entity=(73-object-new-nnnnn-cf2-2-sgl
+1	What	what	DET	WDT	PronType=Int	2	det	2:det	Discourse=topic-question:64->65:0:lex-indwd-523-_+syn-sbinv-528-_+grf-qst-531-_|Entity=(73-object-new-nnnnn-cf2-2-sgl|PDTB=Implicit:Expansion.Conjunction:and:_:512-522:523-531
 2	sort	sort	NOUN	NN	Number=Sing	8	obj	8:obj	_
 3	of	of	ADP	IN	_	5	case	5:case	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	_
@@ -876,7 +876,7 @@
 6	there	there	PRON	EX	PronType=Dem	7	expl	7:expl	_
 7	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 8	already	already	ADV	RB	_	7	advmod	7:advmod	MSeg=al-ready
-9	machines	machine	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj|12:nsubj	CxnElt=7:Existential-CopPred-ThereExpl.Pivot|Entity=(79-object-new-nnnnn-cf2-1-coref|MSeg=machine-s
+9	machines	machine	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj|12:nsubj	CxnElt=7:Existential-CopPred-ThereExpl.Pivot|Entity=(79-object-new-nnnnn-cf2-1-sgl|MSeg=machine-s
 10	that	that	PRON	WDT	PronType=Rel	12	nsubj	9:ref	Discourse=elaboration-attribute:69->68:0:syn-mdf-567-_+syn-relcl-568,570-_
 11	can	can	AUX	MD	VerbForm=Fin	12	aux	12:aux	_
 12	replace	replace	VERB	VB	VerbForm=Inf	9	acl:relcl	9:acl:relcl	MSeg=re-place
@@ -902,7 +902,7 @@
 10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Entity=(82-person-giv:act-nnnnn-cf1-1-ana)
 11	can	can	AUX	MD	VerbForm=Fin	12	aux	12:aux	_
 12	buy	buy	VERB	VB	VerbForm=Inf	4	advcl	4:advcl:when	_
-13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Bridge=79<84|Entity=(84-object-acc:inf-nnnnn-cf4-2-coref
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(84-object-auto-nnnnn-cf4-2-coref
 14	computer	computer	NOUN	NN	Number=Sing	12	obj	12:obj|17:nsubj	MSeg=comput-er
 15	that	that	PRON	WDT	PronType=Rel	17	nsubj	14:ref	Discourse=elaboration-attribute:72->71:0:syn-mdf-587-_+syn-relcl-588,590-_
 16	will	will	AUX	MD	VerbForm=Fin	17	aux	17:aux	_
@@ -951,7 +951,7 @@
 12	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=12:Interrogative-Polar-Direct.Clause
 13	with	with	ADP	IN	_	15	case	15:case	_
 14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	Entity=(88-abstract-new-nnnnn-cf5-2-sgl
-15	basis	basis	NOUN	NN	Number=Sing	12	obl	12:obl:with	_
+15	basis	basis	NOUN	NN	Number=Sing	12	obl	12:obl:with	MSeg=bas-is
 16	from	from	ADP	IN	_	17	case	17:case	_
 17	memory	memory	NOUN	NN	Number=Sing	15	nmod	15:nmod:from	Entity=(83-abstract-giv:inact-nnnnn-cf2-1-coref)88)|SpaceAfter=No
 18	?	?	PUNCT	.	_	12	punct	12:punct	_
@@ -979,7 +979,7 @@
 # text = No, no.
 1	No	no	INTJ	UH	Polarity=Neg	0	root	0:root	Discourse=joint-other_m:77->8:5:_|Negation=Yes|PDTB=Hypophora:Hypophora:_:_:603-626:627-719|SpaceAfter=No
 2	,	,	PUNCT	,	_	3	punct	3:punct	_
-3	no	no	INTJ	UH	Polarity=Neg	1	discourse	1:discourse	Negation=Yes|SpaceAfter=No
+3	no	no	INTJ	UH	Polarity=Neg	1	conj	1:conj	Negation=Yes|SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_interview_peres-45
@@ -988,7 +988,7 @@
 # transition = null
 # speaker = ShimonPeres
 # text = Forget memory.
-1	Forget	forget	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=adversative-concession:78->77:0:_|MSeg=For-get
+1	Forget	forget	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=adversative-concession:78->77:0:_|MSeg=For-get
 2	memory	memory	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=(83-abstract-giv:inact-nnnnn-cf1-1-coref)|SpaceAfter=No
 3	.	.	PUNCT	.	_	1	punct	1:punct	_
 
@@ -1109,15 +1109,15 @@
 6	wo	will	AUX	MD	VerbForm=Fin	8	aux	8:aux	_
 7	n’t	not	PART	RB	Polarity=Neg	8	advmod	8:advmod	Negation=Yes
 8	commit	commit	VERB	VB	VerbForm=Inf	4	ccomp	4:ccomp	_
-9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(97-event-new-nnnnn-cf2-2-sgl
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(97-event-new-nnnnn-cf3-2-coref
 10	mistake	mistake	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=97)|MSeg=mis-take|SpaceAfter=No
 11	,	,	PUNCT	,	_	15	punct	15:punct	_
-12	so	so	ADV	RB	_	15	advmod	15:advmod	Discourse=adversative-contrast_m:90->89:1:_|PDTB=Explicit:Contingency.Cause.Result:so:708:697-707:709-714
+12	so	so	ADV	RB	_	15	advmod	15:advmod	Discourse=adversative-contrast_m:90->89:1:sem-mrnym-705-706,712-713-_|PDTB=Explicit:Contingency.Cause.Result:so:708:697-707:709-714
 13-14	you’ll	_	_	_	_	_	_	_	_
 13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Entity=(15-person-giv:act-nnnnn-cf1*-1-ana)
 14	’ll	will	AUX	MD	VerbForm=Fin	15	aux	15:aux	_
 15	commit	commit	VERB	VB	VerbForm=Inf	4	parataxis	4:parataxis	_
-16	new	new	ADJ	JJ	Degree=Pos	17	amod	17:amod	Entity=(98-event-new-nnnnn-cf3-2-sgl
+16	new	new	ADJ	JJ	Degree=Pos	17	amod	17:amod	Bridge=97<98:comparison-relative|Entity=(98-event-acc:inf-nnnnn-cf2-2-sgl
 17	mistakes	mistake	NOUN	NNS	Number=Plur	15	obj	15:obj	Entity=98)96)|MSeg=mis-take-s|SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -1191,18 +1191,18 @@
 # s_type = decl
 # transition = smooth-shift
 # text = So they are 3 times larger than us and they have all the oil in the world.
-1	So	so	ADV	RB	_	6	advmod	6:advmod	Discourse=elaboration-additional:97->96:1:sem-mrnym-746,762-_+ref-prs-752-753,756-_;evaluation-comment:97->96:2:0:lex-indwd-760-_+orp-so-755-gold|PDTB=Explicit:Contingency.Cause.Result:so:755:734-754:756-772
+1	So	so	ADV	RB	_	6	advmod	6:advmod	Discourse=elaboration-additional:97->96:1:ref-prs-752-753,756-_;evaluation-comment:97->96:2:0:lex-indwd-760-_+orp-so-755-gold|PDTB=Explicit:Contingency.Cause.Result:so:755:734-754:756-772
 2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(104-person-giv:act-nnnnn-cf1*-1-ana-Saudis)
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 4	3	3	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	5:nummod	Entity=(105-abstract-new-nnnnn-cf5-3-sgl
 5	times	time	NOUN	NNS	Number=Plur	6	obl:unmarked	6:obl:unmarked	MSeg=time-s
 6	larger	large	ADJ	JJR	Degree=Cmp	0	root	0:root	MSeg=larg-er
 7	than	than	ADP	IN	_	8	case	8:case	_
-8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	obl	6:obl:than	Bridge=4<106|Entity=(106-person-acc:inf-nnnnn-cf3-1-coref)105)
+8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	obl	6:obl:than	Entity=(106-person-auto-nnnnn-cf2-1-ana)105)
 9	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=joint-list_m:98->97:0:dm-and-763-gold|PDTB=Explicit:Expansion.Conjunction:and:763:755-762:764-772
 10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	11:nsubj	Entity=(104-person-giv:act-nnnnn-cf1*-1-ana-Saudis)
 11	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	6:conj:and	_
-12	all	all	DET	PDT	PronType=Tot	14	det:predet	14:det:predet	Entity=(101-substance-giv:inact-nnnnn-cf2-3-coref
+12	all	all	DET	PDT	PronType=Ind	14	det:predet	14:det:predet	Entity=(101-substance-giv:inact-nnnnn-cf3-3-coref
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	_
 14	oil	oil	NOUN	NN	Number=Sing	11	obj	11:obj	_
 15	in	in	ADP	IN	_	17	case	17:case	_
@@ -1245,7 +1245,7 @@
 15	's	's	PART	POS	_	14	case	14:case	Entity=4)
 16	prominence	prominence	NOUN	NN	Number=Sing	13	obj	13:obj	MSeg=promin-ence
 17	in	in	ADP	IN	_	19	case	19:case	_
-18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Bridge=4<110|Entity=(110-place-acc:inf-nnnnn-cf5-2-sgl
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Bridge=4<110:entity-associative|Entity=(110-place-acc:inf-nnnnn-cf5-2-sgl
 19	region	region	NOUN	NN	Number=Sing	16	nmod	16:nmod:in	Entity=110)109)|SpaceAfter=No
 20	.	.	PUNCT	.	_	13	punct	13:punct	_
 
@@ -1287,7 +1287,7 @@
 2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(112-person-giv:act-nnnnn-cf1*-1-ana)
 3	will	will	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 4	make	make	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	new	new	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(113-event-new-nnnnn-cf2-2-sgl
+5	new	new	ADJ	JJ	Degree=Pos	6	amod	6:amod	Bridge=54<113:comparison-relative|Entity=(113-event-acc:inf-nnnnn-cf2-2-sgl
 6	mistakes	mistake	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=113)|MSeg=mis-take-s|SpaceAfter=No
 7	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -1321,7 +1321,7 @@
 3	can	can	AUX	MD	VerbForm=Fin	5	aux	5:aux	XML=<w>
 4	not	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	Negation=Yes|XML=</w>
 5	repeat	repeat	VERB	VB	VerbForm=Inf	0	root	0:root	_
-6	mistakes	mistake	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=(116-event-new-nnnnn-cf3-1-coref)|MSeg=mis-take-s
+6	mistakes	mistake	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=(116-event-new-nnnnn-cf3-1-sgl)|MSeg=mis-take-s
 7	because	because	SCONJ	IN	_	12	mark	12:mark	Discourse=adversative-antithesis:109->110:0:sem-ngt-843-844,850-gold+sem-ngt-843-844,850-_|MSeg=be-cause|PDTB=Explicit:Contingency.Cause.Reason:because:839:833-838:840-853
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(107-place-giv:inact-nnnnn-cf1-2-coref
 9	world	world	NOUN	NN	Number=Sing	12	nsubj:pass	12:nsubj:pass	Entity=107)
@@ -1394,7 +1394,7 @@
 # text = What are they fighting for?
 1	What	what	PRON	WP	PronType=Int	4	obl	4:obl:for	CxnElt=4:Interrogative-WHInfo-Direct.WHWord|Discourse=organization-preparation:115->117:1:ref-prs-884,896-_|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:862-881:882-887
 2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
-3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	4:nsubj	Bridge=120<124|Entity=(124-person-acc:inf-nnnnn-cf1-1-coref)
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(124-person-auto-nnnnn-cf1-1-ana)
 4	fighting	fight	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=4:Interrogative-WHInfo-Direct.Clause|MSeg=fight-ing
 5	for	for	ADP	IN	_	1	case	1:case	SpaceAfter=No
 6	?	?	PUNCT	.	_	4	punct	4:punct	_
@@ -1438,7 +1438,7 @@
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=joint-other_m:118->117:0:_|Entity=(120-event-giv:inact-snnnn-cf1-1-ana-War_in_Darfur)|PDTB=Implicit:Expansion.Conjunction:and:_:896-901:902-907
 2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	not	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	Negation=Yes
-4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Bridge=116<126|Entity=(126-event-acc:inf-nnnnn-cf2-2-sgl
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(126-event-auto-nnnnn-cf2-2-sgl
 5	mistake	mistake	NOUN	NN	Number=Sing	0	root	0:root	Entity=126)|MSeg=mis-take|SpaceAfter=No
 6	.	.	PUNCT	.	_	5	punct	5:punct	_
 
@@ -1476,7 +1476,7 @@
 # transition = zero
 # speaker = ShimonPeres
 # text = I am sure that the reasons for war are over, even though still there are wars which are an inertia from the past, a continuation that doesn’t make sense.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=attribution-positive:121->122:1:sem-atsrc-921-_+syn-rpr-924-_|Entity=(9-person-giv:inact-sssss-cf2-1-ana-Shimon_Peres)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=attribution-positive:121->122:1:sem-atsrc-921-_+syn-rpr-924-_|Entity=(9-person-giv:inact-sssss-cf2-1-ana-Shimon_Peres)|PDTB=Implicit:Expansion.Conjunction:in fact:_:914-920:921-953
 2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	sure	sure	ADJ	JJ	Degree=Pos	0	root	0:root	_
 4	that	that	SCONJ	IN	_	10	mark	10:mark	Discourse=evaluation-comment:122->117:2:lex-indwd-923-_
@@ -1498,7 +1498,7 @@
 20	an	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	Entity=(132-abstract-new-nnnnn-cf1-2-coref
 21	inertia	inertia	NOUN	NN	Number=Sing	17	acl:relcl	17:acl:relcl	MSeg=inert-ia
 22	from	from	ADP	IN	_	24	case	24:case	_
-23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(133-abstract-new-nnnnn-cf5-2-sgl
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(133-abstract-new-nnnnn-cf5-2-coref
 24	past	past	NOUN	NN	Number=Sing	21	nmod	21:nmod:from	Entity=133)132)|SpaceAfter=No
 25	,	,	PUNCT	,	_	27	punct	27:punct	_
 26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	27:det	Discourse=same-unit_m:125->123:1:_|Entity=(132-abstract-giv:act-nnnnn-cf1-2-appos
@@ -1518,7 +1518,7 @@
 # speaker = ShimonPeres
 # text = I’m answering your question.
 1-2	I’m	_	_	_	_	_	_	_	_
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=organization-preparation:127->128:2:_|Entity=(9-person-giv:act-sssss-cf1*-1-ana-Shimon_Peres)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=organization-preparation:127->128:2:_|Entity=(9-person-giv:act-sssss-cf1*-1-ana-Shimon_Peres)|PDTB=Implicit:Expansion.Conjunction:and:_:921-953:954-959
 2	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	answering	answer	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	MSeg=answer-ing
 4	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(119-abstract-giv:inact-nnnnn-cf2-2-coref(9-person-giv:act-sssss-cf1*-1-ana-Shimon_Peres)
@@ -1537,12 +1537,12 @@
 4	how	how	ADV	WRB	PronType=Int	6	advmod	6:advmod	Entity=(134-abstract-giv:act-nnnnn-cf1-3-disc
 5	to	to	PART	TO	_	6	mark	6:mark	_
 6	enable	enable	VERB	VB	VerbForm=Inf	0	root	0:root	MSeg=en-able
-7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(135-person-new-nnnnn-cf2-3-sgl
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(135-person-new-nnnnn-cf3-3-sgl
 8	whole	whole	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 9	world	world	NOUN	NN	Number=Sing	6	obj	6:obj|11:nsubj:xsubj	Entity=135)
 10	to	to	PART	TO	_	11	mark	11:mark	_
 11	enter	enter	VERB	VB	VerbForm=Inf	6	xcomp	6:xcomp	_
-12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(136-abstract-new-nnnnn-cf3-3-sgl
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Bridge=133<136:comparison-relative;comparison-time|Entity=(136-abstract-acc:inf-nnnnn-cf2-3-sgl
 13	new	new	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
 14	future	future	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=136)|SpaceAfter=No
 15	,	,	PUNCT	,	_	11	punct	11:punct	_
@@ -1573,9 +1573,9 @@
 # transition = zero
 # speaker = ShimonPeres
 # text = Look at Turkey, who is knocking on the doors of the united Europe.
-1	Look	look	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=explanation-evidence:132->130:1:_|PDTB=NoRel:NoRel:_:_:979-987:988-1002
+1	Look	look	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=explanation-evidence:132->130:1:_|PDTB=NoRel:NoRel:_:_:979-987:988-1002
 2	at	at	ADP	IN	_	3	case	3:case	_
-3	Turkey	Turkey	PROPN	NNP	Number=Sing	1	obl	1:obl:at|7:nsubj	Entity=(139-place-new-nnnnn-cf2-1-coref-Turkey|MSeg=Turk-ey|SpaceAfter=No|XML=<ref>
+3	Turkey	Turkey	PROPN	NNP	Number=Sing	1	obl	1:obl:at|7:nsubj	Entity=(139-place-new-nnnnn-cf2-1-sgl-Turkey|MSeg=Turk-ey|SpaceAfter=No|XML=<ref>
 4	,	,	PUNCT	,	_	7	punct	7:punct	_
 5	who	who	PRON	WP	PronType=Rel	7	nsubj	3:ref	Discourse=elaboration-attribute:133->132:0:syn-mdf-990-_+syn-relcl-992,994-_
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_
@@ -1625,7 +1625,7 @@
 # transition = null
 # speaker = ShimonPeres
 # text = They say you can be Muslim and modern.
-1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	Bridge=139<143|Discourse=attribution-positive:137->138:0:sem-atsrc-1018-_+lex-indwd-1019-_|Entity=(143-person-acc:inf-nnnnn-cf1-1-sgl)|PDTB=Implicit:Contingency.Cause.Reason:because:_:1005-1017:1018-1026
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:137->138:0:sem-atsrc-1018-_+lex-indwd-1019-_|Entity=(143-person-auto-nnnnn-cf1-1-sgl)|PDTB=Implicit:Contingency.Cause.Reason:because:_:1005-1017:1018-1026
 2	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj|8:nsubj	Discourse=joint-other_m:138->136:1:_|Entity=(144-person-acc:com-nnnnn-cf2-1-sgl)
 4	can	can	AUX	MD	VerbForm=Fin	6	aux	6:aux	_

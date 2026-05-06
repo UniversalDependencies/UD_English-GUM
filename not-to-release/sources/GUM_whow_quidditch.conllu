@@ -5,7 +5,7 @@
 # meta::dateCreated = 2007-12-15
 # meta::dateModified = 2015-09-04
 # meta::genre = whow
-# meta::salientEntities = 1 (5*), 2 (5*), 4 (5*), 23 (5*), 26 (5*), 6 (4*), 10 (3), 33 (3*), 39 (3*), 44 (3*), 54 (3*), 3 (2), 28 (2*), 35 (2), 41 (2*), 51 (2), 55 (2*), 60 (2), 101 (2*), 11 (1), 34 (1), 72 (1), 91 (1*), 98 (1), 119 (1), 122 (1*), 125 (1), 133 (1*), 139 (1*), 141 (1)
+# meta::salientEntities = 1 (5*), 2 (5*), 4 (5*), 23 (5*), 26 (5*), 6 (4*), 10 (3), 33 (3*), 39 (3*), 44 (3*), 54 (3*), 3 (2), 28 (2*), 35 (2), 41 (2*), 51 (2), 55 (2*), 60 (2), 101 (2*), 11 (1), 34 (1), 72 (1), 91 (1*), 98 (1), 121 (1), 124 (1*), 127 (1), 135 (1*), 141 (1*), 143 (1)
 # meta::sourceURL = https://www.wikihow.com/Play-Muggle-Quidditch
 # meta::speakerCount = 0
 # meta::summary1 = (human1) This guide suggests ways to play Harry Potter's game of Quidditch in real life (Muggle Quidditch), by optionally riding on brooms, using three deflated dodge balls as bludgers for beaters to bat at players, a volleyball as a quaffle for chasers to throw into goal hoops, and a coin, ball or a running person as the snitch, which possibly blindfolded seekers must find.
@@ -38,7 +38,7 @@
 2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(3-abstract-new-nnssn-cf2-3,4,8-coref
 3	Harry	Harry	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=(4-person-new-sssss-cf4-1,2-sgl-Harry_Potter_%28character%29|XML=<ref>
 4	Potter	Potter	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=4)|MSeg=Pott-er|XML=</ref>
-5	series	series	NOUN	NN	Number=Sing	15	nmod	15:nmod:in	_
+5	series	series	NOUN	NN	Number=Sing	15	obl	15:obl:in	_
 6	written	write	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	acl	5:acl	Discourse=elaboration-attribute:3->2:0:syn-mdf-10-_+syn-nmn-11-_|MSeg=writt-en
 7	by	by	ADP	IN	_	8	case	8:case	_
 8	JK	JK	PROPN	NNP	Abbr=Yes|Number=Sing	6	obl:agent	6:obl:agent	Entity=(5-person-new-nnnnn-cf3-1,2-sgl-J._K._Rowling
@@ -79,15 +79,15 @@
 # text = There are many different ways of playing Quidditch, but the most commonly used set of rules are those given by the International Quidditch Association (which can be found here).
 1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=context-background:7->16:4:_
 2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
-3	many	many	ADJ	JJ	Degree=Pos	5	amod	5:amod	Entity=(9-abstract-new-nnnnn-cf5-3-sgl
+3	many	many	ADJ	JJ	Degree=Pos	5	amod	5:amod	Entity=(9-abstract-new-nnnnn-cf5-3-coref
 4	different	different	ADJ	JJ	Degree=Pos	5	amod	5:amod	MSeg=differ-ent
 5	ways	way	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	CxnElt=2:Existential-CopPred-ThereExpl.Pivot|MSeg=way-s
 6	of	of	SCONJ	IN	_	7	mark	7:mark	_
 7	playing	play	VERB	VBG	VerbForm=Ger	5	acl	5:acl:of	MSeg=play-ing
 8	Quidditch	Quidditch	PROPN	NNP	Number=Sing	7	obj	7:obj	Entity=(6-abstract-giv:inact-ssnss-cf2-1-coref-Quidditch)9)|SpaceAfter=No
 9	,	,	PUNCT	,	_	19	punct	19:punct	_
-10	but	but	CCONJ	CC	_	19	cc	19:cc	Discourse=adversative-concession:8->7:0:dm-but-43-gold|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:but:43:34-42:44-66
-11	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(10-abstract-new-nnsss-cf1-5-coref
+10	but	but	CCONJ	CC	_	19	cc	19:cc	Discourse=adversative-concession:8->7:0:sem-mrnym-36-41,44-50-_+dm-but-43-gold|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:but:43:34-42:44-66
+11	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Bridge=9<10:entity-associative|Entity=(10-abstract-acc:inf-nnsss-cf1-5-coref
 12	most	most	ADV	RBS	Degree=Sup	13	advmod	13:advmod	_
 13	commonly	commonly	ADV	RB	Degree=Pos	14	advmod	14:advmod	MSeg=common-ly
 14	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	amod	15:amod	MSeg=us-ed
@@ -119,7 +119,7 @@
 # transition = establishment
 # text = In the past Muggle Quidditch has mainly been played at colleges in the US, but over the last few years there has been a dramatic rise in the number of community teams.
 1	In	in	ADP	IN	_	3	case	3:case	Discourse=context-background:11->7:2:sem-synym-57,70-71-_
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(13-time-acc:com-nnnnn-cf4-2-sgl
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(13-time-acc:com-nnnnn-cf5-2-sgl
 3	past	past	ADJ	JJ	Degree=Pos	9	obl	9:obl:in	Entity=13)
 4	Muggle	Muggle	PROPN	NNP	Number=Sing	5	compound	5:compound	Entity=(1-abstract-giv:act-sssss-cf1*-1,2-coref-Quidditch_%28real%2Dlife_sport%29(2-person-giv:inact-sssss-cf2-1-coref-Muggle)
 5	Quidditch	Quidditch	PROPN	NNP	Number=Sing	9	nsubj:pass	9:nsubj:pass	Entity=1)
@@ -128,12 +128,12 @@
 8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	aux:pass	9:aux:pass	_
 9	played	play	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=play-ed
 10	at	at	ADP	IN	_	11	case	11:case	_
-11	colleges	college	NOUN	NNS	Number=Plur	9	obl	9:obl:at	Entity=(14-organization-new-nnnnn-cf8-1-sgl|MSeg=college-s
+11	colleges	college	NOUN	NNS	Number=Plur	9	obl	9:obl:at	Entity=(14-organization-new-nnnnn-cf9-1-sgl|MSeg=college-s
 12	in	in	ADP	IN	_	14	case	14:case	_
-13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(15-place-new-nnnnn-cf6-2-coref-United_States
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(15-place-new-nnnnn-cf7-2-coref-United_States
 14	US	US	PROPN	NNP	Abbr=Yes|Number=Sing	11	nmod	11:nmod:in	Entity=15)14)|SpaceAfter=No
 15	,	,	PUNCT	,	_	24	punct	24:punct	_
-16	but	but	CCONJ	CC	_	24	cc	24:cc	Discourse=adversative-contrast_m:12->11:0:dm-but-82-gold|PDTB=Explicit:Comparison.Contrast:but:82:67-81:83-100
+16	but	but	CCONJ	CC	_	24	cc	24:cc	Discourse=adversative-contrast_m:12->11:0:sem-mrnym-70-71,98-99-_+dm-but-82-gold|PDTB=Explicit:Comparison.Contrast:but:82:67-81:83-100
 17	over	over	ADP	IN	_	21	case	21:case	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(16-time-acc:com-nnnnn-cf3-4-sgl
 19	last	last	ADJ	JJ	Degree=Pos	21	amod	21:amod	_
@@ -142,14 +142,14 @@
 22	there	there	PRON	EX	PronType=Dem	24	expl	24:expl	_
 23	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	24:aux	MSeg=ha-s
 24	been	be	VERB	VBN	Tense=Past|VerbForm=Part	9	conj	9:conj:but	Cxn=Existential-CopPred-ThereExpl
-25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	27:det	Entity=(17-event-new-nnnnn-cf5-3-sgl
+25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	27:det	Entity=(17-event-new-nnnnn-cf6-3-sgl
 26	dramatic	dramatic	ADJ	JJ	Degree=Pos	27	amod	27:amod	MSeg=dramat-ic
 27	rise	rise	NOUN	NN	Number=Sing	24	nsubj	24:nsubj	CxnElt=24:Existential-CopPred-ThereExpl.Pivot
 28	in	in	ADP	IN	_	30	case	30:case	_
-29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(18-organization-new-nnnnn-cf7-2-sgl
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(18-organization-new-nnnnn-cf8-2-sgl
 30	number	number	NOUN	NN	Number=Sing	27	nmod	27:nmod:in	_
 31	of	of	ADP	IN	_	33	case	33:case	_
-32	community	community	NOUN	NN	Number=Sing	33	compound	33:compound	Entity=(19-organization-new-nnnnn-cf9-2-sgl|MSeg=commun-ity
+32	community	community	NOUN	NN	Number=Sing	33	compound	33:compound	Bridge=1<19:entity-associative|Entity=(19-organization-acc:inf-nnnnn-cf4-2-sgl|MSeg=commun-ity
 33	teams	team	NOUN	NNS	Number=Plur	30	nmod	30:nmod:of	Entity=19)18)17)|MSeg=team-s|SpaceAfter=No
 34	.	.	PUNCT	.	_	9	punct	9:punct	_
 
@@ -181,7 +181,7 @@
 # s_type = frag
 # transition = zero
 # text = Steps
-1	Steps	step	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:15->16:2:grf-ly-_-_|Entity=(21-abstract-new-nnnnn-cf1-1-sgl)|MSeg=Step-s
+1	Steps	step	NOUN	NNS	Number=Plur	0	root	0:root	Bridge=1<21:entity-associative|Discourse=organization-heading:15->16:2:grf-ly-_-_|Entity=(21-abstract-acc:inf-nnnnn-cf1-1-sgl)|MSeg=Step-s
 
 # newpar
 # newpar_block = figure rend:::"drawing of two Quidditch teams with equipment" (0 s) | list type:::"ordered" (28 s) | item n:::"1" (1 s) | p (1 s)
@@ -190,15 +190,15 @@
 # s_type = imp
 # transition = null
 # text = Gather all needed materials and players (see Things You'll Need section below).
-1	Gather	gather	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=ROOT:16:0|XML=<hi rend:::"bold">
-2	all	all	DET	DT	PronType=Ind	4	det	4:det	Entity=(22-object-new-nnnnn-cf1-3-coref
+1	Gather	gather	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=ROOT:16:0|XML=<hi rend:::"bold">
+2	all	all	DET	DT	PronType=Ind	4	det	4:det	Bridge=1<22:entity-associative|Entity=(22-object-acc:inf-nnnnn-cf1-3-coref
 3	needed	need	ADJ	JJ	Degree=Pos	4	amod	4:amod	MSeg=need-ed
 4	materials	material	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=22)|MSeg=material-s
 5	and	and	CCONJ	CC	_	6	cc	6:cc	_
-6	players	player	NOUN	NNS	Number=Plur	4	conj	1:obj|4:conj:and	Entity=(23-person-new-sssss-cf4-1-coref)|MSeg=play-er-s
+6	players	player	NOUN	NNS	Number=Plur	4	conj	1:obj|4:conj:and	Bridge=1<23:entity-associative|Entity=(23-person-acc:inf-sssss-cf3-1-coref)|MSeg=play-er-s
 7	(	(	PUNCT	-LRB-	_	8	punct	8:punct	Discourse=elaboration-additional:17->16:0:sem-synym-118-120,125-128-_+grf-prn-123,131-_|SpaceAfter=No
-8	see	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	parataxis	1:parataxis	_
-9	Things	thing	NOUN	NNS	Number=Plur	13	compound	13:compound	Entity=(24-abstract-new-nnnnn-cf3-5-sgl(22-object-giv:act-nnnnn-cf1-1-coref|MSeg=Thing-s
+8	see	see	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	parataxis	1:parataxis	_
+9	Things	thing	NOUN	NNS	Number=Plur	13	compound	13:compound	Entity=(24-abstract-new-nnnnn-cf4-5-sgl(22-object-giv:act-nnnnn-cf1-1-coref|MSeg=Thing-s
 10-11	You'll	_	_	_	_	_	_	_	_
 10	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	12:nsubj	Discourse=elaboration-attribute:18->17:0:syn-mdf-125-_+syn-relcl-128-_|Entity=(7-person-giv:inact-nnnnn-cf2-1-ana)
 11	'll	will	AUX	MD	VerbForm=Fin	12	aux	12:aux	_
@@ -215,7 +215,7 @@
 # s_type = imp
 # transition = establishment
 # text = Know that all players can play while riding a broom.
-1	Know	know	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:20->21:1:sem-atsrc-133-_+lex-indwd-133-_+syn-rpr-134-_|XML=<hi rend:::"bold">
+1	Know	know	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:20->21:1:lex-indwd-133-_+sem-atsrc-133-_+syn-rpr-134-_|XML=<hi rend:::"bold">
 2	that	that	SCONJ	IN	_	6	mark	6:mark	Discourse=joint-sequence_m:21->16:1:grf-seq-_-_
 3	all	all	DET	DT	PronType=Ind	4	det	4:det	Entity=(23-person-giv:act-sssss-cf1*-2-coref
 4	players	player	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=23)|MSeg=play-er-s
@@ -223,7 +223,7 @@
 6	play	play	VERB	VB	VerbForm=Inf	1	ccomp	1:ccomp	_
 7	while	while	SCONJ	IN	_	8	mark	8:mark	Discourse=mode-manner:22->21:0:dm-while-139-gold+syn-pres-140-_|PDTB=Explicit:Comparison.Similarity:while:139:134-138:140-143
 8	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part	6	advcl	6:advcl:while	MSeg=rid-ing
-9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(25-object-new-nnnnn-cf2-2-coref
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(25-object-new-nnnnn-cf2-2-sgl
 10	broom	broom	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=25)|SpaceAfter=No
 11	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
@@ -232,7 +232,7 @@
 # s_type = multiple
 # transition = zero
 # text = Brooms can be a hindrance however, so feel free to not use brooms.
-1	Brooms	broom	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Bridge=25<26|Discourse=causal-cause:23->24:0:dm-so-151-gold|Entity=(26-object-acc:inf-sssss-cf1-1-coref)|MSeg=Broom-s
+1	Brooms	broom	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Discourse=causal-cause:23->24:0:dm-so-151-gold|Entity=(26-object-auto-sssss-cf1-1-coref)|MSeg=Broom-s
 2	can	can	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
 3	be	be	AUX	VB	VerbForm=Inf	5	cop	5:cop	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(27-abstract-new-nnnnn-cf2-2-sgl
@@ -240,7 +240,7 @@
 6	however	however	ADV	RB	_	5	advmod	5:advmod	MSeg=how-ever|PDTB=Explicit:Comparison.Contrast:however:149:133-143:144-148,150-158|SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	9:punct	_
 8	so	so	ADV	RB	_	9	advmod	9:advmod	Discourse=adversative-contrast_m:24->21:2:dm-however-149-gold|PDTB=Explicit:Contingency.Cause.Result:so:151:144-150:152-158
-9	feel	feel	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	5	parataxis	5:parataxis	_
+9	feel	feel	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	5	parataxis	5:parataxis	_
 10	free	free	ADJ	JJ	Degree=Pos	9	xcomp	9:xcomp	_
 11	to	to	PART	TO	_	13	mark	13:mark	_
 12	not	not	PART	RB	Polarity=Neg	13	advmod	13:advmod	Negation=Yes
@@ -255,17 +255,17 @@
 # s_type = imp
 # transition = null
 # text = Place the quaffle and three bludgers in the middle of the field.
-1	Place	place	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:25->16:1:grf-seq-_-_|XML=<hi rend:::"bold">
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(28-object-new-snsnn-cf1-2-coref
+1	Place	place	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:25->16:1:grf-seq-_-_|XML=<hi rend:::"bold">
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=22<28:entity-associative;set-member|Entity=(28-object-acc:inf-snsnn-cf1-2-coref
 3	quaffle	quaffle	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=28)
 4	and	and	CCONJ	CC	_	6	cc	6:cc	_
-5	three	three	NUM	CD	NumForm=Word|NumType=Card	6	nummod	6:nummod	Entity=(29-object-new-nnnnn-cf4-2-sgl
+5	three	three	NUM	CD	NumForm=Word|NumType=Card	6	nummod	6:nummod	Bridge=22<29:entity-associative;set-member|Entity=(29-object-acc:inf-nnnnn-cf3-2-sgl
 6	bludgers	bludger	NOUN	NNS	Number=Plur	3	conj	1:obj|3:conj:and	Entity=29)|MSeg=bludger-s
 7	in	in	ADP	IN	_	9	case	9:case	_
-8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(30-place-new-nnnnn-cf2-2-sgl
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(30-place-new-nnnnn-cf4-2-sgl
 9	middle	middle	NOUN	NN	Number=Sing	6	nmod	6:nmod:in	_
 10	of	of	ADP	IN	_	12	case	12:case	_
-11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(31-place-new-nnnnn-cf3-2-coref
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Bridge=1<31:entity-associative|Entity=(31-place-acc:inf-nnnnn-cf2-2-coref
 12	field	field	NOUN	NN	Number=Sing	9	nmod	9:nmod:of	Entity=31)30)|SpaceAfter=No
 13	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
@@ -301,8 +301,8 @@
 # s_type = imp
 # transition = zero
 # text = Start the game.
-1	Start	start	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:28->16:1:grf-seq-_-_|XML=<hi rend:::"bold">
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=1<34|Entity=(34-event-acc:inf-nnsnn-cf1-2-coref
+1	Start	start	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:28->16:1:grf-seq-_-_|XML=<hi rend:::"bold">
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=1<34:entity-associative|Entity=(34-event-acc:inf-nnsnn-cf1-2-coref
 3	game	game	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=34)|SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	XML=</hi>
 
@@ -311,11 +311,11 @@
 # s_type = decl
 # transition = null
 # text = Both teams start from the edges and attempt to obtain the quaffle and bludgers.
-1	Both	both	DET	DT	PronType=Ind	2	det	2:det	Discourse=elaboration-additional:29->28:0:_|Entity=(35-organization-new-nnnss-cf4-2-coref|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:191-194:195-209
+1	Both	both	DET	DT	PronType=Ind	2	det	2:det	Bridge=23<35:entity-associative|Discourse=elaboration-additional:29->28:0:_|Entity=(35-organization-acc:inf-nnnss-cf3-2-coref|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:191-194:195-209
 2	teams	team	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj|8:nsubj|10:nsubj:xsubj	Entity=35)|MSeg=team-s
 3	start	start	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	from	from	ADP	IN	_	6	case	6:case	_
-5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Bridge=31<36|Entity=(36-place-acc:inf-nnnnn-cf3-2-coref
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Bridge=31<36:entity-meronomy|Entity=(36-place-acc:inf-nnnnn-cf4-2-coref
 6	edges	edge	NOUN	NNS	Number=Plur	3	obl	3:obl:from	Entity=36)|MSeg=edge-s
 7	and	and	CCONJ	CC	_	8	cc	8:cc	Discourse=joint-list_m:30->29:0:dm-and-201-gold|PDTB=Explicit:Expansion.Conjunction:and:201:195-200:202-209
 8	attempt	attempt	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	3:conj:and	_
@@ -334,11 +334,11 @@
 # s_type = imp
 # transition = null
 # text = Follow your duty depending what type of player you are:
-1	Follow	follow	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-preparation:31->33:3:grf-col-220-_|XML=<hi rend:::"bold">
+1	Follow	follow	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-preparation:31->33:3:grf-col-220-_|XML=<hi rend:::"bold">
 2	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(37-abstract-new-nnnnn-cf2-2-sgl(7-person-giv:inact-nnnnn-cf1-1-ana)
 3	duty	duty	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=37)
 4	depending	depend	VERB	VBG	Tense=Pres|VerbForm=Part	6	case	6:case	Discourse=contingency-condition:32->31:0:dm-depending-213-gold|MSeg=de-pend-ing
-5	what	what	DET	WDT	PronType=Rel	6	det	6:det	Entity=(38-person-new-nnnnn-cf3-2-coref
+5	what	what	DET	WDT	PronType=Rel	6	det	6:det	Entity=(38-person-new-nnnnn-cf3-2-sgl
 6	type	type	NOUN	NN	Number=Sing	1	obl	1:obl:depending	_
 7	of	of	ADP	IN	_	8	case	8:case	_
 8	player	player	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	MSeg=play-er
@@ -353,13 +353,13 @@
 # s_type = decl
 # transition = null
 # text = Chasers try to score by throwing the quaffle into one of the three goal hoops.
-1	Chasers	chaser	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj|4:nsubj:xsubj	Bridge=38<39|Discourse=joint-sequence_m:33->16:1:_|Entity=(39-person-acc:inf-sssnn-cf2-1-coref)|MSeg=Chas-er-s
+1	Chasers	chaser	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj|4:nsubj:xsubj	Discourse=joint-sequence_m:33->16:1:_|Entity=(39-person-auto-sssnn-cf1-1-coref)|MSeg=Chas-er-s
 2	try	try	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	to	to	PART	TO	_	4	mark	4:mark	_
 4	score	score	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	_
 5	by	by	SCONJ	IN	_	6	mark	6:mark	Discourse=mode-means:34->33:0:dm-by-225-gold+syn-pres-226-_|PDTB=Explicit:Contingency.Purpose.Arg1-as-goal:by:225:221-224:226-236;Explicit:Expansion.Manner.Arg2-as-manner:by:225:221-224:226-236
 6	throwing	throw	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	4:advcl:by	MSeg=throw-ing
-7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(28-object-giv:inact-snsnn-cf1-2-coref
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(28-object-giv:inact-snsnn-cf2-2-coref
 8	quaffle	quaffle	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=28)
 9	into	into	ADP	IN	_	10	case	10:case	MSeg=in-to
 10	one	one	NUM	CD	NumForm=Word|NumType=Card	6	obl	6:obl:into	Entity=(40-object-new-nnnnn-cf4-1-sgl
@@ -375,7 +375,7 @@
 # s_type = decl
 # transition = null
 # text = Each score is worth 10 points.
-1	Each	each	DET	DT	PronType=Ind	2	det	2:det	Discourse=elaboration-additional:35->33:1:sem-lxchn-224,242-gold|Entity=(42-event-new-nnnnn-cf1-2-sgl|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:and:_:221-236:237-243
+1	Each	each	DET	DT	PronType=Ind	2	det	2:det	Bridge=28<42:entity-associative|Discourse=elaboration-additional:35->33:1:sem-lxchn-224,242-gold+sem-mrnym-227-228,237-238-_|Entity=(42-event-acc:inf-nnnnn-cf1-2-sgl|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:and:_:221-236:237-243
 2	score	score	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=42)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 4	worth	worth	ADJ	JJ	Degree=Pos	0	root	0:root	_
@@ -390,14 +390,14 @@
 # s_type = decl
 # transition = null
 # text = Beaters try to peg players with their bludger.
-1	Beaters	beater	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj|4:nsubj:xsubj	Bridge=38<44|Discourse=joint-other_m:36->33:2:grf-seq-_-_|Entity=(44-person-acc:inf-sssnn-cf1-1-coref)|MSeg=Beat-er-s
+1	Beaters	beater	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj|4:nsubj:xsubj	Discourse=joint-other_m:36->33:2:grf-seq-_-_|Entity=(44-person-auto-sssnn-cf1-1-coref)|MSeg=Beat-er-s
 2	try	try	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	to	to	PART	TO	_	4	mark	4:mark	_
 4	peg	peg	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	_
-5	players	player	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=(45-person-new-nnnnn-cf3-1-sgl)|MSeg=play-er-s
+5	players	player	NOUN	NNS	Number=Plur	4	obj	4:obj	Bridge=35<45:entity-associative|Entity=(45-person-acc:inf-nnnnn-cf3-1-coref)|MSeg=play-er-s
 6	with	with	ADP	IN	_	8	case	8:case	_
 7	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(33-object-giv:inact-sssnn-cf2-2-coref(44-person-giv:act-sssnn-cf1-1-ana)
-8	bludger	bludger	NOUN	NN	Number=Sing	4	obl	4:obl:with	Entity=33)|SpaceAfter=No
+8	bludger	bludger	NOUN	NN	Number=Sing	4	obl	4:obl:with	Entity=33)|MSeg=bludg-er|SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_whow_quidditch-19
@@ -406,11 +406,11 @@
 # transition = null
 # text = If a player is pegged they have to stop what they're doing and pay a penalty; i.e. (drop the quaffle in the case of a chaser) and run back to and touch their goal post or alternatively sit down for 10 seconds.
 1	If	if	SCONJ	IN	_	5	mark	5:mark	Discourse=contingency-condition:37->38:2:dm-if-253-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:253:258-299:254-257;Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:244-252:253-299
-2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Entity=(46-person-new-nnnnn-cf1-2-coref
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Bridge=45<46:set-subset|Entity=(46-person-acc:inf-nnnnn-cf1-2-coref
 3	player	player	NOUN	NN	Number=Sing	5	nsubj:pass	5:nsubj:pass	Entity=46)|MSeg=play-er
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	5:aux:pass	_
 5	pegged	peg	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	7:advcl:if	CxnElt=7:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|MSeg=pegg-ed
-6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	7:nsubj|9:nsubj:xsubj|15:nsubj:xsubj	Discourse=elaboration-additional:38->36:0:_|Entity=(46-person-giv:act-nnnnn-cf1-1-ana)
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	7:nsubj|9:nsubj:xsubj|15:nsubj:xsubj	Discourse=elaboration-additional:38->36:0:sem-mrnym-248,254-255-_|Entity=(46-person-giv:act-nnnnn-cf1-1-ana)
 7	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=7:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
 8	to	to	PART	TO	_	9	mark	9:mark	_
 9	stop	stop	VERB	VB	VerbForm=Inf	7	xcomp	7:xcomp	_
@@ -426,14 +426,14 @@
 18	;	;	PUNCT	:	_	21	punct	21:punct	_
 19	i.e.	i.e.	ADV	FW	Abbr=Yes	21	advmod	21:advmod	Discourse=elaboration-additional:39->38:0:sem-lxchn-261,273-gold+sem-synym-268-269,273-275-_+lex-indwd-271-_+grf-prn-272,282-_
 20	(	(	PUNCT	-LRB-	_	21	punct	21:punct	SpaceAfter=No
-21	drop	drop	VERB	VB	Person=2|VerbForm=Inf	17	parataxis	17:parataxis	Entity=(47-event-giv:act-nnnnn-cf2-1-coref
+21	drop	drop	VERB	VB	VerbForm=Inf	17	parataxis	17:parataxis	Entity=(47-event-giv:act-nnnnn-cf2-1-coref
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(28-object-giv:inact-snsnn-cf4-2-coref
 23	quaffle	quaffle	NOUN	NN	Number=Sing	21	obj	21:obj	Entity=28)47)
 24	in	in	ADP	IN	_	26	case	26:case	_
 25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	_
 26	case	case	NOUN	NN	Number=Sing	21	obl	21:obl:in	_
 27	of	of	ADP	IN	_	29	case	29:case	_
-28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	29:det	Entity=(48-person-new-nnnnn-cf6-2-sgl
+28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	29:det	Bridge=39<48:set-member|Entity=(48-person-acc:inf-nnnnn-cf5-2-sgl
 29	chaser	chaser	NOUN	NN	Number=Sing	26	nmod	26:nmod:of	Entity=48)|MSeg=chas-er|SpaceAfter=No
 30	)	)	PUNCT	-RRB-	_	21	punct	21:punct	_
 31	and	and	CCONJ	CC	_	32	cc	32:cc	Discourse=joint-sequence_m:40->38:1:grf-semcol-270-_+dm-and-283-gold|PDTB=Explicit:Expansion.Conjunction:and:283:258-282:284-299;Implicit:Temporal.Asynchronous.Precedence:then:_:258-282:283-299
@@ -442,7 +442,7 @@
 34	to	to	ADP	IN	_	32	obl	32:obl	_
 35	and	and	CCONJ	CC	_	36	cc	36:cc	_
 36	touch	touch	VERB	VB	VerbForm=Inf	32	conj	15:conj|32:conj:and	_
-37	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	39	nmod:poss	39:nmod:poss	Entity=(49-object-new-nnnnn-cf5-3-sgl(23-person-giv:inact-sssss-cf3-1-ana)
+37	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	39	nmod:poss	39:nmod:poss	Entity=(49-object-new-nnnnn-cf6-3-sgl(23-person-giv:inact-sssss-cf3-1-ana)
 38	goal	goal	NOUN	NN	Number=Sing	39	compound	39:compound	_
 39	post	post	NOUN	NN	Number=Sing	36	obj	36:obj	Entity=49)
 40	or	or	CCONJ	CC	_	42	cc	42:cc	Discourse=joint-disjunction_m:41->40:0:dm-or-292-gold+dm-alternatively-293-gold|PDTB=Explicit:Expansion.Disjunction:or:292:283-291:293-299
@@ -461,20 +461,20 @@
 # s_type = decl
 # transition = null
 # text = Keepers guard the goal posts at each end and attempt to block chasers' attempts at scoring.
-1	Keepers	keeper	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj|10:nsubj|12:nsubj:xsubj	Bridge=38<51|Discourse=joint-other_m:42->33:2:_|Entity=(51-person-acc:inf-nssnn-cf4-1-sgl)|MSeg=Keep-er-s
+1	Keepers	keeper	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj|10:nsubj|12:nsubj:xsubj	Discourse=joint-other_m:42->33:2:_|Entity=(51-person-auto-nssnn-cf1-1-sgl)|MSeg=Keep-er-s
 2	guard	guard	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(41-object-giv:inact-ssnnn-cf1-3-coref
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(41-object-giv:inact-ssnnn-cf2-3-coref
 4	goal	goal	NOUN	NN	Number=Sing	5	compound	5:compound	_
 5	posts	post	NOUN	NNS	Number=Plur	2	obj	2:obj	MSeg=post-s
 6	at	at	ADP	IN	_	8	case	8:case	_
-7	each	each	DET	DT	PronType=Ind	8	det	8:det	Entity=(36-place-giv:inact-nnnnn-cf3-2-coref
+7	each	each	DET	DT	PronType=Ind	8	det	8:det	Entity=(36-place-giv:inact-nnnnn-cf4-2-coref
 8	end	end	NOUN	NN	Number=Sing	5	nmod	5:nmod:at	Entity=36)41)
 9	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=joint-list_m:43->42:0:grf-seq-_-_+sem-lxchn-301,311-gold+dm-and-308-gold|PDTB=Explicit:Expansion.Conjunction:and:308:300-307:309-317
 10	attempt	attempt	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	2:conj:and	_
 11	to	to	PART	TO	_	12	mark	12:mark	_
 12	block	block	VERB	VB	VerbForm=Inf	10	xcomp	10:xcomp	_
 13-14	chasers'	_	_	_	_	_	_	_	_
-13	chasers	chaser	NOUN	NNS	Number=Plur	15	nmod:poss	15:nmod:poss	Entity=(52-event-new-nnnnn-cf5-3-sgl(39-person-giv:inact-sssnn-cf2-1-coref|MSeg=chas-er-s
+13	chasers	chaser	NOUN	NNS	Number=Plur	15	nmod:poss	15:nmod:poss	Entity=(52-event-new-nnnnn-cf5-3-sgl(39-person-giv:inact-sssnn-cf3-1-coref|MSeg=chas-er-s
 14	'	's	PART	POS	_	13	case	13:case	Entity=39)
 15	attempts	attempt	NOUN	NNS	Number=Plur	12	obj	12:obj	MSeg=attempt-s
 16	at	at	SCONJ	IN	_	17	mark	17:mark	Discourse=elaboration-attribute:44->43:0:syn-mdf-314-_+syn-nmn-315-316-_
@@ -510,11 +510,11 @@
 # s_type = decl
 # transition = zero
 # text = Seekers try to tackle the snitch (a person) or obtain an object attached to the snitch such as a sock or flag.
-1	Seekers	seeker	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj|4:nsubj:xsubj|12:nsubj:xsubj	Bridge=38<54|Discourse=joint-list_m:47->42:2:sem-mrnym-300,334-_|Entity=(54-person-acc:inf-sssnn-cf2-1-coref)|MSeg=Seek-er-s
+1	Seekers	seeker	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj|4:nsubj:xsubj|12:nsubj:xsubj	Discourse=joint-list_m:47->42:2:_|Entity=(54-person-auto-sssnn-cf2-1-coref)|MSeg=Seek-er-s
 2	try	try	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	to	to	PART	TO	_	4	mark	4:mark	_
 4	tackle	tackle	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	_
-5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(55-person-new-ssnnn-cf1-2-coref
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Bridge=34<55:entity-associative|Entity=(55-person-acc:inf-ssnnn-cf1-2-coref
 6	snitch	snitch	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=55)
 7	(	(	PUNCT	-LRB-	_	9	punct	9:punct	Discourse=restatement-partial:48->47:0:sem-synym-338-339,341-342-_+grf-prn-340,343-_|SpaceAfter=No
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(55-person-giv:act-ssnnn-cf1-2-appos
@@ -522,7 +522,7 @@
 10	)	)	PUNCT	-RRB-	_	9	punct	9:punct	_
 11	or	or	CCONJ	CC	_	12	cc	12:cc	Discourse=joint-disjunction_m:49->47:1:grf-seq-_-_+dm-or-344-gold|PDTB=Explicit:Expansion.Disjunction:or:344:334-343:345-358
 12	obtain	obtain	VERB	VB	VerbForm=Inf	4	conj	2:xcomp|4:conj:or	_
-13	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(56-object-new-nnnnn-cf5-2-coref
+13	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(56-object-new-nnnnn-cf5-2-sgl
 14	object	object	NOUN	NN	Number=Sing	12	obj	12:obj	_
 15	attached	attach	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	acl	14:acl	Discourse=elaboration-attribute:50->49:0:syn-mdf-347-_+syn-nmn-348-_|MSeg=attach-ed
 16	to	to	ADP	IN	_	18	case	18:case	_
@@ -530,10 +530,10 @@
 18	snitch	snitch	NOUN	NN	Number=Sing	15	obl	15:obl:to	Entity=55)
 19	such	such	ADJ	JJ	ExtPos=ADP	22	case	22:case	Discourse=same-unit_m:51->49:1:_
 20	as	as	ADP	IN	_	19	fixed	19:fixed	_
-21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Bridge=56<57|Entity=(57-object-acc:inf-nnnnn-cf3-2-coref
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(57-object-auto-nnnnn-cf3-2-coref
 22	sock	sock	NOUN	NN	Number=Sing	18	nmod	18:nmod:such_as	Entity=57)
 23	or	or	CCONJ	CC	_	24	cc	24:cc	_
-24	flag	flag	NOUN	NN	Number=Sing	22	conj	18:nmod:such_as|22:conj:or	Bridge=56<58|Entity=(58-object-acc:inf-nnnnn-cf4-1-sgl)56)|SpaceAfter=No
+24	flag	flag	NOUN	NN	Number=Sing	22	conj	18:nmod:such_as|22:conj:or	Entity=(58-object-auto-nnnnn-cf4-1-sgl)56)|SpaceAfter=No
 25	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_whow_quidditch-23
@@ -541,7 +541,7 @@
 # s_type = decl
 # transition = establishment
 # text = You can establish you own rules as to how a player catches the snitch.
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=elaboration-additional:52->47:2:sem-synym-334,368-369-_+sem-mrnym-350-351,371-372-_|Entity=(7-person-giv:inact-nnnnn-cf1-1-ana)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:334-358:359-373
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=elaboration-additional:52->47:2:sem-synym-334,368-369-_|Entity=(7-person-giv:inact-nnnnn-cf1-1-ana)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:334-358:359-373
 2	can	can	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	establish	establish	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	you	your	PRON	PRP$	Case=Gen|Number=Sing|Person=3|PronType=Prs|Typo=Yes	6	nmod:poss	6:nmod:poss	CorrectForm=your|Entity=(59-abstract-new-nnnnn-cf4-3-sgl(7-person-giv:act-nnnnn-cf1-1-ana)|XML=<sic ana:::"your"></sic>
@@ -553,7 +553,7 @@
 10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(54-person-giv:act-sssnn-cf2*-2-coref
 11	player	player	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=54)|MSeg=play-er
 12	catches	catch	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl:relcl	9:advcl:relcl	MSeg=catche-s
-13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Bridge=55<60|Entity=(60-abstract-acc:inf-nnsns-cf3-2-coref
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(60-abstract-auto-nnsns-cf3-2-coref
 14	snitch	snitch	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=60)|SpaceAfter=No
 15	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -562,7 +562,7 @@
 # s_type = decl
 # transition = smooth-shift
 # text = A common way to play is to make the snitch a person, and give the snitch a head start to run and hide in defined boundaries.
-1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Discourse=elaboration-additional:54->52:1:sem-rpt-371-372,382-383-_|Entity=(61-abstract-new-nnnnn-cf3-3-sgl|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:359-373:374-401
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Bridge=1<61:entity-associative|Discourse=elaboration-additional:54->52:1:sem-rpt-371-372,382-383-_|Entity=(61-abstract-acc:inf-nnnnn-cf3-3-coref|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:359-373:374-401
 2	common	common	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	way	way	NOUN	NN	Number=Sing	8	nsubj:outer	8:nsubj:outer|15:nsubj:outer	_
 4	to	to	PART	TO	_	5	mark	5:mark	_
@@ -579,7 +579,7 @@
 15	give	give	VERB	VB	VerbForm=Inf	8	conj	8:conj:and	Cxn=Ditransitive|CxnElt=15:Ditransitive.V
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(55-person-giv:act-ssnnn-cf2-2-coref
 17	snitch	snitch	NOUN	NN	Number=Sing	15	iobj	15:iobj	CxnElt=15:Ditransitive.Rec|Entity=55)
-18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(62-event-new-nnnnn-cf4-3-sgl
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(62-event-new-nnnnn-cf5-3-sgl
 19	head	head	NOUN	NN	Number=Sing	20	compound	20:compound	_
 20	start	start	NOUN	NN	Number=Sing	15	obj	15:obj	CxnElt=15:Ditransitive.Theme|Entity=62)
 21	to	to	PART	TO	_	22	mark	22:mark	Discourse=purpose-attribute:56->55:0:syn-mdf-393-_+syn-inf-394-_
@@ -587,7 +587,7 @@
 23	and	and	CCONJ	CC	_	24	cc	24:cc	Discourse=joint-list_m:57->56:0:dm-and-396-gold|PDTB=Explicit:Expansion.Conjunction:and:396:394-395:397-401
 24	hide	hide	VERB	VB	VerbForm=Inf	22	conj	20:acl:to|22:conj:and	_
 25	in	in	ADP	IN	_	27	case	27:case	_
-26	defined	define	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	27	amod	27:amod	Entity=(63-place-new-nnnnn-cf5-2-coref|MSeg=defin-ed
+26	defined	define	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	27	amod	27:amod	Bridge=31<63:entity-associative|Entity=(63-place-acc:inf-nnnnn-cf4-2-coref|MSeg=defin-ed
 27	boundaries	boundary	NOUN	NNS	Number=Plur	24	obl	24:obl:in	Entity=63)|MSeg=bound-arie-s|SpaceAfter=No
 28	.	.	PUNCT	.	_	8	punct	8:punct	_
 
@@ -617,12 +617,12 @@
 # s_type = decl
 # transition = zero
 # text = Other methods, such as the method adopted in 2005, makes the snitch a tennis ball in a sock, hanging out of the running shorts of the snitch runner.
-1	Other	other	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=adversative-contrast_m:60->54:2:_|Entity=(64-abstract-new-nnnnn-cf4-2-sgl
+1	Other	other	ADJ	JJ	Degree=Pos	2	amod	2:amod	Bridge=61<64:comparison-relative|Discourse=adversative-contrast_m:60->54:2:ref-cmp-374-378,417-426-_|Entity=(64-abstract-acc:inf-nnnnn-cf4-2-sgl|PDTB=Implicit:Comparison.Contrast:while:_:402-416:417-448
 2	methods	method	NOUN	NNS	Number=Plur	12	nsubj	12:nsubj	MSeg=method-s|SpaceAfter=No
 3	,	,	PUNCT	,	_	7	punct	7:punct	_
 4	such	such	ADJ	JJ	ExtPos=ADP	7	case	7:case	_
 5	as	as	ADP	IN	_	4	fixed	4:fixed	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(65-abstract-new-nnnnn-cf6-2-sgl
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Bridge=61<65:comparison-sense|Entity=(65-abstract-acc:inf-nnnnn-cf5-2-sgl
 7	method	method	NOUN	NN	Number=Sing	2	nmod	2:nmod:such_as	_
 8	adopted	adopt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	acl	7:acl	Discourse=elaboration-attribute:61->60:0:syn-mdf-423-_+syn-nmn-424-_|MSeg=ad-opt-ed
 9	in	in	ADP	IN	_	10	case	10:case	_
@@ -645,7 +645,7 @@
 26	running	running	NOUN	NN	Number=Sing	27	compound	27:compound	MSeg=runn-ing
 27	shorts	short	NOUN	NNS	Number=Plur	22	obl	22:obl:out_of	MSeg=short-s
 28	of	of	ADP	IN	_	31	case	31:case	_
-29	the	the	DET	DT	Definite=Def|PronType=Art	31	det	31:det	Entity=(69-person-new-nnnnn-cf5-3-coref
+29	the	the	DET	DT	Definite=Def|PronType=Art	31	det	31:det	Entity=(69-person-new-nnnnn-cf6-3-coref
 30	snitch	snitch	NOUN	NN	Number=Sing	31	compound	31:compound	Entity=(67-object-giv:act-nnnnn-cf1-1-coref)
 31	runner	runner	NOUN	NN	Number=Sing	27	nmod	27:nmod:of	Entity=69)68)67)|MSeg=runn-er|SpaceAfter=No
 32	.	.	PUNCT	.	_	12	punct	12:punct	_
@@ -655,24 +655,24 @@
 # s_type = decl
 # transition = establishment
 # text = Regardless of method, the winning seeker wins 30 points for his or her team, unlike the books, in which the snitch is worth 150 points.
-1	Regardless	regardless	ADV	RB	Degree=Pos	8	advmod	8:advmod	Discourse=adversative-concession:64->65:2:dm-regardless of-449-450-gold|MSeg=Regard-less|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:regardless of:449-450:453-477:451-452
+1	Regardless	regardless	ADV	RB	Degree=Pos	8	advmod	8:advmod	Discourse=adversative-concession:64->65:2:dm-regardless of-449-450-gold|MSeg=Regard-less|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:regardless of:449-450:453-477:451-452;Implicit:Expansion.Conjunction:further:_:417-448:449-477
 2	of	of	ADP	IN	_	3	case	3:case	_
-3	method	method	NOUN	NN	Number=Sing	1	obl	1:obl:of	Entity=(70-abstract-new-nnnnn-cf7-1-sgl)|SpaceAfter=No
+3	method	method	NOUN	NN	Number=Sing	1	obl	1:obl:of	Bridge=61<70:comparison-sense|Entity=(70-abstract-acc:inf-nnnnn-cf4-1-sgl)|SpaceAfter=No
 4	,	,	PUNCT	,	_	1	punct	1:punct	_
-5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Discourse=elaboration-additional:65->47:3:_|Entity=(71-person-new-nnnnn-cf1-3-coref
-6	winning	win	VERB	VBG	VerbForm=Ger	7	amod	7:amod	MSeg=w-inn-ing
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Bridge=34<71:entity-associative|Discourse=elaboration-additional:65->47:3:sem-mrnym-338-339,453-455-_|Entity=(71-person-acc:inf-nnnnn-cf1-3-coref
+6	winning	win	VERB	VBG	VerbForm=Ger	7	amod	7:amod	MSeg=winn-ing
 7	seeker	seeker	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=71)|MSeg=seek-er
-8	wins	win	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=w-in-s
-9	30	30	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	10:nummod	Entity=(72-abstract-new-nsnnn-cf5-2-sgl
+8	wins	win	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=win-s
+9	30	30	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	10:nummod	Entity=(72-abstract-new-nsnnn-cf6-2-sgl
 10	points	point	NOUN	NNS	Number=Plur	8	obj	8:obj	Entity=72)|MSeg=point-s
 11	for	for	ADP	IN	_	15	case	15:case	_
-12	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	15:nmod:poss	Entity=(73-organization-acc:com-nnnnn-cf4-4-sgl(71-person-giv:act-nnnnn-cf1-1-ana)
+12	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	15:nmod:poss	Entity=(73-organization-acc:com-nnnnn-cf5-4-sgl(71-person-giv:act-nnnnn-cf1-1-ana)
 13	or	or	CCONJ	CC	_	14	cc	14:cc	_
 14	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	conj	12:conj:or|15:nmod:poss	Entity=(71-person-giv:act-nnnnn-cf1-1-ana)
 15	team	team	NOUN	NN	Number=Sing	8	obl	8:obl:for	Entity=73)|SpaceAfter=No
 16	,	,	PUNCT	,	_	19	punct	19:punct	_
 17	unlike	unlike	ADP	IN	_	19	case	19:case	Discourse=adversative-antithesis:66->65:0:dm-unlike-465-gold|MSeg=un-like|PDTB=Explicit:Comparison.Contrast:unlike:465:453-464:466-477
-18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Bridge=3<74|Entity=(74-abstract-acc:inf-nnnnn-cf3-2-sgl
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Bridge=3<74:entity-associative|Entity=(74-abstract-acc:inf-nnnnn-cf3-2-sgl
 19	books	book	NOUN	NNS	Number=Plur	8	obl	8:obl:unlike|26:obl:in	MSeg=book-s|SpaceAfter=No
 20	,	,	PUNCT	,	_	26	punct	26:punct	_
 21	in	in	ADP	IN	_	22	case	22:case	Discourse=elaboration-attribute:67->66:0:syn-mdf-467-_+syn-relcl-470,474-_
@@ -681,7 +681,7 @@
 24	snitch	snitch	NOUN	NN	Number=Sing	26	nsubj	26:nsubj	Entity=60)
 25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	26:cop	_
 26	worth	worth	ADJ	JJ	Degree=Pos	19	acl:relcl	19:acl:relcl	_
-27	150	150	NUM	CD	NumForm=Digit|NumType=Card	28	nummod	28:nummod	Entity=(75-abstract-new-nnnnn-cf6-2-coref
+27	150	150	NUM	CD	NumForm=Digit|NumType=Card	28	nummod	28:nummod	Entity=(75-abstract-new-nnnnn-cf7-2-coref
 28	points	point	NOUN	NNS	Number=Plur	26	obj	26:obj	Entity=75)74)|MSeg=point-s|SpaceAfter=No
 29	.	.	PUNCT	.	_	8	punct	8:punct	_
 
@@ -705,7 +705,7 @@
 13	points	point	NOUN	NNS	Number=Plur	10	obj	10:obj	Entity=75)|MSeg=point-s
 14	so	so	ADV	RB	_	15	advmod	15:advmod	Discourse=context-background:70->65:1:ref-prs-471-472,485-_+sem-rpt-475-476,488-490-_|PDTB=Explicit:Contingency.Cause.Result:so:491:478-490:492-501
 15	changed	change	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	parataxis	6:parataxis	MSeg=chang-ed
-16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Bridge=75<77|Entity=(77-abstract-acc:inf-nnnnn-cf5-2-sgl
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(77-abstract-auto-nnnnn-cf5-2-sgl
 17	value	value	NOUN	NN	Number=Sing	15	obj	15:obj	_
 18	of	of	ADP	IN	_	20	case	20:case	_
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(60-abstract-giv:act-nnsns-cf1*-2-coref
@@ -751,7 +751,7 @@
 # s_type = sub
 # transition = null
 # text = The referee should ensure that rules are being followed.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-other_m:74->33:2:grf-seq-_-_|Entity=(78-person-acc:com-nnnnn-cf1-2-coref
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=1<78:entity-associative|Discourse=joint-other_m:74->33:2:grf-seq-_-_|Entity=(78-person-acc:inf-nnnnn-cf1-2-coref
 2	referee	referee	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=78)|MSeg=refer-ee
 3	should	should	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 4	ensure	ensure	VERB	VB	VerbForm=Inf	0	root	0:root	MSeg=en-sure
@@ -767,12 +767,12 @@
 # s_type = decl
 # transition = establishment
 # text = They also keep track of the score.
-1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=elaboration-additional:75->74:0:ref-prs-523-524,533-_+sem-lxchn-524,539-gold+dm-also-534-gold|Entity=(78-person-giv:act-nnnnn-cf1*-1-ana)
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=elaboration-additional:75->74:0:ref-prs-523-524,533-_+sem-mrnym-523-524,538-539-_+sem-lxchn-524,539-gold+dm-also-534-gold|Entity=(78-person-giv:act-nnnnn-cf1*-1-ana)
 2	also	also	ADV	RB	_	3	advmod	3:advmod	PDTB=Explicit:Expansion.Conjunction:also:534:523-532:533,535-540
 3	keep	keep	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	track	track	NOUN	NN	Number=Sing	3	obj	3:obj	_
 5	of	of	ADP	IN	_	7	case	7:case	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(80-abstract-new-nnnnn-cf2-2-sgl
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Bridge=1<80:entity-associative|Entity=(80-abstract-acc:inf-nnnnn-cf2-2-sgl
 7	score	score	NOUN	NN	Number=Sing	4	nmod	4:nmod:of	Entity=80)|SpaceAfter=No
 8	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -783,7 +783,7 @@
 # s_type = imp
 # transition = zero
 # text = Play the game!
-1	Play	play	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:76->16:1:grf-seq-_-_|XML=<hi rend:::"bold">
+1	Play	play	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:76->16:1:grf-seq-_-_|XML=<hi rend:::"bold">
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(34-event-giv:inact-nnsnn-cf1-2-coref
 3	game	game	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=34)|SpaceAfter=No
 4	!	!	PUNCT	.	_	1	punct	1:punct	XML=</hi>
@@ -823,7 +823,7 @@
 # s_type = imp
 # transition = continue
 # text = Feel free to alter the game rules.
-1	Feel	feel	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:80->16:1:grf-seq-_-_|XML=<hi rend:::"bold">
+1	Feel	feel	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:80->16:1:grf-seq-_-_|XML=<hi rend:::"bold">
 2	free	free	ADJ	JJ	Degree=Pos	1	xcomp	1:xcomp	_
 3	to	to	PART	TO	_	4	mark	4:mark	_
 4	alter	alter	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	_
@@ -837,12 +837,12 @@
 # s_type = imp
 # transition = zero
 # text = See the Tips section for suggestions.
-1	See	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:81->80:0:_|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:567-574:575-581
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(83-abstract-new-nnnnn-cf1-3-sgl
+1	See	see	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:81->80:0:sem-mrnym-571-573,580-_|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:567-574:575-581
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(83-abstract-new-nnnnn-cf2-3-sgl
 3	Tips	tip	NOUN	NNS	Number=Plur	4	compound	4:compound	Entity=(84-abstract-new-nnnnn-cf3-1-coref)|MSeg=Tip-s
 4	section	section	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=83)|MSeg=sect-ion
 5	for	for	ADP	IN	_	6	case	6:case	_
-6	suggestions	suggestion	NOUN	NNS	Number=Plur	1	obl	1:obl:for	Entity=(85-abstract-new-nnnnn-cf2-1-sgl)|MSeg=suggest-ion-s|SpaceAfter=No
+6	suggestions	suggestion	NOUN	NNS	Number=Plur	1	obl	1:obl:for	Bridge=79<85:entity-associative|Entity=(85-abstract-acc:inf-nnnnn-cf1-1-sgl)|MSeg=suggest-ion-s|SpaceAfter=No
 7	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # newpar
@@ -865,7 +865,7 @@
 2	to	to	PART	TO	_	3	mark	3:mark	_
 3	Play	play	VERB	VB	VerbForm=Inf	1	acl	1:acl:to	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(34-event-giv:inact-nnsnn-cf1-5-coref
-5	Real	Real	ADJ	JJ	Degree=Pos	7	amod	7:amod	SpaceAfter=No|XML=<w>
+5	Real	real	ADJ	JJ	Degree=Pos	7	amod	7:amod	SpaceAfter=No|XML=<w>
 6	-	-	PUNCT	HYPH	_	5	punct	5:punct	SpaceAfter=No
 7	Life	life	NOUN	NN	Number=Sing	8	compound	8:compound	XML=</w>
 8	Game	game	NOUN	NN	Number=Sing	3	obj	3:obj	_
@@ -885,7 +885,7 @@
 5	flying	fly	VERB	VBG	VerbForm=Ger	6	amod	6:amod	Entity=(87-object-new-nnnnn-cf6-2-sgl|MSeg=fly-ing
 6	broomsticks	broomstick	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=87)|MSeg=broomstick-s
 7	or	or	CCONJ	CC	_	9	cc	9:cc	_
-8	magic	magic	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(88-object-new-nnnnn-cf7-2-sgl
+8	magic	magic	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(88-object-new-nnnnn-cf7-2-coref
 9	balls	ball	NOUN	NNS	Number=Plur	6	conj	4:obj|6:conj:or	Entity=88)|MSeg=ball-s
 10	to	to	PART	TO	_	11	mark	11:mark	Discourse=purpose-goal:85->84:0:sem-lxchn-601,603-gold+syn-inf-602-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:593-601:602-609
 11	play	play	VERB	VB	VerbForm=Inf	4	advcl	4:advcl:to	_
@@ -917,7 +917,7 @@
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=evaluation-comment:87->83:1:lex-indwd-625-_|Entity=(86-abstract-giv:inact-nnnnn-cf2-2-coref
 2	video	video	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=86)
 3	shows	show	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=show-s
-4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(90-abstract-new-nnnnn-cf3-4-sgl
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Bridge=88<90:comparison-relative|Entity=(90-abstract-acc:inf-nnnnn-cf3-4-sgl
 5	more	more	ADV	RBR	Degree=Cmp	6	advmod	6:advmod	_
 6	realistic	realistic	ADJ	JJ	Degree=Pos	7	amod	7:amod	MSeg=real-ist-ic
 7	approach	approach	NOUN	NN	Number=Sing	3	obj	3:obj	_
@@ -943,7 +943,7 @@
 # transition = null
 # text = Alternatively the snitch can be a small yellow ball (tennis balls work great) that is hidden before the game starts by a bystander or referee.
 1	Alternatively	alternatively	ADV	RB	Degree=Pos	9	advmod	9:advmod	Discourse=joint-other_m:90->16:3:_;joint-disjunction:90->71:0:2:orp-alternatively-632-gold|MSeg=Alternat-ive-ly|PDTB=Explicit:Expansion.Disjunction:alternatively:632:502-522:633-659
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(91-object-new-snnnn-cf1-2-coref
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=1<91:entity-associative|Entity=(91-object-acc:inf-snnnn-cf1-2-coref
 3	snitch	snitch	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	Entity=91)
 4	can	can	AUX	MD	VerbForm=Fin	9	aux	9:aux	_
 5	be	be	AUX	VB	VerbForm=Inf	9	cop	9:cop	_
@@ -976,10 +976,10 @@
 # s_type = imp
 # transition = establishment
 # text = Establish boundaries and have the seekers look for the snitch.
-1	Establish	establish	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:95->90:2:grf-seq-_-_|PDTB=Implicit:Expansion.Conjunction:then:_:632-659:660-670
+1	Establish	establish	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:95->90:2:grf-seq-_-_|PDTB=Implicit:Expansion.Conjunction:then:_:632-659:660-670
 2	boundaries	boundary	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=(63-place-giv:inact-nnnnn-cf3-1-coref)|MSeg=bound-arie-s
 3	and	and	CCONJ	CC	_	4	cc	4:cc	Discourse=joint-sequence_m:96->95:0:dm-and-662-gold|PDTB=Explicit:Expansion.Conjunction:and:662:660-661:663-670;Implicit:Temporal.Asynchronous.Precedence:then:_:660-661:662-670
-4	have	have	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
+4	have	have	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(54-person-giv:inact-sssnn-cf2-2-coref
 6	seekers	seeker	NOUN	NNS	Number=Plur	4	obj	4:obj|7:nsubj:xsubj	Entity=54)|MSeg=seek-er-s
 7	look	look	VERB	VB	VerbForm=Inf	4	xcomp	4:xcomp	_
@@ -1048,7 +1048,7 @@
 # s_type = decl
 # transition = zero
 # text = The simplest way is to just peg players by throwing dodge balls.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=adversative-contrast_m:102->97:1:_|Entity=(100-abstract-new-nnnnn-cf2-3-sgl
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=44<100:entity-associative|Discourse=adversative-contrast_m:102->97:1:_|Entity=(100-abstract-acc:inf-nnnnn-cf2-3-sgl|PDTB=Implicit:Comparison.Contrast:but:_:691-711:712-724
 2	simplest	simple	ADJ	JJS	Degree=Sup	3	amod	3:amod	_
 3	way	way	NOUN	NN	Number=Sing	7	nsubj:outer	7:nsubj:outer	Entity=100)
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
@@ -1093,7 +1093,7 @@
 # s_type = imp
 # transition = null
 # text = Remember that the snitch runner, if you choose to use one, is not an actual player in the game, therefore, not bound by any of the rules.
-1	Remember	remember	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:107->111:1:sem-atsrc-741-_+lex-indwd-741-_+syn-rpr-742,747-_
+1	Remember	remember	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:107->111:1:lex-indwd-741-_+sem-atsrc-741-_+syn-rpr-742,747-_
 2	that	that	SCONJ	IN	_	18	mark	18:mark	Discourse=causal-cause:108->111:0:dm-therefore-763-gold
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(69-person-giv:inact-nnnnn-cf1-3-coref
 4	snitch	snitch	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(67-object-giv:inact-nnnnn-cf5-1-coref)
@@ -1141,9 +1141,9 @@
 8	to	to	PART	TO	_	9	mark	9:mark	_
 9	do	do	VERB	VB	VerbForm=Inf	7	xcomp	7:xcomp	_
 10	whatever	whatever	PRON	WP	PronType=Rel	9	obj	9:obj	MSeg=what-ever
-11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj	Bridge=55<104|Entity=(104-person-acc:inf-nnnnn-cf2-1-coref)
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj	Bridge=55<104:set-member|Entity=(104-person-acc:inf-nnnnn-cf2-1-sgl)
 12	or	or	CCONJ	CC	_	13	cc	13:cc	_
-13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	conj	11:conj:or|14:nsubj	Bridge=55<104|Entity=(104-person-acc:inf-nnnnn-cf2-1-ana)
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	conj	11:conj:or|14:nsubj	Bridge=55<105:set-member|Entity=(105-person-acc:inf-nnnnn-cf3-1-sgl)
 14	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	10:acl:relcl	MSeg=want-s
 15	to	to	PART	TO	_	16	mark	16:mark	Discourse=purpose-goal:114->113:0:syn-inf-787-_+lex-indwd-788-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:776-786:787-790
 16	avoid	avoid	VERB	VB	VerbForm=Inf	9	advcl	9:advcl:to	_
@@ -1153,19 +1153,19 @@
 # sent_id = GUM_whow_quidditch-49
 # s_prominence = 2
 # s_type = imp
-# transition = establishment
+# transition = null
 # text = See How to Be a Snitch in Quidditch for more information.
-1	See	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:115->111:3:_
+1	See	see	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:115->111:3:_|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:773-790:791-802
 2	How	how	ADV	WRB	PronType=Int	1	obj	1:obj	XML=<ref>
 3	to	to	PART	TO	_	6	mark	6:mark	_
 4	Be	be	AUX	VB	VerbForm=Inf	6	cop	6:cop	_
-5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(104-person-giv:act-nnnnn-cf1*-2-coref
-6	Snitch	snitch	NOUN	NN	Number=Sing	2	acl	2:acl:to	Entity=104)
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(106-person-new-nnnnn-cf2-2-coref
+6	Snitch	snitch	NOUN	NN	Number=Sing	2	acl	2:acl:to	Entity=106)
 7	in	in	ADP	IN	_	8	case	8:case	_
-8	Quidditch	Quidditch	PROPN	NNP	Number=Sing	6	nmod	6:nmod:in	Entity=(1-abstract-giv:inact-sssss-cf2-1-coref-Quidditch_%28real%2Dlife_sport%29)|XML=</ref>
+8	Quidditch	Quidditch	PROPN	NNP	Number=Sing	6	nmod	6:nmod:in	Entity=(1-abstract-giv:inact-sssss-cf1-1-coref-Quidditch_%28real%2Dlife_sport%29)|XML=</ref>
 9	for	for	ADP	IN	_	11	case	11:case	_
-10	more	more	ADJ	JJR	Degree=Cmp	11	amod	11:amod	Entity=(105-abstract-new-nnnnn-cf3-2-sgl
-11	information	information	NOUN	NN	Number=Sing	1	obl	1:obl:for	Entity=105)|MSeg=in-form-ation|SpaceAfter=No
+10	more	more	ADJ	JJR	Degree=Cmp	11	amod	11:amod	Entity=(107-abstract-new-nnnnn-cf3-2-sgl
+11	information	information	NOUN	NN	Number=Sing	1	obl	1:obl:for	Entity=107)|MSeg=in-form-ation|SpaceAfter=No
 12	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # newpar
@@ -1173,16 +1173,16 @@
 # sent_id = GUM_whow_quidditch-50
 # s_prominence = 1
 # s_type = decl
-# transition = zero
+# transition = null
 # text = You can play water quidditch in a pool.
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint-other_m:116->90:2:grf-seq-_-_|Entity=(7-person-giv:inact-nnnnn-cf1-1-ana)
 2	can	can	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	play	play	VERB	VB	VerbForm=Inf	0	root	0:root	_
-4	water	water	NOUN	NN	Number=Sing	5	compound	5:compound	Bridge=1<106|Entity=(106-abstract-acc:inf-nnnnn-cf2-2-sgl(107-substance-new-nnnnn-cf4-1-sgl)
-5	quidditch	quidditch	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=106)
+4	water	water	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(108-abstract-auto-nnnnn-cf2-2-sgl(109-substance-new-nnnnn-cf4-1-sgl)
+5	quidditch	quidditch	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=108)
 6	in	in	ADP	IN	_	8	case	8:case	_
-7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(108-place-new-nnnnn-cf3-2-coref
-8	pool	pool	NOUN	NN	Number=Sing	3	obl	3:obl:in	Entity=108)|SpaceAfter=No
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(110-place-new-nnnnn-cf3-2-coref
+8	pool	pool	NOUN	NN	Number=Sing	3	obl	3:obl:in	Entity=110)|SpaceAfter=No
 9	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_whow_quidditch-51
@@ -1190,11 +1190,11 @@
 # s_type = decl
 # transition = null
 # text = Almost all the same rules apply.
-1	Almost	almost	ADV	RB	Degree=Pos	2	advmod	2:advmod	Discourse=adversative-concession:117->116:0:lex-indwd-812-_|Entity=(109-abstract-new-nnnnn-cf1-5-sgl|MSeg=Al-most|PDTB=Implicit:Comparison.Concession.Arg2-as-denier:but:_:803-811:812-818
-2	all	all	DET	PDT	PronType=Tot	5	det:predet	5:det:predet	_
+1	Almost	almost	ADV	RB	Degree=Pos	2	advmod	2:advmod	Bridge=1<111:comparison-relative;entity-associative|Discourse=adversative-concession:117->116:0:lex-indwd-812-_|Entity=(111-abstract-acc:inf-nnnnn-cf1-5-sgl|MSeg=Al-most|PDTB=Implicit:Comparison.Concession.Arg2-as-denier:but:_:803-811:812-818
+2	all	all	DET	PDT	PronType=Ind	5	det:predet	5:det:predet	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	_
 4	same	same	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
-5	rules	rule	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=109)|MSeg=rule-s
+5	rules	rule	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=111)|MSeg=rule-s
 6	apply	apply	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=appl-y|SpaceAfter=No
 7	.	.	PUNCT	.	_	6	punct	6:punct	_
 
@@ -1203,23 +1203,23 @@
 # s_type = imp
 # transition = null
 # text = Have someone throw something (the snitch) on a line into the pool at regular intervals.
-1	Have	have	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:118->116:1:sem-rpt-809-810,831-832-_|PDTB=EntRel:EntRel:_:_:812-818:819-836
-2	someone	someone	PRON	NN	Number=Sing|PronType=Ind	1	obj	1:obj|3:nsubj:xsubj	Entity=(110-person-new-nnnnn-cf3-1-coref)|MSeg=some-one
+1	Have	have	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:118->116:1:sem-rpt-809-810,831-832-_|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:812-818:819-836
+2	someone	someone	PRON	NN	Number=Sing|PronType=Ind	1	obj	1:obj|3:nsubj:xsubj	Entity=(112-person-new-nnnnn-cf3-1-coref)|MSeg=some-one
 3	throw	throw	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
-4	something	something	PRON	NN	Number=Sing|PronType=Ind	3	obj	3:obj	Entity=(111-object-acc:com-nnnnn-cf1-1-coref)|MSeg=some-thing
+4	something	something	PRON	NN	Number=Sing|PronType=Ind	3	obj	3:obj	Entity=(113-object-acc:com-nnnnn-cf1-1-coref)|MSeg=some-thing
 5	(	(	PUNCT	-LRB-	_	7	punct	7:punct	Discourse=restatement-partial:119->118:0:sem-synym-822,824-825-_+grf-prn-823,826-_|SpaceAfter=No
-6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(111-object-giv:act-nnnnn-cf1-2-appos
-7	snitch	snitch	NOUN	NN	Number=Sing	4	appos	4:appos	Entity=111)|SpaceAfter=No
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(113-object-giv:act-nnnnn-cf1-2-appos
+7	snitch	snitch	NOUN	NN	Number=Sing	4	appos	4:appos	Entity=113)|SpaceAfter=No
 8	)	)	PUNCT	-RRB-	_	7	punct	7:punct	_
 9	on	on	ADP	IN	_	11	case	11:case	Discourse=same-unit_m:120->118:1:_
-10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(112-object-new-nnnnn-cf4-2-sgl
-11	line	line	NOUN	NN	Number=Sing	3	obl	3:obl:on	Entity=112)
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(114-object-new-nnnnn-cf4-2-sgl
+11	line	line	NOUN	NN	Number=Sing	3	obl	3:obl:on	Entity=114)
 12	into	into	ADP	IN	_	14	case	14:case	MSeg=in-to
-13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(108-place-giv:inact-nnnnn-cf2-2-coref
-14	pool	pool	NOUN	NN	Number=Sing	3	obl	3:obl:into	Entity=108)
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(110-place-giv:inact-nnnnn-cf2-2-coref
+14	pool	pool	NOUN	NN	Number=Sing	3	obl	3:obl:into	Entity=110)
 15	at	at	ADP	IN	_	17	case	17:case	_
-16	regular	regular	ADJ	JJ	Degree=Pos	17	amod	17:amod	Entity=(113-time-new-nnnnn-cf5-2-sgl|MSeg=regul-ar
-17	intervals	interval	NOUN	NNS	Number=Plur	14	nmod	14:nmod:at	Entity=113)|MSeg=interval-s|SpaceAfter=No
+16	regular	regular	ADJ	JJ	Degree=Pos	17	amod	17:amod	Entity=(115-time-new-nnnnn-cf5-2-sgl|MSeg=regul-ar
+17	intervals	interval	NOUN	NNS	Number=Plur	14	nmod	14:nmod:at	Entity=115)|MSeg=interval-s|SpaceAfter=No
 18	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_quidditch-53
@@ -1227,12 +1227,12 @@
 # s_type = decl
 # transition = establishment
 # text = They can even use fake snitches.
-1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=elaboration-additional:121->118:2:ref-prs-820,837-_+sem-mrnym-824-825,841-842-_|Entity=(110-person-giv:act-nnnnn-cf1*-1-ana)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:819-836:837-843
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=elaboration-additional:121->118:2:ref-prs-820,837-_|Entity=(112-person-giv:act-nnnnn-cf1*-1-ana)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:819-836:837-843
 2	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	even	even	ADV	RB	_	4	advmod	4:advmod	_
 4	use	use	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	fake	fake	ADJ	JJ	Degree=Pos	6	amod	6:amod	Bridge=111<114|Entity=(114-object-acc:inf-nnnnn-cf2-2-sgl
-6	snitches	snitch	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=114)|MSeg=snitche-s|SpaceAfter=No
+5	fake	fake	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(116-object-auto-nnnnn-cf2-2-sgl
+6	snitches	snitch	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=116)|MSeg=snitche-s|SpaceAfter=No
 7	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # newpar
@@ -1245,9 +1245,9 @@
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint-other_m:122->90:2:grf-seq-_-_|Entity=(7-person-giv:inact-nnnnn-cf1-1-ana)
 2	can	can	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	buy	buy	VERB	VB	VerbForm=Inf	0	root	0:root	_
-4	authentic	authentic	ADJ	JJ	Degree=Pos	5	xcomp	5:xcomp	Entity=(115-object-new-nnnnn-cf3-3-sgl|MSeg=authent-ic
+4	authentic	authentic	ADJ	JJ	Degree=Pos	5	xcomp	5:xcomp	Entity=(117-object-new-nnnnn-cf3-3-sgl|MSeg=authent-ic
 5	looking	look	VERB	VBG	VerbForm=Ger	6	amod	6:amod	MSeg=look-ing
-6	brooms	broom	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=115)|MSeg=broom-s
+6	brooms	broom	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=117)|MSeg=broom-s
 7	to	to	PART	TO	_	8	mark	8:mark	Discourse=purpose-goal:123->122:0:syn-inf-850-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:844-849:850-856
 8	make	make	VERB	VB	VerbForm=Inf	3	advcl	3:advcl:to	Cxn=Resultative|CxnElt=8:Resultative.Predicate
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(34-event-giv:inact-nnsnn-cf2-2-coref
@@ -1265,24 +1265,24 @@
 # text = There is a very large Quidditch community, have a look at the IQA website to find teams near you.
 1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=context-background:124->125:1:_
 2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
-3	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(116-abstract-new-nnnnn-cf4-5-sgl
+3	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(118-abstract-new-nnnnn-cf4-5-sgl
 4	very	very	ADV	RB	_	5	advmod	5:advmod	_
 5	large	large	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 6	Quidditch	Quidditch	PROPN	NNP	Number=Sing	7	compound	7:compound	Entity=(1-abstract-giv:inact-sssss-cf2-1-coref-Quidditch_%28real%2Dlife_sport%29)
-7	community	community	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	CxnElt=2:Existential-CopPred-ThereExpl.Pivot|Entity=116)|MSeg=commun-ity|SpaceAfter=No
+7	community	community	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	CxnElt=2:Existential-CopPred-ThereExpl.Pivot|Entity=118)|MSeg=commun-ity|SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	9:punct	_
-9	have	have	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	2	parataxis	2:parataxis	Discourse=joint-other_m:125->90:2:grf-seq-_-_
+9	have	have	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	2	parataxis	2:parataxis	Discourse=joint-other_m:125->90:2:grf-seq-_-_
 10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	_
 11	look	look	NOUN	NN	Number=Sing	9	obj	9:obj	_
 12	at	at	ADP	IN	_	15	case	15:case	_
-13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(117-abstract-new-nnnnn-cf6-3-sgl
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(119-abstract-new-nnnnn-cf6-3-sgl
 14	IQA	IQA	PROPN	NNP	Abbr=Yes|Number=Sing	15	compound	15:compound	Entity=(11-organization-giv:inact-nnsnn-cf3-1-coref-International_Quidditch_Association)
-15	website	website	NOUN	NN	Number=Sing	11	nmod	11:nmod:at	Entity=117)|MSeg=web-site
+15	website	website	NOUN	NN	Number=Sing	11	nmod	11:nmod:at	Entity=119)|MSeg=web-site
 16	to	to	PART	TO	_	17	mark	17:mark	Discourse=purpose-goal:126->125:0:syn-inf-872-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:865-871:872-877
 17	find	find	VERB	VB	VerbForm=Inf	9	advcl	9:advcl:to	_
-18	teams	team	NOUN	NNS	Number=Plur	17	obj	17:obj	Entity=(118-organization-new-nnnnn-cf5-1-sgl|MSeg=team-s
+18	teams	team	NOUN	NNS	Number=Plur	17	obj	17:obj	Entity=(120-organization-new-nnnnn-cf5-1-sgl|MSeg=team-s
 19	near	near	ADP	IN	_	20	case	20:case	_
-20	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	18	nmod	18:nmod:near	Entity=(7-person-giv:act-nnnnn-cf1*-1-ana)118)|SpaceAfter=No
+20	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	18	nmod	18:nmod:near	Entity=(7-person-giv:act-nnnnn-cf1*-1-ana)120)|SpaceAfter=No
 21	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # newpar
@@ -1292,12 +1292,12 @@
 # s_type = decl
 # transition = zero
 # text = One variation is Quarter Snitch Quidditch.
-1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=joint-other_m:127->90:2:grf-seq-_-_|Entity=(119-abstract-acc:com-nnnsn-cf1-2-coref
-2	variation	variation	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=119)|MSeg=vari-ation
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Bridge=1<121:comparison-sense|Discourse=joint-other_m:127->90:2:grf-seq-_-_|Entity=(121-abstract-acc:inf-nnnsn-cf1-2-coref
+2	variation	variation	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=121)|MSeg=vari-ation
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
-4	Quarter	quarter	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	6	compound	6:compound	Entity=(119-abstract-giv:act-nnnsn-cf1-3-coref(120-object-new-nnnnn-cf2-2-sgl(121-object-new-nnnnn-cf3-1-coref)|MSeg=Quart-er
-5	Snitch	snitch	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=120)
-6	Quidditch	Quidditch	PROPN	NNP	Number=Sing	0	root	0:root	Entity=119)|SpaceAfter=No
+4	Quarter	quarter	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	6	compound	6:compound	Entity=(121-abstract-giv:act-nnnsn-cf1-3-coref(122-object-new-nnnnn-cf2-2-sgl(123-object-new-nnnnn-cf3-1-coref)|MSeg=Quart-er
+5	Snitch	snitch	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=122)
+6	Quidditch	Quidditch	PROPN	NNP	Number=Sing	0	root	0:root	Entity=121)|SpaceAfter=No
 7	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_whow_quidditch-57
@@ -1305,13 +1305,13 @@
 # s_type = imp
 # transition = establishment
 # text = Find a quarter or another small coin.
-1	Find	find	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:128->127:0:sem-rpt-881,886-887-_+sem-lxchn-881,891-gold|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:878-884:885-892
-2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Entity=(122-object-new-snnnn-cf2-2,6-coref(121-object-giv:act-nnnnn-cf1*-2-coref
-3	quarter	quarter	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	1	obj	1:obj	Entity=121)|MSeg=quart-er
+1	Find	find	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration-additional:128->127:0:sem-rpt-881,886-887-_+sem-lxchn-881,891-gold|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:878-884:885-892
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Entity=(124-object-new-snnnn-cf3-2,6-coref(123-object-giv:act-nnnnn-cf1*-2-coref
+3	quarter	quarter	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	1	obj	1:obj	Entity=123)|MSeg=quart-er
 4	or	or	CCONJ	CC	_	7	cc	7:cc	_
-5	another	another	DET	DT	PronType=Ind	7	det	7:det	Entity=(123-object-new-nnnnn-cf3-3-sgl|MSeg=an-other
+5	another	another	DET	DT	PronType=Ind	7	det	7:det	Bridge=123<125:comparison-relative|Entity=(125-object-acc:inf-nnnnn-cf2-3-sgl|MSeg=an-other
 6	small	small	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
-7	coin	coin	NOUN	NN	Number=Sing	3	conj	1:obj|3:conj:or	Entity=123)122)|SpaceAfter=No
+7	coin	coin	NOUN	NN	Number=Sing	3	conj	1:obj|3:conj:or	Entity=125)124)|SpaceAfter=No
 8	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GUM_whow_quidditch-58
@@ -1319,7 +1319,7 @@
 # s_type = imp
 # transition = smooth-shift
 # text = Have both of the teams turn around and have the referee throw it into the grass or pitch while the teams aren't looking.
-1	Have	have	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:129->128:0:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:885-892:893-917
+1	Have	have	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:129->128:0:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:885-892:893-917
 2	both	both	DET	DT	PronType=Tot	1	obj	1:obj|6:nsubj:xsubj	Entity=(35-organization-giv:inact-nnnss-cf2-1-ana
 3	of	of	ADP	IN	_	5	case	5:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	_
@@ -1327,16 +1327,16 @@
 6	turn	turn	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
 7	around	around	ADV	RB	Degree=Pos	6	advmod	6:advmod	MSeg=a-round
 8	and	and	CCONJ	CC	_	9	cc	9:cc	Discourse=joint-sequence_m:130->128:0:dm-and-900-gold|PDTB=Explicit:Expansion.Conjunction:and:900:893-899:901-917;Implicit:Temporal.Asynchronous.Precedence:then:_:893-899:900-917
-9	have	have	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
+9	have	have	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(78-person-giv:inact-nnnnn-cf3-2-coref
 11	referee	referee	NOUN	NN	Number=Sing	9	obj	9:obj|12:nsubj:xsubj	Entity=78)|MSeg=refer-ee
 12	throw	throw	VERB	VB	VerbForm=Inf	9	xcomp	9:xcomp	_
-13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	12:obj	Entity=(122-object-giv:act-snnnn-cf1*-1-ana)
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	12:obj	Entity=(124-object-giv:act-snnnn-cf1*-1-ana)
 14	into	into	ADP	IN	_	16	case	16:case	MSeg=in-to
-15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Bridge=31<124|Entity=(124-place-acc:inf-nnnnn-cf4-2,4-sgl
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(126-place-auto-nnnnn-cf4-2,4-sgl
 16	grass	grass	NOUN	NN	Number=Sing	12	obl	12:obl:into	_
 17	or	or	CCONJ	CC	_	18	cc	18:cc	_
-18	pitch	pitch	NOUN	NN	Number=Sing	16	conj	12:obl:into|16:conj:or	Entity=124)
+18	pitch	pitch	NOUN	NN	Number=Sing	16	conj	12:obl:into|16:conj:or	Entity=126)
 19	while	while	SCONJ	IN	_	24	mark	24:mark	Discourse=context-circumstance:131->130:0:dm-while-911-gold|PDTB=Explicit:Temporal.Synchronous:while:911:900-910:912-917
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(35-organization-giv:act-nnnss-cf2-2-coref
 21	teams	team	NOUN	NNS	Number=Plur	24	nsubj	24:nsubj	Entity=35)|MSeg=team-s
@@ -1351,14 +1351,14 @@
 # s_type = imp
 # transition = continue
 # text = Play while the seekers look for the snitch.
-1	Play	play	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:132->128:0:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:893-917:918-926
+1	Play	play	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-sequence_m:132->128:0:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:893-917:918-926
 2	while	while	SCONJ	IN	_	5	mark	5:mark	Discourse=context-circumstance:133->132:0:dm-while-919-gold|PDTB=Explicit:Temporal.Synchronous:while:919:918:920-926
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(71-person-giv:inact-nnnnn-cf2-2-coref
 4	seekers	seeker	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=71)|MSeg=seek-er-s
 5	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	1:advcl:while	_
 6	for	for	ADP	IN	_	8	case	8:case	_
-7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(122-object-giv:act-snnnn-cf1*-2-coref
-8	snitch	snitch	NOUN	NN	Number=Sing	5	obl	5:obl:for	Entity=122)|SpaceAfter=No
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(124-object-giv:act-snnnn-cf1*-2-coref
+8	snitch	snitch	NOUN	NN	Number=Sing	5	obl	5:obl:for	Entity=124)|SpaceAfter=No
 9	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # newpar
@@ -1368,29 +1368,29 @@
 # s_type = decl
 # transition = continue
 # text = Another variation is where the referee places the snitch somewhere in the field (in this case it's a small ball).
-1	Another	another	DET	DT	PronType=Ind	2	det	2:det	Bridge=119<125|Discourse=joint-other_m:134->90:2:grf-seq-_-_|Entity=(125-abstract-acc:inf-nnnsn-cf2-2-coref|MSeg=An-other
-2	variation	variation	NOUN	NN	Number=Sing	7	nsubj:outer	7:nsubj:outer	Entity=125)|MSeg=vari-ation
+1	Another	another	DET	DT	PronType=Ind	2	det	2:det	Bridge=121<127:comparison-relative|Discourse=joint-other_m:134->90:2:grf-seq-_-_|Entity=(127-abstract-acc:inf-nnnsn-cf2-2-coref|MSeg=An-other
+2	variation	variation	NOUN	NN	Number=Sing	7	nsubj:outer	7:nsubj:outer	Entity=127)|MSeg=vari-ation
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 4	where	where	ADV	WRB	PronType=Int	7	advmod	7:advmod	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(78-person-giv:inact-nnnnn-cf3-2-coref
 6	referee	referee	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=78)|MSeg=refer-ee
 7	places	place	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=place-s
-8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(122-object-giv:act-snnnn-cf1*-2-coref
-9	snitch	snitch	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=122)
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(124-object-giv:act-snnnn-cf1*-2-coref
+9	snitch	snitch	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=124)
 10	somewhere	somewhere	ADV	RB	_	13	advmod	13:advmod	_
 11	in	in	ADP	IN	_	13	case	13:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(31-place-giv:inact-nnnnn-cf4-2-coref
 13	field	field	NOUN	NN	Number=Sing	7	obl	7:obl:in	Entity=31)
 14	(	(	PUNCT	-LRB-	_	22	punct	22:punct	Discourse=elaboration-additional:135->134:0:ref-dem-927-928,942-943-_+ref-prs-934-935,944-_+grf-prn-940,949-_+lex-altlex-941-943-_|SpaceAfter=No
 15	in	in	ADP	IN	_	17	case	17:case	_
-16	this	this	DET	DT	Number=Sing|PronType=Dem	17	det	17:det	Entity=(125-abstract-giv:act-nnnsn-cf2-2-coref
-17	case	case	NOUN	NN	Number=Sing	22	nmod	22:nmod:in	Entity=125)
+16	this	this	DET	DT	Number=Sing|PronType=Dem	17	det	17:det	Entity=(127-abstract-giv:act-nnnsn-cf2-2-coref
+17	case	case	NOUN	NN	Number=Sing	22	obl	22:obl:in	Entity=127)
 18-19	it's	_	_	_	_	_	_	_	_
-18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	22:nsubj	Entity=(122-object-giv:act-snnnn-cf1*-1-ana)
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	22:nsubj	Entity=(124-object-giv:act-snnnn-cf1*-1-ana)
 19	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	22:cop	_
-20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(122-object-giv:act-snnnn-cf1*-3-pred
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(124-object-giv:act-snnnn-cf1*-3-pred
 21	small	small	ADJ	JJ	Degree=Pos	22	amod	22:amod	_
-22	ball	ball	NOUN	NN	Number=Sing	9	appos	9:appos	Entity=122)|SpaceAfter=No
+22	ball	ball	NOUN	NN	Number=Sing	9	appos	9:appos	Entity=124)|SpaceAfter=No
 23	)	)	PUNCT	-RRB-	_	22	punct	22:punct	SpaceAfter=No
 24	.	.	PUNCT	.	_	7	punct	7:punct	_
 
@@ -1404,18 +1404,18 @@
 3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=ha-s
 4	to	to	PART	TO	_	5	mark	5:mark	_
 5	find	find	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(122-object-giv:act-snnnn-cf1*-2-coref
-7	snitch	snitch	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=122)
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(124-object-giv:act-snnnn-cf1*-2-coref
+7	snitch	snitch	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=124)
 8	blindfolded	blindfold	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	advcl	5:advcl	MSeg=blindfold-ed|SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	10:punct	_
 10	relying	rely	VERB	VBG	Tense=Pres|VerbForm=Part	5	advcl	5:advcl	Discourse=mode-means:137->136:0:syn-pres-960-_|MSeg=rely-ing|PDTB=Implicit:Expansion.Manner.Arg2-as-manner:by:_:951-959:960-967
 11	only	only	ADV	RB	_	10	advmod	10:advmod	_
 12	on	on	ADP	IN	_	16	case	16:case	_
-13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(126-abstract-new-nnnnn-cf5-4-sgl(127-person-new-nnnnn-cf4-2-sgl
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Bridge=71<129:entity-associative|Entity=(128-abstract-new-nnnnn-cf5-4-sgl(129-person-acc:inf-nnnnn-cf4-2-sgl
 14-15	coach's	_	_	_	_	_	_	_	_
 14	coach	coach	NOUN	NN	Number=Sing	16	nmod:poss	16:nmod:poss	_
-15	's	's	PART	POS	_	14	case	14:case	Entity=127)
-16	instructions	instruction	NOUN	NNS	Number=Plur	10	obl	10:obl:on	Entity=126)|MSeg=instruct-ion-s|SpaceAfter=No
+15	's	's	PART	POS	_	14	case	14:case	Entity=129)
+16	instructions	instruction	NOUN	NNS	Number=Plur	10	obl	10:obl:on	Entity=128)|MSeg=instruct-ion-s|SpaceAfter=No
 17	,	,	PUNCT	,	_	23	punct	23:punct	_
 18	while	while	SCONJ	IN	_	23	mark	23:mark	Discourse=context-circumstance:138->136:1:dm-while-968-gold|PDTB=Explicit:Temporal.Synchronous:while:968:951-967:969-974
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(34-event-giv:inact-nnsnn-cf2-2-coref
@@ -1432,7 +1432,7 @@
 # s_type = frag
 # transition = zero
 # text = Warnings
-1	Warnings	warning	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:139->140:2:grf-ly-_-_|Entity=(128-abstract-new-nnnnn-cf1-1-sgl)|MSeg=Warn-ing-s
+1	Warnings	warning	NOUN	NNS	Number=Plur	0	root	0:root	Bridge=1<130:entity-associative|Discourse=organization-heading:139->140:2:grf-ly-_-_|Entity=(130-abstract-acc:inf-nnnnn-cf1-1-sgl)|MSeg=Warn-ing-s
 
 # newpar
 # newpar_block = list type:::"unordered" (3 s) | item (1 s) | p (1 s)
@@ -1441,10 +1441,10 @@
 # s_type = imp
 # transition = null
 # text = Stay hydrated and exercise wisely.
-1	Stay	stay	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:140->16:3:_
+1	Stay	stay	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-other_m:140->16:3:_
 2	hydrated	hydrate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	xcomp	1:xcomp	MSeg=hydrat-ed
 3	and	and	CCONJ	CC	_	4	cc	4:cc	Discourse=joint-list_m:141->140:0:grf-seq-_-_+dm-and-978-gold|PDTB=Explicit:Expansion.Conjunction:and:978:976-977:979-981
-4	exercise	exercise	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
+4	exercise	exercise	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
 5	wisely	wisely	ADV	RB	Degree=Pos	4	advmod	4:advmod	MSeg=wise-ly|SpaceAfter=No
 6	.	.	PUNCT	.	_	1	punct	1:punct	_
 
@@ -1455,12 +1455,12 @@
 # s_type = decl
 # transition = null
 # text = A ball flying in the air can hurt.
-1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	Discourse=topic-solutionhood:142->145:1:_|Entity=(129-object-new-nnnnn-cf2-2-sgl
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	Discourse=topic-solutionhood:142->145:1:_|Entity=(131-object-new-nnnnn-cf2-2-sgl
 2	ball	ball	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	_
 3	flying	fly	VERB	VBG	VerbForm=Ger	2	acl	2:acl	MSeg=fly-ing
 4	in	in	ADP	IN	_	6	case	6:case	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(94-place-giv:inact-nnnnn-cf1-2-coref
-6	air	air	NOUN	NN	Number=Sing	3	obl	3:obl:in	Entity=94)129)
+6	air	air	NOUN	NN	Number=Sing	3	obl	3:obl:in	Entity=94)131)
 7	can	can	AUX	MD	VerbForm=Fin	8	aux	8:aux	_
 8	hurt	hurt	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 9	.	.	PUNCT	.	_	8	punct	8:punct	_
@@ -1484,7 +1484,7 @@
 10	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=10:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|MSeg=hav-ing
 11	fun	fun	NOUN	NN	Number=Sing	10	obj	10:obj	_
 12	so	so	ADV	RB	_	13	advmod	13:advmod	Discourse=joint-other_m:145->140:1:_|PDTB=Explicit:Contingency.Cause.Result:so:1002:991-1001:1003-1005
-13	play	play	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	10	parataxis	10:parataxis	_
+13	play	play	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	10	parataxis	10:parataxis	_
 14	nicely	nicely	ADV	RB	Degree=Pos	13	advmod	13:advmod	MSeg=nice-ly|SpaceAfter=No
 15	.	.	PUNCT	.	_	10	punct	10:punct	_
 
@@ -1495,11 +1495,11 @@
 # s_type = frag
 # transition = establishment
 # text = Things You'll Need
-1	Things	thing	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:146->147:1:grf-ly-_-_|Entity=(130-object-new-nnnnn-cf2-1-sgl|MSeg=Thing-s
+1	Things	thing	NOUN	NNS	Number=Plur	0	root	0:root	Bridge=1<132:entity-associative|Discourse=organization-heading:146->147:1:grf-ly-_-_|Entity=(132-object-acc:inf-nnnnn-cf2-1-sgl|MSeg=Thing-s
 2-3	You'll	_	_	_	_	_	_	_	_
 2	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(7-person-giv:act-nnnnn-cf1*-1-ana)
 3	'll	will	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
-4	Need	need	VERB	VB	VerbForm=Inf	1	acl:relcl	1:acl:relcl	Entity=130)
+4	Need	need	VERB	VB	VerbForm=Inf	1	acl:relcl	1:acl:relcl	Entity=132)
 
 # newpar
 # newpar_block = list type:::"unordered" (14 s) | item (1 s) | p (1 s)
@@ -1518,8 +1518,8 @@
 # s_type = frag
 # transition = null
 # text = 14 brooms
-1	14	14	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=joint-list_m:148->147:0:grf-seq-_-_|Entity=(131-object-new-nnnnn-cf1-2-sgl
-2	brooms	broom	NOUN	NNS	Number=Plur	0	root	0:root	Entity=131)|MSeg=broom-s
+1	14	14	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=joint-list_m:148->147:0:grf-seq-_-_|Entity=(133-object-new-nnnnn-cf1-2-sgl
+2	brooms	broom	NOUN	NNS	Number=Plur	0	root	0:root	Entity=133)|MSeg=broom-s
 
 # newpar
 # newpar_block = item (1 s) | p (1 s)
@@ -1531,8 +1531,8 @@
 1	Field	field	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-list_m:149->147:0:sem-lxchn-1011,1014-gold|Entity=(31-place-giv:inact-nnnnn-cf1-1-coref)
 2	(	(	PUNCT	-LRB-	_	5	punct	5:punct	Discourse=joint-disjunction_m:150->149:0:grf-seq-_-_+dm-or-1016-gold|SpaceAfter=No
 3	or	or	CCONJ	CC	_	5	cc	5:cc	PDTB=Explicit:Expansion.Disjunction:or:1016:1014:1015,1017-1019
-4	big	big	ADJ	JJ	Degree=Pos	5	amod	5:amod	Entity=(132-place-new-nnnnn-cf2-2-sgl
-5	backyard	backyard	NOUN	NN	Number=Sing	1	conj	1:conj:or	Entity=132)|MSeg=back-yard|SpaceAfter=No
+4	big	big	ADJ	JJ	Degree=Pos	5	amod	5:amod	Entity=(134-place-new-nnnnn-cf2-2-sgl
+5	backyard	backyard	NOUN	NN	Number=Sing	1	conj	1:conj:or	Entity=134)|MSeg=back-yard|SpaceAfter=No
 6	)	)	PUNCT	-RRB-	_	5	punct	5:punct	_
 
 # newpar
@@ -1542,11 +1542,11 @@
 # s_type = frag
 # transition = null
 # text = 3 goal hoops per team
-1	3	3	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	3:nummod	Discourse=joint-list_m:151->147:0:grf-seq-_-_|Entity=(133-object-new-snnnn-cf2-3-sgl
+1	3	3	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	3:nummod	Discourse=joint-list_m:151->147:0:grf-seq-_-_|Entity=(135-object-new-snnnn-cf2-3-sgl
 2	goal	goal	NOUN	NN	Number=Sing	3	compound	3:compound	_
 3	hoops	hoop	NOUN	NNS	Number=Plur	0	root	0:root	MSeg=hoop-s
 4	per	per	ADP	IN	_	5	case	5:case	_
-5	team	team	NOUN	NN	Number=Sing	3	nmod	3:nmod:per	Entity=(35-organization-giv:inact-nnnss-cf1-1-coref)133)
+5	team	team	NOUN	NN	Number=Sing	3	nmod	3:nmod:per	Entity=(35-organization-giv:inact-nnnss-cf1-1-coref)135)
 
 # newpar
 # newpar_block = item (1 s) | p (1 s)
@@ -1567,17 +1567,17 @@
 # s_type = frag
 # transition = establishment
 # text = Color coded shirts or capes for houses, black for referee
-1	Color	Color	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=joint-list_m:154->147:0:grf-seq-_-_|Entity=(134-object-new-nnnnn-cf3-3-sgl
+1	Color	color	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=joint-list_m:154->147:0:grf-seq-_-_|Entity=(136-object-new-nnnnn-cf3-3-sgl
 2	coded	code	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	amod	3:amod	MSeg=cod-ed
-3	shirts	shirt	NOUN	NNS	Number=Plur	0	root	0:root	Entity=134)|MSeg=shirt-s
+3	shirts	shirt	NOUN	NNS	Number=Plur	0	root	0:root	Entity=136)|MSeg=shirt-s
 4	or	or	CCONJ	CC	_	5	cc	5:cc	_
-5	capes	cape	NOUN	NNS	Number=Plur	3	conj	3:conj:or	Entity=(135-object-new-nnnnn-cf4-3-coref|MSeg=cape-s
+5	capes	cape	NOUN	NNS	Number=Plur	3	conj	3:conj:or	Entity=(137-object-new-nnnnn-cf4-3-sgl|MSeg=cape-s
 6	for	for	ADP	IN	_	7	case	7:case	_
-7	houses	house	NOUN	NNS	Number=Plur	3	obl	3:obl:for	Entity=(136-organization-new-nnnnn-cf5-1-sgl)135)|MSeg=house-s|SpaceAfter=No
+7	houses	house	NOUN	NNS	Number=Plur	3	obl	3:obl:for	Entity=(138-organization-new-nnnnn-cf5-1-sgl)137)|MSeg=house-s|SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	9:punct	_
-9	black	black	ADJ	JJ	Degree=Pos	3	conj	3:conj	Bridge=135<137|Entity=(137-object-acc:inf-nnnnn-cf2-1-sgl
+9	black	black	ADJ	JJ	Degree=Pos	3	conj	3:conj	Entity=(139-object-auto-nnnnn-cf2-1-sgl
 10	for	for	ADP	IN	_	11	case	11:case	_
-11	referee	referee	NOUN	NN	Number=Sing	9	obl	9:obl:for	Entity=(78-person-giv:act-nnnnn-cf1*-1-coref)137)|MSeg=refer-ee
+11	referee	referee	NOUN	NN	Number=Sing	9	obl	9:obl:for	Entity=(78-person-giv:act-nnnnn-cf1*-1-coref)139)|MSeg=refer-ee
 
 # newpar
 # newpar_block = item (1 s) | p (1 s)
@@ -1592,8 +1592,8 @@
 4	dodge	dodgeball	NOUN	GW	Number=Plur|Typo=Yes	2	appos	2:appos	CorrectForm=dodgeballs|Entity=(33-object-giv:act-sssnn-cf1-1,5,8,9-appos(101-object-giv:inact-ssnnn-cf2-1-coref|XML=<sic ana:::"dodgeballs">
 5	balls	_	X	NNS	_	4	goeswith	4:goeswith	CorrectForm=_|Entity=101)|MSeg=ball-s|SpaceAfter=No|XML=</sic>
 6	,	,	PUNCT	,	_	8	punct	8:punct	_
-7	water	water	NOUN	NN	Number=Sing	8	compound	8:compound	Entity=(138-object-new-nnnnn-cf4-2-sgl
-8	balloons	balloon	NOUN	NNS	Number=Plur	4	conj	2:appos|4:conj	Entity=138)|MSeg=balloon-s|SpaceAfter=No
+7	water	water	NOUN	NN	Number=Sing	8	compound	8:compound	Entity=(140-object-new-nnnnn-cf4-2-sgl
+8	balloons	balloon	NOUN	NNS	Number=Plur	4	conj	2:appos|4:conj	Entity=140)|MSeg=balloon-s|SpaceAfter=No
 9	,	,	PUNCT	,	_	11	punct	11:punct	_
 10	wiffle	wiffle	NOUN	NN	Number=Sing	11	compound	11:compound	Entity=(98-object-giv:inact-nsnnn-cf3-2-coref
 11	balls	ball	NOUN	NNS	Number=Plur	8	conj	4:conj|8:conj	Entity=98)|MSeg=ball-s
@@ -1610,12 +1610,12 @@
 1	1	1	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=joint-list_m:157->147:0:grf-seq-_-_|Entity=(28-object-giv:inact-snsnn-cf1-2-coref
 2	Quaffle	quaffle	NOUN	NN	Number=Sing	0	root	0:root	Entity=28)
 3	(	(	PUNCT	-LRB-	_	4	punct	4:punct	Discourse=elaboration-additional:158->157:0:sem-synym-1053-1054,1056-1063-_+sem-lxchn-1054,1061-gold+grf-prn-1055,1064-_|SpaceAfter=No
-4	volleyball	volleyball	NOUN	NN	Number=Sing	2	appos	2:appos	Entity=(28-object-giv:act-snsnn-cf1-1,3,6,8-appos(139-object-new-snnnn-cf2-1-sgl)|MSeg=volley-ball|SpaceAfter=No
+4	volleyball	volleyball	NOUN	NN	Number=Sing	2	appos	2:appos	Entity=(28-object-giv:act-snsnn-cf1-1,3,6,8-appos(141-object-new-snnnn-cf2-1-sgl)|MSeg=volley-ball|SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
-6	Frisbee	frisbee	NOUN	NN	Number=Sing	4	conj	2:appos|4:conj	Entity=(140-object-new-nnnnn-cf3-1-sgl)|SpaceAfter=No
+6	Frisbee	frisbee	NOUN	NN	Number=Sing	4	conj	2:appos|4:conj	Entity=(142-object-new-nnnnn-cf3-1-sgl)|SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	9:punct	_
-8	soccer	soccer	NOUN	NN	Number=Sing	9	compound	9:compound	Entity=(141-object-new-nsnnn-cf4-2-sgl
-9	ball	ball	NOUN	NN	Number=Sing	4	conj	2:appos|4:conj	Entity=141)|SpaceAfter=No
+8	soccer	soccer	NOUN	NN	Number=Sing	9	compound	9:compound	Entity=(143-object-new-nsnnn-cf4-2-sgl
+9	ball	ball	NOUN	NN	Number=Sing	4	conj	2:appos|4:conj	Entity=143)|SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	11:punct	_
 11	etc.	etc.	NOUN	FW	Abbr=Yes|Number=Plur	4	conj	2:appos|4:conj	Entity=28)|SpaceAfter=No
 12	)	)	PUNCT	-RRB-	_	4	punct	4:punct	_
@@ -1627,10 +1627,10 @@
 # s_type = frag
 # transition = null
 # text = 1 Snitch (person)
-1	1	1	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=joint-list_m:159->147:0:grf-seq-_-_|Entity=(104-person-giv:inact-nnnnn-cf1-2-coref
-2	Snitch	snitch	NOUN	NN	Number=Sing	0	root	0:root	Entity=104)
+1	1	1	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=joint-list_m:159->147:0:grf-seq-_-_|Entity=(106-person-giv:inact-nnnnn-cf1-2-coref
+2	Snitch	snitch	NOUN	NN	Number=Sing	0	root	0:root	Entity=106)
 3	(	(	PUNCT	-LRB-	_	4	punct	4:punct	Discourse=elaboration-additional:160->159:0:sem-synym-1065-1066,1068-_+grf-prn-1067,1069-_|SpaceAfter=No
-4	person	person	NOUN	NN	Number=Sing	2	appos	2:appos	Entity=(104-person-giv:act-nnnnn-cf1-1-appos)|SpaceAfter=No
+4	person	person	NOUN	NN	Number=Sing	2	appos	2:appos	Entity=(106-person-giv:act-nnnnn-cf1-1-appos)|SpaceAfter=No
 5	)	)	PUNCT	-RRB-	_	4	punct	4:punct	_
 
 # newpar
@@ -1654,8 +1654,8 @@
 # s_type = frag
 # transition = null
 # text = 3 Chasers
-1	3	3	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=joint-list_m:162->147:0:_|Entity=(142-person-new-nnnnn-cf1-2-sgl
-2	Chasers	chaser	NOUN	NNS	Number=Plur	0	root	0:root	Entity=142)|MSeg=Chas-er-s
+1	3	3	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=joint-list_m:162->147:0:_|Entity=(144-person-new-nnnnn-cf1-2-sgl
+2	Chasers	chaser	NOUN	NNS	Number=Plur	0	root	0:root	Entity=144)|MSeg=Chas-er-s
 
 # newpar
 # newpar_block = item (1 s) | p (1 s)
@@ -1664,8 +1664,8 @@
 # s_type = frag
 # transition = null
 # text = 2 Beaters
-1	2	2	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=joint-list_m:163->162:0:grf-seq-_-_|Entity=(143-person-new-nnnnn-cf1-2-sgl
-2	Beaters	beater	NOUN	NNS	Number=Plur	0	root	0:root	Entity=143)|MSeg=Beat-er-s
+1	2	2	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=joint-list_m:163->162:0:grf-seq-_-_|Entity=(145-person-new-nnnnn-cf1-2-sgl
+2	Beaters	beater	NOUN	NNS	Number=Plur	0	root	0:root	Entity=145)|MSeg=Beat-er-s
 
 # newpar
 # newpar_block = item (1 s) | p (1 s)
@@ -1674,8 +1674,8 @@
 # s_type = frag
 # transition = null
 # text = 1 Keeper
-1	1	1	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=joint-list_m:164->162:0:grf-seq-_-_|Entity=(144-person-new-nnnnn-cf1-2-sgl
-2	Keeper	keeper	NOUN	NN	Number=Sing	0	root	0:root	Entity=144)|MSeg=Keep-er
+1	1	1	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=joint-list_m:164->162:0:grf-seq-_-_|Entity=(146-person-new-nnnnn-cf1-2-sgl
+2	Keeper	keeper	NOUN	NN	Number=Sing	0	root	0:root	Entity=146)|MSeg=Keep-er
 
 # newpar
 # newpar_block = item (1 s) | p (1 s)
@@ -1684,6 +1684,6 @@
 # s_type = frag
 # transition = null
 # text = 1 Seeker
-1	1	1	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=joint-list_m:165->162:0:grf-seq-_-_|Entity=(145-person-new-nnnnn-cf1-2-sgl
-2	Seeker	seeker	NOUN	NN	Number=Sing	0	root	0:root	Entity=145)|MSeg=Seek-er
+1	1	1	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=joint-list_m:165->162:0:grf-seq-_-_|Entity=(147-person-new-nnnnn-cf1-2-sgl
+2	Seeker	seeker	NOUN	NN	Number=Sing	0	root	0:root	Entity=147)|MSeg=Seek-er
 

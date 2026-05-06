@@ -120,7 +120,7 @@
 # s_type = frag
 # transition = zero
 # text = Early life
-1	Early	early	ADJ	JJ	Degree=Pos	2	amod	2:amod	Bridge=1<18|Discourse=organization-heading:10->11:2:grf-ly-_-_|Entity=(18-abstract-acc:inf-nnnnn-cf1-2-sgl
+1	Early	early	ADJ	JJ	Degree=Pos	2	amod	2:amod	Bridge=1<18:entity-associative|Discourse=organization-heading:10->11:2:grf-ly-_-_|Entity=(18-abstract-acc:inf-nnnnn-cf1-2-sgl
 2	life	life	NOUN	NN	Number=Sing	0	root	0:root	Entity=18)
 
 # newpar
@@ -189,7 +189,7 @@
 # s_type = frag
 # transition = zero
 # text = Education
-1	Education	education	NOUN	NN	Number=Sing	0	root	0:root	Bridge=1<26|Discourse=organization-heading:17->18:2:grf-ly-_-_|Entity=(26-abstract-acc:inf-nnnnn-cf1-1-sgl)|MSeg=Educat-ion|XML=<hi rend:::"bold"></hi>
+1	Education	education	NOUN	NN	Number=Sing	0	root	0:root	Bridge=1<26:entity-associative|Discourse=organization-heading:17->18:2:grf-ly-_-_|Entity=(26-abstract-acc:inf-nnnnn-cf1-1-sgl)|MSeg=Educat-ion|XML=<hi rend:::"bold"></hi>
 
 # newpar
 # newpar_block = p (3 s)
@@ -206,7 +206,7 @@
 6	for	for	ADP	IN	_	10	case	10:case	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(28-abstract-new-nnnnn-cf3-2,3,4-sgl-Presidential_Scholars_Program
 8	Presidential	Presidential	ADJ	NNP	Degree=Pos	9	amod	9:amod	Entity=(29-person-new-nnnnn-cf4-1,2-sgl-Presidential_Scholars_Program|MSeg=President-ial|XML=<ref target:::"https://en.wikipedia.org/wiki/Presidential_Scholars_Program">
-9	Scholars	Scholars	PROPN	NNP	Number=Sing	10	compound	10:compound	Entity=29)
+9	Scholars	Scholar	PROPN	NNPS	Number=Plur	10	compound	10:compound	Entity=29)|MSeg=Scholar-s
 10	Program	Program	PROPN	NNP	Number=Sing	5	nmod	5:nmod:for	Entity=28)1)|SpaceAfter=No|XML=</ref>
 11	.	.	PUNCT	.	_	5	punct	5:punct	_
 12	[	[	PUNCT	-LRB-	_	13	punct	13:punct	Discourse=explanation-evidence:19->18:0:grf-prn-131,133-_|SpaceAfter=No|XML=<ref>
@@ -292,7 +292,7 @@
 # s_type = frag
 # transition = zero
 # text = Career
-1	Career	career	NOUN	NN	Number=Sing	0	root	0:root	Bridge=1<42|Discourse=organization-heading:27->28:3:grf-ly-_-_|Entity=(42-abstract-acc:inf-nsnns-cf1-1-sgl)
+1	Career	career	NOUN	NN	Number=Sing	0	root	0:root	Bridge=1<42:entity-associative|Discourse=organization-heading:27->28:3:grf-ly-_-_|Entity=(42-abstract-acc:inf-nsnns-cf1-1-sgl)
 
 # newpar
 # newpar_block = p (4 s)
@@ -453,7 +453,7 @@
 12	2003	2003	NUM	CD	NumForm=Digit|NumType=Card	14	nmod:poss	14:nmod:poss	Entity=(68-abstract-new-nnnnn-cf3-3,7,21,26-coref-Cheaper_by_the_Dozen_%282003_film%29(69-time-new-nnnnn-cf9-1-sgl|XML=<date when:::"2003"></date>
 13	's	's	PART	POS	_	12	case	12:case	Entity=69)
 14	comedy	comedy	NOUN	NN	Number=Sing	2	obl	2:obl:in|22:obj	_
-15	Cheaper	Cheaper	PROPN	NNP	Number=Sing	14	appos	14:appos	Entity=(68-abstract-giv:act-nnnnn-cf3-1,4-appos-Cheaper_by_the_Dozen_%282003_film%29|XML=<hi rend:::"italic"><ref target:::"https://en.wikipedia.org/wiki/Cheaper_by_the_Dozen_(2003_film)">
+15	Cheaper	Cheaper	PROPN	NNP	Number=Sing	14	appos	14:appos	Entity=(68-abstract-giv:act-nnnnn-cf3-1,4-appos-Cheaper_by_the_Dozen_%282003_film%29|MSeg=Cheap-er|XML=<hi rend:::"italic"><ref target:::"https://en.wikipedia.org/wiki/Cheaper_by_the_Dozen_(2003_film)">
 16	by	by	ADP	IN	_	18	case	18:case	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	_
 18	Dozen	Dozen	PROPN	NNP	Number=Sing	15	obl	15:obl:by	Entity=68)|SpaceAfter=No|XML=</ref></hi>
@@ -506,11 +506,11 @@
 3	auditioned	audition	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=audition-ed
 4	for	for	ADP	IN	_	7	case	7:case	_
 5-6	Welling's	_	_	_	_	_	_	_	_
-5	Welling	Welling	PROPN	NNP	Number=Sing	7	nmod:poss	7:nmod:poss	Bridge=71<74|Entity=(74-abstract-acc:inf-nnnnn-cf1-3-coref(70-person-giv:act-nnnnn-cf4-1-coref-Tom_Welling|MSeg=Well-ing
+5	Welling	Welling	PROPN	NNP	Number=Sing	7	nmod:poss	7:nmod:poss	Entity=(74-abstract-auto-nnnnn-cf1-3-coref(70-person-giv:act-nnnnn-cf4-1-coref-Tom_Welling|MSeg=Well-ing
 6	's	's	PART	POS	_	5	case	5:case	Entity=70)
 7	role	role	NOUN	NN	Number=Sing	3	obl	3:obl:for	Entity=74)|SpaceAfter=No
 8	,	,	PUNCT	,	_	10	punct	10:punct	_
-9	but	but	CCONJ	CC	_	10	cc	10:cc	Discourse=context-background:46->39:1:sem-rpt-305,361-_+sem-synym-331-341,365-366-_+sem-mrnym-359,365-367-_+lex-indwd-362-_+lex-indwd-384-_|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:369:361-368:370-387
+9	but	but	CCONJ	CC	_	10	cc	10:cc	Discourse=context-background:46->39:1:sem-rpt-305,361-_+sem-synym-331-341,365-366-_+lex-indwd-362-_+lex-indwd-384-_|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:369:361-368:370-387
 10	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	3:conj:but	_
 11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	10:obj	Entity=(74-abstract-giv:act-nnnnn-cf1-1-ana)
 12	up	up	ADP	RP	_	10	compound:prt	10:compound:prt	_
@@ -714,7 +714,7 @@
 27	all	all	DET	DT	PronType=Ind	28	det	28:det	Entity=(102-abstract-new-nnnnn-cf6-2-sgl
 28	manner	manner	NOUN	NN	Number=Sing	25	obl	25:obl:with	_
 29	of	of	ADP	IN	_	35	case	35:case	_
-30	fantasy	fantasy	NOUN	NN	Number=Sing	35	compound	35:compound	Entity=(103-abstract-new-nnnnn-cf9-6-sgl(104-abstract-new-nnnnn-cf11-1-sgl)
+30	fantasy	fantasy	NOUN	NN	Number=Sing	35	compound	35:compound	Entity=(103-abstract-new-nnnnn-cf9-6-sgl(104-abstract-new-nnnnn-cf11-1-sgl)|MSeg=fantas-y
 31	&	&	CCONJ	CC	_	34	cc	34:cc	_
 32	sci	sci	NOUN	NN	Number=Sing	34	compound	34:compound	Entity=(105-abstract-new-nnnnn-cf10-3-coref|SpaceAfter=No|XML=<w>
 33	-	-	PUNCT	HYPH	_	32	punct	32:punct	SpaceAfter=No
@@ -727,7 +727,7 @@
 # s_type = decl
 # transition = zero
 # text = The show is currently in its fourteenth season on the CW.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:64->57:1:sem-synym-497-499,539-540-_|Entity=(7-abstract-giv:inact-sssss-cf1-2-coref-Supernatural_%28American_TV_series%29
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration-additional:64->57:1:sem-synym-497-499,539-540-_|Entity=(7-abstract-giv:inact-sssss-cf1-2-coref-Supernatural_%28American_TV_series%29|PDTB=NoRel:NoRel:_:_:503-538:539-550
 2	show	show	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=7)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
 4	currently	currently	ADV	RB	Degree=Pos	8	advmod	8:advmod	MSeg=current-ly
@@ -780,11 +780,11 @@
 4	Jared	Jared	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(1-person-giv:inact-sssss-cf2-1-coref-Jared_Padalecki)
 5	served	serve	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=serv-ed
 6	as	as	ADP	IN	_	8	case	8:case	_
-7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(113-abstract-new-nnnnn-cf3-2-sgl
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(113-abstract-new-nnnnn-cf5-2-sgl
 8	host	host	NOUN	NN	Number=Sing	5	obl	5:obl:as	_
 9	of	of	ADP	IN	_	14	case	14:case	_
 10-11	MTV's	_	_	_	_	_	_	_	_
-10	MTV	MTV	PROPN	NNP	Abbr=Yes|Number=Sing	14	nmod:poss	14:nmod:poss	Entity=(114-abstract-new-nnnnn-cf1-5-coref-Room_401(115-organization-new-nnnnn-cf4-1-sgl-MTV|XML=<ref target:::"https://en.wikipedia.org/wiki/MTV"></ref>
+10	MTV	MTV	PROPN	NNP	Abbr=Yes|Number=Sing	14	nmod:poss	14:nmod:poss	Entity=(114-abstract-new-nnnnn-cf1-5-coref-Room_401(115-organization-new-nnnnn-cf6-1-sgl-MTV|XML=<ref target:::"https://en.wikipedia.org/wiki/MTV"></ref>
 11	's	's	PART	POS	_	10	case	10:case	Entity=115)
 12	horror	horror	NOUN	NN	Number=Sing	14	compound	14:compound	_
 13	reality	reality	NOUN	NN	Number=Sing	14	compound	14:compound	MSeg=real-ity
@@ -797,12 +797,12 @@
 20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux:pass	21:aux:pass	_
 21	discontinued	discontinue	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	acl:relcl	14:acl:relcl	MSeg=dis-continu-ed
 22	after	after	ADP	IN	_	25	case	25:case	_
-23	only	only	ADV	RB	_	24	advmod	24:advmod	Entity=(116-abstract-new-nnnnn-cf5-3-sgl
+23	only	only	ADV	RB	_	24	advmod	24:advmod	Bridge=114<116:entity-associative|Entity=(116-abstract-acc:inf-nnnnn-cf3-3-sgl
 24	eight	eight	NUM	CD	NumForm=Word|NumType=Card	25	nummod	25:nummod	_
 25	episodes	episode	NOUN	NNS	Number=Plur	21	obl	21:obl:after	Entity=116)|MSeg=episode-s
 26	due	due	ADJ	JJ	Degree=Pos|ExtPos=ADP	29	case	29:case	_
 27	to	to	ADP	IN	_	26	fixed	26:fixed	_
-28	poor	poor	ADJ	JJ	Degree=Pos	29	amod	29:amod	Entity=(117-abstract-new-nnnnn-cf6-2-sgl
+28	poor	poor	ADJ	JJ	Degree=Pos	29	amod	29:amod	Bridge=114<117:entity-associative|Entity=(117-abstract-acc:inf-nnnnn-cf4-2-sgl
 29	ratings	rating	NOUN	NNS	Number=Plur	21	obl	21:obl:due_to	Entity=117)114)113)|MSeg=rat-ing-s|SpaceAfter=No
 30	.	.	PUNCT	.	_	5	punct	5:punct	_
 31	[	[	PUNCT	-LRB-	_	32	punct	32:punct	Discourse=explanation-evidence:69->67:1:grf-prn-602,604-_|SpaceAfter=No|XML=<ref>
@@ -849,7 +849,7 @@
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint-sequence_m:71->28:2:dm-also-627-gold+lex-indwd-634-_|Entity=(1-person-giv:act-sssss-cf1*-1-ana-Jared_Padalecki)
 2	also	also	ADV	RB	_	3	advmod	3:advmod	PDTB=Explicit:Expansion.Conjunction:also:627:605-625:626,628-665
 3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(124-abstract-new-nnnnn-cf3-3-coref
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(124-abstract-new-nnnnn-cf3-3-sgl
 5	lead	lead	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
 6	role	role	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=124)
 7	in	in	ADP	IN	_	10	case	10:case	_
@@ -861,7 +861,7 @@
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	_
 14	13th	13th	ADJ	JJ	Degree=Pos|NumForm=Combi|NumType=Ord	12	appos	12:appos	Entity=127)125)|XML=</ref></hi>
 15	as	as	ADP	IN	_	16	case	16:case	_
-16	Clay	Clay	PROPN	NNP	Number=Sing	3	obl	3:obl:as	Bridge=124<128|Entity=(128-person-acc:inf-nnnnn-cf2-1,2-coref
+16	Clay	Clay	PROPN	NNP	Number=Sing	3	obl	3:obl:as	Entity=(128-person-auto-nnnnn-cf2-1,2-coref
 17	Miller	Miller	PROPN	NNP	Number=Sing	16	flat	16:flat	Entity=128)|MSeg=Mill-er|SpaceAfter=No
 18	,	,	PUNCT	,	_	20	punct	20:punct	_
 19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(128-person-giv:act-nnnnn-cf2-2,7,8-appos
@@ -894,7 +894,7 @@
 # s_type = frag
 # transition = zero
 # text = Personal life
-1	Personal	personal	ADJ	JJ	Degree=Pos	2	amod	2:amod	Bridge=1<132|Discourse=organization-heading:75->76:4:grf-ly-_-_|Entity=(132-abstract-acc:inf-nsnnn-cf1-2-sgl|MSeg=Person-al
+1	Personal	personal	ADJ	JJ	Degree=Pos	2	amod	2:amod	Bridge=1<132:entity-associative|Discourse=organization-heading:75->76:4:grf-ly-_-_|Entity=(132-abstract-acc:inf-nsnnn-cf1-2-sgl|MSeg=Person-al
 2	life	life	NOUN	NN	Number=Sing	0	root	0:root	Entity=132)
 
 # newpar
@@ -948,7 +948,7 @@
 # s_type = decl
 # transition = continue
 # text = Padalecki proposed to her in front of their favorite painting, "Joan of Arc", by French realist Jules Bastien-Lepage at New York's Metropolitan Museum of Art in October 2009. [13] [14] [15] [16]
-1	Padalecki	Padalecki	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=elaboration-additional:79->76:1:sem-rpt-668-669,698-_+ref-prs-672-674,701-_|Entity=(1-person-giv:inact-sssss-cf4-1-coref-Jared_Padalecki)|PDTB=EntRel:EntRel:_:_:683-697:698-745
+1	Padalecki	Padalecki	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=elaboration-additional:79->76:1:sem-rpt-668-669,698-_+ref-prs-672-674,701-_|Entity=(1-person-giv:inact-sssss-cf4-1-coref-Jared_Padalecki)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:683-697:698-745
 2	proposed	propose	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=propos-ed
 3	to	to	ADP	IN	_	4	case	4:case	_
 4	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obl	2:obl:to	Entity=(134-person-giv:act-nsnnn-cf1*-1-ana-Genevieve_Cortese)
@@ -1003,7 +1003,7 @@
 # s_type = decl
 # transition = smooth-shift
 # text = The pair married on February 27, 2010, in Cortese's hometown of Sun Valley, Idaho.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-sequence_m:84->76:2:lex-indph-680-681-_+lex-indph-750-753-_|Entity=(137-person-giv:act-nnnnn-cf1*-2-coref
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-sequence_m:84->76:2:lex-indph-680-681-_+lex-indph-750-753-_|Entity=(137-person-giv:act-nnnnn-cf1*-2-coref|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:698-745:746-764
 2	pair	pair	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=137)
 3	married	marry	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=marri-ed
 4	on	on	ADP	IN	_	6	case	6:case	_
@@ -1029,7 +1029,7 @@
 # s_type = decl
 # transition = continue
 # text = On October 10, 2011, the couple announced that they were expecting their first child together.
-1	On	on	ADP	IN	_	3	case	3:case	Discourse=joint-sequence_m:85->76:3:_
+1	On	on	ADP	IN	_	3	case	3:case	Discourse=joint-sequence_m:85->76:3:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:746-764:765-782
 2	October	October	PROPN	NNP	Number=Sing	3	compound	3:compound	Entity=(152-time-new-nnnnn-cf3-2-sgl|XML=<date when:::"2011-10-10">
 3	10	10	NUM	CD	NumForm=Digit|NumType=Card	9	obl	9:obl:on	SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
@@ -1084,7 +1084,7 @@
 8	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 9	birth	birth	NOUN	NN	Number=Sing	8	obj	8:obj	MSeg=bir-th
 10	to	to	ADP	IN	_	13	case	13:case	_
-11	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(159-person-new-nnnnn-cf2-3-coref(137-person-giv:act-nnnnn-cf1*-1-ana)
+11	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Bridge=154<159:comparison-relative|Entity=(159-person-acc:inf-nnnnn-cf2-3-coref(137-person-giv:act-nnnnn-cf1*-1-ana)
 12	second	second	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	13	amod	13:amod	_
 13	son	son	NOUN	NN	Number=Sing	8	obl	8:obl:to	Entity=159)|SpaceAfter=No
 14	,	,	PUNCT	,	_	15	punct	15:punct	_
@@ -1101,7 +1101,7 @@
 # s_type = decl
 # transition = continue
 # text = Their daughter, Odette Elliott Padalecki, was born on March 17, 2017. [17] [18]
-1	Their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=joint-sequence_m:90->85:1:lex-indph-766-769-_+lex-indph-829-832-_|Entity=(160-person-new-nnnnn-cf2-2-coref(137-person-giv:act-nnnnn-cf1*-1-ana)|PDTB=Implicit:Expansion.Conjunction:and:_:798-818:819-839
+1	Their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=joint-sequence_m:90->85:1:lex-indph-766-769-_+lex-indph-829-832-_|Entity=(160-person-new-nnnnn-cf2-2-coref(137-person-giv:act-nnnnn-cf1*-1-ana)|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:798-818:819-839
 2	daughter	daughter	NOUN	NN	Number=Sing	9	nsubj:pass	9:nsubj:pass	Entity=160)|SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
 4	Odette	Odette	PROPN	NNP	Number=Sing	2	appos	2:appos	Entity=(160-person-giv:act-nnnnn-cf2-1,2,3-appos
@@ -1210,14 +1210,14 @@
 # s_type = decl
 # transition = smooth-shift
 # text = His first campaign raised funds for To Write Love On Her Arms, which supports people struggling with depression, addiction, self-injury, and suicide.
-1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Bridge=173<177|Discourse=elaboration-additional:98->97:0:ref-prs-882,892-_+sem-mrnym-884-888,892-894-_|Entity=(177-event-acc:inf-nnnnn-cf2-3-sgl(1-person-giv:act-sssss-cf1*-1-ana-Jared_Padalecki)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:878-891:892-920
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Bridge=173<177:comparison-relative;set-member|Discourse=elaboration-additional:98->97:0:ref-prs-882,892-_+sem-mrnym-884-888,892-894-_|Entity=(177-event-acc:inf-nnnnn-cf2-3-coref(1-person-giv:act-sssss-cf1*-1-ana-Jared_Padalecki)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:878-891:892-920
 2	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	3	amod	3:amod	_
 3	campaign	campaign	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=177)
 4	raised	raise	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=rais-ed
 5	funds	fund	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=(178-abstract-new-nnnnn-cf4-1-sgl)|MSeg=fund-s
 6	for	for	ADP	IN	_	8	case	8:case	_
 7	To	to	PART	TO	_	8	mark	8:mark	Entity=(179-organization-new-nnnnn-cf5-2,3,6-coref-To_Write_Love_on_Her_Arms|XML=<ref target:::"https://en.wikipedia.org/wiki/To_Write_Love_on_Her_Arms">
-8	Write	Write	VERB	NNP	VerbForm=Inf	4	obl	4:obl:for|15:nsubj	_
+8	Write	Write	VERB	NNP	ExtPos=PROPN|VerbForm=Inf	4	obl	4:obl:for|15:nsubj	_
 9	Love	Love	PROPN	NNP	Number=Sing	8	obj	8:obj	_
 10	On	on	ADP	IN	_	12	case	12:case	_
 11	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	_
@@ -1245,7 +1245,7 @@
 # s_type = decl
 # transition = continue
 # text = The cause is particularly close to Padalecki, who has been candid about his own struggles with depression. [20]
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=179<185|Discourse=context-background:101->98:1:sem-synym-892,927-938-_+sem-mrnym-898-919,921-922-_+sem-rpt-910,938-_|Entity=(185-abstract-acc:inf-nnnnn-cf3-2-sgl|PDTB=Implicit:Expansion.Conjunction:indeed:_:892-920:921-942
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=179<185:entity-associative|Discourse=context-background:101->98:1:sem-synym-892,927-938-_+sem-mrnym-898-919,921-922-_+sem-rpt-910,938-_|Entity=(185-abstract-acc:inf-nnnnn-cf3-2-sgl|PDTB=Implicit:Expansion.Conjunction:indeed:_:892-920:921-942
 2	cause	cause	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=185)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 4	particularly	particularly	ADV	RB	Degree=Pos	5	advmod	5:advmod	MSeg=part-ic-ul-ar-ly
@@ -1273,8 +1273,8 @@
 # s_type = decl
 # transition = retain
 # text = For the second campaign in the Always Keep Fighting series in April 2015, Padalecki partnered with co-star Jensen Ackles to release a shirt featuring both of their faces, to benefit their newly formed joint charitable fund.
-1	For	for	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:104->98:2:lex-indph-954-955-_
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=173<188|Entity=(188-event-acc:inf-nnnnn-cf6-3,6,8-sgl
+1	For	for	ADP	IN	_	4	case	4:case	Discourse=joint-sequence_m:104->98:2:lex-indph-954-955-_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:921-942:943-981
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=177<188:comparison-relative|Entity=(188-event-acc:inf-nnnnn-cf6-3,6,8-coref
 3	second	second	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	4	amod	4:amod	_
 4	campaign	campaign	NOUN	NN	Number=Sing	16	obl	16:obl:for	_
 5	in	in	ADP	IN	_	10	case	10:case	_
@@ -1295,7 +1295,7 @@
 20	Ackles	Ackles	PROPN	NNP	Number=Sing	19	flat	19:flat	Entity=97)|XML=</ref>
 21	to	to	PART	TO	_	22	mark	22:mark	Discourse=purpose-goal:105->104:0:syn-inf-963-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:943-962:963-981
 22	release	release	VERB	VB	VerbForm=Inf	16	advcl	16:advcl:to	_
-23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(190-object-new-nnnnn-cf7-2-coref
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(190-object-new-nnnnn-cf7-2-sgl
 24	shirt	shirt	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=190)
 25	featuring	feature	VERB	VBG	VerbForm=Ger	24	acl	24:acl	Discourse=elaboration-attribute:106->105:0:syn-mdf-966-_+syn-nmn-967-_|MSeg=featur-ing
 26	both	both	DET	DT	PronType=Tot	25	obj	25:obj	Entity=(191-object-new-nnnnn-cf9-1-sgl
@@ -1318,7 +1318,7 @@
 # s_type = decl
 # transition = zero
 # text = Over 70,000 shirts were sold. [21] [22]
-1	Over	over	ADP	IN	_	2	case	2:case	Bridge=190<194|Discourse=elaboration-additional:108->104:1:sem-mrnym-965-966,982-984-_|Entity=(194-object-acc:inf-nnnnn-cf1-3-sgl|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:943-981:982-993
+1	Over	over	ADP	IN	_	2	case	2:case	Discourse=elaboration-additional:108->104:1:_|Entity=(194-object-auto-nnnnn-cf1-3-coref|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:943-981:982-993
 2	70,000	70000	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	3:nummod	_
 3	shirts	shirt	NOUN	NNS	Number=Plur	5	nsubj:pass	5:nsubj:pass	Entity=194)|MSeg=shirt-s
 4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	5:aux:pass	_
@@ -1336,16 +1336,16 @@
 # s_type = decl
 # transition = null
 # text = Most recently, Padalecki launched a third campaign selling a further 40,000 shirts. [23]
-1	Most	most	ADV	RBS	Degree=Sup	2	advmod	2:advmod	Discourse=joint-sequence_m:111->98:2:_
+1	Most	most	ADV	RBS	Degree=Sup	2	advmod	2:advmod	Discourse=joint-sequence_m:111->98:2:_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:982-993:994-1010
 2	recently	recently	ADV	RB	Degree=Pos	5	advmod	5:advmod	MSeg=recent-ly|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	Padalecki	Padalecki	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(1-person-giv:inact-sssss-cf1-1-coref-Jared_Padalecki)
 5	launched	launch	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=launch-ed
-6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Bridge=173<197|Entity=(197-event-acc:inf-nnnnn-cf2-3-sgl
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Bridge=188<197:comparison-relative|Entity=(197-event-acc:inf-nnnnn-cf2-3-sgl
 7	third	third	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	8	amod	8:amod	_
 8	campaign	campaign	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=197)
 9	selling	sell	VERB	VBG	VerbForm=Ger	8	acl	8:acl	Discourse=elaboration-attribute:112->111:0:syn-mdf-1001-_+syn-nmn-1002-_+lex-indwd-1004-_|MSeg=sell-ing
-10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Bridge=190<198|Entity=(198-object-acc:inf-nnnnn-cf3-4-sgl
+10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Bridge=194<198:comparison-relative|Entity=(198-object-acc:inf-nnnnn-cf3-4-sgl
 11	further	further	ADJ	JJR	Degree=Cmp	13	amod	13:amod	MSeg=furth-er|PDTB=AltLex:Expansion.Conjunction:further:1004:994-1001:1002-1003,1005-1007
 12	40,000	40000	NUM	CD	NumForm=Digit|NumType=Card	13	nummod	13:nummod	_
 13	shirts	shirt	NOUN	NNS	Number=Plur	9	obj	9:obj	Entity=198)|MSeg=shirt-s|SpaceAfter=No

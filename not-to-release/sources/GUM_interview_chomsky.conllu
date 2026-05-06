@@ -38,7 +38,7 @@
 # s_type = frag
 # transition = null
 # text = Saturday, April 4, 2009
-1	Saturday	Saturday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-circumstance:2->98:8:lex-indph-10-15-_|Entity=(4-time-acc:com-nnnnn-cf1-1-coref)|SpaceAfter=No|XML=<date when:::"2009-04-04" rend:::"bold">
+1	Saturday	Saturday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-circumstance:2->98:8:lex-indph-10-15-_|Entity=(4-time-acc:com-nnnnn-cf1-1-coref)|MSeg=Satur-day|SpaceAfter=No|XML=<date when:::"2009-04-04" rend:::"bold">
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	April	April	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(4-time-giv:act-nnnnn-cf1-2-appos
 4	4	4	NUM	CD	NumForm=Digit|NumType=Card	1	appos	1:appos	SpaceAfter=No
@@ -76,7 +76,7 @@
 8	Massachusetts	Massachusetts	PROPN	NNP	Number=Sing	9	compound	9:compound	Entity=(6-organization-new-nsnnn-cf2-1,2,4-coref-Massachusetts_Institute_of_Technology(7-place-new-nnnnn-cf6-1-coref-Massachusetts)
 9	Institute	Institute	PROPN	NNP	Number=Sing	5	nmod	5:nmod:at	_
 10	of	of	ADP	IN	_	11	case	11:case	_
-11	Technology	Technology	PROPN	NNP	Number=Sing	9	nmod	9:nmod:of	Entity=(8-abstract-new-nnnnn-cf3-1-sgl-Technology)6)|MSeg=Techno-logy
+11	Technology	Technology	PROPN	NNP	Number=Sing	9	nmod	9:nmod:of	Entity=(8-abstract-new-nnnnn-cf3-1-sgl-Technology)6)|MSeg=Techno-log-y
 12	in	in	ADP	IN	_	13	case	13:case	_
 13	Linguistics	linguistics	NOUN	NN	Number=Sing	5	nmod	5:nmod:in	Entity=(9-abstract-new-nnnnn-cf4-1-coref)|MSeg=Linguist-ic-s
 14	and	and	CCONJ	CC	_	15	cc	15:cc	_
@@ -146,7 +146,7 @@
 7	write	write	VERB	VB	VerbForm=Inf	5	xcomp	5:xcomp	_
 8	books	book	NOUN	NNS	Number=Plur	7	obj	7:obj	Entity=(16-abstract-new-nnnnn-cf3-1-coref)|MSeg=book-s|SpaceAfter=No
 9	;	;	PUNCT	:	_	12	punct	12:punct	_
-10	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Bridge=16<17|Discourse=elaboration-additional:9->8:0:ref-prs-78,84-_+sem-lxchn-81,86-gold+sem-mrnym-82,84-86-_+sem-lxchn-82,94-gold|Entity=(17-abstract-acc:inf-nnnnn-cf2-3-coref-Hegemony_or_Survival(2-person-giv:act-sssss-cf1*-1-ana-Noam_Chomsky)
+10	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Bridge=16<17:comparison-relative;set-member|Discourse=elaboration-additional:9->8:0:ref-prs-78,84-_+sem-lxchn-81,86-gold+sem-mrnym-82,84-86-_+sem-lxchn-82,94-gold|Entity=(17-abstract-acc:inf-nnnnn-cf2-3-coref-Hegemony_or_Survival(2-person-giv:act-sssss-cf1*-1-ana-Noam_Chomsky)
 11	latest	late	ADJ	JJS	Degree=Sup	12	amod	12:amod	MSeg=lat-est
 12	book	book	NOUN	NN	Number=Sing	20	nsubj	20:nsubj	Entity=17)|SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	14:punct	_
@@ -158,7 +158,7 @@
 19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(17-abstract-giv:act-nnnnn-cf2-2-pred-Hegemony_or_Survival
 20	bestseller	bestseller	NOUN	NN	Number=Sing	5	parataxis	5:parataxis	MSeg=best-sell-er
 21	in	in	ADP	IN	_	22	case	22:case	_
-22	non-fiction	non-fiction	NOUN	NN	Number=Sing	20	nmod	20:nmod:in	Entity=(18-abstract-new-nnnnn-cf5-1-sgl)17)|MSeg=non-fiction|Negation=Yes|SpaceAfter=No
+22	non-fiction	non-fiction	NOUN	NN	Number=Sing	20	nmod	20:nmod:in	Entity=(18-abstract-new-nnnnn-cf5-1-sgl)17)|MSeg=non-fict-ion|Negation=Yes|SpaceAfter=No
 23	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_interview_chomsky-8
@@ -173,8 +173,8 @@
 5	and	and	CCONJ	CC	_	6	cc	6:cc	_
 6	Humanities	Humanity	PROPN	NNPS	Number=Plur	4	conj	4:conj:and|8:compound	Entity=(21-abstract-new-nnnnn-cf4-1-sgl-Humanities)|MSeg=Human-itie-s
 7	Citation	Citation	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=(22-abstract-new-nnnnn-cf6-1-sgl-Citation)|MSeg=Cit-ation
-8	Index	Index	PROPN	NNP	Number=Sing	16	nmod	16:nmod:according_to	Entity=19)
-9	Professor	Professor	PROPN	NNP	Number=Sing	10	nmod:desc	10:nmod:desc	Discourse=joint-other_m:11->5:0:_|Entity=(2-person-giv:act-sssss-cf1*-1,2-coref-Noam_Chomsky|MSeg=Profess-or
+8	Index	Index	PROPN	NNP	Number=Sing	16	obl	16:obl:according_to	Entity=19)
+9	Professor	Professor	PROPN	NNP	Number=Sing	10	nmod:desc	10:nmod:desc	Discourse=joint-other_m:11->5:0:_|Entity=(2-person-giv:act-sssss-cf1*-2-coref-Noam_Chomsky|MSeg=Profess-or
 10	Chomsky	Chomsky	PROPN	NNP	Number=Sing	16	nsubj	16:nsubj	Entity=2)
 11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	16:cop	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(2-person-giv:act-sssss-cf1*-5-coref-Noam_Chomsky
@@ -195,10 +195,10 @@
 # transition = continue
 # text = On March 13, Professor Chomsky sat down with Michael Dranove for an interview in his MIT office in Cambridge, Massachusetts.
 1	On	on	ADP	IN	_	3	case	3:case	Discourse=joint-other_m:12->5:0:_
-2	March	March	PROPN	NNP	Number=Sing	3	compound	3:compound	Bridge=5<24|Entity=(24-time-acc:inf-nnnnn-cf5-2-sgl|XML=<date when:::"-2009-03-13">
+2	March	March	PROPN	NNP	Number=Sing	3	compound	3:compound	Bridge=5<24:comparison-time;set-span-interval|Entity=(24-time-acc:inf-nnnnn-cf5-2-sgl|XML=<date when:::"-2009-03-13">
 3	13	13	NUM	CD	NumForm=Digit|NumType=Card	7	obl	7:obl:on	Entity=24)|SpaceAfter=No|XML=</date>
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
-5	Professor	Professor	PROPN	NNP	Number=Sing	6	nmod:desc	6:nmod:desc	Entity=(2-person-giv:act-sssss-cf1*-1,2-coref-Noam_Chomsky|MSeg=Profess-or
+5	Professor	Professor	PROPN	NNP	Number=Sing	6	nmod:desc	6:nmod:desc	Entity=(2-person-giv:act-sssss-cf1*-2-coref-Noam_Chomsky|MSeg=Profess-or
 6	Chomsky	Chomsky	PROPN	NNP	Number=Sing	7	nsubj	7:nsubj	Entity=2)
 7	sat	sit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 8	down	down	ADP	RP	_	7	compound:prt	7:compound:prt	_
@@ -244,19 +244,19 @@
 6	if	if	SCONJ	IN	_	8	mark	8:mark	Discourse=topic-question:15->98:4:_
 7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	8:nsubj	Entity=(2-person-giv:inact-sssss-cf2-1-ana-Noam_Chomsky)
 8	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	5	ccomp	5:ccomp	Cxn=Interrogative-Polar-Indirect|CxnElt=8:Interrogative-Polar-Indirect.Clause
-9	any	any	DET	DT	PronType=Ind	10	det	10:det	Entity=(30-abstract-new-nnnnn-cf4-2-sgl
+9	any	any	DET	DT	PronType=Ind	10	det	10:det	Entity=(30-abstract-new-nnnnn-cf5-2-sgl
 10	thoughts	thought	NOUN	NNS	Number=Plur	8	obj	8:obj	MSeg=thought-s
 11	on	on	ADP	IN	_	14	case	14:case	_
 12	recent	recent	ADJ	JJ	Degree=Pos	14	amod	14:amod	Entity=(31-event-new-nnnnn-cf8-3-sgl
 13	NATO	NATO	PROPN	NNP	Abbr=Yes|Number=Sing	14	compound	14:compound	Entity=(29-organization-giv:act-sssss-cf3*-1-coref-NATO)
 14	actions	action	NOUN	NNS	Number=Plur	10	nmod	10:nmod:on	Entity=31)|MSeg=act-ion-s
 15	and	and	CCONJ	CC	_	17	cc	17:cc	_
-16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(32-event-new-snnnn-cf5-2-sgl
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(32-event-new-snnnn-cf6-2-sgl
 17	protests	protest	NOUN	NNS	Number=Plur	14	conj	10:nmod:on|14:conj:and	MSeg=protest-s
 18	coming	come	VERB	VBG	VerbForm=Ger	17	acl	17:acl	Discourse=elaboration-attribute:16->15:0:syn-mdf-159-_+syn-nmn-160-_|MSeg=com-ing
 19	up	up	ADP	RP	_	18	compound:prt	18:compound:prt	_
 20	at	at	ADP	IN	_	24	case	24:case	_
-21	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(33-event-new-snnnn-cf6-4-coref
+21	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(33-event-new-snnnn-cf7-4-coref
 22	60th	100th	ADJ	JJ	Degree=Pos|NumForm=Combi|NumType=Ord	24	amod	24:amod	_
 23	NATO	NATO	PROPN	NNP	Abbr=Yes|Number=Sing	24	compound	24:compound	Entity=(29-organization-giv:act-sssss-cf3*-1-coref-NATO)
 24	conference	conference	NOUN	NN	Number=Sing	18	obl	18:obl:at	Entity=33)32)30)|MSeg=confer-ence|SpaceAfter=No
@@ -264,11 +264,11 @@
 26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	27:nsubj	Discourse=attribution-positive:17->18:0:sem-atsrc-168-_+lex-indwd-169-_|Entity=(25-person-giv:act-snnnn-cf1-1-ana)
 27	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	3:parataxis	_
 28-29	you’re	_	_	_	_	_	_	_	_
-28	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	30	nsubj	30:nsubj	Discourse=context-background:18->15:2:ref-prs-143,168-_+ref-prs-149,170-_|Entity=(2-person-giv:act-sssss-cf2-1-ana-Noam_Chomsky)
+28	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	30	nsubj	30:nsubj	Discourse=context-background:18->15:2:ref-prs-143,168-_+ref-prs-149,170-_+sem-mrnym-163-166,174-175-_|Entity=(2-person-giv:act-sssss-cf2-1-ana-Noam_Chomsky)
 29	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	30	aux	30:aux	_
 30	speaking	speak	VERB	VBG	Tense=Pres|VerbForm=Part	27	ccomp	27:ccomp	MSeg=speak-ing
 31	at	at	ADP	IN	_	33	case	33:case	_
-32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	33:det	Entity=(34-event-new-nnnnn-cf7-2-sgl
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	33:det	Bridge=33<34:comparison-relative|Entity=(34-event-acc:inf-nnnnn-cf4-2-sgl
 33	counter-conference	counter-conference	NOUN	NN	Number=Sing	30	obl	30:obl:at	Entity=34)|MSeg=counter-conference|SpaceAfter=No
 34	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -281,7 +281,7 @@
 # speaker = NoamChomsky
 # text = Could be I give so many talks I can’t remember.
 1	Could	could	AUX	MD	VerbForm=Fin	2	aux	2:aux	Discourse=adversative-concession:19->98:3:_|PDTB=Hypophora:Hypophora:_:_:143-176:177-892
-2	be	be	AUX	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+2	be	be	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=causal-cause:20->21:0:_|Entity=(2-person-giv:act-sssss-cf1*-1-ana-Noam_Chomsky)
 4	give	give	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	_
 5	so	so	ADV	RB	_	6	advmod	6:advmod	Entity=(35-event-new-nnnnn-cf2-3-sgl
@@ -303,7 +303,7 @@
 1	On	on	ADP	IN	_	4	case	4:case	Discourse=attribution-positive:22->23:0:sem-atsrc-195-_+lex-indwd-196-_|PDTB=EntRel:EntRel:_:_:177-188:189-205
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(33-event-giv:inact-snnnn-cf3-3-coref
 3	NATO	NATO	PROPN	NNP	Abbr=Yes|Number=Sing	4	compound	4:compound	Entity=(29-organization-giv:inact-sssss-cf2-1-coref-NATO)
-4	conference	conference	NOUN	NN	Number=Sing	11	nmod	11:nmod:on	Entity=33)|MSeg=confer-ence|SpaceAfter=No
+4	conference	conference	NOUN	NN	Number=Sing	16	obl	16:obl:on	Entity=33)|MSeg=confer-ence|SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
 6	well	well	INTJ	UH	_	16	discourse	16:discourse	_
 7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	8:nsubj	Entity=(2-person-giv:act-sssss-cf1*-1-ana-Noam_Chomsky)
@@ -329,7 +329,7 @@
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(37-person-acc:com-nnnnn-cf2-1-ana)
 4	can	can	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
 5	ask	ask	VERB	VB	VerbForm=Inf	0	root	0:root	_
-6	questions	question	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=(38-abstract-new-nnnnn-cf3-3-sgl|MSeg=question-s
+6	questions	question	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=(38-abstract-new-nnnnn-cf3-3-coref|MSeg=question-s
 7	about	about	ADP	IN	_	8	case	8:case	Discourse=elaboration-additional:25->24:0:_
 8	why	why	ADV	WRB	PronType=Rel	5	obl	5:obl:about	_
 9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	CxnElt=13:Existential-ExistPred.Pivot|Entity=(29-organization-giv:act-sssss-cf1*-1-ana-NATO)
@@ -352,9 +352,9 @@
 # transition = smooth-shift
 # speaker = NoamChomsky
 # text = I mean the theory was, whether you believe it or not, that it would be a defensive alliance against potential Soviet aggression, that’s the basic doctrine.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:27->28:1:sem-atsrc-227-_+lex-indwd-228-_+syn-rpr-233,240-_|Entity=(2-person-giv:inact-sssss-cf4-1-ana-Noam_Chomsky)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:27->28:1:sem-atsrc-227-_+lex-indwd-228-_+syn-rpr-233,240-_|Entity=(2-person-giv:inact-sssss-cf4-1-ana-Noam_Chomsky)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:206-226:227-257
 2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	parataxis	20:parataxis	_
-3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Discourse=adversative-antithesis:28->33:2:_|Entity=(39-abstract-new-nnnnn-cf3-2-coref
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=38<39:entity-associative|Discourse=adversative-antithesis:28->33:2:_|Entity=(39-abstract-acc:inf-nnnnn-cf3-2-coref
 4	theory	theory	NOUN	NN	Number=Sing	20	nsubj:outer	20:nsubj:outer	Entity=39)
 5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	20:cop	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	5:punct	_
@@ -421,7 +421,7 @@
 # transition = zero
 # speaker = NoamChomsky
 # text = When the Soviet Union collapsed there had been an agreement, a recent agreement, between Gorbachev and the U.S government and the first Bush administration.
-1	When	when	ADV	WRB	PronType=Int	5	advmod	5:advmod	Discourse=context-circumstance:36->39:2:dm-when-279-gold|PDTB=Explicit:Temporal.Synchronous:when:279:280-305:306-330
+1	When	when	ADV	WRB	PronType=Int	5	advmod	5:advmod	Discourse=context-circumstance:36->39:2:dm-when-279-gold|PDTB=Explicit:Temporal.Synchronous:when:279:280-305:306-330;Implicit:Contingency.Cause.Reason:because:_:258-278:279-305
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(43-place-new-snsnn-cf3-2,3-coref-Soviet_Union
 3	Soviet	Soviet	PROPN	NNP	Number=Sing	4	compound	4:compound	_
 4	Union	Union	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=43)
@@ -477,7 +477,7 @@
 20	join	join	VERB	VB	VerbForm=Inf	16	xcomp	16:xcomp	_
 21	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(29-organization-giv:inact-sssss-cf3-4-coref-NATO
 22	NATO	NATO	PROPN	NNP	Abbr=Yes|Number=Sing	24	compound	24:compound	_
-23	military	military	ADJ	JJ	Degree=Pos	24	amod	24:amod	_
+23	military	military	ADJ	JJ	Degree=Pos	24	amod	24:amod	MSeg=milit-ary
 24	alliance	alliance	NOUN	NN	Number=Sing	20	obj	20:obj	Entity=29)|MSeg=alli-ance|SpaceAfter=No
 25	.	.	PUNCT	.	_	6	punct	6:punct	_
 
@@ -487,7 +487,7 @@
 # transition = smooth-shift
 # speaker = NoamChomsky
 # text = Now it is remarkable in the light of history, the history of the past century, Germany alone had virtually destroyed Russia, twice, and Germany backed by a hostile military alliance, centered in the most phenomenal military power in history, that’s a real threat.
-1	Now	now	ADV	RB	_	4	discourse	4:discourse	Discourse=evaluation-comment:40->45:1:lex-indwd-334-_
+1	Now	now	ADV	RB	_	4	discourse	4:discourse	Discourse=evaluation-comment:40->45:1:lex-indwd-334-_|PDTB=Implicit:Comparison.Contrast:but:_:306-330:331-381
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(49-abstract-giv:act-nnnnn-cf1*-1-ana)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 4	remarkable	remarkable	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=remark-able
@@ -500,16 +500,16 @@
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(51-abstract-giv:act-nnnnn-cf4-2-appos
 12	history	history	NOUN	NN	Number=Sing	9	appos	9:appos	_
 13	of	of	ADP	IN	_	16	case	16:case	_
-14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(52-time-new-nnnnn-cf8-3-sgl|XML=<date from:::"1900-01-01" to:::"1999-12-31">
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Bridge=4<52:comparison-relative;comparison-time|Entity=(52-time-acc:inf-nnnnn-cf7-3-sgl|XML=<date from:::"1900-01-01" to:::"1999-12-31">
 15	past	past	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
-16	century	century	NOUN	NN	Number=Sing	12	nmod	12:nmod:of	Entity=52)51)|SpaceAfter=No|XML=</date>
+16	century	century	NOUN	NN	Number=Sing	12	nmod	12:nmod:of	Entity=52)51)|MSeg=cent-ury|SpaceAfter=No|XML=</date>
 17	,	,	PUNCT	,	_	22	punct	22:punct	_
 18	Germany	Germany	PROPN	NNP	Number=Sing	22	nsubj	22:nsubj	Discourse=context-background:41->45:0:mrf-tns-350-_;adversative-concession:41->45:1:0:orp-nevertheless-382-gold|Entity=(50-place-giv:act-nnnnn-cf3-1-coref-Germany)|MSeg=German-y
 19	alone	alone	ADV	RB	Degree=Pos	18	advmod	18:advmod	MSeg=a-lone
 20	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	22:aux	_
 21	virtually	virtually	ADV	RB	Degree=Pos	22	advmod	22:advmod	MSeg=virtual-ly
 22	destroyed	destroy	VERB	VBN	Tense=Past|VerbForm=Part	4	parataxis	4:parataxis	MSeg=destroy-ed
-23	Russia	Russia	PROPN	NNP	Number=Sing	22	obj	22:obj	Entity=(53-place-new-nnnsn-cf7-1-coref-Russia)|SpaceAfter=No
+23	Russia	Russia	PROPN	NNP	Number=Sing	22	obj	22:obj	Entity=(53-place-new-nnnsn-cf8-1-coref-Russia)|SpaceAfter=No
 24	,	,	PUNCT	,	_	25	punct	25:punct	_
 25	twice	twice	ADV	RB	NumForm=Word|NumType=Mult	22	advmod	22:advmod	SpaceAfter=No
 26	,	,	PUNCT	,	_	27	punct	27:punct	_
@@ -519,7 +519,7 @@
 30	by	by	ADP	IN	_	34	case	34:case	_
 31	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	34:det	Entity=(29-organization-giv:act-sssss-cf5-4-coref-NATO
 32	hostile	hostile	ADJ	JJ	Degree=Pos	34	amod	34:amod	_
-33	military	military	ADJ	JJ	Degree=Pos	34	amod	34:amod	_
+33	military	military	ADJ	JJ	Degree=Pos	34	amod	34:amod	MSeg=milit-ary
 34	alliance	alliance	NOUN	NN	Number=Sing	29	obl	29:obl:by	MSeg=alli-ance|SpaceAfter=No
 35	,	,	PUNCT	,	_	36	punct	36:punct	_
 36	centered	center	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	34	acl	34:acl	Discourse=elaboration-attribute:43->42:0:syn-mdf-364-_+syn-nmn-366-_|MSeg=center-ed
@@ -527,7 +527,7 @@
 38	the	the	DET	DT	Definite=Def|PronType=Art	42	det	42:det	Entity=(3-place-giv:inact-sssss-cf6-5-coref-United_States
 39	most	most	ADV	RBS	Degree=Sup	42	advmod	42:advmod	_
 40	phenomenal	phenomenal	ADJ	JJ	Degree=Pos	42	amod	42:amod	MSeg=phenomen-al
-41	military	military	ADJ	JJ	Degree=Pos	42	amod	42:amod	_
+41	military	military	ADJ	JJ	Degree=Pos	42	amod	42:amod	MSeg=milit-ary
 42	power	power	NOUN	NN	Number=Sing	36	obl	36:obl:in	_
 43	in	in	ADP	IN	_	44	case	44:case	_
 44	history	history	NOUN	NN	Number=Sing	42	nmod	42:nmod:in	Entity=3)29)54)|SpaceAfter=No
@@ -553,7 +553,7 @@
 5	but	but	CCONJ	CC	_	7	cc	7:cc	Discourse=adversative-concession:46->45:2:dm-but-386-gold+lex-indph-407-408-_|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:but:386:382-385:387-415
 6	there	there	PRON	EX	PronType=Dem	7	expl	7:expl	_
 7	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	3:conj:but	Cxn=Existential-CopPred-ThereExpl
-8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(55-event-new-nnnnn-cf4-2-sgl
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(55-event-new-nnnnn-cf5-2-sgl
 9	quid	quid	X	FW	_	7	nsubj	7:nsubj	CxnElt=7:Existential-CopPred-ThereExpl.Pivot
 10	pro	pro	X	FW	_	11	case	11:case	_
 11	quo	quo	X	FW	_	9	nmod	9:nmod:pro	Entity=55)|SpaceAfter=No
@@ -565,7 +565,7 @@
 17	not	not	PART	RB	Polarity=Neg	18	advmod	18:advmod	Negation=Yes
 18	expand	expand	VERB	VB	VerbForm=Inf	9	acl	9:acl:that	_
 19	to	to	ADP	IN	_	21	case	21:case	_
-20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(56-place-new-nnsnn-cf6-2-coref
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Bridge=29<56:entity-associative|Entity=(56-place-acc:inf-nnsnn-cf4-2-coref
 21	east	east	NOUN	NN	Number=Sing	18	obl	18:obl:to	Entity=56)|SpaceAfter=No
 22	,	,	PUNCT	,	_	28	punct	28:punct	_
 23	so	so	SCONJ	IN	_	28	mark	28:mark	Discourse=purpose-goal:48->46:1:dm-so-404-gold|PDTB=Explicit:Contingency.Purpose.Arg2-as-goal:so:404:386-403:405-415
@@ -574,7 +574,7 @@
 26	at	at	ADP	IN	_	27	case	27:case	_
 27	least	least	ADJ	JJS	Degree=Sup	28	obl	28:obl:at	_
 28	have	have	VERB	VB	VerbForm=Inf	7	parataxis	7:parataxis	_
-29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	30:det	Entity=(57-place-new-nnnnn-cf5-2-sgl
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	30:det	Entity=(57-place-new-nnnnn-cf6-2-sgl
 30	kind	kind	NOUN	NN	Number=Sing	28	obj	28:obj	_
 31	of	of	ADP	IN	_	33	case	33:case	_
 32	security	security	NOUN	NN	Number=Sing	33	compound	33:compound	MSeg=secur-ity
@@ -626,7 +626,7 @@
 7	weapons	weapon	NOUN	NNS	Number=Plur	8	compound	8:compound	Entity=(61-object-new-nnnnn-cf5-1-sgl)|MSeg=weapon-s
 8	zone	zone	NOUN	NN	Number=Sing	3	obj	3:obj	_
 9	in	in	ADP	IN	_	11	case	11:case	_
-10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(62-place-new-nnnnn-cf4-2-sgl
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Bridge=56<62:entity-associative|Entity=(62-place-acc:inf-nnnnn-cf4-2-sgl
 11	region	region	NOUN	NN	Number=Sing	8	nmod	8:nmod:in	Entity=62)60)|SpaceAfter=No
 12	,	,	PUNCT	,	_	18	punct	18:punct	_
 13	but	but	CCONJ	CC	_	18	cc	18:cc	Discourse=adversative-contrast_m:52->51:0:dm-but-451-gold|PDTB=Explicit:Comparison.Contrast:but:451:439-450:452-458
@@ -651,7 +651,7 @@
 4	that	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	7:nsubj	Entity=(49-abstract-giv:inact-nnnnn-cf1-1-ana)
 5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(49-abstract-giv:act-nnnnn-cf1-2-coref
-7	basis	basis	NOUN	NN	Number=Sing	0	root	0:root|16:obl:on	_
+7	basis	basis	NOUN	NN	Number=Sing	0	root	0:root|16:obl:on	MSeg=bas-is
 8	on	on	ADP	IN	_	9	case	9:case	Discourse=elaboration-attribute:54->53:0:syn-mdf-465-_+syn-relcl-467,474-_;joint-sequence:54->39:0:5:orp-after-470-gold+orp-then-468-gold
 9	which	which	PRON	WDT	PronType=Rel	16	obl	7:ref	_
 10	then	then	ADV	RB	PronType=Dem	16	advmod	16:advmod	PDTB=Explicit:Temporal.Asynchronous.Precedence:then:468:439-458:459-467,469-475
@@ -669,7 +669,7 @@
 # transition = null
 # speaker = NoamChomsky
 # text = Well, Clinton came into office what did he do?
-1	Well	well	INTJ	UH	_	4	discourse	4:discourse	Discourse=context-circumstance:55->56:0:_|SpaceAfter=No
+1	Well	well	INTJ	UH	_	4	discourse	4:discourse	Discourse=context-circumstance:55->56:0:_|PDTB=Implicit:Expansion.Conjunction:indeed:_:459-475:476-486|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	Clinton	Clinton	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Entity=(63-person-new-nnnnn-cf1-1-coref-Bill_Clinton)
 4	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -730,11 +730,11 @@
 10	Union	Union	PROPN	NNP	Number=Sing	6	nmod	6:nmod:to	Entity=43)64)|SpaceAfter=No
 11	,	,	PUNCT	,	_	13	punct	13:punct	_
 12	to	to	ADP	IN	_	13	case	13:case	_
-13	Russia	Russia	PROPN	NNP	Number=Sing	6	nmod	6:nmod:to	Entity=(53-place-giv:inact-nnnsn-cf2-1-coref-Russia)
-14	now	now	ADV	RB	_	17	advmod	17:advmod	Discourse=context-circumstance:62->61:0:dm-now that-523-524-gold|PDTB=Explicit:Temporal.Synchronous:now that:523-524:510-522:525-532
+13	Russia	Russia	PROPN	NNP	Number=Sing	10	conj	6:nmod:to|10:conj	Entity=(53-place-giv:inact-nnnsn-cf2-1-coref-Russia)
+14	now	now	ADV	RB	_	6	advmod	6:advmod	Discourse=context-circumstance:62->61:0:dm-now that-523-524-gold|PDTB=Explicit:Temporal.Synchronous:now that:523-524:510-522:525-532
 15	that	that	SCONJ	IN	_	17	mark	17:mark	_
 16	there	there	PRON	EX	PronType=Dem	17	expl	17:expl	_
-17	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	6:advcl:that	Cxn=Existential-CopPred-ThereExpl
+17	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	ccomp	14:ccomp	Cxn=Existential-CopPred-ThereExpl
 18	no	no	ADV	RB	Degree=Pos|Polarity=Neg	19	advmod	19:advmod	Negation=Yes
 19	longer	long	ADV	RBR	Degree=Cmp	17	advmod	17:advmod	MSeg=long-er
 20	any	any	DET	DT	PronType=Ind	22	det	22:det	Entity=(43-place-giv:act-snsnn-cf3-2,3-coref-Soviet_Union
@@ -748,7 +748,7 @@
 28	threat	threat	NOUN	NN	Number=Sing	6	parataxis	6:parataxis	_
 29	to	to	ADP	IN	_	30	case	30:case	_
 30	Russia	Russia	PROPN	NNP	Number=Sing	28	nmod	28:nmod:to	Entity=(53-place-giv:act-nnnsn-cf2-1-coref-Russia)64)
-31	and	and	CCONJ	CC	_	35	cc	35:cc	Discourse=joint-other_m:64->39:6:_|PDTB=Explicit:Contingency.Cause.Reason:and:540:487-509:510-539,541-556
+31	and	and	CCONJ	CC	_	35	cc	35:cc	Discourse=joint-other_m:64->39:6:_|PDTB=Explicit:Contingency.Cause.Result:and:540:487-509:510-539,541-556
 32	not	not	PART	RB	Polarity=Neg	33	advmod	33:advmod	Negation=Yes
 33	surprisingly	surprisingly	ADV	RB	Degree=Pos	35	advmod	35:advmod	MSeg=surpris-ing-ly
 34	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	35	nsubj	35:nsubj	Entity=(53-place-giv:act-nnnsn-cf2-1-ana-Russia)
@@ -772,7 +772,7 @@
 # transition = smooth-shift
 # speaker = NoamChomsky
 # text = So they rescinded their pledge not to use nuclear weapons on first strike, NATO had never rescinded it, but they had and started some remilitarization.
-1	So	so	ADV	RB	_	3	advmod	3:advmod	Discourse=elaboration-additional:67->64:3:ref-prs-522,558-_|PDTB=EntRel:EntRel:_:_:510-556:557-584;Explicit:Contingency.Cause.Result:so:557:487-509:558-584
+1	So	so	ADV	RB	_	3	advmod	3:advmod	Discourse=elaboration-additional:67->64:3:ref-prs-522,558-_|PDTB=Explicit:Contingency.Cause.Result:so:557:487-509:558-584;Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:510-556:557-584
 2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(53-place-giv:act-nnnsn-cf1*-1-ana-Russia)
 3	rescinded	rescind	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=rescind-ed
 4	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(68-abstract-new-nnnnn-cf2-2-coref(53-place-giv:act-nnnsn-cf1*-1-ana-Russia)
@@ -807,7 +807,7 @@
 # transition = retain
 # speaker = NoamChomsky
 # text = With Bush, the aggressive militarism of the Bush administration, as predicted, induced Russia to extend further its offensive military capacity; it’s still going on right now.
-1	With	with	ADP	IN	_	2	case	2:case	Discourse=joint-other_m:71->39:6:grf-semcol-608-_
+1	With	with	ADP	IN	_	2	case	2:case	Discourse=joint-other_m:71->39:6:grf-semcol-608-_|PDTB=Implicit:Expansion.Conjunction:in fact:_:557-584:585-616
 2	Bush	Bush	PROPN	NNP	Number=Sing	15	obl	15:obl:with	Entity=(72-person-new-nnnnn-cf6-1-coref-George_H._W._Bush)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(73-abstract-new-nnnnn-cf4-3-sgl
@@ -828,7 +828,7 @@
 19	further	far	ADV	RBR	Degree=Cmp	18	advmod	18:advmod	MSeg=furth-er
 20	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	23:nmod:poss	Entity=(67-abstract-giv:inact-nnnnn-cf3-4-coref(53-place-giv:act-nnnsn-cf2*-1-ana-Russia)|MSeg=it-s
 21	offensive	offensive	ADJ	JJ	Degree=Pos	23	amod	23:amod	MSeg=offens-ive
-22	military	military	ADJ	JJ	Degree=Pos	23	amod	23:amod	_
+22	military	military	ADJ	JJ	Degree=Pos	23	amod	23:amod	MSeg=milit-ary
 23	capacity	capacity	NOUN	NN	Number=Sing	18	obj	18:obj	Entity=67)75)|MSeg=capaci-ty|SpaceAfter=No
 24	;	;	PUNCT	:	_	28	punct	28:punct	_
 25-26	it’s	_	_	_	_	_	_	_	_
@@ -879,7 +879,7 @@
 # transition = zero
 # speaker = NoamChomsky
 # text = I mean that was discussed in U.S arms control journals, that they would have to regard as a potential threat to their strategic deterrent, meaning as a first strike weapon.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:77->78:1:sem-atsrc-642-_+lex-indwd-643-_+syn-rpr-653-_|Entity=(2-person-giv:inact-sssss-cf2-1-ana-Noam_Chomsky)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:77->78:1:sem-atsrc-642-_+lex-indwd-643-_+syn-rpr-653-_|Entity=(2-person-giv:inact-sssss-cf2-1-ana-Noam_Chomsky)|PDTB=Implicit:Expansion.Conjunction:furthermore:_:617-641:642-674
 2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	parataxis	5:parataxis	_
 3	that	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj:pass	5:nsubj:pass	Discourse=elaboration-additional:78->71:3:_
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	5:aux:pass	_
@@ -920,7 +920,7 @@
 # speaker = NoamChomsky
 # text = And the claim was that it had to do with Iranian missiles, but forget about that.
 1	And	and	CCONJ	CC	_	7	cc	7:cc	Discourse=adversative-concession:81->82:0:dm-but-688-gold|PDTB=Explicit:Expansion.Conjunction:and:675:642-674:676-692
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(85-abstract-new-nnnnn-cf1-2-coref
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=76<85:entity-associative|Entity=(85-abstract-acc:inf-nnnnn-cf1-2-coref
 3	claim	claim	NOUN	NN	Number=Sing	7	nsubj:outer	7:nsubj:outer|9:nsubj:xsubj|15:nsubj:outer	Entity=85)
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
 5	that	that	SCONJ	IN	_	7	mark	7:mark	_
@@ -932,7 +932,7 @@
 11	Iranian	Iranian	ADJ	JJ	Degree=Pos	12	amod	12:amod	Entity=(86-abstract-new-nnnnn-cf3-2-sgl|MSeg=Iran-ian
 12	missiles	missile	NOUN	NNS	Number=Plur	9	obl	9:obl:with	Entity=86)85)|MSeg=missile-s|SpaceAfter=No
 13	,	,	PUNCT	,	_	15	punct	15:punct	_
-14	but	but	CCONJ	CC	_	15	cc	15:cc	Discourse=context-background:82->78:2:dm-and-675-gold|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:688:675-687:689-692
+14	but	but	CCONJ	CC	_	15	cc	15:cc	Discourse=context-background:82->78:2:_;joint-list:82->78:1:2:orp-and-675-gold|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:688:675-687:689-692
 15	forget	forget	VERB	VB	VerbForm=Inf	7	conj	7:conj:but	MSeg=for-get
 16	about	about	ADP	IN	_	17	case	17:case	_
 17	that	that	PRON	DT	Number=Sing|PronType=Dem	15	obl	15:obl:about	Entity=(85-abstract-giv:act-nnnnn-cf1-1-coref)|SpaceAfter=No
@@ -944,7 +944,7 @@
 # transition = null
 # speaker = NoamChomsky
 # text = Take say on Obama, Obama’s national security advisor James Jones former Marine commandant is on record of favoring expansion of NATO to the south and the east, further expansion of NATO, and also making it an intervention force.
-1	Take	take	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-preparation:83->85:2:sem-rpt-696,698-699-_
+1	Take	take	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-preparation:83->85:2:sem-rpt-696,698-699-_|PDTB=Implicit:Expansion.Conjunction:and:_:675-692:693-735
 2	say	say	VERB	VB	VerbForm=Inf	1	discourse	1:discourse	_
 3	on	on	ADP	IN	_	4	case	4:case	_
 4	Obama	Obama	PROPN	NNP	Number=Sing	1	obl	1:obl:on	Entity=(87-person-new-nnnnn-cf2-1-coref-Barack_Obama)|SpaceAfter=No
@@ -969,7 +969,7 @@
 22	of	of	ADP	IN	_	23	case	23:case	_
 23	NATO	NATO	PROPN	NNP	Abbr=Yes|Number=Sing	21	nmod	21:nmod:of	Entity=(29-organization-giv:inact-sssss-cf1-1-coref-NATO)
 24	to	to	ADP	IN	_	26	case	26:case	_
-25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(91-place-new-nnnnn-cf6-2-sgl
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Bridge=29<91:entity-associative|Entity=(91-place-acc:inf-nnnnn-cf6-2-sgl
 26	south	south	NOUN	NN	Number=Sing	21	nmod	21:nmod:to	Entity=91)
 27	and	and	CCONJ	CC	_	29	cc	29:cc	_
 28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	29:det	Entity=(56-place-giv:inact-nnsnn-cf5-2-coref
@@ -1028,11 +1028,11 @@
 31	NATO	NATO	PROPN	NNP	Abbr=Yes|Number=Sing	35	nsubj	35:nsubj	Entity=(29-organization-giv:act-sssss-cf2*-1-coref-NATO)
 32	must	must	AUX	MD	VerbForm=Fin	35	aux	35:aux	_
 33	be	be	AUX	VB	VerbForm=Inf	35	cop	35:cop	_
-34	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	35:det	Entity=(98-organization-new-nnnnn-cf8-2-sgl
+34	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	35:det	Entity=(98-organization-new-nnnnn-cf8-2-coref
 35	guarantor	guarantor	NOUN	NN	Number=Sing	16	parataxis	16:parataxis	MSeg=guarant-or
 36	of	of	ADP	IN	_	38	case	38:case	_
 37	energy	energy	NOUN	NN	Number=Sing	38	compound	38:compound	Entity=(99-abstract-new-nnsnn-cf9-2-sgl
-38	supplies	supply	NOUN	NNS	Number=Plur	35	nmod	35:nmod:of	MSeg=supp-lie-s
+38	supplies	supply	NOUN	NNS	Number=Plur	35	nmod	35:nmod:of	MSeg=supplie-s
 39	for	for	ADP	IN	_	41	case	41:case	_
 40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	41:det	Entity=(100-place-new-nnsnn-cf5-2-coref-Western_world
 41	West	West	PROPN	NNP	Number=Sing	38	nmod	38:nmod:for	Entity=100)99)98)|SpaceAfter=No
@@ -1044,13 +1044,13 @@
 # transition = retain
 # speaker = NoamChomsky
 # text = Well that’s kind of an unending war, so do we want NATO to exist, do we want there to be a Western military alliance that carries out these activities, with no pretense of defense?
-1	Well	well	INTJ	UH	_	8	discourse	8:discourse	Discourse=evaluation-comment:91->85:4:_;explanation-justify:91->92:0:1:orp-so-787-gold
+1	Well	well	INTJ	UH	_	8	discourse	8:discourse	Discourse=evaluation-comment:91->85:4:_;explanation-justify:91->92:0:1:orp-so-787-gold|PDTB=Implicit:Expansion.Conjunction:but:_:736-777:778-816
 2-3	that’s	_	_	_	_	_	_	_	_
-2	that	that	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	8:nsubj	Bridge=5<101|Entity=(101-event-acc:inf-nnnnn-cf3-1-coref)
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	8:nsubj	Entity=(101-event-new-nnnnn-cf4-1-cata)
 3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
 4	kind	kind	NOUN	NN	ExtPos=ADV|Number=Sing	8	advmod	8:advmod	_
 5	of	of	ADP	IN	_	4	fixed	4:fixed	_
-6	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(101-event-giv:act-nnnnn-cf3-3-coref
+6	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(101-event-acc:com-nnnnn-cf4-3-coref
 7	unending	unending	ADJ	JJ	Degree=Pos	8	amod	8:amod	MSeg=un-end-ing|Negation=Yes
 8	war	war	NOUN	NN	Number=Sing	0	root	0:root	Entity=101)|SpaceAfter=No
 9	,	,	PUNCT	,	_	13	punct	13:punct	_
@@ -1068,14 +1068,14 @@
 21	there	there	PRON	EX	PronType=Dem	23	expl	23:expl	_
 22	to	to	PART	TO	_	23	mark	23:mark	_
 23	be	be	VERB	VB	VerbForm=Inf	20	xcomp	20:xcomp	Cxn=Existential-CopPred-ThereExpl
-24	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	27:det	Entity=(104-organization-new-nsnnn-cf4-4-sgl
+24	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	27:det	Entity=(104-organization-new-nsnnn-cf5-4-sgl
 25	Western	Western	ADJ	JJ	Degree=Pos	27	amod	27:amod	MSeg=West-ern
-26	military	military	ADJ	JJ	Degree=Pos	27	amod	27:amod	_
+26	military	military	ADJ	JJ	Degree=Pos	27	amod	27:amod	MSeg=milit-ary
 27	alliance	alliance	NOUN	NN	Number=Sing	23	nsubj	23:nsubj|29:nsubj	CxnElt=23:Existential-CopPred-ThereExpl.Pivot|MSeg=alli-ance
 28	that	that	PRON	WDT	PronType=Rel	29	nsubj	27:ref	Discourse=elaboration-attribute:94->93:0:syn-mdf-804-_+syn-relcl-805-806-_
 29	carries	carry	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	27:acl:relcl	MSeg=carrie-s
 30	out	out	ADP	RP	_	29	compound:prt	29:compound:prt	_
-31	these	this	DET	DT	Number=Plur|PronType=Dem	32	det	32:det	Entity=(105-event-new-nnnnn-cf5-2-sgl
+31	these	this	DET	DT	Number=Plur|PronType=Dem	32	det	32:det	Bridge=98<105:entity-associative|Entity=(105-event-acc:inf-nnnnn-cf3-2-sgl
 32	activities	activity	NOUN	NNS	Number=Plur	29	obj	29:obj	Entity=105)|MSeg=act-iv-itie-s|SpaceAfter=No
 33	,	,	PUNCT	,	_	36	punct	36:punct	_
 34	with	with	ADP	IN	_	36	case	36:case	_
@@ -1091,7 +1091,7 @@
 # transition = rough-shift
 # speaker = NoamChomsky
 # text = Well I think that’s a pretty good question; I don’t see why it should, I mean there happens to be no other military alliance remotely comparable — if there happened to be one I’d be opposed to that too.
-1	Well	well	INTJ	UH	_	3	discourse	3:discourse	Discourse=attribution-positive:95->96:0:sem-atsrc-818-_+lex-indwd-819-_|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:778-816:817-861
+1	Well	well	INTJ	UH	_	3	discourse	3:discourse	Discourse=attribution-positive:95->96:0:sem-atsrc-818-_+lex-indwd-819-_|PDTB=Implicit:Comparison.Contrast:in fact:_:778-816:817-861;Implicit:Expansion.Equivalence:in other words:_:189-205:817-861
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(2-person-giv:inact-sssss-cf1-1-ana-Noam_Chomsky)
 3	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4-5	that’s	_	_	_	_	_	_	_	_
@@ -1118,8 +1118,8 @@
 23	to	to	PART	TO	_	24	mark	24:mark	_
 24	be	be	VERB	VB	VerbForm=Inf	22	xcomp	22:xcomp	_
 25	no	no	DET	DT	PronType=Neg	28	det	28:det	Negation=Yes
-26	other	other	ADJ	JJ	Degree=Pos	28	amod	28:amod	Entity=(108-organization-new-nnnnn-cf4-3-coref
-27	military	military	ADJ	JJ	Degree=Pos	28	amod	28:amod	_
+26	other	other	ADJ	JJ	Degree=Pos	28	amod	28:amod	Bridge=29<108:comparison-relative|Entity=(108-organization-acc:inf-nnnnn-cf4-3-coref
+27	military	military	ADJ	JJ	Degree=Pos	28	amod	28:amod	MSeg=milit-ary
 28	alliance	alliance	NOUN	NN	Number=Sing	24	nsubj	24:nsubj	MSeg=alli-ance
 29	remotely	remotely	ADV	RB	Degree=Pos	30	advmod	30:advmod	MSeg=remote-ly
 30	comparable	comparable	ADJ	JJ	Degree=Pos	28	amod	28:amod	Entity=108)|MSeg=compar-able
@@ -1284,7 +1284,7 @@
 # transition = zero
 # speaker = NoamChomsky
 # text = I mean there’s certainly signs of it, and in the United States too, in fact we had a sit down strike in the United States not long ago, which is a very militant labor action.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:116->117:0:sem-atsrc-949-_+lex-indwd-950-_|Entity=(2-person-giv:inact-sssss-cf3-1-ana-Noam_Chomsky)|PDTB=Implicit:Comparison.Concession.Arg2-as-denier:but:_:942-948:949-988
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:116->117:0:sem-atsrc-949-_+lex-indwd-950-_|Entity=(2-person-giv:inact-sssss-cf3-1-ana-Noam_Chomsky)|PDTB=NoRel:NoRel:_:_:942-948:949-988
 2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	4:parataxis	_
 3-4	there’s	_	_	_	_	_	_	_	_
 3	there	there	PRON	EX	PronType=Dem	4	expl	4:expl	Discourse=joint-other_m:117->98:6:grf-semcol-826-_
@@ -1332,7 +1332,7 @@
 # transition = null
 # speaker = NoamChomsky
 # text = Sit down strikes which began at a significant level in the 1930’s were very threatening to management and ownership, because the sit down strike is one step before workers taking over the factory and running it and kicking out the management, and probably doing a better job.
-1	Sit	sit	VERB	VB	VerbForm=Inf	3	compound	3:compound	Discourse=context-background:120->118:1:_|Entity=(120-event-new-nnnnn-cf6-3-coref|PDTB=Implicit:Expansion.Conjunction:in fact:_:949-988:989-1038
+1	Sit	sit	VERB	VB	VerbForm=Inf	3	compound	3:compound	Discourse=context-background:120->118:1:_|Entity=(120-event-new-nnnnn-cf7-3-coref|PDTB=Implicit:Expansion.Conjunction:in fact:_:949-988:989-1038
 2	down	down	ADP	RP	_	1	compound:prt	1:compound:prt	_
 3	strikes	strike	NOUN	NNS	Number=Plur	15	nsubj	5:nsubj|15:nsubj	MSeg=strike-s
 4	which	which	PRON	WDT	PronType=Rel	5	nsubj	3:ref	Discourse=elaboration-attribute:121->120:0:syn-mdf-991-_+syn-relcl-992-993-_
@@ -1342,7 +1342,7 @@
 8	significant	significant	ADJ	JJ	Degree=Pos	9	amod	9:amod	MSeg=signific-ant
 9	level	level	NOUN	NN	Number=Sing	5	obl	5:obl:at	Entity=121)
 10	in	in	ADP	IN	_	12	case	12:case	_
-11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(122-time-acc:com-nnnnn-cf4-2-sgl-1930s
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(122-time-acc:com-nnnnn-cf5-2-sgl-1930s
 12	1930’s	1930s	PROPN	NNPS	Number=Plur	5	obl	5:obl:in	Entity=122)120)|XML=<date from:::"1930-01-01" to:::"1939-12-31"></date>
 13	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	cop	15:cop	Discourse=same-unit_m:122->120:1:_
 14	very	very	ADV	RB	_	15	advmod	15:advmod	_
@@ -1353,7 +1353,7 @@
 19	ownership	ownership	NOUN	NN	Number=Sing	17	conj	15:obl:to|17:conj:and	Entity=(124-abstract-new-nnnnn-cf9-1-sgl)|MSeg=own-er-ship|SpaceAfter=No
 20	,	,	PUNCT	,	_	28	punct	28:punct	_
 21	because	because	SCONJ	IN	_	28	mark	28:mark	Discourse=explanation-justify:123->120:2:_|MSeg=be-cause
-22	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Bridge=120<125|Entity=(125-event-acc:inf-nnnnn-cf3-4-sgl
+22	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Bridge=120<125:set-member|Entity=(125-event-acc:inf-nnnnn-cf3-4-sgl
 23	sit	sit	VERB	VB	VerbForm=Inf	25	compound	25:compound	_
 24	down	down	ADP	RP	_	23	compound:prt	23:compound:prt	_
 25	strike	strike	NOUN	NN	Number=Sing	28	nsubj	28:nsubj	Entity=125)
@@ -1361,10 +1361,10 @@
 27	one	one	NUM	CD	NumForm=Word|NumType=Card	28	nummod	28:nummod	_
 28	step	step	NOUN	NN	Number=Sing	15	advcl	15:advcl:because	_
 29	before	before	SCONJ	IN	_	31	mark	31:mark	_
-30	workers	worker	NOUN	NNS	Number=Plur	31	nsubj	31:nsubj|36:nsubj|39:nsubj|46:nsubj	Entity=(126-event-new-nnnnn-cf10-2,7,10-disc(127-person-new-nnnnn-cf5-1-sgl)|MSeg=work-er-s
+30	workers	worker	NOUN	NNS	Number=Plur	31	nsubj	31:nsubj|36:nsubj|39:nsubj|46:nsubj	Entity=(126-event-new-nnnnn-cf10-2,7,10-disc(127-person-new-nnnnn-cf6-1-coref)|MSeg=work-er-s
 31	taking	take	VERB	VBG	VerbForm=Ger	28	acl	28:acl:before	Discourse=elaboration-attribute:124->123:0:dm-because-1009-gold+syn-mdf-1016-_+syn-nmn-1019-_;explanation-justify:124->128:1:0:orp-so-1039-gold|MSeg=tak-ing
 32	over	over	ADP	RP	_	31	compound:prt	31:compound:prt	_
-33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	34:det	Entity=(128-organization-new-nnnnn-cf1-2-coref
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	34:det	Bridge=127<128:entity-associative|Entity=(128-organization-acc:inf-nnnnn-cf1-2-coref
 34	factory	factory	NOUN	NN	Number=Sing	31	obj	31:obj	Entity=128)|MSeg=factor-y
 35	and	and	CCONJ	CC	_	36	cc	36:cc	Discourse=joint-list_m:125->124:0:dm-and-1023-gold|PDTB=Explicit:Expansion.Conjunction:and:1023:1019-1022:1024-1025
 36	running	run	VERB	VBG	VerbForm=Ger	31	conj	28:acl:before|31:conj:and	MSeg=runn-ing
@@ -1375,10 +1375,10 @@
 41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	42:det	Entity=(123-organization-giv:act-nnnnn-cf2-2-coref
 42	management	management	NOUN	NN	Number=Sing	39	obj	39:obj	Entity=123)126)|MSeg=manage-ment|SpaceAfter=No
 43	,	,	PUNCT	,	_	46	punct	46:punct	_
-44	and	and	CCONJ	CC	_	46	cc	46:cc	Discourse=joint-list_m:127->124:0:dm-and-1032-gold|PDTB=Explicit:Expansion.Conjunction:and:1032:1026-1031:1033-1038
+44	and	and	CCONJ	CC	_	46	cc	46:cc	Discourse=joint-list_m:127->124:0:sem-mrnym-1029-1030,1035-1037-_+dm-and-1032-gold|PDTB=Explicit:Expansion.Conjunction:and:1032:1026-1031:1033-1038
 45	probably	probably	ADV	RB	Degree=Pos	46	advmod	46:advmod	MSeg=probab-ly
 46	doing	do	VERB	VBG	VerbForm=Ger	31	conj	28:acl:before|31:conj:and	MSeg=do-ing
-47	a	a	DET	DT	Definite=Ind|PronType=Art	49	det	49:det	Entity=(129-abstract-new-nnnnn-cf7-3-sgl
+47	a	a	DET	DT	Definite=Ind|PronType=Art	49	det	49:det	Bridge=123<129:comparison-relative|Entity=(129-abstract-acc:inf-nnnnn-cf4-3-sgl
 48	better	good	ADJ	JJR	Degree=Cmp	49	amod	49:amod	MSeg=bett-er
 49	job	job	NOUN	NN	Number=Sing	46	obj	46:obj	Entity=129)|SpaceAfter=No
 50	.	.	PUNCT	.	_	15	punct	15:punct	_
@@ -1413,7 +1413,7 @@
 # transition = zero
 # speaker = NoamChomsky
 # text = Well we just had one in the United States at the Republic Windows and Doors Factory, it’s hard to know, I mean these things are just hard to predict, they may take off, and they may take on a broader scope, they may fizzle away or be diverted.
-1	Well	well	INTJ	UH	_	4	discourse	4:discourse	Discourse=elaboration-additional:130->118:2:sem-rpt-960-962,1061-1063-_+ref-prs-967,1056-_+sem-synym-969-972,1059-_|PDTB=EntRel:EntRel:_:_:1039-1054:1055-1109
+1	Well	well	INTJ	UH	_	4	discourse	4:discourse	Discourse=elaboration-additional:130->118:2:sem-rpt-960-962,1061-1063-_+ref-prs-967,1056-_+sem-synym-969-972,1059-_|PDTB=Implicit:Comparison.Concession.Arg1-as-denier:in fact:_:949-988:1055-1109;Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:1039-1054:1055-1109
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(103-person-giv:inact-nnnnn-cf2-1-ana)
 3	just	just	ADV	RB	_	4	advmod	4:advmod	_
 4	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -1439,7 +1439,7 @@
 23	,	,	PUNCT	,	_	30	punct	30:punct	_
 24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	25:nsubj	Discourse=attribution-positive:132->133:0:sem-atsrc-1078-_+lex-indwd-1079-_|Entity=(2-person-giv:inact-sssss-cf3-1-ana-Noam_Chomsky)
 25	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	30	parataxis	30:parataxis	_
-26	these	this	DET	DT	Number=Plur|PronType=Dem	27	det	27:det	Bridge=119<133|Discourse=elaboration-additional:133->131:0:_|Entity=(133-abstract-acc:inf-nnnnn-cf1-2-coref
+26	these	this	DET	DT	Number=Plur|PronType=Dem	27	det	27:det	Bridge=119<133:entity-associative|Discourse=elaboration-additional:133->131:0:_|Entity=(133-abstract-acc:inf-nnnnn-cf1-2-coref
 27	things	thing	NOUN	NNS	Number=Plur	30	nsubj	30:nsubj	Entity=133)|MSeg=thing-s
 28	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	cop	30:cop	_
 29	just	just	ADV	RB	_	30	advmod	30:advmod	_

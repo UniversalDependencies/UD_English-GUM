@@ -137,7 +137,7 @@
 48	um	um	INTJ	UH	_	46	discourse	46:discourse	SpaceAfter=No
 49	,	,	PUNCT	,	_	51	punct	51:punct	_
 50	for	for	ADP	IN	_	51	case	51:case	_
-51	wintertime	wintertime	NOUN	NN	Number=Sing	46	obl	46:obl:for	Entity=(9-time-new-nnnnn-cf6-1-coref)8)|MSeg=winter-time|XML=<date from:::"2020-12" to:::"2021-02"></date>
+51	wintertime	wintertime	NOUN	NN	Number=Sing	46	obl	46:obl:for	Entity=(9-time-new-nnnnn-cf6-1-sgl)8)|MSeg=winter-time|XML=<date from:::"2020-12" to:::"2021-02"></date>
 52	because	because	SCONJ	IN	_	55	mark	55:mark	Discourse=explanation-motivation:9->8:0:dm-because-90-gold|MSeg=be-cause|PDTB=Explicit:Contingency.Cause.Reason:because:90:81-89:91-99
 53	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	55	nsubj	55:nsubj|59:nsubj:xsubj	_
 54	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	aux	55:aux	_
@@ -171,7 +171,7 @@
 14	hair	hair	NOUN	NN	Number=Sing	11	nmod	11:nmod:of	Entity=11)10)|SpaceAfter=No
 15	,	,	PUNCT	,	_	28	punct	28:punct	_
 16	but	but	CCONJ	CC	_	28	cc	28:cc	Discourse=elaboration-additional:11->9:0:sem-lxchn-97,117-gold|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:115:100-114:116-128
-17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Bridge=9<12|Entity=(12-time-acc:inf-nnsnn-cf2-3-sgl
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(12-time-auto-nnsnn-cf2-3-sgl
 18	colder	cold	ADJ	JJR	Degree=Cmp	19	amod	19:amod	MSeg=cold-er
 19	months	month	NOUN	NNS	Number=Plur	28	nsubj	28:nsubj	MSeg=mon-th-s
 20	in	in	ADP	IN	_	22	case	22:case	_
@@ -191,7 +191,7 @@
 # transition = zero
 # speaker = Shawnta
 # text = Um, it's not like super cold w- where I am just yet, but it's getting there, so ignore my hair right now.
-1	Um	um	INTJ	UH	_	8	discourse	8:discourse	Discourse=adversative-concession:12->13:0:lex-indwd-142-_+dm-but-144-gold|SpaceAfter=No
+1	Um	um	INTJ	UH	_	8	discourse	8:discourse	Discourse=adversative-concession:12->13:0:lex-indwd-142-_+dm-but-144-gold|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:100-128:129-156|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3-4	it's	_	_	_	_	_	_	_	_
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj	_
@@ -215,7 +215,7 @@
 20	there	there	ADV	RB	PronType=Dem	19	advmod	19:advmod	SpaceAfter=No
 21	,	,	PUNCT	,	_	23	punct	23:punct	_
 22	so	so	ADV	RB	_	23	advmod	23:advmod	Discourse=adversative-concession:14->6:3:_
-23	ignore	ignore	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	19	parataxis	19:parataxis	_
+23	ignore	ignore	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	19	parataxis	19:parataxis	_
 24	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	25	nmod:poss	25:nmod:poss	Entity=(16-object-new-nnnnn-cf2-2-coref(3-person-giv:act-sssss-cf1-1-ana)
 25	hair	hair	NOUN	NN	Number=Sing	23	obj	23:obj	Entity=16)
 26	right	right	ADV	RB	Degree=Pos	27	advmod	27:advmod	_
@@ -242,7 +242,7 @@
 # transition = continue
 # speaker = Shawnta
 # text = I just now got done washing it.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj:pass	5:nsubj:pass|6:nsubj:xsubj	Discourse=causal-cause:17->16:1:_|Entity=(3-person-giv:act-sssss-cf1*-1-ana)|PDTB=Implicit:Contingency.Cause.Reason:because:_:157-163:164-171
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj:pass	5:nsubj:pass|6:nsubj:xsubj	Discourse=causal-cause:17->16:1:_|Entity=(3-person-giv:act-sssss-cf1*-1-ana)|PDTB=Implicit:Comparison.Concession.Arg1-as-denier:but:_:11-38:164-171;Implicit:Contingency.Cause.Reason:because:_:157-163:164-171
 2	just	just	ADV	RB	_	3	advmod	3:advmod	_
 3	now	now	ADV	RB	_	5	advmod	5:advmod	_
 4	got	get	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux:pass	5:aux:pass	_
@@ -315,7 +315,7 @@
 # transition = continue
 # speaker = Shawnta
 # text = So this product line is the Angelic Coco line, and I have been working on this line since 2019.
-1	So	so	INTJ	UH	_	9	discourse	9:discourse	Discourse=ROOT:23:0|PDTB=Implicit:Contingency.Cause.Reason:because:_:197-210:211-231
+1	So	so	INTJ	UH	_	9	discourse	9:discourse	Discourse=ROOT:23:0|PDTB=EntRel:EntRel:_:_:197-210:211-231
 2	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Entity=(6-abstract-giv:inact-nssss-cf2-3-coref
 3	product	product	NOUN	NN	Number=Sing	4	compound	4:compound	MSeg=produc-t
 4	line	line	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	Entity=6)
@@ -384,12 +384,12 @@
 8	,	,	PUNCT	,	_	9	punct	9:punct	_
 9	like	like	INTJ	UH	_	7	discourse	7:discourse	SpaceAfter=No
 10	,	,	PUNCT	,	_	14	punct	14:punct	_
-11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(21-abstract-new-nnnnn-cf5-4-sgl
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Bridge=7<21:comparison-relative|Entity=(21-abstract-acc:inf-nnnnn-cf4-4-sgl
 12	lot	lot	NOUN	NN	Number=Sing	13	obl:unmarked	13:obl:unmarked	_
 13	more	more	ADJ	JJR	Degree=Cmp	14	amod	14:amod	_
 14	stuff	stuff	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=21)
 15	in	in	ADP	IN	_	17	case	17:case	_
-16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(22-time-acc:com-nnnnn-cf4-2-sgl
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Bridge=5<22:comparison-time|Entity=(22-time-acc:inf-nnnnn-cf5-2-sgl
 17	future	future	NOUN	NN	Number=Sing	7	obl	7:obl:in	Entity=22)|SpaceAfter=No
 18	,	,	PUNCT	,	_	22	punct	22:punct	_
 19	but	but	CCONJ	CC	_	22	cc	22:cc	Discourse=elaboration-additional:29->23:1:_|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:272:232-253:254-271,273-282
@@ -410,7 +410,7 @@
 # transition = retain
 # speaker = Shawnta
 # text = I wanted to get these out to you guys because you guys have been asking for styling products since the beginning, so I'm so glad to finally have actual styling products that I can, um, you know, present to you guys.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj|4:nsubj:xsubj	Discourse=causal-cause:30->32:1:dm-so-305-gold|Entity=(3-person-giv:inact-sssss-cf1-1-ana)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj|4:nsubj:xsubj	Discourse=causal-cause:30->32:1:dm-so-305-gold|Entity=(3-person-giv:inact-sssss-cf1-1-ana)|PDTB=Implicit:Contingency.Cause.Reason:because:_:254-282:283-329
 2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=want-ed
 3	to	to	PART	TO	_	4	mark	4:mark	_
 4	get	get	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	_
@@ -429,7 +429,7 @@
 17	styling	styling	NOUN	NN	Number=Sing	18	compound	18:compound	Entity=(23-substance-new-nnnnn-cf5-2-sgl|MSeg=styl-ing
 18	products	product	NOUN	NNS	Number=Plur	15	obl	15:obl:for	Entity=23)|MSeg=produc-t-s
 19	since	since	ADP	IN	_	21	case	21:case	_
-20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Bridge=2<24|Entity=(24-time-acc:inf-nnnnn-cf4-2-sgl
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Bridge=2<24:entity-associative|Entity=(24-time-acc:inf-nnnnn-cf4-2-sgl
 21	beginning	beginning	NOUN	NN	Number=Sing	15	obl	15:obl:since	Entity=24)|MSeg=beginn-ing|SpaceAfter=No
 22	,	,	PUNCT	,	_	27	punct	27:punct	_
 23	so	so	ADV	RB	_	27	advmod	27:advmod	Discourse=explanation-justify:32->29:1:_|PDTB=Explicit:Contingency.Cause.Result:so:305:283-304:306-329
@@ -465,8 +465,8 @@
 # transition = smooth-shift
 # speaker = Shawnta
 # text = So this first product that I'm going to show you guys is the Nourished by Shawnta Curl Defining and Soft Hold Styler, which is enriched with sesame seed oil and rose essence.
-1	So	so	INTJ	UH	_	23	discourse	23:discourse	Discourse=organization-preparation:36->40:7:ref-prs-331-341,366-_+sem-rpt-362,380-_
-2	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Bridge=7<25|Entity=(25-substance-acc:inf-sssss-cf2-3-coref
+1	So	so	INTJ	UH	_	23	discourse	23:discourse	Discourse=organization-preparation:36->40:7:ref-prs-331-341,366-_+sem-rpt-362,380-_|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:283-329:330-364
+2	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Bridge=7<25:comparison-relative;set-member|Entity=(25-substance-acc:inf-sssss-cf2-3-coref
 3	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	4	amod	4:amod	_
 4	product	product	NOUN	NN	Number=Sing	23	nsubj	8:obj|23:nsubj	MSeg=produc-t
 5	that	that	PRON	WDT	PronType=Rel	8	obj	4:ref	Discourse=elaboration-attribute:37->36:0:syn-mdf-333-_+syn-relcl-334,337-_
@@ -555,7 +555,7 @@
 # speaker = Shawnta
 # text = It's so moisturizing.
 1-2	It's	_	_	_	_	_	_	_	_
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=elaboration-additional:44->40:2:ref-prs-366,396-_|Entity=(25-substance-giv:act-sssss-cf1*-1-ana)|PDTB=EntRel:EntRel:_:_:384-395:396-400
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=elaboration-additional:44->40:2:ref-prs-366,396-_|Entity=(25-substance-giv:act-sssss-cf1*-1-ana)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:384-395:396-400
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 3	so	so	ADV	RB	_	4	advmod	4:advmod	XML=<hi rend:::"lengthened"></hi>
 4	moisturizing	moisturizing	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=moisturiz-ing|SpaceAfter=No
@@ -586,7 +586,7 @@
 3	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 4	see	see	VERB	VB	VerbForm=Inf	0	root	0:root	_
 5	on	on	ADP	IN	_	7	case	7:case	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(32-object-acc:com-nnnnn-cf3-2-sgl
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Bridge=2<32:entity-associative|Entity=(32-object-acc:inf-nnnnn-cf3-2-sgl
 7	camera	camera	NOUN	NN	Number=Sing	4	obl	4:obl:on	Entity=32)
 8-9	it's	_	_	_	_	_	_	_	_
 8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	Discourse=restatement-repetition_m:47->45:0:ref-prs-401,414-_+sem-lxchn-405,417-_|Entity=(25-substance-giv:act-sssss-cf1*-1-ana)
@@ -601,7 +601,7 @@
 # transition = continue
 # speaker = Shawnta
 # text = Um, it does have like a butter feel to it.
-1	Um	um	INTJ	UH	_	5	discourse	5:discourse	Discourse=joint-list_m:48->44:0:_|SpaceAfter=No
+1	Um	um	INTJ	UH	_	5	discourse	5:discourse	Discourse=joint-list_m:48->44:0:_|PDTB=Implicit:Expansion.Conjunction:and:_:407-418:419-430|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(25-substance-giv:act-sssss-cf1*-1-ana)
 4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	MSeg=doe-s
@@ -666,7 +666,7 @@
 # transition = continue
 # speaker = Shawnta
 # text = The ingredients in here are super jam-packed.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=explanation-evidence:53->56:1:_|Entity=(34-substance-new-nnnss-cf2-2-coref
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=explanation-evidence:53->56:1:_|Entity=(34-substance-new-nnnss-cf2-2-coref|PDTB=Implicit:Expansion.Conjunction:further:_:446-460:461-470
 2	ingredients	ingredient	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj	MSeg=ingredient-s
 3	in	in	ADP	IN	_	4	case	4:case	_
 4	here	here	ADV	RB	PronType=Dem	2	nmod	2:nmod:in	Entity=(25-substance-giv:act-sssss-cf1*-1-coref)34)
@@ -742,7 +742,7 @@
 17	to	to	PART	TO	_	18	mark	18:mark	Discourse=purpose-goal:60->57:1:syn-inf-511-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:495-510:511-517
 18	give	give	VERB	VB	VerbForm=Inf	16	advcl	16:advcl:to	Cxn=Ditransitive|CxnElt=18:Ditransitive.V
 19	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	18	iobj	18:iobj	CxnElt=18:Ditransitive.Rec|Entity=(1-person-giv:act-nnnsn-cf1*-1-ana)
-20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(38-abstract-new-nnnnn-cf6-3-sgl
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(38-abstract-new-nnnnn-cf7-3-sgl
 21	nice	nice	ADJ	JJ	Degree=Pos	22	amod	22:amod	_
 22	style	style	NOUN	NN	Number=Sing	18	obj	18:obj	CxnElt=18:Ditransitive.Theme|Entity=38)|SpaceAfter=No
 23	,	,	PUNCT	,	_	26	punct	26:punct	_
@@ -756,8 +756,8 @@
 31	to	to	PART	TO	_	32	mark	32:mark	_
 32	make	make	VERB	VB	VerbForm=Inf	30	xcomp	30:xcomp	_
 33	sure	sure	ADJ	JJ	Degree=Pos	32	xcomp	32:xcomp	_
-34	that	that	SCONJ	IN	_	39	mark	39:mark	Discourse=adversative-contrast_m:63->57:3:dm-but-522-gold
-35	all	all	DET	PDT	PronType=Tot	37	det:predet	37:det:predet	Entity=(40-substance-new-nnnnn-cf4-3-coref
+34	that	that	SCONJ	IN	_	39	mark	39:mark	Discourse=adversative-contrast_m:63->57:3:sem-mrnym-513,538-539-_+dm-but-522-gold
+35	all	all	DET	PDT	PronType=Ind	37	det:predet	37:det:predet	Entity=(40-substance-new-nnnnn-cf4-3-coref
 36	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	37	nmod:poss	37:nmod:poss	Entity=(3-person-giv:act-sssss-cf2-1-ana)
 37	products	product	NOUN	NNS	Number=Plur	39	nsubj:pass	39:nsubj:pass	Entity=40)|MSeg=produc-t-s
 38	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	aux:pass	39:aux:pass	_
@@ -766,7 +766,7 @@
 41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	42:det	Entity=(36-abstract-giv:act-nssns-cf5-2-coref
 42	health	health	NOUN	NN	Number=Sing	39	obl	39:obl:towards	MSeg=heal-th
 43	of	of	ADP	IN	_	45	case	45:case	_
-44	the	the	DET	DT	Definite=Def|PronType=Art	45	det	45:det	Entity=(41-object-new-nsnnn-cf7-2-coref
+44	the	the	DET	DT	Definite=Def|PronType=Art	45	det	45:det	Bridge=1<41:entity-meronomy|Entity=(41-object-acc:inf-nsnnn-cf6-2-coref
 45	hair	hair	NOUN	NN	Number=Sing	42	nmod	42:nmod:of	Entity=41)36)
 46	even	even	ADV	RB	_	51	advmod	51:advmod	Discourse=adversative-concession:64->63:0:dm-even if-540-541-gold|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:even if:540-541:528-539:542-546
 47	if	if	SCONJ	IN	_	51	mark	51:mark	_
@@ -817,7 +817,7 @@
 12	,	,	PUNCT	,	_	13	punct	13:punct	_
 13	nutrients	nutrient	NOUN	NNS	Number=Plur	11	appos	11:appos	Entity=(43-substance-new-nnnnn-cf3-1-sgl)|MSeg=nutrient-s
 14	in	in	ADP	IN	_	16	case	16:case	_
-15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	16:det	Bridge=25<44|Entity=(44-substance-acc:inf-nnnnn-cf1-2-sgl
+15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	16:det	Bridge=25<44:entity-associative|Entity=(44-substance-acc:inf-nnnnn-cf1-2-sgl
 16	formula	formula	NOUN	NN	Number=Sing	13	nmod	13:nmod:in	Entity=44)|MSeg=form-ul-a|SpaceAfter=No
 17	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -841,10 +841,10 @@
 12	,	,	PUNCT	,	_	13	punct	13:punct	_
 13	along	along	ADV	RB	Degree=Pos	11	advmod	11:advmod	MSeg=a-long
 14	with	with	ADP	IN	_	21	case	21:case	_
-15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(45-plant-new-nsnnn-cf4-7-sgl
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Bridge=35<45:comparison-relative|Entity=(45-plant-acc:inf-nsnnn-cf4-7-sgl
 16	lot	lot	NOUN	NN	Number=Sing	17	obl:unmarked	17:obl:unmarked	_
 17	more	more	ADJ	JJR	Degree=Cmp	21	amod	21:amod	_
-18	nutrient	nutrient	NOUN	NN	Number=Sing	20	compound	20:compound	SpaceAfter=No|XML=<w>
+18	nutrient	nutrient	NOUN	NN	Number=Sing	20	compound	20:compound	MSeg=nutri-ent|SpaceAfter=No|XML=<w>
 19	-	-	PUNCT	HYPH	_	18	punct	18:punct	SpaceAfter=No
 20	dense	dense	ADJ	JJ	Degree=Pos	21	amod	21:amod	XML=</w>
 21	botanicals	botanical	NOUN	NNS	Number=Plur	13	obl	13:obl:with	Entity=45)|MSeg=botan-ical-s
@@ -927,7 +927,7 @@
 # transition = smooth-shift
 # speaker = Shawnta
 # text = I really did want to make sure that I infused that into the product as well.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj|6:nsubj:xsubj|7:nsubj:xsubj	Discourse=attribution-positive:75->76:0:sem-atsrc-647-gold+lex-indwd-652-_+lex-indwd-653-_+syn-rpr-654-_|Entity=(3-person-giv:act-sssss-cf1*-1-ana)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj|6:nsubj:xsubj|7:nsubj:xsubj	Discourse=attribution-positive:75->76:0:sem-atsrc-647-gold+lex-indwd-652-_+lex-indwd-653-_+syn-rpr-654-_|Entity=(3-person-giv:act-sssss-cf1*-1-ana)|PDTB=Implicit:Contingency.Cause.Result:so:_:628-646:647-663
 2	really	really	ADV	RB	Degree=Pos	4	advmod	4:advmod	MSeg=real-ly
 3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	aux	4:aux	_
 4	want	want	VERB	VB	VerbForm=Inf	0	root	0:root	_
@@ -951,7 +951,7 @@
 # transition = smooth-shift
 # speaker = Shawnta
 # text = If you guys are wondering, the smell of this product is very natural.
-1	If	if	SCONJ	IN	_	5	mark	5:mark	Discourse=topic-solutionhood:77->78:2:dm-if-664-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:664:670-678:665-669
+1	If	if	SCONJ	IN	_	5	mark	5:mark	Discourse=topic-solutionhood:77->78:2:dm-if-664-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:664:670-678:665-669;Implicit:Expansion.Conjunction:furthermore:_:647-663:664-678
 2	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	dep	3:dep	Entity=(1-person-giv:inact-nnnsn-cf2-2-coref
 3	guys	guy	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=1)|MSeg=guy-s
 4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
@@ -996,7 +996,7 @@
 # transition = zero
 # speaker = Shawnta
 # text = With all of my products are normally like a pretty natural smell.
-1	With	with	ADP	IN	Typo=Yes	2	case	2:case	CorrectForm=_|Discourse=context-background:81->78:3:_|XML=<sic ana:::""></sic>
+1	With	with	ADP	IN	Typo=Yes	2	case	2:case	CorrectForm=_|Discourse=context-background:81->78:3:_|PDTB=Implicit:Expansion.Conjunction:in fact:_:679-692:693-705|XML=<sic ana:::""></sic>
 2	all	all	DET	DT	PronType=Tot	6	obl	6:obl:with	Entity=(40-substance-giv:inact-nnnnn-cf2-1-ana
 3	of	of	ADP	IN	_	5	case	5:case	_
 4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(3-person-giv:inact-sssss-cf1-1-ana)
@@ -1036,7 +1036,7 @@
 # transition = continue
 # speaker = Shawnta
 # text = I can just like – I can't even begin to tell you how much time and effort I put into this line.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=organization-phatic:83->85:1:syn-intrp-722-_|Entity=(3-person-giv:act-sssss-cf1*-1-ana)|XML=<sic>
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=organization-phatic:83->85:1:syn-intrp-722-_|Entity=(3-person-giv:act-sssss-cf1*-1-ana)|PDTB=NoRel:NoRel:_:_:706-717:718-741|XML=<sic>
 2	can	can	AUX	MD	VerbForm=Fin	10	reparandum	10:reparandum	_
 3	just	just	ADV	RB	_	2	advmod	2:advmod	_
 4	like	like	INTJ	UH	_	2	discourse	2:discourse	_
@@ -1147,7 +1147,7 @@
 # speaker = Shawnta
 # text = I'm just so excited to finally, like, give it to you guys and know that it's gonna contribute to the actual health of your hair.
 1-2	I'm	_	_	_	_	_	_	_	_
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj|11:nsubj:xsubj|17:nsubj:xsubj	Discourse=restatement-partial:93->86:2:ref-prs-746,788-_|Entity=(3-person-giv:act-sssss-cf1*-1-ana)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj|11:nsubj:xsubj|17:nsubj:xsubj	Discourse=restatement-partial:93->86:2:ref-prs-746,788-_|Entity=(3-person-giv:act-sssss-cf1*-1-ana)|PDTB=Implicit:Expansion.Equivalence:in other words:_:780-787:788-818
 2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	just	just	ADV	RB	_	5	advmod	5:advmod	_
 4	so	so	ADV	RB	_	5	advmod	5:advmod	_
@@ -1171,7 +1171,7 @@
 21-22	gonna	_	_	_	_	_	_	_	_
 21	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	17	ccomp	17:ccomp	XML=<w>
 22	na	to	PART	TO	_	23	mark	23:mark	XML=</w>
-23	contribute	contribute	VERB	VB	VerbForm=Inf	21	xcomp	21:xcomp	_
+23	contribute	contribute	VERB	VB	VerbForm=Inf	21	xcomp	21:xcomp	MSeg=contribut-e
 24	to	to	ADP	IN	_	27	case	27:case	_
 25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(36-abstract-giv:inact-nssns-cf4-3-coref
 26	actual	actual	ADJ	JJ	Degree=Pos	27	amod	27:amod	MSeg=act-ual
@@ -1187,7 +1187,7 @@
 # transition = smooth-shift
 # speaker = Shawnta
 # text = You can use this on twist outs.
-1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=elaboration-additional:96->40:6:_|Entity=(1-person-giv:act-nnnsn-cf1*-1-ana)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=elaboration-additional:96->40:6:_|Entity=(1-person-giv:act-nnnsn-cf1*-1-ana)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:and:_:788-818:819-826
 2	can	can	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	use	use	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	obj	3:obj	Entity=(6-abstract-giv:act-nssss-cf2-1-ana)
@@ -1348,12 +1348,12 @@
 # transition = continue
 # speaker = Shawnta
 # text = So that brings us to the next product, which is my curl defining jelly.
-1	So	so	INTJ	UH	_	3	discourse	3:discourse	Discourse=organization-preparation:108->114:1:sem-rpt-949-958,988-990-_+sem-lxchn-957,1008-_+sem-lxchn-958,1016-_
+1	So	so	INTJ	UH	_	3	discourse	3:discourse	Discourse=organization-preparation:108->114:1:sem-rpt-949-958,988-990-_+sem-lxchn-957,1008-_+sem-lxchn-958,1016-_|PDTB=Implicit:Expansion.Conjunction:and:_:883-943:944-959
 2	that	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	_
 3	brings	bring	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=bring-s
 4	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obj	3:obj	Entity=(18-person-giv:inact-nnnnn-cf3-1-ana)
 5	to	to	ADP	IN	_	8	case	8:case	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Bridge=7<66|Entity=(66-substance-acc:inf-sssss-cf2-3-coref
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Bridge=25<66:comparison-relative|Entity=(66-substance-acc:inf-sssss-cf2-3-coref
 7	next	next	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	product	product	NOUN	NN	Number=Sing	3	obl	3:obl:to|15:nsubj	MSeg=produc-t|SpaceAfter=No
 9	,	,	PUNCT	,	_	15	punct	15:punct	_
@@ -1466,7 +1466,7 @@
 # transition = zero
 # speaker = Shawnta
 # text = Amazing for hair moisture.
-1	Amazing	Amazing	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=elaboration-additional:118->117:0:_|MSeg=Amaz-ing
+1	Amazing	amazing	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=elaboration-additional:118->117:0:_|MSeg=Amaz-ing
 2	for	for	ADP	IN	_	4	case	4:case	_
 3	hair	hair	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(70-substance-new-nnnnn-cf2-2-sgl(41-object-giv:inact-nsnnn-cf1-1-coref)
 4	moisture	moisture	NOUN	NN	Number=Sing	1	obl	1:obl:for	Entity=70)|MSeg=moist-ure|SpaceAfter=No
@@ -1478,7 +1478,7 @@
 # transition = null
 # speaker = Shawnta
 # text = So with gels – a lot of times you will find gels that kinda, like, dry out your hair.
-1	So	so	INTJ	UH	_	11	discourse	11:discourse	Discourse=adversative-concession:119->123:1:dm-but-1076-gold
+1	So	so	INTJ	UH	_	11	discourse	11:discourse	Discourse=adversative-concession:119->123:1:dm-but-1076-gold|PDTB=Implicit:Expansion.Conjunction:and:_:1031-1035:1036-1057
 2	with	with	ADP	IN	_	3	case	3:case	_
 3	gels	gel	NOUN	NNS	Number=Plur	11	reparandum	11:reparandum	Entity=(65-substance-giv:inact-nnnnn-cf3-1-coref)|MSeg=gel-s
 4	–	-	PUNCT	:	_	3	punct	3:punct	_
@@ -1622,7 +1622,7 @@
 # transition = zero
 # speaker = Shawnta
 # text = You guys already know that – if you follow my channel for a while, you know that I use, like, light defining gels and jellies and stuff all throughout my channel.
-1	You	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	dep	2:dep	Discourse=attribution-positive:131->134:0:sem-atsrc-1143-1144,1158-_+lex-indwd-1146-_+lex-indwd-1159-_+syn-rpr-1160-_|Entity=(1-person-giv:inact-nnnsn-cf1-2-coref
+1	You	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	dep	2:dep	Discourse=attribution-positive:131->134:0:sem-atsrc-1143-1144,1158-_+lex-indwd-1146-_+lex-indwd-1159-_+syn-rpr-1160-_|Entity=(1-person-giv:inact-nnnsn-cf1-2-coref|PDTB=Implicit:Expansion.Conjunction:and:_:1128-1142:1143-1177
 2	guys	guy	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=1)|MSeg=guy-s
 3	already	already	ADV	RB	_	4	advmod	4:advmod	MSeg=al-ready
 4	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	reparandum	17:reparandum	_
@@ -1645,7 +1645,7 @@
 21	,	,	PUNCT	,	_	22	punct	22:punct	_
 22	like	like	INTJ	UH	_	20	discourse	20:discourse	SpaceAfter=No
 23	,	,	PUNCT	,	_	26	punct	26:punct	_
-24	light	light	ADJ	JJ	Degree=Pos	26	amod	26:amod	Entity=(79-substance-new-nnnnn-cf4-3-sgl
+24	light	light	ADJ	JJ	Degree=Pos	26	amod	26:amod	Entity=(79-substance-new-nnnnn-cf4-3-coref
 25	defining	defining	PROPN	NNP	Number=Sing	26	compound	26:compound	MSeg=defin-ing
 26	gels	gel	NOUN	NNS	Number=Plur	20	obj	20:obj	Entity=79)|MSeg=gel-s
 27	and	and	CCONJ	CC	_	28	cc	28:cc	_
@@ -1664,12 +1664,12 @@
 # transition = establishment
 # speaker = Shawnta
 # text = Um, and more of the harder gels that really, like, make your hair feel super hard – I don't normally use those because I don't feel like you need all that.
-1	Um	um	INTJ	UH	_	4	discourse	4:discourse	Discourse=adversative-antithesis:135->140:0:_|PDTB=Implicit:Expansion.Conjunction:and:_:1143-1177:1178-1214|SpaceAfter=No
+1	Um	um	INTJ	UH	_	4	discourse	4:discourse	Discourse=adversative-antithesis:135->140:0:_|PDTB=EntRel:EntRel:_:_:1143-1177:1178-1214|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
 4	more	more	ADJ	JJR	Degree=Cmp	25	reparandum	25:reparandum	_
 5	of	of	ADP	IN	_	8	case	8:case	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(82-substance-new-nnnnn-cf3-3-coref
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Bridge=79<82:comparison-relative|Entity=(82-substance-acc:inf-nnnnn-cf3-3-coref
 7	harder	hard	ADJ	JJR	Degree=Cmp	8	amod	8:amod	MSeg=hard-er
 8	gels	gel	NOUN	NNS	Number=Plur	4	obl	4:obl:of|14:nsubj	MSeg=gel-s
 9	that	that	PRON	WDT	PronType=Rel	14	nsubj	8:ref	Discourse=elaboration-attribute:136->135:0:syn-mdf-1185-_+syn-relcl-1186,1191-_
@@ -1700,7 +1700,7 @@
 32	like	like	SCONJ	IN	_	34	mark	34:mark	Discourse=causal-cause:139->135:2:dm-because-1204-gold
 33	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	34	nsubj	34:nsubj	Entity=(1-person-giv:act-nnnsn-cf2-1-ana)
 34	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	31	advcl	31:advcl:like	_
-35	all	all	DET	PDT	PronType=Tot	36	det:predet	36:det:predet	Entity=(82-substance-giv:act-nnnnn-cf3-2-ana
+35	all	all	DET	PDT	PronType=Ind	36	det:predet	36:det:predet	Entity=(82-substance-giv:act-nnnnn-cf3-2-ana
 36	that	that	PRON	DT	Number=Sing|PronType=Dem	34	obj	34:obj	Entity=82)|SpaceAfter=No
 37	.	.	PUNCT	.	_	25	punct	25:punct	_
 

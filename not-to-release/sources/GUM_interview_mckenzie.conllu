@@ -45,7 +45,7 @@
 # transition = establishment
 # text = On Saturday, Wikinews interviewed Tina McKenzie, a former member of the Australia women's national wheelchair basketball team, known as the Gliders.
 1	On	on	ADP	IN	_	2	case	2:case	Discourse=context-background:3->7:2:lex-indwd-21-_+lex-indph-33-34-_|PDTB=NoRel:NoRel:_:_:7-11:12-37
-2	Saturday	Saturday	PROPN	NNP	Number=Sing	5	obl	5:obl:on	Entity=(6-time-acc:com-nnnnn-cf5-1-sgl)|SpaceAfter=No|XML=<date when:::"2013-12-28"></date>
+2	Saturday	Saturday	PROPN	NNP	Number=Sing	5	obl	5:obl:on	Bridge=1<6:comparison-time|Entity=(6-time-acc:inf-nnnnn-cf5-1-sgl)|MSeg=Satur-day|SpaceAfter=No|XML=<date when:::"2013-12-28"></date>
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	Wikinews	Wikinews	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(7-organization-acc:com-sssnn-cf4-1-coref-Wikinews)|MSeg=Wiki-new-s|XML=<hi rend:::"italic"></hi>
 5	interviewed	interview	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=interview-ed
@@ -107,7 +107,7 @@
 # s_type = decl
 # transition = continue
 # text = Wikinews caught up with her in a cafe in the leafy Melbourne suburb of Preston.
-1	Wikinews	Wikinews	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint-other_m:6->3:2:_|Entity=(7-organization-giv:inact-sssnn-cf2-1-coref-Wikinews)|MSeg=Wiki-new-s|XML=<hi rend:::"italic"></hi>
+1	Wikinews	Wikinews	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint-other_m:6->3:2:_|Entity=(7-organization-giv:inact-sssnn-cf2-1-coref-Wikinews)|MSeg=Wiki-new-s|PDTB=Implicit:Expansion.Conjunction:indeed:_:38-61:62-77|XML=<hi rend:::"italic"></hi>
 2	caught	catch	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	up	up	ADP	RP	_	2	compound:prt	2:compound:prt	_
 4	with	with	ADP	IN	_	5	case	5:case	_
@@ -197,7 +197,7 @@
 1-2	It's	_	_	_	_	_	_	_	_
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	Discourse=context-background:12->13:0:_;explanation-justify:12->13:0:0:orp-so-123-gold|Entity=(18-event-giv:act-nssnn-cf1*-1-ana)|PDTB=Hypophora:Hypophora:_:_:108-113:114-242
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
-3	quite	quite	DET	PDT	_	7	det:predet	7:det:predet	Entity=(18-event-giv:act-nssnn-cf1*-5-pred
+3	quite	quite	DET	PDT	PronType=Ind	7	det:predet	7:det:predet	Entity=(18-event-giv:act-nssnn-cf1*-5-pred
 4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	_
 5	large	large	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 6	Canadian	Canadian	ADJ	JJ	Degree=Pos	7	amod	7:amod	MSeg=Canad-ian
@@ -289,9 +289,9 @@
 4	can	can	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
 5	compete	compete	VERB	VB	VerbForm=Inf	0	root	0:root	Entity=(24-event-new-nnnnn-cf4-1-disc
 6	against	against	ADP	IN	_	7	case	7:case	MSeg=a-gainst
-7	each	each	DET	DT	ExtPos=PRON|PronType=Rcp	5	obl	5:obl:against	Bridge=9<25|Entity=(25-organization-acc:inf-nnnnn-cf2-1-coref-Australia_women's_national_wheelchair_basketball_team
+7	each	each	DET	DT	ExtPos=PRON|PronType=Rcp	5	obl	5:obl:against	Bridge=9<25:comparison-relative;comparison-sense|Entity=(25-organization-acc:inf-nnnnn-cf2-1-coref-Australia_women's_national_wheelchair_basketball_team
 8	other	other	ADJ	JJ	Degree=Pos	7	fixed	7:fixed	Entity=25)24)
-9	all	all	DET	PDT	PronType=Tot	11	det:predet	11:det:predet	_
+9	all	all	DET	PDT	PronType=Ind	11	det:predet	11:det:predet	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	_
 11	time	time	NOUN	NN	Number=Sing	5	obl:unmarked	5:obl:unmarked	_
 12	within	within	ADP	IN	_	13	case	13:case	MSeg=with-in
@@ -370,10 +370,10 @@
 # speaker = TinaMcKenzie
 # text = Also see where all the other teams are at as well.
 1	Also	also	ADV	RB	_	2	advmod	2:advmod	Discourse=attribution-positive:24->25:0:sem-atsrc-228-gold+lex-indwd-232-_|PDTB=Explicit:Expansion.Conjunction:also:231:201-230:232-242
-2	see	see	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	_
-3	where	where	ADV	WRB	PronType=Rel	2	obj	2:obj	Discourse=purpose-goal:25->22:2:_;joint-list:25->22:1:2:orp-also-231-gold
-4	all	all	DET	PDT	PronType=Tot	7	det:predet	7:det:predet	_
-5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(29-organization-new-nnnnn-cf1-3-sgl
+2	see	see	VERB	VB	VerbForm=Inf	0	root	0:root	_
+3	where	where	ADV	WRB	PronType=Rel	2	obj	2:obj	Discourse=purpose-goal:25->22:2:_;joint-list:25->22:1:2:orp-also-231-gold+sem-mrnym-228,235-237-_
+4	all	all	DET	PDT	PronType=Ind	7	det:predet	7:det:predet	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Bridge=25<29:comparison-relative|Entity=(29-organization-acc:inf-nnnnn-cf1-3-sgl
 6	other	other	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	teams	team	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj	Entity=29)|MSeg=team-s
 8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
@@ -404,8 +404,8 @@
 # text = We took quite a few new girls over there back then in 2005, leading into the World Cup in the Netherlands.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration-additional:27->26:0:ref-prs-246,258-_|Entity=(25-organization-giv:inact-nnnnn-cf2-1-ana-Australia_women's_national_wheelchair_basketball_team)|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:243-249:250-272
 2	took	take	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
-3	quite	quite	DET	PDT	_	7	det:predet	7:det:predet	_
-4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(30-person-new-nnnnn-cf4-4-sgl
+3	quite	quite	DET	PDT	PronType=Ind	7	det:predet	7:det:predet	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Bridge=25<30:comparison-relative|Entity=(30-person-acc:inf-nnnnn-cf4-4-sgl
 5	few	few	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 6	new	new	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	girls	girl	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=30)|MSeg=girl-s
@@ -418,7 +418,7 @@
 14	,	,	PUNCT	,	_	15	punct	15:punct	_
 15	leading	lead	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	2:advcl	Discourse=context-circumstance:28->27:0:syn-pres-264-_|MSeg=lead-ing|PDTB=Implicit:Temporal.Asynchronous.Succession:when:_:250-263:264-272
 16	into	into	ADP	IN	_	19	case	19:case	MSeg=in-to
-17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Bridge=10<32|Entity=(32-event-acc:inf-nnnnn-cf3-2,3,6-coref
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(32-event-auto-nnnnn-cf3-2,3,6-coref
 18	World	World	PROPN	NNP	Number=Sing	19	compound	19:compound	XML=<ref>
 19	Cup	Cup	PROPN	NNP	Number=Sing	15	obl	15:obl:into	XML=</ref>
 20	in	in	ADP	IN	_	22	case	22:case	_
@@ -436,12 +436,12 @@
 # text = Was that the one where you were the captain of the team, in 2005?
 1	Was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	Discourse=topic-question:29->32:1:grf-qst-288-_+lex-indwd-296-_
 2	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Entity=(32-event-giv:act-nnnnn-cf1*-1-ana)
-3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(34-event-new-nnnnn-cf6-2-coref
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=32<34:comparison-sense|Entity=(34-event-acc:inf-nnnnn-cf5-2-coref
 4	one	one	NOUN	NN	Number=Sing	0	root	0:root|9:obl	Cxn=Interrogative-Polar-Direct|CxnElt=4:Interrogative-Polar-Direct.Clause
 5	where	where	ADV	WRB	PronType=Rel	9	advmod	4:ref|9:advmod	Discourse=elaboration-attribute:30->29:0:syn-mdf-276-_+syn-relcl-277,281-_
 6	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Entity=(8-person-giv:inact-sssss-cf4-1-ana-Tina_McKenzie)
 7	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	9	cop	9:cop	_
-8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(35-person-new-nnnnn-cf5-2-sgl
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(35-person-new-nnnnn-cf6-2-sgl
 9	captain	captain	NOUN	NN	Number=Sing	4	acl:relcl	4:acl:relcl	_
 10	of	of	ADP	IN	_	12	case	12:case	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(25-organization-giv:act-nnnnn-cf2-2-coref-Australia_women's_national_wheelchair_basketball_team
@@ -460,7 +460,7 @@
 1	Or	or	CCONJ	CC	_	6	cc	6:cc	Discourse=joint-disjunction_m:31->29:1:dm-or-289-gold|PDTB=Explicit:Expansion.Disjunction:or:289:273-288:290-295
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
 3	that	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Entity=(34-event-giv:act-nnnnn-cf1*-1-ana)
-4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Bridge=34<36|Entity=(36-event-acc:inf-nnnnn-cf2-3-sgl
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Bridge=34<36:comparison-relative;comparison-sense|Entity=(36-event-acc:inf-nnnnn-cf2-3-sgl
 5	later	late	ADJ	JJR	Degree=Cmp	6	amod	6:amod	MSeg=lat-er
 6	one	one	NOUN	NN	Number=Sing	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=6:Interrogative-Polar-Direct.Clause|Entity=36)|SpaceAfter=No
 7	?	?	PUNCT	.	_	6	punct	6:punct	_
@@ -628,7 +628,7 @@
 # transition = continue
 # speaker = TinaMcKenzie
 # text = It was one of the worst World Cups we've played actually.
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Bridge=49<50|Discourse=evaluation-comment:41->40:0:lex-indwd-387-_|Entity=(50-event-acc:inf-nnnnn-cf2-1-coref)|PDTB=Implicit:Expansion.Conjunction:in fact:_:374-381:382-394
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Bridge=49<50:entity-associative|Discourse=evaluation-comment:41->40:0:lex-indwd-387-_|Entity=(50-event-acc:inf-nnnnn-cf2-1-coref)|PDTB=Implicit:Expansion.Conjunction:in fact:_:374-381:382-394
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	3:cop	_
 3	one	one	NUM	CD	NumForm=Word|NumType=Card	0	root	0:root	Entity=(50-event-giv:act-nnnnn-cf2-1-coref
 4	of	of	ADP	IN	_	8	case	8:case	_
@@ -671,7 +671,7 @@
 # transition = continue
 # speaker = TinaMcKenzie
 # text = We just didn't play as well as we thought we would.
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	Discourse=joint-sequence_m:47->39:0:dm-and-395-gold+dm-then-396-gold|Entity=(25-organization-giv:act-nnnnn-cf1*-1-ana-Australia_women's_national_wheelchair_basketball_team)|PDTB=Implicit:Contingency.Cause.Reason:because:_:395-408:409-421
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	Discourse=joint-sequence_m:47->39:0:dm-and-395-gold+dm-then-396-gold|Entity=(25-organization-giv:act-nnnnn-cf1*-1-ana-Australia_women's_national_wheelchair_basketball_team)|PDTB=EntRel:EntRel:_:_:395-408:409-421
 2	just	just	ADV	RB	_	5	advmod	5:advmod	_
 3-4	didn't	_	_	_	_	_	_	_	_
 3	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	5	aux	5:aux	_
@@ -729,7 +729,7 @@
 # transition = null
 # speaker = TinaMcKenzie
 # text = So the World Cup is ... it's good to be able to do well at the World Cup, to be placed, but it also means that you get a really good opportunity to know where you're at in that two year gap between the Paralympics.
-1	So	so	ADV	RB	_	5	advmod	5:advmod	Discourse=organization-phatic:53->54:2:_|PDTB=Explicit:Contingency.Cause.Result:so:438:366-373:439-487
+1	So	so	ADV	RB	_	5	advmod	5:advmod	Discourse=organization-phatic:53->54:2:_|PDTB=Explicit:Contingency.Cause.Result:so:438:366-373:439-487;Implicit:Expansion.Conjunction:and:_:430-437:438-487
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(42-event-giv:inact-snnnn-cf2-2,3-coref-Wheelchair_Basketball_World_Championship
 3	World	World	PROPN	NNP	Number=Sing	4	compound	4:compound	_
 4	Cup	Cup	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=42)
@@ -793,7 +793,7 @@
 3	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux|8:aux	_
 4	come	come	VERB	VB	VerbForm=Inf	0	root	0:root	_
 5	back	back	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
-6	home	home	ADV	RB	Degree=Pos	4	advmod	4:advmod	Entity=(58-place-new-nnnnn-cf4-1-sgl)
+6	home	home	ADV	RB	Degree=Pos	4	advmod	4:advmod	Bridge=54<58:entity-associative|Entity=(58-place-acc:inf-nnnnn-cf4-1-sgl)
 7	and	and	CCONJ	CC	_	8	cc	8:cc	_
 8	revisit	revisit	VERB	VB	VerbForm=Inf	4	conj	4:conj:and	MSeg=re-visit
 9	what	what	PRON	WP	PronType=Rel	8	obj	8:obj	_
@@ -821,7 +821,7 @@
 # speaker = TinaMcKenzie
 # text = And all that sort of stuff.
 1	And	and	CCONJ	CC	_	4	cc	4:cc	Discourse=restatement-partial:62->59:1:dm-and-512-gold|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:and:512:488-511:513-518
-2	all	all	DET	PDT	PronType=Tot	4	det:predet	4:det:predet	Entity=(59-abstract-acc:com-nnnnn-cf1-3-sgl
+2	all	all	DET	PDT	PronType=Ind	4	det:predet	4:det:predet	Entity=(59-abstract-acc:com-nnnnn-cf1-3-sgl
 3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	_
 4	sort	sort	NOUN	NN	Number=Sing	0	root	0:root	_
 5	of	of	ADP	IN	_	6	case	6:case	_

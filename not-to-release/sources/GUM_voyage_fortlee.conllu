@@ -52,7 +52,7 @@
 2	of	of	ADP	IN	_	9	case	9:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(4-abstract-new-nnnnn-cf2-2,3,7-sgl(5-place-new-nssns-cf3-2,3,4-coref-George_Washington_Bridge
 4	George	George	PROPN	NNP	Number=Sing	6	compound	6:compound	Entity=(6-person-new-nssns-cf7-2-coref-George_Washington
-5	Washington	Washington	PROPN	NNP	Number=Sing	6	compound	6:compound	Entity=6)
+5	Washington	Washington	PROPN	NNP	Number=Sing	6	compound	6:compound	Entity=6)|MSeg=Wash-ing-ton
 6-7	Bridge's	_	_	_	_	_	_	_	_
 6	Bridge	Bridge	PROPN	NNP	Number=Sing	9	nmod:poss	9:nmod:poss	_
 7	's	's	PART	POS	_	6	case	6:case	Entity=5)
@@ -79,7 +79,7 @@
 # s_type = imp
 # transition = zero
 # text = Understand
-1	Understand	understand	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:6->7:2:grf-ly-_-_|MSeg=Under-stand
+1	Understand	understand	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:6->7:2:grf-ly-_-_|MSeg=Under-stand
 
 # newpar
 # newpar_block = p (3 s)
@@ -100,7 +100,7 @@
 10	retail	retail	NOUN	NN	Number=Sing	11	compound	11:compound	_
 11	corridor	corridor	NOUN	NN	Number=Sing	4	obl	4:obl:between	Entity=9)
 12	and	and	CCONJ	CC	_	14	cc	14:cc	_
-13	Upper	Upper	ADJ	NNP	Degree=Pos	14	amod	14:amod	Bridge=7<12|Entity=(12-place-acc:inf-nnnnn-cf2-1,2-sgl-Upper_Manhattan|MSeg=Upp-er|XML=<ref>
+13	Upper	Upper	ADJ	NNP	Degree=Pos	14	amod	14:amod	Entity=(12-place-auto-nnnnn-cf2-1,2-sgl-Upper_Manhattan|MSeg=Upp-er|XML=<ref>
 14	Manhattan	Manhattan	PROPN	NNP	Number=Sing	11	conj	4:obl:between|11:conj:and	Entity=12)|SpaceAfter=No|XML=</ref>
 15	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -120,7 +120,7 @@
 9	community	community	NOUN	NN	Number=Sing	4	obl	4:obl:of|11:nsubj	MSeg=commun-ity
 10	that	that	PRON	WDT	PronType=Rel	11	nsubj	9:ref	Discourse=elaboration-attribute:9->8:0:syn-mdf-58-_+syn-relcl-59-60-_+lex-indwd-73-_
 11	includes	include	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	9:acl:relcl	MSeg=include-s
-12	Fort	Fort	PROPN	NNP	Number=Sing	14	compound	14:compound	Bridge=13<14|Entity=(14-person-acc:inf-nnnnn-cf2-2,3,5,7,11-sgl(15-person-new-nnnnn-cf3-2,3-sgl(1-place-giv:act-sssss-cf1*-1,2-coref-Fort_Lee%2C_New_Jersey
+12	Fort	Fort	PROPN	NNP	Number=Sing	14	compound	14:compound	Entity=(14-person-auto-nnnnn-cf2-2,3,5,7,11-sgl(15-person-new-nnnnn-cf3-2,3-sgl(1-place-giv:act-sssss-cf1*-1,2-coref-Fort_Lee%2C_New_Jersey
 13	Lee	Lee	PROPN	NNP	Number=Sing	12	flat	12:flat	Entity=1)
 14	natives	native	NOUN	NNS	Number=Plur	11	obj	11:obj	Entity=15)|MSeg=native-s|SpaceAfter=No
 15	,	,	PUNCT	,	_	16	punct	16:punct	_
@@ -132,7 +132,7 @@
 21	and	and	CCONJ	CC	_	22	cc	22:cc	_
 22	immigrants	immigrant	NOUN	NNS	Number=Plur	14	conj	11:obj|14:conj:and	Entity=(18-person-new-nnnnn-cf7-1-sgl|MSeg=immigr-ant-s|SpaceAfter=No
 23	,	,	PUNCT	,	_	26	punct	26:punct	_
-24	especially	especially	ADV	RB	Degree=Pos	26	advmod	26:advmod	MSeg=especial-ly|PDTB=AltLex:Expansion.Level-of-detail.Arg2-as-detail:especially:73:50-58:59-72,74-76
+24	especially	especially	ADV	RB	Degree=Pos	26	advmod	26:advmod	MSeg=e-special-ly|PDTB=AltLex:Expansion.Level-of-detail.Arg2-as-detail:especially:73:50-58:59-72,74-76
 25	from	from	ADP	IN	_	26	case	26:case	_
 26	Korea	Korea	PROPN	NNP	Number=Sing	22	nmod	22:nmod:from	Entity=(19-place-new-nnnnn-cf5-1-sgl-Korea)18)14)13)|SpaceAfter=No|XML=<ref></ref>
 27	.	.	PUNCT	.	_	4	punct	4:punct	_
@@ -173,7 +173,7 @@
 29	be	be	AUX	VB	VerbForm=Inf	30	aux:pass	30:aux:pass	_
 30	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	26	acl:relcl	26:acl:relcl	MSeg=see-n
 31	in	in	ADP	IN	_	35	case	35:case	_
-32	retail	retail	ADJ	JJ	Degree=Pos	35	amod	35:amod	Entity=(24-place-new-nnnnn-cf6-4-coref
+32	retail	retail	ADJ	JJ	Degree=Pos	35	amod	35:amod	Entity=(24-place-new-nnnnn-cf6-4-sgl
 33	and	and	CCONJ	CC	_	34	cc	34:cc	_
 34	dining	dining	NOUN	NN	Number=Sing	32	conj	32:conj:and|35:compound	MSeg=din-ing
 35	storefronts	storefront	NOUN	NNS	Number=Plur	30	obl	30:obl:in	Entity=24)23)|MSeg=store-front-s|SpaceAfter=No
@@ -197,7 +197,7 @@
 9	piled	pile	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	conj	6:conj:but	MSeg=pil-ed
 10	high	high	ADJ	JJ	Degree=Pos	9	xcomp	9:xcomp	_
 11	with	with	ADP	IN	_	13	case	13:case	_
-12	apartment	apartment	NOUN	NN	Number=Sing	13	compound	13:compound	Entity=(25-place-new-nsnnn-cf2-2-coref|MSeg=apart-ment
+12	apartment	apartment	NOUN	NN	Number=Sing	13	compound	13:compound	Entity=(25-place-new-nsnnn-cf2-2-sgl|MSeg=apart-ment
 13	buildings	building	NOUN	NNS	Number=Plur	9	obl	9:obl:with	Entity=25)|MSeg=build-ing-s|SpaceAfter=No
 14	.	.	PUNCT	.	_	6	punct	6:punct	_
 
@@ -294,7 +294,7 @@
 2	although	although	SCONJ	IN	_	4	mark	4:mark	Discourse=adversative-concession:21->23:1:dm-although-194-gold|MSeg=al-though|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:although:194:193,218-259:195-217
 3	there	there	PRON	EX	PronType=Dem	4	expl	4:expl	_
 4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	advcl	37:advcl:although	Cxn=Existential-CopPred-ThereExpl
-5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(36-abstract-new-nnnnn-cf7-3-sgl
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(36-abstract-new-nnnnn-cf8-3-sgl
 6	great	great	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	deal	deal	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	CxnElt=4:Existential-CopPred-ThereExpl.Pivot
 8	of	of	ADP	IN	_	10	case	10:case	_
@@ -304,8 +304,8 @@
 12	and	and	CCONJ	CC	_	13	cc	13:cc	_
 13	from	from	ADP	IN	_	11	conj	11:conj:and|17:case	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(5-place-giv:inact-nssns-cf3-2,3,4,9,11-coref-George_Washington_Bridge
-15	George	George	PROPN	NNP	Number=Sing	17	compound	17:compound	Entity=(6-person-giv:inact-nssns-cf5-2-coref-George_Washington
-16	Washington	Washington	PROPN	NNP	Number=Sing	17	compound	17:compound	Entity=6)
+15	George	George	PROPN	NNP	Number=Sing	17	compound	17:compound	Entity=(6-person-giv:inact-nssns-cf6-2-coref-George_Washington
+16	Washington	Washington	PROPN	NNP	Number=Sing	17	compound	17:compound	Entity=6)|MSeg=Wash-ing-ton
 17	Bridge	Bridge	PROPN	NNP	Number=Sing	10	nmod	10:nmod:to|20:nsubj	SpaceAfter=No
 18	,	,	PUNCT	,	_	20	punct	20:punct	_
 19	which	which	PRON	WDT	PronType=Rel	20	nsubj	17:ref	Discourse=elaboration-attribute:22->21:0:syn-mdf-209-_+syn-relcl-211-212-_
@@ -317,7 +317,7 @@
 25	,	,	PUNCT	,	_	4	punct	4:punct	_
 26	one	one	NUM	CD	NumForm=Word|NumType=Card	37	nsubj	37:nsubj	Discourse=same-unit_m:23->20:0:_|Entity=(37-abstract-new-nnnnn-cf2-1-coref
 27	of	of	ADP	IN	_	30	case	30:case	_
-28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(38-abstract-new-nnnnn-cf8-3-sgl
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(38-abstract-new-nnnnn-cf9-3-sgl
 29	largest	large	ADJ	JJS	Degree=Sup	30	amod	30:amod	MSeg=larg-est
 30	perks	perk	NOUN	NNS	Number=Plur	26	nmod	26:nmod:of	MSeg=perk-s
 31	of	of	ADP	IN	_	33	case	33:case	_
@@ -328,20 +328,20 @@
 36	walking	walk	VERB	VBG	VerbForm=Ger	37	amod	37:amod	MSeg=walk-ing
 37	access	access	NOUN	NN	Number=Sing	0	root	0:root|57:nsubj	_
 38	to	to	ADP	IN	_	40	case	40:case	_
-39	many	many	ADJ	JJ	Degree=Pos	40	amod	40:amod	Entity=(39-place-new-nnnnn-cf9-2-sgl
+39	many	many	ADJ	JJ	Degree=Pos	40	amod	40:amod	Entity=(39-place-new-nnnnn-cf10-2-sgl
 40	restaurants	restaurant	NOUN	NNS	Number=Plur	37	nmod	37:nmod:to	Entity=39)|MSeg=restaurant-s|SpaceAfter=No
 41	,	,	PUNCT	,	_	43	punct	43:punct	_
-42	convenience	convenience	NOUN	NN	Number=Sing	43	compound	43:compound	Entity=(40-place-new-nnnnn-cf10-2-sgl|MSeg=conveni-ence
+42	convenience	convenience	NOUN	NN	Number=Sing	43	compound	43:compound	Entity=(40-place-new-nnnnn-cf11-2-sgl|MSeg=conveni-ence
 43	stores	store	NOUN	NNS	Number=Plur	40	conj	37:nmod:to|40:conj:and	Entity=40)|MSeg=store-s
 44	and	and	CCONJ	CC	_	46	cc	46:cc	_
-45	mass	mass	ADJ	JJ	Degree=Pos	46	amod	46:amod	Entity=(41-organization-new-nnnnn-cf11-2-coref
+45	mass	mass	ADJ	JJ	Degree=Pos	46	amod	46:amod	Entity=(41-organization-new-nnnnn-cf12-2-sgl
 46	transit	transit	NOUN	NN	Number=Sing	40	conj	37:nmod:to|40:conj:and	Entity=41)|SpaceAfter=No
 47	,	,	PUNCT	,	_	50	punct	50:punct	_
 48	in	in	ADP	IN	_	50	case	50:case	_
 49	the	the	DET	DT	Definite=Def|PronType=Art	50	det	50:det	_
 50	form	form	NOUN	NN	Number=Sing	37	nmod	37:nmod:in	_
 51	of	of	ADP	IN	_	52	case	52:case	_
-52	buses	bus	NOUN	NNS	Number=Plur	50	nmod	50:nmod:of	Bridge=41<42|Entity=(42-object-acc:inf-nnnnn-cf6-6-sgl|MSeg=buse-s
+52	buses	bus	NOUN	NNS	Number=Plur	50	nmod	50:nmod:of	Entity=(42-object-auto-nnnnn-cf5-6-sgl|MSeg=buse-s
 53	and	and	CCONJ	CC	_	54	cc	54:cc	_
 54	vans	van	NOUN	NNS	Number=Plur	52	conj	50:nmod:of|52:conj:and	MSeg=van-s
 55	that	that	PRON	WDT	PronType=Rel	57	nsubj	37:ref	Discourse=elaboration-attribute:24->23:0:syn-mdf-229-_+syn-relcl-247,249-_
@@ -354,7 +354,7 @@
 62	up	up	ADV	RB	Degree=Pos	60	conj	57:obl:across|60:conj:and	_
 63	and	and	CCONJ	CC	_	64	cc	64:cc	_
 64	down	down	ADV	RB	Degree=Pos	62	conj	60:conj|62:conj:and	_
-65	major	major	ADJ	JJ	Degree=Pos	66	amod	66:amod	Entity=(43-place-new-nnnnn-cf12-2-sgl
+65	major	major	ADJ	JJ	Degree=Pos	66	amod	66:amod	Bridge=1<43:entity-associative|Entity=(43-place-acc:inf-nnnnn-cf7-2-sgl
 66	streets	street	NOUN	NNS	Number=Plur	60	conj	57:obl:across|60:conj	Entity=43)42)37)|MSeg=street-s|SpaceAfter=No
 67	.	.	PUNCT	.	_	37	punct	37:punct	_
 
@@ -365,7 +365,7 @@
 # s_type = imp
 # transition = zero
 # text = Get in
-1	Get	get	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:25->30:6:grf-ly-_-_
+1	Get	get	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:25->30:6:grf-ly-_-_
 2	in	in	ADV	RB	Degree=Pos	1	advmod	1:advmod	_
 
 # newpar
@@ -381,13 +381,13 @@
 4	more	more	ADV	RBR	Degree=Cmp	5	advmod	5:advmod	_
 5	interesting	interesting	ADJ	JJ	Degree=Pos	1	nmod	1:nmod:of	MSeg=interest-ing
 6	of	of	ADP	IN	_	11	case	11:case	_
-7	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Bridge=25<45|Entity=(45-place-acc:inf-nnnnn-cf2-5-sgl
+7	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(45-place-auto-nnnnn-cf1-5-sgl
 8	many	many	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
 9	highrise	highrise	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
 10	residential	residential	ADJ	JJ	Degree=Pos	11	amod	11:amod	MSeg=resid-ent-ial
 11	buildings	building	NOUN	NNS	Number=Plur	5	obl	5:obl:of	Entity=45)44)|MSeg=build-ing-s
 12	in	in	ADP	IN	_	13	case	13:case	_
-13	Fort	Fort	PROPN	NNP	Number=Sing	1	nmod	1:nmod:in	Entity=(1-place-giv:inact-sssss-cf1-1,2-coref-Fort_Lee%2C_New_Jersey
+13	Fort	Fort	PROPN	NNP	Number=Sing	1	nmod	1:nmod:in	Entity=(1-place-giv:inact-sssss-cf2-1,2-coref-Fort_Lee%2C_New_Jersey
 14	Lee	Lee	PROPN	NNP	Number=Sing	13	flat	13:flat	Entity=1)
 
 # newpar
@@ -437,10 +437,10 @@
 5	York	York	PROPN	NNP	Number=Sing	6	compound	6:compound	_
 6	City	City	PROPN	NNP	Number=Sing	2	obl	2:obl:from	Entity=17)|SpaceAfter=No|XML=</ref>
 7	,	,	PUNCT	,	_	2	punct	2:punct	_
-8	take	take	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=8:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis,8:Conditional-UnspecifiedEpistemic-Reduced.Apodosis|Discourse=joint-other_m:30->7:3:_
+8	take	take	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=8:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis,8:Conditional-UnspecifiedEpistemic-Reduced.Apodosis|Discourse=joint-other_m:30->7:3:_
 9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(5-place-giv:inact-nssns-cf1-2,3,4-coref-George_Washington_Bridge
 10	George	George	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=(51-person-new-nssns-cf3-2-coref-George_Washington
-11	Washington	Washington	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=51)
+11	Washington	Washington	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=51)|MSeg=Wash-ing-ton
 12	Bridge	Bridge	PROPN	NNP	Number=Sing	8	obj	8:obj	Entity=5)|SpaceAfter=No
 13	;	;	PUNCT	:	_	8	punct	8:punct	_
 
@@ -484,7 +484,7 @@
 # s_type = imp
 # transition = null
 # text = Ask any bus or jitney driver leaving from the Port Authority George Washington Bus Station on 177 St. whether s/he can let you off in Fort Lee.
-1	Ask	ask	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Ditransitive|CxnElt=1:Ditransitive.V|Discourse=joint-list_m:33->30:3:grf-semcol-305-_
+1	Ask	ask	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Ditransitive|CxnElt=1:Ditransitive.V|Discourse=joint-list_m:33->30:3:grf-semcol-305-_
 2	any	any	DET	DT	PronType=Ind	6	det	6:det	Entity=(55-person-new-nnnnn-cf1-5,9,10,11,12,13-coref
 3	bus	bus	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=(56-object-new-nnnnn-cf7-1,3-sgl
 4	or	or	CCONJ	CC	_	5	cc	5:cc	_
@@ -494,9 +494,9 @@
 8	from	from	ADP	IN	_	15	case	15:case	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(57-place-new-nnnnn-cf5-2,3,4,5,6,7-sgl-George_Washington_Bridge_Bus_Terminal
 10	Port	Port	PROPN	NNP	Number=Sing	11	compound	11:compound	_
-11	Authority	Authority	PROPN	NNP	Number=Sing	15	compound	15:compound	_
+11	Authority	Authority	PROPN	NNP	Number=Sing	15	compound	15:compound	MSeg=Author-ity
 12	George	George	PROPN	NNP	Number=Sing	13	compound	13:compound	Entity=(51-person-giv:inact-nssns-cf3-1,2-coref-George_Washington
-13	Washington	Washington	PROPN	NNP	Number=Sing	15	compound	15:compound	Entity=51)
+13	Washington	Washington	PROPN	NNP	Number=Sing	15	compound	15:compound	Entity=51)|MSeg=Wash-ing-ton
 14	Bus	Bus	PROPN	NNP	Number=Sing	15	compound	15:compound	_
 15	Station	Station	PROPN	NNP	Number=Sing	7	obl	7:obl:from	_
 16	on	on	ADP	IN	_	18	case	18:case	_
@@ -559,7 +559,7 @@
 # transition = zero
 # text = By plane
 1	By	by	ADP	IN	_	2	case	2:case	Discourse=organization-heading:38->39:2:grf-ly-_-_
-2	plane	plane	NOUN	NN	Number=Sing	0	root	0:root	Entity=(64-object-new-snnnn-cf1-1-coref)
+2	plane	plane	NOUN	NN	Number=Sing	0	root	0:root	Entity=(64-object-new-snnnn-cf1-1-sgl)
 
 # newpar
 # newpar_block = p (1 s)
@@ -568,11 +568,11 @@
 # s_type = decl
 # transition = null
 # text = The nearest airports to Fort Lee are Newark Airport, LaGuardia Airport, Teterboro (general aviation only), JFK and Westchester County Airport.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Bridge=64<65|Discourse=joint-list_m:39->30:3:_|Entity=(65-place-acc:inf-nnnnn-cf2-3-sgl
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint-list_m:39->30:3:_|Entity=(65-place-auto-nnnnn-cf1-3-sgl
 2	nearest	near	ADJ	JJS	Degree=Sup	3	amod	3:amod	MSeg=near-est
 3	airports	airport	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj|12:nsubj|14:nsubj|21:nsubj|25:nsubj	Entity=65)|MSeg=airport-s
 4	to	to	ADP	IN	_	5	case	5:case	_
-5	Fort	Fort	PROPN	NNP	Number=Sing	3	nmod	3:nmod:to	Entity=(1-place-giv:inact-sssss-cf1-1,2-coref-Fort_Lee%2C_New_Jersey
+5	Fort	Fort	PROPN	NNP	Number=Sing	3	nmod	3:nmod:to	Entity=(1-place-giv:inact-sssss-cf2-1,2-coref-Fort_Lee%2C_New_Jersey
 6	Lee	Lee	PROPN	NNP	Number=Sing	5	flat	5:flat	Entity=1)
 7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
 8	Newark	Newark	PROPN	NNP	Number=Sing	9	compound	9:compound	Entity=(66-place-new-nnnnn-cf3-1,2-sgl-Newark_Liberty_International_Airport(67-place-new-nnnnn-cf10-1-sgl-Newark%2C_New_Jersey)|XML=<ref>
@@ -602,7 +602,7 @@
 # s_type = imp
 # transition = null
 # text = Get around
-1	Get	get	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:42->45:5:grf-ly-_-_+sem-lxchn-404,462-_
+1	Get	get	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:42->45:5:grf-ly-_-_+sem-lxchn-404,462-_
 2	around	around	ADV	RB	Degree=Pos	1	advmod	1:advmod	MSeg=a-round
 
 # newpar
@@ -612,7 +612,7 @@
 # s_type = decl
 # transition = null
 # text = Old and new meet in Fort Lee, as the Good Shepherd Episcopalian Church is dwarfed by a residential highrise immediately behind it
-1	Old	old	ADJ	JJ	Degree=Pos	4	nsubj	4:nsubj	Discourse=context-background:43->45:3:grf-ly-_-_|Entity=(75-object-new-nnnnn-cf1-1-coref)
+1	Old	old	ADJ	JJ	Degree=Pos	4	nsubj	4:nsubj	Discourse=context-background:43->45:3:grf-ly-_-_+sem-mrnym-410-411,428-429-_|Entity=(75-object-new-nnnnn-cf1-1-coref)
 2	and	and	CCONJ	CC	_	3	cc	3:cc	_
 3	new	new	ADJ	JJ	Degree=Pos	1	conj	1:conj:and|4:nsubj	Entity=(76-object-new-nnnnn-cf3-1-coref)
 4	meet	meet	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -629,7 +629,7 @@
 15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	16:aux:pass	_
 16	dwarfed	dwarf	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	4:advcl:as	MSeg=dwarf-ed
 17	by	by	ADP	IN	_	20	case	20:case	_
-18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Bridge=25<76|Entity=(76-object-acc:inf-nnnnn-cf3-3-coref
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(76-object-auto-nnnnn-cf3-3-coref
 19	residential	residential	ADJ	JJ	Degree=Pos	20	amod	20:amod	MSeg=resid-ent-ial
 20	highrise	highrise	NOUN	NN	Number=Sing	16	obl:agent	16:obl:agent	Entity=76)
 21	immediately	immediately	ADV	RB	Degree=Pos	23	advmod	23:advmod	MSeg=im-mediate-ly
@@ -643,7 +643,7 @@
 # s_type = decl
 # transition = null
 # text = Most people choose cars, but if headed to a central area, such as Main Street, it is best to drive there, park in a municipal parking lot, and walk around from there.
-1	Most	most	ADJ	JJS	Degree=Sup	2	amod	2:amod	Discourse=joint-other_m:45->7:3:_|Entity=(77-person-new-nnnnn-cf4-2-sgl
+1	Most	most	ADJ	JJS	Degree=Sup	2	amod	2:amod	Bridge=1<77:entity-associative|Discourse=joint-other_m:45->7:3:_|Entity=(77-person-acc:inf-nnnnn-cf3-2-sgl
 2	people	person	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=77)
 3	choose	choose	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	cars	car	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=(78-object-new-nnnnn-cf5-1-sgl)|MSeg=car-s|SpaceAfter=No
@@ -661,10 +661,10 @@
 16	Main	Main	ADJ	NNP	Degree=Pos	17	amod	17:amod	Entity=(80-place-new-nnnnn-cf6-1,2-sgl
 17	Street	Street	PROPN	NNP	Number=Sing	12	nmod	12:nmod:such_as	Entity=80)79)|SpaceAfter=No
 18	,	,	PUNCT	,	_	8	punct	8:punct	_
-19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	expl	21:expl	Discourse=same-unit_m:48->46:0:_|Entity=(81-event-new-nnnnn-cf3-1-cata)
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	expl	21:expl	Discourse=same-unit_m:48->46:0:_|Entity=(81-event-new-nnnnn-cf4-1-cata)
 20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	21:cop	_
 21	best	good	ADJ	JJS	Degree=Sup	3	conj	3:conj:but	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=21:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis,21:Conditional-UnspecifiedEpistemic-Reduced.Apodosis|MSeg=be-st
-22	to	to	PART	TO	_	23	mark	23:mark	Entity=(81-event-acc:com-nnnnn-cf3-2,5,13-coref
+22	to	to	PART	TO	_	23	mark	23:mark	Entity=(81-event-acc:com-nnnnn-cf4-2,5,13-coref
 23	drive	drive	VERB	VB	VerbForm=Inf	21	csubj	21:csubj	_
 24	there	there	ADV	RB	PronType=Dem	23	obj	23:obj	Entity=(79-place-giv:act-nnsnn-cf1-1-coref)|SpaceAfter=No
 25	,	,	PUNCT	,	_	26	punct	26:punct	_
@@ -691,7 +691,7 @@
 2	so	so	ADV	RB	_	3	advmod	3:advmod	_
 3	much	much	ADJ	JJ	Degree=Pos	11	nsubj:pass	11:nsubj:pass	_
 4	of	of	ADP	IN	_	9	case	9:case	_
-5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Bridge=24<83|Entity=(83-place-acc:inf-nnnnn-cf3-5-sgl(1-place-giv:inact-sssss-cf1-2-coref-Fort_Lee%2C_New_Jersey
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(83-place-auto-nnnnn-cf1-5-coref(1-place-giv:inact-sssss-cf2-2-coref-Fort_Lee%2C_New_Jersey
 6-7	town’s	_	_	_	_	_	_	_	_
 6	town	town	NOUN	NN	Number=Sing	9	nmod:poss	9:nmod:poss	_
 7	’s	's	PART	POS	_	6	case	6:case	Entity=1)
@@ -706,21 +706,21 @@
 16	block	block	NOUN	NN	Number=Sing	17	compound	17:compound	Entity=85)
 17	radius	radius	NOUN	NN	Number=Sing	11	obl	11:obl:in	Entity=84)|SpaceAfter=No
 18	,	,	PUNCT	,	_	11	punct	11:punct	_
-19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	expl	22:expl	Discourse=joint-other_m:52->45:1:_|Entity=(86-event-new-nnnnn-cf2-1-cata)
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	expl	22:expl	Discourse=joint-other_m:52->45:1:_|Entity=(86-event-new-nnnnn-cf3-1-cata)
 20	would	would	AUX	MD	VerbForm=Fin	22	aux	22:aux	_
 21	be	be	AUX	VB	VerbForm=Inf	22	cop	22:cop	_
 22	beneficial	beneficial	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=bene-fic-ial
-23	to	to	PART	TO	_	24	mark	24:mark	Entity=(86-event-acc:com-nnnnn-cf2-2-coref
+23	to	to	PART	TO	_	24	mark	24:mark	Entity=(86-event-acc:com-nnnnn-cf3-2-coref
 24	walk	walk	VERB	VB	VerbForm=Inf	22	csubj	22:csubj|31:csubj	_
 25	around	around	ADV	RB	Degree=Pos	24	advmod	24:advmod	Entity=86)|MSeg=a-round|SpaceAfter=No
 26	,	,	PUNCT	,	_	31	punct	31:punct	_
-27	but	but	CCONJ	CC	_	31	cc	31:cc	Discourse=adversative-contrast_m:53->52:1:dm-but-492-gold;joint-list:53->52:1:1:orp-also-494-gold|PDTB=Explicit:Comparison.Contrast:but:492:466-491:493-502
+27	but	but	CCONJ	CC	_	31	cc	31:cc	Discourse=adversative-contrast_m:53->52:1:dm-but-492-gold;joint-list:53->52:1:1:orp-also-494-gold+sem-mrnym-470-474,498-501-_|PDTB=Explicit:Comparison.Contrast:but:492:466-491:493-502
 28	might	might	AUX	MD	VerbForm=Fin	31	aux	31:aux	_
 29	also	also	ADV	RB	_	31	advmod	31:advmod	PDTB=Explicit:Expansion.Conjunction:also:494:466-491:492-493,495-502
 30	be	be	AUX	VB	VerbForm=Inf	31	cop	31:cop	_
 31	dangerous	dangerous	ADJ	JJ	Degree=Pos	22	conj	22:conj:but	MSeg=danger-ous
 32	given	give	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	31	advcl	31:advcl	Discourse=causal-cause:54->53:0:dm-given-497-gold|MSeg=giv-en|PDTB=Explicit:Contingency.Cause.Reason:given:497:492-496:498-502
-33	the	the	DET	DT	Definite=Def|PronType=Art	36	det	36:det	Entity=(87-place-new-nnnnn-cf4-4-sgl
+33	the	the	DET	DT	Definite=Def|PronType=Art	36	det	36:det	Bridge=83<87:entity-associative|Entity=(87-place-acc:inf-nnnnn-cf4-4-sgl
 34	high	high	ADJ	JJ	Degree=Pos	35	amod	35:amod	Entity=(88-abstract-new-nnnnn-cf7-2-sgl
 35	traffic	traffic	NOUN	NN	Number=Sing	36	compound	36:compound	Entity=88)
 36	intersections	intersection	NOUN	NNS	Number=Plur	32	obj	32:obj	Entity=87)|MSeg=intersect-ion-s|SpaceAfter=No
@@ -731,20 +731,20 @@
 # s_type = imp
 # transition = null
 # text = If walking use caution, and if parking, make sure to feed the meter with plenty of pocket change; the meter maids take their job very seriously.
-1	If	if	SCONJ	IN	_	2	mark	2:mark	Discourse=contingency-condition:55->56:0:dm-if-503-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:503:505-507:504
+1	If	if	SCONJ	IN	_	2	mark	2:mark	Discourse=contingency-condition:55->56:0:dm-if-503-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:503:505-507:504;Implicit:Expansion.Conjunction:furthermore:_:466-502:503-532
 2	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	3:advcl:if	CxnElt=3:Conditional-UnspecifiedEpistemic-NoInversion.Protasis,3:Conditional-UnspecifiedEpistemic-Reduced.Protasis|MSeg=walk-ing
-3	use	use	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=3:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis,3:Conditional-UnspecifiedEpistemic-Reduced.Apodosis|Discourse=elaboration-additional:56->45:2:_
+3	use	use	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=3:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis,3:Conditional-UnspecifiedEpistemic-Reduced.Apodosis|Discourse=elaboration-additional:56->45:2:sem-mrnym-464,516-517-_
 4	caution	caution	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(89-abstract-new-nnnnn-cf3-1-sgl)|SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
 6	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=joint-list_m:57->56:1:dm-and-508-gold+grf-semcol-523-_|PDTB=Explicit:Expansion.Conjunction:and:508:503-507:509-532
 7	if	if	SCONJ	IN	_	8	mark	8:mark	Discourse=contingency-condition:58->59:0:dm-if-509-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:509:508,512-523:510-511
 8	parking	park	VERB	VBG	Tense=Pres|VerbForm=Part	10	advcl	10:advcl:if	CxnElt=10:Conditional-UnspecifiedEpistemic-NoInversion.Protasis,10:Conditional-UnspecifiedEpistemic-Reduced.Protasis|MSeg=park-ing|SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	8:punct	_
-10	make	make	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	3	conj	3:conj:and	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=10:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis,10:Conditional-UnspecifiedEpistemic-Reduced.Apodosis|Discourse=same-unit_m:59->57:0:_
+10	make	make	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	conj	3:conj:and	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=10:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis,10:Conditional-UnspecifiedEpistemic-Reduced.Apodosis|Discourse=same-unit_m:59->57:0:_
 11	sure	sure	ADJ	JJ	Degree=Pos	10	xcomp	10:xcomp	_
 12	to	to	PART	TO	_	13	mark	13:mark	_
 13	feed	feed	VERB	VB	VerbForm=Inf	11	xcomp	11:xcomp	_
-14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(90-object-new-nnnnn-cf2-2-coref
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Bridge=82<90:entity-associative|Entity=(90-object-acc:inf-nnnnn-cf2-2-coref
 15	meter	meter	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=90)
 16	with	with	ADP	IN	_	17	case	17:case	_
 17	plenty	plenty	NOUN	NN	Number=Sing	13	obl	13:obl:with	Entity=(91-object-new-nnnnn-cf5-1-sgl
@@ -752,7 +752,7 @@
 19	pocket	pocket	NOUN	NN	Number=Sing	20	compound	20:compound	_
 20	change	change	NOUN	NN	Number=Sing	17	nmod	17:nmod:of	Entity=91)|SpaceAfter=No
 21	;	;	PUNCT	:	_	25	punct	25:punct	_
-22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Bridge=90<92|Discourse=explanation-motivation:60->57:1:mrf-md-512-_|Entity=(92-person-acc:inf-nnnnn-cf1-3-coref
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Bridge=90<92:entity-associative|Discourse=explanation-motivation:60->57:1:mrf-md-512-_|Entity=(92-person-acc:inf-nnnnn-cf1-3-coref
 23	meter	meter	NOUN	NN	Number=Sing	24	compound	24:compound	_
 24	maids	maid	NOUN	NNS	Number=Plur	25	nsubj	25:nsubj	Entity=92)|MSeg=maid-s
 25	take	take	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	3:parataxis	_
@@ -773,7 +773,7 @@
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	5:aux:pass	_
 5	situated	situate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	21	advcl	21:advcl:since	MSeg=situat-ed
 6	in	in	ADP	IN	_	10	case	10:case	_
-7	such	such	DET	PDT	PronType=Dem	10	det:predet	10:det:predet	Entity=(94-place-new-nnnsn-cf5-4-sgl
+7	such	such	DET	PDT	PronType=Ind	10	det:predet	10:det:predet	Entity=(94-place-new-nnnsn-cf5-4-sgl
 8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	_
 9	convenient	convenient	ADJ	JJ	Degree=Pos	10	amod	10:amod	MSeg=conven-ient
 10	area	area	NOUN	NN	Number=Sing	5	obl	5:obl:in	_
@@ -789,12 +789,12 @@
 20	there	there	PRON	EX	PronType=Dem	21	expl	21:expl	Discourse=explanation-motivation:62->64:2:_
 21	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 22	often	often	ADV	RB	Degree=Pos	21	advmod	21:advmod	_
-23	high	high	ADJ	JJ	Degree=Pos	24	amod	24:amod	Entity=(96-abstract-new-nnnnn-cf3-2-sgl
+23	high	high	ADJ	JJ	Degree=Pos	24	amod	24:amod	Entity=(96-abstract-new-nnnnn-cf4-2-sgl
 24	traffic	traffic	NOUN	NN	Number=Sing	21	nsubj	21:nsubj	CxnElt=21:Existential-CopPred-ThereExpl.Pivot|Entity=96)
 25	and	and	CCONJ	CC	_	26	cc	26:cc	_
 26	congestion	congestion	NOUN	NN	Number=Sing	24	conj	21:nsubj|24:conj:and	Entity=(97-abstract-new-nnnnn-cf6-1-sgl)|MSeg=conges-tion
 27	on	on	ADP	IN	_	29	case	29:case	_
-28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	29:det	Entity=(98-place-new-nnnnn-cf4-2-sgl
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	29:det	Bridge=1<98:entity-associative|Entity=(98-place-acc:inf-nnnnn-cf3-2-sgl
 29	roads	road	NOUN	NNS	Number=Plur	24	nmod	24:nmod:on	Entity=98)|MSeg=road-s|SpaceAfter=No
 30	.	.	PUNCT	.	_	21	punct	21:punct	_
 
@@ -827,12 +827,12 @@
 22	minutes	minute	NOUN	NNS	Number=Plur	16	obj	16:obj	MSeg=minute-s
 23	to	to	PART	TO	_	24	mark	24:mark	Discourse=purpose-goal:65->64:0:syn-inf-585-_|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:575-584:585-594
 24	escape	escape	VERB	VB	VerbForm=Inf	16	advcl	16:advcl:to	_
-25	local	local	ADJ	JJ	Degree=Pos	26	amod	26:amod	Entity=(103-abstract-new-nnnnn-cf3-2-sgl|MSeg=loc-al
+25	local	local	ADJ	JJ	Degree=Pos	26	amod	26:amod	Bridge=1<103:entity-associative|Entity=(103-abstract-acc:inf-nnnnn-cf3-2-sgl|MSeg=loc-al
 26	traffic	traffic	NOUN	NN	Number=Sing	24	obj	24:obj	Entity=103)
 27	before	before	SCONJ	IN	_	28	mark	28:mark	Discourse=context-circumstance:66->65:0:dm-before-589-gold+syn-pres-590-_|PDTB=Explicit:Temporal.Asynchronous.Precedence:before:589:585-588:590-594
 28	hitting	hit	VERB	VBG	Tense=Pres|VerbForm=Part	24	advcl	24:advcl:before	MSeg=hitt-ing
 29	any	any	DET	DT	PronType=Ind	31	det	31:det	_
-30	major	major	ADJ	JJ	Degree=Pos	31	amod	31:amod	Entity=(104-place-new-nnnnn-cf4-2-sgl
+30	major	major	ADJ	JJ	Degree=Pos	31	amod	31:amod	Bridge=1<104:entity-associative|Entity=(104-place-acc:inf-nnnnn-cf4-2-sgl
 31	roadways	roadway	NOUN	NNS	Number=Plur	28	obj	28:obj	Entity=104)102)|MSeg=roadway-s|SpaceAfter=No
 32	.	.	PUNCT	.	_	15	punct	15:punct	_
 
@@ -844,7 +844,7 @@
 # transition = null
 # text = For local transportation or air-port / train station services, there are several local taxi companies that are reliable.
 1	For	for	ADP	IN	_	3	case	3:case	Discourse=joint-other_m:67->45:4:_
-2	local	local	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(105-abstract-new-nnsnn-cf2-2-sgl|MSeg=loc-al
+2	local	local	ADJ	JJ	Degree=Pos	3	amod	3:amod	Bridge=1<105:entity-associative|Entity=(105-abstract-acc:inf-nnsnn-cf1-2-sgl|MSeg=loc-al
 3	transportation	transportation	NOUN	NN	Number=Sing	14	obl	14:obl:for	Entity=105)|MSeg=transport-ation
 4	or	or	CCONJ	CC	_	11	cc	11:cc	_
 5	air	air	NOUN	NN	Number=Sing	7	compound	7:compound	Entity=(106-abstract-new-nnnnn-cf3-7-sgl(107-place-new-nnnnn-cf4-3-sgl|SpaceAfter=No|XML=<w>
@@ -857,7 +857,7 @@
 12	,	,	PUNCT	,	_	3	punct	3:punct	_
 13	there	there	PRON	EX	PronType=Dem	14	expl	14:expl	_
 14	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
-15	several	several	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(109-organization-new-nnnnn-cf1-4-coref
+15	several	several	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(109-organization-new-nnnnn-cf2-4-coref
 16	local	local	ADJ	JJ	Degree=Pos	18	amod	18:amod	MSeg=loc-al
 17	taxi	taxi	NOUN	NN	Number=Sing	18	compound	18:compound	_
 18	companies	company	NOUN	NNS	Number=Plur	14	nsubj	14:nsubj|21:nsubj	CxnElt=14:Existential-CopPred-ThereExpl.Pivot|MSeg=companie-s
@@ -873,7 +873,7 @@
 # s_type = frag
 # transition = null
 # text = A-1 2470 Lemoine Avenue, tel: 1 201 944-3737.
-1	A	A	PROPN	NNP	Number=Sing	0	root	0:root	Bridge=109<110|Discourse=elaboration-additional:69->67:1:sem-mrnym-609-615,617-619-_|Entity=(110-organization-acc:inf-nnnnn-cf2-1,3-sgl|SpaceAfter=No|XML=<hi rend:::"bold"><ref><w>
+1	A	A	PROPN	NNP	Number=Sing	0	root	0:root	Bridge=109<110:set-member|Discourse=elaboration-additional:69->67:1:sem-mrnym-609-615,617-619-_|Entity=(110-organization-acc:inf-nnnnn-cf2-1,3-sgl|SpaceAfter=No|XML=<hi rend:::"bold"><ref><w>
 2	-	-	PUNCT	HYPH	_	3	punct	3:punct	SpaceAfter=No
 3	1	1	NUM	CD	NumForm=Digit|NumType=Card	1	flat	1:flat	Entity=110)|XML=</w></ref></hi>
 4	2470	2470	NUM	CD	NumForm=Digit|NumType=Card	1	list	1:list	Entity=(111-place-new-nnnnn-cf3-1,2-sgl
@@ -895,7 +895,7 @@
 # transition = null
 # text = Babe's 185 Bridge Plaza North, tel: 1 201 944-6800.
 1-2	Babe's	_	_	_	_	_	_	_	_
-1	Babe	Babe	PROPN	NNP	Number=Sing	0	root	0:root	Bridge=109<113|Discourse=joint-list_m:71->69:1:grf-seq-_-_+sem-mrnym-617-619,630-631-_|Entity=(113-organization-acc:inf-nnnnn-cf2-1-sgl|XML=<hi rend:::"bold"><ref>
+1	Babe	Babe	PROPN	NNP	Number=Sing	0	root	0:root	Bridge=109<113:set-member|Discourse=joint-list_m:71->69:1:grf-seq-_-_+sem-mrnym-617-619,630-631-_|Entity=(113-organization-acc:inf-nnnnn-cf2-1-sgl|XML=<hi rend:::"bold"><ref>
 2	's	's	PART	POS	_	1	case	1:case	Entity=113)|XML=</ref></hi>
 3	185	185	NUM	CD	NumForm=Digit|NumType=Card	1	list	1:list	Entity=(114-place-new-nnnnn-cf3-1,2,4-sgl
 4	Bridge	Bridge	PROPN	NNP	Number=Sing	5	compound	5:compound	_
@@ -916,7 +916,7 @@
 # s_type = frag
 # transition = null
 # text = G W Taxi 1696 Bergen Blvd, tel: 1 201 363-0555.
-1	G	G	PROPN	NNP	Number=Sing	3	compound	3:compound	Bridge=109<116|Discourse=joint-list_m:73->69:1:grf-seq-_-_+sem-mrnym-630-631,643-645-_|Entity=(116-organization-acc:inf-nnnnn-cf3-1,2,3-sgl(51-person-giv:inact-nssns-cf2-1,2-coref-George_Washington|XML=<hi rend:::"bold"><ref>
+1	G	G	PROPN	NNP	Number=Sing	3	compound	3:compound	Bridge=109<116:set-member|Discourse=joint-list_m:73->69:1:grf-seq-_-_+sem-mrnym-630-631,643-645-_|Entity=(116-organization-acc:inf-nnnnn-cf3-1,2,3-sgl(51-person-giv:inact-nssns-cf2-1,2-coref-George_Washington|XML=<hi rend:::"bold"><ref>
 2	W	W	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=51)
 3	Taxi	Taxi	PROPN	NNP	Number=Sing	0	root	0:root	Entity=116)|XML=</ref></hi>
 4	1696	1696	NUM	CD	NumForm=Digit|NumType=Card	3	list	3:list	Entity=(117-place-new-nnnnn-cf4-1,2-sgl
@@ -937,7 +937,7 @@
 # s_type = imp
 # transition = null
 # text = See
-1	See	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:75->79:4:grf-ly-_-_
+1	See	see	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:75->79:4:grf-ly-_-_
 
 # newpar
 # newpar_block = figure (1 s) | caption (1 s)
@@ -980,18 +980,18 @@
 5	and	and	CCONJ	CC	_	6	cc	6:cc	_
 6	named	name	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	4:conj:and	MSeg=nam-ed
 7	for	for	ADP	IN	_	9	case	9:case	_
-8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(123-abstract-new-nnnnn-cf6-2,5,7,25,39-sgl
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(123-abstract-new-nnnnn-cf6-2,7,25,39-sgl
 9	story	story	NOUN	NN	Number=Sing	4	obl	4:obl:for	_
 10	of	of	ADP	IN	_	11	case	11:case	Discourse=elaboration-additional:78->77:0:sem-mrnym-676-677,694-695-_+sem-rpt-676-677,720-721-_
 11	how	how	ADV	WRB	PronType=Rel	9	nmod	9:nmod:of	_
-12	General	General	PROPN	NNP	Number=Sing	13	nmod:desc	13:nmod:desc	Entity=(51-person-giv:inact-nssns-cf2-1,2,3-coref-George_Washington
+12	General	General	PROPN	NNP	Number=Sing	13	nmod:desc	13:nmod:desc	Entity=(51-person-giv:inact-nssns-cf2-2,3-coref-George_Washington
 13	George	George	PROPN	NNP	Number=Sing	16	nsubj:pass	16:nsubj:pass|18:nsubj:xsubj|26:nsubj:xsubj	_
-14	Washington	Washington	PROPN	NNP	Number=Sing	13	flat	13:flat	Entity=51)
+14	Washington	Washington	PROPN	NNP	Number=Sing	13	flat	13:flat	Entity=51)|MSeg=Wash-ing-ton
 15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux:pass	16:aux:pass	_
 16	forced	force	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	advcl:relcl	11:advcl:relcl	MSeg=forc-ed
 17	to	to	PART	TO	_	18	mark	18:mark	_
 18	evacuate	evacuate	VERB	VB	VerbForm=Inf	16	xcomp	16:xcomp	_
-19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Bridge=1<124|Entity=(124-place-acc:inf-nnnnn-cf4-2-sgl
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Bridge=1<124:entity-associative|Entity=(124-place-acc:inf-nnnnn-cf4-2-sgl
 20	area	area	NOUN	NN	Number=Sing	18	obj	18:obj	Entity=124)
 21	in	in	ADP	IN	_	22	case	22:case	_
 22	November	November	PROPN	NNP	Number=Sing	18	obl	18:obl:in	Entity=(125-time-new-nnnnn-cf9-1-sgl|XML=<date when:::"1776-11">
@@ -1027,7 +1027,7 @@
 # s_type = decl
 # transition = continue
 # text = The Visitors' Center provides information on the role of Fort Lee in the War.
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=119<131|Discourse=joint-other_m:79->7:3:_|Entity=(131-place-acc:inf-nnnnn-cf3-4-sgl|PDTB=NoRel:NoRel:_:_:676-723:724-739
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=119<131:entity-associative|Discourse=joint-other_m:79->7:3:_|Entity=(131-place-acc:inf-nnnnn-cf3-4-sgl|PDTB=NoRel:NoRel:_:_:676-723:724-739
 2-3	Visitors'	_	_	_	_	_	_	_	_
 2	Visitors	Visitor	PROPN	NNPS	Number=Plur	4	nmod:poss	4:nmod:poss	Entity=(132-person-new-nnnnn-cf6-1-coref|MSeg=Visit-or-s
 3	'	's	PART	POS	_	2	case	2:case	Entity=132)
@@ -1050,12 +1050,12 @@
 # s_type = decl
 # transition = continue
 # text = Audio-visual displays, detailed exhibits, gives visitors a sense of what this town was like centuries ago.
-1	Audio	audio	NOUN	NN	Number=Sing	3	compound	3:compound	Bridge=133<135|Discourse=elaboration-additional:80->79:0:sem-rpt-725-726,749-_+sem-mrnym-729-738,740-743-_+ref-dem-734-735,754-755-_|Entity=(135-object-acc:inf-nnnnn-cf3-4-sgl|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:and:_:724-739:740-760|SpaceAfter=No|XML=<w>
+1	Audio	audio	NOUN	NN	Number=Sing	3	compound	3:compound	Bridge=133<135:entity-associative|Discourse=elaboration-additional:80->79:0:sem-rpt-725-726,749-_+sem-mrnym-729-738,740-743-_+ref-dem-734-735,754-755-_|Entity=(135-object-acc:inf-nnnnn-cf3-4-sgl|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:and:_:724-739:740-760|SpaceAfter=No|XML=<w>
 2	-	-	PUNCT	HYPH	_	1	punct	1:punct	SpaceAfter=No
 3	visual	visual	ADJ	JJ	Degree=Pos	4	amod	4:amod	MSeg=vis-ual|XML=</w>
 4	displays	display	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj	Entity=135)|MSeg=display-s|SpaceAfter=No
 5	,	,	PUNCT	,	_	7	punct	7:punct	_
-6	detailed	detailed	ADJ	JJ	Degree=Pos	7	amod	7:amod	Bridge=133<136|Entity=(136-object-acc:inf-nnnnn-cf4-2-sgl|MSeg=detail-ed
+6	detailed	detailed	ADJ	JJ	Degree=Pos	7	amod	7:amod	Bridge=133<136:entity-associative|Entity=(136-object-acc:inf-nnnnn-cf4-2-sgl|MSeg=detail-ed
 7	exhibits	exhibit	NOUN	NNS	Number=Plur	4	conj	4:conj|9:nsubj	Entity=136)|MSeg=exhibit-s|SpaceAfter=No
 8	,	,	PUNCT	,	_	4	punct	4:punct	_
 9	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Ditransitive|CxnElt=9:Ditransitive.V|MSeg=give-s
@@ -1133,7 +1133,7 @@
 # text = The George Washington Bridge can be crossed by bicycle or on foot as well as in a motorized vehicle.
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Discourse=elaboration-additional:84->83:0:sem-synym-782-784,799-802-_|Entity=(5-place-giv:act-nssns-cf1*-2,3,4-coref-George_Washington_Bridge
 2	George	George	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(51-person-giv:act-nssns-cf2-1,2-coref-George_Washington|XML=<ref>
-3	Washington	Washington	PROPN	NNP	Number=Sing	2	flat	2:flat	Entity=51)
+3	Washington	Washington	PROPN	NNP	Number=Sing	2	flat	2:flat	Entity=51)|MSeg=Wash-ing-ton
 4	Bridge	Bridge	PROPN	NNP	Number=Sing	7	nsubj:pass	7:nsubj:pass	Entity=5)|XML=</ref>
 5	can	can	AUX	MD	VerbForm=Fin	7	aux	7:aux	_
 6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	7:aux:pass	_
@@ -1159,7 +1159,7 @@
 # s_type = imp
 # transition = zero
 # text = Do
-1	Do	do	AUX	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:85->92:5:grf-ly-_-_
+1	Do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:85->92:5:grf-ly-_-_
 
 # newpar
 # newpar_block = figure (1 s) | caption (1 s)
@@ -1248,7 +1248,7 @@
 2	community	community	NOUN	NN	Number=Sing	3	compound	3:compound	MSeg=commun-ity
 3	center	center	NOUN	NN	Number=Sing	4	nsubj	4:nsubj|14:nsubj	Entity=152)
 4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=ha-s
-5	dance	dance	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=(154-abstract-new-snnnn-cf2-1,3,8-sgl|SpaceAfter=No
+5	dance	dance	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=(154-abstract-new-snnnn-cf3-1,3,8-sgl|SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	7:punct	_
 7	yoga	yoga	NOUN	NN	Number=Sing	5	conj	4:obj|5:conj:and	SpaceAfter=No
 8	,	,	PUNCT	,	_	12	punct	12:punct	_
@@ -1258,13 +1258,13 @@
 12	classes	class	NOUN	NNS	Number=Plur	5	conj	4:obj|5:conj:and	Entity=154)|MSeg=classe-s|SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	14:punct	_
 14	offers	offer	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj	Discourse=joint-list_m:95->94:0:_|MSeg=offer-s|PDTB=Implicit:Expansion.Conjunction:and:_:875-887:888-897
-15	open	open	ADJ	JJ	Degree=Pos	17	amod	17:amod	Entity=(155-time-new-nnnnn-cf3-3-sgl
+15	open	open	ADJ	JJ	Degree=Pos	17	amod	17:amod	Entity=(155-time-new-nnnnn-cf4-3-sgl
 16	gym	gym	NOUN	NN	Number=Sing	17	compound	17:compound	Entity=(156-place-new-nnnnn-cf6-1-sgl)
 17	hours	hour	NOUN	NNS	Number=Plur	14	obj	14:obj	MSeg=hour-s
 18	for	for	ADP	IN	_	19	case	19:case	_
-19	basketball	basketball	NOUN	NN	Number=Sing	17	nmod	17:nmod:for	Entity=(157-event-new-nnnnn-cf4-1-sgl)|MSeg=basket-ball
+19	basketball	basketball	NOUN	NN	Number=Sing	17	nmod	17:nmod:for	Entity=(157-event-new-nnnnn-cf5-1-coref)|MSeg=basket-ball
 20	or	or	CCONJ	CC	_	22	cc	22:cc	_
-21	other	other	ADJ	JJ	Degree=Pos	22	amod	22:amod	Entity=(158-event-new-nnnnn-cf5-2-sgl
+21	other	other	ADJ	JJ	Degree=Pos	22	amod	22:amod	Bridge=157<158:comparison-relative|Entity=(158-event-acc:inf-nnnnn-cf2-2-sgl
 22	recreation	recreation	NOUN	NN	Number=Sing	19	conj	17:nmod:for|19:conj:or	Entity=158)155)|MSeg=recreat-ion|SpaceAfter=No
 23	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -1313,12 +1313,12 @@
 9	Inwood	Inwood	PROPN	NNP	Number=Sing	10	compound	10:compound	MSeg=In-wood
 10	Terrace	Terrace	PROPN	NNP	Number=Sing	8	nmod:unmarked	8:nmod:unmarked	Entity=167)|SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	12:punct	_
-12	tel	telephone	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	Entity=(168-abstract-new-nnnnn-cf2-1-coref)|SpaceAfter=No
+12	tel	telephone	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	Bridge=152<168:entity-associative|Entity=(168-abstract-acc:inf-nnnnn-cf2-1-coref)|SpaceAfter=No
 13	:	:	PUNCT	:	_	12	punct	12:punct	_
 14	1	1	NUM	CD	NumForm=Digit|NumType=Card	6	list	6:list	Discourse=elaboration-additional:98->97:0:sem-synym-930,932-933-_+grf-col-931-_|Entity=(168-abstract-giv:act-nnnnn-cf2-1,2-coref
 15	201-592-4699	201-592-4699	NUM	CD	NumForm=Digit|NumType=Card	14	flat	14:flat	Entity=168)|SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	17:punct	_
-17	contact	contact	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	6	parataxis	6:parataxis	Discourse=elaboration-additional:99->97:1:sem-lxchn-923-924,937-gold
+17	contact	contact	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	6	parataxis	6:parataxis	Discourse=elaboration-additional:99->97:1:sem-lxchn-923-924,937-gold
 18	for	for	ADP	IN	_	20	case	20:case	_
 19	membership	membership	NOUN	NN	Number=Sing	20	compound	20:compound	Entity=(169-abstract-new-nnnnn-cf4-2-sgl|MSeg=member-ship
 20	information	information	NOUN	NN	Number=Sing	17	obl	17:obl:for	Entity=169)|MSeg=in-form-ation|SpaceAfter=No
@@ -1335,7 +1335,7 @@
 # s_type = imp
 # transition = zero
 # text = Buy
-1	Buy	buy	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:100->101:4:grf-ly-_-_
+1	Buy	buy	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:100->101:4:grf-ly-_-_
 
 # newpar
 # newpar_block = p (7 s)
@@ -1346,20 +1346,20 @@
 # text = There is an abundance of supermarkets, one the most famous and unique being Caffasso’s Fairway Market.
 1	There	there	PRON	EX	PronType=Dem	2	expl	2:expl	Discourse=joint-other_m:101->7:3:_
 2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
-3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(171-place-new-nnnnn-cf2-2-sgl
+3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(171-place-new-nnnnn-cf3-2-coref
 4	abundance	abundance	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	CxnElt=2:Existential-CopPred-ThereExpl.Pivot|MSeg=abundan-ce
 5	of	of	ADP	IN	_	6	case	6:case	_
 6	supermarkets	supermarket	NOUN	NNS	Number=Plur	4	nmod	4:nmod:of	Entity=171)|MSeg=super-market-s|SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	8:punct	_
-8	one	one	NUM	CD	NumForm=Word|NumType=Card|Typo=Yes	6	appos	6:appos	CorrectForm=one of|Discourse=elaboration-additional:102->101:0:_|Entity=(172-place-new-nnnnn-cf1-1-coref|XML=<sic ana:::"one of"></sic>
-9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(173-place-new-nnnnn-cf4-3,5-sgl
+8	one	one	NUM	CD	NumForm=Word|NumType=Card|Typo=Yes	6	appos	6:appos	CorrectForm=one of|Discourse=elaboration-additional:102->101:0:sem-mrnym-947-950,953-957-_|Entity=(172-place-new-nnnnn-cf1-1-coref|XML=<sic ana:::"one of"></sic>
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Bridge=171<173:comparison-relative;comparison-sense|Entity=(173-place-acc:inf-nnnnn-cf2-3,5-sgl
 10	most	most	ADV	RBS	Degree=Sup	11	advmod	11:advmod	_
 11	famous	famous	ADJ	JJ	Degree=Pos	8	nmod	8:nmod	MSeg=fam-ous
 12	and	and	CCONJ	CC	_	13	cc	13:cc	_
 13	unique	unique	ADJ	JJ	Degree=Pos	11	conj	8:nmod|11:conj:and	Entity=173)172)
 14	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	18	cop	18:cop	MSeg=be-ing
 15-16	Caffasso’s	_	_	_	_	_	_	_	_
-15	Caffasso	Caffasso	PROPN	NNP	Number=Sing	18	nmod:poss	18:nmod:poss	Entity=(172-place-giv:act-nnnnn-cf1-3,4-coref(174-person-new-nnnnn-cf3-1-coref
+15	Caffasso	Caffasso	PROPN	NNP	Number=Sing	18	nmod:poss	18:nmod:poss	Entity=(172-place-giv:act-nnnnn-cf1-3,4-coref(174-person-new-nnnnn-cf4-1-coref
 16	’s	's	PART	POS	_	15	case	15:case	Entity=174)
 17	Fairway	Fairway	PROPN	NNP	Number=Sing	18	compound	18:compound	MSeg=Fair-way
 18	Market	Market	PROPN	NNP	Number=Sing	8	advcl	8:advcl	Entity=172)|SpaceAfter=No
@@ -1402,7 +1402,7 @@
 4	Market	Market	PROPN	NNP	Number=Sing	0	root	0:root	Entity=172)|XML=</hi>
 5	1214	1214	NUM	CD	NumForm=Digit|NumType=Card	4	list	4:list	Entity=(179-place-new-nnnnn-cf3-1,2-sgl
 6	Anderson	Anderson	PROPN	NNP	Number=Sing	7	compound	7:compound	_
-7	Ave	Ave	PROPN	NNP	Number=Sing	5	nmod:unmarked	5:nmod:unmarked	Entity=179)|SpaceAfter=No
+7	Ave	Avenue	PROPN	NNP	Abbr=Yes|Number=Sing	5	nmod:unmarked	5:nmod:unmarked	Entity=179)|SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	9:punct	_
 9	1	1	NUM	CD	NumForm=Digit|NumType=Card	4	list	4:list	Entity=(180-abstract-new-nnnnn-cf4-1,2-sgl
 10	201-224-7900	201-224-7900	NUM	CD	NumForm=Digit|NumType=Card	9	flat	9:flat	Entity=180)|SpaceAfter=No
@@ -1413,7 +1413,7 @@
 # s_type = other
 # transition = establishment
 # text = Store hours: Mon-Fri 08:30 am - 7 pm, Sat 08:30 am - 06:30 pm, Sun 9 am - 03:00 pm
-1	Store	store	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=elaboration-additional:105->104:0:sem-synym-981-984,992-_|Entity=(181-time-new-nnnnn-cf1-2-coref(172-place-giv:act-nnnnn-cf2*-1-coref)
+1	Store	store	NOUN	NN	Number=Sing	2	compound	2:compound	Bridge=172<181:entity-associative|Discourse=elaboration-additional:105->104:0:sem-synym-981-984,992-_+sem-mrnym-981-984,992-993-_|Entity=(181-time-acc:inf-nnnnn-cf1-2-coref(172-place-giv:act-nnnnn-cf2*-1-coref)|PDTB=EntRel:EntRel:_:_:981-991:992-1016
 2	hours	hour	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=181)|SpaceAfter=No
 3	:	:	PUNCT	:	_	2	punct	2:punct	_
 4	Mon	Monday	PROPN	NNP	Number=Sing	7	nmod:unmarked	7:nmod:unmarked	Discourse=elaboration-additional:106->105:0:sem-synym-992-993,995-1016-_+grf-col-994-_|Entity=(181-time-giv:act-nnnnn-cf1-3,4,11,18-coref(182-time-new-nnnnn-cf4-1-sgl)|SpaceAfter=No|XML=<w>
@@ -1475,7 +1475,7 @@
 29	drug	drug	NOUN	NN	Number=Sing	30	compound	30:compound	Entity=(195-place-new-nnnnn-cf9-2-sgl
 30	store	store	NOUN	NN	Number=Sing	27	conj	25:obj|27:conj:or	Entity=195)
 31	on	on	ADP	IN	_	33	case	33:case	_
-32	every	every	DET	DT	PronType=Ind	33	det	33:det	Bridge=79<196|Entity=(196-place-acc:inf-nnnnn-cf4-2-sgl
+32	every	every	DET	DT	PronType=Ind	33	det	33:det	Bridge=79<196:entity-meronomy|Entity=(196-place-acc:inf-nnnnn-cf4-2-sgl
 33	corner	corner	NOUN	NN	Number=Sing	30	nmod	30:nmod:on	Entity=196)|SpaceAfter=No
 34	.	.	PUNCT	.	_	7	punct	7:punct	_
 
@@ -1541,7 +1541,7 @@
 # s_type = imp
 # transition = null
 # text = Eat
-1	Eat	eat	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:114->116:2:grf-ly-_-_
+1	Eat	eat	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-heading:114->116:2:grf-ly-_-_
 
 # newpar
 # newpar_block = p (3 s)
@@ -1551,7 +1551,7 @@
 # transition = null
 # text = Within Fort Lee, the main attraction would be its collection of restaurants.
 1	Within	within	ADP	IN	_	2	case	2:case	Discourse=context-background:115->116:1:sem-rpt-1096-1097,1109-1110-_|MSeg=With-in
-2	Fort	Fort	PROPN	NNP	Number=Sing	11	nmod	11:nmod:within	Entity=(1-place-giv:inact-sssss-cf1-1,2-coref-Fort_Lee%2C_New_Jersey
+2	Fort	Fort	PROPN	NNP	Number=Sing	11	obl	11:obl:within	Entity=(1-place-giv:inact-sssss-cf1-1,2-coref-Fort_Lee%2C_New_Jersey
 3	Lee	Lee	PROPN	NNP	Number=Sing	2	flat	2:flat	Entity=1)|SpaceAfter=No
 4	,	,	PUNCT	,	_	2	punct	2:punct	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(208-place-new-nnnns-cf2-3-coref
@@ -1570,7 +1570,7 @@
 # s_type = decl
 # transition = establishment
 # text = Fort Lee offers international cuisine and is famous for their pizzerias, delis and 24-hour diners, in addition to its Korean restaurants.
-1	Fort	Fort	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=joint-other_m:116->7:3:_|Entity=(1-place-giv:act-sssss-cf1*-1,2-coref-Fort_Lee%2C_New_Jersey|PDTB=Implicit:Expansion.Conjunction:indeed:_:1095-1108:1109-1134
+1	Fort	Fort	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=joint-other_m:116->7:3:_|Entity=(1-place-giv:act-sssss-cf1*-1,2-coref-Fort_Lee%2C_New_Jersey|PDTB=EntRel:EntRel:_:_:1095-1108:1109-1134
 2	Lee	Lee	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=1)
 3	offers	offer	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=offer-s
 4	international	international	ADJ	JJ	Degree=Pos	5	amod	5:amod	Entity=(209-abstract-new-snnss-cf2-2-sgl|MSeg=inter-nation-al
