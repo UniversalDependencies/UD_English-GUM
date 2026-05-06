@@ -1,17 +1,17 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_English-GUM:
-commit c1a33114e013413c586f635ae10ffe277dfd4295
-Merge: afb41ee d650dac
+commit 4be9794272f42acffcf42dece368c6aea8e4b753
+Merge: 4bf933f b58e74b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'en_gum'
 Language code (from CoNLL-U file name) = 'en'
 Found the following data files: en_gum-ud-dev.conllu, en_gum-ud-test.conllu, en_gum-ud-train.conllu
-Size: counted 233926 of 233926 words (nodes).
-Size: min(0, log((N/1000)**2)) = 10.9100096520545.
+Size: counted 256739 of 256739 words (nodes).
+Size: min(0, log((N/1000)**2)) = 11.0961200093163.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -19,61 +19,62 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 158773 out of 233926 total words have one or more features.
+Features: 174431 out of 256739 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 36 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 12 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-GUM/en_gum-ud-dev.conllu
-[Line 91 Sent GUM_academic_exposure-3]: [L3 Warning verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
-[Line 189 Sent GUM_academic_exposure-6]: [L3 Warning verbform-fin-without-mood] Finite verb 'may' lacks the 'Mood' feature
-[Line 207 Sent GUM_academic_exposure-7]: [L3 Warning verbform-fin-without-mood] Finite verb 'may' lacks the 'Mood' feature
-[Line 336 Sent GUM_academic_exposure-8]: [L3 Warning verbform-fin-without-mood] Finite verb 'may' lacks the 'Mood' feature
-[Line 354 Sent GUM_academic_exposure-9]: [L3 Warning verbform-fin-without-mood] Finite verb 'might' lacks the 'Mood' feature
-[Line 897 Sent GUM_academic_exposure-20]: [L3 Warning verbform-fin-without-mood] Finite verb 'may' lacks the 'Mood' feature
-[Line 944 Sent GUM_academic_exposure-21]: [L3 Warning verbform-fin-without-mood] Finite verb 'may' lacks the 'Mood' feature
-[Line 1089 Sent GUM_academic_exposure-24]: [L3 Warning verbform-fin-without-mood] Finite verb 'might' lacks the 'Mood' feature
-[Line 1594 Sent GUM_academic_librarians-14]: [L3 Warning verbform-fin-without-mood] Finite verb 'should' lacks the 'Mood' feature
-[Line 1614 Sent GUM_academic_librarians-14]: [L3 Warning verbform-fin-without-mood] Finite verb 'could' lacks the 'Mood' feature
-...suppressing further errors regarding Warning
-Warnings: 318
+[Line 93 Sent GUM_academic_exposure-3]: [L3 WARNING verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
+[Line 191 Sent GUM_academic_exposure-6]: [L3 WARNING verbform-fin-without-mood] Finite verb 'may' lacks the 'Mood' feature
+[Line 209 Sent GUM_academic_exposure-7]: [L3 WARNING verbform-fin-without-mood] Finite verb 'may' lacks the 'Mood' feature
+[Line 338 Sent GUM_academic_exposure-8]: [L3 WARNING verbform-fin-without-mood] Finite verb 'may' lacks the 'Mood' feature
+[Line 356 Sent GUM_academic_exposure-9]: [L3 WARNING verbform-fin-without-mood] Finite verb 'might' lacks the 'Mood' feature
+[Line 899 Sent GUM_academic_exposure-20]: [L3 WARNING verbform-fin-without-mood] Finite verb 'may' lacks the 'Mood' feature
+[Line 946 Sent GUM_academic_exposure-21]: [L3 WARNING verbform-fin-without-mood] Finite verb 'may' lacks the 'Mood' feature
+[Line 1091 Sent GUM_academic_exposure-24]: [L3 WARNING verbform-fin-without-mood] Finite verb 'might' lacks the 'Mood' feature
+[Line 1597 Sent GUM_academic_librarians-14]: [L3 WARNING verbform-fin-without-mood] Finite verb 'should' lacks the 'Mood' feature
+[Line 1617 Sent GUM_academic_librarians-14]: [L3 WARNING verbform-fin-without-mood] Finite verb 'could' lacks the 'Mood' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 311
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-GUM/en_gum-ud-test.conllu
-[Line 224 Sent GUM_academic_discrimination-10]: [L3 Warning verbform-fin-without-mood] Finite verb 'should' lacks the 'Mood' feature
-[Line 864 Sent GUM_academic_discrimination-36]: [L3 Warning verbform-fin-without-mood] Finite verb 'would' lacks the 'Mood' feature
-[Line 1430 Sent GUM_academic_discrimination-54]: [L3 Warning verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
-[Line 1540 Sent GUM_academic_eegimaa-4]: [L3 Warning verbform-fin-without-mood] Finite verb 'will' lacks the 'Mood' feature
-[Line 1914 Sent GUM_academic_eegimaa-14]: [L3 Warning verbform-fin-without-mood] Finite verb 'will' lacks the 'Mood' feature
-[Line 4213 Sent GUM_bio_jespersen-22]: [L3 Warning obl-should-be-nmod] The parent (node [53] 'death') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 4837 Sent GUM_conversation_lambada-4]: [L3 Warning verbform-fin-without-mood] Finite verb 'would' lacks the 'Mood' feature
-[Line 4867 Sent GUM_conversation_lambada-5]: [L3 Warning verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
-[Line 4981 Sent GUM_conversation_lambada-12]: [L3 Warning verbform-fin-without-mood] Finite verb ''ll' lacks the 'Mood' feature
-[Line 5049 Sent GUM_conversation_lambada-16]: [L3 Warning verbform-fin-without-mood] Finite verb 'could' lacks the 'Mood' feature
-...suppressing further errors regarding Warning
-Warnings: 325
+[Line 224 Sent GUM_academic_discrimination-10]: [L3 WARNING verbform-fin-without-mood] Finite verb 'should' lacks the 'Mood' feature
+[Line 864 Sent GUM_academic_discrimination-36]: [L3 WARNING verbform-fin-without-mood] Finite verb 'would' lacks the 'Mood' feature
+[Line 1430 Sent GUM_academic_discrimination-54]: [L3 WARNING verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
+[Line 1540 Sent GUM_academic_eegimaa-4]: [L3 WARNING verbform-fin-without-mood] Finite verb 'will' lacks the 'Mood' feature
+[Line 1914 Sent GUM_academic_eegimaa-14]: [L3 WARNING verbform-fin-without-mood] Finite verb 'will' lacks the 'Mood' feature
+[Line 4837 Sent GUM_conversation_lambada-4]: [L3 WARNING verbform-fin-without-mood] Finite verb 'would' lacks the 'Mood' feature
+[Line 4867 Sent GUM_conversation_lambada-5]: [L3 WARNING verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
+[Line 4981 Sent GUM_conversation_lambada-12]: [L3 WARNING verbform-fin-without-mood] Finite verb ''ll' lacks the 'Mood' feature
+[Line 5049 Sent GUM_conversation_lambada-16]: [L3 WARNING verbform-fin-without-mood] Finite verb 'could' lacks the 'Mood' feature
+[Line 5106 Sent GUM_conversation_lambada-18]: [L3 WARNING verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 318
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-GUM/en_gum-ud-train.conllu
-[Line 214 Sent GUM_academic_art-11]: [L3 Warning verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
-[Line 394 Sent GUM_academic_art-17]: [L3 Warning verbform-fin-without-mood] Finite verb 'will' lacks the 'Mood' feature
-[Line 873 Sent GUM_academic_art-27]: [L3 Warning verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
-[Line 1078 Sent GUM_academic_census-4]: [L3 Warning verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
-[Line 1146 Sent GUM_academic_census-5]: [L3 Warning verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
-[Line 1178 Sent GUM_academic_census-6]: [L3 Warning fixed-gap] Gaps in fixed expression [19, 23] 'due * * * to'
-[Line 1181 Sent GUM_academic_census-6]: [L3 Warning obl-should-be-nmod] The parent (node [25] 'lack') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 1236 Sent GUM_academic_census-7]: [L3 Warning verbform-fin-without-mood] Finite verb 'might' lacks the 'Mood' feature
-[Line 1702 Sent GUM_academic_census-20]: [L3 Warning verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
-[Line 1747 Sent GUM_academic_census-21]: [L3 Warning verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
-...suppressing further errors regarding Warning
-Warnings: 2070
+[Line 214 Sent GUM_academic_art-11]: [L3 WARNING verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
+[Line 394 Sent GUM_academic_art-17]: [L3 WARNING verbform-fin-without-mood] Finite verb 'will' lacks the 'Mood' feature
+[Line 873 Sent GUM_academic_art-27]: [L3 WARNING verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
+[Line 1078 Sent GUM_academic_census-4]: [L3 WARNING verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
+[Line 1146 Sent GUM_academic_census-5]: [L3 WARNING verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
+[Line 1178 Sent GUM_academic_census-6]: [L3 WARNING fixed-gap] Gaps in fixed expression [19, 23] 'due * * * to'
+[Line 1236 Sent GUM_academic_census-7]: [L3 WARNING verbform-fin-without-mood] Finite verb 'might' lacks the 'Mood' feature
+[Line 1702 Sent GUM_academic_census-20]: [L3 WARNING verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
+[Line 1747 Sent GUM_academic_census-21]: [L3 WARNING verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
+[Line 1783 Sent GUM_academic_census-22]: [L3 WARNING verbform-fin-without-mood] Finite verb 'can' lacks the 'Mood' feature
+[Line 1811 Sent GUM_academic_census-23]: [L3 WARNING verbform-fin-without-mood] Finite verb 'will' lacks the 'Mood' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 2326
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
 (weight=0.111111111111111) * (score{genres}=0.666666666666667) = 0.0740740740740741
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
-(weight=0.37037037037037) * (score{size}=0.789692831566416) = 0.29247882650608
+(weight=0.37037037037037) * (score{size}=0.803163948430389) = 0.297468129048292
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
 (weight=0.111111111111111) * (score{tags}=0.8) = 0.0888888888888889
 (weight=0.111111111111111) * (score{udeprels}=0.972972972972973) = 0.108108108108108
-(TOTAL score=0.837623971651225) * (availability=1) * (validity=1) = 0.837623971651225
+(TOTAL score=0.842613274193437) * (availability=1) * (validity=1) = 0.842613274193437
 STARS = 4
-UD_English-GUM	0.837623971651225	4
+UD_English-GUM	0.842613274193437	4
