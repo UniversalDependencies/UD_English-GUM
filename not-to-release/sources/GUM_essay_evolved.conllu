@@ -5,6 +5,8 @@
 # meta::dateCreated = 2019-01-02
 # meta::dateModified = 2019-01-02
 # meta::genre = essay
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 3 (4*), 10 (4*), 89 (4*), 1 (3*), 34 (3*), 98 (3*), 2 (2*), 27 (2*), 51 (2), 175 (2*), 186 (2*), 12 (1), 23 (1), 52 (1), 55 (1), 58 (1), 103 (1), 115 (1), 124 (1), 128 (1), 176 (1*), 178 (1*), 179 (1*), 184 (1*), 185 (1*), 187 (1*)
 # meta::sourceURL = https://openwa.pressbooks.pub/lwtech88readings/
 # meta::speakerCount = 0
@@ -160,7 +162,7 @@
 25	not	not	PART	RB	Polarity=Neg	26	advmod	26:advmod	Negation=Yes
 26	make	make	VERB	VB	VerbForm=Inf	22	acl:relcl	22:acl:relcl	_
 27	sense	sense	NOUN	NN	Number=Sing	26	obj	26:obj	_
-28	now	now	ADV	RB	_	26	advmod	26:advmod	Entity=21)|SpaceAfter=No
+28	now	now	ADV	RB	PronType=Dem	26	advmod	26:advmod	Entity=21)|SpaceAfter=No
 29	:	:	PUNCT	:	_	34	punct	34:punct	_
 30	The	the	DET	DT	Definite=Def|PronType=Art	31	det	31:det	Bridge=21<22:entity-associative|Discourse=context-background:15->17:4:ref-prs-69,132-_+sem-mrnym-86-95,134-_|Entity=(22-abstract-acc:inf-nnnnn-cf3-2-coref
 31	system	system	NOUN	NN	Number=Sing	34	nsubj:pass	34:nsubj:pass|36:nsubj:xsubj	Entity=22)
@@ -412,10 +414,10 @@
 # newpar_block = head (1 s)
 # sent_id = GUM_essay_evolved-15
 # s_prominence = 3
-# s_type = decl
+# s_type = frag
 # transition = continue
 # text = What we eat
-1	What	what	PRON	WP	PronType=Rel	0	root	0:root	Discourse=organization-heading:39->56:5:grf-ly-_-_+sem-lxchn-295,416-_|XML=<hi rend:::"bold">
+1	What	what	PRON	WP	Case=Acc|PronType=Rel	0	root	0:root	Discourse=organization-heading:39->56:5:grf-ly-_-_+sem-lxchn-295,416-_|XML=<hi rend:::"bold">
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(1-person-giv:act-snsns-cf1*-1-ana)
 3	eat	eat	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	1:acl:relcl	XML=</hi>
 
@@ -550,7 +552,7 @@
 # s_type = decl
 # transition = establishment
 # text = None of these contained “easy” sugary calories.
-1	None	none	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Discourse=elaboration-additional:55->54:0:ref-dem-386-394,398-_|Entity=(69-abstract-new-nnnnn-cf2-1-sgl|Negation=Yes|PDTB=Implicit:Expansion.Conjunction:furthermore:_:370-395:396-405
+1	None	none	PRON	NN	Number=Sing|PronType=Neg	4	nsubj	4:nsubj	Discourse=elaboration-additional:55->54:0:ref-dem-386-394,398-_|Entity=(69-abstract-new-nnnnn-cf2-1-sgl|Negation=Yes|PDTB=Implicit:Expansion.Conjunction:furthermore:_:370-395:396-405
 2	of	of	ADP	IN	_	3	case	3:case	_
 3	these	this	PRON	DT	Number=Plur|PronType=Dem	1	nmod	1:nmod:of	Entity=(63-substance-giv:act-nnnnn-cf1*-1-ana)69)
 4	contained	contain	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=contain-ed
@@ -602,7 +604,7 @@
 # transition = establishment
 # text = But now, food is just a few feet away, and we can easily consume thousands of calories in one serving.
 1	But	but	CCONJ	CC	_	10	cc	10:cc	Discourse=adversative-contrast_m:63->56:3:sem-mrnym-406-412,445-_+dm-but-433-gold|PDTB=Explicit:Comparison.Contrast:but:433:406-432:434-455
-2	now	now	ADV	RB	_	10	advmod	10:advmod	SpaceAfter=No
+2	now	now	ADV	RB	PronType=Dem	10	advmod	10:advmod	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	food	food	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=(11-substance-giv:act-nnnnn-cf1*-1-coref)
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
@@ -646,7 +648,7 @@
 14	acquire	acquire	VERB	VB	VerbForm=Inf	5	advcl	5:advcl:to	Entity=61)|SpaceAfter=No
 15	,	,	PUNCT	,	_	2	punct	2:punct	_
 16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	19:cop	Discourse=same-unit_m:70->65:1:_
-17	now	now	ADV	RB	_	19	advmod	19:advmod	_
+17	now	now	ADV	RB	PronType=Dem	19	advmod	19:advmod	_
 18	right	right	ADV	RB	Degree=Pos	19	advmod	19:advmod	_
 19	there	there	ADV	RB	PronType=Dem	0	root	0:root	_
 20	in	in	ADP	IN	_	22	case	22:case	_
@@ -726,7 +728,7 @@
 # newpar_block = head (1 s)
 # sent_id = GUM_essay_evolved-27
 # s_prominence = 3
-# s_type = decl
+# s_type = frag
 # transition = establishment
 # text = How we move
 1	How	how	ADV	WRB	PronType=Rel	0	root	0:root	Discourse=organization-heading:75->85:5:grf-ly-_-_|XML=<hi rend:::"bold">
@@ -960,7 +962,7 @@
 # s_type = wh
 # transition = zero
 # text = What can we do to feel better?
-1	What	what	PRON	WP	PronType=Int	4	obj	4:obj	CxnElt=4:Interrogative-WHInfo-Direct.WHWord|Discourse=organization-heading:100->107:4:grf-ly-_-_+ref-prs-713,758-_+sem-lxchn-716,755-_|XML=<hi rend:::"bold">
+1	What	what	PRON	WP	Case=Acc|PronType=Int	4	obj	4:obj	CxnElt=4:Interrogative-WHInfo-Direct.WHWord|Discourse=organization-heading:100->107:4:grf-ly-_-_+ref-prs-713,758-_|XML=<hi rend:::"bold">
 2	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(1-person-giv:inact-snsns-cf1-1-ana)
 4	do	do	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=4:Interrogative-WHInfo-Direct.Clause
@@ -1073,13 +1075,13 @@
 13	why	why	ADV	WRB	PronType=Rel	10	conj	9:obj|10:conj:and|15:ccomp	_
 14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	15:nsubj|21:nsubj	Entity=(1-person-giv:act-snsns-cf1*-1-ana)
 15	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	advcl:relcl	13:advcl:relcl	_
-16	what	what	PRON	WP	PronType=Rel	15	obj	13:ref|15:obj	_
+16	what	what	PRON	WP	Case=Acc|PronType=Rel	15	obj	13:ref|15:obj	_
 17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	18:nsubj	Entity=(1-person-giv:act-snsns-cf1*-1-ana)
 18	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	acl:relcl	16:acl:relcl	SpaceAfter=No
 19	,	,	PUNCT	,	_	21	punct	21:punct	_
 20	and	and	CCONJ	CC	_	21	cc	21:cc	_
 21	desire	desire	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	conj	13:advcl:relcl|15:conj:and	_
-22	what	what	PRON	WP	PronType=Rel	21	obj	21:obj	_
+22	what	what	PRON	WP	Case=Acc|PronType=Rel	21	obj	21:obj	_
 23	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	24:nsubj	Entity=(1-person-giv:act-snsns-cf1*-1-ana)
 24	desire	desire	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	acl:relcl	22:acl:relcl	Entity=135)|SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -1154,7 +1156,7 @@
 
 # sent_id = GUM_essay_evolved-42
 # s_prominence = 3
-# s_type = multiple
+# s_type = decl
 # transition = establishment
 # text = I tell my patients: do not buy it, or if you do, buy in small amounts.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:120->121:1:sem-atsrc-851-_+lex-indwd-852-_+syn-rpr-862-_|Entity=(3-person-giv:inact-ssssn-cf3-1-ana)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:indeed:_:842-850:851-870
@@ -1162,9 +1164,9 @@
 3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(25-person-giv:inact-nnnnn-cf1-2-coref(3-person-giv:act-ssssn-cf3-1-ana)
 4	patients	patient	NOUN	NNS	Number=Plur	2	iobj	2:iobj	CxnElt=2:Ditransitive.Rec|Entity=25)|MSeg=patient-s|SpaceAfter=No
 5	:	:	PUNCT	:	_	8	punct	8:punct	_
-6	do	do	AUX	VB	VerbForm=Inf	8	aux	8:aux|16:aux	Discourse=elaboration-additional:121->119:0:ref-prs-844-849,859-_
+6	do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	8	aux	8:aux|16:aux	Discourse=elaboration-additional:121->119:0:ref-prs-844-849,859-_
 7	not	not	PART	RB	Polarity=Neg	8	advmod	8:advmod	Negation=Yes
-8	buy	buy	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	2	ccomp	2:ccomp	CxnElt=2:Ditransitive.Theme
+8	buy	buy	VERB	VB	VerbForm=Inf	2	ccomp	2:ccomp	CxnElt=2:Ditransitive.Theme
 9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	8:obj	Entity=(98-substance-giv:act-ssnsn-cf2*-1-ana)|SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	11:punct	_
 11	or	or	CCONJ	CC	_	16	cc	16:cc	Discourse=joint-disjunction_m:122->121:0:dm-or-861-gold|PDTB=Explicit:Expansion.Disjunction:or:861:856-860:862-870
@@ -1172,7 +1174,7 @@
 13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	14:nsubj	Entity=(25-person-giv:act-nnnnn-cf1-1-ana)
 14	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	advcl	16:advcl:if	CxnElt=16:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|SpaceAfter=No
 15	,	,	PUNCT	,	_	14	punct	14:punct	_
-16	buy	buy	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	8	conj	2:ccomp|8:conj:or	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=16:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=same-unit_m:124->122:0:_
+16	buy	buy	VERB	VB	VerbForm=Inf	8	conj	2:ccomp|8:conj:or	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=16:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=same-unit_m:124->122:0:_
 17	in	in	ADP	IN	_	19	case	19:case	_
 18	small	small	ADJ	JJ	Degree=Pos	19	amod	19:amod	Bridge=98<140:comparison-sense|Entity=(140-abstract-acc:inf-nnnnn-cf4-2-sgl
 19	amounts	amount	NOUN	NNS	Number=Plur	16	obl	16:obl:in	Entity=140)|MSeg=amount-s|SpaceAfter=No
@@ -1186,7 +1188,7 @@
 1	Try	try	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=restatement-partial:125->119:1:_|PDTB=Implicit:Expansion.Equivalence:in other words:_:851-870:871-880
 2	to	to	PART	TO	_	3	mark	3:mark	_
 3	eat	eat	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
-4	what	what	PRON	WP	PronType=Rel	3	obj	3:obj	_
+4	what	what	PRON	WP	Case=Acc|PronType=Rel	3	obj	3:obj	_
 5	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj:pass	7:nsubj:pass|9:nsubj:xsubj	Entity=(25-person-giv:act-nnnnn-cf1*-1-ana)
 6	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	7	aux:pass	7:aux:pass	_
 7	evolved	evolve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl:relcl	4:acl:relcl	MSeg=evolv-ed
@@ -1238,7 +1240,7 @@
 # s_type = imp
 # transition = zero
 # text = Also know that this body would be much happier when it is regularly, and highly active.
-1	Also	also	ADV	RB	_	2	advmod	2:advmod	Discourse=attribution-positive:131->132:1:lex-indwd-909-_+sem-atsrc-909-_+syn-rpr-910,912-915,924-_|PDTB=Explicit:Expansion.Conjunction:also:908:881-894:909-925
+1	Also	also	ADV	RB	_	2	advmod	2:advmod	Discourse=attribution-positive:131->132:1:sem-atsrc-909-_+lex-indwd-909-_+syn-rpr-910,912-915,924-_|PDTB=Explicit:Expansion.Conjunction:also:908:881-894:909-925
 2	know	know	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
 3	that	that	SCONJ	IN	_	9	mark	9:mark	Discourse=joint-list_m:132->127:3:dm-also-908-gold
 4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	5:det	Entity=(51-object-giv:inact-nnssn-cf1-2-coref
@@ -1332,7 +1334,7 @@
 # s_type = frag
 # transition = zero
 # text = Whatever rocks your boat: yoga, boxing, walking, running up the stairs at work, doing 20 push-ups, 20 sit-ups and 20 squats a day, or dancing to a TV ad; whatever makes your heart pound faster.
-1	Whatever	whatever	PRON	WP	PronType=Rel	0	root	0:root	Discourse=elaboration-additional:139->137:0:dm-and-965-gold|MSeg=What-ever
+1	Whatever	whatever	PRON	WP	Case=Acc|PronType=Rel	0	root	0:root	Discourse=elaboration-additional:139->137:0:dm-and-965-gold|MSeg=What-ever
 2	rocks	rock	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	1:acl:relcl	_
 3	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(36-person-giv:inact-nnnnn-cf1-1-ana)
 4	boat	boat	NOUN	NN	Number=Sing	2	obj	2:obj	SpaceAfter=No
@@ -1373,7 +1375,7 @@
 39	TV	TV	NOUN	NN	Abbr=Yes|Number=Sing	40	compound	40:compound	Entity=(157-object-new-nnnnn-cf11-1-sgl)
 40	ad	ad	NOUN	NN	Number=Sing	36	obl	36:obl:to	Entity=156)|SpaceAfter=No
 41	;	;	PUNCT	:	_	42	punct	42:punct	_
-42	whatever	whatever	PRON	WP	PronType=Rel	1	appos	1:appos	Discourse=restatement-partial:146->139:1:ref-prs-978,1019-_|MSeg=what-ever
+42	whatever	whatever	PRON	WP	Case=Acc|PronType=Rel	1	appos	1:appos	Discourse=restatement-partial:146->139:1:ref-prs-978,1019-_|MSeg=what-ever
 43	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	acl:relcl	42:acl:relcl	MSeg=make-s
 44	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	45	nmod:poss	45:nmod:poss	Entity=(158-object-new-nnnnn-cf5-2-sgl(36-person-giv:act-nnnnn-cf1-1-ana)
 45	heart	heart	NOUN	NN	Number=Sing	43	obj	43:obj|46:nsubj:xsubj	Entity=158)
@@ -1450,9 +1452,9 @@
 # s_type = multiple
 # transition = continue
 # text = Do not feel disappointed if you did not lose weight, it’s not the only goal.
-1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=elaboration-additional:156->148:4:ref-prs-1036,1081-_+sem-mrnym-1067,1081-_|PDTB=EntRel:EntRel:_:_:1069-1075:1076-1093
+1	Do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	aux	3:aux	Discourse=elaboration-additional:156->148:4:ref-prs-1036,1081-_+sem-mrnym-1067,1081-_|PDTB=EntRel:EntRel:_:_:1069-1075:1076-1093
 2	not	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	Negation=Yes
-3	feel	feel	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=3:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
+3	feel	feel	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=3:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
 4	disappointed	disappoint	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	xcomp	3:xcomp	MSeg=dis-appoint-ed
 5	if	if	SCONJ	IN	_	9	mark	9:mark	Discourse=contingency-condition:157->156:0:dm-if-1080-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:1080:1076-1079:1081-1086
 6	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Entity=(168-event-new-nnnnn-cf2-4-disc(36-person-giv:act-nnnnn-cf1*-1-ana)
@@ -1477,7 +1479,7 @@
 # s_type = decl
 # transition = zero
 # text = Other benefits are abundant and even more important: increased strength and energy, cardiovascular and joint health, improved mood, etc.
-1	Other	other	ADJ	JJ	Degree=Pos	2	amod	2:amod	Bridge=170<171:comparison-relative|Discourse=explanation-motivation:159->156:1:mrf-md-1078-_|Entity=(171-abstract-acc:inf-nnnnn-cf1-2-coref
+1	Other	other	ADJ	JJ	Degree=Pos	2	amod	2:amod	Bridge=170<171:comparison-relative|Discourse=explanation-motivation:159->156:1:mrf-md-1076-_|Entity=(171-abstract-acc:inf-nnnnn-cf1-2-coref
 2	benefits	benefit	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj|8:nsubj	Entity=171)|MSeg=bene-fit-s
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 4	abundant	abundant	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=abund-ant

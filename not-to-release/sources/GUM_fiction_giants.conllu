@@ -5,6 +5,8 @@
 # meta::dateCreated = 2008-01-01
 # meta::dateModified = 2008-01-01
 # meta::genre = fiction
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 3 (5*), 9 (5*), 16 (5*), 17 (5*), 63 (5*), 1 (4*), 2 (4*), 8 (2), 46 (2), 47 (2*), 102 (2), 4 (1), 25 (1), 48 (1), 49 (1), 124 (1)
 # meta::sourceURL = http://smallbeerpress.com/wp-content/uploads/Rosenbaum_Ant_King.pdf
 # meta::speakerCount = 2
@@ -112,7 +114,7 @@
 22	graveyards	graveyard	NOUN	NNS	Number=Plur	18	nmod	18:nmod:in	MSeg=graveyard-s
 23	plowed	plow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	acl	22:acl	Discourse=elaboration-attribute:6->5:0:syn-mdf-69-_+syn-nmn-70,82-_|MSeg=plow-ed
 24	into	into	ADP	IN	_	25	case	25:case	MSeg=in-to
-25	what	what	PRON	WP	PronType=Rel	23	obl	23:obl:into	_
+25	what	what	PRON	WP	Case=Acc|PronType=Rel	23	obl	23:obl:into	_
 26	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	acl:relcl	25:acl:relcl	MSeg=us-ed
 27	to	to	PART	TO	_	30	mark	30:mark	_
 28	be	be	AUX	VB	VerbForm=Inf	30	cop	30:cop	_
@@ -143,7 +145,7 @@
 2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	one	one	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	Entity=(25-person-new-nsnnn-cf3-2-coref
 4	granddaughter	granddaughter	NOUN	NN	Number=Sing	2	obj	2:obj|6:nsubj	MSeg=grand-daughter
-5	who	who	PRON	WP	PronType=Rel	6	nsubj	4:ref	Discourse=elaboration-attribute:9->8:0:syn-mdf-94-_+syn-relcl-95-96-_
+5	who	who	PRON	WP	Case=Nom|PronType=Rel	6	nsubj	4:ref	Discourse=elaboration-attribute:9->8:0:syn-mdf-94-_+syn-relcl-95-96-_
 6	survived	survive	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	4:acl:relcl	MSeg=surviv-ed
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(16-event-giv:act-sssss-cf2-2-coref
 8	war	war	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=16)25)|SpaceAfter=No
@@ -157,7 +159,7 @@
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration-additional:10->8:1:ref-prs-91,100-_+ref-prs-93-98,102-_|Entity=(3-person-giv:act-sssss-cf1*-1-ana)|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:91-99:100-138
 2	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	2:obj	Entity=(25-person-giv:act-nsnnn-cf2-1-ana)
-4	sometimes	sometimes	ADV	RB	_	2	advmod	2:advmod	MSeg=sometime-s|SpaceAfter=No
+4	sometimes	sometimes	ADV	RB	PronType=Tot	2	advmod	2:advmod	MSeg=sometime-s|SpaceAfter=No
 5	:	:	PUNCT	:	_	4	punct	4:punct	_
 6	in	in	ADP	IN	_	10	case	10:case	Discourse=elaboration-additional:11->10:0:ref-prs-102,115-_+grf-col-104-_
 7	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(26-object-new-nnnnn-cf6-4-sgl
@@ -200,7 +202,7 @@
 # transition = smooth-shift
 # text = She never looked back at me — poverty and failure and political disrepute being all, these days, contagious and synonymous.
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint-sequence_m:14->10:1:_|Entity=(25-person-giv:act-nsnnn-cf1*-1-ana)|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:100-138:139-161
-2	never	never	ADV	RB	_	3	advmod	3:advmod	Negation=Yes
+2	never	never	ADV	RB	PronType=Neg	3	advmod	3:advmod	Negation=Yes
 3	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=look-ed
 4	back	back	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
 5	at	at	ADP	IN	_	6	case	6:case	_
@@ -357,7 +359,7 @@
 23	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	24:nmod:poss	Entity=(61-object-new-nnnnn-cf7-2-sgl(57-person-giv:act-nnnnn-cf1-1-ana)
 24	face	face	NOUN	NN	Number=Sing	21	nmod	21:nmod:of	Entity=61)60)|SpaceAfter=No
 25	,	,	PUNCT	,	_	28	punct	28:punct	_
-26	who	who	PRON	WP	PronType=Rel	28	nsubj:pass	11:ref	Discourse=elaboration-attribute:27->26:0:syn-mdf-254-_+syn-relcl-269,271-_
+26	who	who	PRON	WP	Case=Nom|PronType=Rel	28	nsubj:pass	11:ref	Discourse=elaboration-attribute:27->26:0:syn-mdf-254-_+syn-relcl-269,271-_
 27	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	aux:pass	28:aux:pass	_
 28	incensed	incense	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	acl:relcl	11:acl:relcl	Entity=57)|MSeg=incens-ed|SpaceAfter=No
 29	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -517,7 +519,7 @@
 5	proud	proud	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=73)|SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	7:punct	_
 7	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	3	parataxis	3:parataxis|9:nsubj	Entity=(73-person-giv:act-nnnnn-cf1*-1-coref|MSeg=any-one
-8	who	who	PRON	WP	PronType=Rel	9	nsubj	7:ref	Discourse=elaboration-attribute:39->38:0:syn-mdf-369-_+syn-relcl-370-371-_
+8	who	who	PRON	WP	Case=Nom|PronType=Rel	9	nsubj	7:ref	Discourse=elaboration-attribute:39->38:0:syn-mdf-369-_+syn-relcl-370-371-_
 9	believed	believe	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	7:acl:relcl	MSeg=believ-ed
 10	in	in	ADP	IN	_	11	case	11:case	_
 11	giants	giant	NOUN	NNS	Number=Plur	9	obl	9:obl:in	Entity=(2-person-giv:inact-ssssn-cf2-1-coref)|MSeg=giant-s

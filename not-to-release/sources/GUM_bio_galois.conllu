@@ -5,6 +5,8 @@
 # meta::dateCreated = 2004-08-18
 # meta::dateModified = 2018-09-04
 # meta::genre = bio
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 4 (5*), 51 (5*), 60 (4*), 1 (3*), 178 (3), 5 (2), 49 (2*), 53 (2*), 54 (2*), 131 (2), 17 (1), 28 (1), 41 (1), 42 (1*), 57 (1), 62 (1), 82 (1), 127 (1), 129 (1*), 130 (1*), 150 (1), 158 (1)
 # meta::sourceURL = https://en.wikipedia.org/w/index.php?title=%C3%89variste_Galois&action=history
 # meta::speakerCount = 0
@@ -445,7 +447,7 @@
 # s_type = decl
 # transition = zero
 # text = What is known is that five days before his death, he wrote a letter to Chevalier which clearly alludes to a broken love affair. [7]
-1	What	what	PRON	WP	PronType=Int	3	nsubj:pass	3:nsubj:pass	Discourse=context-background:41->57:1:sem-synym-348,462-_|PDTB=NoRel:NoRel:_:_:328-339:340-368
+1	What	what	PRON	WP	Case=Nom|PronType=Int	3	nsubj:pass	3:nsubj:pass	Discourse=context-background:41->57:1:sem-synym-348,462-_|PDTB=NoRel:NoRel:_:_:328-339:340-368
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	csubj:outer	13:csubj:outer	MSeg=know-n
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_
@@ -675,7 +677,7 @@
 36	,	,	PUNCT	,	_	40	punct	40:punct	_
 37	each	each	DET	DT	PronType=Tot	40	nsubj	40:nsubj	Discourse=elaboration-attribute:66->65:0:syn-mdf-529-_+syn-relcl-537-538-_|Entity=(87-person-acc:aggr-nnnnn-cf5-4-disc|SplitAnte=85<87,86<87
 38	of	of	ADP	IN	_	39	case	39:case	_
-39	whom	who	PRON	WP	PronType=Rel	37	nmod	31:ref	_
+39	whom	who	PRON	WP	Case=Acc|PronType=Rel	37	nmod	31:ref	_
 40	provoked	provoke	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	acl:relcl	31:acl:relcl	MSeg=provok-ed
 41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	42:det	Entity=(51-event-giv:act-sssss-cf3-2-coref
 42	duel	duel	NOUN	NN	Number=Sing	40	obj	40:obj	Entity=51)87)84)|SpaceAfter=No
@@ -737,7 +739,7 @@
 17-18	Galois'	_	_	_	_	_	_	_	_
 17	Galois	Galois	PROPN	NNP	Number=Sing	19	nmod:poss	19:nmod:poss	Entity=(91-person-new-nnnnn-cf10-3-sgl(4-person-giv:act-sssss-cf1*-1-coref-Évariste_Galois
 18	'	's	PART	POS	_	17	case	17:case	Entity=4)
-19	biographers	biographer	NOUN	NNS	Number=Plur	15	obl	15:obl:of	Entity=91)|MSeg=biograph-er-s
+19	biographers	biographer	NOUN	NNS	Number=Plur	15	nmod	15:nmod:of	Entity=91)|MSeg=biograph-er-s
 20	(	(	PUNCT	-LRB-	_	24	punct	24:punct	Discourse=elaboration-additional:73->72:0:grf-prn-585,596-_|SpaceAfter=No
 21	most	most	ADV	RBS	Degree=Sup	22	advmod	22:advmod	_
 22	notably	notably	ADV	RB	Degree=Pos	24	orphan	22.1:advmod	MSeg=notab-ly
@@ -806,7 +808,7 @@
 15	[	[	PUNCT	-LRB-	_	16	punct	16:punct	Discourse=explanation-evidence:79->78:0:grf-prn-641,643-_|SpaceAfter=No
 16	13	13	NUM	CD	NumForm=Digit|NumType=Card	11	parataxis	11:parataxis	Entity=(104-abstract-new-nnnnn-cf11-1-sgl)|SpaceAfter=No|XML=<ref></ref>
 17	]	]	PUNCT	-RRB-	_	16	punct	16:punct	_
-18	who	who	PRON	WP	PronType=Rel	21	nsubj	12:ref	Discourse=context-background:80->78:1:sem-synym-629,662-663-_;elaboration-attribute:80->78:2:1:syn-mdf-638-_+syn-relcl-644,647-_
+18	who	who	PRON	WP	Case=Nom|PronType=Rel	21	nsubj	12:ref	Discourse=context-background:80->78:1:sem-synym-629,662-663-_;elaboration-attribute:80->78:2:1:syn-mdf-638-_+syn-relcl-644,647-_
 19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	cop	21:cop	_
 20	actually	actually	ADV	RB	Degree=Pos	21	advmod	21:advmod	MSeg=act-ual-ly
 21	one	one	NUM	CD	NumForm=Word|NumType=Card	12	acl:relcl	12:acl:relcl	Entity=(103-person-giv:act-nnnnn-cf2-1-coref
@@ -815,7 +817,7 @@
 24	nineteen	nineteen	NUM	CD	NumForm=Word|NumType=Card	26	nummod	26:nummod	MSeg=nine-teen
 25	artillery	artillery	NOUN	NN	Number=Sing	26	compound	26:compound	_
 26	officers	officer	NOUN	NNS	Number=Plur	21	nmod	21:nmod:of	MSeg=offic-er-s
-27	whose	whose	PRON	WP$	Poss=Yes|PronType=Rel	28	nmod:poss	26:ref|28:nmod:poss	Discourse=elaboration-attribute:81->80:0:syn-mdf-652-_+syn-relcl-656-_|Entity=(106-event-new-nnnnn-cf5-2-sgl
+27	whose	whose	PRON	WP$	Case=Gen|Poss=Yes|PronType=Rel	28	nmod:poss	26:ref|28:nmod:poss	Discourse=elaboration-attribute:81->80:0:syn-mdf-652-_+syn-relcl-656-_|Entity=(106-event-new-nnnnn-cf5-2-sgl
 28	acquittal	acquittal	NOUN	NN	Number=Sing	30	nsubj:pass	30:nsubj:pass	Entity=106)|MSeg=acquitt-al
 29	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	aux:pass	30:aux:pass	_
 30	celebrated	celebrate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	26	acl:relcl	26:acl:relcl	MSeg=celebrat-ed
@@ -851,7 +853,7 @@
 10	and	and	CCONJ	CC	_	17	cc	17:cc	Discourse=joint-list_m:85->84:0:dm-and-679-gold|PDTB=Explicit:Expansion.Conjunction:and:679:670-678:680-693
 11	if	if	SCONJ	IN	_	14	mark	14:mark	Discourse=contingency-condition:86->87:0:dm-if-680-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:680:679,684-693:681-683
 12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj	Entity=(101-person-giv:act-nnnnn-cf1*-1-ana-Alexandre_Dumas)
-13	were	be	AUX	VB	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	cop	14:cop	_
+13	were	be	AUX	VBD	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	cop	14:cop	_
 14	correct	correct	ADJ	JJ	Degree=Pos	17	advcl	17:advcl:if	CxnElt=17:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	expl	17:expl	Discourse=same-unit_m:87->85:0:_|Entity=(110-abstract-new-nnnnn-cf4-1-cata)
 16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	17:cop	_
@@ -966,7 +968,7 @@
 49	Ernest	Ernest	PROPN	NNP	Number=Sing	40	appos	40:appos|54:nsubj:pass	Entity=(121-person-new-nnnnn-cf8-1,2-sgl
 50	Duchatelet	Duchatelet	PROPN	NNP	Number=Sing	49	flat	49:flat	SpaceAfter=No
 51	,	,	PUNCT	,	_	54	punct	54:punct	_
-52	who	who	PRON	WP	PronType=Rel	54	nsubj:pass	49:ref	Discourse=elaboration-attribute:95->94:0:syn-mdf-780-_+syn-relcl-783,785-_
+52	who	who	PRON	WP	Case=Nom|PronType=Rel	54	nsubj:pass	49:ref	Discourse=elaboration-attribute:95->94:0:syn-mdf-780-_+syn-relcl-783,785-_
 53	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	54	aux:pass	54:aux:pass	_
 54	imprisoned	imprison	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	49	acl:relcl	49:acl:relcl	MSeg=im-prison-ed
 55	with	with	ADP	IN	_	56	case	56:case	_
@@ -1012,7 +1014,7 @@
 # s_type = decl
 # transition = continue
 # text = Whatever the reasons behind the duel, Galois was so convinced of his impending death that he stayed up all night writing letters to his Republican friends and composing what would become his mathematical testament, the famous letter to Auguste Chevalier outlining his ideas, and three attached manuscripts. [22]
-1	Whatever	whatever	PRON	WP	PronType=Rel	11	advcl	11:advcl	Discourse=adversative-concession:100->102:3:_|MSeg=What-ever
+1	Whatever	whatever	PRON	WP	Case=Acc|PronType=Rel	11	advcl	11:advcl	Discourse=adversative-concession:100->102:3:_|MSeg=What-ever
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(58-abstract-giv:inact-nnnnn-cf3-2-coref
 3	reasons	reason	NOUN	NNS	Number=Plur	1	nsubj	1:nsubj	MSeg=reason-s
 4	behind	behind	ADP	IN	_	6	case	6:case	MSeg=be-hind
@@ -1041,7 +1043,7 @@
 27	friends	friend	NOUN	NNS	Number=Plur	22	obl	22:obl:to	Entity=120)|MSeg=friend-s
 28	and	and	CCONJ	CC	_	29	cc	29:cc	Discourse=joint-list_m:104->103:0:sem-lxchn-836-837,853-gold+dm-and-842-gold|PDTB=Explicit:Expansion.Conjunction:and:842:836-841:843-865
 29	composing	compose	VERB	VBG	Tense=Pres|VerbForm=Part	22	conj	18:advcl|22:conj:and	MSeg=compos-ing
-30	what	what	PRON	WP	PronType=Rel	29	obj	29:obj	Entity=(128-object-new-nnnnn-cf2-1-coref
+30	what	what	PRON	WP	Case=Acc|PronType=Rel	29	obj	29:obj	Entity=(128-object-new-nnnnn-cf2-1-coref
 31	would	would	AUX	MD	VerbForm=Fin	32	aux	32:aux	_
 32	become	become	VERB	VB	VerbForm=Inf	30	acl:relcl	30:acl:relcl	MSeg=be-come
 33	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	35:nmod:poss	Entity=(129-abstract-new-snnnn-cf12-3-coref(4-person-giv:act-sssss-cf1*-1-ana-Évariste_Galois)
@@ -1467,9 +1469,9 @@
 # text = (Don't cry, Alfred!
 1	(	(	PUNCT	-LRB-	_	4	punct	4:punct	Discourse=restatement-repetition_m:148->146:1:sem-rpt-1151,1172-_|SpaceAfter=No
 2-3	Don't	_	_	_	_	_	_	_	_
-2	Do	do	AUX	VB	VerbForm=Inf	4	aux	4:aux	_
+2	Do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	4	aux	4:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes
-4	cry	cry	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+4	cry	cry	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
 6	Alfred	Alfred	PROPN	NNP	Number=Sing	4	vocative	4:vocative	Entity=(175-person-giv:inact-nnnnn-cf1-1-coref)|SpaceAfter=No
 7	!	!	PUNCT	.	_	4	punct	4:punct	_
@@ -1514,7 +1516,7 @@
 14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(185-place-new-nnnnn-cf7-2,3-sgl-Montparnasse_Cemetery
 15	Montparnasse	Montparnasse	PROPN	NNP	Number=Sing	16	compound	16:compound	XML=<ref target:::"https://en.wikipedia.org/wiki/Montparnasse_Cemetery">
 16	Cemetery	Cemetery	PROPN	NNP	Number=Sing	12	nmod	12:nmod:of	Entity=185)|XML=</ref>
-17	whose	whose	PRON	WP$	Poss=Yes|PronType=Rel	19	nmod:poss	12:ref|19:nmod:poss	Discourse=elaboration-attribute:152->151:0:syn-mdf-1196-_+syn-relcl-1205-_|Entity=(151-place-giv:inact-nnnnn-cf2-3-coref
+17	whose	whose	PRON	WP$	Case=Gen|Poss=Yes|PronType=Rel	19	nmod:poss	12:ref|19:nmod:poss	Discourse=elaboration-attribute:152->151:0:syn-mdf-1196-_+syn-relcl-1205-_|Entity=(151-place-giv:inact-nnnnn-cf2-3-coref
 18	exact	exact	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
 19	location	location	NOUN	NN	Number=Sing	21	nsubj	21:nsubj	Entity=151)|MSeg=locat-ion
 20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	21:cop	_

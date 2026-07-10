@@ -5,6 +5,8 @@
 # meta::dateCreated = 2019-11-25
 # meta::dateModified = 2019-11-25
 # meta::genre = vlog
+# meta::modality = spoken
+# meta::production = informal/spontaneous/public
 # meta::salientEntities = 3 (5*), 12 (5*), 53 (5*), 54 (5*), 81 (5*), 72 (4), 7 (3), 21 (3), 23 (3), 66 (3), 69 (3), 75 (3*), 6 (2), 8 (2), 11 (2*), 33 (1*), 34 (1*), 36 (1*), 38 (1*), 68 (1), 73 (1), 78 (1)
 # meta::sourceURL = https://www.youtube.com/watch?v=Efm3zOP97WM
 # meta::speakerCount = 1
@@ -24,7 +26,7 @@
 # text = Hey what's up guys?
 1	Hey	hey	INTJ	UH	_	4	discourse	4:discourse	Discourse=organization-phatic:1->2:1:_
 2-3	what's	_	_	_	_	_	_	_	_
-2	what	what	PRON	WP	PronType=Int	4	nsubj	4:nsubj	_
+2	what	what	PRON	WP	Case=Nom|PronType=Int	4	nsubj	4:nsubj	_
 3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 4	up	up	ADV	RB	Degree=Pos	0	root	0:root	_
 5	guys	guy	NOUN	NNS	Number=Plur	4	vocative	4:vocative	Entity=(1-person-acc:com-nnnnn-cf1-1-coref)|MSeg=guy-s|SpaceAfter=No
@@ -85,7 +87,7 @@
 7	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	9:aux	Discourse=adversative-concession:7->6:0:_
 8	n't	not	PART	RB	Polarity=Neg	9	advmod	9:advmod	Negation=Yes
 9	mind	mind	VERB	VB	VerbForm=Inf	4	parataxis	4:parataxis	_
-10	what	what	PRON	WP	PronType=Rel	9	obj	9:obj	_
+10	what	what	PRON	WP	Case=Acc|PronType=Rel	9	obj	9:obj	_
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	12:nsubj	Entity=(3-person-giv:act-sssss-cf1*-1-ana)
 12	look	look	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	acl:relcl	10:acl:relcl	_
 13	like	like	ADP	IN	_	12	obl	12:obl	SpaceAfter=No
@@ -222,7 +224,7 @@
 2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 3	back	back	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
 4	home	home	ADV	RB	Degree=Pos	0	root	0:root	_
-5	now	now	ADV	RB	_	4	advmod	4:advmod	PDTB=AltLex:Temporal.Asynchronous.Precedence:now:135:131-134,136:137-158|SpaceAfter=No
+5	now	now	ADV	RB	PronType=Dem	4	advmod	4:advmod	PDTB=AltLex:Temporal.Asynchronous.Precedence:now:135:131-134,136:137-158|SpaceAfter=No
 6	,	,	PUNCT	,	_	11	punct	11:punct	_
 7	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=elaboration-additional:19->14:2:ref-prs-101,131-_+sem-rpt-105-118,143-155-_+dm-and-137-gold|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:and:137:101-130:131-136,138-158
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj	Entity=(3-person-giv:act-sssss-cf1*-1-ana)
@@ -818,7 +820,7 @@
 5	of	of	ADP	IN	_	6	case	6:case	_
 6	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	obl	4:obl:of	Entity=(3-person-giv:act-sssss-cf1*-1-ana)|MSeg=my-self
 7	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=joint-sequence_m:77->73:1:dm-and-572-gold|PDTB=Explicit:Expansion.Conjunction:and:572:541-549:566-571,573-595
-8	now	now	ADV	RB	_	11	advmod	11:advmod	_
+8	now	now	ADV	RB	PronType=Dem	11	advmod	11:advmod	_
 9-10	I'm	_	_	_	_	_	_	_	_
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj|13:nsubj:xsubj|14:nsubj:xsubj|19:nsubj:xsubj	Entity=(3-person-giv:act-sssss-cf1*-1-ana)
 10	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	cop	11:cop	_
@@ -993,7 +995,7 @@
 7	FGCU	FGCU	PROPN	NNP	Abbr=Yes|Number=Sing	5	obl	5:obl:to	Entity=(75-organization-new-ssnsn-cf5-1-coref-Florida_Gulf_Coast_University)
 8	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=joint-list_m:101->100:0:sem-mrnym-699,706-_+dm-and-700-gold|PDTB=Explicit:Expansion.Conjunction:and:700:694-699:701-707
 9	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj	Entity=(1-person-giv:act-nnnnn-cf1*-1-ana)
-10	ever	ever	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
+10	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	11	advmod	11:advmod	_
 11	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	conj	5:conj:and|17:advcl:if	_
 12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	11:obj	Entity=(3-person-giv:act-sssss-cf2-1-ana)
 13	on	on	ADP	IN	_	14	case	14:case	_
@@ -1174,7 +1176,7 @@
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(81-event-giv:act-sssss-cf1*-1-ana)
 3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 4	over	over	ADJ	JJ	Degree=Pos	0	root	0:root	_
-5	now	now	ADV	RB	_	4	advmod	4:advmod	_
+5	now	now	ADV	RB	PronType=Dem	4	advmod	4:advmod	_
 6	and	and	CCONJ	CC	_	9	cc	9:cc	Discourse=joint-list_m:120->119:0:dm-and-839-gold|PDTB=Explicit:Expansion.Conjunction:and:839:834-838:840-851
 7-8	they're	_	_	_	_	_	_	_	_
 7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	9:nsubj|11:nsubj:xsubj	Entity=(80-person-giv:inact-nnnnn-cf4-1-ana)
@@ -1233,7 +1235,7 @@
 14	stock	stock	NOUN	NN	Number=Sing	11	obl	11:obl:in	SpaceAfter=No
 15	,	,	PUNCT	,	_	19	punct	19:punct	_
 16	so	so	ADV	RB	_	19	advmod	19:advmod	Discourse=causal-cause:124->122:0:_|PDTB=Explicit:Contingency.Cause.Result:so:877:868-876:878-883
-17	now	now	ADV	RB	_	19	advmod	19:advmod	_
+17	now	now	ADV	RB	PronType=Dem	19	advmod	19:advmod	_
 18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	19:nsubj|21:nsubj:xsubj	Entity=(3-person-giv:act-sssss-cf1-1-ana)
 19	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	6:parataxis	_
 20	to	to	PART	TO	_	21	mark	21:mark	_
@@ -1254,7 +1256,7 @@
 5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 6	over	over	ADJ	JJ	Degree=Pos	0	root	0:root	_
 7	with	with	ADP	IN	_	6	compound	6:compound	_
-8	now	now	ADV	RB	_	6	advmod	6:advmod	SpaceAfter=No
+8	now	now	ADV	RB	PronType=Dem	6	advmod	6:advmod	SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	12:punct	_
 10-11	we're	_	_	_	_	_	_	_	_
 10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	12:nsubj|14:nsubj:xsubj|15:nsubj:xsubj	Discourse=joint-sequence_m:126->125:0:lex-indwd-891-_|Entity=(22-person-giv:inact-nnnnn-cf1-1-ana)

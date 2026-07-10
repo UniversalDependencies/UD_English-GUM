@@ -5,6 +5,8 @@
 # meta::dateCreated = 2022-07-11
 # meta::dateModified = 2022-07-11
 # meta::genre = speech
+# meta::modality = spoken
+# meta::production = formal/prepared/public
 # meta::salientEntities = 2 (5*), 3 (5*), 5 (5*), 6 (5*), 7 (5*), 8 (5*), 17 (5*), 148 (3), 158 (3), 1 (2*), 34 (2), 35 (2), 4 (1), 9 (1), 10 (1*), 14 (1*), 43 (1), 44 (1), 55 (1), 69 (1), 80 (1*), 83 (1), 85 (1*), 178 (1)
 # meta::sourceURL = https://www.whitehouse.gov/briefing-room/statements-releases/2022/07/11/remarks-by-president-biden-and-vice-president-harris-in-a-briefing-to-preview-the-first-images-from-the-james-webb-space-telescope/
 # meta::speakerCount = 3
@@ -377,7 +379,7 @@
 3	to	to	ADP	IN	_	5	case	5:case	_
 4	dedicated	dedicated	ADJ	JJ	Degree=Pos	5	amod	5:amod	Entity=(52-person-new-nnnnn-cf4-2-sgl|MSeg=dedicat-ed
 5	people	person	NOUN	NNS	Number=Plur	2	nmod	2:nmod:to|9:nsubj	_
-6	who	who	PRON	WP	PronType=Rel	9	nsubj	5:ref	Discourse=elaboration-attribute:26->25:0:syn-mdf-221-_+syn-relcl-222,225-_
+6	who	who	PRON	WP	Case=Nom|PronType=Rel	9	nsubj	5:ref	Discourse=elaboration-attribute:26->25:0:syn-mdf-221-_+syn-relcl-222,225-_
 7	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
 8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	aux	9:aux	_
 9	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	5	acl:relcl	5:acl:relcl	MSeg=work-ing
@@ -442,7 +444,7 @@
 30	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	34	nsubj	34:nsubj	Discourse=elaboration-attribute:32->31:0:syn-mdf-273-_+syn-relcl-278-_|Entity=(45-person-giv:act-nnnnn-cf1*-1-ana)
 31	could	could	AUX	MD	VerbForm=Fin	34	aux	34:aux	_
 32	have	have	AUX	VB	VerbForm=Inf	34	aux	34:aux	_
-33	never	never	ADV	RB	_	34	advmod	34:advmod	Negation=Yes
+33	never	never	ADV	RB	PronType=Neg	34	advmod	34:advmod	Negation=Yes
 34	imagined	imagine	VERB	VBN	Tense=Past|VerbForm=Part	29	acl:relcl	29:acl:relcl	MSeg=imagin-ed
 35	even	even	ADV	RB	_	38	advmod	38:advmod	_
 36	a	a	DET	DT	Definite=Ind|PronType=Art	38	det	38:det	Bridge=9<63:comparison-relative;comparison-time|Entity=(63-time-acc:inf-nnnnn-cf6-4-sgl
@@ -460,7 +462,7 @@
 # speaker = KamalaHarris
 # text = And now we enter a new phase of scientific discovery.
 1	And	and	CCONJ	CC	_	4	cc	4:cc	Discourse=organization-preparation:33->40:2:_;joint-sequence:33->29:0:3:mrf-tns-256,288-gold+orp-and-285-gold|PDTB=Explicit:Expansion.Conjunction:and:285:245-284:286-295
-2	now	now	ADV	RB	_	4	advmod	4:advmod	_
+2	now	now	ADV	RB	PronType=Dem	4	advmod	4:advmod	_
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(45-person-giv:act-nnnnn-cf1*-1-ana)
 4	enter	enter	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Bridge=56<64:comparison-relative|Entity=(64-abstract-acc:inf-nnnnn-cf2-3-sgl
@@ -497,7 +499,7 @@
 18	into	into	ADP	IN	_	19	case	19:case	MSeg=in-to
 19	space	space	NOUN	NN	Number=Sing	17	obl	17:obl:into	Entity=(8-place-acc:com-sssss-cf5-1-coref-Outer_space)
 20	than	than	ADP	IN	_	22	case	22:case	_
-21	ever	ever	ADV	RB	Degree=Pos	22	advmod	22:advmod	_
+21	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	22	advmod	22:advmod	_
 22	before	before	ADV	RB	Degree=Pos	17	obl	17:obl:than	_
 23	and	and	CCONJ	CC	_	26	cc	26:cc	_
 24	in	in	ADP	IN	_	26	case	26:case	_
@@ -514,7 +516,7 @@
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=explanation-justify:36->40:0:_|Entity=(68-abstract-new-nnnnn-cf7-3-disc(6-object-giv:act-sssss-cf2-1-ana-James_Webb_Space_Telescope)|PDTB=Implicit:Contingency.Cause.Result:so:_:296-322:323-344
 2	will	will	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	enhance	enhance	VERB	VB	VerbForm=Inf	0	root	0:root	_
-4	what	what	PRON	WP	PronType=Rel	3	obj	3:obj	_
+4	what	what	PRON	WP	Case=Acc|PronType=Rel	3	obj	3:obj	_
 5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(45-person-giv:act-nnnnn-cf1*-1-ana)
 6	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_
 7	about	about	ADP	IN	_	9	case	9:case	_
@@ -634,7 +636,7 @@
 21	across	across	ADP	IN	_	23	case	23:case	MSeg=a-cross
 22	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	23:nmod:poss	Entity=(83-place-new-nnsnn-cf9-2-coref-United_States(26-person-giv:inact-nnnnn-cf3-1-ana)
 23	nation	nation	NOUN	NN	Number=Sing	18	nmod	18:nmod:across	Entity=83)
-24	who	who	PRON	WP	PronType=Rel	25	nsubj	18:ref	Discourse=elaboration-attribute:45->44:0:syn-mdf-407-_+syn-relcl-413-414-_
+24	who	who	PRON	WP	Case=Nom|PronType=Rel	25	nsubj	18:ref	Discourse=elaboration-attribute:45->44:0:syn-mdf-407-_+syn-relcl-413-414-_
 25	dedicated	dedicate	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	18:acl:relcl	MSeg=dedicat-ed
 26	years	year	NOUN	NNS	Number=Plur	25	obj	25:obj	Entity=(84-time-new-nnnnn-cf6-1-sgl)|MSeg=year-s
 27	to	to	ADP	IN	_	29	case	29:case	_
@@ -711,9 +713,9 @@
 10	introduce	introduce	VERB	VB	VerbForm=Inf	8	csubj	8:csubj	_
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(2-person-giv:inact-sssss-cf2-2-coref-Joe_Biden
 12	leader	leader	NOUN	NN	Number=Sing	10	obj	10:obj|16:nsubj	MSeg=lead-er
-13	who	who	PRON	WP	PronType=Rel	16	nsubj	12:ref	Discourse=elaboration-attribute:51->50:0:syn-mdf-473-_+syn-relcl-474,477-_
+13	who	who	PRON	WP	Case=Nom|PronType=Rel	16	nsubj	12:ref	Discourse=elaboration-attribute:51->50:0:syn-mdf-473-_+syn-relcl-474,477-_
 14	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	16:aux	MSeg=ha-s
-15	always	always	ADV	RB	_	16	advmod	16:advmod	MSeg=al-way-s
+15	always	always	ADV	RB	PronType=Tot	16	advmod	16:advmod	MSeg=al-way-s
 16	believed	believe	VERB	VBN	Tense=Past|VerbForm=Part	12	acl:relcl	12:acl:relcl	MSeg=believ-ed
 17	in	in	ADP	IN	_	19	case	19:case	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(97-abstract-new-nnnnn-cf10-2-sgl
@@ -884,7 +886,7 @@
 19	guy	guy	NOUN	NN	Number=Sing	7	conj	2:vocative|7:conj:and|25:nsubj	_
 20	here	here	ADV	RB	PronType=Dem	19	advmod	19:advmod	_
 21-22	who’s	_	_	_	_	_	_	_	_
-21	who	who	PRON	WP	PronType=Rel	25	nsubj	19:ref	Discourse=elaboration-attribute:63->61:1:syn-mdf-591-_+syn-relcl-593,597-_
+21	who	who	PRON	WP	Case=Nom|PronType=Rel	25	nsubj	19:ref	Discourse=elaboration-attribute:63->61:1:syn-mdf-591-_+syn-relcl-593,597-_
 22	’s	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	25:aux	_
 23	been	be	AUX	VBN	Tense=Past|VerbForm=Part	25	cop	25:cop	_
 24	in	in	ADP	IN	_	25	case	25:case	_
@@ -923,7 +925,7 @@
 3	very	very	ADV	RB	_	4	advmod	4:advmod	_
 4	much	much	ADV	RB	Degree=Pos	1	advmod	1:advmod	_
 5	for	for	ADP	IN	_	6	case	6:case	_
-6	what	what	PRON	WP	PronType=Rel	1	obl	1:obl:for	Entity=(105-abstract-new-nnnnn-cf2-1-sgl
+6	what	what	PRON	WP	Case=Acc|PronType=Rel	1	obl	1:obl:for	Entity=(105-abstract-new-nnnnn-cf2-1-sgl
 7-8	you’re	_	_	_	_	_	_	_	_
 7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Entity=(29-person-giv:act-nnnnn-cf1*-1-ana-Bill_Nelson)
 8	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
@@ -1068,7 +1070,7 @@
 75	tiny	tiny	ADJ	JJ	Degree=Pos	76	amod	76:amod	MSeg=tin-y
 76	shutters	shutter	NOUN	NNS	Number=Plur	59	conj	57:obj|59:conj:and	Entity=123)|MSeg=shutt-er-s|SpaceAfter=No|XML=</hi>
 77	,	,	PUNCT	,	_	80	punct	80:punct	_
-78	each	each	DET	DT	PronType=Ind	79	det	79:det	Bridge=123<124:comparison-time;set-member|Discourse=elaboration-attribute:76->75:0:syn-mdf-728-_+syn-nmn-732-_|Entity=(124-object-acc:inf-nnnnn-cf6-2-sgl
+78	each	each	DET	DT	PronType=Tot	79	det	79:det	Bridge=123<124:comparison-time;set-member|Discourse=elaboration-attribute:76->75:0:syn-mdf-728-_+syn-nmn-732-_|Entity=(124-object-acc:inf-nnnnn-cf6-2-sgl
 79	one	one	NOUN	NN	Number=Sing	80	nsubj	80:nsubj	Entity=124)
 80	smaller	small	ADJ	JJR	Degree=Cmp	76	acl	76:acl	MSeg=small-er
 81	than	than	ADP	IN	_	83	case	83:case	_
@@ -1200,7 +1202,7 @@
 15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	17:nsubj	Discourse=adversative-concession:90->83:2:_;adversative-concession:90->92:2:3:orp-but-831-gold|Entity=(2-person-giv:act-sssss-cf1*-1-ana-Joe_Biden)
 16	’ll	will	AUX	MD	VerbForm=Fin	17	aux	17:aux	XML=</w>
 17	see	see	VERB	VB	VerbForm=Inf	0	root	0:root	_
-18	what	what	PRON	WP	PronType=Rel	17	obj	17:obj	_
+18	what	what	PRON	WP	Case=Acc|PronType=Rel	17	obj	17:obj	_
 19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	20:nsubj	Entity=(134-person-acc:com-nnnnn-cf3-1-sgl)
 20	think	think	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	18:acl:relcl	_
 21	when	when	ADV	WRB	PronType=Int	23	advmod	23:advmod	Discourse=context-circumstance:91->90:0:dm-when-826-gold|PDTB=Explicit:Temporal.Synchronous:when:826:820-825:827-830
@@ -1405,12 +1407,12 @@
 1	And	and	CCONJ	CC	_	3	cc	3:cc	Discourse=joint-list_m:106->105:0:dm-and-962-gold|Entity=(159-abstract-new-nnnnn-cf12-3-disc(160-abstract-auto-nnnnn-cf6-3-sgl|PDTB=Explicit:Expansion.Conjunction:and:962:948-961:963-1002
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(6-object-giv:act-sssss-cf2*-1-ana-James_Webb_Space_Telescope)
 3	shows	show	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=show-s
-4	what	what	PRON	WP	PronType=Rel	3	obj	3:obj	Entity=(161-abstract-new-nnnnn-cf8-1-sgl
+4	what	what	PRON	WP	Case=Acc|PronType=Rel	3	obj	3:obj	Entity=(161-abstract-new-nnnnn-cf8-1-sgl
 5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	7:nsubj	Entity=(45-person-giv:inact-nnnnn-cf1-1-ana)
 6	can	can	AUX	MD	VerbForm=Fin	7	aux	7:aux	_
 7	achieve	achieve	VERB	VB	VerbForm=Inf	4	acl:relcl	4:acl:relcl	Entity=161)|SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	9:punct	_
-9	what	what	PRON	WP	PronType=Rel	4	appos	4:appos	Entity=(162-abstract-new-nnnnn-cf13-1-sgl
+9	what	what	PRON	WP	Case=Acc|PronType=Rel	4	appos	4:appos	Entity=(162-abstract-new-nnnnn-cf13-1-sgl
 10	more	more	ADV	RBR	Degree=Cmp	9	advmod	9:advmod	_
 11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	13:nsubj	Entity=(45-person-giv:act-nnnnn-cf1-1-ana)
 12	can	can	AUX	MD	VerbForm=Fin	13	aux	13:aux	_
@@ -1552,7 +1554,7 @@
 5	no	no	DET	DT	PronType=Neg	6	det	6:det	Discourse=elaboration-attribute:117->116:0:syn-mdf-1070-_+syn-relcl-1075-_|Entity=(175-person-new-nnnnn-cf2-2-coref|Negation=Yes
 6	one	one	PRON	NN	Number=Sing|PronType=Neg	9	nsubj	9:nsubj	Entity=175)
 7	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	9:aux	MSeg=ha-s
-8	ever	ever	ADV	RB	Degree=Pos	9	advmod	9:advmod	_
+8	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	9	advmod	9:advmod	_
 9	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	4	acl:relcl	4:acl:relcl	MSeg=see-n
 10	before	before	ADV	RB	Degree=Pos	9	advmod	9:advmod	Entity=174)|SpaceAfter=No
 11	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -1570,7 +1572,7 @@
 5	no	no	DET	DT	PronType=Neg	6	det	6:det	Discourse=elaboration-attribute:119->118:0:syn-mdf-1081-_+syn-relcl-1086-_|Entity=(175-person-giv:act-nnnnn-cf2-2-coref|Negation=Yes
 6	one	one	PRON	NN	Number=Sing|PronType=Neg	9	nsubj	9:nsubj	Entity=175)
 7	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	9:aux	MSeg=ha-s
-8	ever	ever	ADV	RB	Degree=Pos	9	advmod	9:advmod	_
+8	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	9	advmod	9:advmod	_
 9	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	4	acl:relcl	4:acl:relcl	_
 10	before	before	ADV	RB	Degree=Pos	9	advmod	9:advmod	Entity=176)|SpaceAfter=No
 11	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -1651,14 +1653,14 @@
 14-15	that’s	_	_	_	_	_	_	_	_
 14	that	that	PRON	DT	Number=Sing|PronType=Dem	16	nsubj	16:nsubj	Entity=(83-place-giv:inact-nnsnn-cf2-1-ana-United_States)
 15	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	16:cop	_
-16	who	who	PRON	WP	PronType=Rel	12	ccomp	12:ccomp	_
+16	who	who	PRON	WP	Case=Nom|PronType=Rel	12	ccomp	12:ccomp	_
 17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	18:nsubj	Entity=(151-person-giv:inact-nnnnn-cf1-1-ana)
 18	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	acl:relcl	16:acl:relcl	SpaceAfter=No|XML=<w>
 19	—	—	PUNCT	:	_	22	punct	22:punct	SpaceAfter=No
 20-21	that’s	_	_	_	_	_	_	_	_
 20	that	that	PRON	DT	Number=Sing|PronType=Dem	22	nsubj	22:nsubj	Discourse=restatement-repetition_m:128->127:0:ref-dem-1131,1137-_+ref-prs-1134,1140-_+sem-lxchn-1135,1141-_|Entity=(83-place-giv:act-nnsnn-cf2-1-ana-United_States)
 21	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	22:cop	XML=</w>
-22	who	who	PRON	WP	PronType=Rel	16	parataxis	16:parataxis	_
+22	who	who	PRON	WP	Case=Nom|PronType=Rel	16	parataxis	16:parataxis	_
 23	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	24:nsubj	Entity=(151-person-giv:act-nnnnn-cf1-1-ana)
 24	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	acl:relcl	22:acl:relcl	_
 25	as	as	ADP	IN	_	27	case	27:case	_
@@ -1680,7 +1682,7 @@
 # speaker = JosephBiden
 # text = And now let’s take a look at the very first image from this miraculous telescope.
 1	And	and	CCONJ	CC	_	3	cc	3:cc	Discourse=joint-sequence_m:130->79:7:dm-and-1151-gold+lex-indwd-1152-_|PDTB=Explicit:Expansion.Conjunction:and:1151:882-916:1152-1167;Implicit:Temporal.Asynchronous.Precedence:then:_:1118-1150:1151-1167
-2	now	now	ADV	RB	_	3	advmod	3:advmod	_
+2	now	now	ADV	RB	PronType=Dem	3	advmod	3:advmod	_
 3-4	let’s	_	_	_	_	_	_	_	_
 3	let	let	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
 4	’s	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obj	3:obj|5:nsubj:xsubj	Entity=(17-person-giv:inact-sssss-cf1-1-ana)

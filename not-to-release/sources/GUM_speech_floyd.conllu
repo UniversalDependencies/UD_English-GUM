@@ -5,6 +5,8 @@
 # meta::dateCreated = 2021-03-03
 # meta::dateModified = 2021-03-03
 # meta::genre = speech
+# meta::modality = spoken
+# meta::production = formal/prepared/public
 # meta::salientEntities = 2 (5*), 5 (5*), 6 (5*), 7 (5*), 8 (5*), 3 (4), 4 (4), 68 (3), 78 (3*), 1 (2), 15 (2), 27 (2), 28 (2), 29 (2), 26 (1), 66 (1), 69 (1), 95 (1), 105 (1), 123 (1), 124 (1), 153 (1*), 160 (1)
 # meta::sourceURL = https://www.speaker.gov/newsroom/3321-4
 # meta::speakerCount = 1
@@ -426,7 +428,7 @@
 31	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	32	aux:pass	32:aux:pass|35:aux:pass	MSeg=be-ing
 32	targeted	target	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	4:advcl	MSeg=targ-et-ed
 33	and	and	CCONJ	CC	_	35	cc	35:cc	Discourse=joint-list_m:36->33:3:dm-and-293-gold|PDTB=Explicit:Expansion.Conjunction:and:293:266-292:294-296
-34	sometimes	sometimes	ADV	RB	_	35	advmod	35:advmod	MSeg=sometime-s
+34	sometimes	sometimes	ADV	RB	PronType=Tot	35	advmod	35:advmod	MSeg=sometime-s
 35	killed	kill	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	32	conj	4:advcl|32:conj:and	MSeg=kill-ed|SpaceAfter=No
 36	.	.	PUNCT	.	_	4	punct	4:punct	Entity=50)
 
@@ -490,7 +492,7 @@
 3	Congresswoman	Congresswoman	PROPN	NNP	Number=Sing	4	nmod:desc	4:nmod:desc	Entity=(21-person-giv:inact-nnnnn-cf1-2,3-coref-Karen_Bass|MSeg=Congress-woman
 4	Karen	Karen	PROPN	NNP	Number=Sing	2	obj	2:obj|9:nsubj	_
 5	Bass	Bass	PROPN	NNP	Number=Sing	4	flat	4:flat	Entity=21)
-6	who	who	PRON	WP	PronType=Rel	9	nsubj	4:ref	Discourse=elaboration-attribute:41->40:0:syn-mdf-341-_+syn-relcl-343,346-_
+6	who	who	PRON	WP	Case=Nom|PronType=Rel	9	nsubj	4:ref	Discourse=elaboration-attribute:41->40:0:syn-mdf-341-_+syn-relcl-343,346-_
 7	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	9:aux	MSeg=ha-s
 8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	cop	9:cop	_
 9	relentless	relentless	ADJ	JJ	Degree=Pos	4	acl:relcl	4:acl:relcl	MSeg=relent-less|SpaceAfter=No
@@ -623,7 +625,7 @@
 26	men	man	NOUN	NNS	Number=Plur	6	conj	4:obj|6:conj:or|30:nsubj	_
 27	and	and	CCONJ	CC	_	28	cc	28:cc	_
 28	women	woman	NOUN	NNS	Number=Plur	26	conj	6:conj|26:conj:and	_
-29	who	who	PRON	WP	PronType=Rel	30	nsubj	26:ref	Discourse=elaboration-attribute:49->48:0:syn-mdf-441-_+syn-relcl-444-445-_
+29	who	who	PRON	WP	Case=Nom|PronType=Rel	30	nsubj	26:ref	Discourse=elaboration-attribute:49->48:0:syn-mdf-441-_+syn-relcl-444-445-_
 30	died	die	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	26	acl:relcl	26:acl:relcl	MSeg=di-ed
 31	or	or	CCONJ	CC	_	34	cc	34:cc	Discourse=joint-disjunction_m:50->49:0:dm-or-446-gold|PDTB=Explicit:Expansion.Disjunction:or:446:444-445:447-450
 32	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	34	aux:pass	34:aux:pass	_
@@ -849,7 +851,7 @@
 22	and	and	CCONJ	CC	_	23	cc	23:cc	_
 23	women	woman	NOUN	NNS	Number=Plur	21	conj	18:appos|21:conj:and	Entity=95)|SpaceAfter=No
 24	,	,	PUNCT	,	_	25	punct	25:punct	_
-25	now	now	ADV	RB	_	27	advmod	27:advmod	SpaceAfter=No
+25	now	now	ADV	RB	PronType=Dem	27	advmod	27:advmod	SpaceAfter=No
 26	,	,	PUNCT	,	_	25	punct	25:punct	_
 27	men	man	NOUN	NNS	Number=Plur	18	appos	18:appos	Entity=(95-person-giv:act-nnnns-cf2-1,3-coref
 28	and	and	CCONJ	CC	_	29	cc	29:cc	_
@@ -933,9 +935,9 @@
 11	most	most	ADJ	JJS	Degree=Sup	9	nmod	9:nmod:to	Entity=(95-person-giv:act-nnnns-cf2-1-coref
 12	of	of	ADP	IN	_	14	case	14:case	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	_
-14	men	man	NOUN	NNS	Number=Plur	11	obl	11:obl:of	_
+14	men	man	NOUN	NNS	Number=Plur	11	nmod	11:nmod:of	_
 15	and	and	CCONJ	CC	_	16	cc	16:cc	_
-16	women	woman	NOUN	NNS	Number=Plur	14	conj	11:obl:of|14:conj:and	_
+16	women	woman	NOUN	NNS	Number=Plur	14	conj	11:nmod:of|14:conj:and	_
 17	in	in	ADP	IN	_	18	case	18:case	_
 18	blue	blue	NOUN	NN	Number=Sing	14	nmod	14:nmod:in	Entity=95)105)|SpaceAfter=No
 19	,	,	PUNCT	,	_	23	punct	23:punct	_
@@ -1000,7 +1002,7 @@
 14	of	of	ADP	IN	_	16	case	16:case	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(113-place-new-nnnnn-cf5-2-sgl
 16	aisle	aisle	NOUN	NN	Number=Sing	13	nmod	13:nmod:of	Entity=113)112)
-17	who	who	PRON	WP	PronType=Rel	19	nsubj	10:ref	Discourse=elaboration-attribute:84->83:0:syn-mdf-736-_+syn-relcl-743,745-_
+17	who	who	PRON	WP	Case=Nom|PronType=Rel	19	nsubj	10:ref	Discourse=elaboration-attribute:84->83:0:syn-mdf-736-_+syn-relcl-743,745-_
 18	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	19:aux	MSeg=ha-s
 19	advocated	advocate	VERB	VBN	Tense=Past|VerbForm=Part	10	acl:relcl	10:acl:relcl	MSeg=advocat-ed
 20	any	any	DET	DT	PronType=Ind	21	det	21:det	Entity=(114-abstract-new-nnnnn-cf7-5-sgl
@@ -1313,7 +1315,7 @@
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(138-time-new-nnnnn-cf3-2-sgl
 10	day	day	NOUN	NN	Number=Sing	8	obl:unmarked	8:obl:unmarked	Entity=138)
 11	–	-	PUNCT	:	_	13	punct	13:punct	_
-12	sometimes	sometimes	ADV	RB	_	13	advmod	13:advmod	Discourse=elaboration-additional:115->114:0:sem-lxchn-989,994-gold|MSeg=sometime-s
+12	sometimes	sometimes	ADV	RB	PronType=Tot	13	advmod	13:advmod	Discourse=elaboration-additional:115->114:0:sem-lxchn-989,994-gold|MSeg=sometime-s
 13	more	more	ADV	RBR	Degree=Cmp	2	advmod	2:advmod	SpaceAfter=No
 14	.	.	PUNCT	.	_	2	punct	2:punct	_
 

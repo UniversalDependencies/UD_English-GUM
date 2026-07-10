@@ -5,6 +5,8 @@
 # meta::dateCreated = 2004-02-12
 # meta::dateModified = 2015-08-22
 # meta::genre = voyage
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 3 (5*), 24 (5*), 64 (4*), 10 (2), 11 (2), 14 (2), 17 (2), 18 (2*), 19 (2), 20 (2*), 31 (2*), 34 (2), 102 (2*), 110 (2*), 111 (2*), 21 (1), 22 (1), 26 (1), 35 (1), 72 (1), 98 (1), 108 (1*), 112 (1), 115 (1), 120 (1*), 132 (1*)
 # meta::sourceURL = https://en.wikivoyage.org/wiki/Chatham_Islands
 # meta::speakerCount = 0
@@ -262,7 +264,7 @@
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(24-person-giv:act-sssss-cf1-2-coref-Moriori
 9	Moriori	Moriori	PROPN	NNP	Number=Sing	0	root	0:root|13:nsubj:pass	SpaceAfter=No
 10	,	,	PUNCT	,	_	13	punct	13:punct	_
-11	who	who	PRON	WP	PronType=Rel	13	nsubj:pass	9:ref	Discourse=elaboration-attribute:19->18:0:syn-mdf-170-_+syn-relcl-172,174,184-_
+11	who	who	PRON	WP	Case=Nom|PronType=Rel	13	nsubj:pass	9:ref	Discourse=elaboration-attribute:19->18:0:syn-mdf-170-_+syn-relcl-172,174,184-_
 12	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	13:aux:pass	_
 13	descended	descend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	acl:relcl	9:acl:relcl	MSeg=descend-ed
 14	from	from	ADP	IN	_	16	case	16:case	_
@@ -274,7 +276,7 @@
 20	Zealand	Zealand	PROPN	NNP	Number=Sing	19	flat	19:flat	Entity=3)26)25)|MSeg=Zea-land|SpaceAfter=No
 21	,	,	PUNCT	,	_	24	punct	24:punct	_
 22	but	but	CCONJ	CC	_	24	cc	24:cc	Discourse=adversative-contrast_m:20->19:0:sem-mrnym-176-181,192-193-_+dm-but-183-gold|PDTB=Explicit:Comparison.Contrast:but:183:172-182:184-194
-23	who	who	PRON	WP	PronType=Rel	24	nsubj	24:nsubj	_
+23	who	who	PRON	WP	Case=Nom|PronType=Rel	24	nsubj	24:nsubj	_
 24	developed	develop	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	9:acl:relcl|13:conj:but	MSeg=develop-ed
 25	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Entity=(14-abstract-giv:inact-nnssn-cf3-3-coref(24-person-giv:act-sssss-cf1-1-ana-Moriori)
 26	own	own	ADJ	JJ	Degree=Pos	27	amod	27:amod	_
@@ -860,9 +862,9 @@
 # s_type = imp
 # transition = null
 # text = Do not expect the flashest and latest in rental cars though.
-1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=adversative-contrast_m:73->71:1:dm-though-617-gold
+1	Do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	aux	3:aux	Discourse=adversative-contrast_m:73->71:1:dm-though-617-gold
 2	not	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	Negation=Yes
-3	expect	expect	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
+3	expect	expect	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(90-object-new-nnnnn-cf1-2,4-sgl
 5	flashest	flashy	ADJ	JJS	Degree=Sup|Typo=Yes	3	obj	3:obj	CorrectForm=flashiest|XML=<sic ana:::"flashiest"></sic>
 6	and	and	CCONJ	CC	_	7	cc	7:cc	_
@@ -1120,7 +1122,7 @@
 26	place	place	NOUN	NN	Number=Sing	0	root	0:root	Entity=111)|SpaceAfter=No
 27	,	,	PUNCT	,	_	29	punct	29:punct	_
 28	and	and	CCONJ	CC	_	29	cc	29:cc	_
-29	somewhere	somewhere	ADV	RB	_	26	conj	26:conj:and	Entity=(111-place-giv:act-snsnn-cf1*-1-coref-JM_Barker_%28Hapupu%29_Historic_Reserve
+29	somewhere	somewhere	ADV	RB	PronType=Tot	26	conj	26:conj:and	Entity=(111-place-giv:act-snsnn-cf1*-1-coref-JM_Barker_%28Hapupu%29_Historic_Reserve
 30	that	that	PRON	WDT	PronType=Rel	35	obl	35:obl:about	Discourse=elaboration-attribute:91->90:0:syn-relcl-780,783-_
 31	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	33	nsubj	33:nsubj|35:nsubj:xsubj	Entity=(49-person-giv:inact-nnnnn-cf3-1-ana)
 32	will	will	AUX	MD	VerbForm=Fin	33	aux	33:aux	_
@@ -1185,7 +1187,7 @@
 10	carvings	carving	NOUN	NNS	Number=Plur	8	obj	8:obj	Entity=115)|MSeg=carv-ing-s|SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	12:punct	_
 12	but	but	CCONJ	CC	_	19	cc	19:cc	Discourse=adversative-concession:96->97:0:_|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:830:819-829:831-834
-13	whatever	whatever	PRON	WP	PronType=Rel	19	advcl	19:advcl	MSeg=what-ever
+13	whatever	whatever	PRON	WP	Case=Acc|PronType=Rel	19	advcl	19:advcl	MSeg=what-ever
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Bridge=115<119:entity-associative|Entity=(119-abstract-acc:inf-nnnnn-cf4-2-sgl
 15	reason	reason	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	Entity=119)|SpaceAfter=No
 16	,	,	PUNCT	,	_	13	punct	13:punct	_
@@ -1567,7 +1569,7 @@
 30	above	above	ADP	IN	_	32	case	32:case	_
 31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	32:det	Entity=(153-place-acc:com-nnnnn-cf7-2-sgl
 32	sea	sea	NOUN	NN	Number=Sing	29	obl	29:obl:above	Entity=153)
-33	each	each	DET	DT	PronType=Ind	34	det	34:det	Entity=(154-time-new-nnnnn-cf9-2-sgl
+33	each	each	DET	DT	PronType=Tot	34	det	34:det	Entity=(154-time-new-nnnnn-cf9-2-sgl
 34	day	day	NOUN	NN	Number=Sing	29	obl:unmarked	29:obl:unmarked	Entity=154)|SpaceAfter=No
 35	.	.	PUNCT	.	_	1	punct	1:punct	_
 

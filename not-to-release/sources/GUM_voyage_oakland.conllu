@@ -5,6 +5,8 @@
 # meta::dateCreated = 2003-11-29
 # meta::dateModified = 2014-09-10
 # meta::genre = voyage
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 7 (5*), 78 (5*), 100 (5*), 166 (5*), 3 (4*), 6 (3), 54 (3*), 51 (2), 109 (2*), 119 (2*), 2 (1*), 14 (1*), 41 (1*), 61 (1*), 62 (1*), 65 (1), 66 (1), 74 (1), 77 (1), 80 (1*), 81 (1*), 87 (1), 90 (1*), 103 (1*), 122 (1), 129 (1), 152 (1), 153 (1)
 # meta::sourceURL = https://en.wikivoyage.org/wiki/Oakland
 # meta::speakerCount = 0
@@ -417,9 +419,9 @@
 1	Many	many	ADJ	JJ	Degree=Pos	9	nsubj	9:nsubj	Discourse=explanation-evidence:24->23:1:_|Entity=(58-place-new-nnnnn-cf2-1-sgl|PDTB=Implicit:Contingency.Cause.Reason:because:_:286-322:323-350
 2	of	of	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_
-4	buildings	building	NOUN	NNS	Number=Plur	1	obl	1:obl:of	MSeg=build-ing-s
+4	buildings	building	NOUN	NNS	Number=Plur	1	nmod	1:nmod:of	MSeg=build-ing-s
 5	and	and	CCONJ	CC	_	6	cc	6:cc	_
-6	streets	street	NOUN	NNS	Number=Plur	4	conj	1:obl:of|4:conj:and	MSeg=street-s
+6	streets	street	NOUN	NNS	Number=Plur	4	conj	1:nmod:of|4:conj:and	MSeg=street-s
 7	of	of	ADP	IN	_	8	case	8:case	_
 8	Chinatown	Chinatown	PROPN	NNP	Number=Sing	4	nmod	4:nmod:of	Entity=(54-place-giv:act-snnss-cf1*-1-coref-Chinatown%2C_Oakland)58)|MSeg=China-town
 9	reflect	reflect	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -725,7 +727,7 @@
 9	to	to	ADP	IN	_	12	case	12:case	_
 10	just	just	ADV	RB	ExtPos=ADV	12	advmod	12:advmod	_
 11	about	about	ADV	RB	_	10	fixed	10:fixed	_
-12	everywhere	everywhere	ADV	RB	Degree=Pos	8	obl	8:obl:to	Entity=(100-place-giv:act-sssss-cf2-1,6,7-coref-North_Oakland%2C_Oakland%2C_California|MSeg=every-where
+12	everywhere	everywhere	ADV	RB	Degree=Pos|PronType=Tot	8	obl	8:obl:to	Entity=(100-place-giv:act-sssss-cf2-1,6,7-coref-North_Oakland%2C_Oakland%2C_California|MSeg=every-where
 13	north	north	ADV	RB	Degree=Pos	12	advmod	12:advmod	_
 14	of	of	ADP	IN	_	15	case	15:case	_
 15	Uptown	Uptown	PROPN	NNP	Number=Sing	13	obl	13:obl:of	Entity=(78-place-giv:act-sssss-cf1*-1-coref)|MSeg=Up-town
@@ -742,7 +744,7 @@
 1	Many	many	ADJ	JJ	Degree=Pos	7	nsubj	7:nsubj|10:nsubj	Discourse=elaboration-additional:44->42:1:sem-mrnym-569-575,579-580-_|Entity=(103-place-new-snnnn-cf1-1-coref|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:558-576:577-604
 2	of	of	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Bridge=100<104:entity-associative|Entity=(104-place-acc:inf-nnnnn-cf4-2-sgl
-4	neighborhoods	neighborhood	NOUN	NNS	Number=Plur	1	obl	1:obl:of	Entity=104)103)|MSeg=neighbor-hood-s
+4	neighborhoods	neighborhood	NOUN	NNS	Number=Plur	1	nmod	1:nmod:of	Entity=104)103)|MSeg=neighbor-hood-s
 5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 6	commercial	commercial	ADJ	JJ	Degree=Pos	7	amod	7:amod	Entity=(103-place-giv:act-snnnn-cf1-2-pred|MSeg=commerc-ial
 7	centers	center	NOUN	NNS	Number=Plur	0	root	0:root	Entity=103)|MSeg=center-s
@@ -753,7 +755,7 @@
 12	foodies	foody	NOUN	NNS	Number=Plur	7	nmod	7:nmod:for	Entity=(105-person-new-nnnnn-cf6-1-sgl)|MSeg=food-ie-s
 13	or	or	CCONJ	CC	_	14	cc	14:cc	_
 14	those	that	PRON	DT	Number=Plur|PronType=Dem	12	conj	7:nmod:for|12:conj:or|16:nsubj	Entity=(106-person-new-nnnnn-cf8-1,14-sgl
-15	who	who	PRON	WP	PronType=Rel	16	nsubj	14:ref	Discourse=elaboration-attribute:45->44:0:syn-mdf-590-_+syn-relcl-591-592-_
+15	who	who	PRON	WP	Case=Nom|PronType=Rel	16	nsubj	14:ref	Discourse=elaboration-attribute:45->44:0:syn-mdf-590-_+syn-relcl-591-592-_
 16	seek	seek	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_
 17	quieter	quiet	ADJ	JJR	Degree=Cmp	18	amod	18:amod	Entity=(107-place-new-nnnnn-cf7-5,7,11-sgl|MSeg=quiet-er
 18	surroundings	surroundings	NOUN	NNS	Number=Ptan	16	obj	16:obj	MSeg=surround-ing-s
@@ -818,7 +820,7 @@
 11	,	,	PUNCT	,	_	10	punct	10:punct	_
 12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	19:nsubj	Discourse=elaboration-additional:50->46:2:ref-prs-605,642-_|Entity=(109-place-giv:act-snnns-cf1*-1-ana-Temescal%2C_Oakland%2C_California)
 13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	19:cop	_
-14	now	now	ADV	RB	_	19	advmod	19:advmod	_
+14	now	now	ADV	RB	PronType=Dem	19	advmod	19:advmod	_
 15	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(109-place-giv:act-snnns-cf1*-5-pred-Temescal%2C_Oakland%2C_California
 16	much	much	ADV	RB	Degree=Pos	17	advmod	17:advmod	_
 17	more	more	ADV	RBR	Degree=Cmp	19	advmod	19:advmod	_
@@ -1122,7 +1124,7 @@
 31	neighborhoods	neighborhood	NOUN	NNS	Number=Plur	5	parataxis	5:parataxis	Entity=150)|MSeg=neighbor-hood-s
 32	no	no	DET	DT	PronType=Neg	33	det	33:det	Discourse=adversative-concession:71->73:0:dm-no matter-895-896-gold|Negation=Yes|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:no matter:895-896:912-929:897-911
 33	matter	matter	NOUN	NN	Number=Sing	31	advcl	31:advcl	Cxn=No-Matter|CxnElt=33:No-Matter.Matter
-34	what	what	PRON	WP	PronType=Rel	33	nsubj	33:nsubj	_
+34	what	what	PRON	WP	Case=Nom|PronType=Rel	33	nsubj	33:nsubj	_
 35	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	36	nmod:poss	36:nmod:poss	Entity=(159-abstract-new-nnnnn-cf1-2-coref(57-person-giv:inact-nnnnn-cf6-1-ana)
 36	budget	budget	NOUN	NN	Number=Sing	34	acl:relcl	34:acl:relcl	Entity=159)|SpaceAfter=No
 37	,	,	PUNCT	,	_	40	punct	40:punct	_
@@ -1309,7 +1311,7 @@
 33	's	's	PART	POS	_	32	case	32:case	Entity=166)
 34	original	original	ADJ	JJ	Degree=Pos	36	amod	36:amod	MSeg=origin-al
 35	Victorian	Victorian	ADJ	JJ	Degree=Pos	36	amod	36:amod	MSeg=Victori-an
-36	houses	house	NOUN	NNS	Number=Plur	29	obl	29:obl:of	Entity=191)190)|MSeg=house-s|SpaceAfter=No
+36	houses	house	NOUN	NNS	Number=Plur	29	nmod	29:nmod:of	Entity=191)190)|MSeg=house-s|SpaceAfter=No
 37	,	,	PUNCT	,	_	40	punct	40:punct	_
 38	and	and	CCONJ	CC	_	40	cc	40:cc	Discourse=joint-list_m:83->82:0:sem-lxchn-1047,1060-gold+dm-and-1053-gold|PDTB=Explicit:Expansion.Conjunction:and:1053:1033-1052:1054-1068
 39	there	there	PRON	EX	PronType=Dem	40	expl	40:expl	_

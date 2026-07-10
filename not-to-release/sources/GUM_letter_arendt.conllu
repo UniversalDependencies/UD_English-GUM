@@ -5,6 +5,8 @@
 # meta::dateCreated = 1975-08-19
 # meta::dateModified = 1975-08-19
 # meta::genre = letter
+# meta::modality = written
+# meta::production = formal/prepared/private
 # meta::salientEntities = 6 (5*), 24 (5*), 3 (4*), 57 (4*), 1 (3*), 2 (3*), 7 (3*), 32 (3*), 14 (2), 15 (2*), 16 (2*), 17 (2*), 26 (2), 107 (2*), 5 (1), 29 (1), 33 (1), 54 (1*), 59 (1), 91 (1*), 103 (1*), 109 (1*)
 # meta::sourceURL = https://www.loc.gov/collections/hannah-arendt-papers/?sb=date_desc
 # meta::speakerCount = 0
@@ -225,7 +227,7 @@
 12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	14:nsubj	Entity=(24-person-giv:act-sssss-cf1*-1-ana-Regent)
 13	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	14:aux	_
 14	finished	finish	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	2:conj:but	MSeg=finish-ed
-15	now	now	ADV	RB	_	14	advmod	14:advmod	_
+15	now	now	ADV	RB	PronType=Dem	14	advmod	14:advmod	_
 16	five	five	NUM	CD	NumForm=Word|NumType=Card	17	nummod	17:nummod	Bridge=29<30:entity-meronomy|Entity=(30-abstract-acc:inf-nnnnn-cf2-2-sgl
 17	chapters	chapter	NOUN	NNS	Number=Plur	14	obj	14:obj	Entity=30)|MSeg=chapter-s|SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -273,7 +275,7 @@
 11	,	,	PUNCT	,	_	12	punct	12:punct	_
 12	Alphonso	Alphonso	PROPN	NNP	Number=Sing	8	appos	8:appos	Entity=(32-person-giv:act-ssnns-cf1-1-appos-Alfonso%2C_Duke_of_Anjou_and_Cádiz)|SpaceAfter=No
 13	,	,	PUNCT	,	_	17	punct	17:punct	_
-14	who	who	PRON	WP	PronType=Rel	17	nsubj	8:ref	Discourse=elaboration-attribute:29->28:0:syn-mdf-181-_+syn-relcl-187,190-_
+14	who	who	PRON	WP	Case=Nom|PronType=Rel	17	nsubj	8:ref	Discourse=elaboration-attribute:29->28:0:syn-mdf-181-_+syn-relcl-187,190-_
 15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	17:cop	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(32-person-giv:act-ssnns-cf1-2-coref-Alfonso%2C_Duke_of_Anjou_and_Cádiz
 17	son	son	NOUN	NN	Number=Sing	8	acl:relcl	8:acl:relcl	_
@@ -319,7 +321,7 @@
 18	twenty	twenty	NUM	CD	NumForm=Word|NumType=Card	20	compound	20:compound	SpaceAfter=No|XML=<w>
 19	-	-	PUNCT	HYPH	_	18	punct	18:punct	SpaceAfter=No
 20	six	six	NUM	CD	NumForm=Word|NumType=Card	16	nmod	16:nmod:of	XML=</w>
-21	who	who	PRON	WP	PronType=Rel	24	nsubj	16:ref	Discourse=evaluation-comment:32->31:0:_;elaboration-attribute:32->31:0:0:syn-mdf-220-_+syn-relcl-225,228-_
+21	who	who	PRON	WP	Case=Nom|PronType=Rel	24	nsubj	16:ref	Discourse=evaluation-comment:32->31:0:_;elaboration-attribute:32->31:0:0:syn-mdf-220-_+syn-relcl-225,228-_
 22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	24:cop	_
 23	quite	quite	ADV	RB	_	24	advmod	24:advmod	_
 24	wasted	wasted	ADJ	JJ	Degree=Pos	16	acl:relcl	16:acl:relcl	MSeg=wast-ed
@@ -526,7 +528,7 @@
 5	that	that	SCONJ	IN	_	7	mark	7:mark	_
 6	there	there	PRON	EX	PronType=Dem	7	expl	7:expl	_
 7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	Cxn=Existential-CopPred-ThereExpl
-8	none	none	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	CxnElt=7:Existential-CopPred-ThereExpl.Pivot|Negation=Yes
+8	none	none	PRON	NN	Number=Sing|PronType=Neg	7	nsubj	7:nsubj	CxnElt=7:Existential-CopPred-ThereExpl.Pivot|Negation=Yes
 9	of	of	ADP	IN	_	12	case	12:case	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(60-event-new-nnnnn-cf6-3,5-coref
 11	hectic	hectic	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
@@ -578,7 +580,7 @@
 2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes
 4	know	know	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	what	what	PRON	WP	PronType=Int	4	obj	4:obj	_
+5	what	what	PRON	WP	Case=Acc|PronType=Int	4	obj	4:obj	_
 6	to	to	PART	TO	_	7	mark	7:mark	_
 7	make	make	VERB	VB	VerbForm=Inf	5	acl	5:acl:to	_
 8	of	of	ADP	IN	_	9	case	9:case	_
@@ -660,7 +662,7 @@
 # transition = continue
 # text = What's happening in New York willhappen in some other cities around the world, I am convinced: Milan or Rome, Paris, Jakarta, and so forth.
 1-2	What's	_	_	_	_	_	_	_	_
-1	What	what	PRON	WP	PronType=Rel	19	obj	8:nsubj:xsubj|19:obj	CxnElt=19:Ditransitive.Theme|Discourse=explanation-justify:65->62:1:_|PDTB=Implicit:Contingency.Cause.Reason:because:_:460-502:503-534
+1	What	what	PRON	WP	Case=Acc|PronType=Rel	19	obj	8:nsubj:xsubj|19:obj	CxnElt=19:Ditransitive.Theme|Discourse=explanation-justify:65->62:1:_|PDTB=Implicit:Contingency.Cause.Reason:because:_:460-502:503-534
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	happening	happen	VERB	VBG	Tense=Pres|VerbForm=Part	1	acl:relcl	1:acl:relcl	MSeg=happ-en-ing
 4	in	in	ADP	IN	_	5	case	5:case	_
@@ -742,7 +744,7 @@
 # s_type = wh
 # transition = zero
 # text = What are the dates of Aberdeen?
-1	What	what	PRON	WP	PronType=Int	4	nsubj	4:nsubj	CxnElt=4:Interrogative-WHInfo-Direct.WHWord|Discourse=joint-other_m:71->70:0:_|PDTB=Implicit:Expansion.Conjunction:and:_:553-564:565-571
+1	What	what	PRON	WP	Case=Nom|PronType=Int	4	nsubj	4:nsubj	CxnElt=4:Interrogative-WHInfo-Direct.WHWord|Discourse=joint-other_m:71->70:0:_|PDTB=Implicit:Expansion.Conjunction:and:_:553-564:565-571
 2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(83-time-new-nnnnn-cf1-2-sgl
 4	dates	date	NOUN	NNS	Number=Plur	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=4:Interrogative-WHInfo-Direct.Clause|MSeg=date-s
@@ -802,9 +804,9 @@
 28	that	that	SCONJ	IN	_	30	mark	30:mark	_
 29	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	30:nsubj	Entity=(24-person-giv:act-sssss-cf1-1-ana-Regent)
 30	suffered	suffer	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	27	ccomp	27:ccomp	MSeg=suffer-ed
-31	what	what	PRON	WP	PronType=Rel	30	obj	30:obj	_
+31	what	what	PRON	WP	Case=Acc|PronType=Rel	30	obj	30:obj	_
 32	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux:pass	34:aux:pass	_
-33	always	always	ADV	RB	_	34	advmod	34:advmod	MSeg=al-way-s
+33	always	always	ADV	RB	PronType=Tot	34	advmod	34:advmod	MSeg=al-way-s
 34	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	31	acl:relcl	31:acl:relcl	MSeg=call-ed|SpaceAfter=No
 35	,	,	PUNCT	,	_	37	punct	37:punct	_
 36	rather	rather	ADV	RB	_	37	advmod	37:advmod	Discourse=evaluation-comment:78->77:0:_|MSeg=rath-er
@@ -828,7 +830,7 @@
 2	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	quite	quite	ADV	RB	_	4	advmod	4:advmod	_
 4	well	well	ADV	RB	Degree=Pos	2	advmod	2:advmod	_
-5	now	now	ADV	RB	_	2	advmod	2:advmod	_
+5	now	now	ADV	RB	PronType=Dem	2	advmod	2:advmod	_
 6	and	and	CCONJ	CC	_	9	cc	9:cc	Discourse=joint-list_m:82->81:0:dm-and-629-gold|PDTB=Explicit:Expansion.Conjunction:and:629:624-628:630-634
 7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	9:nsubj	Entity=(24-person-giv:act-sssss-cf1*-1-ana-Regent)
 8	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_

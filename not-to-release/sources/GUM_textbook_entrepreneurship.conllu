@@ -5,6 +5,8 @@
 # meta::dateCreated = 2020-01-16
 # meta::dateModified = 2022-06-06
 # meta::genre = textbook
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 105 (4*), 106 (4*), 14 (3), 50 (3*), 79 (3*), 107 (3*), 8 (2), 20 (2), 53 (2), 75 (2*), 87 (2), 89 (2), 103 (2), 2 (1), 6 (1), 7 (1), 34 (1), 35 (1), 51 (1*), 52 (1*), 54 (1), 62 (1), 66 (1*), 91 (1), 97 (1), 164 (1*), 165 (1*)
 # meta::sourceURL = https://openstax.org/books/entrepreneurship/pages/1-3-the-entrepreneurial-mindset
 # meta::speakerCount = 0
@@ -47,7 +49,7 @@
 8	of	of	ADP	IN	_	9	case	9:case	_
 9	study	study	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	Entity=4)|SpaceAfter=No
 10	,	,	PUNCT	,	_	3	punct	3:punct	_
-11	what	what	PRON	WP	PronType=Int	14	nsubj	14:nsubj	CxnElt=14:Interrogative-WHInfo-Direct.WHWord
+11	what	what	PRON	WP	Case=Nom|PronType=Int	14	nsubj	14:nsubj	CxnElt=14:Interrogative-WHInfo-Direct.WHWord
 12	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(6-abstract-new-nnnsn-cf3-2-coref
 14	challenges	challenge	NOUN	NNS	Number=Plur	0	root	0:root|16:nsubj	Cxn=Interrogative-WHInfo-Direct|CxnElt=14:Interrogative-WHInfo-Direct.Clause|MSeg=challenge-s
@@ -545,7 +547,7 @@
 # s_type = sub
 # transition = smooth-shift
 # text = Sometimes, we must disregard our past successes and research to be open to new possibilities for success and failure.
-1	Sometimes	sometimes	ADV	RB	_	5	advmod	5:advmod	Discourse=explanation-justify:47->49:2:_|MSeg=Sometime-s|PDTB=Hypophora:Hypophora:_:_:300-391:392-412|SpaceAfter=No
+1	Sometimes	sometimes	ADV	RB	PronType=Tot	5	advmod	5:advmod	Discourse=explanation-justify:47->49:2:_|MSeg=Sometime-s|PDTB=Hypophora:Hypophora:_:_:300-391:392-412|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(10-person-giv:act-nnnnn-cf1*-1-ana)
 4	must	must	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
@@ -741,7 +743,7 @@
 21	resources	resource	NOUN	NNS	Number=Plur	19	obj	19:obj	Entity=108)|MSeg=resource-s
 22	to	to	ADP	IN	_	23	case	23:case	_
 23	people	person	NOUN	NNS	Number=Plur	19	obl	19:obl:to|25:nsubj	Entity=(109-person-new-nnnnn-cf5-1-sgl
-24	who	who	PRON	WP	PronType=Rel	25	nsubj	23:ref	Discourse=elaboration-attribute:71->70:0:syn-mdf-548-_+syn-relcl-549-550-_
+24	who	who	PRON	WP	Case=Nom|PronType=Rel	25	nsubj	23:ref	Discourse=elaboration-attribute:71->70:0:syn-mdf-548-_+syn-relcl-549-550-_
 25	desire	desire	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	23:acl:relcl	_
 26	those	that	DET	DT	Number=Plur|PronType=Dem	27	det	27:det	Entity=(108-abstract-giv:act-nnnnn-cf1-2-coref
 27	resources	resource	NOUN	NNS	Number=Plur	25	obj	25:obj	Entity=108)109)|MSeg=resource-s|SpaceAfter=No
@@ -772,7 +774,7 @@
 17	space	space	NOUN	NN	Number=Sing	15	obj	15:obj	Entity=110)
 18	to	to	ADP	IN	_	19	case	19:case	_
 19	someone	someone	PRON	NN	Number=Sing|PronType=Ind	15	obl	15:obl:to|21:nsubj	Entity=(111-person-new-nnnnn-cf3-1-sgl|MSeg=some-one
-20	who	who	PRON	WP	PronType=Rel	21	nsubj	19:ref	Discourse=elaboration-attribute:75->74:0:syn-mdf-572-_+syn-relcl-573-574-_
+20	who	who	PRON	WP	Case=Nom|PronType=Rel	21	nsubj	19:ref	Discourse=elaboration-attribute:75->74:0:syn-mdf-572-_+syn-relcl-573-574-_
 21	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	19:acl:relcl	MSeg=want-s
 22	and	and	CCONJ	CC	_	23	cc	23:cc	_
 23	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	19:acl:relcl|21:conj:and	MSeg=need-s
@@ -1049,7 +1051,7 @@
 # s_type = decl
 # transition = smooth-shift
 # text = Sometimes disruptive technologies result from not listening to customers.
-1	Sometimes	sometimes	ADV	RB	_	4	advmod	4:advmod	Discourse=elaboration-additional:98->59:3:_|MSeg=Sometime-s
+1	Sometimes	sometimes	ADV	RB	PronType=Tot	4	advmod	4:advmod	Discourse=elaboration-additional:98->59:3:_|MSeg=Sometime-s
 2	disruptive	disruptive	ADJ	JJ	Degree=Pos	3	amod	3:amod	Entity=(103-abstract-giv:act-nssnn-cf1*-2-coref|MSeg=dis-rupt-ive
 3	technologies	technology	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=103)|MSeg=techno-logie-s
 4	result	result	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -1069,9 +1071,9 @@
 2-3	don’t	_	_	_	_	_	_	_	_
 2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 3	n’t	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	Negation=Yes
-4	always	always	ADV	RB	_	5	advmod	5:advmod	MSeg=al-way-s
+4	always	always	ADV	RB	PronType=Tot	5	advmod	5:advmod	MSeg=al-way-s
 5	know	know	VERB	VB	VerbForm=Inf	0	root	0:root	_
-6	what	what	PRON	WP	PronType=Rel	5	obj	5:obj	_
+6	what	what	PRON	WP	Case=Acc|PronType=Rel	5	obj	5:obj	_
 7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	8:nsubj	Entity=(151-person-giv:act-nnnnn-cf1*-1-ana)
 8	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	6:acl:relcl	SpaceAfter=No
 9	.	.	PUNCT	.	_	5	punct	5:punct	_

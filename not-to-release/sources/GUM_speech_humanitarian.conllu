@@ -5,6 +5,8 @@
 # meta::dateCreated = 2019-09-24
 # meta::dateModified = 2019-09-24
 # meta::genre = speech
+# meta::modality = spoken
+# meta::production = formal/prepared/public
 # meta::salientEntities = 2 (5*), 24 (5*), 5 (4), 108 (4*), 158 (3*), 232 (3), 1 (2), 4 (2), 148 (2), 234 (2), 19 (1), 65 (1), 99 (1), 109 (1), 124 (1), 151 (1), 152 (1), 155 (1), 159 (1), 191 (1*)
 # meta::sourceURL = https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/0TJX8Y
 # meta::speakerCount = 1
@@ -76,7 +78,7 @@
 27	every	every	DET	DT	PronType=Ind	28	det	28:det	Entity=(11-time-new-nnnnn-cf7-2-sgl
 28	day	day	NOUN	NN	Number=Sing	18	obl:unmarked	18:obl:unmarked	Entity=11)|SpaceAfter=No
 29	,	,	PUNCT	,	_	30	punct	30:punct	_
-30	everywhere	everywhere	ADV	RB	Degree=Pos	18	advmod	18:advmod	MSeg=every-where|SpaceAfter=No
+30	everywhere	everywhere	ADV	RB	Degree=Pos|PronType=Tot	18	advmod	18:advmod	MSeg=every-where|SpaceAfter=No
 31	.	.	PUNCT	.	_	16	punct	16:punct	_
 
 # sent_id = GUM_speech_humanitarian-3
@@ -98,9 +100,9 @@
 11	hopes	hope	NOUN	NNS	Number=Plur	9	conj	7:nmod:with|9:conj:and	Entity=(17-abstract-new-nnnnn-cf7-1-sgl)15)|MSeg=hope-s
 12	and	and	CCONJ	CC	_	17	cc	17:cc	SpaceAfter=No
 13	,	,	PUNCT	,	_	12	punct	12:punct	_
-14	above	above	ADV	IN	_	17	advmod	17:advmod	_
-15	all	all	DET	DT	PronType=Ind	14	det	14:det	SpaceAfter=No
-16	,	,	PUNCT	,	_	14	punct	14:punct	_
+14	above	above	ADP	IN	_	15	case	15:case	_
+15	all	all	DET	DT	PronType=Tot	17	obl	17:obl:above	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	15:punct	_
 17	people	person	NOUN	NNS	Number=Plur	1	conj	1:conj:and	Entity=(18-person-new-nnnnn-cf3-1-sgl
 18	with	with	ADP	IN	_	19	case	19:case	_
 19	rights	right	NOUN	NNS	Number=Plur	17	nmod	17:nmod:with	Entity=(19-abstract-new-nsnnn-cf8-1-coref)18)|MSeg=right-s|SpaceAfter=No
@@ -204,7 +206,7 @@
 6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(30-place-new-nnnnn-cf12-2,3-coref-South_Pacific
 7	South	South	PROPN	NNP	Number=Sing	8	compound	8:compound	_
 8	Pacific	Pacific	PROPN	NNP	Number=Sing	4	nmod	4:nmod:in	Entity=30)
-9	who	who	PRON	WP	PronType=Rel	10	nsubj	4:ref	Discourse=elaboration-attribute:16->15:0:syn-mdf-134-_+syn-relcl-139-140-_
+9	who	who	PRON	WP	Case=Nom|PronType=Rel	10	nsubj	4:ref	Discourse=elaboration-attribute:16->15:0:syn-mdf-134-_+syn-relcl-139-140-_
 10	fear	fear	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_
 11	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(31-abstract-new-nnnnn-cf9-2-sgl(29-person-giv:act-nnnnn-cf3-1-ana)
 12	lives	life	NOUN	NNS	Number=Plur	14	nsubj:pass	14:nsubj:pass	Entity=31)|MSeg=live-s
@@ -253,12 +255,12 @@
 55	beliefs	belief	NOUN	NNS	Number=Plur	52	nmod	52:nmod:of	MSeg=belief-s
 56	and	and	CCONJ	CC	_	57	cc	57:cc	_
 57	traditions	tradition	NOUN	NNS	Number=Plur	55	conj	52:nmod:of|55:conj:and	Entity=46)|MSeg=tradition-s
-58	who	who	PRON	WP	PronType=Rel	59	nsubj	52:ref	Discourse=elaboration-attribute:24->23:0:syn-mdf-182-_+syn-relcl-188-189,193,195-_
+58	who	who	PRON	WP	Case=Nom|PronType=Rel	59	nsubj	52:ref	Discourse=elaboration-attribute:24->23:0:syn-mdf-182-_+syn-relcl-188-189,193,195-_
 59	suffer	suffer	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	52	acl:relcl	52:acl:relcl	_
 60	simply	simply	ADV	RB	Degree=Pos	63	advmod	63:advmod	Discourse=causal-cause:25->24:0:dm-because of-191-192-gold|MSeg=simp-ly
 61	because	because	ADP	IN	ExtPos=ADP	63	case	63:case	MSeg=be-cause
 62	of	of	ADP	IN	_	61	fixed	61:fixed	_
-63	who	who	PRON	WP	PronType=Rel	59	obl	52:ref	_
+63	who	who	PRON	WP	Case=Acc|PronType=Rel	59	obl	52:ref	_
 64	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	65	nsubj	65:nsubj	Entity=(45-person-giv:act-nnnnn-cf2-1-ana)
 65	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	63	acl:relcl	63:acl:relcl	Entity=45)|SpaceAfter=No
 66	;	;	PUNCT	:	_	70	punct	70:punct	_
@@ -874,8 +876,8 @@
 # transition = null
 # speaker = AntonioGuterres
 # text = Above all, we are facing the alarming possibility of armed conflict in the Gulf, the consequences of which the world can not afford.
-1	Above	above	ADV	IN	_	2	advmod	2:advmod	Discourse=joint-list_m:68->62:0:_
-2	all	all	DET	DT	PronType=Tot	6	advmod	6:advmod	SpaceAfter=No
+1	Above	above	ADP	IN	_	2	case	2:case	Discourse=joint-list_m:68->62:0:_
+2	all	all	DET	DT	PronType=Tot	6	obl	6:obl:above	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(48-person-giv:inact-nnnnn-cf1-1-ana)
 5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
@@ -1273,7 +1275,7 @@
 24	,	,	PUNCT	,	_	28	punct	28:punct	_
 25	all	all	DET	DT	PronType=Tot	28	nsubj	28:nsubj	Discourse=elaboration-attribute:97->96:0:syn-mdf-927-_+syn-relcl-936-937-_|Entity=(197-abstract-new-nnnnn-cf13-4,9-sgl
 26	of	of	ADP	IN	_	27	case	27:case	_
-27	whom	who	PRON	WP	PronType=Rel	25	nmod	18:ref	_
+27	whom	who	PRON	WP	Case=Acc|PronType=Rel	25	nmod	18:ref	_
 28	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	18:acl:relcl	_
 29	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	30:nmod:poss	Entity=(198-abstract-new-nnnnn-cf11-2-sgl(194-person-giv:act-nnnnn-cf1-1-ana)
 30	lives	life	NOUN	NNS	Number=Plur	28	obj	28:obj	Entity=198)|MSeg=live-s

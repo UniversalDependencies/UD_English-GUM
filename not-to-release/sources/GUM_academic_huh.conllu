@@ -5,6 +5,8 @@
 # meta::dateCreated = 2013-11-08
 # meta::dateModified = 2014-04-02
 # meta::genre = academic
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 48 (5*), 51 (5*), 44 (4*), 107 (4*), 53 (3*), 89 (3), 84 (2), 90 (2), 92 (2), 106 (2*), 141 (2*), 5 (1), 36 (1), 37 (1), 39 (1), 45 (1), 49 (1), 50 (1), 52 (1), 61 (1), 62 (1), 63 (1), 91 (1), 93 (1), 102 (1), 104 (1*), 140 (1*), 151 (1)
 # meta::sourceURL = https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078273
 # meta::speakerCount = 0
@@ -166,7 +168,7 @@
 14	enormous	enormous	ADJ	JJ	Degree=Pos	19	advcl	19:advcl:while	MSeg=enorm-ous|SpaceAfter=No
 15	,	,	PUNCT	,	_	14	punct	14:punct	_
 16	any	any	DET	DT	PronType=Ind	18	det	18:det	Bridge=27<30:set-member|Discourse=elaboration-additional:10->8:0:sem-lxchn-98,105-gold|Entity=(29-abstract-new-nnnnn-cf8-4-coref(30-abstract-acc:inf-nnnnn-cf1-3-sgl
-17	given	given	ADJ	JJ	Degree=Pos	18	amod	18:amod	MSeg=giv-en
+17	given	give	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	amod	18:amod	MSeg=giv-en
 18	language	language	NOUN	NN	Number=Sing	19	nsubj	19:nsubj	Entity=30)
 19	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=make-s
 20	use	use	NOUN	NN	Number=Sing	19	obj	19:obj	_
@@ -319,7 +321,7 @@
 39	not	not	PART	RB	Polarity=Neg	41	advmod	41:advmod	Negation=Yes
 40	clearly	clearly	ADV	RB	Degree=Pos	41	advmod	41:advmod	MSeg=clear-ly
 41	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	25	advcl	25:advcl:when	MSeg=hear-d
-42	what	what	PRON	WP	PronType=Rel	41	obj	41:obj	_
+42	what	what	PRON	WP	Case=Acc|PronType=Rel	41	obj	41:obj	_
 43	someone	someone	PRON	NN	Number=Sing|PronType=Ind	45	nsubj	45:nsubj	Entity=(55-person-new-nnnnn-cf5-1-sgl)|MSeg=some-one
 44	just	just	ADV	RB	_	45	advmod	45:advmod	_
 45	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	42	acl:relcl	42:acl:relcl	MSeg=sai-d
@@ -507,7 +509,7 @@
 3	in	in	ADP	IN	_	4	case	4:case	_
 4	contrast	contrast	NOUN	NN	Number=Sing	36	obl	36:obl:in	_
 5	to	to	ADP	IN	_	6	case	6:case	_
-6	what	what	PRON	WP	PronType=Rel	4	nmod	4:nmod:to	_
+6	what	what	PRON	WP	Case=Acc|PronType=Rel	4	nmod	4:nmod:to	_
 7	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	9:aux	MSeg=ha-s
 8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	aux:pass	9:aux:pass	_
 9	presumed	presume	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl:relcl	6:acl:relcl	MSeg=presum-ed
@@ -830,7 +832,7 @@
 37	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	38	nsubj	38:nsubj	Entity=(107-abstract-giv:act-sssns-cf1-1-coref)
 38	leaves	leave	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	3:conj:but	MSeg=leave-s
 39	open	open	ADJ	JJ	Degree=Pos	38	xcomp	38:xcomp	_
-40	what	what	PRON	WP	PronType=Int	38	ccomp	38:ccomp|39:csubj:xsubj	_
+40	what	what	PRON	WP	Case=Acc|PronType=Int	38	ccomp	38:ccomp|39:csubj:xsubj	_
 41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	42:det	Entity=(108-abstract-giv:act-nnnnn-cf3-2-coref
 42	problem	problem	NOUN	NN	Number=Sing	40	nsubj	40:nsubj	Entity=108)
 43	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	40:cop	_
@@ -863,7 +865,7 @@
 12	simply	simply	ADV	RB	Degree=Pos	13	advmod	13:advmod	MSeg=simp-ly
 13	repetition	repetition	NOUN	NN	Number=Sing	0	root	0:root	Bridge=99<111:entity-associative|Entity=(111-event-acc:inf-nnnnn-cf4-1-coref)|MSeg=re-petition|SpaceAfter=No
 14	,	,	PUNCT	,	_	18	punct	18:punct	_
-15	sometimes	sometimes	ADV	RB	_	18	advmod	18:advmod	MSeg=sometime-s
+15	sometimes	sometimes	ADV	RB	PronType=Tot	18	advmod	18:advmod	MSeg=sometime-s
 16	with	with	ADP	IN	_	18	case	18:case	_
 17	slight	slight	ADJ	JJ	Degree=Pos	18	amod	18:amod	Bridge=99<112:entity-associative|Entity=(112-event-acc:inf-nnnnn-cf5-2-sgl
 18	modification	modification	NOUN	NN	Number=Sing	13	nmod	13:nmod:with	Entity=112)|MSeg=mod-ification|SpaceAfter=No

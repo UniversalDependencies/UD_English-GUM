@@ -5,6 +5,8 @@
 # meta::dateCreated = 2000-01-01
 # meta::dateModified = 2000-01-01
 # meta::genre = conversation
+# meta::modality = spoken
+# meta::production = informal/spontaneous/private
 # meta::salientEntities = 3 (5*), 5 (5*), 16 (5*), 4 (4*), 21 (4), 8 (3*), 51 (3), 86 (3), 88 (3), 10 (2*), 57 (2*), 2 (1*), 9 (1), 23 (1), 26 (1), 50 (1), 58 (1*), 59 (1*), 60 (1*), 61 (1*), 62 (1), 67 (1), 68 (1*), 69 (1*), 75 (1*), 76 (1*), 113 (1), 127 (1)
 # meta::sourceURL = https://www.linguistics.ucsb.edu/research/santa-barbara-corpus#SBC060
 # meta::speakerCount = 2
@@ -394,7 +396,7 @@
 12	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=joint-list_m:32->31:0:dm-and-226-gold|PDTB=Explicit:Expansion.Conjunction:and:_:220-225:226-239
 13	if	if	SCONJ	IN	_	19	mark	19:mark	Discourse=contingency-condition:33->34:0:dm-if-227-gold|PDTB=Explicit:Contingency.Condition.Arg1-as-cond:if:_:226,235-239:227-234
 14	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs|Typo=Yes	19	nsubj	19:nsubj	CorrectForm=you have|Entity=(28-person-acc:com-nnnnn-cf1-1-ana)|XML=<sic ana:::"you have"></sic>
-15	ever	ever	ADV	RB	Degree=Pos	19	advmod	19:advmod	_
+15	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	19	advmod	19:advmod	_
 16	been	be	AUX	VBN	Tense=Past|VerbForm=Part	19	cop	19:cop	_
 17	to	to	ADP	IN	_	19	case	19:case	_
 18	Mexico	Mexico	PROPN	NNP	Number=Sing	19	compound	19:compound	Entity=(21-place-giv:inact-nssss-cf4-1,2-coref-Mexico_City
@@ -487,7 +489,7 @@
 13	got	get	VERB	VBN	Tense=Past|VerbForm=Part	6	parataxis	6:parataxis	_
 14	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	15:nmod:poss	Entity=(31-object-new-nnnnn-cf5-2-sgl(22-person-giv:act-nnnnn-cf1-1-ana)
 15	card	card	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=31)
-16	somewhere	somewhere	ADV	RB	_	13	advmod	13:advmod	SpaceAfter=No
+16	somewhere	somewhere	ADV	RB	PronType=Tot	13	advmod	13:advmod	SpaceAfter=No
 17	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GUM_conversation_artist-22
@@ -601,7 +603,7 @@
 16	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=joint-sequence_m:52->51:0:mrf-tns-359,364-gold+dm-and-362-gold+lex-indwd-365-_|PDTB=Implicit:Temporal.Asynchronous.Precedence:subsequently:_:355-361:362-366
 17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	18:nsubj	Entity=(3-person-giv:act-sssss-cf2-1-ana)
 18	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	conj	13:conj:and	_
-19	now	now	ADV	RB	_	18	advmod	18:advmod	PDTB=AltLex:Temporal.Asynchronous.Precedence:now:365:355-361:362-364,366|SpaceAfter=No
+19	now	now	ADV	RB	PronType=Dem	18	advmod	18:advmod	PDTB=AltLex:Temporal.Asynchronous.Precedence:now:365:355-361:362-364,366|SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	21:punct	_
 21	that	that	SCONJ	IN	_	33	mark	33:mark	Discourse=context-background:53->48:1:sem-mrnym-335,368-369-_;elaboration-additional:53->48:3:1:orp-and-356-gold
 22	those	that	DET	DT	Number=Plur|PronType=Dem	23	det	23:det	Bridge=22<41:set-member|Discourse=contingency-condition:54->55:0:_|Entity=(41-person-acc:inf-nnnnn-cf3-2-coref
@@ -650,7 +652,7 @@
 # addressee = Alan
 # text = He what?
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=topic-question:57->58:0:lex-indwd-395-_+grf-qst-396-_|Entity=(22-person-giv:act-nnnnn-cf1*-1-ana)
-2	what	what	PRON	WP	PronType=Int	0	root	0:root	SpaceAfter=No
+2	what	what	PRON	WP	Case=Acc|PronType=Int	0	root	0:root	SpaceAfter=No
 3	?	?	PUNCT	.	_	2	punct	2:punct	_
 
 # newpar
@@ -740,7 +742,7 @@
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Discourse=organization-preparation:64->65:0:ref-prs-441,448-_|Entity=(45-person-giv:act-nnnnn-cf1*-1-ana)
 5	tell	tell	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	Cxn=Ditransitive|CxnElt=5:Ditransitive.V
 6	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	iobj	5:iobj	CxnElt=5:Ditransitive.Rec|Entity=(3-person-giv:inact-sssss-cf2-1-ana)
-7	what	what	PRON	WP	PronType=Rel	5	obj	5:obj	CxnElt=5:Ditransitive.Theme
+7	what	what	PRON	WP	Case=Acc|PronType=Rel	5	obj	5:obj	CxnElt=5:Ditransitive.Theme
 8-9	I'll	_	_	_	_	_	_	_	_
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj	Entity=(45-person-giv:act-nnnnn-cf1*-1-ana)
 9	'll	will	AUX	MD	VerbForm=Fin	10	aux	10:aux	_
@@ -989,7 +991,7 @@
 6	these	this	DET	DT	Number=Plur|PronType=Dem	8	det	8:det	Entity=(56-event-new-nnnnn-cf3-3-sgl
 7	art	art	NOUN	NN	Number=Sing	8	compound	8:compound	Entity=(51-abstract-giv:inact-nssns-cf2-1-coref)
 8	shows	show	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=56)|MSeg=show-s
-9	everywhere	everywhere	ADV	RB	Degree=Pos	5	advmod	5:advmod	MSeg=every-where|SpaceAfter=No
+9	everywhere	everywhere	ADV	RB	Degree=Pos|PronType=Tot	5	advmod	5:advmod	MSeg=every-where|SpaceAfter=No
 10	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_conversation_artist-44
@@ -1167,7 +1169,7 @@
 5	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	6	amod	6:amod	_
 6	painting	painting	NOUN	NN	Number=Sing	17	dislocated	17:dislocated	MSeg=paint-ing
 7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	9:nsubj	Discourse=elaboration-attribute:105->104:0:syn-mdf-715-_+syn-relcl-718-_|Entity=(3-person-giv:act-sssss-cf1*-1-ana)
-8	ever	ever	ADV	RB	Degree=Pos	9	advmod	9:advmod	_
+8	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	9	advmod	9:advmod	_
 9	bought	buy	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	acl:relcl	6:acl:relcl	Entity=67)|SpaceAfter=No
 10	,	,	PUNCT	,	_	6	punct	6:punct	_
 11	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Discourse=same-unit_m:106->104:1:_|Entity=(68-person-new-snnnn-cf4-2-coref(3-person-giv:act-sssss-cf1*-1-ana)
@@ -1268,7 +1270,7 @@
 2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	MSeg=see-n
 4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	obj	3:obj	Entity=(67-object-giv:act-nnnns-cf1*-1-ana)
-5	somewhere	somewhere	ADV	RB	_	3	advmod	3:advmod	Entity=(72-place-new-nnnnn-cf3-1-sgl)
+5	somewhere	somewhere	ADV	RB	PronType=Tot	3	advmod	3:advmod	Entity=(72-place-new-nnnnn-cf3-1-sgl)
 6	before	before	ADV	RB	Degree=Pos	3	advmod	3:advmod	SpaceAfter=No
 7	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -1310,7 +1312,7 @@
 3-4	I've	_	_	_	_	_	_	_	_
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(3-person-giv:act-sssss-cf1*-1-ana)
 4	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
-5	never	never	ADV	RB	_	6	advmod	6:advmod	Negation=Yes
+5	never	never	ADV	RB	PronType=Neg	6	advmod	6:advmod	Negation=Yes
 6	framed	frame	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	MSeg=fram-ed
 7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	6:obj	Entity=(67-object-giv:act-nnnns-cf2-1-ana)|SpaceAfter=No
 8	.	.	PUNCT	.	_	6	punct	6:punct	_
@@ -1558,8 +1560,8 @@
 13	LeRoy	LeRoy	PROPN	NNP	Number=Sing	12	appos	12:appos	Entity=(86-person-giv:act-nssns-cf1-1,2-appos-LeRoy_Neiman
 14	Neiman	Neiman	PROPN	NNP	Number=Sing	13	flat	13:flat	Entity=86)|SpaceAfter=No
 15	,	,	PUNCT	,	_	17	punct	17:punct	_
-16	over	over	ADV	IN	_	17	advmod	17:advmod	_
-17	here	here	ADV	RB	PronType=Dem	12	nmod	12:nmod	Entity=(87-place-acc:com-nnnnn-cf2-1-sgl)|SpaceAfter=No
+16	over	over	ADV	RB	_	17	advmod	17:advmod	_
+17	here	here	ADV	RB	PronType=Dem	12	advmod	12:advmod	Entity=(87-place-acc:com-nnnnn-cf2-1-sgl)|SpaceAfter=No
 18	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GUM_conversation_artist-68
@@ -1722,7 +1724,7 @@
 # speaker = Alan
 # addressee = Jon
 # text = What the hell they call the district in New York, where on Sunday, they put all the artists, put their paintings out?
-1	What	what	PRON	WP	PronType=Int	5	xcomp	5:xcomp	CxnElt=5:Interrogative-WHInfo-Direct.WHWord|Discourse=topic-question:151->155:1:lex-indwd-1035-_+grf-qst-1060-_|PDTB=NoRel:NoRel:_:_:992-1034:1035-1060
+1	What	what	PRON	WP	Case=Acc|PronType=Int	5	xcomp	5:xcomp	CxnElt=5:Interrogative-WHInfo-Direct.WHWord|Discourse=topic-question:151->155:1:lex-indwd-1035-_+grf-qst-1060-_|PDTB=NoRel:NoRel:_:_:992-1034:1035-1060
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	_
 3	hell	hell	NOUN	NN	Number=Sing	1	discourse	1:discourse	_
 4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(97-person-acc:com-nnnnn-cf3-1-sgl)
@@ -1925,7 +1927,7 @@
 33	of	of	ADP	IN	_	36	case	36:case	_
 34	the	the	DET	DT	Definite=Def|PronType=Art	36	det	36:det	Entity=(109-organization-new-nnnnn-cf7-3-sgl
 35	jewelry	jewelry	NOUN	NN	Number=Sing	36	compound	36:compound	Entity=(110-object-new-nnnnn-cf9-1-sgl)|MSeg=jewel-ry
-36	shops	shop	NOUN	NNS	Number=Plur	32	obl	32:obl:of	Entity=109)108)|MSeg=shop-s
+36	shops	shop	NOUN	NNS	Number=Plur	32	nmod	32:nmod:of	Entity=109)108)|MSeg=shop-s
 37	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	cop	28:cop	_
 38	and	and	CCONJ	CC	_	39	cc	39:cc	_
 39	things	thing	NOUN	NNS	Number=Plur	32	conj	28:nsubj|32:conj:and	Entity=(111-object-new-nnnnn-cf8-1-sgl)106)|MSeg=thing-s|SpaceAfter=No
@@ -1962,7 +1964,7 @@
 6-7	I've	_	_	_	_	_	_	_	_
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj	Discourse=causal-cause:174->173:0:_|Entity=(3-person-giv:act-sssss-cf1-1-ana)
 7	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	10:aux	_
-8	never	never	ADV	RB	_	10	advmod	10:advmod	Negation=Yes
+8	never	never	ADV	RB	PronType=Neg	10	advmod	10:advmod	Negation=Yes
 9	been	be	AUX	VBN	Tense=Past|VerbForm=Part	10	cop	10:cop	_
 10	back	back	ADV	RB	Degree=Pos	4	parataxis	4:parataxis	SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	4:punct	_
@@ -2040,7 +2042,7 @@
 # addressee = Jon
 # text = I never heard of him, at that time.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=context-background:179->178:0:ref-prs-1224,1230-_+ref-prs-1226-1227,1234-_+lex-indwd-1231-_+lex-indph-1236-1238-gold|Entity=(3-person-giv:act-sssss-cf1*-1-ana)|PDTB=Implicit:Temporal.Asynchronous.Succession:previously:_:1223-1229:1230-1239
-2	never	never	ADV	RB	_	3	advmod	3:advmod	Negation=Yes
+2	never	never	ADV	RB	PronType=Neg	3	advmod	3:advmod	Negation=Yes
 3	heard	hear	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=hear-d
 4	of	of	ADP	IN	_	5	case	5:case	_
 5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	3:obl:of	Entity=(5-person-giv:act-sssss-cf2-1-ana-Leonardo_Nierman)|SpaceAfter=No
@@ -2316,7 +2318,7 @@
 4	guy	guy	NOUN	NN	Number=Sing	13	nsubj	11:nsubj|13:nsubj	_
 5	Nierman	Nierman	PROPN	NNP	Number=Sing	4	appos	4:appos	SpaceAfter=No
 6	,	,	PUNCT	,	_	11	punct	11:punct	_
-7	who	who	PRON	WP	PronType=Rel	11	nsubj	4:ref	Discourse=elaboration-attribute:197->196:0:syn-mdf-1369-_+syn-relcl-1372,1376-_
+7	who	who	PRON	WP	Case=Nom|PronType=Rel	11	nsubj	4:ref	Discourse=elaboration-attribute:197->196:0:syn-mdf-1369-_+syn-relcl-1372,1376-_
 8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	11:cop	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(5-person-giv:act-sssss-cf1-3-pred-Leonardo_Nierman
 10	Mexican	Mexican	ADJ	JJ	Degree=Pos	11	amod	11:amod	MSeg=Mexic-an
@@ -2392,7 +2394,7 @@
 16-17	I'd	_	_	_	_	_	_	_	_
 16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	19:nsubj	Discourse=elaboration-additional:203->201:2:sem-synym-1388-1389,1420-_|Entity=(3-person-giv:inact-sssss-cf1-1-ana)
 17	'd	have	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	19	aux	19:aux	_
-18	never	never	ADV	RB	_	19	advmod	19:advmod	Negation=Yes|PDTB=AltLex:Expansion.Substitution.Arg2-as-subst:never:1410:1408-1409,1411-1414:1415-1421
+18	never	never	ADV	RB	PronType=Neg	19	advmod	19:advmod	Negation=Yes|PDTB=AltLex:Expansion.Substitution.Arg2-as-subst:never:1410:1408-1409,1411-1414:1415-1421
 19	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	13	parataxis	13:parataxis	MSeg=hear-d
 20	of	of	ADP	IN	_	21	case	21:case	_
 21	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	19:obl:of	Entity=(86-person-giv:act-nssns-cf2-1-ana-LeRoy_Neiman)|SpaceAfter=No
@@ -2521,7 +2523,7 @@
 20-21	that's	_	_	_	_	_	_	_	_
 20	that	that	PRON	DT	Number=Sing|PronType=Dem	22	nsubj	22:nsubj	Discourse=context-background:215->214:0:ref-prs-1484,1505-_+ref-dem-1496-1500,1502-_|Entity=(140-abstract-giv:act-nnnnn-cf2-1-ana)
 21	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	22:cop	_
-22	what	what	PRON	WP	PronType=Rel	3	parataxis	3:parataxis	_
+22	what	what	PRON	WP	Case=Acc|PronType=Rel	3	parataxis	3:parataxis	_
 23	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	24:nsubj	Entity=(86-person-giv:act-nssns-cf1-1-ana-LeRoy_Neiman)
 24	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	acl:relcl	22:acl:relcl	SpaceAfter=No
 25	,	,	PUNCT	,	_	30	punct	30:punct	_

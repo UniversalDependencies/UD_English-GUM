@@ -5,6 +5,8 @@
 # meta::dateCreated = 2000-01-01
 # meta::dateModified = 2000-01-01
 # meta::genre = conversation
+# meta::modality = spoken
+# meta::production = informal/spontaneous/private
 # meta::salientEntities = 5 (5*), 45 (5*), 58 (5*), 2 (4*), 21 (4), 3 (2*), 23 (2), 25 (2), 34 (2), 44 (2*), 46 (2), 69 (2), 1 (1*), 4 (1*), 12 (1), 26 (1), 62 (1), 65 (1)
 # meta::sourceURL = https://www.linguistics.ucsb.edu/research/santa-barbara-corpus#SBC011
 # meta::speakerCount = 3
@@ -250,7 +252,7 @@
 # addressee = Doris
 # text = Well now, he was the one that was up on the left, up there.
 1	Well	well	INTJ	UH	_	7	discourse	7:discourse	Discourse=context-background:20->25:1:ref-prs-120,142-_
-2	now	now	ADV	RB	_	7	discourse	7:discourse	SpaceAfter=No
+2	now	now	ADV	RB	PronType=Dem	7	discourse	7:discourse	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	Entity=(12-person-giv:act-nsnnn-cf1*-1-ana)
 5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
@@ -889,7 +891,7 @@
 6	could	could	AUX	MD	VerbForm=Fin	8	aux	8:aux	_
 7	have	have	AUX	VB	VerbForm=Inf	8	aux	8:aux	_
 8	mentioned	mention	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	MSeg=mention-ed
-9	what	what	PRON	WP	PronType=Rel	8	obj	8:obj	Entity=(40-abstract-new-nnnnn-cf5-1-coref
+9	what	what	PRON	WP	Case=Acc|PronType=Rel	8	obj	8:obj	Entity=(40-abstract-new-nnnnn-cf5-1-coref
 10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	13:cop	_
 11	in	in	ADP	IN	_	13	case	13:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(41-object-acc:com-nnnnn-cf7-2-sgl
@@ -944,7 +946,7 @@
 6	Rotus	Rotus	PROPN	NNP	Number=Sing	4	obl	4:obl:to|12:nsubj	Entity=(43-person-new-nnnnn-cf2-1-coref|SpaceAfter=No
 7	,	,	PUNCT	,	_	12	punct	12:punct	_
 8-9	who's	_	_	_	_	_	_	_	_
-8	who	who	PRON	WP	PronType=Rel	12	nsubj	6:ref	Discourse=elaboration-attribute:85->84:0:syn-mdf-478-_+syn-relcl-480,484-_
+8	who	who	PRON	WP	Case=Nom|PronType=Rel	12	nsubj	6:ref	Discourse=elaboration-attribute:85->84:0:syn-mdf-478-_+syn-relcl-480,484-_
 9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
 10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	_
 11	seasoned	seasoned	ADJ	JJ	Degree=Pos	12	amod	12:amod	MSeg=season-ed
@@ -952,7 +954,7 @@
 13	,	,	PUNCT	,	_	17	punct	17:punct	_
 14	if	if	SCONJ	IN	_	17	mark	17:mark	Discourse=mode-manner:86->85:0:_;contingency-condition:86->85:0:0:orp-if-486-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:486:480-485:487-491
 15	there	there	PRON	EX	PronType=Dem	17	expl	17:expl	_
-16	ever	ever	ADV	RB	Degree=Pos	17	advmod	17:advmod	_
+16	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	17	advmod	17:advmod	_
 17	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl	12:advcl:if	Cxn=Existential-CopPred-ThereExpl|CxnElt=12:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 18	one	one	NUM	CD	NumForm=Word|NumType=Card	17	nsubj	17:nsubj	CxnElt=17:Existential-CopPred-ThereExpl.Pivot|Entity=43)|SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	4:punct	_
@@ -1442,7 +1444,7 @@
 1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	Discourse=topic-question:130->138:1:grf-qst-686-_+lex-indwd-733-_
 2	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes
 3	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Entity=(49-plant-giv:inact-nnnnn-cf2-1-ana)
-4	what	what	PRON	WP	PronType=Rel	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=4:Interrogative-Polar-Direct.Clause|Entity=(58-plant-new-sssss-cf5-1-coref
+4	what	what	PRON	WP	Case=Acc|PronType=Rel	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=4:Interrogative-Polar-Direct.Clause|Entity=(58-plant-new-sssss-cf5-1-coref
 5	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	Entity=(48-person-giv:act-nnnnn-cf1*-1-ana)
 6	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(59-person-new-nnnnn-cf3-2-coref

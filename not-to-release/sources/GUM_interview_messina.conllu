@@ -5,6 +5,8 @@
 # meta::dateCreated = 2007-10-03
 # meta::dateModified = 2014-04-29
 # meta::genre = interview
+# meta::modality = spoken
+# meta::production = formal/spontaneous/public
 # meta::salientEntities = 1 (5*), 3 (5*), 47 (5*), 138 (3*), 142 (3*), 31 (2*), 5 (1*), 6 (1), 17 (1), 24 (1), 29 (1), 45 (1), 49 (1), 55 (1), 76 (1*), 77 (1*), 105 (1), 106 (1), 108 (1), 141 (1*)
 # meta::sourceURL = https://en.wikinews.org/wiki/Frank_Messina:_An_interview_with_the_%27Mets_Poet%27
 # meta::speakerCount = 2
@@ -33,6 +35,8 @@
 10	Poet	Poet	PROPN	NNP	Number=Sing	9	flat	9:flat	SpaceAfter=No
 11	'	'	PUNCT	''	_	9	punct	9:punct	Entity=1)
 
+# newpar
+# newpar_block = p (1 s)
 # sent_id = GUM_interview_messina-2
 # s_prominence = 2
 # s_type = frag
@@ -144,7 +148,7 @@
 # transition = continue
 # speaker = DavidShankbone
 # text = What goes through your head when that happens?
-1	What	what	PRON	WP	PronType=Int	2	nsubj	2:nsubj	CxnElt=2:Interrogative-WHInfo-Direct.WHWord|Discourse=topic-question:14->16:2:lex-indwd-82-_+grf-qst-90-_
+1	What	what	PRON	WP	Case=Nom|PronType=Int	2	nsubj	2:nsubj	CxnElt=2:Interrogative-WHInfo-Direct.WHWord|Discourse=topic-question:14->16:2:lex-indwd-82-_+grf-qst-90-_
 2	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=2:Interrogative-WHInfo-Direct.Clause|MSeg=goe-s
 3	through	through	ADP	IN	_	5	case	5:case	_
 4	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(1-person-giv:inact-sssss-cf2-1-ana-Frank_Messina)
@@ -725,14 +729,14 @@
 7	some	some	DET	DT	PronType=Ind	8	det	8:det	_
 8	understanding	understanding	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=(74-abstract-new-nnnnn-cf4-1-sgl|MSeg=under-stand-ing
 9	of	of	ADP	IN	_	10	case	10:case	_
-10	what	what	PRON	WP	PronType=Rel	8	nmod	8:nmod:of	_
+10	what	what	PRON	WP	Case=Acc|PronType=Rel	8	nmod	8:nmod:of	_
 11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	12:aux	_
 12	happening	happen	VERB	VBG	Tense=Pres|VerbForm=Part	10	acl:relcl	10:acl:relcl	MSeg=happ-en-ing
 13	in	in	ADP	IN	_	15	case	15:case	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(33-place-giv:inact-nnnnn-cf2-2-coref
 15	world	world	NOUN	NN	Number=Sing	12	obl	12:obl:in	Entity=33)
 16	right	right	ADV	RB	Degree=Pos	17	advmod	17:advmod	_
-17	now	now	ADV	RB	_	12	advmod	12:advmod	Entity=74)|SpaceAfter=No
+17	now	now	ADV	RB	PronType=Dem	12	advmod	12:advmod	Entity=74)|SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GUM_interview_messina-32
@@ -790,7 +794,7 @@
 9	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	10:nsubj	Entity=(1-person-giv:act-sssss-cf1*-1-ana-Frank_Messina)
 10	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	advcl:relcl	8:advcl:relcl	_
 11	right	right	ADV	RB	Degree=Pos	12	advmod	12:advmod	_
-12	now	now	ADV	RB	_	10	advmod	10:advmod	Entity=77)|SpaceAfter=No
+12	now	now	ADV	RB	PronType=Dem	10	advmod	10:advmod	Entity=77)|SpaceAfter=No
 13	?	?	PUNCT	.	_	3	punct	3:punct	_
 
 # newpar
@@ -849,7 +853,7 @@
 1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	3:aux	Discourse=attribution-positive:82->83:1:sem-atsrc-557-_+lex-indwd-558-_|XML=<l n:::"1">
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(83-person-new-nnnnn-cf2-1-ana)
 3	know	know	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=3:Interrogative-Polar-Direct.Clause
-4	what	what	PRON	WP	PronType=Int	3	ccomp	3:ccomp	Discourse=topic-question:83->85:1:syn-sbinv-556-_+grf-qst-577-_
+4	what	what	PRON	WP	Case=Acc|PronType=Int	3	ccomp	3:ccomp	Discourse=topic-question:83->85:1:syn-sbinv-556-_+grf-qst-577-_
 5-6	it's	_	_	_	_	_	_	_	_
 5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	4:expl	Entity=(84-event-new-nnnnn-cf1-1-cata)
 6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
@@ -978,9 +982,9 @@
 # speaker = FrankMessina
 # text = Don't let them get in your head!
 1-2	Don't	_	_	_	_	_	_	_	_
-1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=joint-other_m:95->85:2:_|XML=<l n:::"13">
+1	Do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	aux	3:aux	Discourse=joint-other_m:95->85:2:_|XML=<l n:::"13">
 2	n't	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	Negation=Yes
-3	let	let	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
+3	let	let	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	3:obj|5:nsubj:xsubj	Entity=(99-person-acc:com-nnnnn-cf2-1-sgl)
 5	get	get	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
 6	in	in	ADP	IN	_	8	case	8:case	_
@@ -1057,7 +1061,7 @@
 21	fight	fight	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	16:advcl:as	_
 22	for	for	ADP	IN	_	23	case	23:case	_
 23-24	what's	_	_	_	_	_	_	_	_
-23	what	what	PRON	WP	PronType=Rel	21	obl	21:obl:for	_
+23	what	what	PRON	WP	Case=Acc|PronType=Rel	21	obl	21:obl:for	_
 24	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	26:cop	_
 25	mightily	mightily	ADV	RB	Degree=Pos	26	advmod	26:advmod	MSeg=might-i-ly
 26	due	due	ADJ	JJ	Degree=Pos	23	acl:relcl	23:acl:relcl	XML=</l>
@@ -1133,9 +1137,9 @@
 1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Bridge=109<110:set-member|Discourse=joint-other_m:109->11:6:_|Entity=(110-person-acc:inf-nnnnn-cf3-3-coref|PDTB=Hypophora:Hypophora:_:_:719-742:743-1032
 2	one	one	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	_
 3	person	person	NOUN	NN	Number=Sing	8	nsubj	7:obj|8:nsubj|14:nsubj	_
-4	who	who	PRON	WP	PronType=Rel	7	obj	3:ref	Discourse=elaboration-attribute:110->109:0:syn-mdf-745-_+syn-relcl-746,749-_
+4	who	who	PRON	WP	Case=Acc|PronType=Rel	7	obj	3:ref	Discourse=elaboration-attribute:110->109:0:syn-mdf-745-_+syn-relcl-746,749-_
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	Entity=(1-person-giv:act-sssss-cf1*-1-ana-Frank_Messina)
-6	never	never	ADV	RB	_	7	advmod	7:advmod	Negation=Yes
+6	never	never	ADV	RB	PronType=Neg	7	advmod	7:advmod	Negation=Yes
 7	met	meet	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	acl:relcl	3:acl:relcl	Entity=110)
 8	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:111->109:1:_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(111-abstract-new-nnnnn-cf2-2-coref
@@ -1167,7 +1171,7 @@
 7	,	,	PUNCT	,	_	6	punct	6:punct	_
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj	Entity=(110-person-giv:act-nnnnn-cf1*-1-ana)
 9	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
-10	never	never	ADV	RB	_	11	advmod	11:advmod	Negation=Yes
+10	never	never	ADV	RB	PronType=Neg	11	advmod	11:advmod	Negation=Yes
 11	bothered	bother	VERB	VBN	Tense=Past|VerbForm=Part	3	ccomp	3:ccomp	MSeg=bother-ed
 12	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	11	obj	11:obj	Entity=(1-person-giv:act-sssss-cf2-1-ana-Frank_Messina)
 13	during	during	ADP	IN	_	15	case	15:case	MSeg=dur-ing
@@ -1570,7 +1574,7 @@
 9	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	aux	10:aux	_
 10	touched	touch	VERB	VBN	Tense=Past|VerbForm=Part	7	ccomp	7:ccomp	MSeg=touch-ed
 11	people	person	NOUN	NNS	Number=Plur	10	obj	10:obj|16:nsubj:pass	Entity=(138-person-new-snnss-cf4-1-coref
-12	who	who	PRON	WP	PronType=Rel	16	nsubj:pass	11:ref	Discourse=elaboration-attribute:156->155:0:syn-mdf-1043-_+syn-relcl-1044,1048-_
+12	who	who	PRON	WP	Case=Nom|PronType=Rel	16	nsubj:pass	11:ref	Discourse=elaboration-attribute:156->155:0:syn-mdf-1043-_+syn-relcl-1044,1048-_
 13-14	aren't	_	_	_	_	_	_	_	_
 13	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	16:aux:pass	_
 14	n't	not	PART	RB	Polarity=Neg	16	advmod	16:advmod	Negation=Yes
@@ -1645,7 +1649,7 @@
 # text = I have never called myself that, by the way.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=organization-preparation:161->162:2:ref-prs-1092,1106-_|Entity=(1-person-giv:act-sssss-cf1*-1-ana-Frank_Messina)
 2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
-3	never	never	ADV	RB	_	4	advmod	4:advmod	Negation=Yes
+3	never	never	ADV	RB	PronType=Neg	4	advmod	4:advmod	Negation=Yes
 4	called	call	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	MSeg=call-ed
 5	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	obj	4:obj|6:nsubj:xsubj	Entity=(1-person-giv:act-sssss-cf1*-1-ana-Frank_Messina)|MSeg=my-self
 6	that	that	PRON	DT	Number=Sing|PronType=Dem	4	xcomp	4:xcomp	Entity=(1-person-giv:act-sssss-cf1*-1-ana-Frank_Messina)|SpaceAfter=No
@@ -1724,7 +1728,7 @@
 6	,	,	PUNCT	,	_	10	punct	10:punct	_
 7	but	but	CCONJ	CC	_	10	cc	10:cc	Discourse=adversative-antithesis:171->169:1:dm-but-1150-gold|PDTB=Explicit:Comparison.Contrast:but:1150:1121-1143:1144-1149,1151-1161
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj	Entity=(1-person-giv:act-sssss-cf1*-1-ana-Frank_Messina)
-9	never	never	ADV	RB	_	10	advmod	10:advmod	Negation=Yes
+9	never	never	ADV	RB	PronType=Neg	10	advmod	10:advmod	Negation=Yes
 10	coined	coin	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	conj	5:conj:but	MSeg=coin-ed
 11	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	10	obj	10:obj	Entity=(1-person-giv:act-sssss-cf1*-1-ana-Frank_Messina)|MSeg=my-self
 12	as	as	ADP	IN	_	16	case	16:case	_

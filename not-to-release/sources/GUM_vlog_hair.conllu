@@ -5,6 +5,8 @@
 # meta::dateCreated = 2020-12-11
 # meta::dateModified = 2021-09-13
 # meta::genre = vlog
+# meta::modality = spoken
+# meta::production = informal/prepared/public
 # meta::salientEntities = 3 (5*), 25 (5*), 66 (5*), 6 (4), 19 (4), 30 (3*), 35 (3*), 36 (3), 67 (3*), 11 (2), 27 (2*), 29 (2*), 31 (2*), 34 (2), 68 (2*), 1 (1), 2 (1*), 7 (1), 12 (1), 26 (1*), 28 (1*), 33 (1*), 41 (1), 45 (1), 46 (1), 47 (1*), 48 (1), 53 (1)
 # meta::sourceURL = https://www.youtube.com/watch?v=YAxuoL32HG0
 # meta::speakerCount = 1
@@ -159,7 +161,7 @@
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	which	which	PRON	WDT	PronType=Int	6	discourse	6:discourse	XML=<sic></sic>
 4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj|8:nsubj:xsubj	Entity=(1-person-giv:act-nnnsn-cf1*-1-ana)
-5	always	always	ADV	RB	_	6	advmod	6:advmod	MSeg=al-way-s
+5	always	always	ADV	RB	PronType=Tot	6	advmod	6:advmod	MSeg=al-way-s
 6	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 7	to	to	PART	TO	_	8	mark	8:mark	_
 8	focus	focus	VERB	VB	VerbForm=Inf	6	xcomp	6:xcomp	_
@@ -219,7 +221,7 @@
 24	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	25	nmod:poss	25:nmod:poss	Entity=(16-object-new-nnnnn-cf2-2-coref(3-person-giv:act-sssss-cf1-1-ana)
 25	hair	hair	NOUN	NN	Number=Sing	23	obj	23:obj	Entity=16)
 26	right	right	ADV	RB	Degree=Pos	27	advmod	27:advmod	_
-27	now	now	ADV	RB	_	23	advmod	23:advmod	SpaceAfter=No
+27	now	now	ADV	RB	PronType=Dem	23	advmod	23:advmod	SpaceAfter=No
 28	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_vlog_hair-7
@@ -244,7 +246,7 @@
 # text = I just now got done washing it.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj:pass	5:nsubj:pass|6:nsubj:xsubj	Discourse=causal-cause:17->16:1:_|Entity=(3-person-giv:act-sssss-cf1*-1-ana)|PDTB=Implicit:Comparison.Concession.Arg1-as-denier:but:_:11-38:164-171;Implicit:Contingency.Cause.Reason:because:_:157-163:164-171
 2	just	just	ADV	RB	_	3	advmod	3:advmod	_
-3	now	now	ADV	RB	_	5	advmod	5:advmod	_
+3	now	now	ADV	RB	PronType=Dem	5	advmod	5:advmod	_
 4	got	get	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux:pass	5:aux:pass	_
 5	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=do-ne
 6	washing	wash	VERB	VBG	VerbForm=Ger	5	xcomp	5:xcomp	Entity=(17-event-new-nnnnn-cf3-1-disc|MSeg=wash-ing
@@ -1094,7 +1096,7 @@
 5	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_
 6	n't	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	Negation=Yes
 7	know	know	VERB	VB	VerbForm=Inf	0	root	0:root	_
-8	what	what	PRON	WP	PronType=Int	7	obj	7:obj	_
+8	what	what	PRON	WP	Case=Acc|PronType=Int	7	obj	7:obj	_
 9	to	to	PART	TO	_	10	mark	10:mark	_
 10	say	say	VERB	VB	VerbForm=Inf	8	acl	8:acl:to	SpaceAfter=No
 11	.	.	PUNCT	.	_	7	punct	7:punct	_
@@ -1110,13 +1112,13 @@
 2	'm	be	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	like	like	ADP	RP	_	2	compound:prt	2:compound:prt	_
 4	"	"	PUNCT	``	_	9	punct	9:punct	Discourse=restatement-repetition_m:90->88:1:ref-prs-752,770-_+ref-prs-755,763-_+sem-lxchn-761,771-_|SpaceAfter=No|XML=<quote>
-5	What	what	PRON	WP	PronType=Int	9	obj	9:obj	_
+5	What	what	PRON	WP	Case=Acc|PronType=Int	9	obj	9:obj	_
 6	else	else	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 7	can	can	AUX	MD	VerbForm=Fin	9	aux	9:aux	_
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	9:nsubj	Entity=(3-person-giv:act-sssss-cf1*-1-ana)
 9	say	say	VERB	VB	VerbForm=Inf	2	ccomp	2:ccomp	SpaceAfter=No
 10	?	?	PUNCT	.	_	9	punct	9:punct	_
-11	What	what	PRON	WP	PronType=Int	15	obj	15:obj	Discourse=restatement-repetition_m:91->90:0:sem-lxchn-768,774-_+ref-prs-770,776-_
+11	What	what	PRON	WP	Case=Acc|PronType=Int	15	obj	15:obj	Discourse=restatement-repetition_m:91->90:0:sem-lxchn-768,774-_+ref-prs-770,776-_
 12	else	else	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
 13	can	can	AUX	MD	VerbForm=Fin	15	aux	15:aux	_
 14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	15:nsubj	Entity=(3-person-giv:act-sssss-cf1*-1-ana)
@@ -1135,7 +1137,7 @@
 2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes
 4	know	know	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	what	what	PRON	WP	PronType=Int	4	obj	4:obj	_
+5	what	what	PRON	WP	Case=Acc|PronType=Int	4	obj	4:obj	_
 6	to	to	PART	TO	_	7	mark	7:mark	_
 7	say	say	VERB	VB	VerbForm=Inf	5	acl	5:acl:to	SpaceAfter=No
 8	.	.	PUNCT	.	_	4	punct	4:punct	_
@@ -1255,7 +1257,7 @@
 14	channel	channel	NOUN	NN	Number=Sing	18	obl	18:obl:on	Entity=2)|SpaceAfter=No
 15	,	,	PUNCT	,	_	14	punct	14:punct	_
 16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	18:nsubj	Entity=(3-person-giv:act-sssss-cf1-1-ana)
-17	always	always	ADV	RB	_	18	advmod	18:advmod	MSeg=al-way-s
+17	always	always	ADV	RB	PronType=Tot	18	advmod	18:advmod	MSeg=al-way-s
 18	show	show	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Ditransitive|CxnElt=18:Ditransitive.V
 19	you	you	PRON	PRP	Case=Acc|Number=Plur|Person=2|PronType=Prs	20	dep	20:dep	Entity=(1-person-giv:act-nnnsn-cf2*-2-coref
 20	guys	guy	NOUN	NNS	Number=Plur	18	iobj	18:iobj	CxnElt=18:Ditransitive.Rec|Entity=1)|MSeg=guy-s
@@ -1318,7 +1320,7 @@
 37-38	I've	_	_	_	_	_	_	_	_
 37	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	40	nsubj	40:nsubj	Entity=(3-person-giv:act-sssss-cf1*-1-ana)
 38	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	40	aux	40:aux	_
-39	always	always	ADV	RB	_	40	advmod	40:advmod	MSeg=al-way-s
+39	always	always	ADV	RB	PronType=Tot	40	advmod	40:advmod	MSeg=al-way-s
 40	said	say	VERB	VBN	Tense=Past|VerbForm=Part	35	acl:relcl	35:acl:relcl	MSeg=sai-d
 41	on	on	ADP	IN	_	43	case	43:case	_
 42	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	43	nmod:poss	43:nmod:poss	Entity=(2-abstract-giv:act-snnnn-cf6-2-coref(3-person-giv:act-sssss-cf1*-1-ana)
@@ -1330,7 +1332,7 @@
 48	Gels	gel	NOUN	NNS	Number=Plur	51	nsubj	51:nsubj	Entity=(65-substance-new-nnnnn-cf7-1-coref)|MSeg=Gel-s
 49	actually	actually	ADV	RB	Degree=Pos	51	advmod	51:advmod	MSeg=act-ual-ly
 50	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	51	cop	51:cop	_
-51	what	what	PRON	WP	PronType=Rel	35	acl:relcl	35:acl:relcl	_
+51	what	what	PRON	WP	Case=Acc|PronType=Rel	35	acl:relcl	35:acl:relcl	_
 52	make	make	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	51	acl:relcl	51:acl:relcl	_
 53	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	54	nmod:poss	54:nmod:poss	Entity=(58-abstract-giv:act-nnnnn-cf5-2,6-coref(1-person-giv:act-nnnsn-cf2-1-ana)
 54	wash	wash	NOUN	NN	Number=Sing	52	obj	52:obj|59:nsubj:xsubj	SpaceAfter=No|XML=<w>
@@ -1516,7 +1518,7 @@
 7	kinda	kinda	ADV	RB	Degree=Pos	9	advmod	9:advmod	MSeg=kind-a
 8	like	like	INTJ	UH	_	9	discourse	9:discourse	_
 9	counteracts	counteract	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	3	acl:relcl	3:acl:relcl	CorrectForm=counteract|Entity=(75-event-new-nnnnn-cf5-1-coref|MSeg=counter-act-s|XML=<sic ana:::"counteract"></sic>
-10	what	what	PRON	WP	PronType=Rel	9	obj	3:ref	_
+10	what	what	PRON	WP	Case=Acc|PronType=Rel	9	obj	3:ref	_
 11	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	14:nsubj	Entity=(1-person-giv:act-nnnsn-cf1*-1-ana)
 12	would	would	AUX	MD	VerbForm=Fin	14	aux	14:aux	_
 13	typically	typically	ADV	RB	Degree=Pos	14	advmod	14:advmod	MSeg=typ-ical-ly
@@ -1554,7 +1556,7 @@
 20	gel	gel	NOUN	NN	Number=Sing	22	nsubj	22:nsubj	Entity=72)
 21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	22:cop	_
 22-23	what's	_	_	_	_	_	_	_	_
-22	what	what	PRON	WP	PronType=Rel	11	advcl	11:advcl:because	_
+22	what	what	PRON	WP	Case=Acc|PronType=Rel	11	advcl	11:advcl:because	_
 23	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	24:aux	_
 24-25	gonna	_	_	_	_	_	_	_	_
 24	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	22	acl:relcl	22:acl:relcl	XML=<w>
@@ -1671,7 +1673,7 @@
 5	of	of	ADP	IN	_	8	case	8:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Bridge=79<82:comparison-relative|Entity=(82-substance-acc:inf-nnnnn-cf3-3-coref
 7	harder	hard	ADJ	JJR	Degree=Cmp	8	amod	8:amod	MSeg=hard-er
-8	gels	gel	NOUN	NNS	Number=Plur	4	obl	4:obl:of|14:nsubj	MSeg=gel-s
+8	gels	gel	NOUN	NNS	Number=Plur	4	nmod	4:nmod:of|14:nsubj	MSeg=gel-s
 9	that	that	PRON	WDT	PronType=Rel	14	nsubj	8:ref	Discourse=elaboration-attribute:136->135:0:syn-mdf-1185-_+syn-relcl-1186,1191-_
 10	really	really	ADV	RB	Degree=Pos	14	advmod	14:advmod	MSeg=real-ly|SpaceAfter=No
 11	,	,	PUNCT	,	_	10	punct	10:punct	_

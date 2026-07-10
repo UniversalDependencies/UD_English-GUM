@@ -5,6 +5,8 @@
 # meta::dateCreated = 2007-05-15
 # meta::dateModified = 2015-07-14
 # meta::genre = whow
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 2 (5*), 28 (5*), 33 (5*), 24 (4*), 43 (4), 44 (4*), 16 (2*), 11 (1), 12 (1*), 15 (1), 17 (1*), 18 (1*), 22 (1*), 23 (1*), 27 (1*), 40 (1*), 41 (1), 45 (1), 69 (1), 73 (1), 74 (1), 75 (1)
 # meta::sourceURL = https://www.wikihow.com/Hypnotize-a-Chicken
 # meta::speakerCount = 0
@@ -36,7 +38,7 @@
 # text = Anyone who's spent a lot of time on a farm with chickens is probably familiar with this trick.
 1	Anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	16	nsubj	4:nsubj|16:nsubj	Discourse=adversative-concession:2->5:4:_|Entity=(3-person-new-nnnnn-cf2-1-sgl|MSeg=Any-one
 2-3	who's	_	_	_	_	_	_	_	_
-2	who	who	PRON	WP	PronType=Rel	4	nsubj	1:ref	Discourse=elaboration-attribute:3->2:0:syn-mdf-6-_+syn-relcl-7,9-_
+2	who	who	PRON	WP	Case=Nom|PronType=Rel	4	nsubj	1:ref	Discourse=elaboration-attribute:3->2:0:syn-mdf-6-_+syn-relcl-7,9-_
 3	's	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 4	spent	spend	VERB	VBN	Tense=Past|VerbForm=Part	1	acl:relcl	1:acl:relcl	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(4-time-new-nnnnn-cf3-2-sgl
@@ -63,9 +65,9 @@
 # text = Those who've never heard of this will be amazed to see a chicken lie perfectly still after these instructions are followed.
 1	Those	that	PRON	DT	Number=Plur|PronType=Dem	10	nsubj:pass	5:nsubj|10:nsubj:pass|12:nsubj:xsubj	Discourse=explanation-motivation:5->17:6:mrf-md-81-_|Entity=(7-person-new-nnnnn-cf4-1-sgl|PDTB=EntRel:EntRel:_:_:6-25:26-48
 2-3	who've	_	_	_	_	_	_	_	_
-2	who	who	PRON	WP	PronType=Rel	5	nsubj	1:ref	Discourse=elaboration-attribute:6->5:0:syn-mdf-26-_+syn-relcl-27,30-_
+2	who	who	PRON	WP	Case=Nom|PronType=Rel	5	nsubj	1:ref	Discourse=elaboration-attribute:6->5:0:syn-mdf-26-_+syn-relcl-27,30-_
 3	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
-4	never	never	ADV	RB	_	5	advmod	5:advmod	Negation=Yes
+4	never	never	ADV	RB	PronType=Neg	5	advmod	5:advmod	Negation=Yes
 5	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	1	acl:relcl	1:acl:relcl	MSeg=hear-d
 6	of	of	ADP	IN	_	7	case	7:case	_
 7	this	this	PRON	DT	Number=Sing|PronType=Dem	5	obl	5:obl:of	Entity=(1-event-giv:act-sssss-cf1*-1-ana)7)
@@ -382,7 +384,7 @@
 3	lie	lie	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	there	there	ADV	RB	PronType=Dem	3	advmod	3:advmod	_
 5	for	for	ADP	IN	_	6	case	6:case	_
-6	anywhere	anywhere	ADV	RB	_	3	obl	3:obl:for	MSeg=any-where
+6	anywhere	anywhere	ADV	RB	PronType=Tot	3	obl	3:obl:for	MSeg=any-where
 7	from	from	ADP	IN	_	9	case	9:case	_
 8	30	30	NUM	CD	NumForm=Digit|NumType=Card	9	nummod	9:nummod	Entity=(30-time-new-nnnnn-cf2-2-sgl
 9	seconds	second	NOUN	NNS	Number=Plur	6	obl	6:obl:from	Entity=30)|MSeg=second-s

@@ -5,6 +5,8 @@
 # meta::dateCreated = 2009-09-24
 # meta::dateModified = 2019-01-13
 # meta::genre = voyage
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 2 (4*), 64 (4*), 7 (3), 136 (3*), 199 (3), 12 (2), 31 (2), 138 (2*), 5 (1*), 14 (1), 22 (1), 23 (1), 27 (1), 35 (1), 37 (1*), 43 (1*), 45 (1*), 47 (1*), 61 (1), 63 (1), 71 (1*), 73 (1*), 90 (1), 91 (1), 92 (1), 97 (1*), 98 (1*), 100 (1), 139 (1), 154 (1), 156 (1), 197 (1), 198 (1), 206 (1*), 210 (1)
 # meta::sourceURL = https://en.wikivoyage.org/wiki?curid=34838
 # meta::speakerCount = 0
@@ -165,7 +167,7 @@
 38	above	above	ADP	IN	_	40	case	40:case	_
 39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	40:det	Bridge=1<18:entity-associative|Entity=(18-place-acc:inf-nnnnn-cf5-2-coref
 40	sea	sea	NOUN	NN	Number=Sing	37	obl	37:obl:above	Entity=18)
-41	everywhere	everywhere	ADV	RB	Degree=Pos	37	advmod	37:advmod	Entity=1)|MSeg=every-where|SpaceAfter=No
+41	everywhere	everywhere	ADV	RB	Degree=Pos|PronType=Tot	37	advmod	37:advmod	Entity=1)|MSeg=every-where|SpaceAfter=No
 42	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_voyage_sydfynske-6
@@ -199,7 +201,7 @@
 23	fauna	fauna	NOUN	NN	Number=Sing	21	conj	19:obl:to|21:conj:and	Entity=(23-animal-new-nnsnn-cf7-3-sgl
 24	not	not	PART	RB	Polarity=Neg	25	advmod	25:advmod	Discourse=elaboration-attribute:18->17:0:syn-mdf-136-_+syn-nmn-140-_|Negation=Yes
 25	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	21	acl	21:acl	MSeg=see-n
-26	anywhere	anywhere	ADV	RB	_	25	advmod	25:advmod	MSeg=any-where
+26	anywhere	anywhere	ADV	RB	PronType=Tot	25	advmod	25:advmod	MSeg=any-where
 27	else	else	ADV	RB	Degree=Pos	26	advmod	26:advmod	_
 28	in	in	ADP	IN	_	29	case	29:case	_
 29	Denmark	Denmark	PROPN	NNP	Number=Sing	25	obl	25:obl:in	Entity=(7-place-giv:act-nsssn-cf3-1-coref-Denmark)23)22)14)|SpaceAfter=No
@@ -472,7 +474,7 @@
 18	most	most	ADJ	JJS	Degree=Sup	24	obl	24:obl:to	Entity=(62-place-new-nnnnn-cf11-1-sgl
 19	of	of	ADP	IN	_	21	case	21:case	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(50-place-giv:inact-nnnnn-cf1-2-coref
-21	islands	island	NOUN	NNS	Number=Plur	18	obl	18:obl:of	Entity=50)62)|MSeg=island-s
+21	islands	island	NOUN	NNS	Number=Plur	18	nmod	18:nmod:of	Entity=50)62)|MSeg=island-s
 22	transportation	transportation	NOUN	NN	Number=Sing	24	nsubj:pass	24:nsubj:pass	Entity=(63-event-new-nsnnn-cf5-1-sgl)|MSeg=transport-ation
 23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	24:aux:pass	_
 24	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	conj	12:conj:but	MSeg=do-ne
@@ -1183,7 +1185,7 @@
 34	,	,	PUNCT	,	_	39	punct	39:punct	_
 35	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	39	nsubj	39:nsubj	Discourse=adversative-concession:114->115:0:dm-but-911-gold|Entity=(168-abstract-giv:act-nnnnn-cf1-1-ana)
 36	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	39:cop	_
-37	sometimes	sometimes	ADV	RB	_	39	advmod	39:advmod	MSeg=sometime-s
+37	sometimes	sometimes	ADV	RB	PronType=Tot	39	advmod	39:advmod	MSeg=sometime-s
 38	also	also	ADV	RB	_	39	advmod	39:advmod	PDTB=Explicit:Expansion.Conjunction:also:902:865-898:899-901,903-931
 39	available	available	ADJ	JJ	Degree=Pos	19	parataxis	19:parataxis	MSeg=avail-able
 40	at	at	ADP	IN	_	42	case	42:case	_
@@ -1316,7 +1318,7 @@
 9	west	west	NOUN	NN	Number=Sing	7	nmod	7:nmod:to	Entity=(193-place-new-nnnnn-cf7-1-sgl)
 10	order	order	NOUN	NN	Number=Sing	5	obl	5:obl:in	Entity=191)190)|SpaceAfter=No
 11	;	;	PUNCT	:	_	12	punct	12:punct	_
-12	note	note	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	parataxis	1:parataxis	Discourse=attribution-positive:130->132:2:lex-indwd-990-_+sem-atsrc-990-_+syn-rpr-991-_
+12	note	note	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	parataxis	1:parataxis	Discourse=attribution-positive:130->132:2:sem-atsrc-990-_+lex-indwd-990-_+syn-rpr-991-_
 13	that	that	SCONJ	IN	_	15	mark	15:mark	Discourse=adversative-concession:131->132:1:dm-but-1003-gold
 14	there	there	PRON	EX	PronType=Dem	15	expl	15:expl	_
 15	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	12:ccomp	Cxn=Existential-CopPred-ThereExpl
@@ -1362,7 +1364,7 @@
 7	much	much	ADJ	JJ	Degree=Pos	5	obl	5:obl:during	_
 8	of	of	ADP	IN	_	10	case	10:case	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(178-time-giv:inact-nnnnn-cf1-2-coref
-10	year	year	NOUN	NN	Number=Sing	7	obl	7:obl:of	Entity=178)
+10	year	year	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	Entity=178)
 11	for	for	ADP	IN	_	13	case	13:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(198-abstract-new-nnnsn-cf4-2-sgl
 13	protection	protection	NOUN	NN	Number=Sing	5	obl	5:obl:for	MSeg=protect-ion
@@ -1655,9 +1657,9 @@
 18	since	since	SCONJ	IN	_	24	mark	24:mark	Discourse=explanation-justify:164->162:1:dm-since-1262-gold|PDTB=Explicit:Contingency.Cause.Reason:since:1262:1250-1261:1263-1281
 19	many	many	ADJ	JJ	Degree=Pos	24	nsubj	24:nsubj	Entity=(242-object-new-nnnnn-cf4-1-coref
 20	of	of	ADP	IN	_	21	case	21:case	_
-21	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	obl	19:obl:of	Entity=(239-object-giv:act-nnnnn-cf1-1-ana)242)
+21	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	nmod	19:nmod:of	Entity=(239-object-giv:act-nnnnn-cf1-1-ana)242)
 22	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	cop	24:cop	_
-23	now	now	ADV	RB	_	24	advmod	24:advmod	_
+23	now	now	ADV	RB	PronType=Dem	24	advmod	24:advmod	_
 24	empty	empty	ADJ	JJ	Degree=Pos	10	advcl	10:advcl:since	_
 25	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=joint-list_m:165->164:0:sem-mrnym-1263-1265,1270-1271-_+dm-and-1269-gold|PDTB=Explicit:Expansion.Conjunction:and:1269:1262-1268:1270-1281
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Bridge=242<243:comparison-relative;comparison-sense|Entity=(243-object-acc:inf-nnnnn-cf3-2-sgl

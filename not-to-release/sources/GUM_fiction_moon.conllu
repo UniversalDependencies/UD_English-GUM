@@ -5,6 +5,8 @@
 # meta::dateCreated = 2005-03-31
 # meta::dateModified = 2015-11-18
 # meta::genre = fiction
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 2 (5*), 3 (5*), 73 (5*), 51 (4*), 64 (4*), 6 (3), 92 (3), 19 (2*), 80 (2*), 89 (2), 4 (1), 11 (1*), 59 (1*), 75 (1), 81 (1), 85 (1*)
 # meta::sourceURL = https://en.wikisource.org/wiki/What_the_Moon_Brings
 # meta::speakerCount = 1
@@ -21,7 +23,7 @@
 # s_type = frag
 # transition = establishment
 # text = What the Moon Brings
-1	What	what	PRON	WP	PronType=Int	0	root	0:root	Discourse=organization-heading:1->12:6:grf-ly-_-_|Entity=(1-abstract-new-nnnnn-cf2-1-sgl
+1	What	what	PRON	WP	Case=Acc|PronType=Int	0	root	0:root	Discourse=organization-heading:1->12:6:grf-ly-_-_|Entity=(1-abstract-new-nnnnn-cf2-1-sgl
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(2-object-acc:com-sssss-cf1-2-coref
 3	Moon	moon	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=2)
 4	Brings	bring	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	1:acl	Entity=1)|MSeg=Bring-s
@@ -55,7 +57,7 @@
 20	and	and	CCONJ	CC	_	21	cc	21:cc	_
 21	loved	love	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	conj	18:amod|19:conj:and	Entity=4)|MSeg=lov-ed
 22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	24:nsubj	Discourse=same-unit_m:6->4:0:_|Entity=(2-object-giv:act-sssss-cf2*-1-ana)
-23	sometimes	sometimes	ADV	RB	_	24	advmod	24:advmod	MSeg=sometime-s
+23	sometimes	sometimes	ADV	RB	PronType=Tot	24	advmod	24:advmod	MSeg=sometime-s
 24	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	2:advcl:for	Cxn=Resultative|CxnElt=24:Resultative.Predicate|MSeg=make-s
 25	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	24	obj	24:obj|26:nsubj:xsubj|28:nsubj:xsubj	Entity=(4-abstract-giv:act-nnsnn-cf3-1-ana)
 26	unfamiliar	unfamiliar	ADJ	JJ	Degree=Pos	24	xcomp	24:xcomp	CxnElt=24:Resultative.Result|MSeg=un-familiar|Negation=Yes
@@ -252,7 +254,7 @@
 14	feet	foot	NOUN	NNS	Number=Plur	9	obl	9:obl:with	Entity=25)
 15	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=joint-list_m:28->27:0:dm-and-194-gold|PDTB=Explicit:Expansion.Conjunction:and:194:188-193:195-210
 16	maddened	madden	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	conj	4:advcl|9:conj:and	MSeg=madden-ed
-17	ever	ever	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
+17	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	16	advmod	16:advmod	_
 18	by	by	ADP	IN	_	20	case	20:case	_
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(26-abstract-new-nnnnn-cf13-2-sgl
 20	fear	fear	NOUN	NN	Number=Sing	16	obl:agent	16:obl:agent	_
@@ -289,7 +291,7 @@
 51	,	,	PUNCT	,	_	50	punct	50:punct	_
 52	there	there	PRON	EX	PronType=Dem	53	expl	53:expl	Discourse=same-unit_m:33->31:0:_
 53	stretched	stretch	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	37	advcl	37:advcl:for	Cxn=Existential--ExistPred-ThereExpl|MSeg=stretch-ed
-54	now	now	ADV	RB	_	53	advmod	53:advmod	_
+54	now	now	ADV	RB	PronType=Dem	53	advmod	53:advmod	_
 55	only	only	ADV	RB	_	57	advmod	57:advmod	_
 56	new	new	ADJ	JJ	Degree=Pos	57	amod	57:amod	Entity=(31-abstract-new-nnnnn-cf11-2-sgl
 57	vistas	vista	NOUN	NNS	Number=Plur	53	nsubj	53:nsubj	CxnElt=stretch:Existential-ExistPred-ThereExpl.Pivot|MSeg=vista-s
@@ -574,7 +576,7 @@
 34	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	iobj	33:iobj	Entity=(65-animal-giv:act-nnnnn-cf3-1-ana)
 35	of	of	ADP	IN	_	36	case	36:case	_
 36	those	that	PRON	DT	Number=Plur|PronType=Dem	33	obl	33:obl:of|40:obj	Entity=(69-person-new-nnnnn-cf2-1-ana
-37	whom	who	PRON	WP	PronType=Rel	40	obj	36:ref	Discourse=elaboration-attribute:63->62:0:syn-mdf-477-_+syn-relcl-478,481-_
+37	whom	who	PRON	WP	Case=Acc|PronType=Rel	40	obj	36:ref	Discourse=elaboration-attribute:63->62:0:syn-mdf-477-_+syn-relcl-478,481-_
 38	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	40	nsubj	40:nsubj	Entity=(3-person-giv:act-sssss-cf1*-1-ana)
 39	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	40	aux	40:aux	_
 40	known	know	VERB	VBN	Tense=Past|VerbForm=Part	36	acl:relcl	36:acl:relcl	MSeg=know-n
@@ -734,7 +736,7 @@
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(2-object-giv:inact-sssss-cf2-3-coref
 5	evil	evil	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
 6	moon	moon	NOUN	NN	Number=Sing	8	nsubj	8:nsubj|10:nsubj:xsubj	Entity=2)
-7	now	now	ADV	RB	_	8	advmod	8:advmod	_
+7	now	now	ADV	RB	PronType=Dem	8	advmod	8:advmod	_
 8	hung	hang	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 9	very	very	ADV	RB	_	10	advmod	10:advmod	_
 10	low	low	ADJ	JJ	Degree=Pos	8	xcomp	8:xcomp	SpaceAfter=No
@@ -841,7 +843,7 @@
 28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(68-object-giv:inact-nnnnn-cf4-3-coref
 29	vast	vast	ADJ	JJ	Degree=Pos	30	amod	30:amod	_
 30	reef	reef	NOUN	NN	Number=Sing	26	nmod	26:nmod:of	_
-31	whose	whose	PRON	WP$	Poss=Yes|PronType=Rel	32	nmod:poss	30:ref|32:nmod:poss	Discourse=elaboration-attribute:95->94:0:syn-mdf-701-_+syn-relcl-706-_|Entity=(90-object-new-nnnnn-cf6-2-sgl
+31	whose	whose	PRON	WP$	Case=Gen|Poss=Yes|PronType=Rel	32	nmod:poss	30:ref|32:nmod:poss	Discourse=elaboration-attribute:95->94:0:syn-mdf-701-_+syn-relcl-706-_|Entity=(90-object-new-nnnnn-cf6-2-sgl
 32	rim	rim	NOUN	NN	Number=Sing	35	obj	35:obj	Entity=90)
 33	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	35	nsubj	35:nsubj	Entity=(3-person-giv:act-sssss-cf1*-1-ana)
 34	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	35	aux	35:aux	_
@@ -871,17 +873,17 @@
 15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(92-animal-new-nssns-cf12-3-coref
 16	shocking	shock	VERB	VBG	VerbForm=Ger	17	amod	17:amod	MSeg=shock-ing
 17	eikon	eikon	NOUN	NN	Number=Sing	13	nmod	13:nmod:of	_
-18	whose	whose	PRON	WP$	Poss=Yes|PronType=Rel	20	nmod:poss	17:ref|20:nmod:poss	Discourse=elaboration-attribute:99->98:0:syn-mdf-725-_+syn-relcl-730-_|Entity=(93-object-new-nnnnn-cf8-3-sgl
+18	whose	whose	PRON	WP$	Case=Gen|Poss=Yes|PronType=Rel	20	nmod:poss	17:ref|20:nmod:poss	Discourse=elaboration-attribute:99->98:0:syn-mdf-725-_+syn-relcl-730-_|Entity=(93-object-new-nnnnn-cf8-3-sgl
 19	monstrous	monstrous	ADJ	JJ	Degree=Pos	20	amod	20:amod	MSeg=monstr-ous
 20	forehead	forehead	NOUN	NN	Number=Sing	22	nsubj	22:nsubj	Entity=93)|MSeg=fore-head
-21	now	now	ADV	RB	_	22	advmod	22:advmod	_
+21	now	now	ADV	RB	PronType=Dem	22	advmod	22:advmod	_
 22	shown	shine	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|Typo=Yes|VerbForm=Fin	17	acl:relcl	17:acl:relcl	CorrectForm=shone|XML=<sic ana:::"shone"></sic>
 23	in	in	ADP	IN	_	26	case	26:case	_
 24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(94-abstract-auto-nnnnn-cf4-3-sgl
 25	dim	dim	ADJ	JJ	Degree=Pos	26	amod	26:amod	_
 26	moonlight	moonlight	NOUN	NN	Number=Sing	22	obl	22:obl:in	Entity=94)|MSeg=moon-light
 27	and	and	CCONJ	CC	_	32	cc	32:cc	Discourse=joint-list_m:100->99:0:dm-and-735-gold|PDTB=Explicit:Expansion.Conjunction:and:735:726-734:736-746
-28	whose	whose	PRON	WP$	Poss=Yes|PronType=Rel	30	nmod:poss	30:nmod:poss	Entity=(95-object-new-nnnnn-cf9-3-sgl
+28	whose	whose	PRON	WP$	Case=Gen|Poss=Yes|PronType=Rel	30	nmod:poss	30:nmod:poss	Entity=(95-object-new-nnnnn-cf9-3-sgl
 29	vile	vile	ADJ	JJ	Degree=Pos	30	amod	30:amod	_
 30	hooves	hoof	NOUN	NNS	Number=Plur	32	nsubj	32:nsubj	Entity=95)
 31	must	must	AUX	MD	VerbForm=Fin	32	aux	32:aux	_

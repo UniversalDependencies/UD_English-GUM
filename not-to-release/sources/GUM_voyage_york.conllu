@@ -5,6 +5,8 @@
 # meta::dateCreated = 2003-11-25
 # meta::dateModified = 2015-09-01
 # meta::genre = voyage
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 7 (4*), 2 (3*), 35 (3*), 47 (3*), 4 (2*), 6 (2), 8 (2), 12 (2*), 103 (2), 104 (2), 105 (2*), 117 (2*), 5 (1*), 17 (1), 20 (1), 29 (1), 34 (1), 36 (1), 40 (1*), 50 (1), 67 (1), 70 (1)
 # meta::sourceURL = https://en.wikivoyage.org/wiki/York
 # meta::speakerCount = 0
@@ -12,7 +14,7 @@
 # meta::summary2 = (claude-3-5-sonnet-20241022) York is an ancient cathedral city in Northern England, founded by Romans in 71 CE and later ruled by Vikings, which now serves as a major tourist destination with rich historical heritage, numerous festivals, and well-preserved buildings, though driving into its center is discouraged.
 # meta::summary3 = (gpt4o) York in North Yorkshire, England, is a popular, family-friendly destination known for its well-preserved Roman heritage, vibrant cultural events like the Viking Festival, and status as England's second most visited city, with easy rail and road access, though city center driving is discouraged due to congestion and parking costs.
 # meta::summary4 = (Llama-3.2-3B-Instruct) This article provides an overview of York, a historic city in North Yorkshire, England, including its Roman history, Viking settlement, and modern attractions, as well as information on how to get to and around the city.
-# meta::summary5 = (Qwen2.5-7B-Instruct; postedited) York, an ancient cathedral city with a population of over 181,000  and a rich history dating back to Roman times, boasts well-preserved historic buildings, hosts numerous cultural festivals throughout the year and attracts many visitors anually.
+# meta::summary5 = (Qwen2.5-7B-Instruct; postedited) York, an ancient cathedral city with a population of over 181,000 and a rich history dating back to Roman times, boasts well-preserved historic buildings, hosts numerous cultural festivals throughout the year and attracts many visitors anually.
 # meta::title = York
 # newpar
 # newpar_block = head (1 s)
@@ -82,12 +84,12 @@
 # s_type = decl
 # transition = continue
 # text = As of the 2001 census, the population of York was 181,000.
-1	As	as	ADV	IN	_	12	advmod	12:advmod	Discourse=joint-other_m:5->2:1:_|PDTB=Implicit:Expansion.Conjunction:and:_:19-41:42-54
-2	of	of	ADP	IN	_	5	case	5:case	_
+1	As	as	ADP	IN	ExtPos=ADP	5	case	5:case	Discourse=joint-other_m:5->2:1:_|PDTB=Implicit:Expansion.Conjunction:and:_:19-41:42-54
+2	of	of	ADP	IN	_	1	fixed	1:fixed	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Bridge=7<11:entity-associative|Entity=(11-event-acc:inf-nnnnn-cf3-3-sgl
 4	2001	2001	NUM	CD	NumForm=Digit|NumType=Card	5	compound	5:compound	XML=<date when:::"2001"></date>
-5	census	census	NOUN	NN	Number=Sing	1	nmod	1:nmod:of	Entity=11)|SpaceAfter=No
-6	,	,	PUNCT	,	_	1	punct	1:punct	_
+5	census	census	NOUN	NN	Number=Sing	12	obl	12:obl:as_of	Entity=11)|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	5:punct	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(12-person-new-snnns-cf2-2-coref
 8	population	population	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	MSeg=populat-ion
 9	of	of	ADP	IN	_	10	case	10:case	_
@@ -155,7 +157,7 @@
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(17-person-auto-nsnnn-cf2-2,12-sgl-Roman_people
 8	Romans	Roman	PROPN	NNPS	Number=Plur	3	obl:agent	3:obl:agent|11:nsubj	MSeg=Rom-an-s|SpaceAfter=No
 9	,	,	PUNCT	,	_	11	punct	11:punct	_
-10	who	who	PRON	WP	PronType=Rel	11	nsubj	8:ref	Discourse=elaboration-attribute:12->11:0:syn-mdf-85-_+syn-relcl-87-88-_
+10	who	who	PRON	WP	Case=Nom|PronType=Rel	11	nsubj	8:ref	Discourse=elaboration-attribute:12->11:0:syn-mdf-85-_+syn-relcl-87-88-_
 11	founded	found	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	8:acl:relcl	MSeg=found-ed
 12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(1-place-giv:act-sssss-cf1-3-coref-York
 13	fortress	fortress	NOUN	NN	Number=Sing	14	compound	14:compound	Entity=(18-place-new-nnnnn-cf6-1-sgl)

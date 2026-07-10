@@ -5,6 +5,8 @@
 # meta::dateCreated = 2004-03-08
 # meta::dateModified = 2017-09-10
 # meta::genre = bio
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 9 (3), 10 (3), 26 (3*), 31 (3*), 39 (3*), 40 (3*), 11 (2), 22 (2), 27 (2), 32 (2*), 8 (1), 28 (1), 33 (1*), 34 (1*), 35 (1*), 36 (1*), 37 (1*), 57 (1*), 103 (1), 105 (1)
 # meta::sourceURL = https://en.wikipedia.org/wiki/Zaha_Hadid
 # meta::speakerCount = 0
@@ -181,7 +183,7 @@
 15	curve	curve	NOUN	NN	Number=Sing	12	nmod	12:nmod:of	Entity=27)|SpaceAfter=No
 16	'	'	PUNCT	''	_	12	punct	12:punct	SpaceAfter=No|XML=</quote>
 17	,	,	PUNCT	,	_	20	punct	20:punct	_
-18	who	who	PRON	WP	PronType=Rel	20	nsubj	12:ref	Discourse=elaboration-attribute:14->13:0:syn-mdf-118-_+syn-relcl-124,126-_
+18	who	who	PRON	WP	Case=Nom|PronType=Rel	20	nsubj	12:ref	Discourse=elaboration-attribute:14->13:0:syn-mdf-118-_+syn-relcl-124,126-_
 19	"	"	PUNCT	``	_	20	punct	20:punct	SpaceAfter=No
 20	liberated	liberate	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	12:acl:relcl	MSeg=liberat-ed
 21	architectural	architectural	ADJ	JJ	Degree=Pos	22	amod	22:amod	Entity=(28-abstract-new-nnsnn-cf2-2-coref|MSeg=architectur-al
@@ -263,7 +265,7 @@
 20	many	many	ADJ	JJ	Degree=Pos	27	nsubj	27:nsubj	_
 21	of	of	ADP	IN	_	23	case	23:case	_
 22	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	23:nmod:poss	Entity=(47-place-new-nnnnn-cf9-2-sgl(1-person-giv:act-sssss-cf1*-1-ana-Zaha_Hadid)
-23	buildings	building	NOUN	NNS	Number=Plur	20	obl	20:obl:of	Entity=47)|MSeg=build-ing-s
+23	buildings	building	NOUN	NNS	Number=Plur	20	nmod	20:nmod:of	Entity=47)|MSeg=build-ing-s
 24	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	cop	27:cop	_
 25	still	still	ADV	RB	Degree=Pos	27	advmod	27:advmod	_
 26	under	under	ADP	IN	_	27	case	27:case	_
@@ -563,7 +565,7 @@
 7	outstanding	outstanding	ADJ	JJ	Degree=Pos	8	amod	8:amod	MSeg=out-stand-ing
 8	pupil	pupil	NOUN	NN	Number=Sing	2	obl	2:obl:as	_
 9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	Entity=(83-person-giv:act-nnnnn-cf1-1-ana-Elia_Zenghelis)
-10	ever	ever	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
+10	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	11	advmod	11:advmod	_
 11	taught	teach	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	8:acl:relcl	Entity=1)|SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -593,7 +595,7 @@
 # text = Nothing was ever at 90 degrees.
 1	Nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	6	nsubj	6:nsubj	Discourse=causal-cause:36->35:0:_|Entity=(89-abstract-new-nnnnn-cf1-1-sgl)|MSeg=No-thing|Negation=Yes|PDTB=Implicit:Contingency.Cause.Reason:because:_:418-428:429-435
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
-3	ever	ever	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
+3	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	6	advmod	6:advmod	_
 4	at	at	ADP	IN	_	6	case	6:case	_
 5	90	90	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	6:nummod	Entity=(90-abstract-new-nnnnn-cf2-2-sgl
 6	degrees	degree	NOUN	NNS	Number=Plur	0	root	0:root	Entity=90)|MSeg=degree-s|SpaceAfter=No

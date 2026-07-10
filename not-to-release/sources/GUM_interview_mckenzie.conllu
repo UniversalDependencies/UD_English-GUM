@@ -5,6 +5,8 @@
 # meta::dateCreated = 2014-01-03
 # meta::dateModified = 2014-06-25
 # meta::genre = interview
+# meta::modality = spoken
+# meta::production = formal/spontaneous/public
 # meta::salientEntities = 5 (5*), 8 (5*), 9 (5*), 10 (5*), 11 (5*), 7 (3*), 18 (2), 3 (1), 12 (1*), 16 (1), 19 (1), 20 (1*), 23 (1), 37 (1), 39 (1), 42 (1*), 57 (1)
 # meta::sourceURL = https://en.wikinews.org/wiki/Wikinews_interviews_Australian_wheelchair_basketball_player_Tina_McKenzie
 # meta::speakerCount = 2
@@ -179,7 +181,7 @@
 # transition = continue
 # speaker = Wikinews
 # text = Who plays in that one?
-1	Who	who	PRON	WP	PronType=Int	2	nsubj	2:nsubj	CxnElt=2:Interrogative-WHInfo-Direct.WHWord|Discourse=topic-question:11->13:2:lex-indwd-108-_+grf-qst-113-_
+1	Who	who	PRON	WP	Case=Nom|PronType=Int	2	nsubj	2:nsubj	CxnElt=2:Interrogative-WHInfo-Direct.WHWord|Discourse=topic-question:11->13:2:lex-indwd-108-_+grf-qst-113-_
 2	plays	play	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=2:Interrogative-WHInfo-Direct.Clause|MSeg=play-s
 3	in	in	ADP	IN	_	5	case	5:case	_
 4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	5:det	Entity=(18-event-giv:act-nssnn-cf1*-2-coref
@@ -402,15 +404,15 @@
 # transition = establishment
 # speaker = TinaMcKenzie
 # text = We took quite a few new girls over there back then in 2005, leading into the World Cup in the Netherlands.
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration-additional:27->26:0:ref-prs-246,258-_|Entity=(25-organization-giv:inact-nnnnn-cf2-1-ana-Australia_women's_national_wheelchair_basketball_team)|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:243-249:250-272
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration-additional:27->26:0:sem-synym-246,258-_|Entity=(25-organization-giv:inact-nnnnn-cf2-1-ana-Australia_women's_national_wheelchair_basketball_team)|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:243-249:250-272
 2	took	take	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	quite	quite	DET	PDT	PronType=Ind	7	det:predet	7:det:predet	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Bridge=25<30:comparison-relative|Entity=(30-person-acc:inf-nnnnn-cf4-4-sgl
 5	few	few	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 6	new	new	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	girls	girl	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=30)|MSeg=girl-s
-8	over	over	ADP	IN	_	9	case	9:case	_
-9	there	there	PRON	PRP	Case=Acc|PronType=Dem	2	obl	2:obl:over	Entity=(18-event-giv:act-nssnn-cf1*-1-ana)
+8	over	over	ADV	RB	_	9	advmod	9:advmod	_
+9	there	there	ADV	RB	PronType=Dem	2	advmod	2:advmod	Entity=(18-event-giv:act-nssnn-cf1*-1-coref)
 10	back	back	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
 11	then	then	ADV	RB	PronType=Dem	13	advmod	13:advmod	_
 12	in	in	ADP	IN	_	13	case	13:case	_
@@ -526,7 +528,7 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-other_m:35->7:1:_|Entity=(25-organization-giv:inact-nnnnn-cf1-2-coref-Australia_women's_national_wheelchair_basketball_team
 2	Gliders	glider	PROPN	NNPS	Number=Plur	5	nsubj	5:nsubj	Entity=25)|MSeg=Glid-er-s
 3	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
-4	never	never	ADV	RB	_	5	advmod	5:advmod	Negation=Yes
+4	never	never	ADV	RB	PronType=Neg	5	advmod	5:advmod	Negation=Yes
 5	won	win	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(42-event-new-snnnn-cf2-2,3-coref-Wheelchair_Basketball_World_Championship
 7	World	World	PROPN	NNP	Number=Sing	8	compound	8:compound	_
@@ -542,7 +544,7 @@
 # speaker = TinaMcKenzie
 # text = We always seem to have just a little bit of a chill out at the World Cup.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Discourse=evaluation-comment:36->35:0:lex-indwd-334-_|Entity=(43-event-new-nnnnn-cf4-3-disc(25-organization-giv:act-nnnnn-cf1*-1-ana-Australia_women's_national_wheelchair_basketball_team)
-2	always	always	ADV	RB	_	3	advmod	3:advmod	MSeg=al-way-s
+2	always	always	ADV	RB	PronType=Tot	3	advmod	3:advmod	MSeg=al-way-s
 3	seem	seem	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	to	to	PART	TO	_	5	mark	5:mark	_
 5	have	have	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
@@ -661,7 +663,7 @@
 9	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
 10	n't	not	PART	RB	Polarity=Neg	11	advmod	11:advmod	Negation=Yes
 11	know	know	VERB	VB	VerbForm=Inf	0	root	0:root	_
-12	what	what	PRON	WP	PronType=Rel	11	obj	11:obj	Discourse=evaluation-comment:46->47:2:_
+12	what	what	PRON	WP	Case=Acc|PronType=Rel	11	obj	11:obj	Discourse=evaluation-comment:46->47:2:_
 13	happened	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	12:acl:relcl	MSeg=happen-ed|SpaceAfter=No
 14	.	.	PUNCT	.	_	11	punct	11:punct	_
 
@@ -705,7 +707,7 @@
 1	But	but	CCONJ	CC	_	3	cc	3:cc	Discourse=organization-phatic:51->52:0:lex-indph-426-427-_|PDTB=Explicit:Comparison.Contrast:but:425:422-424:426-437
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(52-person-acc:com-nnnnn-cf1-1-ana)
 3	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=3:Interrogative-WHInfo-Direct.Clause
-4	what	what	PRON	WP	PronType=Int	3	obj	3:obj	CxnElt=3:Interrogative-WHInfo-Direct.WHWord|SpaceAfter=No
+4	what	what	PRON	WP	Case=Acc|PronType=Int	3	obj	3:obj	CxnElt=3:Interrogative-WHInfo-Direct.WHWord|SpaceAfter=No
 5	?	?	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_mckenzie-35
@@ -796,7 +798,7 @@
 6	home	home	ADV	RB	Degree=Pos	4	advmod	4:advmod	Bridge=54<58:entity-associative|Entity=(58-place-acc:inf-nnnnn-cf4-1-sgl)
 7	and	and	CCONJ	CC	_	8	cc	8:cc	_
 8	revisit	revisit	VERB	VB	VerbForm=Inf	4	conj	4:conj:and	MSeg=re-visit
-9	what	what	PRON	WP	PronType=Rel	8	obj	8:obj	_
+9	what	what	PRON	WP	Case=Acc|PronType=Rel	8	obj	8:obj	_
 10	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj|13:nsubj:xsubj	Entity=(54-person-giv:act-nnnnn-cf1*-1-ana)
 11	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	acl:relcl	9:acl:relcl	_
 12	to	to	PART	TO	_	13	mark	13:mark	_

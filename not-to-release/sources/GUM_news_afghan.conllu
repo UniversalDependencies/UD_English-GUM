@@ -5,6 +5,8 @@
 # meta::dateCreated = 2017-07-18
 # meta::dateModified = 2017-08-06
 # meta::genre = news
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 2 (5*), 3 (5*), 5 (5*), 9 (5*), 16 (5*), 18 (5*), 11 (4*), 22 (4*), 4 (3*), 29 (3), 6 (2), 17 (2*), 31 (2), 1 (1*), 21 (1), 26 (1), 27 (1), 37 (1), 77 (1*), 91 (1), 92 (1), 96 (1), 97 (1)
 # meta::sourceURL = https://en.wikinews.org/wiki/After_visa_snags%2C_all-girl_Afghan_team_honored_for_%27courageous_achievement%27_at_international_robotics_competition
 # meta::speakerCount = 0
@@ -309,7 +311,7 @@
 # s_type = decl
 # transition = establishment
 # text = For the contest, the robots were required to recognize, pick up, carry, and deposit balls colored blue and orange to represent water and pollution, respectively.
-1	For	for	ADP	IN	_	3	case	3:case	Discourse=elaboration-additional:23->22:0:sem-mrnym-208-211,217-218-_+sem-rpt-213,241-_+sem-lxchn-213,241-gold|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:208-215:216-246
+1	For	for	ADP	IN	_	3	case	3:case	Discourse=elaboration-additional:23->22:0:sem-mrnym-208-211,217-218-_+sem-lxchn-213,241-gold+sem-rpt-213,241-_|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:208-215:216-246
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(5-event-giv:inact-sssss-cf2-2-coref-FIRST_Robotics_Competition
 3	contest	contest	NOUN	NN	Number=Sing	8	obl	8:obl:for	Entity=5)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -372,7 +374,7 @@
 # text = The group whose three robots collectively earned the most points won that match.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=53<54:set-member|Discourse=elaboration-additional:28->26:1:sem-mrnym-263,265-274-_|Entity=(54-organization-acc:inf-nnnnn-cf1-2-sgl|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in the end:_:247-264:265-278
 2	group	group	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	_
-3	whose	whose	PRON	WP$	Poss=Yes|PronType=Rel	5	nmod:poss	2:ref|5:nmod:poss	Discourse=elaboration-attribute:29->28:0:syn-mdf-266-_+syn-relcl-271-_|Entity=(55-object-new-nnnnn-cf4-3-sgl
+3	whose	whose	PRON	WP$	Case=Gen|Poss=Yes|PronType=Rel	5	nmod:poss	2:ref|5:nmod:poss	Discourse=elaboration-attribute:29->28:0:syn-mdf-266-_+syn-relcl-271-_|Entity=(55-object-new-nnnnn-cf4-3-sgl
 4	three	three	NUM	CD	NumForm=Word|NumType=Card	5	nummod	5:nummod	_
 5	robots	robot	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	Entity=55)|MSeg=robot-s
 6	collectively	collectively	ADV	RB	Degree=Pos	7	advmod	7:advmod	MSeg=collect-ive-ly
@@ -564,7 +566,7 @@
 22	United	Unite	VERB	NNP	Tense=Past|Typo=Yes|VerbForm=Part	23	amod	23:amod	CorrectForm=the United|Entity=(18-place-giv:inact-sssss-cf2-1,2-coref-United_States|MSeg=Unit-ed|XML=<sic ana:::"the United"></sic>
 23	States	State	PROPN	NNPS	Number=Plur	20	obl	20:obl:to	Entity=18)|MSeg=State-s
 24	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=joint-sequence_m:50->49:0:mrf-tns-424,431-gold+dm-and-428-gold+lex-indwd-429-_|PDTB=Explicit:Expansion.Conjunction:and:428:422-427:429-438;Implicit:Temporal.Asynchronous.Precedence:then:_:422-427:428-438
-25	now	now	ADV	RB	_	28	advmod	28:advmod	_
+25	now	now	ADV	RB	PronType=Dem	28	advmod	28:advmod	_
 26	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	nsubj	28:nsubj	Entity=(3-organization-giv:act-sssss-cf1*-1-ana-Afghan_Girls_Robotics_Team)
 27	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	28	cop	28:cop	_
 28	here	here	ADV	RB	PronType=Dem	20	conj	7:conj|20:conj:and	_

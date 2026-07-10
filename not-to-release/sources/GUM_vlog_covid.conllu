@@ -5,6 +5,8 @@
 # meta::dateCreated = 2020-12-23
 # meta::dateModified = 2020-12-23
 # meta::genre = vlog
+# meta::modality = spoken
+# meta::production = informal/spontaneous/public
 # meta::salientEntities = 5 (5*), 12 (5*), 19 (5*), 22 (5*), 55 (5*), 88 (4), 94 (4), 98 (3), 15 (2*), 37 (2*), 14 (1*), 16 (1*), 21 (1), 40 (1*), 56 (1), 68 (1*), 78 (1), 79 (1), 93 (1*), 100 (1)
 # meta::sourceURL = https://www.youtube.com/watch?v=LLTQ61idUHg
 # meta::speakerCount = 1
@@ -25,7 +27,7 @@
 1	Hey	hey	INTJ	UH	_	5	discourse	5:discourse	Discourse=organization-phatic:1->12:6:_|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3-4	what's	_	_	_	_	_	_	_	_
-3	what	what	PRON	WP	PronType=Int	5	nsubj	5:nsubj	CxnElt=5:Interrogative-WHInfo-Direct.WHWord
+3	what	what	PRON	WP	Case=Nom|PronType=Int	5	nsubj	5:nsubj	CxnElt=5:Interrogative-WHInfo-Direct.WHWord
 4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 5	up	up	ADV	RB	Degree=Pos	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=5:Interrogative-WHInfo-Direct.Clause
 6	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	5	vocative	5:vocative	Entity=(1-person-acc:com-nnnnn-cf1-1-coref)|MSeg=every-one|SpaceAfter=No
@@ -54,7 +56,7 @@
 2	those	that	PRON	DT	Number=Plur|PronType=Dem	18	obl	7:nsubj|18:obl:for	Entity=(3-person-new-nnnnn-cf2-1-ana
 3	of	of	ADP	IN	_	4	case	4:case	_
 4	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	nmod	2:nmod:of	Entity=(1-person-giv:inact-nnnnn-cf4-1-ana)
-5	who	who	PRON	WP	PronType=Rel	7	nsubj	2:ref	Discourse=elaboration-attribute:4->3:0:syn-mdf-15-_+syn-relcl-18,20-_
+5	who	who	PRON	WP	Case=Nom|PronType=Rel	7	nsubj	2:ref	Discourse=elaboration-attribute:4->3:0:syn-mdf-15-_+syn-relcl-18,20-_
 6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 7	new	new	ADJ	JJ	Degree=Pos	2	acl:relcl	2:acl:relcl	_
 8	here	here	ADV	RB	PronType=Dem	7	advmod	7:advmod	Entity=(4-abstract-acc:com-nnnnn-cf3-1-coref)
@@ -167,7 +169,7 @@
 2	those	that	PRON	DT	Number=Plur|PronType=Dem	15	obl	9:nsubj|15:obl:for	Entity=(13-person-new-nnnnn-cf2-1-ana
 3	of	of	ADP	IN	_	4	case	4:case	_
 4	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	nmod	2:nmod:of	Entity=(1-person-giv:act-nnnnn-cf4-1-ana)
-5	who	who	PRON	WP	PronType=Rel	9	nsubj	2:ref	Discourse=elaboration-attribute:16->15:0:syn-mdf-94-_+syn-relcl-97,101-_
+5	who	who	PRON	WP	Case=Nom|PronType=Rel	9	nsubj	2:ref	Discourse=elaboration-attribute:16->15:0:syn-mdf-94-_+syn-relcl-97,101-_
 6-7	hadn't	_	_	_	_	_	_	_	_
 6	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	9:aux	_
 7	n't	not	PART	RB	Polarity=Neg	9	advmod	9:advmod	Negation=Yes
@@ -247,7 +249,7 @@
 19	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	conj	11:conj:and	_
 20	that	that	SCONJ	IN	_	23	mark	23:mark	Discourse=joint-list_m:23->21:0:dm-and-152-gold+dm-then-153-gold+dm-also-154-gold
 21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	23:nsubj	Entity=(5-person-giv:act-sssss-cf1*-1-ana)
-22	always	always	ADV	RB	_	23	advmod	23:advmod	MSeg=al-way-s
+22	always	always	ADV	RB	PronType=Tot	23	advmod	23:advmod	MSeg=al-way-s
 23	talk	talk	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	ccomp	19:ccomp	_
 24	fast	fast	ADV	RB	Degree=Pos	23	advmod	23:advmod	_
 25	in	in	ADP	IN	_	27	case	27:case	_
@@ -361,7 +363,7 @@
 17	9:00	9:00	NUM	CD	NumForm=Digit|NumType=Card	12	obl	12:obl:around	Bridge=24<27:comparison-time;set-span-interval|Entity=(27-time-acc:inf-nnnnn-cf2-1-sgl|XML=<time when:::"21:00:00">
 18	pm	p.m.	NOUN	NN	Number=Sing	17	nmod:unmarked	17:nmod:unmarked	Entity=27)|SpaceAfter=No|XML=</time>
 19	,	,	PUNCT	,	_	22	punct	22:punct	_
-20	so	so	ADV	IN	_	22	advmod	22:advmod	Discourse=context-background:32->46:3:ref-prs-235,327-_+mrf-tns-236-_|PDTB=Explicit:Contingency.Cause.Result:so:245:226-244:246-250
+20	so	so	ADV	RB	_	22	advmod	22:advmod	Discourse=context-background:32->46:3:ref-prs-235,327-_+mrf-tns-236-_|PDTB=Explicit:Contingency.Cause.Result:so:245:226-244:246-250
 21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	22:nsubj	Entity=(5-person-giv:act-sssss-cf1*-1-ana)
 22	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	parataxis	12:parataxis	_
 23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(28-event-new-nnnnn-cf4-2-sgl
@@ -376,7 +378,7 @@
 # text = Um I never really dried my hair, which is so awful, but I decided to go straight to bed because I was so exhausted.
 1	Um	um	INTJ	UH	_	5	discourse	5:discourse	Discourse=adversative-concession:33->35:0:dm-but-264-gold|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:226-250:251-277
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(5-person-giv:act-sssss-cf1*-1-ana)
-3	never	never	ADV	RB	_	5	advmod	5:advmod	Negation=Yes
+3	never	never	ADV	RB	PronType=Neg	5	advmod	5:advmod	Negation=Yes
 4	really	really	ADV	RB	Degree=Pos	5	advmod	5:advmod	MSeg=real-ly
 5	dried	dry	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root|12:csubj	MSeg=dri-ed
 6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(29-object-new-nnnnn-cf3-2-coref(5-person-giv:act-sssss-cf1*-1-ana)
@@ -448,7 +450,7 @@
 6	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	7:nsubj	Entity=(1-person-giv:act-nnnnn-cf1-1-ana)
 7	wake	wake	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:when	_
 8	up	up	ADP	RP	_	7	compound:prt	7:compound:prt	_
-9	sometimes	sometimes	ADV	RB	_	11	advmod	11:advmod	Discourse=context-background:41->46:2:ref-prs-297,347-_;elaboration-additional:41->38:3:0:orp-and-296-gold;causal-cause:41->46:3:2:orp-so-325-gold|MSeg=sometime-s
+9	sometimes	sometimes	ADV	RB	PronType=Tot	11	advmod	11:advmod	Discourse=context-background:41->46:2:ref-prs-297,347-_;elaboration-additional:41->38:3:0:orp-and-296-gold;causal-cause:41->46:3:2:orp-so-325-gold|MSeg=sometime-s
 10	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj	Entity=(1-person-giv:act-nnnnn-cf1-1-ana)
 11	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	_
 12	like	like	INTJ	UH	_	15	discourse	15:discourse	_
@@ -526,7 +528,7 @@
 # speaker = JasmineJae
 # text = Um what about my day Tuesday?
 1	Um	um	INTJ	UH	_	2	discourse	2:discourse	Discourse=topic-question:52->53:1:lex-indwd-360-_+grf-qst-365-_|PDTB=Implicit:Temporal.Asynchronous.Precedence:then:_:354-358:359-365
-2	what	what	PRON	WP	PronType=Int	0	root	0:root	Cxn=WhatAbout|CxnElt=2:WhatAbout.W
+2	what	what	PRON	WP	Case=Acc|PronType=Int	0	root	0:root	Cxn=WhatAbout|CxnElt=2:WhatAbout.W
 3	about	about	ADP	IN	_	5	case	5:case	CxnElt=2:WhatAbout.About
 4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(36-time-new-nnnnn-cf1-2-coref(5-person-giv:inact-sssss-cf2-1-ana)
 5	day	day	NOUN	NN	Number=Sing	2	obl	2:obl:about	CxnElt=2:WhatAbout.N|Entity=36)
@@ -993,7 +995,7 @@
 # transition = zero
 # speaker = JasmineJae
 # text = Know when it – you can't like sneeze?
-1	Know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=1:Interrogative-Polar-Direct.Clause|Discourse=attribution-positive:99->100:0:lex-indwd-694-_+sem-atsrc-694-gold
+1	Know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=1:Interrogative-Polar-Direct.Clause|Discourse=attribution-positive:99->100:0:sem-atsrc-694-gold+lex-indwd-694-_
 2	when	when	ADV	WRB	PronType=Rel	1	obj	1:obj	Discourse=topic-question:100->101:0:grf-qst-703-_;context-circumstance:100->97:0:1:orp-when-695-gold|PDTB=Explicit:Temporal.Synchronous:when:695:676-693:694,696-703
 3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	reparandum	5:reparandum	Entity=(70-abstract-new-nnnnn-cf3-7-disc(71-abstract-new-nnnnn-cf2-1-sgl)|XML=<sic>
 4	–	-	PUNCT	:	_	3	punct	3:punct	XML=</sic>
@@ -1014,7 +1016,7 @@
 1-2	That's	_	_	_	_	_	_	_	_
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=elaboration-additional:101->97:1:_|Entity=(70-abstract-giv:act-nnnnn-cf1*-1-coref)|PDTB=Hypophora:Hypophora:_:_:694-703:704-710
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
-3	what	what	PRON	WP	PronType=Rel	0	root	0:root	_
+3	what	what	PRON	WP	Case=Acc|PronType=Rel	0	root	0:root	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(70-abstract-giv:act-nnnnn-cf1*-2-coref
 5	feeling	feeling	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=70)|MSeg=feel-ing
 6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	3:acl:relcl	SpaceAfter=No
@@ -1155,7 +1157,7 @@
 3	that	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Discourse=elaboration-additional:112->107:1:ref-prs-754,797-_+ref-prop-764-770,799-_|Entity=(78-abstract-giv:inact-nsnnn-cf3-1-coref)
 4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 5	like	like	INTJ	UH	_	6	discourse	6:discourse	_
-6	what	what	PRON	WP	PronType=Rel	2	ccomp	2:ccomp	_
+6	what	what	PRON	WP	Case=Acc|PronType=Rel	2	ccomp	2:ccomp	_
 7	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	6:acl:relcl	MSeg=happ-en-s
 8	when	when	ADV	WRB	PronType=Int	10	advmod	10:advmod	Discourse=contingency-condition:113->112:0:dm-when-804-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:when:804:799-803:805-810
 9	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	10:nsubj	Entity=(1-person-giv:inact-nnnnn-cf2-1-ana)
@@ -1235,7 +1237,7 @@
 47	room	room	NOUN	NN	Number=Sing	42	obl	42:obl:from_across	Entity=92)|SpaceAfter=No
 48	,	,	PUNCT	,	_	54	punct	54:punct	_
 49	and	and	CCONJ	CC	_	54	cc	54:cc	Discourse=adversative-contrast_m:123->118:1:dm-and-872-gold|PDTB=Explicit:Comparison.Contrast:and:872:836-871:873-878
-50	now	now	ADV	RB	_	54	advmod	54:advmod	_
+50	now	now	ADV	RB	PronType=Dem	54	advmod	54:advmod	_
 51	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	54	nsubj	54:nsubj	Entity=(5-person-giv:act-sssss-cf1*-1-ana)
 52-53	can't	_	_	_	_	_	_	_	_
 52	ca	can	AUX	MD	VerbForm=Fin	54	aux	54:aux	_

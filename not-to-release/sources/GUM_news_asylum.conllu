@@ -5,6 +5,8 @@
 # meta::dateCreated = 2015-05-18
 # meta::dateModified = 2015-05-26
 # meta::genre = news
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 2 (5*), 3 (5*), 14 (5*), 19 (5*), 20 (5*), 4 (4*), 55 (3*), 65 (3*), 8 (2*), 10 (2), 11 (2*), 21 (2*), 22 (2), 33 (2*), 57 (2*), 58 (2*), 12 (1), 13 (1*), 29 (1), 31 (1), 50 (1*), 64 (1*)
 # meta::sourceURL = https://en.wikinews.org/wiki/Over_900_asylum_seekers_rescued_off_Indonesian_coast
 # meta::speakerCount = 0
@@ -60,7 +62,7 @@
 7	700	700	NUM	CD	NumForm=Digit|NumType=Card	9	nummod	9:nummod	_
 8	asylum	asylum	NOUN	NN	Number=Sing	9	compound	9:compound	Entity=(3-abstract-giv:inact-sssss-cf3-1-coref)
 9	seekers	seeker	NOUN	NNS	Number=Plur	5	obj	5:obj	MSeg=seek-er-s
-10	whose	whose	PRON	WP$	Poss=Yes|PronType=Rel	11	nmod:poss	9:ref|11:nmod:poss	Discourse=elaboration-attribute:4->3:0:syn-mdf-23-_+syn-relcl-26-_|Entity=(10-object-new-nsnns-cf8-2-coref
+10	whose	whose	PRON	WP$	Case=Gen|Poss=Yes|PronType=Rel	11	nmod:poss	9:ref|11:nmod:poss	Discourse=elaboration-attribute:4->3:0:syn-mdf-23-_+syn-relcl-26-_|Entity=(10-object-new-nsnns-cf8-2-coref
 11	boat	boat	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=10)
 12	sank	sink	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl:relcl	9:acl:relcl	Entity=9)|SpaceAfter=No
 13	,	,	PUNCT	,	_	19	punct	19:punct	_
@@ -321,7 +323,7 @@
 26	parties	party	NOUN	NNS	Number=Plur	22	nmod	22:nmod:with|31:obl:with	MSeg=partie-s|SpaceAfter=No
 27	,	,	PUNCT	,	_	31	punct	31:punct	_
 28	with	with	ADP	IN	_	29	case	29:case	Discourse=elaboration-attribute:33->32:0:syn-mdf-228-_+syn-relcl-231,233-_
-29	whom	who	PRON	WP	PronType=Rel	31	obl	26:ref	_
+29	whom	who	PRON	WP	Case=Acc|PronType=Rel	31	obl	26:ref	_
 30	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	31	nsubj	31:nsubj	Entity=(40-person-giv:act-nnnnn-cf1-1-ana)
 31	share	share	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	26	acl:relcl	26:acl:relcl	_
 32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	33:det	Entity=(43-abstract-new-nnnnn-cf5-2-sgl
@@ -440,14 +442,14 @@
 30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	31:det	Entity=(59-person-new-nnnnn-cf5-2-sgl
 31	lives	life	NOUN	NNS	Number=Plur	29	obj	29:obj	MSeg=live-s
 32	of	of	ADP	IN	_	33	case	33:case	_
-33	migrants	migrant	NOUN	NNS	Number=Plur	31	nmod	31:nmod:of|38:nsubj	Entity=(60-person-new-nnnnn-cf7-1-coref|MSeg=migrant-s
-34	now	now	ADV	RB	_	36	advmod	36:advmod	Discourse=elaboration-attribute:43->42:0:syn-mdf-327-_
+33	migrants	migrant	NOUN	NNS	Number=Plur	31	nmod	31:nmod:of|40:nsubj	Entity=(60-person-new-nnnnn-cf7-1-coref|MSeg=migrant-s
+34	now	now	ADV	RB	PronType=Dem	36	advmod	36:advmod	Discourse=elaboration-attribute:43->42:0:syn-mdf-327-_
 35	at	at	ADP	IN	_	36	case	36:case	_
 36	sea	sea	NOUN	NN	Number=Sing	33	nmod	33:nmod:at	Entity=(55-place-giv:act-snssn-cf3-1-coref)
-37	who	who	PRON	WP	PronType=Rel	38	nsubj	33:ref	Discourse=elaboration-attribute:44->42:1:syn-relcl-331-332-_
-38	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	33:acl:relcl	_
+37	who	who	PRON	WP	Case=Nom|PronType=Rel	40	nsubj	33:ref	Discourse=elaboration-attribute:44->42:1:syn-relcl-331,334-_
+38	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	cop	40:cop	_
 39	in	in	ADP	IN	_	40	case	40:case	_
-40	need	need	NOUN	NN	Number=Sing	38	obl	38:obl:in	_
+40	need	need	NOUN	NN	Number=Sing	33	acl:relcl	33:acl:relcl	_
 41	of	of	ADP	IN	_	45	case	45:case	_
 42	an	a	DET	DT	Definite=Ind|PronType=Art	45	det	45:det	Entity=(61-event-new-nnnnn-cf8-4-sgl
 43	immediate	immediate	ADJ	JJ	Degree=Pos	45	amod	45:amod	MSeg=im-mediate

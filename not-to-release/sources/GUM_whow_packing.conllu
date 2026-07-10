@@ -5,6 +5,8 @@
 # meta::dateCreated = 2006-06-09
 # meta::dateModified = 2014-08-14
 # meta::genre = whow
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 19 (5*), 17 (4*), 25 (4*), 8 (3*), 23 (3*), 30 (3), 1 (2), 18 (2*), 28 (2*), 41 (2), 73 (2*), 74 (2*), 76 (2*), 89 (2*), 3 (1), 29 (1*), 42 (1), 48 (1), 49 (1), 93 (1), 105 (1), 115 (1*)
 # meta::sourceURL = https://www.wikihow.com/Pack-Your-Possessions-When-Moving
 # meta::speakerCount = 0
@@ -242,7 +244,7 @@
 # s_type = imp
 # transition = null
 # text = Never fill a box until it is so heavy that you can't lift it safely.
-1	Never	never	ADV	RB	_	2	advmod	2:advmod	Discourse=explanation-motivation:22->25:1:mrf-md-156-_|Negation=Yes
+1	Never	never	ADV	RB	PronType=Neg	2	advmod	2:advmod	Discourse=explanation-motivation:22->25:1:mrf-md-156-_|Negation=Yes
 2	fill	fill	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(22-object-new-nnnnn-cf1-2-coref
 4	box	box	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=22)
@@ -399,7 +401,7 @@
 # transition = zero
 # text = Label each box clearly and which room it belongs to.
 1	Label	label	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:36->34:1:grf-seq-_-_
-2	each	each	DET	DT	PronType=Ind	3	det	3:det	Entity=(19-object-giv:inact-sssss-cf1-2-coref
+2	each	each	DET	DT	PronType=Tot	3	det	3:det	Entity=(19-object-giv:inact-sssss-cf1-2-coref
 3	box	box	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=19)
 4	clearly	clearly	ADV	RB	Degree=Pos	1	advmod	1:advmod	MSeg=clear-ly
 5	and	and	CCONJ	CC	_	9	cc	9:cc	_
@@ -502,9 +504,9 @@
 # transition = null
 # text = Don't label boxes with contents if the contents are valuable.
 1-2	Don't	_	_	_	_	_	_	_	_
-1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=joint-other_m:43->7:4:_
+1	Do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	aux	3:aux	Discourse=joint-other_m:43->7:4:_
 2	n't	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	Negation=Yes
-3	label	label	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=3:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
+3	label	label	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=3:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
 4	boxes	box	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=(6-object-giv:inact-nnnnn-cf2-1-coref)|MSeg=boxe-s
 5	with	with	ADP	IN	_	6	case	6:case	_
 6	contents	content	NOUN	NNS	Number=Plur	3	obl	3:obl:with	Entity=(49-object-new-nsnnn-cf1-1-coref)|MSeg=content-s
@@ -672,9 +674,9 @@
 # transition = establishment
 # text = Don't pack one box full of books or paperwork - you might not be able to carry it at all.
 1-2	Don't	_	_	_	_	_	_	_	_
-1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=adversative-antithesis:63->65:1:_
+1	Do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	aux	3:aux	Discourse=adversative-antithesis:63->65:1:_
 2	n't	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	Negation=Yes
-3	pack	pack	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
+3	pack	pack	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	one	one	NUM	CD	NumForm=Word|NumType=Card	5	nummod	5:nummod	Entity=(69-object-new-nnnnn-cf2-2-coref
 5	box	box	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=69)
 6	full	full	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
@@ -964,9 +966,9 @@
 # transition = establishment
 # text = Don't pack it again!!!
 1-2	Don't	_	_	_	_	_	_	_	_
-1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=adversative-antithesis:90->88:1:_|PDTB=Implicit:Comparison.Contrast:but:_:603-618:619-626
+1	Do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	aux	3:aux	Discourse=adversative-antithesis:90->88:1:_|PDTB=Implicit:Comparison.Contrast:but:_:603-618:619-626
 2	n't	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	Negation=Yes
-3	pack	pack	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
+3	pack	pack	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	3:obj	Entity=(104-object-giv:act-nnnnn-cf1*-1-ana)
 5	again	again	ADV	RB	Degree=Pos	3	advmod	3:advmod	SpaceAfter=No
 6	!	!	PUNCT	.	_	3	punct	3:punct	SpaceAfter=No
@@ -1043,7 +1045,7 @@
 13	better	good	ADJ	JJR	Degree=Cmp	14	amod	14:amod	MSeg=bett-er
 14	idea	idea	NOUN	NN	Number=Sing	11	obj	11:obj	_
 15	of	of	ADP	IN	_	16	case	16:case	_
-16	what	what	PRON	WP	PronType=Rel	14	nmod	14:nmod:of	_
+16	what	what	PRON	WP	Case=Acc|PronType=Rel	14	nmod	14:nmod:of	_
 17	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	18	nsubj	18:nsubj	Entity=(2-person-giv:act-nnnnn-cf1-1-ana)
 18	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	acl:relcl	16:acl:relcl	_
 19	and	and	CCONJ	CC	_	22	cc	22:cc	_

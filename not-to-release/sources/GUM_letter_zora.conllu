@@ -5,6 +5,8 @@
 # meta::dateCreated = 1951-07-09
 # meta::dateModified = 1951-07-09
 # meta::genre = letter
+# meta::modality = written
+# meta::production = informal/prepared/private
 # meta::salientEntities = 1 (5*), 2 (5*), 6 (5*), 8 (5*), 9 (5*), 5 (3*), 10 (3), 4 (2*), 143 (2), 153 (2), 7 (1*), 11 (1), 12 (1), 18 (1*), 28 (1), 63 (1*), 64 (1*), 74 (1), 81 (1*), 118 (1*), 120 (1*), 128 (1*), 133 (1*), 144 (1), 145 (1), 163 (1*)
 # meta::sourceURL = https://ufdc.ufl.edu/AA00009755/00090/images
 # meta::speakerCount = 0
@@ -256,7 +258,7 @@
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	Entity=(8-person-giv:act-sssss-cf1*-1-ana-Zora_Neale_Hurston)
 7	feed	feed	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	3:acl:relcl	_
 8	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=joint-list_m:25->24:0:sem-lxchn-152,164-gold+dm-and-153-gold|PDTB=Explicit:Expansion.Conjunction:and:153:150-152:154-164
-9	who	who	PRON	WP	PronType=Rel	11	nsubj	11:nsubj|13:nsubj:xsubj	_
+9	who	who	PRON	WP	Case=Nom|PronType=Rel	11	nsubj	11:nsubj|13:nsubj:xsubj	_
 10	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
 11	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part	7	conj	3:acl:relcl|7:conj:and	_
 12	to	to	PART	TO	_	13	mark	13:mark	_
@@ -494,7 +496,7 @@
 3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	_
 4	hoeing	hoeing	NOUN	NN	Number=Sing	11	obl	11:obl:from	MSeg=hoe-ing
 5	and	and	CCONJ	CC	_	6	cc	6:cc	_
-6	what	what	PRON	WP	PronType=Int	4	conj	4:conj:and|11:obl:from	_
+6	what	what	PRON	WP	Case=Acc|PronType=Int	4	conj	4:conj:and|11:obl:from	_
 7	not	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	Entity=55)|Negation=Yes|SpaceAfter=No
 8	,	,	PUNCT	,	_	4	punct	4:punct	_
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj	Discourse=joint-other_m:51->19:2:_|Entity=(8-person-giv:inact-sssss-cf1-1-ana-Zora_Neale_Hurston)
@@ -606,7 +608,7 @@
 # s_type = decl
 # transition = establishment
 # text = Now, you p rhaps questi n why I am putting so much into this place where I now live.
-1	Now	now	ADV	RB	_	6	advmod	6:advmod	Discourse=topic-question:60->62:0:_|SpaceAfter=No
+1	Now	now	ADV	RB	PronType=Dem	6	advmod	6:advmod	Discourse=topic-question:60->62:0:_|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	Entity=(6-person-giv:act-sssss-cf1*-1-ana)
 4	p	perhaps	ADV	GW	Typo=Yes	6	advmod	6:advmod	CorrectForm=perhaps|XML=<sic ana:::"perhaps">
@@ -624,7 +626,7 @@
 16	place	place	NOUN	NN	Number=Sing	11	obl	11:obl:into|20:obl	_
 17	where	where	ADV	WRB	PronType=Rel	20	advmod	16:ref|20:advmod	Discourse=elaboration-attribute:61->60:0:syn-mdf-442-_+syn-relcl-443,446-_
 18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	20:nsubj	Entity=(8-person-giv:act-sssss-cf2-1-ana-Zora_Neale_Hurston)
-19	now	now	ADV	RB	_	20	advmod	20:advmod	_
+19	now	now	ADV	RB	PronType=Dem	20	advmod	20:advmod	_
 20	live	live	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	acl:relcl	16:acl:relcl	Entity=9)|SpaceAfter=No
 21	.	.	PUNCT	.	_	6	punct	6:punct	_
 
@@ -829,7 +831,7 @@
 23	me	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	25:nsubj	Entity=(8-person-giv:act-sssss-cf1*-1-ana-Zora_Neale_Hurston)
 24	to	to	PART	TO	_	25	mark	25:mark	_
 25	move	move	VERB	VB	VerbForm=Inf	12	csubj	12:csubj	_
-26	in	in	ADV	IN	_	25	advmod	25:advmod	_
+26	in	in	ADV	RB	Degree=Pos	25	advmod	25:advmod	_
 27	when	when	ADV	WRB	PronType=Int	29	advmod	29:advmod	Discourse=context-circumstance:80->79:0:dm-when-594-gold|PDTB=Explicit:Temporal.Synchronous:when:594:577-593:595-597
 28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	29:nsubj	Entity=(8-person-giv:act-sssss-cf1*-1-ana-Zora_Neale_Hurston)
 29	arrived	arrive	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	25	advcl	25:advcl:when	Entity=87)|MSeg=arriv-ed|SpaceAfter=No
@@ -855,7 +857,7 @@
 # transition = zero
 # text = In what was meant to be a compliment, I have been told twice, "You don't live like the majority of your people. You like things clean and orderly around you."
 1	In	in	ADP	IN	_	2	case	2:case	Discourse=attribution-positive:82->83:1:lex-indwd-609-_+sem-atsrc-615-_+lex-indwd-618-_+grf-qt-621,642-_|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:598-605:606-642
-2	what	what	PRON	WP	PronType=Rel	13	obl	13:obl:in	_
+2	what	what	PRON	WP	Case=Acc|PronType=Rel	13	obl	13:obl:in	_
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 4	meant	mean	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl:relcl	2:acl:relcl	_
 5	to	to	PART	TO	_	8	mark	8:mark	_
@@ -997,7 +999,7 @@
 # text = I have always intended to come back here.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj|6:nsubj:xsubj	Discourse=explanation-justify:93->90:2:_|Entity=(108-abstract-new-nnnnn-cf3-4-disc(8-person-giv:act-sssss-cf1*-1-ana-Zora_Neale_Hurston)|PDTB=Implicit:Contingency.Cause.Result:so:_:703-715:716-724
 2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
-3	always	always	ADV	RB	_	4	advmod	4:advmod	MSeg=al-way-s
+3	always	always	ADV	RB	PronType=Tot	4	advmod	4:advmod	MSeg=al-way-s
 4	intended	intend	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	MSeg=intend-ed
 5	to	to	PART	TO	_	6	mark	6:mark	_
 6	come	come	VERB	VB	VerbForm=Inf	4	xcomp	4:xcomp	_
@@ -1122,7 +1124,7 @@
 # transition = continue
 # text = Since none of the others have thought to do anything with the hair-traightening business, it might prove a temptation to play my work down to Burroughs, then do something on it himself.
 1	Since	since	SCONJ	IN	_	7	mark	7:mark	Discourse=causal-cause:105->106:1:dm-since-804-gold|PDTB=Explicit:Contingency.Cause.Reason:since:804:821-840:805-820;Implicit:Contingency.Cause.Reason:because:_:788-803:804-840
-2	none	none	NOUN	NN	Number=Sing	7	nsubj	7:nsubj|9:nsubj:xsubj	Bridge=120<121:comparison-relative;comparison-sense|Entity=(121-person-acc:inf-nnnnn-cf4-1-sgl|Negation=Yes
+2	none	none	PRON	NN	Number=Sing|PronType=Neg	7	nsubj	7:nsubj|9:nsubj:xsubj	Bridge=120<121:comparison-relative;comparison-sense|Entity=(121-person-acc:inf-nnnnn-cf4-1-sgl|Negation=Yes
 3	of	of	ADP	IN	_	5	case	5:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	_
 5	others	other	NOUN	NNS	Number=Plur	2	nmod	2:nmod:of	Entity=121)|MSeg=other-s
@@ -1268,7 +1270,7 @@
 16	probably	probably	ADV	RB	Degree=Pos	17	advmod	17:advmod	MSeg=probab-ly
 17	falls	fall	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	2:ccomp|10:conj:and	MSeg=fall-s
 18	right	right	ADV	RB	Degree=Pos	19	advmod	19:advmod	_
-19	in	in	ADV	IN	_	17	advmod	17:advmod	_
+19	in	in	ADV	RB	Degree=Pos	17	advmod	17:advmod	_
 20	with	with	ADP	IN	_	22	case	22:case	_
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(138-abstract-acc:com-nnnnn-cf5-2-sgl
 22	plan	plan	NOUN	NN	Number=Sing	17	obl	17:obl:with	Entity=138)|SpaceAfter=No
@@ -1280,7 +1282,7 @@
 # transition = smooth-shift
 # text = They never se m to miss a chance recently to mention him favorably.
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=explanation-justify:121->119:2:_|Entity=(128-organization-giv:act-snnnn-cf1*-1-ana-The_Saturday_Evening_Post)|PDTB=Implicit:Contingency.Cause.Reason:because:_:901-923:924-937
-2	never	never	ADV	RB	_	3	advmod	3:advmod	Negation=Yes
+2	never	never	ADV	RB	PronType=Neg	3	advmod	3:advmod	Negation=Yes
 3	se	seem	VERB	GW	Typo=Yes	0	root	0:root	CorrectForm=seem|XML=<sic ana:::"seem">
 4	m	_	X	VBP	_	3	goeswith	3:goeswith	CorrectForm=_|XML=</sic>
 5	to	to	PART	TO	_	6	mark	6:mark	_
@@ -1421,7 +1423,7 @@
 9	too	too	ADV	RB	Degree=Pos	8	advmod	8:advmod	SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	11:punct	_
 11	so	so	ADV	RB	_	24	advmod	24:advmod	Discourse=joint-other_m:135->5:0:_
-12	now	now	ADV	RB	_	24	advmod	24:advmod	SpaceAfter=No
+12	now	now	ADV	RB	PronType=Dem	24	advmod	24:advmod	SpaceAfter=No
 13	,	,	PUNCT	,	_	12	punct	12:punct	_
 14	as	as	ADV	RB	_	15	advmod	15:advmod	Discourse=adversative-concession:136->137:1:dm-as badly as-1040-1042-gold|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:as badly as:1040-1042:1037-1039,1049-1056:1043-1048
 15	badly	badly	ADV	RB	Degree=Pos	24	advmod	24:advmod	MSeg=bad-ly

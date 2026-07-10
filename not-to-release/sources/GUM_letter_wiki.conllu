@@ -5,6 +5,8 @@
 # meta::dateCreated = 2006-05-08
 # meta::dateModified = 2024-09-08
 # meta::genre = letter
+# meta::modality = written
+# meta::production = formal/prepared/private
 # meta::salientEntities = 3 (5*), 4 (5*), 18 (5*), 22 (5*), 15 (3*), 26 (3*), 137 (3), 2 (2), 12 (2*), 13 (2*), 14 (2*), 21 (2*), 24 (2), 27 (2), 28 (2), 91 (2*), 128 (2*), 1 (1), 25 (1), 45 (1*), 49 (1*), 51 (1*), 54 (1*), 57 (1), 62 (1), 97 (1), 106 (1), 113 (1*), 138 (1)
 # meta::sourceURL = https://archive.org/details/gchriss_pennstatewiki/Penn_state_wiki_letter_pangborn/page/n1/mode/2up
 # meta::speakerCount = 0
@@ -586,7 +588,7 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=explanation-evidence:55->57:1:_|Entity=(80-abstract-new-nnnnn-cf5-2-sgl|PDTB=NoRel:NoRel:_:_:377-411:412-442
 2	author	author	NOUN	NN	Number=Sing	8	nsubj	8:nsubj|19:nsubj:xsubj	_
 3	of	of	ADP	IN	_	6	case	6:case	_
-4	each	each	DET	DT	PronType=Ind	6	det	6:det	Bridge=72<81:set-member|Entity=(81-abstract-acc:inf-nnnnn-cf1-3-coref
+4	each	each	DET	DT	PronType=Tot	6	det	6:det	Bridge=72<81:set-member|Entity=(81-abstract-acc:inf-nnnnn-cf1-3-coref
 5	Web	Web	PROPN	NNP	Number=Sing	6	compound	6:compound	Entity=(64-abstract-giv:inact-nnnnn-cf4-1-coref-World_Wide_Web)
 6	page	page	NOUN	NN	Number=Sing	2	nmod	2:nmod:of	Entity=81)80)
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
@@ -627,7 +629,7 @@
 3	State	State	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=3)
 4	Wiki	Wiki	PROPN	NNP	Number=Sing	7	nsubj:pass	7:nsubj:pass	Entity=22)
 5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	7:aux:pass	_
-6	never	never	ADV	RB	_	7	advmod	7:advmod	Negation=Yes
+6	never	never	ADV	RB	PronType=Neg	7	advmod	7:advmod	Negation=Yes
 7	proposed	propose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=propos-ed
 8	as	as	ADP	IN	_	10	case	10:case	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(85-abstract-new-nnnnn-cf7-2-sgl
@@ -914,7 +916,7 @@
 32	better	good	ADJ	JJR	Degree=Cmp	33	amod	33:amod	MSeg=bett-er
 33	idea	idea	NOUN	NN	Number=Sing	30	obj	30:obj	_
 34	of	of	ADP	IN	_	35	case	35:case	_
-35	what	what	PRON	WP	PronType=Int	33	nmod	33:nmod:of	_
+35	what	what	PRON	WP	Case=Acc|PronType=Int	33	nmod	33:nmod:of	_
 36	to	to	PART	TO	_	37	mark	37:mark	_
 37	expect	expect	VERB	VB	VerbForm=Inf	35	acl	35:acl:to	_
 38	in	in	ADP	IN	_	39	case	39:case	Discourse=mode-manner:86->85:0:lex-indph-676-677-gold
@@ -950,7 +952,7 @@
 13	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	Entity=(123-abstract-new-nnnnn-cf4-5-coref(3-organization-giv:act-sssss-cf1-1-ana-Pennsylvania_State_University)|MSeg=it-s
 14	15,000	15000	NUM	CD	NumForm=Digit|NumType=Card	17	nummod	17:nummod	SpaceAfter=No|XML=<w>
 15	--	-	PUNCT	HYPH	_	16	punct	16:punct	SpaceAfter=No
-16	plus	plus	ADV	IN	_	14	advmod	14:advmod	XML=</w>
+16	plus	plus	ADV	RB	Degree=Pos	14	advmod	14:advmod	XML=</w>
 17	courses	course	NOUN	NNS	Number=Plur	11	nmod	11:nmod:of	Entity=123)122)|MSeg=course-s|SpaceAfter=No
 18	.	.	PUNCT	.	_	6	punct	6:punct	_
 
@@ -972,7 +974,7 @@
 11	to	to	ADP	IN	_	13	case	13:case	_
 12	Penn	Penn	PROPN	NNP	Number=Sing	13	compound	13:compound	Entity=(3-organization-giv:act-sssss-cf2*-1,2-coref-Pennsylvania_State_University(4-place-giv:act-sssss-cf3-1-coref-Pennsylvania)
 13	State	State	PROPN	NNP	Number=Sing	10	obl	10:obl:to	Entity=3)124)
-14	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	16:cop	Discourse=same-unit_m:90->88:1:_
+14	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	16	cop	16:cop	CorrectForm=is|Discourse=same-unit_m:90->88:1:_|XML=<sic ana:::"is"></sic>
 15	in	in	SCONJ	IN	_	16	mark	16:mark	_
 16	providing	provide	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	MSeg=provid-ing
 17	instructors	instructor	NOUN	NNS	Number=Plur	16	obj	16:obj	Bridge=3<126:entity-associative|Entity=(125-person-new-nnnnn-cf1-1,5-coref(126-person-acc:inf-nnnnn-cf8-1-coref)|MSeg=instruct-or-s
@@ -1061,7 +1063,7 @@
 20	high	high	ADJ	JJ	Degree=Pos	17	advmod	17:advmod	_
 21	as	as	SCONJ	IN	_	25	mark	25:mark	Discourse=mode-manner:96->95:0:dm-as-793-gold|PDTB=Explicit:Comparison.Similarity:as:793:784-792:794-798
 22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	nsubj	25:nsubj	Entity=(134-abstract-giv:act-nnnnn-cf1-1-ana)
-23	always	always	ADV	RB	_	25	advmod	25:advmod	MSeg=al-way-s
+23	always	always	ADV	RB	PronType=Tot	25	advmod	25:advmod	MSeg=al-way-s
 24	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	25:aux	MSeg=ha-s
 25	been	be	AUX	VBN	Tense=Past|VerbForm=Part	20	advcl	20:advcl:as	SpaceAfter=No
 26	.	.	PUNCT	.	_	4	punct	4:punct	_
@@ -1125,7 +1127,7 @@
 23	wiki	wiki	NOUN	NN	Number=Sing	8	obl	8:obl:with	Entity=139)
 24	assigned	assign	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	acl	23:acl	MSeg=assign-ed
 25	to	to	ADP	IN	_	28	case	28:case	_
-26	each	each	DET	DT	PronType=Ind	28	det	28:det	Entity=(140-organization-auto-nnnnn-cf4-3-sgl
+26	each	each	DET	DT	PronType=Tot	28	det	28:det	Entity=(140-organization-auto-nnnnn-cf4-3-sgl
 27	academic	academic	ADJ	JJ	Degree=Pos	28	amod	28:amod	MSeg=academ-ic
 28	unit	unit	NOUN	NN	Number=Sing	24	obl	24:obl:to	Entity=140)|SpaceAfter=No
 29	.	.	PUNCT	.	_	2	punct	2:punct	_

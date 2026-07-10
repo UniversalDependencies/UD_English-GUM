@@ -5,6 +5,8 @@
 # meta::dateCreated = 2008-04-22
 # meta::dateModified = 2008-04-22
 # meta::genre = fiction
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 2 (5*), 3 (5*), 5 (5*), 28 (5*), 70 (4*), 71 (4*), 29 (3*), 80 (3*), 4 (2), 53 (2), 63 (2*), 81 (2), 126 (2*), 140 (2), 148 (2*), 51 (1), 52 (1), 127 (1*)
 # meta::sourceURL = http://smallbeerpress.com/wp-content/uploads/McHugh_Mothers.htm
 # meta::speakerCount = 0
@@ -610,7 +612,7 @@
 3	two	two	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	Bridge=70<74:entity-associative|Entity=(74-organization-acc:inf-nnnnn-cf2-2-sgl
 4	classes	class	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	CxnElt=2:Existential-CopPred-ThereExpl.Pivot|MSeg=classe-s
 5	of	of	ADP	IN	_	7	case	7:case	_
-6	each	each	DET	DT	PronType=Ind	7	det	7:det	Entity=(75-organization-auto-nnnnn-cf1-2-coref
+6	each	each	DET	DT	PronType=Tot	7	det	7:det	Entity=(75-organization-auto-nnnnn-cf1-2-coref
 7	grade	grade	NOUN	NN	Number=Sing	4	nmod	4:nmod:of	Entity=75)74)|SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	9:punct	_
 9	starting	start	VERB	VBG	VerbForm=Ger	4	acl	4:acl	Discourse=elaboration-additional:57->56:0:sem-mrnym-463-464,468-469-_|MSeg=start-ing
@@ -1009,7 +1011,7 @@
 2	wondered	wonder	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=wonder-ed
 3	if	if	SCONJ	IN	_	6	mark	6:mark	Discourse=joint-sequence_m:94->24:3:_
 4	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	6	nsubj	6:nsubj	Entity=(123-person-new-nnnnn-cf4-1-sgl)|MSeg=any-one
-5	ever	ever	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
+5	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	6	advmod	6:advmod	_
 6	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	2:ccomp	Cxn=Interrogative-Polar-Indirect|CxnElt=6:Interrogative-Polar-Indirect.Clause
 7	back	back	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
 8	under	under	ADP	IN	_	10	case	10:case	Entity=(94-place-giv:inact-nnnnn-cf1-3-coref
@@ -1018,7 +1020,7 @@
 11	,	,	PUNCT	,	_	14	punct	14:punct	_
 12	if	if	SCONJ	IN	_	14	mark	14:mark	Discourse=joint-list_m:95->94:0:_|PDTB=Implicit:Expansion.Conjunction:and:_:750-758:759-766
 13	there	there	PRON	EX	PronType=Dem	14	expl	14:expl	_
-14	were	be	VERB	VB	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	2:ccomp|6:conj	Cxn=Existential-CopPred-ThereExpl
+14	were	be	VERB	VBD	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	2:ccomp|6:conj	Cxn=Existential-CopPred-ThereExpl
 15	crickets	cricket	NOUN	NNS	Number=Plur	14	nsubj	14:nsubj	CxnElt=14:Existential-CopPred-ThereExpl.Pivot|Entity=(124-animal-new-nnnnn-cf5-1-sgl)|MSeg=cricket-s
 16	or	or	CCONJ	CC	_	17	cc	17:cc	_
 17	mice	mouse	NOUN	NNS	Number=Plur	15	conj	14:nsubj|15:conj:or	Entity=(125-animal-new-nnnnn-cf6-1-coref)
@@ -1097,7 +1099,7 @@
 6	tried	try	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	conj	3:conj:and	MSeg=tri-ed
 7	to	to	PART	TO	_	8	mark	8:mark	_
 8	see	see	VERB	VB	VerbForm=Inf	6	xcomp	6:xcomp	_
-9	what	what	PRON	WP	PronType=Rel	8	obj	8:obj	_
+9	what	what	PRON	WP	Case=Acc|PronType=Rel	8	obj	8:obj	_
 10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	Entity=(129-object-giv:act-nnnnn-cf2-1-ana)
 11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl:relcl	9:acl:relcl	_
 12	but	but	CCONJ	CC	_	15	cc	15:cc	Discourse=adversative-concession:104->103:0:dm-but-813-gold|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:but:813:805-812:814-818
@@ -1321,7 +1323,7 @@
 13	not	not	PART	RB	Polarity=Neg	14	advmod	14:advmod	Negation=Yes
 14	think	think	VERB	VB	VerbForm=Inf	2	conj	2:conj:and	_
 15	of	of	ADP	IN	_	16	case	16:case	_
-16	what	what	PRON	WP	PronType=Rel	14	obl	14:obl:of	_
+16	what	what	PRON	WP	Case=Acc|PronType=Rel	14	obl	14:obl:of	_
 17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	19:nsubj	Entity=(143-event-acc:aggr-nnnnn-cf3-1-coref)|SplitAnte=142<143,117<143
 18	could	could	AUX	MD	VerbForm=Fin	19	aux	19:aux	_
 19	be	be	AUX	VB	VerbForm=Inf	16	acl:relcl	16:acl:relcl	SpaceAfter=No

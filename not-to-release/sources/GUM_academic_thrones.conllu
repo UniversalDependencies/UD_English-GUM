@@ -5,6 +5,8 @@
 # meta::dateCreated = 2017-08-08
 # meta::dateModified = 2017-08-08
 # meta::genre = academic
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 6 (5*), 54 (5*), 90 (5*), 4 (4*), 96 (4*), 2 (3), 3 (3), 5 (3), 21 (2), 51 (2*), 56 (2), 61 (2), 85 (2), 111 (2*), 113 (2*), 1 (1), 20 (1), 55 (1), 57 (1), 62 (1), 71 (1), 82 (1), 83 (1), 93 (1*), 97 (1*), 98 (1*), 117 (1*)
 # meta::sourceURL = https://dh2017.adho.org/abstracts/046/046.pdf
 # meta::speakerCount = 0
@@ -129,7 +131,7 @@
 # s_type = decl
 # transition = continue
 # text = Now spanning six seasons and 60 episodes, with an average global viewership (from its most recent season) of 25.1 million viewers per episode (Shepherd, 2016), it has spawned five video games, a graphic novel adaptation, several companion books, two rap albums, a 28-city orchestral tour, a wide variety of tabletop games, toys, merchandise and mobile apps, and countless podcasts, fanfics and other fan-based creations.
-1	Now	now	ADV	RB	_	2	advmod	2:advmod	Discourse=context-background:9->13:0:_|PDTB=Implicit:Contingency.Cause.Result:as a result:_:39-81:82-166
+1	Now	now	ADV	RB	PronType=Dem	2	advmod	2:advmod	Discourse=context-background:9->13:0:_|PDTB=Implicit:Contingency.Cause.Result:as a result:_:39-81:82-166
 2	spanning	span	VERB	VBG	Tense=Pres|VerbForm=Part	35	advcl	35:advcl	MSeg=spann-ing
 3	six	six	NUM	CD	NumForm=Word|NumType=Card	4	nummod	4:nummod	Entity=(24-abstract-new-nnnnn-cf5-2-coref
 4	seasons	season	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=24)|MSeg=season-s
@@ -277,7 +279,7 @@
 19	and	and	CCONJ	CC	_	20	cc	20:cc	_
 20	new	new	ADJ	JJ	Degree=Pos	18	conj	17:amod|18:conj:and	SpaceAfter=No
 21	,	,	PUNCT	,	_	24	punct	24:punct	_
-22	who	who	PRON	WP	PronType=Rel	24	nsubj	17:ref	Discourse=elaboration-attribute:17->16:0:syn-mdf-213-_+syn-relcl-218,220-_
+22	who	who	PRON	WP	Case=Nom|PronType=Rel	24	nsubj	17:ref	Discourse=elaboration-attribute:17->16:0:syn-mdf-213-_+syn-relcl-218,220-_
 23	must	must	AUX	MD	VerbForm=Fin	24	aux	24:aux	_
 24	negotiate	negotiate	VERB	VB	VerbForm=Inf	17	acl:relcl	17:acl:relcl	_
 25	an	a	DET	DT	Definite=Ind|PronType=Art	28	det	28:det	Entity=(55-abstract-new-nnnns-cf6-4-sgl
@@ -661,7 +663,7 @@
 16	critical	critical	ADJ	JJ	Degree=Pos	17	amod	17:amod	MSeg=critic-al
 17	reviews	review	NOUN	NNS	Number=Plur	14	obj	14:obj	MSeg=re-view-s
 18	for	for	ADP	IN	_	20	case	20:case	_
-19	each	each	DET	DT	PronType=Ind	20	det	20:det	Bridge=6<109:set-member|Entity=(109-abstract-acc:inf-nnnnn-cf3-2-sgl
+19	each	each	DET	DT	PronType=Tot	20	det	20:det	Bridge=6<109:set-member|Entity=(109-abstract-acc:inf-nnnnn-cf3-2-sgl
 20	episode	episode	NOUN	NN	Number=Sing	17	nmod	17:nmod:for	Entity=109)108)|SpaceAfter=No
 21	:	:	PUNCT	:	_	14	punct	14:punct	_
 
@@ -712,7 +714,7 @@
 # s_type = decl
 # transition = continue
 # text = What results are two completely separate reviews of “The Rains of Castamere” which in turn document the fans’ reactions to the episode in the form of user comment threads:
-1	What	what	PRON	WP	PronType=Rel	7	nsubj	7:nsubj	Discourse=context-background:51->57:3:sem-rpt-608-610,651-653-_|Entity=(108-abstract-giv:act-nnnnn-cf1*-1-coref|PDTB=NoRel:NoRel:_:_:543-578:579-611
+1	What	what	PRON	WP	Case=Nom|PronType=Rel	7	nsubj	7:nsubj	Discourse=context-background:51->57:3:sem-rpt-608-610,651-653-_|Entity=(108-abstract-giv:act-nnnnn-cf1*-1-coref|PDTB=NoRel:NoRel:_:_:543-578:579-611
 2	results	result	NOUN	NNS	Number=Plur	1	acl:relcl	1:acl:relcl	Entity=108)|MSeg=result-s
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 4	two	two	NUM	CD	NumForm=Word|NumType=Card	7	nummod	7:nummod	Entity=(108-abstract-giv:act-nnnnn-cf1*-4-pred
@@ -812,10 +814,10 @@
 23	—	—	PUNCT	:	_	25	punct	25:punct	_
 24	and	and	CCONJ	CC	_	25	cc	25:cc	Discourse=joint-list_m:59->57:1:dm-and-662-gold|PDTB=Explicit:Expansion.Conjunction:and:662:639-661:663-666
 25	analyzes	analyze	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	9:conj:and	Entity=(2-abstract-giv:inact-nnsss-cf4-1-disc|MSeg=analyze-s
-26	each	each	DET	DT	PronType=Ind	27	det	27:det	Entity=(117-abstract-giv:act-snnnn-cf2-2-coref
+26	each	each	DET	DT	PronType=Tot	27	det	27:det	Entity=(117-abstract-giv:act-snnnn-cf2-2-coref
 27	thread	thread	NOUN	NN	Number=Sing	25	obj	25:obj	Entity=117)
 28	separately	separately	ADV	RB	Degree=Pos	25	advmod	25:advmod	MSeg=separate-ly
-29	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	25	advcl	25:advcl	Discourse=mode-means:60->57:2:lex-indwd-667-_+syn-pres-667-_|MSeg=us-ing|PDTB=Implicit:Expansion.Manner.Arg2-as-manner:by:_:639-666:667-682
+29	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	25	advcl	25:advcl	Discourse=mode-means:60->57:2:syn-pres-667-_+lex-indwd-667-_|MSeg=us-ing|PDTB=Implicit:Expansion.Manner.Arg2-as-manner:by:_:639-666:667-682
 30	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	33:det	Entity=(130-abstract-new-nnnnn-cf5-4-sgl
 31	qualitative	qualitative	ADJ	JJ	Degree=Pos	33	amod	33:amod	MSeg=qualit-ative
 32	coding	coding	NOUN	NN	Number=Sing	33	compound	33:compound	Entity=(131-abstract-new-nnnnn-cf12-1-sgl)|MSeg=cod-ing
@@ -855,7 +857,7 @@
 16	paratexts	paratext	NOUN	NNS	Number=Plur	14	conj	13:obj|14:conj:and	Entity=(139-abstract-new-nnnnn-cf7-1-sgl)|MSeg=para-text-s
 17	unique	unique	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
 18	to	to	ADP	IN	_	20	case	20:case	_
-19	each	each	DET	DT	PronType=Ind	20	det	20:det	Entity=(140-person-acc:aggr-nnnnn-cf2-2-coref|SplitAnte=111<140,113<140
+19	each	each	DET	DT	PronType=Tot	20	det	20:det	Entity=(140-person-acc:aggr-nnnnn-cf2-2-coref|SplitAnte=111<140,113<140
 20	group	group	NOUN	NN	Number=Sing	17	obl	17:obl:to	_
 21	of	of	ADP	IN	_	22	case	22:case	_
 22	fans	fan	NOUN	NNS	Number=Plur	20	nmod	20:nmod:of	Entity=140)137)|MSeg=fan-s|SpaceAfter=No

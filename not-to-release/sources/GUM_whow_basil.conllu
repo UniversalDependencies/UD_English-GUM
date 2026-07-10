@@ -5,6 +5,8 @@
 # meta::dateCreated = 2005-03-08
 # meta::dateModified = 2014-06-24
 # meta::genre = whow
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 8 (5*), 3 (4), 67 (3*), 113 (3), 139 (3), 2 (2), 12 (2*), 17 (2), 141 (2*), 142 (2*), 21 (1*), 22 (1*), 24 (1*), 25 (1*), 28 (1*), 35 (1*), 37 (1*), 43 (1*), 53 (1*), 58 (1*), 59 (1*), 60 (1*), 73 (1*), 74 (1), 77 (1*), 79 (1*), 95 (1), 96 (1), 98 (1*), 101 (1*), 102 (1*), 104 (1), 109 (1), 115 (1), 120 (1), 130 (1), 132 (1), 140 (1)
 # meta::sourceURL = https://www.wikihow.com/Grow-Basil
 # meta::speakerCount = 0
@@ -601,7 +603,7 @@
 4	two	two	NUM	CD	NumForm=Word|NumType=Card	2	nmod	2:nmod:to	_
 5	seeds	seed	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=66)|MSeg=see-d-s
 6	into	into	ADP	IN	_	8	case	8:case	MSeg=in-to
-7	each	each	DET	DT	PronType=Ind	8	det	8:det	Entity=(53-object-giv:inact-snnnn-cf1-2-coref
+7	each	each	DET	DT	PronType=Tot	8	det	8:det	Entity=(53-object-giv:inact-snnnn-cf1-2-coref
 8	container	container	NOUN	NN	Number=Sing	1	obl	1:obl:into	Entity=53)|MSeg=contain-er|SpaceAfter=No
 9	.	.	PUNCT	.	_	1	punct	1:punct	_
 
@@ -730,7 +732,7 @@
 5	twice	twice	ADV	RB	NumForm=Word|NumType=Mult	6	advmod	6:advmod	_
 6	daily	daily	ADV	RB	Degree=Pos	2	advmod	2:advmod	MSeg=dai-ly|SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	9:punct	_
-8	never	never	ADV	RB	_	9	advmod	9:advmod	Discourse=mode-manner:72->71:0:syn-pres-492-_|Negation=Yes
+8	never	never	ADV	RB	PronType=Neg	9	advmod	9:advmod	Discourse=mode-manner:72->71:0:syn-pres-492-_|Negation=Yes
 9	letting	let	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	2:advcl	MSeg=lett-ing
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(67-substance-giv:act-snssn-cf2-2-coref
 11	soil	soil	NOUN	NN	Number=Sing	9	obj	9:obj|12:nsubj:xsubj	Entity=67)
@@ -836,9 +838,9 @@
 5	frost	frost	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=(48-event-giv:inact-nnnnn-cf2-1-coref)
 6	so	so	ADV	RB	_	9	advmod	9:advmod	Discourse=elaboration-additional:83->81:0:sem-rpt-544,555-_+sem-lxchn-547,563-gold+lex-indwd-564-_|PDTB=Explicit:Contingency.Cause.Result:so:560:555-559:561-566
 7-8	don't	_	_	_	_	_	_	_	_
-7	do	do	AUX	VB	VerbForm=Inf	9	aux	9:aux	_
+7	do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	9	aux	9:aux	_
 8	n't	not	PART	RB	Polarity=Neg	9	advmod	9:advmod	Negation=Yes
-9	plant	plant	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	4	parataxis	4:parataxis	_
+9	plant	plant	VERB	VB	VerbForm=Inf	4	parataxis	4:parataxis	_
 10	too	too	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
 11	early	early	ADJ	JJ	Degree=Pos	9	xcomp	9:xcomp	SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	4:punct	_
@@ -855,7 +857,7 @@
 4	to	to	PART	TO	_	5	mark	5:mark	Entity=(82-abstract-new-nnnnn-cf5-8,15-sgl
 5	put	put	VERB	VB	VerbForm=Inf	3	csubj	3:csubj	_
 6	basil	basil	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=(1-plant-giv:act-sssss-cf1*-1-coref)
-7	somewhere	somewhere	ADV	RB	_	5	advmod	5:advmod	Entity=(83-place-new-nnnnn-cf6-5,12-sgl
+7	somewhere	somewhere	ADV	RB	PronType=Tot	5	advmod	5:advmod	Entity=(83-place-new-nnnnn-cf6-5,12-sgl
 8	where	where	ADV	WRB	PronType=Int	11	advmod	11:advmod	Discourse=elaboration-attribute:85->84:0:_
 9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj|18:nsubj	Entity=(1-plant-giv:act-sssss-cf1*-1-ana)
 10	will	will	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
@@ -1460,9 +1462,9 @@
 # transition = smooth-shift
 # text = Don't pinch on the lower part of the stem, or the basil plants will grow tall and reedy.
 1-2	Don't	_	_	_	_	_	_	_	_
-1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=mode-manner:147->143:3:_
+1	Do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	aux	3:aux	Discourse=mode-manner:147->143:3:_
 2	n't	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	Negation=Yes
-3	pinch	pinch	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
+3	pinch	pinch	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	on	on	ADP	IN	_	7	case	7:case	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(136-plant-new-nnnnn-cf4-3-sgl
 6	lower	low	ADJ	JJR	Degree=Cmp	7	amod	7:amod	MSeg=low-er

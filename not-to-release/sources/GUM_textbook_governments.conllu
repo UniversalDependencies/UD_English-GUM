@@ -5,6 +5,8 @@
 # meta::dateCreated = 2019-02-21
 # meta::dateModified = 2020-12-01
 # meta::genre = textbook
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 2 (5*), 115 (5*), 132 (5*), 39 (4), 64 (4*), 145 (4), 4 (3*), 6 (3*), 67 (3*), 147 (3*), 5 (2), 15 (2), 36 (2), 40 (2), 45 (2), 138 (2*), 155 (2*), 156 (2), 7 (1), 14 (1), 35 (1), 46 (1), 63 (1), 114 (1), 126 (1), 127 (1*), 139 (1), 141 (1*)
 # meta::sourceURL = https://openstax.org/books/american-government-2e/pages/1-1-what-is-government
 # meta::speakerCount = 0
@@ -25,7 +27,7 @@
 # transition = establishment
 # text = 1.1 What is Government?
 1	1.1	1.1	X	LS	_	2	discourse	2:discourse	Discourse=organization-heading:1->3:5:grf-ly-_-_+grf-seq-1-_+sem-lxchn-4,11-_
-2	What	what	PRON	WP	PronType=Int	0	root	0:root	_
+2	What	what	PRON	WP	Case=Acc|PronType=Int	0	root	0:root	_
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	2:cop	_
 4	Government	government	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	Entity=(1-abstract-new-sssss-cf1-1-coref)|MSeg=Govern-ment|SpaceAfter=No
 5	?	?	PUNCT	.	_	2	punct	2:punct	_
@@ -239,7 +241,7 @@
 4	of	of	ADP	IN	_	6	case	6:case	_
 5	elected	elect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	amod	6:amod	MSeg=elect-ed
 6	representatives	representative	NOUN	NNS	Number=Plur	3	nmod	3:nmod:of|8:nsubj	MSeg=represent-ative-s
-7	who	who	PRON	WP	PronType=Rel	8	nsubj	6:ref	Discourse=elaboration-attribute:17->16:0:syn-mdf-157-_+syn-relcl-158-159-_
+7	who	who	PRON	WP	Case=Nom|PronType=Rel	8	nsubj	6:ref	Discourse=elaboration-attribute:17->16:0:syn-mdf-157-_+syn-relcl-158-159-_
 8	favor	favor	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	6:acl:relcl	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(42-abstract-new-nnnnn-cf1-3-coref
 10	proposed	propose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	amod	11:amod	MSeg=propos-ed
@@ -248,7 +250,7 @@
 13	greater	great	ADJ	JJR	Degree=Cmp	24	advcl	24:advcl:if	CxnElt=24:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|MSeg=great-er
 14	than	than	ADP	IN	_	15	case	15:case	_
 15	those	that	PRON	DT	Number=Plur|PronType=Dem	13	obl	13:obl:than|17:nsubj	Bridge=41<43:comparison-sense|Entity=(43-person-acc:inf-nnnnn-cf2-1-sgl
-16	who	who	PRON	WP	PronType=Rel	17	nsubj	15:ref	Discourse=elaboration-attribute:19->18:0:syn-mdf-166-_+syn-relcl-167-168-_
+16	who	who	PRON	WP	Case=Nom|PronType=Rel	17	nsubj	15:ref	Discourse=elaboration-attribute:19->18:0:syn-mdf-166-_+syn-relcl-167-168-_
 17	oppose	oppose	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	15:acl:relcl	_
 18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obj	17:obj	Entity=(42-abstract-giv:act-nnnnn-cf1-1-ana)43)|SpaceAfter=No
 19	,	,	PUNCT	,	_	13	punct	13:punct	_
@@ -323,7 +325,7 @@
 11	atheists	atheist	NOUN	NNS	Number=Plur	23	nsubj	23:nsubj	Entity=(51-person-new-nnnnn-cf2-1-coref)|MSeg=athe-ist-s|SpaceAfter=No
 12	,	,	PUNCT	,	_	13	punct	13:punct	_
 13	people	person	NOUN	NNS	Number=Plur	11	appos	11:appos|17:nsubj	Discourse=attribution-negative:27->28:0:sem-atsrc-226-_+sem-ngt-228-gold+sem-ngt-228-_+lex-indwd-229-_|Entity=(51-person-giv:act-nnnnn-cf2-1-appos
-14	who	who	PRON	WP	PronType=Rel	17	nsubj	13:ref	_
+14	who	who	PRON	WP	Case=Nom|PronType=Rel	17	nsubj	13:ref	_
 15	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	17:aux	_
 16	not	not	PART	RB	Polarity=Neg	17	advmod	17:advmod	Negation=Yes
 17	believe	believe	VERB	VB	VerbForm=Inf	13	acl:relcl	13:acl:relcl	_
@@ -384,7 +386,7 @@
 4	number	number	NOUN	NN	Number=Sing	12	nsubj	8:nsubj|12:nsubj	_
 5	of	of	ADP	IN	_	6	case	6:case	_
 6	Americans	American	PROPN	NNPS	Number=Plur	4	nmod	4:nmod:of	MSeg=America-n-s
-7	who	who	PRON	WP	PronType=Rel	8	nsubj	4:ref	Discourse=elaboration-attribute:35->34:0:syn-mdf-272-_+syn-relcl-275-276-_
+7	who	who	PRON	WP	Case=Nom|PronType=Rel	8	nsubj	4:ref	Discourse=elaboration-attribute:35->34:0:syn-mdf-272-_+syn-relcl-275-276-_
 8	believe	believe	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_
 9	in	in	ADP	IN	_	10	case	10:case	_
 10	God	God	PROPN	NNP	Number=Sing	8	obl	8:obl:in	Entity=(52-person-giv:inact-nnnnn-cf2-1-coref-God)54)
@@ -392,7 +394,7 @@
 12	outweighs	outweigh	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	23:advcl:though	MSeg=out-weigh-s
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(51-person-giv:act-nnnnn-cf1*-2-coref
 14	number	number	NOUN	NN	Number=Sing	12	obj	12:obj|16:nsubj	_
-15	who	who	PRON	WP	PronType=Rel	16	nsubj	14:ref	Discourse=elaboration-attribute:37->36:0:syn-mdf-282-_+syn-relcl-283-284-_
+15	who	who	PRON	WP	Case=Nom|PronType=Rel	16	nsubj	14:ref	Discourse=elaboration-attribute:37->36:0:syn-mdf-282-_+syn-relcl-283-284-_
 16	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_
 17	not	not	PART	RB	Polarity=Neg	16	advmod	16:advmod	Entity=51)|Negation=Yes|SpaceAfter=No
 18	,	,	PUNCT	,	_	12	punct	12:punct	_
@@ -427,7 +429,7 @@
 17	men	man	NOUN	NNS	Number=Plur	14	obl	14:obl:for|21:nsubj	_
 18	and	and	CCONJ	CC	_	19	cc	19:cc	_
 19	women	woman	NOUN	NNS	Number=Plur	17	conj	14:obl:for|17:conj:and	_
-20	who	who	PRON	WP	PronType=Rel	21	nsubj	17:ref	Discourse=elaboration-attribute:42->41:0:syn-mdf-309-_+syn-relcl-312-313-_
+20	who	who	PRON	WP	Case=Nom|PronType=Rel	21	nsubj	17:ref	Discourse=elaboration-attribute:42->41:0:syn-mdf-309-_+syn-relcl-312-313-_
 21	make	make	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	17:acl:relcl	_
 22	decisions	decision	NOUN	NNS	Number=Plur	21	obj	21:obj|24:nsubj	Entity=(59-abstract-new-nnnnn-cf8-1-sgl|MSeg=decis-ion-s
 23	that	that	PRON	WDT	PronType=Rel	24	nsubj	22:ref	Discourse=elaboration-attribute:43->42:0:syn-mdf-314-_+syn-relcl-315-316-_
@@ -803,7 +805,7 @@
 # text = Most countries now have some form of representative government (Figure 1.6). 5
 1	Most	most	ADJ	JJS	Degree=Sup	2	amod	2:amod	Discourse=organization-preparation:72->76:2:_|Entity=(108-abstract-new-nnnnn-cf2-2-sgl
 2	countries	country	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=108)|MSeg=countrie-s
-3	now	now	ADV	RB	_	4	advmod	4:advmod	_
+3	now	now	ADV	RB	PronType=Dem	4	advmod	4:advmod	_
 4	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	some	some	DET	DT	PronType=Ind	6	det	6:det	Entity=(109-abstract-new-nnnnn-cf3-2-coref
 6	form	form	NOUN	NN	Number=Sing	4	obj	4:obj	_
@@ -899,7 +901,7 @@
 31	this	this	PRON	DT	Number=Sing|PronType=Dem	36	nsubj	36:nsubj	Discourse=elaboration-additional:80->76:0:_|Entity=(121-abstract-giv:act-nnnnn-cf1-1-coref)|PDTB=AltLex:Expansion.Conjunction:this is:673-674:627-642:643-672,675-679
 32	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	36:cop	_
 33	not	not	PART	RB	Polarity=Neg	36	advmod	36:advmod	Negation=Yes
-34	always	always	ADV	RB	_	36	advmod	36:advmod	MSeg=al-way-s
+34	always	always	ADV	RB	PronType=Tot	36	advmod	36:advmod	MSeg=al-way-s
 35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	36:det	_
 36	case	case	NOUN	NN	Number=Sing	0	root	0:root	SpaceAfter=No
 37	.	.	PUNCT	.	_	36	punct	36:punct	_
@@ -930,7 +932,7 @@
 19	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 20	absolute	absolute	ADJ	JJ	Degree=Pos	21	amod	21:amod	Entity=(130-person-new-nnnnn-cf3-2-sgl
 21	monarchs	monarch	NOUN	NNS	Number=Plur	19	obj	19:obj	MSeg=monarch-s
-22	whose	whose	PRON	WP$	Poss=Yes|PronType=Rel	23	nmod:poss	21:ref|23:nmod:poss	Discourse=elaboration-attribute:82->81:0:syn-mdf-700-_+syn-relcl-704-_|Entity=(131-abstract-new-nnnnn-cf2-2-sgl
+22	whose	whose	PRON	WP$	Case=Gen|Poss=Yes|PronType=Rel	23	nmod:poss	21:ref|23:nmod:poss	Discourse=elaboration-attribute:82->81:0:syn-mdf-700-_+syn-relcl-704-_|Entity=(131-abstract-new-nnnnn-cf2-2-sgl
 23	power	power	NOUN	NN	Number=Sing	25	nsubj	25:nsubj	Entity=131)
 24	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	25:cop	_
 25	unrestricted	unrestricted	ADJ	JJ	Degree=Pos	21	acl:relcl	21:acl:relcl	Entity=130)|MSeg=un-restrict-ed|Negation=Yes|SpaceAfter=No
@@ -965,7 +967,7 @@
 22	,	,	PUNCT	,	_	24	punct	24:punct	_
 23	often	often	ADV	RB	Degree=Pos	24	advmod	24:advmod	_
 24	those	that	PRON	DT	Number=Plur|PronType=Dem	16	appos	16:appos|26:nsubj	Bridge=133<135:comparison-sense;set-subset|Entity=(135-person-acc:inf-nnnnn-cf3-1-sgl
-25	who	who	PRON	WP	PronType=Rel	26	nsubj	24:ref	Discourse=elaboration-attribute:85->84:0:syn-mdf-729-_+syn-relcl-730-731-_
+25	who	who	PRON	WP	Case=Nom|PronType=Rel	26	nsubj	24:ref	Discourse=elaboration-attribute:85->84:0:syn-mdf-729-_+syn-relcl-730-731-_
 26	belong	belong	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	24:acl:relcl	MSeg=be-long
 27	to	to	ADP	IN	_	31	case	31:case	_
 28	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	31:det	Entity=(136-organization-new-nnnnn-cf7-4-sgl
@@ -1009,7 +1011,7 @@
 23	public	public	ADJ	JJ	Degree=Pos	24	amod	24:amod	Bridge=138<142:entity-associative|Entity=(142-abstract-acc:inf-nnnnn-cf2-2-sgl|MSeg=publ-ic
 24	office	office	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=142)|SpaceAfter=No
 25	,	,	PUNCT	,	_	33	punct	33:punct	_
-26	and	and	CCONJ	CC	_	33	cc	33:cc	Discourse=joint-list_m:88->87:0:sem-mrnym-765-766,777-_+sem-lxchn-765-766,777-gold+dm-and-768-gold|PDTB=Explicit:Expansion.Conjunction:and:768:743-767:769-779
+26	and	and	CCONJ	CC	_	33	cc	33:cc	Discourse=joint-list_m:88->87:0:sem-lxchn-765-766,777-gold+sem-mrnym-765-766,777-_+dm-and-768-gold|PDTB=Explicit:Expansion.Conjunction:and:768:743-767:769-779
 27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Entity=(143-person-new-nnnnn-cf4-6-sgl(141-organization-giv:act-snnnn-cf1-2-coref-Communist_party
 28-29	party’s	_	_	_	_	_	_	_	_
 28	party	party	NOUN	NN	Number=Sing	32	nmod:poss	32:nmod:poss	_

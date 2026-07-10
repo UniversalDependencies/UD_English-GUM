@@ -5,6 +5,8 @@
 # meta::dateCreated = 2025-05-09
 # meta::dateModified = 2025-05-09
 # meta::genre = court
+# meta::modality = spoken
+# meta::production = formal/prepared/public
 # meta::salientEntities = 4 (5*), 13 (5*), 16 (5*), 28 (5*), 29 (5*), 33 (5*), 12 (4*), 27 (4*), 3 (3), 17 (3*), 18 (3*), 2 (2), 11 (2), 1 (1), 20 (1), 21 (1*), 23 (1), 26 (1*), 51 (1), 57 (1), 63 (1), 77 (1*)
 # meta::sourceURL = https://www.youtube.com/watch?v=Zoy_Js_hyQA
 # meta::speakerCount = 5
@@ -124,7 +126,7 @@
 7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	8:det	Entity=(7-organization-giv:inact-nnnnn-cf3-2-coref
 8	court	court	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	Entity=7)
 9	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	11:aux	MSeg=ha-s
-10	never	never	ADV	RB	_	11	advmod	11:advmod	Negation=Yes
+10	never	never	ADV	RB	PronType=Neg	11	advmod	11:advmod	Negation=Yes
 11	confronted	confront	VERB	VBN	Tense=Past|VerbForm=Part	5	acl:relcl	5:acl:relcl	Entity=9)|MSeg=confront-ed|SpaceAfter=No
 12	,	,	PUNCT	,	_	25	punct	25:punct	_
 13	and	and	CCONJ	CC	_	25	cc	25:cc	Discourse=adversative-concession:11->13:1:dm-but-70-gold;elaboration-additional:11->9:0:1:orp-and-50-gold+ref-dem-41-48,51-_|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:and:50:38-49:51-69
@@ -296,7 +298,7 @@
 # addressee = AttorneyAndrew
 # text = What's the judge to do?
 1-2	What's	_	_	_	_	_	_	_	_
-1	What	what	PRON	WP	PronType=Int	6	obj	6:obj	CxnElt=6:Interrogative-WHInfo-Direct.WHWord|Discourse=topic-question:26->29:3:lex-indwd-176-_+grf-qst-182-_|PDTB=NoRel:NoRel:_:_:162-175:176-182
+1	What	what	PRON	WP	Case=Acc|PronType=Int	6	obj	6:obj	CxnElt=6:Interrogative-WHInfo-Direct.WHWord|Discourse=topic-question:26->29:3:lex-indwd-176-_+grf-qst-182-_|PDTB=NoRel:NoRel:_:_:162-175:176-182
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(16-person-giv:inact-sssss-cf1-2-coref
 4	judge	judge	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=16)
@@ -1579,7 +1581,7 @@
 15	that	that	SCONJ	IN	_	19	mark	19:mark	Discourse=elaboration-attribute:145->144:0:_
 16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	19:nsubj	Entity=(16-person-giv:act-sssss-cf1*-1-ana)
 17	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
-18	now	now	ADV	RB	_	19	advmod	19:advmod	_
+18	now	now	ADV	RB	PronType=Dem	19	advmod	19:advmod	_
 19	reconsidering	reconsider	VERB	VBG	Tense=Pres|VerbForm=Part	8	csubj	8:csubj	MSeg=reconsider-ing|SpaceAfter=No
 20	.	.	PUNCT	.	_	8	punct	8:punct	_
 
@@ -1682,7 +1684,7 @@
 # speaker = AttorneyAndrew
 # addressee = JusticeGaziano
 # text = What trial counsel says is I didn't talk to her about my opening specifically.
-1	What	what	PRON	WP	PronType=Rel	9	nsubj:outer	9:nsubj:outer	Discourse=explanation-evidence:154->151:2:_|Entity=(103-abstract-new-nnnnn-cf5-9-coref|PDTB=Implicit:Contingency.Cause.Reason:because:_:1070-1095:1096-1111
+1	What	what	PRON	WP	Case=Nom|PronType=Rel	9	nsubj:outer	9:nsubj:outer	Discourse=explanation-evidence:154->151:2:_|Entity=(103-abstract-new-nnnnn-cf5-9-coref|PDTB=Implicit:Contingency.Cause.Reason:because:_:1070-1095:1096-1111
 2	trial	trial	NOUN	NN	Number=Sing	3	compound	3:compound	Entity=(20-person-giv:inact-nsnnn-cf1-2-coref(33-event-giv:inact-sssss-cf4-1-coref)|MSeg=tri-al
 3	counsel	counsel	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=20)
 4	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	1:acl:relcl	MSeg=say-s

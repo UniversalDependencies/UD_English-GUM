@@ -5,11 +5,13 @@
 # meta::dateCreated = 1962-08-27
 # meta::dateModified = 1963-05-27
 # meta::genre = letter
+# meta::modality = written
+# meta::production = formal/prepared/private
 # meta::salientEntities = 4 (5*), 6 (5*), 7 (5*), 13 (5*), 14 (5*), 30 (5*), 50 (5*), 109 (5*), 15 (4*), 61 (4*), 96 (4*), 117 (4*), 1 (3*), 3 (2*), 59 (2*), 60 (2*), 67 (2*), 17 (1), 18 (1), 21 (1*), 70 (1*), 81 (1*), 115 (1*), 119 (1*)
 # meta::sourceURL = https://www.digitalcommonwealth.org/search/commonwealth-oai:jd478690j
 # meta::speakerCount = 0
 # meta::summary1 = (human1) In letters from 1962-1963, James P. Cannon denies claims by Francis Russel in a book and in the New Republic that he believed and privately stated that Sacco and Vanzetti, who had been executed decades earlier, were guilty, and corresponds with Pennsylvania Supreme Court Justic Michael A. Musmanno, who applauds Cannon and concurs the two were innocent and Russel is unreliable.
-# meta::summary2 = (claude-sonnet-4-5-20250929; postedited) In a  1962/1963 letter exchange with Pennsylvania Supreme Court Justice Michael A. Musmanno, James P. Cannon refutes Francis Russell's published claim that he privately admitted thinking Sacco was guilty, asserting he always believed in Sacco and Vanzetti's innocence and criticizing Russell's careless historical methods.
+# meta::summary2 = (claude-sonnet-4-5-20250929; postedited) In a 1962/1963 letter exchange with Pennsylvania Supreme Court Justice Michael A. Musmanno, James P. Cannon refutes Francis Russell's published claim that he privately admitted thinking Sacco was guilty, asserting he always believed in Sacco and Vanzetti's innocence and criticizing Russell's careless historical methods.
 # meta::summary3 = (gpt4o) In a letter to the New Republic, James P. Cannon refutes Francis Russell's claim that he believed Sacco was guilty, affirming his long-held stance on Sacco and Vanzetti's innocence, while Justice Michael A. Musmanno commends Cannon for his clarity and provides further criticism of Russell's historical inaccuracies.
 # meta::summary4 = (Meta-Llama-3-8B-Instruct) James P. Cannon disputes Francis Russell's claim that he privately admitted Sacco's guilt, stating he has always believed the pair were innocent.
 # meta::summary5 = (Qwen2.5-7B-Instruct) James P. Cannon writes to the New Republic and others to refute Francis Russell's claims about his thoughts on the Sacco and Vanzetti case, providing evidence of his belief in their innocence and disputing Russell's historical inaccuracies.
@@ -36,7 +38,7 @@
 # s_type = frag
 # transition = null
 # text = What Cannon Didn’t Think
-1	What	what	PRON	WP	PronType=Rel	0	root	0:root	Discourse=organization-heading:2->25:6:grf-ly-_-_+ref-prs-9,164-_
+1	What	what	PRON	WP	Case=Acc|PronType=Rel	0	root	0:root	Discourse=organization-heading:2->25:6:grf-ly-_-_+ref-prs-9,164-_
 2	Cannon	Cannon	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(4-person-new-sssss-cf1-1-coref-James_P._Cannon)
 3-4	Didn’t	_	_	_	_	_	_	_	_
 3	Did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	5:aux	_
@@ -81,7 +83,7 @@
 19	“	"	PUNCT	``	_	33	punct	33:punct	SpaceAfter=No|XML=<quote>
 20	James	James	PROPN	NNP	Number=Sing	33	nsubj	23:nsubj|33:nsubj	Entity=(4-person-giv:act-sssss-cf1-1,2,6,7,13-coref-James_P._Cannon
 21	Cannon	Cannon	PROPN	NNP	Number=Sing	20	flat	20:flat	_
-22	who	who	PRON	WP	PronType=Rel	23	nsubj	20:ref	Discourse=elaboration-additional:6->5:0:syn-relcl-36-37-_
+22	who	who	PRON	WP	Case=Nom|PronType=Rel	23	nsubj	20:ref	Discourse=elaboration-additional:6->5:0:syn-relcl-36-37-_
 23	organized	organize	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	acl:relcl	20:acl:relcl	MSeg=organiz-ed
 24	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(12-organization-new-nnnnn-cf7-2,3,4-coref-International_Labor_Defense
 25	International	International	ADJ	NNP	Degree=Pos	26	amod	26:amod	MSeg=Inter-nation-al
@@ -243,7 +245,7 @@
 4	that	that	SCONJ	IN	_	8	mark	8:mark	_
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	8:nsubj|10:nsubj	Entity=(4-person-giv:act-sssss-cf1*-1-ana-James_P._Cannon)
 6	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	8:aux|10:aux	_
-7	never	never	ADV	RB	_	8	advmod	8:advmod	Negation=Yes
+7	never	never	ADV	RB	PronType=Neg	8	advmod	8:advmod	Negation=Yes
 8	felt	feel	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	MSeg=fel-t|XML=<hi rend:::"italic"></hi>
 9	or	or	CCONJ	CC	_	10	cc	10:cc	_
 10	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	8	conj	8:conj:or	XML=<hi rend:::"italic"></hi>
@@ -260,7 +262,7 @@
 # text = I have always thought they were innocent, and have never expressed a different thought or feeling, privately or publicly, anywhere at any time.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj|12:nsubj	Discourse=attribution-positive:26->27:0:sem-atsrc-175-_+lex-indwd-178-_|Entity=(30-event-new-sssss-cf5-4-coref(4-person-giv:act-sssss-cf1*-1-ana-James_P._Cannon)|PDTB=Implicit:Expansion.Equivalence:in other words:_:160-174:175-201
 2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
-3	always	always	ADV	RB	_	4	advmod	4:advmod	MSeg=al-way-s
+3	always	always	ADV	RB	PronType=Tot	4	advmod	4:advmod	MSeg=al-way-s
 4	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	7:nsubj	Discourse=restatement-repetition_m:27->25:1:_|Entity=(13-person-giv:inact-sssss-cf2-1-ana)
 6	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
@@ -268,7 +270,7 @@
 8	,	,	PUNCT	,	_	12	punct	12:punct	_
 9	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=adversative-antithesis:28->27:1:sem-ngt-_-gold+sem-mrnym-175-181,187-191-_+dm-and-183-gold+lex-indwd-188-gold|PDTB=Explicit:Comparison.Contrast:and:183:175-182:184-201
 10	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	12:aux	_
-11	never	never	ADV	RB	_	12	advmod	12:advmod	Negation=Yes
+11	never	never	ADV	RB	PronType=Neg	12	advmod	12:advmod	Negation=Yes
 12	expressed	express	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	4:conj:and	MSeg=express-ed
 13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	Bridge=30<31:comparison-relative|Entity=(31-abstract-acc:inf-nnnnn-cf3-3,5-sgl
 14	different	different	ADJ	JJ	Degree=Pos	15	amod	15:amod	MSeg=differ-ent
@@ -280,7 +282,7 @@
 20	or	or	CCONJ	CC	_	21	cc	21:cc	_
 21	publicly	publicly	ADV	RB	Degree=Pos	19	conj	12:advmod|19:conj:or	MSeg=public-ly|SpaceAfter=No
 22	,	,	PUNCT	,	_	23	punct	23:punct	_
-23	anywhere	anywhere	ADV	RB	_	12	advmod	12:advmod	MSeg=any-where
+23	anywhere	anywhere	ADV	RB	PronType=Tot	12	advmod	12:advmod	MSeg=any-where
 24	at	at	ADP	IN	_	26	case	26:case	_
 25	any	any	DET	DT	PronType=Ind	26	det	26:det	Entity=(32-time-new-nnnnn-cf4-2-sgl
 26	time	time	NOUN	NN	Number=Sing	12	obl	12:obl:at	Entity=32)|SpaceAfter=No
@@ -446,7 +448,7 @@
 # s_type = decl
 # transition = zero
 # text = Never, at any time, did I ever hear him express or even intimate any doubt about the innocence of Sacco and Vanzetti.
-1	Never	never	ADV	RB	_	10	advmod	10:advmod	Discourse=elaboration-additional:42->25:3:ref-prs-164,329-_+sem-rpt-171,343-_+lex-indwd-206-gold|Negation=Yes|SpaceAfter=No
+1	Never	never	ADV	RB	PronType=Neg	10	advmod	10:advmod	Discourse=elaboration-additional:42->25:3:ref-prs-164,329-_+sem-rpt-171,343-_+lex-indwd-206-gold|Negation=Yes|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	at	at	ADP	IN	_	5	case	5:case	_
 4	any	any	DET	DT	PronType=Ind	5	det	5:det	Entity=(48-time-new-nnnnn-cf8-2-sgl
@@ -454,7 +456,7 @@
 6	,	,	PUNCT	,	_	5	punct	5:punct	_
 7	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	aux	10:aux	_
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj	Entity=(4-person-giv:inact-sssss-cf1-1-ana-James_P._Cannon)
-9	ever	ever	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
+9	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	10	advmod	10:advmod	_
 10	hear	hear	VERB	VB	VerbForm=Inf	0	root	0:root	_
 11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	10:obj|12:nsubj:xsubj|15:nsubj:xsubj	Entity=(35-person-giv:inact-nnnnn-cf2-1-ana-Carlo_Tresca)
 12	express	express	VERB	VB	VerbForm=Inf	10	xcomp	10:xcomp	_
@@ -479,7 +481,7 @@
 # text = And I never heard any report, or rumor, or gossip, from anyone else who ever heard such a thing about Tresca until Mr. Russell’s statement hit me in the eye.
 1	And	and	CCONJ	CC	_	4	cc	4:cc	Discourse=joint-list_m:43->42:1:sem-lxchn-322,349-gold+dm-and-347-gold|PDTB=Explicit:Expansion.Conjunction:and:347:322-346:348-381
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(4-person-giv:act-sssss-cf1*-1-ana-James_P._Cannon)
-3	never	never	ADV	RB	_	4	advmod	4:advmod	Negation=Yes
+3	never	never	ADV	RB	PronType=Neg	4	advmod	4:advmod	Negation=Yes
 4	heard	hear	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=hear-d
 5	any	any	DET	DT	PronType=Ind	6	det	6:det	Entity=(51-abstract-new-nnnnn-cf6-2-sgl
 6	report	report	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=51)|SpaceAfter=No
@@ -493,8 +495,8 @@
 14	from	from	ADP	IN	_	15	case	15:case	_
 15	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	4	obl	4:obl:from|19:nsubj	Entity=(54-person-new-nnnnn-cf8-1-sgl|MSeg=any-one
 16	else	else	ADV	RB	Degree=Pos	15	advmod	15:advmod	_
-17	who	who	PRON	WP	PronType=Rel	19	nsubj	15:ref	Discourse=elaboration-attribute:44->43:0:syn-mdf-361-_+syn-relcl-363,365-_
-18	ever	ever	ADV	RB	Degree=Pos	19	advmod	19:advmod	_
+17	who	who	PRON	WP	Case=Nom|PronType=Rel	19	nsubj	15:ref	Discourse=elaboration-attribute:44->43:0:syn-mdf-361-_+syn-relcl-363,365-_
+18	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	19	advmod	19:advmod	_
 19	heard	hear	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	15:acl:relcl	MSeg=hear-d
 20	such	such	DET	PDT	PronType=Ind	22	det:predet	22:det:predet	Entity=(55-abstract-new-nnnnn-cf7-5-sgl
 21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	_
@@ -1069,12 +1071,12 @@
 37	,	,	PUNCT	,	_	41	punct	41:punct	_
 38	which	which	PRON	WDT	PronType=Rel	41	obj	32:ref	Discourse=elaboration-attribute:95->94:0:syn-mdf-733-_+syn-relcl-739,742-_
 39	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	41	nsubj	41:nsubj|44:nsubj	Entity=(4-person-giv:act-sssss-cf2*-1-ana-James_P._Cannon)
-40	never	never	ADV	RB	_	41	advmod	41:advmod	Negation=Yes
+40	never	never	ADV	RB	PronType=Neg	41	advmod	41:advmod	Negation=Yes
 41	held	hold	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	32	acl:relcl	32:acl:relcl	_
 42	and	and	CCONJ	CC	_	44	cc	44:cc	Discourse=joint-list_m:96->95:0:dm-and-743-gold|PDTB=Explicit:Expansion.Conjunction:and:743:739-742:744-747
-43	never	never	ADV	RB	_	44	advmod	44:advmod	Negation=Yes
+43	never	never	ADV	RB	PronType=Neg	44	advmod	44:advmod	Negation=Yes
 44	expressed	express	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	41	conj	32:acl:relcl|41:conj:and	MSeg=express-ed
-45	anywhere	anywhere	ADV	RB	_	44	advmod	44:advmod	Entity=95)|MSeg=any-where|SpaceAfter=No
+45	anywhere	anywhere	ADV	RB	PronType=Tot	44	advmod	44:advmod	Entity=95)|MSeg=any-where|SpaceAfter=No
 46	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # newpar
@@ -1132,7 +1134,7 @@
 14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	16:nsubj	Discourse=elaboration-attribute:102->101:0:syn-mdf-786-_+syn-relcl-789-_|Entity=(7-person-giv:act-sssss-cf1*-1-ana-Francis_Russell_%28author%29)
 15	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	16:aux	_
 16	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	13	acl:relcl	13:acl:relcl	MSeg=hear-d
-17	somewhere	somewhere	ADV	RB	_	16	advmod	16:advmod	_
+17	somewhere	somewhere	ADV	RB	PronType=Tot	16	advmod	16:advmod	_
 18	or	or	CCONJ	CC	_	19	cc	19:cc	_
 19	other	other	ADJ	JJ	Degree=Pos	17	conj	16:advmod|17:conj:or	_
 20	about	about	ADP	IN	_	22	case	22:case	Discourse=same-unit_m:103->99:1:_

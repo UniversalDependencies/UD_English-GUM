@@ -5,6 +5,8 @@
 # meta::dateCreated = 2000-01-01
 # meta::dateModified = 2000-01-01
 # meta::genre = conversation
+# meta::modality = spoken
+# meta::production = informal/spontaneous/private
 # meta::salientEntities = 4 (5*), 9 (5*), 18 (5*), 6 (4*), 66 (3*), 67 (3), 30 (2), 33 (2), 37 (2), 52 (2*), 54 (2*), 69 (2*), 72 (2), 94 (2), 7 (1), 8 (1), 10 (1), 23 (1*), 24 (1*), 36 (1), 57 (1)
 # meta::sourceURL = https://media.talkbank.org/ca/SBCSAE/31.mp3
 # meta::speakerCount = 4
@@ -435,11 +437,11 @@
 # addressee = Beth
 # text = What's Bill doing now?
 1-2	What's	_	_	_	_	_	_	_	_
-1	What	what	PRON	WP	PronType=Int	4	obj	4:obj	Discourse=topic-question:35->41:2:syn-sbinv-165-_+grf-qst-169-_
+1	What	what	PRON	WP	Case=Acc|PronType=Int	4	obj	4:obj	Discourse=topic-question:35->41:2:syn-sbinv-165-_+grf-qst-169-_
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	Bill	Bill	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Entity=(18-person-new-sssss-cf1-1-coref)
 4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=4:Interrogative-Polar-Direct.Clause|MSeg=do-ing
-5	now	now	ADV	RB	_	4	advmod	4:advmod	SpaceAfter=No
+5	now	now	ADV	RB	PronType=Dem	4	advmod	4:advmod	SpaceAfter=No
 6	?	?	PUNCT	.	_	4	punct	4:punct	_
 
 # newpar
@@ -463,7 +465,7 @@
 # speaker = Rosemary
 # addressee = Beth
 # text = What are we in the process of?
-1	What	what	PRON	WP	PronType=Int	6	nmod	6:nmod:of	CxnElt=6:Interrogative-WHInfo-Direct.WHWord|Discourse=restatement-repetition_m:37->35:0:ref-prs-166,174-_
+1	What	what	PRON	WP	Case=Acc|PronType=Int	6	nmod	6:nmod:of	CxnElt=6:Interrogative-WHInfo-Direct.WHWord|Discourse=restatement-repetition_m:37->35:0:ref-prs-166,174-_
 2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(18-person-giv:inact-sssss-cf1-1-ana)
 4	in	in	ADP	IN	_	6	case	6:case	_
@@ -669,7 +671,7 @@
 2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes
 4	know	know	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	what	what	PRON	WP	PronType=Rel	4	obj	4:obj	Discourse=joint-sequence_m:53->41:1:lex-indwd-192-_+lex-indwd-259-_
+5	what	what	PRON	WP	Case=Acc|PronType=Rel	4	obj	4:obj	Discourse=joint-sequence_m:53->41:1:lex-indwd-192-_+lex-indwd-259-_
 6-7	he's	_	_	_	_	_	_	_	_
 6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj	Entity=(18-person-giv:inact-sssss-cf2-1-ana)
 7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
@@ -726,7 +728,7 @@
 # speaker = Rosemary
 # addressee = Beth
 # text = What does he do when he doesn't take his lunch, come home?
-1	What	what	PRON	WP	PronType=Int	4	obj	4:obj	CxnElt=4:Interrogative-WHInfo-Direct.WHWord|Discourse=topic-question:58->60:0:lex-indwd-290-_+syn-sbinv-291-_|PDTB=Hypophora:Hypophora:_:_:302-304:290-301
+1	What	what	PRON	WP	Case=Acc|PronType=Int	4	obj	4:obj	CxnElt=4:Interrogative-WHInfo-Direct.WHWord|Discourse=topic-question:58->60:0:lex-indwd-290-_+syn-sbinv-291-_|PDTB=Hypophora:Hypophora:_:_:302-304:290-301
 2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	MSeg=doe-s
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(18-person-giv:act-sssss-cf1*-1-ana)
 4	do	do	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=4:Interrogative-WHInfo-Direct.Clause
@@ -809,7 +811,7 @@
 # speaker = Rosemary
 # addressee = Beth
 # text = Now explain all of this.
-1	Now	now	ADV	RB	_	2	advmod	2:advmod	Discourse=organization-preparation:65->67:1:sem-synym-324-326,333-342-_
+1	Now	now	ADV	RB	PronType=Dem	2	advmod	2:advmod	Discourse=organization-preparation:65->67:1:sem-synym-324-326,333-342-_
 2	explain	explain	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
 3	all	all	DET	DT	PronType=Tot	2	obj	2:obj	Entity=(35-abstract-acc:com-nnnnn-cf1-1-ana
 4	of	of	ADP	IN	_	5	case	5:case	_
@@ -828,7 +830,7 @@
 2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes
 4	understand	understand	VERB	VB	VerbForm=Inf	0	root	0:root	MSeg=under-stand
-5	what	what	PRON	WP	PronType=Int	10	obj	10:obj	CxnElt=10:Interrogative-WHInfo-Indirect.WHWord|Discourse=topic-question:67->68:2:_
+5	what	what	PRON	WP	Case=Acc|PronType=Int	10	obj	10:obj	CxnElt=10:Interrogative-WHInfo-Indirect.WHWord|Discourse=topic-question:67->68:2:_
 6	not	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	Entity=(35-abstract-giv:act-nnnnn-cf1*-7-coref|Negation=Yes
 7	taking	take	VERB	VBG	VerbForm=Ger	10	csubj	10:csubj	MSeg=tak-ing
 8	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(30-object-giv:inact-nnsns-cf4-2-coref(18-person-giv:inact-sssss-cf3-1-ana)
@@ -1134,7 +1136,7 @@
 5-6	that's	_	_	_	_	_	_	_	_
 5	that	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	7:nsubj	Discourse=evaluation-comment:92->90:0:_|Entity=(40-event-giv:act-nnnnn-cf1*-1-coref)
 6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
-7	what	what	PRON	WP	PronType=Rel	3	parataxis	3:parataxis	_
+7	what	what	PRON	WP	Case=Acc|PronType=Rel	3	parataxis	3:parataxis	_
 8	starving	starve	VERB	VBG	VerbForm=Ger	9	csubj	9:csubj	Entity=(40-event-giv:act-nnnnn-cf1*-1-coref)|MSeg=starv-ing
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	7:acl:relcl	SpaceAfter=No
 10	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -1200,7 +1202,7 @@
 2-3	that's	_	_	_	_	_	_	_	_
 2	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Entity=(42-event-giv:inact-nnnnn-cf2-1-coref)
 3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
-4	what	what	PRON	WP	PronType=Rel	0	root	0:root	_
+4	what	what	PRON	WP	Case=Acc|PronType=Rel	0	root	0:root	_
 5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(33-person-giv:inact-nnnss-cf1-1-ana)
 6	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	4:acl:relcl	MSeg=doe-s
 7	with	with	ADP	IN	_	9	case	9:case	_
@@ -1253,7 +1255,7 @@
 4-5	they're	_	_	_	_	_	_	_	_
 4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	7:nsubj	Entity=(28-person-acc:aggr-nnnnn-cf1-1-ana)|SplitAnte=33<28,18<28
 5	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
-6	always	always	ADV	RB	_	7	advmod	7:advmod	MSeg=al-way-s
+6	always	always	ADV	RB	PronType=Tot	7	advmod	7:advmod	MSeg=al-way-s
 7	close	close	ADV	RB	Degree=Pos	0	root	0:root	_
 8	enough	enough	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
 9	to	to	PART	TO	_	7	advcl	7:advcl	_
@@ -1774,7 +1776,7 @@
 # addressee = Sherry
 # text = So what about you, Sherry, are you gonna put lemon in your hot tea?
 1	So	so	INTJ	UH	_	2	discourse	2:discourse	Discourse=organization-preparation:143->145:1:ref-prs-722,737-_
-2	what	what	PRON	WP	PronType=Int	0	root	0:root	Cxn=Interrogative-Polar-Direct,WhatAbout|CxnElt=2:Interrogative-Polar-Direct.Clause,2:WhatAbout.W
+2	what	what	PRON	WP	Case=Acc|PronType=Int	0	root	0:root	Cxn=Interrogative-Polar-Direct,WhatAbout|CxnElt=2:Interrogative-Polar-Direct.Clause,2:WhatAbout.W
 3	about	about	ADP	IN	_	4	case	4:case	CxnElt=2:WhatAbout.About
 4	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	obl	2:obl:about	CxnElt=2:WhatAbout.N|Entity=(9-person-giv:act-sssss-cf1*-1-ana)|SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
@@ -1824,7 +1826,7 @@
 # addressee = Sherry
 # text = You ever do?
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=topic-question:146->147:2:grf-qst-750-_|Entity=(9-person-giv:act-sssss-cf1*-1-ana)
-2	ever	ever	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
+2	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	3	advmod	3:advmod	_
 3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Interrogative-Polar-DeclarativeDirect|CxnElt=3:Interrogative-Polar-DeclarativeDirect.Clause|SpaceAfter=No
 4	?	?	PUNCT	.	_	3	punct	3:punct	_
 
@@ -1906,7 +1908,7 @@
 # speaker = Rosemary
 # addressee = Beth,Sherry
 # text = Now you won't be able to touch Jonathan.
-1	Now	now	ADV	RB	_	6	advmod	6:advmod	Discourse=joint-other_m:153->6:5:_
+1	Now	now	ADV	RB	PronType=Dem	6	advmod	6:advmod	Discourse=joint-other_m:153->6:5:_
 2	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	6	nsubj	6:nsubj|8:nsubj:xsubj	Entity=(4-person-giv:inact-sssss-cf1-1-ana)
 3-4	won't	_	_	_	_	_	_	_	_
 3	wo	will	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
@@ -2024,16 +2026,16 @@
 # addressee = Beth,Rosemary
 # text = Don't tell him, or don't tell Carolyn.
 1-2	Don't	_	_	_	_	_	_	_	_
-1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=adversative-antithesis:160->153:2:_
+1	Do	do	AUX	VB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	3	aux	3:aux	Discourse=adversative-antithesis:160->153:2:_
 2	n't	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	Negation=Yes
-3	tell	tell	VERB	VB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	0:root	_
+3	tell	tell	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	3:iobj	Entity=(64-person-giv:inact-nnnnn-cf1-1-ana)|SpaceAfter=No
 5	,	,	PUNCT	,	_	9	punct	9:punct	_
 6	or	or	CCONJ	CC	_	9	cc	9:cc	Discourse=joint-disjunction_m:161->160:0:dm-or-831-gold|PDTB=Explicit:Expansion.Disjunction:or:831:826-830:832-836
 7-8	don't	_	_	_	_	_	_	_	_
-7	do	do	AUX	VB	VerbForm=Inf	9	aux	9:aux	_
+7	do	do	AUX	VB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	9	aux	9:aux	_
 8	n't	not	PART	RB	Polarity=Neg	9	advmod	9:advmod	Negation=Yes
-9	tell	tell	VERB	VB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	3	conj	3:conj:or	_
+9	tell	tell	VERB	VB	VerbForm=Inf	3	conj	3:conj:or	_
 10	Carolyn	Carolyn	PROPN	NNP	Number=Sing	9	iobj	9:iobj	Entity=(66-person-new-ssnsn-cf2-1-coref)|SpaceAfter=No
 11	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -2082,9 +2084,9 @@
 # text = Just don't tell him,
 1	Just	just	ADV	RB	_	4	advmod	4:advmod	Discourse=restatement-partial:165->160:2:ref-prs-829,847-_+sem-lxchn-834,846-_+dm-and-841-gold
 2-3	don't	_	_	_	_	_	_	_	_
-2	do	do	AUX	VB	VerbForm=Inf	4	aux	4:aux	_
+2	do	do	AUX	VB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	4	aux	4:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes
-4	tell	tell	VERB	VB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	0:root	_
+4	tell	tell	VERB	VB	VerbForm=Inf	0	root	0:root	_
 5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	4:iobj	Entity=(64-person-giv:inact-nnnnn-cf1-1-ana)|SpaceAfter=No
 6	,	,	PUNCT	,	_	4	punct	4:punct	_
 
@@ -2202,7 +2204,7 @@
 # addressee = Beth,Rosemary
 # text = And what?
 1	And	and	CCONJ	CC	_	2	cc	2:cc	Discourse=topic-question:175->181:6:lex-indwd-893-_+grf-qst-894-_|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:and:892:856-873:893-924
-2	what	what	PRON	WP	PronType=Int	0	root	0:root	SpaceAfter=No
+2	what	what	PRON	WP	Case=Acc|PronType=Int	0	root	0:root	SpaceAfter=No
 3	?	?	PUNCT	.	_	2	punct	2:punct	_
 
 # newpar
@@ -2294,7 +2296,7 @@
 # addressee = Beth,Rosemary
 # text = She always says that.
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=attribution-positive:182->181:1:sem-atsrc-925-_+lex-indwd-927-_|Entity=(66-person-giv:inact-ssnsn-cf2-1-ana)
-2	always	always	ADV	RB	_	3	advmod	3:advmod	MSeg=al-way-s
+2	always	always	ADV	RB	PronType=Tot	3	advmod	3:advmod	MSeg=al-way-s
 3	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=say-s
 4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	obj	3:obj	Entity=(73-abstract-giv:act-nnnnn-cf1*-1-ana)|SpaceAfter=No
 5	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -2363,7 +2365,7 @@
 # addressee = Rosemary,Sherry
 # text = Well what was it?
 1	Well	well	INTJ	UH	_	2	discourse	2:discourse	Discourse=topic-question:187->188:0:grf-qst-959-_
-2	what	what	PRON	WP	PronType=Int	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=2:Interrogative-Polar-Direct.Clause
+2	what	what	PRON	WP	Case=Acc|PronType=Int	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=2:Interrogative-Polar-Direct.Clause
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	2:cop	_
 4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Entity=(79-abstract-acc:com-nnnnn-cf1-1-ana)|SpaceAfter=No
 5	?	?	PUNCT	.	_	2	punct	2:punct	_
@@ -2377,7 +2379,7 @@
 # speaker = Sherry
 # addressee = Beth,Rosemary
 # text = Now it's gotten back to eight, hunh?
-1	Now	now	ADV	RB	_	4	advmod	4:advmod	Discourse=elaboration-additional:188->181:7:_|PDTB=Hypophora:Hypophora:_:_:952-959:960-969
+1	Now	now	ADV	RB	PronType=Dem	4	advmod	4:advmod	Discourse=elaboration-additional:188->181:7:_|PDTB=Hypophora:Hypophora:_:_:952-959:960-969
 2-3	it's	_	_	_	_	_	_	_	_
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(79-abstract-giv:act-nnnnn-cf1*-1-ana)
 3	's	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
@@ -2466,9 +2468,9 @@
 # speaker = Beth
 # addressee = Rosemary,Sherry
 # text = Who – who was it that's –
-1	Who	who	PRON	WP	PronType=Int	3	reparandum	3:reparandum	CxnElt=3:Interrogative-WHInfo-Direct.WHWord|Discourse=elaboration-additional:194->193:3:_
+1	Who	who	PRON	WP	Case=Acc|PronType=Int	3	reparandum	3:reparandum	CxnElt=3:Interrogative-WHInfo-Direct.WHWord|Discourse=elaboration-additional:194->193:3:_
 2	–	-	PUNCT	:	_	1	punct	1:punct	_
-3	who	who	PRON	WP	PronType=Rel	0	root	0:root|7:nsubj	Cxn=Interrogative-WHInfo-Direct|CxnElt=3:Interrogative-WHInfo-Direct.Clause
+3	who	who	PRON	WP	Case=Nom|PronType=Rel	0	root	0:root|7:nsubj	Cxn=Interrogative-WHInfo-Direct|CxnElt=3:Interrogative-WHInfo-Direct.Clause
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	3:cop	_
 5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(82-person-new-nnnnn-cf1-1-ana-Benjamin_Spock)
 6-7	that's	_	_	_	_	_	_	_	_
@@ -2600,7 +2602,7 @@
 # speaker = Sherry
 # addressee = Beth,Rosemary
 # text = What did he say?
-1	What	what	PRON	WP	PronType=Int	4	obj	4:obj	CxnElt=4:Interrogative-WHInfo-Direct.WHWord|Discourse=topic-question:206->208:1:lex-indwd-1047-_+syn-sbinv-1048-_+grf-qst-1051-_
+1	What	what	PRON	WP	Case=Acc|PronType=Int	4	obj	4:obj	CxnElt=4:Interrogative-WHInfo-Direct.WHWord|Discourse=topic-question:206->208:1:lex-indwd-1047-_+syn-sbinv-1048-_+grf-qst-1051-_
 2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	4:aux	_
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(82-person-giv:inact-nnnnn-cf1-1-ana-Benjamin_Spock)
 4	say	say	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=4:Interrogative-WHInfo-Direct.Clause|SpaceAfter=No
@@ -2705,7 +2707,7 @@
 # text = Well, what was her story about Barb?
 1	Well	well	INTJ	UH	_	3	discourse	3:discourse	Discourse=topic-question:213->216:3:lex-indwd-1081-_+grf-qst-1087-_|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	what	what	PRON	WP	PronType=Int	0	root	0:root	_
+3	what	what	PRON	WP	Case=Acc|PronType=Int	0	root	0:root	_
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	3:cop	_
 5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(90-abstract-new-nnnnn-cf3-2-coref(66-person-giv:inact-ssnsn-cf1-1-ana)
 6	story	story	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	_
@@ -2763,7 +2765,7 @@
 7	or	or	CCONJ	CC	_	8	cc	8:cc	_
 8	unaffected	unaffected	ADJ	JJ	Degree=Pos	4	conj	4:conj:or	MSeg=un-affect-ed|Negation=Yes
 9	or	or	CCONJ	CC	_	10	cc	10:cc	_
-10	whatever	whatever	PRON	WP	PronType=Rel	4	conj	4:conj:or	MSeg=what-ever|SpaceAfter=No
+10	whatever	whatever	PRON	WP	Case=Acc|PronType=Rel	4	conj	4:conj:or	MSeg=what-ever|SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # newpar
@@ -2952,7 +2954,7 @@
 2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	4:aux	_
 3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes
 4	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=4:Interrogative-WHInfo-Direct.Clause
-5	what	what	PRON	WP	PronType=Int	4	obj	4:obj	CxnElt=4:Interrogative-WHInfo-Direct.WHWord|SpaceAfter=No
+5	what	what	PRON	WP	Case=Acc|PronType=Int	4	obj	4:obj	CxnElt=4:Interrogative-WHInfo-Direct.WHWord|SpaceAfter=No
 6	?	?	PUNCT	.	_	4	punct	4:punct	_
 
 # newpar
@@ -3106,7 +3108,7 @@
 12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj	Discourse=joint-sequence_m:244->239:2:dm-then-1249-gold+lex-indwd-1262-_;adversative-contrast:244->239:1:1:orp-but-1254-gold;causal-result:244->239:2:1:orp-so-1248-gold|Entity=(69-person-giv:act-ssnnn-cf1-1-ana)
 13	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_
 14	healthy	healthy	ADJ	JJ	Degree=Pos	8	parataxis	8:parataxis	MSeg=heal-th-y
-15	now	now	ADV	RB	_	14	advmod	14:advmod	SpaceAfter=No|XML=</quote>
+15	now	now	ADV	RB	PronType=Dem	14	advmod	14:advmod	SpaceAfter=No|XML=</quote>
 16	"	"	PUNCT	''	_	8	punct	8:punct	SpaceAfter=No
 17	,	,	PUNCT	,	_	20	punct	20:punct	_
 18	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=adversative-contrast_m:245->244:2:dm-and-1265-gold|PDTB=Explicit:Comparison.Contrast:and:1265:1248-1264:1266-1283

@@ -5,6 +5,8 @@
 # meta::dateCreated = 2008-08-05
 # meta::dateModified = 2008-08-05
 # meta::genre = fiction
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 2 (5*), 6 (5*), 8 (4*), 16 (4*), 88 (4*), 102 (4*), 11 (3*), 164 (3*), 3 (2), 15 (2*), 17 (2), 163 (2), 5 (1), 145 (1)
 # meta::sourceURL = http://smallbeerpress.com/wp-content/uploads/Rosenbaum_Ant_King.pdf
 # meta::speakerCount = 4
@@ -106,7 +108,7 @@
 # transition = continue
 # text = You never get tired of watching them.
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj|4:nsubj:xsubj	Discourse=evaluation-comment:12->6:1:lex-indwd-66-_|Entity=(2-person-giv:act-sssss-cf1*-1-ana)|PDTB=Implicit:Expansion.Conjunction:in fact:_:17-62:63-70
-2	never	never	ADV	RB	_	3	advmod	3:advmod	Negation=Yes
+2	never	never	ADV	RB	PronType=Neg	3	advmod	3:advmod	Negation=Yes
 3	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	tired	tired	ADJ	JJ	Degree=Pos	3	xcomp	3:xcomp	MSeg=tir-ed
 5	of	of	SCONJ	IN	_	6	mark	6:mark	_
@@ -205,14 +207,14 @@
 10	-	-	PUNCT	HYPH	_	9	punct	9:punct	SpaceAfter=No
 11	brimmed	brimmed	ADJ	JJ	Degree=Pos	12	amod	12:amod	MSeg=brimm-ed|XML=</w>
 12	hat	hat	NOUN	NN	Number=Sing	6	conj	3:obj|6:conj:and	Entity=30)28)|SpaceAfter=No
-13	,	,	PUNCT	,	_	16	punct	16:punct	_
-14	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=evaluation-comment:19->18:0:_|PDTB=Explicit:Contingency.Cause.Result:and:141:128-140:142-151
+13	,	,	PUNCT	,	_	19	punct	19:punct	_
+14	and	and	CCONJ	CC	_	19	cc	19:cc	Discourse=evaluation-comment:19->18:0:_|PDTB=Explicit:Contingency.Cause.Result:and:141:128-140:142-151
 15-16	it’s	_	_	_	_	_	_	_	_
-15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	16:nsubj	Entity=(28-event-giv:act-nnnnn-cf2-1-coref)
-16	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	3:conj:and	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	19:nsubj	Entity=(28-event-giv:act-nnnnn-cf2-1-coref)
+16	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	19:cop	_
 17	like	like	ADP	IN	_	19	case	19:case	_
 18	an	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(31-abstract-new-nnnnn-cf9-2-sgl
-19	essay	essay	NOUN	NN	Number=Sing	16	obl	16:obl:like	_
+19	essay	essay	NOUN	NN	Number=Sing	3	conj	3:conj:and	_
 20	on	on	ADP	IN	_	23	case	23:case	_
 21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(32-time-new-nnnnn-cf6-3-coref|XML=<date from:::"1900-01-01" to:::"1999-12-31">
 22	last	last	ADJ	JJ	Degree=Pos	23	amod	23:amod	_
@@ -221,7 +223,7 @@
 25	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Discourse=explanation-justify:20->19:0:_|Entity=(16-object-giv:act-sssns-cf3*-4-coref
 26	austere	austere	ADJ	JJ	Degree=Pos	28	amod	28:amod	_
 27	steel	steel	NOUN	NN	Number=Sing	28	compound	28:compound	Entity=(33-substance-new-nnnnn-cf12-1-sgl)
-28	bridge	bridge	NOUN	NN	Number=Sing	16	parataxis	16:parataxis	Entity=16)|SpaceAfter=No
+28	bridge	bridge	NOUN	NN	Number=Sing	19	parataxis	19:parataxis	Entity=16)|SpaceAfter=No
 29	,	,	PUNCT	,	_	32	punct	32:punct	_
 30	the	the	DET	DT	Definite=Def|PronType=Art	32	det	32:det	Bridge=16<34:entity-associative|Entity=(34-object-acc:inf-nnnnn-cf5-3-sgl
 31	bright	bright	ADJ	JJ	Degree=Pos	32	amod	32:amod	_
@@ -310,7 +312,7 @@
 3	beyond	beyond	ADP	IN	_	5	case	5:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(37-object-giv:inact-nnnnn-cf2-2-coref
 5	rail	rail	NOUN	NN	Number=Sing	0	root	0:root	Entity=37)
-6	now	now	ADV	RB	_	5	advmod	5:advmod	SpaceAfter=No
+6	now	now	ADV	RB	PronType=Dem	5	advmod	5:advmod	SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	8:punct	_
 8	hanging	hang	VERB	VBG	Tense=Pres|VerbForm=Part	5	advcl	5:advcl	Discourse=elaboration-additional:27->26:0:syn-pres-223-_|MSeg=hang-ing|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:216-222:223-231
 9	out	out	ADP	RP	_	8	compound:prt	8:compound:prt	_
@@ -397,7 +399,7 @@
 # addressee = Protagonist
 # text = “Each object’s suspension must weather a class 5 hurricane and the destruction of 80% of the towers” —
 1	“	"	PUNCT	``	_	7	punct	7:punct	Discourse=joint-sequence_m:35->3:3:_|SpaceAfter=No
-2	Each	each	DET	DT	PronType=Ind	3	det	3:det	Entity=(56-abstract-new-nnnnn-cf2-4-sgl(57-object-new-nnnnn-cf5-2-sgl
+2	Each	each	DET	DT	PronType=Tot	3	det	3:det	Entity=(56-abstract-new-nnnnn-cf2-4-sgl(57-object-new-nnnnn-cf5-2-sgl
 3-4	object’s	_	_	_	_	_	_	_	_
 3	object	object	NOUN	NN	Number=Sing	5	nmod:poss	5:nmod:poss	_
 4	’s	's	PART	POS	_	3	case	3:case	Entity=57)
@@ -932,7 +934,7 @@
 15	upside	upside	NOUN	NN	Number=Sing	17	compound	17:compound	MSeg=up-side|SpaceAfter=No|XML=<w>
 16	-	-	PUNCT	HYPH	_	15	punct	15:punct	SpaceAfter=No
 17	down	down	ADV	RB	Degree=Pos	14	advmod	14:advmod	XML=</w>
-18	now	now	ADV	RB	_	14	advmod	14:advmod	_
+18	now	now	ADV	RB	PronType=Dem	14	advmod	14:advmod	_
 19	as	as	ADP	IN	_	22	case	22:case	_
 20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(113-place-new-nnnnn-cf4-3-sgl
 21	hipster	hipster	NOUN	NN	Number=Sing	22	compound	22:compound	Entity=(114-person-new-nnnnn-cf5-1-sgl)|MSeg=hip-ster
@@ -946,7 +948,7 @@
 # s_type = decl
 # transition = zero
 # text = Now the mites are finally closing in.
-1	Now	now	ADV	RB	_	6	advmod	6:advmod	Discourse=joint-sequence_m:76->73:1:lex-indwd-641-_
+1	Now	now	ADV	RB	PronType=Dem	6	advmod	6:advmod	Discourse=joint-sequence_m:76->73:1:lex-indwd-641-_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(11-animal-giv:inact-ssnsn-cf1-2-coref
 3	mites	mite	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=11)|MSeg=mite-s
 4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_

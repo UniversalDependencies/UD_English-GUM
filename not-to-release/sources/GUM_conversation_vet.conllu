@@ -5,6 +5,8 @@
 # meta::dateCreated = 2000-01-01
 # meta::dateModified = 2000-01-01
 # meta::genre = conversation
+# meta::modality = spoken
+# meta::production = informal/spontaneous/private
 # meta::salientEntities = 5 (5*), 68 (5*), 61 (4*), 78 (4*), 10 (3*), 63 (3), 81 (3), 6 (2*), 58 (2), 7 (1), 17 (1*), 21 (1), 25 (1), 32 (1), 79 (1), 84 (1*), 104 (1), 105 (1), 106 (1)
 # meta::sourceURL = https://www.linguistics.ucsb.edu/research/santa-barbara-corpus#SBC018
 # meta::speakerCount = 5
@@ -205,7 +207,7 @@
 # speaker = Marcia
 # addressee = Kirsten,Lindsey
 # text = Never mind.
-1	Never	never	ADV	RB	_	2	advmod	2:advmod	Discourse=evaluation-comment:14->7:4:_|Negation=Yes
+1	Never	never	ADV	RB	PronType=Neg	2	advmod	2:advmod	Discourse=evaluation-comment:14->7:4:_|Negation=Yes
 2	mind	mind	VERB	VB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -216,7 +218,7 @@
 # speaker = Marcia
 # addressee = Kirsten,Lindsey
 # text = Never mind.
-1	Never	never	ADV	RB	_	2	advmod	2:advmod	Discourse=restatement-repetition_m:15->14:0:sem-lxchn-94,97-_+sem-lxchn-95,98-_|Negation=Yes|PDTB=Implicit:Expansion.Equivalence:in other words:_:94-96:97-99
+1	Never	never	ADV	RB	PronType=Neg	2	advmod	2:advmod	Discourse=restatement-repetition_m:15->14:0:sem-lxchn-94,97-_+sem-lxchn-95,98-_|Negation=Yes|PDTB=Implicit:Expansion.Equivalence:in other words:_:94-96:97-99
 2	mind	mind	VERB	VB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -347,7 +349,7 @@
 # speaker = Kristen
 # addressee = Marcia
 # text = What is this?
-1	What	what	PRON	WP	PronType=Int	3	nsubj	3:nsubj	CxnElt=3:Interrogative-WHInfo-Direct.WHWord|Discourse=topic-question:26->27:0:lex-indwd-144-_+grf-qst-147-_
+1	What	what	PRON	WP	Case=Nom|PronType=Int	3	nsubj	3:nsubj	CxnElt=3:Interrogative-WHInfo-Direct.WHWord|Discourse=topic-question:26->27:0:lex-indwd-144-_+grf-qst-147-_
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	this	this	PRON	DT	Number=Sing|PronType=Dem	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=3:Interrogative-WHInfo-Direct.Clause|Entity=(14-abstract-acc:com-nnnnn-cf1-1-ana)|SpaceAfter=No
 4	?	?	PUNCT	.	_	3	punct	3:punct	_
@@ -543,7 +545,7 @@
 9	eighteen	eighteen	NUM	CD	NumForm=Word|NumType=Card	7	conj	3:obj|7:conj:plus	Entity=28)|MSeg=eigh-teen|SpaceAfter=No
 10	,	,	PUNCT	,	_	15	punct	15:punct	_
 11	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=explanation-justify:41->37:2:dm-and-228-gold|PDTB=Explicit:Contingency.Cause.Result:and:228:195-217:218-227,229-241
-12	what	what	PRON	WP	PronType=Int	15	obj	15:obj	_
+12	what	what	PRON	WP	Case=Acc|PronType=Int	15	obj	15:obj	_
 13	can	can	AUX	MD	VerbForm=Fin	15	aux	15:aux	_
 14	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	15	nsubj	15:nsubj	Entity=(29-person-acc:com-nnnnn-cf3-1-ana)
 15	do	do	VERB	VB	VerbForm=Inf	3	conj	3:conj:and	SpaceAfter=No
@@ -852,7 +854,7 @@
 7	to	to	PART	TO	_	8	mark	8:mark	_
 8	figure	figure	VERB	VB	VerbForm=Inf	6	xcomp	6:xcomp	_
 9	out	out	ADP	RP	_	8	compound:prt	8:compound:prt	_
-10	what	what	PRON	WP	PronType=Rel	8	obj	8:obj	_
+10	what	what	PRON	WP	Case=Acc|PronType=Rel	8	obj	8:obj	_
 11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	12:nsubj	Entity=(17-organization-giv:inact-snnnn-cf2-1-ana)
 12	spent	spend	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	10	acl:relcl	10:acl:relcl	_
 13	already	already	ADV	RB	_	12	advmod	12:advmod	MSeg=al-ready|SpaceAfter=No
@@ -1533,9 +1535,9 @@
 17	let	let	VERB	VB	VerbForm=Inf	15	xcomp	15:xcomp	_
 18	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	17	obj	17:obj|19:nsubj:xsubj	Entity=(78-person-giv:inact-sssns-cf3-1-ana)
 19	know	know	VERB	VB	VerbForm=Inf	17	xcomp	17:xcomp	_
-20	what	what	PRON	WP	PronType=Int	24	reparandum	24:reparandum	CxnElt=24:Interrogative-WHInfo-Indirect.WHWord|SpaceAfter=No
+20	what	what	PRON	WP	Case=Acc|PronType=Int	24	reparandum	24:reparandum	CxnElt=24:Interrogative-WHInfo-Indirect.WHWord|SpaceAfter=No
 21	,	,	PUNCT	,	_	20	punct	20:punct	_
-22	what	what	PRON	WP	PronType=Int	24	nsubj	24:nsubj	CxnElt=24:Interrogative-WHInfo-Indirect.WHWord
+22	what	what	PRON	WP	Case=Nom|PronType=Int	24	nsubj	24:nsubj	CxnElt=24:Interrogative-WHInfo-Indirect.WHWord
 23	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux	24:aux	_
 24	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	19	ccomp	19:ccomp	Cxn=Interrogative-WHInfo-Indirect|CxnElt=24:Interrogative-WHInfo-Indirect.Clause|MSeg=go-ing
 25	on	on	ADP	RP	_	24	compound:prt	24:compound:prt	SpaceAfter=No
@@ -1880,7 +1882,7 @@
 9	to	to	ADP	IN	_	10	case	10:case	_
 10	forty	forty	NUM	CD	NumForm=Word|NumType=Card	8	nmod	8:nmod:to	Entity=98)|MSeg=for-ty|SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	12:punct	_
-12	somewhere	somewhere	ADV	RB	_	8	advmod	8:advmod	_
+12	somewhere	somewhere	ADV	RB	PronType=Tot	8	advmod	8:advmod	_
 13	in	in	ADP	IN	_	14	case	14:case	_
 14	there	there	ADV	RB	PronType=Dem	12	obl	12:obl:in	Entity=(99-abstract-new-nnnnn-cf3-1-sgl)|SpaceAfter=No
 15	.	.	PUNCT	.	_	8	punct	8:punct	_

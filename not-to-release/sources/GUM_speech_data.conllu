@@ -5,6 +5,8 @@
 # meta::dateCreated = 2019-01-17
 # meta::dateModified = 2019-01-17
 # meta::genre = speech
+# meta::modality = spoken
+# meta::production = formal/prepared/public
 # meta::salientEntities = 46 (5*), 2 (4*), 13 (4), 71 (3), 79 (3*), 1 (2*), 4 (2*), 17 (2), 21 (2), 22 (2), 33 (2), 50 (2), 136 (2), 6 (1), 8 (1), 15 (1), 18 (1), 26 (1), 34 (1), 45 (1), 56 (1), 57 (1), 78 (1*), 80 (1*), 82 (1), 84 (1), 111 (1), 123 (1)
 # meta::sourceURL = https://sayit.pdis.nat.gov.tw/2018-11-06-speech-at-asia-pacific-foundation-of-ca
 # meta::speakerCount = 1
@@ -86,7 +88,7 @@
 12	into	into	ADP	IN	_	13	case	13:case	MSeg=in-to
 13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obl	11:obl:into	Entity=(8-abstract-giv:act-nnsnn-cf2*-1-ana)|SpaceAfter=No
 14	,	,	PUNCT	,	_	15	punct	15:punct	_
-15	considering	consider	VERB	VBG	Tense=Pres|VerbForm=Part	11	advcl	11:advcl	Discourse=elaboration-additional:7->6:0:lex-indwd-51-_+syn-pres-51-_|MSeg=consider-ing|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:46-50:51-54
+15	considering	consider	VERB	VBG	Tense=Pres|VerbForm=Part	11	advcl	11:advcl	Discourse=elaboration-additional:7->6:0:syn-pres-51-_+lex-indwd-51-_|MSeg=consider-ing|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:46-50:51-54
 16	environmental	environmental	ADJ	JJ	Degree=Pos	17	amod	17:amod	Entity=(9-organization-giv:act-nnnnn-cf3-2-coref|MSeg=environ-ment-al
 17	agency	agency	NOUN	NN	Number=Sing	15	obj	15:obj	Entity=9)|MSeg=agen-cy|SpaceAfter=No
 18	.	.	PUNCT	.	_	11	punct	11:punct	_
@@ -99,7 +101,7 @@
 # text = This is what people care about, the air quality, PM2.5 in Taiwan.
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=ROOT:8:0|Entity=(13-abstract-new-nssss-cf2-1-cata)|PDTB=NoRel:NoRel:_:_:37-54:55-70
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
-3	what	what	PRON	WP	PronType=Rel	0	root	0:root	_
+3	what	what	PRON	WP	Case=Acc|PronType=Rel	0	root	0:root	_
 4	people	person	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=(14-person-new-nnnnn-cf3-1-coref)
 5	care	care	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	3:acl:relcl	_
 6	about	about	ADP	IN	_	5	obl	5:obl	SpaceAfter=No
@@ -612,7 +614,7 @@
 6	power	power	NOUN	NN	Number=Sing	7	compound	7:compound	Entity=(64-object-new-nnnnn-cf3-2-sgl
 7	plants	plant	NOUN	NNS	Number=Plur	4	conj	4:conj	Entity=64)|MSeg=plant-s|SpaceAfter=No
 8	,	,	PUNCT	,	_	10	punct	10:punct	_
-9	over	over	ADV	IN	_	10	advmod	10:advmod	_
+9	over	over	ADV	RB	_	10	advmod	10:advmod	_
 10	there	there	ADV	RB	PronType=Dem	4	advmod	4:advmod	SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -909,13 +911,13 @@
 2	any	any	DET	DT	PronType=Ind	3	det	3:det	_
 3	case	case	NOUN	NN	Number=Sing	12	obl	12:obl:in	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
-5	what	what	PRON	WP	PronType=Rel	12	nsubj	12:nsubj	_
+5	what	what	PRON	WP	Case=Nom|PronType=Rel	12	nsubj	12:nsubj	_
 6-7	we're	_	_	_	_	_	_	_	_
 6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	8:nsubj	Entity=(46-organization-giv:inact-sssss-cf1-1-ana)
 7	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
 8	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	5	acl:relcl	5:acl:relcl	MSeg=do-ing
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	10	reparandum	10:reparandum	CorrectForm=_|XML=<sic ana:::""></sic>
-10	now	now	ADV	RB	_	8	advmod	8:advmod	_
+10	now	now	ADV	RB	PronType=Dem	8	advmod	8:advmod	_
 11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	12:aux	_
 12	breaking	break	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	MSeg=break-ing
 13	across	across	ADP	IN	_	14	case	14:case	MSeg=a-cross
@@ -1167,7 +1169,7 @@
 29-30	they've	_	_	_	_	_	_	_	_
 29	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	32	nsubj	32:nsubj	Entity=(132-organization-giv:act-nnnnn-cf1-1-ana)
 30	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	aux	32:aux	_
-31	never	never	ADV	RB	_	32	advmod	32:advmod	Negation=Yes
+31	never	never	ADV	RB	PronType=Neg	32	advmod	32:advmod	Negation=Yes
 32	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	21	advcl	21:advcl:because	MSeg=see-n
 33	anything	anything	PRON	NN	Number=Sing|PronType=Ind	32	obj	32:obj	MSeg=any-thing
 34	like	like	ADP	IN	_	35	case	35:case	_
@@ -1246,7 +1248,7 @@
 25	innovation	innovation	NOUN	NN	Number=Sing	22	conj	19:nmod:as|22:conj:or	Entity=142)|MSeg=innovat-ion|SpaceAfter=No
 26	,	,	PUNCT	,	_	28	punct	28:punct	_
 27	or	or	CCONJ	CC	_	28	cc	28:cc	_
-28	whatever	whatever	PRON	WP	PronType=Rel	22	conj	19:nmod:as|22:conj:or	MSeg=what-ever|SpaceAfter=No
+28	whatever	whatever	PRON	WP	Case=Acc|PronType=Rel	22	conj	19:nmod:as|22:conj:or	MSeg=what-ever|SpaceAfter=No
 29	,	,	PUNCT	,	_	32	punct	32:punct	_
 30	into	into	ADP	IN	_	32	case	32:case	MSeg=in-to
 31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	32:det	Entity=(143-abstract-new-nnnnn-cf5-2-sgl
@@ -1407,7 +1409,7 @@
 28	in	in	ADP	IN	_	29	case	29:case	_
 29	mind	mind	NOUN	NN	Number=Sing	27	obl	27:obl:in	_
 30	and	and	CCONJ	CC	_	32	cc	32:cc	Discourse=joint-list_m:117->116:0:sem-lxchn-1006-1008,1011-gold+dm-and-1009-gold|PDTB=Explicit:Expansion.Conjunction:and:1009:1004-1008:1010-1011
-31	always	always	ADV	RB	_	32	advmod	32:advmod	MSeg=al-way-s
+31	always	always	ADV	RB	PronType=Tot	32	advmod	32:advmod	MSeg=al-way-s
 32	remember	remember	VERB	VB	VerbForm=Inf	27	conj	25:xcomp|27:conj:and	_
 33	that	that	SCONJ	IN	_	37	mark	37:mark	Discourse=joint-list_m:118->107:1:syn-prl-980-984,986-992,995-1002,1004-1016-gold+dm-and-994-gold
 34	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	35:det	Entity=(155-abstract-new-nnnnn-cf4-2-sgl

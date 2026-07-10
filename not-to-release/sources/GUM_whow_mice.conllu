@@ -5,6 +5,8 @@
 # meta::dateCreated = 2006-02-16
 # meta::dateModified = 2016-09-15
 # meta::genre = whow
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 3 (5*), 30 (5*), 54 (5*), 55 (5*), 67 (5*), 92 (5*), 132 (5*), 4 (4*), 18 (4), 75 (4), 110 (4), 116 (4), 118 (4), 126 (4), 133 (3*), 23 (2), 41 (2*), 42 (2*), 134 (2*), 2 (1), 11 (1), 25 (1*), 26 (1*), 44 (1*), 49 (1*), 68 (1*), 104 (1), 131 (1), 144 (1), 146 (1)
 # meta::sourceURL = https://www.wikihow.com/Get-Rid-of-Mice-Naturally
 # meta::speakerCount = 0
@@ -97,7 +99,7 @@
 17	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
 18	n't	not	PART	RB	Polarity=Neg	19	advmod	19:advmod	Negation=Yes
 19	know	know	VERB	VB	VerbForm=Inf	14	advcl	14:advcl:if	CxnElt=14:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
-20	what	what	PRON	WP	PronType=Rel	19	obj	19:obj	_
+20	what	what	PRON	WP	Case=Acc|PronType=Rel	19	obj	19:obj	_
 21	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	23	nsubj	23:nsubj	Entity=(4-person-giv:act-ssssn-cf1-1-ana)
 22	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	23	aux	23:aux	_
 23	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	20	acl:relcl	20:acl:relcl	MSeg=do-ing|SpaceAfter=No
@@ -571,10 +573,10 @@
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Discourse=joint-list_m:47->46:1:dm-also-378-gold|Entity=(4-person-giv:inact-ssssn-cf1-1-ana)
 2	can	can	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
 3	also	also	ADV	RB	_	5	advmod	5:advmod	PDTB=Explicit:Expansion.Conjunction:also:378:357-375:376-377,379-387
-4	sometimes	sometimes	ADV	RB	_	5	advmod	5:advmod	MSeg=sometime-s
+4	sometimes	sometimes	ADV	RB	PronType=Tot	5	advmod	5:advmod	MSeg=sometime-s
 5	find	find	VERB	VB	VerbForm=Inf	0	root	0:root	_
 6	someone	someone	PRON	NN	Number=Sing|PronType=Ind	5	obj	5:obj|8:nsubj	Entity=(59-person-new-nnnnn-cf2-1-sgl|MSeg=some-one
-7	who	who	PRON	WP	PronType=Rel	8	nsubj	6:ref	Discourse=elaboration-attribute:48->47:0:syn-mdf-381-_+syn-relcl-382-383-_
+7	who	who	PRON	WP	Case=Nom|PronType=Rel	8	nsubj	6:ref	Discourse=elaboration-attribute:48->47:0:syn-mdf-381-_+syn-relcl-382-383-_
 8	owns	own	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	6:acl:relcl	MSeg=own-s
 9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(60-animal-new-nnnnn-cf3-3-sgl
 10	pet	pet	NOUN	NN	Number=Sing	11	compound	11:compound	_
@@ -802,7 +804,7 @@
 1	Many	many	ADJ	JJ	Degree=Pos	5	nsubj	5:nsubj	Discourse=elaboration-additional:70->66:2:ref-dem-519-529,533-534-_+sem-rpt-519,550-_|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:508-530:531-551
 2	of	of	ADP	IN	_	4	case	4:case	_
 3	these	this	DET	DT	Number=Plur|PronType=Dem	4	det	4:det	Entity=(80-substance-giv:act-nnnnn-cf1*-2-coref
-4	products	product	NOUN	NNS	Number=Plur	1	obl	1:obl:of	Entity=80)|MSeg=produc-t-s
+4	products	product	NOUN	NNS	Number=Plur	1	nmod	1:nmod:of	Entity=80)|MSeg=produc-t-s
 5	use	use	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 6	natural	natural	ADJ	JJ	Degree=Pos	7	amod	7:amod	Entity=(83-substance-new-nnnnn-cf4-2-sgl|MSeg=natur-al
 7	ingredients	ingredient	NOUN	NNS	Number=Plur	5	obj	5:obj	MSeg=ingredient-s|SpaceAfter=No
@@ -955,7 +957,7 @@
 # s_type = imp
 # transition = null
 # text = Just be aware, not all cats have enough energy, interest or training to hunt mice.
-1	Just	just	ADV	RB	_	3	advmod	3:advmod	Discourse=attribution-positive:86->87:1:sem-atsrc-643-_+lex-indwd-643-_|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:just:641:609-618:642-658
+1	Just	just	ADV	RB	_	3	advmod	3:advmod	Discourse=attribution-positive:86->87:1:lex-indwd-643-_+sem-atsrc-643-_|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:just:641:609-618:642-658
 2	be	be	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	cop	3:cop	_
 3	aware	aware	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=a-ware|SpaceAfter=No
 4	,	,	PUNCT	,	_	8	punct	8:punct	_
@@ -1065,7 +1067,7 @@
 # s_type = decl
 # transition = establishment
 # text = Sometimes this information is available, but usually not.
-1	Sometimes	sometimes	ADV	RB	_	5	advmod	5:advmod	Discourse=adversative-concession:97->98:0:dm-but-731-gold|MSeg=Sometime-s|PDTB=Implicit:Expansion.Equivalence:in other words:_:700-724:725-734
+1	Sometimes	sometimes	ADV	RB	PronType=Tot	5	advmod	5:advmod	Discourse=adversative-concession:97->98:0:dm-but-731-gold|MSeg=Sometime-s|PDTB=Implicit:Expansion.Equivalence:in other words:_:700-724:725-734
 2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Entity=(109-abstract-giv:act-nnnnn-cf1*-2-coref
 3	information	information	NOUN	NN	Number=Sing	5	nsubj	5:nsubj|8:nsubj	Entity=109)|MSeg=in-form-ation
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_

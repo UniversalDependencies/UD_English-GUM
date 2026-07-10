@@ -421,6 +421,9 @@ For papers focusing on bridging anaphora, please cite this paper instead:
 
 # Changelog
 
+* 2026-07-10
+  * Add modality and production metadata
+
 * 2026-04-30
   * Added closed-book summaries to dev set documents
   * Error corrections

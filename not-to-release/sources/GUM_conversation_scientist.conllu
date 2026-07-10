@@ -5,6 +5,8 @@
 # meta::dateCreated = 2000-01-01
 # meta::dateModified = 2000-01-01
 # meta::genre = conversation
+# meta::modality = spoken
+# meta::production = informal/spontaneous/private
 # meta::salientEntities = 2 (5*), 11 (5*), 37 (4*), 38 (4*), 39 (3), 46 (3), 4 (2*), 5 (2*), 42 (2), 52 (2), 97 (2*), 106 (2*), 1 (1*), 3 (1), 18 (1), 20 (1), 26 (1), 61 (1), 64 (1), 98 (1*), 99 (1*), 104 (1), 107 (1*), 110 (1)
 # meta::sourceURL = https://www.linguistics.ucsb.edu/research/santa-barbara-corpus#SBC017
 # meta::speakerCount = 2
@@ -56,7 +58,7 @@
 1-2	I've	_	_	_	_	_	_	_	_
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj	Discourse=context-background:4->3:1:ref-prs-4,23-_+lex-indwd-25-_;explanation-justify:4->6:1:2:orp-and-43-gold|Entity=(2-person-giv:act-sssss-cf1*-1-ana)|PDTB=Implicit:Expansion.Conjunction:and:_:1-22:23-40
 2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
-3	always	always	ADV	RB	_	11	advmod	11:advmod	MSeg=al-way-s
+3	always	always	ADV	RB	PronType=Tot	11	advmod	11:advmod	MSeg=al-way-s
 4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	cop	11:cop	_
 5	on	on	ADP	IN	_	11	case	11:case	_
 6	a	a	DET	DT	Definite=Ind|PronType=Art	11	reparandum	11:reparandum	Entity=(6-event-new-nnnnn-cf2-6-sgl|SpaceAfter=No
@@ -117,7 +119,7 @@
 25	scientists	scientist	NOUN	NNS	Number=Plur	6	parataxis	6:parataxis	Entity=8)|MSeg=scient-ist-s|SpaceAfter=No
 26	,	,	PUNCT	,	_	28	punct	28:punct	_
 27	but	but	CCONJ	CC	_	28	cc	28:cc	_
-28	what	what	PRON	WP	PronType=Rel	25	conj	25:conj:but	Entity=(12-abstract-new-nnnnn-cf6-1-coref
+28	what	what	PRON	WP	Case=Acc|PronType=Rel	25	conj	25:conj:but	Entity=(12-abstract-new-nnnnn-cf6-1-coref
 29-30	they've	_	_	_	_	_	_	_	_
 29	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	31	nsubj	31:nsubj	Entity=(8-person-giv:act-nnnnn-cf1-1-ana)
 30	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux	31:aux	_
@@ -426,7 +428,7 @@
 46	this	this	DET	DT	Number=Sing|PronType=Dem	48	det	48:det	Entity=(5-person-giv:inact-ssnnn-cf3-3-coref
 47	little	little	ADJ	JJ	Degree=Pos	48	amod	48:amod	_
 48	man	man	NOUN	NN	Number=Sing	37	nsubj	37:nsubj|52:nsubj	_
-49	who	who	PRON	WP	PronType=Rel	52	nsubj	48:ref	Discourse=elaboration-attribute:39->38:0:syn-mdf-287-_+syn-relcl-288,291-_
+49	who	who	PRON	WP	Case=Nom|PronType=Rel	52	nsubj	48:ref	Discourse=elaboration-attribute:39->38:0:syn-mdf-287-_+syn-relcl-288,291-_
 50	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	52	cop	52:cop	_
 51	a	a	DET	DT	Definite=Ind|PronType=Art	52	det	52:det	Entity=(5-person-giv:act-ssnnn-cf3-2-pred
 52	scientist	scientist	NOUN	NN	Number=Sing	48	acl:relcl	48:acl:relcl	Entity=5)5)|MSeg=scient-ist|SpaceAfter=No
@@ -589,7 +591,7 @@
 7	that	that	PRON	DT	Number=Sing|PronType=Dem	11	reparandum	11:reparandum	Entity=(34-event-giv:inact-nnnnn-cf1-1-coref)|SpaceAfter=No
 8	,	,	PUNCT	,	_	7	punct	7:punct	_
 9	that	that	PRON	DT	Number=Sing|PronType=Dem	11	nsubj	11:nsubj	Entity=(34-event-giv:act-nnnnn-cf1-1-ana)
-10	always	always	ADV	RB	_	11	advmod	11:advmod	MSeg=al-way-s
+10	always	always	ADV	RB	PronType=Tot	11	advmod	11:advmod	MSeg=al-way-s
 11	symbolized	symbolize	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=symbol-iz-ed|SpaceAfter=No
 12	,	,	PUNCT	,	_	13	punct	13:punct	_
 13	kind	kind	NOUN	NN	ExtPos=ADV|Number=Sing	11	advmod	11:advmod	_
@@ -768,7 +770,7 @@
 6	,	,	PUNCT	,	_	7	punct	7:punct	_
 7	and	and	CCONJ	CC	_	9	cc	9:cc	SpaceAfter=No
 8	,	,	PUNCT	,	_	7	punct	7:punct	_
-9	what	what	PRON	WP	PronType=Int	5	conj	5:conj:and	SpaceAfter=No
+9	what	what	PRON	WP	Case=Acc|PronType=Int	5	conj	5:conj:and	SpaceAfter=No
 10	,	,	PUNCT	,	_	12	punct	12:punct	_
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	12:nsubj	Entity=(2-person-giv:inact-sssss-cf2-1-ana)
 12	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	parataxis	5:parataxis	SpaceAfter=No
@@ -876,7 +878,7 @@
 # speaker = Michael
 # addressee = Jim
 # text = Each p- scientist has their, their field of um, expertise, and if they're gonna go, if they're gonna stretch out far enough into the — the unknown where they can find something new, they have to do it in a straight line.
-1	Each	each	DET	DT	PronType=Ind	3	det	3:det	Discourse=context-background:69->70:1:ref-prs-524-526,539-_+sem-mrnym-528-535,557-558-_|Entity=(8-person-giv:inact-nnnnn-cf1-3-coref
+1	Each	each	DET	DT	PronType=Tot	3	det	3:det	Discourse=context-background:69->70:1:ref-prs-524-526,539-_+sem-mrnym-528-535,557-558-_|Entity=(8-person-giv:inact-nnnnn-cf1-3-coref
 2	p-	p-	INTJ	UH	_	3	reparandum	3:reparandum	_
 3	scientist	scientist	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=8)|MSeg=scient-ist
 4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=ha-s
@@ -1152,7 +1154,7 @@
 1	Cause	cause	SCONJ	IN	Typo=Yes	5	mark	5:mark	CorrectForm=Because|Discourse=topic-question:90->92:1:lex-indwd-658-_+grf-qst-675-_;explanation-justify:90->86:1:0:orp-cause-656-gold|PDTB=Explicit:Contingency.Cause.Result:cause:656:633-646:657-675|SpaceAfter=No|XML=<sic ana:::"Because"></sic>
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3-4	who's	_	_	_	_	_	_	_	_
-3	who	who	PRON	WP	PronType=Int	5	nsubj	5:nsubj|8:nsubj:xsubj|10:nsubj:xsubj	CxnElt=5:Interrogative-WHInfo-Direct.WHWord
+3	who	who	PRON	WP	Case=Nom|PronType=Int	5	nsubj	5:nsubj|8:nsubj:xsubj|10:nsubj:xsubj	CxnElt=5:Interrogative-WHInfo-Direct.WHWord
 4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 5-6	gonna	_	_	_	_	_	_	_	_
 5	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=5:Interrogative-WHInfo-Direct.Clause|XML=<w>
@@ -1464,7 +1466,7 @@
 # speaker = Jim
 # addressee = Michael
 # text = Who d- isn't necessarily inclined to deal with the details that much, who's guiding, those who are willing to sit there.
-1	Who	who	PRON	WP	PronType=Int	6	nsubj	6:nsubj|8:nsubj:xsubj	Discourse=elaboration-additional:113->111:1:sem-synym-800,804-828-_|Entity=(82-person-giv:inact-nnnnn-cf2-6-coref
+1	Who	who	PRON	WP	Case=Nom|PronType=Int	6	nsubj	6:nsubj|8:nsubj:xsubj	Discourse=elaboration-additional:113->111:1:sem-synym-800,804-828-_|Entity=(82-person-giv:inact-nnnnn-cf2-6-coref
 2	d-	d-	INTJ	UH	_	6	reparandum	6:reparandum	_
 3-4	isn't	_	_	_	_	_	_	_	_
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
@@ -1480,12 +1482,12 @@
 13	much	much	ADV	RB	Degree=Pos	8	advmod	8:advmod	SpaceAfter=No
 14	,	,	PUNCT	,	_	17	punct	17:punct	_
 15-16	who's	_	_	_	_	_	_	_	_
-15	who	who	PRON	WP	PronType=Int	17	nsubj	17:nsubj	Discourse=joint-list_m:114->113:0:_
+15	who	who	PRON	WP	Case=Nom|PronType=Int	17	nsubj	17:nsubj	Discourse=joint-list_m:114->113:0:_
 16	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	17:aux	_
 17	guiding	guide	VERB	VBG	Tense=Pres|VerbForm=Part	6	parataxis	6:parataxis	MSeg=guid-ing|SpaceAfter=No
 18	,	,	PUNCT	,	_	19	punct	19:punct	_
 19	those	that	PRON	DT	Number=Plur|PronType=Dem	17	obj	17:obj|22:nsubj	Entity=(83-person-new-nnnnn-cf3-1-sgl
-20	who	who	PRON	WP	PronType=Rel	22	nsubj	19:ref	Discourse=elaboration-attribute:115->114:0:syn-mdf-822-_+syn-relcl-823,825-_
+20	who	who	PRON	WP	Case=Nom|PronType=Rel	22	nsubj	19:ref	Discourse=elaboration-attribute:115->114:0:syn-mdf-822-_+syn-relcl-823,825-_
 21	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	22:cop	_
 22	willing	willing	ADJ	JJ	Degree=Pos	19	acl:relcl	19:acl:relcl	MSeg=will-ing
 23	to	to	PART	TO	_	24	mark	24:mark	_
@@ -1725,7 +1727,7 @@
 1	Well	well	INTJ	UH	_	3	discourse	3:discourse	Discourse=elaboration-additional:135->127:4:_
 2	those	that	DET	DT	Number=Plur|PronType=Dem	3	det	3:det	Entity=(93-person-new-nnnnn-cf2-2-sgl
 3	people	person	NOUN	NNS	Number=Plur	0	root	0:root|6:nsubj	_
-4	who	who	PRON	WP	PronType=Rel	6	nsubj	3:ref	Discourse=elaboration-attribute:136->135:0:syn-mdf-947-_+syn-relcl-948,950-_
+4	who	who	PRON	WP	Case=Nom|PronType=Rel	6	nsubj	3:ref	Discourse=elaboration-attribute:136->135:0:syn-mdf-947-_+syn-relcl-948,950-_
 5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 6	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	3	acl:relcl	3:acl:relcl	MSeg=do-ing
 7	research	research	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=(94-abstract-new-nnnnn-cf1-1-coref)93)|SpaceAfter=No
@@ -1764,7 +1766,7 @@
 7	,	,	PUNCT	,	_	6	punct	6:punct	_
 8	uh	uh	INTJ	UH	_	10	discourse	10:discourse	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	8:punct	_
-10	whatever	whatever	PRON	WP	PronType=Rel	4	obj	4:obj	MSeg=what-ever|SpaceAfter=No
+10	whatever	whatever	PRON	WP	Case=Acc|PronType=Rel	4	obj	4:obj	MSeg=what-ever|SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_conversation_scientist-82
@@ -2017,7 +2019,7 @@
 # addressee = Michael
 # text = Of what he was about.
 1	Of	of	ADP	IN	_	2	case	2:case	Discourse=elaboration-additional:165->164:0:_|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:1117-1139:1140-1145
-2	what	what	PRON	WP	PronType=Rel	0	root	0:root	_
+2	what	what	PRON	WP	Case=Acc|PronType=Rel	0	root	0:root	_
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(97-person-giv:act-snsnn-cf1*-1-ana-Albert_Einstein)
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
 5	about	about	ADP	IN	_	2	acl:relcl	2:acl:relcl	SpaceAfter=No
@@ -2038,7 +2040,7 @@
 6-7	today's	_	_	_	_	_	_	_	_
 6	today	today	NOUN	NN	Number=Sing	8	nmod:poss	8:nmod:poss	Entity=(106-abstract-new-snsnn-cf4-3-coref(11-time-giv:inact-sssss-cf1-1-coref|MSeg=to-day
 7	's	's	PART	POS	_	6	case	6:case	Entity=11)
-8	technology	technology	NOUN	NN	Number=Sing	4	obl	4:obl:of	Entity=106)105)|MSeg=techno-log-y
+8	technology	technology	NOUN	NN	Number=Sing	4	nmod	4:nmod:of	Entity=106)105)|MSeg=techno-log-y
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
 10	soulless	soulless	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=soul-less
 11	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=joint-list_m:167->166:0:dm-and-1156-gold|PDTB=Explicit:Expansion.Conjunction:and:1156:1146-1155:1157-1163

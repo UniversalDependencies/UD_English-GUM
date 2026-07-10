@@ -5,6 +5,8 @@
 # meta::dateCreated = 2000-01-01
 # meta::dateModified = 2000-01-01
 # meta::genre = conversation
+# meta::modality = spoken
+# meta::production = formal/spontaneous/public
 # meta::salientEntities = 1 (5*), 3 (5*), 6 (5*), 5 (4), 92 (4), 8 (3*), 73 (3), 80 (3), 69 (2), 115 (2), 117 (2), 12 (1*), 27 (1*), 55 (1), 57 (1), 76 (1), 77 (1), 83 (1), 93 (1), 95 (1), 107 (1), 109 (1), 112 (1), 116 (1), 118 (1), 131 (1)
 # meta::sourceURL = https://www.linguistics.ucsb.edu/research/santa-barbara-corpus#SBC025
 # meta::speakerCount = 1
@@ -315,7 +317,7 @@
 1	And	and	CCONJ	CC	_	4	cc	4:cc	Discourse=attribution-positive:27->28:3:sem-atsrc-210-_+lex-indwd-211-_|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:and:206:151-193:207-228
 2	this	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Entity=(27-abstract-new-snnnn-cf3-1-ana)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
-4	what	what	PRON	WP	PronType=Rel	0	root	0:root	_
+4	what	what	PRON	WP	Case=Acc|PronType=Rel	0	root	0:root	_
 5	Luther	Luther	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Entity=(3-person-giv:act-sssss-cf1*-1-coref-Martin_Luther)
 6	writes	write	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	4:acl:relcl	MSeg=write-s
 7	to	to	ADP	IN	_	8	case	8:case	_
@@ -498,7 +500,7 @@
 1	Perhaps	perhaps	ADV	RB	Degree=Pos	10	advmod	10:advmod	Discourse=joint-other_m:37->1:1:dm-and-291-gold|MSeg=Per-hap-s|PDTB=EntRel:EntRel:_:_:309-314:315-336
 2	an	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Entity=(1-person-giv:act-sssss-cf2-2-coref-Erasmus
 3	Erasmus	Erasmus	PROPN	NNP	Number=Sing	10	nsubj	5:nsubj|10:nsubj	_
-4	who	who	PRON	WP	PronType=Rel	5	nsubj	3:ref	Discourse=elaboration-attribute:38->37:0:syn-mdf-317-_+syn-relcl-318-319-_
+4	who	who	PRON	WP	Case=Nom|PronType=Rel	5	nsubj	3:ref	Discourse=elaboration-attribute:38->37:0:syn-mdf-317-_+syn-relcl-318-319-_
 5	writes	write	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	3:acl:relcl	MSeg=write-s
 6	against	against	ADP	IN	_	7	case	7:case	MSeg=a-gainst
 7	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	obl	5:obl:against	Entity=(3-person-giv:act-sssss-cf1*-1-ana-Martin_Luther)1)|SpaceAfter=No
@@ -513,7 +515,7 @@
 16	than	than	ADP	IN	_	18	case	18:case	_
 17	certain	certain	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(43-person-new-nnnnn-cf4-2-sgl
 18	dunderheads	dunderhead	NOUN	NNS	Number=Plur	10	obl	10:obl:than|20:nsubj	MSeg=dunderhead-s
-19	who	who	PRON	WP	PronType=Rel	20	nsubj	18:ref	Discourse=elaboration-attribute:40->39:0:syn-mdf-332-_+syn-relcl-333-334-_
+19	who	who	PRON	WP	Case=Nom|PronType=Rel	20	nsubj	18:ref	Discourse=elaboration-attribute:40->39:0:syn-mdf-332-_+syn-relcl-333-334-_
 20	support	support	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	18:acl:relcl	_
 21	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	20	obj	20:obj	Entity=(3-person-giv:act-sssss-cf1*-1-ana-Martin_Luther)43)|SpaceAfter=No
 22	.	.	PUNCT	.	_	10	punct	10:punct	_
@@ -532,7 +534,7 @@
 5	thinking	thinking	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	Entity=44)|MSeg=think-ing|SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	5:punct	_
 7	will	will	AUX	MD	VerbForm=Fin	9	aux	9:aux	_
-8	never	never	ADV	RB	_	9	advmod	9:advmod	Negation=Yes
+8	never	never	ADV	RB	PronType=Neg	9	advmod	9:advmod	Negation=Yes
 9	consent	consent	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 10	.	.	PUNCT	,	_	9	punct	9:punct	_
 
@@ -546,7 +548,7 @@
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=attribution-positive:42->41:0:sem-atsrc-349-gold;adversative-concession:42->43:0:0:orp-but-359-gold|Entity=(10-abstract-giv:inact-nnnnn-cf1-1-ana)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in fact:_:337-346:347-372
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	Brendler	Brendler	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(10-abstract-giv:act-nnnnn-cf1-1-coref)
-4	now	now	ADV	RB	_	3	advmod	3:advmod	SpaceAfter=No
+4	now	now	ADV	RB	PronType=Dem	3	advmod	3:advmod	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
 6	obs-	obs-	INTJ	UH	_	3	discourse	3:discourse	XML=<sic>
 7	–	-	PUNCT	HYPH	_	8	punct	8:punct	_
@@ -561,7 +563,7 @@
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	_
 17	stage	stage	NOUN	NN	Number=Sing	15	obj	15:obj	_
 18	for	for	ADP	IN	_	19	case	19:case	_
-19	what	what	PRON	WP	PronType=Rel	15	obl	15:obl:for	_
+19	what	what	PRON	WP	Case=Acc|PronType=Rel	15	obl	15:obl:for	_
 20-21	we're	_	_	_	_	_	_	_	_
 20	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	22:nsubj|24:nsubj:xsubj	Entity=(15-person-giv:inact-nnnnn-cf3-1-ana)
 21	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	aux	22:aux	_
@@ -582,7 +584,7 @@
 1	Humanistic	humanistic	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=elaboration-additional:44->41:2:sem-rpt-340-341,373-374-_|Entity=(44-abstract-giv:act-nnnnn-cf1*-2-coref|MSeg=Human-ist-ic|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:347-372:373-384
 2	thinking	thinking	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=44)|MSeg=think-ing
 3	will	will	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
-4	never	never	ADV	RB	_	5	advmod	5:advmod	Negation=Yes
+4	never	never	ADV	RB	PronType=Neg	5	advmod	5:advmod	Negation=Yes
 5	consent	consent	VERB	VB	VerbForm=Inf	0	root	0:root	_
 6	to	to	ADP	IN	_	8	case	8:case	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(45-abstract-new-nnnnn-cf2-2-coref
@@ -627,7 +629,7 @@
 3	of	of	SCONJ	IN	_	6	mark	6:mark	_
 4	uh	uh	INTJ	UH	_	6	discourse	6:discourse	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
-6	what	what	PRON	WP	PronType=Int	2	parataxis	2:parataxis	Discourse=organization-phatic:47->48:0:_
+6	what	what	PRON	WP	Case=Acc|PronType=Int	2	parataxis	2:parataxis	Discourse=organization-phatic:47->48:0:_
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(49-abstract-acc:com-nnnnn-cf2-1-ana-Invictus)|SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	12:punct	_
@@ -706,7 +708,7 @@
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
 5	alright	alright	INTJ	UH	_	2	discourse	2:discourse	MSeg=al-right|SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	7:punct	_
-7	what	what	PRON	WP	PronType=Int	2	parataxis	2:parataxis	Discourse=organization-preparation:54->55:0:ref-prs-451,453-_
+7	what	what	PRON	WP	Case=Acc|PronType=Int	2	parataxis	2:parataxis	Discourse=organization-preparation:54->55:0:ref-prs-451,453-_
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	Entity=(53-abstract-acc:com-nnnnn-cf1-1-ana)|SpaceAfter=No
 10	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -903,7 +905,7 @@
 # text = This is what Erasmus asked.
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=attribution-positive:70->68:1:syn-rpr-596-_+sem-atsrc-606-_+lex-indwd-607-_|Entity=(72-abstract-giv:act-nnnnn-cf1*-1-coref)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
-3	what	what	PRON	WP	PronType=Rel	0	root	0:root	_
+3	what	what	PRON	WP	Case=Acc|PronType=Rel	0	root	0:root	_
 4	Erasmus	Erasmus	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(1-person-giv:inact-sssss-cf2-1-coref-Erasmus)
 5	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	3:acl:relcl	MSeg=ask-ed|SpaceAfter=No
 6	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -1042,7 +1044,7 @@
 3	will	will	AUX	MD	VerbForm=Fin	1	advcl:relcl	1:advcl:relcl	SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	6:punct	_
 5	and	and	CCONJ	CC	_	6	cc	6:cc	Discourse=joint-list_m:84->83:0:dm-and-671-gold|PDTB=Explicit:Expansion.Conjunction:and:671:667-670:672-675
-6	whom	who	PRON	WP	PronType=Rel	1	conj	1:conj:and	_
+6	whom	who	PRON	WP	Case=Acc|PronType=Rel	1	conj	1:conj:and	_
 7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj	Entity=(80-person-giv:act-nssns-cf1-1-ana-God_in_Christianity)
 8	will	will	AUX	MD	VerbForm=Fin	6	acl:relcl	6:acl:relcl	SpaceAfter=No
 9	.	.	PUNCT	.	_	1	punct	1:punct	_
@@ -1535,7 +1537,7 @@
 2	that	that	PRON	DT	Number=Sing|PronType=Dem	9	reparandum	9:reparandum	Entity=(114-abstract-giv:act-nnnnn-cf1*-1-coref)|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	th-	th-	INTJ	UH	_	9	reparandum	9:reparandum	XML=<sic></sic>
-5	now	now	ADV	RB	_	9	advmod	9:advmod	_
+5	now	now	ADV	RB	PronType=Dem	9	advmod	9:advmod	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(5-event-giv:inact-nssss-cf3-2-coref
 7	debate	debate	NOUN	NN	Number=Sing	9	nsubj:pass	9:nsubj:pass	Entity=5)
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	9:aux:pass	_
@@ -1586,7 +1588,7 @@
 # speaker = Foster
 # addressee = Students
 # text = Now, number one, we have to admit first – v- first off, that there seem to be passages, there are passages in the Scriptures.
-1	Now	now	ADV	RB	_	7	advmod	7:advmod	Discourse=attribution-positive:128->129:1:sem-atsrc-1033-_+lex-indwd-1036-_+syn-rpr-1043-1044,1047,1051-_|PDTB=NoRel:NoRel:_:_:1003-1027:1028-1056|SpaceAfter=No
+1	Now	now	ADV	RB	PronType=Dem	7	advmod	7:advmod	Discourse=attribution-positive:128->129:1:sem-atsrc-1033-_+lex-indwd-1036-_+syn-rpr-1043-1044,1047,1051-_|PDTB=NoRel:NoRel:_:_:1003-1027:1028-1056|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	number	number	NOUN	NN	Number=Sing	7	obl:unmarked	7:obl:unmarked	_
 4	one	one	NUM	CD	NumForm=Word|NumType=Card	3	parataxis	3:parataxis	SpaceAfter=No
@@ -1702,7 +1704,7 @@
 # speaker = Foster
 # addressee = Students
 # text = Whosoever will may come.
-1	Whosoever	whosoever	PRON	WP	PronType=Rel	4	nsubj	4:nsubj	Discourse=explanation-evidence:139->134:4:_|Entity=(119-person-new-nnnnn-cf1-1-sgl)|MSeg=Who-so-ever|PDTB=NoRel:NoRel:_:_:1095-1102:1103-1107
+1	Whosoever	whosoever	PRON	WP	Case=Nom|PronType=Rel	4	nsubj	4:nsubj	Discourse=explanation-evidence:139->134:4:_|Entity=(119-person-new-nnnnn-cf1-1-sgl)|MSeg=Who-so-ever|PDTB=NoRel:NoRel:_:_:1095-1102:1103-1107
 2	will	will	AUX	MD	VerbForm=Fin	1	acl:relcl	1:acl:relcl	_
 3	may	may	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 4	come	come	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
@@ -1780,7 +1782,7 @@
 4	turned	turn	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=turn-ed
 5	to	to	ADP	IN	_	6	case	6:case	_
 6	those	that	PRON	DT	Number=Plur|PronType=Dem	4	obl	4:obl:to|8:nsubj	Bridge=121<127:comparison-sense;set-subset|Entity=(127-person-acc:inf-nnnnn-cf2-1-coref
-7	who	who	PRON	WP	PronType=Rel	8	nsubj	6:ref	Discourse=elaboration-attribute:151->150:0:syn-mdf-1164-_+syn-relcl-1165-1166-_
+7	who	who	PRON	WP	Case=Nom|PronType=Rel	8	nsubj	6:ref	Discourse=elaboration-attribute:151->150:0:syn-mdf-1164-_+syn-relcl-1165-1166-_
 8	remained	remain	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	6:acl:relcl	Entity=127)|MSeg=remain-ed|SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	12:punct	_
 10	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=attribution-positive:152->153:0:sem-atsrc-1169-_+lex-indwd-1170-_|PDTB=Explicit:Expansion.Conjunction:and:1168:1159-1167:1169-1177;Implicit:Temporal.Asynchronous.Precedence:then:_:1159-1167:1168-1177
@@ -1840,7 +1842,7 @@
 # speaker = Foster
 # addressee = Students
 # text = What do you will?
-1	What	what	PRON	WP	PronType=Int	4	obj	4:obj	CxnElt=4:Interrogative-WHInfo-Direct.WHWord|Discourse=joint-list_m:157->156:0:_|PDTB=Implicit:Expansion.Conjunction:and:_:1187-1191:1192-1196
+1	What	what	PRON	WP	Case=Acc|PronType=Int	4	obj	4:obj	CxnElt=4:Interrogative-WHInfo-Direct.WHWord|Discourse=joint-list_m:157->156:0:_|PDTB=Implicit:Expansion.Conjunction:and:_:1187-1191:1192-1196
 2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(127-person-giv:act-nnnnn-cf1*-1-ana)
 4	will	will	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=4:Interrogative-WHInfo-Direct.Clause|SpaceAfter=No

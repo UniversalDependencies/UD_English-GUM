@@ -5,6 +5,8 @@
 # meta::dateCreated = 2016-09-07
 # meta::dateModified = 2016-09-11
 # meta::genre = news
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 2 (5*), 3 (5*), 4 (5*), 6 (5*), 27 (5*), 15 (4*), 5 (3*), 13 (3), 28 (3*), 29 (3*), 66 (3*), 68 (3*), 92 (3*), 126 (3), 19 (2), 20 (2), 21 (2), 22 (2), 23 (2), 25 (2), 30 (2*), 34 (2), 56 (2), 1 (1), 17 (1), 55 (1), 67 (1), 70 (1*), 94 (1), 99 (1), 132 (1), 135 (1), 137 (1), 141 (1)
 # meta::sourceURL = https://en.wikinews.org/wiki/Pop_culture_celebrated_at_Fan_Expo_Canada_2016_in_Toronto
 # meta::speakerCount = 0
@@ -202,11 +204,11 @@
 14	of	of	ADP	IN	_	15	case	15:case	_
 15	fans	fan	NOUN	NNS	Number=Plur	13	nmod	13:nmod:of	Entity=34)|MSeg=fan-s
 16	donned	don	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	conj	10:conj:and	MSeg=donn-ed
-17	costumes	costume	NOUN	NNS	Number=Plur	16	obj	16:obj	Entity=(35-object-new-nnnnn-cf3-1-sgl|MSeg=costume-s|SpaceAfter=No
+17	costumes	costume	NOUN	NNS	Number=Plur	16	obj	16:obj|19:nmod:of	Entity=(35-object-new-nnnnn-cf3-1-sgl|MSeg=costume-s|SpaceAfter=No
 18	,	,	PUNCT	,	_	24	punct	24:punct	_
 19	many	many	ADJ	JJ	Degree=Pos	24	obj	24:obj	Discourse=elaboration-attribute:14->13:0:syn-mdf-134-_+syn-relcl-138,141-_
 20	of	of	ADP	IN	_	21	case	21:case	_
-21	which	which	PRON	WDT	PronType=Rel	19	obl	19:obl:of	_
+21	which	which	PRON	WDT	PronType=Rel	19	nmod	17:ref	_
 22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	24:nsubj	Entity=(34-person-giv:act-nsnsn-cf1-1-ana)
 23	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Emp|Reflex=Yes	22	nmod:unmarked	22:nmod:unmarked	Entity=(34-person-giv:act-nsnsn-cf1-1-ana)|MSeg=them-selve-s
 24	created	create	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	acl:relcl	17:acl:relcl	Entity=35)|MSeg=creat-ed|SpaceAfter=No
@@ -972,7 +974,7 @@
 # text = With shoes as wide as a forearm, and a rigid torso of carved foam, she remained exuberant even when caught in the traffic between halls, many hours into wearing the outfit.
 1	With	with	ADP	IN	_	2	case	2:case	Discourse=elaboration-additional:72->66:2:ref-prs-633-642,688-_|PDTB=Implicit:Expansion.Instantiation.Arg2-as-instance:for instance:_:644-671:672-706
 2	shoes	shoe	NOUN	NNS	Number=Plur	18	obl	18:obl:with	Entity=(149-object-new-nnnnn-cf5-1-sgl|MSeg=shoe-s
-3	as	as	ADV	IN	_	4	advmod	4:advmod	_
+3	as	as	ADV	RB	_	4	advmod	4:advmod	_
 4	wide	wide	ADJ	JJ	Degree=Pos	2	amod	2:amod	_
 5	as	as	ADP	IN	_	7	case	7:case	_
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	_

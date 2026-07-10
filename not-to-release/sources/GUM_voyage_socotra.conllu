@@ -5,6 +5,8 @@
 # meta::dateCreated = 2006-07-04
 # meta::dateModified = 2015-08-18
 # meta::genre = voyage
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 2 (5*), 4 (4*), 5 (4), 6 (4), 7 (4*), 9 (4), 146 (4*), 24 (3), 29 (3*), 63 (3), 80 (3), 18 (2), 25 (2), 50 (2*), 51 (2*), 14 (1), 53 (1), 62 (1), 68 (1), 93 (1*), 98 (1*), 125 (1*), 129 (1), 138 (1*), 139 (1*), 140 (1*), 141 (1*), 153 (1*), 157 (1), 158 (1*)
 # meta::sourceURL = https://en.wikivoyage.org/wiki/Socotra
 # meta::speakerCount = 0
@@ -46,7 +48,7 @@
 14	plant	plant	NOUN	NN	Number=Sing	15	compound	15:compound	_
 15	species	species	NOUN	NNS	Number=Plur	10	nmod	10:nmod:of	Entity=4)3)
 16	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	acl	15:acl	_
-17	nowhere	nowhere	ADV	RB	Degree=Pos	18	advmod	18:advmod	MSeg=no-where|Negation=Yes
+17	nowhere	nowhere	ADV	RB	Degree=Pos|PronType=Neg	18	advmod	18:advmod	MSeg=no-where|Negation=Yes
 18	else	else	ADV	RB	Degree=Pos	16	advmod	16:advmod	SpaceAfter=No
 19	,	,	PUNCT	,	_	5	punct	5:punct	_
 20	Socotra	Socotra	PROPN	NNP	Number=Sing	23	nsubj:pass	23:nsubj:pass|28:nsubj:xsubj	Discourse=same-unit_m:4->2:1:_|Entity=(2-place-new-sssss-cf2-1-coref-Socotra)
@@ -156,7 +158,7 @@
 15	wildlife	wildlife	NOUN	NN	Number=Sing	13	conj	10:obj|13:conj:and	MSeg=wild-life
 16	that	that	PRON	WDT	PronType=Rel	21	nsubj:pass	13:ref	Discourse=elaboration-attribute:13->12:0:syn-mdf-96-_+syn-relcl-99,104-_
 17	may	may	AUX	MD	VerbForm=Fin	21	aux	21:aux	_
-18	sometimes	sometimes	ADV	RB	_	21	advmod	21:advmod	MSeg=sometime-s
+18	sometimes	sometimes	ADV	RB	PronType=Tot	21	advmod	21:advmod	MSeg=sometime-s
 19	be	be	AUX	VB	VerbForm=Inf	21	aux:pass	21:aux:pass	_
 20	only	only	ADV	RB	_	21	advmod	21:advmod	_
 21	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	acl:relcl	13:acl:relcl	_
@@ -322,7 +324,7 @@
 1	Most	most	ADJ	JJS	Degree=Sup	8	nsubj	8:nsubj	Discourse=elaboration-additional:23->19:3:ref-dem-179-182,231-232-_+sem-rpt-188-189,245-247-_+sem-rpt-191-192,249-250-_|Entity=(40-place-new-nnnnn-cf1-1-coref|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:199-225:226-255
 2	of	of	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_
-4	rooms	room	NOUN	NNS	Number=Plur	1	obl	1:obl:of	MSeg=room-s
+4	rooms	room	NOUN	NNS	Number=Plur	1	nmod	1:nmod:of	MSeg=room-s
 5	at	at	ADP	IN	_	7	case	7:case	_
 6	these	this	DET	DT	Number=Plur|PronType=Dem	7	det	7:det	Entity=(29-place-giv:act-snsns-cf2*-2-coref
 7	hotels	hotel	NOUN	NNS	Number=Plur	4	nmod	4:nmod:at	Entity=29)40)|MSeg=hotel-s
@@ -1066,7 +1068,7 @@
 26	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux:pass	28:aux:pass	_
 27	not	not	PART	RB	Polarity=Neg	28	advmod	28:advmod	Negation=Yes
 28	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	acl:relcl	8:acl:relcl	_
-29	anywhere	anywhere	ADV	RB	_	30	advmod	30:advmod	MSeg=any-where
+29	anywhere	anywhere	ADV	RB	PronType=Tot	30	advmod	30:advmod	MSeg=any-where
 30	else	else	ADV	RB	Degree=Pos	28	advmod	28:advmod	_
 31	in	in	ADP	IN	_	33	case	33:case	_
 32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	33:det	Entity=(142-place-acc:com-nnnnn-cf3-2-sgl
@@ -1136,7 +1138,7 @@
 20	on	on	ADP	IN	_	21	case	21:case	_
 21	Socotra	Socotra	PROPN	NNP	Number=Sing	19	obl	19:obl:on	Entity=(2-place-giv:act-sssss-cf2*-1-coref-Socotra)
 22	and	and	CCONJ	CC	_	24	cc	24:cc	_
-23	nowhere	nowhere	ADV	RB	Degree=Pos	24	advmod	24:advmod	MSeg=no-where|Negation=Yes
+23	nowhere	nowhere	ADV	RB	Degree=Pos|PronType=Neg	24	advmod	24:advmod	MSeg=no-where|Negation=Yes
 24	else	else	ADV	RB	Degree=Pos	19	conj	18:advmod|19:conj:and	_
 25	on	on	ADP	IN	_	27	case	27:case	_
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(147-place-acc:com-nnnnn-cf3-2-sgl
@@ -1232,7 +1234,7 @@
 6	landscape	landscape	NOUN	NN	Number=Sing	2	obl	2:obl:in	Entity=157)|MSeg=land-scape
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	16:cop	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(158-plant-new-snnnn-cf2-8,9-sgl-Dendrosicyos
-9	ever	ever	ADV	RB	Degree=Pos	11	advmod	11:advmod	SpaceAfter=No|XML=<w>
+9	ever	ever	ADV	RB	Degree=Pos|PronType=Tot	11	advmod	11:advmod	SpaceAfter=No|XML=<w>
 10	-	-	PUNCT	HYPH	_	9	punct	9:punct	SpaceAfter=No
 11	strange	strange	ADJ	JJ	Degree=Pos	16	amod	16:amod	XML=</w>
 12	and	and	CCONJ	CC	_	14	cc	14:cc	_

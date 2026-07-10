@@ -5,6 +5,8 @@
 # meta::dateCreated = 2023-09-06
 # meta::dateModified = 2023-09-11
 # meta::genre = essay
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 2 (5*), 43 (4*), 3 (3), 105 (3), 106 (3), 5 (2*), 6 (2*), 7 (2*), 36 (2), 54 (2), 82 (2*), 92 (2*), 135 (2*), 137 (2*), 139 (2), 141 (2), 154 (2), 32 (1*), 60 (1), 83 (1), 103 (1), 104 (1), 116 (1), 119 (1), 138 (1), 144 (1), 145 (1), 149 (1), 152 (1*), 158 (1), 159 (1)
 # meta::sourceURL = https://openwa.pressbooks.pub/lwtech88readings/
 # meta::speakerCount = 0
@@ -156,7 +158,7 @@
 7	of	of	ADP	IN	_	10	case	10:case	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(31-abstract-new-nnnnn-cf5-3-sgl
 9	core	core	NOUN	NN	Number=Sing	10	compound	10:compound	_
-10	domains	domain	NOUN	NNS	Number=Plur	6	obl	6:obl:of	MSeg=domain-s
+10	domains	domain	NOUN	NNS	Number=Plur	6	nmod	6:nmod:of	MSeg=domain-s
 11	of	of	ADP	IN	_	13	case	13:case	_
 12	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(32-abstract-new-snnnn-cf2-2-coref(23-person-giv:act-nnnnn-cf1*-1-ana)
 13	lives	life	NOUN	NNS	Number=Plur	10	nmod	10:nmod:of	Entity=32)31)30)|MSeg=live-s
@@ -406,7 +408,7 @@
 # s_type = ger
 # transition = zero
 # text = Studying sex and aging
-1	Studying	study	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	Discourse=organization-heading:31->58:6:grf-ly-_-_+sem-lxchn-289,522-_+sem-lxchn-292,523-_|MSeg=Study-ing
+1	Studying	study	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	Discourse=organization-heading:31->58:6:grf-ly-_-_+sem-lxchn-289,522-_|MSeg=Study-ing
 2	sex	sex	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=(2-abstract-giv:inact-sssss-cf1-1-coref)
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_
 4	aging	aging	NOUN	NN	Number=Sing	2	conj	1:obj|2:conj:and	Entity=(20-abstract-giv:inact-nnnnn-cf2-1-coref)|MSeg=ag-ing
@@ -489,7 +491,7 @@
 # s_type = wh
 # transition = smooth-shift
 # text = What if instead the apparent age difference is because people born in the 1930s have different attitudes toward sex than people who grew up after the sexual revolution of the '60's and '70's?
-1	What	what	PRON	WP	PronType=Int	0	root	0:root	Cxn=Conditional-Interrogative|CxnElt=1:Conditional-Interrogative.Protasis,1:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=elaboration-additional:38->33:1:sem-rpt-304,370-_|PDTB=NoRel:NoRel:_:_:313-351:352-385
+1	What	what	PRON	WP	Case=Acc|PronType=Int	0	root	0:root	Cxn=Conditional-Interrogative|CxnElt=1:Conditional-Interrogative.Protasis,1:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Discourse=elaboration-additional:38->33:1:sem-rpt-304,370-_|PDTB=NoRel:NoRel:_:_:313-351:352-385
 2	if	if	SCONJ	IN	_	15	mark	15:mark	_
 3	instead	instead	ADV	RB	_	15	advmod	15:advmod	MSeg=in-stead
 4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(68-abstract-giv:act-nnnnn-cf1*-4-coref
@@ -510,7 +512,7 @@
 19	sex	sex	NOUN	NN	Number=Sing	17	nmod	17:nmod:toward	Entity=(2-abstract-giv:act-sssss-cf2-1-coref)74)
 20	than	than	ADP	IN	_	21	case	21:case	_
 21	people	person	NOUN	NNS	Number=Plur	16	obl	16:obl:than|23:nsubj	Entity=(75-person-new-nnnnn-cf8-1-sgl
-22	who	who	PRON	WP	PronType=Rel	23	nsubj	21:ref	Discourse=elaboration-attribute:41->40:0:syn-mdf-372-_+syn-relcl-373-374-_
+22	who	who	PRON	WP	Case=Nom|PronType=Rel	23	nsubj	21:ref	Discourse=elaboration-attribute:41->40:0:syn-mdf-372-_+syn-relcl-373-374-_
 23	grew	grow	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	acl:relcl	21:acl:relcl	_
 24	up	up	ADP	RP	_	23	compound:prt	23:compound:prt	_
 25	after	after	ADP	IN	_	28	case	28:case	_
@@ -856,7 +858,7 @@
 31	sex	sex	NOUN	NN	Number=Sing	32	compound	32:compound	Entity=(2-abstract-giv:act-sssss-cf3-1-coref)
 32	life	life	NOUN	NN	Number=Sing	28	nmod	28:nmod:over	Entity=124)123)|SpaceAfter=No
 33	,	,	PUNCT	,	_	25	punct	25:punct	_
-34	who	who	PRON	WP	PronType=Rel	35	nsubj	13:ref	Discourse=elaboration-attribute:74->73:0:syn-mdf-636-_+syn-relcl-657-658-_
+34	who	who	PRON	WP	Case=Nom|PronType=Rel	35	nsubj	13:ref	Discourse=elaboration-attribute:74->73:0:syn-mdf-636-_+syn-relcl-657-658-_
 35	invest	invest	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	13:acl:relcl	_
 36	the	the	DET	DT	Definite=Def|PronType=Art	38	det	38:det	Entity=(125-abstract-new-nnnnn-cf9-3-sgl
 37	same	same	ADJ	JJ	Degree=Pos	38	amod	38:amod	_
@@ -1084,7 +1086,7 @@
 17	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	Discourse=attribution-positive:94->95:0:sem-atsrc-844-845-_+lex-indwd-846-_+syn-rpr-847-_|Entity=(157-abstract-acc:com-nnnnn-cf4-3-disc(92-abstract-giv:inact-ssnnn-cf3-2-coref(4-person-giv:inact-nnnnn-cf2-1-ana)
 18	study	study	NOUN	NN	Number=Sing	19	nsubj	19:nsubj	Entity=92)
 19	suggests	suggest	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=suggest-s
-20	that	that	SCONJ	IN	_	24	mark	24:mark	Discourse=restatement-partial:95->87:2:sem-lxchn-797,846-_+sem-lxchn-810,838-_+sem-lxchn-823,852-_+sem-lxchn-824,833-_
+20	that	that	SCONJ	IN	_	24	mark	24:mark	Discourse=restatement-partial:95->87:2:sem-lxchn-810,838-_+sem-lxchn-823,852-_+sem-lxchn-824,833-_
 21	life	life	NOUN	NN	Number=Sing	22	compound	22:compound	Entity=(154-abstract-giv:act-nsnns-cf1-2-coref
 22	experience	experience	NOUN	NN	Number=Sing	24	nsubj	24:nsubj	Entity=154)
 23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	24:aux	_
@@ -1158,7 +1160,7 @@
 # transition = establishment
 # text = We now know that age-related declines in sexual quality of life are largely related to modifiable factors, so we can target sexual skills, beliefs and attitudes in clinical interventions.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=attribution-positive:100->101:0:sem-atsrc-898-_+lex-indwd-900-_+syn-rpr-901-_|Entity=(23-person-giv:inact-nnnnn-cf1-1-ana)
-2	now	now	ADV	RB	_	3	advmod	3:advmod	_
+2	now	now	ADV	RB	PronType=Dem	3	advmod	3:advmod	_
 3	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	that	that	SCONJ	IN	_	16	mark	16:mark	Discourse=context-background:101->102:0:ref-prs-898,919-_
 5	age	age	NOUN	NN	Number=Sing	7	compound	7:compound	Entity=(162-person-new-nnnnn-cf6-4-sgl|SpaceAfter=No|XML=<w>

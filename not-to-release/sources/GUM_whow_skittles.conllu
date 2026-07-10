@@ -5,6 +5,8 @@
 # meta::dateCreated = 2007-07-01
 # meta::dateModified = 2014-05-21
 # meta::genre = whow
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 1 (5*), 2 (5*), 3 (5*), 8 (5*), 9 (5*), 4 (3*), 6 (3), 52 (3*), 25 (2), 27 (2*), 31 (2*), 32 (2*), 34 (2*), 35 (2*), 53 (2), 91 (2), 7 (1), 42 (1), 51 (1), 58 (1), 61 (1*), 64 (1), 69 (1*), 126 (1), 128 (1)
 # meta::sourceURL = https://www.wikihow.com/Make-Skittles-Vodka
 # meta::speakerCount = 0
@@ -622,7 +624,7 @@
 2	out	out	ADP	RP	_	1	compound:prt	1:compound:prt	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(57-object-giv:inact-nnnnn-cf1-2-coref-Skittles_%28confectionery%29
 4	Skittles	Skittle	PROPN	NNPS	Number=Plur	1	obj	1:obj	Entity=57)|MSeg=Skittle-s
-5	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	1	advcl	1:advcl	Discourse=mode-means:63->62:0:syn-pres-397-_+lex-indwd-397-_|MSeg=us-ing|PDTB=Implicit:Expansion.Manner.Arg2-as-manner:by:_:393-396:397-413
+5	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	1	advcl	1:advcl	Discourse=mode-means:63->62:0:lex-indwd-397-_+syn-pres-397-_|MSeg=us-ing|PDTB=Implicit:Expansion.Manner.Arg2-as-manner:by:_:393-396:397-413
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(63-object-new-nnnnn-cf4-2-sgl
 7	filter	filter	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=63)|SpaceAfter=No
 8	,	,	PUNCT	,	_	14	punct	14:punct	_
@@ -693,7 +695,7 @@
 # s_type = imp
 # transition = null
 # text = Using 5 x 700 ml / 23.6 fl oz bottles, pour 300 ml / 10.1 fl oz of vodka into a jug and fill each bottle with skittles.
-1	Using	use	VERB	VBG	Tense=Pres|VerbForm=Part	12	advcl	12:advcl	Discourse=mode-means:68->69:0:syn-pres-436-_+lex-indwd-436-_|MSeg=Us-ing|PDTB=Implicit:Expansion.Manner.Arg2-as-manner:by:_:447-458:436-446
+1	Using	use	VERB	VBG	Tense=Pres|VerbForm=Part	12	advcl	12:advcl	Discourse=mode-means:68->69:0:lex-indwd-436-_+syn-pres-436-_|MSeg=Us-ing|PDTB=Implicit:Expansion.Manner.Arg2-as-manner:by:_:447-458:436-446
 2	5	5	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	10:nummod	Entity=(69-object-new-snnnn-cf1-9-coref
 3	x	x	PUNCT	SYM	_	2	punct	2:punct	_
 4	700	700	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	5:nummod	Entity=(70-abstract-new-nnnnn-cf2-2-coref
@@ -718,7 +720,7 @@
 23	jug	jug	NOUN	NN	Number=Sing	12	obl	12:obl:into	Entity=72)
 24	and	and	CCONJ	CC	_	25	cc	25:cc	Discourse=joint-sequence_m:70->69:1:grf-seq-_-_+dm-and-459-gold|PDTB=Explicit:Expansion.Conjunction:and:459:436-458:460-465;Implicit:Temporal.Asynchronous.Precedence:then:_:436-458:459-465
 25	fill	fill	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	12	conj	12:conj:and	_
-26	each	each	DET	DT	PronType=Ind	27	det	27:det	Entity=(69-object-giv:act-snnnn-cf1-2-coref
+26	each	each	DET	DT	PronType=Tot	27	det	27:det	Entity=(69-object-giv:act-snnnn-cf1-2-coref
 27	bottle	bottle	NOUN	NN	Number=Sing	25	obj	25:obj	Entity=69)
 28	with	with	ADP	IN	_	29	case	29:case	_
 29	skittles	Skittle	PROPN	NNPS	Number=Plur|Typo=Yes	25	obl	25:obl:with	CorrectForm=Skittles|Entity=(73-object-new-nnnnn-cf4-1-sgl-Skittles_%28confectionery%29)|MSeg=skittle-s|SpaceAfter=No|XML=<sic ana:::"Skittles"></sic>
@@ -967,9 +969,9 @@
 # transition = zero
 # text = Don't worry, the vodka won't freeze.
 1-2	Don't	_	_	_	_	_	_	_	_
-1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=organization-preparation:94->95:0:_|PDTB=Implicit:Contingency.Cause.Reason:because:_:612-626:627-636
+1	Do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	aux	3:aux	Discourse=organization-preparation:94->95:0:_|PDTB=Implicit:Contingency.Cause.Reason:because:_:612-626:627-636
 2	n't	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	Negation=Yes
-3	worry	worry	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+3	worry	worry	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 4	,	,	PUNCT	,	_	9	punct	9:punct	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Discourse=explanation-motivation:95->92:1:mrf-md-612-_|Entity=(71-substance-giv:inact-nnnnn-cf1-2-coref
 6	vodka	vodka	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	Entity=71)
@@ -1227,7 +1229,7 @@
 7	one	one	NUM	CD	NumForm=Word|NumType=Card	8	nummod	8:nummod	Bridge=109<110:comparison-sense;set-subset|Entity=(110-abstract-acc:inf-nnnnn-cf3-2-sgl
 8	flavor	flavor	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=110)
 9	for	for	ADP	IN	_	11	case	11:case	_
-10	each	each	DET	DT	PronType=Ind	11	det	11:det	Entity=(108-object-giv:act-nnnnn-cf2-2-coref
+10	each	each	DET	DT	PronType=Tot	11	det	11:det	Entity=(108-object-giv:act-nnnnn-cf2-2-coref
 11	bottle	bottle	NOUN	NN	Number=Sing	6	obl	6:obl:for	Entity=108)|SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -1327,7 +1329,7 @@
 # s_type = imp
 # transition = null
 # text = Never drink and drive.
-1	Never	never	ADV	RB	_	2	advmod	2:advmod	Discourse=joint-list_m:130->129:0:grf-seq-_-_|Negation=Yes|PDTB=Implicit:Expansion.Conjunction:and:_:861-863:864-868
+1	Never	never	ADV	RB	PronType=Neg	2	advmod	2:advmod	Discourse=joint-list_m:130->129:0:grf-seq-_-_|Negation=Yes|PDTB=Implicit:Expansion.Conjunction:and:_:861-863:864-868
 2	drink	drink	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
 3	and	and	CCONJ	CC	_	4	cc	4:cc	Discourse=joint-sequence_m:131->130:0:dm-and-866-gold|PDTB=Explicit:Expansion.Conjunction:and:866:864-865:867-868;Implicit:Temporal.Asynchronous.Precedence:then:_:864-865:866-868
 4	drive	drive	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	2	conj	2:conj:and	SpaceAfter=No
@@ -1343,7 +1345,7 @@
 3	limits	limit	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=118)|MSeg=limit-s|SpaceAfter=No
 4	,	,	PUNCT	,	_	8	punct	8:punct	_
 5	and	and	CCONJ	CC	_	8	cc	8:cc	Discourse=restatement-repetition_m:133->132:0:dm-and-873-gold|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:and:873:869-872:874-882
-6	do	do	AUX	VB	VerbForm=Inf	8	aux	8:aux	_
+6	do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	8	aux	8:aux	_
 7	not	not	PART	RB	Polarity=Neg	8	advmod	8:advmod	Negation=Yes
 8	drink	drink	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
 9	to	to	ADP	IN	_	11	case	11:case	_
@@ -1360,9 +1362,9 @@
 # s_type = imp
 # transition = establishment
 # text = Do not drink if underage in your country.
-1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=joint-list_m:134->129:0:grf-seq-_-_
+1	Do	do	AUX	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	aux	3:aux	Discourse=joint-list_m:134->129:0:grf-seq-_-_
 2	not	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	Negation=Yes
-3	drink	drink	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=3:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis,3:Conditional-UnspecifiedEpistemic-Reduced.Apodosis
+3	drink	drink	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-Reduced|CxnElt=3:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis,3:Conditional-UnspecifiedEpistemic-Reduced.Apodosis
 4	if	if	SCONJ	IN	_	5	mark	5:mark	Discourse=contingency-condition:135->134:0:dm-if-886-gold|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:886:883-885:887-891
 5	underage	underage	ADJ	JJ	Degree=Pos	3	advcl	3:advcl:if	CxnElt=3:Conditional-UnspecifiedEpistemic-NoInversion.Protasis,3:Conditional-UnspecifiedEpistemic-Reduced.Protasis|MSeg=under-age
 6	in	in	ADP	IN	_	8	case	8:case	_
@@ -1390,7 +1392,7 @@
 # s_type = decl
 # transition = continue
 # text = Each handle of vodka (1.75 liters, about a half gallon) requires a large bag worth of Skittles, so if you plan on doing only one flavor for a flavorful vodka, you'll have to buy 5 large bags of Skittles.
-1	Each	each	DET	DT	PronType=Ind	2	det	2:det	Discourse=causal-cause:138->141:1:dm-so-917-gold|Entity=(123-substance-new-nnnnn-cf3-2-coref
+1	Each	each	DET	DT	PronType=Tot	2	det	2:det	Discourse=causal-cause:138->141:1:dm-so-917-gold|Entity=(123-substance-new-nnnnn-cf3-2-coref
 2	handle	handle	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	MSeg=hand-le
 3	of	of	ADP	IN	_	4	case	4:case	_
 4	vodka	vodka	NOUN	NN	Number=Sing	2	nmod	2:nmod:of	Entity=(8-substance-giv:inact-sssss-cf4-1-coref)123)

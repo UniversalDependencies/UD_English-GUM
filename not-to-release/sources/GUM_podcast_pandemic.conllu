@@ -5,6 +5,8 @@
 # meta::dateCreated = 2020-04-16
 # meta::dateModified = 2020-04-16
 # meta::genre = podcast
+# meta::modality = spoken
+# meta::production = informal/spontaneous/public
 # meta::salientEntities = 2 (5*), 42 (5*), 123 (4*), 7 (3), 9 (2*), 11 (2*), 15 (2*), 55 (2), 59 (2), 79 (2), 121 (2), 4 (1), 16 (1), 17 (1), 20 (1), 54 (1), 63 (1), 75 (1*), 111 (1)
 # meta::sourceURL = https://archive.org/details/hpr3054/hpr3054.wav
 # meta::speakerCount = 1
@@ -65,9 +67,9 @@
 # text = Um, now, what distinguishes this new virus technically called SARS-CoV-2?
 1	Um	um	INTJ	UH	_	6	discourse	6:discourse	Discourse=topic-question:6->10:1:lex-indwd-37-_+grf-qst-45-_|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:1-32:33-45|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	now	now	ADV	RB	_	6	discourse	6:discourse	SpaceAfter=No
+3	now	now	ADV	RB	PronType=Dem	6	discourse	6:discourse	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
-5	what	what	PRON	WP	PronType=Int	6	nsubj	6:nsubj	CxnElt=6:Interrogative-WHInfo-Direct.WHWord
+5	what	what	PRON	WP	Case=Nom|PronType=Int	6	nsubj	6:nsubj	CxnElt=6:Interrogative-WHInfo-Direct.WHWord
 6	distinguishes	distinguish	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=6:Interrogative-WHInfo-Direct.Clause|MSeg=distinguish-es
 7	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	9:det	Entity=(2-animal-giv:act-sssss-cf1*-3-coref-SARS%2DCoV%2D2
 8	new	new	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
@@ -84,7 +86,7 @@
 # speaker = Ahuka
 # addressee = Aud
 # text = Now, I usually just call it Covid-19, like most reports do.
-1	Now	now	ADV	RB	_	6	discourse	6:discourse	Discourse=context-background:8->7:0:_;adversative-concession:8->10:1:0:orp-but-62-gold|PDTB=Implicit:Expansion.Conjunction:but:_:33-45:46-61|SpaceAfter=No
+1	Now	now	ADV	RB	PronType=Dem	6	discourse	6:discourse	Discourse=context-background:8->7:0:_;adversative-concession:8->10:1:0:orp-but-62-gold|PDTB=Implicit:Expansion.Conjunction:but:_:33-45:46-61|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(9-person-acc:com-snsnn-cf2-1-ana)
 4	usually	usually	ADV	RB	Degree=Pos	6	advmod	6:advmod	MSeg=usual-ly
@@ -109,7 +111,7 @@
 # addressee = Aud
 # text = But what distinguishes it is that it is highly infectious and highly virulent.
 1	But	but	CCONJ	CC	_	10	cc	10:cc	Discourse=elaboration-additional:10->2:2:ref-prs-4,65-_+sem-lxchn-7,71-gold|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:62:46-61:63-75
-2	what	what	PRON	WP	PronType=Rel	10	nsubj:outer	10:nsubj:outer|13:nsubj:outer	_
+2	what	what	PRON	WP	Case=Nom|PronType=Rel	10	nsubj:outer	10:nsubj:outer|13:nsubj:outer	_
 3	distinguishes	distinguish	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	MSeg=distinguish-es
 4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	3:obj	Entity=(2-animal-giv:act-sssss-cf1*-1-ana-SARS%2DCoV%2D2)
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
@@ -253,7 +255,7 @@
 3	death	death	NOUN	NN	Number=Sing	4	compound	4:compound	MSeg=dea-th
 4	toll	toll	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=24)
 5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
-6	anywhere	anywhere	ADV	RB	_	0	root	0:root	MSeg=any-where
+6	anywhere	anywhere	ADV	RB	PronType=Tot	0	root	0:root	MSeg=any-where
 7	from	from	ADP	IN	_	8	case	8:case	_
 8	20	20	NUM	CD	NumForm=Digit|NumType=Card	11	compound	11:compound	Entity=(24-person-giv:act-nnnnn-cf1-9-coref
 9	to	to	ADP	IN	_	10	case	10:case	_
@@ -389,7 +391,7 @@
 12	an	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	_
 13	idea	idea	NOUN	NN	Number=Sing	10	obj	10:obj	CxnElt=10:Ditransitive.Theme
 14	of	of	ADP	IN	_	15	case	15:case	_
-15	what	what	PRON	WP	PronType=Rel	13	nmod	13:nmod:of	_
+15	what	what	PRON	WP	Case=Acc|PronType=Rel	13	nmod	13:nmod:of	_
 16	that	that	PRON	DT	Number=Sing|PronType=Dem	18	nsubj	18:nsubj	Entity=(29-abstract-giv:inact-nnnnn-cf7-1-ana)
 17	could	could	AUX	MD	VerbForm=Fin	18	aux	18:aux	_
 18	be	be	AUX	VB	VerbForm=Inf	15	acl:relcl	15:acl:relcl	SpaceAfter=No
@@ -479,7 +481,7 @@
 # text = Um so what can help here?
 1	Um	um	INTJ	UH	_	5	discourse	5:discourse	Discourse=topic-question:38->39:2:lex-indwd-325-_+grf-qst-329-_
 2	so	so	INTJ	UH	_	5	discourse	5:discourse	PDTB=Explicit:Contingency.Cause.Result:so:324:123-161:323,325-341
-3	what	what	PRON	WP	PronType=Int	5	nsubj	5:nsubj	CxnElt=5:Interrogative-WHInfo-Direct.WHWord|Entity=(40-abstract-new-nnnnn-cf1-3-disc
+3	what	what	PRON	WP	Case=Nom|PronType=Int	5	nsubj	5:nsubj	CxnElt=5:Interrogative-WHInfo-Direct.WHWord|Entity=(40-abstract-new-nnnnn-cf1-3-disc
 4	can	can	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
 5	help	help	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=5:Interrogative-WHInfo-Direct.Clause
 6	here	here	ADV	RB	PronType=Dem	5	advmod	5:advmod	Entity=40)|SpaceAfter=No
@@ -547,7 +549,7 @@
 7	perfect	perfect	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	answer	answer	NOUN	NN	Number=Sing	0	root	0:root	Entity=45)
 9	right	right	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
-10	now	now	ADV	RB	_	8	advmod	8:advmod	SpaceAfter=No
+10	now	now	ADV	RB	PronType=Dem	8	advmod	8:advmod	SpaceAfter=No
 11	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = GUM_podcast_pandemic-21
@@ -617,7 +619,7 @@
 # speaker = Ahuka
 # addressee = Aud
 # text = Now, scientists are working on a vaccine right now in a crash program.
-1	Now	now	ADV	RB	_	5	advmod	5:advmod	Discourse=context-background:47->48:0:ref-prop-425-436,449-450-_|PDTB=Implicit:Expansion.Conjunction:furthermore:_:371-422:423-437|SpaceAfter=No
+1	Now	now	ADV	RB	PronType=Dem	5	advmod	5:advmod	Discourse=context-background:47->48:0:ref-prop-425-436,449-450-_|PDTB=Implicit:Expansion.Conjunction:furthermore:_:371-422:423-437|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	scientists	scientist	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=(53-event-new-nnnnn-cf4-3-disc(54-person-new-nsnnn-cf2-1-sgl)|MSeg=scient-ist-s
 4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
@@ -626,7 +628,7 @@
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(42-substance-giv:act-sssss-cf1*-2-coref
 8	vaccine	vaccine	NOUN	NN	Number=Sing	5	obl	5:obl:on	Entity=42)
 9	right	right	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
-10	now	now	ADV	RB	_	5	advmod	5:advmod	PDTB=AltLex:Temporal.Asynchronous.Precedence:now:432:423-431,433-437:438-451
+10	now	now	ADV	RB	PronType=Dem	5	advmod	5:advmod	PDTB=AltLex:Temporal.Asynchronous.Precedence:now:432:423-431,433-437:438-451
 11	in	in	ADP	IN	_	14	case	14:case	_
 12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(55-event-new-nsnsn-cf3-3-coref
 13	crash	crash	NOUN	NN	Number=Sing	14	compound	14:compound	_
@@ -838,7 +840,7 @@
 13-14	that's	_	_	_	_	_	_	_	_
 13	that	that	PRON	DT	Number=Sing|PronType=Dem	15	nsubj	15:nsubj	Entity=(72-event-giv:act-nnnnn-cf1-1-coref)
 14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	_
-15	what	what	PRON	WP	PronType=Rel	3	conj	3:conj:and	_
+15	what	what	PRON	WP	Case=Acc|PronType=Rel	3	conj	3:conj:and	_
 16	stopped	stop	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	15:acl:relcl	MSeg=stopp-ed
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(7-animal-giv:inact-nssns-cf2-2-coref-SARS
 18	disease	disease	NOUN	NN	Number=Sing	16	obj	16:obj	Entity=7)|MSeg=dis-ease|SpaceAfter=No
@@ -1065,7 +1067,7 @@
 19	to	to	ADP	IN	_	21	case	21:case	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(93-animal-new-nnnnn-cf5-2-sgl
 21	animals	animal	NOUN	NNS	Number=Plur	17	obl	17:obl:to|23:nsubj	MSeg=animal-s
-22	who	who	PRON	WP	PronType=Rel	23	nsubj	21:ref	Discourse=elaboration-attribute:81->80:0:syn-mdf-734-_+syn-relcl-735-736-_
+22	who	who	PRON	WP	Case=Nom|PronType=Rel	23	nsubj	21:ref	Discourse=elaboration-attribute:81->80:0:syn-mdf-734-_+syn-relcl-735-736-_
 23	received	receive	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	acl:relcl	21:acl:relcl	MSeg=receiv-ed
 24	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	obj	23:obj	Entity=(91-substance-giv:act-nnnnn-cf1-1-ana)93)90)|SpaceAfter=No
 25	.	.	PUNCT	.	_	17	punct	17:punct	_
@@ -1109,7 +1111,7 @@
 9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	10:nsubj|17:nsubj	Discourse=adversative-contrast_m:85->80:2:_|Entity=(94-person-giv:act-nnnnn-cf1-1-ana)
 10	figured	figure	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	ccomp	8:ccomp	MSeg=figur-ed
 11	out	out	ADP	RP	_	10	compound:prt	10:compound:prt	_
-12	what	what	PRON	WP	PronType=Rel	10	obj	10:obj	_
+12	what	what	PRON	WP	Case=Acc|PronType=Rel	10	obj	10:obj	_
 13	caused	cause	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	12:acl:relcl	MSeg=caus-ed
 14	that	that	DET	DT	Number=Sing|PronType=Dem	15	det	15:det	Entity=(90-event-giv:act-nnnnn-cf2*-2-coref
 15	problem	problem	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=90)
@@ -1362,7 +1364,7 @@
 5	Ronald	Ronald	PROPN	NNP	Number=Sing	23	obl	15:nsubj|23:obl:according_to	Entity=(114-person-new-nnnnn-cf4-1,2-coref-Ron_Klain
 6	Klain	Klain	PROPN	NNP	Number=Sing	5	flat	5:flat	SpaceAfter=No
 7	,	,	PUNCT	,	_	15	punct	15:punct	_
-8	who	who	PRON	WP	PronType=Rel	15	nsubj	5:ref	Discourse=elaboration-attribute:110->109:0:syn-mdf-937-_+syn-relcl-940-_
+8	who	who	PRON	WP	Case=Nom|PronType=Rel	15	nsubj	5:ref	Discourse=elaboration-attribute:110->109:0:syn-mdf-937-_+syn-relcl-940-_
 9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	15:cop	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(114-person-giv:act-nnnnn-cf4-6-coref-Ron_Klain(115-person-new-nnnnn-cf11-3-sgl
 11	Obama	Obama	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=(116-person-new-nnnnn-cf13-1-sgl-Barack_Obama)
@@ -1379,7 +1381,7 @@
 21-22	that's	_	_	_	_	_	_	_	_
 21	that	that	PRON	DT	Number=Sing|PronType=Dem	23	nsubj	23:nsubj	Discourse=context-background:112->118:4:_|Entity=(117-animal-giv:act-nnnnn-cf1-1-ana-Ebola)
 22	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	23:cop	_
-23	what	what	PRON	WP	PronType=Rel	0	root	0:root	_
+23	what	what	PRON	WP	Case=Acc|PronType=Rel	0	root	0:root	_
 24	first	first	ADV	RB	Degree=Pos|NumForm=Word|NumType=Ord	25	advmod	25:advmod	_
 25	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	acl:relcl	23:acl:relcl	_
 26	people	person	NOUN	NNS	Number=Plur	25	obj	25:obj|32:nsubj:xsubj	Entity=(118-person-new-nnnnn-cf10-1-sgl
@@ -1400,7 +1402,7 @@
 41	along	along	ADV	RB	Degree=Pos	40	advmod	40:advmod	MSeg=a-long|SpaceAfter=No
 42	,	,	PUNCT	,	_	43	punct	43:punct	_
 43	and	and	CCONJ	CC	_	65	cc	65:cc	Discourse=attribution-positive:114->118:2:sem-atsrc-958-962,977-gold+lex-indwd-978-gold|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:and:975:933-974,976-998:976-1019
-44	what	what	PRON	WP	PronType=Rel	65	nsubj:outer	65:nsubj:outer	_
+44	what	what	PRON	WP	Case=Nom|PronType=Rel	65	nsubj:outer	65:nsubj:outer	_
 45	Klain	Klain	PROPN	NNP	Number=Sing	46	nsubj	46:nsubj	Entity=(114-person-giv:act-nnnnn-cf4-1-coref-Ron_Klain)
 46	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	acl:relcl	44:acl:relcl	MSeg=say-s
 47	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	65	cop	65:cop	SpaceAfter=No

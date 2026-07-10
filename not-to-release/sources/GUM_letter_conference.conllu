@@ -5,6 +5,8 @@
 # meta::dateCreated = 1946-09-15
 # meta::dateModified = 1946-09-15
 # meta::genre = letter
+# meta::modality = written
+# meta::production = informal/prepared/private
 # meta::salientEntities = 4 (5*), 13 (5*), 34 (5*), 39 (5*), 3 (4*), 97 (4*), 121 (4*), 1 (3*), 2 (3*), 18 (3*), 91 (3*), 94 (3*), 16 (2), 69 (2), 8 (1*), 9 (1*), 10 (1*), 11 (1*), 35 (1*), 37 (1), 59 (1*), 76 (1*), 78 (1), 105 (1), 106 (1), 118 (1), 127 (1), 131 (1), 132 (1), 135 (1), 136 (1), 142 (1)
 # meta::sourceURL = https://dp.la/item/2364c423217f0c9ac4a3e12205edd618?q=letter&rightsCategory=%22Unlimited+Re-Use%22&after=1940&before=2024&page=2
 # meta::speakerCount = 0
@@ -203,7 +205,7 @@
 3	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=seem-s
 4	much	much	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
 5	busier	busy	ADJ	JJR	Degree=Cmp	3	xcomp	3:xcomp	MSeg=busi-er
-6	now	now	ADV	RB	_	3	advmod	3:advmod	_
+6	now	now	ADV	RB	PronType=Dem	3	advmod	3:advmod	_
 7	than	than	SCONJ	IN	_	9	mark	9:mark	Discourse=adversative-antithesis:14->13:0:dm-than-127-gold
 8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	9:nsubj	Entity=(13-event-giv:act-sssss-cf1-1-ana-Paris_Peace_Treaties%2C_1947)
 9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	5:advcl:than	_
@@ -349,7 +351,7 @@
 # transition = establishment
 # text = Although none of the singers were particularly well-known, at least to me, the performance was good.
 1	Although	although	SCONJ	IN	_	10	mark	10:mark	Discourse=adversative-concession:28->29:0:dm-although-244-gold+sem-mrnym-247-248,260-261-_+lex-indph-255-256-gold|MSeg=Al-though|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:although:244:260-264:245-259;Implicit:Contingency.Cause.Reason:because:_:219-243:244-264
-2	none	none	NOUN	NN	Number=Sing	10	nsubj:outer	10:nsubj:outer	Entity=(41-person-new-nnnnn-cf4-1-sgl|Negation=Yes
+2	none	none	PRON	NN	Number=Sing|PronType=Neg	10	nsubj:outer	10:nsubj:outer	Entity=(41-person-new-nnnnn-cf4-1-sgl|Negation=Yes
 3	of	of	ADP	IN	_	5	case	5:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Bridge=40<42:entity-associative|Entity=(42-person-acc:inf-nnnnn-cf3-2-sgl
 5	singers	singer	NOUN	NNS	Number=Plur	2	nmod	2:nmod:of	Entity=42)41)|MSeg=singer-s
@@ -512,7 +514,7 @@
 14	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=joint-list_m:42->39:2:dm-and-379-gold|PDTB=Explicit:Expansion.Conjunction:and:379:366-378:380-386
 15	there	there	PRON	EX	PronType=Dem	16	expl	16:expl	_
 16	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	12:conj:and	Cxn=Existential-CopPred-ThereExpl
-17	sometimes	sometimes	ADV	RB	_	16	advmod	16:advmod	MSeg=sometime-s
+17	sometimes	sometimes	ADV	RB	PronType=Tot	16	advmod	16:advmod	MSeg=sometime-s
 18	rather	rather	ADV	RB	_	19	advmod	19:advmod	Entity=(67-person-new-nnnnn-cf3-3-sgl|MSeg=rath-er
 19	interesting	interesting	ADJ	JJ	Degree=Pos	20	amod	20:amod	MSeg=interest-ing
 20	company	company	NOUN	NN	Number=Sing	16	nsubj	16:nsubj	CxnElt=16:Existential-CopPred-ThereExpl.Pivot|Entity=67)|SpaceAfter=No
@@ -561,7 +563,7 @@
 36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	37:det	Entity=(73-person-new-nnnnn-cf11-2-sgl
 37	few	few	ADJ	JJ	Degree=Pos	34	nmod	34:nmod:of|42:nsubj	_
 38	around	around	ADV	RB	Degree=Pos	37	advmod	37:advmod	MSeg=a-round
-39	who	who	PRON	WP	PronType=Rel	42	nsubj	37:ref	Discourse=elaboration-attribute:47->46:0:syn-mdf-423-_+syn-relcl-425,428-_+syn-pres-430-_
+39	who	who	PRON	WP	Case=Nom|PronType=Rel	42	nsubj	37:ref	Discourse=elaboration-attribute:47->46:0:syn-mdf-423-_+syn-relcl-425,428-_+syn-pres-430-_
 40	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux	42:aux	MSeg=doe-s|XML=<hi rend:::"overlap"></hi>
 41	not	not	PART	RB	Polarity=Neg	42	advmod	42:advmod	Negation=Yes
 42	insist	insist	VERB	VB	VerbForm=Inf	37	acl:relcl	37:acl:relcl	_
@@ -794,7 +796,7 @@
 11	south	south	NOUN	NN	Number=Sing	12	compound	12:compound	_
 12	side	side	NOUN	NN	Number=Sing	8	nmod	8:nmod:on	Entity=108)106)
 13	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	16:cop	_
-14	now	now	ADV	RB	_	16	advmod	16:advmod	_
+14	now	now	ADV	RB	PronType=Dem	16	advmod	16:advmod	_
 15	back	back	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
 16	in	in	ADV	RB	Degree=Pos	0	root	0:root	SpaceAfter=No
 17	,	,	PUNCT	,	_	21	punct	21:punct	_
@@ -1066,7 +1068,7 @@
 12	Luxembourg	Luxembourg	PROPN	NNP	Number=Sing	9	nmod	9:nmod:at	Entity=60)147)|SpaceAfter=No
 13	,	,	PUNCT	,	_	22	punct	22:punct	_
 14	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=elaboration-additional:81->78:1:sem-lxchn-809,865-867-gold|PDTB=Explicit:Expansion.Conjunction:and:841:828-840:842-876
-15	ev	everyone	PRON	GW	PronType=Tot|Typo=Yes	22	nsubj	22:nsubj	CorrectForm=everyone|Entity=(149-person-new-nnnnn-cf6-1-sgl|XML=<sic ana:::"everyone">
+15	ev	everyone	PRON	GW	Number=Sing|PronType=Tot|Typo=Yes	22	nsubj	22:nsubj	CorrectForm=everyone|Entity=(149-person-new-nnnnn-cf6-1-sgl|XML=<sic ana:::"everyone">
 16	yyone	_	X	NN	_	15	goeswith	15:goeswith	CorrectForm=_|XML=</sic>
 17	going	go	VERB	VBG	VerbForm=Ger	15	acl	15:acl	Discourse=elaboration-attribute:82->81:0:syn-mdf-842-_+syn-nmn-844-_|MSeg=go-ing
 18	over	over	ADP	RP	_	17	compound:prt	17:compound:prt	_
@@ -1122,7 +1124,7 @@
 13	to	to	PART	TO	_	14	mark	14:mark	_
 14	get	get	VERB	VB	VerbForm=Inf	12	xcomp	12:xcomp	_
 15	out	out	ADP	RP	_	14	compound:prt	14:compound:prt	_
-16	somewhere	somewhere	ADV	RB	_	14	advmod	14:advmod	Entity=(158-place-new-nnnnn-cf6-1-sgl)
+16	somewhere	somewhere	ADV	RB	PronType=Tot	14	advmod	14:advmod	Entity=(158-place-new-nnnnn-cf6-1-sgl)
 17	after	after	ADP	IN	_	19	case	19:case	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(159-event-new-nnnnn-cf5-2-sgl
 19	meeting	meeting	NOUN	NN	Number=Sing	14	obl	14:obl:after|21:nsubj	MSeg=meet-ing

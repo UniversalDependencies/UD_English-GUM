@@ -5,6 +5,8 @@
 # meta::dateCreated = 2014-12-08
 # meta::dateModified = 2019-10-02
 # meta::genre = textbook
+# meta::modality = written
+# meta::production = formal/prepared/public
 # meta::salientEntities = 5 (5*), 6 (5*), 7 (5*), 3 (4*), 81 (4*), 13 (3*), 23 (3), 25 (3), 26 (3), 28 (3), 29 (3), 31 (3), 102 (3), 24 (2), 27 (2), 33 (2), 74 (2), 107 (2), 9 (1), 22 (1), 57 (1*), 75 (1), 76 (1), 92 (1), 93 (1), 127 (1*), 138 (1*), 169 (1*), 171 (1*), 178 (1*)
 # meta::sourceURL = https://openstax.org/books/psychology/pages/7-1-what-is-cognition
 # meta::speakerCount = 0
@@ -161,7 +163,7 @@
 15	—	—	PUNCT	:	_	19	punct	19:punct	SpaceAfter=No
 16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	19:nsubj	Discourse=restatement-partial:15->10:1:ref-prs-72-73,87-_|Entity=(13-object-giv:act-sssnn-cf1*-1-ana)|XML=</w>
 17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	19:cop	_
-18	always	always	ADV	RB	_	19	advmod	19:advmod	MSeg=al-way-s
+18	always	always	ADV	RB	PronType=Tot	19	advmod	19:advmod	MSeg=al-way-s
 19	active	active	ADJ	JJ	Degree=Pos	5	parataxis	5:parataxis	MSeg=act-ive|SpaceAfter=No
 20	.	.	PUNCT	.	_	5	punct	5:punct	_
 
@@ -183,7 +185,7 @@
 10-11	brain’s	_	_	_	_	_	_	_	_
 10	brain	brain	NOUN	NN	Number=Sing	12	nmod:poss	12:nmod:poss	_
 11	’s	's	PART	POS	_	10	case	10:case	Entity=19)
-12	activity	activity	NOUN	NN	Number=Sing	7	obl	7:obl:of	Entity=18)|MSeg=activ-ity
+12	activity	activity	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	Entity=18)|MSeg=activ-ity
 13	as	as	SCONJ	IN	_	15	mark	15:mark	Discourse=context-circumstance:17->16:0:dm-as-104-gold|PDTB=Explicit:Temporal.Synchronous:as:104:92-103:105-111
 14	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Entity=(4-person-giv:act-nnnnn-cf1-1-ana)
 15	move	move	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	advcl	6:advcl:as	_
@@ -252,7 +254,7 @@
 # transition = zero
 # text = Scientists who study cognition are searching for ways to understand how we integrate, organize, and utilize our conscious cognitive experiences without being aware of all of the unconscious work that our brains are doing (for example, Kahneman, 2011).
 1	Scientists	scientist	NOUN	NNS	Number=Plur	6	nsubj	3:nsubj|6:nsubj	Discourse=elaboration-additional:23->20:1:grf-prn-189,196-_|Entity=(30-person-new-nnnnn-cf2-1-sgl|MSeg=Scient-ist-s|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:125-152:153-197
-2	who	who	PRON	WP	PronType=Rel	3	nsubj	1:ref	Discourse=elaboration-attribute:24->23:0:syn-mdf-153-_+syn-relcl-154-155-_
+2	who	who	PRON	WP	Case=Nom|PronType=Rel	3	nsubj	1:ref	Discourse=elaboration-attribute:24->23:0:syn-mdf-153-_+syn-relcl-154-155-_
 3	study	study	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	1:acl:relcl	_
 4	cognition	cognition	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(31-abstract-new-nsssn-cf4-1-sgl)30)|MSeg=cognit-ion
 5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	Discourse=same-unit_m:25->23:1:_
@@ -315,7 +317,7 @@
 # text = Upon waking each morning, you begin thinking—contemplating the tasks that you must complete that day.
 1	Upon	upon	SCONJ	IN	_	2	mark	2:mark	Discourse=context-circumstance:31->32:1:dm-upon-199-gold+syn-pres-200-_|MSeg=Up-on|PDTB=Explicit:Temporal.Asynchronous.Succession:upon:199:204-217:200-203
 2	waking	wake	VERB	VBG	Tense=Pres|VerbForm=Part	7	advcl	7:advcl:upon	MSeg=wak-ing
-3	each	each	DET	DT	PronType=Ind	4	det	4:det	Bridge=20<40:comparison-time;set-span-interval|Entity=(40-time-acc:inf-nnnnn-cf3-2-coref
+3	each	each	DET	DT	PronType=Tot	4	det	4:det	Bridge=20<40:comparison-time;set-span-interval|Entity=(40-time-acc:inf-nnnnn-cf3-2-coref
 4	morning	morning	NOUN	NN	Number=Sing	2	obl:unmarked	2:obl:unmarked	Entity=40)|MSeg=morn-ing|SpaceAfter=No
 5	,	,	PUNCT	,	_	2	punct	2:punct	_
 6	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	7:nsubj|8:nsubj:xsubj	Discourse=context-background:32->42:1:_|Entity=(4-person-giv:inact-nnnnn-cf1-1-ana)
@@ -559,7 +561,7 @@
 # text = They also sometimes focus on how we organize thoughts and information gathered from our environments into meaningful categories of thought, which will be discussed later.
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=joint-list_m:50->49:0:sem-lxchn-359,395-gold+sem-mrnym-379-380,400-_+dm-also-388-gold|Entity=(65-person-giv:act-nnnnn-cf1*-1-ana)
 2	also	also	ADV	RB	_	4	advmod	4:advmod	PDTB=Explicit:Expansion.Conjunction:also:388:349-386:387,389-413
-3	sometimes	sometimes	ADV	RB	_	4	advmod	4:advmod	MSeg=sometime-s
+3	sometimes	sometimes	ADV	RB	PronType=Tot	4	advmod	4:advmod	MSeg=sometime-s
 4	focus	focus	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	on	on	ADP	IN	_	6	case	6:case	_
 6	how	how	ADV	WRB	PronType=Rel	4	obl	4:obl:on|25:csubj:pass	_
@@ -1365,7 +1367,7 @@
 6	Mohandas	Mohandas	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(178-person-new-snnnn-cf1-1,2-coref-Mahatma_Gandhi
 7	Gandhi	Gandhi	PROPN	NNP	Number=Sing	6	flat	6:flat	Entity=178)|SpaceAfter=No
 8	,	,	PUNCT	,	_	10	punct	10:punct	_
-9	sometimes	sometimes	ADV	RB	_	10	advmod	10:advmod	Discourse=elaboration-attribute:123->122:0:syn-mdf-1000-_+syn-nmn-1004-_|MSeg=sometime-s
+9	sometimes	sometimes	ADV	RB	PronType=Tot	10	advmod	10:advmod	Discourse=elaboration-attribute:123->122:0:syn-mdf-1000-_+syn-nmn-1004-_|MSeg=sometime-s
 10	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl	6:acl	MSeg=call-ed
 11	Mahatma	Mahatma	PROPN	NNP	Number=Sing	10	xcomp	10:xcomp	Entity=(178-person-giv:act-snnnn-cf1-1,2-coref-Mahatma_Gandhi
 12	Gandhi	Gandhi	PROPN	NNP	Number=Sing	11	flat	11:flat	Entity=178)
@@ -1470,7 +1472,7 @@
 2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(178-person-giv:act-snnnn-cf1*-1-ana-Mahatma_Gandhi)
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
 4	not	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	Negation=Yes
-5	always	always	ADV	RB	_	6	advmod	6:advmod	MSeg=al-way-s
+5	always	always	ADV	RB	PronType=Tot	6	advmod	6:advmod	MSeg=al-way-s
 6	successful	successful	ADJ	JJ	Degree=Pos	15	advcl	15:advcl:although	MSeg=success-ful
 7	in	in	SCONJ	IN	_	8	mark	8:mark	Discourse=elaboration-additional:133->132:0:ref-prs-1077,1086-_+syn-pres-1083-_
 8	preventing	prevent	VERB	VBG	Tense=Pres|VerbForm=Part	6	advcl	6:advcl:in	MSeg=prevent-ing
