@@ -1,12 +1,14 @@
 # newdoc id = GUM_news_defector
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = Wikinews
+# meta::context = public
 # meta::dateCollected = 2015-09-21
 # meta::dateCreated = 2010-10-09
 # meta::dateModified = 2012-09-28
+# meta::formality = formal
 # meta::genre = news
 # meta::modality = written
-# meta::production = formal/prepared/public
+# meta::preparation = prepared
 # meta::salientEntities = 1 (5*), 2 (5*), 6 (5*), 20 (5*), 88 (3*), 4 (1*), 11 (1*), 16 (1), 17 (1), 21 (1*), 22 (1), 35 (1*), 44 (1*), 48 (1), 66 (1*), 91 (1*), 92 (1), 104 (1), 107 (1), 110 (1)
 # meta::sourceURL = https://en.wikinews.org/wiki/Scientology_defector_arrested_after_attempting_to_leave_organization
 # meta::speakerCount = 0
@@ -41,7 +43,7 @@
 # text = Saturday, October 9, 2010
 1	Saturday	Saturday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-circumstance:3->5:11:lex-indph-9-14-_|Entity=(3-time-acc:com-nnnnn-cf1-1-coref)|MSeg=Satur-day|SpaceAfter=No|XML=<date when:::"2010-10-09" rend:::"bold">
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
-3	October	October	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(3-time-giv:act-nnnnn-cf1-2-appos
+3	October	October	PROPN	NNP	Number=Sing	4	nmod:unmarked	4:nmod:unmarked	Entity=(3-time-giv:act-nnnnn-cf1-2-appos
 4	9	9	NUM	CD	NumForm=Digit|NumType=Card	1	appos	1:appos	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
 6	2010	2010	NUM	CD	NumForm=Digit|NumType=Card	4	nmod:unmarked	4:nmod:unmarked	Entity=(4-time-new-snnnn-cf2-1-coref)3)|XML=</date>
@@ -75,7 +77,7 @@
 20	persuaded	persuade	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	ccomp	4:ccomp	MSeg=persuad-ed
 21	to	to	PART	TO	_	22	mark	22:mark	_
 22	travel	travel	VERB	VB	VerbForm=Inf	20	xcomp	20:xcomp	_
-23	back	back	ADV	RB	Degree=Pos	22	advmod	22:advmod	_
+23	back	back	ADV	RB	_	22	advmod	22:advmod	_
 24	to	to	ADP	IN	_	27	case	27:case	_
 25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	27:det	Entity=(8-object-new-nnnnn-cf8-3-sgl
 26	management	management	NOUN	NN	Number=Sing	27	compound	27:compound	MSeg=manage-ment
@@ -508,7 +510,7 @@
 7	not	not	PART	RB	Polarity=Neg	8	advmod	8:advmod	Negation=Yes
 8	received	receive	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	4:ccomp	MSeg=receiv-ed
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(48-object-giv:act-nnsnn-cf2*-2-coref
-10	materials	material	NOUN	NNS	Number=Plur	8	obj	8:obj	Entity=48)|MSeg=material-s|SpaceAfter=No
+10	materials	material	NOUN	NNS	Number=Plur	8	obj	8:obj	Entity=48)|MSeg=mater-ial-s|SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GUM_news_defector-19
@@ -590,7 +592,7 @@
 38	know	know	VERB	VB	VerbForm=Inf	33	acl:relcl	33:acl:relcl	_
 39	the	the	DET	DT	Definite=Def|PronType=Art	41	det	41:det	Entity=(55-organization-new-nnnnn-cf5-3-sgl
 40	three	three	NUM	CD	NumForm=Word|NumType=Card	41	nummod	41:nummod	_
-41	branches	branch	NOUN	NNS	Number=Plur	38	obj	38:obj	MSeg=branche-s
+41	branches	branch	NOUN	NNS	Number=Plur	38	obj	38:obj	MSeg=branch-es
 42	of	of	ADP	IN	_	43	case	43:case	_
 43	government	government	NOUN	NN	Number=Sing	41	nmod	41:nmod:of	Entity=(56-organization-new-nnnnn-cf7-1-sgl)55)1)|MSeg=govern-ment|SpaceAfter=No
 44	)	)	PUNCT	-RRB-	_	26	punct	26:punct	_
@@ -643,7 +645,7 @@
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(60-person-new-nnnnn-cf6-7-sgl
 12	member	member	NOUN	NN	Number=Sing	17	nsubj	14:nsubj|17:nsubj	_
 13	who	who	PRON	WP	Case=Nom|PronType=Rel	14	nsubj	12:ref	Discourse=elaboration-attribute:67->66:0:syn-mdf-487-_+syn-relcl-488-489-_
-14	wishes	wish	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	12:acl:relcl	MSeg=wishe-s
+14	wishes	wish	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	12:acl:relcl	MSeg=wish-es
 15	to	to	PART	TO	_	16	mark	16:mark	_
 16	leave	leave	VERB	VB	VerbForm=Inf	14	xcomp	14:xcomp	_
 17	proceeding	proceed	VERB	VBG	Tense=Pres|VerbForm=Part	9	advcl	9:advcl:to	Discourse=same-unit_m:68->66:1:_|MSeg=proceed-ing
@@ -968,7 +970,7 @@
 8	6	6	NUM	CD	NumForm=Digit|NumType=Card	17	obl	17:obl:on	Entity=97)|XML=</date>
 9	after	after	SCONJ	IN	_	10	mark	10:mark	Discourse=context-circumstance:101->102:0:dm-after-741-gold+syn-pres-742-_|PDTB=Explicit:Temporal.Asynchronous.Succession:after:741:737-740,747-756:742-746
 10	traveling	travel	VERB	VBG	Tense=Pres|VerbForm=Part	17	advcl	17:advcl:after	MSeg=travel-ing
-11	back	back	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
+11	back	back	ADV	RB	_	10	advmod	10:advmod	_
 12	from	from	ADP	IN	_	13	case	13:case	_
 13	Florida	Florida	PROPN	NNP	Number=Sing	10	obl	10:obl:from	Entity=(44-place-giv:inact-snnnn-cf6-1-coref-Florida)|SpaceAfter=No
 14	,	,	PUNCT	,	_	10	punct	10:punct	_
@@ -1076,8 +1078,8 @@
 16	Montalvo	Montalvo	PROPN	NNP	Number=Sing	15	obj	15:obj	Entity=(1-person-giv:act-sssss-cf2*-1-coref)
 17	with	with	ADP	IN	_	21	case	21:case	_
 18	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Entity=(109-abstract-new-nnnnn-cf6-4-sgl(1-person-giv:act-sssss-cf2*-1-ana)
-19	legal	legal	ADJ	JJ	Degree=Pos	20	amod	20:amod	Entity=(110-abstract-new-nnsnn-cf7-2-sgl
-20	defense	defense	NOUN	NN	Number=Sing	21	compound	21:compound	Entity=110)
+19	legal	legal	ADJ	JJ	Degree=Pos	20	amod	20:amod	Entity=(110-abstract-new-nnsnn-cf7-2-sgl|MSeg=leg-al
+20	defense	defense	NOUN	NN	Number=Sing	21	compound	21:compound	Entity=110)|MSeg=defen-se
 21	financing	financing	NOUN	NN	Number=Sing	15	obl	15:obl:with	Entity=109)|MSeg=financ-ing|SpaceAfter=No
 22	.	.	PUNCT	.	_	2	punct	2:punct	_
 

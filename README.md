@@ -409,17 +409,32 @@ For papers focusing on bridging anaphora, please cite this paper instead:
 
 ```bibtex
 @inproceedings{levine-zeldes-2026-gumbridge,
-    title = "{GUMBridge}: a Corpus for Varieties of Bridging Anaphora",
+    title = "{GUMB}ridge: A Corpus for Varieties of Bridging Anaphora",
     author = "Levine, Lauren  and
       Zeldes, Amir",
-    booktitle = "Proceedings of LREC 2026",
+    editor = "Piperidis, Stelios  and
+      Bel, N{\'u}ria  and
+      van den Heuvel, Henk  and
+      Ide, Nancy  and
+      Krek, Simon  and
+      Toral, Antonio",
+    booktitle = "Proceedings of the Fifteenth Language Resources and Evaluation Conference",
+    month = may,
     year = "2026",
-    address = "Mallorca",
+    address = "Palma de Mallorca, Spain",
+    publisher = "ELRA Language Resource Association",
+    url = "https://aclanthology.org/2026.lrec-1.543/",
+    doi = "10.63317/3sf73k63vuww",
+    pages = "6823--6837"
 }
 ```
 
 
 # Changelog
+
+* 2026-10-27
+  * Production metadata rearranged into modality, formality, context and preparation
+  * Error corrections
 
 * 2026-07-10
   * Add modality and production metadata

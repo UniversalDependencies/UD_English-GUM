@@ -1,12 +1,14 @@
 # newdoc id = GUM_fiction_honour
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = Stephen J. Sweeney
+# meta::context = public
 # meta::dateCollected = 2019-09-11
 # meta::dateCreated = 2009-01-24
 # meta::dateModified = 2018-09-20
+# meta::formality = formal
 # meta::genre = fiction
 # meta::modality = written
-# meta::production = formal/prepared/public
+# meta::preparation = prepared
 # meta::salientEntities = 5 (5*), 15 (5*), 36 (5*), 4 (4*), 42 (3), 78 (3), 12 (2), 74 (2), 6 (1), 13 (1*), 57 (1*), 77 (1), 154 (1)
 # meta::sourceURL = https://www.battleforthesolarsystem.com/downloads/The%20Honour%20of%20the%20Knights%20(First%20Edition)%20(The%20Battle%20for%20the%20Solar%20System).html
 # meta::speakerCount = 2
@@ -199,7 +201,7 @@
 8	began	begin	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	2:advcl:as	_
 9	cycling	cycle	VERB	VBG	VerbForm=Ger	8	xcomp	8:xcomp	MSeg=cycl-ing
 10	once	once	ADV	RB	NumForm=Word|NumType=Mult	11	advmod	11:advmod	_
-11	again	again	ADV	RB	Degree=Pos	9	advmod	9:advmod	_
+11	again	again	ADV	RB	_	9	advmod	9:advmod	_
 12	through	through	ADP	IN	_	16	case	16:case	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(21-abstract-new-nnnnn-cf3-4-sgl
 14	available	available	ADJ	JJ	Degree=Pos	16	amod	16:amod	MSeg=avail-able
@@ -475,7 +477,7 @@
 # text = Not long before he had been standing on the flight deck of his deployment carrier, amongst the other pilots, his heart pumping in his ears, his hands sweating as he awaited the order to board his fighter.
 1	Not	not	PART	RB	Polarity=Neg	2	advmod	2:advmod	Discourse=context-circumstance:39->40:2:_|Negation=Yes|PDTB=Explicit:Temporal.Asynchronous.Succession:before:_:291-316:320-360
 2	long	long	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
-3	before	before	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
+3	before	before	ADV	RB	Degree=Pos	7	advmod	7:advmod	MSeg=be-fore
 4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	Entity=(15-person-giv:inact-sssss-cf1-1-ana)
 5	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	7:aux	_
 6	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	aux	7:aux	_
@@ -616,7 +618,7 @@
 19	last	last	ADJ	JJ	Degree=Pos	21	amod	21:amod	_
 20	remaining	remain	VERB	VBG	VerbForm=Ger	21	amod	21:amod	MSeg=remain-ing
 21	pilots	pilot	NOUN	NNS	Number=Plur	17	obj	17:obj	MSeg=pilot-s
-22	still	still	ADV	RB	Degree=Pos	23	advmod	23:advmod	Discourse=elaboration-attribute:57->56:0:syn-mdf-441-_+syn-nmn-443-_
+22	still	still	ADV	RB	_	23	advmod	23:advmod	Discourse=elaboration-attribute:57->56:0:syn-mdf-441-_+syn-nmn-443-_
 23	standing	stand	VERB	VBG	VerbForm=Ger	21	acl	21:acl	MSeg=stand-ing
 24	on	on	ADP	IN	_	27	case	27:case	_
 25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(56-place-giv:inact-nnnnn-cf3-3-coref
@@ -1114,7 +1116,7 @@
 6	stop	stop	VERB	VB	VerbForm=Inf	15	advcl	15:advcl:if	CxnElt=15:Conditional-UnspecifiedEpistemic-NoInversion.Protasis
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(36-organization-giv:inact-sssss-cf2-2-coref
 8	Enemy	enemy	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=36)
-9	before	before	ADV	RB	Degree=Pos	6	advmod	6:advmod	SpaceAfter=No
+9	before	before	ADV	RB	Degree=Pos	6	advmod	6:advmod	MSeg=be-fore|SpaceAfter=No
 10	,	,	PUNCT	,	_	6	punct	6:punct	_
 11	what	what	DET	WDT	PronType=Int	12	det	12:det	Discourse=explanation-justify:100->98:0:_|Entity=(125-abstract-new-nnnnn-cf4-2-sgl
 12	hope	hope	NOUN	NN	Number=Sing	15	obj	15:obj	Entity=125)
@@ -1318,7 +1320,7 @@
 25	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Discourse=joint-list_m:128->127:0:sem-lxchn-931,937-gold|Entity=(144-object-new-nnnnn-cf7-2-sgl(15-person-giv:act-sssss-cf1*-1-ana)
 26	fingers	finger	NOUN	NNS	Number=Plur	27	nsubj	27:nsubj|30:nsubj|33:nsubj	Entity=144)|MSeg=finger-s
 27	flip	flip	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	parataxis	21:parataxis	_
-28	switches	switch	NOUN	NNS	Number=Plur	27	obj	27:obj	Bridge=28<145:entity-meronomy|Entity=(145-object-acc:inf-nnnnn-cf3-1-sgl)|MSeg=switche-s|SpaceAfter=No
+28	switches	switch	NOUN	NNS	Number=Plur	27	obj	27:obj	Bridge=28<145:entity-meronomy|Entity=(145-object-acc:inf-nnnnn-cf3-1-sgl)|MSeg=switch-es|SpaceAfter=No
 29	,	,	PUNCT	,	_	30	punct	30:punct	_
 30	press	press	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	conj	27:conj	Discourse=joint-list_m:129->127:0:sem-mrnym-939,942-_|PDTB=Implicit:Expansion.Conjunction:and:_:936-940:941-943
 31	buttons	button	NOUN	NNS	Number=Plur	30	obj	30:obj	Bridge=28<146:entity-meronomy|Entity=(146-object-acc:inf-nnnnn-cf4-1-sgl)|MSeg=button-s|SpaceAfter=No
@@ -1380,7 +1382,7 @@
 3	moment	moment	NOUN	NN	Number=Sing	13	obl	13:obl:at	Entity=153)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(154-abstract-new-nnsnn-cf2-3-sgl(15-person-giv:act-sssss-cf1*-1-ana)
-6	worst	bad	ADJ	JJS	Degree=Sup	7	amod	7:amod	_
+6	worst	bad	ADJ	JJS	Degree=Sup	7	amod	7:amod	MSeg=wors-t
 7	fears	fear	NOUN	NNS	Number=Plur	13	nsubj:pass	13:nsubj:pass|17:nsubj:pass	Entity=154)|MSeg=fear-s
 8	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux	13:aux|17:aux	_
 9	not	not	PART	RB	Polarity=Neg	13	advmod	13:advmod	Negation=Yes|PDTB=Explicit:Expansion.Conjunction:not only but:989-990,995:981-988,991-994:996-998

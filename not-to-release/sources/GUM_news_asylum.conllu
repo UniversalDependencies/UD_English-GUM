@@ -1,12 +1,14 @@
 # newdoc id = GUM_news_asylum
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = Wikinews
+# meta::context = public
 # meta::dateCollected = 2015-09-21
 # meta::dateCreated = 2015-05-18
 # meta::dateModified = 2015-05-26
+# meta::formality = formal
 # meta::genre = news
 # meta::modality = written
-# meta::production = formal/prepared/public
+# meta::preparation = prepared
 # meta::salientEntities = 1 (5*), 2 (5*), 3 (5*), 14 (5*), 19 (5*), 20 (5*), 4 (4*), 55 (3*), 65 (3*), 8 (2*), 10 (2), 11 (2*), 21 (2*), 22 (2), 33 (2*), 57 (2*), 58 (2*), 12 (1), 13 (1*), 29 (1), 31 (1), 50 (1*), 64 (1*)
 # meta::sourceURL = https://en.wikinews.org/wiki/Over_900_asylum_seekers_rescued_off_Indonesian_coast
 # meta::speakerCount = 0
@@ -41,7 +43,7 @@
 # text = Monday, May 18, 2015
 1	Monday	Monday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-circumstance:2->3:8:lex-indph-9-14-_|Entity=(5-time-acc:com-nnnnn-cf1-1-coref)|MSeg=Mon-day|SpaceAfter=No|XML=<date when:::"2015-05-18" rend:::"bold">
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
-3	May	May	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(5-time-giv:act-nnnnn-cf1-2-appos
+3	May	May	PROPN	NNP	Number=Sing	4	nmod:unmarked	4:nmod:unmarked	Entity=(5-time-giv:act-nnnnn-cf1-2-appos
 4	18	18	NUM	CD	NumForm=Digit|NumType=Card	1	appos	1:appos	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
 6	2015	2015	NUM	CD	NumForm=Digit|NumType=Card	4	nmod:unmarked	4:nmod:unmarked	Entity=(6-time-new-nnnnn-cf2-1-sgl)5)|XML=</date>
@@ -56,7 +58,7 @@
 1	On	on	ADP	IN	_	2	case	2:case	Discourse=ROOT:3:0
 2	Friday	Friday	PROPN	NNP	Number=Sing	5	obl	5:obl:on	Bridge=5<7:comparison-time|Entity=(7-time-acc:inf-nnnnn-cf5-1-coref)|MSeg=Fri-day|SpaceAfter=No|XML=<date when:::"2015-05-15"></date>
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
-4	fishermen	fisherman	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=(8-person-new-snnsn-cf7-1-sgl)
+4	fishermen	fisherman	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=(8-person-new-snnsn-cf7-1-sgl)|MSeg=fish-er-men
 5	rescued	rescue	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=rescu-ed
 6	over	over	ADV	RB	_	7	advmod	7:advmod	Bridge=2<9:set-subset|Entity=(9-person-acc:inf-nnnnn-cf4-4-coref
 7	700	700	NUM	CD	NumForm=Digit|NumType=Card	9	nummod	9:nummod	_
@@ -269,7 +271,7 @@
 13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	14:aux:pass	Discourse=same-unit_m:29->27:1:_
 14	turned	turn	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=turn-ed
 15	around	around	ADV	RB	Degree=Pos	14	advmod	14:advmod	MSeg=a-round
-16	twice	twice	ADV	RB	NumForm=Word|NumType=Mult	14	advmod	14:advmod	SpaceAfter=No
+16	twice	twice	ADV	RB	NumForm=Word|NumType=Mult	14	advmod	14:advmod	MSeg=tw-ice|SpaceAfter=No
 17	,	,	PUNCT	,	_	19	punct	19:punct	_
 17.1	turned	turn	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	_	_	14:parataxis	CopyOf=14
 18	toward	toward	ADP	IN	_	19	case	19:case	MSeg=to-ward
@@ -435,7 +437,7 @@
 23	,	,	PUNCT	,	_	24	punct	24:punct	_
 24	first	first	ADV	RB	Degree=Pos|NumForm=Word|NumType=Ord	20	advmod	20:advmod	Discourse=purpose-goal:42->41:0:syn-inf-322-_
 25	and	and	CCONJ	CC	_	26	cc	26:cc	_
-26	foremost	foremost	ADV	RBS	Degree=Sup	24	conj	20:advmod|24:conj:and	MSeg=fore-most|SpaceAfter=No
+26	foremost	foremost	ADV	RB	Degree=Pos	24	conj	20:advmod|24:conj:and	SpaceAfter=No
 27	,	,	PUNCT	,	_	29	punct	29:punct	_
 28	to	to	PART	TO	_	29	mark	29:mark	_
 29	save	save	VERB	VB	VerbForm=Inf	20	advcl	20:advcl:to	_
@@ -490,7 +492,7 @@
 # s_type = decl
 # transition = smooth-shift
 # text = Estimates suggest 8000 migrants may be currently at sea in the region.
-1	Estimates	estimate	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Discourse=attribution-positive:47->48:0:sem-atsrc-361-_+lex-indwd-361-_+lex-indwd-362-_|Entity=(64-abstract-new-snnnn-cf4-1-sgl)|MSeg=Estimate-s
+1	Estimates	estimate	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	Discourse=attribution-positive:47->48:0:lex-indwd-361-_+sem-atsrc-361-_+lex-indwd-362-_|Entity=(64-abstract-new-snnnn-cf4-1-sgl)|MSeg=Estimate-s
 2	suggest	suggest	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	8000	8000	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	4:nummod	Bridge=60<65:set-subset|Discourse=context-background:48->39:2:sem-rpt-293,369-_|Entity=(65-person-acc:inf-snssn-cf3-2-sgl
 4	migrants	migrant	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj	Entity=65)|MSeg=migrant-s

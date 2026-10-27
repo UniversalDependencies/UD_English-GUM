@@ -1,12 +1,14 @@
 # newdoc id = GUM_news_ie9
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = Wikinews
+# meta::context = public
 # meta::dateCollected = 2014-09-15
 # meta::dateCreated = 2011-03-08
 # meta::dateModified = 2011-03-15
+# meta::formality = formal
 # meta::genre = news
 # meta::modality = written
-# meta::production = formal/prepared/public
+# meta::preparation = prepared
 # meta::salientEntities = 1 (5*), 3 (5*), 12 (5*), 23 (5*), 9 (4*), 7 (3*), 52 (3), 10 (2), 16 (2), 17 (2), 22 (2), 30 (2*), 32 (2*), 11 (1), 13 (1), 15 (1), 20 (1), 21 (1), 42 (1*), 48 (1)
 # meta::sourceURL = https://en.wikinews.org/wiki/Microsoft_waits_for_death_of_Internet_Explorer_6
 # meta::speakerCount = 0
@@ -41,7 +43,7 @@
 # text = Tuesday, March 8, 2011
 1	Tuesday	Tuesday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-circumstance:2->7:7:lex-indph-9-14-_|Entity=(4-time-acc:com-nnnnn-cf1-1-coref)|MSeg=Tues-day|SpaceAfter=No|XML=<date when:::"2011-03-08" rend:::"bold">
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
-3	March	March	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(4-time-giv:act-nnnnn-cf1-2-appos
+3	March	March	PROPN	NNP	Number=Sing	4	nmod:unmarked	4:nmod:unmarked	Entity=(4-time-giv:act-nnnnn-cf1-2-appos
 4	8	8	NUM	CD	NumForm=Digit|NumType=Card	1	appos	1:appos	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
 6	2011	2011	NUM	CD	NumForm=Digit|NumType=Card	4	nmod:unmarked	4:nmod:unmarked	Entity=(5-time-new-nnnnn-cf2-1-coref)4)|XML=</date>
@@ -304,7 +306,7 @@
 8	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	11:aux	MSeg=ha-s
 9	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	aux	11:aux	_
 10	actively	actively	ADV	RB	Degree=Pos	11	advmod	11:advmod	MSeg=act-ive-ly
-11	increasing	increase	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	MSeg=increas-ing
+11	increasing	increase	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	MSeg=in-creas-ing
 12	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(31-abstract-new-nnnnn-cf6-3-sgl(30-abstract-giv:act-snnns-cf2-1-ana-Firefox)|MSeg=it-s
 13	market	market	NOUN	NN	Number=Sing	14	compound	14:compound	_
 14	share	share	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=31)
@@ -657,7 +659,7 @@
 7	,	,	PUNCT	,	_	12	punct	12:punct	_
 8	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=causal-result:51->50:0:dm-and-479-gold|PDTB=Explicit:Contingency.Cause.Result:and:479:472-478:480-487
 9	Microsoft	Microsoft	PROPN	NNP	Number=Sing	12	nsubj	12:nsubj|14:nsubj:xsubj	Entity=(1-organization-giv:inact-sssss-cf2-1-coref-Microsoft)
-10	no	no	ADV	RB	Degree=Pos|Polarity=Neg	11	advmod	11:advmod	Negation=Yes
+10	no	no	ADV	RB	Polarity=Neg|PronType=Neg	11	advmod	11:advmod	Negation=Yes
 11	longer	long	ADV	RBR	Degree=Cmp	12	advmod	12:advmod	MSeg=long-er
 12	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj:and	MSeg=want-s
 13	to	to	PART	TO	_	14	mark	14:mark	_

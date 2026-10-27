@@ -1,12 +1,14 @@
 # newdoc id = GUM_conversation_erasmus
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = Santa Barbara Corpus of Spoken American English (ed. John W. Du Bois)
+# meta::context = public
 # meta::dateCollected = 2021-09-08
 # meta::dateCreated = 2000-01-01
 # meta::dateModified = 2000-01-01
+# meta::formality = formal
 # meta::genre = conversation
 # meta::modality = spoken
-# meta::production = formal/spontaneous/public
+# meta::preparation = spontaneous
 # meta::salientEntities = 1 (5*), 3 (5*), 6 (5*), 5 (4), 92 (4), 8 (3*), 73 (3), 80 (3), 69 (2), 115 (2), 117 (2), 12 (1*), 27 (1*), 55 (1), 57 (1), 76 (1), 77 (1), 83 (1), 93 (1), 95 (1), 107 (1), 109 (1), 112 (1), 116 (1), 118 (1), 131 (1)
 # meta::sourceURL = https://www.linguistics.ucsb.edu/research/santa-barbara-corpus#SBC025
 # meta::speakerCount = 1
@@ -243,7 +245,7 @@
 # addressee = Students
 # text = Once again, the first and fundamental questions, disputed in fifteen sixteen, and fifteen seventeen, and again in Heidelberg, in April of fifteen eighteen, with which Luther had opened the assault on scholastic theology, were debated.
 1	Once	once	ADV	RB	NumForm=Word|NumType=Mult	2	advmod	2:advmod	Discourse=context-background:22->28:5:mrf-tns-183-_
-2	again	again	ADV	RB	Degree=Pos	42	advmod	42:advmod	SpaceAfter=No
+2	again	again	ADV	RB	_	42	advmod	42:advmod	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Bridge=6<18:entity-associative|Entity=(18-abstract-acc:inf-nnnnn-cf2-5,22-sgl
 5	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	8	amod	8:amod	_
@@ -262,7 +264,7 @@
 18	,	,	PUNCT	,	_	22	punct	22:punct	_
 19	and	and	CCONJ	CC	_	22	cc	19.1:cc	_
 19.1	disputed	dispute	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	_	_	8:acl|10:conj:and	CopyOf=10
-20	again	again	ADV	RB	Degree=Pos	22	orphan	19.1:advmod	PDTB=AltLex:Expansion.Conjunction:again:170:151-159,191-193:160-169,171-190
+20	again	again	ADV	RB	_	22	orphan	19.1:advmod	PDTB=AltLex:Expansion.Conjunction:again:170:151-159,191-193:160-169,171-190
 21	in	in	ADP	IN	_	22	case	22:case	_
 22	Heidelberg	Heidelberg	PROPN	NNP	Number=Sing	10	conj	19.1:obl:in	Entity=(21-place-new-nnnnn-cf4-1-sgl-Heidelberg)|SpaceAfter=No
 23	,	,	PUNCT	,	_	25	punct	25:punct	_
@@ -497,7 +499,7 @@
 # speaker = Foster
 # addressee = Students
 # text = Perhaps an Erasmus who writes against you, will do more for the Gospel, than certain dunderheads who support you.
-1	Perhaps	perhaps	ADV	RB	Degree=Pos	10	advmod	10:advmod	Discourse=joint-other_m:37->1:1:dm-and-291-gold|MSeg=Per-hap-s|PDTB=EntRel:EntRel:_:_:309-314:315-336
+1	Perhaps	perhaps	ADV	RB	_	10	advmod	10:advmod	Discourse=joint-other_m:37->1:1:dm-and-291-gold|MSeg=Per-hap-s|PDTB=EntRel:EntRel:_:_:309-314:315-336
 2	an	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Entity=(1-person-giv:act-sssss-cf2-2-coref-Erasmus
 3	Erasmus	Erasmus	PROPN	NNP	Number=Sing	10	nsubj	5:nsubj|10:nsubj	_
 4	who	who	PRON	WP	Case=Nom|PronType=Rel	5	nsubj	3:ref	Discourse=elaboration-attribute:38->37:0:syn-mdf-317-_+syn-relcl-318-319-_
@@ -568,7 +570,7 @@
 20	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	22:nsubj|24:nsubj:xsubj	Entity=(15-person-giv:inact-nnnnn-cf3-1-ana)
 21	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	aux	22:aux	_
 22-23	gonna	_	_	_	_	_	_	_	_
-22	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	19	acl:relcl	19:acl:relcl	XML=<w>
+22	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	19	acl:relcl	19:acl:relcl	MSeg=go-n|XML=<w>
 23	na	to	PART	TO	_	24	mark	24:mark	XML=</w>
 24	talk	talk	VERB	VB	VerbForm=Inf	22	xcomp	22:xcomp	_
 25	about	about	ADP	IN	_	24	obl	24:obl	SpaceAfter=No
@@ -847,7 +849,7 @@
 23	as	as	ADP	IN	_	26	case	26:case	_
 24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(68-abstract-new-nnnnn-cf5-3-sgl
 25	decisive	decisive	ADJ	JJ	Degree=Pos	26	amod	26:amod	MSeg=decis-ive
-26	factor	factor	NOUN	NN	Number=Sing	20	obl	20:obl:as	_
+26	factor	factor	NOUN	NN	Number=Sing	20	obl	20:obl:as	MSeg=fact-or
 27	in	in	SCONJ	IN	_	28	mark	28:mark	_
 28	attaining	attain	VERB	VBG	VerbForm=Ger	26	acl	26:acl:in	MSeg=attain-ing
 29	salvation	salvation	NOUN	NN	Number=Sing	28	obj	28:obj	Entity=(69-event-new-nsnns-cf3-1-coref)68)|MSeg=salv-ation|SpaceAfter=No
@@ -1216,7 +1218,7 @@
 54	with	with	ADP	IN	_	58	case	58:case	_
 55	a	a	DET	DT	Definite=Ind|PronType=Art	58	det	58:det	Entity=(98-person-new-nnnnn-cf9-4,12-sgl
 56	prosperous	prosperous	ADJ	JJ	Degree=Pos	58	amod	58:amod	MSeg=prosper-ous
-57	middle	middle	ADJ	JJ	Degree=Pos	58	amod	58:amod	_
+57	middle	middle	ADJ	JJ	Degree=Pos	58	amod	58:amod	MSeg=midd-le
 58	class	class	NOUN	NN	Number=Sing	52	obl	52:obl:with	SpaceAfter=No
 59	,	,	PUNCT	,	_	62	punct	62:punct	_
 60	in	in	ADP	IN	_	62	case	62:case	_
@@ -1241,7 +1243,7 @@
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5	skip	skip	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
 6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	7:det	Bridge=9<101:entity-meronomy|Entity=(101-abstract-acc:inf-nnnnn-cf1-2-coref
-7	paragraph	paragraph	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=101)|SpaceAfter=No
+7	paragraph	paragraph	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=101)|MSeg=para-graph|SpaceAfter=No
 8	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_conversation_erasmus-51
@@ -1254,7 +1256,7 @@
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Discourse=adversative-concession:97->96:0:dm-though-819-gold|Entity=(101-abstract-giv:act-nnnnn-cf1*-1-ana)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(101-abstract-giv:act-nnnnn-cf1*-2-coref
-4	paragraph	paragraph	NOUN	NN	Number=Sing	0	root	0:root	_
+4	paragraph	paragraph	NOUN	NN	Number=Sing	0	root	0:root	MSeg=para-graph
 5	though	though	ADV	RB	Degree=Pos	4	advmod	4:advmod	Entity=101)|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:though:819:807-814:815-818,820|SpaceAfter=No
 6	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -1302,7 +1304,7 @@
 # speaker = Foster
 # addressee = Students
 # text = Therefore, Luther did not accept rational arguments against predestination doctrine.
-1	Therefore	therefore	ADV	RB	Degree=Pos	6	advmod	6:advmod	Discourse=explanation-justify:101->111:1:_;causal-result:101->91:1:2:orp-therefore-849-gold|MSeg=There-fore|PDTB=Explicit:Contingency.Cause.Result:therefore:849:740-806:850-860;NoRel:NoRel:_:_:821-848:849-860|SpaceAfter=No
+1	Therefore	therefore	ADV	RB	_	6	advmod	6:advmod	Discourse=explanation-justify:101->111:1:_;causal-result:101->91:1:2:orp-therefore-849-gold|MSeg=There-fore|PDTB=Explicit:Contingency.Cause.Result:therefore:849:740-806:850-860;NoRel:NoRel:_:_:821-848:849-860|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	Luther	Luther	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Entity=(3-person-giv:inact-sssss-cf1-1-coref-Martin_Luther)
 4	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	6:aux	_
@@ -1761,7 +1763,7 @@
 42	and	and	CCONJ	CC	_	44	cc	44:cc	Discourse=causal-result:148->143:2:dm-and-1149-gold|PDTB=Explicit:Contingency.Cause.Result:and:1149:1119-1148:1150-1158
 43	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	44	nsubj	44:nsubj	Entity=(122-person-giv:act-nnnnn-cf1-1-ana)
 44	walked	walk	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	conj	4:advcl:when|14:conj:and	MSeg=walk-ed
-45	no	no	ADV	RB	Degree=Pos|Polarity=Neg	46	advmod	46:advmod	Negation=Yes
+45	no	no	ADV	RB	Polarity=Neg|PronType=Neg	46	advmod	46:advmod	Negation=Yes
 46	longer	long	ADV	RBR	Degree=Cmp	44	advmod	44:advmod	MSeg=long-er
 47	with	with	ADP	IN	_	48	case	48:case	_
 48	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	obl	44:obl:with	Entity=(120-person-giv:act-nnnnn-cf2-1-ana-Jesus)
@@ -1862,7 +1864,7 @@
 5	apparently	apparently	ADV	RB	Degree=Pos	9	advmod	9:advmod	MSeg=apparent-ly
 6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	reparandum	9:reparandum	SpaceAfter=No|XML=<sic>
 7	,	,	PUNCT	,	_	6	punct	6:punct	_
-8	re-	re-	INTJ	UH	_	9	reparandum	9:reparandum	MSeg=re-|XML=</sic>
+8	re-	re-	INTJ	UH	_	9	reparandum	9:reparandum	XML=</sic>
 9	resided	reside	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=resid-ed
 10	in	in	ADP	IN	_	13	reparandum	13:reparandum	_
 11	in	in	ADP	IN	_	13	case	13:case	_

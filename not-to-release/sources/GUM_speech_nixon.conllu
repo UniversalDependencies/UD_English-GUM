@@ -1,12 +1,14 @@
 # newdoc id = GUM_speech_nixon
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = richardnixon
+# meta::context = public
 # meta::dateCollected = 2021-09-08
 # meta::dateCreated = 1974-08-08
 # meta::dateModified = 1974-08-08
+# meta::formality = formal
 # meta::genre = speech
 # meta::modality = spoken
-# meta::production = formal/prepared/public
+# meta::preparation = prepared
 # meta::salientEntities = 4 (5*), 11 (5*), 2 (4*), 5 (4), 21 (4*), 48 (4*), 1 (3), 3 (3*), 49 (3), 70 (3*), 71 (3*), 6 (2*), 8 (2*), 9 (2*), 13 (2), 7 (1*), 17 (1), 44 (1), 51 (1), 62 (1), 69 (1), 92 (1), 93 (1), 97 (1)
 # meta::sourceURL = https://www.presidency.ucsb.edu/documents/address-the-nation-announcing-decision-resign-the-office-president-the-united-states
 # meta::speakerCount = 1
@@ -239,7 +241,7 @@
 14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obl	12:obl:to	Entity=(11-person-giv:act-sssss-cf1*-1-ana-Richard_Nixon)
 15	that	that	SCONJ	IN	_	19	mark	19:mark	Entity=(28-abstract-acc:com-nnnnn-cf3-5-coref
 16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	19:nsubj	Entity=(11-person-giv:act-sssss-cf1*-1-ana-Richard_Nixon)
-17	no	no	ADV	RB	Degree=Pos|Polarity=Neg	18	advmod	18:advmod	Negation=Yes
+17	no	no	ADV	RB	Polarity=Neg|PronType=Neg	18	advmod	18:advmod	Negation=Yes
 18	longer	long	ADV	RBR	Degree=Cmp	19	advmod	19:advmod	MSeg=long-er
 19	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	csubj	11:csubj|12:csubj:xsubj	_
 20	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(29-abstract-new-nnnnn-cf6-5-coref
@@ -344,7 +346,7 @@
 20	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=joint-sequence_m:28->27:0:dm-and-236-gold|PDTB=Explicit:Expansion.Conjunction:and:236:228-235:237-249;Implicit:Temporal.Asynchronous.Precedence:then:_:228-235:236-249
 21	there	there	PRON	EX	PronType=Dem	22	expl	22:expl	_
 22	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	11:conj:and	Cxn=Existential-CopPred-ThereExpl
-23	no	no	ADV	RB	Degree=Pos|Polarity=Neg	24	advmod	24:advmod	Negation=Yes
+23	no	no	ADV	RB	Polarity=Neg|PronType=Neg	24	advmod	24:advmod	Negation=Yes
 24	longer	long	ADV	RBR	Degree=Cmp	22	advmod	22:advmod	MSeg=long-er
 25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	26:det	Entity=(39-abstract-new-nnnnn-cf5-2-sgl
 26	need	need	NOUN	NN	Number=Sing	22	nsubj	22:nsubj	CxnElt=22:Existential-CopPred-ThereExpl.Pivot
@@ -647,7 +649,7 @@
 # transition = smooth-shift
 # speaker = RichardNixon
 # text = Therefore, I shall resign the Presidency effective at noon tomorrow.
-1	Therefore	therefore	ADV	RB	Degree=Pos	5	advmod	5:advmod	Discourse=ROOT:55:0|MSeg=There-fore|PDTB=Explicit:Contingency.Cause.Result:therefore:469:419-468:470-480|SpaceAfter=No
+1	Therefore	therefore	ADV	RB	_	5	advmod	5:advmod	Discourse=ROOT:55:0|MSeg=There-fore|PDTB=Explicit:Contingency.Cause.Result:therefore:469:419-468:470-480|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(4-event-giv:inact-sssss-cf3-3-disc(11-person-giv:act-sssss-cf1*-1-ana-Richard_Nixon)
 4	shall	shall	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
@@ -671,7 +673,7 @@
 3	Ford	Ford	PROPN	NNP	Number=Sing	6	nsubj:pass	6:nsubj:pass	Entity=71)
 4	will	will	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
 5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	6:aux:pass	_
-6	sworn	swear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+6	sworn	swear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=swor-n
 7	in	in	ADP	RP	_	6	compound:prt	6:compound:prt	_
 8	as	as	ADP	IN	_	9	case	9:case	_
 9	President	President	PROPN	NNP	Number=Sing	6	obl	6:obl:as	Entity=(6-person-giv:inact-snnsn-cf3-1-coref-President_of_the_United_States)|MSeg=Presid-ent
@@ -826,7 +828,7 @@
 29	tomorrow	tomorrow	NOUN	NN	Number=Sing	25	obl:unmarked	25:obl:unmarked	Entity=(70-time-giv:inact-snssn-cf4-1-coref)|MSeg=to-morrow|XML=<date when:::"1974-08-09"></date>
 30	and	and	CCONJ	CC	_	36	cc	36:cc	Discourse=same-unit_m:72->70:1:_|SpaceAfter=No
 31	,	,	PUNCT	,	_	30	punct	30:punct	_
-32	therefore	therefore	ADV	RB	Degree=Pos	36	advmod	36:advmod	SpaceAfter=No
+32	therefore	therefore	ADV	RB	_	36	advmod	36:advmod	MSeg=there-fore|SpaceAfter=No
 33	,	,	PUNCT	,	_	32	punct	32:punct	_
 34	of	of	ADP	IN	_	36	case	36:case	_
 35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	36:det	Entity=(84-abstract-new-nnnnn-cf8-2-sgl
@@ -1196,7 +1198,7 @@
 20	succeed	succeed	VERB	VB	VerbForm=Inf	16	xcomp	16:xcomp	MSeg=succe-ed
 21	for	for	ADP	IN	_	23	case	23:case	_
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(120-abstract-new-nnnnn-cf5-2-sgl
-23	benefit	benefit	NOUN	NN	Number=Sing	20	obl	20:obl:for	_
+23	benefit	benefit	NOUN	NN	Number=Sing	20	obl	20:obl:for	MSeg=bene-fit
 24	of	of	ADP	IN	_	26	case	26:case	_
 25	all	all	DET	DT	PronType=Ind	26	det	26:det	Entity=(87-person-giv:act-nnnnn-cf1*-2-coref-Americans
 26	Americans	American	PROPN	NNPS	Number=Plur	23	nmod	23:nmod:of	Entity=87)120)|MSeg=America-n-s|SpaceAfter=No
@@ -1324,7 +1326,7 @@
 9	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=joint-list_m:120->119:1:dm-and-1011-gold+lex-indwd-1014-_|PDTB=Explicit:Expansion.Conjunction:and:1011:1003-1010:1012-1036
 10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	15:nsubj	Entity=(131-abstract-giv:act-nnnnn-cf1-1-ana)|SpaceAfter=No
 11	,	,	PUNCT	,	_	10	punct	10:punct	_
-12	too	too	ADV	RB	Degree=Pos	15	advmod	15:advmod	SpaceAfter=No
+12	too	too	ADV	RB	_	15	advmod	15:advmod	SpaceAfter=No
 13	,	,	PUNCT	,	_	12	punct	12:punct	_
 14	will	will	AUX	MD	VerbForm=Fin	15	aux	15:aux	_
 15	require	require	VERB	VB	VerbForm=Inf	7	conj	7:conj:and	_

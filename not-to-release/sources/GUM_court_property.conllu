@@ -1,12 +1,14 @@
 # newdoc id = GUM_court_property
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = Hawaiʻi State Judiciary
+# meta::context = public
 # meta::dateCollected = 2025-01-16
 # meta::dateCreated = 2023-12-14
 # meta::dateModified = 2023-12-14
+# meta::formality = formal
 # meta::genre = court
 # meta::modality = spoken
-# meta::production = formal/prepared/public
+# meta::preparation = prepared
 # meta::salientEntities = 24 (5*), 4 (4*), 7 (4*), 63 (4*), 64 (4*), 86 (4*), 13 (3), 16 (3), 17 (2), 39 (2*), 68 (2), 71 (2*), 94 (2), 185 (2), 5 (1*), 9 (1), 10 (1), 11 (1), 12 (1), 18 (1), 19 (1), 20 (1), 21 (1), 22 (1), 26 (1), 36 (1*), 40 (1*), 62 (1), 69 (1), 84 (1), 85 (1), 88 (1), 89 (1), 115 (1*), 118 (1*), 120 (1*), 182 (1), 195 (1)
 # meta::sourceURL = https://www.courts.state.hi.us/oral-argument-before-the-hawaii-supreme-court-scap-22-0000368
 # meta::speakerCount = 6
@@ -50,7 +52,7 @@
 6	before	before	ADP	IN	_	10	case	10:case	_
 7	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	10:det	Entity=(4-organization-acc:com-ssnss-cf2-3,4,7,9-coref-Supreme_Court_of_Hawaii
 8	honorable	honorable	ADJ	JJ	Degree=Pos	10	amod	10:amod	MSeg=honor-able
-9	Supreme	Supreme	ADJ	NNP	Degree=Pos	10	amod	10:amod	_
+9	Supreme	Supreme	ADJ	NNP	Degree=Pos	10	amod	10:amod	MSeg=Supr-eme
 10	Court	Court	PROPN	NNP	Number=Sing	3	obl	3:obl:before	_
 11	of	of	ADP	IN	_	13	case	13:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(5-place-new-snnnn-cf5-2,4-coref-Hawaii
@@ -174,7 +176,7 @@
 51	Maui	Maui	PROPN	NNP	Number=Sing	49	nmod	49:nmod:of	Entity=(17-place-giv:act-nnssn-cf3-1-coref-Maui)16)14)|SpaceAfter=No
 52	,	,	PUNCT	,	_	55	punct	55:punct	_
 53-54	defendants'	_	_	_	_	_	_	_	_
-53	defendants	defendant	NOUN	NNS	Number=Plur	55	nmod:poss	55:nmod:poss	Bridge=7<23:entity-associative|Entity=(14-person-giv:act-nnnnn-cf5-3-appos(23-person-acc:inf-nnnnn-cf8-1-coref|MSeg=defendant-s
+53	defendants	defendant	NOUN	NNS	Number=Plur	55	nmod:poss	55:nmod:poss	Bridge=7<23:entity-associative|Entity=(14-person-giv:act-nnnnn-cf5-3-appos(23-person-acc:inf-nnnnn-cf8-1-coref|MSeg=defen-d-ant-s
 54	'	's	PART	POS	_	53	case	53:case	Entity=23)
 55	appellants	appellant	NOUN	NNS	Number=Plur	23	appos	23:appos	Entity=14)|MSeg=appellant-s|SpaceAfter=No
 56	.	.	PUNCT	.	_	1	punct	1:punct	_
@@ -192,7 +194,7 @@
 4	arguing	argue	VERB	VBG	VerbForm=Ger	1	acl	1:acl	Discourse=elaboration-attribute:14->13:0:syn-mdf-108-_+syn-nmn-111-_|MSeg=argu-ing
 5	for	for	ADP	IN	_	8	case	8:case	_
 6-7	defendants'	_	_	_	_	_	_	_	_
-6	defendants	defendant	NOUN	NNS	Number=Plur	8	nmod:poss	8:nmod:poss	Entity=(14-person-giv:act-nnnnn-cf1*-3-coref(23-person-giv:act-nnnnn-cf2-1-coref|MSeg=defendant-s
+6	defendants	defendant	NOUN	NNS	Number=Plur	8	nmod:poss	8:nmod:poss	Entity=(14-person-giv:act-nnnnn-cf1*-3-coref(23-person-giv:act-nnnnn-cf2-1-coref|MSeg=defen-d-ant-s
 7	'	's	PART	POS	_	6	case	6:case	Entity=23)
 8	appellants	appellant	NOUN	NNS	Number=Plur	4	obl	4:obl:for	Entity=14)|MSeg=appellant-s|SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	10:punct	_
@@ -724,7 +726,7 @@
 14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	16:cop	Discourse=same-unit_m:55->53:1:_
 15	there	there	PRON	EX	PronType=Dem	16	expl	16:expl	Entity=(81-abstract-new-nnnnn-cf5-2-disc
 16	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
-17	really	really	ADV	RB	Degree=Pos	16	advmod	16:advmod	MSeg=real-ly
+17	really	really	ADV	RB	_	16	advmod	16:advmod	MSeg=real-ly
 18	two	two	NUM	CD	NumForm=Word|NumType=Card	20	nummod	20:nummod	Bridge=60<82:set-member|Entity=(82-abstract-acc:inf-nnnnn-cf2-3-coref
 19	asserted	assert	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	amod	20:amod	MSeg=assert-ed
 20	interests	interest	NOUN	NNS	Number=Plur	16	nsubj	16:nsubj	CxnElt=16:Existential-CopPred-ThereExpl.Pivot|Entity=82)|MSeg=interest-s
@@ -1213,7 +1215,7 @@
 14	process	process	NOUN	NN	Number=Sing	15	compound	15:compound	Entity=64)
 15	right	right	NOUN	NN	Number=Sing	10	nsubj	10:nsubj|17:nsubj	CxnElt=10:Existential-CopPred-ThereExpl.Pivot
 16	that	that	PRON	WDT	PronType=Rel	17	nsubj	15:ref	Discourse=elaboration-attribute:104->103:0:syn-mdf-805-_+syn-relcl-806-807-_
-17	attaches	attach	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	15:acl:relcl	MSeg=attache-s
+17	attaches	attach	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	15:acl:relcl	MSeg=attach-es
 18	to	to	ADP	IN	_	20	case	20:case	_
 19	this	this	DET	DT	Number=Sing|PronType=Dem	20	det	20:det	Entity=(60-abstract-giv:act-nnnnn-cf1-2-coref
 20	interest	interest	NOUN	NN	Number=Sing	17	obl	17:obl:to	Entity=60)129)|SpaceAfter=No
@@ -1562,7 +1564,7 @@
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(63-object-giv:act-sssns-cf1*-2-coref
 8	property	property	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	Entity=63)|MSeg=proper-ty
 9	loses	lose	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	5:ccomp	MSeg=lose-s
-10	protections	protection	NOUN	NNS	Number=Plur	9	obj	9:obj	Entity=(147-abstract-new-nnnnn-cf4-1-sgl)|MSeg=protection-s
+10	protections	protection	NOUN	NNS	Number=Plur	9	obj	9:obj	Entity=(147-abstract-new-nnnnn-cf4-1-sgl)|MSeg=protect-ion-s
 11	when	when	ADV	WRB	PronType=Int	16	advmod	16:advmod	Discourse=context-circumstance:141->140:0:dm-when-1060-gold|PDTB=Explicit:Temporal.Synchronous:when:1060:1055-1059:1061-1066
 12-13	it's	_	_	_	_	_	_	_	_
 12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	16:nsubj	Entity=(63-object-giv:act-sssns-cf1*-1-ana)
@@ -1736,7 +1738,7 @@
 29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(136-abstract-giv:inact-nnnnn-cf5-2-coref
 30	cases	case	NOUN	NNS	Number=Plur	27	nmod	27:nmod:of	MSeg=case-s
 31	cited	cite	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	30	acl	30:acl	Discourse=elaboration-attribute:157->156:0:syn-mdf-1184-_+syn-nmn-1185-_|Entity=136)162)|MSeg=cit-ed
-32	actually	actually	ADV	RB	Degree=Pos	33	advmod	33:advmod	Discourse=same-unit_m:158->156:1:_|MSeg=act-ual-ly
+32	actually	actually	ADV	RB	_	33	advmod	33:advmod	Discourse=same-unit_m:158->156:1:_|MSeg=act-ual-ly
 33	draws	draw	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	24:advcl:on_whether	_
 34	that	that	DET	DT	Number=Sing|PronType=Dem	35	det	35:det	Entity=(157-abstract-giv:act-nnnnn-cf3-2-coref
 35	distinction	distinction	NOUN	NN	Number=Sing	33	obj	33:obj	Entity=157)|MSeg=distinct-ion|SpaceAfter=No
@@ -2035,8 +2037,8 @@
 18	cases	case	NOUN	NNS	Number=Plur	15	obl	15:obl:in	Entity=178)|MSeg=case-s|SpaceAfter=No
 19	,	,	PUNCT	,	_	22	punct	22:punct	_
 20	most	most	ADV	RBS	Degree=Sup	21	advmod	21:advmod	_
-21	notably	notably	ADV	RB	Degree=Pos	22	advmod	22:advmod	MSeg=notab-ly
-22	deOccupy	deOccupy	PROPN	NNP	Number=Sing	18	appos	18:appos|27:obl	Entity=(179-abstract-new-nnnnn-cf7-1,2-sgl|MSeg=de-Occup-y
+21	notably	notably	ADV	RB	Degree=Pos	22	advmod	22:advmod	MSeg=not-abl-y
+22	deOccupy	deOccupy	VERB	NNP	_	18	appos	18:appos|27:obl	Entity=(179-abstract-new-nnnnn-cf7-1,2-sgl|MSeg=de-Occup-y
 23	Honolulu	Honolulu	PROPN	NNP	Number=Sing	22	obj	22:obj	Entity=(180-place-new-nnnnn-cf4-1-sgl-Honolulu)|SpaceAfter=No
 24	,	,	PUNCT	,	_	27	punct	27:punct	_
 25	where	where	ADV	WRB	PronType=Rel	27	advmod	22:ref|27:advmod	Discourse=elaboration-attribute:193->192:0:syn-mdf-1402-_+syn-relcl-1405,1407-_
@@ -2564,8 +2566,8 @@
 3	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Discourse=context-circumstance:241->242:0:lex-indph-1720-1721-_+dm-and-1726-gold|Entity=(205-event-giv:act-nnnnn-cf1*-1-ana)
 4	occurred	occur	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	2:ccomp	MSeg=occurr-ed
 5	on	on	ADP	IN	_	7	case	7:case	_
-6	September	September	PROPN	NNP	Number=Sing	7	compound	7:compound	Entity=(206-time-new-nnnnn-cf4-2-coref|XML=<date when:::"2021-09-17">
-7	17th	17th	ADJ	JJ	Degree=Pos|NumForm=Combi|NumType=Ord	4	obl	4:obl:on	Entity=206)|XML=</date>
+6	September	September	PROPN	NNP	Number=Sing	7	nmod:unmarked	7:nmod:unmarked	Entity=(206-time-new-nnnnn-cf4-2-coref|XML=<date when:::"2021-09-17">
+7	17th	17th	ADJ	JJ	Degree=Pos|NumForm=Combi|NumType=Ord	4	obl	4:obl:on	Entity=206)|MSeg=17-th|XML=</date>
 8	from	from	ADP	IN	_	10	case	10:case	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=4<207:entity-associative|Entity=(207-abstract-acc:inf-nnnnn-cf3-2-sgl
 10	record	record	NOUN	NN	Number=Sing	2	obl	2:obl:from	Entity=207)|SpaceAfter=No

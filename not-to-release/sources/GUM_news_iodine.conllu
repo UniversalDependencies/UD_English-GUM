@@ -1,12 +1,14 @@
 # newdoc id = GUM_news_iodine
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = Wikinews
+# meta::context = public
 # meta::dateCollected = 2016-09-19
 # meta::dateCreated = 2006-02-23
 # meta::dateModified = 2013-05-06
+# meta::formality = formal
 # meta::genre = news
 # meta::modality = written
-# meta::production = formal/prepared/public
+# meta::preparation = prepared
 # meta::salientEntities = 2 (5*), 3 (5*), 5 (5*), 9 (4*), 50 (3), 1 (2*), 4 (2), 6 (2*), 7 (2*), 21 (2), 39 (2*), 53 (2*), 54 (2*), 57 (2), 14 (1*), 15 (1*), 20 (1), 47 (1), 56 (1), 59 (1), 60 (1), 67 (1), 71 (1*), 74 (1*), 125 (1)
 # meta::sourceURL = https://en.wikinews.org/wiki/Australian_children_suffering_from_iodine_deficiency
 # meta::speakerCount = 0
@@ -40,7 +42,7 @@
 # text = Thursday, February 23, 2006
 1	Thursday	Thursday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-circumstance:2->3:9:lex-indph-7-12-_|Entity=(4-time-acc:com-nnssn-cf1-1-coref)|MSeg=Thurs-day|SpaceAfter=No|XML=<date when:::"2006-02-23">
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
-3	February	February	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(4-time-giv:act-nnssn-cf1-2-appos
+3	February	February	PROPN	NNP	Number=Sing	4	nmod:unmarked	4:nmod:unmarked	Entity=(4-time-giv:act-nnssn-cf1-2-appos
 4	23	23	NUM	CD	NumForm=Digit|NumType=Card	1	appos	1:appos	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
 6	2006	2006	NUM	CD	NumForm=Digit|NumType=Card	4	nmod:unmarked	4:nmod:unmarked	Entity=(5-time-new-sssss-cf2-1-coref)4)|XML=</date>
@@ -213,7 +215,7 @@
 12	most	most	ADV	RBS	Degree=Sup	13	advmod	13:advmod	_
 13	effective	effective	ADJ	JJ	Degree=Pos	10	conj	10:conj:and|14:amod	MSeg=effect-ive
 14	method	method	NOUN	NN	Number=Sing	2	ccomp	2:ccomp	_
-15	of	of	SCONJ	IN	_	16	mark	16:mark	Discourse=purpose-attribute:19->18:0:syn-mdf-140-_+syn-nmn-142-_+lex-indwd-142-_
+15	of	of	SCONJ	IN	_	16	mark	16:mark	Discourse=purpose-attribute:19->18:0:syn-mdf-140-_+lex-indwd-142-_+syn-nmn-142-_
 16	preventing	prevent	VERB	VBG	VerbForm=Ger	14	acl	14:acl:of	MSeg=prevent-ing
 17	iodine	iodine	NOUN	NN	Number=Sing	18	compound	18:compound	Entity=(23-abstract-new-nnnnn-cf6-3-coref-Iodine_deficiency(2-abstract-giv:inact-sssss-cf4-2-coref(3-substance-giv:act-sssss-cf2-1-coref-Iodine)|MSeg=iod-ine
 18	deficiency	deficiency	NOUN	NN	Number=Sing	19	compound	19:compound	Entity=2)|MSeg=deficien-cy
@@ -455,7 +457,7 @@
 7	remedy	remedy	VERB	VB	VerbForm=Inf	3	ccomp	3:ccomp	MSeg=remed-y
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(41-abstract-giv:inact-nnnnn-cf3-2-coref
 9	situation	situation	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=41)|MSeg=situat-ion
-10	by	by	SCONJ	IN	_	11	mark	11:mark	Discourse=mode-means:37->36:0:dm-by-327-gold+lex-indwd-328-_+syn-pres-328-_|PDTB=Explicit:Contingency.Condition.Arg1-as-cond:by:327:321-326:328-344;Explicit:Expansion.Manner.Arg2-as-manner:by:327:321-326:328-344
+10	by	by	SCONJ	IN	_	11	mark	11:mark	Discourse=mode-means:37->36:0:dm-by-327-gold+syn-pres-328-_+lex-indwd-328-_|PDTB=Explicit:Contingency.Condition.Arg1-as-cond:by:327:321-326:328-344;Explicit:Expansion.Manner.Arg2-as-manner:by:327:321-326:328-344
 11	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	7	advcl	7:advcl:by	Entity=(62-abstract-new-nnnnn-cf8-1,11-disc|MSeg=us-ing
 12	iodised	iodise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	amod	13:amod	Entity=(39-substance-giv:inact-snnns-cf4-2-coref|MSeg=iodis-ed
 13	salt	salt	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=39)
@@ -611,7 +613,7 @@
 # text = Another contributory factor has been the decreasing consumption of iodised salt used in foods.
 1	Another	another	DET	DT	PronType=Ind	3	det	3:det	Bridge=70<78:comparison-relative;comparison-sense|Discourse=joint-list_m:52->46:3:ref-cmp-405-421,451-453-_|Entity=(78-abstract-acc:inf-nnnnn-cf1-3-coref|MSeg=An-other|PDTB=Implicit:Expansion.Conjunction:and:_:423-450:451-465
 2	contributory	contributory	ADJ	JJ	Degree=Pos	3	amod	3:amod	MSeg=contribut-or-y
-3	factor	factor	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=78)
+3	factor	factor	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=78)|MSeg=fact-or
 4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	8:aux	MSeg=ha-s
 5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	8	cop	8:cop	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(78-abstract-giv:act-nnnnn-cf1-3-coref
@@ -977,7 +979,7 @@
 21	occurring	occur	VERB	VBG	VerbForm=Ger	20	acl	20:acl	Discourse=elaboration-attribute:86->85:0:syn-mdf-745-_+syn-nmn-746-_|MSeg=occurr-ing
 22	in	in	ADP	IN	_	25	case	25:case	_
 23	very	very	ADV	RB	_	24	advmod	24:advmod	Entity=(116-time-new-nnnnn-cf8-3-sgl
-24	early	early	ADJ	JJ	Degree=Pos	25	amod	25:amod	_
+24	early	early	ADJ	JJ	Degree=Pos	25	amod	25:amod	MSeg=ear-ly
 25	life	life	NOUN	NN	Number=Sing	21	obl	21:obl:in	Entity=116)114)113)|SpaceAfter=No
 26	.	.	PUNCT	.	_	10	punct	10:punct	_
 
@@ -1278,7 +1280,7 @@
 46	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	48	aux	48:aux|52:aux	_
 47	n't	not	PART	RB	Polarity=Neg	48	advmod	48:advmod	Negation=Yes
 48	get	get	VERB	VB	VerbForm=Inf	14	ccomp	14:ccomp	_
-49	too	too	ADV	RB	Degree=Pos	50	advmod	50:advmod	_
+49	too	too	ADV	RB	_	50	advmod	50:advmod	_
 50	much	much	ADJ	JJ	Degree=Pos	48	obj	48:obj	_
 51	and	and	CCONJ	CC	_	52	cc	52:cc	Discourse=causal-result:115->109:3:dm-and-980-gold|PDTB=Explicit:Contingency.Cause.Result:and:980:930-979:981-984
 52	get	get	VERB	VB	VerbForm=Inf	48	conj	14:ccomp|48:conj:and	_

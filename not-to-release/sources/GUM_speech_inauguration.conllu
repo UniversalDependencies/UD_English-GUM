@@ -1,12 +1,14 @@
 # newdoc id = GUM_speech_inauguration
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = Ronald Reagan
+# meta::context = public
 # meta::dateCollected = 2020-09-05
 # meta::dateCreated = 1981-01-20
 # meta::dateModified = 1981-01-20
+# meta::formality = formal
 # meta::genre = speech
 # meta::modality = spoken
-# meta::production = formal/prepared/public
+# meta::preparation = prepared
 # meta::salientEntities = 10 (5*), 9 (3), 40 (3*), 132 (3*), 16 (2), 17 (2), 50 (2*), 61 (2*), 79 (2), 88 (2*), 125 (2*), 127 (2), 3 (1), 14 (1*), 57 (1), 63 (1), 90 (1), 102 (1), 106 (1), 107 (1), 131 (1), 134 (1)
 # meta::sourceURL = https://www.presidency.ucsb.edu
 # meta::speakerCount = 1
@@ -26,19 +28,19 @@
 # transition = establishment
 # speaker = RonaldReagan
 # text = Senator Hatfield, Mr. Chief Justice, Mr. President, Vice President Bush, Vice President Mondale, Senator Baker, Speaker O'Neill, Reverend Moomaw, and my fellow citizens:
-1	Senator	Senator	PROPN	NNP	Number=Sing	2	nmod:desc	2:nmod:desc	Discourse=organization-preparation:1->13:4:sem-rpt-8-9,125-126-_+sem-rpt-29-31,130-132-_+ref-prs-29,128-_+grf-col-32-_|Entity=(1-person-new-nnnnn-cf3-2-sgl-Mark_Hatfield|MSeg=Senat-or
+1	Senator	Senator	PROPN	NNP	Number=Sing	2	nmod:desc	2:nmod:desc	Discourse=organization-preparation:1->13:4:sem-rpt-8-9,125-126-_+sem-rpt-29-31,130-132-_+ref-prs-29,128-_+grf-col-32-_|Entity=(1-person-new-nnnnn-cf2-2-sgl-Mark_Hatfield|MSeg=Senat-or
 2	Hatfield	Hatfield	PROPN	NNP	Number=Sing	0	root	0:root	Entity=1)|SpaceAfter=No
 3	,	,	PUNCT	,	_	6	punct	6:punct	_
-4	Mr.	Mr.	PROPN	NNP	Abbr=Yes|Number=Sing	6	nmod:desc	6:nmod:desc	Entity=(2-person-new-nnnnn-cf4-2,3-sgl-Warren_E._Burger
+4	Mr.	Mr.	PROPN	NNP	Abbr=Yes|Number=Sing	6	nmod:desc	6:nmod:desc	Entity=(2-person-new-nnnnn-cf3-2,3-sgl-Warren_E._Burger
 5	Chief	Chief	ADJ	NNP	Degree=Pos	6	amod	6:amod	_
 6	Justice	Justice	PROPN	NNP	Number=Sing	2	conj	2:conj:and	Entity=2)|MSeg=Just-ice|SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	9:punct	_
-8	Mr.	Mr.	PROPN	NNP	Abbr=Yes|Number=Sing	9	nmod:desc	9:nmod:desc	Entity=(3-person-new-nnnsn-cf5-2-coref-Jimmy_Carter
+8	Mr.	Mr.	PROPN	NNP	Abbr=Yes|Number=Sing	9	nmod:desc	9:nmod:desc	Entity=(3-person-new-nnnsn-cf4-2-coref-Jimmy_Carter
 9	President	President	PROPN	NNP	Number=Sing	2	conj	2:conj:and	Entity=3)|MSeg=Presid-ent|SpaceAfter=No
 10	,	,	PUNCT	,	_	13	punct	13:punct	_
-11	Vice	Vice	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=(4-person-new-nnnnn-cf2-1,3-sgl-George_H._W._Bush
+11	Vice	Vice	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=(4-person-new-nnnnn-cf5-1,3-sgl-George_H._W._Bush
 12	President	President	PROPN	NNP	Number=Sing	13	nmod:desc	13:nmod:desc	MSeg=Presid-ent
-13	Bush	Bush	PROPN	NNP	Number=Sing	2	obj	2:obj	Entity=4)|SpaceAfter=No
+13	Bush	Bush	PROPN	NNP	Number=Sing	2	conj	2:conj:and	Entity=4)|SpaceAfter=No
 14	,	,	PUNCT	,	_	17	punct	17:punct	_
 15	Vice	Vice	PROPN	NNP	Number=Sing	16	compound	16:compound	Entity=(5-person-new-nnnnn-cf6-1,3-sgl-Walter_Mondale
 16	President	President	PROPN	NNP	Number=Sing	17	nmod:desc	17:nmod:desc	MSeg=Presid-ent
@@ -137,7 +139,7 @@
 31	how	how	ADV	WRB	PronType=Int	32	advmod	32:advmod	CxnElt=32:Interrogative-WHInfo-Indirect.WHWord|Discourse=adversative-contrast_m:9->4:3:dm-and-86-gold
 32	unique	unique	ADJ	JJ	Degree=Pos	30	ccomp	30:ccomp	Cxn=Interrogative-WHInfo-Indirect|CxnElt=32:Interrogative-WHInfo-Indirect.Clause
 33	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	32	nsubj	32:nsubj	Entity=(9-person-giv:act-nsssn-cf1*-1-ana-Americans)
-34	really	really	ADV	RB	Degree=Pos	32	advmod	32:advmod	MSeg=real-ly
+34	really	really	ADV	RB	_	32	advmod	32:advmod	MSeg=real-ly
 35	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	32	cop	32:cop	SpaceAfter=No
 36	.	.	PUNCT	.	_	13	punct	13:punct	_
 
@@ -324,7 +326,7 @@
 7	one	one	NUM	CD	NumForm=Word|NumType=Card	5	conj	5:conj:and|12:amod	_
 8	of	of	ADP	IN	_	10	case	10:case	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	_
-10	worst	bad	ADJ	JJS	Degree=Sup	7	nmod	7:nmod:of	_
+10	worst	bad	ADJ	JJS	Degree=Sup	7	nmod	7:nmod:of	MSeg=wors-t
 11	sustained	sustain	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	amod	12:amod	MSeg=sustain-ed
 12	inflations	inflation	NOUN	NNS	Number=Plur	2	obl	2:obl:from	MSeg=inflat-ion-s
 13	in	in	ADP	IN	_	16	case	16:case	_
@@ -349,7 +351,7 @@
 8	thrift	thrift	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=(43-abstract-new-nnnnn-cf6-1-sgl)|MSeg=thrif-t|SpaceAfter=No
 9	,	,	PUNCT	,	_	11	punct	11:punct	_
 10	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=joint-list_m:27->25:0:sem-mrnym-247,256-258-_+dm-and-254-gold|PDTB=Explicit:Expansion.Conjunction:and:254:251-253:255-266
-11	crushes	crush	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	2:conj:and	MSeg=crushe-s
+11	crushes	crush	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	2:conj:and	MSeg=crush-es
 12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Bridge=9<44:entity-associative|Entity=(44-person-acc:inf-nnnnn-cf3-3-sgl
 13	struggling	struggle	VERB	VBG	VerbForm=Ger	14	amod	14:amod	MSeg=struggl-ing
 14	young	young	ADJ	JJ	Degree=Pos	11	obj	11:obj	Entity=44)
@@ -776,7 +778,7 @@
 12	society	society	NOUN	NN	Number=Sing	14	nsubj	14:nsubj|16:nsubj:xsubj|19:nsubj:pass:xsubj	Entity=(93-abstract-new-nnnnn-cf3-1-coref)|MSeg=soci-ety
 13	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	14:aux	MSeg=ha-s
 14	become	become	VERB	VBN	Tense=Past|VerbForm=Part	10	ccomp	10:ccomp	MSeg=be-come
-15	too	too	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
+15	too	too	ADV	RB	_	16	advmod	16:advmod	_
 16	complex	complex	ADJ	JJ	Degree=Pos	14	xcomp	14:xcomp	_
 17	to	to	PART	TO	_	19	mark	19:mark	_
 18	be	be	AUX	VB	VerbForm=Inf	19	aux:pass	19:aux:pass	_
@@ -925,7 +927,7 @@
 12	that	that	PRON	WDT	PronType=Rel	17	nsubj:pass	11:ref	Discourse=elaboration-attribute:79->78:0:syn-mdf-671-_+syn-relcl-672,677-_
 13	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	17:aux	MSeg=ha-s
 14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	17	aux:pass	17:aux:pass	_
-15	too	too	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
+15	too	too	ADV	RB	_	16	advmod	16:advmod	_
 16	long	long	ADV	RB	Degree=Pos	17	advmod	17:advmod	_
 17	neglected	neglect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	acl:relcl	11:acl:relcl	Entity=109)|MSeg=neglect-ed|SpaceAfter=No
 18	.	.	PUNCT	.	_	11	punct	11:punct	_
@@ -1090,14 +1092,14 @@
 # text = Putting America back to work means putting all Americans back to work.
 1	Putting	put	VERB	VBG	VerbForm=Ger	6	csubj	6:csubj	Discourse=explanation-justify:97->99:1:_|MSeg=Putt-ing|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:in particular:_:767-798:799-811
 2	America	America	PROPN	NNP	Number=Sing	1	obj	1:obj|5:nsubj:xsubj	Entity=(16-place-giv:inact-nssnn-cf3-1-coref-United_States)
-3	back	back	ADV	RB	Degree=Pos	1	advmod	1:advmod	_
+3	back	back	ADV	RB	_	1	advmod	1:advmod	_
 4	to	to	SCONJ	IN	_	5	mark	5:mark	_
 5	work	work	NOUN	NN	Number=Sing	1	xcomp	1:xcomp	Entity=(131-abstract-new-nsnnn-cf2-1-coref)
 6	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=mean-s
 7	putting	put	VERB	VBG	VerbForm=Ger	6	ccomp	6:ccomp	MSeg=putt-ing
 8	all	all	DET	DT	PronType=Ind	9	det	9:det	Entity=(9-person-giv:act-nsssn-cf1*-2-coref-Americans
 9	Americans	American	PROPN	NNPS	Number=Plur	7	obj	7:obj|12:nsubj:xsubj	Entity=9)|MSeg=America-n-s
-10	back	back	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
+10	back	back	ADV	RB	_	7	advmod	7:advmod	_
 11	to	to	SCONJ	IN	_	12	mark	12:mark	_
 12	work	work	NOUN	NN	Number=Sing	7	xcomp	7:xcomp	Entity=(131-abstract-giv:act-nsnnn-cf2-1-coref)|SpaceAfter=No
 13	.	.	PUNCT	.	_	6	punct	6:punct	_

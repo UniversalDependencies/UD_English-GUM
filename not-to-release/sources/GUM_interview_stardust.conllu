@@ -1,12 +1,14 @@
 # newdoc id = GUM_interview_stardust
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = Wikinews
+# meta::context = public
 # meta::dateCollected = 2016-09-19
 # meta::dateCreated = 2006-05-28
 # meta::dateModified = 2015-10-14
+# meta::formality = formal
 # meta::genre = interview
 # meta::modality = written
-# meta::production = formal/spontaneous/public
+# meta::preparation = spontaneous
 # meta::salientEntities = 5 (5*), 8 (5*), 11 (5*), 30 (5*), 94 (5*), 99 (5*), 4 (4*), 63 (4*), 9 (3*), 10 (3*), 12 (3*), 7 (1), 21 (1*), 22 (1*), 36 (1), 50 (1), 61 (1), 90 (1), 91 (1), 97 (1*), 115 (1*), 120 (1), 126 (1)
 # meta::sourceURL = https://en.wikinews.org/wiki/Keep_your_eyes_peeled_for_cosmic_debris:_Andrew_Westphal_about_Stardust@home
 # meta::speakerCount = 2
@@ -47,7 +49,7 @@
 # text = Sunday, May 28, 2006
 1	Sunday	Sunday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-circumstance:3->26:7:lex-indph-15-20-_|Entity=(6-time-acc:com-nnnnn-cf1-1-coref)|SpaceAfter=No|XML=<date when:::"2006-05-28" rend:::"bold">
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
-3	May	May	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(6-time-giv:act-nnnnn-cf1-2-appos
+3	May	May	PROPN	NNP	Number=Sing	4	nmod:unmarked	4:nmod:unmarked	Entity=(6-time-giv:act-nnnnn-cf1-2-appos
 4	28	28	NUM	CD	NumForm=Digit|NumType=Card	1	appos	1:appos	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
 6	2006	2006	NUM	CD	NumForm=Digit|NumType=Card	4	nmod:unmarked	4:nmod:unmarked	Entity=(7-time-new-nsnnn-cf2-1-coref)6)|XML=</date>
@@ -84,11 +86,11 @@
 23	space	space	NOUN	NN	Number=Sing	11	nmod	11:nmod:in	Entity=13)
 24	and	and	CCONJ	CC	_	25	cc	25:cc	Discourse=joint-sequence_m:8->5:2:dm-and-44-gold+lex-indph-50-53-_|PDTB=Explicit:Expansion.Conjunction:and:44:27-43:45-54;Implicit:Temporal.Asynchronous.Precedence:then:_:27-43:44-54
 25	landed	land	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	6:acl:relcl|8:conj:and	MSeg=land-ed
-26	back	back	ADV	RB	Degree=Pos	25	advmod	25:advmod	_
+26	back	back	ADV	RB	_	25	advmod	25:advmod	_
 27	on	on	ADP	IN	_	28	case	28:case	_
 28	Earth	Earth	PROPN	NNP	Number=Sing	25	obl	25:obl:on	Entity=(14-place-new-nnnnn-cf5-1-coref-Earth)
 29	on	on	ADP	IN	_	31	case	31:case	_
-30	January	January	PROPN	NNP	Number=Sing	31	compound	31:compound	Entity=(15-time-new-nnnnn-cf7-2-sgl|XML=<date when:::"2006-01-15">
+30	January	January	PROPN	NNP	Number=Sing	31	nmod:unmarked	31:nmod:unmarked	Entity=(15-time-new-nnnnn-cf7-2-sgl|XML=<date when:::"2006-01-15">
 31	15	15	NUM	CD	NumForm=Digit|NumType=Card	28	nmod	28:nmod:on	SpaceAfter=No
 32	,	,	PUNCT	,	_	33	punct	33:punct	_
 33	2006	2006	NUM	CD	NumForm=Digit|NumType=Card	31	nmod:unmarked	31:nmod:unmarked	Entity=(7-time-giv:act-nsnnn-cf3*-1-coref)15)8)|SpaceAfter=No|XML=</date>
@@ -200,7 +202,7 @@
 12	IOTM	IOTM	PROPN	NNP	Abbr=Yes|Number=Sing	10	appos	10:appos	Entity=(22-event-giv:act-snnnn-cf3-1-coref)|SpaceAfter=No
 13	)	)	PUNCT	-RRB-	_	12	punct	12:punct	_
 14	on	on	ADP	IN	_	16	case	16:case	Discourse=same-unit_m:17->15:1:_
-15	May	May	PROPN	NNP	Number=Sing	16	compound	16:compound	Entity=(24-time-new-nnnnn-cf6-2-sgl|XML=<date when:::"2006-05-18">
+15	May	May	PROPN	NNP	Number=Sing	16	nmod:unmarked	16:nmod:unmarked	Entity=(24-time-new-nnnnn-cf6-2-sgl|XML=<date when:::"2006-05-18">
 16	18	18	NUM	CD	NumForm=Digit|NumType=Card	2	obl	2:obl:on	SpaceAfter=No
 17	,	,	PUNCT	,	_	18	punct	18:punct	_
 18	2006	2006	NUM	CD	NumForm=Digit|NumType=Card	16	nmod:unmarked	16:nmod:unmarked	Entity=(7-time-giv:inact-nsnnn-cf4-1-coref)24)|SpaceAfter=No|XML=</date>
@@ -319,7 +321,7 @@
 # text = It is really two missions in one.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=organization-preparation:28->29:2:sem-synym-193,206-207-_+num-count-196-_+sem-lxchn-197,207-_|Entity=(30-event-giv:act-sssss-cf1*-1-ana)|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:181-192:193-200
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
-3	really	really	ADV	RB	Degree=Pos	5	advmod	5:advmod	MSeg=real-ly
+3	really	really	ADV	RB	_	5	advmod	5:advmod	MSeg=real-ly
 4	two	two	NUM	CD	NumForm=Word|NumType=Card	5	nummod	5:nummod	Entity=(30-event-giv:act-sssss-cf1*-2-pred
 5	missions	mission	NOUN	NNS	Number=Plur	0	root	0:root	MSeg=mission-s
 6	in	in	ADP	IN	_	7	case	7:case	_
@@ -437,7 +439,7 @@
 11	mission	mission	NOUN	NN	Number=Sing	9	obj	9:obj|13:nsubj	_
 12	that	that	PRON	WDT	PronType=Rel	13	nsubj	11:ref	Discourse=elaboration-attribute:37->36:0:syn-mdf-282-_+syn-relcl-283-284-_
 13	brings	bring	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	11:acl:relcl	MSeg=bring-s
-14	back	back	ADV	RB	Degree=Pos	13	advmod	13:advmod	_
+14	back	back	ADV	RB	_	13	advmod	13:advmod	_
 15	extraterrestrial	extraterrestrial	ADJ	JJ	Degree=Pos	16	amod	16:amod	Bridge=14<43:entity-associative|Entity=(43-substance-acc:inf-nnnnn-cf3-2-sgl|MSeg=extra-terrestrial
 16	material	material	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=43)39)|MSeg=mater-ial|SpaceAfter=No
 17	.	.	PUNCT	.	_	9	punct	9:punct	_
@@ -474,7 +476,7 @@
 # text = Genesis brought back a sample from the Sun almost two years ago, but Stardust is also bringing back the first solid samples from the local interstellar medium —
 1	Genesis	Genesis	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=adversative-concession:40->41:1:lex-indwd-314-_+dm-but-319-gold|Entity=(45-event-new-nnnnn-cf4-1-coref-Genesis_%28spacecraft%29)|MSeg=Genes-is|PDTB=Implicit:Contingency.Cause.Reason:because:_:289-305:306-334
 2	brought	bring	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-3	back	back	ADV	RB	Degree=Pos	2	advmod	2:advmod	_
+3	back	back	ADV	RB	_	2	advmod	2:advmod	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(46-object-new-nnnnn-cf5-2-sgl
 5	sample	sample	NOUN	NN	Number=Sing	2	obj	2:obj	_
 6	from	from	ADP	IN	_	8	case	8:case	_
@@ -490,7 +492,7 @@
 16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	18:aux	_
 17	also	also	ADV	RB	_	18	advmod	18:advmod	PDTB=Explicit:Expansion.Conjunction:also:322:306-318:319-321,323-334
 18	bringing	bring	VERB	VBG	Tense=Pres|VerbForm=Part	2	conj	2:conj:but	MSeg=bring-ing
-19	back	back	ADV	RB	Degree=Pos	18	advmod	18:advmod	_
+19	back	back	ADV	RB	_	18	advmod	18:advmod	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(11-object-giv:inact-sssss-cf2-4-coref
 21	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	23	amod	23:amod	_
 22	solid	solid	ADJ	JJ	Degree=Pos	23	amod	23:amod	_
@@ -534,7 +536,7 @@
 7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	11:nsubj	Entity=(51-person-acc:com-nnnnn-cf2-1-ana)
 8	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	cop	11:cop	_
 9	obviously	obviously	ADV	RB	Degree=Pos	11	advmod	11:advmod	MSeg=obvious-ly
-10	incredibly	incredibly	ADV	RB	Degree=Pos	11	advmod	11:advmod	MSeg=incredib-ly
+10	incredibly	incredibly	ADV	RB	Degree=Pos	11	advmod	11:advmod	MSeg=in-cred-ibl-y
 11	excited	excited	ADJ	JJ	Degree=Pos	4	conj	4:conj:and	MSeg=excit-ed|SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -587,7 +589,7 @@
 40	launch	launch	NOUN	NN	Number=Sing	41	compound	41:compound	_
 41	pad	pad	NOUN	NN	Number=Sing	37	nmod	37:nmod:from	Entity=58)|SpaceAfter=No
 42	,	,	PUNCT	,	_	43	punct	43:punct	_
-43	too	too	ADV	RB	Degree=Pos	37	advmod	37:advmod	SpaceAfter=No
+43	too	too	ADV	RB	_	37	advmod	37:advmod	SpaceAfter=No
 44	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GUM_interview_stardust-25
@@ -711,7 +713,7 @@
 17	)	)	PUNCT	-RRB-	_	12	punct	12:punct	_
 18	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=joint-list_m:64->62:1:dm-and-467-gold|PDTB=Explicit:Expansion.Conjunction:and:467:455-466:468-499
 19	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	20:cop	_
-20	somewhere	somewhere	ADV	RB	PronType=Tot	10	conj	5:advcl:because|10:conj:and	_
+20	somewhere	somewhere	ADV	RB	PronType=Tot	10	conj	5:advcl:because|10:conj:and	MSeg=some-where
 21	(	(	PUNCT	-LRB-	_	25	punct	25:punct	Discourse=elaboration-additional:65->64:0:grf-prn-470,476-_|SpaceAfter=No
 22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	25:nsubj	Entity=(51-person-giv:act-nnnnn-cf1*-1-ana)
 23-24	don't	_	_	_	_	_	_	_	_

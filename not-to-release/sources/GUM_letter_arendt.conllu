@@ -1,12 +1,14 @@
 # newdoc id = GUM_letter_arendt
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = Bill
+# meta::context = private
 # meta::dateCollected = 2023-09-09
 # meta::dateCreated = 1975-08-19
 # meta::dateModified = 1975-08-19
+# meta::formality = formal
 # meta::genre = letter
 # meta::modality = written
-# meta::production = formal/prepared/private
+# meta::preparation = prepared
 # meta::salientEntities = 6 (5*), 24 (5*), 3 (4*), 57 (4*), 1 (3*), 2 (3*), 7 (3*), 32 (3*), 14 (2), 15 (2*), 16 (2*), 17 (2*), 26 (2), 107 (2*), 5 (1), 29 (1), 33 (1), 54 (1*), 59 (1), 91 (1*), 103 (1*), 109 (1*)
 # meta::sourceURL = https://www.loc.gov/collections/hannah-arendt-papers/?sb=date_desc
 # meta::speakerCount = 0
@@ -25,7 +27,7 @@
 # s_type = frag
 # transition = establishment
 # text = August 19, 1975
-1	August	August	PROPN	NNP	Number=Sing	2	compound	2:compound	Discourse=context-circumstance:1->3:5:lex-indph-1-4-_|Entity=(1-time-new-sssnn-cf1-2-coref|XML=<date when:::"1975-08-19">
+1	August	August	PROPN	NNP	Number=Sing	2	nmod:unmarked	2:nmod:unmarked	Discourse=context-circumstance:1->3:5:lex-indph-1-4-_|Entity=(1-time-new-sssnn-cf1-2-coref|XML=<date when:::"1975-08-19">
 2	19	19	NUM	CD	NumForm=Digit|NumType=Card	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
 4	1975	1975	NUM	CD	NumForm=Digit|NumType=Card	2	nmod:unmarked	2:nmod:unmarked	Entity=(2-time-new-sssnn-cf2-1-sgl)1)|XML=</date>
@@ -50,7 +52,7 @@
 # text = We are back from Europe, having been to London then to Mallorca and back to London.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=ROOT:3:0|Entity=(4-person-acc:com-nnnnn-cf2-1-ana)
 2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
-3	back	back	ADV	RB	Degree=Pos	0	root	0:root	_
+3	back	back	ADV	RB	_	0	root	0:root	_
 4	from	from	ADP	IN	_	5	case	5:case	_
 5	Europe	Europe	PROPN	NNP	Number=Sing	3	obl	3:obl:from	Entity=(5-place-new-nnnns-cf3-1-sgl-Europe)|SpaceAfter=No
 6	,	,	PUNCT	,	_	10	punct	10:punct	_
@@ -62,7 +64,7 @@
 12	to	to	ADP	IN	_	13	case	13:case	_
 13	Mallorca	Mallorca	PROPN	NNP	Number=Sing	10	conj	3:advcl|10:conj:and	Entity=(7-place-new-sssnn-cf4-1-coref-Mallorca)
 14	and	and	CCONJ	CC	_	17	cc	17:cc	Discourse=joint-sequence_m:6->4:0:dm-and-21-gold|PDTB=Explicit:Expansion.Conjunction:and:21:18-20:22-25;Implicit:Temporal.Asynchronous.Precedence:then:_:18-20:21-25
-15	back	back	ADV	RB	Degree=Pos	17	advmod	17:advmod	_
+15	back	back	ADV	RB	_	17	advmod	17:advmod	_
 16	to	to	ADP	IN	_	17	case	17:case	_
 17	London	London	PROPN	NNP	Number=Sing	10	conj	3:advcl|10:conj:and	Entity=(6-place-giv:act-sssss-cf1-1-coref-London)|SpaceAfter=No
 18	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -100,7 +102,7 @@
 26	not	not	PART	RB	Polarity=Neg	27	advmod	27:advmod	Negation=Yes
 27	green	green	ADJ	JJ	Degree=Pos	21	conj	21:conj:and	SpaceAfter=No
 28	,	,	PUNCT	,	_	33	punct	33:punct	_
-29	probably	probably	ADV	RB	Degree=Pos	33	advmod	33:advmod	MSeg=probab-ly
+29	probably	probably	ADV	RB	Degree=Pos	33	advmod	33:advmod	MSeg=probabl-y
 30	for	for	ADP	IN	_	33	case	33:case	_
 31	the	the	DET	DT	Definite=Def|PronType=Art	33	det	33:det	Bridge=1<12:comparison-relative;comparison-time|Entity=(12-time-acc:inf-nnnnn-cf5-3-sgl
 32	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	33	amod	33:amod	_
@@ -528,7 +530,7 @@
 5	that	that	SCONJ	IN	_	7	mark	7:mark	_
 6	there	there	PRON	EX	PronType=Dem	7	expl	7:expl	_
 7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	Cxn=Existential-CopPred-ThereExpl
-8	none	none	PRON	NN	Number=Sing|PronType=Neg	7	nsubj	7:nsubj	CxnElt=7:Existential-CopPred-ThereExpl.Pivot|Negation=Yes
+8	none	none	PRON	NN	Number=Sing|PronType=Ind	7	nsubj	7:nsubj	CxnElt=7:Existential-CopPred-ThereExpl.Pivot|Negation=Yes
 9	of	of	ADP	IN	_	12	case	12:case	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(60-event-new-nnnnn-cf6-3,5-coref
 11	hectic	hectic	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
@@ -546,8 +548,8 @@
 23	and	and	CCONJ	CC	_	27	cc	27:cc	_
 24	even	even	ADV	RB	_	27	advmod	27:advmod	_
 25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(62-organization-new-nnnnn-cf7-3-sgl
-26	middle	middle	ADJ	JJ	Degree=Pos	27	amod	27:amod	_
-27	classes	class	NOUN	NNS	Number=Plur	22	conj	19:obl:amongst|22:conj:and	MSeg=classe-s
+26	middle	middle	ADJ	JJ	Degree=Pos	27	amod	27:amod	MSeg=midd-le
+27	classes	class	NOUN	NNS	Number=Plur	22	conj	19:obl:amongst|22:conj:and	MSeg=class-es
 28	in	in	ADP	IN	_	29	case	29:case	_
 29	London	London	PROPN	NNP	Number=Sing	27	nmod	27:nmod:in|34:obl	Entity=(6-place-giv:inact-sssss-cf3-1-coref-London|SpaceAfter=No
 30	,	,	PUNCT	,	_	34	punct	34:punct	_
@@ -692,7 +694,7 @@
 28	,	,	PUNCT	,	_	30	punct	30:punct	_
 29	and	and	CCONJ	CC	_	30	cc	30:cc	_
 30	so	so	ADV	RB	_	21	conj	21:conj:and	_
-31	forth	forth	ADV	RB	Degree=Pos	21	conj	21:conj	SpaceAfter=No
+31	forth	forth	ADV	RB	Degree=Pos	21	conj	21:conj	MSeg=for-th|SpaceAfter=No
 32	.	.	PUNCT	.	_	19	punct	19:punct	_
 
 # newpar
@@ -777,13 +779,13 @@
 3	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	MSeg=see-n
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(85-person-acc:com-nnnnn-cf2-2-coref
 5	doctor	doctor	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=85)
-6	twice	twice	ADV	RB	NumForm=Word|NumType=Mult	3	advmod	3:advmod	_
+6	twice	twice	ADV	RB	NumForm=Word|NumType=Mult	3	advmod	3:advmod	MSeg=tw-ice
 7	since	since	SCONJ	IN	_	11	mark	11:mark	Discourse=context-circumstance:74->73:0:dm-since-584-gold|PDTB=Explicit:Temporal.Asynchronous.Succession:since:584:578-583:585-589
 8-9	I've	_	_	_	_	_	_	_	_
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj	Entity=(24-person-giv:act-sssss-cf1-1-ana-Regent)
 9	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
 10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	cop	11:cop	_
-11	back	back	ADV	RB	Degree=Pos	3	advcl	3:advcl:since	SpaceAfter=No
+11	back	back	ADV	RB	_	3	advcl	3:advcl:since	SpaceAfter=No
 12	,	,	PUNCT	,	_	16	punct	16:punct	_
 13	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=attribution-positive:75->76:0:sem-atsrc-591-_+lex-indwd-593-_+grf-qt-599,602-_|PDTB=Explicit:Expansion.Level-of-detail.Arg2-as-detail:and:590:578-589:591-623
 14-15	he's	_	_	_	_	_	_	_	_

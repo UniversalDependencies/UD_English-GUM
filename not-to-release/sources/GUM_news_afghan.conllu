@@ -1,12 +1,14 @@
 # newdoc id = GUM_news_afghan
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = Wikinews
+# meta::context = public
 # meta::dateCollected = 2019-11-05
 # meta::dateCreated = 2017-07-18
 # meta::dateModified = 2017-08-06
+# meta::formality = formal
 # meta::genre = news
 # meta::modality = written
-# meta::production = formal/prepared/public
+# meta::preparation = prepared
 # meta::salientEntities = 2 (5*), 3 (5*), 5 (5*), 9 (5*), 16 (5*), 18 (5*), 11 (4*), 22 (4*), 4 (3*), 29 (3), 6 (2), 17 (2*), 31 (2), 1 (1*), 21 (1), 26 (1), 27 (1), 37 (1), 77 (1*), 91 (1), 92 (1), 96 (1), 97 (1)
 # meta::sourceURL = https://en.wikinews.org/wiki/After_visa_snags%2C_all-girl_Afghan_team_honored_for_%27courageous_achievement%27_at_international_robotics_competition
 # meta::speakerCount = 0
@@ -52,7 +54,7 @@
 # text = Friday, July 21, 2017
 1	Friday	Friday	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=context-circumstance:2->3:9:lex-indph-20-25-_|Entity=(7-time-new-nnnnn-cf1-1-coref)|MSeg=Fri-day|SpaceAfter=No|XML=<hi rend:::"bold"><date when:::"2017-07-21">
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
-3	July	July	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(7-time-giv:act-nnnnn-cf1-2-appos
+3	July	July	PROPN	NNP	Number=Sing	4	nmod:unmarked	4:nmod:unmarked	Entity=(7-time-giv:act-nnnnn-cf1-2-appos
 4	21	21	NUM	CD	NumForm=Digit|NumType=Card	1	appos	1:appos	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
 6	2017	2017	NUM	CD	NumForm=Digit|NumType=Card	4	nmod:unmarked	4:nmod:unmarked	Entity=(8-time-new-nnnnn-cf2-1-coref)7)|XML=</date></hi>
@@ -311,7 +313,7 @@
 # s_type = decl
 # transition = establishment
 # text = For the contest, the robots were required to recognize, pick up, carry, and deposit balls colored blue and orange to represent water and pollution, respectively.
-1	For	for	ADP	IN	_	3	case	3:case	Discourse=elaboration-additional:23->22:0:sem-mrnym-208-211,217-218-_+sem-lxchn-213,241-gold+sem-rpt-213,241-_|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:208-215:216-246
+1	For	for	ADP	IN	_	3	case	3:case	Discourse=elaboration-additional:23->22:0:sem-mrnym-208-211,217-218-_+sem-rpt-213,241-_+sem-lxchn-213,241-gold|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:208-215:216-246
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(5-event-giv:inact-sssss-cf2-2-coref-FIRST_Robotics_Competition
 3	contest	contest	NOUN	NN	Number=Sing	8	obl	8:obl:for	Entity=5)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
@@ -520,7 +522,7 @@
 36	can	can	AUX	MD	VerbForm=Fin	37	aux	37:aux	_
 37	make	make	VERB	VB	VerbForm=Inf	32	ccomp	32:ccomp	_
 38	robots	robot	NOUN	NNS	Number=Plur	37	obj	37:obj	Entity=(74-object-new-nnnnn-cf7-1-sgl)|MSeg=robot-s
-39	too	too	ADV	RB	Degree=Pos	37	advmod	37:advmod	_
+39	too	too	ADV	RB	_	37	advmod	37:advmod	_
 40	and	and	CCONJ	CC	_	43	cc	43:cc	Discourse=joint-list_m:44->43:0:lex-indwd-390-_+dm-and-391-gold|PDTB=Explicit:Expansion.Conjunction:and:391:384-390:392-404
 41	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	43	nsubj	43:nsubj	Entity=(3-organization-giv:act-sssss-cf1-1-ana-Afghan_Girls_Robotics_Team)
 42	can	can	AUX	MD	VerbForm=Fin	43	aux	43:aux	_
@@ -602,7 +604,7 @@
 # text = They were twice denied visas to enter the United States.
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj:pass	4:nsubj:pass	CxnElt=4:Ditransitive.Rec|Discourse=elaboration-additional:53->52:0:_|Entity=(3-organization-giv:inact-sssss-cf1-1-ana-Afghan_Girls_Robotics_Team)
 2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	4:aux:pass	_
-3	twice	twice	ADV	RB	NumForm=Word|NumType=Mult	4	advmod	4:advmod	_
+3	twice	twice	ADV	RB	NumForm=Word|NumType=Mult	4	advmod	4:advmod	MSeg=tw-ice
 4	denied	deny	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	Cxn=Ditransitive|CxnElt=4:Ditransitive.V|MSeg=deni-ed
 5	visas	visa	NOUN	NNS	Number=Plur	4	obj	4:obj	CxnElt=4:Ditransitive.Theme|Entity=(2-abstract-giv:inact-sssss-cf3-1,5-coref|MSeg=visa-s
 6	to	to	PART	TO	_	7	mark	7:mark	Discourse=purpose-attribute:54->53:0:syn-mdf-453-_+syn-inf-454-_
@@ -664,7 +666,7 @@
 2	made	make	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(80-event-giv:act-nnnnn-cf2-2-coref
 4	trip	trip	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=80)
-5	twice	twice	ADV	RB	NumForm=Word|NumType=Mult	2	advmod	2:advmod	_
+5	twice	twice	ADV	RB	NumForm=Word|NumType=Mult	2	advmod	2:advmod	MSeg=tw-ice
 6	and	and	CCONJ	CC	_	8	cc	8:cc	Discourse=joint-list_m:60->59:0:sem-mrnym-499-500,506-507-_+sem-lxchn-501,506-507-gold+dm-and-502-gold|PDTB=Explicit:Expansion.Conjunction:and:502:497-501:503-508
 7	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	8:aux:pass	_
 8	turned	turn	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	2:conj:and	MSeg=turn-ed
@@ -734,7 +736,7 @@
 29	"	"	PUNCT	``	_	32	punct	32:punct	SpaceAfter=No|XML=<q>
 30	significant	significant	ADJ	JJ	Degree=Pos	32	amod	32:amod	MSeg=signific-ant
 31	public	public	ADJ	JJ	Degree=Pos	32	amod	32:amod	MSeg=publ-ic
-32	benefit	benefit	NOUN	NN	Number=Sing	22	acl	22:acl:that	SpaceAfter=No
+32	benefit	benefit	NOUN	NN	Number=Sing	22	acl	22:acl:that	MSeg=bene-fit|SpaceAfter=No
 33	.	.	PUNCT	.	_	32	punct	32:punct	SpaceAfter=No
 34	"	"	PUNCT	''	_	32	punct	32:punct	Entity=93)|XML=</q>
 

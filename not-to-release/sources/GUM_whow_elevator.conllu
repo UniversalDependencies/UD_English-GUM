@@ -1,12 +1,14 @@
 # newdoc id = GUM_whow_elevator
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = Ethan Schoenhofen, Alex, Jeff and others (see URL)
+# meta::context = public
 # meta::dateCollected = 2016-09-19
 # meta::dateCreated = 2009-06-26
 # meta::dateModified = 2016-08-27
+# meta::formality = formal
 # meta::genre = whow
 # meta::modality = written
-# meta::production = formal/prepared/public
+# meta::preparation = prepared
 # meta::salientEntities = 1 (5*), 2 (5*), 16 (5*), 17 (5*), 28 (5*), 29 (5*), 64 (5*), 3 (4*), 71 (4*), 7 (3*), 35 (3), 41 (3*), 11 (2*), 18 (2), 54 (2*), 58 (2), 79 (2), 84 (2*), 90 (2*), 92 (2*), 93 (2*), 14 (1), 42 (1*), 55 (1*), 72 (1), 89 (1*), 94 (1*)
 # meta::sourceURL = https://www.wikihow.com/Annoy-People-in-Elevators
 # meta::speakerCount = 0
@@ -368,7 +370,7 @@
 2	time	time	NOUN	NN	Number=Sing	10	obl:unmarked	10:obl:unmarked	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(3-place-giv:inact-ssssn-cf2-2-coref
 4	elevator	elevator	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=3)|MSeg=elevat-or
-5	reaches	reach	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	MSeg=reache-s
+5	reaches	reach	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	MSeg=reach-es
 6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Bridge=29<30:comparison-relative;set-member|Entity=(30-place-acc:inf-nnnnn-cf3-3-coref
 7	new	new	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	floor	floor	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=30)|SpaceAfter=No
@@ -760,7 +762,7 @@
 # s_type = imp
 # transition = zero
 # text = Say something like “Everyone going to floor ten, get off now! No time to dilly dally!” [4]
-1	Say	say	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:84->85:3:lex-indwd-518-_+sem-atsrc-518-_+grf-qt-521,538-_|PDTB=Implicit:Contingency.Cause.Result:so:_:504-517:518-541
+1	Say	say	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:84->85:3:sem-atsrc-518-_+lex-indwd-518-_+grf-qt-521,538-_|PDTB=Implicit:Contingency.Cause.Result:so:_:504-517:518-541
 2	something	something	PRON	NN	Number=Sing|PronType=Ind	1	obj	1:obj	Entity=(73-abstract-new-nnnnn-cf1-1-sgl)|MSeg=some-thing
 3	like	like	SCONJ	IN	_	11	mark	11:mark	_
 4	“	"	PUNCT	``	_	11	punct	11:punct	Discourse=elaboration-additional:85->82:1:_|SpaceAfter=No
@@ -820,8 +822,8 @@
 # s_type = imp
 # transition = establishment
 # text = Exclaim that you've lost a beast.
-1	Exclaim	exclaim	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:94->95:0:lex-indwd-562-_+sem-atsrc-562-_+syn-rpr-563-_|XML=<hi rend:::"bold">
-2	that	that	SCONJ	IN	_	5	mark	5:mark	Discourse=organization-preparation:95->99:5:sem-lxchn-562,590-_+ref-prs-564,592-_+sem-lxchn-566,593-_
+1	Exclaim	exclaim	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:94->95:0:sem-atsrc-562-_+lex-indwd-562-_+syn-rpr-563-_|XML=<hi rend:::"bold">
+2	that	that	SCONJ	IN	_	5	mark	5:mark	Discourse=organization-preparation:95->99:5:ref-prs-564,592-_+sem-lxchn-566,593-_
 3-4	you've	_	_	_	_	_	_	_	_
 3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(7-person-giv:act-ssnsn-cf1*-1-ana)
 4	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
@@ -870,7 +872,7 @@
 33	that	that	SCONJ	IN	_	39	mark	39:mark	Discourse=adversative-contrast_m:101->99:1:dm-but-600-gold
 34	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	39	nsubj	39:nsubj	Entity=(84-animal-giv:act-ssnnn-cf2-1-ana)
 35	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	39:cop	_
-36	somewhere	somewhere	ADV	RB	PronType=Tot	39	advmod	39:advmod	Entity=(85-place-new-nnnnn-cf6-4-sgl
+36	somewhere	somewhere	ADV	RB	PronType=Tot	39	advmod	39:advmod	Entity=(85-place-new-nnnnn-cf6-4-sgl|MSeg=some-where
 37	in	in	ADP	IN	_	39	case	39:case	_
 38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	39:det	Entity=(3-place-giv:act-ssssn-cf3-2-coref
 39	elevator	elevator	NOUN	NN	Number=Sing	32	ccomp	32:ccomp	Entity=3)85)|MSeg=elevat-or|SpaceAfter=No
@@ -886,7 +888,7 @@
 1	Most	most	ADJ	JJS	Degree=Sup	2	amod	2:amod	Discourse=attribution-positive:102->103:0:sem-atsrc-610-611-_+lex-indwd-614-_+syn-rpr-615-_|Entity=(86-person-new-nnnnn-cf2-2-sgl
 2	people	person	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=86)
 3	will	will	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
-4	probably	probably	ADV	RB	Degree=Pos	5	advmod	5:advmod	MSeg=probab-ly
+4	probably	probably	ADV	RB	Degree=Pos	5	advmod	5:advmod	MSeg=probabl-y
 5	see	see	VERB	VB	VerbForm=Inf	0	root	0:root	_
 6	that	that	SCONJ	IN	_	10	mark	10:mark	Discourse=elaboration-additional:103->99:4:ref-prop-570-609,616-_
 7	this	this	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	10:nsubj	Entity=(80-event-giv:act-nnnnn-cf1*-1-coref)
@@ -973,7 +975,7 @@
 5	on	on	ADP	IN	_	7	case	7:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Bridge=3<94:entity-meronomy|Entity=(94-place-acc:inf-snnnn-cf2-2-sgl
 7	floor	floor	NOUN	NN	Number=Sing	1	obl	1:obl:on	Entity=94)
-8	and	and	CCONJ	CC	_	9	cc	9:cc	Discourse=attribution-positive:112->113:0:sem-atsrc-675-_+lex-indwd-675-_+syn-rpr-677-_|PDTB=Explicit:Expansion.Conjunction:and:674:667-673:675-682;Implicit:Temporal.Asynchronous.Precedence:then:_:667-673:674-682
+8	and	and	CCONJ	CC	_	9	cc	9:cc	Discourse=attribution-positive:112->113:0:lex-indwd-675-_+sem-atsrc-675-_+syn-rpr-677-_|PDTB=Explicit:Expansion.Conjunction:and:674:667-673:675-682;Implicit:Temporal.Asynchronous.Precedence:then:_:667-673:674-682
 9	ask	ask	VERB	VB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	conj	1:conj:and	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=9:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis
 10	people	person	NOUN	NNS	Number=Plur	9	iobj	9:iobj	Entity=(95-person-new-nnnnn-cf1-1-coref)
 11	if	if	SCONJ	IN	_	13	mark	13:mark	Discourse=joint-sequence_m:113->111:0:dm-and-674-gold
@@ -1014,7 +1016,7 @@
 12-13	You're	_	_	_	_	_	_	_	_
 12	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Entity=(96-person-giv:act-nnnnn-cf1*-1-ana)
 13	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
-14	probably	probably	ADV	RB	Degree=Pos	15	advmod	15:advmod	MSeg=probab-ly
+14	probably	probably	ADV	RB	Degree=Pos	15	advmod	15:advmod	MSeg=probabl-y
 15	wondering	wonder	VERB	VBG	Tense=Pres|VerbForm=Part	9	ccomp	9:ccomp	MSeg=wonder-ing
 16	why	why	ADV	WRB	PronType=Int	19	advmod	19:advmod	CxnElt=19:Interrogative-WHInfo-Indirect.WHWord|Discourse=joint-list_m:118->22:6:_
 17-18	I've	_	_	_	_	_	_	_	_

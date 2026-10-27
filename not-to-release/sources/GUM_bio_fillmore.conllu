@@ -1,12 +1,14 @@
 # newdoc id = GUM_bio_fillmore
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = Wikipedia
+# meta::context = public
 # meta::dateCollected = 2019-09-09
 # meta::dateCreated = 2005-06-10
 # meta::dateModified = 2018-10-13
+# meta::formality = formal
 # meta::genre = bio
 # meta::modality = written
-# meta::production = formal/prepared/public
+# meta::preparation = prepared
 # meta::salientEntities = 1 (5*), 96 (5*), 6 (4*), 26 (4), 7 (3*), 9 (3*), 27 (3), 71 (3*), 133 (3), 134 (3*), 206 (3*), 33 (2), 34 (2), 35 (2), 36 (2), 79 (2), 5 (1), 8 (1*), 53 (1*), 73 (1), 176 (1), 207 (1)
 # meta::sourceURL = https://en.wikipedia.org/wiki/Charles_J._Fillmore
 # meta::speakerCount = 0
@@ -38,12 +40,12 @@
 2	J.	J.	PROPN	NNP	Abbr=Yes|Number=Sing	1	flat	1:flat	_
 3	Fillmore	Fillmore	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=1)
 4	(	(	PUNCT	-LRB-	_	6	punct	6:punct	Discourse=context-circumstance:3->2:0:lex-indph-8-11-_+lex-indph-13-16-_|SpaceAfter=No
-5	August	August	PROPN	NNP	Number=Sing	6	compound	6:compound	Entity=(2-time-new-nnnnn-cf6-2-sgl|XML=<date when:::"1929-08-09">
+5	August	August	PROPN	NNP	Number=Sing	6	nmod:unmarked	6:nmod:unmarked	Entity=(2-time-new-nnnnn-cf6-2-sgl|XML=<date when:::"1929-08-09">
 6	9	9	NUM	CD	NumForm=Digit|NumType=Card	1	nmod:unmarked	1:nmod:unmarked	SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	8:punct	_
 8	1929	1929	NUM	CD	NumForm=Digit|NumType=Card	6	nmod:unmarked	6:nmod:unmarked	Entity=(3-time-new-nnnnn-cf7-1-sgl)2)|XML=</date>
 9	–	-	SYM	SYM	ExtPos=ADP	11	case	11:case	_
-10	February	February	PROPN	NNP	Number=Sing	11	compound	11:compound	Entity=(4-time-new-nnnnn-cf8-2-sgl|XML=<date when:::"2014-02-13">
+10	February	February	PROPN	NNP	Number=Sing	11	nmod:unmarked	11:nmod:unmarked	Entity=(4-time-new-nnnnn-cf8-2-sgl|XML=<date when:::"2014-02-13">
 11	13	13	NUM	CD	NumForm=Digit|NumType=Card	6	nmod	6:nmod:to	SpaceAfter=No
 12	,	,	PUNCT	,	_	13	punct	13:punct	_
 13	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	11	nmod:unmarked	11:nmod:unmarked	Entity=(5-time-new-nnnsn-cf9-1-coref)4)|SpaceAfter=No|XML=</date>
@@ -288,7 +290,7 @@
 14	while	while	SCONJ	IN	_	16	mark	16:mark	Discourse=joint-list_m:23->22:0:dm-while-193-gold+dm-also-194-gold|PDTB=Explicit:Expansion.Conjunction:while:193:184-192:194-200
 15	also	also	ADV	RB	_	16	advmod	16:advmod	PDTB=Explicit:Expansion.Conjunction:also:194:184-192:193,195-200
 16	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part	6	advcl	6:advcl:while	MSeg=tak-ing
-17	classes	class	NOUN	NNS	Number=Plur	16	obj	16:obj	Entity=(50-abstract-new-nnnnn-cf4-1-sgl)|MSeg=classe-s
+17	classes	class	NOUN	NNS	Number=Plur	16	obj	16:obj	Entity=(50-abstract-new-nnnnn-cf4-1-sgl)|MSeg=class-es
 18	at	at	ADP	IN	_	20	case	20:case	_
 19	Kyoto	Kyoto	PROPN	NNP	Number=Sing	20	compound	20:compound	Entity=(51-organization-new-nnnnn-cf5-1,2-sgl-Kyoto_University(52-place-new-nnnnn-cf8-1-sgl-Kyoto)
 20	University	University	PROPN	NNP	Number=Sing	16	obl	16:obl:at	Entity=51)|MSeg=Univers-ity|SpaceAfter=No
@@ -338,7 +340,7 @@
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	9:nsubj	Entity=(1-person-giv:act-sssss-cf1*-1-ana-Charles_J._Fillmore)
 6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	9:cop	_
-7	still	still	ADV	RB	Degree=Pos	9	advmod	9:advmod	_
+7	still	still	ADV	RB	_	9	advmod	9:advmod	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(1-person-giv:act-sssss-cf1*-2-pred-Charles_J._Fillmore
 9	proponent	proponent	NOUN	NN	Number=Sing	0	root	0:root	MSeg=propon-ent
 10	of	of	ADP	IN	_	14	case	14:case	_
@@ -672,7 +674,7 @@
 14	different	different	ADJ	JJ	Degree=Pos	15	amod	15:amod	Entity=(106-abstract-new-nnnnn-cf6-2-sgl|MSeg=differ-ent
 15	ways	way	NOUN	NNS	Number=Plur	12	nmod	12:nmod:of	Entity=106)105)|MSeg=way-s|SpaceAfter=No
 16	,	,	PUNCT	,	_	18	punct	18:punct	_
-17	e.g.	e.g.	ADV	FW	Abbr=Yes	18	advmod	18:advmod	Discourse=mode-means:53->52:0:lex-indwd-491-_+syn-pres-491-_
+17	e.g.	e.g.	ADV	FW	Abbr=Yes	18	advmod	18:advmod	Discourse=mode-means:53->52:0:syn-pres-491-_+lex-indwd-491-_
 18	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	9	advcl	9:advcl	MSeg=us-ing
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(107-abstract-new-nnnnn-cf2-2-sgl
 20	verb	verb	NOUN	NN	Number=Sing	18	obj	18:obj	_
@@ -1174,7 +1176,7 @@
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5	Fillmore	Fillmore	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Entity=(1-person-giv:inact-sssss-cf1-1-coref-Charles_J._Fillmore)
 6	taught	teach	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-7	classes	class	NOUN	NNS	Number=Plur	6	obj	6:obj	Entity=(185-abstract-new-nnnnn-cf4-1-sgl|MSeg=classe-s
+7	classes	class	NOUN	NNS	Number=Plur	6	obj	6:obj	Entity=(185-abstract-new-nnnnn-cf4-1-sgl|MSeg=class-es
 8	in	in	ADP	IN	_	10	case	10:case	_
 9	computational	computational	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(186-abstract-new-nnnnn-cf8-2-sgl|MSeg=comput-ation-al
 10	lexicography	lexicography	NOUN	NN	Number=Sing	7	nmod	7:nmod:in	Entity=186)185)|MSeg=lexico-graphy
@@ -1196,7 +1198,7 @@
 26	frame	frame	NOUN	NN	Number=Sing	28	compound	28:compound	Entity=(190-abstract-new-nnnnn-cf5-4-sgl|SpaceAfter=No|XML=<w>
 27	-	-	PUNCT	HYPH	_	26	punct	26:punct	SpaceAfter=No
 28	semantic	semantic	ADJ	JJ	Degree=Pos	29	amod	29:amod	XML=</w>
-29	analyses	analysis	NOUN	NNS	Number=Plur	25	obj	25:obj	Entity=190)|MSeg=analyse-s
+29	analyses	analysis	NOUN	NNS	Number=Plur	25	obj	25:obj	Entity=190)|MSeg=analys-es
 30	from	from	ADP	IN	_	33	case	33:case	_
 31	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	33:det	Entity=(191-abstract-new-nnnnn-cf9-3-sgl
 32	lexicographic	lexicographic	ADJ	JJ	Degree=Pos	33	amod	33:amod	MSeg=lexicograph-ic
