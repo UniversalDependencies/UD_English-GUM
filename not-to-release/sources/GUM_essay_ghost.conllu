@@ -44,7 +44,7 @@
 16	Today	today	NOUN	NN	Number=Sing	20	nmod:poss	20:nmod:poss	Entity=(3-abstract-new-nsnsn-cf4-5-coref(4-time-acc:com-nssss-cf2-1-coref|MSeg=To-day|XML=<date when:::"2018-11-16"></date>
 17	’s	's	PART	POS	_	16	case	16:case	Entity=4)
 18	Technologically	technologically	ADV	RB	Degree=Pos	19	advmod	19:advmod	MSeg=Techno-log-ic-al-ly
-19	Complex	complex	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
+19	Complex	complex	ADJ	JJ	Degree=Pos	20	amod	20:amod	MSeg=Compl-ex
 20	Society	society	NOUN	NN	Number=Sing	12	obl	12:obl:in	Entity=3)|MSeg=Soci-et-y
 21	(	(	PUNCT	-LRB-	_	22	punct	22:punct	Discourse=attribution-positive:2->1:0:sem-atsrc-22-_|SpaceAfter=No
 22	Maynard	Maynard	PROPN	NNP	Number=Sing	12	parataxis	12:parataxis	Entity=(5-person-new-snnnn-cf3-1-coref-Andrew_D._Maynard)|SpaceAfter=No
@@ -254,10 +254,10 @@
 16	new	new	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
 17	book	book	NOUN	NN	Number=Sing	13	obl	13:obl:in|19:nsubj	_
 18	that	that	PRON	WDT	PronType=Rel	19	nsubj	17:ref	Discourse=elaboration-attribute:15->14:0:syn-mdf-172-_+syn-relcl-173-174-_
-19	grapples	grapple	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	17:acl:relcl	_
+19	grapples	grapple	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	17:acl:relcl	MSeg=grapple-s
 20	with	with	ADP	IN	_	23	case	23:case	_
 21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(37-abstract-new-nnnnn-cf3-3-sgl
-22	complex	complex	ADJ	JJ	Degree=Pos	23	amod	23:amod	_
+22	complex	complex	ADJ	JJ	Degree=Pos	23	amod	23:amod	MSeg=compl-ex
 23	intersection	intersection	NOUN	NN	Number=Sing	19	obl	19:obl:with	MSeg=intersect-ion
 24	between	between	ADP	IN	_	26	case	26:case	MSeg=be-tween
 25	emerging	emerge	VERB	VBG	VerbForm=Ger	26	amod	26:amod	Entity=(38-abstract-new-nnsns-cf5-2-sgl|MSeg=emerg-ing
@@ -410,7 +410,7 @@
 15	down	down	ADP	RP	_	14	compound:prt	14:compound:prt	_
 16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	Entity=(58-abstract-new-snnnn-cf2-3,8-coref
 17	talented	talented	ADJ	JJ	Degree=Pos	18	amod	18:amod	MSeg=talent-ed
-18	hacker	hacker	NOUN	NN	Number=Sing	14	obj	14:obj|29:nsubj	_
+18	hacker	hacker	NOUN	NN	Number=Sing	14	obj	14:obj|29:nsubj	MSeg=hack-er
 19	—	—	PUNCT	:	_	24	punct	24:punct	Discourse=elaboration-additional:26->25:0:_
 20	aka	a.k.a.	ADV	RB	Degree=Pos	24	advmod	24:advmod	_
 21	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(58-abstract-giv:act-snnnn-cf2-3,4-appos
@@ -440,11 +440,11 @@
 43	”	"	PUNCT	''	_	42	punct	42:punct	SpaceAfter=No|XML=</q>
 44	,	,	PUNCT	,	_	45	punct	45:punct	_
 45	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	29	advcl	29:advcl	Discourse=mode-means:28->27:0:lex-indwd-321-_+syn-pres-321-_|MSeg=us-ing|PDTB=Implicit:Expansion.Manner.Arg2-as-manner:by:_:303-320:321-327
-46	implanted	implant	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	50	amod	50:amod	Entity=(61-abstract-new-snsns-cf7-5-sgl|MSeg=implant-ed
+46	implanted	implant	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	50	amod	50:amod	Entity=(61-abstract-new-snsns-cf7-5-sgl|MSeg=im-plant-ed
 47	brain	brain	NOUN	NN	Number=Sing	49	compound	49:compound	Bridge=60<62:entity-meronomy|Entity=(62-object-acc:inf-snsss-cf5-1-coref)|SpaceAfter=No|XML=<w>
 48	-	-	PUNCT	HYPH	_	47	punct	47:punct	SpaceAfter=No
 49	machine	machine	NOUN	NN	Number=Sing	50	compound	50:compound	Entity=(63-object-new-nssns-cf8-1-coref)|XML=</w>
-50	interfaces	interface	NOUN	NNS	Number=Plur	45	obj	45:obj	Entity=61)58)|MSeg=interface-s|SpaceAfter=No
+50	interfaces	interface	NOUN	NNS	Number=Plur	45	obj	45:obj	Entity=61)58)|MSeg=inter-face-s|SpaceAfter=No
 51	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # newpar
@@ -484,7 +484,7 @@
 6	and	and	CCONJ	CC	_	7	cc	7:cc	_
 7	others	other	NOUN	NNS	Number=Plur	5	conj	4:obj|5:conj:and	Bridge=14<67:comparison-relative;comparison-sense|Entity=(67-person-acc:inf-nnnnn-cf3-1-sgl)66)|MSeg=other-s
 8	with	with	ADP	IN	_	10	case	10:case	_
-9	super-human	superhuman	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(68-abstract-new-nnnnn-cf5-2-sgl
+9	super-human	superhuman	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(68-abstract-new-nnnnn-cf5-2-sgl|MSeg=super-human
 10	abilities	ability	NOUN	NNS	Number=Plur	4	obl	4:obl:with	Entity=68)|MSeg=abilitie-s|SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -506,7 +506,7 @@
 11	who	who	PRON	WP	Case=Nom|PronType=Rel	14	nsubj	10:ref	Discourse=elaboration-attribute:35->34:0:syn-mdf-364-_+syn-relcl-365,368-_
 12	can	can	AUX	MD	VerbForm=Fin	14	aux	14:aux	_
 13	effectively	effectively	ADV	RB	Degree=Pos	14	advmod	14:advmod	MSeg=effect-ive-ly
-14	re-code	recode	VERB	VB	Typo=Yes|VerbForm=Inf	10	acl:relcl	10:acl:relcl	CorrectForm=recode|Entity=(70-abstract-new-nnnnn-cf5-1-disc|XML=<sic ana:::"recode"></sic>
+14	re-code	recode	VERB	VB	Typo=Yes|VerbForm=Inf	10	acl:relcl	10:acl:relcl	CorrectForm=recode|Entity=(70-abstract-new-nnnnn-cf5-1-disc|MSeg=re-code|XML=<sic ana:::"recode"></sic>
 15	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(71-abstract-new-snnnn-cf3-2-sgl(66-person-giv:act-snnnn-cf2-1-ana)
 16	memories	memory	NOUN	NNS	Number=Plur	14	obj	14:obj	Entity=71)70)69)|MSeg=memorie-s|SpaceAfter=No
 17	.	.	PUNCT	.	_	4	punct	4:punct	_
@@ -566,7 +566,7 @@
 28	leash	leash	NOUN	NN	Number=Sing	26	obj	26:obj	_
 29	of	of	ADP	IN	_	31	case	31:case	_
 30	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	31:nmod:poss	Entity=(77-person-new-nnnnn-cf5-2-sgl(58-abstract-giv:act-snnnn-cf1*-1-ana)|MSeg=it-s
-31	handlers	handler	NOUN	NNS	Number=Plur	28	nmod	28:nmod:of	Entity=77)58)|MSeg=handler-s|SpaceAfter=No
+31	handlers	handler	NOUN	NNS	Number=Plur	28	nmod	28:nmod:of	Entity=77)58)|MSeg=hand-l-er-s|SpaceAfter=No
 32	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # newpar
@@ -695,7 +695,7 @@
 2	Emily	Emily	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	Entity=(89-person-new-nnnnn-cf1-1,2-coref
 3	Yoshida	Yoshida	PROPN	NNP	Number=Sing	2	flat	2:flat	Entity=89)
 4	so	so	ADV	RB	_	5	advmod	5:advmod	_
-5	aptly	aptly	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
+5	aptly	aptly	ADV	RB	Degree=Pos	6	advmod	6:advmod	MSeg=apt-ly
 6	put	put	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	advcl	25:advcl:as	_
 7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	6:obj	Entity=(90-abstract-new-nnnnn-cf4-1-cata)
 8	in	in	ADP	IN	_	12	case	12:case	_
@@ -746,7 +746,7 @@
 9	own	own	ADJ	JJ	Degree=Pos	6	obl	6:obl:into	_
 10	as	as	SCONJ	IN	_	12	mark	12:mark	Discourse=context-circumstance:55->54:0:dm-as-546-gold|PDTB=Explicit:Temporal.Synchronous:as:546:537-545:547-583
 11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj|23:nsubj	Entity=(1-abstract-giv:act-sssss-cf2-1-ana-Ghost_in_the_Shell_%281995_film%29)
-12	jolts	jolt	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	6:advcl:as	_
+12	jolts	jolt	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	6:advcl:as	MSeg=jolt-s
 13	viewers	viewer	NOUN	NNS	Number=Plur	12	obj	12:obj	Bridge=1<97:entity-associative|Entity=(97-person-acc:inf-nnnnn-cf3-1-coref)|MSeg=view-er-s
 14	out	out	ADP	IN	ExtPos=ADP	17	case	17:case	_
 15	of	of	ADP	IN	_	14	fixed	14:fixed	_
@@ -780,7 +780,7 @@
 43	computer	computer	NOUN	NN	Number=Sing	45	compound	45:compound	Entity=(104-abstract-new-nnnsn-cf12-4-sgl(105-object-new-nnnsn-cf13-1-sgl)|MSeg=comput-er|SpaceAfter=No|XML=<w>
 44	-	-	PUNCT	HYPH	_	43	punct	43:punct	SpaceAfter=No
 45	brain	brain	NOUN	NN	Number=Sing	46	compound	46:compound	Entity=(62-object-giv:inact-snsss-cf5-1-coref)|XML=</w>
-46	interfaces	interface	NOUN	NNS	Number=Plur	37	conj	35:nmod:like|37:conj:and	Entity=104)102)101)100)|MSeg=interface-s|SpaceAfter=No
+46	interfaces	interface	NOUN	NNS	Number=Plur	37	conj	35:nmod:like|37:conj:and	Entity=104)102)101)100)|MSeg=inter-face-s|SpaceAfter=No
 47	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # newpar
@@ -822,7 +822,7 @@
 16	brain	brain	NOUN	NN	Number=Sing	18	compound	18:compound	Entity=(62-object-giv:act-snsss-cf2*-1-coref)|SpaceAfter=No|XML=<w>
 17	-	-	PUNCT	HYPH	_	16	punct	16:punct	SpaceAfter=No
 18	machine	machine	NOUN	NN	Number=Sing	19	compound	19:compound	Entity=(63-object-giv:act-nssns-cf3-1-coref)|XML=</w>
-19	interfaces	interface	NOUN	NNS	Number=Plur	10	obj	10:obj	Entity=110)|MSeg=interface-s|SpaceAfter=No
+19	interfaces	interface	NOUN	NNS	Number=Plur	10	obj	10:obj	Entity=110)|MSeg=inter-face-s|SpaceAfter=No
 20	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GUM_essay_ghost-27
@@ -972,7 +972,7 @@
 16	brain	brain	NOUN	NN	Number=Sing	11	obj	11:obj|13:obj	Entity=62)128)|SpaceAfter=No
 17	,	,	PUNCT	,	_	19	punct	19:punct	_
 18	and	and	CCONJ	CC	_	19	cc	19:cc	Discourse=same-unit_m:74->72:1:_
-19	breakthroughs	breakthrough	NOUN	NNS	Number=Plur	7	conj	4:obl:with|7:conj:and|26:nsubj	Entity=(129-event-new-nnnnn-cf8-1-coref|MSeg=breakthrough-s
+19	breakthroughs	breakthrough	NOUN	NNS	Number=Plur	7	conj	4:obl:with|7:conj:and|26:nsubj	Entity=(129-event-new-nnnnn-cf8-1-coref|MSeg=break-through-s
 20	in	in	ADP	IN	_	21	case	21:case	_
 21	optogenetics	optogenetics	NOUN	NN	Number=Sing	19	nmod	19:nmod:in	Entity=(130-abstract-new-nnnnn-cf9-1-sgl)|MSeg=opto-gen-etic-s
 22	that	that	PRON	WDT	PronType=Rel	26	nsubj	19:ref	Discourse=elaboration-attribute:75->74:0:syn-mdf-727-_+syn-relcl-730,734-_
@@ -1132,7 +1132,7 @@
 8	remarkably	remarkably	ADV	RB	Degree=Pos	9	advmod	9:advmod	MSeg=remark-abl-y
 9	helpful	helpful	ADJ	JJ	Degree=Pos	3	advcl:relcl	3:advcl:relcl	MSeg=help-ful
 10	in	in	SCONJ	IN	_	11	mark	11:mark	Discourse=mode-manner:85->84:0:dm-in-853-gold+syn-pres-854-_|PDTB=Explicit:Expansion.Manner.Arg2-as-manner:in:853:844-852:854-862
-11	illuminating	illuminate	VERB	VBG	Tense=Pres|VerbForm=Part	9	advcl	9:advcl:in	MSeg=illuminat-ing
+11	illuminating	illuminate	VERB	VBG	Tense=Pres|VerbForm=Part	9	advcl	9:advcl:in	MSeg=il-lumin-at-ing
 12	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(153-abstract-new-nnnnn-cf7-4-sgl
 13	risk	risk	NOUN	NN	Number=Sing	15	compound	15:compound	SpaceAfter=No|XML=<w>
 14	-	-	PUNCT	HYPH	_	13	punct	13:punct	SpaceAfter=No
@@ -1179,13 +1179,13 @@
 5	go	go	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 6	far	far	ADV	RB	Degree=Pos	8	advmod	8:advmod	_
 7	beyond	beyond	SCONJ	IN	_	8	mark	8:mark	_
-8	unpacking	unpack	VERB	VBG	Tense=Pres|VerbForm=Part	5	advcl	5:advcl:beyond	MSeg=unpack-ing
+8	unpacking	unpack	VERB	VBG	Tense=Pres|VerbForm=Part	5	advcl	5:advcl:beyond	MSeg=un-pack-ing
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(159-abstract-new-nnnnn-cf5-2-sgl
 10	problems	problem	NOUN	NNS	Number=Plur	8	obj	8:obj	MSeg=problem-s
 11	of	of	ADP	IN	_	14	case	14:case	_
 12	hackable	hackable	ADJ	JJ	Degree=Pos	14	amod	14:amod	Entity=(140-object-giv:inact-nnnnn-cf2-3-coref|MSeg=hack-able
 13	brain	brain	NOUN	NN	Number=Sing	14	compound	14:compound	Entity=(62-object-giv:inact-snsss-cf3-1-coref)
-14	implants	implant	NOUN	NNS	Number=Plur	10	nmod	10:nmod:of	Entity=140)159)|MSeg=implant-s|SpaceAfter=No
+14	implants	implant	NOUN	NNS	Number=Plur	10	nmod	10:nmod:of	Entity=140)159)|MSeg=im-plant-s|SpaceAfter=No
 15	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # newpar
@@ -1234,7 +1234,7 @@
 1	Do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	Discourse=elaboration-additional:91->90:0:ref-prs-911-912,923-_|Entity=(163-abstract-new-nnnnn-cf4-5-coref|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:specifically:_:908-921:922-935
 2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(164-abstract-new-nnnnn-cf3-3-sgl(14-person-giv:act-snnnn-cf1*-1-ana-Motoko_Kusanagi)
 3	cybernetic	cybernetic	ADJ	JJ	Degree=Pos	4	amod	4:amod	MSeg=cyber-net-ic
-4	augmentations	augmentation	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=164)|MSeg=augmentation-s
+4	augmentations	augmentation	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=164)|MSeg=augment-ation-s
 5	make	make	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar-Direct,Resultative|CxnElt=5:Interrogative-Polar-Direct.Clause,5:Resultative.Predicate
 6	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	5:obj|8:nsubj:xsubj|11:nsubj:xsubj	Entity=(14-person-giv:act-snnnn-cf1*-1-ana-Motoko_Kusanagi)
 7	less	less	ADV	RBR	Degree=Cmp	8	advmod	8:advmod	_
@@ -1289,7 +1289,7 @@
 11	or	or	CCONJ	CC	_	12	cc	12:cc	Discourse=joint-disjunction_m:97->96:0:dm-or-965-gold|PDTB=Explicit:Expansion.Disjunction:or:965:961-964:966-969
 12	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	6:advcl:when|9:conj:or	MSeg=need-s
 13	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Bridge=169<172:entity-associative|Entity=(172-abstract-acc:inf-nnnnn-cf2-2-sgl
-14	upgrade	upgrade	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=172)|SpaceAfter=No
+14	upgrade	upgrade	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=172)|MSeg=up-grade|SpaceAfter=No
 15	?	?	PUNCT	.	_	6	punct	6:punct	Entity=170)
 
 # newpar
@@ -1340,7 +1340,7 @@
 16	become	become	VERB	VB	VerbForm=Inf	14	xcomp	14:xcomp	MSeg=be-come
 17	harder	hard	ADJ	JJR	Degree=Cmp	16	xcomp	16:xcomp	MSeg=hard-er
 18	to	to	PART	TO	_	19	mark	19:mark	_
-19	navigate	navigate	VERB	VB	VerbForm=Inf	17	xcomp	17:xcomp	SpaceAfter=No
+19	navigate	navigate	VERB	VB	VerbForm=Inf	17	xcomp	17:xcomp	MSeg=navig-ate|SpaceAfter=No
 20	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # newpar
@@ -1394,7 +1394,7 @@
 9	promise	promise	NOUN	NN	Number=Sing	7	obj	7:obj	_
 10	of	of	ADP	IN	_	12	case	12:case	_
 11	technological	technological	ADJ	JJ	Degree=Pos	12	amod	12:amod	Entity=(184-abstract-new-nnnnn-cf5-2-sgl|MSeg=techno-log-ic-al
-12	enhancements	enhancement	NOUN	NNS	Number=Plur	9	nmod	9:nmod:of	Entity=184)|MSeg=enhancement-s
+12	enhancements	enhancement	NOUN	NNS	Number=Plur	9	nmod	9:nmod:of	Entity=184)|MSeg=en-hance-ment-s
 13	to	to	PART	TO	_	14	mark	14:mark	Discourse=purpose-attribute:107->106:0:syn-mdf-1042-_+syn-inf-1046-_
 14	overcome	overcome	VERB	VB	VerbForm=Inf	9	acl	9:acl:to	MSeg=over-come
 15	human	human	ADJ	JJ	Degree=Pos	16	amod	16:amod	Entity=(185-abstract-new-nnnnn-cf4-2-sgl
@@ -1493,7 +1493,7 @@
 16	access	access	NOUN	NN	Number=Sing	15	obj	15:obj	Entity=(198-abstract-new-nnnnn-cf3-1-sgl
 17	to	to	ADP	IN	_	20	case	20:case	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(199-object-new-nnnnn-cf4-3-sgl
-19	implanted	implant	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	amod	20:amod	MSeg=implant-ed
+19	implanted	implant	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	amod	20:amod	MSeg=im-plant-ed
 20	defibrillator	defibrillator	NOUN	NN	Number=Sing	16	nmod	16:nmod:to|22:nsubj	MSeg=de-fibrillat-or
 21	that	that	PRON	WDT	PronType=Rel	22	nsubj	20:ref	Discourse=elaboration-attribute:117->116:0:syn-mdf-1124-_+syn-relcl-1125-1126-_
 22	kept	keep	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	acl:relcl	20:acl:relcl	_
@@ -1551,7 +1551,7 @@
 15	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=same-unit_m:122->120:1:_
 16	how	how	ADV	WRB	PronType=Rel	13	conj	9:obl:about|13:conj:and	_
 17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	18:nsubj	Entity=(204-object-giv:act-nnnnn-cf2-1-ana)
-18	defines	define	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl:relcl	16:advcl:relcl	_
+18	defines	define	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl:relcl	16:advcl:relcl	MSeg=de-fine-s
 19	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	18:obj	Entity=(14-person-giv:act-snnnn-cf3-1-ana-Motoko_Kusanagi)203)|SpaceAfter=No
 20	,	,	PUNCT	,	_	6	punct	6:punct	_
 21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	23:cop	_
@@ -1580,7 +1580,7 @@
 8	of	of	ADP	IN	_	11	case	11:case	_
 9	this	this	DET	DT	Number=Sing|PronType=Dem	11	det	11:det	Entity=(203-abstract-giv:act-nnnnn-cf1*-3-coref
 10	particular	particular	ADJ	JJ	Degree=Pos	11	amod	11:amod	MSeg=part-ic-ul-ar
-11	iceberg	iceberg	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	Entity=203)206)205)|SpaceAfter=No
+11	iceberg	iceberg	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	Entity=203)206)205)|MSeg=ice-berg|SpaceAfter=No
 12	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # newpar
@@ -1607,7 +1607,7 @@
 15	challenges	challenge	NOUN	NNS	Number=Plur	14	obj	14:obj|18:nsubj	Entity=(207-abstract-new-nnnnn-cf5-1-sgl|MSeg=challenge-s
 16	that	that	PRON	WDT	PronType=Rel	18	nsubj	15:ref	Discourse=elaboration-attribute:126->125:0:syn-mdf-1203-_+syn-relcl-1204,1206-_
 17	often	often	ADV	RB	Degree=Pos	18	advmod	18:advmod	MSeg=oft-en
-18	transcend	transcend	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	15:acl:relcl	_
+18	transcend	transcend	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	15:acl:relcl	MSeg=tran-scend
 19	conventional	conventional	ADJ	JJ	Degree=Pos	20	amod	20:amod	Entity=(202-abstract-giv:inact-nnnnn-cf4-2-coref|MSeg=conven-tion-al
 20	thinking	thinking	NOUN	NN	Number=Sing	18	obj	18:obj	Entity=202)207)|MSeg=think-ing|SpaceAfter=No
 21	,	,	PUNCT	,	_	23	punct	23:punct	_
@@ -1619,7 +1619,7 @@
 27	borders	border	NOUN	NNS	Number=Plur	23	obl	23:obl:at	MSeg=border-s
 28	of	of	ADP	IN	_	33	case	33:case	_
 29	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	33	nmod:poss	33:nmod:poss	Entity=(209-abstract-new-nnnnn-cf7-5-sgl(29-person-giv:act-nnnnn-cf2-1-ana)
-30	moral	moral	ADJ	JJ	Degree=Pos	33	amod	33:amod	_
+30	moral	moral	ADJ	JJ	Degree=Pos	33	amod	33:amod	MSeg=mor-al
 31	and	and	CCONJ	CC	_	32	cc	32:cc	_
 32	ethical	ethical	ADJ	JJ	Degree=Pos	30	conj	30:conj:and|33:amod	MSeg=ethic-al
 33	understanding	understanding	NOUN	NN	Number=Sing	27	nmod	27:nmod:of	Entity=209)208)1)|MSeg=under-stand-ing|SpaceAfter=No
@@ -1736,7 +1736,7 @@
 36	insights	insight	NOUN	NNS	Number=Plur	34	obj	34:obj	Entity=(222-abstract-new-nnnnn-cf7-1-sgl|MSeg=in-sigh-t-s
 37	into	into	ADP	IN	_	42	case	42:case	MSeg=in-to
 38	the	the	DET	DT	Definite=Def|PronType=Art	42	det	42:det	Entity=(223-abstract-new-nnsnn-cf8-5,7-sgl
-39	moral	moral	ADJ	JJ	Degree=Pos	42	amod	42:amod	_
+39	moral	moral	ADJ	JJ	Degree=Pos	42	amod	42:amod	MSeg=mor-al
 40	and	and	CCONJ	CC	_	41	cc	41:cc	_
 41	ethical	ethical	ADJ	JJ	Degree=Pos	39	conj	39:conj:and|42:amod	MSeg=ethic-al
 42	challenges	challenge	NOUN	NNS	Number=Plur	36	nmod	36:nmod:into|49:obj	MSeg=challenge-s
